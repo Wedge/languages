@@ -107,8 +107,9 @@ $txt['who_poll'] = 'Posting a new poll in <a href="' . $scripturl . '?board=%1$d
 
 // Credits text
 $txt['credits'] = 'Credits';
-$txt['credits_intro'] = 'Simple Machines wants to thank everyone who helped make SMF 2.0 what it is today; shaping and directing our project, all through the thick and the thin. It wouldn\'t have been possible without you. This includes our users and especially Charter Members - thanks for installing and using our software as well as providing valuable feedback, bug reports, and opinions.';
+$txt['credits_intro'] = 'This is a fork of the Simple Machines Forum software. Redistribution is not allowed until SMF\'s license accomodates for it. If this rule isn\'t followed, the project will no longer be allowed. Thank you in advance for your understanding.';
 $txt['credits_team'] = 'The Team';
+$txt['credits_smf_team'] = 'Original SMF Team';
 $txt['credits_special'] = 'Special Thanks';
 $txt['credits_and'] = 'and';
 $txt['credits_anyone'] = 'And for anyone we may have missed, thank you!';
