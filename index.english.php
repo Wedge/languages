@@ -723,6 +723,7 @@ $txt['openid'] = 'OpenID';
 $txt['downloads'] = 'Downloads';
 $txt['filesize'] = 'Filesize';
 $txt['subscribe_webslice'] = 'Subscribe to Webslice';
+$txt['footnote'] = 'Footnote';
 
 // Restore topic
 $txt['restore_topic'] = 'Restore Topic';
