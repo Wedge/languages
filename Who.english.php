@@ -18,6 +18,7 @@ $txt['who_show_all'] = 'Everyone';
 $txt['who_no_online_spiders'] = 'There are currently no spiders online.';
 $txt['who_no_online_guests'] = 'There are currently no guests online.';
 $txt['who_no_online_members'] = 'There are currently no members online.';
+$txt['who_guest_login'] = 'User has been taken to the login page.';
 
 $txt['whospider_login'] = 'Viewing the login page.';
 $txt['whospider_register'] = 'Viewing the registration page.';
@@ -87,6 +88,7 @@ $txt['whoallow_mailing'] = 'Sending a forum email.';
 $txt['whoallow_maintain'] = 'Performing routine forum maintenance.';
 $txt['whoallow_manageattachments'] = 'Managing the attachments.';
 $txt['whoallow_mlist'] = 'Viewing the <a href="' . $scripturl . '?action=mlist">memberlist</a>.';
+$txt['whoallow_moderate'] = 'Viewing the <a href="' . $scripturl . '?action=moderate">moderation center</a>.';
 $txt['whoallow_optimizetables'] = 'Optimizing the database tables.';
 $txt['whoallow_repairboards'] = 'Repairing the database tables.';
 $txt['whoallow_search'] = '<a href="' . $scripturl . '?action=search">Searching</a> the forum.';
