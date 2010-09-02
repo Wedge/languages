@@ -33,6 +33,7 @@ $txt['trackStats'] = 'Track daily statistics';
 $txt['hitStats'] = 'Track daily page views (must have stats enabled)';
 $txt['enableCompressedOutput'] = 'Enable compressed output';
 $txt['disableTemplateEval'] = 'Disable evaluation of templates';
+$txt['db_show_debug'] = 'Show debug information';
 $txt['databaseSession_enable'] = 'Use database driven sessions';
 $txt['databaseSession_loose'] = 'Allow browsers to go back to cached pages';
 $txt['databaseSession_lifetime'] = 'Seconds before an unused session timeout';
