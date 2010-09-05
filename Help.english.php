@@ -278,10 +278,9 @@ $helptxt['enableCompressedOutput'] = 'This option will compress output to lower 
 		zlib to be installed.';
 $helptxt['disableTemplateEval'] = 'By default, templates are evaluated instead of just included. This helps with showing more useful debug information in case a template contains an error.<br /><br />
 		On large forums however, this customised inclusion process may be significantly slower. Therefore, advanced users may wish to disable it.';
-$helptxt['db_show_debug'] = '<b>Show Debug Information</b><br /><br />
-		Enables query debugging features. This is very useful for debugging purposes, and the debug query information is shown at the bottom of each
+$helptxt['db_show_debug'] = 'Enables query debugging features. This is very useful for debugging purposes, and the debug query information is shown at the bottom of each
 		page when this setting is enabled.<br /><br />
-		The following items are displayed to all users:
+		The following items are displayed:
 		<ul>
 			<li>Template files that were loaded
 			<li>Sub-templates that were executed (all the templates used to build the entire page)
@@ -291,6 +290,11 @@ $helptxt['db_show_debug'] = '<b>Show Debug Information</b><br /><br />
 			<li>Cache hits (what they were and how much time was spent with cache items)
 			<li>Queries used (including full details, this is restricted to admins only)
 		</ul>';
+$helptxt['db_show_debug_who'] = 'The debug information is very useful for debugging the state of the forum when there are problems, but often it is of
+		little or no relevance to non administrators. This option lists who the debug information will be visible to, when it is enabled.';
+$helptxt['db_show_debug_who_log'] = 'Part of the debug information is a list of every query made by the forum when running. For security reasons it is
+		not displayed directly as part of the main debug information, and this setting ensures it is only made visible when appropriate - there are times
+		when debugging, that queries need to be displayed to non administrative users too, and this allows it to happen.';
 $helptxt['databaseSession_enable'] = 'This option makes use of the database for session storage - it is best for load balanced servers, but helps with all timeout issues and can make the forum faster.';
 $helptxt['databaseSession_loose'] = 'Turning this on will decrease the bandwidth your forum uses, and make it so clicking back will not reload the page - the downside is that the (new) icons won\'t update, among other things. (unless you click to that page instead of going back to it.)';
 $helptxt['databaseSession_lifetime'] = 'This is the number of seconds for sessions to last after they haven\'t been accessed.  If a session is not accessed for too long, it is said to have &quot;timed out&quot;.  Anything higher than 2400 is recommended.';

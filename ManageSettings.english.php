@@ -34,6 +34,13 @@ $txt['hitStats'] = 'Track daily page views (must have stats enabled)';
 $txt['enableCompressedOutput'] = 'Enable compressed output';
 $txt['disableTemplateEval'] = 'Disable evaluation of templates';
 $txt['db_show_debug'] = 'Show debug information';
+$txt['db_show_debug_who'] = 'Show debug information to which users:';
+$txt['db_show_debug_who_log'] = 'Show debug query log to which users:';
+$txt['db_show_debug_admin'] = 'Administrators only';
+$txt['db_show_debug_admin_mod'] = 'Administrators and moderators';
+$txt['db_show_debug_regular'] = 'All logged-in users';
+$txt['db_show_debug_any'] = 'All users, including guests';
+
 $txt['databaseSession_enable'] = 'Use database driven sessions';
 $txt['databaseSession_loose'] = 'Allow browsers to go back to cached pages';
 $txt['databaseSession_lifetime'] = 'Seconds before an unused session timeout';
