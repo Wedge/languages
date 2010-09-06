@@ -735,6 +735,7 @@ $txt['prompt_text_email'] = 'Please enter the email address.';
 $txt['prompt_text_ftp'] = 'Please enter the ftp address.';
 $txt['prompt_text_url'] = 'Please enter the URL you wish to link to.';
 $txt['prompt_text_img'] = 'Enter image location';
+$txt['prompt_text_desc'] = 'Please enter what text the link should say.';
 
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['autosuggest_delete_item'] = 'Delete Item';
