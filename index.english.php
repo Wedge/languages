@@ -96,6 +96,7 @@ $txt['user_warn_mute'] = 'User is banned from posting';
 $txt['warn_watch'] = 'Watched';
 $txt['warn_moderate'] = 'Moderated';
 $txt['warn_mute'] = 'Muted';
+$txt['warn_ban'] = 'Banned';
 
 $txt['message_index'] = 'Message Index';
 $txt['news'] = 'News';
