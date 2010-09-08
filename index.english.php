@@ -277,6 +277,7 @@ $txt['total_topics'] = 'Total Topics';
 
 $txt['mins_logged_in'] = 'Minutes to stay logged in';
 
+$txt['switch_mode'] = 'Switch to full editor';
 $txt['preview'] = 'Preview';
 $txt['always_logged_in'] = 'Always stay logged in';
 
