@@ -31,6 +31,11 @@ $txt['instant_reply'] = 'Reply to this Personal Message here:';
 
 $txt['delete_selected_confirm'] = 'Are you sure you want to delete all selected personal messages?';
 
+$txt['pm_view'] = 'View';
+$txt['pm_display_mode_all'] = 'All at once';
+$txt['pm_display_mode_one'] = 'One at a time';
+$txt['pm_display_mode_linked'] = 'As a conversation';
+
 $txt['sent_to'] = 'Sent to';
 $txt['reply_to_all'] = 'Reply to All';
 $txt['delete_conversation'] = 'Delete Conversation';
