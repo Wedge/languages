@@ -584,7 +584,7 @@ $txt['valid_css'] = 'Valid CSS!';
 $txt['valid_html'] = 'Valid HTML 4.01!';
 $txt['valid_xhtml'] = 'Valid XHTML 1.0!';
 $txt['wap2'] = 'WAP2';
-$txt['rss'] = 'RSS';
+$txt['rss'] = 'RSS feed';
 $txt['xhtml'] = 'XHTML';
 $txt['html'] = 'HTML';
 
@@ -718,7 +718,7 @@ $txt['modlog_view'] = 'Moderation Log';
 $txt['calendar_menu'] = 'View Calendar';
 
 //!!! Send email strings - should move?
-$txt['send_email'] = 'Send Email';
+$txt['send_email'] = 'Send an email';
 $txt['send_email_disclosed'] = 'Note this will be visible to the recipient.';
 $txt['send_email_subject'] = 'Email Subject';
 
