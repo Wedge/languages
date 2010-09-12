@@ -99,7 +99,7 @@ $txt['warn_mute'] = 'Muted';
 $txt['warn_ban'] = 'Banned';
 
 // The dropdown user menu
-$txt['usermenu_profie'] = 'View user profile';
+$txt['usermenu_profile'] = 'View user profile';
 $txt['usermenu_website'] = 'Go to website';
 $txt['usermenu_showposts'] = 'Show user posts';
 $txt['usermenu_addbuddy'] = 'Add to Buddy List';
