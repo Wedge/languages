@@ -528,6 +528,8 @@ $helptxt['avatar_external'] = 'With this enabled, your members can type in a URL
 $helptxt['avatar_download_external'] = 'With this option enabled, the URL given by the user is accessed to download the avatar at that location. On success, the avatar will be treated as uploadable avatar.';
 $helptxt['avatar_upload'] = 'This option is much like &quot;Allow members to select an external avatar&quot;, except that you have better control over the avatars, a better time resizing them, and your members do not have to have somewhere to put avatars.<br /><br />However, the downside is that it can take a lot of space on your server.';
 $helptxt['avatar_download_png'] = 'PNGs are larger, but offer better quality compression.  If this is unchecked, JPEG will be used instead - which is often smaller, but also of lesser or blurry quality.';
+$helptxt['avatar_defaults'] = 'These options allow you to set some more general things on your forum, for example an avatar for users who do not currently have one, or deal with the avatars of banned users.';
+$helptxt['avatar_banned_hide'] = 'This will hide the avatar of banned users, as if they did not have one.<br /><br />It is left in place in the event of the banned user subsequently being unbanned.';
 
 $helptxt['disableHostnameLookup'] = 'This disables host name lookups, which on some servers are very slow.  Note that this will make banning less effective.';
 

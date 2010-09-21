@@ -401,6 +401,7 @@ $txt['avatar_gd_warning'] = 'The GD module is currently not installed. Some avat
 $txt['avatar_external'] = 'External avatars';
 $txt['avatar_upload'] = 'Uploadable avatars';
 $txt['avatar_server_stored'] = 'Server-stored avatars';
+$txt['avatar_defaults'] = 'Default avatars';
 $txt['avatar_server_stored_groups'] = 'Membergroups allowed to select a server stored avatar';
 $txt['avatar_upload_groups'] = 'Membergroups allowed to upload an avatar to the server';
 $txt['avatar_external_url_groups'] = 'Membergroups allowed to select an external URL';
@@ -417,6 +418,7 @@ $txt['avatar_reencode'] = 'Re-encode potentially dangerous avatars';
 $txt['avatar_reencode_note'] = '(requires GD module)';
 $txt['avatar_paranoid_warning'] = 'The extensive security checks can result in a large number of rejected avatars.';
 $txt['avatar_paranoid'] = 'Perform extensive security checks on uploaded avatars';
+$txt['avatar_banned_hide'] = 'Hide the avatar of banned users';
 
 $txt['repair_attachments'] = 'Maintain Attachments';
 $txt['repair_attachments_complete'] = 'Maintenance Complete';
