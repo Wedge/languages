@@ -27,7 +27,6 @@ $txt['whospider_reminder'] = 'Viewing the reminder page.';
 $txt['whoall_activate'] = 'Activating their account.';
 $txt['whoall_emailuser'] = 'Sending email to another member.';
 $txt['whoall_groups'] = 'Viewing the member groups page.';
-$txt['whoall_help'] = 'Viewing the <a href="' . $scripturl . '?action=help">help page</a>.';
 $txt['whoall_helpadmin'] = 'Viewing a help popup.';
 $txt['whoall_pm'] = 'Viewing their messages.';
 $txt['whoall_login'] = 'Logging into the forum.';
