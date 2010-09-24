@@ -309,8 +309,8 @@ $txt['aim_default_message'] = 'Hi.+Are+you+there?';
 $txt['aim_title'] = 'AOL Instant Messenger';
 $txt['icq'] = 'ICQ';
 $txt['icq_title'] = 'ICQ Messenger';
-$txt['msn'] = 'MSN';
-$txt['msn_title'] = 'MSN Messenger';
+$txt['msn'] = 'Live';
+$txt['msn_title'] = 'Live Messenger';
 $txt['yim'] = 'YIM';
 $txt['yim_title'] = 'Yahoo Instant Messenger';
 
