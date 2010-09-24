@@ -128,8 +128,6 @@ $txt['move_after2'] = 'Move this topic.';
 $txt['back_to_topic'] = 'Return to this topic.';
 $txt['approve_this_post'] = 'Approve this Post';
 
-$txt['retrieving_quote'] = 'Retrieving Quote...';
-
 $txt['post_visual_verification_label'] = 'Verification';
 $txt['post_visual_verification_desc'] = 'Please enter the code in the image above to make this post.';
 
