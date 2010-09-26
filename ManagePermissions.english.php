@@ -146,6 +146,14 @@ $txt['permissionname_profile_extra'] = 'Edit additional profile settings';
 $txt['permissionhelp_profile_extra'] = 'Additional profile settings include settings for avatars, theme preferences, notifications and Personal Messages.';
 $txt['permissionname_profile_extra_own'] = 'Own profile';
 $txt['permissionname_profile_extra_any'] = 'Any profile';
+$txt['permissionname_profile_signature'] = 'Edit signature';
+$txt['permissionhelp_profile_signature'] = 'This allows the administrator to restrict which groups may have signatures attached to their posts; often granted to higher-ranking groups to dissuade users simply signing up and advertising.';
+$txt['permissionname_profile_signature_own'] = 'Own signature';
+$txt['permissionname_profile_signature_any'] = 'Any signature';
+$txt['permissionname_profile_website'] = 'Edit website details';
+$txt['permissionhelp_profile_website'] = 'This allows the administrator to restrict which groups may have website details shown by their posts; often granted to higher-ranking groups to dissuade users simply signing up and advertising.';
+$txt['permissionname_profile_website_own'] = 'Own profile\'s website';
+$txt['permissionname_profile_website_any'] = 'Any profile\'s website';
 $txt['permissionname_profile_title'] = 'Edit custom title';
 $txt['permissionhelp_profile_title'] = 'The custom title is shown on the topic display page, under the profile of each user that has a custom title.';
 $txt['permissionname_profile_title_own'] = 'Own profile';
@@ -280,6 +288,10 @@ $txt['permissionname_simple_profile_title_own'] = 'Choose a custom title for the
 $txt['permissionname_simple_profile_title_any'] = 'Edit other people\'s custom titles';
 $txt['permissionname_simple_profile_remove_own'] = 'Delete their own account';
 $txt['permissionname_simple_profile_remove_any'] = 'Delete other user\'s accounts';
+$txt['permissionname_simple_profile_signature_own'] = 'Edit their signature';
+$txt['permissionname_simple_profile_signature_any'] = 'Edit other people\'s signatures';
+$txt['permissionname_simple_profile_website_own'] = 'Edit their website details';
+$txt['permissionname_simple_profile_website_any'] = 'Edit other people\'s website details';
 
 $txt['permissiongroup_simple_make_unapproved_posts'] = 'Post topics and replies to the board <span style="text-decoration: underline">only</span> after they have been approved';
 $txt['permissiongroup_simple_make_posts'] = 'Post topics and replies to the board';
