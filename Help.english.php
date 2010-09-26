@@ -375,8 +375,6 @@ $helptxt['enableEmbeddedFlash'] = 'This option will allow your users to use Flas
 $helptxt['xmlnews_enable'] = 'Allows people to link to <a href="%1$s?action=.xml;sa=news" target="_blank" class="new_win">Recent news</a>
 	and similar data.  It is also recommended that you limit the size of recent posts/news because, when rss data
 	is displayed in some clients, like Trillian, it is expected to be truncated.';
-$helptxt['hotTopicPosts'] = 'Change the number of posts for a topic to reach the state of a &quot;hot&quot; or
-	&quot;very hot&quot; topic.';
 $helptxt['globalCookies'] = 'Makes log in cookies available across subdomains.  For example, if...<br />
 	Your site is at http://www.simplemachines.org/,<br />
 	And your forum is at http://forum.simplemachines.org/,<br />
@@ -561,7 +559,7 @@ $helptxt['posts_and_topics'] = '
 			In order to keep the language on your forum under control, you can censor certain words. This function allows you to convert forbidden words into innocent versions.
 		</li><li>
 			<strong>Topic Settings</strong>
-			Modify the settings related to topics. The number of topics per page, whether sticky topics are enabled or not, the number of messages needed for a topic to be hot, etc.
+			Modify the settings related to topics. The number of topics per page, whether sticky topics are enabled or not, etc.
 		</li>
 	</ul>';
 $helptxt['spider_group'] = 'By selecting a restrictive group, when a guest is detected as a search crawler it will automatically be assigned any &quot;deny&quot; deny permissions of this group in addition to the normal permissions of a guest. You can use this to provide lesser access to a search engine than you would a normal guest. You might for example wish to create a new group called &quot;Spiders&quot; and select that here. You could then deny permission for that group to view profiles to stop spiders indexing your members profiles.<br />Note: Spider detection is not perfect and can be simulated by users so this feature is not guaranteed to restrict content only to those search engines you have added.';
