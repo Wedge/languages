@@ -573,13 +573,7 @@ $txt['who_viewing_topic'] = ' are viewing this topic.';
 $txt['who_viewing_board'] = ' are viewing this board.';
 $txt['who_member'] = 'Member';
 
-// No longer used by default theme, but for backwards compat
-$txt['powered_by_php'] = 'Powered by PHP';
-$txt['powered_by_mysql'] = 'Powered by MySQL';
-$txt['valid_css'] = 'Valid CSS!';
-
-// Current footer strings
-$txt['valid_html'] = 'Valid HTML 4.01!';
+// Footer strings
 $txt['valid_xhtml'] = 'Valid XHTML 1.0!';
 $txt['wap2'] = 'WAP2';
 $txt['rss'] = 'RSS feed';
