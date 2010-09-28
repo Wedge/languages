@@ -286,7 +286,6 @@ $txt['switch_mode'] = 'Switch to full editor';
 $txt['preview'] = 'Preview';
 $txt['always_logged_in'] = 'Always stay logged in';
 
-$txt['logged'] = 'Logged';
 // Use numeric entities in the below string.
 $txt['ip'] = 'IP';
 

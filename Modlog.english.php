@@ -10,6 +10,7 @@ $txt['modlog_member'] = 'Member';
 $txt['modlog_position'] = 'Position';
 $txt['modlog_action'] = 'Action';
 $txt['modlog_ip'] = 'IP';
+$txt['logged'] = 'Logged';
 $txt['modlog_search_result'] = 'Search Results';
 $txt['modlog_total_entries'] = 'Total Entries';
 $txt['modlog_ac_approve_topic'] = 'Approved topic &quot;{topic}&quot; by &quot;{member}&quot;';

@@ -132,8 +132,8 @@ $txt['permissionname_send_mail'] = 'Send a forum email to members';
 $txt['permissionhelp_send_mail'] = 'Mass mail all forum members, or just a few membergroups by email or personal message (the latter requires \'Send Personal Message\' permission).';
 $txt['permissionname_issue_warning'] = 'Issue warnings to members';
 $txt['permissionhelp_issue_warning'] = 'Issue a warning to members of the forum and change that members\' warning level. Requires the warning system to be enabled.';
-$txt['permissionname_view_ip_address'] = 'View IP addresses in the main forum';
-$txt['permissionhelp_view_ip_address'] = 'Allows this usergroup to see IP addresses in the forum, independently of other options.';
+$txt['permissionname_view_ip_address'] = 'View users\' IP addresses';
+$txt['permissionhelp_view_ip_address'] = 'Allows this usergroup to see IP addresses, independently of other options.';
 $txt['permissionname_view_ip_address_own'] = 'Own IP address';
 $txt['permissionname_view_ip_address_any'] = 'Any IP address';
 
