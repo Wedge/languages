@@ -132,6 +132,10 @@ $txt['permissionname_send_mail'] = 'Send a forum email to members';
 $txt['permissionhelp_send_mail'] = 'Mass mail all forum members, or just a few membergroups by email or personal message (the latter requires \'Send Personal Message\' permission).';
 $txt['permissionname_issue_warning'] = 'Issue warnings to members';
 $txt['permissionhelp_issue_warning'] = 'Issue a warning to members of the forum and change that members\' warning level. Requires the warning system to be enabled.';
+$txt['permissionname_view_ip_address'] = 'View IP addresses in the main forum';
+$txt['permissionhelp_view_ip_address'] = 'Allows this usergroup to see IP addresses in the forum, independently of other options.';
+$txt['permissionname_view_ip_address_own'] = 'Own IP address';
+$txt['permissionname_view_ip_address_any'] = 'Any IP address';
 
 $txt['permissiongroup_profile'] = 'Member Profiles';
 $txt['permissionname_profile_view'] = 'View profile summary and stats';
@@ -276,6 +280,8 @@ $txt['permissiongroup_simple_use_avatar'] = 'Select or upload an avatar';
 $txt['permissiongroup_simple_moderate_general'] = 'Moderate the entire forum';
 $txt['permissiongroup_simple_administrate'] = 'Carry out administrative duties';
 
+$txt['permissionname_simple_view_ip_address_own'] = 'Allow a user to see their own IP address';
+$txt['permissionname_simple_view_ip_address_any'] = 'Allow a user to see any IP address';
 $txt['permissionname_simple_calendar_edit_own'] = 'Edit their own calendar events';
 $txt['permissionname_simple_calendar_edit_any'] = 'Edit other people\'s calendar events';
 $txt['permissionname_simple_profile_view_own'] = 'View their own profile';
