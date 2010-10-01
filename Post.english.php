@@ -93,7 +93,6 @@ $txt['reset_votes'] = 'Reset Vote Count';
 $txt['reset_votes_check'] = 'Check this if you want to reset all vote counts to 0.';
 $txt['votes'] = 'votes';
 $txt['attach'] = 'Attach';
-$txt['clean_attach'] = 'Clean Attachment';
 $txt['attached'] = 'Attached';
 $txt['allowed_types'] = 'Allowed file types';
 $txt['cant_upload_type'] = 'You cannot upload that type of file. The only allowed extensions are';
@@ -152,7 +151,8 @@ $txt['spellcheck_change_all'] = 'Change All';
 $txt['spellcheck_ignore'] = 'Ignore';
 $txt['spellcheck_ignore_all'] = 'Ignore All';
 
-$txt['more_attachments'] = 'more attachments';
+$txt['cannot_attach_ext'] = 'The type of file you have tried to attach ({ext}) is not allowed here. The allowed types of file are: {attach_exts}';
+
 // Don't use entities in the below string.
 $txt['more_attachments_error'] = 'Sorry, you aren\'t allowed to post any more attachments.';
 
