@@ -425,6 +425,7 @@ $txt['set_lock'] = 'Lock topic';
 $txt['set_unlock'] = 'Unlock topic';
 
 $txt['search_advanced'] = 'Advanced search';
+$txt['search_simple'] = 'Simple search';
 
 $txt['security_risk'] = 'MAJOR SECURITY RISK:';
 $txt['not_removed'] = 'You have not removed ';
