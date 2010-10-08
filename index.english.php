@@ -449,8 +449,10 @@ $txt['status'] = 'Status';
 $txt['go_up'] = 'Go Up';
 $txt['go_down'] = 'Go Down';
 
-$forum_copyright = '<a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by %1$s</a> |
- <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>';
+$txt['site_credits'] = 'Website credits';
+$forum_copyright = 'Powered by <a href="http://www.wedgeo.org/" title="Wedge Forum" target="_blank" class="new_win">%1$s</a>
+| Wedge &copy; 2010, <a href="http://www.wedgeo.org/about/" title="About Wedge" target="_blank" class="new_win">Wedgeward</a>
+<br />Based on SMF &copy; 2006&ndash;2010, <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">Simple Machines LLC</a>';
 
 $txt['birthdays'] = 'Birthdays:';
 $txt['events'] = 'Events:';
