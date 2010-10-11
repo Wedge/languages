@@ -293,7 +293,6 @@ $txt['www'] = 'WWW';
 
 $txt['by'] = 'by';
 
-$txt['hours'] = 'hours';
 $txt['days_word'] = 'days';
 
 $txt['newest_member'] = ', our newest member.';
