@@ -22,8 +22,6 @@ $txt['lang_locale'] = 'en_US';
 $txt['lang_dictionary'] = 'en';
 $txt['lang_spelling'] = 'american';
 
-// Ensure you remember to use uppercase for character set strings.
-$txt['lang_character_set'] = 'ISO-8859-1';
 // Character set and right to left?
 $txt['lang_rtl'] = false;
 // Capitalize day and month names?

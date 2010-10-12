@@ -168,6 +168,7 @@ $txt['maintain_members_all'] = 'All Membergroups';
 $txt['maintain_members_choose'] = 'Selected Groups';
 $txt['maintain_members_confirm'] = 'Are you sure you really want to delete these member accounts?\\n\\nThis cannot be undone!';
 
+// !!! This little lot can go once the convertor is done.
 $txt['utf8_title'] = 'Convert the database and data to UTF-8';
 $txt['utf8_introduction'] = 'UTF-8 is an international character set covering nearly all languages around the world. Converting your database and data to UTF-8 can make it easier to support multiple languages on the same board. It also can enhance search and sorting capabilities for languages with non-latin characters.';
 $txt['utf8_warning'] = 'If you want to convert your data and database to UTF-8, be aware of the following:
@@ -186,11 +187,6 @@ $txt['utf8_target_charset'] = 'Convert data and database to';
 $txt['utf8_utf8'] = 'UTF-8';
 $txt['utf8_db_version_too_low'] = 'The version of MySQL that your database server is using is not high enough to support UTF-8 properly. A minimum version of 4.1.2 is required.';
 $txt['utf8_cannot_convert_fulltext'] = 'Your messages table is using a fulltext index for use when searching.  You cannot proceed in converting to UTF-8 until that index is removed. You can re-create it after the conversion has been completed.';
-
-$txt['entity_convert_title'] = 'Convert HTML-entities to UTF-8 characters';
-$txt['entity_convert_only_utf8'] = 'The database needs to be in UTF-8 format before HTML-entities can be converted to UTF-8';
-$txt['entity_convert_introduction'] = 'This function will convert all characters that are stored in the database as HTML-entities to UTF-8 characters. This is especially useful when you have just converted your forum from a character set like ISO-8859-1 while non-latin characters were used on the forum. The browser then sends all characters as HTML-entities. For example, the HTML-entity &amp;#945; represents the greek letter &#945; (alpha). Converting entities to UTF-8 will improve searching and sorting of text and reduce storage size.';
-$txt['entity_convert_proceed'] = 'Proceed';
 
 // Move topics out.
 $txt['move_topics_maintenance'] = 'Move Topics';

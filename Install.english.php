@@ -1,8 +1,7 @@
 <?php
 // Version: 2.0 RC3; Install
 
-// These should be the same as those in index.language.php.
-$txt['lang_character_set'] = 'ISO-8859-1';
+// This should be the same as those in index.language.php.
 $txt['lang_rtl'] = false;
 
 $txt['install_step_welcome'] = 'Welcome';
@@ -97,9 +96,6 @@ $txt['install_settings_dbsession'] = 'Database Sessions';
 $txt['install_settings_dbsession_title'] = 'Use the database for sessions instead of using files.';
 $txt['install_settings_dbsession_info1'] = 'This feature is almost always for the best, as it makes sessions more dependable.';
 $txt['install_settings_dbsession_info2'] = 'This feature is generally a good idea, but may not work properly on this server.';
-$txt['install_settings_utf8'] = 'UTF-8 Character Set';
-$txt['install_settings_utf8_title'] = 'Use UTF-8 as default character set';
-$txt['install_settings_utf8_info'] = 'This feature lets both the database and the forum use an international character set, UTF-8. This can be useful when working with multiple languages that use different character sets.';
 $txt['install_settings_stats'] = 'Allow Stat Collection';
 $txt['install_settings_stats_title'] = 'Allow Simple Machines to Collect Basic Stats Monthly';
 $txt['install_settings_stats_info'] = 'If enabled, this will allow Simple Machines to visit your site once a month to collect basic statistics. This will help us make decisions as to which configurations to optimize the software for. For more information please visit our <a href="http://www.simplemachines.org/about/stats.php" target="_blank">info page</a>.';
