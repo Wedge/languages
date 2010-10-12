@@ -76,6 +76,7 @@ $txt['default_afro_smiley'] = 'Afro';
 $txt['default_laugh_smiley'] = 'Laugh';
 $txt['default_police_smiley'] = 'Police';
 $txt['default_angel_smiley'] = 'Angel';
+$txt['default_edit_smiley'] = 'Edit';
 
 $txt['error_message_click'] = 'Click here';
 $txt['error_message_try_again'] = 'to try this step again.';
