@@ -162,7 +162,6 @@ $txt['setting_image_verification_medium'] = 'Medium - Overlapping colored letter
 $txt['setting_image_verification_high'] = 'High - Angled letters, considerable noise/lines';
 $txt['setting_image_verification_extreme'] = 'Extreme - Angled letters, noise, lines and blocks';
 $txt['setting_image_verification_sample'] = 'Sample';
-$txt['setting_image_verification_nogd'] = '<strong>Note:</strong> as this server does not have the GD library installed the different complexity settings will have no effect.';
 $txt['setup_verification_questions'] = 'Verification Questions';
 $txt['setup_verification_questions_desc'] = '<span class="smalltext">If you want users to answer verification questions in order to stop spam bots you should setup a number of questions in the table below. You should pick relatively simple questions; answers are not case sensitive. You may use BBC in the questions for formatting, to remove a question simply delete the contents of that line.</span>';
 $txt['setup_verification_question'] = 'Question';
