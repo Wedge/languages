@@ -7,6 +7,7 @@ global $context;
 
 $txt['groups'] = 'Groups';
 $txt['viewing_groups'] = 'Viewing Membergroups';
+$txt['visible_to_all'] = '(already viewable by all)';
 
 $txt['membergroups_title'] = 'Manage Membergroups';
 $txt['membergroups_description'] = 'Membergroups are groups of members that have similar permission settings, appearance, or access rights. Some membergroups are based on the amount of posts a user has made. You can assign someone to a membergroup by selecting their profile and changing their account settings.';
@@ -127,4 +128,5 @@ $txt['dont_check_for_duplicate'] = 'Don\'t Check for Duplicates';
 $txt['duplicates'] = 'Duplicates';
 
 $txt['not_activated'] = 'Not activated';
+
 ?>

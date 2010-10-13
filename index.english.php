@@ -304,7 +304,7 @@ $txt['aim_title'] = 'AOL Instant Messenger';
 $txt['icq'] = 'ICQ';
 $txt['icq_title'] = 'ICQ Messenger';
 $txt['msn'] = 'Live';
-$txt['msn_title'] = 'Live Messenger';
+$txt['msn_title'] = 'Live Messenger (MSN)';
 $txt['yim'] = 'YIM';
 $txt['yim_title'] = 'Yahoo Instant Messenger';
 
@@ -735,7 +735,7 @@ $txt['prompt_text_email'] = 'Please enter the email address.';
 $txt['prompt_text_ftp'] = 'Please enter the ftp address.';
 $txt['prompt_text_url'] = 'Please enter the URL you wish to link to.';
 $txt['prompt_text_img'] = 'Enter image location';
-$txt['prompt_text_desc'] = 'Please enter what text the link should say.';
+$txt['prompt_text_desc'] = 'Please enter what text the link should say. Leave blank to show the URL.';
 
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['autosuggest_delete_item'] = 'Delete Item';
@@ -758,5 +758,27 @@ $txt['debug_query_which_took'] = 'which took %1$s seconds.';
 $txt['debug_query_which_took_at'] = 'which took %1$s seconds at %2$s into request.';
 $txt['debug_show_queries'] = '[Show Queries]';
 $txt['debug_hide_queries'] = '[Hide Queries]';
+
+// Ignoring topics
+$txt['ignoring_topic'] = 'You\'re currently ignoring this topic.';
+$txt['ignore_topic'] = 'Ignore';
+$txt['unignore_topic'] = 'Unignore';
+
+// Site type.
+$txt['b_type']['blog'] = 'post';
+$txt['b_type']['forum'] = 'topic';
+$txt['b_type']['site'] = 'article';
+
+// Merge double posts. Yes. Really.
+$txt['merge_doublepost'] = 'Merging';
+$txt['merge_error_dbpo'] = 'You are not allowed to perform this action.';
+$txt['merge_error_notf'] = 'Sorry, couldn\'t find any message to merge.';
+$txt['merge_error_noid'] = 'Post ID or topic ID can\'t be found!';
+$txt['search_date_posted'] = 'Posted:';
+$txt['merge_error_length'] = 'The resulting merged post would be larger than the maximum allowed size!';
+
+// Spoiler tags. But you're smart, so you don't need me telling.
+$txt['spoiler_tag_text'] = 'Spoiler';
+$txt['spoiler_tag_click_info'] = '(click to show or hide)';
 
 ?>

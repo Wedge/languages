@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0 RC3; Install
 
-// This should be the same as those in index.language.php.
+// This should be the same as in index.language.php
 $txt['lang_rtl'] = false;
 
 $txt['install_step_welcome'] = 'Welcome';
@@ -40,10 +40,7 @@ $txt['default_news'] = 'SMF - Just Installed!';
 $txt['default_reserved_names'] = 'Admin\nWebmaster\nGuest\nroot';
 $txt['default_smileyset_name'] = 'Alienine\'s Set';
 $txt['default_aaron_smileyset_name'] = 'Aaron\'s Set';
-$txt['default_theme_name'] = 'SMF Default Theme - Curve';
-$txt['default_core_theme_name'] = 'Core Theme';
-$txt['default_classic_theme_name'] = 'Classic YaBB SE Theme';
-$txt['default_babylon_theme_name'] = 'Babylon Theme';
+$txt['default_theme_name'] = 'Wedge Default Theme - Wager';
 
 $txt['default_administrator_group'] = 'Administrator';
 $txt['default_global_moderator_group'] = 'Global Moderator';

@@ -350,6 +350,7 @@ $txt['admin_file_not_found'] = 'Could not load the requested file: %1$s.';
 $txt['themes_none_selectable'] = 'At least one theme must be selectable.';
 $txt['themes_default_selectable'] = 'The overall forum default theme must be a selectable theme.';
 $txt['ignoreboards_disallowed'] = 'The option to ignore boards has not been enabled.';
+$txt['ignoretopics_disallowed'] = 'The option to ignore topics has not been enabled.';
 
 $txt['mboards_delete_error'] = 'No category selected!';
 $txt['mboards_delete_board_error'] = 'No board selected!';
@@ -397,4 +398,5 @@ $txt['restored_disabled'] = 'The restoration of topics has been disabled.';
 $txt['restore_not_found'] = 'The following messages could not be restored; the original topic may have been removed:<ul style="margin-top: 0px;">%1$s</ul>You will need to move these manually.';
 
 $txt['error_invalid_dir'] = 'The directory you entered is invalid.';
+
 ?>
