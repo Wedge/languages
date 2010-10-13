@@ -418,7 +418,7 @@ $txt['avatar_reencode'] = 'Réencoder les avatars potentiellement dangereux';
 $txt['avatar_reencode_note'] = '(nécessite le module GD)';
 $txt['avatar_paranoid_warning'] = 'Cette fonctionnalité peut donner lieu à des faux positifs (fichiers sains rejetés).';
 $txt['avatar_paranoid'] = 'Effectuer un maximum de tests de sécurité sur les avatars envoyés';
-$txt['avatar_banned_hide'] = Cacher l\'avatar des utilisateurs bannis';
+$txt['avatar_banned_hide'] = 'Cacher l\'avatar des utilisateurs bannis';
 
 $txt['repair_attachments'] = 'Maintenance des Fichiers joints';
 $txt['repair_attachments_complete'] = 'Maintenance complétée';
