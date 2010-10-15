@@ -292,7 +292,7 @@ $txt['core_settings_switch_off'] = 'Cliquez pour désactiver';
 $txt['core_settings_enabled'] = 'Activé';
 $txt['core_settings_disabled'] = 'Désactivé';
 
-$txt['languages_lang_name'] = 'Langue';
+$txt['languages_lang_name'] = 'Langue (cliquez pour modifier la langue)';
 $txt['languages_locale'] = 'Paramètres régionaux';
 $txt['languages_default'] = 'Par défaut';
 $txt['languages_users'] = 'Utilisateurs';
