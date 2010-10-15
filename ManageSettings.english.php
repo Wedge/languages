@@ -293,7 +293,7 @@ $txt['core_settings_switch_off'] = 'Click to Disable';
 $txt['core_settings_enabled'] = 'Enabled';
 $txt['core_settings_disabled'] = 'Disabled';
 
-$txt['languages_lang_name'] = 'Language Name';
+$txt['languages_lang_name'] = 'Language Name (click to edit the language)';
 $txt['languages_locale'] = 'Locale';
 $txt['languages_default'] = 'Default';
 $txt['languages_users'] = 'Users';
