@@ -184,7 +184,7 @@ $txt['no_bantype_selected'] = 'Type de bannissement non sélectionné';
 $txt['ban_not_found'] = 'Bannissement introuvable';
 $txt['ban_unknown_restriction_type'] = 'Type de restriction inconnu';
 $txt['ban_name_empty'] = 'Le nom du bannissement a été laissé vide';
-$txt['ban_name_exists'] = 'Le nom de ce bannissement existe déjà. Veuillez choisir un autre nom.';
+$txt['ban_name_exists'] = 'Le nom de ce bannissement (%1$s) existe déjà. Veuillez choisir un autre nom.';
 $txt['ban_trigger_already_exists'] = 'Le déclencheur de bannissement %1$s existe déjà dans %2$s.';
 
 $txt['recycle_no_valid_board'] = 'Aucune section valide n\'a été choisie pour stocker les sujets recyclés';
@@ -398,5 +398,11 @@ $txt['restored_disabled'] = 'La restauration de sujets a été désactivée.';
 $txt['restore_not_found'] = 'Les messages suivants n\'ont pas pu être restaurés; le sujet original a peut-être été supprimé entretemps&nbsp;:<ul style="margin-top: 0px;">%1$s</ul>Vous devrez les déplacer manuellement.';
 
 $txt['error_invalid_dir'] = 'Le répertoire que vous avez spécifié est invalide.';
+
+// Merge double posts
+$txt['merge_error_dbpo'] = 'Vous n\'avez pas l\'autorisation de faire cette action.';
+$txt['merge_error_notf'] = 'Désolé, aucun message fusionnable n\'a été trouvé.';
+$txt['merge_error_noid'] = 'ID de message ou de sujet introuvable !';
+$txt['merge_error_length'] = 'Le message fusionné dépasserait la taille limite autorisée !';
 
 ?>

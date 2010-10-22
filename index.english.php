@@ -770,12 +770,8 @@ $txt['b_type']['forum'] = 'topic';
 $txt['b_type']['site'] = 'article';
 
 // Merge double posts. Yes. Really.
-$txt['merge_doublepost'] = 'Merging';
-$txt['merge_error_dbpo'] = 'You are not allowed to perform this action.';
-$txt['merge_error_notf'] = 'Sorry, couldn\'t find any message to merge.';
-$txt['merge_error_noid'] = 'Post ID or topic ID can\'t be found!';
 $txt['search_date_posted'] = 'Posted:';
-$txt['merge_error_length'] = 'The resulting merged post would be larger than the maximum allowed size!';
+$txt['merge_double'] = 'Merge';
 
 // Spoiler tags. But you're smart, so you don't need me telling.
 $txt['spoiler_tag_text'] = 'Spoiler';

@@ -355,9 +355,7 @@ $txt['attachmentDirSizeLimit'] = 'Max attachment folder space<div class="smallte
 $txt['attachmentPostLimit'] = 'Max attachment size per post<div class="smalltext">(0 for no limit)</div>';
 $txt['attachmentSizeLimit'] = 'Max size per attachment<div class="smalltext">(0 for no limit)</div>';
 $txt['attachmentNumPerPostLimit'] = 'Max number of attachments per post<div class="smalltext">(0 for no limit)</div>';
-$txt['attachment_gd_warning'] = 'The GD module is currently not installed. Image re-encoding is not possible.';
 $txt['attachment_image_reencode'] = 'Re-encode potentially dangerous image attachments';
-$txt['attachment_image_reencode_note'] = '(requires GD module)';
 $txt['attachment_image_paranoid_warning'] = 'The extensive security checks can result in a large number of rejected attachments.';
 $txt['attachment_image_paranoid'] = 'Perform extensive security checks on uploaded image attachments';
 $txt['attachmentThumbnails'] = 'Resize images when showing under posts';
@@ -391,13 +389,11 @@ $txt['avatar_action_too_large'] = 'If the avatar is too large...';
 $txt['option_refuse'] = 'Refuse it';
 $txt['option_html_resize'] = 'Let the HTML resize it';
 $txt['option_js_resize'] = 'Resize it with JavaScript';
-$txt['option_download_and_resize'] = 'Download and resize it (requires GD module)';
+$txt['option_download_and_resize'] = 'Download and resize it';
 $txt['avatar_max_width_upload'] = 'Maximum width of uploaded avatar<div class="smalltext">(0 for no limit)</div>';
 $txt['avatar_max_height_upload'] = 'Maximum height of uploaded avatar<div class="smalltext">(0 for no limit)</div>';
 $txt['avatar_resize_upload'] = 'Resize oversized large avatars';
-$txt['avatar_resize_upload_note'] = '(requires GD module)';
 $txt['avatar_download_png'] = 'Use PNG for resized avatars';
-$txt['avatar_gd_warning'] = 'The GD module is currently not installed. Some avatar features are disabled.';
 $txt['avatar_external'] = 'External avatars';
 $txt['avatar_upload'] = 'Uploadable avatars';
 $txt['avatar_server_stored'] = 'Server-stored avatars';
@@ -415,7 +411,6 @@ $txt['custom_avatar_dir_desc'] = 'This should not be the same as the server-stor
 $txt['custom_avatar_url'] = 'Upload URL';
 $txt['custom_avatar_check_empty'] = 'The custom avatar directory you have specified may be empty or invalid. Please ensure these settings are correct.';
 $txt['avatar_reencode'] = 'Re-encode potentially dangerous avatars';
-$txt['avatar_reencode_note'] = '(requires GD module)';
 $txt['avatar_paranoid_warning'] = 'The extensive security checks can result in a large number of rejected avatars.';
 $txt['avatar_paranoid'] = 'Perform extensive security checks on uploaded avatars';
 $txt['avatar_banned_hide'] = 'Hide the avatar of banned users';
@@ -480,6 +475,8 @@ $txt['manageposts_bbc_settings_submit'] = 'Save';
 $txt['manageposts_topic_settings'] = 'Topic Settings';
 $txt['manageposts_topic_settings_description'] = 'Here you can set all settings involving topics.';
 $txt['manageposts_topic_settings_submit'] = 'Save';
+
+$txt['manageposts_merge'] = 'Merging';
 
 $txt['removeNestedQuotes'] = 'Remove nested quotes when quoting';
 $txt['enableEmbeddedFlash'] = 'Embed flash into posts';
@@ -623,5 +620,36 @@ $txt['spider_stats'] = 'Stats';
 
 $txt['paid_subscriptions'] = 'Paid Subscriptions';
 $txt['paid_subs_view'] = 'View Subscriptions';
+
+$txt['urlLength'] = 'Trim URLs longer than (x) characters in posts<div class="smalltext">Default is 50 characters. Set to 0 to disable.</div>';
+
+$txt['allow_ignore_topics'] = 'Enable members to ignore topics';
+
+// Pretty URLs
+$txt['pretty_urls'] = 'Pretty URLs';
+$txt['pretty_urls_desc'] = 'Pretty URLs allows you to enable better-looking URLs in the address bar. Search engines like this, too. Here, you can enable Pretty URLs and their individual filters, as well as reset their cache and repopulate topic/board data.';
+
+$txt['pretty'] = array(
+	'url' => 'Pretty URL',
+	'url_desc' => 'A URL fragment used for boards and topics.<br /><div class="smalltext">Note: this will be processed as only a limited set of characters are allowed - other characters will be converted. Leave blank to use the board name.</div>',
+);
+
+$txt['pretty_settings'] = 'Core settings';
+$txt['pretty_maintenance'] = 'Maintenance';
+
+$txt['admin_pretty_urls'] = 'Pretty URLs Administration';
+$txt['pretty_reset'] = 'Reset now';
+$txt['pretty_refill'] = 'Refill topic subjects';
+$txt['pretty_enable'] = 'Enable URL rewriting';
+$txt['pretty_cache'] = 'Enable URL cache';
+$txt['pretty_filters'] = 'URL rewriting filters';
+$txt['pretty_save'] = 'Save changes';
+$txt['pretty_went_right'] = 'Success!';
+$txt['pretty_converted'] = 'All topic titles are now converted!';
+$txt['pretty_duplicateboard'] = 'This address is already in use. Please go back and change it.';
+$txt['pretty_filter_boards'] = 'Wedge URLs<br />&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?board=1 &rarr; http://yoursite.com/wedge-name/</div>';
+$txt['pretty_filter_topics'] = 'Topic URLs<br />&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?topic=1.0 &rarr; http://yoursite.com/wedge-name/topic-name/</div>';
+$txt['pretty_filter_actions'] = 'Action URLs<br />&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/hello/</div>';
+$txt['pretty_filter_profiles'] = 'Profile URLs<br />&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/~user-name/<br />As this uses the login name (user name) of an account rather than its display name, it may not be desirable to your users.</div>';
 
 ?>

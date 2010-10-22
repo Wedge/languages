@@ -64,7 +64,6 @@ $txt['autoOptMaxOnline'] = 'Maximum users online when optimizing<div class="smal
 $txt['autoFixDatabase'] = 'Automatically fix broken tables';
 $txt['allow_disableAnnounce'] = 'Allow users to disable announcements';
 $txt['disallow_sendBody'] = 'Don\'t allow post text in notifications';
-$txt['queryless_urls'] = 'Search engine friendly URLs<div class="smalltext"><strong>Apache/Lighttpd only!</strong></div>';
 $txt['max_image_width'] = 'Max width of posted pictures (0 = disable)';
 $txt['max_image_height'] = 'Max height of posted pictures (0 = disable)';
 $txt['enableReportPM'] = 'Enable reporting of personal messages';
@@ -351,14 +350,14 @@ $txt['languages_download_complete'] = 'Installation Complete';
 $txt['languages_download_complete_desc'] = 'Language pack installed successfully. Please click <a href="%1$s">here</a> to return to the languages page';
 $txt['languages_delete_confirm'] = 'Are you sure you want to delete this language?';
 
-$txt['mergepost_header'] = 'Merging double posts';
-$txt['mergepost_automatic'] = 'Merge double posts automatically';
-$txt['mergepost_automatic_time'] = 'Delay after which posts are no longer merged automatically. <font size=1>(<strong>0 = always merge</strong>)</font>';
-$txt['mergepost_admin_double_post'] = 'Merge double posts sent by administrators';
-$txt['mergepost_no_time'] = 'Don\'t show the older post\'s date before the separator';
-$txt['mergepost_no_sep'] = 'Show neither the separator, nor the older post\'s date.';
-$txt['mergepost_ignore_length'] = 'Ignore posts\' maximum length';
-$txt['mergepost_separator'] = 'Separator between merged posts (enable the setting above.)<br /><span class="smalltext">You may use BBCode. You can get the older post\'s date by using the <strong>$date</strong> variable in the text field.<br />Default is [size=1]$date[/size][hr][br]</span>';
-$txt['mergepost_custom_separator'] = 'Use a custom separator between merged posts.<br /><span class="smalltext">The settings above will be disabled.</span>';
+$txt['merge_post_header'] = 'Merging double posts';
+$txt['merge_post_auto'] = 'Merge double posts automatically';
+$txt['merge_post_auto_time'] = 'Delay after which posts are no longer merged automatically. <font size=1>(<strong>0 = always merge</strong>)</font>';
+$txt['merge_post_admin_double_post'] = 'Merge double posts sent by administrators';
+$txt['merge_post_no_time'] = 'Don\'t show the older post\'s date before the separator';
+$txt['merge_post_no_sep'] = 'Show neither the separator, nor the older post\'s date.';
+$txt['merge_post_ignore_length'] = 'Ignore posts\' maximum length';
+$txt['merge_post_separator'] = 'Separator between merged posts (enable the setting above.)<br /><span class="smalltext">You may use BBCode. You can get the older post\'s date by using the <strong>$date</strong> variable in the text field.<br />Default is [size=1]$date[/size][hr][br]</span>';
+$txt['merge_post_custom_separator'] = 'Use a custom separator between merged posts.<br /><span class="smalltext">The settings above will be disabled.</span>';
 
 ?>

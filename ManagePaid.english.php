@@ -32,6 +32,7 @@ $txt['paid_email_to'] = 'Email for Correspondence';
 $txt['paid_email_to_desc'] = 'Comma-separated list of addresses to email notifications to in addition to forum admins.';
 $txt['paidsubs_test'] = 'Enable test mode';
 $txt['paidsubs_test_desc'] = 'This puts the paid subscriptions into &quot;test&quot; mode, which will, wherever possible, use sandbox payment methods in PayPal, Authorize.net etc. Do not enable unless you know what you are doing!';
+$txt['paidsubs_test_confirm'] = 'Are you sure you want to enable test mode?';
 $txt['paid_email_no'] = 'Do not send any notifications';
 $txt['paid_email_error'] = 'Inform when subscription fails';
 $txt['paid_email_all'] = 'Inform on all automatic subscription changes';

@@ -770,12 +770,8 @@ $txt['b_type']['forum'] = 'sujet';
 $txt['b_type']['site'] = 'article';
 
 // Merge double posts. Yes. Really.
-$txt['merge_doublepost'] = 'Fusion';
-$txt['merge_error_dbpo'] = 'Vous n\'avez pas l\'autorisation de faire cette action.';
-$txt['merge_error_notf'] = 'Désolé, aucun message fusionnable n\'a été trouvé.';
-$txt['merge_error_noid'] = 'ID de message ou de sujet introuvable !';
 $txt['search_date_posted'] = 'Posté&nbsp;:';
-$txt['merge_error_length'] = 'Le message fusionné dépasse la taille limite autorisée !';
+$txt['merge_double'] = 'Doublon';
 
 // Spoiler tags. But you're smart, so you don't need me telling.
 $txt['spoiler_tag_text'] = 'Spoiler';

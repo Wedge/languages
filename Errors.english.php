@@ -399,4 +399,10 @@ $txt['restore_not_found'] = 'The following messages could not be restored; the o
 
 $txt['error_invalid_dir'] = 'The directory you entered is invalid.';
 
+// Merge double posts
+$txt['merge_error_dbpo'] = 'You are not allowed to perform this action.';
+$txt['merge_error_notf'] = 'Sorry, couldn\'t find any message to merge.';
+$txt['merge_error_noid'] = 'Post ID or topic ID can\'t be found!';
+$txt['merge_error_length'] = 'The resulting merged post would be larger than the maximum allowed size!';
+
 ?>

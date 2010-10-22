@@ -101,7 +101,7 @@ $txt['restricted_filename'] = 'Nom de fichier réservé. Merci de le renommer.';
 $txt['topic_locked_no_reply'] = 'Attention&nbsp;: ce sujet est actuellement/sera bloqué&nbsp;!<br />Seuls les administrateurs et les modérateurs peuvent y répondre.';
 $txt['awaiting_approval'] = 'En attente d\'approbation';
 $txt['attachment_requires_approval'] = 'Notez que les fichiers joints ne seront affichés qu\'après approbation d\'un modérateur.';
-$txt['error_temp_attachments'] = 'Des fichiers ont été joints à ce message, mais n\'ont pas été publiés. Si vous ne désirez pas les mettre en ligne, vous pouvez les supprimer <a href="#postAttachment">ici</a>.';
+$txt['error_temp_attachments'] = 'Des fichiers ont été joints à ce message, mais jamais publiés. Ce problème a été corrigé. Si vous ne souhaitez pas les mettre en ligne, vous pouvez les supprimer <a href="#postAttachment">ici</a>.';
 // Use numeric entities in the below string.
 $txt['js_post_will_require_approval'] = 'Attention, ce sujet n\'appara&#238;tra qu\'apr&#232;s avoir &#233;t&#233; approuv&#233; par un mod&#233;rateur.';
 

@@ -31,6 +31,7 @@ $txt['paid_email_to'] = 'Adresse e-mail pour la correspondance';
 $txt['paid_email_to_desc'] = 'Liste d\'adresses e-mail, séparées par des virgules, auxquelles envoyer des notifications en plus des administrateurs du forum.';
 $txt['paidsubs_test'] = 'Activer le mode test';
 $txt['paidsubs_test_desc'] = 'Place les abonnements payants en mode &quot;test&quot;, qui utilisera, si elles existent, les méthodes test (&quot;bac à sable&quot;) de paiement de PayPal et autres. Ne l\'activez pas à moins de savoir ce que vous faites&nbsp;!';
+$txt['paidsubs_test_confirm'] = 'Êtes-vous sûr de vouloir activer le mode test ?';
 $txt['paid_email_no'] = 'Ne pas envoyer de notification';
 $txt['paid_email_error'] = 'Informer lorsqu\'un abonnement échoue';
 $txt['paid_email_all'] = 'Informer de tout changement automatique sur les abonnements';

@@ -119,9 +119,9 @@ $helptxt['time_format'] = '<strong>Format de l\'heure</strong><br />
 	<br />
 	Les caractères suivants sont reconnus en tant qu\'entrées dans la chaîne du format de l\'heure&nbsp;: <br />
 	<span class="smalltext">
-	&nbsp;&nbsp;%a - Nom du jour (abbréviation)<br />
+	&nbsp;&nbsp;%a - Nom du jour (abrégé)<br />
 	&nbsp;&nbsp;%A - Nom du jour (complet)<br />
-	&nbsp;&nbsp;%b - Nom du mois (abbréviation)<br />
+	&nbsp;&nbsp;%b - Nom du mois (abrégé)<br />
 	&nbsp;&nbsp;%B - Nom du mois (complet)<br />
 	&nbsp;&nbsp;%d - Jour du mois (01 à 31)<br />
 	&nbsp;&nbsp;%D - La même chose que %m/%d/%y *<br />
@@ -309,9 +309,9 @@ $helptxt['attachment_manager_settings'] = 'Les fichiers joints sont des fichiers
 		<strong>Redimensionner les images quand affichées sous les messages</strong>:<br /> Si l\'option au-dessus est sélectionnée, cela sauvegardera une copie (plus petite) du fichier joint pour la miniature afin d\'économiser la bande passante.<br />
 		<strong>Taille et hauteur maximum des miniatures</strong>:<br /> Seulement utilisé avec l\'option &quot;Redimensionner les images quand affichées sous les messages&quot;, spécifie la taille et la hauteur maximales des miniatures créées pour les fichiers joints.  Elles seront redimensionnées proportionnellement.';
 $helptxt['attachment_image_paranoid'] = 'Choisissez cette option pour mettre en place des contrôles de sécurité très stricts sur les images envoyées en fichier joint. Attention, ces contrôles peuvent parfois échouer sur des images sans danger. Nous vous recommandons de ne l\'utiliser qu\'en association avec l\'option de réencodage, auquel cas SMF essaiera de recréer et de mettre en ligne des images saines si le contrôle échoue. Si le réencodage n\'est pas activé, les fichiers joints échouant au contrôle seront rejetés.';
-$helptxt['attachment_image_reencode'] = 'Choisissez cette option pour permettre le réencodage des fichier joints envoyés par les utilisateurs. Le réencodage vous garantit une meilleure sécurité, mais il supprime également les animations des images animées. <br /> Cette fonctionnalité n\'est disponible que si le module GD est installé sur votre serveur.';
+$helptxt['attachment_image_reencode'] = 'Choisissez cette option pour permettre le réencodage des fichier joints envoyés par les utilisateurs. Le réencodage vous garantit une meilleure sécurité, mais il supprime également les animations des images animées.';
 $helptxt['avatar_paranoid'] = 'Choisissez cette option pour mettre en place des contrôles de sécurité très stricts sur les avatars au moment où les utilisateurs les envoient. Attention, ces contrôles peuvent parfois échouer sur des images sans danger. Nous vous recommandons de ne l\'utiliser qu\'en association avec l\'option de réencodage, auquel cas SMF essaiera de recréer et de mettre en ligne des images saines si le contrôle échoue. Si le réencodage n\'est pas activé, les avatars échouant au contrôle seront rejetés.';
-$helptxt['avatar_reencode'] = 'Choisissez cette option pour permettre le réencodage des avatars envoyés par les utilisateurs. Le réencodage vous garantit une meilleure sécurité, mais il supprime également les animations des images animées. <br /> Cette fonctionnalité n\'est disponible que si le module GD est installé sur votre serveur.';
+$helptxt['avatar_reencode'] = 'Choisissez cette option pour permettre le réencodage des avatars envoyés par les utilisateurs. Le réencodage vous garantit une meilleure sécurité, mais il supprime également les animations des images animées.';
 // !!! This should be reused or removed.
 $helptxt['cal_enabled'] = 'Le calendrier peut êre utilisé afin d\'afficher les anniversaires et des dates importantes à votre communauté.<br /><br />
 		<strong>Montrer les jours en tant que liens vers \'Poster un Événement\'</strong>&nbsp;:<br />Ceci permettra à vos membres de poster des événements pour ce jour, lorsqu\'ils cliquent sur la date.<br />
@@ -396,7 +396,6 @@ $helptxt['enableParticipation'] = 'Cette fonction affiche une icône spéciale s
 $helptxt['db_persist'] = 'Conserve une connexion permanente avec la base de données afin d\'accroître les performances du forum. Si vous êtes sur un serveur mutualisé (Lycos, Free / Online, OVH, Celeonet, Lewis Media...), l\'activation de cette fonction peut occasionner des problèmes avec votre hébergeur, car cela consomme beaucoup de ressources système.';
 $helptxt['ssi_db_user'] = 'Réglage optionnel pour utiliser un nom d\'utilisateur et un mot de passe de base de données différents quand vous utilisez SSI.php.';
 
-$helptxt['queryless_urls'] = 'Ceci modifie un peu l\'allure des URLs afin que les moteurs de recherche tels Google et Yahoo! les référencent mieux. Les URLs ressembleront à index.php/topic,1.0.html.<br /><br />Cette option ' . (isset($_SERVER['SERVER_SOFTWARE']) && (strpos($_SERVER['SERVER_SOFTWARE'], 'Apache') !== false || strpos($_SERVER['SERVER_SOFTWARE'], 'lighttpd') !== false) ? '<span style="color: green">est supportée</span>' : '<span style="color: red">n\'est pas supportée</span>') . ' par votre serveur.';
 $helptxt['countChildPosts'] = 'Sélectionner cette option signifie que les messages et les sujets dans une section parente seront comptés dans leur totalité sur la page d\'index.<br /><br />Cela rendra les choses notablement plus lentes, mais signifiera qu\'une parente avec aucun message ne montrera pas \'0\'.';
 $helptxt['fixLongWords'] = 'Cette option coupe les mots plus longs qu\'un certain nombre de lettres en plusieurs parties, pour ne pas (trop) déformer la charte graphique de votre forum. Évitez les valeurs inférieures à 40.';
 $helptxt['allow_ignore_boards'] = 'Cocher cette option permettra aux utilisateurs de sélectionner les sites qu\'ils veulent ignorer.';
@@ -431,7 +430,7 @@ $helptxt['registration_method'] = 'Cette fonction détermine quelle méthode d\'
 				Lorsque cette option est sélectionnée, tous les membres qui s\'inscrivent au forum recevront un e-mail contenant un lien pour activer leur compte.  Ils ne pourront utiliser leur compte que lorsque celui-ci aura été activé.<br />
 		</li><li>
 			<strong>Approbation par un Admin</strong><br />
-				Lorsque cette option est sélectionnée, l\'inscription de tous les nouveaux utilisateurs de votre forum devra d\'abord être approuvés par les administrateurs pour être ensuite effective et leur permettre ainsi d\'être membres de votre communauté.
+				Lorsque cette option est sélectionnée, l\'inscription de tous les nouveaux utilisateurs de votre forum devra d\'abord être approuvée par les administrateurs pour être ensuite effective et leur permettre ainsi de rejoindre votre communauté.
 		</li>
 	</ul>';
 $helptxt['register_openid'] = '<strong>Identification avec OpenID</strong><br />
@@ -466,9 +465,9 @@ $helptxt['coppaType'] = 'Si la restriction d\'âge est active, ce paramètre dé
 	</ul>';
 $helptxt['coppaPost'] = 'Les champs de contact doivent être completées afin que les formulaires d\'autorisation parentale pour les membres n\'ayant pas l\'âge requis soient envoyés à l\'administrateur. Ces détails seront affichés à tous les mineurs et il leur est nécessaire d\'obtenir une approbation parentale. Une adresse postale ou un numéro de téléfax est le minimum requis.';
 
-$helptxt['allow_hideOnline'] = 'Avec cette option activée, tous les membres pourront cacher leur statut de connexion au forum aux autres visiteurs (sauf aux administrateurs). Si elle est désactivée, seuls les utilisateurs qui peuvent modérer le forum entier peuvent cacher leur présence. Notez bien que désactiver cette option ne changera rien dans le statut des membres connectés en ce moment - cela ne leur empéchera la manœuvre que pour les futures connexions.';
+$helptxt['allow_hideOnline'] = 'En activant cette option, les membres peuvent cacher leur statut de connexion au forum aux autres visiteurs (sauf aux administrateurs). Si elle est désactivée, seuls les utilisateurs qui peuvent modérer le forum entier peuvent cacher leur présence. Notez bien que désactiver cette option ne changera rien dans le statut des membres connectés en ce moment - cela ne leur empêchera la manœuvre que pour les futures connexions.';
 $helptxt['make_email_viewable'] = 'Si cette option est activée, les e-mails des utilisateurs, au lieu d\'être cachés aux membres normaux et aux invités, seront publiquement visibles sur le forum. Activer ceci exposera vos utilisateurs à un plus grand risque d\'être victime de spam si des robots collecteurs d\'adresses visitent votre forum. Notez que ce réglage n\'écrase pas le réglage utilisateur pour cacher son adresse e-mail aux autres utilisateurs. Activer ceci n\'est <strong>pas</strong> recommandé.';
-$helptxt['meta_keywords'] = 'Ces mots-clé sont placés dans les entêtes de chaque page pour indiquer aux robots le type de contenu de votre site (mais cette technique n\'est plus très efficace de nos jours, NDT). Séparez les mots par des virgules, et n\'utilisez pas de HTML. Si le champ est vide, la liste par défaut sera utilisée&nbsp;:<br /><div class="smalltext">&quot;PHP, MySQL, bulletin, board, free, open, source, smf, simple, machines, forum&quot;</div>';
+$helptxt['meta_keywords'] = 'Cette fonctionnalité est facultative. Ces mots-clés sont placés dans les entêtes de chaque page pour indiquer aux robots le type de contenu de votre site (mais cette technique n\'est plus très efficace de nos jours, NDT). Séparez les mots par des virgules, et n\'utilisez pas de HTML.';
 
 $helptxt['latest_support'] = 'Ce panneau affiche quelques-uns des problèmes et questions les plus fréquents et communs et des informations sur votre serveur. Ne vous inquiétez pas, ces informations ne sont stockées nulle part.<br /><br />Si l\'affichage du message &quot;Réception des informations de support&hellip;&quot; persiste, votre ordinateur ne peut probablement pas se connecter sur <a href="http://www.simplemachines.org/" target="_blank">www.simplemachines.org</a>.';
 $helptxt['latest_packages'] = 'Ici vous pouvez voir quelques paquets et mods parmi les plus populaires et d\'autres choisis au hasard, avec une installation facile et rapide.<br /><br />Si cette rubrique ne s\'affiche pas, votre ordinateur n\'arrive peut-être pas à se connecter à <a href="http://www.simplemachines.org/" target="_blank">www.simplemachines.org</a>.';

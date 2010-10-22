@@ -355,12 +355,10 @@ $txt['attachmentDirSizeLimit'] = 'Taille maximale du répertoire des fichiers jo
 $txt['attachmentPostLimit'] = 'Taille totale maximale des fichiers joints par message<div class="smalltext">(0 pour pas de limite)</div>';
 $txt['attachmentSizeLimit'] = 'Taille maximale de chaque fichier joint<div class="smalltext">(0 pour pas de limite)</div>';
 $txt['attachmentNumPerPostLimit'] = 'Nombre maximum de fichiers joints par message<div class="smalltext">(0 pour pas de limite)</div>';
-$txt['attachment_gd_warning'] = 'Le module GD n\'est pas installé actuellement. Le réencodage d\'images ne sera pas possible.';
 $txt['attachment_image_reencode'] = 'Réencoder les images potentiellement dangereuses envoyées en fichier joint';
-$txt['attachment_image_reencode_note'] = '(nécessite le module GD)';
 $txt['attachment_image_paranoid_warning'] = 'Cette fonctionnalité peut donner lieu à des faux positifs (fichiers sains rejetés).';
 $txt['attachment_image_paranoid'] = 'Effectuer un maximum de tests de sécurité sur les images envoyées en fichier joint';
-$txt['attachmentThumbnails'] = 'Montrer des vignettes pour les images attachées sous les messages';
+$txt['attachmentThumbnails'] = 'Montrer les images jointes sous forme de vignettes sous les messages';
 $txt['attachment_thumb_png'] = 'Sauvegarder les vignettes au format PNG';
 $txt['attachmentThumbWidth'] = 'Largeur maximale des vignettes';
 $txt['attachmentThumbHeight'] = 'Hauteur maximale des vignettes';
@@ -391,20 +389,17 @@ $txt['avatar_action_too_large'] = 'Si un avatar est trop grand&hellip;';
 $txt['option_refuse'] = 'le refuser';
 $txt['option_html_resize'] = 'effectuer un redimensionnement HTML';
 $txt['option_js_resize'] = 'le redimensionner avec JavaScript';
-$txt['option_download_and_resize'] = 'le télécharger et le redimensionner (requiert le module GD)';
+$txt['option_download_and_resize'] = 'le télécharger et le redimensionner';
 $txt['avatar_max_width_upload'] = 'Largeur maximale d\'un avatar transféré';
 $txt['avatar_max_height_upload'] = 'Hauteur maximale d\'un avatar transféré';
 $txt['avatar_resize_upload'] = 'Redimensionner les avatars trop grands';
-$txt['avatar_resize_upload_note'] = '(requiert le module GD)';
 $txt['avatar_download_png'] = 'Utiliser le format PNG pour les avatars redimensionnés';
-$txt['avatar_gd_warning'] = 'Le module GD n\'est pas installé sur votre serveur. Quelques options des avatars sont désactivées.';
 $txt['avatar_external'] = 'Avatars externes';
 $txt['avatar_upload'] = 'Avatars transférables';
 $txt['avatar_server_stored'] = 'Avatars stockés sur le serveur';
 $txt['avatar_server_stored_groups'] = 'Les Groupes de membres sont autorisés à sélectionner une serveur de stockage d\'avatars';
 $txt['avatar_upload_groups'] = 'Les Groupes de membres sont autorisés à transférer leur propre avatar sur le serveur';
-$txt['avatar_external_url_groups'] = 'Groupes de membres autorsés à sélectionner des avatars externes';
-$txt['avatar_external_url_groups'] = 'Groupes autorisés à choisir une adresse externe';
+$txt['avatar_external_url_groups'] = 'Groupes de membres autorisés à sélectionner des avatars externes';
 $txt['avatar_select_permission'] = 'Sélectionner les permissions pour chaque groupe';
 $txt['avatar_download_external'] = 'Télécharger l\'avatar à l\'URL donnée';
 $txt['custom_avatar_enabled'] = 'Transférer les avatars dans&hellip;';
@@ -415,8 +410,7 @@ $txt['custom_avatar_dir_desc'] = 'Evitez d\'utiliser le répertoire où se situe
 $txt['custom_avatar_url'] = 'URL des avatars stockés';
 $txt['custom_avatar_check_empty'] = 'Le répertoire de stockage des avatars transférés que vous avez spécifié semble être vide ou invalide. Merci de vérifier vos paramètres.';
 $txt['avatar_reencode'] = 'Réencoder les avatars potentiellement dangereux';
-$txt['avatar_reencode_note'] = '(nécessite le module GD)';
-$txt['avatar_paranoid_warning'] = 'Cette fonctionnalité peut donner lieu à des faux positifs (fichiers sains rejetés).';
+$txt['avatar_paranoid_warning'] = 'Cette fonctionnalité peut donner lieu à des faux positifs (avatars sains rejetés).';
 $txt['avatar_paranoid'] = 'Effectuer un maximum de tests de sécurité sur les avatars envoyés';
 $txt['avatar_banned_hide'] = 'Cacher l\'avatar des utilisateurs bannis';
 
@@ -480,6 +474,8 @@ $txt['manageposts_bbc_settings_submit'] = 'Enregistrer';
 $txt['manageposts_topic_settings'] = 'Paramètres des Sujets';
 $txt['manageposts_topic_settings_description'] = 'Ici vous pouvez paramétrer toutes les options en rapport avec les sujets.';
 $txt['manageposts_topic_settings_submit'] = 'Enregistrer';
+
+$txt['manageposts_merge'] = 'Doublons';
 
 $txt['removeNestedQuotes'] = 'Supprimer les citations imbriquées en citant un message';
 $txt['enableEmbeddedFlash'] = 'Inclure des animations Flash dans les messages';
@@ -624,6 +620,35 @@ $txt['spider_stats'] = 'Stats';
 $txt['paid_subscriptions'] = 'Abonnements payants';
 $txt['paid_subs_view'] = 'Voir les Abonnements';
 
+$txt['urlLength'] = 'Raccourcir les adresses de plus de (x) caractères dans les messages<div class="smalltext">Par défaut, 50 caractères. Mettez à 0 pour désactiver.</div>';
+
 $txt['allow_ignore_topics'] = 'Permettre aux membres d\'ignorer des sujets';
+
+// Pretty URLs
+$txt['pretty_urls'] = 'Adresses embellies';
+$txt['pretty_urls_desc'] = 'Les Adresses embellies (Pretty URLs) vous permettent de remplacer les longues adresses toutes moches, par de longues adresses toutes jolies, et optimisées pour les moteurs de recherche. Vous pouvez les activer ici, ainsi que leurs filtres, mais aussi vider leurs données et leur cache.';
+
+$txt['pretty'] = array(
+	'url' => 'Adresse embellie',
+	'url_desc' => 'L\'adresse URL utilisée pour votre site.<br /><div class="smalltext">N\'utilisez que l\'alphabet, les chiffres et le tiret (-). Laissez-le vide pour essayer d\'utiliser le nom ci-dessus. <strong>Une fois que votre site propose du contenu, évitez autant que possible de changer son URL !</strong></div>',
+);
+
+$txt['pretty_settings'] = 'Paramètres de base';
+$txt['pretty_maintenance'] = 'Maintenance';
+
+$txt['admin_pretty_urls'] = 'Administration des Adresses embellies';
+$txt['pretty_reset'] = 'Lancer la réinitialisation';
+$txt['pretty_refill'] = 'Repeupler la liste des sujets';
+$txt['pretty_enable'] = 'Autoriser la réécriture des adresses';
+$txt['pretty_cache'] = 'Autoriser la mise en cache des adresses';
+$txt['pretty_filters'] = 'Filtres de réécriture des adresses';
+$txt['pretty_save'] = 'Sauvegarder les changements';
+$txt['pretty_went_right'] = 'Opération réussie !';
+$txt['pretty_converted'] = 'Tous les titres de sujets ont été convertis !';
+$txt['pretty_duplicateboard'] = 'Cette adresse est déjà prise. Choisissez-en une autre.';
+$txt['pretty_filter_boards'] = 'Adresses des Quartiers<br /><div class="pretty_filter">http://yoursite.com/index.php?board=1 &rarr; http://yoursite.com/nom-du-quartier/</div>';
+$txt['pretty_filter_topics'] = 'Adresses des Sujets<br /><div class="pretty_filter">http://yoursite.com/index.php?topic=1.0 &rarr; http://yoursite.com/nom-du-quartier/nom-du-sujet/</div>';
+$txt['pretty_filter_actions'] = 'Adresses des Actions<br /><div class="pretty_filter">http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/hello/</div>';
+$txt['pretty_filter_profiles'] = 'Adresses des Profils<br /><div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/~nom-du-membre/<br />L\'adresse utilisera l\'identifiant de connexion de l\'utilisateur et non pas son nom affiché. Assurez-vous que cela ne dérange pas vos utilisateurs.</div>';
 
 ?>

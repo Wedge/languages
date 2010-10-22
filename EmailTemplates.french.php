@@ -30,7 +30,7 @@ $txt['emails'] = array(
 			@description:
 		*/
 		'subject' => 'Bienvenue sur {FORUMNAME}',
-		'body' => 'Merci de votre inscription sur {FORUMNAME}. Votre nom d\'utilisateur est {USERNAME}. En cas d\'oubli de mot de passe, remettez-le &#224; z&#233;ro en allant sur {FORGOTPASSWORDLINK}.
+		'body' => 'Merci d\'avoir rejoint {FORUMNAME}. Votre nom d\'utilisateur est {USERNAME}. En cas d\'oubli de mot de passe, remettez-le &#224; z&#233;ro en allant sur {FORGOTPASSWORDLINK}.
 
 Avant de pouvoir vous connecter, vous devez d\'abord activer votre compte en suivant ce lien :
 
@@ -196,20 +196,20 @@ En cas de souci avec l\'activation, merci d\'aller sur {ACTIVATIONLINKWITHOUTCOD
 				ACTIVATIONCODE: The activation code.
 			@description:
 		*/
-		'subject' => 'Welcome to {FORUMNAME}',
-		'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME} and your password is {PASSWORD}.
+		'subject' => 'Bienvenue sur {FORUMNAME}',
+		'body' => 'Merci pour votre inscription sur {FORUMNAME}. Votre identifiant est {USERNAME} et votre mot de passe est {PASSWORD}.
 
-Before you can login, you must first activate your account by selecting the following link:
+Avant de pouvoir vous connecter, vous devez d\'abord activer votre compte en suivant ce lien :
 
 {ACTIVATIONLINK}
 
-Should you have any problems with the activation, please visit {ACTIVATIONLINKWITHOUTCODE} and enter the code "{ACTIVATIONCODE}".
+En cas de souci avec l\'activation, rendez-vous sur {ACTIVATIONLINKWITHOUTCODE} et entrez-y le code "{ACTIVATIONCODE}".
 
 {REGARDS}',
 	),
 	'admin_register_immediate' => array(
-		'subject' => 'Welcome to {FORUMNAME}',
-		'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME} and your password is {PASSWORD}.
+		'subject' => 'Bienvenue sur {FORUMNAME}',
+		'body' => 'Merci d\'avoir rejoint {FORUMNAME}. Votre identifiant est {USERNAME} et votre mot de passe est {PASSWORD}.
 
 {REGARDS}',
 	),
