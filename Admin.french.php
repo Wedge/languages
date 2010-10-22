@@ -624,6 +624,17 @@ $txt['urlLength'] = 'Raccourcir les adresses de plus de (x) caractères dans les
 
 $txt['allow_ignore_topics'] = 'Permettre aux membres d\'ignorer des sujets';
 
+// Fusion des doublons
+$txt['merge_post_header'] = 'Fusion des doublons';
+$txt['merge_post_auto'] = 'Fusionner les doublons automatiquement<div class="smalltext">Dans un sujet, deux messages successifs d\'un même auteur sont considérés comme des doublons.</div>';
+$txt['merge_post_auto_time'] = 'Temps maximum entre deux messages pour qu\'ils soient fusionnés automatiquement.<div class="smalltext">(mettez 0 pour toujours fusionner)</div>';
+$txt['merge_post_admin_double_post'] = 'Fusionner les doublons des admins';
+$txt['merge_post_no_time'] = 'Ne pas indiquer l\'ancienne date avant le séparateur';
+$txt['merge_post_no_sep'] = 'Ne montrer ni le séparateur ni l\'ancienne date';
+$txt['merge_post_ignore_length'] = 'Ignorer la longueur maximale des messages';
+$txt['merge_post_separator'] = 'Séparateur entre les messages fusionnés (activez l\'option ci-dessus)<div class="smalltext">Vous pouvez utiliser du code BBC. Pour la date de l\'ancien post, utilisez la variable <strong>$date</strong> dans le champ texte.<br />Exemple : [size=1]$date[/size][hr][br] (version par défaut)</div>';
+$txt['merge_post_custom_separator'] = 'Utiliser son propre séparateur pour distinguer les messages fusionnés.<div class="smalltext">Les options au-dessus seront désactivées.</div>';
+
 // Pretty URLs
 $txt['pretty_urls'] = 'Adresses embellies';
 $txt['pretty_urls_desc'] = 'Les Adresses embellies (Pretty URLs) vous permettent de remplacer les longues adresses toutes moches, par de longues adresses toutes jolies, et optimisées pour les moteurs de recherche. Vous pouvez les activer ici, ainsi que leurs filtres, mais aussi vider leurs données et leur cache.';

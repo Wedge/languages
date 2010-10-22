@@ -349,14 +349,4 @@ $txt['languages_download_complete'] = 'Installation terminée';
 $txt['languages_download_complete_desc'] = 'Le pack de Langue a été installé avec succès. Veuillez cliquer <a href="%1$s">ici</a> pour retourner à la page de gestion des langues';
 $txt['languages_delete_confirm'] = 'Êtes-vous sûr de vouloir supprimer cette langue ?';
 
-$txt['merge_post_header'] = 'Fusion de posts';
-$txt['merge_post_auto'] = 'Fusionner les double-posts automatiquement';
-$txt['merge_post_auto_time'] = 'Temps maximum entre deux posts pour qu\'ils soient fusionnés automatiquement. <font size=1>(<strong>0 = toujours</strong>)</font>';
-$txt['merge_post_admin_double_post'] = 'Fusionner les double-posts des admins';
-$txt['merge_post_no_time'] = 'Ne pas indiquer l\'ancienne date avant le séparateur';
-$txt['merge_post_no_sep'] = 'Ne montrer ni le séparateur ni l\'ancienne date';
-$txt['merge_post_ignore_length'] = 'Ignorer la longueur maximale des posts';
-$txt['merge_post_separator'] = 'Séparateur entre les posts fusionnés (activez l\'option ci-dessus)<br /><span class="smalltext">Vous pouvez utiliser du code BBC. Pour la date de l\'ancien post, utilisez la variable <strong>$date</strong> dans le champ texte.<br />Exemple : [size=1]$date[/size][hr][br] (version par défaut)</span>';
-$txt['merge_post_custom_separator'] = 'Utiliser son propre séparateur pour distinguer les posts fusionnés.<br /><span class="smalltext">Les options au-dessus seront désactivées.</span>';
-
 ?>

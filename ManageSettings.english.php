@@ -350,14 +350,4 @@ $txt['languages_download_complete'] = 'Installation Complete';
 $txt['languages_download_complete_desc'] = 'Language pack installed successfully. Please click <a href="%1$s">here</a> to return to the languages page';
 $txt['languages_delete_confirm'] = 'Are you sure you want to delete this language?';
 
-$txt['merge_post_header'] = 'Merging double posts';
-$txt['merge_post_auto'] = 'Merge double posts automatically';
-$txt['merge_post_auto_time'] = 'Delay after which posts are no longer merged automatically. <font size=1>(<strong>0 = always merge</strong>)</font>';
-$txt['merge_post_admin_double_post'] = 'Merge double posts sent by administrators';
-$txt['merge_post_no_time'] = 'Don\'t show the older post\'s date before the separator';
-$txt['merge_post_no_sep'] = 'Show neither the separator, nor the older post\'s date.';
-$txt['merge_post_ignore_length'] = 'Ignore posts\' maximum length';
-$txt['merge_post_separator'] = 'Separator between merged posts (enable the setting above.)<br /><span class="smalltext">You may use BBCode. You can get the older post\'s date by using the <strong>$date</strong> variable in the text field.<br />Default is [size=1]$date[/size][hr][br]</span>';
-$txt['merge_post_custom_separator'] = 'Use a custom separator between merged posts.<br /><span class="smalltext">The settings above will be disabled.</span>';
-
 ?>

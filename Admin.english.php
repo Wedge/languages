@@ -625,6 +625,17 @@ $txt['urlLength'] = 'Trim URLs longer than (x) characters in posts<div class="sm
 
 $txt['allow_ignore_topics'] = 'Enable members to ignore topics';
 
+// Merge double posts
+$txt['merge_post_header'] = 'Merging double posts';
+$txt['merge_post_auto'] = 'Merge double posts automatically';
+$txt['merge_post_auto_time'] = 'Delay after which posts are no longer merged automatically.<div class="smalltext">(Set to 0 to always merge)</div>';
+$txt['merge_post_admin_double_post'] = 'Merge double posts sent by administrators';
+$txt['merge_post_no_time'] = 'Don\'t show the older post\'s date before the separator';
+$txt['merge_post_no_sep'] = 'Show neither the separator, nor the older post\'s date.';
+$txt['merge_post_ignore_length'] = 'Ignore posts\' maximum length';
+$txt['merge_post_separator'] = 'Separator between merged posts (enable the setting above.)<div class="smalltext">You may use BBCode. You can get the older post\'s date by using the <strong>$date</strong> variable in the text field.<br />Default is [size=1]$date[/size][hr][br]</div>';
+$txt['merge_post_custom_separator'] = 'Use a custom separator between merged posts.<div class="smalltext">The settings above will be disabled.</div>';
+
 // Pretty URLs
 $txt['pretty_urls'] = 'Pretty URLs';
 $txt['pretty_urls_desc'] = 'Pretty URLs allows you to enable better-looking URLs in the address bar. Search engines like this, too. Here, you can enable Pretty URLs and their individual filters, as well as reset their cache and repopulate topic/board data.';
