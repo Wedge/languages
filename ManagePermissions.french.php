@@ -79,7 +79,7 @@ $txt['permissions_view_classic'] = 'Classique';
 
 $txt['permissiongroup_general'] = 'Général';
 $txt['permissionname_view_stats'] = 'Voir les stats du forum';
-$txt['permissionhelp_view_stats'] = 'Les stats du forum sont une page résumant toutes les statistiques du forum&nbsp;: nombre de membres, nombre  de messages par jour et plusieurs Top 10. Autoriser cette permission ajoute un lien en bas de l\'accueil du forum (\'[+ de Stats]\').';
+$txt['permissionhelp_view_stats'] = 'Les stats du forum sont une page résumant toutes les statistiques du forum&nbsp;: nombre de membres, nombre de messages par jour et plusieurs Top 10. Autoriser cette permission ajoute un lien en bas de l\'accueil du forum (\'[+ de Stats]\').';
 $txt['permissionname_view_mlist'] = 'Voir la liste des membres et groupes';
 $txt['permissionhelp_view_mlist'] = 'La liste des membres affiche tous les membres qui se sont inscrits sur votre forum. La liste peut être classée et scrutée. La liste des membres est accessible depuis l\'accueil du forum et la page de stats, en cliquant sur le nombre de membres. Cela s\'applique également à la page des groupes, une mini-liste des membres présents dans un groupe spécifique.';
 $txt['permissionname_who_view'] = 'Voir la page <em>Qui est en ligne&nbsp;?</em>';

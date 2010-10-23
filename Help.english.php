@@ -416,7 +416,7 @@ $helptxt['db_persist'] = 'Keeps the connection active to increase performance.  
 $helptxt['ssi_db_user'] = 'Optional setting to use a different database user and password when you are using SSI.php.';
 
 $helptxt['countChildPosts'] = 'Checking this option will mean that posts and topics in a board\'s child board will count toward its totals on the index page.<br /><br />This will make things notably slower, but means that a parent with no posts in it won\'t show \'0\'.';
-$helptxt['fixLongWords'] = 'This option breaks words longer than a certain length into pieces so they don\'t disturb the forum\'s layout. (At least, not too much.)  This option should not be set to a value under 40.';
+$helptxt['fixLongWords'] = 'This option breaks words longer than a certain length into pieces so they don\'t disturb the forum\'s layout. (At least, not too much.) This option should not be set to a value under 40.';
 $helptxt['allow_ignore_boards'] = 'Checking this option will allow users to select boards they wish to ignore.';
 $helptxt['allow_ignore_topics'] = 'Checking this option will allow users to select topics they wish to ignore in <em>Unread replies</em> and <em>Unread posts</em>.';
 
