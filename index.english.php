@@ -774,7 +774,7 @@ $txt['search_date_posted'] = 'Posted:';
 $txt['merge_double'] = 'Merge';
 
 // Spoiler tags. But you're smart, so you don't need me telling.
-$txt['spoiler_tag_text'] = 'Spoiler';
-$txt['spoiler_tag_click_info'] = '(click to show or hide)';
+$txt['spoiler'] = 'Spoiler';
+$txt['click_for_spoiler'] = '(click to show/hide)';
 
 ?>

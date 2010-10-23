@@ -20,6 +20,7 @@ $txt['center'] = 'Centré';
 $txt['hyperlink'] = 'Insérer un lien';
 $txt['insert_email'] = 'Insérer une adresse e-mail';
 $txt['bbc_code'] = 'Insérer du code';
+$txt['bbc_spoiler'] = 'Insérer un spoiler';
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['bbc_quote'] = 'Citer ce message';
 $txt['list'] = 'Insérer une liste';

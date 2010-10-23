@@ -20,6 +20,7 @@ $txt['center'] = 'Centered';
 $txt['hyperlink'] = 'Insert Hyperlink';
 $txt['insert_email'] = 'Insert Email';
 $txt['bbc_code'] = 'Insert Code';
+$txt['bbc_spoiler'] = 'Insert Spoiler';
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['bbc_quote'] = 'Insert Quote';
 $txt['list'] = 'Insert List';
