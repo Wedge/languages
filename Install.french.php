@@ -89,7 +89,7 @@ $txt['install_settings_url_info'] = 'Ceci est l\'URL de votre forum <strong>sans
 $txt['install_settings_compress'] = 'Compression Gzip';
 $txt['install_settings_compress_title'] = 'Compresse les données envoyées afin d\'économiser la bande passante.';
 // In this string, you can translate the word "PASS" to change what it says when the test passes.
-$txt['install_settings_compress_info'] = 'Cette fonction ne fonctionne pas sur tous les serveurs, mais peut contribuer à économiser énormément la bande passante.<br />Cliquez <a href="install.php?obgz=1&amp;pass_string=REUSSI" onclick="return reqWin(this.href, 200, 60);" target="_blank">ici</a> pour tester. (Ça devrait seulement vous dire "REUSSI".)';
+$txt['install_settings_compress_info'] = 'Cette fonction ne fonctionne pas sur tous les serveurs, mais peut contribuer à économiser énormément la bande passante.<br />Cliquez <a href="install.php?obgz=1&amp;pass_string=REUSSI" onclick="return reqWin(this, 200, 60);" target="_blank">ici</a> pour tester. (Ça devrait seulement vous dire "REUSSI".)';
 $txt['install_settings_dbsession'] = 'Stocker les sessions dans la base de données';
 $txt['install_settings_dbsession_title'] = 'Utilisez la base de données pour stocker les sessions plutôt que d\'utiliser des fichiers.';
 $txt['install_settings_dbsession_info1'] = 'Cette fonction est une bonne solution la plupart du temps, rendant ainsi les sessions plus dépendantes du forum.';

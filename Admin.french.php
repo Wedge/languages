@@ -135,7 +135,7 @@ $txt['security_wrong'] = 'Tentative de connexion à l\'administration&nbsp;!' . 
 
 $txt['email_as_html'] = 'Envoyer au format HTML. (Vous pouvez utiliser du HTML normal dans cet e-mail.)';
 $txt['email_parsed_html'] = 'Ajouter les balises &lt;br /&gt; et &amp;nbsp; au message.';
-$txt['email_variables'] = 'Dans ce message, vous pouvez utiliser quelques &quot;variables&quot;. Cliquez <a href="' . $scripturl . '?action=helpadmin;help=emailmembers" onclick="return reqWin(this.href);" class="help">ici</a> pour plus d\'informations.';
+$txt['email_variables'] = 'Dans ce message, vous pouvez utiliser quelques &quot;variables&quot;. Cliquez <a href="' . $scripturl . '?action=helpadmin;help=emailmembers" onclick="return reqWin(this);" class="help">ici</a> pour plus d\'informations.';
 $txt['email_force'] = 'Envoyer ce message aux membres même s\'ils ont choisi de ne pas recevoir d\'annonces.';
 $txt['email_as_pms'] = 'Envoyer ceci à ces groupes par la messagerie personnelle.';
 $txt['email_continue'] = 'Continuer';
