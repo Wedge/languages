@@ -1,7 +1,6 @@
 <?php
-// Version: 2.0 RC3; Packages
+// Version: 2.0 RC4; Packages
 
-// Important! Before editing these language files please read the text at the top of index.english.php.
 $txt['package_proceed'] = 'Procéder';
 $txt['php_script'] = 'Le fichier de modification a été extrait, mais il est accompagné d\'un script PHP qui devrait être exécuté pour que tout fonctionne';
 $txt['package_run'] = 'Exécuter';

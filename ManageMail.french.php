@@ -1,7 +1,6 @@
 <?php
-// Version: 2.0 RC3; ManageMail
+// Version: 2.0 RC4; ManageMail
 
-// Important! Before editing these language files please read the text at the top of index.english.php.
 $txt['mailqueue_desc'] = 'D\'ici, vous pouvez configurer vos paramètres E-mail, mais aussi consulter et gérer la File d\'attente E-mail si celle-ci est activée.';
 
 $txt['mail_type'] = 'Type d\'E-mail';

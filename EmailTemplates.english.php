@@ -1,7 +1,5 @@
 <?php
-// Version: 2.0 RC3; EmailTemplates
-
-// Important! Before editing these language files please read the text at the top of index.english.php.
+// Version: 2.0 RC4; EmailTemplates
 
 // Since all of these strings are being used in emails, numeric entities should be used.
 

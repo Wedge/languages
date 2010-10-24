@@ -1,7 +1,5 @@
 <?php
-// Version: 2.0 RC3; Reports
-
-// Important! Before editing these language files please read the text at the top of index.english.php.
+// Version: 2.0 RC4; Reports
 
 $txt['generate_reports_desc'] = 'From this section you can generate a variety of reports to assist in the administration of your forum. Simply follow the steps below to select the option of your choice.';
 $txt['generate_reports_continue'] = 'Continue';

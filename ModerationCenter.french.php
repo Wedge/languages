@@ -1,9 +1,8 @@
 <?php
-// Version: 2.0 RC3; ModerationCenter
+// Version: 2.0 RC4; ModerationCenter
 
 global $scripturl;
 
-// Important! Before editing these language files please read the text at the top of index.english.php.
 $txt['moderation_center'] = 'Centre de Modération';
 $txt['mc_main'] = 'Généralités';
 $txt['mc_posts'] = 'Messages';

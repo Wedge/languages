@@ -1,7 +1,5 @@
 <?php
-// Version: 2.0 RC3; ManageScheduledTasks
-
-// Important! Before editing these language files please read the text at the top of index.english.php.
+// Version: 2.0 RC4; ManageScheduledTasks
 
 $txt['scheduled_tasks_title'] = 'Scheduled Tasks';
 $txt['scheduled_tasks_header'] = 'All Scheduled Tasks';

@@ -1,8 +1,6 @@
 <?php
 // Version: 1.0 Alpha; Security
 
-// Important! Before editing these language files please read the text at the top of index.english.php.
-
 $txt['http_error'] = 'HTTP Error';
 
 // Titles for the errors

@@ -1,7 +1,6 @@
 <?php
-// Version: 2.0 RC3; Search
+// Version: 2.0 RC4; Search
 
-// Important! Before editing these language files please read the text at the top of index.english.php.
 $txt['set_parameters'] = 'Régler les paramètres de recherche';
 $txt['choose_board'] = 'Choisir une section dans laquelle rechercher, ou chercher dans toutes les sections';
 $txt['all_words'] = 'contenant tous ces mots';

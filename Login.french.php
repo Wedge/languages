@@ -1,9 +1,8 @@
 <?php
-// Version: 2.0 RC3; Login
+// Version: 2.0 RC4; Login
 
 global $context;
 
-// Important! Before editing these language files please read the text at the top of index.english.php.
 // Registration agreement page.
 $txt['registration_agreement'] = 'Accord d\'inscription';
 $txt['agreement_agree'] = 'J\'accepte les conditions de ce document.';

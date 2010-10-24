@@ -1,7 +1,5 @@
 <?php
-// Version: 2.0 RC3; Themes
-
-// Important! Before editing these language files please read the text at the top of index.english.php.
+// Version: 2.0 RC4; Themes
 
 $txt['themeadmin_explain'] = 'Themes are the different looks and feels of your forum.  These settings affect the selection of themes, and which themes guests and other members use.';
 

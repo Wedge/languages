@@ -1,7 +1,6 @@
 <?php
-// Version: 2.0 RC3; ManageSmileys
+// Version: 2.0 RC4; ManageSmileys
 
-// Important! Before editing these language files please read the text at the top of index.english.php.
 $txt['smiley_sets_save'] = 'Sauvegarder les Changements';
 $txt['smiley_sets_add'] = 'Nouveau jeu de smileys';
 $txt['smiley_sets_delete'] = 'Effacer la sélection';

@@ -1,7 +1,5 @@
 <?php
-// Version: 2.0 RC3; ManageMembers
-
-// Important! Before editing these language files please read the text at the top of index.english.php.
+// Version: 2.0 RC4; ManageMembers
 
 global $context;
 
@@ -43,6 +41,7 @@ $txt['membergroups_edit_desc'] = 'Group description';
 $txt['membergroups_edit_group_type'] = 'Group Type';
 $txt['membergroups_edit_select_group_type'] = 'Select Group Type';
 $txt['membergroups_group_type_private'] = 'Private <span class="smalltext">(Membership must be assigned)</span>';
+$txt['membergroups_group_type_protected'] = 'Protected <span class="smalltext">(Only administrators can manage and assign)</span>';
 $txt['membergroups_group_type_request'] = 'Requestable <span class="smalltext">(User may request membership)</span>';
 $txt['membergroups_group_type_free'] = 'Free <span class="smalltext">(User may leave and join group at will)</span>';
 $txt['membergroups_group_type_post'] = 'Post Based <span class="smalltext">(Membership based on post count)</span>';

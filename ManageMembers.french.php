@@ -1,9 +1,8 @@
 <?php
-// Version: 2.0 RC3; ManageMembers
+// Version: 2.0 RC4; ManageMembers
 
 global $context;
 
-// Important! Before editing these language files please read the text at the top of index.english.php.
 $txt['groups'] = 'Groupes';
 $txt['viewing_groups'] = 'Affichage des groupes de membres';
 $txt['visible_to_all'] = '(déjà visible à tous les membres)';

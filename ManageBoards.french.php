@@ -1,7 +1,5 @@
 <?php
-// Version: 2.0 RC3; ManageBoards
-
-// Important! Before editing these language files please read the text at the top of index.english.php.
+// Version: 2.0 RC4; ManageBoards
 
 $txt['boards_and_cats'] = 'Gestion des Sections et des Catégories';
 $txt['order'] = 'Ordre';

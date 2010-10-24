@@ -1,7 +1,5 @@
 <?php
-// Version: 2.0 RC3; Wireless
-
-// Important! Before editing these language files please read the text at the top of index.english.php.
+// Version: 2.0 RC4; Wireless
 
 $txt['wireless_error_home'] = 'Board index';
 

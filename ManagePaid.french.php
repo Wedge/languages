@@ -1,9 +1,8 @@
 <?php
-// Version: 2.0 RC3; ManagePaid
+// Version: 2.0 RC4; ManagePaid
 
 global $boardurl;
 
-// Important! Before editing these language files please read the text at the top of index.english.php.
 // Symbols.
 $txt['usd_symbol'] = '$%1.2f';
 $txt['eur_symbol'] = '&euro;%1.2f';

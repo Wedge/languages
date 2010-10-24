@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0 RC3; Install
+// Version: 2.0 RC4; Install
 
 // This should be the same as in index.language.php
 $txt['lang_rtl'] = false;
@@ -17,10 +17,10 @@ $txt['installer_language'] = 'Langue';
 $txt['installer_language_set'] = 'Régler';
 $txt['congratulations'] = 'Félicitations, le processus d\'installation est terminé&nbsp;!';
 $txt['congratulations_help'] = 'Si, à tout moment, vous avez besoin de support, ou bien si SMF ne fonctionne pas correctement, rappelez-vous que <a href="http://www.simplemachines.org/community/index.php" target="_blank">l\'aide an anglais est disponible</a> (en français aussi, dans <a href="http://www.simplemachines.org/community/index.php?board=14.0">la section dédiée au support francophone chez Simple Machines</a> et chez la communauté d\'utilisateurs <a href="http://www.simplemachines-fr.org">SimpleMachines-FR</a>).';
-$txt['still_writable'] = 'Votre dossier d\'installation est toujours ouvert en écriture.  Ça serait une bonne idée de changer ses droits d\'accès (chmod) afin de le fermer en écriture, pour des raisons de sécurité.';
+$txt['still_writable'] = 'Votre dossier d\'installation est toujours ouvert en écriture. Ça serait une bonne idée de changer ses droits d\'accès (chmod) afin de le fermer en écriture, pour des raisons de sécurité.';
 $txt['delete_installer'] = 'Cliquez ici pour effacer cet installateur maintenant.';
 $txt['delete_installer_maybe'] = '<em>(ne fonctionne pas sur tous les serveurs)</em>';
-$txt['go_to_your_forum'] = 'Maintenant, vous pouvez aller voir <a href="%1$s">votre tout nouveau forum</a> et commencer à l\'utiliser.  Vous devrez d\'abord vous connecter, pour ensuite pouvoir accéder au Centre d\'administration.';
+$txt['go_to_your_forum'] = 'Maintenant, vous pouvez aller voir <a href="%1$s">votre tout nouveau forum</a> et commencer à l\'utiliser. Vous devrez d\'abord vous connecter, pour ensuite pouvoir accéder au Centre d\'administration.';
 $txt['good_luck'] = 'Bonne chance&nbsp;!<br />L\'équipe Simple Machines';
 
 $txt['install_welcome'] = 'Bienvenue';
@@ -89,7 +89,7 @@ $txt['install_settings_url_info'] = 'Ceci est l\'URL de votre forum <strong>sans
 $txt['install_settings_compress'] = 'Compression Gzip';
 $txt['install_settings_compress_title'] = 'Compresse les données envoyées afin d\'économiser la bande passante.';
 // In this string, you can translate the word "PASS" to change what it says when the test passes.
-$txt['install_settings_compress_info'] = 'Cette fonction ne fonctionne pas sur tous les serveurs, mais peut contribuer à économiser énormément la bande passante.<br />Cliquez <a href="install.php?obgz=1&amp;pass_string=REUSSI" onclick="return reqWin(this.href, 200, 60);" target="_blank">ici</a> pour tester. (ça devrait seulement vous dire "REUSSI".)';
+$txt['install_settings_compress_info'] = 'Cette fonction ne fonctionne pas sur tous les serveurs, mais peut contribuer à économiser énormément la bande passante.<br />Cliquez <a href="install.php?obgz=1&amp;pass_string=REUSSI" onclick="return reqWin(this.href, 200, 60);" target="_blank">ici</a> pour tester. (Ça devrait seulement vous dire "REUSSI".)';
 $txt['install_settings_dbsession'] = 'Stocker les sessions dans la base de données';
 $txt['install_settings_dbsession_title'] = 'Utilisez la base de données pour stocker les sessions plutôt que d\'utiliser des fichiers.';
 $txt['install_settings_dbsession_info1'] = 'Cette fonction est une bonne solution la plupart du temps, rendant ainsi les sessions plus dépendantes du forum.';
@@ -101,8 +101,6 @@ $txt['install_settings_proceed'] = 'Procéder';
 
 $txt['db_settings'] = 'Paramètres du Serveur de Base de données';
 $txt['db_settings_info'] = 'Ce sont les paramètres à utiliser pour votre serveur de base de données. Si vous n\'en connaissez pas les valeurs, essayez de les demander à votre hébergeur.';
-$txt['db_settings_type'] = 'Type de base de données';
-$txt['db_settings_type_info'] = 'Plusieurs types de bases de données supportées ont été détectées - laquelle voudriez-vous utiliser ?';
 $txt['db_settings_server'] = 'Nom du serveur';
 $txt['db_settings_server_info'] = 'C\'est pratiquement toujours localhost - donc si vous ne savez pas, essayez localhost.';
 $txt['db_settings_username'] = 'Nom d\'utilisateur';
@@ -112,8 +110,6 @@ $txt['db_settings_password_info'] = 'Ici, mettez le mot de passe nécessaire à 
 $txt['db_settings_database'] = 'Nom de la base de données';
 $txt['db_settings_database_info'] = 'Indiquez le nom de la base de données que vous voulez utiliser pour stocker des données d\'SMF.';
 $txt['db_settings_database_info_note'] = 'Si cette base de données n\'existe pas, cet installateur essaiera de la créer.';
-$txt['db_settings_database_file'] = 'Nom de fichier de la base de données';
-$txt['db_settings_database_file_info'] = 'Le nom du fichier dans lequel stocker les données d\'SMF. Nous vous recommandons pour cela d\'utiliser le nom généré aléatoirement et de vous assurer que le chemin d\'accès du fichier est sur un endroit non public de votre serveur.';
 $txt['db_settings_prefix'] = 'Préfixe de Table';
 $txt['db_settings_prefix_info'] = 'Le préfixe pour chaque table de la base de données. <strong>Ne pas installer deux forums avec le même préfixe&nbsp;!</strong><br />Cette valeur permet d\'avoir plusieurs installations différentes sur une seule base de données.';
 $txt['db_populate'] = 'Base de Données remplie';
@@ -142,7 +138,7 @@ $txt['user_settings_proceed'] = 'Terminer';
 
 $txt['ftp_checking_writable'] = 'Vérifie si les fichiers sont inscriptibles';
 $txt['ftp_setup'] = 'Informations sur la connexion FTP';
-$txt['ftp_setup_info'] = 'Cet installateur peut se connecter par FTP afin de spécifier les bons droits d\'accès aux fichiers du forum.  Si la procédure ne fonctionne pas, vous devrez modifier manuellement les droits d\'accès des fichiers. Veuillez noter que cette fonction ne supporte actuellement pas le SSL.';
+$txt['ftp_setup_info'] = 'Cet installateur peut se connecter par FTP afin de spécifier les bons droits d\'accès aux fichiers du forum. Si la procédure ne fonctionne pas, vous devrez modifier manuellement les droits d\'accès des fichiers. Veuillez noter que cette fonction ne supporte actuellement pas le SSL.';
 $txt['ftp_server'] = 'Serveur';
 $txt['ftp_server_info'] = 'Ceci devrait être l\'adresse et le port de votre serveur FTP.';
 $txt['ftp_port'] = 'Port';
@@ -160,9 +156,9 @@ $txt['ftp_setup_again'] = 'pour vérifier si les fichiers sont de nouveaux acces
 
 $txt['error_php_too_low'] = 'Attention&nbsp;! Il semblerait que votre serveur ne contienne pas une version de PHP compatible avec <strong>les exigeances minimales requises</strong> de SMF.<br />Si vous n\'êtes pas votre propre hébergeur, vous devrez lui demander d\'effectuer une mise à jour, ou changer d\'hébergeur. Autrement, veuillez mettre à jour PHP vers une version plus récente.<br /><br />Si vous savez pour sûr que votre version de PHP est assez récente, vous pouvez continuer, bien que cela soit fortement déconseillé.';
 $txt['error_missing_files'] = 'Incapable de trouver les fichiers nécessaires à l\'installation dans le répertoire de ce script&nbsp;!<br /><br />Veuillez vous assurer d\'avoir transféré la totalité des fichiers de l\'archive d\'installation, incluant le fichier SQL, et réessayez plus tard.';
-$txt['error_session_save_path'] = 'Veuillez informer votre hébergeur que le <strong>session.save_path spécifié dans php.ini</strong> est invalide&nbsp;!  Il a besoin d\'être changé vers un répertoire <strong>existant</strong> et <strong>accessible en écriture</strong> par l\'utilisateur sur lequel fonctionne PHP.<br />';
+$txt['error_session_save_path'] = 'Veuillez informer votre hébergeur que le <strong>session.save_path spécifié dans php.ini</strong> est invalide&nbsp;! Il a besoin d\'être changé vers un répertoire <strong>existant</strong> et <strong>accessible en écriture</strong> par l\'utilisateur sur lequel fonctionne PHP.<br />';
 $txt['error_no_gd_library'] = 'La version de PHP configurée sur votre serveur web nécessite la présence de la librairie graphique GD2, utilisée pour redimensionner les fichiers joints et avatars, ainsi que pour le support des CAPTCHA.<br /><br />Vous devrez installer et configurer le support GD2 dans PHP avant de pouvoir continuer. Si vous n\'êtes pas votre propre hébergeur, contactez-le pour qu\'il modernise un peu sa logithèque poussiéreuse, ou changez d\'hébergeur.';
-$txt['error_windows_chmod'] = 'Vous êtes sous un serveur Windows, et quelques fichiers cruciaux ne sont pas accessibles en écriture. Veuillez contacter votre hébergeur afin qu\'il donne des <strong>permissions d\'écritures</strong> à l\'utilisateur sur lequel PHP fonctionne pour les fichiers de votre installation de SMF.  Les fichiers ou dossiers suivants doivent être accessibles en écriture&nbsp;:';
+$txt['error_windows_chmod'] = 'Vous êtes sous un serveur Windows, et quelques fichiers cruciaux ne sont pas accessibles en écriture. Veuillez contacter votre hébergeur afin qu\'il donne des <strong>permissions d\'écritures</strong> à l\'utilisateur sur lequel PHP fonctionne pour les fichiers de votre installation de SMF. Les fichiers ou dossiers suivants doivent être accessibles en écriture&nbsp;:';
 $txt['error_ftp_no_connect'] = 'Impossible de se connecter au serveur FTP avec ces renseignements.';
 $txt['error_db_file'] = 'Impossible de trouver le script source de la base de données&nbsp;! Veuillez vérifier que le fichier %1$s est dans le répertoire source de votre forum.';
 $txt['error_db_connect'] = 'Impossible de se connecter au serveur de base de données avec les informations fournies.<br /><br />Si vous n\'êtes pas sûr de ces informations, veuillez contacter votre hébergeur.';
@@ -172,12 +168,12 @@ $txt['error_db_queries'] = 'Certaines requêtes n\'ont pu été exécutées norm
 $txt['error_db_queries_line'] = 'Ligne #';
 $txt['error_db_missing'] = 'L\'installateur a n\'a pas pu détecter de support pour les bases de données dans PHP. Veuillez demander à votre hébergeur de s\'assurer que PHP a été compilé avec les bases de données désirées, ou que l\'extension associée a bien été chargée.';
 $txt['error_db_script_missing'] = 'L\'installateur n\'a pas trouvé de fichier de script pour la base de données demandée. Vérifiez que vous avez mis en ligne tous les fichiers nécessaires, par exemple &quot;%1$s&quot;';
-$txt['error_session_missing'] = 'L\'installateur a été incapable de détecter le support des sessions dans la version de PHP installé sur votre serveur.  Veuillez demander à votre hébergeur de vérifier que PHP a été compilé avec le support des sessions (en fait, ça doit être explicitement spécifié compilé sans cela.)';
+$txt['error_session_missing'] = 'L\'installateur a été incapable de détecter le support des sessions dans la version de PHP installé sur votre serveur. Veuillez demander à votre hébergeur de vérifier que PHP a été compilé avec le support des sessions (en fait, ça doit être explicitement spécifié compilé sans cela.)';
 $txt['error_user_settings_again_match'] = 'Vous avez tapé deux mots de passe différents&nbsp;!';
 $txt['error_user_settings_no_password'] = 'Votre mot de passe doit avoir au moins quatre caractères.';
 $txt['error_user_settings_taken'] = 'Désolé, un utilisateur est déjà inscrit sous ce nom et/ou mot de passe.<br /><br />Le nouveau compte n\'a pas été créé.';
-$txt['error_user_settings_query'] = 'Une erreur de base de données s\'est produite lors de la création d\'un administrateur.  L\'erreur était&nbsp;:';
-$txt['error_subs_missing'] = 'Incapable de trouver le fichier Sources/Subs.php.  Veuillez vous assurer qu\'il a été transféré correctement, puis réessayez à nouveau.';
+$txt['error_user_settings_query'] = 'Une erreur de base de données s\'est produite lors de la création d\'un administrateur. L\'erreur était&nbsp;:';
+$txt['error_subs_missing'] = 'Incapable de trouver le fichier Sources/Subs.php. Veuillez vous assurer qu\'il a été transféré correctement, puis réessayez à nouveau.';
 $txt['error_db_alter_priv'] = 'Le compte de base de données que vous avez spécifié n\'a pas la permission de modifier (ALTER), créer (CREATE) et/ou supprimer (DROP) les tables de la base de données. Ces fonctions sont nécessaires au bon fonctionnement de SMF.';
 $txt['error_versions_do_not_match'] = 'L\'installateur a détecté une autre version de SMF déjà installée avec ces informations spécifiques. Si vous essayez de lancer la mise à jour, vous devez utiliser l\'upgradeur et non pas l\'installateur.<br /><br />Ou alors, vous pouvez désirer utiliser des informations différentes, ou alors vous effectuez une sauvegarde puis vous supprimez les données actuellement dans la base de donnée.';
 $txt['error_mod_security'] = 'L\'installateur a détecté que le module <em>mod_security</em> est installé sur votre serveur web. <em>mod_security</em> bloquera les formulaires transmis avant même qu\'SMF ne puisse faire quoi que ce soit. SMF inclut de base un scanner de sécurité plus efficace que mod_security et qui ne bloque pas les formulaires transmis.<br /><br /><a href="http://www.simplemachines.org/redirect/mod_security">Plus d\'informations sur la désactivation de mod_security</a>';
@@ -187,7 +183,6 @@ $txt['error_already_installed'] = 'L\'installateur a détecté que SMF est déj�
 $txt['error_warning_notice'] = 'Attention&nbsp;!';
 $txt['error_script_outdated'] = 'Ce script d\'installation n\'est pas à jour&nbsp;! La version actuelle d\'SMF est %1$s mais le script d\'installation est pour %2$s.<br /><br />
 	Nous vous recommandons de visiter le site de <a href="http://www.simplemachines.org">Simple Machines</a> pour vous assurer que vous installez bien la dernière version.';
-$txt['error_db_prefix_numeric'] = 'Le type de base de données choisi ne supporte pas l\'utilisation de nombres en tant que préfixe.';
 $txt['error_invalid_characters_username'] = 'Un caractère invalide a été utilisé dans le Nom d\'utilisateur.';
 $txt['error_username_too_long'] = 'Le Nom d\'utilisateur doit faire moins de 25 caractères.';
 $txt['error_username_left_empty'] = 'Vous n\'avez pas rempli le champ Nom d\'utilisateur.';

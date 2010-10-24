@@ -1,7 +1,6 @@
 <?php
-// Version: 2.0 RC3; Wireless
+// Version: 2.0 RC4; Wireless
 
-// Important! Before editing these language files please read the text at the top of index.english.php.
 $txt['wireless_error_home'] = 'Accueil du forum';
 
 $txt['wireless_options'] = 'Options supplémentaires';
