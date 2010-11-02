@@ -149,16 +149,9 @@ $txt['credits_beta_message'] = 'Les valeureux élus qui ont sans relâche ni pit
 $txt['credits_groups_founder'] = 'Père Fondateur d\'SMF';
 $txt['credits_groups_orignal_pm'] = 'Gestionnaires originels du Projet';
 
-// List of people who have made more than a token contribution to this translation. (blank for English)
+// List of people who have made more than a token contribution to this translation. (Blank for English)
 $txt['translation_credits'] = array(
-	'<i>Nouvelle traduction et supervision</i>&nbsp;: René-Gilles Deberdt (Nao, <a href="http://noisen.com/">Noisen.com</a>)',
-	'<i>aidé de</i>&nbsp;: GravuTrad',
-	'chadon',
-	'DeathSign',
-	'Eleglin',
-	'<i>et pour l\'ancienne traduction</i>&nbsp;: Alexandre P.',
-	'Sparcool',
-	'Lunatic',
+	'<i>Nouvelle traduction</i>&nbsp;: <a style="text-decoration: underline" href="http://nao.noisen.com/">René-Gilles Deberdt</a>, encore lui. <i>Et pour l\'ancienne traduction</i>&nbsp;: Alexandre P., Sparcool et Lunatic.',
 );
 
 ?>

@@ -41,6 +41,7 @@ $txt['membergroups_edit_desc'] = 'Description du Groupe';
 $txt['membergroups_edit_group_type'] = 'Type de Groupe';
 $txt['membergroups_edit_select_group_type'] = 'Choisissez l\'un de ces types de groupe';
 $txt['membergroups_group_type_private'] = 'Privé <span class="smalltext">(Les membres sont ajoutés manuellement)</span>';
+$txt['membergroups_group_type_protected'] = 'Protégé <span class="smalltext">(Seuls les administrateurs peuvent le gérer)</span>';
 $txt['membergroups_group_type_request'] = 'Sur demande <span class="smalltext">(Tout le monde peut demander à être membre du groupe)</span>';
 $txt['membergroups_group_type_free'] = 'Libre <span class="smalltext">(Tout le monde peut rejoindre et quitter le groupe à tout moment)</span>';
 $txt['membergroups_group_type_post'] = 'Basé sur les messages <span class="smalltext">(L\'appartenance au groupe dépend du nombre de messages postés)</span>';
