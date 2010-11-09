@@ -30,6 +30,7 @@ $txt['lastActive'] = 'User online time threshold';
 $txt['trackStats'] = 'Track daily statistics';
 $txt['hitStats'] = 'Track daily page views (must have stats enabled)';
 $txt['enableCompressedOutput'] = 'Enable compressed output';
+$txt['enableCompressedCSS'] = 'Enable compressed CSS';
 $txt['disableTemplateEval'] = 'Disable evaluation of templates';
 $txt['db_show_debug'] = 'Show debug information';
 $txt['db_show_debug_who'] = 'Show debug information to which users:';

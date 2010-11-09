@@ -30,6 +30,7 @@ $txt['lastActive'] = 'Seuil de temps de connexion en ligne';
 $txt['trackStats'] = 'Suivi des statistiques au quotidien';
 $txt['hitStats'] = 'Suivi des pages vues au quotidien (les stats doivent être activées)';
 $txt['enableCompressedOutput'] = 'Activer la compression des pages';
+$txt['enableCompressedCSS'] = 'Activer la compression des fichiers CSS';
 $txt['disableTemplateEval'] = 'Désactiver l\'évaluation des modèles (templates)';
 $txt['db_show_debug'] = 'Montrer les informations de débogage';
 $txt['db_show_debug_who'] = 'Montrer les informations de débogage à ces utilisateurs&nbsp;:';

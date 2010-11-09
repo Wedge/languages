@@ -274,6 +274,9 @@ $helptxt['pollMode'] = 'This selects whether polls are enabled or not. If polls 
 $helptxt['enableVBStyleLogin'] = 'This will show a more compact login on every page of the forum for guests.';
 $helptxt['enableCompressedOutput'] = 'This option will compress output to lower bandwidth consumption, but it requires
 		zlib to be installed.';
+$helptxt['enableCompressedCSS'] = 'This option will compress CSS to gzip format after caching them. It requires zlib to be installed, and the correct .htaccess
+		settings to be initialized. This will save your server the hassle of gzipping these files on the fly each time they are requested.
+		If it doesn\'t work, the stylesheets will be inactive and you should disable the setting.';
 $helptxt['disableTemplateEval'] = 'By default, templates are evaluated instead of just included. This helps with showing more useful debug information in case a template contains an error.<br /><br />
 		On large forums however, this customised inclusion process may be significantly slower. Therefore, advanced users may wish to disable it.';
 $helptxt['db_show_debug'] = 'Enables query debugging features. This is very useful for debugging purposes, and the debug query information is shown at the bottom of each
