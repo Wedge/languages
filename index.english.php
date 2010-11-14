@@ -696,7 +696,7 @@ $txt['account'] = 'Account Settings';
 $txt['forumprofile'] = 'Forum Profile';
 
 $txt['modSettings_title'] = 'Features and Options';
-$txt['package'] = 'Packages';
+$txt['package'] = 'Add-ons';
 $txt['errlog'] = 'Error Log';
 $txt['edit_permissions'] = 'Permissions';
 $txt['mc_unapproved_attachments'] = 'Unapproved Attachments';

@@ -263,21 +263,21 @@ $txt['smileys_upload_error_illegal'] = 'Format d\'image interdit.';
 $txt['search_invalid_weights'] = 'La pertinence des recherches n\'est pas bien configurée. Au moins un dispositif devrait être configuré afin d\'être différent de zéro.  Veuillez rapporter cette erreur à l\'administrateur.';
 $txt['unable_to_create_temporary'] = 'L\'outil de recherche a été incapable de créer des tables temporaires.  Veuillez réessayer.';
 
-$txt['package_no_file'] = 'Impossible de trouver le fichier de paquet&nbsp;!';
+$txt['package_no_file'] = 'Impossible de trouver le fichier d\'extension&nbsp;!';
 $txt['packageget_unable'] = 'Impossible de se connecter au serveur. Veuillez réessayer en utilisant plutôt <a href="%1$s" target="_blank" class="new_win">cette URL</a>.';
-$txt['not_on_simplemachines'] = 'Désolé, les paquets ne peuvent être téléchargés que de cette façon depuis le serveur simplemachines.org.';
-$txt['package_cant_uninstall'] = 'Ce paquet n\'a jamais été installé ou a déjà été désinstallé - vous ne pouvez pas le désinstaller maintenant.';
-$txt['package_cant_download'] = 'Vous ne pouvez pas installer ou télécharger de paquets parce que le répertoire /Packages ou un de ses fichiers est bloqué en écriture&nbsp;!';
-$txt['package_upload_error_nofile'] = 'Vous n\'avez pas choisi de paquet à envoyer.';
-$txt['package_upload_error_failed'] = 'Échec d\'envoi du paquet. Veuillez vérifier les droits d\'accès du répertoire&nbsp;!';
+$txt['not_on_simplemachines'] = 'Désolé, les extensions ne peuvent être téléchargées que de cette façon depuis le serveur simplemachines.org.';
+$txt['package_cant_uninstall'] = 'Cette extension n\'a jamais été installée ou a déjà été désinstallée - vous ne pouvez pas la désinstaller maintenant.';
+$txt['package_cant_download'] = 'Vous ne pouvez pas installer ou télécharger d\'extensions parce que le répertoire /Packages ou un de ses fichiers est bloqué en écriture&nbsp;!';
+$txt['package_upload_error_nofile'] = 'Vous n\'avez pas choisi d\'extension à envoyer.';
+$txt['package_upload_error_failed'] = 'Échec d\'envoi de l\'extension. Veuillez vérifier les droits d\'accès du répertoire&nbsp;!';
 $txt['package_upload_error_exists'] = 'Le fichier que vous transférez existe déjà sur le serveur. Veuillez tout d\'abord le supprimer, puis réessayer.';
-$txt['package_upload_error_supports'] = 'Le gestionnaire de paquets permet actuellement uniquement ces types de fichier&nbsp;: %1$s.';
-$txt['package_upload_error_broken'] = 'Le paquet n\'a pas pu être téléchargé pour la raison suivante&nbsp;:<br />&quot;%1$s&quot;';
+$txt['package_upload_error_supports'] = 'Le gestionnaire d\'extensions permet actuellement uniquement ces types de fichier&nbsp;: %1$s.';
+$txt['package_upload_error_broken'] = 'L\'extension n\'a pas pu être téléchargée pour la raison suivante&nbsp;:<br />&quot;%1$s&quot;';
 
-$txt['package_get_error_not_found'] = 'Impossible de trouver le paquet que vous essayez d\'installer. Essayez d\'uploader le paquet manuellement dans votre répertoire Packages.';
-$txt['package_get_error_missing_xml'] = 'Le fichier package-info.xml est introuvable dans le paquet que vous essayez d\'installer. Il doit se trouver à la racine du répertoire du paquet.';
-$txt['package_get_error_is_zero'] = 'Le paquet a été téléchargé avec succès, mais il semble être vide. Vérifiez que le répertoire Packages et son sous-répertoire &quot;temp&quot; sont inscriptibles. Si le problème persiste, essayez d\'extraire le paquet sur votre PC et d\'uploader les fichiers extraits manuellement vers un sous-répertoire de Packages. Par exemple, si le paquet s\'appelle shout.tar.gz, vous devriez&nbsp;:<br />1) Télécharger le fichier sur votre machine et le décompresser.<br />2) Utiliser un client FTP pour créer un nouveau répertoire dans le répertoire &quot;Packages&quot;, par exemple ici &quot;shout&quot;.<br />3) Y placer tous les fichiers du paquet extrait.<br />4) Revenir sur la page du gestionnaire de paquets, et le paquet devrait s\'y trouver automatiquement.';
-$txt['package_get_error_packageinfo_corrupt'] = 'SMF n\'a pas trouvé d\'informations valables dans le fichier package-info.xml inclus dans le paquet. Le paquet comporte peut-être une erreur, ou il est corrompu.';
+$txt['package_get_error_not_found'] = 'Impossible de trouver l\'extension que vous essayez d\'installer. Essayez d\'uploader l\'extension manuellement dans votre répertoire Packages.';
+$txt['package_get_error_missing_xml'] = 'Le fichier addon-info.xml est introuvable dans l\'extension que vous essayez d\'installer. Il doit se trouver à la racine du répertoire de l\'extension.';
+$txt['package_get_error_is_zero'] = 'L\'extension a été téléchargée avec succès, mais semble être vide. Vérifiez que le répertoire Packages et son sous-répertoire &quot;temp&quot; sont inscriptibles. Si le problème persiste, essayez d\'extraire l\'extension sur votre PC et d\'uploader les fichiers extraits manuellement vers un sous-répertoire de Packages. Par exemple, si l\'extension s\'appelle shout.tar.gz, vous devriez&nbsp;:<br />1) Télécharger le fichier sur votre machine et le décompresser.<br />2) Utiliser un client FTP pour créer un nouveau répertoire dans le répertoire &quot;Packages&quot;, par exemple ici &quot;shout&quot;.<br />3) Y placer tous les fichiers de l\'extension extraite.<br />4) Revenir sur la page du gestionnaire d\'extensions, et l\'extension devrait s\'y trouver automatiquement.';
+$txt['package_get_error_packageinfo_corrupt'] = 'SMF n\'a pas trouvé d\'informations valables dans le fichier addon-info.xml inclus dans l\'extension. L\'extension comporte peut-être une erreur, ou elle est corrompue.';
 
 $txt['no_membergroup_selected'] = 'Aucun groupe de membre sélectionné';
 $txt['membergroup_does_not_exist'] = 'Le groupe de membres n\'existe pas ou est invalide.';

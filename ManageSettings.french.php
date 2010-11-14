@@ -5,9 +5,9 @@ global $scripturl;
 
 $txt['modSettings_desc'] = 'Cette page vous permet de paramétrer les caractéristiques et options de base de votre forum. Veuillez voir les <a href="' . $scripturl . '?action=admin;area=theme;sa=settings;th=%1$s;%3$s=%2$s">Réglages du thème</a> pour plus d\'options. Cliquez sur l\'icône d\'aide pour plus d\'informations à propos d\'un paramètre.';
 $txt['security_settings_desc'] = 'Cette page vous permet de régler les options spécifiquement liées à la sécurité et la modération de votre forum, en incluant les options anti-spam.';
-$txt['modification_settings_desc'] = 'Cette page contient les réglages ajoutés par les paquets à votre forum';
+$txt['modification_settings_desc'] = 'Cette page contient les réglages ajoutés par les extensions à votre forum';
 
-$txt['modification_no_misc_settings'] = 'Aucun des paquets installés n\'a encore ajouté de réglages à cet endroit.';
+$txt['modification_no_misc_settings'] = 'Aucune des extensions installées n\'a encore ajouté de réglages à cet endroit.';
 
 $txt['pollMode'] = 'Mode de sondage';
 $txt['disable_polls'] = 'Désactiver les sondages';
@@ -304,7 +304,7 @@ $txt['add_language'] = 'Ajouter une Langue';
 $txt['add_language_smf'] = 'Télécharger à partir de Simple Machines';
 $txt['add_language_smf_browse'] = 'Nom de la langue à rechercher, ou laisser vide pour rechercher tout.';
 $txt['add_language_smf_install'] = 'Installer';
-$txt['add_language_smf_found'] = 'Les langues suivantes ont été trouvées. Cliquez sur le lien d\'installation à côté de la langue que vous souhaitez installer, vous serez redirigé vers le gestionnaire de paquets pour l\'installer.';
+$txt['add_language_smf_found'] = 'Les langues suivantes ont été trouvées. Cliquez sur le lien d\'installation à côté de la langue que vous souhaitez installer, vous serez redirigé vers le gestionnaire d\'extensions pour l\'installer.';
 $txt['add_language_error_no_response'] = 'Le site de Simple Machines ne répond pas. Veuillez réessayer plus tard.';
 $txt['add_language_error_no_files'] = 'Aucun fichier n\'a été trouvé.';
 $txt['add_language_smf_desc'] = 'Description';
@@ -343,7 +343,7 @@ $txt['languages_download_exists_same'] = 'Identique';
 $txt['languages_download_exists_different'] = 'Différent';
 $txt['languages_download_copy'] = 'Copier';
 $txt['languages_download_not_chmod'] = 'Vous ne pouvez pas effectuer l\'installation tant que tous les fichiers à copier sélectionnés ne sont pas inscriptibles.';
-$txt['languages_download_illegal_paths'] = 'Le paquet contient des chemins illégaux - veuillez contacter Simple Machines';
+$txt['languages_download_illegal_paths'] = 'L\'extension contient des chemins illégaux - veuillez contacter Simple Machines';
 $txt['languages_download_complete'] = 'Installation terminée';
 $txt['languages_download_complete_desc'] = 'Le pack de Langue a été installé avec succès. Veuillez cliquer <a href="%1$s">ici</a> pour retourner à la page de gestion des langues';
 $txt['languages_delete_confirm'] = 'Êtes-vous sûr de vouloir supprimer cette langue ?';

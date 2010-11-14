@@ -103,7 +103,7 @@ $txt['permissionname_calendar_edit_any'] = 'Any events';
 
 $txt['permissiongroup_maintenance'] = 'Forum administration';
 $txt['permissionname_admin_forum'] = 'Administrate forum and database';
-$txt['permissionhelp_admin_forum'] = 'This permission allows a user to:<ul class="normallist"><li>change forum, database and theme settings</li><li>manage packages</li><li>use the forum and database maintenance tools</li><li>view the error and mod logs</li></ul> Use this permission with caution, as it is very powerful.';
+$txt['permissionhelp_admin_forum'] = 'This permission allows a user to:<ul class="normallist"><li>change forum, database and theme settings</li><li>manage add-ons</li><li>use the forum and database maintenance tools</li><li>view the error and mod logs</li></ul> Use this permission with caution, as it is very powerful.';
 $txt['permissionname_manage_boards'] = 'Manage boards and categories';
 $txt['permissionhelp_manage_boards'] = 'This permission allows creation, editing and removal of boards and categories.';
 $txt['permissionname_manage_attachments'] = 'Manage attachments and avatars';

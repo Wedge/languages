@@ -695,7 +695,7 @@ $txt['account'] = 'Paramètres du Compte';
 $txt['forumprofile'] = 'Profil de base et avatar';
 
 $txt['modSettings_title'] = 'Fonctionnalités et Options';
-$txt['package'] = 'Paquets';
+$txt['package'] = 'Extensions';
 $txt['errlog'] = 'Journal d\'Erreurs';
 $txt['edit_permissions'] = 'Permissions';
 $txt['mc_unapproved_attachments'] = 'Fichiers joints non approuvés';

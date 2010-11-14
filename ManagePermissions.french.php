@@ -103,7 +103,7 @@ $txt['permissionname_calendar_edit_any'] = 'Tous les événements';
 
 $txt['permissiongroup_maintenance'] = 'Administration du forum';
 $txt['permissionname_admin_forum'] = 'Administrer le forum et la base de données';
-$txt['permissionhelp_admin_forum'] = 'Cette permission autorise un utilisateur à&nbsp;:<ul class="normallist"><li>modifier les paramètres du forum, de la base de données et du thème</li><li>gérer les paquets</li><li>utiliser les outils de maintenance du forum et de la base de données</li><li>voir le Journal de Modération et d\'Erreurs.</li></ul> Utilisez cette permission avec précaution, elle est très puissante.';
+$txt['permissionhelp_admin_forum'] = 'Cette permission autorise un utilisateur à&nbsp;:<ul class="normallist"><li>modifier les paramètres du forum, de la base de données et du thème</li><li>gérer les extensions</li><li>utiliser les outils de maintenance du forum et de la base de données</li><li>voir le Journal de Modération et d\'Erreurs.</li></ul> Utilisez cette permission avec précaution, elle est très puissante.';
 $txt['permissionname_manage_boards'] = 'Gestion des sites et catégories';
 $txt['permissionhelp_manage_boards'] = 'Cette permission autorise la création, la modification et la suppression des sites et catégories.';
 $txt['permissionname_manage_attachments'] = 'Gestion des fichiers joints et avatars';

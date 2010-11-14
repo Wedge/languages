@@ -84,10 +84,10 @@ $txt['whoadmin_editagreement'] = 'Modifie l\'accord d\'inscription.';
 $txt['whoadmin_featuresettings'] = 'Modifie les caractéristiques et options du forum.';
 $txt['whoadmin_modlog'] = 'Consulte le journal des actions de modération.';
 $txt['whoadmin_serversettings'] = 'Modifie les paramètres du forum.';
-$txt['whoadmin_packageget'] = 'Récupère des paquets.';
-$txt['whoadmin_packages'] = 'Consulte le gestionnaire de paquets.';
+$txt['whoadmin_packageget'] = 'Récupère des extensions.';
+$txt['whoadmin_packages'] = 'Consulte le gestionnaire d\'extensions.';
 $txt['whoadmin_permissions'] = 'Modifie des permissions.';
-$txt['whoadmin_pgdownload'] = 'Télécharge un paquet.';
+$txt['whoadmin_pgdownload'] = 'Télécharge une extension.';
 $txt['whoadmin_theme'] = 'Modifie les paramètres de thème.';
 $txt['whoadmin_trackip'] = 'Joue au détective avec une adresse IP.';
 
