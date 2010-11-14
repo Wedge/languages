@@ -40,7 +40,7 @@ $txt['default_news'] = 'Nouveau forum SMF installé&nbsp;!';
 $txt['default_reserved_names'] = 'Admin\nWebmaster\n\nWebmestre\nInvite\nInvité\nGuest\nroot\nadministrateur\nsuperutilisateur';
 $txt['default_smileyset_name'] = 'Par Alienine';
 $txt['default_aaron_smileyset_name'] = 'Par Aaron';
-$txt['default_theme_name'] = 'Thème par défaut de Wedge - Wager';
+$txt['default_theme_name'] = 'Wedge';
 
 $txt['default_administrator_group'] = 'Administrateur';
 $txt['default_global_moderator_group'] = 'Modérateur Global';
