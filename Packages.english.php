@@ -91,7 +91,7 @@ $txt['package_delete'] = 'Delete';
 $txt['package_extract'] = 'Extract';
 $txt['package_file'] = 'File';
 $txt['package_tree'] = 'Tree';
-$txt['execute_modification'] = 'Execute Modification';
+$txt['execute_modification'] = 'Execute Code Add-on';
 $txt['execute_code'] = 'Execute Code';
 $txt['execute_database_changes'] = 'Adapt Database';
 
@@ -114,7 +114,7 @@ $txt['package_theme_failure_warning'] = 'At least one error was encountered duri
 $txt['package_bytes'] = 'bytes';
 
 $txt['package_action_missing'] = '<strong class="error">File not found</strong>';
-$txt['package_action_error'] = '<strong class="error">Modification parse error</strong>';
+$txt['package_action_error'] = '<strong class="error">Code parse error</strong>';
 $txt['package_action_failure'] = '<strong class="error">Test failed</strong>';
 $txt['package_action_success'] = '<strong>Test successful</strong>';
 $txt['package_action_skipping'] = '<strong>Skipping file</strong>';

@@ -2,7 +2,7 @@
 // Version: 2.0 RC4; Packages
 
 $txt['package_proceed'] = 'Procéder';
-$txt['php_script'] = 'Le fichier de modification a été extrait, mais il est accompagné d\'un script PHP qui devrait être exécuté pour que tout fonctionne';
+$txt['php_script'] = 'Le fichier d\'extension a été extrait, mais il est accompagné d\'un script PHP qui devrait être exécuté pour que tout fonctionne';
 $txt['package_run'] = 'Exécuter';
 $txt['package_read'] = 'Lire';
 $txt['script_output'] = 'Sortie du script&nbsp;:';
@@ -21,18 +21,18 @@ $txt['download'] = 'Télécharger';
 $txt['download_success'] = 'Extension téléchargée avec succès';
 $txt['package_downloaded_successfully'] = 'L\'extension a été téléchargée avec succès';
 $txt['package_manager'] = 'Gestionnaire d\'Extensions';
-$txt['install_mod'] = 'Installer modification';
-$txt['uninstall_mod'] = 'Désinstaller modification';
-$txt['sql_file'] = 'Le fichier de modification a été extrait, il est accompagné d\'un fichier SQL afin de modifier votre base de données.  Il serait judicieux de l\'exécuter.';
+$txt['install_mod'] = 'Installer extension';
+$txt['uninstall_mod'] = 'Désinstaller extension';
+$txt['sql_file'] = 'Le fichier d\'extension a été extrait, il est accompagné d\'un fichier SQL afin de modifier votre base de données. Il serait judicieux de l\'exécuter.';
 $txt['sql_queries'] = 'Requêtes SQL';
-$txt['no_mods_installed'] = 'Aucune modification installée actuellement';
-$txt['browse_installed'] = 'Parcourir les modifications installées';
+$txt['no_mods_installed'] = 'Aucune extension installée actuellement';
+$txt['browse_installed'] = 'Parcourir les extensions installées';
 $txt['uninstall'] = 'Désinstaller';
 $txt['delete_list'] = 'Effacer la liste des modifications';
 $txt['php_safe_mode'] = 'Votre serveur PHP est réglé en SAFE MODE.  Cette fonction est incompatible avec le SAFE MODE.  Désolé.';
 $txt['lets_try_anyway'] = 'Essayons quand même.';
 
-$txt['package_manager_desc'] = 'Depuis le gestionnaire d\'extensions, vous pouvez télécharger et installer des modifications pour votre forum à travers une interface facile à utiliser.';
+$txt['package_manager_desc'] = 'Depuis le gestionnaire d\'extensions, vous pouvez télécharger et installer des extensions pour votre forum à travers une interface facile à utiliser.';
 $txt['installed_packages_desc'] = 'Vous pouvez utiliser l\'interface ci-dessous pour voir les extensions actuellement installées sur le forum et enlever celles dont vous ne voulez plus.';
 $txt['download_packages_desc'] = 'Depuis cette rubrique, vous pouvez choisir de télécharger des extensions depuis les serveurs d\'extensions ou de transférer une extension directement sur le forum depuis votre ordinateur.';
 
@@ -53,7 +53,7 @@ $txt['extracting'] = 'Extraction';
 $txt['avatars_extracted'] = 'Les avatars ont été extraits, vous pouvez maintenant les utiliser.';
 $txt['language_extracted'] = 'L\'extension de langue a été extraite, vous pouvez maintenant l\'utiliser (en la choisissant dans vos paramètres).';
 
-$txt['mod_name'] = 'Nom de la modification';
+$txt['mod_name'] = 'Nom de l\'extension';
 $txt['mod_version'] = 'Version';
 $txt['mod_author'] = 'Auteur';
 $txt['author_website'] = 'Page web de l\'auteur';
@@ -66,7 +66,7 @@ $txt['package_installed_current'] = 'version actuelle';
 $txt['package_installed_old'] = 'version plus ancienne';
 $txt['package_installed_warning1'] = 'Cette extension est déjà installée, aucune mise à jour n\'a été trouvée&nbsp;!';
 $txt['package_installed_warning2'] = 'Vous devriez d\'abord désinstaller l\'ancienne version pour éviter des problèmes, ou demander à l\'auteur de créer une mise à jour de votre vieille version.';
-$txt['package_installed_warning3'] = 'Attention, souvenez-vous de toujours sauvegarder vos fichiers sources et votre base de données avant d\'installer des modifications, surtout pour celles en version bêta.';
+$txt['package_installed_warning3'] = 'Attention, souvenez-vous de toujours sauvegarder vos fichiers sources et votre base de données avant d\'installer des extensions, surtout pour celles en version bêta.';
 $txt['package_installed_extract'] = 'Extraction de l\'extension';
 $txt['package_installed_done'] = 'L\'extension a été installée avec succès. Vous devriez maintenant pouvoir utiliser toutes les fonctionnalités qu\'elle ajoute ou modifie, ou au contraire ne plus pouvoir utiliser celles qu\'elle retire.';
 $txt['package_installed_redirecting'] = 'Redirection...';
@@ -101,20 +101,20 @@ $txt['package_will_fail_warning'] = 'Au moins une erreur a été rencontrée lor
 	Il est <strong>vivement</strong> recommandé que vous ne continuiez pas son installation à moins d\'être sûr de ce que vous faites et que vous avez fait très récemment une copie de sauvegarde de votre forum et de votre base de données.
 	Cette erreur peut être causée entre autre par un conflit avec l\'extension que vous tentez d\'installer et une autre extension que vous avez précédemment installée, une erreur dans l\'extension elle-même, une extension qui requiert une autre extension que vous n\'avez pas encore installée, ou une extension écrite pour une autre version de Wedge.';
 // Don't use entities in the below string.
-$txt['package_will_fail_popup'] = 'Êtes-vous sûr de vouloir continuer l\'installation de cette modification, même si elle ne s\'installera pas avec succès ?';
-$txt['package_will_fail_popup_uninstall'] = 'Êtes-vous sûr de vouloir continuer la désinstallation de cette modification, même si elle ne se désinstallera pas avec succès ?';
+$txt['package_will_fail_popup'] = 'Êtes-vous sûr de vouloir continuer l\'installation de cette extension, même si elle ne s\'installera pas avec succès ?';
+$txt['package_will_fail_popup_uninstall'] = 'Êtes-vous sûr de vouloir continuer la désinstallation de cette extension, même si elle ne se désinstallera pas avec succès ?';
 $txt['package_install_now'] = 'Installer maintenant';
 $txt['package_uninstall_now'] = 'Désinstaller maintenant';
 $txt['package_other_themes'] = 'Installer dans d\'Autres Thèmes';
 $txt['package_other_themes_uninstall'] = 'Désinstaller dans d\'Autres Thèmes';
-$txt['package_other_themes_desc'] = 'Pour utiliser cette modification dans d\'autres thèmes que celui par défaut, le gestionnaire d\'extensions a besoin de faire des changements supplémentaires dans les autres thèmes. Si vous désirez installer cette modification dans d\'autres thèmes, veuillez sélectionner ces derniers ci-dessous.';
+$txt['package_other_themes_desc'] = 'Pour utiliser cette extension dans d\'autres thèmes que celui par défaut, le gestionnaire d\'extensions a besoin de faire des changements supplémentaires dans les autres thèmes. Si vous désirez installer cette extension dans d\'autres thèmes, veuillez sélectionner ces derniers ci-dessous.';
 // Don't use entities in the below string.
 $txt['package_theme_failure_warning'] = 'Au moins une erreur a été rencontrée durant un test d\'installation de ce thème. Êtes-vous sûr de vouloir tenter l\'installation ?';
 
 $txt['package_bytes'] = 'octets';
 
 $txt['package_action_missing'] = '<strong class="error">Fichier introuvable</strong>';
-$txt['package_action_error'] = '<strong class="error">Erreur de syntaxe lors de la modification</strong>';
+$txt['package_action_error'] = '<strong class="error">Erreur de syntaxe lors de l\'installation</strong>';
 $txt['package_action_failure'] = '<strong class="error">Échec du test</strong>';
 $txt['package_action_success'] = '<strong style="color: green">Réussite du test</strong>';
 $txt['package_action_skipping'] = '<strong>Passer le fichier</strong>';
@@ -156,7 +156,7 @@ $txt['package_upload'] = 'Transférer';
 $txt['package_uploaded_success'] = 'Transfert de l\'extension réussi';
 $txt['package_uploaded_successfully'] = 'L\'extension a été transférée avec succès';
 
-$txt['package_modification_malformed'] = 'Fichier de modification erroné ou invalide.';
+$txt['package_modification_malformed'] = 'Fichier d\'extension erroné ou invalide.';
 $txt['package_modification_missing'] = 'Le fichier ne peut pas être trouvé.';
 $txt['package_no_zlib'] = 'Désolé, votre configuration de PHP n\'inclut pas le support pour <strong>zlib</strong>.  Sans cela, le gestionnaire d\'extensions ne peut pas fonctionner.  Veuillez contacter votre hébergeur pour plus d\'informations.';
 
@@ -172,7 +172,7 @@ $txt['package_download_by_url'] = 'Télécharger une extension par son URL';
 $txt['package_download_filename'] = 'Nom du fichier';
 $txt['package_download_filename_info'] = 'Valeur facultative. Doit être utilisé lorsque l\'URL ne se finit pas par le nom du fichier. Par exemple&nbsp;: index.php?mod=5';
 
-$txt['package_db_uninstall'] = 'Supprimer toutes les données associées à cette modification.';
+$txt['package_db_uninstall'] = 'Supprimer toutes les données associées à cette extension.';
 $txt['package_db_uninstall_details'] = 'Détails';
 $txt['package_db_uninstall_actions'] = 'Cocher cette option appliquera les changements suivants dans la base de données';
 $txt['package_db_remove_table'] = 'Supprimer la table &quot;%1$s&quot;';

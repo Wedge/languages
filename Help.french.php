@@ -105,7 +105,7 @@ $helptxt['securitysettings'] = '<strong>Sécurité et Modération</strong><br />
 	Cette section contient les réglages en relation avec la sécurité et la modération de votre forum.';
 
 $helptxt['modsettings'] = '<strong>Modifier les Caractéristiques et les Options</strong><br />
-	Plusieurs options peuvent être modifiées ici selon vos préférences. Les options pour les modifications (mods) installées vont généralement apparaître ici.';
+	Plusieurs options peuvent être modifiées ici selon vos préférences. Les options pour les extensions installées vont généralement apparaître ici.';
 
 $helptxt['number_format'] = '<strong>Format des nombres</strong><br />
 	Vous pouvez utiliser cette fonction afin de spécifier l\'allure qu\'auront les nombres insérés dans votre forum. Le format de cette fonction se constitue de cette façon&nbsp;:<br />
@@ -273,7 +273,7 @@ $helptxt['db_show_debug'] = 'Active les fonctionnalités de débogage des requê
 			<li>Les fichiers de modèle (templates) chargés
 			<li>Les sous-modèles exécutés (tous les modèles utilisés pour mettre en place la page entière)
 			<li>Les fichiers de langue utilisés
-			<li>Les feuilles de style chargées (celles chargées par les modifications n\'apparaîtront pas forcément)
+			<li>Les feuilles de style chargées (celles chargées par les extensions n\'apparaîtront pas forcément)
 			<li>Le nombre de fichiers inclus (et lesquels)
 			<li>Les appels au cache (lesquels sont-ils, et combien de temps y a été consacré)
 			<li>Les requêtes utilisées, avec détails complets (administrateurs uniquement)

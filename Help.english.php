@@ -105,8 +105,8 @@ $helptxt['featuresettings'] = '<strong>Edit Features and Options</strong><br />
 $helptxt['securitysettings'] = '<strong>Security and Moderation</strong><br />
 	This section contains settings relating to the security and moderation of your forum.';
 
-$helptxt['modsettings'] = '<strong>Modification Settings</strong><br />
-	This section should contain any settings added by modifications installed on your forum.';
+$helptxt['modsettings'] = '<strong>Add-on Settings</strong><br />
+	This section should contain any settings added by add-ons installed on your forum.';
 
 $helptxt['number_format'] = '<strong>Number Format</strong><br />
 	You can use this setting to format the way in which numbers on your forum will be displayed to the user. The format of this setting is:<br />

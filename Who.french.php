@@ -131,7 +131,7 @@ $txt['credits_anyone'] = 'Et à tous ceux que nous avons oubliés&nbsp;: merci&n
 $txt['credits_copyright'] = 'Copyrights';
 $txt['credits_removal_good'] = 'Ce forum a été autorisé à retirer l\'affichage du copyright jusqu\'à cette date&nbsp;: %1$s. (<a href="%2$s" target="_blank">Validité</a>)';
 $txt['credits_forum'] = 'Forum';
-$txt['credits_modifications'] = 'Modifications';
+$txt['credits_modifications'] = 'Spécialiste Extensions/Thèmes';
 $txt['credits_groups_ps'] = 'Support du Projet';
 $txt['credits_groups_dev'] = 'Développeurs';
 $txt['credits_groups_support'] = 'Spécialistes Support';

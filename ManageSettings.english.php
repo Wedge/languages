@@ -5,9 +5,9 @@ global $scripturl;
 
 $txt['modSettings_desc'] = 'This page allows you to change the settings of features and basic options in your forum.  Please see the <a href="' . $scripturl . '?action=admin;area=theme;sa=settings;th=%1$s;%3$s=%2$s">theme settings</a> for more options.  Click the help icons for more information about a setting.';
 $txt['security_settings_desc'] = 'This page allows you to set options specifically related to the security and moderation of your forum, including anti-spam options.';
-$txt['modification_settings_desc'] = 'This page contains settings added by any modifications to your forum';
+$txt['modification_settings_desc'] = 'This page contains settings added by any add-ons to your forum';
 
-$txt['modification_no_misc_settings'] = 'There are no modifications installed that have added any settings to this area yet.';
+$txt['modification_no_misc_settings'] = 'There are no add-ons installed that have added any settings to this area yet.';
 
 $txt['pollMode'] = 'Poll mode';
 $txt['disable_polls'] = 'Disable polls';
