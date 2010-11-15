@@ -147,7 +147,6 @@ $txt['credits_groups_consultants'] = 'Consultants au Développement';
 $txt['credits_groups_beta'] = 'Beta Testeurs';
 $txt['credits_beta_message'] = 'Les valeureux élus qui ont sans relâche ni pitié traqué les bugs, apporté leurs idées et fait basculer les développeurs dans la démence.';
 $txt['credits_groups_founder'] = 'Père Fondateur d\'SMF';
-$txt['credits_groups_orignal_pm'] = 'Gestionnaires originels du Projet';
 
 // List of people who have made more than a token contribution to this translation. (Blank for English)
 $txt['translation_credits'] = array(
