@@ -262,9 +262,9 @@ $helptxt['enablePreviousNext'] = 'Cette option affichera un lien vers le sujet p
 $helptxt['pollMode'] = 'Ceci détermine si les sondages sont activés ou non. Si les sondages sont désactivés, tous les sondages actuels sont cachés sur la liste des sujets. Vous pouvez choisir de continuer à afficher la partie sujet des sondages en sélectionnant &quot;Montrer les sondages existants comme des sujets&quot;.<br /><br />Pour choisir qui peut poster et voir des sondages (et similaires), vous pouvez autoriser ou refuser ces permissions. Rappelez-vous de ceci si les sondages sont désactivés.';
 $helptxt['enableVBStyleLogin'] = 'Ceci affichera un champ de connexion au bas de chaque page du forum, si le visiteur n\'est pas encore connecté.';
 $helptxt['enableCompressedOutput'] = 'Cette option compressera à la volée les données envoyées, afin de diminuer la consommation de bande passante, mais requiert que zlib soit installé sur le serveur.';
-$helptxt['enableCompressedCSS'] = 'Cette option compressera les données CSS après leur mise en cache. La librairie zlib doit être installée avant tout, et le fichier .htaccess doit être correctement configuré.
-		Ce processus permet d\'éviter au serveur de recompresser les fichiers CSS à la volée quand ils sont téléchargés.
-		En cas de problème (page vierge de tout style graphique), désactivez l\'option.';
+$helptxt['enableCompressedData'] = 'Cette option compressera les données CSS et Javascript après leur mise en cache. La librairie zlib doit être installée avant tout, et le fichier .htaccess doit être configuré correctement.
+		Ce processus permet d\'éviter au serveur de recompresser les fichiers CSS et JS à la volée quand ils sont téléchargés.
+		En cas de problème (page vierge de tout style graphique et pas de scripts actifs), désactivez au plus vite l\'option.';
 $helptxt['disableTemplateEval'] = 'Par défaut, les modèles de thème sont évalués au lieu d\'être simplement inclus, afin de pouvoir afficher plus d\'informations en cas d\'erreur du traitement.<br /><br />Toutefois, sur des forums de grande taille, ce processus peut ralentir sensiblement le traitement. Les utilisateurs aguerris peuvent donc préférer le désactiver.';
 $helptxt['db_show_debug'] = 'Active les fonctionnalités de débogage des requêtes, très utiles pour repérer les erreurs. Les informations sont montrées à la fin de chaque
 		page quand cette option est activée.<br /><br />

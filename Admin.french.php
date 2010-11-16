@@ -98,7 +98,7 @@ $txt['attachment_name'] = 'Nom du fichier attaché';
 $txt['attachment_file_size'] = 'Taille du fichier';
 $txt['attachmentdir_size_not_set'] = 'Aucune taille maximale n\'est actuellement fixée';
 $txt['attachment_delete_admin'] = '[Fichier joint supprimé par l\'administrateur]';
-$txt['live'] = 'En direct du site SimpleMachines&#133;';
+$txt['live'] = 'En direct du site de Wedge&#133;';
 $txt['remove_all'] = 'Supprimer tout';
 $txt['approve_new_members'] = 'Les admins doivent approuver tous les nouveaux membres';
 $txt['agreement_not_writable'] = 'Attention - agreement.txt n\'est PAS accessible en écriture.  Les changements effectués ne seront PAS sauvegardés';
@@ -106,7 +106,7 @@ $txt['agreement_not_writable'] = 'Attention - agreement.txt n\'est PAS accessibl
 $txt['version_check_desc'] = 'Ceci vous montre la version de vos fichiers installés comparés à ceux de la dernière version.  Si un de ces fichiers n\'est pas à jour, vous devriez télécharger et installer la dernière version sur <a href="http://www.simplemachines.org/" target="_blank">www.simplemachines.org</a>.';
 $txt['version_check_more'] = '(plus de détails)';
 
-$txt['lfyi'] = 'Il vous est impossible de vous connecter au fichier d\'infos de simplemachines.org .';
+$txt['lfyi'] = 'Impossible de récupérer les news de WedgeForum.';
 
 $txt['manage_calendar'] = 'Calendrier';
 $txt['manage_search'] = 'Recherche';
