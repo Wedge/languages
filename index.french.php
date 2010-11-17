@@ -111,7 +111,7 @@ $txt['topic'] = 'Sujet';
 $txt['help'] = 'Aide';
 $txt['notify'] = 'Notifier';
 $txt['unnotify'] = 'Se désinscrire';
-$txt['notify_request'] = 'Voulez-vous recevoir un e-mail de notification si quelqu\'un répond à ce sujet&nbsp;?';
+$txt['notify_request'] = 'Voulez-vous recevoir un e-mail de notification si quelqu\'un répond à ce sujet ?';
 // Use numeric entities in the below string.
 $txt['regards_team'] = "Cordialement,\nL'&#233;quipe ". $context['forum_name'];
 $txt['notify_replies'] = 'Notification de réponse';
@@ -139,7 +139,7 @@ $txt['online_users'] = 'Membres en ligne';
 $txt['personal_message'] = 'Message personnel';
 $txt['jump_to'] = 'Aller à';
 $txt['go'] = ' Allons-y&nbsp;! ';
-$txt['are_sure_remove_topic'] = 'Êtes-vous sûr de vouloir effacer ce sujet&nbsp;?';
+$txt['are_sure_remove_topic'] = 'Êtes-vous sûr de vouloir effacer ce sujet ?';
 $txt['yes'] = 'Oui';
 $txt['no'] = 'Non';
 
@@ -158,7 +158,7 @@ $txt['memberlist_searchable'] = 'Liste de tous les membres inscrits sur ce forum
 $txt['welcome_member'] = 'Merci d\'accueillir';
 $txt['admin_center'] = 'Centre d\'administration';
 $txt['last_edit'] = 'Modifié';
-$txt['notify_deactivate'] = 'Voulez-vous désactiver la notification pour ce sujet&nbsp;?';
+$txt['notify_deactivate'] = 'Voulez-vous désactiver la notification pour ce sujet ?';
 
 $txt['recent_posts'] = 'Messages récents';
 
@@ -460,7 +460,7 @@ $txt['calendar_event_title'] = 'Titre de l\'événement';
 $txt['calendar_event_options'] = 'Options de l\'événement';
 $txt['calendar_post_in'] = 'Poster dans&nbsp;:';
 $txt['calendar_edit'] = 'Modifier l\'événement';
-$txt['event_delete_confirm'] = 'Effacer cet événement&nbsp;?';
+$txt['event_delete_confirm'] = 'Effacer cet événement ?';
 $txt['event_delete'] = 'Effacer l\'événement';
 $txt['calendar_post_event'] = 'Poster un événement';
 $txt['calendar'] = 'Calendrier';
@@ -470,9 +470,9 @@ $txt['calendar_today'] = 'Événements du jour';
 $txt['calendar_week'] = 'Semaine';
 $txt['calendar_week_title'] = 'Semaine %1$d sur %2$d';
 $txt['calendar_numb_days'] = 'Nombre de jours&nbsp;:';
-$txt['calendar_how_edit'] = 'comment modifier ces événements&nbsp;?';
+$txt['calendar_how_edit'] = 'Comment modifier ces événements&nbsp;?';
 $txt['calendar_link_event'] = 'Lier vers l\'événement&nbsp;:';
-$txt['calendar_confirm_delete'] = 'Voulez-vous vraiment supprimer cet événement&nbsp;?';
+$txt['calendar_confirm_delete'] = 'Voulez-vous vraiment supprimer cet événement ?';
 $txt['calendar_linked_events'] = 'Événements liés';
 $txt['calendar_click_all'] = 'cliquer pour voir tous les %1$s';
 
@@ -521,7 +521,7 @@ $txt['tables_optimized'] = 'Tables de données optimisées';
 $txt['add_poll'] = 'Ajouter un sondage';
 $txt['poll_options6'] = 'Vous ne pouvez pas choisir plus de %1$s options.';
 $txt['poll_remove'] = 'Retirer le sondage';
-$txt['poll_remove_warn'] = 'Êtes-vous sûr de vouloir retirer ce sondage du sujet&nbsp;?';
+$txt['poll_remove_warn'] = 'Êtes-vous sûr de vouloir retirer ce sondage du sujet ?';
 $txt['poll_results_expire'] = 'Les résultats seront affichés à la clôture du vote';
 $txt['poll_expires_on'] = 'Clôture du vote';
 $txt['poll_expired_on'] = 'Vote clôturé';
@@ -549,10 +549,10 @@ $txt['quick_reply_verification_guests'] = '(requis pour tous les invités)';
 $txt['quick_reply_verification_posts'] = '(requis pour tous les utilisateurs ayant moins de %1$d messages)';
 $txt['wait_for_approval'] = 'Note&nbsp;: ce message ne s\'affichera qu\'après avoir été approuvé par un modérateur.';
 
-$txt['notification_enable_board'] = 'Êtes-vous sûr de vouloir activer la notification des nouveaux sujets pour cette section&nbsp;?';
-$txt['notification_disable_board'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouveaux sujets pour cette section&nbsp;?';
-$txt['notification_enable_topic'] = 'Êtes-vous sûr de vouloir activer la notification des nouvelles réponses pour ce sujet&nbsp;?';
-$txt['notification_disable_topic'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouvelles réponses pour ce sujet&nbsp;?';
+$txt['notification_enable_board'] = 'Êtes-vous sûr de vouloir activer la notification des nouveaux sujets pour cette section ?';
+$txt['notification_disable_board'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouveaux sujets pour cette section ?';
+$txt['notification_enable_topic'] = 'Êtes-vous sûr de vouloir activer la notification des nouvelles réponses pour ce sujet ?';
+$txt['notification_disable_topic'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouvelles réponses pour ce sujet ?';
 
 $txt['report_to_mod'] = 'Signaler au modérateur';
 $txt['issue_warning_post'] = 'Donner un avertissement à cause de ce message';
@@ -620,8 +620,8 @@ $txt['approve_member'] = 'un membre';
 $txt['approve_members'] = 'membres';
 $txt['approve_members_waiting'] = 'en attente d\'approbation.';
 
-$txt['notifyboard_turnon'] = 'Voulez-vous recevoir un e-mail de notification quand quelqu\'un poste un nouveau sujet dans cette section&nbsp;?';
-$txt['notifyboard_turnoff'] = 'Êtes-vous sûr de vouloir désactiver les e-mails de notification des nouveaux sujet pour cette section&nbsp;?';
+$txt['notifyboard_turnon'] = 'Voulez-vous recevoir un e-mail de notification quand quelqu\'un poste un nouveau sujet dans cette section ?';
+$txt['notifyboard_turnoff'] = 'Êtes-vous sûr de vouloir désactiver les e-mails de notification des nouveaux sujet pour cette section ?';
 
 $txt['activate_code'] = 'Votre code d\'activation est';
 

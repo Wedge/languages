@@ -11,61 +11,62 @@ $txt['behav_417'] = 'Erreur inattendue.';
 $txt['behavior_admin'] = 'Erreur de Sécurité';
 $txt['behavior_header'] = 'Nous nous excusons pour le désagrément, mais votre requête n\'a pas pu aboutir ; le mécanisme de défense du site contre le spam et les malwares a détecté un comportement suspicieux similaire à celui d\'un spammeur ou d\'un malware connu. Heureusement, ce problème est facile à régler.<br /><br />Les règles de détection sont basées sur celles de <a href="http://www.bad-behavior.ioerror.us/">Bad Behavior</a>.';
 
-$txt['behavior_false_ua'] = 'Every page request your browser sends, it should be sending a User-Agent - a string to identify itself to the server. The user-agent supplied in this request was false; if you reset it to what the browser is supposed to send, you should be able to access this site.';
-$txt['behavior_misconfigured_proxy'] = 'This problem is often associated with proxy servers and systems that are not set up properly. Normally you will need to uninstall the software, since invariably just disabling it is not enough. If this is not an option, please contact the server administrator.';
-$txt['behavior_misconfigured_privacy'] = 'This problem can be happen when there is browser privacy software or personal firewall software that was not set-up properly, or has bugs in it. If you are using something like this, you need to either turn it off or change its settings before trying again. (Example: If you use Norton Internet Security, it has a Stealth Mode Browsing feature that interferes with proper Internet operation.)';
-$txt['behavior_malware'] = 'This problem can be caused by viruses or spyware on your computer, or by malicious software that pretends to be anti-virus or anti-spyware software. Ensure that you have REAL anti-virus and anti-spyware software on your computer, that they are kept up-to-date, and that you have run a full system scan using each tool. Once your system is cleaned of viruses and spyware, please try your request again.<br /><br />As a first measure, <a href="http://www.microsoft.com/security_essentials/">Microsoft Security Essentials</a> can be a useful free addition if you do not have such tools installed or available, but it is no by means complete.';
-$txt['behavior_opera_bug'] = 'Some older versions of the Opera browser have been known to show this behavior; please update to the current version.';
-$txt['behavior_chrome_bug'] = 'Some versions of Chrome have a design flaw that can trigger this. One workaround appears to be to clear the browsing history, then reload the page.';
+$txt['behavior_false_ua'] = 'À chaque requête envoyée par le navigateur devrait être associée une entête User-Agent, qui l\'identifie auprès du serveur. L\'agent utilisateur fourni dans cette requête est mensonger. Vous devriez pouvoir accéder au site après avoir rétabli le paramètre par défaut dans votre logiciel.';
+$txt['behavior_misconfigured_proxy'] = 'Ce problème est souvent dû à des serveurs proxy et autres systèmes mal configurés. En temps normal, vous devriez désinstaller le logiciel, le désactiver n\'étant pas suffisant. Si vous ne le pouvez pas, contactez l\'administrateur du serveur.';
+$txt['behavior_misconfigured_privacy'] = 'Ce problème peut survenir en cas d\'utilisation d\'un pare-feu ou d\'un logiciel de sécurisation de navigation mal configuré ou buggué. Si vous utilisez ce type de logiciel, désactivez-le ou corrigez son paramétrage avant de réessayer. (Exemple&nbsp;: Norton Internet Security possède un mode de navigation furtive qui empêche une navigation correcte.)';
+$txt['behavior_malware'] = 'Ce problème peut être dû à la présence de virus ou de spywares sur votre ordinateur, ou de logiciels malveillants se présentant comme des antivirus ou des anti-spyware. Assurez-vous que vos logiciels de sécurisation sont authentiques, qu\'ils sont à jour, et que vous avez passé votre système au crible de ces logiciels. Une fois votre ordinateur assaini, réitérez votre demande.<br /><br />Si vous n\'y connaissez rien, le logiciel gratuit <a href="http://www.microsoft.com/security_essentials/">Microsoft Security Essentials</a> est une bonne piste de départ, mais ne vous contentez pas de n\'utiliser que lui.';
+$txt['behavior_opera_bug'] = 'Quelques versions anciennes du navigateur Opera sont connues pour ce type de comportement. Vous avez bon goût en matière de navigateur, mais mettez-le à jour quand même...';
+$txt['behavior_chrome_bug'] = 'Quelques versions du navigateur Chrome ont un souci logiciel pouvant déclencher ce problème. Essayez de vider votre historique de navigation et de recharger la page.';
 
-$txt['behavior_footer'] = 'If the above steps do not help, you can contact the webmaster via email: {email_address} and refer to incident number {incident}.';
+$txt['behavior_footer'] = 'Si les pistes mentionnées ne vous sont d\'aucune aide, contactez le webmestre par e-mail ({email_address}), et signalez-lui le numéro de l\'incident ({incident}).';
+
 // Begin the rules as defined in Security.php
 // Each rule has a _desc (the text to use, complete with <br /> as appropriate) and _log (the text to display in the admin log)
 
 $txt['behav_blacklist_desc'] = 'Vous n\'avez pas l\'autorisation d\'accéder au serveur.';
-$txt['behav_blacklist_log'] = 'Blacklisted user-agent provided';
+$txt['behav_blacklist_log'] = 'Un agent utilisateur interdit a été utilisé.';
 
 $txt['behav_not_cloudflare_desc'] = 'Vous n\'avez pas l\'autorisation d\'accéder au serveur.';
-$txt['behav_not_cloudflare_log'] = 'User-agent identified itself as CloudFlare, cannot substantiate claim.';
+$txt['behav_not_cloudflare_log'] = 'L\'agent utilisateur s\'est identifié comme étant CloudFlare, mais cela reste à prouver.';
 
-$txt['behav_expect_header_desc'] = 'The request contained an expectation, unfortunately this could not be managed - please retry your request. This is mostly known to be associated with software that has been banned from accessing this site due to observed malicious activity. You are advised to uninstall it and contact the author; in the meantime a conventional browser should be suitable, such as Firefox, Chrome, Opera, Internet Explorer or Safari.';
-$txt['behav_expect_header_log'] = 'Request contained \'Expect\' header; asked for resend.';
+$txt['behav_expect_header_desc'] = 'Le requête signalait une attente, mais celle-ci n\'a pu être comblée. Veuillez réessayer. Ce problème signale peut-être l\'utilisation d\'un logiciel interdit d\'utilisation sur ce site pour cause d\'activités frauduleuses. Nous vous conseillons de le désinstaller et de contacter son auteur ; remplacez-le en attendant par un navigateur tel qu\'Opera, Firefox, Chrome, Internet Explorer ou Safari.';
+$txt['behav_expect_header_log'] = 'La requête contenait l\'entête \'Expect\' ; une demande de confirmation a été faite.';
 
 $txt['behav_no_ua_in_post_desc'] = 'Votre navigateur a envoyé une requête invalide.';
-$txt['behav_no_ua_in_post_log'] = 'User-agent did not identify itself, required when posting.';
+$txt['behav_no_ua_in_post_log'] = 'L\'agent utilisateur ne s\'est pas identifié, ce qui est requis au moment de poster.';
 
 $txt['behav_content_range_desc'] = 'Votre navigateur a envoyé une requête invalide.';
-$txt['behav_content_range_log'] = 'Request contained \'Range\' or \'Content-Range\', should not contain these.';
+$txt['behav_content_range_log'] = 'La requête contenait \'Range\' ou \'Content-Range\', ce qui ne devrait pas être le cas.';
 
 $txt['behav_empty_refer_desc'] = 'Votre navigateur a envoyé une requête invalide.';
-$txt['behav_empty_refer_log'] = 'Request specified \'Referer\' but Referer was blank.';
+$txt['behav_empty_refer_log'] = 'La requête spécifiait \'Referer\', mais le référant était vide.';
 
 $txt['behav_invalid_refer_desc'] = 'Votre navigateur a envoyé une requête invalide.';
-$txt['behav_invalid_refer_log'] = 'Request specified \'Referer\' but Referer appeared corrupt.';
+$txt['behav_invalid_refer_log'] = 'La requête spécifiait \'Referer\', mais le référant semble corrompu.';
 
 $txt['behav_alive_close_desc'] = 'Votre navigateur a envoyé une requête invalide.';
-$txt['behav_alive_close_log'] = 'Request specified \'Connection\' but contained invalid values.';
+$txt['behav_alive_close_log'] = 'La requête spécifiait \'Connection\' mais contenait des valeurs invalides.';
 
 $txt['behav_wrong_keep_alive_desc'] = 'Votre navigateur a envoyé une requête invalide.';
-$txt['behav_wrong_keep_alive_log'] = 'Request specified \'Keep-Alive\' but form corrupted.';
+$txt['behav_wrong_keep_alive_log'] = 'La requête spécifiait \'Keep-Alive\' mais sa forme était corrompue.';
 
 $txt['behav_rogue_chars_desc'] = 'Vous n\'avez pas l\'autorisation d\'accéder au serveur. Des informations mal intentionnées ont été trouvées dans la requête.';
-$txt['behav_rogue_chars_log'] = 'Malicious code found in request.';
+$txt['behav_rogue_chars_log'] = 'Du code malicieux a été trouvé dans la requête.';
 
 $txt['behav_invalid_via_desc'] = 'Il semblerait que vous utilisiez un serveur proxy non autorisé ici.';
-$txt['behav_invalid_via_log'] = 'Request contained invalid \'via\' header.';
+$txt['behav_invalid_via_log'] = 'La requête contenait une entête \'via\' invalide.';
 
 $txt['behav_banned_via_proxy_desc'] = 'Il semblerait que vous utilisiez un serveur proxy non autorisé ici.';
-$txt['behav_banned_via_proxy_log'] = 'Request from banned proxy server.';
+$txt['behav_banned_via_proxy_log'] = 'Requête en provenance d\'un serveur proxy banni.';
 
 $txt['behav_banned_xaa_proxy_desc'] = 'Il semblerait que vous utilisiez un serveur proxy non autorisé ici.';
-$txt['behav_banned_xaa_proxy_log'] = 'Invalid headers \'X-Aaaaaaaaaa\' or \'X-Aaaaaaaaaaaa\' found.';
+$txt['behav_banned_xaa_proxy_log'] = 'Des entêtes invalides, \'X-Aaaaaaaaaa\' ou \'X-Aaaaaaaaaaaa\', ont été trouvées.';
 
-$txt['behav_bot_rfc2965_desc'] = 'The cookies received by the server were not valid. Please update your software, or contact the software author/publisher regarding it not conforming to current Internet standards (specifically, RFC 2965)';
-$txt['behav_bot_rfc2965_log'] = 'Bot not compliant with RFC 2965.';
+$txt['behav_bot_rfc2965_desc'] = 'Les cookies reçus par le serveur ne sont pas valides. Mettez à jour votre logiciel, ou contactez son auteur et informez-le de la non-conformité de son logiciel avec les standards de l\'Internet (en particulier, la RFC 2965).';
+$txt['behav_bot_rfc2965_log'] = 'Ce robot ne respecte pas la RFC 2965.';
 
 $txt['behav_proxy_connection_desc'] = 'Votre navigateur a envoyé une requête invalide.';
-$txt['behav_proxy_connection_log'] = 'Request contained prohibited header \'Proxy-Connection\'.';
+$txt['behav_proxy_connection_log'] = 'La requête contenait une entête interdite, \'Proxy-Connection\'.';
 
 $txt['behav_pragma_desc'] = 'Votre navigateur a envoyé une requête invalide.';
 $txt['behav_pragma_log'] = 'L\'entête \'Pragma\' est interdite dans les requêtes HTTP/1.1 si elle n\'est pas accompagnée de \'Cache-Control\'.';
