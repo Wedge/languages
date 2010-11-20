@@ -570,10 +570,10 @@ $txt['who_viewing_board'] = ' dans cette section.';
 $txt['who_member'] = 'Membre';
 
 // Footer strings
-$txt['valid_xhtml'] = 'XHTML 1.0 valide&nbsp;!';
+$txt['valid_html5'] = 'HTML5 valide&nbsp;!';
 $txt['wap2'] = 'WAP2';
 $txt['rss'] = 'Flux RSS';
-$txt['xhtml'] = 'XHTML';
+$txt['html5'] = 'HTML5';
 $txt['html'] = 'HTML';
 
 $txt['guest'] = 'Invité';

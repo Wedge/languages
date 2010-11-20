@@ -571,10 +571,10 @@ $txt['who_viewing_board'] = ' are viewing this board.';
 $txt['who_member'] = 'Member';
 
 // Footer strings
-$txt['valid_xhtml'] = 'Valid XHTML 1.0!';
+$txt['valid_html5'] = 'Valid HTML5!';
 $txt['wap2'] = 'WAP2';
 $txt['rss'] = 'RSS feed';
-$txt['xhtml'] = 'XHTML';
+$txt['html5'] = 'HTML5';
 $txt['html'] = 'HTML';
 
 $txt['guest'] = 'Guest';
