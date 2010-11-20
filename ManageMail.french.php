@@ -26,7 +26,6 @@ $txt['mailqueue_recipient'] = 'Destinataire';
 $txt['mailqueue_subject'] = 'Sujet';
 $txt['mailqueue_clear_list'] = 'Envoyer la File d\'attente maintenant';
 $txt['mailqueue_no_items'] = 'La File d\'attente est actuellement vide';
-// Do not use numeric entities in below string.
 $txt['mailqueue_clear_list_warning'] = 'Êtes-vous sûr de vouloir envoyer la file d\'attente entière maintenant, en ignorant les limites établies ?';
 
 $txt['mq_day'] = '%1.1f jour';

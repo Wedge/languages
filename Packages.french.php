@@ -100,7 +100,6 @@ $txt['package_will_fail_title'] = 'Erreur lors de l\'installation de l\'extensio
 $txt['package_will_fail_warning'] = 'Au moins une erreur a été rencontrée lors d\'un test d\'installation de cette extension.
 	Il est <strong>vivement</strong> recommandé que vous ne continuiez pas son installation à moins d\'être sûr de ce que vous faites et que vous avez fait très récemment une copie de sauvegarde de votre forum et de votre base de données.
 	Cette erreur peut être causée entre autre par un conflit avec l\'extension que vous tentez d\'installer et une autre extension que vous avez précédemment installée, une erreur dans l\'extension elle-même, une extension qui requiert une autre extension que vous n\'avez pas encore installée, ou une extension écrite pour une autre version de Wedge.';
-// Don't use entities in the below string.
 $txt['package_will_fail_popup'] = 'Êtes-vous sûr de vouloir continuer l\'installation de cette extension, même si elle ne s\'installera pas avec succès ?';
 $txt['package_will_fail_popup_uninstall'] = 'Êtes-vous sûr de vouloir continuer la désinstallation de cette extension, même si elle ne se désinstallera pas avec succès ?';
 $txt['package_install_now'] = 'Installer maintenant';
@@ -108,7 +107,6 @@ $txt['package_uninstall_now'] = 'Désinstaller maintenant';
 $txt['package_other_themes'] = 'Installer dans d\'Autres Thèmes';
 $txt['package_other_themes_uninstall'] = 'Désinstaller dans d\'Autres Thèmes';
 $txt['package_other_themes_desc'] = 'Pour utiliser cette extension dans d\'autres thèmes que celui par défaut, le gestionnaire d\'extensions a besoin de faire des changements supplémentaires dans les autres thèmes. Si vous désirez installer cette extension dans d\'autres thèmes, veuillez sélectionner ces derniers ci-dessous.';
-// Don't use entities in the below string.
 $txt['package_theme_failure_warning'] = 'Au moins une erreur a été rencontrée durant un test d\'installation de ce thème. Êtes-vous sûr de vouloir tenter l\'installation ?';
 
 $txt['package_bytes'] = 'octets';

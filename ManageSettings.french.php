@@ -261,8 +261,7 @@ $txt['custom_profile_placement_standard'] = 'Standard';
 $txt['custom_profile_placement_withicons'] = 'With Icons';
 $txt['custom_profile_placement_abovesignature'] = 'Above Signature';
 
-// Use numeric entities in the string below!
-$txt['custom_edit_delete_sure'] = '&#202;tes-vous s&#369;r de vouloir supprimer ce champ ? Toutes les donn&#233;es utilisateur li&#233;es seront perdues !';
+$txt['custom_edit_delete_sure'] = 'Êtes-vous sûr de vouloir supprimer ce champ ? Toutes les données utilisateur liées seront perdues !';
 
 $txt['standard_profile_title'] = 'Champs de profil Standards';
 $txt['standard_profile_field'] = 'Champ';

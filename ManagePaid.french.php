@@ -135,9 +135,8 @@ $txt['edit_subscriber'] = 'Modifier le Souscripteur';
 $txt['delete_selected'] = 'Effacer la Sélection';
 $txt['complete_selected'] = 'Achever pour la Sélection';
 
-// !!! These strings are used in conjunction with JavaScript.  Use numeric entities.
-$txt['delete_are_sure'] = '&#202;tes-vous s&#369;r de vouloir effacer tous les enregistrements des abonnements s&#233;lectionn&#233;s ?';
-$txt['complete_are_sure'] = '&#202;tes-vous s&#369;r de vouloir achever les processus de souscription s&#233;lectionn&#233;s ?';
+$txt['delete_are_sure'] = 'Êtes-vous sûr de vouloir effacer tous les enregistrements des abonnements sélectionnés ?';
+$txt['complete_are_sure'] = 'Êtes-vous sûr de vouloir achever les processus de souscription sélectionnés ?';
 
 $txt['start_date'] = 'Date de Début';
 $txt['end_date'] = 'Date de Fin';

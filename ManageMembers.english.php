@@ -35,7 +35,6 @@ $txt['membergroups_edit_hidden'] = 'Visibility';
 $txt['membergroups_edit_hidden_no'] = 'Visible';
 $txt['membergroups_edit_hidden_boardindex'] = 'Visible - Except in Group Key';
 $txt['membergroups_edit_hidden_all'] = 'Invisible';
-// Do not use numeric entities in the below string.
 $txt['membergroups_edit_hidden_warning'] = 'Are you sure you want to disallow assignment of this group as a users primary group?\\n\\nDoing so will restrict assignment to additional groups only, and will update all current &quot;primary&quot; members to have it as an additional group only.';
 $txt['membergroups_edit_desc'] = 'Group description';
 $txt['membergroups_edit_group_type'] = 'Group Type';
@@ -67,7 +66,6 @@ $txt['membergroups_members_last_active'] = 'Last Active';
 $txt['membergroups_members_additional_only'] = 'Add as additional group only.';
 $txt['membergroups_members_group_moderators'] = 'Group Moderators';
 $txt['membergroups_members_description'] = 'Description';
-// Use javascript escaping in the below.
 $txt['membergroups_members_deadmin_confirm'] = 'Are you sure you wish to remove yourself from the Administration group?';
 
 $txt['membergroups_postgroups'] = 'Post groups';

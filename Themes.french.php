@@ -118,7 +118,6 @@ $txt['themeadmin_reset_defaults_current'] = 'options actuellement réglées.';
 $txt['themeadmin_reset_members'] = 'Réinitialiser les options de tous les membres pour ce thème';
 $txt['themeadmin_reset_remove'] = 'Enlever toutes les options des membres et les réinitialiser aux valeurs par défaut';
 $txt['themeadmin_reset_remove_current'] = 'membres utilisent actuellement leurs propres options.';
-// Don't use entities in the below string.
 $txt['themeadmin_reset_remove_confirm'] = 'Etes-vous sûr de vouloir enlever toutes les options de thème ?\\nCeci peut aussi réinitialiser quelques champs personnalisés des profils.';
 $txt['themeadmin_reset_options_info'] = 'Les options ci-dessous surclasseront les options de <em>tout le monde</em>.  Pour changer une option, sélectionner &quot;changer&quot; dans la boîte d\'à coté, et choisissez lui une valeur.  Pour utiliser la valeur par défaut, sélectionner &quot;enlever&quot;. Sinon utilisez &quot;Ne pas changer&quot; pour le laisser tel quel.';
 $txt['themeadmin_reset_options_change'] = 'Changer';

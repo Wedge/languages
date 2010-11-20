@@ -149,7 +149,6 @@ $txt['spider_logs_delete'] = 'Effacer les Entrées';
 $txt['spider_logs_delete_older'] = 'Effacer toutes les entrées antérieures à';
 $txt['spider_logs_delete_day'] = 'jours.';
 $txt['spider_logs_delete_submit'] = 'Effacer';
-// Don't use entities in the below string.
 $txt['spider_logs_delete_confirm'] = 'Êtes-vous sûr de vouloir vider le journal d\'activité des robots ?';
 
 $txt['spider_stats_select_month'] = 'Aller au mois de';

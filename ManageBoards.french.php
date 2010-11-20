@@ -8,8 +8,8 @@ $txt['name_on_display'] = 'C\'est le nom qu\'elle portera.';
 $txt['boards_and_cats_desc'] = 'Modifiez vos catégories et sections ici. Listez les modérateurs comme ceci <em>&quot;identifiant&quot;, &quot;identifiant&quot;</em>. (Utilisez les identifiants des membres, pas leurs pseudonymes!)<br />Pour créer une nouvelle section, cliquez sur le bouton Ajouter une section. Pour faire une sous-section, choisissez "Sous-section de ..." dans la liste déroulante d\'ordre lors de la création d\'une section.';
 $txt['parent_members_only'] = 'Membres inscrits';
 $txt['parent_guests_only'] = 'Invités';
-$txt['catConfirm'] = 'Voulez-vous réellement effacer cette catégorie&nbsp;?';
-$txt['boardConfirm'] = 'Voulez-vous réellement effacer cette section&nbsp;?';
+$txt['catConfirm'] = 'Voulez-vous vraiment effacer cette catégorie ?';
+$txt['boardConfirm'] = 'Voulez-vous vraiment effacer cette section ?';
 
 $txt['catEdit'] = 'Modifier la catégorie';
 $txt['collapse_enable'] = 'Rétractable';

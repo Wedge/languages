@@ -35,8 +35,7 @@ $txt['membergroups_edit_hidden'] = 'Visibilité';
 $txt['membergroups_edit_hidden_no'] = 'Visible';
 $txt['membergroups_edit_hidden_boardindex'] = 'Visible - Sauf dans la liste de la page d\'accueil';
 $txt['membergroups_edit_hidden_all'] = 'Invisible';
-// Do not use numeric entities in the below string.
-$txt['membergroups_edit_hidden_warning'] = '&#202;tes-vous s&#252;r de vouloir interdire l\\\'assignation de ce groupe en tant que groupe principal&nbsp;?\\n\\nIl ne pourra plus être affecté qu\\\'en tant que groupe additionnel, et pour tous les membres l\\\'utilisant comme groupe principal, il sera converti en groupe additionnel.';
+$txt['membergroups_edit_hidden_warning'] = 'Êtes-vous sûr de vouloir interdire l\'assignation de ce groupe en tant que groupe principal ?\\n\\nIl ne pourra plus être affecté qu\'en tant que groupe additionnel, et pour tous les membres l\'utilisant comme groupe principal, il sera converti en groupe additionnel.';
 $txt['membergroups_edit_desc'] = 'Description du Groupe';
 $txt['membergroups_edit_group_type'] = 'Type de Groupe';
 $txt['membergroups_edit_select_group_type'] = 'Choisissez l\'un de ces types de groupe';
@@ -54,7 +53,7 @@ $txt['membergroups_max_messages'] = 'Nombre de MP maximum';
 $txt['membergroups_max_messages_note'] = '0 = illimité';
 $txt['membergroups_edit_save'] = 'Sauvegarder';
 $txt['membergroups_delete'] = 'Effacer';
-$txt['membergroups_confirm_delete'] = 'Êtes-vous sûr de vouloir effacer ce groupe&nbsp;?!';
+$txt['membergroups_confirm_delete'] = 'Êtes-vous sûr de vouloir effacer ce groupe ?';
 
 $txt['membergroups_members_title'] = 'Montrer tous les membres du groupe';
 $txt['membergroups_members_group_members'] = 'Membres du Groupe';
@@ -67,7 +66,6 @@ $txt['membergroups_members_last_active'] = 'Dernière Connexion';
 $txt['membergroups_members_additional_only'] = 'Ajouter comme groupe additionnel seulement.';
 $txt['membergroups_members_group_moderators'] = 'Modérateurs du Groupe';
 $txt['membergroups_members_description'] = 'Description';
-// Use javascript escaping in the below.
 $txt['membergroups_members_deadmin_confirm'] = 'Êtes-vous sûr de vouloir vous retirer du groupe administrateur ?';
 
 $txt['membergroups_postgroups'] = 'Groupes Posteurs';

@@ -44,7 +44,6 @@ $txt['mc_reportedp_close'] = 'Close';
 $txt['mc_reportedp_open'] = 'Open';
 $txt['mc_reportedp_ignore'] = 'Ignore';
 $txt['mc_reportedp_unignore'] = 'Un-Ignore';
-// Do not use numeric entries in the below string.
 $txt['mc_reportedp_ignore_confirm'] = 'Are you sure you wish to ignore further reports about this message?\\n\\nThis will turn off further reports for all moderators of the forum.';
 $txt['mc_reportedp_close_selected'] = 'Close Selected';
 
@@ -59,7 +58,6 @@ $txt['with_selected'] = 'With Selected';
 $txt['mc_groupr_approve'] = 'Approve Request';
 $txt['mc_groupr_reject'] = 'Reject Request (No Reason)';
 $txt['mc_groupr_reject_w_reason'] = 'Reject Request with Reason';
-// Do not use numeric entries in the below string.
 $txt['mc_groupr_warning'] = 'Are you sure you wish to do this?';
 
 $txt['mc_unapproved_attachments_none_found'] = 'There are currently no attachments awaiting approval';
@@ -93,9 +91,7 @@ $txt['mc_watched_users_warning'] = 'Warning Level';
 $txt['mc_watched_users_last_login'] = 'Last Login';
 $txt['mc_watched_users_last_post'] = 'Last Post';
 $txt['mc_watched_users_no_posts'] = 'There are no posts from watched members.';
-// Don't use entities in the two strings below.
 $txt['mc_watched_users_delete_post'] = 'Are you sure you want to delete this post?';
-$txt['mc_watched_users_delete_posts'] = 'Are you sure you want to delete these posts?';
 $txt['mc_watched_users_posted'] = 'Posted';
 $txt['mc_watched_users_member'] = 'Member';
 

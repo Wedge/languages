@@ -149,7 +149,6 @@ $txt['spider_logs_delete'] = 'Delete Entries';
 $txt['spider_logs_delete_older'] = 'Delete all entries older than';
 $txt['spider_logs_delete_day'] = 'days.';
 $txt['spider_logs_delete_submit'] = 'Delete';
-// Don't use entities in the below string.
 $txt['spider_logs_delete_confirm'] = 'Are you sure you wish to empty out all log entries?';
 
 $txt['spider_stats_select_month'] = 'Jump To Month';

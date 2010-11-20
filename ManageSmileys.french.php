@@ -4,7 +4,7 @@
 $txt['smiley_sets_save'] = 'Sauvegarder les Changements';
 $txt['smiley_sets_add'] = 'Nouveau jeu de smileys';
 $txt['smiley_sets_delete'] = 'Effacer la sélection';
-$txt['smiley_sets_confirm'] = 'Êtes-vous sûr de vouloir effacer ce jeu de smileys ?\\n\\nNote : cela n\\\'effacera pas les fichiers d\'images, mais seulement les choix possibles.';
+$txt['smiley_sets_confirm'] = 'Êtes-vous sûr de vouloir effacer ce jeu de smileys ?\\n\\nNotez que cela n\'effacera pas les fichiers d\'images, mais seulement les choix possibles.';
 
 $txt['setting_smiley_sets_default'] = 'Jeu de smileys par défaut';
 $txt['setting_smiley_sets_enable'] = 'Autoriser les utilisateurs à choisir un jeu de smileys';
@@ -38,7 +38,6 @@ $txt['smileys_description'] = 'Description';
 $txt['smileys_remove'] = 'Enlever';
 $txt['smileys_save'] = 'Sauvegarder les Changements';
 $txt['smileys_delete'] = 'Effacer le smiley';
-// Don't use entities in the below string.
 $txt['smileys_delete_confirm'] = 'Êtes-vous sûr de vouloir effacer ce smiley ?';
 $txt['smileys_with_selected'] = 'Avec la sélection';
 $txt['smileys_make_hidden'] = 'Rendre cachée';
@@ -72,7 +71,7 @@ $txt['smiley_new'] = 'Ajouter un nouveau smiley';
 $txt['smiley_modify_existing'] = 'Modifier un smiley';
 $txt['smiley_preview'] = 'Prévisualiser';
 $txt['smiley_preview_using'] = 'en utilisant ce jeu de smileys';
-$txt['smileys_confirm'] = 'Voulez-vous vraiment enlever ces smileys ?\\n\\nNote : ceci n\\\'effacera pas les images, mais seulement les choix possibles.';
+$txt['smileys_confirm'] = 'Voulez-vous vraiment enlever ces smileys ?\\n\\nNote : ceci n\'effacera pas les images, mais seulement les choix possibles.';
 $txt['smileys_location_form_description'] = 'Ces smileys apparaîtront sous la zone de texte, lors de la rédaction d\'un nouveau message dans une discussion ou un message personnel.';
 $txt['smileys_location_popup_description'] = 'Ceux-ci seront affichés dans une popup, affichée lorsqu\'un utilisateur a cliqué sur le lien \'[plus]\'';
 $txt['smileys_move_select_destination'] = 'Sélectionnez la destination des smileys';

@@ -134,6 +134,7 @@ $txt['msg_alert_none'] = 'Pas de message...';
 $txt['msg_alert_you_have'] = 'vous avez';
 $txt['msg_alert_messages'] = 'messages';
 $txt['remove_message'] = 'Effacer ce message';
+$txt['remove_message_confirm'] = 'Effacer ce message ?';
 
 $txt['online_users'] = 'Membres en ligne';
 $txt['personal_message'] = 'Message personnel';

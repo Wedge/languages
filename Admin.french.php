@@ -173,8 +173,7 @@ $txt['ban_expiration'] = 'Expiration';
 $txt['ban_reason_desc'] = 'Raison du bannissement, à afficher au membre banni.';
 $txt['ban_notes_desc'] = 'Notes pouvant informer les autres membres du staff.';
 $txt['ban_remove_selected'] = 'Supprimer la sélection';
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
-$txt['ban_remove_selected_confirm'] = 'Voulez-vous vraiment supprimer les bannissements sélectionnés&nbsp;?';
+$txt['ban_remove_selected_confirm'] = 'Voulez-vous vraiment supprimer les bannissements sélectionnés ?';
 $txt['ban_modify'] = 'Modifier';
 $txt['ban_name'] = 'Nom du bannissement';
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
@@ -192,9 +191,7 @@ $txt['ban_edit_trigger_title'] = 'Modifier les déclencheurs de bannissement';
 $txt['ban_edit_trigger_submit'] = 'Modifier';
 $txt['ban_remove_selected_triggers'] = 'Supprimer les déclencheurs sélectionnés';
 $txt['ban_no_entries'] = 'Aucun bannissement n\'est actuellement actif.';
-
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
-$txt['ban_remove_selected_triggers_confirm'] = 'Êtes-vous sûr de vouloir supprimer les déclencheurs de bannissement sélectionnés&nbsp;?';
+$txt['ban_remove_selected_triggers_confirm'] = 'Êtes-vous sûr de vouloir supprimer les déclencheurs de bannissement sélectionnés ?';
 $txt['ban_trigger_browse'] = 'Voir les déclencheurs de bannissement';
 $txt['ban_trigger_browse_description'] = 'Cette interface montre toutes les entrées de bannissements groupées selon l\'adresse IP, nom hôte, adresse e-mail et nom d\'utilisateur.';
 
@@ -206,9 +203,9 @@ $txt['ban_log_email'] = 'Adresse e-mail';
 $txt['ban_log_member'] = 'Membre';
 $txt['ban_log_date'] = 'Date';
 $txt['ban_log_remove_all'] = 'Supprimer tout';
-$txt['ban_log_remove_all_confirm'] = 'Voulez-vous vraiment supprimer toutes les entrées&nbsp;?';
+$txt['ban_log_remove_all_confirm'] = 'Voulez-vous vraiment supprimer toutes les entrées ?';
 $txt['ban_log_remove_selected'] = 'Supprimer la sélection';
-$txt['ban_log_remove_selected_confirm'] = 'Voulez-vous vraiment supprimer les entrées sélectionnées&nbsp;?';
+$txt['ban_log_remove_selected_confirm'] = 'Voulez-vous vraiment supprimer les entrées sélectionnées ?';
 $txt['ban_no_triggers'] = 'Aucun déclencheur de bannissement pour le moment.';
 
 $txt['settings_not_writable'] = 'Ces réglages ne peuvent pas être changés car Settings.php est accessible en lecture seulement.';
@@ -283,7 +280,7 @@ $txt['wild_cards_allowed'] = 'les &quot;joker&quot; * et ? sont permis';
 $txt['search_for'] = 'Chercher pour';
 $txt['member_part_of_these_membergroups'] = 'Le membre fait partie de ces groupes de membres';
 $txt['membergroups'] = 'Groupes de membres';
-$txt['confirm_delete_members'] = 'Êtes-vous sûr de vouloir supprimer les membres sélectionnés&nbsp;?';
+$txt['confirm_delete_members'] = 'Êtes-vous sûr de vouloir supprimer les membres sélectionnés ?';
 
 $txt['support_credits_title'] = 'Support et crédits';
 $txt['support_credits_info'] = 'Obtenez du support sur les questions fréquemment posées et les informations de version à fournir si vous avez un problème.';
@@ -315,8 +312,8 @@ $txt['permitgroups_moderator'] = 'Modérateur';
 $txt['permitgroups_maintenance'] = 'Maintenance';
 $txt['permitgroups_inherit'] = 'Acquérir';
 
-$txt['confirm_delete_attachments_all'] = 'Êtes-vous sûr de vouloir supprimer tous les fichiers joints&nbsp;?';
-$txt['confirm_delete_attachments'] = 'Êtes-vous sûr de vouloir supprimer les fichiers joints sélectionnés&nbsp;?';
+$txt['confirm_delete_attachments_all'] = 'Êtes-vous sûr de vouloir supprimer tous les fichiers joints ?';
+$txt['confirm_delete_attachments'] = 'Êtes-vous sûr de vouloir supprimer les fichiers joints sélectionnés ?';
 $txt['attachment_manager_browse_files'] = 'Parcourir les fichiers';
 $txt['attachment_manager_repair'] = 'Maintenance';
 $txt['attachment_manager_avatars'] = 'Avatars';
@@ -549,8 +546,7 @@ $txt['admin_news_select_excluded_groups_desc'] = 'Sélectionnez les groupes ne d
 $txt['admin_news_select_email'] = 'Adresses e-mail';
 $txt['admin_news_select_email_desc'] = 'Une liste d\'adresses e-mail séparées par des points-virgules, à laquelle sera envoyée l\'infolettre. (Par ex: adresse1; adresse2)';
 $txt['admin_news_select_override_notify'] = 'Outrepasser les Paramètres de Notification existants';
-// Use entities in below.
-$txt['admin_news_cannot_pm_emails_js'] = 'Vous ne pouvez pas envoyer de message personnel &#341; une adresse e-mail. Si vous continuez, toutes les adresses e-mail seront ignor&#233;es.\\n\\n&#202;tes-vous s&#369;r de vouloir faire cela ?';
+$txt['admin_news_cannot_pm_emails_js'] = 'Vous ne pouvez pas envoyer de message personnel à une adresse e-mail. Si vous continuez, toutes les adresses e-mail seront ignorées.\\n\\nÊtes-vous sûr de vouloir faire cela ?';
 
 $txt['mailqueue_browse'] = 'Parcourir la file d\'attente';
 $txt['mailqueue_settings'] = 'Paramètres';

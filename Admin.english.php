@@ -173,7 +173,6 @@ $txt['ban_expiration'] = 'Expiration';
 $txt['ban_reason_desc'] = 'Reason for ban, to be displayed to banned member.';
 $txt['ban_notes_desc'] = 'Notes that may assist other staff members.';
 $txt['ban_remove_selected'] = 'Remove selected';
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['ban_remove_selected_confirm'] = 'Are you sure you want to remove the selected bans?';
 $txt['ban_modify'] = 'Modify';
 $txt['ban_name'] = 'Ban name';
@@ -192,8 +191,6 @@ $txt['ban_edit_trigger_title'] = 'Edit ban trigger';
 $txt['ban_edit_trigger_submit'] = 'Modify';
 $txt['ban_remove_selected_triggers'] = 'Remove selected ban triggers';
 $txt['ban_no_entries'] = 'There are currently no bans in effect.';
-
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['ban_remove_selected_triggers_confirm'] = 'Are you sure you want to remove the selected ban triggers?';
 $txt['ban_trigger_browse'] = 'Browse Ban Triggers';
 $txt['ban_trigger_browse_description'] = 'This screen shows all banned entities grouped by IP address, hostname, email address and username.';
@@ -550,7 +547,6 @@ $txt['admin_news_select_excluded_groups_desc'] = 'Select groups who should defin
 $txt['admin_news_select_email'] = 'Email Addresses';
 $txt['admin_news_select_email_desc'] = 'A semi-colon separated list of email addresses which should be sent newsletter. (i.e. address1; address2)';
 $txt['admin_news_select_override_notify'] = 'Override Notification Settings';
-// Use entities in below.
 $txt['admin_news_cannot_pm_emails_js'] = 'You cannot send a personal message to an email address. If you continue all entered email addresses will be ignored.\\n\\nAre you sure you wish to do this?';
 
 $txt['mailqueue_browse'] = 'Browse Queue';

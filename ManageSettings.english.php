@@ -262,7 +262,6 @@ $txt['custom_profile_placement_standard'] = 'Standard';
 $txt['custom_profile_placement_withicons'] = 'With Icons';
 $txt['custom_profile_placement_abovesignature'] = 'Above Signature';
 
-// Use numeric entities in the string below!
 $txt['custom_edit_delete_sure'] = 'Are you sure you wish to delete this field - all related user data will be lost!';
 
 $txt['standard_profile_title'] = 'Standard Profile Fields';

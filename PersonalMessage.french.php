@@ -151,12 +151,10 @@ $txt['pm_rules_none'] = 'Vous n\'avez pas encore créé de règle de message.';
 $txt['pm_rule_title'] = 'Règle';
 $txt['pm_add_rule'] = 'Ajouter une Nouvelle Règle';
 $txt['pm_apply_rules'] = 'Appliquer les Règles maintenant';
-// Use entities in the below string.
 $txt['pm_js_apply_rules_confirm'] = 'Etes-vous sûr de vouloir appliquer les règles actuelles à tous les messages personnels&nbsp;?';
 $txt['pm_edit_rule'] = 'Modifier la Règle';
 $txt['pm_rule_save'] = 'Sauvegarder la Règle';
 $txt['pm_delete_selected_rule'] = 'Effacer les règles sélectionnées';
-// Use entities in the below string.
 $txt['pm_js_delete_rule_confirm'] = 'Etes-vous sûr de vouloir effacer les règles sélectionnées&nbsp;?';
 $txt['pm_rule_name'] = 'Nom';
 $txt['pm_rule_name_desc'] = 'Le nom de la règle, pour s\'en souvenir plus facilement';

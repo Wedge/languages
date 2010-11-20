@@ -4,7 +4,7 @@
 $txt['smiley_sets_save'] = 'Save Changes';
 $txt['smiley_sets_add'] = 'New smiley Set';
 $txt['smiley_sets_delete'] = 'Delete selected';
-$txt['smiley_sets_confirm'] = 'Are you sure you want to remove these smiley sets?\\n\\nNote: This won\\\'t remove the images, just the choices.';
+$txt['smiley_sets_confirm'] = 'Are you sure you want to remove these smiley sets?\\n\\nNote: This won\'t remove the images, just the choices.';
 
 $txt['setting_smiley_sets_default'] = 'Default Smiley Set';
 $txt['setting_smiley_sets_enable'] = 'Enable smiley set selection by members';
@@ -38,7 +38,6 @@ $txt['smileys_description'] = 'Tooltip or description';
 $txt['smileys_remove'] = 'Remove';
 $txt['smileys_save'] = 'Save Changes';
 $txt['smileys_delete'] = 'Delete Smiley';
-// Don't use entities in the below string.
 $txt['smileys_delete_confirm'] = 'Are you sure you wish to delete this smiley?';
 $txt['smileys_with_selected'] = 'With Selected';
 $txt['smileys_make_hidden'] = 'Make Hidden';
@@ -72,7 +71,7 @@ $txt['smiley_new'] = 'Add new smiley';
 $txt['smiley_modify_existing'] = 'Modify smiley';
 $txt['smiley_preview'] = 'Preview';
 $txt['smiley_preview_using'] = 'using smiley set';
-$txt['smileys_confirm'] = 'Are you sure you want to remove these smileys?\\n\\nNote: This won\\\'t remove the images, just the choices.';
+$txt['smileys_confirm'] = 'Are you sure you want to remove these smileys?\\n\\nNote: This won\'t remove the images, just the choices.';
 $txt['smileys_location_form_description'] = 'These smileys will appear above the text area, when posting a new forum message or Personal Message.';
 $txt['smileys_location_popup_description'] = 'These smileys will be shown in a popup, that is shown after a user has clicked \'[more]\'';
 $txt['smileys_move_select_destination'] = 'Select smiley destination';

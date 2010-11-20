@@ -150,12 +150,10 @@ $txt['pm_rules_none'] = 'You have not yet setup any message rules.';
 $txt['pm_rule_title'] = 'Rule';
 $txt['pm_add_rule'] = 'Add New Rule';
 $txt['pm_apply_rules'] = 'Apply Rules Now';
-// Use entities in the below string.
 $txt['pm_js_apply_rules_confirm'] = 'Are you sure you wish to apply the current rules to all personal messages?';
 $txt['pm_edit_rule'] = 'Edit Rule';
 $txt['pm_rule_save'] = 'Save Rule';
 $txt['pm_delete_selected_rule'] = 'Delete Selected Rules';
-// Use entities in the below string.
 $txt['pm_js_delete_rule_confirm'] = 'Are you sure you wish to delete the selected rules?';
 $txt['pm_rule_name'] = 'Name';
 $txt['pm_rule_name_desc'] = 'Name to remember this rule by';

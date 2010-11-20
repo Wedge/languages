@@ -100,7 +100,6 @@ $txt['package_will_fail_title'] = 'Error in Add-on Installation';
 $txt['package_will_fail_warning'] = 'At least one error was encountered during a test installation of this add-on.
 	It is <strong>strongly</strong> recommended that you do not continue with installation unless you know what you are doing, and have made a backup very recently.
 	This error may be caused by a conflict between the add-on you\'re trying to install and another add-on you have already installed, an error in the add-on, a add-on which requires another add-on that you don\'t have installed yet, or an add-on designed for another version of Wedge.';
-// Don't use entities in the below string.
 $txt['package_will_fail_popup'] = 'Are you sure you wish to continue installing this add-on, even though it will not install successfully?';
 $txt['package_will_fail_popup_uninstall'] = 'Are you sure you wish to continue uninstalling this add-on, even though it will not uninstall successfully?';
 $txt['package_install_now'] = 'Install Now';
@@ -108,7 +107,6 @@ $txt['package_uninstall_now'] = 'Uninstall Now';
 $txt['package_other_themes'] = 'Install in Other Themes';
 $txt['package_other_themes_uninstall'] = 'UnInstall in Other Themes';
 $txt['package_other_themes_desc'] = 'To use this add-on in themes other than the default, the add-on manager needs to make additional changes to the other themes. If you\'d like to install this add-on in the other themes, please select these themes below.';
-// Don't use entities in the below string.
 $txt['package_theme_failure_warning'] = 'At least one error was encountered during a test install of this theme. Are you sure you wish to attempt installation?';
 
 $txt['package_bytes'] = 'bytes';

@@ -166,7 +166,7 @@ $txt['maintain_members_all'] = 'Tous les groupes de membres';
 $txt['maintain_members_choose'] = 'Groupes sélectionnés';
 $txt['maintain_members_confirm'] = 'Êtes-vous sûr de vouloir supprimer ces comptes ?\\n\\nVous ne pourrez pas annuler cette opération !';
 
-// !!! This little lot can go once the convertor is done.
+// !!! This little lot can go once the converter is done.
 $txt['utf8_title'] = 'Convertir la base de données et les données en UTF-8';
 $txt['utf8_introduction'] = 'L\'UTF-8 est un jeu de caractères international couvrant presque toutes les langues du monde. Convertir votre base de données et vos données en UTF-8 peut vous permettre un support plus facile de langues multiples sur le même forum. Cela peut aussi améliorer la recherche avec des langues basées sur des caractères non latins.';
 $txt['utf8_warning'] = 'Si vous voulez convertir vos données et votre base en UTF-8, veuillez faire attention à ce qui suit&nbsp;:
@@ -201,8 +201,7 @@ $txt['reattribute_username'] = 'pour nom';
 $txt['reattribute_current_member'] = 'Les attribuer à ce membre&nbsp;';
 $txt['reattribute_increase_posts'] = 'Les compter dans le nombre de messages envoyés par le membre';
 $txt['reattribute'] = 'Réattribuer';
-// Don't use entities in the below string.
-$txt['reattribute_confirm'] = 'Êtes-vous sûr de vouloir attribuer tous les messages d\\\'invités utilisant %type% "%find%" au membre "%member_to%" ?';
+$txt['reattribute_confirm'] = 'Êtes-vous sûr de vouloir attribuer tous les messages d\'invités utilisant %type% "%find%" au membre "%member_to%" ?';
 $txt['reattribute_confirm_username'] = 'pour nom d\'utilisateur';
 $txt['reattribute_confirm_email'] = 'pour adresse e-mail';
 $txt['reattribute_cannot_find_member'] = 'Impossible de trouver le membre à qui réattribuer les messages.';

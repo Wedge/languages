@@ -44,7 +44,6 @@ $txt['mc_reportedp_close'] = 'Fermer';
 $txt['mc_reportedp_open'] = 'Ouvrir';
 $txt['mc_reportedp_ignore'] = 'Ignorer';
 $txt['mc_reportedp_unignore'] = 'Dé-Ignorer';
-// Do not use numeric entries in the below string.
 $txt['mc_reportedp_ignore_confirm'] = 'Êtes-vous sûr de vouloir ignorer d\'autres rapports sur ce message?\\n\\nCela entraînera la désactivation de nouveaux rapports pour tous les modérateurs de ce forum.';
 $txt['mc_reportedp_close_selected'] = 'Fermer la sélection';
 
@@ -59,8 +58,7 @@ $txt['with_selected'] = 'Avec la sélection';
 $txt['mc_groupr_approve'] = 'Approuver la demande';
 $txt['mc_groupr_reject'] = 'Rejeter la demande (Sans Raison)';
 $txt['mc_groupr_reject_w_reason'] = 'Rejeter la demande avec la raison';
-// Do not use numeric entries in the below string.
-$txt['mc_groupr_warning'] = 'Etes vous sûr de vouloir faire cela?';
+$txt['mc_groupr_warning'] = 'Etes vous sûr de vouloir faire cela ?';
 
 $txt['mc_unapproved_attachments_none_found'] = 'Aucun fichier joint ne nécessite d\'approbation.';
 $txt['mc_unapproved_replies_none_found'] = 'Aucun message ne nécessite d\'approbation.';
@@ -93,9 +91,7 @@ $txt['mc_watched_users_warning'] = 'Niveau d\'avertissement';
 $txt['mc_watched_users_last_login'] = 'Dernière connexion';
 $txt['mc_watched_users_last_post'] = 'Dernier message';
 $txt['mc_watched_users_no_posts'] = 'Il n\'y a aucun message de membres surveillés.';
-// Don't use entities in the two strings below.
 $txt['mc_watched_users_delete_post'] = 'Êtes-vous sûr de vouloir effacer ce message ?';
-$txt['mc_watched_users_delete_posts'] = 'Êtes-vous sûr de vouloir effacer ces messages ?';
 $txt['mc_watched_users_posted'] = 'Posté';
 $txt['mc_watched_users_member'] = 'Voir par Membre';
 
