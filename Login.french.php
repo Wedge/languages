@@ -67,7 +67,6 @@ $txt['change_password_new'] = 'ont &#233;t&#233; chang&#233;es et votre mot de p
 
 $txt['in_maintain_mode'] = 'Ce forum est en Mode Maintenance.';
 
-// These two are used as a javascript alert; please use international characters directly, not as entities.
 $txt['register_agree'] = 'Merci de lire et accepter les termes de l\'accord avant de soumettre ce formulaire.';
 $txt['register_passwords_differ_js'] = 'Les deux mots de passe entrés sont différents !';
 

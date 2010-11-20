@@ -49,7 +49,6 @@ $txt['avatar_too_big'] = 'Avatar image is too big, please resize it and try agai
 $txt['invalid_registration'] = 'Invalid Date Registered value, valid example:';
 $txt['msn_email_address'] = 'Your Live messenger email address';
 $txt['current_password'] = 'Current Password';
-// Don't use entities in the below string, except the main ones. (lt, gt, quot.)
 $txt['required_security_reasons'] = 'For security reasons, your current password is required to make changes to your account.';
 
 $txt['timeoffset_autodetect'] = '(auto detect)';
@@ -446,7 +445,6 @@ $txt['pm_display_mode'] = 'Display personal messages';
 $txt['pm_display_mode_all'] = 'All at once';
 $txt['pm_display_mode_one'] = 'One at a time';
 $txt['pm_display_mode_linked'] = 'As a conversation';
-// Use entities in the below string.
 $txt['pm_recommend_enable_outbox'] = 'To make the most of this setting we suggest you enable &quot;Save a copy of each Personal Message in my outbox by default&quot;\\n\\nThis will help ensure that the conversations flow better as you can see both sides of the conversation.';
 
 $txt['tracking'] = 'Tracking';

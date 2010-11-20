@@ -176,11 +176,9 @@ $txt['ban_remove_selected'] = 'Remove selected';
 $txt['ban_remove_selected_confirm'] = 'Are you sure you want to remove the selected bans?';
 $txt['ban_modify'] = 'Modify';
 $txt['ban_name'] = 'Ban name';
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['ban_edit'] = 'Edit ban';
 $txt['ban_add_notes'] = '<strong>Note</strong>: after creating the above ban, you can add additional entries that trigger the ban, like IP addresses, hostnames and email addresses.';
 $txt['ban_expired'] = 'Expired / disabled';
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['ban_restriction_empty'] = 'No restriction selected.';
 
 $txt['ban_triggers'] = 'Triggers';

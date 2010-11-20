@@ -55,10 +55,9 @@ $txt['permissions_remove'] = 'Refuser une permission';
 $txt['permissions_deny'] = 'Interdire la permission';
 $txt['permissions_select_permission'] = 'Choisir une permission';
 
-// All of the following block of strings should not use entities, instead use \\" for &quot; etc.
 $txt['permissions_only_one_option'] = 'Vous ne pouvez choisir qu\'une seule action pour modifier les permissions';
 $txt['permissions_no_action'] = 'Aucune action choisie';
-$txt['permissions_deny_dangerous'] = 'Vous êtes sur le point d\'interdire une ou plusieurs permissions.\\nCeci peut être dangereux et causer des résultats inattendus si vous ne vous êtes pas assuré que personne n\'est \\"accidentellement\\" dans le ou les groupes auxquels vous interdisez les permissions.\\n\\nÊtes-vous sûr de vouloir continuer?';
+$txt['permissions_deny_dangerous'] = 'Vous êtes sur le point d\'interdire une ou plusieurs permissions.\\nCeci peut être dangereux et causer des résultats inattendus si vous ne vous êtes pas assuré que personne n\'est "accidentellement" dans le ou les groupes auxquels vous interdisez les permissions.\\n\\nÊtes-vous sûr de vouloir continuer ?';
 
 $txt['permissions_modify_group'] = 'Modifier un Groupe';
 $txt['permissions_general'] = 'Permissions Générales';
@@ -333,13 +332,9 @@ $txt['permission_settings_title'] = 'Paramètres des permissions';
 $txt['groups_manage_permissions'] = 'Groupes de membres autorisés à gérer les permissions';
 $txt['permission_settings_submit'] = 'Enregistrer';
 $txt['permission_settings_enable_deny'] = 'Activer l\'option pour interdire des permissions';
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
-$txt['permission_disable_deny_warning'] = 'Désactiver cette option va mettre à jour tous les permissions interdites \\\'Interdite\\\' vers le statut \\\'Refusée\\\'.';
 $txt['permission_by_board_desc'] = 'Ici pous pouvez attribuer un profil de permissions à une section. Vous pouvez créer de nouveaux profils de permissions dans le menu &quot;Modifier les Profils&quot;.';
 $txt['permission_settings_desc'] = 'Ici vous pouvez régler qui a la permission de changer les permissions, de même que la complexité que devrait avoir le système de permissions.';
 $txt['permission_settings_enable_postgroups'] = 'Activer les permissions pour les groupes posteurs';
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
-$txt['permission_disable_postgroups_warning'] = 'Désactiver ce paramètre va enlever les permissions présentement attribuées aux groupes posteurs.';
 
 $txt['permissions_post_moderation_desc'] = 'D\'ici, vous pouvez facilement changer quels groupes voient leurs messages modérés pour un profil de permissions spécifique.';
 $txt['permissions_post_moderation_deny_note'] = 'Notez que si vous avez activé les permissions avancées, vous ne pourrez pas appliquer la permission &quot;refuser&quot; à partir de cette page. Veuillez modifier les permissions directement si vous voulez appliquer un refus de permission.';

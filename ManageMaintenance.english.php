@@ -166,7 +166,7 @@ $txt['maintain_members_all'] = 'All Membergroups';
 $txt['maintain_members_choose'] = 'Selected Groups';
 $txt['maintain_members_confirm'] = 'Are you sure you really want to delete these member accounts?\\n\\nThis cannot be undone!';
 
-// !!! This little lot can go once the convertor is done.
+// !!! This little lot can go once the converter is done.
 $txt['utf8_title'] = 'Convert the database and data to UTF-8';
 $txt['utf8_introduction'] = 'UTF-8 is an international character set covering nearly all languages around the world. Converting your database and data to UTF-8 can make it easier to support multiple languages on the same board. It also can enhance search and sorting capabilities for languages with non-latin characters.';
 $txt['utf8_warning'] = 'If you want to convert your data and database to UTF-8, be aware of the following:
@@ -201,7 +201,6 @@ $txt['reattribute_username'] = 'Username of';
 $txt['reattribute_current_member'] = 'Attribute posts to member';
 $txt['reattribute_increase_posts'] = 'Add posts to users post count';
 $txt['reattribute'] = 'Reattribute';
-// Don't use entities in the below string.
 $txt['reattribute_confirm'] = 'Are you sure you want to attribute all guest posts with %type% of "%find%" to member "%member_to%"?';
 $txt['reattribute_confirm_username'] = 'a username';
 $txt['reattribute_confirm_email'] = 'an email address';

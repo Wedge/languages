@@ -49,7 +49,6 @@ $txt['avatar_too_big'] = 'Cet Avatar est trop gros, merci de le redimensionner a
 $txt['invalid_registration'] = 'Date d\'inscription invalide, exemple&nbsp;: ';
 $txt['msn_email_address'] = 'Votre adresse sur MSN/Live Messenger';
 $txt['current_password'] = 'Mot de passe actuel';
-// Don't use entities in the below string, except the main ones. (lt, gt, quot.)
 $txt['required_security_reasons'] = 'Pour des raisons évidentes de sécurité, votre mot de passe actuel est nécessaire pour modifier votre compte.';
 
 $txt['timeoffset_autodetect'] = '(auto-détecter)';
@@ -448,7 +447,6 @@ $txt['pm_display_mode'] = 'Afficher les messages personnels';
 $txt['pm_display_mode_all'] = 'Tous à la fois';
 $txt['pm_display_mode_one'] = 'Un à la fois';
 $txt['pm_display_mode_linked'] = 'Triés par conversations';
-// Use entities in the below string.
 $txt['pm_recommend_enable_outbox'] = 'Nous vous suggérons d\'activer &quot;Sauvegarder par défaut une copie de mes messages personnels dans ma boîte d\'envoi.&quot;\\n\\nCela vous aidera à suivre plus facilement les conversations puisque vous verrez les deux moitiés de chaque conversation.';
 
 $txt['tracking'] = 'Suivi';

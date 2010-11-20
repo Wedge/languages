@@ -176,11 +176,9 @@ $txt['ban_remove_selected'] = 'Supprimer la sélection';
 $txt['ban_remove_selected_confirm'] = 'Voulez-vous vraiment supprimer les bannissements sélectionnés ?';
 $txt['ban_modify'] = 'Modifier';
 $txt['ban_name'] = 'Nom du bannissement';
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['ban_edit'] = 'Modifier les bannissements';
 $txt['ban_add_notes'] = '<strong>Note</strong>&nbsp;: après la création du bannissement ci-dessus, vous pourrez ajouter des entrées additionnelles qui déclenchent le bannissement, comme les adresses IP, les noms d\'hôtes et les adresses e-mail.';
 $txt['ban_expired'] = 'Expiré / désactivé';
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['ban_restriction_empty'] = 'Aucune restriction sélectionnée.';
 
 $txt['ban_triggers'] = 'Déclencheurs';

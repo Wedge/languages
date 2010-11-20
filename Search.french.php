@@ -59,8 +59,7 @@ $txt['search_method_index_already_exists'] = 'existe déjà';
 $txt['search_method_fulltext_remove'] = 'enlever l\'index de texte';
 $txt['search_method_index_partial'] = 'partiellement créé';
 $txt['search_index_custom_resume'] = 'reprendre';
-// This string is used in a javascript confirmation popup; don't use entities.
-$txt['search_method_fulltext_warning'] = 'Afin de pouvoir utiliser la recherche en texte, vous devrez d\\\'abord créer un index !';
+$txt['search_method_fulltext_warning'] = 'Afin de pouvoir utiliser la recherche en texte, vous devrez d\'abord créer un index !';
 
 $txt['search_index'] = 'Index de recherche';
 $txt['search_index_none'] = 'Aucun index';
@@ -71,8 +70,7 @@ $txt['search_index_label'] = 'Index';
 $txt['search_index_size'] = 'Taille';
 $txt['search_index_create_custom'] = 'créer un index personnalisé';
 $txt['search_index_custom_remove'] = 'supprimer un index personnalisé';
-// This string is used in a javascript confirmation popup; don't use entities.
-$txt['search_index_custom_warning'] = 'Pour pouvoir utiliser un index de recherche personnalisé, vous devez d\\\'abord créer un index personnalisé !';
+$txt['search_index_custom_warning'] = 'Pour pouvoir utiliser un index de recherche personnalisé, vous devez d\'abord créer un index personnalisé !';
 
 $txt['search_force_index'] = 'Forcer l\'utilisation d\'un index personnalisé';
 $txt['search_match_words'] = 'Ne chercher que sur des mots complets';

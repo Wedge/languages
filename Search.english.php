@@ -59,8 +59,7 @@ $txt['search_method_index_already_exists'] = 'already created';
 $txt['search_method_fulltext_remove'] = 'remove fulltext index';
 $txt['search_method_index_partial'] = 'partially created';
 $txt['search_index_custom_resume'] = 'resume';
-// This string is used in a javascript confirmation popup; don't use entities.
-$txt['search_method_fulltext_warning'] = 'In order to be able to use fulltext search, you\\\'ll have to create a fulltext index first!';
+$txt['search_method_fulltext_warning'] = 'In order to be able to use fulltext search, you\'ll have to create a fulltext index first!';
 
 $txt['search_index'] = 'Search index';
 $txt['search_index_none'] = 'No index';
@@ -71,8 +70,7 @@ $txt['search_index_label'] = 'Index';
 $txt['search_index_size'] = 'Size';
 $txt['search_index_create_custom'] = 'create custom index';
 $txt['search_index_custom_remove'] = 'remove custom index';
-// This string is used in a javascript confirmation popup; don't use entities.
-$txt['search_index_custom_warning'] = 'In order to be able to use a custom index search, you\\\'ll have to create a custom index first!';
+$txt['search_index_custom_warning'] = 'In order to be able to use a custom index search, you\'ll have to create a custom index first!';
 
 $txt['search_force_index'] = 'Force the use of a search index';
 $txt['search_match_words'] = 'Match whole words only';
