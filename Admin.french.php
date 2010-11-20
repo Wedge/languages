@@ -98,7 +98,7 @@ $txt['attachment_name'] = 'Nom du fichier attaché';
 $txt['attachment_file_size'] = 'Taille du fichier';
 $txt['attachmentdir_size_not_set'] = 'Aucune taille maximale n\'est actuellement fixée';
 $txt['attachment_delete_admin'] = '[Fichier joint supprimé par l\'administrateur]';
-$txt['live'] = 'En direct du site de Wedge&#133;';
+$txt['live'] = 'En direct du site de Wedge&hellip;';
 $txt['remove_all'] = 'Supprimer tout';
 $txt['approve_new_members'] = 'Les admins doivent approuver tous les nouveaux membres';
 $txt['agreement_not_writable'] = 'Attention - agreement.txt n\'est PAS accessible en écriture.  Les changements effectués ne seront PAS sauvegardés';
@@ -300,7 +300,7 @@ $txt['support_resources_p1'] = 'Notre <a href="%1$s">documentation en ligne</a> 
 $txt['support_resources_p2'] = 'Si vous ne trouvez pas de réponse à vos questions dans la documentation en ligne, vous pouvez lancer une recherche sur la <a href="%1$s">Communauté de Support</a> ou demander de l\'aide sur un de nos forums en <a href="%2$s">anglais</a> ou dans de nombreuses <a href="%3$s">autres langues</a> (dont le <a href="http://www.simplemachines.org/community/index.php?board=14.0">français</a>). La Communauté de Support SMF propose de l\'aide pour le <a href="%4$s">support</a> ou la <a href="%5$s">personnalisation</a>, mais vous permet aussi de discuter de SMF en général, de trouver un hébergeur ou de parler de problèmes administratifs avec d\'autres responsables de forums.';
 
 $txt['support_latest'] = 'Questions fréquentes &amp; réponses';
-$txt['support_latest_fetch'] = 'Recherche les informations de support&#133;';
+$txt['support_latest_fetch'] = 'Recherche les informations de support&hellip;';
 
 $txt['edit_permissions_info'] = 'Changer les restrictions et les options disponibles globalement ou sur certains sites spécifiques.';
 $txt['membergroups_members'] = 'Membres inscrits';

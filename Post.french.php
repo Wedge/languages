@@ -120,7 +120,7 @@ $txt['attach_restrict_attachmentSizeLimit'] = 'taille individuelle maximale %1$d
 $txt['attach_restrict_attachmentNumPerPostLimit'] = '%1$d par message';
 $txt['attach_restrictions'] = 'Restrictions&nbsp;:';
 
-$txt['post_additionalopt'] = 'Fichiers joints et autres options&#133;';
+$txt['post_additionalopt'] = 'Fichiers joints et autres options&hellip;';
 $txt['sticky_after'] = 'Épingler ce sujet';
 $txt['move_after2'] = 'Déplacer ce sujet';
 $txt['back_to_topic'] = 'Retourner au sujet';

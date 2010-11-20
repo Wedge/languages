@@ -80,8 +80,8 @@ $txt['salvaged_poll_message_body'] = 'Ce sondage a perdu son sujet associé.';
 
 $txt['database_optimize'] = 'Optimiser la base de données';
 $txt['database_numb_tables'] = 'Votre base de données contient %1$d tables.';
-$txt['database_optimize_attempt'] = 'Tente d\'optimiser votre base de données&#133;';
-$txt['database_optimizing'] = 'Optimise %1$s&#133; %2$01.2f Ko optimisés.';
+$txt['database_optimize_attempt'] = 'Tente d\'optimiser votre base de données&hellip;';
+$txt['database_optimizing'] = 'Optimise %1$s&hellip; %2$01.2f Ko optimisés.';
 $txt['database_already_optimized'] = 'Toutes les tables étaient déjà optimisées.';
 $txt['database_opimize_unneeded'] = 'Il n\'était pas nécessaire d\'optimiser les tables.';
 $txt['database_optimized'] = ' table(s) optimisée(s).';
