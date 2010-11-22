@@ -86,7 +86,7 @@ $txt['who_enabled'] = 'Enable who\'s online list';
 $txt['make_email_viewable'] = 'Allow viewable email addresses';
 $txt['meta_keywords'] = 'Meta keywords associated with forum<div class="smalltext">For search engines. Leave blank for default.</div>';
 
-$txt['caching_information'] = '<div class="aligncenter underline"><strong>Important! Read this first before enabling these features.</strong></div><br />
+$txt['caching_information'] = '<div class="centertext" style="font-weight: bold; text-decoration: underline">Important! Read this first before enabling these features.</div><br />
 	SMF supports caching through the use of accelerators. The currently supported accelerators include:<br />
 	<ul class="normallist">
 		<li>APC</li>

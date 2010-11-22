@@ -734,7 +734,6 @@ $txt['prompt_text_url'] = 'Indiquez l\'adresse Web du lien.';
 $txt['prompt_text_img'] = 'Indiquez l\'adresse Web de l\'image';
 $txt['prompt_text_desc'] = 'Entrez le texte du lien, laissez vide pour afficher l\'adresse.';
 
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['autosuggest_delete_item'] = 'Supprimer cet élément';
 
 // Debug related - when $db_show_debug is true.
