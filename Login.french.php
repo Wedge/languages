@@ -130,7 +130,6 @@ $txt['visual_verification_sound_again'] = 'Recommencer';
 $txt['visual_verification_sound_close'] = 'Fermer la fenêtre';
 $txt['visual_verification_sound_direct'] = 'Un problème pour écouter ceci? Essayez avec ce lien direct.';
 
-// Use numeric entities in the below.
 $txt['registration_username_available'] = 'Ce nom d\'utilisateur est disponible';
 $txt['registration_username_unavailable'] = 'Ce nom d\'utilisateur n\'est pas disponible';
 $txt['registration_username_check'] = 'Vérifier si le nom d\'utilisateur est disponible';
