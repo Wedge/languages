@@ -128,7 +128,7 @@ $txt['coppa_form_body'] = 'Je soussigné, {PARENT_NAME},<br /><br />Donne la per
 
 $txt['visual_verification_sound_again'] = 'Recommencer';
 $txt['visual_verification_sound_close'] = 'Fermer la fenêtre';
-$txt['visual_verification_sound_direct'] = 'Un problème pour écouter ceci? Essayez avec ce lien direct.';
+$txt['visual_verification_sound_direct'] = 'Pas de son ? Essayez avec ce lien direct.';
 
 $txt['registration_username_available'] = 'Ce nom d\'utilisateur est disponible';
 $txt['registration_username_unavailable'] = 'Ce nom d\'utilisateur n\'est pas disponible';
