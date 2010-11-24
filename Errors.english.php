@@ -54,8 +54,6 @@ $txt['session_verify_fail'] = 'Session verification failed.  Please try logging 
 $txt['verify_url_fail'] = 'Unable to verify referring url.  Please go back and try again.';
 $txt['guest_vote_disabled'] = 'Guests cannot vote in this poll.';
 
-$txt['copyright_failed'] = 'Sorry - but the code you entered is incorrect. Please ensure that your forum URL matches that entered when purchasing the subscription.';
-
 $txt['cannot_access_mod_center'] = 'You do not have permission to access the moderation center.';
 $txt['cannot_admin_forum'] = 'You are not allowed to administrate this forum.';
 $txt['cannot_announce_topic'] = 'You are not allowed to announce topics on this board.';

@@ -522,13 +522,6 @@ $txt['language_edit'] = 'Modifier Langues';
 $txt['language_add'] = 'Ajouter Langue';
 $txt['language_settings'] = 'Paramètres';
 
-$txt['copyright_ends_in'] = 'Votre abonnement permettant le retrait du copyright SMF prendra fin dans <strong>%1$s</strong> jour(s).';
-$txt['copyright_click_renew'] = 'Cliquez <a href="http://www.simplemachines.org/copyright/renew.php?key=%1$s" class="alert">ici</a> pour le renouveler.';
-$txt['copyright_removal'] = 'Retrait du Copyright';
-$txt['copyright_removal_desc'] = 'Pour retirer le copyright de votre installation SMF, vous aurez besoin du code acheté sur le site Simple Machines. Si vous n\'avez pas encore acheté un code, veuillez cliquer <a href="http://www.simplemachines.org/copyright/index.php">ici</a>. Une fois que le code aura été saisi et vérifié, le copyright sera caché jusqu\'à ce que votre souscription expire. Le temps restant sera montré dans le centre d\'administration.';
-$txt['copyright_code'] = 'Code Copyright';
-$txt['copyright_proceed'] = 'Procéder';
-
 $txt['advanced'] = 'Avancé';
 $txt['simple'] = 'Simple';
 

@@ -443,8 +443,8 @@ $forum_copyright = 'Propulsé par <a href="http://wedgeforum.com/" title="Wedge 
 | Wedge &copy; 2010, <a href="http://wedgebox.com/" title="About Wedge" target="_blank" class="new_win">Wedgebox</a>
 <br />Basé sur SMF &copy; 2006&ndash;2010, <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">Simple Machines LLC</a>';
 */
-$forum_copyright = 'Propulsé par <a href="http://wedgeforum.com/" title="Wedge Forum" target="_blank" class="new_win">%1$s</a>
-| Wedge &copy; 2010, <a href="http://wedgebox.com/" title="About Wedge" target="_blank" class="new_win">Wedgebox</a>';
+$forum_copyright = '<a href="http://wedgeforum.com/" title="Wedge Forum" target="_blank" class="new_win">Wedge</a> est en construction.
+&copy; 2010, <a href="http://wedgebox.com/" title="About Wedge" target="_blank" class="new_win">Wedgebox</a>';
 $forum_copyright .= '<br /><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Propulsé par %1$s</a> |
  <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>';
 

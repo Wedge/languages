@@ -54,8 +54,6 @@ $txt['session_verify_fail'] = 'Échec de vérification de session. Veuillez tent
 $txt['verify_url_fail'] = 'Impossible de vérifier l\'adresse référente. Merci de revenir en arrière et de réessayer.';
 $txt['guest_vote_disabled'] = 'Les invités ne peuvent pas participer à ce sondage.';
 
-$txt['copyright_failed'] = 'Désolé, mais le code saisi est incorrect. Veuillez vous assurer que l\'url de votre forum correspond à ce que vous avez saisi lors de l\'achat du code.';
-
 $txt['cannot_access_mod_center'] = 'Vous n\'avez pas la permission d\'accéder au centre de modération.';
 $txt['cannot_admin_forum'] = 'Vous n\'êtes pas autorisé à administrer ce forum.';
 $txt['cannot_announce_topic'] = 'Vous n\'êtes pas autorisé à annoncer vos sujets dans cette section.';
