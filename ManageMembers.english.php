@@ -94,7 +94,6 @@ $txt['admin_browse_with_selected'] = 'With Selected';
 $txt['admin_browse_no_members_approval'] = 'No members currently await approval.';
 $txt['admin_browse_no_members_activate'] = 'No members currently have not activated their accounts.';
 
-// Don't use entities in the below strings, except the main ones. (lt, gt, quot.)
 $txt['admin_browse_warn'] = 'all selected members?';
 $txt['admin_browse_outstanding_warn'] = 'all affected members?';
 $txt['admin_browse_w_approve'] = 'Approve';

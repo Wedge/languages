@@ -3,7 +3,7 @@
 
 global $scripturl;
 
-$txt['modSettings_desc'] = 'This page allows you to change the settings of features and basic options in your forum.  Please see the <a href="' . $scripturl . '?action=admin;area=theme;sa=settings;th=%1$s;%3$s=%2$s">theme settings</a> for more options.  Click the help icons for more information about a setting.';
+$txt['modSettings_desc'] = 'This page allows you to change the settings of features and basic options in your forum. Please see the <a href="' . $scripturl . '?action=admin;area=theme;sa=settings;th=%1$s;%3$s=%2$s">theme settings</a> for more options. Click the help icons for more information about a setting.';
 $txt['security_settings_desc'] = 'This page allows you to set options specifically related to the security and moderation of your forum, including anti-spam options.';
 $txt['modification_settings_desc'] = 'This page contains settings added by any add-ons to your forum';
 
@@ -193,7 +193,7 @@ $txt['signature_max_font_size'] = 'Maximum font size allowed in signatures<div c
 $txt['signature_bbc'] = 'Enabled BBC tags';
 
 $txt['custom_profile_title'] = 'Custom Profile Fields';
-$txt['custom_profile_desc'] = 'From this page you can create your own custom profile fields that fit in with your own forums requirements';
+$txt['custom_profile_desc'] = 'From this page you can create your own custom profile fields that fit in with your own forum\'s requirements.';
 $txt['custom_profile_active'] = 'Active';
 $txt['custom_profile_fieldname'] = 'Field Name';
 $txt['custom_profile_fieldtype'] = 'Field Type';
@@ -271,8 +271,8 @@ $txt['core_settings_welcome_msg'] = 'Welcome to Your New Forum';
 $txt['core_settings_welcome_msg_desc'] = 'To get you started we suggest you select which of SMF\'s core features you want to enable. We\'d recommend only enabling with those features you need!';
 $txt['core_settings_item_cd'] = 'Calendar';
 $txt['core_settings_item_cd_desc'] = 'Enabling this feature will open up a selection of options to enable your users to view the calendar, add and review events, see users birthdates on a calendar and much, much more.';
-$txt['core_settings_item_cp'] = 'Advanced Profile Fields';
-$txt['core_settings_item_cp_desc'] = 'This enables you to hide standard profile fields, add profile fields to registration, and create new profile fields for your forum.';
+$txt['core_settings_item_cp'] = 'Custom Profile Fields';
+$txt['core_settings_item_cp_desc'] = 'This enables you to hide standard profile fields, request profile fields at registration, and create custom fields for your forum.';
 $txt['core_settings_item_ml'] = 'Moderation, Administration and User Logs';
 $txt['core_settings_item_ml_desc'] = 'Enable the moderation and administration logs to keep an audit trail of all the key actions taken on your forum. Also allows forum moderators to view a history of key changes a user makes to their profile.';
 $txt['core_settings_item_pm'] = 'Post Moderation';

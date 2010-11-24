@@ -94,9 +94,8 @@ $txt['admin_browse_with_selected'] = 'Avec la sélection';
 $txt['admin_browse_no_members_approval'] = 'Aucun compte n\'est actuellement en attente d\'approbation.';
 $txt['admin_browse_no_members_activate'] = 'Aucun compte n\'est actuellement en attente d\'activation.';
 
-// Don't use entities in the below strings, except the main ones. (lt, gt, quot.)
-$txt['admin_browse_warn'] = 'tous les membres sélectionnés?';
-$txt['admin_browse_outstanding_warn'] = 'tous les membres affectés?';
+$txt['admin_browse_warn'] = 'tous les membres sélectionnés ?';
+$txt['admin_browse_outstanding_warn'] = 'tous les membres affectés ?';
 $txt['admin_browse_w_approve'] = 'Approuver';
 $txt['admin_browse_w_activate'] = 'Activer';
 $txt['admin_browse_w_delete'] = 'Supprimer';

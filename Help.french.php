@@ -219,7 +219,7 @@ $helptxt['manage_files'] = '
 	<ul class="normallist">
 		<li>
 			<strong>Parcourir les Fichiers</strong><br />
-			Parcourir à travers tous les fichiers joints, avatars et miniatures stockés par SMF.<br /><br />
+			Parcourir à travers tous les fichiers joints, avatars et vignettes stockés par SMF.<br /><br />
 		</li><li>
 			<strong>Réglages des Fichiers Joints</strong><br />
 			Configurer où sont stockés les fichiers joints et mettre les restrictions sur les types de fichiers joints.<br /><br />
@@ -298,17 +298,17 @@ $helptxt['removeNestedQuotes'] = 'Ceci effacera les citations imbriquées dans l
 $helptxt['simpleSearch'] = 'Ceci affichera un formulaire de recherche simple ainsi qu\'un lien vers un formulaire contenant plus d\'options.';
 $helptxt['max_image_width'] = 'Cette option vous permet de spécifier une taille maximale pour les images postées. Les images plus petites ne seront pas affectées.';
 $helptxt['mail_type'] = 'Cette option vous permet d\'utiliser soit le réglage par défaut de PHP ou de l\'outrepasser en utilisant le protocole SMTP. PHP ne supporte pas l\'authentification (que plusieurs FAI requièrent maintenant) donc vous devriez vous renseigner avant d\'utiliser cette option. Notez que SMTP peut être plus lent que sendmail et que certains serveurs ne prendront pas en compte les identifiants et mot de passe.<br /><br />Vous n\'avez pas à renseigner les informations SMTP si vous utilisez la configuration par défaut de PHP.';
-$helptxt['attachment_manager_settings'] = 'Les fichiers joints sont des fichiers que les membres peuvent uploader, et attacher à un message.<br /><br />
-		<strong>Contrôler les extensions de fichier joint</strong>:<br /> Voulez vous contrôler l\'extension des fichiers&nbsp;?<br />
-		<strong>Extensions de fichier autorisées</strong>:<br /> Vous pouvez mettre les extensions de fichiers joints autorisées.<br />
-		<strong>Répertoire des fichiers joints</strong>:<br /> Le chemin vers le dossier de fichiers joints<br />(exemple: /home/sites/yoursite/www/forum/attachments)<br />
-		<strong>Espace Max dossier fichiers joints</strong> (en Ko):<br /> Sélectionnez de quelle taille le dossier de fichiers joints peut t\'il être, en incluant tous les fichiers contenus.<br />
-		<strong>Taille Max de fichiers joints par message</strong> (en Ko):<br /> Sélectionnez la taille de fichier maximum de tous les fichiers joints d\'un même message. Si elle est inférieure à la limite de taille de fichier joint, cela sera la limite.<br />
-		<strong>Taille maximum par fichier joint</strong> (en Ko):<br /> Sélectionnez la taille de fichier maximum de chaque fichier joint.<br />
-		<strong>Nombre maximum de fichiers joints par message</strong>:<br /> Sélectionnez le nombre de fichiers joints qu\'une personne peut mettre par message.<br />
-		<strong>Afficher un fichier joint comme une image dans les messages</strong>:<br /> Si le fichier uploadé est une image, elle sera affichée sous le message.<br />
-		<strong>Redimensionner les images quand affichées sous les messages</strong>:<br /> Si l\'option au-dessus est sélectionnée, cela sauvegardera une copie (plus petite) du fichier joint pour la miniature afin d\'économiser la bande passante.<br />
-		<strong>Taille et hauteur maximum des miniatures</strong>:<br /> Seulement utilisé avec l\'option &quot;Redimensionner les images quand affichées sous les messages&quot;, spécifie la taille et la hauteur maximales des miniatures créées pour les fichiers joints. Elles seront redimensionnées proportionnellement.';
+$helptxt['attachment_manager_settings'] = 'Les fichiers joints sont des fichiers que les membres peuvent uploader et joindre à un message.<br /><br />
+		<strong>Vérifier l\'extension des fichiers joints</strong> :<br /> Voulez-vous contrôler l\'extension des fichiers&nbsp;?<br />
+		<strong>Extensions autorisées</strong> :<br /> Vous pouvez mettre les extensions de fichiers joints autorisées.<br />
+		<strong>Répertoire des fichiers joints</strong> :<br /> Le chemin vers le dossier de fichiers joints<br />(exemple: /home/sites/yoursite/www/forum/attachments)<br />
+		<strong>Taille maximale du répertoire des fichiers joints</strong> (en Ko) :<br /> Sélectionnez de quelle taille le dossier de fichiers joints peut t\'il être, en incluant tous les fichiers contenus.<br />
+		<strong>Taille totale maximale des fichiers joints par message</strong> (en Ko) :<br /> Sélectionnez la taille de fichier maximum de tous les fichiers joints d\'un même message. Si elle est inférieure à la limite de taille de fichier joint, cela sera la limite.<br />
+		<strong>Taille maximale de chaque fichier joint</strong> (en Ko) :<br /> Sélectionnez la taille de fichier maximum de chaque fichier joint.<br />
+		<strong>Nombre maximum de fichiers joints par message</strong> :<br /> Sélectionnez le nombre de fichiers joints qu\'une personne peut mettre par message.<br />
+		<strong>Afficher les images jointes sous les messages</strong> :<br /> Si le fichier uploadé est une image, elle sera affichée sous le message.<br />
+		<strong>Montrer les images jointes sous forme de vignettes sous les messages</strong> :<br /> Si l\'option au-dessus est sélectionnée, cela sauvegardera une copie (plus petite) du fichier joint pour la vignette afin d\'économiser la bande passante.<br />
+		<strong>Largeur et hauteur maximales des vignettes</strong> :<br /> Seulement utilisé avec l\'option &quot;Redimensionner les images quand affichées sous les messages&quot;, spécifie la taille et la hauteur maximales des vignettes créées pour les fichiers joints. Elles seront redimensionnées proportionnellement.';
 $helptxt['attachment_image_paranoid'] = 'Choisissez cette option pour mettre en place des contrôles de sécurité très stricts sur les images envoyées en fichier joint. Attention, ces contrôles peuvent parfois échouer sur des images sans danger. Nous vous recommandons de ne l\'utiliser qu\'en association avec l\'option de réencodage, auquel cas SMF essaiera de recréer et de mettre en ligne des images saines si le contrôle échoue. Si le réencodage n\'est pas activé, les fichiers joints échouant au contrôle seront rejetés.';
 $helptxt['attachment_image_reencode'] = 'Choisissez cette option pour permettre le réencodage des fichier joints envoyés par les utilisateurs. Le réencodage vous garantit une meilleure sécurité, mais il supprime également les animations des images animées.';
 $helptxt['avatar_paranoid'] = 'Choisissez cette option pour mettre en place des contrôles de sécurité très stricts sur les avatars au moment où les utilisateurs les envoient. Attention, ces contrôles peuvent parfois échouer sur des images sans danger. Nous vous recommandons de ne l\'utiliser qu\'en association avec l\'option de réencodage, auquel cas SMF essaiera de recréer et de mettre en ligne des images saines si le contrôle échoue. Si le réencodage n\'est pas activé, les avatars échouant au contrôle seront rejetés.';

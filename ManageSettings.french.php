@@ -192,7 +192,7 @@ $txt['signature_max_font_size'] = 'Taille de police maximale autorisée dans les
 $txt['signature_bbc'] = 'Balises BBCode autorisées';
 
 $txt['custom_profile_title'] = 'Champs de profil personnalisés';
-$txt['custom_profile_desc'] = 'Sur cette page, vous pouvez créer vos propres champs de profil correspondant aux besoins de votre forum';
+$txt['custom_profile_desc'] = 'Sur cette page, vous pouvez créer vos propres champs de profil correspondant aux besoins de votre forum.';
 $txt['custom_profile_active'] = 'Actif';
 $txt['custom_profile_fieldname'] = 'Nom du champ';
 $txt['custom_profile_fieldtype'] = 'Type de champ';
@@ -263,15 +263,15 @@ $txt['custom_profile_placement_abovesignature'] = 'Above Signature';
 
 $txt['custom_edit_delete_sure'] = 'Êtes-vous sûr de vouloir supprimer ce champ ? Toutes les données utilisateur liées seront perdues !';
 
-$txt['standard_profile_title'] = 'Champs de profil Standards';
+$txt['standard_profile_title'] = 'Champs de profil standards';
 $txt['standard_profile_field'] = 'Champ';
 
 $txt['core_settings_welcome_msg'] = 'Bienvenue sur votre nouveau forum';
 $txt['core_settings_welcome_msg_desc'] = 'Pour commencer, nous vous suggérons de sélectionner quelles fonctionnalités centrales d\'SMF vous voulez activer. Nous vous recommendons de n\'activer que les fonctionnalités dont vous avez besoin&nbsp;!';
 $txt['core_settings_item_cd'] = 'Calendrier';
 $txt['core_settings_item_cd_desc'] = 'Activer cette fonctionnalité vous donnera accès à une série d\'options pour permettre à vos utilisateurs de consulter le calendrier, ajouter et vérifier des événements, voir les dates d\'anniversaire des utilisateurs sur un calendrier et bien plus encore.';
-$txt['core_settings_item_cp'] = 'Champs de profil Avancés';
-$txt['core_settings_item_cp_desc'] = 'Ceci vous permet de cacher des champs de profil standards, ajouter des champs de profil à l\'inscription, et créer de nouveaux champs de profil pour votre forum.';
+$txt['core_settings_item_cp'] = 'Champs de profil personnalisés';
+$txt['core_settings_item_cp_desc'] = 'Ceci vous permet de cacher des champs de profil standards, de forcer le remplissage de champs à l\'inscription, et de créer de nouveaux champs pour votre forum.';
 $txt['core_settings_item_ml'] = 'Journal de modération';
 $txt['core_settings_item_ml_desc'] = 'Activer le journal de modération pour garder une trace de toutes les actions faites par vos modérateurs sur le forum.';
 $txt['core_settings_item_pm'] = 'Modération de message';
