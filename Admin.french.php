@@ -217,8 +217,8 @@ $txt['maintain_sub_topics'] = 'Sujets';
 $txt['maintain_done'] = 'La tâche de maintenance \'%1$s\' a été accomplie avec succès.';
 $txt['maintain_no_errors'] = 'Félicitations, aucune erreur n\'a été trouvée&nbsp;! Merci d\'avoir effectué une vérification.';
 
-$txt['maintain_tasks'] = 'Taches programmées';
-$txt['maintain_tasks_desc'] = 'Gérer toutes les tâches programmées par SMF.';
+$txt['maintain_tasks'] = 'Tâches planifiées';
+$txt['maintain_tasks_desc'] = 'Organiser les tâches planifiées par Wedge.';
 
 $txt['scheduled_log'] = 'Journal des Tâches';
 $txt['scheduled_log_desc'] = 'Liste les tâches exécutées.';

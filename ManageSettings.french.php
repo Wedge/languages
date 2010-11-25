@@ -50,7 +50,7 @@ $txt['pruneErrorLog'] = 'Supprimer les entrées du journal d\'erreurs plus ancie
 $txt['pruneModLog'] = 'Supprimer les entrées du journal de modération plus anciennes que<div class="smalltext">(0 pour désactiver)</div>';
 $txt['pruneBanLog'] = 'Supprimer les entrées du journal d\'occurrences de bannissement plus anciennes que<div class="smalltext">(0 pour désactiver)</div>';
 $txt['pruneReportLog'] = 'Supprimer les entrées du journal de rapports aux modérateurs plus anciennes que<div class="smalltext">(0 pour désactiver)</div>';
-$txt['pruneScheduledTaskLog'] = 'Supprimer les entrées du journal de tâches programmées plus anciennes que<div class="smalltext">(0 pour désactiver)</div>';
+$txt['pruneScheduledTaskLog'] = 'Supprimer les entrées du journal de tâches planifiées plus anciennes que<div class="smalltext">(0 pour désactiver)</div>';
 $txt['pruneSpiderHitLog'] = 'Supprimer les occurrences des moteurs de recherche plus anciennes que<div class="smalltext">(0 pour désactiver)</div>';
 $txt['cookieTime'] = 'Durée par défaut des témoins (<em>cookies</em>) - en minutes';
 $txt['localCookies'] = 'Activer l\'archivage local des témoins<div class="smalltext">(SSI ne fonctionnera pas bien si ceci est activé.)</div>';
