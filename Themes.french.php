@@ -33,7 +33,6 @@ $txt['theme_preview'] = 'Prévisualiser ce thème';
 $txt['theme_set'] = 'Utiliser ce thème';
 $txt['theme_user'] = 'personne utilise ce thème.';
 $txt['theme_users'] = 'personnes utilisent ce Thème.';
-$txt['theme_pick_variant'] = 'Choisir une Variante';
 
 $txt['theme_edit'] = 'Modifier un Thème';
 $txt['theme_edit_style'] = 'Modifier les feuilles de style (couleurs, polices, etc.)';
@@ -44,16 +43,12 @@ $txt['theme_edit_save'] = 'Sauvegarder les Changements';
 $txt['theme_global_description'] = 'Ceci est le thème par défaut, ce qui signifie que votre thème changera suivant les paramètres de l\'administrateur et le forum que vous lisez.';
 
 $txt['theme_url_config'] = 'URLs et Configuration des Thèmes';
-$txt['theme_variants'] = 'Variations sur un même Thème';
 $txt['theme_options'] = 'Options et Préférences des Thèmes';
 $txt['actual_theme_name'] = 'Nom de ce thème&nbsp;: ';
 $txt['actual_theme_dir'] = 'Dossier de ce thème&nbsp;: ';
 $txt['actual_theme_url'] = 'URL de ce thème&nbsp;: ';
 $txt['actual_images_url'] = 'URL des images de ce thème&nbsp;: ';
 $txt['current_theme_style'] = 'Le style de ce thème&nbsp;: ';
-
-$txt['theme_variants_default'] = 'Variation par défaut du thème';
-$txt['theme_variants_user_disable'] = 'Empêcher les utilisateurs de choisir une variante';
 
 $txt['site_slogan'] = 'Slogan du site';
 $txt['site_slogan_desc'] = 'Ajouter votre propre slogan ici. Il remplacera le logo de SMF.';
