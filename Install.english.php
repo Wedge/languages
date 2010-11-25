@@ -12,7 +12,7 @@ $txt['install_step_databasechange'] = 'Database Population';
 $txt['install_step_admin'] = 'Admin Account';
 $txt['install_step_delete'] = 'Finalize Install';
 
-$txt['wedge_installer'] = 'Wedge Installer';
+$txt['smf_installer'] = 'Wedge Installer';
 $txt['installer_language'] = 'Language';
 $txt['installer_language_set'] = 'Set';
 $txt['congratulations'] = 'Congratulations, the installation process is complete!';
