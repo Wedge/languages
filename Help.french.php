@@ -115,8 +115,8 @@ $helptxt['number_format'] = '<strong>Format des nombres</strong><br />
 $helptxt['time_format'] = '<strong>Format de l\'heure</strong><br />
 	Vous avez la possibilité d\'ajuster la manière dont le temps et les dates seront affichés sur votre forum. Il y a beaucoup de lettres, mais c\'est relativement simple. La convention d\'écriture s\'accorde avec celle de la fonction <tt>strftime</tt> de PHP et est décrite ci-dessous (plus de détails peuvent être trouvés sur <a href="http://www.php.net/manual/fr/function.strftime.php" target="_blank">php.net</a>).<br />
 	<br />
-	Les caractères suivants sont reconnus en tant qu\'entrées dans la chaîne du format de l\'heure&nbsp;: <br />
-	<span class="smalltext">
+	Les caractères suivants sont reconnus en tant qu\'entrées dans la chaîne du format de l\'heure&nbsp;:
+	<div class="smalltext">
 	&nbsp;&nbsp;%a - Nom du jour (abrégé)<br />
 	&nbsp;&nbsp;%A - Nom du jour (complet)<br />
 	&nbsp;&nbsp;%b - Nom du mois (abrégé)<br />
@@ -136,7 +136,7 @@ $helptxt['time_format'] = '<strong>Format de l\'heure</strong><br />
 	&nbsp;&nbsp;%Y - Année au format 4 chiffres<br />
 	&nbsp;&nbsp;%% - Le symbole \'%\' en lui-même<br />
 	<br />
-	<em>* Ne fonctionnent pas sur les serveurs Windows.</em></span>';
+	<em>* Ne fonctionnent pas sur les serveurs Windows.</em></div>';
 
 $helptxt['live_news'] = '<strong>En direct de Simple Machines...</strong><br />
 	Cette boîte affiche les dernières dépêches en provenance de <a href="http://www.simplemachines.org/" target="_blank">www.simplemachines.org</a>.

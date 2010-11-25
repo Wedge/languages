@@ -117,8 +117,8 @@ $helptxt['time_format'] = '<strong>Time Format</strong><br />
 	You have the power to adjust how the time and date look for yourself. There are a lot of little letters, but it\'s quite simple.
 	The conventions follow PHP\'s strftime function and are described as below (more details can be found at <a href="http://www.php.net/manual/function.strftime.php" target="_blank" class="new_win">php.net</a>).<br />
 	<br />
-	The following characters are recognized in the format string: <br />
-	<span class="smalltext">
+	The following characters are recognized in the format string:
+	<div class="smalltext">
 	&nbsp;&nbsp;%a - abbreviated weekday name<br />
 	&nbsp;&nbsp;%A - full weekday name<br />
 	&nbsp;&nbsp;%b - abbreviated month name<br />
@@ -138,7 +138,7 @@ $helptxt['time_format'] = '<strong>Time Format</strong><br />
 	&nbsp;&nbsp;%Y - 4 digit year<br />
 	&nbsp;&nbsp;%% - a literal \'%\' character <br />
 	<br />
-	<em>* Does not work on Windows-based servers.</em></span>';
+	<em>* Does not work on Windows-based servers.</em></div>';
 
 $helptxt['live_news'] = '<strong>Live announcements</strong><br />
 	This box shows recently updated announcements from <a href="http://www.simplemachines.org/" target="_blank" class="new_win">www.simplemachines.org</a>.
