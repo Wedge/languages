@@ -45,10 +45,11 @@ $txt['membergroups_group_type_request'] = 'Sur demande <span class="smalltext">(
 $txt['membergroups_group_type_free'] = 'Libre <span class="smalltext">(Tout le monde peut rejoindre et quitter le groupe à tout moment)</span>';
 $txt['membergroups_group_type_post'] = 'Basé sur les messages <span class="smalltext">(L\'appartenance au groupe dépend du nombre de messages postés)</span>';
 $txt['membergroups_min_posts'] = 'Nombre de messages requis';
-$txt['membergroups_online_color'] = 'Couleur dans la liste des membres connectés<br /><span class="smalltext" style="font-weight: normal;"><em>(en hexadécimal, incluant le dièse)</em></span> ';
+$txt['membergroups_online_color'] = 'Couleur dans la liste des membres connectés';
+$txt['membergroups_online_color_desc'] = 'Par exemple, #FFCC99.';
 $txt['membergroups_star_count'] = 'Nombre d\'images de rang';
 $txt['membergroups_star_image'] = 'Nom du fichier image';
-$txt['membergroups_star_image_note'] = 'vous pouvez utiliser $language pour pointer vers un dossier différent selon la langue du membre';
+$txt['membergroups_star_image_note'] = 'Vous pouvez utiliser $language pour pointer vers un dossier différent selon la langue du membre';
 $txt['membergroups_max_messages'] = 'Nombre de MP maximum';
 $txt['membergroups_max_messages_note'] = '0 = illimité';
 $txt['membergroups_edit_save'] = 'Sauvegarder';

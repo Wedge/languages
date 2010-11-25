@@ -393,6 +393,7 @@ $txt['avatar_server_stored'] = 'Avatars stockés sur le serveur';
 $txt['avatar_server_stored_groups'] = 'Les Groupes de membres sont autorisés à sélectionner une serveur de stockage d\'avatars';
 $txt['avatar_upload_groups'] = 'Les Groupes de membres sont autorisés à transférer leur propre avatar sur le serveur';
 $txt['avatar_external_url_groups'] = 'Groupes de membres autorisés à sélectionner des avatars externes';
+$txt['avatar_defaults'] = 'Avatars par défaut';
 $txt['avatar_select_permission'] = 'Sélectionner les permissions pour chaque groupe';
 $txt['avatar_download_external'] = 'Télécharger l\'avatar à l\'URL donnée';
 $txt['custom_avatar_enabled'] = 'Transférer les avatars dans&hellip;';
