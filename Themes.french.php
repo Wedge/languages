@@ -34,6 +34,10 @@ $txt['theme_set'] = 'Utiliser ce thème';
 $txt['theme_user'] = 'personne utilise ce thème.';
 $txt['theme_users'] = 'personnes utilisent ce Thème.';
 
+$txt['theme_stylings'] = 'Styles';
+$txt['theme_styling_preview'] = 'Prévisualiser ce style';
+$txt['theme_styling_set'] = 'Utiliser ce style';
+
 $txt['theme_edit'] = 'Modifier un Thème';
 $txt['theme_edit_style'] = 'Modifier les feuilles de style (couleurs, polices, etc.)';
 $txt['theme_edit_index'] = 'Modifier index.template.php (le modèle principal)';
