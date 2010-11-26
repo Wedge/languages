@@ -3,10 +3,10 @@
 
 $txt['themeadmin_explain'] = 'Les thèmes <em>(parfois appelés \'apparences\', \'habillages\' ou \'skins\')</em> sont des présentations graphiques pour votre forum. Ces paramètres affectent la sélection des thèmes et quel thème les invités et les autres membres utilisent.';
 
-$txt['theme_allow'] = 'Autoriser les membres à choisir leur propre thème.';
-$txt['theme_guests'] = 'Thème par défaut';
+$txt['theme_allow'] = 'Autoriser les membres à choisir leur propre thème ?';
+$txt['theme_guests'] = 'Thème par défaut pour les invités&nbsp;';
 $txt['theme_select'] = 'choisir...';
-$txt['theme_reset'] = 'Régler tout le monde sur';
+$txt['theme_reset'] = 'Régler tout le monde sur&nbsp;';
 $txt['theme_nochange'] = 'Aucun changement';
 $txt['theme_forum_default'] = 'Thème par défaut';
 
@@ -14,12 +14,12 @@ $txt['theme_remove'] = 'enlever';
 $txt['theme_remove_confirm'] = 'Êtes-vous sûr de vouloir retirer ce thème (c\'est définitif)&nbsp;?';
 
 $txt['theme_install'] = 'Installer un Nouveau Thème';
-$txt['theme_install_file'] = 'Depuis une archive sur votre ordinateur';
-$txt['theme_install_dir'] = 'Depuis un dossier sur le serveur';
+$txt['theme_install_file'] = 'Depuis une archive sur votre ordinateur&nbsp;';
+$txt['theme_install_dir'] = 'Depuis un dossier sur le serveur&nbsp;';
 $txt['theme_install_error'] = 'Ce dossier de thème n\'existe pas, ou ne contient pas de thème&nbsp;!';
 $txt['theme_install_write_error'] = 'Le dossier des thèmes ne doit pas être en lecture seule pour continuer&nbsp;!';
 $txt['theme_install_go'] = 'Installer&nbsp;!';
-$txt['theme_install_new'] = 'Créer une copie de <em>SMF Default Theme</em> nommée';
+$txt['theme_install_new'] = 'Ou créer une copie du thème par défaut, nommée&nbsp;';
 $txt['theme_install_new_confirm'] = 'Êtes-vous sûr de vouloir installer ce nouveau thème&nbsp;?';
 $txt['theme_install_writable'] = 'Attention - vous ne pouvez pas créer ou installer un nouveau thème car votre dossier de thèmes est en lecture seule&nbsp;!';
 $txt['theme_installed'] = 'Installé avec succès';
@@ -51,7 +51,7 @@ $txt['actual_images_url'] = 'URL des images de ce thème&nbsp;: ';
 $txt['current_theme_style'] = 'Le style de ce thème&nbsp;: ';
 
 $txt['site_slogan'] = 'Slogan du site';
-$txt['site_slogan_desc'] = 'Ajouter votre propre slogan ici. Il remplacera le logo de SMF.';
+$txt['site_slogan_desc'] = 'Ajoutez votre propre slogan ici. Il remplacera le logo de Wedge.';
 $txt['forum_width'] = 'Largeur du forum';
 $txt['forum_width_desc'] = 'Spécifiez la largeur du forum. Exemples&nbsp;: 950px, 80%, 1240px.';
 
@@ -80,11 +80,11 @@ $txt['current_pos_text_img'] = 'Afficher la position actuelle comme des liens, p
 $txt['show_view_profile_button'] = 'Afficher le bouton de profil dans les messages';
 $txt['enable_mark_as_read'] = 'Activer et afficher les boutons &quot;Marquer comme lu&quot; et &quot;Marquer non lu&quot;';
 $txt['header_logo_url'] = 'URL vers l\'image de logo';
-$txt['header_logo_url_desc'] = '(laissez vide pour afficher le nom du forum ou le logo par défaut.)';
+$txt['header_logo_url_desc'] = 'Laissez vide pour afficher le nom du forum ou le logo par défaut.';
 $txt['number_recent_posts'] = 'Nombre de messages récents à afficher sur la page d\'accueil du forum';
 $txt['number_recent_posts_desc'] = 'Pour désactiver la barre des messages récents, réglez ce paramètre à zéro.';
 $txt['hide_post_group'] = 'Cacher le <abbr title="Groupe basé sur le nombre de messages">groupe posteur</abbr> pour les membres classés dans des <abbr title="Groupes ne variant pas avec le nombre d\'interventions dans le forum">groupes permanents</abbr>';
-$txt['hide_post_group_desc'] = 'Activer cette option n\'affichera pas le nom du groupe posteur <em>(groupe automatique basé sur le nombre de messages envoyés sur le forum)</em> auquel appartient un membre inscrit dans un groupe permanent <em>(groupe spéciaux, indépendants du nombre de messages, comme \'Modérateur\', \'Modérateur Global\' et \'Administrateur\')</em>.';
+$txt['hide_post_group_desc'] = 'Si vous activez cette option, le nom du groupe posteur <em>(groupe automatique basé sur le nombre de messages postés)</em> ne sera pas indiqué pour les membres appartenant à un groupe permanent <em>(groupes spéciaux, indépendants du nombre de messages, comme \'Modérateur\' ou \'Administrateur\', etc.)</em>';
 
 $txt['theme_options_defaults'] = 'Ceci sont les valeurs par défaut de quelques réglages spécifiques des membres.  Les modifier affectera seulement les invités et les nouveaux membres.';
 $txt['theme_options_title'] = 'Changer ou Réinitialiser les Options par Défaut';
@@ -124,7 +124,7 @@ $txt['themeadmin_edit_style'] = 'Modifier les feuilles de style de ce thème.';
 $txt['themeadmin_edit_copy_template'] = 'Copier un modèle (template) depuis le thème sur lequel celui-ci est basé.';
 $txt['themeadmin_edit_exists'] = 'existe déjà';
 $txt['themeadmin_edit_do_copy'] = 'copier';
-$txt['themeadmin_edit_copy_warning'] = 'Quand SMF a besoin d\'un modèle ou d\'un fichier de langue qui n\'existe pas dans le thème actuel, il regarde dans le dossier du thème sur lequel celui-ci est basé, ou dans le thème par défaut.<br />A moins que vous ne deviez modifier un modèle, il est plus prudent de ne pas le copier.';
+$txt['themeadmin_edit_copy_warning'] = 'Quand Wedge a besoin d\'un modèle ou d\'un fichier de langue qui n\'existe pas dans le thème actuel, il regarde dans le dossier du thème sur lequel celui-ci est basé, ou dans le thème par défaut.<br />A moins que vous ne deviez modifier un modèle, il est plus prudent de ne pas le copier.';
 $txt['themeadmin_edit_copy_confirm'] = 'Voulez-vous vraiment copier ce modèle ?';
 $txt['themeadmin_edit_overwrite_confirm'] = 'Voulez-vous vraiment copier ce modèle par-dessus celui qui existe déjà ?\nCeci va ÉCRASER tous les changements que vous avez faits !';
 $txt['themeadmin_edit_no_copy'] = '<em>(ne peut copier)</em>';
@@ -136,7 +136,7 @@ $txt['themeadmin_edit_kilobytes'] = 'Ko';
 $txt['themeadmin_edit_error'] = 'Le fichier que vous tentiez de sauvegarder a généré l\'erreur suivante&nbsp;:';
 $txt['themeadmin_edit_on_line'] = 'Commence à la ligne';
 $txt['themeadmin_edit_preview'] = 'Prévisualiser';
-$txt['themeadmin_selectable'] = 'Thèmes sélectionnables par l\'utilisateur';
+$txt['themeadmin_selectable'] = 'Thèmes sélectionnables par l\'utilisateur&nbsp;';
 $txt['themeadmin_themelist_link'] = 'Montrer la liste des thèmes';
 
 ?>

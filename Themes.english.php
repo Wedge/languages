@@ -3,8 +3,8 @@
 
 $txt['themeadmin_explain'] = 'Themes are the different looks and feels of your forum.  These settings affect the selection of themes, and which themes guests and other members use.';
 
-$txt['theme_allow'] = 'Allow members to select their own themes.';
-$txt['theme_guests'] = 'Overall forum default';
+$txt['theme_allow'] = 'Allow members to select their own themes?';
+$txt['theme_guests'] = 'Overall forum default for guests';
 $txt['theme_select'] = 'choose...';
 $txt['theme_reset'] = 'Reset everyone to';
 $txt['theme_nochange'] = 'No change';
@@ -19,7 +19,7 @@ $txt['theme_install_dir'] = 'From a directory on the server';
 $txt['theme_install_error'] = 'That theme directory doesn\'t exist, or doesn\'t contain a theme!';
 $txt['theme_install_write_error'] = 'The Themes directory must be writable to continue!';
 $txt['theme_install_go'] = 'Install!';
-$txt['theme_install_new'] = 'Create a copy of Default named';
+$txt['theme_install_new'] = 'Or create a copy of the default theme, named';
 $txt['theme_install_new_confirm'] = 'Are you sure you want to install this new theme?';
 $txt['theme_install_writable'] = 'Warning - you cannot create or install a new theme as your themes directory is not currently writable!';
 $txt['theme_installed'] = 'Installed Successfully';
@@ -35,9 +35,9 @@ $txt['theme_user'] = 'person is using this theme.';
 $txt['theme_users'] = 'people are using this theme.';
 
 $txt['theme_edit'] = 'Edit Theme';
-$txt['theme_edit_style'] = 'Modify the stylesheets. (colors, fonts, etc.)';
-$txt['theme_edit_index'] = 'Modify the index template. (the main template)';
-$txt['theme_edit_no_save'] = 'This file cannot be saved because it is not writable!  Please make sure the following file is 777 or has the proper permissions';
+$txt['theme_edit_style'] = 'Modify the stylesheets. (Colors, fonts, etc.)';
+$txt['theme_edit_index'] = 'Modify the index template. (The main template)';
+$txt['theme_edit_no_save'] = 'This file cannot be saved because it is not writable! Please make sure the following file is 777 or has the proper permissions';
 $txt['theme_edit_save'] = 'Save Changes';
 
 $txt['theme_global_description'] = 'This is the default theme, which means your theme will change along with the administrators\' settings and the board you are viewing.';
@@ -51,7 +51,7 @@ $txt['actual_images_url'] = 'This theme\'s images URL: ';
 $txt['current_theme_style'] = 'This theme\'s style: ';
 
 $txt['site_slogan'] = 'Site slogan';
-$txt['site_slogan_desc'] = 'Add your own text for a slogan here. It will replace the SMF logo.';
+$txt['site_slogan_desc'] = 'Add your own text for a slogan here. It will replace the Wedge logo.';
 $txt['forum_width'] = 'Forum width';
 $txt['forum_width_desc'] = 'Set the forum width. Examples: 950px, 80%, 1240px.';
 
@@ -80,7 +80,7 @@ $txt['current_pos_text_img'] = 'Show current position in forum as link instead o
 $txt['show_view_profile_button'] = 'Show view profile button under post';
 $txt['enable_mark_as_read'] = 'Enable and show \'Mark as Read\' buttons';
 $txt['header_logo_url'] = 'Logo image URL';
-$txt['header_logo_url_desc'] = '(leave blank to show forum name or default logo.)';
+$txt['header_logo_url_desc'] = 'Leave blank to show forum name or default logo.';
 $txt['number_recent_posts'] = 'Number of recent posts to display on board index';
 $txt['number_recent_posts_desc'] = 'To disable the recent posts bar set this value to zero.';
 $txt['hide_post_group'] = 'Hide post group titles for grouped members';
@@ -124,7 +124,7 @@ $txt['themeadmin_edit_style'] = 'Edit this theme\'s stylesheets.';
 $txt['themeadmin_edit_copy_template'] = 'Copy a template from the theme this is based on.';
 $txt['themeadmin_edit_exists'] = 'already exists';
 $txt['themeadmin_edit_do_copy'] = 'copy';
-$txt['themeadmin_edit_copy_warning'] = 'When SMF needs a template or language file which is not in the current theme, it looks in the theme it is based on, or the default theme.<br />Unless you need to modify a template, it\'s better not to copy it.';
+$txt['themeadmin_edit_copy_warning'] = 'When Wedge needs a template or language file which is not in the current theme, it looks in the theme it is based on, or the default theme.<br />Unless you need to modify a template, it\'s better not to copy it.';
 $txt['themeadmin_edit_copy_confirm'] = 'Are you sure you want to copy this template?';
 $txt['themeadmin_edit_overwrite_confirm'] = 'Are you sure you want to copy this template over the one that already exists?\nThis will OVERWRITE any changes you\'ve made!';
 $txt['themeadmin_edit_no_copy'] = '<em>(can\'t copy)</em>';
