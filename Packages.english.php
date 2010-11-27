@@ -33,7 +33,6 @@ $txt['php_safe_mode'] = 'Sorry, you server has PHP set to SAFE MODE.  This featu
 $txt['lets_try_anyway'] = 'Let me try anyway.';
 
 $txt['package_manager_desc'] = 'From the add-on manager you can download and install add-ons to your forum through an easy to use interface.';
-$txt['installed_packages_desc'] = 'You can use the interface below to view those add-ons currently installed on the forum, and remove the ones you no longer require.';
 $txt['download_packages_desc'] = 'From this section you can choose to either download new add-ons from add-on servers, or upload an add-on file directly to the forum.';
 
 $txt['create_package'] = 'Create a New Add-on';

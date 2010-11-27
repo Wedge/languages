@@ -33,7 +33,6 @@ $txt['php_safe_mode'] = 'Votre serveur PHP est réglé en SAFE MODE.  Cette fonc
 $txt['lets_try_anyway'] = 'Essayons quand même.';
 
 $txt['package_manager_desc'] = 'Depuis le gestionnaire d\'extensions, vous pouvez télécharger et installer des extensions pour votre forum à travers une interface facile à utiliser.';
-$txt['installed_packages_desc'] = 'Vous pouvez utiliser l\'interface ci-dessous pour voir les extensions actuellement installées sur le forum et enlever celles dont vous ne voulez plus.';
 $txt['download_packages_desc'] = 'Depuis cette rubrique, vous pouvez choisir de télécharger des extensions depuis les serveurs d\'extensions ou de transférer une extension directement sur le forum depuis votre ordinateur.';
 
 $txt['create_package'] = 'Créer une nouvelle extension';

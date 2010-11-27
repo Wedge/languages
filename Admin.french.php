@@ -589,7 +589,6 @@ $txt['permissions_post_moderation'] = 'Modération des messages';
 
 $txt['browse_packages'] = 'Parcourir les Extensions';
 $txt['download_packages'] = 'Télécharger des Extensions';
-$txt['installed_packages'] = 'Extensions Installées';
 $txt['package_file_perms'] = 'Permissions des Fichiers';
 $txt['package_settings'] = 'Options';
 $txt['themeadmin_admin_title'] = 'Gérer et Installer';

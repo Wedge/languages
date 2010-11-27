@@ -589,7 +589,6 @@ $txt['permissions_post_moderation'] = 'Post Moderation';
 
 $txt['browse_packages'] = 'Browse Add-ons';
 $txt['download_packages'] = 'Download Add-ons';
-$txt['installed_packages'] = 'Installed Add-ons';
 $txt['package_file_perms'] = 'File Permissions';
 $txt['package_settings'] = 'Options';
 $txt['themeadmin_admin_title'] = 'Manage and Install';
