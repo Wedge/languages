@@ -79,7 +79,7 @@ $txt['current_theme'] = 'Thème actuel';
 $txt['change'] = '(changer)';
 $txt['theme_preferences'] = 'Préférences de thème';
 $txt['theme_forum_default'] = 'Thème par défaut';
-$txt['theme_forum_default_desc'] = 'Ceci est le thème par défaut, ce qui signifie que votre thème changera suivant les réglages de l\'administrateur et le forum que vous lisez.';
+$txt['theme_forum_default_desc'] = 'Ceci est le thème par défaut, ce qui signifie que votre thème changera suivant les réglages de l\'administrateur et/ou la section que vous consultez.';
 
 $txt['profileConfirm'] = 'Voulez-vous réellement effacer ce membre&nbsp;?';
 
