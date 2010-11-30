@@ -59,11 +59,8 @@ $txt['whotopic_announce'] = 'Annonce le sujet &quot;<a href="' . $scripturl . '?
 $txt['whotopic_attachapprove'] = 'Approuve un fichier joint.';
 $txt['whotopic_dlattach'] = 'Télécharge un fichier joint.';
 $txt['whotopic_deletemsg'] = 'Efface un message.';
-$txt['whotopic_editpoll'] = 'Modifie le sondage du sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
-$txt['whotopic_editpoll2'] = 'Modifie le sondage du sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
 $txt['whotopic_jsmodify'] = 'Modifie un message dans le sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
 $txt['whotopic_lock'] = 'Bloque le sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
-$txt['whotopic_lockvoting'] = 'Bloque le sondage du sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
 $txt['whotopic_mergetopics'] = 'Fusionne le sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot; avec un autre sujet.';
 $txt['whotopic_movetopic'] = 'Déplace le sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot; vers un autre quartier.';
 $txt['whotopic_movetopic2'] = 'Déplace le sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot; vers un autre quartier.';
@@ -71,12 +68,16 @@ $txt['whotopic_post'] = 'Poste dans <a href="' . $scripturl . '?topic=%1$d.0">%2
 $txt['whotopic_post2'] = 'Poste dans <a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>.';
 $txt['whotopic_printpage'] = 'Imprime le sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
 $txt['whotopic_quickmod2'] = 'Modère le sujet <a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>.';
-$txt['whotopic_removepoll'] = 'Supprime le sondage dans le sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
 $txt['whotopic_removetopic2'] = 'Supprime le sujet <a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>.';
 $txt['whotopic_sendtopic'] = 'Envoie le sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot; à un ami.';
 $txt['whotopic_splittopics'] = 'Sépare un sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot; en deux fils.';
 $txt['whotopic_sticky'] = 'Épingle le sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
-$txt['whotopic_vote'] = 'Vote dans &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
+
+$txt['whotopic_poll_editpoll'] = 'Modifie le sondage du sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
+$txt['whotopic_poll_editpoll2'] = 'Modifie le sondage du sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
+$txt['whotopic_poll_lockvoting'] = 'Bloque le sondage du sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
+$txt['whotopic_poll_removepoll'] = 'Supprime le sondage dans le sujet &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
+$txt['whotopic_poll_vote'] = 'Vote dans &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
 
 $txt['whopost_quotefast'] = 'Cite un message depuis &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
 

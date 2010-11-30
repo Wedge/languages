@@ -59,11 +59,8 @@ $txt['whotopic_announce'] = 'Announcing the topic &quot;<a href="' . $scripturl 
 $txt['whotopic_attachapprove'] = 'Approving an attachment.';
 $txt['whotopic_dlattach'] = 'Viewing an attachment.';
 $txt['whotopic_deletemsg'] = 'Deleting a message.';
-$txt['whotopic_editpoll'] = 'Editing the poll in &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
-$txt['whotopic_editpoll2'] = 'Editing the poll in &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
 $txt['whotopic_jsmodify'] = 'Modifying a post in &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
 $txt['whotopic_lock'] = 'Locking the topic &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
-$txt['whotopic_lockvoting'] = 'Locking the poll in &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
 $txt['whotopic_mergetopics'] = 'Merging the topic &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot; with another topic.';
 $txt['whotopic_movetopic'] = 'Moving the topic &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot; to another board.';
 $txt['whotopic_movetopic2'] = 'Moving the topic &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot; to another board.';
@@ -71,12 +68,16 @@ $txt['whotopic_post'] = 'Posting in <a href="' . $scripturl . '?topic=%1$d.0">%2
 $txt['whotopic_post2'] = 'Posting in <a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>.';
 $txt['whotopic_printpage'] = 'Printing the topic &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
 $txt['whotopic_quickmod2'] = 'Moderating the topic <a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>.';
-$txt['whotopic_removepoll'] = 'Removing the poll in &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
 $txt['whotopic_removetopic2'] = 'Removing the topic <a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>.';
 $txt['whotopic_sendtopic'] = 'Sending the topic &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot; to a friend.';
 $txt['whotopic_splittopics'] = 'Splitting the topic &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot; into two topics.';
 $txt['whotopic_sticky'] = 'Setting the topic &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot; as sticky.';
-$txt['whotopic_vote'] = 'Voting in <a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>.';
+
+$txt['whotopic_poll_editpoll'] = 'Editing the poll in &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
+$txt['whotopic_poll_editpoll2'] = 'Editing the poll in &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
+$txt['whotopic_poll_lockvoting'] = 'Locking the poll in &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
+$txt['whotopic_poll_removepoll'] = 'Removing the poll in &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
+$txt['whotopic_poll_vote'] = 'Voting in <a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>.';
 
 $txt['whopost_quotefast'] = 'Quoting a post from &quot;<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>&quot;.';
 
