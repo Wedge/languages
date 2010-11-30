@@ -368,7 +368,7 @@ $helptxt['enableEmbeddedFlash'] = 'This option will allow your users to use Flas
 	just like images.  This could pose a security risk, although few have successfully exploited it.
 	USE AT YOUR OWN RISK!';
 // !!! Add more information about how to use them here.
-$helptxt['xmlnews_enable'] = 'Allows people to link to <a href="%1$s?action=.xml;sa=news" target="_blank" class="new_win">Recent news</a>
+$helptxt['xmlnews_enable'] = 'Allows people to link to <a href="%1$s?action=feed;sa=news" target="_blank" class="new_win">Recent news</a>
 	and similar data.  It is also recommended that you limit the size of recent posts/news because, when rss data
 	is displayed in some clients, like Trillian, it is expected to be truncated.';
 $helptxt['globalCookies'] = 'Makes log in cookies available across subdomains.  For example, if...<br />

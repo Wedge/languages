@@ -350,7 +350,7 @@ $helptxt['themes'] = 'Ici vous pouvez choisir si le thème par défaut peut êtr
 $helptxt['theme_install'] = 'Ceci vous permet d\'installer des nouveaux thèmes. Vous pouvez procéder en partant d\'un dossier déjà créé, en transférant une archive d\'un thème ou en copiant le thème par défaut.<br /><br />Notez bien que les archives de thèmes doivent contenir un fichier de définition <tt>theme_info.xml</tt>.';
 $helptxt['enableEmbeddedFlash'] = 'Cette option permettra à vos visiteurs d\'insérer des animations Flash directement dans leurs messages, comme des images. Ceci peut présenter un sérieux risque de sécurité, bien que peu nombreux soient ceux qui ont réussi l\'exploitation de ce risque.<br /><br />UTILISEZ CETTE OPTION À VOS PROPRES RISQUES&nbsp;!';
 // !!! Add more information about how to use them here.
-$helptxt['xmlnews_enable'] = 'Permet aux gens de faire référence aux <a href="%1$s?action=.xml;sa=news" target="_blank">dernières nouvelles</a>
+$helptxt['xmlnews_enable'] = 'Permet aux gens de faire référence aux <a href="%1$s?action=feed;sa=news" target="_blank">dernières nouvelles</a>
 	et autres données similaires. Il est recommandé de limiter la taille des messages puisque certains clients
 	tels que Trillian préfèrent afficher des messages tronqués.';
 
