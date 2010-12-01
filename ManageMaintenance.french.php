@@ -183,7 +183,6 @@ $txt['utf8_proceed'] = 'Lancer';
 $txt['utf8_database_charset'] = 'Jeu de caractères de la base de données';
 $txt['utf8_target_charset'] = 'Convertir les données et la base de données en';
 $txt['utf8_utf8'] = 'UTF-8';
-$txt['utf8_db_version_too_low'] = 'La version de MySQL que votre serveur de base de données utilise n\'est pas assez récente pour supporter l\'UTF-8 convenablement. La version 4.1.2 (ou au-delà) est requise.';
 $txt['utf8_cannot_convert_fulltext'] = 'Votre table de messages utilise un index fulltext pour les recherches. Vous ne pourrez la convertir en UTF-8 qu\'après suppression de cet index. Vous pourrez le recréer après la conversion.';
 
 // Move topics out.
