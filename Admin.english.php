@@ -341,13 +341,13 @@ $txt['attachmentExtensions'] = 'Allowed attachment extensions';
 $txt['attachmentRecodeLineEndings'] = 'Recode line endings in textual attachments';
 $txt['attachmentShowImages'] = 'Display image attachments as pictures under post';
 $txt['attachmentEncryptFilenames'] = 'Encrypt stored filenames';
-$txt['attachmentUploadDir'] = 'Attachments directory<div class="smalltext"><a href="' . $scripturl . '?action=admin;area=manageattachments;sa=attachpaths">Configure multiple attachment directories</a></div>';
+$txt['attachmentUploadDir'] = 'Attachments directory<dfn><a href="' . $scripturl . '?action=admin;area=manageattachments;sa=attachpaths">Configure multiple attachment directories</a></dfn>';
 $txt['attachmentUploadDir_multiple'] = 'Attachments directory';
 $txt['attachmentUploadDir_multiple_configure'] = '<a href="' . $scripturl . '?action=admin;area=manageattachments;sa=attachpaths">[Configure multiple attachment directories]</a>';
-$txt['attachmentDirSizeLimit'] = 'Max attachment folder space<div class="smalltext">(0 for no limit)</div>';
-$txt['attachmentPostLimit'] = 'Max attachment size per post<div class="smalltext">(0 for no limit)</div>';
-$txt['attachmentSizeLimit'] = 'Max size per attachment<div class="smalltext">(0 for no limit)</div>';
-$txt['attachmentNumPerPostLimit'] = 'Max number of attachments per post<div class="smalltext">(0 for no limit)</div>';
+$txt['attachmentDirSizeLimit'] = 'Max attachment folder space<dfn>(0 for no limit)</dfn>';
+$txt['attachmentPostLimit'] = 'Max attachment size per post<dfn>(0 for no limit)</dfn>';
+$txt['attachmentSizeLimit'] = 'Max size per attachment<dfn>(0 for no limit)</dfn>';
+$txt['attachmentNumPerPostLimit'] = 'Max number of attachments per post<dfn>(0 for no limit)</dfn>';
 $txt['attachment_image_reencode'] = 'Re-encode potentially dangerous image attachments';
 $txt['attachment_image_paranoid_warning'] = 'The extensive security checks can result in a large number of rejected attachments.';
 $txt['attachment_image_paranoid'] = 'Perform extensive security checks on uploaded image attachments';
@@ -376,15 +376,15 @@ $txt['mods_cat_avatars'] = 'Avatars';
 $txt['avatar_directory'] = 'Avatars directory';
 $txt['avatar_url'] = 'Avatars URL';
 $txt['avatar_dimension_note'] = '(0 = no limit)';
-$txt['avatar_max_width_external'] = 'Maximum width of external avatar<div class="smalltext">(0 for no limit)</div>';
-$txt['avatar_max_height_external'] = 'Maximum height of external avatar<div class="smalltext">(0 for no limit)</div>';
+$txt['avatar_max_width_external'] = 'Maximum width of external avatar<dfn>(0 for no limit)</dfn>';
+$txt['avatar_max_height_external'] = 'Maximum height of external avatar<dfn>(0 for no limit)</dfn>';
 $txt['avatar_action_too_large'] = 'If the avatar is too large...';
 $txt['option_refuse'] = 'Refuse it';
 $txt['option_html_resize'] = 'Let the HTML resize it';
 $txt['option_js_resize'] = 'Resize it with JavaScript';
 $txt['option_download_and_resize'] = 'Download and resize it';
-$txt['avatar_max_width_upload'] = 'Maximum width of uploaded avatar<div class="smalltext">(0 for no limit)</div>';
-$txt['avatar_max_height_upload'] = 'Maximum height of uploaded avatar<div class="smalltext">(0 for no limit)</div>';
+$txt['avatar_max_width_upload'] = 'Maximum width of uploaded avatar<dfn>(0 for no limit)</dfn>';
+$txt['avatar_max_height_upload'] = 'Maximum height of uploaded avatar<dfn>(0 for no limit)</dfn>';
 $txt['avatar_resize_upload'] = 'Resize oversized large avatars';
 $txt['avatar_download_png'] = 'Use PNG for resized avatars';
 $txt['avatar_external'] = 'External avatars';
@@ -431,7 +431,7 @@ $txt['news_mailing_desc'] = 'From this menu you can send messages to all members
 $txt['groups_edit_news'] = 'Groups allowed to edit news items';
 $txt['groups_send_mail'] = 'Groups allowed to send out forum newsletters';
 $txt['xmlnews_enable'] = 'Enable XML/RSS news';
-$txt['xmlnews_maxlen'] = 'Maximum post length:<div class="smalltext">(0 to disable, bad idea.)</div>';
+$txt['xmlnews_maxlen'] = 'Maximum post length:<dfn>(0 to disable, bad idea.)</dfn>';
 $txt['editnews_clickadd'] = 'Click here to add another item.';
 $txt['editnews_remove_selected'] = 'Remove selected';
 $txt['editnews_remove_confirm'] = 'Are you sure you want to delete the selected news items?';
@@ -605,20 +605,20 @@ $txt['spider_stats'] = 'Stats';
 $txt['paid_subscriptions'] = 'Paid Subscriptions';
 $txt['paid_subs_view'] = 'View Subscriptions';
 
-$txt['urlLength'] = 'Trim URLs longer than (x) characters in posts<div class="smalltext">Default is 50 characters. Set to 0 to disable.</div>';
+$txt['urlLength'] = 'Trim URLs longer than (x) characters in posts<dfn>Default is 50 characters. Set to 0 to disable.</dfn>';
 
 $txt['allow_ignore_topics'] = 'Enable members to ignore topics';
 
 // Merge double posts
 $txt['merge_post_header'] = 'Merging double posts';
 $txt['merge_post_auto'] = 'Merge double posts automatically';
-$txt['merge_post_auto_time'] = 'Delay after which posts are no longer merged automatically.<div class="smalltext">(Set to 0 to always merge)</div>';
+$txt['merge_post_auto_time'] = 'Delay after which posts are no longer merged automatically.<dfn>(Set to 0 to always merge)</dfn>';
 $txt['merge_post_admin_double_post'] = 'Merge double posts sent by administrators';
 $txt['merge_post_no_time'] = 'Don\'t show the older post\'s date before the separator';
 $txt['merge_post_no_sep'] = 'Show neither the separator, nor the older post\'s date.';
 $txt['merge_post_ignore_length'] = 'Ignore posts\' maximum length';
-$txt['merge_post_separator'] = 'Separator between merged posts (enable the setting above.)<div class="smalltext">You may use BBCode. You can get the older post\'s date by using the <strong>$date</strong> variable in the text field.<br />Default is [size=1]$date[/size][hr][br]</div>';
-$txt['merge_post_custom_separator'] = 'Use a custom separator between merged posts.<div class="smalltext">The settings above will be disabled.</div>';
+$txt['merge_post_separator'] = 'Separator between merged posts (enable the setting above.)<dfn>You may use BBCode. You can get the older post\'s date by using the <strong>$date</strong> variable in the text field.<br />Default is [size=1]$date[/size][hr][br]</dfn>';
+$txt['merge_post_custom_separator'] = 'Use a custom separator between merged posts.<dfn>The settings above will be disabled.</dfn>';
 
 // Pretty URLs
 $txt['pretty_urls'] = 'Pretty URLs';
@@ -626,7 +626,7 @@ $txt['pretty_urls_desc'] = 'Pretty URLs allows you to enable better-looking URLs
 
 $txt['pretty'] = array(
 	'url' => 'Pretty URL',
-	'url_desc' => 'A URL fragment used for boards and topics.<br /><div class="smalltext">Note: this will be processed as only a limited set of characters are allowed - other characters will be converted. Leave blank to use the board name.</div>',
+	'url_desc' => 'A URL fragment used for boards and topics.<dfn>Note: this will be processed as only a limited set of characters are allowed - other characters will be converted. Leave blank to use the board name.</dfn>',
 );
 
 $txt['pretty_settings'] = 'Core settings';

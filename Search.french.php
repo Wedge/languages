@@ -104,14 +104,14 @@ $txt['search_did_you_mean'] = 'Vous avez peut-être voulu chercher';
 $txt['search_example'] = '<em>ex&nbsp;:</em> Orwell "La Ferme des animaux" -film';
 
 $txt['search_engines_description'] = 'D\'ici, vous pouvez décider dans quelle mesure vous voulez surveiller les moteurs de recherche lors de leur indexation du forum, ainsi que consulter le journal des visites de ces moteurs.';
-$txt['spider_mode'] = 'Surveillance des Moteurs de recherche<div class="smalltext">Note&nbsp;: une surveillance plus élevée augmente les ressources serveur nécessaires.</div>';
+$txt['spider_mode'] = 'Surveillance des Moteurs de recherche<dfn>Note&nbsp;: une surveillance plus élevée augmente les ressources serveur nécessaires.</dfn>';
 $txt['spider_mode_off'] = 'Désactivée';
 $txt['spider_mode_standard'] = 'Standard - Le journal note l\'activité de base du robot.';
 $txt['spider_mode_high'] = 'Haute - Fournit des statistiques plus précises.';
 $txt['spider_mode_vhigh'] = 'Très haute - Comme pour &quot;Haute&quot;, mais le journal note chaque page visitée.';
 $txt['spider_settings_desc'] = 'Vous pouvez changer les réglages de surveillance des robots à partir de cette page. Notez que si vous voulez activer le délestage automatique des journaux de visites, c\'est par <a href="%1$s">ici</a> que ça se passe';
 
-$txt['spider_group'] = 'Utiliser les permissions restrictives du groupe<div class="smalltext">Pour empêcher les robots d\'indexer certaines pages.</div>';
+$txt['spider_group'] = 'Utiliser les permissions restrictives du groupe<dfn>Pour empêcher les robots d\'indexer certaines pages.</dfn>';
 $txt['spider_group_none'] = 'Désactivé';
 
 $txt['show_spider_online'] = 'Montrer les robots sur la page &quot;Qui est en ligne&quot;';

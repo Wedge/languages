@@ -341,13 +341,13 @@ $txt['attachmentExtensions'] = 'Extensions autorisées';
 $txt['attachmentRecodeLineEndings'] = 'Recoder les fins de ligne dans les fichiers joints au format texte';
 $txt['attachmentShowImages'] = 'Afficher les images jointes sous les messages';
 $txt['attachmentEncryptFilenames'] = 'Encrypter les noms des fichiers stockés';
-$txt['attachmentUploadDir'] = 'Répertoire des fichiers joints<div class="smalltext"><a href="' . $scripturl . '?action=admin;area=manageattachments;sa=attachpaths">[Configurer plusieurs répertoires pour fichiers joints]</a></div>';
+$txt['attachmentUploadDir'] = 'Répertoire des fichiers joints<dfn><a href="' . $scripturl . '?action=admin;area=manageattachments;sa=attachpaths">[Configurer plusieurs répertoires pour fichiers joints]</a></dfn>';
 $txt['attachmentUploadDir_multiple'] = 'Répertoire des fichiers joints';
 $txt['attachmentUploadDir_multiple_configure'] = '<a href="' . $scripturl . '?action=admin;area=manageattachments;sa=attachpaths">[Configurer plusieurs répertoires pour fichiers joints]</a>';
-$txt['attachmentDirSizeLimit'] = 'Taille maximale du répertoire des fichiers joints<div class="smalltext">(0 pour pas de limite)</div>';
-$txt['attachmentPostLimit'] = 'Taille totale maximale des fichiers joints par message<div class="smalltext">(0 pour pas de limite)</div>';
-$txt['attachmentSizeLimit'] = 'Taille maximale de chaque fichier joint<div class="smalltext">(0 pour pas de limite)</div>';
-$txt['attachmentNumPerPostLimit'] = 'Nombre maximum de fichiers joints par message<div class="smalltext">(0 pour pas de limite)</div>';
+$txt['attachmentDirSizeLimit'] = 'Taille maximale du répertoire des fichiers joints<dfn>(0 pour pas de limite)</dfn>';
+$txt['attachmentPostLimit'] = 'Taille totale maximale des fichiers joints par message<dfn>(0 pour pas de limite)</dfn>';
+$txt['attachmentSizeLimit'] = 'Taille maximale de chaque fichier joint<dfn>(0 pour pas de limite)</dfn>';
+$txt['attachmentNumPerPostLimit'] = 'Nombre maximum de fichiers joints par message<dfn>(0 pour pas de limite)</dfn>';
 $txt['attachment_image_reencode'] = 'Réencoder les images potentiellement dangereuses envoyées en fichier joint';
 $txt['attachment_image_paranoid_warning'] = 'Cette fonctionnalité peut donner lieu à des faux positifs (fichiers sains rejetés).';
 $txt['attachment_image_paranoid'] = 'Effectuer un maximum de tests de sécurité sur les images envoyées en fichier joint';
@@ -431,7 +431,7 @@ $txt['news_mailing_desc'] = 'Depuis ce menu vous pouvez envoyer des messages à 
 $txt['groups_edit_news'] = 'Groupes autorisés à modifier les nouvelles';
 $txt['groups_send_mail'] = 'Groupes autorisés à envoyer les infolettres du forum';
 $txt['xmlnews_enable'] = 'Activer les flux XML/RSS';
-$txt['xmlnews_maxlen'] = 'Longueur maximale d\'un message&nbsp;:<div class="smalltext">(0 pour désactiver, mauvaise idée.)</div>';
+$txt['xmlnews_maxlen'] = 'Longueur maximale d\'un message&nbsp;:<dfn>(0 pour désactiver, mauvaise idée.)</dfn>';
 $txt['editnews_clickadd'] = 'Cliquez ici pour ajouter un item.';
 $txt['editnews_remove_selected'] = 'Supprimer la sélection';
 $txt['editnews_remove_confirm'] = 'Voulez-vous vraiment supprimer les nouvelles sélectionnées&nbsp;?';
@@ -605,20 +605,20 @@ $txt['spider_stats'] = 'Stats';
 $txt['paid_subscriptions'] = 'Abonnements payants';
 $txt['paid_subs_view'] = 'Voir les Abonnements';
 
-$txt['urlLength'] = 'Raccourcir les adresses de plus de (x) caractères dans les messages<div class="smalltext">Par défaut, 50 caractères. Mettez à 0 pour désactiver.</div>';
+$txt['urlLength'] = 'Raccourcir les adresses de plus de (x) caractères dans les messages<dfn>Par défaut, 50 caractères. Mettez à 0 pour désactiver.</dfn>';
 
 $txt['allow_ignore_topics'] = 'Permettre aux membres d\'ignorer des sujets';
 
 // Fusion des doublons
 $txt['merge_post_header'] = 'Fusion des doublons';
-$txt['merge_post_auto'] = 'Fusionner les doublons automatiquement<div class="smalltext">Dans un sujet, deux messages successifs d\'un même auteur sont considérés comme des doublons.</div>';
-$txt['merge_post_auto_time'] = 'Temps maximum entre deux messages pour qu\'ils soient fusionnés automatiquement.<div class="smalltext">(mettez 0 pour toujours fusionner)</div>';
+$txt['merge_post_auto'] = 'Fusionner les doublons automatiquement<dfn>Dans un sujet, deux messages successifs d\'un même auteur sont considérés comme des doublons.</dfn>';
+$txt['merge_post_auto_time'] = 'Temps maximum entre deux messages pour qu\'ils soient fusionnés automatiquement.<dfn>(mettez 0 pour toujours fusionner)</dfn>';
 $txt['merge_post_admin_double_post'] = 'Fusionner les doublons des admins';
 $txt['merge_post_no_time'] = 'Ne pas indiquer l\'ancienne date avant le séparateur';
 $txt['merge_post_no_sep'] = 'Ne montrer ni le séparateur ni l\'ancienne date';
 $txt['merge_post_ignore_length'] = 'Ignorer la longueur maximale des messages';
-$txt['merge_post_separator'] = 'Séparateur entre les messages fusionnés (activez l\'option ci-dessus)<div class="smalltext">Vous pouvez utiliser du code BBC. Pour la date de l\'ancien post, utilisez la variable <strong>$date</strong> dans le champ texte.<br />Exemple : [size=1]$date[/size][hr][br] (version par défaut)</div>';
-$txt['merge_post_custom_separator'] = 'Utiliser son propre séparateur pour distinguer les messages fusionnés.<div class="smalltext">Les options au-dessus seront désactivées.</div>';
+$txt['merge_post_separator'] = 'Séparateur entre les messages fusionnés (activez l\'option ci-dessus)<dfn>Vous pouvez utiliser du code BBC. Pour la date de l\'ancien post, utilisez la variable <strong>$date</strong> dans le champ texte.<br />Exemple : [size=1]$date[/size][hr][br] (version par défaut)</dfn>';
+$txt['merge_post_custom_separator'] = 'Utiliser son propre séparateur pour distinguer les messages fusionnés.<dfn>Les options au-dessus seront désactivées.</dfn>';
 
 // Pretty URLs
 $txt['pretty_urls'] = 'Adresses embellies';
@@ -626,7 +626,7 @@ $txt['pretty_urls_desc'] = 'Les Adresses embellies (Pretty URLs) vous permettent
 
 $txt['pretty'] = array(
 	'url' => 'Adresse embellie',
-	'url_desc' => 'L\'adresse URL utilisée pour votre site.<br /><div class="smalltext">N\'utilisez que l\'alphabet, les chiffres et le tiret (-). Laissez-le vide pour essayer d\'utiliser le nom ci-dessus. <strong>Une fois que votre site propose du contenu, évitez autant que possible de changer son URL !</strong></div>',
+	'url_desc' => 'L\'adresse URL utilisée pour votre site.<dfn>N\'utilisez que l\'alphabet, les chiffres et le tiret (-). Laissez-le vide pour essayer d\'utiliser le nom ci-dessus. <strong>Une fois que votre site propose du contenu, évitez autant que possible de changer son URL !</strong></dfn>',
 );
 
 $txt['pretty_settings'] = 'Paramètres de base';
@@ -642,9 +642,9 @@ $txt['pretty_save'] = 'Sauvegarder les changements';
 $txt['pretty_went_right'] = 'Opération réussie !';
 $txt['pretty_converted'] = 'Tous les titres de sujets ont été convertis !';
 $txt['pretty_duplicateboard'] = 'Cette adresse est déjà prise. Choisissez-en une autre.';
-$txt['pretty_filter_boards'] = 'Adresses des Quartiers<br /><div class="pretty_filter">http://yoursite.com/index.php?board=1 &rarr; http://yoursite.com/nom-du-quartier/</div>';
-$txt['pretty_filter_topics'] = 'Adresses des Sujets<br /><div class="pretty_filter">http://yoursite.com/index.php?topic=1.0 &rarr; http://yoursite.com/nom-du-quartier/nom-du-sujet/</div>';
-$txt['pretty_filter_actions'] = 'Adresses des Actions<br /><div class="pretty_filter">http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/hello/</div>';
-$txt['pretty_filter_profiles'] = 'Adresses des Profils<br /><div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/~nom-du-membre/<br />L\'adresse utilisera l\'identifiant de connexion de l\'utilisateur et non pas son nom affiché. Assurez-vous que cela ne dérange pas vos utilisateurs.</div>';
+$txt['pretty_filter_boards'] = 'Adresses des Quartiers<div class="pretty_filter">http://yoursite.com/index.php?board=1 &rarr; http://yoursite.com/nom-du-quartier/</div>';
+$txt['pretty_filter_topics'] = 'Adresses des Sujets<div class="pretty_filter">http://yoursite.com/index.php?topic=1.0 &rarr; http://yoursite.com/nom-du-quartier/nom-du-sujet/</div>';
+$txt['pretty_filter_actions'] = 'Adresses des Actions<div class="pretty_filter">http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/hello/</div>';
+$txt['pretty_filter_profiles'] = 'Adresses des Profils<div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/~nom-du-membre/<br />L\'adresse utilisera l\'identifiant de connexion de l\'utilisateur et non pas son nom affiché. Assurez-vous que cela ne dérange pas vos utilisateurs.</div>';
 
 ?>
