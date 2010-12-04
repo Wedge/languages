@@ -179,7 +179,7 @@ $txt['no_ban_admin'] = 'Vous ne pouvez pas bannir un administrateur - vous devez
 $txt['no_bantype_selected'] = 'Type de bannissement non sélectionné';
 $txt['ban_not_found'] = 'Bannissement introuvable';
 $txt['ban_unknown_restriction_type'] = 'Type de restriction inconnu';
-$txt['ban_name_empty'] = 'Le nom du bannissement a été laissé vide';
+$txt['ban_name_empty'] = 'Le nom du bannissement a été laissé vide !';
 $txt['ban_name_exists'] = 'Le nom de ce bannissement (%1$s) existe déjà. Veuillez choisir un autre nom.';
 $txt['ban_trigger_already_exists'] = 'Le déclencheur de bannissement %1$s existe déjà dans %2$s.';
 
