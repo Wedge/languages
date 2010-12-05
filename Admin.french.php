@@ -461,7 +461,7 @@ $txt['manageposts_settings_description'] = 'Ici vous pouvez paramétrer tout ce 
 $txt['manageposts_settings_submit'] = 'Enregistrer';
 
 $txt['manageposts_bbc_settings'] = 'Table des balises Bulletin Board Code (BBcode)';
-$txt['manageposts_bbc_settings_description'] = 'Les <acronym title="Bulletin Board Code">BBCodes</acronym> peuvent être utilisés pour ajouter des mises en forme à vos messages. Par exemple, pour mettre de la force sur le mot \'maison\', vous pouvez taper [b]maison[/b]. Toutes les balises BBCodes sont entourées par des crochets (\'[\' et \']\').';
+$txt['manageposts_bbc_settings_description'] = 'Les <abbr title="Bulletin Board Code">BBCodes</abbr> peuvent être utilisés pour ajouter des mises en forme à vos messages. Par exemple, pour mettre de la force sur le mot \'maison\', vous pouvez taper [b]maison[/b]. Toutes les balises BBCodes sont entourées par des crochets (\'[\' et \']\').';
 $txt['manageposts_bbc_settings_title'] = 'Paramètres des BBCodes';
 $txt['manageposts_bbc_settings_submit'] = 'Enregistrer';
 
