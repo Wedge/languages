@@ -514,7 +514,7 @@ $txt['never'] = 'Jamais';
 $txt['more'] = 'plus';
 
 $txt['hostname'] = 'Nom d\'hôte';
-$txt['you_are_post_banned'] = 'Desolé %1$s, vous n\'avez plus le droit de poster ou d\'envoyer des messages personnels sur ce forum.';
+$txt['you_are_post_banned'] = 'Desolé %1$s, vous n\'avez plus le droit de poster ni d\'envoyer des messages personnels sur ce forum.';
 $txt['ban_reason'] = 'Raison';
 
 $txt['tables_optimized'] = 'Tables de données optimisées';

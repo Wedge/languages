@@ -504,7 +504,7 @@ $txt['defaultMaxTopics'] = 'Nombre de sujets par page lors du visionnage d\'un s
 $txt['defaultMaxMessages'] = 'Nombre de messages à afficher lors du visionnage d\'un sujet';
 $txt['enableAllMessages'] = 'Taille maximale d\'un sujet pour afficher &quot;Tous&quot; les messages';
 $txt['enableAllMessages_zero'] = '0 pour ne jamais afficher &quot;Tous&quot;';
-$txt['disableCustomPerPage'] = 'Désactiver la personnalisation du nombre de sujets/messages par page';
+$txt['disableCustomPerPage'] = 'Empêcher les utilisateurs de changer le nombre de sujets/messages par page';
 $txt['enablePreviousNext'] = 'Activer les liens &quot;Sujet précédent/suivant&quot;';
 
 $txt['not_done_title'] = 'Pas encore effectué&nbsp;!';

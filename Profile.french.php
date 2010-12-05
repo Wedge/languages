@@ -447,7 +447,7 @@ $txt['pm_display_mode'] = 'Afficher les messages personnels';
 $txt['pm_display_mode_all'] = 'Tous à la fois';
 $txt['pm_display_mode_one'] = 'Un à la fois';
 $txt['pm_display_mode_linked'] = 'Triés par conversations';
-$txt['pm_recommend_enable_outbox'] = 'Nous vous suggérons d\'activer &quot;Sauvegarder par défaut une copie de mes messages personnels dans ma boîte d\'envoi.&quot;\\n\\nCela vous aidera à suivre plus facilement les conversations puisque vous verrez les deux moitiés de chaque conversation.';
+$txt['pm_recommend_enable_outbox'] = 'Nous vous suggérons d\'activer &quot;Sauvegarder par défaut une copie de tous les messages personnels que j\'envoie.&quot;\\n\\nCela vous aidera à suivre plus facilement les conversations puisque vous verrez les deux moitiés de chaque conversation.';
 
 $txt['tracking'] = 'Suivi';
 $txt['tracking_description'] = 'Cette section vous permet de vérifier certaines actions faites sur le profil de ce membre, mais aussi de suivre de son adresse IP.';
