@@ -773,4 +773,6 @@ $txt['merge_double'] = 'Doublon';
 $txt['spoiler'] = 'Spoiler';
 $txt['click_for_spoiler'] = '(cliquez pour montrer/cacher)';
 
+$txt['readmore'] = '(Reste %1$d caractères)';
+
 ?>

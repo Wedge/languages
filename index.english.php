@@ -774,4 +774,6 @@ $txt['merge_double'] = 'Merge';
 $txt['spoiler'] = 'Spoiler';
 $txt['click_for_spoiler'] = '(click to show/hide)';
 
+$txt['readmore'] = '(%1$d more chars)';
+
 ?>
