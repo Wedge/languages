@@ -141,13 +141,13 @@ $txt['email_as_pms'] = 'Envoyer ceci à ces groupes par la messagerie personnell
 $txt['email_continue'] = 'Continuer';
 $txt['email_done'] = 'terminé.';
 
-$txt['ban_title'] = 'Bannir des membres';
+$txt['ban_title'] = 'Bannissements';
 $txt['ban_ip'] = 'Bannissement d\'IP&nbsp;: (ex. 192.168.12.213 or 128.0.*.*) - une entrée par ligne';
 $txt['ban_email'] = 'Bannissement d\'e-mails&nbsp;: (ex. pasbeau@pasgentil.com) - une entrée par ligne';
 $txt['ban_username'] = 'Bannissement de membres&nbsp;: (ex. pasbeau_du_75) - une entrée par ligne';
 
 $txt['ban_description'] = 'Ici vous pouvez bannir les personnes problématiques par IP, par domaine, par membre ou par adresse e-mail.';
-$txt['ban_add_new'] = 'Ajouter un nouveau bannissement';
+$txt['ban_add_new'] = 'Bannir un Membre';
 $txt['ban_banned_entity'] = 'Type de bannissement';
 $txt['ban_on_ip'] = 'Ban. par IP (ex. 192.168.10-20.*)';
 $txt['ban_on_hostname'] = 'Ban. Par domaine (ex. *.mil)';
@@ -161,7 +161,7 @@ $txt['ban_cannot_post'] = 'Ne peut pas poster';
 $txt['ban_cannot_register'] = 'Ne peut pas s\'inscrire';
 $txt['ban_cannot_login'] = 'Ne peut pas se connecter';
 $txt['ban_add'] = 'Ajouter';
-$txt['ban_edit_list'] = 'Liste des bannissements';
+$txt['ban_edit_list'] = 'Liste des Bannissements';
 $txt['ban_type'] = 'Type';
 $txt['ban_days'] = 'jour(s)';
 $txt['ban_will_expire_within'] = 'Le bannissement se terminera après';
@@ -190,7 +190,7 @@ $txt['ban_edit_trigger_submit'] = 'Modifier';
 $txt['ban_remove_selected_triggers'] = 'Supprimer les déclencheurs sélectionnés';
 $txt['ban_no_entries'] = 'Aucun bannissement n\'est actuellement actif.';
 $txt['ban_remove_selected_triggers_confirm'] = 'Êtes-vous sûr de vouloir supprimer les déclencheurs de bannissement sélectionnés ?';
-$txt['ban_trigger_browse'] = 'Voir les déclencheurs de bannissement';
+$txt['ban_trigger_browse'] = 'Liste des Déclencheurs';
 $txt['ban_trigger_browse_description'] = 'Cette interface montre toutes les entrées de bannissements groupées selon l\'adresse IP, nom hôte, adresse e-mail et nom d\'utilisateur.';
 
 $txt['ban_log'] = 'Journal de Bannissements';
@@ -460,8 +460,8 @@ $txt['manageposts_settings'] = 'Paramètres des Messages';
 $txt['manageposts_settings_description'] = 'Ici vous pouvez paramétrer tout ce qui est relatif aux messages et à leur envoi.';
 $txt['manageposts_settings_submit'] = 'Enregistrer';
 
-$txt['manageposts_bbc_settings'] = 'Table des balises Bulletin Board Code (BBcode)';
-$txt['manageposts_bbc_settings_description'] = 'Les <abbr title="Bulletin Board Code">BBCodes</abbr> peuvent être utilisés pour ajouter des mises en forme à vos messages. Par exemple, pour mettre de la force sur le mot \'maison\', vous pouvez taper [b]maison[/b]. Toutes les balises BBCodes sont entourées par des crochets (\'[\' et \']\').';
+$txt['manageposts_bbc_settings'] = 'Table des balises BBcode';
+$txt['manageposts_bbc_settings_description'] = 'Les balises BBCodes (Bulletin Board Code) sont inspirées du langage HTML. Elles peuvent être utilisés pour ajouter des mises en forme à vos messages. Par exemple, pour mettre de la force sur le mot \'maison\', vous pouvez taper [b]maison[/b]. Tous les BBCodes sont entourés de crochets (\'[\' et \']\').';
 $txt['manageposts_bbc_settings_title'] = 'Paramètres des BBCodes';
 $txt['manageposts_bbc_settings_submit'] = 'Enregistrer';
 
