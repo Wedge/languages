@@ -166,6 +166,9 @@ $txt['maintain_members_all'] = 'All Membergroups';
 $txt['maintain_members_choose'] = 'Selected Groups';
 $txt['maintain_members_confirm'] = 'Are you sure you really want to delete these member accounts?\\n\\nThis cannot be undone!';
 
+$txt['maintain_recountposts'] = 'Recount Member Posts';
+$txt['maintain_recountposts_desc'] = 'This will recalculate the post counts of all members within the forum, and ensure that the current count is the correct one, as well as ensuring post-count permissions are reapplied.';
+
 // !!! This little lot can go once the converter is done.
 $txt['utf8_title'] = 'Convert the database and data to UTF-8';
 $txt['utf8_introduction'] = 'UTF-8 is an international character set covering nearly all languages around the world. Converting your database and data to UTF-8 can make it easier to support multiple languages on the same board. It also can enhance search and sorting capabilities for languages with non-latin characters.';
