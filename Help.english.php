@@ -125,7 +125,7 @@ $helptxt['time_format'] = '<strong>Time Format</strong><br />
 	&nbsp;&nbsp;%B - full month name<br />
 	&nbsp;&nbsp;%d - day of the month (01 to 31) <br />
 	&nbsp;&nbsp;%D<strong>*</strong> - same as %m/%d/%y <br />
-	&nbsp;&nbsp;%e<strong>*</strong> - day of the month (1 to 31) <br />
+	&nbsp;&nbsp;%e - day of the month (1 to 31) <br />
 	&nbsp;&nbsp;%H - hour using a 24-hour clock (range 00 to 23) <br />
 	&nbsp;&nbsp;%I - hour using a 12-hour clock (range 01 to 12) <br />
 	&nbsp;&nbsp;%m - month as a number (01 to 12) <br />

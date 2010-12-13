@@ -59,7 +59,7 @@ $txt['site_slogan_desc'] = 'Ajoutez votre propre slogan ici. Il remplacera le lo
 $txt['forum_width'] = 'Largeur du forum';
 $txt['forum_width_desc'] = 'Spécifiez la largeur du forum. Exemples&nbsp;: 950px, 80%, 1240px.';
 
-$txt['enable_random_news'] = 'Activer les nouvelles tournantes dans l\'entête du forum';
+$txt['enable_random_news'] = 'Afficher les nouvelles dans l\'entête du forum';
 $txt['show_group_key'] = 'Montrer la liste des groupes sur l\'accueil du forum';
 $txt['additional_options_collapsable'] = 'Activer les Options Supplémentaires (à l\'écriture des messages)';
 $txt['allow_no_censored'] = 'Autoriser les utilisateurs à désactiver la censure des mots';
@@ -78,7 +78,7 @@ $txt['last_modification'] = 'Afficher la dernière date de modification dans les
 $txt['user_avatars'] = 'Afficher les avatars des membres dans les messages';
 $txt['user_text'] = 'Afficher le texte personnel dans les messages';
 $txt['gender_images'] = 'Afficher les images du sexe (h/f) dans les messages';
-$txt['news_fader'] = 'Activer les nouvelles rotatives';
+$txt['news_fader'] = 'Activer la rotation des nouvelles sur la page d\'accueil';
 $txt['member_list_bar'] = 'Afficher la liste des membres sur l\'accueil du forum';
 $txt['current_pos_text_img'] = 'Afficher la position actuelle comme des liens, plutôt que du texte simple';
 $txt['show_view_profile_button'] = 'Afficher le bouton de profil dans les messages';

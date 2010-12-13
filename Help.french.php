@@ -122,25 +122,25 @@ $helptxt['time_format'] = '<strong>Format de l\'heure</strong><br />
 	&nbsp;&nbsp;%b - Nom du mois (abrégé)<br />
 	&nbsp;&nbsp;%B - Nom du mois (complet)<br />
 	&nbsp;&nbsp;%d - Jour du mois (01 à 31)<br />
-	&nbsp;&nbsp;%D - La même chose que %m/%d/%y *<br />
-	&nbsp;&nbsp;%e - Jour du mois (1 à 31) *<br />
+	&nbsp;&nbsp;%D - La même chose que %m/%d/%y <strong>*</strong><br />
+	&nbsp;&nbsp;%e - Jour du mois (1 à 31)<br />
 	&nbsp;&nbsp;%H - Heure au format 24 heures (de 00 à 23)<br />
 	&nbsp;&nbsp;%I - Heure au format 12 heures (de 01 à 12)<br />
 	&nbsp;&nbsp;%m - Numéro du mois (01 à 12)<br />
 	&nbsp;&nbsp;%M - Minutes en chiffres<br />
 	&nbsp;&nbsp;%p - Met &quot;am&quot; ou &quot;pm&quot; selon la période de la journée<br />
-	&nbsp;&nbsp;%R - Heure au format 24 heures *<br />
+	&nbsp;&nbsp;%R - Heure au format 24 heures<strong>*</strong><br />
 	&nbsp;&nbsp;%S - Secondes en chiffres<br />
-	&nbsp;&nbsp;%T - Temps en ce moment, la même chose que %H:%M:%S *<br />
+	&nbsp;&nbsp;%T - Temps en ce moment, la même chose que %H:%M:%S<strong>*</strong><br />
 	&nbsp;&nbsp;%y - Année au format 2 chiffres (00 to 99)<br />
 	&nbsp;&nbsp;%Y - Année au format 4 chiffres<br />
 	&nbsp;&nbsp;%% - Le symbole \'%\' en lui-même<br />
 	<br />
 	<em>* Ne fonctionnent pas sur les serveurs Windows.</em></div>';
 
-$helptxt['live_news'] = '<strong>En direct de Simple Machines...</strong><br />
-	Cette boîte affiche les dernières dépêches en provenance de <a href="http://www.simplemachines.org/" target="_blank">www.simplemachines.org</a>.
-	Vous devriez y surveiller les annonces concernant les mises à jour, nouvelles versions de SMF et informations importantes de Simple Machines.';
+$helptxt['live_news'] = '<strong>En direct de Wedge...</strong><br />
+	Cette boîte affiche les dernières dépêches en provenance de <a href="http://www.wedgeforum.com/" target="_blank">www.wedgeforum.com</a>.
+	Vous devriez y surveiller les annonces concernant les mises à jour, nouvelles versions de Wedge et informations importantes de l\'équipe.';
 
 $helptxt['registrations'] = '<strong>Gestion des inscriptions</strong><br />
 	Cette section contient toutes les fonctions nécessaires pour la gestion des nouvelles inscriptions sur votre forum. Elle peut contenir jusqu\'à quatre
@@ -155,11 +155,11 @@ $helptxt['registrations'] = '<strong>Gestion des inscriptions</strong><br />
 		</li>
 			<strong>Modifier l\'accord d\'inscription</strong><br />
 			Ceci vous permet de spécifier le texte de l\'accord d\'inscription affiché lors de l\'inscription d\'un membre sur votre forum.
-			Vous pouvez ajouter ou enlever ce que vous souhaitez au texte d\'accord inclus par déavec SMF.<br /><br />
+			Vous pouvez ajouter ou enlever ce que vous souhaitez au texte d\'accord inclus par défaut avec Wedge.<br /><br />
 		</li>
 		<li>
 			<strong>Choisir les noms réservés</strong><br />
-			En utilisant cette interface, vous pouvez spécifier des mots ou des noms qui ne seront pas utilisés librement par vos membres comme identifiants ou pseudonymes.<br /><br />
+			En utilisant cette interface, vous pouvez spécifier des mots ou des noms qui ne pourront pas être utilisés librement par vos membres dans leurs identifiants et pseudonymes.<br /><br />
 		</li>
 		<li>
 			<strong>Paramètres</strong><br />
@@ -298,7 +298,7 @@ $helptxt['removeNestedQuotes'] = 'Ceci effacera les citations imbriquées dans l
 $helptxt['simpleSearch'] = 'Ceci affichera un formulaire de recherche simple ainsi qu\'un lien vers un formulaire contenant plus d\'options.';
 $helptxt['max_image_width'] = 'Cette option vous permet de spécifier une taille maximale pour les images postées. Les images plus petites ne seront pas affectées.';
 $helptxt['mail_type'] = 'Cette option vous permet d\'utiliser soit le réglage par défaut de PHP ou de l\'outrepasser en utilisant le protocole SMTP. PHP ne supporte pas l\'authentification (que plusieurs FAI requièrent maintenant) donc vous devriez vous renseigner avant d\'utiliser cette option. Notez que SMTP peut être plus lent que sendmail et que certains serveurs ne prendront pas en compte les identifiants et mot de passe.<br /><br />Vous n\'avez pas à renseigner les informations SMTP si vous utilisez la configuration par défaut de PHP.';
-$helptxt['attachment_manager_settings'] = 'Les fichiers joints sont des fichiers que les membres peuvent uploader et joindre à un message.<br /><br />
+$helptxt['attachment_manager_settings'] = 'Les fichiers joints sont des fichiers que les membres peuvent uploader et joindre à un message. D\'où le nom. Logique.<br /><br />
 		<strong>Vérifier l\'extension des fichiers joints</strong> :<br /> Voulez-vous contrôler l\'extension des fichiers&nbsp;?<br />
 		<strong>Extensions autorisées</strong> :<br /> Vous pouvez mettre les extensions de fichiers joints autorisées.<br />
 		<strong>Répertoire des fichiers joints</strong> :<br /> Le chemin vers le dossier de fichiers joints<br />(exemple: /home/sites/yoursite/www/forum/attachments)<br />
@@ -328,10 +328,10 @@ $helptxt['cal_enabled'] = 'Le calendrier peut êre utilisé afin d\'afficher les
 		<strong>Permettre aux événements de durer plusieurs jours</strong>&nbsp;:<br />Sélectionnez pour permettre aux événements de durer plusieurs jours.<br />
 		<strong>Durée maximale (en jours) d\'un événement</strong>&nbsp;:<br />Sélectionnez le nombre maximal de jours pour la duré d\'un événement.<br /><br />
 		Rappelez-vous que l\'usage du calendrier (poster des événements, voir des événements, etc.) est contrôlable par les réglages des permissions à partir de l\'écran de gestion des permissions.';
-$helptxt['localCookies'] = 'SMF utilise des témoins (&quot;cookies&quot;) pour conserver les informations de connexion d\'un membre. Les témoins peuvent être stockés dans un dossier global (monserveur.com) ou localement (monserveur.com/chemin/vers/mon/forum).<br />
+$helptxt['localCookies'] = 'SMF utilise des cookies (« témoins ») pour conserver les informations de connexion d\'un membre. Les cookies peuvent être stockés dans un dossier global (monserveur.com) ou localement (monserveur.com/chemin/vers/mon/forum).<br />
 	Cochez cette option si vous constatez certains problèmes avec des utilisateurs déconnectés automatiquement.<hr />
-	Les témoins stockés dans un dossier global sont moins sécurisés lorsqu\'ils sont utilisés sur un serveur mutualisé (comme Multimania/Lycos, Free, OVH, ...).<hr />
-	Les témoins stockés localement ne fonctionnent pas à l\'extérieur du dossier du forum. Donc, si votre forum est installé dans le répertoire www.monserveur.com/forum, les pages telles que www.monserveur.com/index.php ne pourront pas accéder aux témoins. Lors de l\'utilisation de SSI.php, il est recommandé de stocker les témoins dans un dossier global.';
+	Les cookies stockés dans un dossier global sont moins sécurisés lorsqu\'ils sont utilisés sur un serveur mutualisé (comme Multimania/Lycos, Free, OVH, ...).<hr />
+	Les cookies stockés localement ne fonctionnent pas à l\'extérieur du dossier du forum. Donc, si votre forum est installé dans le répertoire www.monserveur.com/forum, les pages telles que www.monserveur.com/index.php ne pourront pas accéder aux cookies. Lors de l\'utilisation de SSI.php, il est recommandé de stocker les cookies dans un dossier global.';
 $helptxt['enableBBC'] = 'Activer cette fonction autorisera vos membres à utiliser les balises (BBCodes) sur votre forum, afin de permettre la mise en forme du texte, l\'insertion d\'images et plus.';
 $helptxt['time_offset'] = 'Tous les propriétaires de forums ne souhaitent pas forcément utiliser le fuseau horaire du serveur sur lequel ils sont hébergés. Utilisez cette fonction pour spécifier un temps de décalage (en heures) sur lequel le forum devrait se baser pour les dates et heures. Les temps négatifs et décimaux sont permis.';
 $helptxt['default_timezone'] = 'La zone horaire du serveur indique à PHP où il se trouve. Assurez-vous que ladite zone soit correctement renseignée, notamment le pays voire la ville. Vous trouverez plus d\'informations sur <a href="http://www.php.net/manual/fr/timezones.php" target="_blank">le site de PHP</a>.';
@@ -354,11 +354,11 @@ $helptxt['xmlnews_enable'] = 'Permet aux gens de faire référence aux <a href="
 	et autres données similaires. Il est recommandé de limiter la taille des messages puisque certains clients
 	tels que Trillian préfèrent afficher des messages tronqués.';
 
-$helptxt['globalCookies'] = 'Permet l\'utilisation de témoins (<em>cookies</em>) indépendants du sous-domaine. Par exemple, si...<br />
-	Votre site est situé sur http://www.simplemachines.org/,<br />
-	Et votre forum est situé sur http://forum.simplemachines.org/,<br />
-	Activer cette fonction vous permettra d\'utiliser les témoins de votre forum sur votre site (grâce à SSI.php, par exemple).';
-$helptxt['secureCookies'] = 'Activer cette option forcera la sécurisation des témoins (cookies) créés pour les utilisateurs de votre forum. Ne l\'activez que si vous utilisez le protocole HTTPS sur tout votre site, faute de quoi la gestion des témoins sera fortement perturbée&nbsp;!';
+$helptxt['globalCookies'] = 'Permet l\'utilisation de cookies (« témoins ») indépendants du sous-domaine. Par exemple, si...<br />
+	Votre site est situé sur http://www.chezmoi.org/,<br />
+	Et votre forum est situé sur http://forum.chezmoi.org/,<br />
+	Activer cette fonction vous permettra d\'utiliser les cookies de votre forum sur votre site (grâce à SSI.php, par exemple).';
+$helptxt['secureCookies'] = 'Activer cette option forcera la sécurisation des cookies (« témoins ») créés pour les utilisateurs de votre forum. Ne l\'activez que si vous utilisez le protocole HTTPS sur tout votre site, faute de quoi la gestion des cookies sera fortement perturbée&nbsp;!';
 $helptxt['securityDisable'] = 'Ceci <em>désactive</em> la vérification supplémentaire du mot de passe pour accéder à la zone d\'administration. Ça n\'est pas recommandé&nbsp;!';
 $helptxt['securityDisable_why'] = 'Ceci est votre mot de passe courant. (Le même que vous utilisez pour vous connecter au forum quoi.)<br /><br />Avoir à le taper de nouveau permet de vérifier que vous voulez bien effectuer quelque opération d\'administration, et que c\'est bien <strong>vous</strong> qui le faites.';
 $helptxt['emailmembers'] = 'Dans ce message, vous pouvez inclure certaines &quot;variables&quot;. Celles-ci sont&nbsp;:<br />

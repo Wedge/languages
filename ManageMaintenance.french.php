@@ -166,6 +166,9 @@ $txt['maintain_members_all'] = 'Tous les groupes de membres';
 $txt['maintain_members_choose'] = 'Groupes sélectionnés';
 $txt['maintain_members_confirm'] = 'Êtes-vous sûr de vouloir supprimer ces comptes ?\\n\\nVous ne pourrez pas annuler cette opération !';
 
+$txt['maintain_recountposts'] = 'Recompter les Messages par Membre';
+$txt['maintain_recountposts_desc'] = 'Recalcule le nombre de messages de chaque membre du forum, et s\'assure qu\'il correspond au nombre mis en cache (il peut changer en fonction des changements de permissions).';
+
 // !!! This little lot can go once the converter is done.
 $txt['utf8_title'] = 'Convertir la base de données et les données en UTF-8';
 $txt['utf8_introduction'] = 'L\'UTF-8 est un jeu de caractères international couvrant presque toutes les langues du monde. Convertir votre base de données et vos données en UTF-8 peut vous permettre un support plus facile de langues multiples sur le même forum. Cela peut aussi améliorer la recherche avec des langues basées sur des caractères non latins.';
