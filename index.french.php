@@ -572,7 +572,7 @@ $txt['who_member'] = 'Membre';
 // Footer strings
 $txt['valid_html5'] = 'HTML5 valide&nbsp;!';
 $txt['wap2'] = 'WAP2';
-$txt['rss'] = 'Flux RSS';
+$txt['rss'] = 'RSS';
 $txt['html5'] = 'HTML5';
 $txt['html'] = 'HTML';
 
