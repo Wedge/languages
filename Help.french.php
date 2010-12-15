@@ -265,6 +265,23 @@ $helptxt['enableCompressedOutput'] = 'Cette option compressera à la volée les 
 $helptxt['enableCompressedData'] = 'Cette option compressera les données CSS et Javascript après leur mise en cache. La librairie zlib doit être installée avant tout, et le fichier .htaccess doit être configuré correctement.
 		Ce processus permet d\'éviter au serveur de recompresser les fichiers CSS et JS à la volée quand ils sont téléchargés.
 		En cas de problème (page vierge de tout style graphique et pas de scripts actifs), désactivez au plus vite l\'option.';
+$helptxt['obfuscate_js'] = 'Cette option permet de modifier les noms des fichiers Javascript après leur mise en cache. Son unique intérêt est de permettre aux
+		développeurs Javascript de rendre plus difficile la vie des méchants voleurs de scripts qui vous en veulent, à vous, personnellement, c\'est sûr,
+		c\'est un complot.<br /><br />
+		Bref, si les noms sont cryptés, ils ne pourront pas retrouver le fichier original non compressé. Évidemment, si la minification est désactivée,
+		ça ne sert strictement à rien. Je dis ça, je dis rien, c\'est pour vous.';
+$helptxt['minify'] = 'Cette option permet de minifier les fichiers Javascript avant leur mise en cache. Si vous autorisez Wedge à minifier les fichiers, il retirera tous
+		les commentaires et l\'indentation inutile, ce qui accélèrera la vitesse de chargement du site. Seules les copies du cache sont modifiées, bien sûr.<br /><br />
+		La compression avec Packer est plus efficace, mais si vos scripts sont mal fichus, ils planteront (utilisez <a href="http://www.jslint.com/" target="_blank">JSLint</a> pour les
+		corriger). De plus, si la compression gzip n\'est pas disponible sur votre serveur, Packer se chargera de compresser encore plus les fichiers, au prix d\'un léger
+		ralentissement pour les utilisateurs. Sinon, utilisez JSMin, qui est un bon compromis si vos scripts plantent.<br /><br />
+		Désactivez l\'option pour pouvoir débugger plus facilement vos scripts. Non, parce que sinon c\'est même pas la peine d\'y penser. On veut pas vous pourrir la vie,
+		hein. Enfin, moi si, mais ça dure juste une minute, je sors mon rire démoniaque et puis je prends un calmant et j\'ajoute ces fichues options qui simplifient tout.';
+$helptxt['jquery_origin'] = 'Cette option permet de choisir l\'adresse à partir de laquelle sera chargé le script jQuery. Pour économiser en bande passante, vous pouvez
+		choisir un CDN (réseau de distribution) proposé par Google ou Microsoft, ou encore passer directement par le serveur officiel de jquery.com.
+		<br /><br />Si la bande passante n\'est pas un problème, vous pouvez aussi charger jQuery à partir de votre site, ce qui permet de vous assurer que le script sera
+		toujours disponible, et en passant de le compresser en même temps que script.js. Attention, si votre serveur ne dispose pas de la librairie zlib (ce qui est peu
+		probable heureusement), passez impérativement par un CDN pour éviter de servir un jQuery non compressé !';
 $helptxt['disableTemplateEval'] = 'Par défaut, les modèles de thème sont évalués au lieu d\'être simplement inclus, afin de pouvoir afficher plus d\'informations en cas d\'erreur du traitement.<br /><br />Toutefois, sur des forums de grande taille, ce processus peut ralentir sensiblement le traitement. Les utilisateurs aguerris peuvent donc préférer le désactiver.';
 $helptxt['db_show_debug'] = 'Active les fonctionnalités de débogage des requêtes, très utiles pour repérer les erreurs. Les informations sont montrées à la fin de chaque
 		page quand cette option est activée.<br /><br />

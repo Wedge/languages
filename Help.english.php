@@ -277,6 +277,21 @@ $helptxt['enableCompressedOutput'] = 'This option will compress output to lower 
 $helptxt['enableCompressedData'] = 'This option will compress CSS and JS files to gzip format after caching them. It requires zlib to be installed, and the correct .htaccess
 		settings to be initialized. This will save your server the hassle of gzipping these files on the fly each time they are requested.
 		If it doesn\'t work, the stylesheets and Javascript will be inactive and you should immediately disable the setting.';
+$helptxt['obfuscate_js'] = 'This option will modify the filenames for Javascript files when they\'re being cached. Its only point is to allow Javascript
+		developers to make life harder for evil script thieves who\'re after your work, yes you, personally, it\'s a conspiracy, they want your head.<br /><br />
+		Anyway, if names are encrypted, they won\'t be able to find the unminified original files. Obviously, if minification is disabled, it\'s utterly pointless. Just saying.';
+$helptxt['minify'] = 'This option will minify Javascript files when they\'re being cached. If you allow Wedge to minify files, it will remove all comments and useless whitespace,
+		speeding up your site\'s loading speed. Only cached files will be minified, the original files are of course left untouched.<br /><br />
+		Using Packer for minification is more efficient, with one caveat: if your scripts aren\'t tightly programmed, they will crash (use <a href="http://www.jslint.com/" target="_blank">JSLint</a>
+		to fix them). Also, if gzip compression isn\'t available on your server (the agony!), Packer will compress the files as best at it can, but it will introduce
+		a small delay at execution time because. Otherwise, use JSMin, which is a good compromise if your scripts won\'t run.<br /><br />
+		Disable the setting if you\'re currently working on your scripts, it will make it easier to debug them. Really, we don\'t want to make your life miserable.
+		Well, I do, but I\'m not doing it. I just think of it so I can secretly practice my evil laugh, then I get a life and I add these silly settings everywhere.';
+$helptxt['jquery_origin'] = 'This option allows you to choose which server to serve the jQuery script from. If you\'re trying to save bandwidth, you may want to use
+		one of the CDNs (content delivery network) provided by Google or Microsoft. You may also want to serve it directly from jquery.com\'s official servers.
+		<br /><br />If bandwidth is not an issue, you may want to serve it from your website, where it will be compressed along with other scripts. This will ensure
+		that jQuery is always available, as long as your website is up. Make sure to use a CDN if your server doesn\'t have the zlib library up and running (which most
+		servers will have anyway), otherwise you\'ll be serving a really big file...';
 $helptxt['disableTemplateEval'] = 'By default, templates are evaluated instead of just included. This helps with showing more useful debug information in case a template contains an error.<br /><br />
 		On large forums however, this customised inclusion process may be significantly slower. Therefore, advanced users may wish to disable it.';
 $helptxt['db_show_debug'] = 'Enables query debugging features. This is very useful for debugging purposes, and the debug query information is shown at the bottom of each
