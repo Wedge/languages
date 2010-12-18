@@ -95,8 +95,8 @@ $txt['install_settings_dbsession_title'] = 'Utilisez la base de données pour st
 $txt['install_settings_dbsession_info1'] = 'Cette fonction est une bonne solution la plupart du temps, rendant ainsi les sessions plus dépendantes du forum.';
 $txt['install_settings_dbsession_info2'] = 'Cette fonction est généralement une bonne idée, mais peut ne pas fonctionner sur ce serveur.';
 $txt['install_settings_stats'] = 'Autoriser la collecte de statistiques';
-$txt['install_settings_stats_title'] = 'Autorise Wedgebox à collecter des statistiques basiques mensuelles';
-$txt['install_settings_stats_info'] = 'Si activé, cela autorise l\'équipe de Wedge à visiter votre site pour collecter des statistiques basiques tous les mois. Cela nous aidera à faire des choix pour optimiser le script. Pour plus d\'informations veuillez visiter notre <a href="http://www.wedgeforum.com/" target="_blank">site officiel</a>.';
+$txt['install_settings_stats_title'] = 'Autorise Wedgeward à collecter des statistiques basiques tous les mois';
+$txt['install_settings_stats_info'] = '(Inutilisé pour le moment.) Si activé, cela autorise l\'équipe de Wedge à visiter votre site au maximum une fois par mois pour y collecter des statistiques basiques. Cela nous aidera à faire des choix pour optimiser le script. Pour plus d\'informations veuillez visiter notre <a href="http://www.wedgeforum.com/" target="_blank">site officiel</a>.';
 $txt['install_settings_proceed'] = 'Procéder';
 
 $txt['db_settings'] = 'Paramètres du Serveur de Base de données';
