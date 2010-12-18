@@ -12,7 +12,7 @@ $txt['install_step_databasechange'] = 'Remplissage de la Base de Données';
 $txt['install_step_admin'] = 'Compte Administrateur';
 $txt['install_step_delete'] = 'Finalisation de l\'Installation';
 
-$txt['smf_installer'] = 'Installateur Wedge';
+$txt['smf_installer'] = 'Installation de Wedge';
 $txt['installer_language'] = 'Langue';
 $txt['installer_language_set'] = 'Régler';
 $txt['congratulations'] = 'Félicitations, le processus d\'installation est terminé&nbsp;!';
