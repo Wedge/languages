@@ -89,6 +89,14 @@ $txt['permissionname_pm_read'] = 'Lire les messages personnels';
 $txt['permissionhelp_pm_read'] = 'Cette permission autorise les membres à accéder à la messagerie personnelle et à lire leurs messages personnels. Sans cette permission, un membre ne peut pas envoyer de messages personnels.';
 $txt['permissionname_pm_send'] = 'Envoyer des messages personnels';
 $txt['permissionhelp_pm_send'] = 'Envoyer des messages personnels à d\'autres membres inscrits. Nécessite la permission \'Lire des messages personnels\'.';
+$txt['permissionname_save_pm_draft'] = 'Sauver des brouillons dans la messagerie';
+$txt['permissionname_simple_save_pm_draft'] = 'Sauver des brouillons dans la messagerie';
+$txt['permissionhelp_save_pm_draft'] = 'Cette permission autorise les utilisateurs à sauvegarder des brouillons de leurs nouveaux messages personnels, avant leur envoi.';
+$txt['permissionhelp_simple_save_pm_draft'] = 'Cette permission autorise les utilisateurs à sauvegarder des brouillons de leurs nouveaux messages personnels, avant leur envoi.';
+$txt['permissionname_auto_save_pm_draft'] = 'Sauver des brouillons de messagerie automatiquement';
+$txt['permissionname_simple_auto_save_pm_draft'] = 'Sauver des brouillons de messagerie automatiquement';
+$txt['permissionhelp_auto_save_pm_draft'] = 'Cette permission, si elle est combinée avec la précédente, permet la sauvegarde automatique, en tâche de fond, des messages personnels en cours d\'écriture, toutes les 30 secondes à peu près (configurable dans le panneau d\'administration).';
+$txt['permissionhelp_simple_auto_save_pm_draft'] = 'Cette permission, si elle est combinée avec la précédente, permet la sauvegarde automatique, en tâche de fond, des messages personnels en cours d\'écriture, toutes les 30 secondes à peu près (configurable dans le panneau d\'administration).';
 
 $txt['permissiongroup_calendar'] = 'Calendrier';
 $txt['permissionname_calendar_view'] = 'Voir le calendrier';
@@ -217,6 +225,15 @@ $txt['permissionname_modify_own'] = 'Messages personnels';
 $txt['permissionname_modify_any'] = 'Tous les messages';
 $txt['permissionname_report_any'] = 'Signaler les messages aux modérateurs';
 $txt['permissionhelp_report_any'] = 'Cette permission ajoute un lien à chaque message, autorisant à rapporter un message suspect à un modérateur. Tous les modérateurs de cette recevront un e-mail avec un lien vers le message rapporté et une description du problème (comme indiqué par l\'utilisateur rapportant).';
+
+$txt['permissionname_save_post_draft'] = 'Sauver des brouillons';
+$txt['permissionname_simple_save_post_draft'] = 'Sauver des brouillons';
+$txt['permissionhelp_save_post_draft'] = 'Cette permission permet à l\'utilisateur de sauver leurs nouveaux messages en tant que brouillons, avant leur publication. Les fichiers joints, sondages et événements ne sont PAS sauvegardés.';
+$txt['permissionhelp_simple_save_post_draft'] = 'Cette permission permet à l\'utilisateur de sauver leurs nouveaux messages en tant que brouillons, avant leur publication. Les fichiers joints, sondages et événements ne sont PAS sauvegardés.';
+$txt['permissionname_auto_save_post_draft'] = 'Sauver automatiquement des brouillons';
+$txt['permissionname_simple_auto_save_post_draft'] = 'Sauver automatiquement des brouillons';
+$txt['permissionhelp_auto_save_post_draft'] = 'Cette permission, si elle est combinée avec la précédente, permet de sauvegarder automatiquement des brouillons des nouveaux messages et sujets, par défaut toutes les 30 secondes environ (configurable dans le panneau d\'administration).';
+$txt['permissionhelp_simple_auto_save_post_draft'] = 'Cette permission, si elle est combinée avec la précédente, permet de sauvegarder automatiquement des brouillons des nouveaux messages et sujets, par défaut toutes les 30 secondes environ (configurable dans le panneau d\'administration).';
 
 $txt['permissiongroup_poll'] = 'Sondages';
 $txt['permissionname_poll_view'] = 'Voir les sondages';

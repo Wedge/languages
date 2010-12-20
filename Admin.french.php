@@ -507,6 +507,14 @@ $txt['enableAllMessages_zero'] = '0 pour ne jamais afficher &quot;Tous&quot;';
 $txt['disableCustomPerPage'] = 'Empêcher les utilisateurs de changer le nombre de sujets/messages par page';
 $txt['enablePreviousNext'] = 'Activer les liens &quot;Sujet précédent/suivant&quot;';
 
+$txt['masterSavePostDrafts'] = 'Activer les brouillons';
+$txt['masterAutoSavePostDrafts'] = 'Activer la sauvegarde automatique des brouillons';
+$txt['masterSavePmDrafts'] = 'Activer les brouillons dans la messagerie';
+$txt['masterAutoSavePmDrafts'] = 'Activer la sauvegarde automatique des brouillons de messagerie';
+$txt['draftsave_subnote'] = 'Veuillez noter que l\'utilisateur aura en plus besoin d\'avoir la permission correspondante activée pour son groupe.';
+$txt['draftautosave_subnote'] = 'Cela ne remplace pas l\'option ci-dessus mais étend simplement son champ. De plus, l\'utilisateur doit avoir la permission associée.';
+$txt['masterAutoSaveDraftsDelay'] = 'À quelle fréquence sauvegarder les brouillons automatiquement&nbsp;?';
+
 $txt['not_done_title'] = 'Pas encore effectué&nbsp;!';
 $txt['not_done_reason'] = 'Afin d\'éviter la surcharge de votre serveur, le processus a été interrompu temporairement. Il devrait reprendre automatiquement dans quelques secondes. S\'il ne reprend pas, veuillez cliquer sur le lien &quot;Continuer&quot; ci-dessous.';
 $txt['not_done_continue'] = 'Continuer';

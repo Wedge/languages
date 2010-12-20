@@ -158,6 +158,13 @@ $txt['trackUser'] = 'Suivre le membre';
 $txt['trackActivity'] = 'Activité';
 $txt['trackIP'] = 'Adresse IP';
 
+$txt['showDrafts'] = 'Voir les brouillons';
+$txt['drafts_noboard'] = '(Pas de section)';
+$txt['show_drafts_none'] = 'Aucun brouillon pour le moment.';
+$txt['edit_draft'] = 'Modifier brouillon';
+$txt['remove_draft'] = 'Supprimer brouillon';
+$txt['topic_no_longer_available'] = 'Ce brouillon a été écrit en réponse à un sujet qui n\'est plus disponible. Si vous le modifiez, il sera posté en tant que nouveau sujet.';
+
 $txt['authentication'] = 'Authentification';
 $txt['change_authentication'] = 'D\'ici, vous pouvez changer votre manière de vous connecter au forum. Vous pouvez choisir d\'utiliser soit un compte OpenID pour votre authentification, soit de basculer sur l\'utilisation d\'un identifiant avec mot de passe.';
 
