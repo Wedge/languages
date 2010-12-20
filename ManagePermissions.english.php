@@ -89,6 +89,14 @@ $txt['permissionname_pm_read'] = 'Read personal messages';
 $txt['permissionhelp_pm_read'] = 'This permission allows users to access the Personal Messages section and read their Personal Messages. Without this permission a user is unable to send Personal Messages.';
 $txt['permissionname_pm_send'] = 'Send personal messages';
 $txt['permissionhelp_pm_send'] = 'Send personal messages to other registered members. Requires the \'Read personal messages\' permission.';
+$txt['permissionname_save_pm_draft'] = 'Save drafts of new personal messages';
+$txt['permissionname_simple_save_pm_draft'] = 'Save drafts of new personal messages';
+$txt['permissionhelp_save_pm_draft'] = 'This permission allows users to save drafts of new personal messages, before they are sent.';
+$txt['permissionhelp_simple_save_pm_draft'] = 'This permission allows users to save drafts of new posts, before they are sent.';
+$txt['permissionname_auto_save_pm_draft'] = 'Automatically save draft personal messages';
+$txt['permissionname_simple_auto_save_pm_draft'] = 'Automatically save drafts of new personal messages';
+$txt['permissionhelp_auto_save_pm_draft'] = 'This permission, when combined with the above permission, enables automatic saving of message drafts - by default approximately once every 30 seconds, though this is configurable from the Topic Settings area in the Administration Panel.';
+$txt['permissionhelp_simple_auto_save_pm_draft'] = 'This permission, when combined with the above permission, enables automatic saving of message drafts approximately once every 30 seconds, though this is configurable from the Topic Settings area in the Administration Panel.';
 
 $txt['permissiongroup_calendar'] = 'Calendar';
 $txt['permissionname_calendar_view'] = 'View the calendar';
@@ -217,6 +225,15 @@ $txt['permissionname_modify_own'] = 'Own post';
 $txt['permissionname_modify_any'] = 'Any post';
 $txt['permissionname_report_any'] = 'Report posts to the moderators';
 $txt['permissionhelp_report_any'] = 'This permission adds a link to each message, allowing a user to report a post to a moderator. On reporting, all moderators on that board will receive an email with a link to the reported post and a description of the problem (as given by the reporting user).';
+
+$txt['permissionname_save_post_draft'] = 'Save drafts of new posts';
+$txt['permissionname_simple_save_post_draft'] = 'Save drafts of new posts';
+$txt['permissionhelp_save_post_draft'] = 'This permission allows users to save drafts of new posts, before they are posted. Attachments, polls and calendar events are NOT saved.';
+$txt['permissionhelp_simple_save_post_draft'] = 'This permission allows users to save drafts of new posts, before they are posted. Attachments, polls and calendar events are NOT saved.';
+$txt['permissionname_auto_save_post_draft'] = 'Automatically save draft posts';
+$txt['permissionname_simple_auto_save_post_draft'] = 'Automatically save drafts of new posts';
+$txt['permissionhelp_auto_save_post_draft'] = 'This permission, when combined with the above permission, enables automatic saving of post drafts - by default approximately once every 30 seconds, though this is configurable from the Topic Settings area in the Administration Panel - both for new topics and replies.';
+$txt['permissionhelp_simple_auto_save_post_draft'] = 'This permission, when combined with the above permission, enables automatic saving of post drafts - by default approximately once every 30 seconds, though this is configurable from the Topic Settings area in the Administration Panel - both for new topics and replies.';
 
 $txt['permissiongroup_poll'] = 'Polls';
 $txt['permissionname_poll_view'] = 'View polls';

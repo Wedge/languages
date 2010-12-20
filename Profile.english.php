@@ -158,6 +158,13 @@ $txt['trackUser'] = 'Track User';
 $txt['trackActivity'] = 'Activity';
 $txt['trackIP'] = 'IP Address';
 
+$txt['showDrafts'] = 'Show Drafts';
+$txt['drafts_noboard'] = '(No board)';
+$txt['show_drafts_none'] = 'You have no draft messages saved at this time.';
+$txt['edit_draft'] = 'Edit draft';
+$txt['remove_draft'] = 'Remove draft';
+$txt['topic_no_longer_available'] = 'This draft is a reply to a topic that is no longer available. Editing this draft will attempt to create a new topic.';
+
 $txt['authentication'] = 'Authentication';
 $txt['change_authentication'] = 'From this section you can change how you login to the forum. You may choose to either use an OpenID account for your authentication, or alternatively switch to use a username and password.';
 

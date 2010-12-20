@@ -507,6 +507,14 @@ $txt['enableAllMessages_zero'] = '0 to never show &quot;All&quot;';
 $txt['disableCustomPerPage'] = 'Disable user-defined topic/message count per page';
 $txt['enablePreviousNext'] = 'Enable previous/next topic links';
 
+$txt['masterSavePostDrafts'] = 'Enable saving of post drafts';
+$txt['masterAutoSavePostDrafts'] = 'Enable automatic saving of post drafts';
+$txt['masterSavePmDrafts'] = 'Enable saving of personal message drafts';
+$txt['masterAutoSavePmDrafts'] = 'Enable automatic saving of personal message drafts';
+$txt['draftsave_subnote'] = 'Note that the user must still have permission in the Permissions area.';
+$txt['draftautosave_subnote'] = 'This does not override the above option, merely extending it. Also, user must have permission.';
+$txt['masterAutoSaveDraftsDelay'] = 'How often should posts be autosaved?';
+
 $txt['not_done_title'] = 'Not done yet!';
 $txt['not_done_reason'] = 'To avoid overloading your server, the process has been temporarily paused. It should automatically continue in a few seconds. If it doesn\'t, please click continue below.';
 $txt['not_done_continue'] = 'Continue';
