@@ -262,14 +262,14 @@ $txt['custom_edit_mask_regex'] = 'Regex (Avancé)';
 $txt['custom_edit_enclose'] = 'Montrer inséré dans du texte (Optionnel)';
 $txt['custom_edit_enclose_desc'] = 'Nous vous recommandons <strong>fortement</strong> d\'utiliser un masque d\'entrée pour valider le contenu fourni par l\'utilisateur.';
 
-$txt['custom_edit_placement'] = 'Choose Placement';
-$txt['custom_edit_placement_standard'] = 'Standard (with title)';
-$txt['custom_edit_placement_withicons'] = 'With Icons';
-$txt['custom_edit_placement_abovesignature'] = 'Above Signature';
-$txt['custom_profile_placement'] = 'Placement';
+$txt['custom_edit_placement'] = 'Choisir la position';
+$txt['custom_edit_placement_standard'] = 'Standard (à côté du titre)';
+$txt['custom_edit_placement_withicons'] = 'À côté des icônes';
+$txt['custom_edit_placement_abovesignature'] = 'Au-dessus de la signature';
+$txt['custom_profile_placement'] = 'Position';
 $txt['custom_profile_placement_standard'] = 'Standard';
-$txt['custom_profile_placement_withicons'] = 'With Icons';
-$txt['custom_profile_placement_abovesignature'] = 'Above Signature';
+$txt['custom_profile_placement_withicons'] = 'À côté des icônes';
+$txt['custom_profile_placement_abovesignature'] = 'Au-dessus de la signature';
 
 $txt['custom_edit_delete_sure'] = 'Êtes-vous sûr de vouloir supprimer ce champ ? Toutes les données utilisateur liées seront perdues !';
 
