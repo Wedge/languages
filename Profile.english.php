@@ -159,11 +159,16 @@ $txt['trackActivity'] = 'Activity';
 $txt['trackIP'] = 'IP Address';
 
 $txt['showDrafts'] = 'Show Drafts';
+$txt['showDrafts_desc'] = 'This section shows you all the draft posts you have saved, or were saved on your behalf.';
 $txt['drafts_noboard'] = '(No board)';
 $txt['show_drafts_none'] = 'You have no draft messages saved at this time.';
 $txt['edit_draft'] = 'Edit draft';
 $txt['remove_draft'] = 'Remove draft';
 $txt['topic_no_longer_available'] = 'This draft is a reply to a topic that is no longer available. Editing this draft will attempt to create a new topic.';
+$txt['draftAutoPurge_1'] = 'Drafts are stored on the server for up to a day, and if not posted or modified in that time, they will be removed.';
+$txt['draftAutoPurge_n'] = 'Drafts are stored on the server for up to %1$d days, and if not posted or modified in that time, they will be removed.';
+$txt['remove_all_draft'] = 'Remove all drafts';
+$txt['remove_all_draft_confirm'] = 'Are you sure you want to remove all of your draft messages? (This operation is not reversible.)';
 
 $txt['authentication'] = 'Authentication';
 $txt['change_authentication'] = 'From this section you can change how you login to the forum. You may choose to either use an OpenID account for your authentication, or alternatively switch to use a username and password.';
