@@ -55,6 +55,18 @@ $txt['pm_too_many_recipients'] = 'You may not send personal messages to more tha
 $txt['pm_read'] = 'Read';
 $txt['pm_replied'] = 'Replied To';
 
+// Drafts.
+$txt['showDrafts'] = 'Show Drafts';
+$txt['showDrafts_desc'] = 'This section shows you all the draft messages you have saved, or were saved on your behalf.';
+$txt['show_drafts_none'] = 'You have no draft messages saved at this time.';
+$txt['edit_draft'] = 'Edit draft';
+$txt['remove_draft'] = 'Remove draft';
+$txt['draftAutoPurge_1'] = 'Drafts are stored on the server for up to a day, and if not posted or modified in that time, they will be removed.';
+$txt['draftAutoPurge_n'] = 'Drafts are stored on the server for up to %1$d days, and if not posted or modified in that time, they will be removed.';
+$txt['remove_all_drafts'] = 'Remove all drafts';
+$txt['remove_all_drafts_confirm'] = 'Are you sure you want to remove all of your draft messages? (This operation is not reversible.)';
+$txt['no_recipients'] = '(no recipients)';
+
 // Message Pruning.
 $txt['pm_prune'] = 'Prune Messages';
 $txt['pm_prune_desc1'] = 'Delete all personal messages older than';

@@ -278,6 +278,7 @@ $txt['always_logged_in'] = 'Always stay logged in';
 $txt['save_draft'] = 'Save as Draft';
 $txt['save_draft_warning'] = 'Saving a draft will retain the basic post details (title, text, icon), but not attachments, poll options or calendar events. Are you happy to proceed with saving this draft?';
 $txt['draft_saved'] = 'Your post has been saved as a draft. You can access it from <a href="{draft_link}">your profile</a>.';
+$txt['pm_draft_saved'] = 'Your message has been saved as a draft. You can access it from <a href="{draft_link}">your drafts area</a>.';
 
 // Use numeric entities in the below string.
 $txt['ip'] = 'IP';
