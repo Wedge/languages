@@ -514,7 +514,7 @@ $txt['masterAutoSavePmDrafts'] = 'Enable automatic saving of personal message dr
 $txt['draftsave_subnote'] = 'Note that the user must still have permission in the Permissions area.';
 $txt['draftautosave_subnote'] = 'This does not override the above option, merely extending it. Also, user must have permission.';
 $txt['masterAutoSaveDraftsDelay'] = 'How often should posts be autosaved?';
-$txt['pruneSavedDrafts'] = 'Prune drafts after how many days?';
+$txt['pruneSaveDrafts'] = 'Prune drafts after how many days?';
 
 $txt['not_done_title'] = 'Not done yet!';
 $txt['not_done_reason'] = 'To avoid overloading your server, the process has been temporarily paused. It should automatically continue in a few seconds. If it doesn\'t, please click continue below.';

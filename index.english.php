@@ -680,6 +680,7 @@ $txt['mark_read_short'] = 'Mark Read';
 $txt['pm_short'] = 'My Messages';
 $txt['pm_menu_read'] = 'Read your messages';
 $txt['pm_menu_send'] = 'Send a message';
+$txt['pm_menu_drafts'] = 'Draft messages';
 
 $txt['hello_member_ndt'] = 'Hello';
 
@@ -699,6 +700,7 @@ $txt['visual_verification_request_new'] = 'Request another image';
 $txt['summary'] = 'Summary';
 $txt['account'] = 'Account Settings';
 $txt['forumprofile'] = 'Forum Profile';
+$txt['draft_posts'] = 'Draft Posts';
 
 $txt['modSettings_title'] = 'Features and Options';
 $txt['package'] = 'Add-ons';
