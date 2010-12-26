@@ -514,6 +514,7 @@ $txt['masterAutoSavePmDrafts'] = 'Activer la sauvegarde automatique des brouillo
 $txt['draftsave_subnote'] = 'Veuillez noter que l\'utilisateur aura en plus besoin d\'avoir la permission correspondante activée pour son groupe.';
 $txt['draftautosave_subnote'] = 'Cela ne remplace pas l\'option ci-dessus mais étend simplement son champ. De plus, l\'utilisateur doit avoir la permission associée.';
 $txt['masterAutoSaveDraftsDelay'] = 'À quelle fréquence sauvegarder les brouillons automatiquement&nbsp;?';
+$txt['pruneSaveDrafts'] = 'Purger les brouillons après combien de jours&nbsp;?';
 
 $txt['not_done_title'] = 'Pas encore effectué&nbsp;!';
 $txt['not_done_reason'] = 'Afin d\'éviter la surcharge de votre serveur, le processus a été interrompu temporairement. Il devrait reprendre automatiquement dans quelques secondes. S\'il ne reprend pas, veuillez cliquer sur le lien &quot;Continuer&quot; ci-dessous.';

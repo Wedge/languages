@@ -679,6 +679,7 @@ $txt['mark_read_short'] = 'Marquer lu';
 $txt['pm_short'] = 'Messagerie';
 $txt['pm_menu_read'] = 'Lire mes messages';
 $txt['pm_menu_send'] = 'Envoyer un message';
+$txt['pm_menu_drafts'] = 'Mes brouillons';
 
 $txt['hello_member_ndt'] = 'Bonjour';
 
@@ -698,6 +699,7 @@ $txt['visual_verification_request_new'] = 'Demander une autre image';
 $txt['summary'] = 'Résumé';
 $txt['account'] = 'Paramètres du Compte';
 $txt['forumprofile'] = 'Profil de base et avatar';
+$txt['draft_posts'] = 'Brouillons';
 
 $txt['modSettings_title'] = 'Fonctionnalités et Options';
 $txt['package'] = 'Extensions';

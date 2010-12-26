@@ -159,11 +159,17 @@ $txt['trackActivity'] = 'Activité';
 $txt['trackIP'] = 'Adresse IP';
 
 $txt['showDrafts'] = 'Voir les brouillons';
+$txt['showDrafts_desc'] = 'Cette section montre tous les brouillons que vous avez sauvegardés, ou qui ont été sauvegardés automatiquement pour vous.';
 $txt['drafts_noboard'] = '(Pas de section)';
 $txt['show_drafts_none'] = 'Aucun brouillon pour le moment.';
 $txt['edit_draft'] = 'Modifier brouillon';
 $txt['remove_draft'] = 'Supprimer brouillon';
 $txt['topic_no_longer_available'] = 'Ce brouillon a été écrit en réponse à un sujet qui n\'est plus disponible. Si vous le modifiez, il sera posté en tant que nouveau sujet.';
+$txt['topic_is_locked'] = 'Ce brouillon a été écrit en réponse à un sujet qui est actuellement bloqué par un modérateur. Si vous le modifiez, il sera posté en tant que nouveau sujet.';
+$txt['draftAutoPurge_1'] = 'Les brouillons sont stockés sur le serveur pendant 24 heures. Si vous ne les postez ni ne les modifiez durant ce délai, ils seront supprimés.';
+$txt['draftAutoPurge_n'] = 'Les brouillons sont stockés sur le serveur pendant %1$d jours. Si vous ne les postez ni ne les modifiez durant ce délai, ils seront supprimés.';
+$txt['remove_all_drafts'] = 'Supprimer tous mes brouillons';
+$txt['remove_all_drafts_confirm'] = 'Êtes-vous sûr de vouloir supprimer tous vos brouillons ? Cette opération est irréversible !';
 
 $txt['authentication'] = 'Authentification';
 $txt['change_authentication'] = 'D\'ici, vous pouvez changer votre manière de vous connecter au forum. Vous pouvez choisir d\'utiliser soit un compte OpenID pour votre authentification, soit de basculer sur l\'utilisation d\'un identifiant avec mot de passe.';
