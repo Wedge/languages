@@ -163,7 +163,6 @@ $txt['showDrafts_desc'] = 'Cette section montre tous les brouillons que vous ave
 $txt['drafts_noboard'] = '(Pas de section)';
 $txt['show_drafts_none'] = 'Aucun brouillon pour le moment.';
 $txt['edit_draft'] = 'Modifier brouillon';
-$txt['remove_draft'] = 'Supprimer brouillon';
 $txt['topic_no_longer_available'] = 'Ce brouillon a été écrit en réponse à un sujet qui n\'est plus disponible. Si vous le modifiez, il sera posté en tant que nouveau sujet.';
 $txt['topic_is_locked'] = 'Ce brouillon a été écrit en réponse à un sujet qui est actuellement bloqué par un modérateur. Si vous le modifiez, il sera posté en tant que nouveau sujet.';
 $txt['draftAutoPurge_1'] = 'Les brouillons sont stockés sur le serveur pendant 24 heures. Si vous ne les postez ni ne les modifiez durant ce délai, ils seront supprimés.';
