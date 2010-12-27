@@ -55,6 +55,18 @@ $txt['pm_too_many_recipients'] = 'Vous ne pouvez pas envoyer de messages personn
 $txt['pm_read'] = 'Lu';
 $txt['pm_replied'] = 'Répondu à';
 
+// Drafts.
+$txt['showDrafts'] = 'Voir les Brouillons';
+$txt['showDrafts_desc'] = 'Cette section vous permet de consulter les brouillons que vous avez sauvegardés, ou qui ont été sauvegardés automatiquement pour vous.';
+$txt['show_drafts_none'] = 'Pas de brouillons pour le moment.';
+$txt['edit_draft'] = 'Modifier brouillon';
+$txt['remove_draft'] = 'Supprimer brouillon';
+$txt['draftAutoPurge_1'] = 'Les brouillons sont stockés sur le serveur pendant 24 heures. Si vous ne les postez ni ne les modifiez durant ce délai, ils seront supprimés.';
+$txt['draftAutoPurge_n'] = 'Les brouillons sont stockés sur le serveur pendant %1$d jours. Si vous ne les postez ni ne les modifiez durant ce délai, ils seront supprimés.';
+$txt['remove_all_drafts'] = 'Supprimer tous mes brouillons';
+$txt['remove_all_drafts_confirm'] = 'Êtes-vous sûr de vouloir supprimer tous vos brouillons ? Cette opération est irréversible !';
+$txt['no_recipients'] = '(pas de destinataire)';
+
 // Message Pruning.
 $txt['pm_prune'] = 'Purger la boîte';
 $txt['pm_prune_desc1'] = 'Effacer tous les messages personnels antérieurs à';

@@ -278,6 +278,7 @@ $txt['always_logged_in'] = 'Toujours connecté';
 $txt['save_draft'] = 'Brouillon';
 $txt['save_draft_warning'] = 'Sauvegarder en tant que brouillon conservera les détails de base du message (titre, texte, icône), mais ni ses fichiers joints, ni les options de sondage, ni les événements de calendrier. Êtes-vous sûr de vouloir continuer ?';
 $txt['draft_saved'] = 'Votre brouillon a été sauvegardé. Vous pouvez y accéder depuis <a href="{draft_link}">votre profil</a>.';
+$txt['pm_draft_saved'] = 'Votre brouillon a été sauvegardé. Vous pouvez y accéder depuis <a href="{draft_link}">votre profil</a>.';
 
 // Use numeric entities in the below string.
 $txt['ip'] = 'IP';
