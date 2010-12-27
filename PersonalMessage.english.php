@@ -60,7 +60,6 @@ $txt['showDrafts'] = 'Show Drafts';
 $txt['showDrafts_desc'] = 'This section shows you all the draft messages you have saved, or were saved on your behalf.';
 $txt['show_drafts_none'] = 'You have no draft messages saved at this time.';
 $txt['edit_draft'] = 'Edit draft';
-$txt['remove_draft'] = 'Remove draft';
 $txt['draftAutoPurge_1'] = 'Drafts are stored on the server for up to a day, and if not posted or modified in that time, they will be removed.';
 $txt['draftAutoPurge_n'] = 'Drafts are stored on the server for up to %1$d days, and if not posted or modified in that time, they will be removed.';
 $txt['remove_all_drafts'] = 'Remove all drafts';
