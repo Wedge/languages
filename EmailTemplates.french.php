@@ -1045,7 +1045,7 @@ Nous tenons &#224; vous souhaiter un anniversaire plein de bonheur.
 	),
 	'nite0859' => array(
 		'subject' => 'Joyeux anniversaire !',
-		'body' => 'Vos amis sur {FORUMNAME} voudraient prendre un peu de votre temps pour vous souhaiter un joyeux anniversaire, {REALNAME}. Si vous ne l\'avez pas fait r&#233;cemment, veuillez visiter notre communaut&#233; afin que d\'autres aient l\'opportunit&#233; de vous transmettre leurs voeux !
+		'body' => 'Vos amis sur {FORUMNAME} voudraient prendre un peu de votre temps pour vous souhaiter un joyeux anniversaire, {REALNAME}. Si vous ne l\'avez pas fait r&#233;cemment, pensez &#224; visiter notre communaut&#233; afin que d\'autres aient l\'opportunit&#233; de vous transmettre leurs voeux !
 
 M&#234;me si aujourd\'hui c\'est votre anniversaire, {REALNAME}, nous tenons &#224; vous rappeler que votre appartenance &#224; notre communaut&#233; a &#233;t&#233; le plus beau cadeau pour nous &#224; ce jour.
 

@@ -5,7 +5,7 @@ global $settings, $scripturl;
 
 $txt['admin_boards'] = 'Sites';
 $txt['admin_users'] = 'Membres';
-$txt['admin_newsletters'] = 'Infolettre';
+$txt['admin_newsletters'] = 'Infolettres';
 $txt['admin_edit_news'] = 'Nouvelles';
 $txt['admin_groups'] = 'Groupes de membres';
 $txt['admin_members'] = 'Gestion des membres';
