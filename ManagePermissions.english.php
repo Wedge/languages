@@ -104,7 +104,7 @@ $txt['permissionhelp_calendar_view'] = 'The calendar shows for each month the bi
 $txt['permissionname_calendar_post'] = 'Create events in the calendar';
 $txt['permissionhelp_calendar_post'] = 'An Event is a topic linked to a certain date or date range. Creating events can be done from the calendar. An event can only be created if the user that creates the event is allowed to post new topics.';
 $txt['permissionname_calendar_edit'] = 'Edit events in the calendar';
-$txt['permissionhelp_calendar_edit'] = 'An Event is a topic linked to a certain date or date range. Event can be edited by clicking the red asterisk (*) next to the event in the calendar view. In order to be able to edit an event, a user must have sufficient permissions to edit the first message of the topic that is linked to the event.';
+$txt['permissionhelp_calendar_edit'] = 'An Event is a topic linked to a certain date or date range. The Event can be edited by clicking the red asterisk (*) next to the event in the calendar view. In order to be able to edit an event, a user must have sufficient permissions to edit the first message of the topic that is linked to the event.';
 $txt['permissionname_calendar_edit_own'] = 'Own events';
 $txt['permissionname_calendar_edit_any'] = 'Any events';
 
