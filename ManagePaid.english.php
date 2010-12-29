@@ -39,6 +39,10 @@ $txt['paid_currency_code'] = 'Currency Code';
 $txt['paid_currency_code_desc'] = 'Code used by payment merchants';
 $txt['paid_currency_symbol'] = 'Symbol used by payment method';
 $txt['paid_currency_symbol_desc'] = 'Use \'%1.2f\' to specify where number goes, for example $%1.2f, %1.2fDM etc';
+$txt['paid_allowed_groups'] = 'Groups allowed to purchase this subscription.';
+$txt['paid_allowed_groups_desc'] = 'This allows you to pick groups allowed to purchase this subscription, such as special subscriptions for resubscribers.';
+
+// Payment-processor specific strings
 $txt['paypal_email'] = 'Paypal email address';
 $txt['paypal_email_desc'] = 'Leave blank if you do not wish to use paypal.';
 $txt['worldpay_id'] = 'WorldPay Install ID';
@@ -197,6 +201,7 @@ $txt['subscriptions'] = 'Subscriptions';
 $txt['subscription'] = 'Subscription';
 $txt['paid_subs_desc'] = 'Below is a list of all the subscriptions which are available on this forum.';
 $txt['paid_subs_none'] = 'There are currently no paid subscriptions available!';
+$txt['paid_subs_admin_override'] = 'This user is not in any of the groups permitted to order this subscription.';
 
 $txt['paid_current'] = 'Existing Subscriptions';
 $txt['pending_payments'] = 'Pending Payments';
