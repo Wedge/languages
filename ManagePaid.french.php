@@ -39,6 +39,10 @@ $txt['paid_currency_code'] = 'Code Devise';
 $txt['paid_currency_code_desc'] = 'Code utilisé par les sites gérant les paiements';
 $txt['paid_currency_symbol'] = 'Symbole utilisé par la méthode de paiement';
 $txt['paid_currency_symbol_desc'] = 'Utiliser \'%1.2f\' pour spécifier où le nombre sera placé, par exemple <em>$</em>%1.2f, %1.2f<em>DM</em>, etc.';
+$txt['paid_allowed_groups'] = 'Groupes autorisés à prendre cet abonnement.';
+$txt['paid_allowed_groups_desc'] = 'Vous permet de choisir les groupes qui pourront profiter de cet abonnement. Imaginez par exemple un abonnement à tarif réduit pour les abonnés existants.';
+
+// Payment-processor specific strings
 $txt['paypal_email'] = 'Adresse e-mail PayPal';
 $txt['paypal_email_desc'] = 'Laissez vide si vous ne souhaitez pas utiliser PayPal.';
 $txt['worldpay_id'] = 'ID d\'installation WorldPay';
@@ -197,6 +201,7 @@ $txt['subscriptions'] = 'Abonnements';
 $txt['subscription'] = 'Abonnement';
 $txt['paid_subs_desc'] = 'Vous trouverez ci-dessous la liste des abonnements disponibles pour ce site.';
 $txt['paid_subs_none'] = 'Il n\'y a actuellement aucun abonnement payant en place&nbsp;!';
+$txt['paid_subs_admin_override'] = 'Cet utilisateur n\'est dans aucun des groupes autorisés à prendre cet abonnement.';
 
 $txt['paid_current'] = 'Abonnements existants';
 $txt['pending_payments'] = 'Paiements en attente';
