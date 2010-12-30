@@ -61,6 +61,8 @@ $txt['mboards_theme_desc'] = 'Permet de donner un aspect visuel différent à ce
 $txt['mboards_theme_default'] = '(Thème par défaut)';
 $txt['mboards_override_theme'] = 'Outrepasser le thème choisi par le membre';
 $txt['mboards_override_theme_desc'] = 'Force le changement du thème de cette section pour celui spécifié précédemment, même si le membre a choisi de ne pas utiliser les réglages par défaut du forum.';
+$txt['mboards_language'] = 'Langue de la section';
+$txt['mboards_language_desc'] = 'Vous permet d\'outrepasser la langue par défaut du forum (par exemple les boutons et menus) à l\'intérieur d\'une section. Veuillez noter que les préférences de langue de l\'utilisateur garderont la priorité.';
 
 $txt['mboards_redirect'] = 'Rediriger vers une adresse web';
 $txt['mboards_redirect_desc'] = 'Activer cette option pour rediriger la section vers une autre adresse web.';
