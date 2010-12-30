@@ -61,6 +61,8 @@ $txt['mboards_theme_desc'] = 'This allows you to change the look of your forum i
 $txt['mboards_theme_default'] = '(overall forum default.)';
 $txt['mboards_override_theme'] = 'Override Member\'s Theme';
 $txt['mboards_override_theme_desc'] = 'Use this board\'s theme even if the member didn\'t choose to use the defaults.';
+$txt['mboards_language'] = 'Board Language';
+$txt['mboards_language_desc'] = 'This allows you to set the default language of the forum (such as the text on buttons) inside only this board. Note that this is only a default, if a user picks a language preference, their preference will override this setting.';
 
 $txt['mboards_redirect'] = 'Redirect to a web address';
 $txt['mboards_redirect_desc'] = 'Enable this option to redirect anyone who clicks on this board to another web address.';
