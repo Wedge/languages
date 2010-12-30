@@ -279,6 +279,10 @@ $txt['standard_profile_field'] = 'Field';
 
 $txt['core_settings_welcome_msg'] = 'Welcome to Your New Forum';
 $txt['core_settings_welcome_msg_desc'] = 'To get you started we suggest you select which of SMF\'s core features you want to enable. We\'d recommend only enabling with those features you need!';
+$txt['core_settings_item_m'] = 'Media Gallery';
+$txt['core_settings_item_m_desc'] = '';
+$txt['core_settings_item_e'] = 'Auto-Embedding';
+$txt['core_settings_item_e_desc'] = '';
 $txt['core_settings_item_cd'] = 'Calendar';
 $txt['core_settings_item_cd_desc'] = 'Enabling this feature will open up a selection of options to enable your users to view the calendar, add and review events, see users birthdates on a calendar and much, much more.';
 $txt['core_settings_item_cp'] = 'Custom Profile Fields';
