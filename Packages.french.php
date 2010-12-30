@@ -192,7 +192,7 @@ $txt['operation_title'] = 'Opérations';
 $txt['operation_ignore'] = 'Ignorer les Erreurs';
 $txt['operation_invalid'] = 'L\'opération sélectionnée est invalide.';
 
-$txt['package_file_perms_desc'] = 'Vous pouvez utiliser cette section pour vérifier si les dossiers et fichiers critiques de votre répertoire forum sont inscriptibles. Notez que seuls sont pris en compte les répertoires et fichiers-clé du forum - utilisez un client FTP pour plus d\'options.';
+$txt['package_file_perms_desc'] = 'Vous pouvez utiliser cette section pour vérifier si les dossiers et fichiers critiques de votre forum sont inscriptibles. Notez que seuls sont pris en compte les répertoires et fichiers-clé du forum - utilisez un client FTP pour plus d\'options.';
 $txt['package_file_perms_name'] = 'Nom de Fichier/Dossier';
 $txt['package_file_perms_status'] = 'État actuel';
 $txt['package_file_perms_new_status'] = 'Nouvel État';
@@ -206,7 +206,7 @@ $txt['package_file_perms_not_writable'] = 'Non Inscriptible';
 $txt['package_file_perms_chmod'] = 'chmod';
 $txt['package_file_perms_more_files'] = 'Plus de Fichiers';
 
-$txt['package_file_perms_change'] = 'Changer les Permissions du Fichier';
+$txt['package_file_perms_change'] = 'Changer les Permissions';
 $txt['package_file_perms_predefined'] = 'Utiliser un profil de permissions prédéfini';
 $txt['package_file_perms_predefined_note'] = 'Notez que cela n\'applique le profil prédéfini que sur les répertoires et fichiers-clé de Wedge.';
 $txt['package_file_perms_apply'] = 'Appliquer les permissions individuelles de fichiers choisies ci-dessus.';
@@ -215,7 +215,7 @@ $txt['package_file_perms_pre_restricted'] = 'Restreint - minimum de fichiers ins
 $txt['package_file_perms_pre_standard'] = 'Standard - fichiers-clé inscriptibles';
 $txt['package_file_perms_pre_free'] = 'Libre - tous les fichiers sont inscriptibles';
 $txt['package_file_perms_ftp_details'] = 'Sur la plupart des serveurs, il n\'est possible de changer les permissions des fichiers qu\'en utilisant un compte FTP. Veuillez entrer vos coordonnées FTP ci-dessous';
-$txt['package_file_perms_ftp_retain'] = 'Note&nbsp;: Wedge retiendra temporairement le mot de passe pour aider au processus du gestionnaire d\'extensions.';
+$txt['package_file_perms_ftp_retain'] = 'Note&nbsp;: Wedge ne stockera le mot de passe que temporairement, et ce uniquement pour faciliter l\'installation d\'extensions.';
 $txt['package_file_perms_go'] = 'Appliquer les Changements';
 
 $txt['package_file_perms_applying'] = 'Application des Changements';
