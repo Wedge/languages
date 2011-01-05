@@ -157,19 +157,14 @@ $txt['setting_guests_require_captcha'] = 'Guests must pass verification when mak
 $txt['setting_guests_require_captcha_desc'] = '(Automatically set if you specify a minimum post count below)';
 $txt['guests_report_require_captcha'] = 'Guests must pass verification when reporting a post';
 
-$txt['configure_verification_means'] = 'Configure Verification Methods';
+$txt['configure_captcha'] = 'Configure CAPTCHA images';
+$txt['configure_captcha_desc'] = '<span class="smalltext">A CAPTCHA is a form of anti-bot protection to help guard against automated robots posting nonsense on your forum.</span>';
+$txt['use_captcha_images'] = 'Enable using CAPTCHA images?';
+$txt['use_animated_captcha'] = 'Use the animated CAPTCHA images?';
+$txt['use_animated_captcha_desc'] = 'Animated CAPTCHAs are particularly tricky for bots to beat, but they may be harder for normal users to solve, too.';
+
 $txt['setting_qa_verification_number'] = 'Number of verification questions user must answer';
 $txt['setting_qa_verification_number_desc'] = '(0 to disable; questions are set below)';
-$txt['configure_verification_means_desc'] = '<span class="smalltext">Below you can set which anti-spam features you wish to have enabled whenever a user needs to verify they are a human. Note that the user will have to pass <em>all</em> verification so if you enable both a verification image and a question/answer test they need to complete both to proceed.</span>';
-$txt['setting_visual_verification_type'] = 'Visual verification image to display';
-$txt['setting_visual_verification_type_desc'] = 'The more complex the image the harder it is for bots to bypass';
-$txt['setting_image_verification_off'] = 'None';
-$txt['setting_image_verification_vsimple'] = 'Very Simple - Plain text on image';
-$txt['setting_image_verification_simple'] = 'Simple - Overlapping colored letters, no noise';
-$txt['setting_image_verification_medium'] = 'Medium - Overlapping colored letters, with noise/lines';
-$txt['setting_image_verification_high'] = 'High - Angled letters, considerable noise/lines';
-$txt['setting_image_verification_extreme'] = 'Extreme - Angled letters, noise, lines and blocks';
-$txt['setting_image_verification_sample'] = 'Sample';
 $txt['setup_verification_questions'] = 'Verification Questions';
 $txt['setup_verification_questions_desc'] = '<span class="smalltext">If you want users to answer verification questions in order to stop spam bots you should setup a number of questions in the table below. You should pick relatively simple questions; answers are not case sensitive. You may use BBC in the questions for formatting, to remove a question simply delete the contents of that line.</span>';
 $txt['setup_verification_question'] = 'Question';

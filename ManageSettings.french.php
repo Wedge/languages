@@ -156,19 +156,8 @@ $txt['setting_guests_require_captcha'] = 'Les invités doivent passer la vérifi
 $txt['setting_guests_require_captcha_desc'] = '(Activé d\'office si vous spécifiez un nombre minimum de messages ci-dessous)';
 $txt['guests_report_require_captcha'] = 'Les invités doivent passer la vérification pour signaler un message aux modérateurs';
 
-$txt['configure_verification_means'] = 'Configurer les méthodes de vérification';
 $txt['setting_qa_verification_number'] = 'Nombre de questions de vérification auquel un utilisateur doit répondre';
 $txt['setting_qa_verification_number_desc'] = '(0 pour désactiver; les questions sont réglées ci-dessous)';
-$txt['configure_verification_means_desc'] = '<span class="smalltext">Ci-dessous, vous pouvez spécifier quelles fonctionnalités anti-spam activer lorsqu\'un utilisateur doit certifier qu\'il est humain. Notez que l\'utilisateur devra réussir <em>toutes</em> les vérifications. Si vous activez en même temps une image de vérification et un test question/réponse, ils devront les passer tous les deux pour continuer.</span>';
-$txt['setting_visual_verification_type'] = 'Image de vérification visuelle à afficher';
-$txt['setting_visual_verification_type_desc'] = 'Plus l\'image est complexe, plus il sera difficile aux robots de la contourner';
-$txt['setting_image_verification_off'] = 'Aucune';
-$txt['setting_image_verification_vsimple'] = 'Très Simple - Texte normal sur une image';
-$txt['setting_image_verification_simple'] = 'Simple - Lettres colorées se chevauchant, pas de bruit';
-$txt['setting_image_verification_medium'] = 'Moyenne - Lettres colorées se chevauchant, avec bruit et lignes';
-$txt['setting_image_verification_high'] = 'Haute - Lettres en rotation, avec un bruit considérable et lignes';
-$txt['setting_image_verification_extreme'] = 'Extrême - Lettres en rotation, bruit, lignes et carrés';
-$txt['setting_image_verification_sample'] = 'Exemple';
 $txt['setup_verification_questions'] = 'Questions de Vérification';
 $txt['setup_verification_questions_desc'] = '<span class="smalltext">Si vous voulez que les utilisateurs répondent à des questions de vérification dans le but de stopper les robots spammeurs, vous pouvez mettre en place des questions dans la table ci-dessous. Choisissez des questions relativement simples; les réponses ne sont pas sensibles à la casse. Vous pouvez utiliser du BBCode dans les questions pour le formatage. Pour supprimer une question, effacez simplement le contenu de cette ligne.</span>';
 $txt['setup_verification_question'] = 'Question';
