@@ -177,7 +177,7 @@ $txt['authentication'] = 'Authentification';
 $txt['change_authentication'] = 'D\'ici, vous pouvez changer votre manière de vous connecter au forum. Vous pouvez choisir d\'utiliser soit un compte OpenID pour votre authentification, soit de basculer sur l\'utilisation d\'un identifiant avec mot de passe.';
 
 $txt['profileEdit'] = 'Modifier le Profil';
-$txt['account_info'] = 'Ceci sont vos préférences de compte. Cette page contient toutes les informations critiques qui peuvent vous identifier sur le forum. Pour des raisons de sécurité, vous devrez entrer votre mot de passe (actuel) pour modifier ces informations.';
+$txt['account_info'] = 'Cette page contient vos préférences de compte et recense toutes les informations critiques qui peuvent vous identifier sur le forum. Pour des raisons de sécurité, vous devrez entrer votre mot de passe (actuel) pour modifier ces informations.';
 $txt['forumProfile_info'] = 'Vous pouvez changer vos infos personnelles sur cette page. Ces informations seront visible à travers ' . $context['forum_name_html_safe'] . '. Si vous ne désirez pas présenter certaines infos, ne remplissez pas le champ - rien n\'est obligatoire ici.';
 $txt['theme'] = 'Affichage et disposition';
 $txt['theme_info'] = 'Cette section vous permet de personnaliser l\'affichage et la disposition du forum.';

@@ -13,7 +13,7 @@ $txt['admin_members_list'] = 'Ci-dessous une liste de tous les membres actuellem
 $txt['admin_next'] = 'Suivant';
 $txt['admin_censored_words'] = 'Mots censurés';
 $txt['admin_censored_where'] = 'Écrivez le mot à censurer à gauche, et ce par quoi il est remplacé à droite.';
-$txt['admin_censored_desc'] = 'Etant donné la nature publique des forums, vous souhaitez peut-être censurer certains mots.  Ci-dessous, vous pouvez entrer n\'importe quel mot que vous voudriez voir censuré à chaque fois qu\'un membre l\'utilise.<br />Videz une boîte du mot qu\'elle contient pour enlever celui-ci.';
+$txt['admin_censored_desc'] = 'Etant donné la nature publique des forums, vous souhaitez peut-être censurer certains mots. Ci-dessous, vous pouvez entrer n\'importe quel mot que vous voudriez voir censuré à chaque fois qu\'un membre l\'utilise.<br />Videz une boîte du mot qu\'elle contient pour enlever celui-ci.';
 $txt['admin_reserved_names'] = 'Noms réservés';
 $txt['admin_template_edit'] = 'Modifier le modèle (template) de votre forum';
 $txt['admin_modifications'] = 'Options des Extensions';
@@ -47,20 +47,20 @@ $txt['admin_agreement_select_language'] = 'Langue à modifier';
 $txt['admin_agreement_select_language_change'] = 'Changer';
 $txt['admin_delete_members'] = 'Supprimer les membres sélectionnés';
 $txt['admin_repair'] = 'Réparer tous les sites et sujets';
-$txt['admin_main_welcome'] = 'Ceci est votre &quot;%1$s&quot;. À partir d\'ici, vous pouvez modifier vos préférences, faire des opérations de maintenance sur votre forum, voir les journaux (<em>journaux</em>), installer des extensions, gérer les thèmes et bien plus encore.<div style="margin-top: 1ex;">Si vous avez un problème, veuillez consulter la page &quot;Support et crédits&quot;.  Si l\'information fournie ne vous aide pas, n\'hésitez pas à <a href="http://www.simplemachines.org/community/index.php" target="_blank">nous contacter pour de l\'aide</a> à propos de votre problème. (Pour de l\'aide en français, allez sur le <a href="http://www.simplemachines.org/community/index.php?board=14.0" hreflang="fr" target="_blank" title="Aide en français pour SMF">Support francophone</a>.)</div>Vous pouvez aussi trouver des réponses à vos questions en cliquant sur les symboles <img src="' . $settings['images_url'] . '/helptopics.gif" alt="%1$s" title="%1$s" /> pour voir comment fonctionnent certaines options.<br /><br /><em>Version de la traduction française&nbsp;: 1.0</em>';
+$txt['admin_main_welcome'] = 'Bienvenue dans votre &quot;%1$s&quot;. Ici, vous pourrez modifier vos préférences, faire des opérations de maintenance sur votre forum, voir les journaux (<em>logs</em>), installer des extensions, gérer les thèmes et bien plus encore.<div style="margin-top: 1ex;">Si vous avez un problème, veuillez consulter la page &quot;Support et crédits&quot;. Si l\'information fournie ne vous aide pas, n\'hésitez pas à <a href="http://www.simplemachines.org/community/index.php" target="_blank">nous contacter pour de l\'aide</a> à propos de votre problème. (Pour de l\'aide en français, allez sur le <a href="http://www.simplemachines.org/community/index.php?board=14.0" hreflang="fr" target="_blank" title="Aide en français pour SMF">Support francophone</a>.)</div>Vous pouvez aussi trouver des réponses à vos questions en cliquant sur les symboles <img src="' . $settings['images_url'] . '/helptopics.gif" alt="%1$s" title="%1$s" /> pour voir comment fonctionnent certaines options.<br /><br /><em>Version de la traduction française&nbsp;: 1.0</em>';
 $txt['admin_news_desc'] = 'SVP ne placez qu\'une seule nouvelle par zone de texte. Quelques balises BBC, comme <span title="Êtes-vous gras ?">[b]</span>, <span title="Itallik !!">[i]</span> et <span title="Je souligne, non ?">[u]</span> sont autorisées dans vos nouvelles, ainsi que les smileys et le codes HTML. Enlevez tout le texte d\'une zone de texte pour la désactiver.';
 $txt['administrators'] = 'Administrateurs du forum';
-$txt['admin_reserved_desc'] = 'Les noms réservés vont empêcher les utilisateurs de s\'inscrire sous certains identifiants ou d\'utiliser certains mots dans leur pseudonyme.  Choisissez les options que vous souhaitez utiliser ci-dessous avant de soumettre la liste.';
+$txt['admin_reserved_desc'] = 'Les noms réservés vont empêcher les utilisateurs de s\'inscrire sous certains identifiants ou d\'utiliser certains mots dans leur pseudonyme. Choisissez les options que vous souhaitez utiliser ci-dessous avant de soumettre la liste.';
 $txt['admin_activation_email'] = 'Envoyer un e-mail d\'activation aux nouveaux membres lors de l\'inscription';
 $txt['admin_match_whole'] = 'Concordance avec le seul nom complet. Décoché, la recherche s\'effectuera à l\'intérieur des pseudos.';
 $txt['admin_match_case'] = 'Concordance avec la casse. Si décoché, recherchera sans porter attention à la casse.';
 $txt['admin_check_user'] = 'Vérifier les identifiants.';
 $txt['admin_check_display'] = 'Vérifier les pseudonymes.';
-$txt['admin_newsletter_send'] = 'Vous pouvez envoyer un e-mail à n\'importe qui à partir de cette page.  Les adresses e-mail des groupes de membres sélectionnés devraient apparaîre ci-dessous, mais vous pouvez enlever ou ajouter n\'importe quelle adresse de votre choix.  Veillez à vérifiez de séparer chaque adresse selon ce format&nbsp;: \'adresse1@qqch.com; adresse2@qqch.com\'.';
+$txt['admin_newsletter_send'] = 'Vous pouvez envoyer un e-mail à n\'importe qui à partir de cette page. Les adresses e-mail des groupes de membres sélectionnés devraient apparaîre ci-dessous, mais vous pouvez enlever ou ajouter n\'importe quelle adresse de votre choix. Veillez à vérifiez de séparer chaque adresse selon ce format&nbsp;: \'adresse1@qqch.com; adresse2@qqch.com\'.';
 $txt['admin_fader_delay'] = 'Délai d\'enchaînement entre les nouvelles rotatives';
 $txt['admin_bbc'] = 'Montrer les boutons BBCodes sur les pages d\'écriture de messages et de Messages Personnels';
 
-$txt['admin_backup_fail'] = 'Impossible de créer une copie de secours (backup) de Settings.php.  Assurez-vous que Settings_bak.php existe et possède les bons droits d\'accès.';
+$txt['admin_backup_fail'] = 'Impossible de créer une copie de secours (backup) de Settings.php. Assurez-vous que Settings_bak.php existe et possède les bons droits d\'accès.';
 $txt['modSettings_info'] = 'Changer ou régler les options qui contrôlent le fonctionnement du forum.';
 $txt['database_server'] = 'Serveur de base de données';
 $txt['database_user'] = 'Nom d\'utilisateur de la base de données';
@@ -77,7 +77,7 @@ $txt['errors_recount_now'] = 'Recalculer les Statistiques';
 $txt['errors_fixing'] = 'Règle les erreurs du forum';
 $txt['errors_fixed'] = 'Toutes les erreurs sont réglées&nbsp;! Regardez toutes les catégories, les sites et sujets existants et choisissez ce que vous voulez en faire.';
 $txt['attachments_avatars'] = 'Fichiers joints et avatars';
-$txt['attachments_desc'] = 'À partir d\'ici, vous pouvez administrer les fichiers joints à votre forum par vos utilisateurs.  Vous pouvez supprimer les fichiers joints par taille et par date de votre système.  Les statistiques concernant les fichiers attachés sont présentées ci-dessous.';
+$txt['attachments_desc'] = 'À partir d\'ici, vous pouvez administrer les fichiers joints à votre forum par vos utilisateurs. Vous pouvez supprimer les fichiers joints par taille et par date de votre système. Les statistiques concernant les fichiers attachés sont présentées ci-dessous.';
 $txt['attachment_stats'] = 'Statistiques des fichiers joints';
 $txt['attachment_integrity_check'] = 'Vérification d\'intégrité des Fichiers joints';
 $txt['attachment_integrity_check_desc'] = 'Cette opération vérifiera l\'intégrité et la taille des fichiers joints listés dans la base de données, et corrigera les disparités si nécessaire.';
@@ -101,9 +101,9 @@ $txt['attachment_delete_admin'] = '[Fichier joint supprimé par l\'administrateu
 $txt['live'] = 'En direct du site de Wedge&hellip;';
 $txt['remove_all'] = 'Supprimer tout';
 $txt['approve_new_members'] = 'Les admins doivent approuver tous les nouveaux membres';
-$txt['agreement_not_writable'] = 'Attention - agreement.txt n\'est PAS accessible en écriture.  Les changements effectués ne seront PAS sauvegardés';
+$txt['agreement_not_writable'] = 'Attention - agreement.txt n\'est PAS accessible en écriture. Les changements effectués ne seront PAS sauvegardés';
 
-$txt['version_check_desc'] = 'Ceci vous montre la version de vos fichiers installés comparés à ceux de la dernière version.  Si un de ces fichiers n\'est pas à jour, vous devriez télécharger et installer la dernière version sur <a href="http://www.simplemachines.org/" target="_blank">www.simplemachines.org</a>.';
+$txt['version_check_desc'] = 'Ceci vous montre la version de vos fichiers installés comparés à ceux de la dernière version. Si un de ces fichiers n\'est pas à jour, vous devriez télécharger et installer la dernière version sur <a href="http://www.simplemachines.org/" target="_blank">www.simplemachines.org</a>.';
 $txt['version_check_more'] = '(plus de détails)';
 
 $txt['lfyi'] = 'Impossible de récupérer les news de WedgeForum.';
