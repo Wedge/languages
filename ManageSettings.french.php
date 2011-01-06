@@ -156,6 +156,12 @@ $txt['setting_guests_require_captcha'] = 'Les invités doivent passer la vérifi
 $txt['setting_guests_require_captcha_desc'] = '(Activé d\'office si vous spécifiez un nombre minimum de messages ci-dessous)';
 $txt['guests_report_require_captcha'] = 'Les invités doivent passer la vérification pour signaler un message aux modérateurs';
 
+$txt['configure_captcha'] = 'Configurer les images CAPTCHA';
+$txt['configure_captcha_desc'] = '<span class="smalltext">Un CAPTCHA est une forme de protection contre les robots spammeurs.</span>';
+$txt['use_captcha_images'] = 'Autoriser l\'emploi d\'images CAPTCHA&nbsp;?';
+$txt['use_animated_captcha'] = 'Utiliser des images animées pour les CAPTCHA&nbsp;?';
+$txt['use_animated_captcha_desc'] = 'Les tests CAPTCHA animés sont beaucoup plus difficiles à passer pour les robots, mais peuvent aussi gêner les humains...';
+
 $txt['setting_qa_verification_number'] = 'Nombre de questions de vérification auquel un utilisateur doit répondre';
 $txt['setting_qa_verification_number_desc'] = '(0 pour désactiver; les questions sont réglées ci-dessous)';
 $txt['setup_verification_questions'] = 'Questions de Vérification';
