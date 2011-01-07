@@ -697,6 +697,7 @@ $txt['verification'] = 'Vérification';
 $txt['visual_verification_description'] = 'Taper les lettres montrées dans l\'image';
 $txt['visual_verification_sound'] = 'Ecouter les lettres';
 $txt['visual_verification_request_new'] = 'Demander une autre image';
+$txt['visual_verification_hidden'] = 'Laissez cette boîte vide !';
 
 // Sub menu labels
 $txt['summary'] = 'Résumé';
