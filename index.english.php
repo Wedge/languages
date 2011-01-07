@@ -698,6 +698,7 @@ $txt['verification'] = 'Verification';
 $txt['visual_verification_description'] = 'Type the letters shown in the picture';
 $txt['visual_verification_sound'] = 'Listen to the letters';
 $txt['visual_verification_request_new'] = 'Request another image';
+$txt['visual_verification_hidden'] = 'This box must be left blank';
 
 // Sub menu labels
 $txt['summary'] = 'Summary';
