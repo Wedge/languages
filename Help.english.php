@@ -437,6 +437,13 @@ $helptxt['fixLongWords'] = 'This option breaks words longer than a certain lengt
 $helptxt['allow_ignore_boards'] = 'Checking this option will allow users to select boards they wish to ignore.';
 $helptxt['allow_ignore_topics'] = 'Checking this option will allow users to select topics they wish to ignore in <em>Unread replies</em> and <em>Unread posts</em>.';
 
+$helptxt['display_flags'] = 'In addition to the general language for the forum, you can set a language for each individual board, which is used by default. This option controls whether or not a flag for that language is displayed on the list of boards:
+	<ul class="normallist">
+		<li><strong>No flags</strong> - do not display any of the language-based flags on the main forum.</li>
+		<li><strong>Flags for boards that have a language set</strong> - if a given board has a language default set for it, display a flag for that language next to the board\'s name.</li>
+		<li><strong>Flags for all boards</strong> - display a flag next to the name of every board, denoting what language will be shown to the user (unless they have chosen their own)</li>
+	</ul>';
+
 $helptxt['who_enabled'] = 'This option allows you to turn on or off the ability for users to see who is browsing the forum and what they are doing.';
 
 $helptxt['recycle_enable'] = '&quot;Recycles&quot; deleted topics and posts to the specified board.';

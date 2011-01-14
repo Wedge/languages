@@ -91,6 +91,10 @@ $txt['recycle_board'] = 'Board for recycled topics';
 $txt['recycle_board_unselected_notice'] = 'You have enabled the recycling of topics without specifying a board to place them in.  This feature will not be enabled until you specify a board to place recycled topics into.';
 $txt['countChildPosts'] = 'Count child\'s posts in parent\'s totals';
 $txt['allow_ignore_boards'] = 'Allow boards to be ignored';
+$txt['display_flags'] = 'Display flags on the board index?';
+$txt['flags_none'] = 'No flags';
+$txt['flags_specified'] = 'Flags for boards that have a language set';
+$txt['flags_all'] = 'Flags for all boards';
 
 $txt['mboards_select_destination'] = 'Select destination for board \'<strong>%1$s</strong>\'';
 $txt['mboards_cancel_moving'] = 'Cancel moving';
