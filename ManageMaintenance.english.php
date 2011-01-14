@@ -197,11 +197,11 @@ $txt['move_topics_now'] = 'Move now';
 $txt['move_topics_confirm'] = 'Are you sure you want to move ALL the topics from &quot;%board_from%&quot; to &quot;%board_to%&quot;?';
 
 $txt['maintain_reattribute_posts'] = 'Reattribute User Posts';
-$txt['reattribute_guest_posts'] = 'Attribute guest posts made with';
-$txt['reattribute_email'] = 'Email address of';
-$txt['reattribute_username'] = 'Username of';
-$txt['reattribute_current_member'] = 'Attribute posts to member';
-$txt['reattribute_increase_posts'] = 'Add posts to users post count';
+$txt['reattribute_guest_posts'] = 'Find all posts made by guests with...';
+$txt['reattribute_email'] = 'This email address:';
+$txt['reattribute_username'] = 'Or this username:';
+$txt['reattribute_current_member'] = '...And attribute them to member';
+$txt['reattribute_increase_posts'] = 'Add posts to user\'s post count';
 $txt['reattribute'] = 'Reattribute';
 $txt['reattribute_confirm'] = 'Are you sure you want to attribute all guest posts with %type% of "%find%" to member "%member_to%"?';
 $txt['reattribute_confirm_username'] = 'a username';

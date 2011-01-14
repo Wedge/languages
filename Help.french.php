@@ -420,6 +420,13 @@ $helptxt['fixLongWords'] = 'Cette option coupe les mots plus longs qu\'un certai
 $helptxt['allow_ignore_boards'] = 'Cocher cette option permettra aux utilisateurs de sélectionner les sites qu\'ils veulent ignorer.';
 $helptxt['allow_ignore_topics'] = 'Cocher cette option permettra aux utilisateurs de sélectionner les sujets qu\'ils veulent ignorer dans les fonctions <em>Réponses non lues</em> et <em>Messages non lus</em>.';
 
+$helptxt['display_flags'] = 'En plus de la langue par défaut du forum, vous pouvez choisir une langue par défaut pour chaque section individuelle. Cette option vous permet de montrer ou non un drapeau représentant la langue par défaut sur la liste des sections&nbsp;:
+	<ul class="normallist">
+		<li><strong>Non</strong> - ne montrer aucun drapeau.</li>
+		<li><strong>Uniquement pour les sections qui ont une langue par défaut</strong> - si une section a une langue par défaut spécifique, montrer le drapeau de cette langue à côté du nom de la section.</li>
+		<li><strong>Oui, pour toutes les sections</strong> - montrer le drapeau de la langue de chaque section à côté du nom de celle-ci, indiquant la langue qui sera utilisée (sauf bien sûr si l\'utilisateur a, lui-même, choisi une langue par défaut ; on est très conciliants, chez Wedge).</li>
+	</ul>';
+
 $helptxt['who_enabled'] = 'Cette option vous permet d\'activer ou non la possibilité de voir qui est en ligne sur le forum et ce qu\'il y fait.';
 
 $helptxt['recycle_enable'] = '&quot;Recycle&quot; les sujets et messages supprimés vers une section spécifique, souvent une section caché aux utilisateurs normaux.';

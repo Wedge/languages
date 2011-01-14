@@ -197,10 +197,10 @@ $txt['move_topics_now'] = 'Déplacer maintenant';
 $txt['move_topics_confirm'] = 'Êtes-vous sûr de vouloir déplacer TOUS les sujets de &quot;%board_from%&quot; vers &quot;%board_to%&quot;&nbsp;?';
 
 $txt['maintain_reattribute_posts'] = 'Réattribuer des messages aux utilisateurs';
-$txt['reattribute_guest_posts'] = 'Attribuer les messages <em>invité</em> utilisant&nbsp;';
-$txt['reattribute_email'] = 'pour adresse e-mail';
-$txt['reattribute_username'] = 'pour nom';
-$txt['reattribute_current_member'] = 'Les attribuer à ce membre&nbsp;';
+$txt['reattribute_guest_posts'] = 'Trouver les messages des invités utilisant...';
+$txt['reattribute_email'] = 'comme adresse e-mail';
+$txt['reattribute_username'] = 'comme pseudonyme';
+$txt['reattribute_current_member'] = '...Et les attribuer à ce membre&nbsp;';
 $txt['reattribute_increase_posts'] = 'Les compter dans le nombre de messages envoyés par le membre';
 $txt['reattribute'] = 'Réattribuer';
 $txt['reattribute_confirm'] = 'Êtes-vous sûr de vouloir attribuer tous les messages d\'invités utilisant %type% "%find%" au membre "%member_to%" ?';
