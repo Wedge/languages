@@ -268,6 +268,10 @@ $helptxt['todayMod'] = 'This will show &quot;Today&quot; or &quot;Yesterday&quot
 		</dt>';
 $helptxt['disableCustomPerPage'] = 'Check this option to stop users from customizing the amount of messages and topics to display per page on the Message Index and Topic Display page respectively.';
 $helptxt['enablePreviousNext'] = 'This will show a link to the next and previous topic.';
+$helptxt['ignoreMoveVsNew'] = 'By default, when moving topics between boards, the user will be presented with a list of the
+		boards that they could normally create topics in (so that they can\'t move topics into announcement boards, for example).
+		<br /><br />Enabling this will present them with a list of any board they could normally see as a possible destination
+		for moving topics to.';
 $helptxt['pollMode'] = 'This selects whether polls are enabled or not. If polls are disabled, any existing polls will be hidden
 		from the topic listing. You can choose to continue to show the regular topic without their polls by selecting
 		&quot;Show Existing Polls as Topics&quot;.<br /><br />To choose who can post polls, view polls, and similar, you

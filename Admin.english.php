@@ -516,6 +516,8 @@ $txt['enableAllMessages_zero'] = '0 to never show &quot;All&quot;';
 $txt['disableCustomPerPage'] = 'Disable user-defined topic/message count per page';
 $txt['enablePreviousNext'] = 'Enable previous/next topic links';
 
+$txt['ignoreMoveVsNew'] = 'When moving topics, allow moving to any board by default';
+
 $txt['masterSavePostDrafts'] = 'Enable saving of post drafts';
 $txt['masterAutoSavePostDrafts'] = 'Enable automatic saving of post drafts';
 $txt['masterSavePmDrafts'] = 'Enable saving of personal message drafts';
