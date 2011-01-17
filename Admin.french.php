@@ -516,6 +516,8 @@ $txt['enableAllMessages_zero'] = '0 pour ne jamais afficher &quot;Tous&quot;';
 $txt['disableCustomPerPage'] = 'Empêcher les utilisateurs de changer le nombre de sujets/messages par page';
 $txt['enablePreviousNext'] = 'Activer les liens &quot;Sujet précédent/suivant&quot;';
 
+$txt['ignoreMoveVsNew'] = 'Par défaut, permettre n\'importe quelle section de destination pour déplacer les sujets';
+
 $txt['masterSavePostDrafts'] = 'Activer les brouillons';
 $txt['masterAutoSavePostDrafts'] = 'Activer la sauvegarde automatique des brouillons';
 $txt['masterSavePmDrafts'] = 'Activer les brouillons dans la messagerie';

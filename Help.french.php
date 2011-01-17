@@ -260,6 +260,10 @@ $helptxt['todayMod'] = 'Cette option affichera &quot;Aujourd\'hui&quot; ou &quot
 		</dt>';
 $helptxt['disableCustomPerPage'] = 'Cocher cette option pour empêcher les utilisateurs de personnaliser le nombre de messages et de sujets par page à afficher, respectivement sur l\'index des messages et la page d\'affichage du sujet.';
 $helptxt['enablePreviousNext'] = 'Cette option affichera un lien vers le sujet précédent et le sujet suivant.';
+$helptxt['ignoreMoveVsNew'] = 'Si l\'utilisateur déplace un sujet vers une autre section, l\'utilisateur pourra choisir, par défaut, la destination
+		parmi la liste des sections auxquelles il pourrait d\'habitude créer des sections (pour éviter qu\'ils ne les déplacent dans le forum des
+		news de votre site, par exemple).<br /><br />Activez cette option pour lui permettre au contraire de déplacer ses sujets
+		vers n\'importe quelle destination visible pour lui.';
 $helptxt['pollMode'] = 'Ceci détermine si les sondages sont activés ou non. Si les sondages sont désactivés, tous les sondages actuels sont cachés sur la liste des sujets. Vous pouvez choisir de continuer à afficher la partie sujet des sondages en sélectionnant &quot;Montrer les sondages existants comme des sujets&quot;.<br /><br />Pour choisir qui peut poster et voir des sondages (et similaires), vous pouvez autoriser ou refuser ces permissions. Rappelez-vous de ceci si les sondages sont désactivés.';
 $helptxt['enableVBStyleLogin'] = 'Ceci affichera un champ de connexion au bas de chaque page du forum, si le visiteur n\'est pas encore connecté.';
 $helptxt['enableCompressedOutput'] = 'Cette option compressera à la volée les données envoyées, afin de diminuer la consommation de bande passante, mais requiert que zlib soit installé sur le serveur.';
@@ -586,7 +590,7 @@ $helptxt['show_spider_online'] = 'Ce paramètre vous permet de choisir si les ro
 		</li>
 	</ul>';
 
-$helptxt['birthday_email'] = 'Choisissez le modèle du message d\'anniversaire par e-mail à utiliser. Une prévisualisation sera affichée dans le sujet de l\'e-mail et les champs du corps de l\'e-mail.<br /><strong>Attention</strong>, régler cette option n\'active pas automatiquement les e-mails d\'anniversaire. Pour activer les e-mails d\'anniversaire, utilisez la page <a href="%1$s?action=admin;area=maintain;sa=tasks;%3$s=%2$s" target="_blank" class="new_win">Tâches Planifiées</a> et activez la tâche E-mail d\'anniversaire.';
+$helptxt['birthday_email'] = 'Choisissez le modèle du message d\'anniversaire par e-mail à utiliser. Une prévisualisation sera affichée dans le sujet de l\'e-mail et les champs du corps de l\'e-mail.<br /><strong>Attention</strong>, régler cette option n\'active pas automatiquement les e-mails d\'anniversaire. Pour activer les e-mails d\'anniversaire, utilisez la page <a href="%1$s?action=admin;area=scheduledtasks;%3$s=%2$s" target="_blank" class="new_win">Tâches Planifiées</a> et activez la tâche E-mail d\'anniversaire.';
 $helptxt['pm_bcc'] = 'Lorsque vous envoyez un message personnel vous pouvez choisir d\'ajouter comme destinataire un BCC (soit &quot;Blind Carbon Copy&quot;). L\'existence et l\'identité des destinataires BCC seront cachées aux autres destinataires du message.';
 
 $helptxt['move_topics_maintenance'] = 'Ceci vous permet de déplacer tous les sujets d\'un site à un autre.';

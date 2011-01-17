@@ -565,8 +565,6 @@ $txt['notification_disable_topic'] = 'Êtes-vous sûr de vouloir désactiver la 
 $txt['report_to_mod'] = 'Signaler au modérateur';
 $txt['issue_warning_post'] = 'Donner un avertissement à cause de ce message';
 
-$txt['unread_topics_visit'] = 'Discussions récentes non lues';
-$txt['unread_topics_visit_none'] = 'Aucun sujet non lu trouvé depuis votre dernière visite.  <a href="' . $scripturl . '?action=unread;all">Cliquez ici pour lire tous les sujets non lus</a>.';
 $txt['unread_topics_all'] = 'Tous les sujets non lus';
 $txt['unread_replies'] = 'Sujets mis à jour';
 
