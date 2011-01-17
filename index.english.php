@@ -566,8 +566,6 @@ $txt['notification_disable_topic'] = 'Are you sure you wish to disable notificat
 $txt['report_to_mod'] = 'Report to moderator';
 $txt['issue_warning_post'] = 'Issue a warning because of this message';
 
-$txt['unread_topics_visit'] = 'Recent Unread Topics';
-$txt['unread_topics_visit_none'] = 'No unread topics found since your last visit.  <a href="' . $scripturl . '?action=unread;all">Click here to try all unread topics</a>.';
 $txt['unread_topics_all'] = 'All Unread Topics';
 $txt['unread_replies'] = 'Updated Topics';
 
@@ -642,7 +640,7 @@ $txt['find_no_results'] = 'No results found';
 $txt['find_results'] = 'Results';
 $txt['find_close'] = 'Close';
 
-$txt['unread_since_visit'] = 'Show unread posts since last visit.';
+$txt['show_unread'] = 'Show any unread posts.';
 $txt['show_unread_replies'] = 'Show new replies to your posts.';
 
 $txt['change_color'] = 'Change Color';
