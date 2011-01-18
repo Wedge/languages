@@ -335,10 +335,8 @@ $helptxt['attachment_image_paranoid'] = 'Choisissez cette option pour mettre en 
 $helptxt['attachment_image_reencode'] = 'Choisissez cette option pour permettre le réencodage des fichier joints envoyés par les utilisateurs. Le réencodage vous garantit une meilleure sécurité, mais il supprime également les animations des images animées.';
 $helptxt['avatar_paranoid'] = 'Choisissez cette option pour mettre en place des contrôles de sécurité très stricts sur les avatars au moment où les utilisateurs les envoient. Attention, ces contrôles peuvent parfois échouer sur des images sans danger. Nous vous recommandons de ne l\'utiliser qu\'en association avec l\'option de réencodage, auquel cas SMF essaiera de recréer et de mettre en ligne des images saines si le contrôle échoue. Si le réencodage n\'est pas activé, les avatars échouant au contrôle seront rejetés.';
 $helptxt['avatar_reencode'] = 'Choisissez cette option pour permettre le réencodage des avatars envoyés par les utilisateurs. Le réencodage vous garantit une meilleure sécurité, mais il supprime également les animations des images animées.';
-// !!! This should be reused or removed.
 $helptxt['cal_enabled'] = 'Le calendrier peut êre utilisé afin d\'afficher les anniversaires et des dates importantes à votre communauté.<br /><br />
 		<strong>Montrer les jours en tant que liens vers \'Poster un Événement\'</strong>&nbsp;:<br />Ceci permettra à vos membres de poster des événements pour ce jour, lorsqu\'ils cliquent sur la date.<br />
-		<strong>Montrer le numéro de semaine</strong>&nbsp;:<br />Montre le numéro de la semaine dans l\'année.<br />
 		<strong>Jours d\'avance max. sur l\'accueil</strong>:<br />Si cette option est mise à 7, tous les événements de la semaine à venir seront montrés.<br />
 		<strong>Montrer les jours de fête sur l\'accueil du forum</strong>&nbsp;:<br />Montre les jours de fête dans une barre sur l\'accueil du forum.<br />
 		<strong>Afficher les anniversaires sur l\'accueil du forum</strong>&nbsp;:<br />Montre les anniversaires du jour dans une barre sur l\'accueil du forum.<br />
