@@ -478,6 +478,10 @@ $txt['manageposts_topic_settings'] = 'Paramètres des Sujets';
 $txt['manageposts_topic_settings_description'] = 'Ici vous pouvez paramétrer toutes les options en rapport avec les sujets.';
 $txt['manageposts_topic_settings_submit'] = 'Enregistrer';
 
+$txt['manageposts_draft_settings'] = 'Brouillons';
+$txt['manageposts_draft_settings_description'] = 'Ici, vous pouvez choisir vos préférences concernant les brouillons de messages.';
+$txt['manageposts_draft_settings_submit'] = 'Enregistrer';
+
 $txt['manageposts_merge'] = 'Doublons';
 
 $txt['removeNestedQuotes'] = 'Supprimer les citations imbriquées en citant un message';
