@@ -478,6 +478,10 @@ $txt['manageposts_topic_settings'] = 'Topic Settings';
 $txt['manageposts_topic_settings_description'] = 'Here you can set all settings involving topics.';
 $txt['manageposts_topic_settings_submit'] = 'Save';
 
+$txt['manageposts_draft_settings'] = 'Draft Settings';
+$txt['manageposts_draft_settings_description'] = 'Here you can set all settings involving draft posts.';
+$txt['manageposts_draft_settings_submit'] = 'Save';
+
 $txt['manageposts_merge'] = 'Merging';
 
 $txt['removeNestedQuotes'] = 'Remove nested quotes when quoting';
