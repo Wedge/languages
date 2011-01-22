@@ -118,10 +118,10 @@ $txt['package_action_skipping'] = '<strong>Passer le fichier</strong>';
 
 $txt['package_uninstall_actions'] = 'Actions de désinstallation';
 $txt['package_uninstall_done'] = 'L\'extension a été désinstallée, elle ne devrait plus avoir d\'effet.';
-$txt['package_uninstall_cannot'] = 'Cette extension ne peut pas être désinstallée parce qu\'elle n\'a pas de désinstallateur&nbsp;!<br /><br />Veuillez contacter son auteur pour plus d\'informations.';
+$txt['package_uninstall_cannot'] = 'Cette extension ne peut pas être désinstallée parce qu\'elle n\'a pas de désinstallateur&nbsp;!<br><br>Veuillez contacter son auteur pour plus d\'informations.';
 
 $txt['package_install_options'] = 'Options d\'installation';
-$txt['package_install_options_ftp_why'] = 'Utiliser la fonction de transfert FTP du gestionnaire d\'extensions est la façon la plus simple d\'installer une extension. Vous devrez désigner manuellement les fichiers inscriptibles afin que le gestionnaire d\'extensions fonctionne.<br />Ici vous pouvez paramétrer les valeurs par défaut pour certains champs.';
+$txt['package_install_options_ftp_why'] = 'Utiliser la fonction de transfert FTP du gestionnaire d\'extensions est la façon la plus simple d\'installer une extension. Vous devrez désigner manuellement les fichiers inscriptibles afin que le gestionnaire d\'extensions fonctionne.<br>Ici vous pouvez paramétrer les valeurs par défaut pour certains champs.';
 $txt['package_install_options_ftp_server'] = 'Serveur FTP';
 $txt['package_install_options_ftp_port'] = 'Port';
 $txt['package_install_options_ftp_user'] = 'Identifiant';
@@ -141,7 +141,7 @@ $txt['package_ftp_test_connection'] = 'Test de Connexion';
 $txt['package_ftp_test_success'] = 'Connexion FTP établie.';
 $txt['package_ftp_test_failed'] = 'Impossible de contacter le serveur.';
 
-// For a break, use \\n instead of <br />... and don't use entities.
+// For a break, use \\n instead of <br>... and don't use entities.
 $txt['package_delete_bad'] = 'L\'extension que vous tentez de supprimer est actuellement installée ! Si vous la supprimez maintenant, vous pourriez ne plus être capable de la désinstaller plus tard.\\n\\nVoulez-vous continuer ?';
 
 $txt['package_examine_file'] = 'Voir un fichier de l\'extension';
@@ -249,7 +249,7 @@ $txt['package_file_perms_warning_desc'] = '
 	<li>Cette fonctionnalité s\'applique surtout pour des serveurs non basés sur Windows - elle ne marchera pas comme voulu sur Windows en raison de modes de permission différents.</li>
 	<li>Avant de procéder, soyez sûr d\'avoir un client FTP d\'installé, au cas que vous ayez fait une erreur et que vous ayez besoin de passser par FTP au serveur pour y remédier.</li>';
 
-$txt['package_confirm_view_package_content'] = 'Êtes-vous sûr de vouloir visionner le contenu de l\'extension située à cet endroit&nbsp;?<br /><br />%1$s';
+$txt['package_confirm_view_package_content'] = 'Êtes-vous sûr de vouloir visionner le contenu de l\'extension située à cet endroit&nbsp;?<br><br>%1$s';
 $txt['package_confirm_proceed'] = 'Oui';
 $txt['package_confirm_go_back'] = 'Retour';
 

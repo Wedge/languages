@@ -96,8 +96,8 @@ $txt['who_enabled'] = 'Activer &quot;Qui est en ligne&nbsp;?&quot;';
 $txt['make_email_viewable'] = 'Permettre la consultation des adresses e-mail';
 $txt['meta_keywords'] = 'Mots-clé Meta associés au forum<dfn>Pour les moteurs de recherche. Laisser vide pour les mots-clé par défaut.</dfn>';
 
-$txt['caching_information'] = '<div class="centertext" style="font-weight: bold; text-decoration: underline">Important&nbsp;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br />
-	SMF peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&nbsp;:<br />
+$txt['caching_information'] = '<div class="centertext" style="font-weight: bold; text-decoration: underline">Important&nbsp;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br>
+	SMF peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&nbsp;:<br>
 	<ul class="normallist">
 		<li>APC</li>
 		<li>eAccelerator</li>
@@ -105,15 +105,15 @@ $txt['caching_information'] = '<div class="centertext" style="font-weight: bold;
 		<li>Zend Platform/Performance Suite (pas Zend Optimizer)</li>
 	</ul>
 	Le système de cache fonctionnera mieux si PHP est compilé avec l\'un des accélérateurs susmentionnés, ou si memcache est disponible.
-	<strong>Si aucun accélérateur n\'est installé, SMF fera du cache fichier.</strong><br /><br />
+	<strong>Si aucun accélérateur n\'est installé, SMF fera du cache fichier.</strong><br><br>
 	SMF gère plusieurs niveaux de cache. Plus le niveau est haut, plus le processeur de votre serveur sera utilisé
 	pour récupérer les informations. Si un système de cache est disponible sur votre serveur, il est recommandé de le tester au niveau 1 avant tout.
-	<br /><br />
+	<br><br>
 	Veuillez noter que l\'utilisation de memcache nécessite que vous donniez quelques indications sur votre serveur dans les réglages à effectuer ci-dessous. Elles doivent être entrées sous forme de liste, dont les éléments sont séparés par une virgule,
-	comme dans l\'exemple suivant&nbsp;:<br />
-	&quot;serveur1,serveur2,serveur3:port,serveur4&quot;<br />
+	comme dans l\'exemple suivant&nbsp;:<br>
+	&quot;serveur1,serveur2,serveur3:port,serveur4&quot;<br>
 	Si aucun port n\'est spécifié, SMF utilisera le port 11211 par défaut. SMF équilibrera de manière aléatoire la charge sur les serveurs.
-	<br /><br />
+	<br><br>
 	%1$s';
 
 $txt['detected_no_caching'] = '<strong class="alert">SMF n\'a pas pu détecter d\'accélérateur compatible sur votre serveur.</strong>';

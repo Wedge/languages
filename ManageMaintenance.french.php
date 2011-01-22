@@ -159,7 +159,7 @@ $txt['maintain_members'] = 'Effacer les comptes inactifs';
 $txt['maintain_members_ungrouped'] = 'Membres non groupés <span class="smalltext">(qui ne font partie d\'aucun groupe)</span>';
 $txt['maintain_members_since1'] = 'Effacer les comptes des membres qui n\'ont pas';
 $txt['maintain_members_since2'] = '&nbsp;depuis';
-$txt['maintain_members_since3'] = '&nbsp;jours.<br />';
+$txt['maintain_members_since3'] = '&nbsp;jours.<br>';
 $txt['maintain_members_activated'] = 'activé leur compte';
 $txt['maintain_members_logged_in'] = 'cherché à se connecter';
 $txt['maintain_members_all'] = 'Tous les groupes de membres';

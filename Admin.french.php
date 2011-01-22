@@ -13,7 +13,7 @@ $txt['admin_members_list'] = 'Ci-dessous une liste de tous les membres actuellem
 $txt['admin_next'] = 'Suivant';
 $txt['admin_censored_words'] = 'Mots censurés';
 $txt['admin_censored_where'] = 'Écrivez le mot à censurer à gauche, et ce par quoi il est remplacé à droite.';
-$txt['admin_censored_desc'] = 'Etant donné la nature publique des forums, vous souhaitez peut-être censurer certains mots. Ci-dessous, vous pouvez entrer n\'importe quel mot que vous voudriez voir censuré à chaque fois qu\'un membre l\'utilise.<br />Videz une boîte du mot qu\'elle contient pour enlever celui-ci.';
+$txt['admin_censored_desc'] = 'Etant donné la nature publique des forums, vous souhaitez peut-être censurer certains mots. Ci-dessous, vous pouvez entrer n\'importe quel mot que vous voudriez voir censuré à chaque fois qu\'un membre l\'utilise.<br>Videz une boîte du mot qu\'elle contient pour enlever celui-ci.';
 $txt['admin_reserved_names'] = 'Noms réservés';
 $txt['admin_template_edit'] = 'Modifier le modèle (template) de votre forum';
 $txt['admin_modifications'] = 'Options des Extensions';
@@ -47,7 +47,7 @@ $txt['admin_agreement_select_language'] = 'Langue à modifier';
 $txt['admin_agreement_select_language_change'] = 'Changer';
 $txt['admin_delete_members'] = 'Supprimer les membres sélectionnés';
 $txt['admin_repair'] = 'Réparer tous les sites et sujets';
-$txt['admin_main_welcome'] = 'Bienvenue dans votre &quot;%1$s&quot;. Ici, vous pourrez modifier vos préférences, faire des opérations de maintenance sur votre forum, voir les journaux (<em>logs</em>), installer des extensions, gérer les thèmes et bien plus encore.<div style="margin-top: 1ex;">Si vous avez un problème, veuillez consulter la page &quot;Support et crédits&quot;. Si l\'information fournie ne vous aide pas, n\'hésitez pas à <a href="http://www.simplemachines.org/community/index.php" target="_blank">nous contacter pour de l\'aide</a> à propos de votre problème. (Pour de l\'aide en français, allez sur le <a href="http://www.simplemachines.org/community/index.php?board=14.0" hreflang="fr" target="_blank" title="Aide en français pour SMF">Support francophone</a>.)</div>Vous pouvez aussi trouver des réponses à vos questions en cliquant sur les symboles <img src="' . $settings['images_url'] . '/helptopics.gif" alt="%1$s" title="%1$s" /> pour voir comment fonctionnent certaines options.<br /><br /><em>Version de la traduction française&nbsp;: 1.0</em>';
+$txt['admin_main_welcome'] = 'Bienvenue dans votre &quot;%1$s&quot;. Ici, vous pourrez modifier vos préférences, faire des opérations de maintenance sur votre forum, voir les journaux (<em>logs</em>), installer des extensions, gérer les thèmes et bien plus encore.<div style="margin-top: 1ex;">Si vous avez un problème, veuillez consulter la page &quot;Support et crédits&quot;. Si l\'information fournie ne vous aide pas, n\'hésitez pas à <a href="http://www.simplemachines.org/community/index.php" target="_blank">nous contacter pour de l\'aide</a> à propos de votre problème. (Pour de l\'aide en français, allez sur le <a href="http://www.simplemachines.org/community/index.php?board=14.0" hreflang="fr" target="_blank" title="Aide en français pour SMF">Support francophone</a>.)</div>Vous pouvez aussi trouver des réponses à vos questions en cliquant sur les symboles <img src="' . $settings['images_url'] . '/helptopics.gif" alt="%1$s" title="%1$s" /> pour voir comment fonctionnent certaines options.<br><br><em>Version de la traduction française&nbsp;: 1.0</em>';
 $txt['admin_news_desc'] = 'SVP, ne placez qu\'une seule nouvelle par zone de texte. Quelques balises BBC, comme <span title="Le gras, c\'est la vie">[b]</span>, <span title="Italiques">[i]</span> et <span title="C\'est bien de le souligner">[u]</span> sont autorisées dans vos nouvelles, ainsi que les smileys. Enlevez tout le texte d\'une zone de texte pour la désactiver.';
 $txt['administrators'] = 'Administrateurs du forum';
 $txt['admin_reserved_desc'] = 'Les noms réservés vont empêcher les utilisateurs de s\'inscrire sous certains identifiants ou d\'utiliser certains mots dans leur pseudonyme. Choisissez les options que vous souhaitez utiliser ci-dessous avant de soumettre la liste.';
@@ -641,7 +641,7 @@ $txt['merge_post_admin_double_post'] = 'Fusionner les doublons des admins';
 $txt['merge_post_no_time'] = 'Ne pas indiquer l\'ancienne date avant le séparateur';
 $txt['merge_post_no_sep'] = 'Ne montrer ni le séparateur ni l\'ancienne date';
 $txt['merge_post_ignore_length'] = 'Ignorer la longueur maximale des messages';
-$txt['merge_post_separator'] = 'Séparateur entre les messages fusionnés (activez l\'option ci-dessus)<dfn>Vous pouvez utiliser du code BBC. Pour la date de l\'ancien post, utilisez la variable <strong>$date</strong> dans le champ texte.<br />Exemple : [size=1]$date[/size][hr][br] (version par défaut)</dfn>';
+$txt['merge_post_separator'] = 'Séparateur entre les messages fusionnés (activez l\'option ci-dessus)<dfn>Vous pouvez utiliser du code BBC. Pour la date de l\'ancien post, utilisez la variable <strong>$date</strong> dans le champ texte.<br>Exemple : [size=1]$date[/size][hr][br] (version par défaut)</dfn>';
 $txt['merge_post_custom_separator'] = 'Utiliser son propre séparateur pour distinguer les messages fusionnés.<dfn>Les options au-dessus seront désactivées.</dfn>';
 
 // Pretty URLs
@@ -669,6 +669,6 @@ $txt['pretty_duplicateboard'] = 'Cette adresse est déjà prise. Choisissez-en u
 $txt['pretty_filter_boards'] = 'Adresses des Quartiers<div class="pretty_filter">http://yoursite.com/index.php?board=1 &rarr; http://yoursite.com/nom-du-quartier/</div>';
 $txt['pretty_filter_topics'] = 'Adresses des Sujets<div class="pretty_filter">http://yoursite.com/index.php?topic=1.0 &rarr; http://yoursite.com/nom-du-quartier/nom-du-sujet/</div>';
 $txt['pretty_filter_actions'] = 'Adresses des Actions<div class="pretty_filter">http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/hello/</div>';
-$txt['pretty_filter_profiles'] = 'Adresses des Profils<div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/~nom-du-membre/<br />L\'adresse utilisera l\'identifiant de connexion de l\'utilisateur et non pas son nom affiché. Assurez-vous que cela ne dérange pas vos utilisateurs.</div>';
+$txt['pretty_filter_profiles'] = 'Adresses des Profils<div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/~nom-du-membre/<br>L\'adresse utilisera l\'identifiant de connexion de l\'utilisateur et non pas son nom affiché. Assurez-vous que cela ne dérange pas vos utilisateurs.</div>';
 
 ?>

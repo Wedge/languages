@@ -64,7 +64,7 @@ $txt['secret_ask'] = 'Posez-moi ma question secrète';
 $txt['cant_retrieve'] = 'Il est impossible de récupérer votre mot de passe, mais vous pouvez en spécifier un nouveau en suivant le lien envoyé à votre adresse e-mail.  Vous avez aussi la possibilité de spécifier un nouveau mot de passe en répondant à votre question secrète.';
 $txt['incorrect_answer'] = 'Désolé, mais vous n\'avez pas défini de question secrète/réponse dans votre profil.  Merci de cliquer le bouton Retour, et utilisez la méthode par défaut pour obtenir votre mot de passe.';
 $txt['enter_new_password'] = 'Merci d\'entrer la réponse à votre question, et le mot de passe que vous souhaitez utiliser.  Votre mot de passe sera remplacé par celui fourni en répondant correctement à votre question.';
-$txt['password_success'] = 'Votre mot de passe a été modifié avec succès.<br />Cliquez <a href="' . $scripturl . '?action=login">ici</a> pour vous connecter.';
+$txt['password_success'] = 'Votre mot de passe a été modifié avec succès.<br>Cliquez <a href="' . $scripturl . '?action=login">ici</a> pour vous connecter.';
 $txt['secret_why_blank'] = 'Pourquoi est-ce vide&nbsp;? ';
 
 $txt['authentication_reminder'] = 'Rappel d\'authentification';
@@ -75,7 +75,7 @@ $txt['authentication_openid_secret'] = 'Je veux répondre à ma &quot;question s
 $txt['authentication_password_email'] = 'Envoyez-moi par e-mail un nouveau mot de passe';
 $txt['authentication_password_secret'] = 'Je veux répondre à ma &quot;question secrète&quot; pour changer de mot de passe';
 $txt['openid_secret_reminder'] = 'Veuillez entrer votre réponse à la question ci-dessous. Si elle est correcte, votre identité OpenID sera affichée.';
-$txt['reminder_openid_is'] = 'L\'identité OpenID associée à votre compte est:<br />&nbsp;&nbsp;&nbsp;&nbsp;<strong>%1$s</strong><br /><br />Veuillez la noter pour ne plus l\'oublier.';
+$txt['reminder_openid_is'] = 'L\'identité OpenID associée à votre compte est:<br>&nbsp;&nbsp;&nbsp;&nbsp;<strong>%1$s</strong><br><br>Veuillez la noter pour ne plus l\'oublier.';
 $txt['reminder_continue'] = 'Continuer';
 
 $txt['current_theme'] = 'Thème actuel';

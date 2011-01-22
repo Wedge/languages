@@ -95,7 +95,7 @@ $txt['theme_options_title'] = 'Change or reset default options';
 
 $txt['themeadmin_title'] = 'Themes and Layout Settings';
 $txt['themeadmin_description'] = 'Here you can modify the settings for your themes, update theme selections, reset member options, and the like.';
-$txt['themeadmin_admin_desc'] = 'This page allows you to change the default theme, reset members to all use a certain theme, and choose other settings related to theme selection.  You are also able to install themes from here.<br /><br />Don\'t forget to look at the theme settings for your themes for layout options.';
+$txt['themeadmin_admin_desc'] = 'This page allows you to change the default theme, reset members to all use a certain theme, and choose other settings related to theme selection.  You are also able to install themes from here.<br><br>Don\'t forget to look at the theme settings for your themes for layout options.';
 $txt['themeadmin_list_desc'] = 'From here, you can view the list of themes you currently have installed, change their paths and settings, and uninstall them.';
 $txt['themeadmin_reset_desc'] = 'Below you will see an interface to change the current theme-specific options for all your members.  You will only see those themes that have their own set of settings.';
 $txt['themeadmin_edit_desc'] = 'Modify the stylesheet and source code of your installed themes.  Please consult the documentation for more information.';
@@ -111,7 +111,7 @@ $txt['themeadmin_list_reset_dir'] = 'Base path to Themes directory';
 $txt['themeadmin_list_reset_url'] = 'Base URL to the same directory';
 $txt['themeadmin_list_reset_go'] = 'Attempt to reset all themes';
 
-$txt['themeadmin_reset_tip'] = 'Each theme may have its own custom options for selection by your members.  These include things like &quot;quick reply&quot;, avatars and signatures, layout options, and other similar options.  Here you can change the defaults or reset everyone\'s options.<br /><br />Please note that some themes may use the default options, in which case they will not have their own options.';
+$txt['themeadmin_reset_tip'] = 'Each theme may have its own custom options for selection by your members.  These include things like &quot;quick reply&quot;, avatars and signatures, layout options, and other similar options.  Here you can change the defaults or reset everyone\'s options.<br><br>Please note that some themes may use the default options, in which case they will not have their own options.';
 $txt['themeadmin_reset_defaults'] = 'Configure guest and new user options for this theme';
 $txt['themeadmin_reset_defaults_current'] = 'options currently set.';
 $txt['themeadmin_reset_members'] = 'Change current options for all members using this theme';
@@ -128,7 +128,7 @@ $txt['themeadmin_edit_style'] = 'Edit this theme\'s stylesheets.';
 $txt['themeadmin_edit_copy_template'] = 'Copy a template from the theme this is based on.';
 $txt['themeadmin_edit_exists'] = 'already exists';
 $txt['themeadmin_edit_do_copy'] = 'copy';
-$txt['themeadmin_edit_copy_warning'] = 'When Wedge needs a template or language file which is not in the current theme, it looks in the theme it is based on, or the default theme.<br />Unless you need to modify a template, it\'s better not to copy it.';
+$txt['themeadmin_edit_copy_warning'] = 'When Wedge needs a template or language file which is not in the current theme, it looks in the theme it is based on, or the default theme.<br>Unless you need to modify a template, it\'s better not to copy it.';
 $txt['themeadmin_edit_copy_confirm'] = 'Are you sure you want to copy this template?';
 $txt['themeadmin_edit_overwrite_confirm'] = 'Are you sure you want to copy this template over the one that already exists?\nThis will OVERWRITE any changes you\'ve made!';
 $txt['themeadmin_edit_no_copy'] = '<em>(can\'t copy)</em>';

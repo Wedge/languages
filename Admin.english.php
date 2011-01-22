@@ -13,7 +13,7 @@ $txt['admin_members_list'] = 'Below is a listing of all the members currently re
 $txt['admin_next'] = 'Next';
 $txt['admin_censored_words'] = 'Censored Words';
 $txt['admin_censored_where'] = 'Put the word to be censored on the left, and what to change it to on the right.';
-$txt['admin_censored_desc'] = 'Due to the public nature of forums there may be some words that you wish to prohibit being posted by users of your forum. You can enter any words below that you wish to be censored whenever used by a member.<br />Blank a box to remove that word.';
+$txt['admin_censored_desc'] = 'Due to the public nature of forums there may be some words that you wish to prohibit being posted by users of your forum. You can enter any words below that you wish to be censored whenever used by a member.<br>Blank a box to remove that word.';
 $txt['admin_reserved_names'] = 'Reserved Names';
 $txt['admin_template_edit'] = 'Edit Your Forum Template';
 $txt['admin_modifications'] = 'Add-on Settings';
@@ -641,7 +641,7 @@ $txt['merge_post_admin_double_post'] = 'Merge double posts sent by administrator
 $txt['merge_post_no_time'] = 'Don\'t show the older post\'s date before the separator';
 $txt['merge_post_no_sep'] = 'Show neither the separator, nor the older post\'s date.';
 $txt['merge_post_ignore_length'] = 'Ignore posts\' maximum length';
-$txt['merge_post_separator'] = 'Separator between merged posts (enable the setting above.)<dfn>You may use BBCode. You can get the older post\'s date by using the <strong>$date</strong> variable in the text field.<br />Default is [size=1]$date[/size][hr][br]</dfn>';
+$txt['merge_post_separator'] = 'Separator between merged posts (enable the setting above.)<dfn>You may use BBCode. You can get the older post\'s date by using the <strong>$date</strong> variable in the text field.<br>Default is [size=1]$date[/size][hr][br]</dfn>';
 $txt['merge_post_custom_separator'] = 'Use a custom separator between merged posts.<dfn>The settings above will be disabled.</dfn>';
 
 // Pretty URLs
@@ -666,9 +666,9 @@ $txt['pretty_save'] = 'Save changes';
 $txt['pretty_went_right'] = 'Success!';
 $txt['pretty_converted'] = 'All topic titles are now converted!';
 $txt['pretty_duplicateboard'] = 'This address is already in use. Please go back and change it.';
-$txt['pretty_filter_boards'] = 'Wedge URLs<br />&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?board=1 &rarr; http://yoursite.com/wedge-name/</div>';
-$txt['pretty_filter_topics'] = 'Topic URLs<br />&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?topic=1.0 &rarr; http://yoursite.com/wedge-name/topic-name/</div>';
-$txt['pretty_filter_actions'] = 'Action URLs<br />&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/hello/</div>';
-$txt['pretty_filter_profiles'] = 'Profile URLs<br />&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/~user-name/<br />As this uses the login name (user name) of an account rather than its display name, it may not be desirable to your users.</div>';
+$txt['pretty_filter_boards'] = 'Wedge URLs<br>&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?board=1 &rarr; http://yoursite.com/wedge-name/</div>';
+$txt['pretty_filter_topics'] = 'Topic URLs<br>&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?topic=1.0 &rarr; http://yoursite.com/wedge-name/topic-name/</div>';
+$txt['pretty_filter_actions'] = 'Action URLs<br>&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/hello/</div>';
+$txt['pretty_filter_profiles'] = 'Profile URLs<br>&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/~user-name/<br>As this uses the login name (user name) of an account rather than its display name, it may not be desirable to your users.</div>';
 
 ?>

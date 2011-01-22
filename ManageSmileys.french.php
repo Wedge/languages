@@ -45,7 +45,7 @@ $txt['smileys_show_on_post'] = 'Montrer au dessus du formulaire de réponse';
 $txt['smileys_show_on_popup'] = 'Montrer dans la popup';
 
 $txt['smiley_settings_explain'] = 'Ces réglages vous permettent de changer le jeu de smileys par défaut, de permettre aux utilisateurs de sélectionner leur jeu de smileys favori et de configurer les chemins et données des smileys.';
-$txt['smiley_editsets_explain'] = 'Les jeux de smileys sont des groupes de smileys (émoticônes) que vos utilisateurs peuvent choisir d\'utiliser.  Par exemple, vous pouvez avoir un jeu de smileys rouge et un autre, jaune.<br />Ici, vous pouvez changer les noms et emplacements de chaque jeu de smileys (rappelez-vous cependant que tous les jeux partagent les mêmes smileys).';
+$txt['smiley_editsets_explain'] = 'Les jeux de smileys sont des groupes de smileys (émoticônes) que vos utilisateurs peuvent choisir d\'utiliser.  Par exemple, vous pouvez avoir un jeu de smileys rouge et un autre, jaune.<br>Ici, vous pouvez changer les noms et emplacements de chaque jeu de smileys (rappelez-vous cependant que tous les jeux partagent les mêmes smileys).';
 $txt['smiley_editsmileys_explain'] = 'Changez vos smileys ici en sélectionnant ceux que vous désirez modifier. Rappelez-vous que tous ces smileys doivent exister dans chacun des jeux, ou certains ne s\'afficheront pas ! N\'oubliez pas de sauvegarder vos changements lorsque vous avez terminé !';
 $txt['smiley_setorder_explain'] = 'Changez l\'ordre d\'affichage des smileys ici.';
 $txt['smiley_addsmiley_explain'] = 'Ici vous pouvez ajouter un nouveau smiley - en sélectionnant une image existante ou en en transférant une nouvelle.';

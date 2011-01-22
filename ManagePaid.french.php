@@ -60,10 +60,10 @@ $txt['nochex_email'] = 'Adresse e-mail Nochex';
 $txt['nochex_email_desc'] = 'Adresse e-mail du compte marchant chez Nochex. Laissez vide si vous n\'utilisez pas Nochex.';
 $txt['paid_settings_save'] = 'Sauvegarder';
 
-$txt['paid_note'] = '<strong class="alert">Note</strong>&nbsp;:<br />Pour que les abonnements soient mis à jour automatiquement pour vos utilisateurs, vous
+$txt['paid_note'] = '<strong class="alert">Note</strong>&nbsp;:<br>Pour que les abonnements soient mis à jour automatiquement pour vos utilisateurs, vous
 	aurez besoin de mettre en place une URL de retour pour chacune de vos méthodes de paiement. Pour tous les types de paiement, cette URL de retour doit
-	être équivalente à&nbsp;:<br /><br />&nbsp;&nbsp;&bull;&nbsp;&nbsp;<strong>' . $boardurl . '/subscriptions.php</strong><br /><br />
-	Vous pouvez modifier le lien pour PayPal directement, en cliquant <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-ipn-notify" target="_blank">ici</a>.<br />
+	être équivalente à&nbsp;:<br><br>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<strong>' . $boardurl . '/subscriptions.php</strong><br><br>
+	Vous pouvez modifier le lien pour PayPal directement, en cliquant <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-ipn-notify" target="_blank">ici</a>.<br>
 	Pour les autres passerelles (si installées), vous pouvez normalement les trouver dans votre panneau client, habituellement sous le terme &quot;URL de Retour&quot; (<em>Return URL</em>) ou &quot;URL de Rappel&quot; (<em>Callback URL</em>).';
 
 // View subscription strings.
@@ -111,7 +111,7 @@ $txt['paid_mod_add_groups'] = 'Groupes additionnels de l\'Abonnement';
 $txt['paid_mod_add_groups_desc'] = 'Groupes additionnels dans lesquels l\'utilisateur sera placé pendant la durée de son abonnement.';
 $txt['paid_mod_no_group'] = 'Ne rien changer';
 $txt['paid_mod_edit_note'] = 'Notez que ce groupe étant lié à des abonnements existants, certains réglages ne peuvent être changés&nbsp;!';
-$txt['paid_mod_delete_warning'] = '<strong>ATTENTION</strong><br /><br />Si vous supprimez cet abonnement, tous les utilisateurs y souscrivant actuellement perdront leurs droits d\'accès garantis par l\'abonnement en question. Sauf si vous êtes sûr de vouloir faire cela, il est recommandé de simplement désactiver un abonnement plutôt que de le supprimer.<br />';
+$txt['paid_mod_delete_warning'] = '<strong>ATTENTION</strong><br><br>Si vous supprimez cet abonnement, tous les utilisateurs y souscrivant actuellement perdront leurs droits d\'accès garantis par l\'abonnement en question. Sauf si vous êtes sûr de vouloir faire cela, il est recommandé de simplement désactiver un abonnement plutôt que de le supprimer.<br>';
 $txt['paid_mod_repeatable'] = 'Permettre à l\'utilisateur de renouveler automatiquement son abonnement';
 $txt['paid_mod_allow_partial'] = 'Permettre un abonnement partiel';
 $txt['paid_mod_allow_partial_desc'] = 'Si cette option est activée, dans le cas où l\'utilisateur paie moins que ce qui est demandé, il lui sera garanti une durée d\'abonnement en rapport avec le pourcentage pour lequel il aura payé.';

@@ -30,7 +30,7 @@ $txt['modlog_ac_pruned'] = 'Messages vieux de plus de {days} jours élagués';
 $txt['modlog_ac_news'] = 'Mise à jour des nouvelles';
 $txt['modlog_enter_comment'] = 'Entrer un commentaire de modération';
 $txt['modlog_moderation_log'] = 'Journal de Modération';
-$txt['modlog_moderation_log_desc'] = 'Voici la liste des actions de modération faites par les modérateurs du forum.<br /><strong>Veuillez noter</strong> que les entrées ne peuvent être supprimées de ce journal avant un délai de 24h.';
+$txt['modlog_moderation_log_desc'] = 'Voici la liste des actions de modération faites par les modérateurs du forum.<br><strong>Veuillez noter</strong> que les entrées ne peuvent être supprimées de ce journal avant un délai de 24h.';
 $txt['modlog_no_entries_found'] = 'Aucune entrée pour le moment dans le journal de modération.';
 $txt['modlog_remove'] = 'Supprimer';
 $txt['modlog_removeall'] = 'Tout supprimer';
@@ -51,7 +51,7 @@ $txt['modlog_ac_ban_trigger_ip_range'] = ' <em>IP</em>&nbsp;: {ip_range}';
 $txt['modlog_ac_ban_trigger_hostname'] = ' <em>Nom d\'Hôte</em>&nbsp;: {hostname}';
 
 $txt['modlog_admin_log'] = 'Journal d\'Administration';
-$txt['modlog_admin_log_desc'] = 'Voici la liste des actions d\'administration effectuées sur votre forum.<br /><strong>Veuillez noter</strong> que les entrées ne peuvent être supprimées de ce journal avant un délai de 24h.';
+$txt['modlog_admin_log_desc'] = 'Voici la liste des actions d\'administration effectuées sur votre forum.<br><strong>Veuillez noter</strong> que les entrées ne peuvent être supprimées de ce journal avant un délai de 24h.';
 $txt['modlog_admin_log_no_entries_found'] = 'Aucune entrée pour le moment dans le journal d\'administration.';
 
 // Admin type strings.

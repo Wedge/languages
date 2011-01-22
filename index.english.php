@@ -177,7 +177,7 @@ $txt['error_invalid_characters_username'] = 'Invalid character used in Username.
 
 $txt['welcome_guest'] = 'Welcome, <strong>%1$s</strong>. Please <a href="' . $scripturl . '?action=login">login</a> or <a href="' . $scripturl . '?action=register">register</a>.';
 $txt['login_or_register'] = 'Please <a href="' . $scripturl . '?action=login">login</a> or <a href="' . $scripturl . '?action=register">register</a>.';
-$txt['welcome_guest_activate'] = '<br />Did you miss your <a href="' . $scripturl . '?action=activate">activation email</a>?';
+$txt['welcome_guest_activate'] = '<br>Did you miss your <a href="' . $scripturl . '?action=activate">activation email</a>?';
 $txt['hello_member'] = 'Hey,';
 // Use numeric entities in the below string.
 $txt['hello_guest'] = 'Welcome,';
@@ -352,8 +352,8 @@ $txt['line'] = 'Line';
 $txt['tried_to_repair'] = 'SMF has detected and automatically tried to repair an error in your database.  If you continue to have problems, or continue to receive these emails, please contact your host.';
 $txt['database_error_versions'] = '<strong>Note:</strong> It appears that your database <em>may</em> require an upgrade. Your forum\'s files are currently at version %1$s, while your database is at version %2$s. The above error might possibly go away if you execute the latest version of upgrade.php.';
 $txt['template_parse_error'] = 'Template Parse Error!';
-$txt['template_parse_error_message'] = 'It seems something has gone sour on the forum with the template system.  This problem should only be temporary, so please come back later and try again.  If you continue to see this message, please contact the administrator.<br /><br />You can also try <a href="javascript:location.reload();">refreshing this page</a>.';
-$txt['template_parse_error_details'] = 'There was a problem loading the <tt><strong>%1$s</strong></tt> template or language file.  Please check the syntax and try again - remember, single quotes (<tt>\'</tt>) often have to be escaped with a slash (<tt>\\</tt>).  To see more specific error information from PHP, try <a href="' . $boardurl . '%1$s">accessing the file directly</a>.<br /><br />You may want to try to <a href="javascript:location.reload();">refresh this page</a> or <a href="' . $scripturl . '?theme=1">use the default theme</a>.';
+$txt['template_parse_error_message'] = 'It seems something has gone sour on the forum with the template system.  This problem should only be temporary, so please come back later and try again.  If you continue to see this message, please contact the administrator.<br><br>You can also try <a href="javascript:location.reload();">refreshing this page</a>.';
+$txt['template_parse_error_details'] = 'There was a problem loading the <tt><strong>%1$s</strong></tt> template or language file.  Please check the syntax and try again - remember, single quotes (<tt>\'</tt>) often have to be escaped with a slash (<tt>\\</tt>).  To see more specific error information from PHP, try <a href="' . $boardurl . '%1$s">accessing the file directly</a>.<br><br>You may want to try to <a href="javascript:location.reload();">refresh this page</a> or <a href="' . $scripturl . '?theme=1">use the default theme</a>.';
 
 $txt['today'] = '<strong>Today</strong> at ';
 $txt['yesterday'] = '<strong>Yesterday</strong> at ';
@@ -375,7 +375,7 @@ $txt['forever'] = 'Forever';
 $txt['quick_login_dec'] = 'Login with username, password and session length';
 $txt['one_hour'] = '1 Hour';
 $txt['moved'] = 'MOVED';
-$txt['moved_why'] = 'Please enter a brief description as to<br />why this topic is being moved.';
+$txt['moved_why'] = 'Please enter a brief description as to<br>why this topic is being moved.';
 $txt['board'] = 'Board';
 $txt['in'] = 'in';
 $txt['sticky_topic'] = 'Sticky Topic';
@@ -433,7 +433,7 @@ $txt['page_created'] = 'Page created in ';
 $txt['seconds_with'] = ' seconds with ';
 $txt['queries'] = ' queries.';
 
-$txt['report_to_mod_func'] = 'Use this function to inform the moderators and administrators of an abusive or wrongly posted message.<br /><em>Please note that your email address will be revealed to the moderators if you use this.</em>';
+$txt['report_to_mod_func'] = 'Use this function to inform the moderators and administrators of an abusive or wrongly posted message.<br><em>Please note that your email address will be revealed to the moderators if you use this.</em>';
 
 $txt['online'] = 'Online';
 $txt['offline'] = 'Offline';
@@ -449,11 +449,11 @@ $txt['site_credits'] = 'Website credits';
 /*
 $forum_copyright = 'Powered by <a href="http://wedgeforum.com/" title="Wedge Forum" target="_blank" class="new_win">%1$s</a>
 | Wedge &copy; 2010, <a href="http://about.wedgeforum.com/" title="About Wedge" target="_blank" class="new_win">Wedgeward</a>
-<br />Based on SMF &copy; 2006&ndash;2010, <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">Simple Machines LLC</a>';
+<br>Based on SMF &copy; 2006&ndash;2010, <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">Simple Machines LLC</a>';
 */
 $forum_copyright = '<a href="http://wedgeforum.com/" title="Wedge Forum" target="_blank" class="new_win">Wedge</a> is a work in progress.
 &copy; 2010, <a href="http://about.wedgeforum.com/" title="About Wedge" target="_blank" class="new_win">Wedgeward</a>';
-$forum_copyright .= '<br /><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by %1$s</a> |
+$forum_copyright .= '<br><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by %1$s</a> |
  <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>';
 
 $txt['birthdays'] = 'Birthdays:';
@@ -669,7 +669,7 @@ $txt['preview_title'] = 'Preview post';
 $txt['preview_fetch'] = 'Fetching preview...';
 $txt['preview_new'] = 'New message';
 $txt['error_while_submitting'] = 'The following error or errors occurred while posting this message:';
-$txt['error_old_topic'] = 'Warning: this topic has not been posted in for at least %1$d days.<br />Unless you\'re sure you want to reply, please consider starting a new topic.';
+$txt['error_old_topic'] = 'Warning: this topic has not been posted in for at least %1$d days.<br>Unless you\'re sure you want to reply, please consider starting a new topic.';
 
 $txt['split_selected_posts'] = 'Selected posts';
 $txt['split_selected_posts_desc'] = 'The posts below will form a new topic after splitting.';

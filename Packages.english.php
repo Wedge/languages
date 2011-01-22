@@ -118,10 +118,10 @@ $txt['package_action_skipping'] = '<strong>Skipping file</strong>';
 
 $txt['package_uninstall_actions'] = 'Uninstall Actions';
 $txt['package_uninstall_done'] = 'The add-on has been uninstalled, it should no longer take effect.';
-$txt['package_uninstall_cannot'] = 'This add-on cannot be uninstalled, because there is no uninstaller!<br /><br />Please contact the add-on\'s author for more information.';
+$txt['package_uninstall_cannot'] = 'This add-on cannot be uninstalled, because there is no uninstaller!<br><br>Please contact the add-on\'s author for more information.';
 
 $txt['package_install_options'] = 'Installation Options';
-$txt['package_install_options_ftp_why'] = 'Using the add-on manager\'s FTP functionality is the easiest way to avoid having to manually chmod the files writable through FTP yourself for the add-on manager to work.<br />Here you can set the default values for some fields.';
+$txt['package_install_options_ftp_why'] = 'Using the add-on manager\'s FTP functionality is the easiest way to avoid having to manually chmod the files writable through FTP yourself for the add-on manager to work.<br>Here you can set the default values for some fields.';
 $txt['package_install_options_ftp_server'] = 'FTP Server';
 $txt['package_install_options_ftp_port'] = 'Port';
 $txt['package_install_options_ftp_user'] = 'Username';
@@ -141,7 +141,7 @@ $txt['package_ftp_test_connection'] = 'Test Connection';
 $txt['package_ftp_test_success'] = 'FTP connection established.';
 $txt['package_ftp_test_failed'] = 'Could not contact server.';
 
-// For a break, use \\n instead of <br />... and don't use entities.
+// For a break, use \\n instead of <br>... and don't use entities.
 $txt['package_delete_bad'] = 'The package you are about to delete is currently installed! If you delete it, you may not be able to uninstall it later.\\n\\nAre you sure?';
 
 $txt['package_examine_file'] = 'View file in add-on';
@@ -249,7 +249,7 @@ $txt['package_file_perms_warning_desc'] = '
 	<li>This functionality is mainly applicable on non-Windows based servers - it will not work as expected on Windows in regards to permission flags.</li>
 	<li>Before proceeding make sure you have an FTP client installed in case you do make an error and need to FTP into the server to remedy it.</li>';
 
-$txt['package_confirm_view_package_content'] = 'Are you sure you want to view the add-on contents from this location:<br /><br />%1$s';
+$txt['package_confirm_view_package_content'] = 'Are you sure you want to view the add-on contents from this location:<br><br>%1$s';
 $txt['package_confirm_proceed'] = 'Proceed';
 $txt['package_confirm_go_back'] = 'Go back';
 

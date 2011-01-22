@@ -94,7 +94,7 @@ $txt['allowed_types'] = 'Types de fichier autorisés';
 $txt['cant_upload_type'] = 'Vous ne pouvez pas envoyer ce type de fichier. Les extensions autorisées sont';
 $txt['uncheck_unwatchd_attach'] = 'Décochez les fichiers joints que vous voulez supprimer';
 $txt['restricted_filename'] = 'Nom de fichier réservé. Merci de le renommer.';
-$txt['topic_locked_no_reply'] = 'Attention&nbsp;: ce sujet est actuellement/sera bloqué&nbsp;!<br />Seuls les administrateurs et les modérateurs peuvent y répondre.';
+$txt['topic_locked_no_reply'] = 'Attention&nbsp;: ce sujet est actuellement/sera bloqué&nbsp;!<br>Seuls les administrateurs et les modérateurs peuvent y répondre.';
 $txt['awaiting_approval'] = 'En attente d\'approbation';
 $txt['attachment_requires_approval'] = 'Notez que les fichiers joints ne seront affichés qu\'après approbation d\'un modérateur.';
 $txt['error_temp_attachments'] = 'Des fichiers ont été joints à ce message, mais jamais publiés. Ce problème a été corrigé. Si vous ne souhaitez pas les mettre en ligne, vous pouvez les supprimer <a href="#postAttachment">ici</a>.';

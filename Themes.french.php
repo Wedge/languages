@@ -95,7 +95,7 @@ $txt['theme_options_title'] = 'Changer ou Réinitialiser les Options par Défaut
 
 $txt['themeadmin_title'] = 'Options de thèmes et disposition';
 $txt['themeadmin_description'] = 'Ici vous pouvez modifier les paramètres de vos thèmes, mettre à jour la liste des thèmes, réinitialiser les options des membres et autres réglages du genre.';
-$txt['themeadmin_admin_desc'] = 'Cette page vous permet de changer le thème par défaut de votre forum, réinitialiser les membres pour utiliser un certain thème et choisir d\'autres réglages relatifs à la sélection des thèmes.  Vous pouvez aussi installer des nouveaux thèmes depuis cette interface.<br /><br />N\'oubliez pas de jeter un oeil aux réglages du thème pour votre thème pour des personnalisations de disposition.';
+$txt['themeadmin_admin_desc'] = 'Cette page vous permet de changer le thème par défaut de votre forum, réinitialiser les membres pour utiliser un certain thème et choisir d\'autres réglages relatifs à la sélection des thèmes.  Vous pouvez aussi installer des nouveaux thèmes depuis cette interface.<br><br>N\'oubliez pas de jeter un oeil aux réglages du thème pour votre thème pour des personnalisations de disposition.';
 $txt['themeadmin_list_desc'] = 'Ici vous pouvez voir la liste des thèmes actuellement installés, changer leur chemin et réglages, de même que les désinstaller.';
 $txt['themeadmin_reset_desc'] = 'Ci-dessous se trouve une interface pour changer les options spécifiques au thème pour tous vos membres.  Vous ne verrez que les thèmes qui ont leur propre jeu de paramètres.';
 $txt['themeadmin_edit_desc'] = 'Modifiez la feuille de style et le code-source de vos thèmes installés.  Veuillez consulter la documentation pour plus d\'informations.';
@@ -111,7 +111,7 @@ $txt['themeadmin_list_reset_dir'] = 'Chemin absolu vers le répertoire des thèm
 $txt['themeadmin_list_reset_url'] = 'URL vers le répertoire de base commun';
 $txt['themeadmin_list_reset_go'] = 'Tenter de réinitialiser tous les thèmes';
 
-$txt['themeadmin_reset_tip'] = 'Chaque thème peut avoir ses propres options personnalisées à sélectionner par vos membres.  Elles incluent des réglages comme &quot;Réponse Rapide&quot;, les avatars et signatures, options de disposition et autres options similaires.  Ici vous pouvez changer les paramètres par défaut ou réinitialiser les options de tout le monde.<br /><br />Veuillez noter que certains thèmes peuvent utiliser les options par défaut, auquel cas ils n\'auront pas leurs propres options.';
+$txt['themeadmin_reset_tip'] = 'Chaque thème peut avoir ses propres options personnalisées à sélectionner par vos membres.  Elles incluent des réglages comme &quot;Réponse Rapide&quot;, les avatars et signatures, options de disposition et autres options similaires.  Ici vous pouvez changer les paramètres par défaut ou réinitialiser les options de tout le monde.<br><br>Veuillez noter que certains thèmes peuvent utiliser les options par défaut, auquel cas ils n\'auront pas leurs propres options.';
 $txt['themeadmin_reset_defaults'] = 'Réinitialiser les options par défaut (et des invités) pour ce thème';
 $txt['themeadmin_reset_defaults_current'] = 'options actuellement réglées.';
 $txt['themeadmin_reset_members'] = 'Réinitialiser les options de tous les membres pour ce thème';
@@ -128,7 +128,7 @@ $txt['themeadmin_edit_style'] = 'Modifier les feuilles de style de ce thème.';
 $txt['themeadmin_edit_copy_template'] = 'Copier un modèle (template) depuis le thème sur lequel celui-ci est basé.';
 $txt['themeadmin_edit_exists'] = 'existe déjà';
 $txt['themeadmin_edit_do_copy'] = 'copier';
-$txt['themeadmin_edit_copy_warning'] = 'Quand Wedge a besoin d\'un modèle ou d\'un fichier de langue qui n\'existe pas dans le thème actuel, il regarde dans le dossier du thème sur lequel celui-ci est basé, ou dans le thème par défaut.<br />A moins que vous ne deviez modifier un modèle, il est plus prudent de ne pas le copier.';
+$txt['themeadmin_edit_copy_warning'] = 'Quand Wedge a besoin d\'un modèle ou d\'un fichier de langue qui n\'existe pas dans le thème actuel, il regarde dans le dossier du thème sur lequel celui-ci est basé, ou dans le thème par défaut.<br>A moins que vous ne deviez modifier un modèle, il est plus prudent de ne pas le copier.';
 $txt['themeadmin_edit_copy_confirm'] = 'Voulez-vous vraiment copier ce modèle ?';
 $txt['themeadmin_edit_overwrite_confirm'] = 'Voulez-vous vraiment copier ce modèle par-dessus celui qui existe déjà ?\nCeci va ÉCRASER tous les changements que vous avez faits !';
 $txt['themeadmin_edit_no_copy'] = '<em>(ne peut copier)</em>';

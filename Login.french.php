@@ -57,7 +57,7 @@ $txt['invalid_activation_submit'] = 'Activer';
 $txt['coppa_no_concent'] = 'L\'administrateur n\'a toujours reçu aucune autorisation parentale pour votre compte.';
 $txt['coppa_need_more_details'] = 'Plus de détails&nbsp;?';
 
-$txt['awaiting_delete_account'] = 'Votre compte a été marqué pour une suppression&nbsp;!<br />Si vous voulez restaurer votre compte, veuillez lire la boîte &quot;Réactiver mon compte&quot;, et connectez-vous à nouveau.';
+$txt['awaiting_delete_account'] = 'Votre compte a été marqué pour une suppression&nbsp;!<br>Si vous voulez restaurer votre compte, veuillez lire la boîte &quot;Réactiver mon compte&quot;, et connectez-vous à nouveau.';
 $txt['undelete_account'] = 'Réactiver mon compte';
 
 // Use numeric entities in the below three strings.
@@ -111,7 +111,7 @@ $txt['admin_register_group_none'] = '(pas de groupe principal)';
 $txt['admin_register_done'] = 'Le membre %1$s s\'est inscrit avec succès&nbsp;!';
 
 $txt['coppa_title'] = 'Forum avec restriction d\'âge';
-$txt['coppa_after_registration'] = 'Merci de vous être inscrit sur ' . $context['forum_name_html_safe'] . '.<br /><br />Parce que vous êtes âgé de moins de {MINIMUM_AGE} ans, il est légalement requis
+$txt['coppa_after_registration'] = 'Merci de vous être inscrit sur ' . $context['forum_name_html_safe'] . '.<br><br>Parce que vous êtes âgé de moins de {MINIMUM_AGE} ans, il est légalement requis
 	que vous obteniez une autorisation de vos parents ou tuteurs légaux avant que vous puissiez utiliser votre compte.  Pour arranger l\'activation de votre compte, veuillez imprimer le formulaire ci-dessous&nbsp;:';
 $txt['coppa_form_link_popup'] = 'Charger le formulaire dans une nouvelle fenêtre';
 $txt['coppa_form_link_download'] = 'Télécharger le formulaire en tant que fichier texte';
@@ -124,7 +124,7 @@ $txt['coppa_send_by_phone'] = 'Alternativement, demandez-leur de contacter l\'ad
 $txt['coppa_form_title'] = 'Formulaire d\'autorisation d\'inscription au forum ' . $context['forum_name_html_safe'];
 $txt['coppa_form_address'] = 'Adresse';
 $txt['coppa_form_date'] = 'Date';
-$txt['coppa_form_body'] = 'Je soussigné, {PARENT_NAME},<br /><br />Donne la permission à {CHILD_NAME} (nom de l\'enfant) de devenir un membre à part entière du forum : ' . $context['forum_name_html_safe'] . ', sous l\'identifiant : {USER_NAME}.<br /><br />Je comprends que certaines informations personnelles entrées par {USER_NAME} peuvent êtres affichées à d\'autres visiteurs du forum.<br /><br />Signé&nbsp;:<br />{PARENT_NAME} (Parent/Tuteur légal).';
+$txt['coppa_form_body'] = 'Je soussigné, {PARENT_NAME},<br><br>Donne la permission à {CHILD_NAME} (nom de l\'enfant) de devenir un membre à part entière du forum : ' . $context['forum_name_html_safe'] . ', sous l\'identifiant : {USER_NAME}.<br><br>Je comprends que certaines informations personnelles entrées par {USER_NAME} peuvent êtres affichées à d\'autres visiteurs du forum.<br><br>Signé&nbsp;:<br>{PARENT_NAME} (Parent/Tuteur légal).';
 
 $txt['visual_verification_sound_again'] = 'Recommencer';
 $txt['visual_verification_sound_close'] = 'Fermer la fenêtre';

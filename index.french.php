@@ -177,7 +177,7 @@ $txt['error_invalid_characters_username'] = 'Caractère invalide dans l\'identif
 
 $txt['welcome_guest'] = 'Bienvenue, <strong>%1$s</strong>. Merci de <a href="' . $scripturl . '?action=login">vous connecter</a> ou de <a href="' . $scripturl . '?action=register">vous inscrire</a>.';
 $txt['login_or_register'] = 'Merci de <a href="' . $scripturl . '?action=login">vous connecter</a> ou de <a href="' . $scripturl . '?action=register">vous inscrire</a>.';
-$txt['welcome_guest_activate'] = '<br />Perdu votre <a href="' . $scripturl . '?action=activate">e-mail d\'activation</a> ?';
+$txt['welcome_guest_activate'] = '<br>Perdu votre <a href="' . $scripturl . '?action=activate">e-mail d\'activation</a> ?';
 $txt['hello_member'] = 'Coucou,';
 // Use numeric entities in the below string.
 $txt['hello_guest'] = 'Bienvenue,';
@@ -352,8 +352,8 @@ $txt['line'] = 'Ligne';
 $txt['tried_to_repair'] = 'SMF a d&#233;tect&#233; et a automatiquement essay&#233; de r&#233;parer une erreur dans votre base de donn&#233;es. Si le probl&#232;me persiste ou si vous continuez de recevoir ces e-mails, contactez votre h&#233;bergeur.';
 $txt['database_error_versions'] = '<strong>Note</strong>&nbsp;: Il est <em>possible</em> que votre base de données nécessite une mise à jour. Actuellement, la version des fichiers du forum est %1$s, alors que votre base de données est en version SMF %2$s. L\'erreur signalée ci-dessus pourrait peut-être corrigée en exécutant la dernière version de upgrade.php.';
 $txt['template_parse_error'] = 'Erreur de traitement du modèle&nbsp;!';
-$txt['template_parse_error_message'] = 'Il semble que le forum rencontre actuellement quelques difficultés avec un de ses modèles graphiques. Le problème pourrait n\'être que temporaire, essayez de revenir plus tard. Si vous continuez à voir ce message, contactez l\'administrateur.<br /><br />Vous pouvez aussi essayer de <a href="javascript:location.reload();">recharger la page</a>.';
-$txt['template_parse_error_details'] = 'Un problème s\'est produit durant le chargement du modèle ou du fichier de langue <tt><strong>%1$s</strong></tt>. Vérifiez la syntaxe et réessayez. Rappelez-vous que les apostrophes (<tt>\'</tt>) doivent souvent être échappées via une barre oblique (<tt>\\</tt>). Pour obtenir plus de détails sur ces erreurs par PHP, essayez d\'<a href="' . $boardurl . '%1$s">accéder directement au fichier</a>.<br /><br />Vous pouvez aussi <a href="javascript:location.reload();">recharger la page</a> ou <a href="' . $scripturl . '?theme=1">utiliser le thème par défaut</a>.';
+$txt['template_parse_error_message'] = 'Il semble que le forum rencontre actuellement quelques difficultés avec un de ses modèles graphiques. Le problème pourrait n\'être que temporaire, essayez de revenir plus tard. Si vous continuez à voir ce message, contactez l\'administrateur.<br><br>Vous pouvez aussi essayer de <a href="javascript:location.reload();">recharger la page</a>.';
+$txt['template_parse_error_details'] = 'Un problème s\'est produit durant le chargement du modèle ou du fichier de langue <tt><strong>%1$s</strong></tt>. Vérifiez la syntaxe et réessayez. Rappelez-vous que les apostrophes (<tt>\'</tt>) doivent souvent être échappées via une barre oblique (<tt>\\</tt>). Pour obtenir plus de détails sur ces erreurs par PHP, essayez d\'<a href="' . $boardurl . '%1$s">accéder directement au fichier</a>.<br><br>Vous pouvez aussi <a href="javascript:location.reload();">recharger la page</a> ou <a href="' . $scripturl . '?theme=1">utiliser le thème par défaut</a>.';
 
 $txt['today'] = '<strong>Aujourd\'hui</strong> à ';
 $txt['yesterday'] = '<strong>Hier</strong> à ';
@@ -433,7 +433,7 @@ $txt['page_created'] = 'Page générée en ';
 $txt['seconds_with'] = ' secondes avec ';
 $txt['queries'] = ' requêtes.';
 
-$txt['report_to_mod_func'] = 'Utilisez cette fonction pour informer les modérateurs et administrateurs d\'un message abusif ou erroné.<br /><em>Veuillez noter que votre adresse e-mail sera révélée aux modérateurs si vous utilisez cette fonction.</em>';
+$txt['report_to_mod_func'] = 'Utilisez cette fonction pour informer les modérateurs et administrateurs d\'un message abusif ou erroné.<br><em>Veuillez noter que votre adresse e-mail sera révélée aux modérateurs si vous utilisez cette fonction.</em>';
 
 $txt['online'] = 'En ligne';
 $txt['offline'] = 'Hors ligne';
@@ -448,11 +448,11 @@ $txt['site_credits'] = 'Crédits du site';
 /*
 $forum_copyright = 'Propulsé par <a href="http://wedgeforum.com/" title="Wedge Forum" target="_blank" class="new_win">%1$s</a>
 | Wedge &copy; 2010, <a href="http://about.wedgeforum.com/" title="About Wedge" target="_blank" class="new_win">Wedgeward</a>
-<br />Basé sur SMF &copy; 2006&ndash;2010, <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">Simple Machines LLC</a>';
+<br>Basé sur SMF &copy; 2006&ndash;2010, <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">Simple Machines LLC</a>';
 */
 $forum_copyright = '<a href="http://wedgeforum.com/" title="Wedge Forum" target="_blank" class="new_win">Wedge</a> est en construction.
 &copy; 2010, <a href="http://about.wedgeforum.com/" title="About Wedge" target="_blank" class="new_win">Wedgeward</a>';
-$forum_copyright .= '<br /><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Propulsé par %1$s</a> |
+$forum_copyright .= '<br><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Propulsé par %1$s</a> |
  <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>';
 
 $txt['birthdays'] = 'Anniversaires&nbsp;:';
@@ -668,7 +668,7 @@ $txt['preview_title'] = 'Prévisualiser le message';
 $txt['preview_fetch'] = 'Chargement de la prévisualisation&hellip;';
 $txt['preview_new'] = 'Nouveau message';
 $txt['error_while_submitting'] = 'L\'erreur ou les erreurs suivantes sont apparues durant la soumission de ce message&nbsp;:';
-$txt['error_old_topic'] = 'Attention, il n\'y a pas eu de réponse à ce sujet depuis au moins %1$d jours.<br />À moins que vous ne soyez sûr de vouloir répondre, pensez éventuellement à créer un nouveau sujet.';
+$txt['error_old_topic'] = 'Attention, il n\'y a pas eu de réponse à ce sujet depuis au moins %1$d jours.<br>À moins que vous ne soyez sûr de vouloir répondre, pensez éventuellement à créer un nouveau sujet.';
 
 $txt['split_selected_posts'] = 'Messages sélectionnés';
 $txt['split_selected_posts_desc'] = 'Les messages suivants formeront un nouveau sujet après la scission.';
