@@ -102,7 +102,8 @@ $txt['pm_actions'] = 'Actions';
 $txt['pm_preferences'] = 'Preferences';
 
 $txt['pm_is_replied_to'] = 'You have responded to this message.';
-$txt['pm_sent_is_replied_to'] = 'A response to this message was sent.';
+$txt['pm_is_replied_to_sent_1'] = 'This message was replied to.';
+$txt['pm_is_replied_to_sent_n'] = '%1$d responses to this message were sent.';
 
 // Reporting messages.
 $txt['pm_report_to_admin'] = 'Report To Admin';
