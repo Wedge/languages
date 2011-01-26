@@ -101,8 +101,8 @@ $txt['pm_messages'] = 'Messages';
 $txt['pm_actions'] = 'Actions';
 $txt['pm_preferences'] = 'Préférences';
 
-$txt['pm_is_replied_to'] = 'Vous avez transféré ou répondu à ce message.';
-$txt['pm_sent_is_replied_to'] = 'Le destinataire a transféré ou répondu à ce message.';
+$txt['pm_is_replied_to'] = 'Vous avez répondu à ce message.';
+$txt['pm_sent_is_replied_to'] = 'Ce message a fait l\'objet d\'une réponse.';
 
 // Reporting messages.
 $txt['pm_report_to_admin'] = 'Rapporter à l\'administrateur';
