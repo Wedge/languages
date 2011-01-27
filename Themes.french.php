@@ -123,12 +123,12 @@ $txt['themeadmin_reset_options_change'] = 'Changer';
 $txt['themeadmin_reset_options_none'] = 'Ne pas changer';
 $txt['themeadmin_reset_options_remove'] = 'Enlever';
 
-$txt['themeadmin_edit_browse'] = 'Visualiser les thèmes et leurs fichiers.';
-$txt['themeadmin_edit_style'] = 'Modifier les feuilles de style de ce thème.';
+$txt['themeadmin_edit_browse'] = 'Accéder à la liste des fichiers du thème actuel.';
+$txt['themeadmin_edit_style'] = 'Accéder aux feuilles de style du thème actuel.';
 $txt['themeadmin_edit_copy_template'] = 'Copier un modèle (template) depuis le thème sur lequel celui-ci est basé.';
 $txt['themeadmin_edit_exists'] = 'existe déjà';
 $txt['themeadmin_edit_do_copy'] = 'copier';
-$txt['themeadmin_edit_copy_warning'] = 'Quand Wedge a besoin d\'un modèle ou d\'un fichier de langue qui n\'existe pas dans le thème actuel, il regarde dans le dossier du thème sur lequel celui-ci est basé, ou dans le thème par défaut.<br>A moins que vous ne deviez modifier un modèle, il est plus prudent de ne pas le copier.';
+$txt['themeadmin_edit_copy_warning'] = 'Quand Wedge a besoin d\'un modèle ou d\'un fichier de langue qui n\'existe pas dans le thème actuel, il regarde dans le dossier du thème sur lequel celui-ci est basé, ou dans le thème par défaut.<br>À moins que vous ne deviez modifier un modèle, il est plus prudent de ne pas le copier.';
 $txt['themeadmin_edit_copy_confirm'] = 'Voulez-vous vraiment copier ce modèle ?';
 $txt['themeadmin_edit_overwrite_confirm'] = 'Voulez-vous vraiment copier ce modèle par-dessus celui qui existe déjà ?\nCeci va ÉCRASER tous les changements que vous avez faits !';
 $txt['themeadmin_edit_no_copy'] = '<em>(ne peut copier)</em>';

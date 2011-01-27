@@ -124,7 +124,7 @@ $txt['themeadmin_reset_options_none'] = 'Don\'t change';
 $txt['themeadmin_reset_options_remove'] = 'Remove';
 
 $txt['themeadmin_edit_browse'] = 'Browse the templates and files in this theme.';
-$txt['themeadmin_edit_style'] = 'Edit this theme\'s stylesheets.';
+$txt['themeadmin_edit_style'] = 'Browse this theme\'s stylesheets.';
 $txt['themeadmin_edit_copy_template'] = 'Copy a template from the theme this is based on.';
 $txt['themeadmin_edit_exists'] = 'already exists';
 $txt['themeadmin_edit_do_copy'] = 'copy';
