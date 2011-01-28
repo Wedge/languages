@@ -153,7 +153,7 @@ $txt['maintain_old_are_not_stickied'] = 'Mais ne pas compter les sujets épingl�
 $txt['maintain_old_all'] = 'Toutes les sections (cliquez pour choisir des sections spécifiques)';
 $txt['maintain_old_choose'] = 'Choisir une section spécifique (cliquez pour les sélectionner toutes)';
 $txt['maintain_old_remove'] = 'Enlever maintenant';
-$txt['maintain_old_confirm'] = 'Êtes-vous sûr de vouloir supprimer maintenant les anciens messages&nbsp;?\\n\\nLe processus ne peut être inversé&nbsp;!';
+$txt['maintain_old_confirm'] = 'Êtes-vous sûr de vouloir supprimer maintenant les anciens messages ?\\n\\nLe processus ne peut être inversé !';
 
 $txt['maintain_members'] = 'Effacer les comptes inactifs';
 $txt['maintain_members_ungrouped'] = 'Membres non groupés <span class="smalltext">(qui ne font partie d\'aucun groupe)</span>';
@@ -194,7 +194,7 @@ $txt['move_topics_select_board'] = 'Choisir la section';
 $txt['move_topics_from'] = 'Déplacer les fils de';
 $txt['move_topics_to'] = 'vers';
 $txt['move_topics_now'] = 'Déplacer maintenant';
-$txt['move_topics_confirm'] = 'Êtes-vous sûr de vouloir déplacer TOUS les sujets de &quot;%board_from%&quot; vers &quot;%board_to%&quot;&nbsp;?';
+$txt['move_topics_confirm'] = 'Êtes-vous sûr de vouloir déplacer TOUS les sujets de &quot;%board_from%&quot; vers &quot;%board_to%&quot; ?';
 
 $txt['maintain_reattribute_posts'] = 'Réattribuer des messages aux utilisateurs';
 $txt['reattribute_guest_posts'] = 'Trouver les messages des invités utilisant...';

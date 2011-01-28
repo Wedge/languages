@@ -27,7 +27,7 @@ $txt['pm_multiple'] = '(destinataires multiples&nbsp;: \'nom1, nom2\')';
 // Use numeric entities in the below string.
 $txt['instant_reply'] = 'R&#233;pondez &#224; ce message personnel ici :';
 
-$txt['delete_selected_confirm'] = 'Êtes-vous sûr de vouloir effacer tous les messages personnels sélectionnés&nbsp;?';
+$txt['delete_selected_confirm'] = 'Êtes-vous sûr de vouloir effacer tous les messages personnels sélectionnés ?';
 
 $txt['pm_view'] = 'Affichage';
 $txt['pm_display_mode_all'] = 'Tous en même temps';
@@ -70,7 +70,7 @@ $txt['no_recipients'] = '(pas de destinataire)';
 $txt['pm_prune'] = 'Purger la boîte';
 $txt['pm_prune_desc1'] = 'Effacer tous les messages personnels antérieurs à';
 $txt['pm_prune_desc2'] = 'jours.';
-$txt['pm_prune_warning'] = 'Êtes-vous certain de vouloir purger votre boîte&nbsp;?';
+$txt['pm_prune_warning'] = 'Êtes-vous sûr de vouloir purger votre boîte ?';
 
 // Actions Drop Down.
 $txt['pm_actions_title'] = 'Actions additionnelles';
@@ -81,7 +81,7 @@ $txt['pm_actions_go'] = 'Exécuter';
 // Manage Labels Screen.
 $txt['pm_apply'] = 'Appliquer';
 $txt['pm_manage_labels'] = 'Gérer les labels';
-$txt['pm_labels_delete'] = 'Êtes-vous sûr de vouloir effacer les labels sélectionnés&nbsp;?';
+$txt['pm_labels_delete'] = 'Êtes-vous sûr de vouloir effacer les labels sélectionnés ?';
 $txt['pm_labels_desc'] = 'Ici vous pouvez ajouter, modifier et supprimer les labels utilisés dans votre centre de messagerie personnelle.';
 $txt['pm_label_add_new'] = 'Ajouter un nouveau label';
 $txt['pm_label_name'] = 'Nom du label';
@@ -163,11 +163,11 @@ $txt['pm_rules_none'] = 'Vous n\'avez pas encore créé de règle de message.';
 $txt['pm_rule_title'] = 'Règle';
 $txt['pm_add_rule'] = 'Ajouter une Nouvelle Règle';
 $txt['pm_apply_rules'] = 'Appliquer les Règles maintenant';
-$txt['pm_js_apply_rules_confirm'] = 'Etes-vous sûr de vouloir appliquer les règles actuelles à tous les messages personnels&nbsp;?';
+$txt['pm_js_apply_rules_confirm'] = 'Êtes-vous sûr de vouloir appliquer les règles actuelles à tous les messages personnels ?';
 $txt['pm_edit_rule'] = 'Modifier la Règle';
 $txt['pm_rule_save'] = 'Sauvegarder la Règle';
 $txt['pm_delete_selected_rule'] = 'Effacer les règles sélectionnées';
-$txt['pm_js_delete_rule_confirm'] = 'Etes-vous sûr de vouloir effacer les règles sélectionnées&nbsp;?';
+$txt['pm_js_delete_rule_confirm'] = 'Êtes-vous sûr de vouloir effacer les règles sélectionnées ?';
 $txt['pm_rule_name'] = 'Nom';
 $txt['pm_rule_name_desc'] = 'Le nom de la règle, pour s\'en souvenir plus facilement';
 $txt['pm_rule_name_default'] = '[NOM]';

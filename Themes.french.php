@@ -11,7 +11,7 @@ $txt['theme_nochange'] = 'Aucun changement';
 $txt['theme_forum_default'] = 'Thème par défaut';
 
 $txt['theme_remove'] = 'enlever';
-$txt['theme_remove_confirm'] = 'Êtes-vous sûr de vouloir retirer ce thème (c\'est définitif)&nbsp;?';
+$txt['theme_remove_confirm'] = 'Êtes-vous sûr de vouloir supprimer ce thème définitivement ?';
 
 $txt['theme_install'] = 'Installer un Nouveau Thème';
 $txt['theme_install_file'] = 'Depuis une archive sur votre ordinateur&nbsp;';
@@ -20,7 +20,7 @@ $txt['theme_install_error'] = 'Ce dossier de thème n\'existe pas, ou ne contien
 $txt['theme_install_write_error'] = 'Le dossier des thèmes ne doit pas être en lecture seule pour continuer&nbsp;!';
 $txt['theme_install_go'] = 'Installer&nbsp;!';
 $txt['theme_install_new'] = 'Ou créer une copie du thème par défaut, nommée&nbsp;';
-$txt['theme_install_new_confirm'] = 'Êtes-vous sûr de vouloir installer ce nouveau thème&nbsp;?';
+$txt['theme_install_new_confirm'] = 'Êtes-vous sûr de vouloir installer ce nouveau thème ?';
 $txt['theme_install_writable'] = 'Attention - vous ne pouvez pas créer ou installer un nouveau thème car votre dossier de thèmes est en lecture seule&nbsp;!';
 $txt['theme_installed'] = 'Installé avec succès';
 $txt['theme_installed_message'] = 'a été installé avec succès.';
@@ -117,7 +117,7 @@ $txt['themeadmin_reset_defaults_current'] = 'options actuellement réglées.';
 $txt['themeadmin_reset_members'] = 'Réinitialiser les options de tous les membres pour ce thème';
 $txt['themeadmin_reset_remove'] = 'Enlever toutes les options des membres et les réinitialiser aux valeurs par défaut';
 $txt['themeadmin_reset_remove_current'] = 'membres utilisent actuellement leurs propres options.';
-$txt['themeadmin_reset_remove_confirm'] = 'Etes-vous sûr de vouloir enlever toutes les options de thème ?\\nCeci peut aussi réinitialiser quelques champs personnalisés des profils.';
+$txt['themeadmin_reset_remove_confirm'] = 'Êtes-vous sûr de vouloir enlever toutes les options de thème ?\\nCeci peut aussi réinitialiser quelques champs personnalisés des profils.';
 $txt['themeadmin_reset_options_info'] = 'Les options ci-dessous surclasseront les options de <em>tout le monde</em>.  Pour changer une option, sélectionner &quot;changer&quot; dans la boîte d\'à coté, et choisissez lui une valeur.  Pour utiliser la valeur par défaut, sélectionner &quot;enlever&quot;. Sinon utilisez &quot;Ne pas changer&quot; pour le laisser tel quel.';
 $txt['themeadmin_reset_options_change'] = 'Changer';
 $txt['themeadmin_reset_options_none'] = 'Ne pas changer';

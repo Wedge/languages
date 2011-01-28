@@ -128,7 +128,7 @@ $txt['spider_ip_info'] = 'Adresses IP';
 $txt['spiders_add'] = 'Ajouter un nouveau Robot';
 $txt['spiders_edit'] = 'Modifier';
 $txt['spiders_remove_selected'] = 'Supprimer les robots sélectionnés';
-$txt['spider_remove_selected_confirm'] = 'Êtes-vous sûr de vouloir supprimer ces robots ?\\n\\nToutes les statistiques associées seront aussi effacées&nbsp;!';
+$txt['spider_remove_selected_confirm'] = 'Êtes-vous sûr de vouloir supprimer ces robots ?\\n\\nToutes les statistiques associées seront aussi effacées !';
 $txt['spiders_no_entries'] = 'Aucun robot configuré pour le moment.';
 
 $txt['add_spider_desc'] = 'D\'ici, vous pouvez modifier les paramètres permettant de reconnaître un robot. Si le User-Agent ou l\'adresse IP d\'un invité correspond à ce qui est entré ci-dessous, il sera considéré comme un robot de moteur de recherche et surveillé comme demandé dans les préférences du forum.';

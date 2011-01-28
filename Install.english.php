@@ -134,9 +134,6 @@ $txt['user_settings_email'] = 'Email Address';
 $txt['user_settings_email_info'] = 'Provide your email address as well. <strong>This must be a valid email address.</strong>';
 $txt['user_settings_database'] = 'Database Password';
 $txt['user_settings_database_info'] = 'The installer requires that you supply the database password to create an administrator account, for security reasons.';
-$txt['user_settings_skip'] = 'Skip';
-$txt['user_settings_skip_sure'] = 'Are you sure you wish to skip admin account creation?';
-$txt['user_settings_proceed'] = 'Finish';
 
 $txt['ftp_checking_writable'] = 'Checking Files are Writable';
 $txt['ftp_setup'] = 'FTP Connection Information';

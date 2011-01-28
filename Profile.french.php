@@ -84,7 +84,7 @@ $txt['theme_preferences'] = 'Préférences de thème';
 $txt['theme_forum_default'] = 'Thème par défaut';
 $txt['theme_forum_default_desc'] = 'Ceci est le thème par défaut, ce qui signifie que votre thème changera suivant les réglages de l\'administrateur et/ou la section que vous consultez.';
 
-$txt['profileConfirm'] = 'Voulez-vous réellement effacer ce membre&nbsp;?';
+$txt['profileConfirm'] = 'Êtes-vous sûr de vouloir effacer ce membre ?';
 
 $txt['custom_title'] = 'Titre personnel';
 
@@ -143,8 +143,8 @@ $txt['deleteAccount_posts'] = 'Supprimer les messages postés par ce membre';
 $txt['deleteAccount_none'] = 'Aucun';
 $txt['deleteAccount_all_posts'] = 'Tous les messages';
 $txt['deleteAccount_topics'] = 'Sujets et messages';
-$txt['deleteAccount_confirm'] = 'Êtes-vous absolument sûr de vouloir supprimer ce compte&nbsp;?';
-$txt['deleteAccount_approval'] = 'Veuillez prendre note que les modérateurs du forum devront approuver cette suppression avant qu\'elle soit effective.';
+$txt['deleteAccount_confirm'] = 'Êtes-vous absolument sûr de vouloir supprimer ce compte ?';
+$txt['deleteAccount_approval'] = 'Veuillez noter que les modérateurs du forum devront approuver cette suppression avant qu\'elle soit effective.';
 
 $txt['profile_of_username'] = 'Profil de %1$s';
 $txt['profileInfo'] = 'Infos du Profil';
@@ -249,7 +249,7 @@ $txt['primary_membergroup'] = 'Groupe principal';
 $txt['additional_membergroups'] = 'Groupes additionnels';
 $txt['additional_membergroups_show'] = '[montrer les groupes additionnels]';
 $txt['no_primary_membergroup'] = '(pas de groupe principal)';
-$txt['deadmin_confirm'] = 'Êtes-vous sûr de vouloir quitter irrévocablement votre statut d\'administrateur&nbsp;?';
+$txt['deadmin_confirm'] = 'Êtes-vous sûr de vouloir quitter irrémédiablement votre statut d\'administrateur ?';
 
 $txt['account_activate_method_2'] = 'Le compte requiert une réactivation après un changement d\'adresse e-mail';
 $txt['account_activate_method_3'] = 'Le compte n\'est pas approuvé';

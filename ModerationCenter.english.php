@@ -77,7 +77,7 @@ $txt['mc_modreport_whoreported_title'] = 'Members who have reported this post';
 $txt['mc_modreport_whoreported_data'] = 'Reported by %1$s on %2$s.  They left the following message:';
 $txt['mc_modreport_modactions'] = 'Actions taken by other moderators';
 $txt['mc_modreport_mod_comments'] = 'Moderator Comments';
-$txt['mc_modreport_no_mod_comment'] = 'There are not currently any moderator comments';
+$txt['mc_modreport_no_mod_comment'] = 'There are not currently any moderator comments.';
 $txt['mc_modreport_add_mod_comment'] = 'Add Comment';
 
 $txt['show_notice'] = 'Notice Text';

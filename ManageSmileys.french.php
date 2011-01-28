@@ -82,7 +82,7 @@ $txt['smileys_no_entries'] = 'Aucun smiley configuré pour le moment.';
 $txt['icons_edit_icons_explain'] = 'Ici vous pouvez changer quels icônes de messages seront disponibles dans votre forum. Vous pouvez ajouter, modifier et supprimer des icônes, de même que limiter leur usage à certaines sections.';
 $txt['icons_edit_icons_all_boards'] = 'Disponible dans toutes les sections';
 $txt['icons_board'] = 'Section';
-$txt['icons_confirm'] = 'Êtes-vous sûr de vouloir enlever ces icônes&nbsp;?\\n\\nNotez que cela n\'empêchera que leur utilisation dans des nouveaux messages, les images resteront visibles pour les messages existants.';
+$txt['icons_confirm'] = 'Êtes-vous sûr de vouloir enlever ces icônes ?\\n\\nNotez que cela n\'empêchera que leur utilisation dans les futurs messages ; les images resteront visibles pour les messages existants.';
 $txt['icons_add_new'] = 'Ajouter une nouvelle icône';
 
 $txt['icons_edit_icon'] = 'Modifier l\'icône';

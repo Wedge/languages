@@ -132,9 +132,6 @@ $txt['user_settings_email'] = 'Adresse e-mail';
 $txt['user_settings_email_info'] = 'Renseignez ici votre adresse e-mail. <strong>L\'adresse e-mail doit être valide.</strong>';
 $txt['user_settings_database'] = 'Mot de passe de la base de données';
 $txt['user_settings_database_info'] = 'Pour des raisons de sécurité, l\'installateur demande de nouveau le mot de passe afin de créer le compte administrateur.';
-$txt['user_settings_skip'] = 'Ignorer';
-$txt['user_settings_skip_sure'] = 'Etes vous sûr de vouloir éviter la création d\'un compte administrateur&nbsp;?';
-$txt['user_settings_proceed'] = 'Terminer';
 
 $txt['ftp_checking_writable'] = 'Vérifie si les fichiers sont inscriptibles';
 $txt['ftp_setup'] = 'Informations sur la connexion FTP';

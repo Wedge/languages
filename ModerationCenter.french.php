@@ -77,7 +77,7 @@ $txt['mc_modreport_whoreported_title'] = 'Membres ayant rapporté ce message';
 $txt['mc_modreport_whoreported_data'] = 'Rapporté par %1$s le %2$s, en laissant ce commentaire&nbsp;:';
 $txt['mc_modreport_modactions'] = 'Actions faites par d\'autres modérateurs';
 $txt['mc_modreport_mod_comments'] = 'Commentaires de Modérateur';
-$txt['mc_modreport_no_mod_comment'] = 'Il n\'y a actuellement aucun commentaire de modérateur';
+$txt['mc_modreport_no_mod_comment'] = 'Il n\'y a actuellement aucun commentaire de modérateur.';
 $txt['mc_modreport_add_mod_comment'] = 'Ajouter un Commentaire';
 
 $txt['show_notice'] = 'Annotation';

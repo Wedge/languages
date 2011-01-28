@@ -29,7 +29,7 @@ $txt['mboards_name'] = 'Nom';
 $txt['mboards_modify'] = 'modifier';
 $txt['mboards_permissions'] = 'permissions';
 // Don't use entities in the below string.
-$txt['mboards_permissions_confirm'] = 'Etes-vous sûr de vouloir changer le fonctionnement de cette section pour utiliser des permissions locales ?';
+$txt['mboards_permissions_confirm'] = 'Êtes-vous sûr de vouloir changer le fonctionnement de cette section pour utiliser des permissions locales ?';
 
 $txt['mboards_delete_cat'] = 'Effacer cette catégorie';
 $txt['mboards_delete_board'] = 'Effacer cette section';
