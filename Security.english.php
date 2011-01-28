@@ -88,6 +88,9 @@ $txt['behav_te_not_msie_log'] = 'User-agent claims to be IE, but Connection: TE 
 $txt['behav_not_msnbot_desc'] = 'Your request was invalid; it claimed that you are associated with a major search engine but this claim could not be verified.';
 $txt['behav_not_msnbot_log'] = 'User-agent identified itself as msnbot, cannot substantiate claim.';
 
+$txt['behav_not_yahoobot_desc'] = 'Your request was invalid; it claimed that you are associated with a major search engine but this claim could not be verified.';
+$txt['behav_not_yahoobot_log'] = 'User-agent identified itself as Yahoo, cannot substantiate claim.';
+
 $txt['behav_not_googlebot_desc'] = 'Your request was invalid; it claimed that you are associated with a major search engine but this claim could not be verified.';
 $txt['behav_not_googlebot_log'] = 'User-agent identified itself as Google, cannot substantiate claim.';
 

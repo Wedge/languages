@@ -647,4 +647,7 @@ $helptxt['custom_mask'] = 'The input mask is important for your forum\'s securit
 	</div><br><br>
 	More information and advanced techniques may be found on the internet.';
 
+$helptxt['reverse_proxy'] = 'If you are using Bad Behavior behind a reverse proxy, load balancer, HTTP accelerator, content cache or similar technology, enable this option.';
+$helptxt['reverse_proxy_header'] = 'Your reverse proxy server(s) must set the IP address of the Internet client from which they received the request in a HTTP header. Typically, <a href="http://en.wikipedia.org/wiki/X-Forwarded-For">X-Forwarded-For</a> will be used, as this is supported by most proxy servers, though you will need to ensure that it is enabled on your proxy servers. Some other header names in common use include "X-Real-Ip" (nginx) and "Cf-Connecting-Ip" (CloudFlare).';
+$helptxt['reverse_proxy_ips'] = 'This area needs to list the IP addresses (e.g. 127.0.0.1) or CIDR blocks (e.g. 127.0.0.0/8) style format. If you have a chain of two or more reverse proxies between your server and the public Internet, you must specify <em>all</em> of the IP address ranges (in CIDR format) of all of your proxy servers, load balancers, etc. Otherwise, it may not be possible to determine the client\'s true IP address.';
 ?>

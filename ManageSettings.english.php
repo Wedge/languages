@@ -142,6 +142,11 @@ $txt['loadavg_forum'] = 'Threshold to disabling the forum <strong>completely</st
 $txt['loadavg_disabled_windows'] = '<span class="error">Load balancing support is not available on Windows.</span>';
 $txt['loadavg_disabled_conf'] = '<span class="error">Load balancing support is disabled by your host configuration.</span>';
 
+$txt['reverse_proxy'] = 'Enable reverse proxy support';
+$txt['reverse_proxy_header'] = 'Proxy HTTP header with IP address';
+$txt['reverse_proxy_ips'] = 'IP or CIDR block addresses of proxy servers';
+$txt['reverse_proxy_one_per_line'] = 'Specify one address per line';
+
 $txt['setting_password_strength'] = 'Required strength for user passwords';
 $txt['setting_password_strength_low'] = 'Low - 4 character minimum';
 $txt['setting_password_strength_medium'] = 'Medium - cannot contain username';

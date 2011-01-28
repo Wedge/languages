@@ -89,6 +89,9 @@ $txt['behav_te_not_msie_log'] = 'L\'entête User-agent se définissait comme IE,
 $txt['behav_not_msnbot_desc'] = 'Votre requête est invalide ; elle indique que vous êtes associé à un moteur de recherche majeur, mais sans preuves tangibles.';
 $txt['behav_not_msnbot_log'] = 'L\'entête User-agent se définissait comme msnbot, mais sans le prouver.';
 
+$txt['behav_not_yahoobot_desc'] = 'Votre requête est invalide ; elle indique que vous êtes associé à un moteur de recherche majeur, mais sans preuves tangibles.';
+$txt['behav_not_yahoobot_log'] = 'L\'entête User-agent se définissait comme Yahoo, mais sans le prouver.';
+
 $txt['behav_not_googlebot_desc'] = 'Votre requête est invalide ; elle indique que vous êtes associé à un moteur de recherche majeur, mais sans preuves tangibles.';
 $txt['behav_not_googlebot_log'] = 'L\'entête User-agent se définissait comme Google, mais sans le prouver.';
 

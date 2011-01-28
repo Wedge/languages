@@ -540,6 +540,7 @@ $txt['database_paths_settings'] = 'Database and Paths';
 $txt['cookies_sessions_settings'] = 'Cookies and Sessions';
 $txt['caching_settings'] = 'Caching';
 $txt['load_balancing_settings'] = 'Load Balancing';
+$txt['proxy_settings'] = 'Proxy Settings';
 
 $txt['language_configuration'] = 'Languages';
 $txt['language_description'] = 'This section allows you to edit languages installed on your forum, download new ones from the Simple Machines website. You may also edit language-related settings here.';
