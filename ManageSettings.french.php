@@ -141,6 +141,11 @@ $txt['loadavg_forum'] = 'Limite pour désactiver <strong>complètement</strong> 
 $txt['loadavg_disabled_windows'] = '<span class="error">Les serveurs Windows ne supportent pas la répartition de charge.</span>';
 $txt['loadavg_disabled_conf'] = '<span class="error">La configuration de votre serveur ne supporte pas la répartition de charge.</span>';
 
+$txt['reverse_proxy'] = 'Ajouter le support des proxies inverses';
+$txt['reverse_proxy_header'] = 'Entête HTTP Proxy avec adresse IP';
+$txt['reverse_proxy_ips'] = 'IP ou bloc d\'adresses CIDR de serveurs proxy';
+$txt['reverse_proxy_one_per_line'] = 'N\'entrez qu\'adresse par ligne';
+
 $txt['setting_password_strength'] = 'Protection requise pour les mots de passe utilisateur';
 $txt['setting_password_strength_low'] = 'Basse - 4 caractères minimum';
 $txt['setting_password_strength_medium'] = 'Moyenne - Ne doit pas contenir l\'identifiant';

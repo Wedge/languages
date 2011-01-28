@@ -630,4 +630,8 @@ $helptxt['custom_mask'] = 'Le masque d\'entrée est important pour la sécurité
 	</div><br><br>
 	Vous pourrez trouver plus d\'informations et d\'exemples sur le Net.';
 
+$helptxt['reverse_proxy'] = 'Si vous utilisez Bad Behavior derrière un proxy inverse, un répartiteur de charge, un accélérateur HTTP, un cache de contenu ou une autre technologie similaire, activez cette option.';
+$helptxt['reverse_proxy_header'] = 'Votre ou vos serveurs proxy inverses doivent placer dans une entête HTTP l\'adresse IP du client Internet dont ils ont reçu la requête. En général, <a href="http://en.wikipedia.org/wiki/X-Forwarded-For">X-Forwarded-For</a> sera de mise, parce qu\'il est supporté par la plupart des serveurs proxy, mais assurez-vous bien qu\'il soit activé sur le vôtre. D\'autres entêtes possibles&nbsp;: "X-Real-Ip" (nginx) et "Cf-Connecting-Ip" (CloudFlare).';
+$helptxt['reverse_proxy_ips'] = 'Cette zone vous permet de lister les adresses IP dans le style classique (par ex. 127.0.0.1), ou par blocs CIDR (par ex. 127.0.0.0/8). Si vous avez une chaîne de deux (ou plus) proxies inverses entre votre serveur et l\'Internet public, vous devez spécifier <em>toutes</em> les zones IP (au format CIDR) de tous vos serveurs proxy, répartiteurs de charge, etc. Si vous ne le faites pas, il sera impossible de déterminer la véritable adresse IP du client.';
+
 ?>
