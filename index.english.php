@@ -452,9 +452,9 @@ $forum_copyright = 'Powered by <a href="http://wedgeforum.com/" title="Wedge For
 <br>Based on SMF &copy; 2006&ndash;2011, <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">Simple Machines LLC</a>';
 */
 $forum_copyright = '<a href="http://wedgeforum.com/" title="Wedge Forum" target="_blank" class="new_win">Wedge</a> is a work in progress.
-&copy; 2010, <a href="http://about.wedgeforum.com/" title="About Wedge" target="_blank" class="new_win">Wedgeward</a>';
+&copy; 2010&ndash;2011, <a href="http://about.wedgeforum.com/" title="About Wedge" target="_blank" class="new_win">Wedgeward</a>';
 $forum_copyright .= '<br><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Powered by %1$s</a> |
- <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2010, Simple Machines LLC</a>';
+ <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2011, Simple Machines LLC</a>';
 
 $txt['birthdays'] = 'Birthdays:';
 $txt['events'] = 'Events:';
