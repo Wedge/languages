@@ -130,7 +130,6 @@ $txt['credits_special'] = 'Remerciements spéciaux';
 $txt['credits_and'] = 'et';
 $txt['credits_anyone'] = 'Et à tous ceux que nous avons oubliés&nbsp;: merci&nbsp;!';
 $txt['credits_copyright'] = 'Copyrights';
-$txt['credits_removal_good'] = 'Ce forum a été autorisé à retirer l\'affichage du copyright jusqu\'à cette date&nbsp;: %1$s. (<a href="%2$s" target="_blank">Validité</a>)';
 $txt['credits_forum'] = 'Forum';
 $txt['credits_modifications'] = 'Spécialiste Extensions/Thèmes';
 $txt['credits_groups_ps'] = 'Support du Projet';
@@ -139,7 +138,8 @@ $txt['credits_groups_support'] = 'Spécialistes Support';
 $txt['credits_groups_customize'] = 'Personnaliseurs';
 $txt['credits_groups_docs'] = 'Responsables de la Documentation';
 $txt['credits_groups_marketing'] = 'Marketing';
-$txt['credits_groups_internationalizers'] = 'Internationalisation';
+$txt['credits_groups_internationalizers'] = 'Localisation';
+$txt['credits_groups_servers'] = 'Admins Réseau';
 // Replace "English" with the name of this language pack in the string below.
 $txt['credits_groups_translation'] = 'Traduction française';
 $txt['credits_groups_translators'] = 'Traducteurs';

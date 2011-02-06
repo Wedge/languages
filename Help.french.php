@@ -98,8 +98,8 @@ $helptxt['ban_members'] = '<strong>Bannir des membres</strong><br>
 	vous entrez simplement cette adresse IP, sauvegardez, et l\'utilisateur banni ne pourra plus poster depuis son ordinateur. <br>Vous pouvez aussi
 	bannir des gens par leur adresse e-mail.';
 
-$helptxt['featuresettings'] = '<strong>Modifier les Options et Fonctionnalités</strong><br>
-	Il y a plusieurs fonctionnalités dans cette section qui peuvent être changées à votre préférence.';
+$helptxt['featuresettings'] = '<strong>Fonctionnalités et Options</strong><br>
+	Il y a plusieurs fonctionnalités dans cette section qui peuvent être changées à votre goût.';
 
 $helptxt['securitysettings'] = '<strong>Sécurité et Modération</strong><br>
 	Cette section contient les réglages en relation avec la sécurité et la modération de votre forum.';

@@ -130,7 +130,6 @@ $txt['credits_special'] = 'Special Thanks';
 $txt['credits_and'] = 'and';
 $txt['credits_anyone'] = 'And for anyone we may have missed, thank you!';
 $txt['credits_copyright'] = 'Copyrights';
-$txt['credits_removal_good'] = 'This forum has been authorized to remove the copyright display until %1$s. (<a href="%2$s" target="_blank">Validate</a>)';
 $txt['credits_forum'] = 'Forum';
 $txt['credits_modifications'] = 'Add-on/Theme Specialists';
 $txt['credits_groups_ps'] = 'Project Support';
