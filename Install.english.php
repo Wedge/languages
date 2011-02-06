@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0 RC4; Install
+// Version: 2.0 RC5; Install
 
 // This should be the same as in index.language.php
 $txt['lang_rtl'] = false;

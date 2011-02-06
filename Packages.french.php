@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0 RC4; Packages
+// Version: 2.0 RC5; Packages
 
 $txt['package_proceed'] = 'Procéder';
 $txt['php_script'] = 'Le fichier d\'extension a été extrait, mais il est accompagné d\'un script PHP qui devrait être exécuté pour que tout fonctionne';

@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0 RC4; Packages
+// Version: 2.0 RC5; Packages
 
 $txt['package_proceed'] = 'Proceed';
 $txt['php_script'] = 'Add-on file was extracted, but this add-on also comes with a PHP script which should be executed before it will work';

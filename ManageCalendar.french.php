@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0 RC4; ManageCalendar
+// Version: 2.0 RC5; ManageCalendar
 
 $txt['calendar_desc'] = 'Ici vous pouvez modifier tous les aspects du calendrier.';
 
