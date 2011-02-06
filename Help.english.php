@@ -99,7 +99,7 @@ $helptxt['ban_members'] = '<strong>Ban Members</strong><br>
 	you simply type that IP address in, save, and they can no longer post from that location.<br>You can also
 	ban people through their email address.';
 
-$helptxt['featuresettings'] = '<strong>Edit Features and Options</strong><br>
+$helptxt['featuresettings'] = '<strong>Features and Options</strong><br>
 	There are several features in this section that can be changed to your preference.';
 
 $helptxt['securitysettings'] = '<strong>Security and Moderation</strong><br>

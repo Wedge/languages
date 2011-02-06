@@ -139,7 +139,8 @@ $txt['credits_groups_support'] = 'Support Specialists';
 $txt['credits_groups_customize'] = 'Customizers';
 $txt['credits_groups_docs'] = 'Documentation Writers';
 $txt['credits_groups_marketing'] = 'Marketing';
-$txt['credits_groups_internationalizers'] = 'Internationalizers';
+$txt['credits_groups_internationalizers'] = 'Localizers';
+$txt['credits_groups_servers'] = 'Servers Administrators';
 // Replace "English" with the name of this language pack in the string below.
 $txt['credits_groups_translation'] = 'English Translation';
 $txt['credits_groups_translators'] = 'Language Translators';
