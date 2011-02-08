@@ -328,7 +328,7 @@ $txt['print_page'] = 'Imprimer la page';
 $txt['valid_email'] = 'Ce doit être une adresse e-mail valide.';
 
 $txt['geek'] = 'Je suis un geek&nbsp;!!';
-$txt['info_center_title'] = '%1$s - Centre d\'informations';
+$txt['info_center_title'] = 'Centre d\'informations';
 
 $txt['send_topic'] = 'Partager';
 

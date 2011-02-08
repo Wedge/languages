@@ -328,7 +328,7 @@ $txt['print_page'] = 'Print Page';
 $txt['valid_email'] = 'This must be a valid email address.';
 
 $txt['geek'] = 'I am a geek!!';
-$txt['info_center_title'] = '%1$s - Info Center';
+$txt['info_center_title'] = 'Info Center';
 
 $txt['send_topic'] = 'Send this topic';
 
