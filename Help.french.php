@@ -270,11 +270,11 @@ $helptxt['enableCompressedOutput'] = 'Cette option compressera à la volée les 
 $helptxt['enableCompressedData'] = 'Cette option compressera les données CSS et Javascript après leur mise en cache. La librairie zlib doit être installée avant tout, et le fichier .htaccess doit être configuré correctement.
 		Ce processus permet d\'éviter au serveur de recompresser les fichiers CSS et JS à la volée quand ils sont téléchargés.
 		En cas de problème (page vierge de tout style graphique et pas de scripts actifs), désactivez au plus vite l\'option.';
-$helptxt['obfuscate_js'] = 'Cette option permet de modifier les noms des fichiers Javascript après leur mise en cache. Son unique intérêt est de permettre aux
+$helptxt['obfuscate_filenames'] = 'Cette option permet de modifier les noms des fichiers Javascript et CSS après leur mise en cache. Son unique intérêt est de permettre aux
 		développeurs Javascript de rendre plus difficile la vie des méchants voleurs de scripts qui vous en veulent, à vous, personnellement, c\'est sûr,
 		c\'est un complot.<br><br>
 		Bref, si les noms sont cryptés, ils ne pourront pas retrouver le fichier original non compressé. Évidemment, si la minification est désactivée,
-		ça ne sert strictement à rien. Je dis ça, je dis rien, c\'est pour vous.';
+		ça ne sert strictement à rien. Mais je dis ça, je dis rien moi, c\'est pour vous.';
 $helptxt['minify'] = 'Cette option permet de minifier les fichiers Javascript avant leur mise en cache. Si vous autorisez Wedge à minifier les fichiers, il retirera tous
 		les commentaires et l\'indentation inutile, ce qui accélèrera la vitesse de chargement du site. Seules les copies du cache sont modifiées, bien sûr.<br><br>
 		La compression avec Packer est plus efficace, mais si vos scripts sont mal fichus, ils planteront (utilisez <a href="http://www.jslint.com/" target="_blank">JSLint</a> pour les
