@@ -20,7 +20,7 @@ $txt['congratulations_help'] = 'Si, à tout moment, vous avez besoin de support,
 $txt['still_writable'] = 'Votre dossier d\'installation est toujours ouvert en écriture. Ça serait une bonne idée de changer ses droits d\'accès (chmod) afin de le fermer en écriture, pour des raisons de sécurité.';
 $txt['delete_installer'] = 'Cliquez ici pour effacer cet installateur maintenant.';
 $txt['delete_installer_maybe'] = '<em>(ne fonctionne pas sur tous les serveurs)</em>';
-$txt['go_to_your_forum'] = 'Maintenant, vous pouvez aller voir <a href="%1$s">votre tout nouveau forum</a> et commencer à l\'utiliser. Vous devrez d\'abord vous connecter, pour ensuite pouvoir accéder au Centre d\'administration.';
+$txt['go_to_your_forum'] = 'Vous pouvez dès maintenant commencer à utiliser votre <a href="%1$s">nouveau forum</a>. Vous devrez vous connecter avant de pouvoir accéder au Centre d\'administration.';
 $txt['good_luck'] = 'Bonne chance&nbsp;!<br>L\'équipe de Wedge';
 
 $txt['install_welcome'] = 'Bienvenue';
@@ -91,17 +91,17 @@ $txt['install_settings_name_default'] = 'Ma Communauté';
 $txt['install_settings_url'] = 'URL du forum';
 $txt['install_settings_url_info'] = 'Ceci est l\'URL de votre forum <strong>sans la barre oblique \'/\' finale&nbsp;!</strong>.<br>Dans la plupart des cas, vous pouvez laisser ainsi les valeurs par défaut - elles sont généralement correctes.';
 $txt['install_settings_compress'] = 'Compression Gzip';
-$txt['install_settings_compress_title'] = 'Compresse les données envoyées afin d\'économiser la bande passante.';
+$txt['install_settings_compress_title'] = 'Compresser les données envoyées afin d\'économiser la bande passante.';
 // In this string, you can translate the word "PASS" to change what it says when the test passes.
 $txt['install_settings_compress_info'] = 'Cette fonction ne fonctionne pas sur tous les serveurs, mais peut contribuer à économiser énormément la bande passante.<br>Cliquez <a href="install.php?obgz=1&amp;pass_string=REUSSI" onclick="return reqWin(this, 200, 60);" target="_blank">ici</a> pour tester. (Ça devrait seulement vous dire "REUSSI".)';
-$txt['install_settings_dbsession'] = 'Stocker les sessions dans la base de données';
-$txt['install_settings_dbsession_title'] = 'Utilisez la base de données pour stocker les sessions plutôt que d\'utiliser des fichiers.';
+$txt['install_settings_dbsession'] = 'Stockage des sessions';
+$txt['install_settings_dbsession_title'] = 'Utiliser la base de données pour stocker les sessions plutôt que d\'utiliser des fichiers.';
 $txt['install_settings_dbsession_info1'] = 'Cette fonction est une bonne solution la plupart du temps, rendant ainsi les sessions plus dépendantes du forum.';
 $txt['install_settings_dbsession_info2'] = 'Cette fonction est généralement une bonne idée, mais peut ne pas fonctionner sur ce serveur.';
-$txt['install_settings_stats'] = 'Autoriser la collecte de statistiques';
-$txt['install_settings_stats_title'] = 'Autorise Wedgeward à collecter des statistiques basiques tous les mois';
+$txt['install_settings_stats'] = 'Collecte de statistiques';
+$txt['install_settings_stats_title'] = 'Autoriser Wedgeward à collecter des statistiques basiques tous les mois';
 $txt['install_settings_stats_info'] = '(Inutilisé pour le moment.) Si activé, cela autorise l\'équipe de Wedge à visiter votre site au maximum une fois par mois pour y collecter des statistiques basiques. Cela nous aidera à faire des choix pour optimiser le script. Pour plus d\'informations veuillez visiter notre <a href="http://www.wedgeforum.com/" target="_blank">site officiel</a>.';
-$txt['install_settings_proceed'] = 'Procéder';
+$txt['install_settings_proceed'] = 'Continuer';
 
 $txt['db_settings'] = 'Paramètres du Serveur de Base de données';
 $txt['db_settings_info'] = 'Ce sont les paramètres à utiliser pour votre serveur de base de données. Si vous n\'en connaissez pas les valeurs, essayez de les demander à votre hébergeur.';
@@ -118,7 +118,7 @@ $txt['db_settings_prefix'] = 'Préfixe de Table';
 $txt['db_settings_prefix_info'] = 'Le préfixe pour chaque table de la base de données. <strong>Ne pas installer deux forums avec le même préfixe&nbsp;!</strong><br>Cette valeur permet d\'avoir plusieurs installations différentes sur une seule base de données.';
 $txt['db_populate'] = 'Base de Données remplie';
 $txt['db_populate_info'] = 'Vos paramètres ont été sauvegardés, et les données requises au bon fonctionnement du forum ont été insérées dans la base de données. Résumé du remplissage&nbsp;:';
-$txt['db_populate_info2'] = 'Cliquez &quot;Continuer&quot; pour accéder au processus de création du compte administrateur.';
+$txt['db_populate_info2'] = 'Cliquez sur &quot;Continuer&quot; pour accéder au processus de création du compte administrateur.';
 $txt['db_populate_inserts'] = '%1$d rangées insérées.';
 $txt['db_populate_tables'] = '%1$d tables créées.';
 $txt['db_populate_insert_dups'] = '%1$d insertions superflues ignorées.';
@@ -176,7 +176,7 @@ $txt['error_user_settings_taken'] = 'Désolé, un utilisateur est déjà inscrit
 $txt['error_user_settings_query'] = 'Une erreur de base de données s\'est produite lors de la création d\'un administrateur. L\'erreur était&nbsp;:';
 $txt['error_subs_missing'] = 'Incapable de trouver le fichier Sources/Subs.php. Veuillez vous assurer qu\'il a été transféré correctement, puis réessayez à nouveau.';
 $txt['error_db_alter_priv'] = 'Le compte de base de données que vous avez spécifié n\'a pas la permission de modifier (ALTER), créer (CREATE) et/ou supprimer (DROP) les tables de la base de données. Ces fonctions sont nécessaires au bon fonctionnement de Wedge.';
-$txt['error_versions_do_not_match'] = 'L\'installateur a détecté une autre version de Wedge déjà installée avec ces informations spécifiques. Si vous essayez de lancer la mise à jour, vous devez utiliser l\'upgradeur et non pas l\'installateur.<br><br>Ou alors, vous pouvez désirer utiliser des informations différentes, ou alors vous effectuez une sauvegarde puis vous supprimez les données actuellement dans la base de donnée.';
+$txt['error_versions_do_not_match'] = 'L\'installateur a détecté une autre version de Wedge déjà installée avec ces informations spécifiques. Si vous essayez de lancer la mise à jour, vous devez utiliser l\'upgradeur et non pas l\'installateur.<br><br>Si vous souhaitez installer un nouveau forum, renseignez des informations différentes, ou effectuez une sauvegarde et nettoyez la base de données.';
 $txt['error_mod_security'] = 'L\'installateur a détecté que le module <em>mod_security</em> est installé sur votre serveur web. <em>mod_security</em> bloquera les formulaires transmis avant même que Wedge ne puisse faire quoi que ce soit. Wedge inclut de base un scanner de sécurité plus efficace que mod_security et qui ne bloque pas les formulaires transmis.';
 $txt['error_mod_security_no_write'] = 'L\'installateur a détecté que le module <em>mod_security</em> est installé sur votre serveur web. <em>mod_security</em> bloquera les formulaires transmis avant même que Wedge ne puisse faire quoi que ce soit. Wedge inclut de base un scanner de sécurité plus efficace que mod_security et qui ne bloque pas les formulaires transmis.</a><br><br>Alternativement, vous pouvez aussi utiliser votre client FTP pour faire un chmod 777 sur le fichier .htaccess de votre répertoire du forum afin de le rendre inscriptible, et ensuite rafraîchir cette page.';
 $txt['error_valid_email_needed'] = 'Vous n\'avez pas entré d\'adresse e-mail valide.';
