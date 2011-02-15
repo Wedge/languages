@@ -509,7 +509,6 @@ $txt['bbcTagsToUse'] = 'Balises BBCodes activées';
 $txt['bbcTagsToUse_select'] = 'Sélectionnez toutes les balises pouvant être utilisées';
 $txt['bbcTagsToUse_select_all'] = 'Sélectionner toutes les balises';
 
-$txt['enableStickyTopics'] = 'Activer les sujets épinglés';
 $txt['enableParticipation'] = 'Activer l\'icône de participation';
 $txt['oldTopicDays'] = 'Temps avant qu\'un sujet ne soit mentionné comme ancien lors de l\'écriture d\'une réponse';
 $txt['oldTopicDays_zero'] = '0 pour désactiver';
