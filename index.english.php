@@ -252,6 +252,7 @@ $txt['ban_continue_browse'] = 'You may continue to browse the forum as a guest.'
 
 $txt['mark_as_read'] = 'Mark ALL messages as read';
 
+$txt['legend'] = 'Legend';
 $txt['locked_topic'] = 'Locked Topic';
 $txt['normal_topic'] = 'Normal Topic';
 $txt['participation_caption'] = 'Topic you have posted in';
