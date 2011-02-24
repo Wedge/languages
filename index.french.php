@@ -252,6 +252,7 @@ $txt['ban_continue_browse'] = 'Vous pouvez cependant continuer à naviguer sur l
 
 $txt['mark_as_read'] = 'Marquer TOUS les messages comme lus';
 
+$txt['legend'] = 'Légende';
 $txt['locked_topic'] = 'Sujet bloqué';
 $txt['normal_topic'] = 'Sujet normal';
 $txt['participation_caption'] = 'Sujet dans lequel vous êtes intervenu';
