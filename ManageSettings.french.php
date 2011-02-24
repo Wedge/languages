@@ -94,7 +94,7 @@ $txt['timeLoadPageEnable'] = 'Afficher le temps pris pour générer la page';
 $txt['disableHostnameLookup'] = 'Désactiver la recherche du nom d\'hôte';
 $txt['who_enabled'] = 'Activer &quot;Qui est en ligne&nbsp;?&quot;';
 $txt['make_email_viewable'] = 'Permettre la consultation des adresses e-mail';
-$txt['meta_keywords'] = 'Mots-clé Meta associés au forum<dfn>Pour les moteurs de recherche. Laisser vide pour les mots-clé par défaut.</dfn>';
+$txt['meta_keywords'] = 'Mots-clé Meta associés au forum<dfn>Pour les moteurs de recherche. Laisser vide pour désactiver.</dfn>';
 
 $txt['caching_information'] = '<div class="centertext" style="font-weight: bold; text-decoration: underline">Important&nbsp;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br>
 	SMF peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&nbsp;:<br>

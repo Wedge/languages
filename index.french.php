@@ -639,8 +639,8 @@ $txt['find_no_results'] = 'Pas de résultat';
 $txt['find_results'] = 'Résultats';
 $txt['find_close'] = 'Fermer';
 
-$txt['unread_since_visit'] = 'Messages non lus depuis votre dernière visite.';
-$txt['show_unread_replies'] = 'Réponses à vos messages.';
+$txt['show_unread'] = 'Messages non lus.';
+$txt['show_unread_replies'] = 'Réponses non lues.';
 
 $txt['change_color'] = 'Changer de couleur';
 
