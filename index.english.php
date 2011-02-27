@@ -576,10 +576,16 @@ $txt['who_viewing_topic'] = ' are viewing this topic.';
 $txt['who_viewing_board'] = ' are viewing this board.';
 $txt['who_member'] = 'Member';
 
+// RSS block
+$txt['rss'] = 'RSS - Latest Posts';
+$txt['rss_topic'] = 'This topic: <a href="%1$s">posts</a>';
+$txt['rss_board'] = 'This board: <a href="%1$s">posts</a> / <a href="%2$s">topics</a>';
+$txt['rss_blog'] = 'This blog: <a href="%1$s">posts</a> / <a href="%2$s">topics</a>';
+$txt['rss_forum'] = 'Whole forum: <a href="%1$s">posts</a> / <a href="%2$s">topics</a>';
+
 // Footer strings
 $txt['valid_html5'] = 'Valid HTML5!';
 $txt['wap2'] = 'WAP2';
-$txt['rss'] = 'RSS';
 $txt['html5'] = 'HTML5';
 $txt['html'] = 'HTML';
 
