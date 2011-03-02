@@ -575,10 +575,16 @@ $txt['who_viewing_topic'] = ' sur ce sujet';
 $txt['who_viewing_board'] = ' dans cette section.';
 $txt['who_member'] = 'Membre';
 
+// RSS block
+$txt['rss'] = 'RSS - Derniers Messages';
+$txt['rss_topic'] = 'Ce sujet&nbsp;: <a href="%1$s">messages</a>';
+$txt['rss_board'] = 'Ce forum&nbsp;: <a href="%1$s">messages</a> / <a href="%2$s">sujets</a>';
+$txt['rss_blog'] = 'Ce blog&nbsp;: <a href="%1$s">messages</a> / <a href="%2$s">sujets</a>';
+$txt['rss_forum'] = 'Tout le site&nbsp;: <a href="%1$s">messages</a> / <a href="%2$s">sujets</a>';
+
 // Footer strings
 $txt['valid_html5'] = 'HTML5 valide&nbsp;!';
 $txt['wap2'] = 'WAP2';
-$txt['rss'] = 'RSS';
 $txt['html5'] = 'HTML5';
 $txt['html'] = 'HTML';
 
@@ -640,8 +646,8 @@ $txt['find_no_results'] = 'Pas de résultat';
 $txt['find_results'] = 'Résultats';
 $txt['find_close'] = 'Fermer';
 
-$txt['show_unread'] = 'Messages non lus.';
-$txt['show_unread_replies'] = 'Réponses non lues.';
+$txt['show_unread'] = 'Messages non lus';
+$txt['show_unread_replies'] = 'Réponses non lues';
 
 $txt['change_color'] = 'Changer de couleur';
 
@@ -650,8 +656,8 @@ $txt['quickmod_delete_selected'] = 'Effacer la sélection';
 // In this string, don't use entities. (&amp;, etc.)
 $txt['show_personal_messages'] = 'Vous avez reçu un ou plusieurs nouveaux messages personnels.\\nVoulez-vous ouvrir une nouvelle fenêtre pour les consulter ?';
 
-$txt['previous_next_back'] = '&laquo; précédent';
-$txt['previous_next_forward'] = 'suivant &raquo;';
+$txt['previous_next_back'] = '&laquo; précédente';
+$txt['previous_next_forward'] = 'suivante &raquo;';
 
 $txt['movetopic_auto_board'] = '[SECTION]';
 $txt['movetopic_auto_topic'] = '[LIEN DE LA DISCUSSION]';

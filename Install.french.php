@@ -31,7 +31,7 @@ $txt['user_refresh_install'] = 'Forum Rafraîchi';
 $txt['user_refresh_install_desc'] = 'Lors de l\'installation, Wedge a trouvé, en utilisant les détails que vous avez fournis, qu\'au moins une des tables que l\'installateur doit créer existent déjà.<br>Toutes les tables manquantes de votre installation ont été recréées avec les données par défaut, mais aucune donnée n\'a été supprimée des tables existantes.';
 
 $txt['default_topic_subject'] = 'Bienvenue dans Wedge&nbsp;!';
-$txt['default_topic_message'] = 'Bienvenue dans l\'installateur du logiciel de forum Wedge&nbsp;!<br><br>Nous espérons que vous apprécierez votre nouveau forum. Si vous éprouvez des problèmes, n\'hésitez pas à <a href="http://www.wedgeforum.com/">nous contacter</a> pour obtenir de l\'assistance (en français la section appropriée).<br><br>Merci&nbsp;!<br>L\'équipe de Wedge';
+$txt['default_topic_message'] = 'Bienvenue dans l\'installateur du logiciel de forum Wedge&nbsp;!<br><br>Nous espérons que vous apprécierez votre nouveau forum. Si vous éprouvez des problèmes, n\'hésitez pas à <a href="http://www.wedgeforum.com/">nous contacter</a> pour obtenir de l\'assistance (en français dans la section appropriée).<br><br>Merci&nbsp;!<br>L\'équipe de Wedge';
 $txt['default_board_name'] = 'Discussions Générales';
 $txt['default_board_description'] = 'Une section pour discuter librement de tout et de rien.';
 $txt['default_board_url'] = 'general';

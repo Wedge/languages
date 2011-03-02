@@ -647,8 +647,8 @@ $txt['find_no_results'] = 'No results found';
 $txt['find_results'] = 'Results';
 $txt['find_close'] = 'Close';
 
-$txt['show_unread'] = 'Show any unread posts.';
-$txt['show_unread_replies'] = 'Show new replies to your posts.';
+$txt['show_unread'] = 'Show unread posts';
+$txt['show_unread_replies'] = 'New replies to my posts';
 
 $txt['change_color'] = 'Change Color';
 
