@@ -46,6 +46,7 @@ $txt['view_profile'] = 'View Profile';
 $txt['guest_title'] = 'Guest';
 $txt['author'] = 'Author';
 $txt['on'] = 'on';
+$txt['on_date'] = 'on %1$s';
 $txt['remove'] = 'Remove';
 $txt['start_new_topic'] = 'Start new topic';
 
