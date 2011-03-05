@@ -578,10 +578,12 @@ $txt['who_member'] = 'Membre';
 
 // RSS block
 $txt['rss'] = 'RSS - Derniers Messages';
-$txt['rss_topic'] = 'Ce sujet&nbsp;: <a href="%1$s">messages</a>';
-$txt['rss_board'] = 'Ce forum&nbsp;: <a href="%1$s">messages</a> / <a href="%2$s">sujets</a>';
-$txt['rss_blog'] = 'Ce blog&nbsp;: <a href="%1$s">messages</a> / <a href="%2$s">sujets</a>';
-$txt['rss_forum'] = 'Tout le site&nbsp;: <a href="%1$s">messages</a> / <a href="%2$s">sujets</a>';
+$txt['rss_current_topic'] = 'Ce sujet&nbsp;:';
+$txt['rss_current_board'] = 'Ce forum&nbsp;:';
+$txt['rss_current_blog'] = 'Ce blog&nsbp;:';
+$txt['rss_everywhere'] = 'Tout le site&nbsp;:';
+$txt['rss_posts'] = '<a href="%1$s">messages</a>';
+$txt['rss_topics'] = '<a href="%1$s">sujets</a>';
 
 // Footer strings
 $txt['valid_html5'] = 'HTML5 valide&nbsp;!';
