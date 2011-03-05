@@ -313,7 +313,11 @@ $txt['maintain_mode_on'] = 'Attention, ce forum est en \'Mode Maintenance\'.';
 $txt['read'] = 'Lu';
 $txt['times'] = 'fois';
 
-$txt['forum_stats'] = 'Stats du forum';
+$txt['forum_stats'] = 'Statistiques du site';
+$txt['board_stats'] = 'Statistiques du forum';
+$txt['blog_stats'] = 'Statistiques du blog';
+$txt['topic_stats'] = 'Statistiques du sujet';
+
 $txt['latest_member'] = 'Dernier membre';
 $txt['total_cats'] = 'Total des catégories';
 $txt['latest_post'] = 'Dernier message';
