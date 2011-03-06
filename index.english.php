@@ -588,7 +588,7 @@ $txt['rss_current_board'] = 'This board:';
 $txt['rss_current_blog'] = 'This blog:';
 $txt['rss_everywhere'] = 'Whole forum:';
 $txt['rss_posts'] = '<a href="%1$s">posts</a>';
-$txt['rss_topics'] = '<a href="%2$s">topics</a>';
+$txt['rss_topics'] = '<a href="%1$s">topics</a>';
 
 // Footer strings
 $txt['valid_html5'] = 'Valid HTML5!';
