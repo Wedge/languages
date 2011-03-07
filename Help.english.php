@@ -26,7 +26,7 @@ $helptxt['manage_boards'] = '
 			<ul class="normallist">
 				<li>
 					<strong>Stats</strong>
-					&nbsp;- A child board under the board of &quot;Baseball&quot;
+					&nbsp;- A sub-board under the board of &quot;Baseball&quot;
 				</li>
 			</ul>
 			<li><strong>Football</strong>
@@ -432,7 +432,7 @@ $helptxt['enableParticipation'] = 'This shows a little icon on the topics the us
 $helptxt['db_persist'] = 'Keeps the connection active to increase performance.  If you aren\'t on a dedicated server, this may cause you problems with your host.';
 $helptxt['ssi_db_user'] = 'Optional setting to use a different database user and password when you are using SSI.php.';
 
-$helptxt['countChildPosts'] = 'Checking this option will mean that posts and topics in a board\'s child board will count toward its totals on the index page.<br><br>This will make things notably slower, but means that a parent with no posts in it won\'t show \'0\'.';
+$helptxt['countChildPosts'] = 'Checking this option will mean that posts and topics in a board\'s sub-board will count toward its totals on the index page.<br><br>This will make things notably slower, but means that a parent with no posts in it won\'t show \'0\'.';
 $helptxt['fixLongWords'] = 'This option breaks words longer than a certain length into pieces so they don\'t disturb the forum\'s layout. (At least, not too much.) This option should not be set to a value under 40.';
 $helptxt['allow_ignore_boards'] = 'Checking this option will allow users to select boards they wish to ignore.';
 $helptxt['allow_ignore_topics'] = 'Checking this option will allow users to select topics they wish to ignore in <em>Unread replies</em> and <em>Unread posts</em>.';
