@@ -581,7 +581,7 @@ $txt['who_viewing_board'] = ' dans cette section.';
 $txt['who_member'] = 'Membre';
 
 // RSS block
-$txt['rss'] = 'RSS - Derniers Messages';
+$txt['rss'] = 'Flux RSS';
 $txt['rss_current_topic'] = 'Ce sujet&nbsp;:';
 $txt['rss_current_board'] = 'Ce forum&nbsp;:';
 $txt['rss_current_blog'] = 'Ce blog&nsbp;:';
