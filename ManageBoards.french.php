@@ -75,8 +75,8 @@ $txt['mboards_current_redirects'] = 'Actuellement&nbsp;: %1$s';
 $txt['mboards_redirect_disabled'] = 'Note&nbsp;: la section doit être vide de sujets pour activer cette option.';
 $txt['mboards_redirect_disabled_recycle'] = 'Note&nbsp;: la section de recyclage ne peut pas être définie comme section de redirection.';
 
-$txt['mboards_order_before'] = 'Avant';
-$txt['mboards_order_child_of'] = 'Sous-section de';
+$txt['mboards_order_before'] = 'Avant ';
+$txt['mboards_order_child_of'] = 'Sous-section de ';
 $txt['mboards_order_in_category'] = 'Dans la catégorie';
 $txt['mboards_current_position'] = 'Position actuelle';
 $txt['no_valid_parent'] = 'La section %1$s n\'a pas de section parente valide. Demandez à l\'administrateur d\'utiliser la fonction \'Chercher et réparer les erreurs\' du panneau <em>Maintenance du forum</em> pour corriger cela.';
