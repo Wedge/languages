@@ -16,7 +16,7 @@ $txt['smf_installer'] = 'Installation de Wedge';
 $txt['installer_language'] = 'Langue';
 $txt['installer_language_set'] = 'Régler';
 $txt['congratulations'] = 'Félicitations, le processus d\'installation est terminé&nbsp;!';
-$txt['congratulations_help'] = 'Si, à tout moment, vous avez besoin de support, ou bien si Wedge ne fonctionne pas correctement, rappelez-vous que <a href="http://www.wedgeforum.com/" target="_blank">l\'aide an anglais est disponible</a> (vous trouverez aussi une section en français).';
+$txt['congratulations_help'] = 'Si, à tout moment, vous avez besoin de support, ou bien si Wedge ne fonctionne pas correctement, rappelez-vous que <a href="http://wedge.org/" target="_blank">l\'aide an anglais est disponible</a> (vous trouverez aussi une section en français).';
 $txt['still_writable'] = 'Votre dossier d\'installation est toujours ouvert en écriture. Ça serait une bonne idée de changer ses droits d\'accès (chmod) afin de le fermer en écriture, pour des raisons de sécurité.';
 $txt['delete_installer'] = 'Cliquez ici pour effacer cet installateur maintenant.';
 $txt['delete_installer_maybe'] = '<em>(ne fonctionne pas sur tous les serveurs)</em>';
@@ -31,7 +31,7 @@ $txt['user_refresh_install'] = 'Forum Rafraîchi';
 $txt['user_refresh_install_desc'] = 'Lors de l\'installation, Wedge a trouvé, en utilisant les détails que vous avez fournis, qu\'au moins une des tables que l\'installateur doit créer existent déjà.<br>Toutes les tables manquantes de votre installation ont été recréées avec les données par défaut, mais aucune donnée n\'a été supprimée des tables existantes.';
 
 $txt['default_topic_subject'] = 'Bienvenue dans Wedge&nbsp;!';
-$txt['default_topic_message'] = 'Bienvenue dans l\'installateur du logiciel de forum Wedge&nbsp;!<br><br>Nous espérons que vous apprécierez votre nouveau forum. Si vous éprouvez des problèmes, n\'hésitez pas à <a href="http://www.wedgeforum.com/">nous contacter</a> pour obtenir de l\'assistance (en français dans la section appropriée).<br><br>Merci&nbsp;!<br>L\'équipe de Wedge';
+$txt['default_topic_message'] = 'Bienvenue dans l\'installateur du logiciel de forum Wedge&nbsp;!<br><br>Nous espérons que vous apprécierez votre nouveau forum. Si vous éprouvez des problèmes, n\'hésitez pas à <a href="http://wedge.org/">nous contacter</a> pour obtenir de l\'assistance (en français dans la section appropriée).<br><br>Merci&nbsp;!<br>L\'équipe de Wedge';
 $txt['default_board_name'] = 'Discussions Générales';
 $txt['default_board_description'] = 'Une section pour discuter librement de tout et de rien.';
 $txt['default_board_url'] = 'general';
@@ -100,7 +100,7 @@ $txt['install_settings_dbsession_info1'] = 'Cette fonction est une bonne solutio
 $txt['install_settings_dbsession_info2'] = 'Cette fonction est généralement une bonne idée, mais peut ne pas fonctionner sur ce serveur.';
 $txt['install_settings_stats'] = 'Collecte de statistiques';
 $txt['install_settings_stats_title'] = 'Autoriser Wedgeward à collecter des statistiques basiques tous les mois';
-$txt['install_settings_stats_info'] = '(Inutilisé pour le moment.) Si activé, cela autorise l\'équipe de Wedge à visiter votre site au maximum une fois par mois pour y collecter des statistiques basiques. Cela nous aidera à faire des choix pour optimiser le script. Pour plus d\'informations veuillez visiter notre <a href="http://www.wedgeforum.com/" target="_blank">site officiel</a>.';
+$txt['install_settings_stats_info'] = '(Inutilisé pour le moment.) Si activé, cela autorise l\'équipe de Wedge à visiter votre site au maximum une fois par mois pour y collecter des statistiques basiques. Cela nous aidera à faire des choix pour optimiser le script. Pour plus d\'informations veuillez visiter notre <a href="http://wedge.org/" target="_blank">site officiel</a>.';
 $txt['install_settings_proceed'] = 'Continuer';
 
 $txt['db_settings'] = 'Paramètres du Serveur de Base de données';
@@ -180,10 +180,10 @@ $txt['error_versions_do_not_match'] = 'L\'installateur a détecté une autre ver
 $txt['error_mod_security'] = 'L\'installateur a détecté que le module <em>mod_security</em> est installé sur votre serveur web. <em>mod_security</em> bloquera les formulaires transmis avant même que Wedge ne puisse faire quoi que ce soit. Wedge inclut de base un scanner de sécurité plus efficace que mod_security et qui ne bloque pas les formulaires transmis.';
 $txt['error_mod_security_no_write'] = 'L\'installateur a détecté que le module <em>mod_security</em> est installé sur votre serveur web. <em>mod_security</em> bloquera les formulaires transmis avant même que Wedge ne puisse faire quoi que ce soit. Wedge inclut de base un scanner de sécurité plus efficace que mod_security et qui ne bloque pas les formulaires transmis.</a><br><br>Alternativement, vous pouvez aussi utiliser votre client FTP pour faire un chmod 777 sur le fichier .htaccess de votre répertoire du forum afin de le rendre inscriptible, et ensuite rafraîchir cette page.';
 $txt['error_valid_email_needed'] = 'Vous n\'avez pas entré d\'adresse e-mail valide.';
-$txt['error_already_installed'] = 'L\'installateur a détecté que Wedge est déjà installé. Il est fortement recommandé de ne <strong>pas</strong> essayer d\'écraser une installation existante - continuer l\'installation <strong>peut provoquer la perte ou la corruption des données existantes</strong>.<br><br>Si vous voulez effectuer une mise à jour, veuillez visiter le <a href="http://www.wedgeforum.com">site web de Wedge</a> et télécharger la dernière <em>mise à jour</em>.<br><br>Si vous voulez écraser votre installation existante, y compris toutes ses données, il est recommandé d\'effacer manuellement les tables de la base de données, de remplacer le fichier Settings.php et de réessayer.';
+$txt['error_already_installed'] = 'L\'installateur a détecté que Wedge est déjà installé. Il est fortement recommandé de ne <strong>pas</strong> essayer d\'écraser une installation existante - continuer l\'installation <strong>peut provoquer la perte ou la corruption des données existantes</strong>.<br><br>Si vous voulez effectuer une mise à jour, veuillez visiter le <a href="http://wedge.org/">site web de Wedge</a> et télécharger la dernière <em>mise à jour</em>.<br><br>Si vous voulez écraser votre installation existante, y compris toutes ses données, il est recommandé d\'effacer manuellement les tables de la base de données, de remplacer le fichier Settings.php et de réessayer.';
 $txt['error_warning_notice'] = 'Attention&nbsp;!';
 $txt['error_script_outdated'] = 'Ce script d\'installation n\'est pas à jour&nbsp;! La version actuelle de Wedge est %1$s mais le script d\'installation est pour %2$s.<br><br>
-	Nous vous recommandons de visiter le site de <a href="http://www.wedgeforum.com">Wedge</a> pour vous assurer que vous installez bien la dernière version.';
+	Nous vous recommandons de visiter le site de <a href="http://wedge.org/">Wedge</a> pour vous assurer que vous installez bien la dernière version.';
 $txt['error_invalid_characters_username'] = 'Un caractère invalide a été utilisé dans le Nom d\'utilisateur.';
 $txt['error_username_too_long'] = 'Le Nom d\'utilisateur doit faire moins de 25 caractères.';
 $txt['error_username_left_empty'] = 'Vous n\'avez pas rempli le champ Nom d\'utilisateur.';
@@ -210,7 +210,7 @@ $txt['upgrade_not_quite_done'] = 'Une seconde, ce n\'est pas fini&nbsp;!';
 $txt['upgrade_paused_overload'] = 'La mise à jour a été mise en pause afin d\'éviter de surcharger votre serveur. Ne vous inquiétez pas, aucun souci, cliquez simplement sur le bouton <label for="contbutt">Continuer</label> ci-dessous pour continuer.';
 
 $txt['upgrade_ready_proceed'] = 'Merci d\'avoir choisi de mettre à jour Wedge en version %1$s. Tous les fichiers semblent être où il faut, on commence quand vous voulez.';
-$txt['upgrade_error_script_js'] = 'Le script de mise à jour n\'a pas trouvé script.js, ou il n\'est pas à jour. Assurez-vous que les chemins vers les thèmes sont correctement renseignés. Vous pouvez vous procurer sur le <a href="http://www.wedgeforum.com/">site web de Wedge</a> un outil de vérification des paramètres';
-$txt['upgrade_warning_out_of_date'] = 'Ce script de mise à jour n\'est pas... à jour ! La version actuelle de Wedge est <em id="smfVersion" class="nowrap">??</em> mais ce script est pour la version <em id="yourVersion" style="white-space: nowrap;">%1$s</em>.<br><br>Nous vous recommandons de vous rendre sur le site de <a href="http://www.wedgeforum.com/">Wedge</a> pour vous assurer que vous mettez à jour vers la dernière version en date.';
+$txt['upgrade_error_script_js'] = 'Le script de mise à jour n\'a pas trouvé script.js, ou il n\'est pas à jour. Assurez-vous que les chemins vers les thèmes sont correctement renseignés. Vous pouvez vous procurer sur le <a href="http://wedge.org/">site web de Wedge</a> un outil de vérification des paramètres';
+$txt['upgrade_warning_out_of_date'] = 'Ce script de mise à jour n\'est pas... à jour ! La version actuelle de Wedge est <em id="smfVersion" class="nowrap">??</em> mais ce script est pour la version <em id="yourVersion" style="white-space: nowrap;">%1$s</em>.<br><br>Nous vous recommandons de vous rendre sur le site de <a href="http://wedge.org/">Wedge</a> pour vous assurer que vous mettez à jour vers la dernière version en date.';
 
 ?>

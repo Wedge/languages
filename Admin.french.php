@@ -106,7 +106,7 @@ $txt['agreement_not_writable'] = 'Attention - agreement.txt n\'est PAS accessibl
 $txt['version_check_desc'] = 'Ceci vous montre la version de vos fichiers installés comparés à ceux de la dernière version. Si un de ces fichiers n\'est pas à jour, vous devriez télécharger et installer la dernière version sur <a href="http://www.simplemachines.org/" target="_blank">www.simplemachines.org</a>.';
 $txt['version_check_more'] = '(plus de détails)';
 
-$txt['lfyi'] = 'Impossible de récupérer les news de WedgeForum.';
+$txt['lfyi'] = 'Impossible de récupérer les news de Wedge.org.';
 
 $txt['manage_calendar'] = 'Calendrier';
 $txt['manage_search'] = 'Recherche';

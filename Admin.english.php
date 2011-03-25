@@ -106,7 +106,7 @@ $txt['agreement_not_writable'] = 'Warning - agreement.txt is not writable, any c
 $txt['version_check_desc'] = 'This shows you the versions of your installation\'s files versus those of the latest version. If any of these files are out of date, you should download and upgrade to the latest version at <a href="http://www.simplemachines.org/" target="_blank" class="new_win">www.simplemachines.org</a>.';
 $txt['version_check_more'] = '(more detailed)';
 
-$txt['lfyi'] = 'Unable to retrieve WedgeForum\'s latest news.';
+$txt['lfyi'] = 'Unable to retrieve Wedge.org\'s latest news.';
 
 $txt['manage_calendar'] = 'Calendar';
 $txt['manage_search'] = 'Search';

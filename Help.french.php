@@ -139,7 +139,7 @@ $helptxt['time_format'] = '<strong>Format de l\'heure</strong><br>
 	<em>* Ne fonctionnent pas sur les serveurs Windows.</em></div>';
 
 $helptxt['live_news'] = '<strong>En direct de Wedge...</strong><br>
-	Cette boîte affiche les dernières dépêches en provenance de <a href="http://www.wedgeforum.com/" target="_blank">www.wedgeforum.com</a>.
+	Cette boîte affiche les dernières dépêches en provenance de <a href="http://wedge.org/" target="_blank">Wedge.org</a>.
 	Vous devriez y surveiller les annonces concernant les mises à jour, nouvelles versions de Wedge et informations importantes de l\'équipe.';
 
 $helptxt['registrations'] = '<strong>Gestion des inscriptions</strong><br>

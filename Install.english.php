@@ -16,7 +16,7 @@ $txt['smf_installer'] = 'Wedge Installer';
 $txt['installer_language'] = 'Language';
 $txt['installer_language_set'] = 'Set';
 $txt['congratulations'] = 'Congratulations, the installation process is complete!';
-$txt['congratulations_help'] = 'If at any time you need support, or Wedge fails to work properly, please remember that <a href="http://www.wedgeforum.com/" target="_blank">help is available</a> if you need it.';
+$txt['congratulations_help'] = 'If at any time you need support, or Wedge fails to work properly, please remember that <a href="http://wedge.org/" target="_blank">help is available</a> if you need it.';
 $txt['still_writable'] = 'Your installation directory is still writable. It\'s a good idea to chmod it so that it is not writable for security reasons.';
 $txt['delete_installer'] = 'Click here to delete this install.php file now.';
 $txt['delete_installer_maybe'] = '<em>(doesn\'t work on all servers.)</em>';
@@ -31,7 +31,7 @@ $txt['user_refresh_install'] = 'Forum Refreshed';
 $txt['user_refresh_install_desc'] = 'While installing, the installer found that (with the details you provided) one or more of the tables this installer might create already existed.<br>Any missing tables in your installation have been recreated with the default data, but no data was deleted from existing tables.';
 
 $txt['default_topic_subject'] = 'Welcome to Wedge!';
-$txt['default_topic_message'] = 'Welcome to the Wedge forum software!<br><br>We hope you enjoy using your forum.&nbsp; If you have any problems, please feel free to <a href="http://www.wedgeforum.com/">ask us for assistance</a>.<br><br>Thanks!<br>The Wedge Team.';
+$txt['default_topic_message'] = 'Welcome to the Wedge forum software!<br><br>We hope you enjoy using your forum.&nbsp; If you have any problems, please feel free to <a href="http://wedge.org/">ask us for assistance</a>.<br><br>Thanks!<br>The Wedge Team.';
 $txt['default_board_name'] = 'General Discussion';
 $txt['default_board_description'] = 'Feel free to talk about anything and everything in this board.';
 $txt['default_board_url'] = 'general';
@@ -100,7 +100,7 @@ $txt['install_settings_dbsession_info1'] = 'This feature is almost always for th
 $txt['install_settings_dbsession_info2'] = 'This feature is generally a good idea, but may not work properly on this server.';
 $txt['install_settings_stats'] = 'Allow Stat Collection';
 $txt['install_settings_stats_title'] = 'Allow Wedgeward to collect basic statistics monthly';
-$txt['install_settings_stats_info'] = '(Not used for now.) If enabled, this will allow the Wedge Team to visit your site once a month to collect basic statistics. This will help us make decisions as to which configurations to optimize the software for. For more information please visit our <a href="http://www.wedgeforum.com/" target="_blank">official website</a>.';
+$txt['install_settings_stats_info'] = '(Not used for now.) If enabled, this will allow the Wedge Team to visit your site once a month to collect basic statistics. This will help us make decisions as to which configurations to optimize the software for. For more information please visit our <a href="http://wedge.org/" target="_blank">official website</a>.';
 $txt['install_settings_proceed'] = 'Proceed';
 
 $txt['db_settings'] = 'Database Server Settings';
@@ -182,10 +182,10 @@ $txt['error_versions_do_not_match'] = 'The installer has detected another versio
 $txt['error_mod_security'] = 'The installer has detected the mod_security module is installed on your web server. Mod_security will block submitted forms even before Wedge gets a say in anything. Wedge has a built-in security scanner that will work more effectively than mod_security and that won\'t block submitted forms.';
 $txt['error_mod_security_no_write'] = 'The installer has detected the mod_security module is installed on your web server. Mod_security will block submitted forms even before Wedge gets a say in anything. Wedge has a built-in security scanner that will work more effectively than mod_security and that won\'t block submitted forms.<br><br>Alternatively, you may wish to use your ftp client to chmod .htaccess in the forum directory to be writable (777), and then refresh this page.';
 $txt['error_valid_email_needed'] = 'You have not entered a valid email address.';
-$txt['error_already_installed'] = 'The installer has detected that you already have Wedge installed. It is strongly advised that you do <strong>not</strong> try to overwrite an existing installation - continuing with installation <strong>may result in the loss or corruption of existing data</strong>.<br><br>If you wish to upgrade please visit the <a href="http://www.wedgeforum.com">WedgeForum Website</a> and download the latest <em>upgrade</em> pack.<br><br>If you wish to overwrite your existing installation, including all data, it\'s recommended that you delete the existing database tables and replace Settings.php and try again.';
+$txt['error_already_installed'] = 'The installer has detected that you already have Wedge installed. It is strongly advised that you do <strong>not</strong> try to overwrite an existing installation - continuing with installation <strong>may result in the loss or corruption of existing data</strong>.<br><br>If you wish to upgrade please visit the <a href="http://wedge.org/">Wedge website</a> and download the latest <em>upgrade</em> pack.<br><br>If you wish to overwrite your existing installation, including all data, it\'s recommended that you delete the existing database tables and replace Settings.php and try again.';
 $txt['error_warning_notice'] = 'Warning!';
 $txt['error_script_outdated'] = 'This install script is out of date! The current version of Wedge is %1$s but this install script is for %2$s.<br><br>
-	It is recommended that you visit the <a href="http://www.wedgeforum.com">WedgeForum</a> website to ensure you are installing the latest version.';
+	It is recommended that you visit the <a href="http://wedge.org/">Wedge</a> website to ensure you are installing the latest version.';
 $txt['error_invalid_characters_username'] = 'Invalid character used in Username.';
 $txt['error_username_too_long'] = 'Username must be less than 25 characters long.';
 $txt['error_username_left_empty'] = 'Username field was left empty.';
@@ -213,6 +213,6 @@ $txt['upgrade_paused_overload'] = 'This upgrade has been paused to avoid overloa
 
 $txt['upgrade_ready_proceed'] = 'Thank you for choosing to upgrade to Wedge %1$s. All files appear to be in place, and we\'re ready to proceed.';
 $txt['upgrade_error_script_js'] = 'The upgrade script cannot find script.js or it is out of date. Make sure your theme paths are correct. You can download a setting checker tool from the community.';
-$txt['upgrade_warning_out_of_date'] = 'This upgrade script is out of date! The current version of Wedge is <em id="smfVersion" class="nowrap">??</em> but this upgrade script is for <em id="yourVersion" style="white-space: nowrap;">%1$s</em>.<br><br>It is recommended that you visit the <a href="http://www.wedgeforum.com">WedgeForum</a> website to ensure you are upgrading to the latest version.';
+$txt['upgrade_warning_out_of_date'] = 'This upgrade script is out of date! The current version of Wedge is <em id="smfVersion" class="nowrap">??</em> but this upgrade script is for <em id="yourVersion" style="white-space: nowrap;">%1$s</em>.<br><br>It is recommended that you visit the <a href="http://wedge.org/">Wedge</a> website to ensure you are upgrading to the latest version.';
 
 ?>
