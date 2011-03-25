@@ -139,8 +139,8 @@ $txt['remove_message_confirm'] = 'Effacer ce message ?';
 
 $txt['online_users'] = 'Membres en ligne';
 $txt['personal_message'] = 'Message personnel';
-$txt['jump_to'] = 'Aller à';
-$txt['go'] = ' Allons-y&nbsp;! ';
+$txt['jump_to'] = 'Aller vers&nbsp;';
+$txt['go'] = 'OK';
 $txt['are_sure_remove_topic'] = 'Êtes-vous sûr de vouloir effacer ce sujet ?';
 $txt['yes'] = 'Oui';
 $txt['no'] = 'Non';
@@ -258,7 +258,7 @@ $txt['locked_topic'] = 'Sujet bloqué';
 $txt['normal_topic'] = 'Sujet normal';
 $txt['participation_caption'] = 'Sujet dans lequel vous êtes intervenu';
 
-$txt['go_caps'] = 'Aller';
+$txt['go_caps'] = 'OK !';
 
 $txt['print'] = 'Imprimer';
 $txt['profile'] = 'Profil';
