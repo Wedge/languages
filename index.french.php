@@ -550,7 +550,7 @@ $txt['quick_mod_sticky'] = '(D)épingler la sélection';
 $txt['quick_mod_move'] = 'Déplacer la sélection vers';
 $txt['quick_mod_merge'] = 'Fusionner la sélection';
 $txt['quick_mod_markread'] = 'Marquer la sélection comme lue';
-$txt['quick_mod_go'] = ' Allons-y ! ';
+$txt['quick_mod_go'] = 'OK';
 $txt['quickmod_confirm'] = 'Êtes-vous sûr de vouloir faire cela ?';
 
 $txt['spell_check'] = 'Vérification orthographique';
