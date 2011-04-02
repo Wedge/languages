@@ -95,7 +95,7 @@ $txt['usermenu_addbuddy'] = 'Ajouter à mes amis';
 $txt['usermenu_removebuddy'] = 'Retirer de mes amis';
 
 $txt['message_index'] = 'Index des messages';
-$txt['news'] = 'Nouvelles';
+$txt['news'] = 'À la une';
 $txt['home'] = 'Accueil';
 
 $txt['lock_unlock'] = '(Dé)bloquer le sujet';
