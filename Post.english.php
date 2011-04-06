@@ -52,6 +52,7 @@ $txt['excamation_point'] = 'Exclamation point';
 $txt['question_mark'] = 'Question mark';
 $txt['lamp'] = 'Lamp';
 $txt['add_smileys'] = 'Add Smileys';
+$txt['media'] = 'Upload a media file';
 $txt['flash'] = 'Insert Flash';
 $txt['ftp'] = 'Insert FTP Link';
 $txt['image'] = 'Insert Image';

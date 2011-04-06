@@ -132,7 +132,7 @@ $txt['credits_anyone'] = 'And for anyone we may have missed, thank you!';
 $txt['credits_copyright'] = 'Copyrights';
 $txt['credits_forum'] = 'Forum';
 $txt['credits_modifications'] = 'Add-on/Theme Specialists';
-$txt['credits_groups_ps'] = 'Project Support';
+$txt['credits_groups_ps'] = 'Founders &amp; Project Managers';
 $txt['credits_groups_dev'] = 'Developers';
 $txt['credits_groups_support'] = 'Support Specialists';
 $txt['credits_groups_customize'] = 'Customizers';
@@ -143,7 +143,7 @@ $txt['credits_groups_servers'] = 'Servers Administrators';
 // Replace "English" with the name of this language pack in the string below.
 $txt['credits_groups_translation'] = 'English Translation';
 $txt['credits_groups_translators'] = 'Language Translators';
-$txt['credits_translators_message'] = 'Thank you for your efforts which make it possible for people all around the world to use SMF.';
+$txt['credits_translators_message'] = 'Thank you for your efforts. They make it possible for people all around the world to use Wedge.';
 $txt['credits_groups_consultants'] = 'Consulting Developers';
 $txt['credits_groups_beta'] = 'Beta Testers';
 $txt['credits_beta_message'] = 'The invaluable few who tirelessly find bugs, provide feedback, and drive the developers crazier.';
@@ -151,4 +151,5 @@ $txt['credits_groups_founder'] = 'Founding Father of SMF';
 
 // List of people who have made more than a token contribution to this translation. (blank for English)
 $txt['translation_credits'] = array();
+
 ?>

@@ -797,4 +797,15 @@ $txt['click_for_spoiler'] = '(cliquez pour montrer/cacher)';
 
 $txt['readmore'] = '(Reste %1$d caractères)';
 
+// Media Gallery
+$txt['media_gallery'] = 'Media';
+$txt['media_home'] = 'Accueil';
+$txt['media_unseen'] = 'À voir';
+$txt['media_profile_sum'] = 'Résumé';
+$txt['media_view_items'] = 'Voir les éléments';
+$txt['media_view_coms'] = 'Voir les commentaires';
+$txt['media_view_votes'] = 'Voir les votes';
+$txt['media_gotolink'] = 'Détails';
+$txt['media_zoom'] = 'Zoom';
+
 ?>

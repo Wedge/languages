@@ -649,4 +649,57 @@ $helptxt['reverse_proxy'] = 'If you are using Bad Behavior behind a reverse prox
 $helptxt['reverse_proxy_header'] = 'Your reverse proxy server(s) must set the IP address of the Internet client from which they received the request in a HTTP header. Typically, <a href="http://en.wikipedia.org/wiki/X-Forwarded-For">X-Forwarded-For</a> will be used, as this is supported by most proxy servers, though you will need to ensure that it is enabled on your proxy servers. Some other header names in common use include "X-Real-Ip" (nginx) and "Cf-Connecting-Ip" (CloudFlare).';
 $helptxt['reverse_proxy_ips'] = 'This area needs to list the IP addresses (e.g. 127.0.0.1) or CIDR blocks (e.g. 127.0.0.0/8) style format. If you have a chain of two or more reverse proxies between your server and the public Internet, you must specify <em>all</em> of the IP address ranges (in CIDR format) of all of your proxy servers, load balancers, etc. Otherwise, it may not be possible to determine the client\'s true IP address.';
 
+// Help popup for the Media tag...
+$helptxt['mediatag'] = '
+	<h1>[media] tag ~ the basics</h1>
+	A quick example:
+	<br><b>[media id=123 type=preview align=center width=400 caption="Hello, world!"]</b>
+	<br>This will show in your posts a center-aligned mid-size (preview) picture, resized to 400 pixels wide, with a caption below it. All parameters are optional, except for the item ID.
+	<br>
+	<br><b>[media id=1 type=album]</b>
+	<br>This will show in your posts the latest items in your first album. They will be shown using the box type (see below).
+	<br><br>
+	<b>Possible values:</b>
+	<br>- type=<i>normal, box, link, preview, full, album</i>
+	<br>- align=<i>none, left, center, right</i>
+	<br>- width=<i>123</i> (in pixels)
+	<br>- caption=<i>&quot;Caption text&quot;</i> or caption=<i>SingleWordText</i>
+	<br><br>
+	<b>id</b>
+	<ul class="normallist">
+		<li>All items are identified by a specific number which you can see in its URL. Just use it here. This is the only parameter that is <b>NOT</b> optional.
+		You may specify several items by separating them with commas, as in "[media id=1,2,3 type=album]".</li>
+	</ul>
+	<br>
+	<b>type</b>
+	<ul class="normallist">
+		<li><b>normal</b> (default, except if set up differently) - show the thumbnail. Click on it to show a preview.</li>
+		<li><b>av</b> - embed an audio or video item within a player. If you do not use this parameter, the item\'s thumbnail will show up as expected, but clicking on it will load the file directly. You don\'t want that to happen. Really.</li>
+		<li><b>box</b> - show the thumbnail box, with full details, as in the Media Gallery pages. Clicking on the thumbnail will lead you to the item page.</li>
+		<li><b>link</b> - just like the default, except that the caption is clickable and leads you to the item page. If no caption is set, a default link will be shown instead.</li>
+		<li><b>preview</b> (may be default if set up accordingly) - show the preview picture (halfway between thumbnail and full picture.)</li>
+		<li><b>full</b> (may be default if set up accordingly) - show the full picture. Make sure you set the width parameter!</li>
+		<li><b>album</b> - show the latest items from the album(s) indicated in id. They will be shown using the <b>box</b> type.</li>
+	</ul>
+	<br>
+	<b>align</b>
+	<ul class="normallist">
+		<li><b>none</b> (default) - normal alignment. Will not allow thumbnails to its right or left.</li>
+		<li><b>left</b> - left-align the thumbnail. Use several left-aligned [media] tags to show thumbnails next to each other.</li>
+		<li><b>center</b> - center-align the thumbnail. Will not allow thumbnails to its right or left, except if showing them in this order: [media align=left][media align=right][media align=center]</li>
+		<li><b>right</b> - same as <i>left</i>, but right-aligned. You got it.</li>
+	</ul>
+	<br>
+	<b>width</b>
+	<ul class="normallist">
+		<li>Any number higher than zero will do. This parameter is only needed if you want to force a specific width.</li>
+		<li>Set the tag type according to the desired size. For instance, if your thumbnails have a default width of 120, and previews are 500 pixels wide, use [media type=preview] if you\'re forcing a width of 300 to 500 pixels, otherwise the resulting thumbnail will be very blurry.</li>
+	</ul>
+	<br>
+	<b>caption</b>
+	<ul class="normallist">
+		<li>Show a caption below the thumbnail (if type is set to link, the caption will be clickable and lead you to the item page.)</li>
+		<li>Any string will do. If it contains spaces or brackets, be sure to enclose it between &quot;double quotes&quot;.</li>
+	</ul>';
+
 ?>

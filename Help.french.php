@@ -632,4 +632,59 @@ $helptxt['reverse_proxy'] = 'Si vous utilisez Bad Behavior derrière un proxy in
 $helptxt['reverse_proxy_header'] = 'Votre ou vos serveurs proxy inverses doivent placer dans une entête HTTP l\'adresse IP du client Internet dont ils ont reçu la requête. En général, <a href="http://en.wikipedia.org/wiki/X-Forwarded-For">X-Forwarded-For</a> sera de mise, parce qu\'il est supporté par la plupart des serveurs proxy, mais assurez-vous bien qu\'il soit activé sur le vôtre. D\'autres entêtes possibles&nbsp;: "X-Real-Ip" (nginx) et "Cf-Connecting-Ip" (CloudFlare).';
 $helptxt['reverse_proxy_ips'] = 'Cette zone vous permet de lister les adresses IP dans le style classique (par ex. 127.0.0.1), ou par blocs CIDR (par ex. 127.0.0.0/8). Si vous avez une chaîne de deux (ou plus) proxies inverses entre votre serveur et l\'Internet public, vous devez spécifier <em>toutes</em> les zones IP (au format CIDR) de tous vos serveurs proxy, répartiteurs de charge, etc. Si vous ne le faites pas, il sera impossible de déterminer la véritable adresse IP du client.';
 
+// Help popup for the Media tag...
+$helptxt['mediatag'] = '
+	<h1>Le tag [media] et autres joyeusetés.</h1>
+	Un exemple en situation :
+	<br>
+	<br><b>[media id=123 type=preview align=center width=400 caption="Hello, world!"]</b>
+	<br>Ce code affichera dans vos messages une image de taille intermédiaire (aperçu), alignée au centre, redimensionnée à 400 pixels de large, et accompagnée d\'un texte descriptif.
+	Tous les paramètres sont facultatifs, seul l\'identifiant de l\'élément (id=123) est obligatoire.
+	<br>
+	<br><b>[media id=1 type=album]</b>
+	<br>Ce code montrera une série de vignettes de type box (voir plus bas) appartenant à l\'album numéro 1, reproduisant plus ou moins le visuel de la page web de l\'album en question.
+	<br><br>
+	<b>Valeurs possibles :</b>
+	<br>- type=<i>normal, box, link, preview, full, album</i>
+	<br>- align=<i>none, left, center, right</i>
+	<br>- width=<i>123</i> (en pixels)
+	<br>- caption=<i>&quot;Texte descriptif&quot;</i> ou caption=<i>EnUnMot</i>
+	<br><br>
+	<b>id</b>
+	<ul class="normallist">
+		<li>Tous les éléments sont identifiés par un numéro dédié que vous pouvez voir dans leur adresse. Indiquez-le ici. C\'est le seul paramètre obligatoire. Je sais, c\'est moche. C\'est la vie.
+		Mais faites pas cette tête, vous pouvez quand même spécifier plusieurs éléments en les séparant par une virgule, comme dans "[media id=1,2,3 type=album]".</li>
+	</ul>
+	<br>
+	<b>type</b>
+	<ul class="normallist">
+		<li><b>normal</b> (défaut, sauf si configuré différemment) - afficher la vignette. Cliquez dessus pour voir son aperçu.</li>
+		<li><b>av</b> - afficher la vidéo ou le fichier audio dans le lecteur adéquat. Si vous ne précisez pas ce paramètre, la vignette habituelle sera affichée, mais en cliquant dessus, c\'est le fichier complet qui sera chargé, brut. Pas classe, pas classe du tout.</li>
+		<li><b>box</b> - afficher la vignette complète, avec tous ses détails, comme sur les pages de galerie. Cliquez sur la vignette pour aller vers la page consacrée à l\'élément.</li>
+		<li><b>link</b> - afficher la vignette, mais le texte descriptif devient interactif. Cliquez dessus pour aller vers la page consacrée à l\'élément. Si le paramètre caption est vide, un texte par défaut sera montré à la place.</li>
+		<li><b>preview</b> (peut être choisi par défaut si configuré) - afficher l\'aperçu de l\'image (à mi-chemin entre la vignette et l\'image complète).</li>
+		<li><b>full</b> (peut être choisi par défaut si configuré) - afficher l\'image entière. N\'oubliez pas de régler le paramètre width !</li>
+		<li><b>album</b> - afficher les dernières vignettes de l\'album identifié par son ID. Elles seront présentées sous la forme <b>box</b>.</li>
+	</ul>
+	<br>
+	<b>align</b>
+	<ul class="normallist">
+		<li><b>none</b> (défaut) - alignement normal. Les vignettes environnantes sont repoussées à la ligne suivante ou précédente.</li>
+		<li><b>left</b> - aligner la vignette à gauche. Utilisez plusieurs tags [media] alignés ainsi pour montrer les vignettes côte-à-côte.</li>
+		<li><b>center</b> - aligner la vignette au centre. Pour afficher une vignette à gauche, une au milieu et une à droite, insérez-les dans cet ordre : [media align=left][media align=right][media align=center]</li>
+		<li><b>right</b> - aligner la vignette à droite. Même remarque que pour <i>left</i>. Rompez.</li>
+	</ul>
+	<br>
+	<b>width</b>
+	<ul class="normallist">
+		<li>Utilisez ce paramètre pour forcer la largeur d\'une vignette à la dimension désirée. Indiquez un nombre supérieur à zéro.</li>
+		<li>Réglez le paramètre <i>type</i> selon vos besoins. Ainsi, si vos vignettes ont pour largeur par défaut 120 pixels, et vos aperçus 500 pixels, utilisez [media type=preview] si vous forcez une largeur supérieure à 300 pixels, pour éviter un effet de flou trop visible.</li>
+	</ul>
+	<br>
+	<b>caption</b>
+	<ul class="normallist">
+		<li>Affiche un texte descriptif sous la vignette. Si le type est défini à <i>link</i>, le texte sera cliquable et vous mènera à la page consacrée à l\'élément.</li>
+		<li>Entrez ce que vous voulez. Si votre texte contient des espaces ou des crochets, assurez-vous de l\'entourer de &quot;guillemets&quot;. Sinon, ça fait tout n\'importe quoi, et c\'est encore Bibi qui doit s\'y coller pour faire le ménage.</li>
+	</ul>';
+
 ?>

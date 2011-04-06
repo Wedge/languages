@@ -143,7 +143,7 @@ $txt['credits_groups_servers'] = 'Admins Réseau';
 // Replace "English" with the name of this language pack in the string below.
 $txt['credits_groups_translation'] = 'Traduction française';
 $txt['credits_groups_translators'] = 'Traducteurs';
-$txt['credits_translators_message'] = 'Merci pour vos efforts, ils ont permis d\'ouvrir les portes de SMF au monde entier.';
+$txt['credits_translators_message'] = 'Merci pour vos efforts, ils ont permis d\'ouvrir les portes de Wedge au monde entier.';
 $txt['credits_groups_consultants'] = 'Consultants au Développement';
 $txt['credits_groups_beta'] = 'Beta Testeurs';
 $txt['credits_beta_message'] = 'Les valeureux élus qui ont sans relâche ni pitié traqué les bugs, apporté leurs idées et fait basculer les développeurs dans la démence.';

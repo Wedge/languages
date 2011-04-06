@@ -671,4 +671,41 @@ $txt['pretty_filter_topics'] = 'Adresses des Sujets<div class="pretty_filter">ht
 $txt['pretty_filter_actions'] = 'Adresses des Actions<div class="pretty_filter">http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/hello/</div>';
 $txt['pretty_filter_profiles'] = 'Adresses des Profils<div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/~nom-du-membre/<br>L\'adresse utilisera l\'identifiant de connexion de l\'utilisateur et non pas son nom affiché. Assurez-vous que cela ne dérange pas vos utilisateurs.</div>';
 
+// Media Gallery
+$txt['media_title'] = 'Media';
+$txt['media_admin_labels_index'] = 'Accueil';
+$txt['media_admin_labels_settings'] = 'Paramètres';
+$txt['media_admin_labels_embed'] = 'Intégration';
+$txt['media_admin_labels_reports'] = 'Signalements';
+$txt['media_admin_labels_submissions'] = 'Soumissions';
+$txt['media_admin_labels_bans'] = 'Bannissements';
+$txt['media_admin_labels_albums'] = 'Albums';
+$txt['media_admin_labels_maintenance'] = 'Maintenance';
+$txt['media_admin_labels_about'] = 'À propos';
+$txt['media_admin_labels_ftp'] = 'Import par FTP';
+$txt['media_admin_labels_perms'] = 'Permissions';
+$txt['media_admin_labels_quotas'] = 'Quotas';
+$txt['media_admin_settings_config'] = 'Configuration';
+$txt['media_admin_settings_sites'] = 'Liste des sites';
+$txt['media_admin_readme'] = 'Lisez-Moi';
+$txt['media_admin_changelog'] = 'Changelog';
+$txt['media_admin_settings_exif'] = 'Exif';
+$txt['media_admin_settings_layout'] = 'Apparence';
+$txt['media_admin_add_album'] = 'Créer un Album';
+$txt['media_admin_filter_normal_albums'] = 'Filtrer les albums normaux';
+$txt['media_admin_filter_featured_albums'] = 'Filtrer les albums stars';
+$txt['media_admin_maintenance_tasks'] = 'Tâches de maintenance';
+$txt['media_admin_maintenance_utils'] = 'Utilitaires de maintenance';
+$txt['media_admin_maintenance_regen'] = 'Régénération des vignettes et aperçus';
+$txt['media_admin_maintenance_all_tasks'] = 'Toutes les tâches';
+$txt['media_admin_maintenance_recount'] = 'Recompter les totaux';
+$txt['media_admin_maintenance_finderrors'] = 'Recherche d\'erreurs';
+$txt['media_admin_maintenance_prune'] = 'Nettoyage';
+$txt['media_admin_maintenance_browse'] = 'Parcourir les fichiers';
+$txt['media_admin_maintenance_checkfiles'] = 'Éliminer les fichiers superflus';
+$txt['media_admin_banning'] = 'Bannissement d\'un membre';
+$txt['media_admin_bans_add'] = 'Ajouter un bannissement';
+$txt['media_cf'] = 'Champs personnels';
+$txt['media_cf_add'] = 'Créer un champ';
+
 ?>

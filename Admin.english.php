@@ -671,4 +671,41 @@ $txt['pretty_filter_topics'] = 'Topic URLs<br>&nbsp;&nbsp;<div class="pretty_fil
 $txt['pretty_filter_actions'] = 'Action URLs<br>&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/hello/</div>';
 $txt['pretty_filter_profiles'] = 'Profile URLs<br>&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/~user-name/<br>As this uses the login name (user name) of an account rather than its display name, it may not be desirable to your users.</div>';
 
+// Media Gallery
+$txt['media_title'] = 'Media';
+$txt['media_admin_labels_index'] = 'Index';
+$txt['media_admin_labels_settings'] = 'Settings';
+$txt['media_admin_labels_embed'] = 'Auto-Embedding';
+$txt['media_admin_labels_reports'] = 'Reports';
+$txt['media_admin_labels_submissions'] = 'Submissions';
+$txt['media_admin_labels_bans'] = 'Bans';
+$txt['media_admin_labels_albums'] = 'Albums';
+$txt['media_admin_labels_maintenance'] = 'Maintenance';
+$txt['media_admin_labels_about'] = 'About';
+$txt['media_admin_labels_ftp'] = 'FTP Import';
+$txt['media_admin_labels_perms'] = 'Permission Profiles';
+$txt['media_admin_labels_quotas'] = 'Quota Profiles';
+$txt['media_admin_settings_config'] = 'Configuration';
+$txt['media_admin_settings_sites'] = 'Sitelist';
+$txt['media_admin_readme'] = 'Read Me';
+$txt['media_admin_changelog'] = 'Changelog';
+$txt['media_admin_settings_exif'] = 'Exif';
+$txt['media_admin_settings_layout'] = 'Layout';
+$txt['media_admin_add_album'] = 'New Album';
+$txt['media_admin_filter_normal_albums'] = 'Filter regular albums';
+$txt['media_admin_filter_featured_albums'] = 'Filter featured albums';
+$txt['media_admin_maintenance_all_tasks'] = 'All tasks';
+$txt['media_admin_maintenance_tasks'] = 'Maintenance Tasks';
+$txt['media_admin_maintenance_utils'] = 'Maintenance Utilities';
+$txt['media_admin_maintenance_regen'] = 'Regenerating thumbnails and previews';
+$txt['media_admin_maintenance_recount'] = 'Recount totals';
+$txt['media_admin_maintenance_finderrors'] = 'Find errors';
+$txt['media_admin_maintenance_prune'] = 'Prune';
+$txt['media_admin_maintenance_browse'] = 'Browse Files';
+$txt['media_admin_maintenance_checkfiles'] = 'Check for extra files';
+$txt['media_admin_banning'] = 'User Banning';
+$txt['media_admin_bans_add'] = 'Add ban';
+$txt['media_cf'] = 'Custom fields';
+$txt['media_cf_add'] = 'Create a new field';
+
 ?>

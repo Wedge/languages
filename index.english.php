@@ -798,4 +798,15 @@ $txt['click_for_spoiler'] = '(click to show/hide)';
 
 $txt['readmore'] = '(%1$d more chars)';
 
+// Media Gallery
+$txt['media_gallery'] = 'Media';
+$txt['media_home'] = 'Home';
+$txt['media_unseen'] = 'Unseen';
+$txt['media_profile_sum'] = 'Summary';
+$txt['media_view_items'] = 'View items';
+$txt['media_view_coms'] = 'View comments';
+$txt['media_view_votes'] = 'View votes';
+$txt['media_gotolink'] = 'Details';
+$txt['media_zoom'] = 'Zoom';
+
 ?>
