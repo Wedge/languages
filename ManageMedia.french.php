@@ -297,7 +297,6 @@ $txt['media_admin_bans_mems_empty'] = 'Aucun membre n\'a été spécifié';
 $txt['media_admin_bans_mems_not_found'] = 'Les membres spécifiés sont introuvables';
 $txt['media_ban_not_found'] = 'Bannissement introuvable';
 $txt['media_admin_already_banned'] = 'Utilisateur déjà banni';
-$txt['media_admin_album_dir_failed'] = 'La création du répertoire de cet album a échoué, assurez-vous que media/ et media/albums/ sont chmoddés à 0777 ou 0755.';
 $txt['media_admin_unique_permission'] = 'Vous devez ne sélectionner qu\'une option';
 $txt['media_admin_quick_none'] = 'Pas d\'option sélectionnée';
 $txt['media_admin_invalid_groups'] = 'Une sélection invalide a été détectée. Peut-être le groupe sélectionné n\'existe-t-il pas. Si vous copiez des permissions, assurez-vous d\'avoir sélectionné au moins un groupe, et de ne pas y avoir mis le groupe dont vous copiez les permissions';

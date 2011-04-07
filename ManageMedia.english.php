@@ -297,7 +297,6 @@ $txt['media_admin_bans_mems_empty'] = 'Members were not specified';
 $txt['media_admin_bans_mems_not_found'] = 'Members specified were not found';
 $txt['media_ban_not_found'] = 'Ban not found';
 $txt['media_admin_already_banned'] = 'User is already banned';
-$txt['media_admin_album_dir_failed'] = 'This album\'s directory couldn\'t be properly created, please make sure media/ and media/albums/ are chmodded to 0777 or 0755.';
 $txt['media_admin_unique_permission'] = 'You must select only one option';
 $txt['media_admin_quick_none'] = 'No option selected';
 $txt['media_admin_invalid_groups'] = 'An invalid group selection was supplied, either the group does not exist or if you\'re copying permissions, make sure you have not selected the group you\'re copying permissions from or you have simply not selected any group';

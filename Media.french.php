@@ -389,6 +389,7 @@ $txt['media_album_not_found'] = 'Album introuvable';
 $txt['media_unseen_denied'] = 'Vous n\'êtes pas autorisé à voir les éléments non visités';
 $txt['media_dest_failed'] = 'Impossible de trouver la bonne destination sur le serveur, merci de contacter l\'administrateur.';
 $txt['media_not_a_dir'] = 'L\'administrateur n\'a pas correctement renseigné le répertoire de données Media. Si vous êtes admin, allez le corriger dans les paramètres. Sinon, envoyez-lui un message et moquez-vous de lui. Mais pas trop hein, faut rester cool quoi, y\'a pas mort d\'homme.';
+$txt['media_dir_failed'] = 'La création du répertoire de cet album a échoué, assurez-vous que media/ et media/albums/ sont chmoddés à 0777 ou 0755.';
 $txt['media_size_mismatch'] = 'La taille de ce fichier a changé depuis sa mise en ligne initiale. Demandez à l\'administrateur s\'il a renvoyé manuellement le fichier par FTP. Si oui, dites-lui de recommencer mais cette fois en mode <i>binaire</i>, pas <i>ASCII</i> ou <i>auto</i>...';
 
 // Exif strings

@@ -395,6 +395,7 @@ $txt['media_album_not_found'] = 'Album not found';
 $txt['media_unseen_denied'] = 'You are not allowed to use the Unseen Items feature.';
 $txt['media_dest_failed'] = 'Cannot find proper destination on the server, please contact your administrator';
 $txt['media_not_a_dir'] = 'The Media folder is set to an incorrect path. If you are the admin, make sure it is updated in your settings. Otherwise, contact them and have a good laugh. But not too much, it would be cruel.';
+$txt['media_dir_failed'] = 'This album\'s directory couldn\'t be properly created, please make sure media/ and media/albums/ are chmodded to 0777 or 0755.';
 $txt['media_size_mismatch'] = 'This item\'s filesize doesn\'t match the size that was recorded when uploading it. Ask the administrator whether they manually re-uploaded the file by FTP. If yes, tell them to retry, only this time in <i>binary</i> mode, not <i>ASCII</i> or <i>auto</i>...';
 
 // Exif strings
