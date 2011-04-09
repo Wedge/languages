@@ -451,7 +451,7 @@ $txt['logs'] = 'Journaux';
 $txt['generate_reports'] = 'Générer des rapports';
 
 $txt['update_available'] = 'Mise à jour disponible&nbsp;!';
-$txt['update_message'] = 'Vous utilisez une version périmé de SMF, qui contient quelques bogues qui ont pu être corrigés depuis la dernière révision.
+$txt['update_message'] = 'Vous utilisez une version périmée de Wedge, qui contient quelques bugs qui ont pu être corrigés depuis la dernière révision.
 	Il est très fortement conseillé de <a href="" id="update-link">mettre à jour votre forum</a> à la dernière révision stable le plus rapidement possible. Cela ne prendra qu\'une minute&nbsp;!';
 
 $txt['manageposts'] = 'Messages et sujets';

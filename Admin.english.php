@@ -451,7 +451,7 @@ $txt['logs'] = 'Logs';
 $txt['generate_reports'] = 'Reports';
 
 $txt['update_available'] = 'Update Available!';
-$txt['update_message'] = 'You\'re using an outdated version of SMF, which contains some bugs which have since been fixed.
+$txt['update_message'] = 'You\'re using an outdated version of Wedge, which contains some bugs which have since been fixed.
 	It is recommended that you <a href="#" id="update-link">update your forum</a> to the latest version as soon as possible. It only takes a minute!';
 
 $txt['manageposts'] = 'Posts and Topics';
