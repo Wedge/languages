@@ -2,10 +2,6 @@
 
 global $txt, $scripturl;
 
-// On/off
-$txt['autoembed'] = '<strong>Activer l\'intégration automatique</strong> (Outrepasse tout)';
-$txt['media_admin_settings_enable_gallery'] = '<strong>Activer la galerie</strong> (Outrepasse tout)';
-
 // Auto-embedder strings
 $txt['media'] = 'Media';
 $txt['media_noexternalembedding'] = '(L\'auteur de la vidéo refuse les intégrations externes)';
@@ -131,7 +127,7 @@ $txt['media_owner'] = 'Propriétaire';
 $txt['media_my_user_albums'] = 'Mes&nbsp;Albums';
 $txt['media_yes'] = 'Oui';
 $txt['media_no'] = 'Non';
-$txt['media_extra_info'] = 'Métadonnées Exif';
+$txt['media_extra_info'] = 'Métadonnées';
 $txt['media_poster_info'] = 'Contributeur';
 $txt['media_gen_stats'] = 'Statistiques générales';
 $txt['media_total_items'] = 'Éléments';
@@ -392,38 +388,38 @@ $txt['media_not_a_dir'] = 'L\'administrateur n\'a pas correctement renseigné le
 $txt['media_dir_failed'] = 'La création du répertoire de cet album a échoué, assurez-vous que media/ et media/albums/ sont chmoddés à 0777 ou 0755.';
 $txt['media_size_mismatch'] = 'La taille de ce fichier a changé depuis sa mise en ligne initiale. Demandez à l\'administrateur s\'il a renvoyé manuellement le fichier par FTP. Si oui, dites-lui de recommencer mais cette fois en mode <i>binaire</i>, pas <i>ASCII</i> ou <i>auto</i>...';
 
-// Exif strings
-$txt['media_exif'] = 'Exif';
+// Metadata strings
+$txt['media_meta'] = 'Métadonnées';
 $txt['media_imagemagick'] = 'ImageMagick';
 $txt['media_gd2'] = 'GD2';
 $txt['media_MW'] = 'MagickWand';
 $txt['media_imagick'] = 'IMagick';
-$txt['media_exif_duration'] = 'Durée';
-$txt['media_exif_bit_rate'] = 'Débit';
-$txt['media_exif_frame_count'] = 'Nombre d\'images';
-$txt['media_exif_audio_codec'] = 'Codec audio';
-$txt['media_exif_video_codec'] = 'Codec vidéo';
-$txt['media_exif_copyright'] = 'Copyright';
-$txt['media_exif_make'] = 'Marque';
-$txt['media_exif_model'] = 'Modèle';
-$txt['media_exif_yres'] = 'Résolution-Y';
-$txt['media_exif_xres'] = 'Résolution-X';
-$txt['media_exif_resunit'] = 'Unité de résolution';
-$txt['media_exif_datetime'] = 'Date';
-$txt['media_exif_flash'] = 'Flash';
-$txt['media_exif_focal_length'] = 'Longueur de focale';
-$txt['media_exif_orientation'] = 'Orientation';
-$txt['media_exif_xposuretime'] = 'Temps d\'exposition';
-$txt['media_exif_not_available'] = 'Pas de données';
-$txt['media_exif_entries'] = 'Voir les données';
-$txt['media_exif_fnumber'] = 'Nombre F';
-$txt['media_exif_iso'] = 'Valeur ISO';
-$txt['media_exif_meteringMode'] = 'Mode de mesure';
-$txt['media_exif_digitalZoom'] = 'Zoom numérique';
-$txt['media_exif_contrast'] = 'Contraste';
-$txt['media_exif_sharpness'] = 'Piqué';
-$txt['media_exif_focusType'] = 'Type de focus';
-$txt['media_exif_exifVersion'] = 'Version Exif';
+$txt['media_meta_duration'] = 'Durée';
+$txt['media_meta_bit_rate'] = 'Débit';
+$txt['media_meta_frame_count'] = 'Nombre d\'images';
+$txt['media_meta_audio_codec'] = 'Codec audio';
+$txt['media_meta_video_codec'] = 'Codec vidéo';
+$txt['media_meta_copyright'] = 'Copyright';
+$txt['media_meta_make'] = 'Marque';
+$txt['media_meta_model'] = 'Modèle';
+$txt['media_meta_yres'] = 'Résolution-Y';
+$txt['media_meta_xres'] = 'Résolution-X';
+$txt['media_meta_resunit'] = 'Unité de résolution';
+$txt['media_meta_datetime'] = 'Date';
+$txt['media_meta_flash'] = 'Flash';
+$txt['media_meta_focal_length'] = 'Longueur de focale';
+$txt['media_meta_orientation'] = 'Orientation';
+$txt['media_meta_xposuretime'] = 'Temps d\'exposition';
+$txt['media_meta_not_available'] = 'Pas de données';
+$txt['media_meta_entries'] = 'Voir les données';
+$txt['media_meta_fnumber'] = 'Nombre F';
+$txt['media_meta_iso'] = 'Valeur ISO';
+$txt['media_meta_meteringMode'] = 'Mode de mesure';
+$txt['media_meta_digitalZoom'] = 'Zoom numérique';
+$txt['media_meta_contrast'] = 'Contraste';
+$txt['media_meta_sharpness'] = 'Piqué';
+$txt['media_meta_focusType'] = 'Type de focus';
+$txt['media_meta_exifVersion'] = 'Version Exif';
 
 // ModCP
 $txt['media_modcp'] = 'Modération';
