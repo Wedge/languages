@@ -284,7 +284,7 @@ $txt['media_admin_clear_perm'] = 'Clear permission';
 $txt['media_admin_set_mg_perms'] = 'Set permissions like this group';
 
 // Admin error strings
-$txt['media_admin_album_confirm'] = 'Are you sure you want to delete this album? This will also remove all items and comments inside the album';
+$txt['media_admin_album_confirm'] = 'Are you sure you want to delete this album? This will also remove all items and comments inside the album.';
 $txt['media_admin_name_left_empty'] = 'Name was left empty';
 $txt['media_admin_invalid_target'] = 'Invalid target specified';
 $txt['media_admin_invalid_position'] = 'Invalid position specified';
