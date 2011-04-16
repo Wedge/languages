@@ -156,7 +156,6 @@ $txt['media_no_commentators'] = 'Pas de commentateurs';
 $txt['media_multi_upload'] = 'Envoi en Masse';
 $txt['media_selectFiles'] = 'Choisir les fichiers';
 $txt['media_upload'] = 'Publier';
-$txt['media_errors'] = 'Erreurs';
 $txt['media_membergroups_guests'] = 'Invités';
 $txt['media_membergroups_members'] = 'Membres inscrits';
 $txt['media_album_mainarea'] = 'Informations sur l\'album';

@@ -162,7 +162,6 @@ $txt['media_no_commentators'] = 'No commentators';
 $txt['media_multi_upload'] = 'Mass Upload';
 $txt['media_selectFiles'] = 'Select files';
 $txt['media_upload'] = 'Upload';
-$txt['media_errors'] = 'Errors';
 $txt['media_membergroups_guests'] = 'Guests';
 $txt['media_membergroups_members'] = 'Regular Members';
 $txt['media_album_mainarea'] = 'Album details';
