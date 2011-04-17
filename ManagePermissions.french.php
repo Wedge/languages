@@ -380,7 +380,7 @@ $txt['permissionname_media_search'] = 'Rechercher des éléments dans la Galerie
 $txt['permissionname_media_add_user_album'] = 'Créer des Albums';
 $txt['permissionname_media_add_playlists'] = 'Créer des Playlists';
 $txt['permissionname_media_auto_approve_albums'] = 'Auto-approuver ses Albums';
-$txt['permissionname_media_moderate_own_albums'] = '<abbr title="Supprimer tout commentaire/&eacute;l&eacute;ment sur ses albums, et supprimer ses propres albums.">Mod&eacute;rer ses Albums</abbr>';
+$txt['permissionname_media_moderate_own_albums'] = '<abbr title="Supprimer tout commentaire/élément sur ses albums, et supprimer ses propres albums.">Modérer ses Albums</abbr>';
 $txt['permissionname_media_viewprofile'] = 'Voir les profils de Galerie des utilisateurs';
 
 ?>

@@ -5,12 +5,12 @@ global $boardurl;
 
 // Symbols.
 $txt['usd_symbol'] = '$%1.2f';
-$txt['eur_symbol'] = '&euro;%1.2f';
-$txt['gbp_symbol'] = '&pound;%1.2f';
+$txt['eur_symbol'] = '%1.2f €';
+$txt['gbp_symbol'] = '£ %1.2f';
 
 $txt['usd'] = 'USD ($)';
-$txt['eur'] = 'EURO (&euro;)';
-$txt['gbp'] = 'GBP (&pound;)';
+$txt['eur'] = 'EURO (€)';
+$txt['gbp'] = 'GBP (£)';
 $txt['other'] = 'Autre';
 
 $txt['paid_username'] = 'Identifiant';
@@ -118,7 +118,7 @@ $txt['paid_mod_allow_partial_desc'] = 'Si cette option est activée, dans le cas
 $txt['paid_mod_fixed_price'] = 'Abonnement avec prix et durée fixes';
 $txt['paid_mod_flexible_price'] = 'Abonnement dont le prix dépend de la durée commandée';
 $txt['paid_mod_price_breakdown'] = 'Détails sur le Prix Flexible';
-$txt['paid_mod_price_breakdown_desc'] = 'Définissez ici combien l\'abonnement coûtera selon la durée pour laquelle on y souscrit. Par exemple, il pourrait coûter 8&euro; pour un abonnement d\'un mois, mais seulement 50&euro; pour un an. Si vous ne voulez pas définir un prix pour une durée particulière, laissez vide.';
+$txt['paid_mod_price_breakdown_desc'] = 'Définissez ici combien l\'abonnement coûtera selon la durée pour laquelle on y souscrit. Par exemple, il pourrait coûter 8€ pour un abonnement d\'un mois, mais seulement 50€ pour un an. Si vous ne voulez pas définir un prix pour une durée particulière, laissez vide.';
 $txt['flexible'] = 'Flexible';
 
 $txt['paid_per_day'] = 'Prix par Jour';

@@ -76,7 +76,7 @@ $txt['disallow_sendBody'] = 'Ne pas inclure le corps des messages dans les notif
 $txt['max_image_width'] = 'Largeur max. des images envoyées (0 = désactivé)';
 $txt['max_image_height'] = 'Hauteur max. des images envoyées (0 = désactivé)';
 $txt['enableReportPM'] = 'Permettre de signaler des messages personnels aux modérateurs';
-$txt['max_pm_recipients'] = 'Nombre maximal autorisé de destinataires dans un message personnel<dfn>(0 pour illimit&eacute&nbsp;; les admins sont exemptés)</dfn>';
+$txt['max_pm_recipients'] = 'Nombre maximal autorisé de destinataires dans un message personnel<dfn>(0 pour illimité, les admins sont exemptés)</dfn>';
 $txt['pm_posts_verification'] = 'Nombre de messages de forum en dessous duquel les utilisateurs doivent entrer un code lorsqu\'ils envoient des messages personnels<dfn>(0 pour pas de limite, les admins sont exemptés)</dfn>';
 $txt['pm_posts_per_hour'] = 'Nombre de messages personnels qu\'un utilisateur peut envoyer en une heure<dfn>(0 pour pas de limite, les modérateurs sont exemptés)</dfn>';
 $txt['compactTopicPagesEnable'] = 'Limiter le nombre de liens pointant vers les pages suivantes';

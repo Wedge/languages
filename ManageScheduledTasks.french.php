@@ -41,7 +41,7 @@ $txt['scheduled_task_reg_unit_w'] = 'semaine(s)';
 
 $txt['scheduled_task_edit'] = 'Modifier la tâche planifiée';
 $txt['scheduled_task_edit_repeat'] = 'Répéter la tâche tous les';
-$txt['scheduled_task_edit_pick_unit'] = 'Choisir l\'unit&eacute';
+$txt['scheduled_task_edit_pick_unit'] = 'Choisir l\'unité';
 $txt['scheduled_task_edit_interval'] = 'Intervalle';
 $txt['scheduled_task_edit_start_time'] = 'Heure de départ';
 $txt['scheduled_task_edit_start_time_desc'] = 'Heure à laquelle doit s\'effectuer le premier lancement de la journée (heures:minutes)';
