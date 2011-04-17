@@ -370,17 +370,17 @@ $txt['auto_approve_topics'] = 'Poster des sujets auto-approuvés';
 $txt['auto_approve_replies'] = 'Poster des réponses auto-approuvées aux sujets';
 $txt['auto_approve_attachments'] = 'Poster des fichiers joints auto-approuvés';
 
-$txt['permissiongroup_aeva'] = 'Media';
-$txt['permissiongroup_simple_aeva'] = 'Media';
-$txt['permissionname_aeva_access'] = 'Consulter la Galerie';
-$txt['permissionname_aeva_moderate'] = 'Modérer la Galerie';
-$txt['permissionname_aeva_manage'] = 'Administrer la Galerie';
-$txt['permissionname_aeva_access_unseen'] = 'Voir la liste des éléments non visités';
-$txt['permissionname_aeva_search'] = 'Rechercher des éléments dans la Galerie';
-$txt['permissionname_aeva_add_user_album'] = 'Créer des Albums';
-$txt['permissionname_aeva_add_playlists'] = 'Créer des Playlists';
-$txt['permissionname_aeva_auto_approve_albums'] = 'Auto-approuver ses Albums';
-$txt['permissionname_aeva_moderate_own_albums'] = '<abbr title="Supprimer tout commentaire/&eacute;l&eacute;ment sur ses albums, et supprimer ses propres albums.">Mod&eacute;rer ses Albums</abbr>';
-$txt['permissionname_aeva_viewprofile'] = 'Voir les profils de Galerie des utilisateurs';
+$txt['permissiongroup_media'] = 'Media';
+$txt['permissiongroup_simple_media'] = 'Media';
+$txt['permissionname_media_access'] = 'Consulter la Galerie';
+$txt['permissionname_media_moderate'] = 'Modérer la Galerie';
+$txt['permissionname_media_manage'] = 'Administrer la Galerie';
+$txt['permissionname_media_access_unseen'] = 'Voir la liste des éléments non visités';
+$txt['permissionname_media_search'] = 'Rechercher des éléments dans la Galerie';
+$txt['permissionname_media_add_user_album'] = 'Créer des Albums';
+$txt['permissionname_media_add_playlists'] = 'Créer des Playlists';
+$txt['permissionname_media_auto_approve_albums'] = 'Auto-approuver ses Albums';
+$txt['permissionname_media_moderate_own_albums'] = '<abbr title="Supprimer tout commentaire/&eacute;l&eacute;ment sur ses albums, et supprimer ses propres albums.">Mod&eacute;rer ses Albums</abbr>';
+$txt['permissionname_media_viewprofile'] = 'Voir les profils de Galerie des utilisateurs';
 
 ?>

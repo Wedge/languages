@@ -402,6 +402,6 @@ $txt['merge_error_notf'] = 'Désolé, aucun message fusionnable n\'a été trouv
 $txt['merge_error_noid'] = 'ID de message ou de sujet introuvable !';
 $txt['merge_error_length'] = 'Le message fusionné dépasserait la taille limite autorisée !';
 
-$txt['cannot_aeva_viewprofile'] = 'Vous n\'avez pas l\'autorisation de consulter des profils de Galerie';
+$txt['cannot_media_viewprofile'] = 'Vous n\'avez pas l\'autorisation de consulter des profils de Galerie';
 
 ?>

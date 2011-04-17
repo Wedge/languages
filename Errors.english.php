@@ -402,6 +402,6 @@ $txt['merge_error_notf'] = 'Sorry, couldn\'t find any message to merge.';
 $txt['merge_error_noid'] = 'Post ID or topic ID can\'t be found!';
 $txt['merge_error_length'] = 'The resulting merged post would be larger than the maximum allowed size!';
 
-$txt['cannot_aeva_viewprofile'] = 'You cannot view Gallery profiles';
+$txt['cannot_media_viewprofile'] = 'You cannot view Gallery profiles';
 
 ?>

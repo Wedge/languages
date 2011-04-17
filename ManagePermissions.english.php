@@ -370,17 +370,17 @@ $txt['auto_approve_topics'] = 'Post new topics, without requiring approval';
 $txt['auto_approve_replies'] = 'Post replies to topics, without requiring approval';
 $txt['auto_approve_attachments'] = 'Post attachments, without requiring approval';
 
-$txt['permissiongroup_aeva'] = 'Media';
-$txt['permissiongroup_simple_aeva'] = 'Media';
-$txt['permissionname_aeva_access'] = 'Access Gallery';
-$txt['permissionname_aeva_moderate'] = 'Moderate Gallery';
-$txt['permissionname_aeva_manage'] = 'Administrate Gallery';
-$txt['permissionname_aeva_access_unseen'] = 'Access unseen area';
-$txt['permissionname_aeva_search'] = 'Search in Gallery';
-$txt['permissionname_aeva_add_user_album'] = 'Add Albums';
-$txt['permissionname_aeva_add_playlists'] = 'Add User Playlists';
-$txt['permissionname_aeva_auto_approve_albums'] = 'Auto-approve Albums';
-$txt['permissionname_aeva_moderate_own_albums'] = '<abbr title="Delete any comments/items on own albums, and delete own albums.">Moderate own Albums</abbr>';
-$txt['permissionname_aeva_viewprofile'] = 'View anyone\'s Gallery profile';
+$txt['permissiongroup_media'] = 'Media';
+$txt['permissiongroup_simple_media'] = 'Media';
+$txt['permissionname_media_access'] = 'Access Gallery';
+$txt['permissionname_media_moderate'] = 'Moderate Gallery';
+$txt['permissionname_media_manage'] = 'Administrate Gallery';
+$txt['permissionname_media_access_unseen'] = 'Access unseen area';
+$txt['permissionname_media_search'] = 'Search in Gallery';
+$txt['permissionname_media_add_user_album'] = 'Add Albums';
+$txt['permissionname_media_add_playlists'] = 'Add User Playlists';
+$txt['permissionname_media_auto_approve_albums'] = 'Auto-approve Albums';
+$txt['permissionname_media_moderate_own_albums'] = '<abbr title="Delete any comments/items on own albums, and delete own albums.">Moderate own Albums</abbr>';
+$txt['permissionname_media_viewprofile'] = 'View anyone\'s Gallery profile';
 
 ?>
