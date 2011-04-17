@@ -3,8 +3,10 @@
 // A message to translators: Wedge's Media area is inherited from Aeva Media. You may
 // want to start anew, or base your translation upon Aeva Media's earlier language files.
 // First of all, you'll need to do a search on the term "$txt['aeva_" and replace it with
-// "$txt['media_". Also, 'media_enable' becomes 'autoembed'. The most difficult task will be
-// to split the original file's strings among Media, ManageMedia, Admin and index files...
+// "$txt['media_". Also, 'media_enable' becomes 'autoembed', and 'permissionname_' replaces
+// aeva with media in the ManageMedia and ManagePermissions files. The most difficult task
+// will probably be to split the original file's strings among Media, ManageMedia, Admin,
+// ManagePermissions and index files... Good luck. You can do it. Or start from scratch.
 
 global $txt, $scripturl;
 
