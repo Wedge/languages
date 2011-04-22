@@ -635,9 +635,8 @@ $helptxt['reverse_proxy_ips'] = 'Cette zone vous permet de lister les adresses I
 // Help popup for the Media tag...
 $helptxt['mediatag'] = '<h2>Le tag [media] et autres joyeusetés.</h2>
 	Mais à quoi ça sert, me demandez-vous ? Eh bien, tout simplement à insérer des éléments média partout où vous pouvez utiliser des tags BBC, à commencer par vos messages sur le forum.
-	Un petit exemple pour se mettre en appétit&nbsp;:
-	<br>
-	<br><b>[media id=123 type=preview align=center width=400 caption="Hello, world!"]</b>
+	Deux petits exemples pour se mettre en appétit&nbsp;:
+	<br><br><b>[media id=123 type=preview align=center width=400 caption="Hello, world!"]</b>
 	<br>Ce code affichera dans vos messages une image de taille intermédiaire (aperçu), alignée au centre, redimensionnée à 400 pixels de large, et accompagnée d\'un texte descriptif.
 	Tous les paramètres sont facultatifs, seul l\'identifiant de l\'élément (id=123) est obligatoire. Vous me direz, ça paraît logique.
 	<br>
@@ -650,6 +649,7 @@ $helptxt['mediatag'] = '<h2>Le tag [media] et autres joyeusetés.</h2>
 	<br>- width=<i>123</i> (en pixels)
 	<br>- caption=<i>&quot;Texte descriptif&quot;</i> ou caption=<i>EnUnMot</i>
 	<br><br>
+	<h2>Paramètres disponibles</h2>
 	<b>id</b>
 	<ul class="normallist">
 		<li>Tous les éléments sont identifiés par un numéro dédié que vous pouvez voir dans leur adresse. Indiquez-le ici. C\'est le seul paramètre obligatoire. Je sais, c\'est moche. C\'est la vie.

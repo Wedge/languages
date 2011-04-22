@@ -652,12 +652,12 @@ $helptxt['reverse_proxy_ips'] = 'This area needs to list the IP addresses (e.g. 
 // Help popup for the Media tag...
 $helptxt['mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>
 	It\'s here to make it easy for users to embed items into any place that accepts BBC tags, such as forum posts.
-	Here\'s a quick example:
-	<br><b>[media id=123 type=preview align=center width=400 caption="Hello, world!"]</b>
-	<br>This will show a center-aligned mid-size (preview) picture, resized to 400 pixels wide, with a caption below it. All parameters are optional, except for the item ID. (Which kinda makes sense.)
+	Here are a couple of quick examples:
+	<br><br><b>[media id=123 type=preview align=center width=400 caption="Hello, world!"]</b>
+	<br>Show a center-aligned mid-size (preview) picture, resized to 400 pixels wide, with a caption below it. All parameters are optional, except for the item ID.
 	<br>
-	<br><b>[media id=1 type=album]</b>
-	<br>This will show in your posts the latest items in your first album. They will be shown using the box type (see below).
+	<br><b>[media id=1,2 type=album]</b>
+	<br>Shows the latest items in your first two albums, using the box type (see below.)
 	<br><br>
 	<b>Possible values:</b>
 	<br>- type=<i>normal, box, link, preview, full, album</i>
@@ -665,6 +665,7 @@ $helptxt['mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>
 	<br>- width=<i>123</i> (in pixels)
 	<br>- caption=<i>&quot;Caption text&quot;</i> or caption=<i>SingleWordText</i>
 	<br><br>
+	<h2>Available parameters</h2>
 	<b>id</b>
 	<ul class="normallist">
 		<li>All items are identified by a specific number which you can see in its URL. Just use it here. This is the only parameter that is <b>NOT</b> optional.
