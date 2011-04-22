@@ -633,13 +633,13 @@ $helptxt['reverse_proxy_header'] = 'Votre ou vos serveurs proxy inverses doivent
 $helptxt['reverse_proxy_ips'] = 'Cette zone vous permet de lister les adresses IP dans le style classique (par ex. 127.0.0.1), ou par blocs CIDR (par ex. 127.0.0.0/8). Si vous avez une chaîne de deux (ou plus) proxies inverses entre votre serveur et l\'Internet public, vous devez spécifier <em>toutes</em> les zones IP (au format CIDR) de tous vos serveurs proxy, répartiteurs de charge, etc. Si vous ne le faites pas, il sera impossible de déterminer la véritable adresse IP du client.';
 
 // Help popup for the Media tag...
-$helptxt['mediatag'] = '
-	<h1>Le tag [media] et autres joyeusetés.</h1>
-	Un exemple en situation :
+$helptxt['mediatag'] = '<h2>Le tag [media] et autres joyeusetés.</h2>
+	Mais à quoi ça sert, me demandez-vous ? Eh bien, tout simplement à insérer des éléments média partout où vous pouvez utiliser des tags BBC, à commencer par vos messages sur le forum.
+	Un petit exemple pour se mettre en appétit&nbsp;:
 	<br>
 	<br><b>[media id=123 type=preview align=center width=400 caption="Hello, world!"]</b>
 	<br>Ce code affichera dans vos messages une image de taille intermédiaire (aperçu), alignée au centre, redimensionnée à 400 pixels de large, et accompagnée d\'un texte descriptif.
-	Tous les paramètres sont facultatifs, seul l\'identifiant de l\'élément (id=123) est obligatoire.
+	Tous les paramètres sont facultatifs, seul l\'identifiant de l\'élément (id=123) est obligatoire. Vous me direz, ça paraît logique.
 	<br>
 	<br><b>[media id=1 type=album]</b>
 	<br>Ce code montrera une série de vignettes de type box (voir plus bas) appartenant à l\'album numéro 1, reproduisant plus ou moins le visuel de la page web de l\'album en question.

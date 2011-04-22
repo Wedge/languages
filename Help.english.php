@@ -650,11 +650,11 @@ $helptxt['reverse_proxy_header'] = 'Your reverse proxy server(s) must set the IP
 $helptxt['reverse_proxy_ips'] = 'This area needs to list the IP addresses (e.g. 127.0.0.1) or CIDR blocks (e.g. 127.0.0.0/8) style format. If you have a chain of two or more reverse proxies between your server and the public Internet, you must specify <em>all</em> of the IP address ranges (in CIDR format) of all of your proxy servers, load balancers, etc. Otherwise, it may not be possible to determine the client\'s true IP address.';
 
 // Help popup for the Media tag...
-$helptxt['mediatag'] = '
-	<h1>[media] tag ~ the basics</h1>
-	A quick example:
+$helptxt['mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>
+	It\'s here to make it easy for users to embed items into any place that accepts BBC tags, such as forum posts.
+	Here\'s a quick example:
 	<br><b>[media id=123 type=preview align=center width=400 caption="Hello, world!"]</b>
-	<br>This will show in your posts a center-aligned mid-size (preview) picture, resized to 400 pixels wide, with a caption below it. All parameters are optional, except for the item ID.
+	<br>This will show a center-aligned mid-size (preview) picture, resized to 400 pixels wide, with a caption below it. All parameters are optional, except for the item ID. (Which kinda makes sense.)
 	<br>
 	<br><b>[media id=1 type=album]</b>
 	<br>This will show in your posts the latest items in your first album. They will be shown using the box type (see below).
