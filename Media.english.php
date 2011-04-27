@@ -192,7 +192,7 @@ $txt['media_profile_viewvotes_desc'] = 'View all the ratings given by the user. 
 $txt['media_version'] = 'Installed version';
 $txt['media_latest_version'] = 'Latest version';
 $txt['media_switch_fulledit'] = 'Switch to full edit page with smileys and BBCode';
-$txt['media_needs_js_flash'] = 'Please note that this feature will not work if you disabled Javascript or Flash support in your browser.';
+$txt['media_needs_js_flash'] = 'Please note that this feature will not work if you disabled JavaScript or Flash support in your browser.';
 $txt['media_action'] = 'Action';
 $txt['media_member'] = 'Member';
 $txt['media_approve_this'] = 'This item is currently waiting for approval.';
@@ -300,32 +300,32 @@ $txt['media_foxy_media_list'] = 'Multimedia list';
 $txt['media_foxy_add_tag'] = 'Click <a href="%1$s">here</a> to insert the tag into your message and close this window. (Experimental!)';
 $txt['media_foxy_and_children'] = 'and sub-albums';
 
-// Lightbox strings
-$txt['media_lightbox_section'] = 'Lightbox (Animated transitions)';
-$txt['media_lightbox_enable'] = 'Enable Lightbox';
-$txt['media_lightbox_enable_info'] = 'The lightbox script is designed to show an animated transition when you click on a picture thumbnail.';
-$txt['media_lightbox_outline'] = 'Outline shadow';
-$txt['media_lightbox_outline_info'] = 'Defines the type of outline to display around the expanded content. <i>drop-shadow</i> is a simple drop shadow, while <i>rounded-white</i> adds a white border with rounded corners and a smaller drop shadow.';
-$txt['media_lightbox_expand'] = 'Duration of animation';
-$txt['media_lightbox_expand_info'] = '<i>In milliseconds</i>. Defines how long the zoom effect should take.';
-$txt['media_lightbox_autosize'] = 'Scale to browser window';
-$txt['media_lightbox_autosize_info'] = 'Allow larger pictures to shrink to fit the browser window. Clicking on the Expand icon will restore them to full size.';
-$txt['media_lightbox_fadeinout'] = 'Fade in/out';
-$txt['media_lightbox_fadeinout_info'] = 'Add a fading effect to the animation.';
+// Zoomedia strings
+$txt['media_zoom_section'] = 'Zoomedia (Animated transitions)';
+$txt['media_zoom_enable'] = 'Enable Zoomedia';
+$txt['media_zoom_enable_info'] = 'This lightbox/zoom script is designed to show an animated transition when you click on a picture thumbnail.';
+$txt['media_zoom_outline'] = 'Outline shadow';
+$txt['media_zoom_outline_info'] = 'Defines the type of outline to display around the expanded content. <i>drop-shadow</i> is a simple drop shadow, while <i>rounded-white</i> adds a white border with rounded corners and a smaller drop shadow.';
+$txt['media_zoom_expand'] = 'Duration of animation';
+$txt['media_zoom_expand_info'] = '<i>In milliseconds</i>. Defines how long the zoom effect should take.';
+$txt['media_zoom_autosize'] = 'Scale to browser window';
+$txt['media_zoom_autosize_info'] = 'Allow larger pictures to shrink to fit the browser window. Clicking on the Expand icon will restore them to full size.';
+$txt['media_zoom_fadeinout'] = 'Fade in/out';
+$txt['media_zoom_fadeinout_info'] = 'Add a fading effect to the animation.';
 
-// Lightbox Javascript strings.
+// Zoomedia JavaScript strings
 // Escape single quotes twice (\\\' instead of \') otherwise it won't work.
-$txt['media_lbox_close_title'] = 'Close (Esc)';
-$txt['media_lbox_move'] = 'Move';
-$txt['media_lbox_loading'] = 'Loading...';
-$txt['media_lbox_clicktocancel'] = 'Click to cancel';
-$txt['media_lbox_clicktoclose'] = 'Click to close image, drag to move';
-$txt['media_lbox_expandtoactual'] = 'Expand to actual size (f)';
-$txt['media_lbox_focus'] = 'Click to bring to front';
-$txt['media_lbox_previous'] = 'Previous (left arrow)';
-$txt['media_lbox_next'] = 'Next (right arrow)';
-$txt['media_lbox_play'] = 'Play slideshow (spacebar)';
-$txt['media_lbox_pause'] = 'Pause slideshow (spacebar)';
+$txt['media_zoom_close_title'] = 'Close (Esc)';
+$txt['media_zoom_move'] = 'Move';
+$txt['media_zoom_loading'] = 'Loading...';
+$txt['media_zoom_clicktocancel'] = 'Click to cancel';
+$txt['media_zoom_clicktoclose'] = 'Click to close image, drag to move';
+$txt['media_zoom_expandtoactual'] = 'Expand to actual size (f)';
+$txt['media_zoom_focus'] = 'Click to bring to front';
+$txt['media_zoom_previous'] = 'Previous (left arrow)';
+$txt['media_zoom_next'] = 'Next (right arrow)';
+$txt['media_zoom_play'] = 'Play slideshow (spacebar)';
+$txt['media_zoom_pause'] = 'Pause slideshow (spacebar)';
 
 // Help strings
 $txt['media_add_keywords_sub'] = 'Use comma (,) as a separator';

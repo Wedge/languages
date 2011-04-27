@@ -279,11 +279,11 @@ $helptxt['enableCompressedOutput'] = 'This option will compress output to lower 
 		zlib to be installed.';
 $helptxt['enableCompressedData'] = 'This option will compress CSS and JS files to gzip format after caching them. It requires zlib to be installed, and the correct .htaccess
 		settings to be initialized. This will save your server the hassle of gzipping these files on the fly each time they are requested.
-		If it doesn\'t work, the stylesheets and Javascript will be inactive and you should immediately disable the setting.';
-$helptxt['obfuscate_filenames'] = 'This option will modify the filenames for Javascript and CSS files when they\'re being cached. Its only point is to allow Javascript
+		If it doesn\'t work, the stylesheets and JavaScript will be inactive and you should immediately disable the setting.';
+$helptxt['obfuscate_filenames'] = 'This option will modify the filenames for JavaScript and CSS files when they\'re being cached. Its only point is to allow JavaScript
 		developers to make life harder for evil script thieves who\'re after your work, yes you, personally, it\'s a conspiracy, they want your head.<br><br>
 		Anyway, if names are encrypted, they won\'t be able to find the unminified original files. Obviously, if minification is disabled, it\'s utterly pointless. Just saying.';
-$helptxt['minify'] = 'This option will minify Javascript files when they\'re being cached. If you allow Wedge to minify files, it will remove all comments and useless whitespace,
+$helptxt['minify'] = 'This option will minify JavaScript files when they\'re being cached. If you allow Wedge to minify files, it will remove all comments and useless whitespace,
 		speeding up your site\'s loading speed. Only cached files will be minified, the original files are of course left untouched.<br><br>
 		Using Packer for minification is more efficient, with one caveat: if your scripts aren\'t tightly programmed, they will crash (use <a href="http://www.jslint.com/" target="_blank">JSLint</a>
 		to fix them). Also, if gzip compression isn\'t available on your server (the agony!), Packer will compress the files as best at it can, but it will introduce

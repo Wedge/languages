@@ -173,7 +173,7 @@ $txt['pm_rule_name_desc'] = 'Name to remember this rule by';
 $txt['pm_rule_name_default'] = '[NAME]';
 $txt['pm_rule_description'] = 'Description';
 $txt['pm_rule_not_defined'] = 'Add some criteria to begin building this rule description.';
-$txt['pm_rule_js_disabled'] = '<span class="alert"><strong>Note:</strong> You appear to have javascript disabled. We highly recommend you enable javascript to use this feature.</span>';
+$txt['pm_rule_js_disabled'] = '<span class="alert"><strong>Note:</strong> You appear to have JavaScript disabled. We highly recommend you enable JavaScript to use this feature.</span>';
 $txt['pm_rule_criteria'] = 'Criteria';
 $txt['pm_rule_criteria_add'] = 'Add Criteria';
 $txt['pm_rule_criteria_pick'] = 'Choose Criteria';

@@ -184,7 +184,7 @@ $txt['media_profile_viewvotes_desc'] = 'La liste des notes données par l\'utili
 $txt['media_version'] = 'Version installée';
 $txt['media_latest_version'] = 'Dernière version';
 $txt['media_switch_fulledit'] = 'Passer en mode complet avec smileys et BBCode';
-$txt['media_needs_js_flash'] = 'Veuillez noter que cette fonctionnalité nécessite le support de Javascript et de Flash par votre navigateur.';
+$txt['media_needs_js_flash'] = 'Veuillez noter que cette fonctionnalité nécessite le support de JavaScript et de Flash par votre navigateur.';
 $txt['media_action'] = 'Action';
 $txt['media_member'] = 'Membre';
 $txt['media_approve_this'] = 'Cet élément est actuellement en attente d\'approbation.';
@@ -292,32 +292,32 @@ $txt['media_foxy_media_list'] = 'Liste multimédia';
 $txt['media_foxy_add_tag'] = 'Cliquez <a href="%1$s">ici</a> pour insérer le tag dans votre message et fermer la fenêtre. (Expérimental !)';
 $txt['media_foxy_and_children'] = 'et ses sous-albums';
 
-// Lightbox strings
-$txt['media_lightbox_section'] = 'Lightbox (Transitions animées)';
-$txt['media_lightbox_enable'] = 'Activer la Lightbox';
-$txt['media_lightbox_enable_info'] = 'Une Lightbox est un script utilisé pour afficher les images via une animation quand vous cliquez sur une vignette.';
-$txt['media_lightbox_outline'] = 'Ombre portée';
-$txt['media_lightbox_outline_info'] = 'Définit le type d\'ombre qui entourera le contenu agrandi. <i>drop-shadow</i> est une ombre portée simple, tandis que <i>rounded-white</i> ajoute des bords blancs, des coins arrondis et une ombre portée plus petite.';
-$txt['media_lightbox_expand'] = 'Durée de l\'animation';
-$txt['media_lightbox_expand_info'] = '<i>En millisecondes</i>. Définit le temps pris par le zoom pour se réaliser.';
-$txt['media_lightbox_autosize'] = 'Adaptation à l\'échelle';
-$txt['media_lightbox_autosize_info'] = 'Permet aux images trop grandes d\'être réduites pour ne pas dépasser la taille de la fenêtre du navigateur. Cliquez ensuite sur l\'icône Agrandir pour les voir en taille normale.';
-$txt['media_lightbox_fadeinout'] = 'Fondu enchaîné';
-$txt['media_lightbox_fadeinout_info'] = 'Ajoute un effet de fondu enchaîné à l\'animation.';
+// Zoomedia strings
+$txt['media_zoom_section'] = 'Zoomedia (Transitions animées)';
+$txt['media_zoom_enable'] = 'Activer Zoomedia';
+$txt['media_zoom_enable_info'] = 'Ce script de zoom est utilisé pour afficher les images via une animation quand vous cliquez sur une vignette.';
+$txt['media_zoom_outline'] = 'Ombre portée';
+$txt['media_zoom_outline_info'] = 'Définit le type d\'ombre qui entourera le contenu agrandi. <i>drop-shadow</i> est une ombre portée simple, tandis que <i>rounded-white</i> ajoute des bords blancs, des coins arrondis et une ombre portée plus petite.';
+$txt['media_zoom_expand'] = 'Durée de l\'animation';
+$txt['media_zoom_expand_info'] = '<i>En millisecondes</i>. Définit le temps pris par le zoom pour se réaliser.';
+$txt['media_zoom_autosize'] = 'Adaptation à l\'échelle';
+$txt['media_zoom_autosize_info'] = 'Permet aux images trop grandes d\'être réduites pour ne pas dépasser la taille de la fenêtre du navigateur. Cliquez ensuite sur l\'icône Agrandir pour les voir en taille normale.';
+$txt['media_zoom_fadeinout'] = 'Fondu enchaîné';
+$txt['media_zoom_fadeinout_info'] = 'Ajoute un effet de fondu enchaîné à l\'animation.';
 
-// Lightbox Javascript strings.
+// Zoomedia JavaScript strings
 // Escape single quotes twice (\\\' instead of \') otherwise it won't work.
-$txt['media_lbox_close_title'] = 'Fermer (Echap)';
-$txt['media_lbox_move'] = 'Déplacer';
-$txt['media_lbox_loading'] = 'Chargement...';
-$txt['media_lbox_clicktocancel'] = 'Cliquez pour annuler';
-$txt['media_lbox_clicktoclose'] = 'Cliquez pour fermer, glissez pour déplacer';
-$txt['media_lbox_expandtoactual'] = 'Afficher en taille réelle (F)';
-$txt['media_lbox_focus'] = 'Cliquez pour mettre en avant';
-$txt['media_lbox_previous'] = 'Précédent (Flèche gauche)';
-$txt['media_lbox_next'] = 'Suivante (Flèche droite)';
-$txt['media_lbox_play'] = 'Diaporama (Espace)';
-$txt['media_lbox_pause'] = 'Pause Diaporama (Espace)';
+$txt['media_zoom_close_title'] = 'Fermer (Echap)';
+$txt['media_zoom_move'] = 'Déplacer';
+$txt['media_zoom_loading'] = 'Chargement...';
+$txt['media_zoom_clicktocancel'] = 'Cliquez pour annuler';
+$txt['media_zoom_clicktoclose'] = 'Cliquez pour fermer, glissez pour déplacer';
+$txt['media_zoom_expandtoactual'] = 'Afficher en taille réelle (F)';
+$txt['media_zoom_focus'] = 'Cliquez pour mettre en avant';
+$txt['media_zoom_previous'] = 'Précédent (Flèche gauche)';
+$txt['media_zoom_next'] = 'Suivante (Flèche droite)';
+$txt['media_zoom_play'] = 'Diaporama (Espace)';
+$txt['media_zoom_pause'] = 'Pause Diaporama (Espace)';
 
 // Help strings
 $txt['media_add_keywords_sub'] = 'Utilisez des virgules pour séparer les mots-clés. Si un mot-clé contient une virgule, entourez-le de guillemets. Si votre mot-clé contient des guillemets, oh et puis zut débrouillez-vous.';

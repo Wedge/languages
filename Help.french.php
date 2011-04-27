@@ -265,15 +265,15 @@ $helptxt['ignoreMoveVsNew'] = 'Si l\'utilisateur déplace un sujet vers une autr
 $helptxt['pollMode'] = 'Ceci détermine si les sondages sont activés ou non. Si les sondages sont désactivés, tous les sondages actuels sont cachés sur la liste des sujets. Vous pouvez choisir de continuer à afficher la partie sujet des sondages en sélectionnant &quot;Montrer les sondages existants comme des sujets&quot;.<br><br>Pour choisir qui peut poster et voir des sondages (et similaires), vous pouvez autoriser ou refuser ces permissions. Rappelez-vous de ceci si les sondages sont désactivés.';
 $helptxt['enableVBStyleLogin'] = 'Ceci affichera un champ de connexion au bas de chaque page du forum, si le visiteur n\'est pas encore connecté.';
 $helptxt['enableCompressedOutput'] = 'Cette option compressera à la volée les données envoyées, afin de diminuer la consommation de bande passante, mais requiert que zlib soit installé sur le serveur.';
-$helptxt['enableCompressedData'] = 'Cette option compressera les données CSS et Javascript après leur mise en cache. La librairie zlib doit être installée avant tout, et le fichier .htaccess doit être configuré correctement.
+$helptxt['enableCompressedData'] = 'Cette option compressera les données CSS et JavaScript après leur mise en cache. La librairie zlib doit être installée avant tout, et le fichier .htaccess doit être configuré correctement.
 		Ce processus permet d\'éviter au serveur de recompresser les fichiers CSS et JS à la volée quand ils sont téléchargés.
 		En cas de problème (page vierge de tout style graphique et pas de scripts actifs), désactivez au plus vite l\'option.';
-$helptxt['obfuscate_filenames'] = 'Cette option permet de modifier les noms des fichiers Javascript et CSS après leur mise en cache. Son unique intérêt est de permettre aux
-		développeurs Javascript de rendre plus difficile la vie des méchants voleurs de scripts qui vous en veulent, à vous, personnellement, c\'est sûr,
+$helptxt['obfuscate_filenames'] = 'Cette option permet de modifier les noms des fichiers JavaScript et CSS après leur mise en cache. Son unique intérêt est de permettre aux
+		développeurs JavaScript de rendre plus difficile la vie des méchants voleurs de scripts qui vous en veulent, à vous, personnellement, c\'est sûr,
 		c\'est un complot.<br><br>
 		Bref, si les noms sont cryptés, ils ne pourront pas retrouver le fichier original non compressé. Évidemment, si la minification est désactivée,
 		ça ne sert strictement à rien. Mais je dis ça, je dis rien moi, c\'est pour vous.';
-$helptxt['minify'] = 'Cette option permet de minifier les fichiers Javascript avant leur mise en cache. Si vous autorisez Wedge à minifier les fichiers, il retirera tous
+$helptxt['minify'] = 'Cette option permet de minifier les fichiers JavaScript avant leur mise en cache. Si vous autorisez Wedge à minifier les fichiers, il retirera tous
 		les commentaires et l\'indentation inutile, ce qui accélèrera la vitesse de chargement du site. Seules les copies du cache sont modifiées, bien sûr.<br><br>
 		La compression avec Packer est plus efficace, mais si vos scripts sont mal fichus, ils planteront (utilisez <a href="http://www.jslint.com/" target="_blank">JSLint</a> pour les
 		corriger). De plus, si la compression gzip n\'est pas disponible sur votre serveur, Packer se chargera de compresser encore plus les fichiers, au prix d\'un léger
