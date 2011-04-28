@@ -629,7 +629,7 @@ $txt['spider_stats'] = 'Stats';
 $txt['paid_subscriptions'] = 'Abonnements payants';
 $txt['paid_subs_view'] = 'Voir les Abonnements';
 
-$txt['urlLength'] = 'Raccourcir les adresses de plus de (x) caractères dans les messages<dfn>Par défaut, 50 caractères. Mettez à 0 pour désactiver.</dfn>';
+$txt['max_urlLength'] = 'Dans les messages, raccourcir les adresses de plus de...<dfn>Par défaut, 50 caractères. Mettez à 0 pour désactiver.</dfn>';
 
 $txt['allow_ignore_topics'] = 'Permettre aux membres d\'ignorer des sujets';
 

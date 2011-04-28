@@ -13,8 +13,6 @@ global $txt, $scripturl;
 // Auto-embedder strings
 $txt['media'] = 'Media';
 $txt['media_noexternalembedding'] = '(The video\'s owner prevents external embedding)';
-$txt['media_debug_took'] = 'Auto-Embed Debug:';
-$txt['media_debug_seconds'] = ' seconds.';
 $txt['media_select'] = 'Select All';
 $txt['media_reset'] = 'Reset To Defaults';
 $txt['media_too_many_embeds'] = '(Embedding disabled, limit reached)';

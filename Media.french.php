@@ -5,8 +5,6 @@ global $txt, $scripturl;
 // Auto-embedder strings
 $txt['media'] = 'Media';
 $txt['media_noexternalembedding'] = '(L\'auteur de la vidéo refuse les intégrations externes)';
-$txt['media_debug_took'] = 'Débug Aeva:';
-$txt['media_debug_seconds'] = ' secondes.';
 $txt['media_select'] = 'Tout sélectionner';
 $txt['media_reset'] = 'Remettre à zéro';
 $txt['media_too_many_embeds'] = '(Intégration désactivée, limite atteinte)';

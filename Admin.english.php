@@ -629,7 +629,7 @@ $txt['spider_stats'] = 'Stats';
 $txt['paid_subscriptions'] = 'Paid Subscriptions';
 $txt['paid_subs_view'] = 'View Subscriptions';
 
-$txt['urlLength'] = 'Trim URLs longer than (x) characters in posts<dfn>Default is 50 characters. Set to 0 to disable.</dfn>';
+$txt['max_urlLength'] = 'In posts, shorten URLs longer than...<dfn>Default is 50 characters. Set to 0 to disable.</dfn>';
 
 $txt['allow_ignore_topics'] = 'Enable members to ignore topics';
 
