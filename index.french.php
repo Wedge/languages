@@ -436,8 +436,8 @@ $txt['cache_writable_head'] = 'Avertissement sur la performance';
 $txt['cache_writable'] = 'Le répertoire cache est protégé en écriture - cela affectera grandement la performance de votre forum.';
 
 $txt['page_created'] = 'Page générée en ';
-$txt['seconds_with'] = ' secondes avec ';
-$txt['queries'] = ' requêtes.';
+$txt['seconds_with_query'] = '%1$.2f secondes avec 1 requête.';
+$txt['seconds_with_queries'] = '%1$.2f secondes avec %2$d requêtes.';
 
 $txt['report_to_mod_func'] = 'Utilisez cette fonction pour informer les modérateurs et administrateurs d\'un message abusif ou erroné.<br><em>Veuillez noter que votre adresse e-mail sera révélée aux modérateurs si vous utilisez cette fonction.</em>';
 
@@ -450,7 +450,9 @@ $txt['status'] = 'État';
 $txt['go_up'] = 'En haut';
 $txt['go_down'] = 'En bas';
 
+$txt['dynamic_replacements'] = '<abbr title="Remplacements Dynamiques">RD</abbr>';
 $txt['site_credits'] = 'Crédits du site';
+
 /*
 $forum_copyright = 'Propulsé par <a href="http://wedge.org/" title="Wedge Forum" target="_blank" class="new_win">%1$s</a>
 | Wedge &copy; 2010&ndash;2011, <a href="http://about.wedge.org/" title="About Wedge" target="_blank" class="new_win">Wedgeward</a>

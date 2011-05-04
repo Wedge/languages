@@ -436,8 +436,8 @@ $txt['cache_writable_head'] = 'Performance Warning';
 $txt['cache_writable'] = 'The cache directory is not writable - this will adversely affect the performance of your forum.';
 
 $txt['page_created'] = 'Page created in ';
-$txt['seconds_with'] = ' seconds with ';
-$txt['queries'] = ' queries.';
+$txt['seconds_with_query'] = '%1$.2f seconds with 1 query.';
+$txt['seconds_with_queries'] = '%1$.2f seconds with %2$d queries.';
 
 $txt['report_to_mod_func'] = 'Use this function to inform the moderators and administrators of an abusive or wrongly posted message.<br><em>Please note that your email address will be revealed to the moderators if you use this.</em>';
 
@@ -450,6 +450,7 @@ $txt['status'] = 'Status';
 $txt['go_up'] = 'Go Up';
 $txt['go_down'] = 'Go Down';
 
+$txt['dynamic_replacements'] = '<abbr title="Dynamic Replacements">DR</abbr>';
 $txt['site_credits'] = 'Website credits';
 
 /*
