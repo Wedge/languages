@@ -140,8 +140,6 @@ $txt['media_admin_settings_prev_next'] = 'Montrer les éléments précédents et
 $txt['media_admin_settings_prev_next_subtext'] = 'Activez cette option pour montrer sur les pages d\'éléments des raccourcis (image ou texte) vers les éléments précédents et suivants.';
 $txt['media_admin_settings_default_tag_type'] = 'Taille par défaut dans les tags [media]&nbsp;?';
 $txt['media_admin_settings_default_tag_type_subtext'] = 'Choisissez le type d\'image à afficher par défaut quand aucun type n\'est spécifié pour les images affichées via le tag [media id=xxx type=xxx]';
-$txt['media_admin_settings_num_items_per_line'] = 'Nombre d\'éléments par ligne';
-$txt['media_admin_settings_num_items_per_line_ext'] = 'Nombre d\'éléments par ligne';
 $txt['media_admin_settings_my_docs'] = 'Documents autorisés';
 $txt['media_admin_settings_my_docs_subtext'] = 'Vous pouvez choisir la liste des extensions autorisées pour les Documents envoyés. Séparez-les par des virgules (ex: "zip,pdf"). Si vous voulez remettre la liste à zéro, voici les extensions supportées par défaut&nbsp;: %s';
 $txt['media_admin_settings_player_color'] = 'Couleur du lecteur audio/vidéo';

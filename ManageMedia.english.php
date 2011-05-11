@@ -140,8 +140,6 @@ $txt['media_admin_settings_prev_next'] = 'Show Previous and Next links?';
 $txt['media_admin_settings_prev_next_subtext'] = 'Enable this feature to show text or thumbnail shortcuts to previous and next items in the current item page.';
 $txt['media_admin_settings_default_tag_type'] = 'Default size within [media] tags?';
 $txt['media_admin_settings_default_tag_type_subtext'] = 'Choose the image type that should be shown by default when no type is specified on [media id=xxx type=xxx] tags.';
-$txt['media_admin_settings_num_items_per_line'] = 'Max items per line';
-$txt['media_admin_settings_num_items_per_line_ext'] = 'Max items per line';
 $txt['media_admin_settings_my_docs'] = 'Allowed Document files';
 $txt['media_admin_settings_my_docs_subtext'] = 'You can choose the extensions allowed for uploaded Documents. Use comma as a separator (eg. "zip,pdf"). The default list of supported file types, in case you want to reset it, is: %s';
 $txt['media_admin_settings_player_color'] = 'Audio/video player\'s front color';
