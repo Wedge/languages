@@ -358,23 +358,23 @@ $txt['media_admin_safe_mode_none'] = 'Le Safe Mode de PHP est désactivé. Bonne
 $txt['media_admin_perms_warning'] = '<strong>Attention</strong>, les permissions générales d\'accès à la section Media sont à régler, groupe de membre par groupe de membre, dans <a href="%s">l\'administration classique</a>.';
 
 // Per-album Permissions
-$txt['permissionname_aeva_download_item'] = 'Télécharger des éléments';
-$txt['permissionname_aeva_add_videos'] = 'Ajouter des fichiers vidéo';
-$txt['permissionname_aeva_add_audios'] = 'Ajouter des fichiers audio';
-$txt['permissionname_aeva_add_docs'] = 'Ajouter des documents';
-$txt['permissionname_aeva_add_embeds'] = 'Ajouter des fichiers intégrés';
-$txt['permissionname_aeva_add_images'] = 'Ajouter des images';
-$txt['permissionname_aeva_rate_items'] = 'Donner des notes aux éléments';
-$txt['permissionname_aeva_edit_own_com'] = 'Modifier ses commentaires';
-$txt['permissionname_aeva_report_com'] = 'Signaler des commentaires';
-$txt['permissionname_aeva_edit_own_item'] = 'Modifier ses éléments';
-$txt['permissionname_aeva_comment'] = 'Commenter des éléments';
-$txt['permissionname_aeva_report_item'] = 'Signaler des éléments';
-$txt['permissionname_aeva_auto_approve_com'] = 'Auto-approuver ses commentaires';
-$txt['permissionname_aeva_auto_approve_item'] = 'Auto-approuver ses uploads';
-$txt['permissionname_aeva_multi_upload'] = 'Envoyer des fichiers en masse';
-$txt['permissionname_aeva_whoratedwhat'] = 'Voir qui a voté quoi';
-$txt['permissionname_aeva_multi_download'] = 'Télécharger des albums zippés';
+$txt['permissionname_media_download_item'] = 'Télécharger des éléments';
+$txt['permissionname_media_add_videos'] = 'Ajouter des fichiers vidéo';
+$txt['permissionname_media_add_audios'] = 'Ajouter des fichiers audio';
+$txt['permissionname_media_add_docs'] = 'Ajouter des documents';
+$txt['permissionname_media_add_embeds'] = 'Ajouter des fichiers intégrés';
+$txt['permissionname_media_add_images'] = 'Ajouter des images';
+$txt['permissionname_media_rate_items'] = 'Donner des notes aux éléments';
+$txt['permissionname_media_edit_own_com'] = 'Modifier ses commentaires';
+$txt['permissionname_media_report_com'] = 'Signaler des commentaires';
+$txt['permissionname_media_edit_own_item'] = 'Modifier ses éléments';
+$txt['permissionname_media_comment'] = 'Commenter des éléments';
+$txt['permissionname_media_report_item'] = 'Signaler des éléments';
+$txt['permissionname_media_auto_approve_com'] = 'Auto-approuver ses commentaires';
+$txt['permissionname_media_auto_approve_item'] = 'Auto-approuver ses uploads';
+$txt['permissionname_media_multi_upload'] = 'Envoyer des fichiers en masse';
+$txt['permissionname_media_whoratedwhat'] = 'Voir qui a voté quoi';
+$txt['permissionname_media_multi_download'] = 'Télécharger des albums zippés';
 
 // Custom fields
 $txt['media_cf_invalid'] = 'Valeur invalide pour %s';

@@ -358,23 +358,23 @@ $txt['media_admin_safe_mode_none'] = 'PHP\'s Safe Mode is disabled. Good thing.'
 $txt['media_admin_perms_warning'] = '<strong>Warning</strong>: this page is only for album permissions. General access permissions for the Media area are to be set membergroup by membergroup, in the regular <a href="%s">administration area</a>.';
 
 // Per-album Permissions
-$txt['permissionname_aeva_download_item'] = 'Download items';
-$txt['permissionname_aeva_add_videos'] = 'Add video files';
-$txt['permissionname_aeva_add_audios'] = 'Add audio files';
-$txt['permissionname_aeva_add_docs'] = 'Add documents';
-$txt['permissionname_aeva_add_embeds'] = 'Add embedded files';
-$txt['permissionname_aeva_add_images'] = 'Add pictures';
-$txt['permissionname_aeva_rate_items'] = 'Rate items';
-$txt['permissionname_aeva_edit_own_com'] = 'Edit own comments';
-$txt['permissionname_aeva_report_com'] = 'Report comment';
-$txt['permissionname_aeva_edit_own_item'] = 'Edit own items';
-$txt['permissionname_aeva_comment'] = 'Comment in items';
-$txt['permissionname_aeva_report_item'] = 'Report items';
-$txt['permissionname_aeva_auto_approve_com'] = 'Auto-approve comments';
-$txt['permissionname_aeva_auto_approve_item'] = 'Auto-approve items';
-$txt['permissionname_aeva_multi_upload'] = 'Mass Upload';
-$txt['permissionname_aeva_whoratedwhat'] = 'View who rated what';
-$txt['permissionname_aeva_multi_download'] = 'Mass Download';
+$txt['permissionname_media_download_item'] = 'Download items';
+$txt['permissionname_media_add_videos'] = 'Add video files';
+$txt['permissionname_media_add_audios'] = 'Add audio files';
+$txt['permissionname_media_add_docs'] = 'Add documents';
+$txt['permissionname_media_add_embeds'] = 'Add embedded files';
+$txt['permissionname_media_add_images'] = 'Add pictures';
+$txt['permissionname_media_rate_items'] = 'Rate items';
+$txt['permissionname_media_edit_own_com'] = 'Edit own comments';
+$txt['permissionname_media_report_com'] = 'Report comment';
+$txt['permissionname_media_edit_own_item'] = 'Edit own items';
+$txt['permissionname_media_comment'] = 'Comment in items';
+$txt['permissionname_media_report_item'] = 'Report items';
+$txt['permissionname_media_auto_approve_com'] = 'Auto-approve comments';
+$txt['permissionname_media_auto_approve_item'] = 'Auto-approve items';
+$txt['permissionname_media_multi_upload'] = 'Mass Upload';
+$txt['permissionname_media_whoratedwhat'] = 'View who rated what';
+$txt['permissionname_media_multi_download'] = 'Mass Download';
 
 // Custom fields
 $txt['media_cf_invalid'] = 'The value submitted for %s is invalid';
