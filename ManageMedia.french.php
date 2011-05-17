@@ -24,7 +24,7 @@ $txt['embed_includeurl_desc'] = '(pour les sites qui ne l\'indiquent pas dans le
 $txt['embed_local'] = 'Intégrer les fichiers locaux (sauf fichiers joints)';
 $txt['embed_local_desc'] = 'Locaux signifie qu\'ils sont sur le même serveur. Mais cela n\'autorise pas pour autant l\'intégration de n\'importe quel fichier de ce type n\'importe où.';
 $txt['embed_denotes'] = '(Les sites annotés d\'un * nécessitent un lookup)';
-$txt['embed_fish'] = '(Les sites annotés d\'un * nécessitent un lookup, mais cette fonctionnalité n\'est pas supportée par votre serveur.<br />À moins de rechercher l\'URL intégrable manuellement, vous ne pourrez pas intégrer de vidéos de ces sites.)';
+$txt['embed_fish'] = '(Les sites annotés d\'un * nécessitent un lookup, mais cette fonctionnalité n\'est pas supportée par votre serveur.<br>À moins de rechercher l\'URL intégrable manuellement, vous ne pourrez pas intégrer de vidéos de ces sites.)';
 $txt['embed_pop_sites'] = 'Sites Populaires';
 $txt['embed_video_sites'] = 'Sites Vidéo';
 $txt['embed_audio_sites'] = 'Sites Audio';
@@ -178,7 +178,7 @@ $txt['media_admin_child_of'] = 'Enfant de';
 $txt['media_admin_target'] = 'Cible';
 $txt['media_admin_position'] = 'Position';
 $txt['media_admin_membergroups'] = 'Groupes de membres';
-$txt['media_admin_membergroups_subtxt'] = 'Choisissez les groupes de membres qui seront autorisés à accéder à l\'album et à son contenu.<br />
+$txt['media_admin_membergroups_subtxt'] = 'Choisissez les groupes de membres qui seront autorisés à accéder à l\'album et à son contenu.<br>
 <ul class="aevadesc">
 	<li>Si les <strong>groupes primaires</strong> (indiqués en gras) sont cochés, tous les membres du forum pourront accéder à l\'album, il est donc inutile de cocher les autres groupes (sauf Invités).</li>
 	<li>Accès en <strong>Lecture</strong> : le groupe peut consulter l\'album et ses éléments, et utiliser les éventuelles permissions accordées (commenter, noter, etc.)</li>
@@ -309,7 +309,7 @@ $txt['media_admin_reports_desc'] = 'Vous êtes sur la page d\'administration des
 $txt['media_admin_bans_desc'] = 'Vous êtes sur la page d\'administration des bannissements de la section Media. Vous pouvez y gérer les utilisateurs bannis. Votre toute-puissance n\'a d\'égale que votre cruauté, maître.';
 $txt['media_admin_about_desc'] = 'Bienvenue dans la zone d\'administration de la section Media !';
 $txt['media_admin_passwd_subtxt'] = 'Pour réserver l\'accès à cet album à ceux qui en ont le mot de passe. Sinon, laissez vide.';
-$txt['media_admin_maintenance_finderror_pending'] = 'Ce script est toujours actif. %s éléments sur %s sont terminés pour le moment.<br /><br /><a href="%s">Veuillez cliquer ici pour continuer</a>. Assurez-vous d\'avoir attendu 1 à 2 secondes afin d\'éviter les surcharges.';
+$txt['media_admin_maintenance_finderror_pending'] = 'Ce script est toujours actif. %s éléments sur %s sont terminés pour le moment.<br><br>Veuillez <a href="%s">cliquer ici</a> pour continuer. Assurez-vous d\'avoir attendu 1 à 2 secondes afin d\'éviter les surcharges.';
 $txt['media_admin_finderrors_1'] = 'Les erreurs suivantes ont été trouvées par la recherche d\'erreurs';
 $txt['media_admin_finderrors_missing_db_file'] = 'L\'entrée de base de données du fichier %s, utilisée pour l\'élément <a href="%s">%s</a>, est manquante.';
 $txt['media_admin_finderrors_missing_db_thumb'] ='L\'entrée de base de données de la vignette %s, utilisée pour l\'élément <a href="%s">%s</a>, est manquante.';
@@ -330,7 +330,7 @@ $txt['media_admin_maintenance_checkfiles_no_files'] = 'Pas de fichiers superflus
 $txt['media_admin_maintenance_checkfiles_found'] = '%s fichier(s) superflu(s) trouvé(s), consommant %s ko d\'espace supplémentaire. <a href="%s">Cliquez ici</a> pour le(s) supprimer.';
 $txt['media_admin_maintenance_checkorphans_done'] = 'Les fichiers orphelins suivants ont été supprimés, pour un total de %s fichiers&nbsp;:';
 $txt['media_admin_maintenance_checkorphans_no_files'] = 'Pas de fichiers orphelins trouvés';
-$txt['media_admin_maintenance_clear_pending'] = 'Ce script est toujours actif. %s éléments sur %s sont terminés pour le moment.<br /><br /><a href="%s">Veuillez cliquer ici pour continuer</a>. Assurez-vous d\'avoir attendu 1 à 2 secondes afin d\'éviter les surcharges.';
+$txt['media_admin_maintenance_clear_pending'] = 'Ce script est toujours actif. %s éléments sur %s sont terminés pour le moment.<br><br>Veuillez <a href="%s">cliquer ici</a> pour continuer. Assurez-vous d\'avoir attendu 1 à 2 secondes afin d\'éviter les surcharges.';
 $txt['media_admin_maintenance_clear_done'] = 'Tous les fichiers ont été renommés avec succès.';
 $txt['media_admin_installed_on'] = 'Installé le';
 $txt['media_admin_ffmpeg'] = ' FFMPEG';

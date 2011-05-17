@@ -24,7 +24,7 @@ $txt['embed_includeurl_desc'] = '(for sites that don\'t have it in the player)';
 $txt['embed_local'] = 'Embed Local Files [Excludes attachments]';
 $txt['embed_local_desc'] = 'Local means on the same server. But this doesn\'t allow ANY file of this type to be embedded from anywhere.';
 $txt['embed_denotes'] = '(Sites marked with * require lookups)';
-$txt['embed_fish'] = '(Sites marked with * require lookups, however lookups will NOT work on your server.<br /> Therefore unless you manually fish for an embeddable url yourself, embedding will NOT work for these sites.)';
+$txt['embed_fish'] = '(Sites marked with * require lookups, however lookups will NOT work on your server.<br>Therefore, unless you manually fish for an embeddable url yourself, embedding will NOT work for these sites.)';
 $txt['embed_pop_sites'] = 'Popular Sites';
 $txt['embed_video_sites'] = 'Video Sites';
 $txt['embed_audio_sites'] = 'Audio Sites';
@@ -178,7 +178,7 @@ $txt['media_admin_child_of'] = 'Child of';
 $txt['media_admin_target'] = 'Target';
 $txt['media_admin_position'] = 'Position';
 $txt['media_admin_membergroups'] = 'Membergroups';
-$txt['media_admin_membergroups_subtxt'] = 'Select the membergroups that should be allowed to use the album and its contents.<br />
+$txt['media_admin_membergroups_subtxt'] = 'Select the membergroups that should be allowed to use the album and its contents.<br>
 <ul class="aevadesc">
 	<li>If all <strong>primary groups</strong> (which are bolded for your convenience) are checked, all forum members will be given access, so you don\'t need to check other groups (except for Guests).</li>
 	<li><strong>Read</strong> access: membergroup can view the album and its items, and use existing permissions if enabled (commenting, rating, etc.)</li>
@@ -309,7 +309,7 @@ $txt['media_admin_reports_desc'] = 'This is your reports admin panel, here you c
 $txt['media_admin_bans_desc'] = 'This is your bans admin panel where you can manage your gallery bans.';
 $txt['media_admin_about_desc'] = 'Welcome to the Media Administration Area!';
 $txt['media_admin_passwd_subtxt'] = 'Send it to users you want to share the album with. Otherwise, leave empty.';
-$txt['media_admin_maintenance_finderror_pending'] = 'The script is still working. Currently %s out of %s items are done.<br /><br /><a href="%s">Please click here to continue.</a> Make sure you wait 1-2 seconds to avoid overload.';
+$txt['media_admin_maintenance_finderror_pending'] = 'The script is still working. Currently %s out of %s items are done.<br><br><a href="%s">Please click here to continue.</a> Make sure you wait 1-2 seconds to avoid overload.';
 $txt['media_admin_finderrors_1'] = 'The following errors were discovered when searching for errors';
 $txt['media_admin_finderrors_missing_db_file'] = 'The DB entry of file #%s, used with item #<a href="%s">%s</a>, is missing.';
 $txt['media_admin_finderrors_missing_db_thumb'] ='The DB entry of thumbnail #%s, used with item #<a href="%s">%s</a>, is missing.';
@@ -330,7 +330,7 @@ $txt['media_admin_maintenance_checkfiles_no_files'] = 'No extra files found';
 $txt['media_admin_maintenance_checkfiles_found'] = 'Found %s unneeded files using up %s kilobytes of extra space. <a href="%s">Click here</a> to remove them.';
 $txt['media_admin_maintenance_checkorphans_done'] = 'All orphan files have been deleted, for a total of %s files:';
 $txt['media_admin_maintenance_checkorphans_no_files'] = 'No orphan files found';
-$txt['media_admin_maintenance_clear_pending'] = 'The script is still working. Currently %s out of %s items are done.<br /><br /><a href="%s">Please click here to continue.</a> Make sure you wait 1-2 seconds to avoid overload.';
+$txt['media_admin_maintenance_clear_pending'] = 'The script is still working. Currently %s out of %s items are done.<br><br>Please <a href="%s">click here</a> to continue. Make sure you wait 1-2 seconds to avoid overload.';
 $txt['media_admin_maintenance_clear_done'] = 'All files have been successfully renamed.';
 $txt['media_admin_installed_on'] = 'Installed on';
 $txt['media_admin_ffmpeg'] = ' FFMPEG';
