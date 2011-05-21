@@ -75,9 +75,9 @@ $txt['modlog_ac_remind_member'] = 'Sent out a reminder to &quot;{member}&quot; t
 $txt['modlog_ac_approve_member'] = 'Approved/Activated the account of &quot;{member}&quot;';
 $txt['modlog_ac_newsletter'] = 'Sent Newsletter';
 
-$txt['modlog_ac_install_package'] = 'Installed new package: &quot;{package}&quot;, version {version}';
-$txt['modlog_ac_upgrade_package'] = 'Upgraded package: &quot;{package}&quot; to version {version}';
-$txt['modlog_ac_uninstall_package'] = 'Uninstalled package: &quot;{package}&quot;, version {version}';
+$txt['modlog_ac_install_package'] = 'Installed new add-on: &quot;{package}&quot;, version {version}';
+$txt['modlog_ac_upgrade_package'] = 'Upgraded add-on: &quot;{package}&quot; to version {version}';
+$txt['modlog_ac_uninstall_package'] = 'Uninstalled add-on: &quot;{package}&quot;, version {version}';
 
 // Restore topic.
 $txt['modlog_ac_restore_topic'] = 'Restored topic &quot;{topic}&quot; from &quot;{board}&quot; to &quot;{board_to}&quot;';

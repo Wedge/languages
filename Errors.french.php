@@ -351,6 +351,8 @@ $txt['ignoretopics_disallowed'] = 'L\'option pour ignorer les sujets n\'a pas é
 
 $txt['mboards_delete_error'] = 'Pas de catégorie sélectionnée&nbsp;!';
 $txt['mboards_delete_board_error'] = 'Pas de section sélectionnée&nbsp;!';
+$txt['mboards_parent_own_child_error'] = 'Impossible de faire d\'un parent son propre enfant !';
+$txt['mboards_board_own_child_error'] = 'Impossible de faire d\'une section son propre enfant !';
 
 $txt['smileys_upload_error_notwritable'] = 'Les répertoires de smileys suivants ne sont pas inscriptibles&nbsp;: %1$s';
 $txt['smileys_upload_error_types'] = 'Les fichiers des smileys sont limités à ces extensions&nbsp;: %1$s.';

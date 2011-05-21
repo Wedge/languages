@@ -13,6 +13,7 @@ $txt['delete_user'] = 'Effacer le membre';
 $txt['current_status'] = 'Statut actuel&nbsp;:';
 $txt['personal_text'] = 'Texte personnel';
 $txt['personal_picture'] = 'Avatar personnalisé';
+$txt['no_avatar'] = 'Pas d\'avatar';
 $txt['choose_avatar_gallery'] = 'Choisir un avatar dans la galerie';
 $txt['picture_text'] = 'Image/texte';
 $txt['reset_form'] = 'Réinitialiser le formulaire';

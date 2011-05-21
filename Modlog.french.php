@@ -75,6 +75,10 @@ $txt['modlog_ac_remind_member'] = 'Rappel envoyé à &quot;{member}&quot; pour l
 $txt['modlog_ac_approve_member'] = 'Compte de &quot;{member}&quot; approuvé/activé';
 $txt['modlog_ac_newsletter'] = 'Newsletter envoyée';
 
+$txt['modlog_ac_install_package'] = 'Nouvelle extension installée&nbsp;: &quot;{package}&quot;, version {version}';
+$txt['modlog_ac_upgrade_package'] = 'Extension &quot;{package}&quot; mise à jour en version {version}';
+$txt['modlog_ac_uninstall_package'] = 'Extension désinstallée&nbsp;: &quot;{package}&quot;, version {version}';
+
 // Restore topic.
 $txt['modlog_ac_restore_topic'] = 'Sujet &quot;{topic}&quot; restauré à partir de &quot;{board}&quot; et vers la section &quot;{board_to}&quot;';
 $txt['modlog_ac_restore_posts'] = 'Messages restaurés à partir de &quot;{subject}&quot; vers le sujet &quot;{topic}&quot; dans la section &quot;{board}&quot;';

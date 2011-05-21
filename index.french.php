@@ -23,6 +23,8 @@ $txt['days_short'] = array('Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam');
 $txt['months'] = array(1 => 'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre');
 $txt['months_titles'] = array(1 => 'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre');
 $txt['months_short'] = array(1 => 'Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sep', 'Oct', 'Nov', 'Déc');
+$txt['time_am'] = 'am';
+$txt['time_pm'] = 'pm';
 
 $txt['newmessages0'] = 'est nouveau';
 $txt['newmessages1'] = 'sont nouveaux';
@@ -461,7 +463,7 @@ $forum_copyright = 'Propulsé par <a href="http://wedge.org/" title="Wedge Forum
 $forum_copyright = '<a href="http://wedge.org/" title="Wedge Forum" target="_blank" class="new_win">Wedge</a> est en construction.
 &copy; 2010&ndash;2011, <a href="http://about.wedge.org/" title="About Wedge" target="_blank" class="new_win">Wedgeward</a>';
 $forum_copyright .= '<br><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Propulsé par %1$s</a> |
- <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2011, Simple Machines LLC</a>';
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2011, Simple Machines LLC</a>';
 
 $txt['birthdays'] = 'Anniversaires&nbsp;:';
 $txt['events'] = 'Événements&nbsp;:';
