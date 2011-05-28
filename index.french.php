@@ -503,7 +503,7 @@ $txt['move_topic_unapproved_js'] = 'Attention ! Ce sujet n\'a pas encore été a
 $txt['theme_template_error'] = 'Impossible de charger le modèle \'%1$s\'.';
 $txt['theme_language_error'] = 'Impossible de charger le fichier de langues \'%1$s\'.';
 
-$txt['parent_boards'] = 'Sous-section';
+$txt['sub_boards'] = 'Sous-sections';
 
 $txt['smtp_no_connect'] = 'Échec de connexion au serveur SMTP';
 $txt['smtp_port_ssl'] = 'Le port SMTP est incorrect. Il doit être mis à 465 pour un serveur SSL.';
