@@ -455,15 +455,8 @@ $txt['go_down'] = 'En bas';
 $txt['dynamic_replacements'] = '<abbr title="Remplacements Dynamiques">RD</abbr>';
 $txt['site_credits'] = 'Crédits du site';
 
-/*
-$forum_copyright = 'Propulsé par <a href="http://wedge.org/" title="Wedge Forum" target="_blank" class="new_win">%1$s</a>
-| Wedge &copy; 2010&ndash;2011, <a href="http://about.wedge.org/" title="About Wedge" target="_blank" class="new_win">Wedgeward</a>
-<br>Basé sur SMF &copy; 2006&ndash;2011, <a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">Simple Machines LLC</a>';
-*/
-$forum_copyright = '<a href="http://wedge.org/" title="Wedge Forum" target="_blank" class="new_win">Wedge</a> est en construction.
-&copy; 2010&ndash;2011, <a href="http://about.wedge.org/" title="About Wedge" target="_blank" class="new_win">Wedgeward</a>';
-$forum_copyright .= '<br><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank" class="new_win">Propulsé par %1$s</a> |
-<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank" class="new_win">SMF &copy; 2006&ndash;2011, Simple Machines LLC</a>';
+$forum_copyright = 'Propulsé par <a href="http://wedge.org/" target="_blank" class="new_win">Wedge</a>, logiciel en construction.
+&copy; 2010&ndash;2011, <a href="http://about.wedge.org/" target="_blank" class="new_win" title="À propos de Wedge">Wedgeward</a>';
 
 $txt['birthdays'] = 'Anniversaires&nbsp;:';
 $txt['events'] = 'Événements&nbsp;:';

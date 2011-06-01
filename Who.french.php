@@ -123,7 +123,7 @@ $txt['who_poll'] = 'Poste un nouveau sondage dans <a href="' . $scripturl . '?bo
 
 // Credits text
 $txt['credits'] = 'Crédits';
-$txt['credits_intro'] = 'Wedge est un dérivé du logiciel de forum Simple Machines. Sa redistribution n\'est pas autorisée tant que la licence de SMF ne l\'autorisera pas explicitement. Si cette règle n\'est pas respectée, vous mettez le projet en danger. Merci de votre compréhension.';
+$txt['credits_intro'] = 'Wedge est un dérivé du logiciel de forum <a href="http://www.simplemachines.org/">Simple Machines</a>, distribué sous licence propre. Voici la liste des contributeurs ayant permis de donner vie au projet.';
 $txt['credits_team'] = 'L\'équipe';
 $txt['credits_smf_team'] = 'Équipe d\'origine de SMF 2.0';
 $txt['credits_special'] = 'Remerciements spéciaux';
@@ -132,7 +132,7 @@ $txt['credits_anyone'] = 'Et à tous ceux que nous avons oubliés&nbsp;: merci&n
 $txt['credits_copyright'] = 'Copyrights';
 $txt['credits_forum'] = 'Forum';
 $txt['credits_modifications'] = 'Spécialiste Extensions/Thèmes';
-$txt['credits_groups_ps'] = 'Support du Projet';
+$txt['credits_groups_ps'] = 'Fondateurs &amp; Directeurs';
 $txt['credits_groups_dev'] = 'Développeurs';
 $txt['credits_groups_support'] = 'Spécialistes Support';
 $txt['credits_groups_customize'] = 'Personnaliseurs';
@@ -147,7 +147,7 @@ $txt['credits_translators_message'] = 'Merci pour vos efforts, ils ont permis d\
 $txt['credits_groups_consultants'] = 'Consultants au Développement';
 $txt['credits_groups_beta'] = 'Beta Testeurs';
 $txt['credits_beta_message'] = 'Les valeureux élus qui ont sans relâche ni pitié traqué les bugs, apporté leurs idées et fait basculer les développeurs dans la démence.';
-$txt['credits_groups_founder'] = 'Père Fondateur d\'SMF';
+$txt['credits_groups_founder'] = 'Fondateur';
 
 // List of people who have made more than a token contribution to this translation. (Blank for English)
 $txt['translation_credits'] = array(

@@ -123,7 +123,7 @@ $txt['who_poll'] = 'Posting a new poll in <a href="' . $scripturl . '?board=%1$d
 
 // Credits text
 $txt['credits'] = 'Credits';
-$txt['credits_intro'] = 'This is a fork of the Simple Machines Forum software. Redistribution is not allowed until SMF\'s license accomodates for it. If this rule isn\'t followed, the project will no longer be allowed. Thank you in advance for your understanding.';
+$txt['credits_intro'] = 'This is a fork of the <a href="http://www.simplemachines.org/">Simple Machines</a> forum software. It is released under its own license. Here is the list of those who sacrificed themselves for its glory.';
 $txt['credits_team'] = 'The Team';
 $txt['credits_smf_team'] = 'Original SMF 2.0 Team';
 $txt['credits_special'] = 'Special Thanks';
@@ -131,8 +131,8 @@ $txt['credits_and'] = 'and';
 $txt['credits_anyone'] = 'And for anyone we may have missed, thank you!';
 $txt['credits_copyright'] = 'Copyrights';
 $txt['credits_forum'] = 'Forum';
-$txt['credits_modifications'] = 'Add-on/Theme Specialists';
-$txt['credits_groups_ps'] = 'Founders &amp; Project Managers';
+$txt['credits_modifications'] = 'Add-ons';
+$txt['credits_groups_ps'] = 'Founders &amp; Directors';
 $txt['credits_groups_dev'] = 'Developers';
 $txt['credits_groups_support'] = 'Support Specialists';
 $txt['credits_groups_customize'] = 'Customizers';
@@ -147,7 +147,7 @@ $txt['credits_translators_message'] = 'Thank you for your efforts. They make it 
 $txt['credits_groups_consultants'] = 'Consulting Developers';
 $txt['credits_groups_beta'] = 'Beta Testers';
 $txt['credits_beta_message'] = 'The invaluable few who tirelessly find bugs, provide feedback, and drive the developers crazier.';
-$txt['credits_groups_founder'] = 'Founding Father of SMF';
+$txt['credits_groups_founder'] = 'Founder';
 
 // List of people who have made more than a token contribution to this translation. (blank for English)
 $txt['translation_credits'] = array();
