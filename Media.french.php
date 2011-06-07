@@ -422,23 +422,6 @@ $txt['media_meta_exifVersion'] = 'Version Exif';
 $txt['media_modcp'] = 'Modération';
 $txt['media_modcp_desc'] = 'Le centre de modération de la section Media vous permet de gérer les soumissions et rapports envoyés par les utilisateurs, et de consulter les journaux.';
 
-// Who's online strings
-$txt['media_wo_home'] = 'Consulte l\'<a href="' . $scripturl . '?action=media">accueil</a> de la galerie';
-$txt['media_wo_admin'] = 'Administre la galerie';
-$txt['media_wo_unseen'] = 'Consulte les éléments non visités dans la galerie';
-$txt['media_wo_search'] = 'Fait une recherche dans la galerie';
-$txt['media_wo_item'] = 'Consulte &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; dans la galerie';
-$txt['media_wo_album'] = 'Consulte l\'album &quot;<a href="'.$scripturl.'?action=media;sa=album;in=%s">%s</a>&quot; dans la galerie';
-$txt['media_wo_add'] = 'Ajoute un élément à l\'album &quot;<a href="'.$scripturl.'?action=media;sa=album;in=%s">%s</a>&quot; dans la galerie';
-$txt['media_wo_edit'] = 'Modifie &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; dans la galerie';
-$txt['media_wo_comment'] = 'Commente &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; dans la galerie';
-$txt['media_wo_reporting'] = 'Signale &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; dans la galerie';
-$txt['media_wo_stats'] = 'Consulte les statistiques de la galerie';
-$txt['media_wo_vua'] = 'Consulte le panneau de contrôle d\'un album dans la galerie';
-$txt['media_wo_ua'] = 'Consulte l\'accueil d\'un album dans la galerie';
-$txt['media_wo_unknown'] = 'Effectue une action inconnue dans la galerie';
-$txt['media_wo_hidden'] = 'Rôde quelque part dans la galerie, à un endroit insondable...';
-
 $txt['media_permissions_help'] = 'D\'ici vous pouvez ajouter, modifier ou supprimer les profils de permissions. Les profils peuvent être assignés à un ou plusieurs albums, et les albums en question suivront les permissions concernées.';
 $txt['media_permissions_undeletable'] = 'Vous ne pouvez pas supprimer ce profil, car c\'est un profil par défaut.';
 

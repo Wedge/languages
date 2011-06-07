@@ -693,7 +693,7 @@ $txt['pm_menu_read'] = 'Read your messages';
 $txt['pm_menu_send'] = 'Send a message';
 $txt['pm_menu_drafts'] = 'Draft messages';
 
-$txt['hello_member_ndt'] = 'Hello';
+$txt['hello_member_ndt'] = 'Hello, <span>%1$s</span>!';
 
 $txt['unapproved_posts'] = 'Unapproved Posts (Topics: %1$d, Posts: %2$d)';
 

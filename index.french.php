@@ -693,7 +693,7 @@ $txt['pm_menu_read'] = 'Lire mes messages';
 $txt['pm_menu_send'] = 'Envoyer un message';
 $txt['pm_menu_drafts'] = 'Mes brouillons';
 
-$txt['hello_member_ndt'] = 'Bonjour';
+$txt['hello_member_ndt'] = 'Bonjour, <span>%1$s</span>&nbsp;!';
 
 $txt['unapproved_posts'] = 'Messages non approuvés (Sujets: %1$d, Messages: %2$d)';
 

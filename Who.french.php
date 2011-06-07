@@ -121,6 +121,24 @@ $txt['who_profile'] = 'Modifie le profil de <a href="' . $scripturl . '?action=p
 $txt['who_post'] = 'Poste un nouveau sujet dans <a href="' . $scripturl . '?board=%1$d.0">%2$s</a>.';
 $txt['who_poll'] = 'Poste un nouveau sondage dans <a href="' . $scripturl . '?board=%1$d.0">%2$s</a>.';
 
+// Who's online strings
+$txt['media_wo_home'] = 'Consulte l\'<a href="' . $scripturl . '?action=media">accueil</a> de la galerie';
+$txt['media_wo_admin'] = 'Administre la galerie';
+$txt['media_wo_unseen'] = 'Consulte les éléments non visités dans la galerie';
+$txt['media_wo_search'] = 'Fait une recherche dans la galerie';
+$txt['media_wo_item'] = 'Consulte &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; dans la galerie';
+$txt['media_wo_album'] = 'Consulte l\'album &quot;<a href="'.$scripturl.'?action=media;sa=album;in=%s">%s</a>&quot; dans la galerie';
+$txt['media_wo_add'] = 'Ajoute un élément à l\'album &quot;<a href="'.$scripturl.'?action=media;sa=album;in=%s">%s</a>&quot; dans la galerie';
+$txt['media_wo_edit'] = 'Modifie &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; dans la galerie';
+$txt['media_wo_comment'] = 'Commente &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; dans la galerie';
+$txt['media_wo_reporting'] = 'Signale &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; dans la galerie';
+$txt['media_wo_stats'] = 'Consulte les statistiques de la galerie';
+$txt['media_wo_vua'] = 'Consulte le panneau de contrôle d\'un album dans la galerie';
+$txt['media_wo_ua'] = 'Consulte l\'accueil d\'un album dans la galerie';
+$txt['media_wo_rss'] = 'Consulte un flux RSS de la galerie';
+$txt['media_wo_unknown'] = 'Effectue une action inconnue dans la galerie';
+$txt['media_wo_hidden'] = 'Rôde quelque part dans la galerie, à un endroit insondable...';
+
 // Credits text
 $txt['credits'] = 'Crédits';
 $txt['credits_intro'] = 'Wedge est un dérivé du logiciel de forum <a href="http://www.simplemachines.org/">Simple Machines</a>, distribué sous licence propre. Voici la liste des contributeurs ayant permis de donner vie au projet.';

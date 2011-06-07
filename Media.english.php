@@ -430,23 +430,6 @@ $txt['media_meta_exifVersion'] = 'Exif version';
 $txt['media_modcp'] = 'Moderation';
 $txt['media_modcp_desc'] = 'This is the moderation center of the gallery, here you can manage submissions and reports sent by the users of gallery as well as see the moderation log';
 
-// Who's online strings
-$txt['media_wo_home'] = 'Viewing the <a href="' . $scripturl . '?action=media">gallery home</a>';
-$txt['media_wo_admin'] = 'Administrating the gallery';
-$txt['media_wo_unseen'] = 'Viewing an <i>unseen</i> item in the gallery';
-$txt['media_wo_search'] = 'Searching the gallery';
-$txt['media_wo_item'] = 'Viewing &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; in the gallery';
-$txt['media_wo_album'] = 'Viewing the album &quot;<a href="'.$scripturl.'?action=media;sa=album;in=%s">%s</a>&quot; in the gallery';
-$txt['media_wo_add'] = 'Adding an item in the album &quot;<a href="'.$scripturl.'?action=media;sa=album;in=%s">%s</a>&quot; in the gallery';
-$txt['media_wo_edit'] = 'Editing &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; in the gallery';
-$txt['media_wo_comment'] = 'Commenting in &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; in the gallery';
-$txt['media_wo_reporting'] = 'Reporting &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; in the gallery';
-$txt['media_wo_stats'] = 'Viewing gallery\'s statistics';
-$txt['media_wo_vua'] = 'Viewing an album\'s control panel in the gallery';
-$txt['media_wo_ua'] = 'Viewing an album\'s index in the gallery';
-$txt['media_wo_unknown'] = 'Doing some unknown action in the gallery';
-$txt['media_wo_hidden'] = 'Somewhere in the gallery, in a place you can\'t see... Scary huh?';
-
 $txt['media_permissions_help'] = 'Here you can add/edit/delete the various permission profiles. The profiles can be assigned to one or multiple albums and the assigned albums will follow that permission set.';
 $txt['media_permissions_undeletable'] = 'You cannot delete this profile, as it is a default profile';
 

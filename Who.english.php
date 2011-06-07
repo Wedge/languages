@@ -121,6 +121,24 @@ $txt['who_profile'] = 'Editing the profile of <a href="' . $scripturl . '?action
 $txt['who_post'] = 'Posting a new topic in <a href="' . $scripturl . '?board=%1$d.0">%2$s</a>.';
 $txt['who_poll'] = 'Posting a new poll in <a href="' . $scripturl . '?board=%1$d.0">%2$s</a>.';
 
+// Media area actions
+$txt['media_wo_home'] = 'Viewing the <a href="' . $scripturl . '?action=media">gallery home</a>';
+$txt['media_wo_admin'] = 'Administrating the gallery';
+$txt['media_wo_unseen'] = 'Viewing an <i>unseen</i> item in the gallery';
+$txt['media_wo_search'] = 'Searching the gallery';
+$txt['media_wo_item'] = 'Viewing &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; in the gallery';
+$txt['media_wo_album'] = 'Viewing the album &quot;<a href="'.$scripturl.'?action=media;sa=album;in=%s">%s</a>&quot; in the gallery';
+$txt['media_wo_add'] = 'Adding an item in the album &quot;<a href="'.$scripturl.'?action=media;sa=album;in=%s">%s</a>&quot; in the gallery';
+$txt['media_wo_edit'] = 'Editing &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; in the gallery';
+$txt['media_wo_comment'] = 'Commenting in &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; in the gallery';
+$txt['media_wo_reporting'] = 'Reporting &quot;<a href="'.$scripturl.'?action=media;sa=item;in=%s">%s</a>&quot; in the gallery';
+$txt['media_wo_stats'] = 'Viewing gallery\'s statistics';
+$txt['media_wo_vua'] = 'Viewing an album\'s control panel in the gallery';
+$txt['media_wo_ua'] = 'Viewing an album\'s index in the gallery';
+$txt['media_wo_rss'] = 'Viewing a RSS feed from the gallery';
+$txt['media_wo_unknown'] = 'Doing some unknown action in the gallery';
+$txt['media_wo_hidden'] = 'Somewhere in the gallery, in a place you can\'t see... Scary huh?';
+
 // Credits text
 $txt['credits'] = 'Credits';
 $txt['credits_intro'] = 'This is a fork of the <a href="http://www.simplemachines.org/">Simple Machines</a> forum software. It is released under its own license. Here is the list of those who sacrificed themselves for its glory.';
