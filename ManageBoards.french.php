@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0 RC5; ManageBoards
+// Version: 2.0; ManageBoards
 
 $txt['boards_and_cats'] = 'Gestion des Sections et des Catégories';
 $txt['order'] = 'Ordre';

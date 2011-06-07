@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0 RC5; ManageMedia
+// Version: 2.0; ManageMedia
 
 $txt['embed_lookups'] = 'Enable Lookups';
 $txt['embed_lookup_success'] = 'This feature WILL work on your server';

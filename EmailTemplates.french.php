@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0 RC5; EmailTemplates
+// Version: 2.0; EmailTemplates
 
 global $birthdayEmails;
 

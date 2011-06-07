@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0 RC5; ManageScheduledTasks
+// Version: 2.0; ManageScheduledTasks
 
 $txt['scheduled_tasks_title'] = 'Tâches planifiées';
 $txt['scheduled_tasks_header'] = 'Toutes les tâches planifiées';

@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0 RC5; ManageMail
+// Version: 2.0; ManageMail
 
 $txt['mailqueue_desc'] = 'D\'ici, vous pouvez configurer vos paramètres E-mail, mais aussi consulter et gérer la File d\'attente E-mail si celle-ci est activée.';
 

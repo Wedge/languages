@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0 RC5; ModerationCenter
+// Version: 2.0; ModerationCenter
 
 global $scripturl;
 

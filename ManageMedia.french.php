@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0 RC5; ManageMedia
+// Version: 2.0; ManageMedia
 
 $txt['embed_lookups'] = 'Autoriser les lookups (vérifications distantes)';
 $txt['embed_lookup_success'] = 'Votre serveur supporte les lookups.';

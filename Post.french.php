@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0 RC5; Post
+// Version: 2.0; Post
 
 global $context;
 
