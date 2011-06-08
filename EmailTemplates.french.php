@@ -6,8 +6,8 @@ global $birthdayEmails;
 // Since all of these strings are being used in emails, numeric entities should be used.
 
 // Do not translate anything that is between {}, they are used as replacement variables and MUST remain exactly how they are.
-// Additionally do not translate the @additional_params: line or the variable names in the lines that follow it.  You may
-// translate the description of the variable.  Do not translate @description:, however you may translate the rest of that line.
+// Additionally do not translate the @additional_params: line or the variable names in the lines that follow it. You may
+// translate the description of the variable. Do not translate @description:, however you may translate the rest of that line.
 
 // Do not use block comments in this file, they will have special meaning.
 
@@ -52,7 +52,7 @@ Si vous avez un probl&#232;me quelconque avec l\'activation, allez sur {ACTIVATI
 
 L\'identifiant sous lequel vous vous &#234;tes inscrit &#233;tait {USERNAME}.
 
-Avant de pouvoir se connecter et commencer &#224; utiliser le forum, votre demande sera revue et approuv&#233;e.  Lorsque cela sera fait, vous recevrez un autre e-mail de la part de cette adresse.
+Avant de pouvoir se connecter et commencer &#224; utiliser le forum, votre demande sera revue et approuv&#233;e. Lorsque cela sera fait, vous recevrez un autre e-mail de la part de cette adresse.
 
 {REGARDS}',
 	),
@@ -161,7 +161,7 @@ Malheureusement, votre demande pour rejoindre {FORUMNAME} a &#233;t&#233; rejet&
 		'subject' => 'Compte supprim&#233;',
 		'body' => '{USERNAME},
 
-Votre compte sur {FORUMNAME} a &#233;t&#233; supprim&#233;.  L\'une des raisons possibles peut &#234;tre que vous n\'avez jamais activ&#233; votre compte, auquel cas vous devriez pouvoir vous r&#233;inscrire.
+Votre compte sur {FORUMNAME} a &#233;t&#233; supprim&#233;. L\'une des raisons possibles peut &#234;tre que vous n\'avez jamais activ&#233; votre compte, auquel cas vous devriez pouvoir vous r&#233;inscrire.
 
 {REGARDS}',
 	),
@@ -190,7 +190,7 @@ En cas de souci avec l\'activation, merci d\'aller sur {ACTIVATIONLINKWITHOUTCOD
 		/*
 			@additional_params:
 				USERNAME: The user name for the member receiving the email.
-				ACTIVATIONLINK:  The url link to activate the member's account.
+				ACTIVATIONLINK: The url link to activate the member's account.
 				ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
 				ACTIVATIONCODE: The activation code.
 			@description:
@@ -372,7 +372,7 @@ Pour &#233;diter vos souscriptions, veuillez visiter l\'URL suivante :
 			@description:
 		*/
 		'subject' => 'Bon retour sur {FORUMNAME}',
-		'body' => 'Pour pouvoir valider &#224; nouveau votre adresse e-mail, votre compte a &#233;t&#233; d&#233;sactiv&#233;.  Cliquez sur le lien suivant pour le r&#233;activer :
+		'body' => 'Pour pouvoir valider &#224; nouveau votre adresse e-mail, votre compte a &#233;t&#233; d&#233;sactiv&#233;. Cliquez sur le lien suivant pour le r&#233;activer :
 {ACTIVATIONLINK}
 
 Si vous avez un probl&#232;me quelconque avec l\'activation, veuillez utiliser le code "{ACTIVATIONCODE}".
@@ -447,7 +447,7 @@ Veuillez vous connecter au forum pour passer en revue ces items.
 		'subject' => 'Sujet : {TOPICSUBJECT} (par {SENDERNAME})',
 		'body' => '{RECPNAME},
 
-Je me permets de vous recommander le sujet intitul&#233; "{TOPICSUBJECT}" sur le forum {FORUMNAME}.  Pour l\'afficher, veuillez cliquer sur le lien suivant :
+Je me permets de vous recommander le sujet intitul&#233; "{TOPICSUBJECT}" sur le forum {FORUMNAME}. Pour l\'afficher, veuillez cliquer sur le lien suivant :
 {TOPICLINK}
 
 Cordialement,
@@ -671,7 +671,7 @@ Vous pouvez modifier votre profil en consultant la page suivante :
 
 L\'identifiant de votre compte est {USERNAME} et son mot de passe est {PASSWORD}.
 
-Avant de pouvoir vous connecter, votre demande sera d\'abord &#233;tudi&#233;e et valid&#233;e.  Vous recevrez ensuite un e-mail de confirmation.
+Avant de pouvoir vous connecter, votre demande sera d\'abord &#233;tudi&#233;e et valid&#233;e. Vous recevrez ensuite un e-mail de confirmation.
 
 {REGARDS}',
 	),
@@ -691,7 +691,7 @@ L\'identifiant de votre compte est {USERNAME}.
 Vous avez choisi de vous identifier avec l\'identifiant OpenID suivant :
 {OPENID}
 
-Avant de pouvoir vous connecter, votre demande sera d\'abord &#233;tudi&#233;e et valid&#233;e.  Vous recevrez ensuite un e-mail de confirmation.
+Avant de pouvoir vous connecter, votre demande sera d\'abord &#233;tudi&#233;e et valid&#233;e. Vous recevrez ensuite un e-mail de confirmation.
 
 {REGARDS}',
 	),
@@ -1019,7 +1019,7 @@ $birthdayEmails = array(
 		'subject' => 'Joyeux anniversaire de la part de {FORUMNAME}.',
 		'body' => 'Cher {REALNAME},
 
-{FORUMNAME} vous souhaite un joyeux anniversaire.  Que ce jour et l\'ann&#233;e &#224; suivre puissent vous remplir de joie.
+{FORUMNAME} vous souhaite un joyeux anniversaire. Que ce jour et l\'ann&#233;e &#224; suivre puissent vous remplir de joie.
 
 {REGARDS}',
 		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=2676">Thantos</a>',
@@ -1034,7 +1034,7 @@ Nous aurions m&#234;me pu vous envoyer un de ces messages g&#233;n&#233;r&#233;s
 
 Mais nous ne l\'avons pas fait.
 
-Nous avons &#233;crit ces voeux d\'anniversaire juste pour vous.
+Nous avons &#233;crit ces voeux rien que pour vous.
 
 Nous tenons &#224; vous souhaiter un anniversaire plein de bonheur.
 
@@ -1057,7 +1057,7 @@ L\'&#233;quipe de {FORUMNAME}',
 		'subject' => 'Voeux d\'anniversaire &#224; {REALNAME}',
 		'body' => 'Cher {REALNAME},
 
-Une autre ann&#233;e de votre vie s\'est &#233;coul&#233;e.  {FORUMNAME} esp&#232;re qu\'elle a &#233;t&#233; remplie de bonheur, et vous souhaite bonne chance pour la prochaine.
+Une autre ann&#233;e de votre vie s\'est &#233;coul&#233;e. {FORUMNAME} esp&#232;re qu\'elle a &#233;t&#233; remplie de bonheur, et vous souhaite bonne chance pour la prochaine.
 
 {REGARDS}',
 		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=72038">zwaldowski</a>',

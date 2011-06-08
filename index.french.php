@@ -5,9 +5,9 @@ global $forum_copyright, $webmaster_email, $scripturl, $context, $boardurl;
 
 // Locale (strftime, pspell_new) and spelling. (pspell_new, can be left as '' normally.)
 // For more information see:
-//   - http://www.php.net/function.pspell-new
-//   - http://www.php.net/function.setlocale
-// Again, SPELLING SHOULD BE '' 99% OF THE TIME!!  Please read this!
+//		http://www.php.net/function.pspell-new
+//		http://www.php.net/function.setlocale
+// Again, SPELLING SHOULD BE '' 99% OF THE TIME!! Please read this!
 $txt['lang_locale'] = 'fr_FR';
 $txt['lang_dictionary'] = 'fr';
 $txt['lang_spelling'] = 'french';
@@ -353,7 +353,7 @@ $txt['check_all'] = 'Tout cocher';
 
 // Use numeric entities in the below string.
 $txt['database_error'] = 'Erreur de base de donn&#233;es';
-$txt['try_again'] = 'Merci de réessayer.  Si l\'erreur se reproduit, signalez cette erreur à un administrateur.';
+$txt['try_again'] = 'Merci de réessayer. Si l\'erreur se reproduit, signalez cette erreur à un administrateur.';
 $txt['file'] = 'Fichier';
 $txt['line'] = 'Ligne';
 // Use numeric entities in the below string.

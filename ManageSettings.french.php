@@ -188,8 +188,8 @@ $txt['setting_warning_show_user'] = 'Modérateurs et utilisateurs avertis';
 $txt['setting_warning_show_all'] = 'Tout le monde';
 
 $txt['signature_settings'] = 'Paramètres de Signature';
-$txt['signature_settings_desc'] = 'Utiliser les paramètres de cette page pour décider comment les signatures de membre doivent être traitées dans SMF.';
-$txt['signature_settings_warning'] = 'Notez que ces paramètres ne sont pas appliqués sur les signatures existantes par défaut. Cliquez <a href="' . $scripturl . '?action=admin;area=featuresettings;sa=sig;apply;%2$s=%1$s">ici</a> pour appliquer les règles à toutes les signatures existantes.';
+$txt['signature_settings_desc'] = 'Utilisez les paramètres de cette page pour décider comment les signatures de membre doivent être traitées dans SMF.';
+$txt['signature_settings_warning'] = 'Notez que par défaut, ces paramètres ne sont pas appliqués sur les signatures existantes. Cliquez <a href="' . $scripturl . '?action=admin;area=featuresettings;sa=sig;apply;%2$s=%1$s">ici</a> pour appliquer les règles à toutes les signatures existantes.';
 $txt['signature_enable'] = 'Activer les signatures';
 $txt['signature_max_length'] = 'Nombre maximal de caractères autorisé<dfn>(0 pour pas de max.)</dfn>';
 $txt['signature_max_lines'] = 'Nombre maximal de lignes<dfn>(0 pour pas de max)</dfn>';

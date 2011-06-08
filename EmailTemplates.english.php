@@ -4,8 +4,8 @@
 // Since all of these strings are being used in emails, numeric entities should be used.
 
 // Do not translate anything that is between {}, they are used as replacement variables and MUST remain exactly how they are.
-//   Additionally do not translate the @additioinal_parmas: line or the variable names in the lines that follow it.  You may
-//   translate the description of the variable.  Do not translate @description:, however you may translate the rest of that line.
+// Additionally, do not translate the @additional_params: line or the variable names in the lines that follow it. You may
+// translate the description of the variable. Do not translate @description:, however you may translate the rest of that line.
 
 // Do not use block comments in this file, they will have special meaning.
 
@@ -21,9 +21,9 @@ $txt['emails'] = array(
 		/*
 			@additional_params: resend_activate_message
 				REALNAME: The display name for the member receiving the email.
-				USERNAME:  The user name for the member receiving the email.
-				ACTIVATIONLINK:  The url link to activate the member's account.
-				ACTIVATIONCODE:  The code needed to activate the member's account.
+				USERNAME: The user name for the member receiving the email.
+				ACTIVATIONLINK: The url link to activate the member's account.
+				ACTIVATIONCODE: The code needed to activate the member's account.
 				ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
 				FORGOTPASSWORDLINK: The url to the "forgot password" page.
 			@description:
@@ -44,7 +44,7 @@ Should you have any problems with the activation, please visit {ACTIVATIONLINKWI
 		/*
 			@additional_params: resend_pending_message
 				REALNAME: The display name for the member receiving the email.
-				USERNAME:  The user name for the member receiving the email.
+				USERNAME: The user name for the member receiving the email.
 			@description:
 		*/
 		'subject' => 'Welcome to {FORUMNAME}',
@@ -52,7 +52,7 @@ Should you have any problems with the activation, please visit {ACTIVATIONLINKWI
 
 The username you registered with was {USERNAME}.
 
-Before you can login and start using the forum, your request will be reviewed and approved.  When this happens, you will receive another email from this address.
+Before you can login and start using the forum, your request will be reviewed and approved. When this happens, you will receive another email from this address.
 
 {REGARDS}',
 	),
@@ -121,7 +121,7 @@ Your account has been activated manually by the admin and you can now login and 
 		/*
 			@additional_params: admin_approve_activation
 				USERNAME: The user name for the member receiving the email.
-				ACTIVATIONLINK:  The url link to activate the member's account.
+				ACTIVATIONLINK: The url link to activate the member's account.
 				ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
 				ACTIVATIONCODE: The activation code.
 			@description:
@@ -159,7 +159,7 @@ Regrettably, your application to join {FORUMNAME} has been rejected.
 		'subject' => 'Account Deleted',
 		'body' => '{USERNAME},
 
-Your account on {FORUMNAME} has been deleted.  This may be because you never activated your account, in which case you should be able to register again.
+Your account on {FORUMNAME} has been deleted. This may be because you never activated your account, in which case you should be able to register again.
 
 {REGARDS}',
 	),
@@ -167,7 +167,7 @@ Your account on {FORUMNAME} has been deleted.  This may be because you never act
 		/*
 			@additional_params: admin_approve_remind
 				USERNAME: The user name for the member receiving the email.
-				ACTIVATIONLINK:  The url link to activate the member's account.
+				ACTIVATIONLINK: The url link to activate the member's account.
 				ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
 				ACTIVATIONCODE: The activation code.
 			@description:
@@ -187,7 +187,7 @@ Should you have any problems with the activation, please visit {ACTIVATIONLINKWI
 		/*
 			@additional_params:
 				USERNAME: The user name for the member receiving the email.
-				ACTIVATIONLINK:  The url link to activate the member's account.
+				ACTIVATIONLINK: The url link to activate the member's account.
 				ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
 				ACTIVATIONCODE: The activation code.
 			@description:
@@ -364,13 +364,13 @@ To edit your subscriptions visit the following URL:
 	'activate_reactivate' => array(
 		/*
 			@additional_params: activate_reactivate
-				ACTIVATIONLINK:  The url link to reactivate the member's account.
-				ACTIVATIONCODE:  The code needed to reactivate the member's account.
+				ACTIVATIONLINK: The url link to reactivate the member's account.
+				ACTIVATIONCODE: The code needed to reactivate the member's account.
 				ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
 			@description:
 		*/
 		'subject' => 'Welcome back to {FORUMNAME}',
-		'body' => 'In order to re-validate your email address, your account has been deactivated.  Click the following link to activate it again:
+		'body' => 'In order to re-validate your email address, your account has been deactivated. Click the following link to activate it again:
 {ACTIVATIONLINK}
 
 Should you have any problems with activation, please visit {ACTIVATIONLINKWITHOUTCODE} and use the code "{ACTIVATIONCODE}".
@@ -444,7 +444,7 @@ Please log in to the forum to review these items.
 		*/
 		'subject' => 'Topic: {TOPICSUBJECT} (From: {SENDERNAME})',
 		'body' => 'Dear {RECPNAME},
-I want you to check out "{TOPICSUBJECT}" on {FORUMNAME}.  To view it, please click this link:
+I want you to check out "{TOPICSUBJECT}" on {FORUMNAME}. To view it, please click this link:
 
 {TOPICLINK}
 
@@ -464,7 +464,7 @@ Thanks,
 		*/
 		'subject' => 'Topic: {TOPICSUBJECT} (From: {SENDERNAME})',
 		'body' => 'Dear {RECPNAME},
-I want you to check out "{TOPICSUBJECT}" on {FORUMNAME}.  To view it, please click this link:
+I want you to check out "{TOPICSUBJECT}" on {FORUMNAME}. To view it, please click this link:
 
 {TOPICLINK}
 
@@ -534,9 +534,9 @@ You may change it after you login by going to the profile page, or by visiting t
 				REALNAME: The display name for the member receiving the email.
 				USERNAME: The user name for the member receiving the email.
 				PASSWORD: The password for the member.
-				ACTIVATIONLINK:  The url link to reactivate the member's account.
+				ACTIVATIONLINK: The url link to reactivate the member's account.
 				ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
-				ACTIVATIONCODE:  The code needed to reactivate the member's account.
+				ACTIVATIONCODE: The code needed to reactivate the member's account.
 				FORGOTPASSWORDLINK: The url to the "forgot password" page.
 			@description:
 		*/
@@ -557,9 +557,9 @@ Should you have any problems with activation, please visit {ACTIVATIONLINKWITHOU
 				REALNAME: The display name for the member receiving the email.
 				USERNAME: The user name for the member receiving the email.
 				OPENID: The openID identity for the member.
-				ACTIVATIONLINK:  The url link to reactivate the member's account.
+				ACTIVATIONLINK: The url link to reactivate the member's account.
 				ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
-				ACTIVATIONCODE:  The code needed to reactivate the member's account.
+				ACTIVATIONCODE: The code needed to reactivate the member's account.
 			@description:
 		*/
 		'subject' => 'Welcome to {FORUMNAME}',
@@ -580,7 +580,7 @@ Should you have any problems with activation, please visit {ACTIVATIONLINKWITHOU
 				REALNAME: The display name for the member receiving the email.
 				USERNAME: The user name for the member receiving the email.
 				PASSWORD: The password for the member.
-				COPPALINK:  The url link to the coppa form.
+				COPPALINK: The url link to the coppa form.
 				FORGOTPASSWORDLINK: The url to the "forgot password" page.
 			@description:
 		*/
@@ -599,7 +599,7 @@ Before you can login, the admin requires consent from your parent/guardian for y
 				REALNAME: The display name for the member receiving the email.
 				USERNAME: The user name for the member receiving the email.
 				OPENID: The openID identity for the member.
-				COPPALINK:  The url link to the coppa form.
+				COPPALINK: The url link to the coppa form.
 			@description:
 		*/
 		'subject' => 'Welcome to {FORUMNAME}',
@@ -662,7 +662,7 @@ You may update your profile by visiting this page after you login:
 
 The username you registered with was {USERNAME}. If you forget your password, you can change it at {FORGOTPASSWORDLINK}.
 
-Before you can login and start using the forum, your request will be reviewed and approved.  When this happens, you will receive another email from this address.
+Before you can login and start using the forum, your request will be reviewed and approved. When this happens, you will receive another email from this address.
 
 {REGARDS}',
 	),
@@ -682,7 +682,7 @@ The username you registered with was {USERNAME}.
 You have chosen to authenticate using the following OpenID identity:
 {OPENID}
 
-Before you can login and start using the forum, your request will be reviewed and approved.  When this happens, you will receive another email from this address.
+Before you can login and start using the forum, your request will be reviewed and approved. When this happens, you will receive another email from this address.
 
 {REGARDS}',
 	),
@@ -990,14 +990,14 @@ $birthdayEmails = array(
 		'subject' => 'Happy birthday from {FORUMNAME}.',
 		'body' => 'Dear {REALNAME},
 
-We here at {FORUMNAME} would like to wish you a happy birthday.  May this day and the year to follow be full of joy.
+We here at {FORUMNAME} would like to wish you a happy birthday. May this day and the year to follow be full of joy.
 
 {REGARDS}',
 		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=2676">Thantos</a>',
 	),
 	'karlbenson1' => array(
 		'subject' => 'On your Birthday...',
-		'body' => 'We could have sent you a birthday card.  We could have sent you some flowers or a cake.
+		'body' => 'We could have sent you a birthday card. We could have sent you some flowers or a cake.
 
 But we didn\'t.
 
@@ -1028,7 +1028,7 @@ The Staff of {FORUMNAME}',
 		'subject' => 'Birthday Wishes to {REALNAME}',
 		'body' => 'Dear {REALNAME},
 
-Another year in your life has passed.  We at {FORUMNAME} hope it has been filled with happiness, and wish you luck in the coming one.
+Another year in your life has passed. We at {FORUMNAME} hope it has been filled with happiness, and wish you luck in the coming one.
 
 {REGARDS}',
 		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=72038">zwaldowski</a>',
