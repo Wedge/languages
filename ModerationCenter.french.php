@@ -16,12 +16,12 @@ $txt['mc_unapproved_posts'] = 'Messages non approuvés';
 $txt['mc_watched_users'] = 'Membres surveillés récemment';
 $txt['mc_watched_topics'] = 'Sujets surveillés';
 $txt['mc_scratch_board'] = 'Section modérateur improvisée';
-$txt['mc_latest_news'] = 'Dernières nouvelles de Simple Machines';
+$txt['mc_latest_news'] = 'Dernières nouvelles de Wedge';
 $txt['mc_recent_reports'] = 'Rapports de sujets récents';
 $txt['mc_warnings'] = 'Avertissements';
 $txt['mc_notes'] = 'Notes de Modération';
 
-$txt['mc_cannot_connect_sm'] = 'Impossible de se connecter au fichier des dernières nouvelles de simplemachines.org.';
+$txt['mc_cannot_connect_sm'] = 'Impossible de se connecter au fichier des dernières nouvelles de wedge.org.';
 
 $txt['mc_recent_reports_none'] = 'Aucun rapport en suspens pour le moment.';
 $txt['mc_watched_users_none'] = 'Aucune surveillance n\'est actuellement en place.';
@@ -126,7 +126,7 @@ $txt['mc_settings'] = 'Changer les réglages';
 $txt['mc_prefs_title'] = 'Préférences de Modération';
 $txt['mc_prefs_desc'] = 'Cette section vous permet de régler des préférences personnelles pour les activités liées à la modération tel que les notifications par e-mail.';
 $txt['mc_prefs_homepage'] = 'Éléments à montrer sur la page d\'accueil de modération';
-$txt['mc_prefs_latest_news'] = 'Nouvelles de Simple Machines';
+$txt['mc_prefs_latest_news'] = 'Nouvelles de Wedge';
 $txt['mc_prefs_show_reports'] = 'Montrer le nombre de rapports ouverts dans l\'entête du forum';
 $txt['mc_prefs_notify_report'] = 'Notification de rapports de sujet';
 $txt['mc_prefs_notify_report_never'] = 'Jamais';

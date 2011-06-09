@@ -93,6 +93,10 @@ $txt['package_tree'] = 'Arbre';
 $txt['execute_modification'] = 'Appliquer la modification';
 $txt['execute_code'] = 'Exécuter le code';
 $txt['execute_database_changes'] = 'Adapter la Base de Données';
+$txt['package_add_hook'] = 'Inscription d\'un <em>hook</em>';
+$txt['package_remove_hook'] = 'Désinscription d\'un <em>hook</em>';
+$txt['hook_nofile'] = 'Hook %1$s, fonction %2$s()';
+$txt['hook_file'] = 'Hook %1$s, fonction %2$s() (dans le fichier %3$s)';
 
 $txt['package_install_actions'] = 'Actions d\'installation pour';
 $txt['package_will_fail_title'] = 'Erreur lors de l\'installation de l\'extension';

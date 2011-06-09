@@ -98,9 +98,6 @@ $txt['install_settings_dbsession'] = 'Database Sessions';
 $txt['install_settings_dbsession_title'] = 'Use the database for sessions instead of using files.';
 $txt['install_settings_dbsession_info1'] = 'This feature is almost always for the best, as it makes sessions more dependable.';
 $txt['install_settings_dbsession_info2'] = 'This feature is generally a good idea, but may not work properly on this server.';
-$txt['install_settings_stats'] = 'Allow Stat Collection';
-$txt['install_settings_stats_title'] = 'Allow Wedgeward to collect basic statistics monthly';
-$txt['install_settings_stats_info'] = '(Not used for now.) If enabled, this will allow the Wedge Team to visit your site once a month to collect basic statistics. This will help us make decisions as to which configurations to optimize the software for. For more information please visit our <a href="http://wedge.org/" target="_blank">official website</a>.';
 $txt['install_settings_proceed'] = 'Proceed';
 
 $txt['db_settings'] = 'Database Server Settings';

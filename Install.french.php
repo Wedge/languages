@@ -39,7 +39,7 @@ $txt['default_recycling_board_name'] = 'Corbeille';
 $txt['default_recycling_board_description'] = 'Les messages et sujets supprimés sont déplacés ici.';
 $txt['default_recycling_board_url'] = 'corbeille';
 $txt['default_category_name'] = 'Catégorie Générale';
-$txt['default_time_format'] = '%e %B %Y à %H:%M:%S';
+$txt['default_time_format'] = '%e %B %Y, %H:%M:%S';
 $txt['default_news'] = 'Nouveau forum Wedge installé&nbsp;!';
 $txt['default_reserved_names'] = 'Admin\nWebmaster\n\nWebmestre\nInvite\nInvité\nGuest\nroot\nadministrateur\nsuperutilisateur';
 $txt['default_smileyset_name'] = 'Par Alienine';
@@ -98,9 +98,6 @@ $txt['install_settings_dbsession'] = 'Stockage des sessions';
 $txt['install_settings_dbsession_title'] = 'Utiliser la base de données pour stocker les sessions plutôt que d\'utiliser des fichiers.';
 $txt['install_settings_dbsession_info1'] = 'Cette fonction est une bonne solution la plupart du temps, rendant ainsi les sessions plus dépendantes du forum.';
 $txt['install_settings_dbsession_info2'] = 'Cette fonction est généralement une bonne idée, mais peut ne pas fonctionner sur ce serveur.';
-$txt['install_settings_stats'] = 'Collecte de statistiques';
-$txt['install_settings_stats_title'] = 'Autoriser Wedgeward à collecter des statistiques basiques tous les mois';
-$txt['install_settings_stats_info'] = '(Inutilisé pour le moment.) Si activé, cela autorise l\'équipe de Wedge à visiter votre site au maximum une fois par mois pour y collecter des statistiques basiques. Cela nous aidera à faire des choix pour optimiser le script. Pour plus d\'informations veuillez visiter notre <a href="http://wedge.org/" target="_blank">site officiel</a>.';
 $txt['install_settings_proceed'] = 'Continuer';
 
 $txt['db_settings'] = 'Paramètres du Serveur de Base de données';
