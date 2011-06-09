@@ -93,6 +93,10 @@ $txt['package_tree'] = 'Tree';
 $txt['execute_modification'] = 'Execute Code Add-on';
 $txt['execute_code'] = 'Execute Code';
 $txt['execute_database_changes'] = 'Adapt Database';
+$txt['package_add_hook'] = 'Registering hook function';
+$txt['package_remove_hook'] = 'Unregistering hook function';
+$txt['hook_nofile'] = 'Hook %1$s, function %2$s()';
+$txt['hook_file'] = 'Hook %1$s, function %2$s() (in file %3$s)';
 
 $txt['package_install_actions'] = 'Installations actions for';
 $txt['package_will_fail_title'] = 'Error in Add-on Installation';
