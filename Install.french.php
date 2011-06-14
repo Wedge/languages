@@ -89,7 +89,7 @@ $txt['install_settings_name'] = 'Nom du forum';
 $txt['install_settings_name_info'] = 'C\'est le nom que portera votre forum, ex&nbsp;: &quot;Forum du site&quot;.';
 $txt['install_settings_name_default'] = 'Ma Communauté';
 $txt['install_settings_url'] = 'URL du forum';
-$txt['install_settings_url_info'] = 'Ceci est l\'URL de votre forum <strong>sans la barre oblique \'/\' finale&nbsp;!</strong>.<br>Dans la plupart des cas, vous pouvez laisser ainsi les valeurs par défaut - elles sont généralement correctes.';
+$txt['install_settings_url_info'] = 'Ceci est l\'URL de votre forum, <strong>sans barre oblique (/) à la fin&nbsp;!</strong><br>Dans la plupart des cas, vous pouvez laisser ainsi les valeurs par défaut - elles sont généralement correctes.';
 $txt['install_settings_compress'] = 'Compression Gzip';
 $txt['install_settings_compress_title'] = 'Compresser les données envoyées afin d\'économiser la bande passante.';
 // In this string, you can translate the word "PASS" to change what it says when the test passes.

@@ -89,7 +89,7 @@ $txt['install_settings_name'] = 'Forum name';
 $txt['install_settings_name_info'] = 'This is the name of your forum, ie. &quot;The Testing Forum&quot;.';
 $txt['install_settings_name_default'] = 'My Community';
 $txt['install_settings_url'] = 'Forum URL';
-$txt['install_settings_url_info'] = 'This is the URL to your forum <strong>without the trailing \'/\'!</strong>.<br>In most cases, you can leave the default value in this box alone - it is usually right.';
+$txt['install_settings_url_info'] = 'This is the URL to your forum, <strong>without the trailing slash! (/)</strong><br>In most cases, you can leave the default value in this box alone - it is usually right.';
 $txt['install_settings_compress'] = 'Gzip Output';
 $txt['install_settings_compress_title'] = 'Compress output to save bandwidth.';
 // In this string, you can translate the word "PASS" to change what it says when the test passes.
