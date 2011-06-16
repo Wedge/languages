@@ -650,7 +650,7 @@ $txt['pretty_urls_desc'] = 'Les Adresses embellies (Pretty URLs) vous permettent
 
 $txt['pretty'] = array(
 	'url' => 'Adresse embellie',
-	'url_desc' => 'L\'adresse URL utilisée pour votre site.<dfn>N\'utilisez que l\'alphabet, les chiffres et le tiret (-). Laissez-le vide pour essayer d\'utiliser le nom ci-dessus. <strong>Une fois que votre site propose du contenu, évitez autant que possible de changer son URL !</strong></dfn>',
+	'url_desc' => 'L\'adresse URL utilisée pour votre site.<br>N\'utilisez que l\'alphabet, les chiffres et le tiret (-). Laissez-le vide pour essayer d\'utiliser le nom ci-dessus. <strong>Une fois que votre site propose du contenu, évitez autant que possible de changer son URL !</strong>',
 );
 
 $txt['pretty_settings'] = 'Paramètres de base';

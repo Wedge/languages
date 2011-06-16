@@ -650,7 +650,7 @@ $txt['pretty_urls_desc'] = 'Pretty URLs allows you to enable better-looking URLs
 
 $txt['pretty'] = array(
 	'url' => 'Pretty URL',
-	'url_desc' => 'A URL fragment used for boards and topics.<dfn>Note: this will be processed as only a limited set of characters are allowed - other characters will be converted. Leave blank to use the board name.</dfn>',
+	'url_desc' => 'A URL fragment used for boards and topics.<br>Note: this will be processed as only a limited set of characters are allowed - other characters will be converted. Leave blank to use the board name. <strong>Once a URL is chosen, try not to change it again!</strong>',
 );
 
 $txt['pretty_settings'] = 'Core settings';
