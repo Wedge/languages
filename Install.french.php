@@ -84,7 +84,7 @@ $txt['error_message_try_again'] = 'pour réessayer une nouvelle fois cette étap
 $txt['error_message_bad_try_again'] = 'pour malgré tout tenter l\'installation, mais notez que ceci est <em>fortement</em> déconseillé.';
 
 $txt['install_settings'] = 'Options de base';
-$txt['install_settings_info'] = 'Quelques trucs pour vous pour l\'installation.';
+$txt['install_settings_info'] = 'Merci de régler les paramètres suivants pour votre forum. Wedge a déjà choisi quelques valeurs par défaut pour vous.';
 $txt['install_settings_name'] = 'Nom du forum';
 $txt['install_settings_name_info'] = 'C\'est le nom que portera votre forum, ex&nbsp;: &quot;Forum du site&quot;.';
 $txt['install_settings_name_default'] = 'Ma Communauté';
