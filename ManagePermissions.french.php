@@ -100,7 +100,7 @@ $txt['permissionhelp_simple_auto_save_pm_draft'] = 'Cette permission, si elle es
 
 $txt['permissiongroup_calendar'] = 'Calendrier';
 $txt['permissionname_calendar_view'] = 'Voir le calendrier';
-$txt['permissionhelp_calendar_view'] = 'Le calendrier affiche pour chaque mois les anniversaires, les événements et les jours férié. Cette permission autorise l\'accès à ce calendrier. Quand cette permission est validée, un bouton est ajouté à la barre de menu principal et une liste est affichée au bas de l\'accueuil du forum avec les anniversaires courants et à venir, événements et fêtes. Le calendrier doit être activé depuis \'Fonctionnalités et Options\'.';
+$txt['permissionhelp_calendar_view'] = 'Le calendrier affiche pour chaque mois les anniversaires, les événements et les jours férié. Cette permission autorise l\'accès à ce calendrier. Quand cette permission est validée, un bouton est ajouté à la barre de menu principal et une liste est affichée au bas de l\'accueuil du forum avec les anniversaires courants et à venir, événements et fêtes. Le calendrier doit être activé depuis la page <em>Options principales</em>.';
 $txt['permissionname_calendar_post'] = 'Créer des événements dans le calendrier';
 $txt['permissionhelp_calendar_post'] = 'Un événement est un sujet lié à une certaine date ou plage de dates. Vous pouvez créer des événements depuis le calendrier. Un événement ne peut être créé que par un utilisateur qui a la permission de poster des nouveaux sujets.';
 $txt['permissionname_calendar_edit'] = 'Modifier les événements du calendrier';
