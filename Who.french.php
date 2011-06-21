@@ -135,7 +135,7 @@ $txt['media_wo_reporting'] = 'Signale &quot;<a href="'.$scripturl.'?action=media
 $txt['media_wo_stats'] = 'Consulte les statistiques de la galerie';
 $txt['media_wo_vua'] = 'Consulte le panneau de contrôle d\'un album dans la galerie';
 $txt['media_wo_ua'] = 'Consulte l\'accueil d\'un album dans la galerie';
-$txt['media_wo_rss'] = 'Consulte un flux RSS de la galerie';
+$txt['media_wo_feed'] = 'Consulte un flux RSS de la galerie';
 $txt['media_wo_unknown'] = 'Effectue une action inconnue dans la galerie';
 $txt['media_wo_hidden'] = 'Rôde quelque part dans la galerie, à un endroit insondable...';
 

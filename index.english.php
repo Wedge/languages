@@ -577,14 +577,14 @@ $txt['who_viewing_topic'] = ' are viewing this topic.';
 $txt['who_viewing_board'] = ' are viewing this board.';
 $txt['who_member'] = 'Member';
 
-// RSS block
-$txt['rss'] = 'RSS - Latest Posts';
-$txt['rss_current_topic'] = 'This topic:';
-$txt['rss_current_board'] = 'This board:';
-$txt['rss_current_blog'] = 'This blog:';
-$txt['rss_everywhere'] = 'Whole forum:';
-$txt['rss_posts'] = '<a href="%1$s">posts</a>';
-$txt['rss_topics'] = '<a href="%1$s">topics</a>';
+// Feed block
+$txt['feed'] = 'Latest Posts Feed';
+$txt['feed_current_topic'] = 'This topic:';
+$txt['feed_current_board'] = 'This board:';
+$txt['feed_current_blog'] = 'This blog:';
+$txt['feed_everywhere'] = 'Whole forum:';
+$txt['feed_posts'] = '<a href="%1$s">posts</a>';
+$txt['feed_topics'] = '<a href="%1$s">topics</a>';
 
 // Footer strings
 $txt['valid_html5'] = 'Valid HTML5!';
@@ -738,7 +738,6 @@ $txt['openid'] = 'OpenID';
 
 $txt['downloads'] = 'Downloads';
 $txt['filesize'] = 'Filesize';
-$txt['subscribe_webslice'] = 'Subscribe to Webslice';
 $txt['footnote'] = 'Footnote';
 
 // Restore topic

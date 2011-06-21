@@ -61,7 +61,7 @@ $helptxt['edit_news'] = '
 		</li>
 		<li>
 			<strong>Paramètres</strong><br>
-				Cette partie contient des réglages liés aux news et aux infolettres, par exemple le choix des groupes qui peuvent modifier les news ou envoyer des infolettres. Vous pouvez également paramétrer l\'activation des flux RSS sur le forum, mais aussi choisir la longueur maximale des messages (en caractères) dans ces mêmes flux RSS.
+			Cette partie contient des réglages liés aux news et aux infolettres, par exemple le choix des groupes qui peuvent modifier les news ou envoyer des infolettres.
 		</li>
 	</ul>';
 
@@ -368,9 +368,9 @@ $helptxt['themes'] = 'Ici vous pouvez choisir si le thème par défaut peut êtr
 $helptxt['theme_install'] = 'Ceci vous permet d\'installer des nouveaux thèmes. Vous pouvez procéder en partant d\'un dossier déjà créé, en transférant une archive d\'un thème ou en copiant le thème par défaut.<br><br>Notez bien que les archives de thèmes doivent contenir un fichier de définition <tt>theme_info.xml</tt>.';
 $helptxt['enableEmbeddedFlash'] = 'Cette option permettra à vos visiteurs d\'insérer des animations Flash directement dans leurs messages, comme des images. Ceci peut présenter un sérieux risque de sécurité, bien que peu nombreux soient ceux qui ont réussi l\'exploitation de ce risque.<br><br>UTILISEZ CETTE OPTION À VOS PROPRES RISQUES&nbsp;!';
 // !!! Add more information about how to use them here.
-$helptxt['xmlnews_enable'] = 'Permet aux gens de faire référence aux <a href="%1$s?action=feed;sa=news" target="_blank">dernières nouvelles</a>
-	et autres données similaires. Il est recommandé de limiter la taille des messages puisque certains clients
-	tels que Trillian préfèrent afficher des messages tronqués.';
+$helptxt['xmlnews_enable'] = 'Les flux Atom sont comme des flux RSS, mais en mieux.<br>
+	Ils permettent à vos utilisateurs de récupérer les nouveautés de votre forum sans devoir s\'y rendre en permanence, grâce à un logiciel client Atom/RSS ou à des services web comme Google Reader.
+	Il est recommandé de limiter la taille des messages. En effet, certains clients tels que Trillian préfèrent afficher des messages tronqués.';
 
 $helptxt['globalCookies'] = 'Permet l\'utilisation de cookies (« témoins ») indépendants du sous-domaine. Par exemple, si...<br>
 	Votre site est situé sur http://www.chezmoi.org/,<br>

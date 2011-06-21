@@ -577,14 +577,14 @@ $txt['who_viewing_topic'] = ' sur ce sujet';
 $txt['who_viewing_board'] = ' dans cette section.';
 $txt['who_member'] = 'Membre';
 
-// RSS block
-$txt['rss'] = 'Flux RSS';
-$txt['rss_current_topic'] = 'Ce sujet&nbsp;:';
-$txt['rss_current_board'] = 'Ce forum&nbsp;:';
-$txt['rss_current_blog'] = 'Ce blog&nsbp;:';
-$txt['rss_everywhere'] = 'Tout le site&nbsp;:';
-$txt['rss_posts'] = '<a href="%1$s">messages</a>';
-$txt['rss_topics'] = '<a href="%1$s">sujets</a>';
+// Feed block
+$txt['feed'] = 'Flux de messages';
+$txt['feed_current_topic'] = 'Ce sujet&nbsp;:';
+$txt['feed_current_board'] = 'Ce forum&nbsp;:';
+$txt['feed_current_blog'] = 'Ce blog&nsbp;:';
+$txt['feed_everywhere'] = 'Tout le site&nbsp;:';
+$txt['feed_posts'] = '<a href="%1$s">messages</a>';
+$txt['feed_topics'] = '<a href="%1$s">sujets</a>';
 
 // Footer strings
 $txt['valid_html5'] = 'HTML5 valide&nbsp;!';
@@ -738,7 +738,6 @@ $txt['openid'] = 'OpenID';
 
 $txt['downloads'] = 'Téléchargements';
 $txt['filesize'] = 'Taille de fichier';
-$txt['subscribe_webslice'] = 'Souscrire au flux Webslice';
 $txt['footnote'] = 'Note de bas de page';
 
 // Restore topic

@@ -35,6 +35,6 @@ $txt['ssi_comment'] = 'commentaire';
 $txt['ssi_comments'] = 'commentaires';
 $txt['ssi_write_comment'] = 'Écrire un commentaire';
 $txt['ssi_no_guests'] = 'Vous ne pouvez pas spécifier une section interdite d\'accès aux invités. Merci de vérifier l\'ID de la section avant de réessayer.';
-$txt['xml_rss_desc'] = 'Informations en direct de ' . $context['forum_name'];
+$txt['xml_feed_desc'] = 'Informations en direct de ' . $context['forum_name'];
 
 ?>

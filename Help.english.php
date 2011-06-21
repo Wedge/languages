@@ -62,7 +62,7 @@ $helptxt['edit_news'] = '
 		</li>
 		<li>
 			<strong>Settings</strong><br>
-				This section contains a few settings that relate to news and newsletters, including selecting what groups can edit forum news or send newsletters. There is also an setting to configure whether you want news feeds enabled on the forum, as well as a setting to configure the length (how many characters are displayed) for each news post from a news feed.
+			This section contains a few settings that relate to news and newsletters, including selecting what groups can edit forum news or send newsletters.
 		</li>
 	</ul>';
 
@@ -384,9 +384,9 @@ $helptxt['enableEmbeddedFlash'] = 'This option will allow your users to use Flas
 	just like images.  This could pose a security risk, although few have successfully exploited it.
 	USE AT YOUR OWN RISK!';
 // !!! Add more information about how to use them here.
-$helptxt['xmlnews_enable'] = 'Allows people to link to <a href="%1$s?action=feed;sa=news" target="_blank" class="new_win">Recent news</a>
-	and similar data.  It is also recommended that you limit the size of recent posts/news because, when rss data
-	is displayed in some clients, like Trillian, it is expected to be truncated.';
+$helptxt['xmlnews_enable'] = 'Atom feeds are like RSS feeds, but better.<br>
+	This option allows users to get your forum news without having to visit it all the time, through RSS/Atom client software or web services like Google Reader.
+	It is recommended that you limit the size of recent posts/news, because some clients such as Trillian expect the data they\'re displaying to be truncated.';
 $helptxt['globalCookies'] = 'Makes log in cookies available across subdomains.  For example, if...<br>
 	Your site is at http://www.simplemachines.org/,<br>
 	And your forum is at http://forum.simplemachines.org/,<br>
