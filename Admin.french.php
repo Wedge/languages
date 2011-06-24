@@ -657,7 +657,6 @@ $txt['pretty_settings'] = 'Paramètres de base';
 $txt['pretty_maintenance'] = 'Maintenance';
 
 $txt['admin_pretty_urls'] = 'Administration des Adresses embellies';
-$txt['pretty_reset'] = 'Lancer la réinitialisation';
 $txt['pretty_refill'] = 'Repeupler la liste des sujets';
 $txt['pretty_cache'] = 'Autoriser la mise en cache des adresses';
 $txt['pretty_filters'] = 'Filtres de réécriture des adresses';
