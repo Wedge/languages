@@ -646,7 +646,7 @@ $txt['merge_post_custom_separator'] = 'Use a custom separator between merged pos
 
 // Pretty URLs
 $txt['pretty_urls'] = 'Pretty URLs';
-$txt['pretty_urls_desc'] = 'Pretty URLs allows you to enable better-looking URLs in the address bar. Search engines like this, too. Here, you can enable Pretty URLs and their individual filters, as well as reset their cache and repopulate topic/board data.';
+$txt['pretty_urls_desc'] = 'Pretty URLs allows you to enable better-looking URLs in the address bar. Search engines like this, too. Here, you can enable Pretty URLs, filter by filter, as well as repopulate topic data.';
 
 $txt['pretty'] = array(
 	'url' => 'Pretty URL',
@@ -657,13 +657,10 @@ $txt['pretty_settings'] = 'Core settings';
 $txt['pretty_maintenance'] = 'Maintenance';
 
 $txt['admin_pretty_urls'] = 'Pretty URLs Administration';
-$txt['pretty_reset'] = 'Reset now';
 $txt['pretty_refill'] = 'Refill topic subjects';
-$txt['pretty_enable'] = 'Enable URL rewriting';
 $txt['pretty_cache'] = 'Enable URL cache';
 $txt['pretty_filters'] = 'URL rewriting filters';
 $txt['pretty_save'] = 'Save changes';
-$txt['pretty_went_right'] = 'Success!';
 $txt['pretty_converted'] = 'All topic titles are now converted!';
 $txt['pretty_duplicateboard'] = 'This address is already in use. Please go back and change it.';
 $txt['pretty_filter_boards'] = 'Wedge URLs<br>&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?board=1 &rarr; http://yoursite.com/wedge-name/</div>';

@@ -646,7 +646,7 @@ $txt['merge_post_custom_separator'] = 'Utiliser son propre séparateur pour dist
 
 // Pretty URLs
 $txt['pretty_urls'] = 'Adresses embellies';
-$txt['pretty_urls_desc'] = 'Les Adresses embellies (Pretty URLs) vous permettent de remplacer les longues adresses toutes moches, par de longues adresses toutes jolies, et optimisées pour les moteurs de recherche. Vous pouvez les activer ici, ainsi que leurs filtres, mais aussi vider leurs données et leur cache.';
+$txt['pretty_urls_desc'] = 'Les Adresses embellies (Pretty URLs) vous permettent de remplacer les longues adresses toutes moches, par de longues adresses toutes jolies, et optimisées pour les moteurs de recherche. Vous pouvez les activer ici, filtre par filtre, mais aussi vider le cache.';
 
 $txt['pretty'] = array(
 	'url' => 'Adresse embellie',
@@ -659,17 +659,15 @@ $txt['pretty_maintenance'] = 'Maintenance';
 $txt['admin_pretty_urls'] = 'Administration des Adresses embellies';
 $txt['pretty_reset'] = 'Lancer la réinitialisation';
 $txt['pretty_refill'] = 'Repeupler la liste des sujets';
-$txt['pretty_enable'] = 'Autoriser la réécriture des adresses';
 $txt['pretty_cache'] = 'Autoriser la mise en cache des adresses';
 $txt['pretty_filters'] = 'Filtres de réécriture des adresses';
 $txt['pretty_save'] = 'Sauvegarder les changements';
-$txt['pretty_went_right'] = 'Opération réussie !';
 $txt['pretty_converted'] = 'Tous les titres de sujets ont été convertis !';
 $txt['pretty_duplicateboard'] = 'Cette adresse est déjà prise. Choisissez-en une autre.';
-$txt['pretty_filter_boards'] = 'Adresses des Quartiers<div class="pretty_filter">http://yoursite.com/index.php?board=1 &rarr; http://yoursite.com/nom-du-quartier/</div>';
-$txt['pretty_filter_topics'] = 'Adresses des Sujets<div class="pretty_filter">http://yoursite.com/index.php?topic=1.0 &rarr; http://yoursite.com/nom-du-quartier/nom-du-sujet/</div>';
-$txt['pretty_filter_actions'] = 'Adresses des Actions<div class="pretty_filter">http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/hello/</div>';
-$txt['pretty_filter_profiles'] = 'Adresses des Profils<div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/~nom-du-membre/<br>L\'adresse utilisera l\'identifiant de connexion de l\'utilisateur et non pas son nom affiché. Assurez-vous que cela ne dérange pas vos utilisateurs.</div>';
+$txt['pretty_filter_boards'] = 'Adresses des Quartiers<div class="pretty_filter">http://votresite.com/index.php?board=1 &rarr; http://votresite.com/nom-du-quartier/</div>';
+$txt['pretty_filter_topics'] = 'Adresses des Sujets<div class="pretty_filter">http://votresite.com/index.php?topic=1.0 &rarr; http://votresite.com/nom-du-quartier/nom-du-sujet/</div>';
+$txt['pretty_filter_actions'] = 'Adresses des Actions<div class="pretty_filter">http://votresite.com/index.php?action=hello &rarr; http://votresite.com/hello/</div>';
+$txt['pretty_filter_profiles'] = 'Adresses des Profils<div class="pretty_filter">http://votresite.com/index.php?action=profile;u=1 &rarr; http://votresite.com/~nom-du-membre/<br>L\'adresse utilisera l\'identifiant de connexion de l\'utilisateur et non pas son nom affiché. Assurez-vous que cela ne dérange pas vos utilisateurs.</div>';
 
 // Media Gallery
 $txt['media_title'] = 'Media';
