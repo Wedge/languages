@@ -305,17 +305,17 @@ $txt['media_zoom_fadeinout_info'] = 'Ajoute un effet de fondu enchaîné à l\'a
 
 // Zoomedia JavaScript strings
 // Escape single quotes twice (\\\' instead of \') otherwise it won't work.
-$txt['media_zoom_close_title'] = 'Fermer (Echap)';
+$txt['media_zoom_close_title'] = 'Fermer';
 $txt['media_zoom_move'] = 'Déplacer';
 $txt['media_zoom_loading'] = 'Chargement...';
 $txt['media_zoom_clicktocancel'] = 'Cliquez pour annuler';
 $txt['media_zoom_clicktoclose'] = 'Cliquez pour fermer, glissez pour déplacer';
-$txt['media_zoom_expandtoactual'] = 'Afficher en taille réelle (F)';
+$txt['media_zoom_expandtoactual'] = 'Afficher en taille réelle';
 $txt['media_zoom_focus'] = 'Cliquez pour mettre en avant';
-$txt['media_zoom_previous'] = 'Précédent (Flèche gauche)';
-$txt['media_zoom_next'] = 'Suivante (Flèche droite)';
-$txt['media_zoom_play'] = 'Diaporama (Espace)';
-$txt['media_zoom_pause'] = 'Pause Diaporama (Espace)';
+$txt['media_zoom_previous'] = 'Précédent';
+$txt['media_zoom_next'] = 'Suivant';
+$txt['media_zoom_play'] = 'Diaporama';
+$txt['media_zoom_pause'] = 'Pause Diaporama';
 
 // Help strings
 $txt['media_add_keywords_sub'] = 'Utilisez des virgules pour séparer les mots-clés. Si un mot-clé contient une virgule, entourez-le de guillemets. Si votre mot-clé contient des guillemets, oh et puis zut débrouillez-vous.';
