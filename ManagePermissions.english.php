@@ -379,7 +379,7 @@ $txt['permissionname_media_access_unseen'] = 'Access unseen area';
 $txt['permissionname_media_search'] = 'Search in Gallery';
 $txt['permissionname_media_add_user_album'] = 'Add Albums';
 $txt['permissionname_media_add_playlists'] = 'Add User Playlists';
-$txt['permissionname_media_auto_approve_albums'] = 'Auto-approve Albums';
+$txt['permissionname_media_auto_approve_albums'] = 'Auto-approve Own Albums';
 $txt['permissionname_media_moderate_own_albums'] = '<abbr title="Delete any comments/items on own albums, and delete own albums.">Moderate own Albums</abbr>';
 $txt['permissionname_media_viewprofile'] = 'View anyone\'s Gallery profile';
 
