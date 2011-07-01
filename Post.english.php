@@ -154,9 +154,7 @@ $txt['cannot_attach_ext'] = 'The type of file you have tried to attach ({ext}) i
 $txt['more_attachments_error'] = 'Sorry, you aren\'t allowed to post any more attachments.';
 
 $txt['more_smileys'] = 'more';
-$txt['more_smileys_title'] = 'Additional smileys';
-$txt['more_smileys_pick'] = 'Pick a smiley';
-$txt['more_smileys_close_window'] = 'Close Window';
+$txt['more_smileys_pick'] = 'Show available smileys';
 
 $txt['error_new_reply'] = 'Warning - while you were typing a new reply has been posted. You may wish to review your post.';
 $txt['error_new_replies'] = 'Warning - while you were typing %1$d new replies have been posted. You may wish to review your post.';

@@ -154,9 +154,7 @@ $txt['cannot_attach_ext'] = 'Le type de fichier que vous avez tenté de jondre (
 $txt['more_attachments_error'] = 'Vous ne pouvez plus ajouter d\'autres fichiers joints.';
 
 $txt['more_smileys'] = 'plus';
-$txt['more_smileys_title'] = 'Smileys additionnels';
-$txt['more_smileys_pick'] = 'Choisir un smiley';
-$txt['more_smileys_close_window'] = 'Fermer la fenêtre';
+$txt['more_smileys_pick'] = 'Afficher les smileys disponibles';
 
 $txt['error_new_reply'] = 'Attention &#151; une nouvelle réponse a été postée pendant que vous rédigiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.';
 $txt['error_new_replies'] = 'Attention &#151; %1$d nouvelles réponses ont été postées pendant que vous rédigiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.';

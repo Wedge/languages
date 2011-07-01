@@ -612,7 +612,7 @@ $txt['merge_include_notifications'] = 'Inclure les notifications&nbsp;?';
 $txt['merge_check'] = 'Fusionner&nbsp;?';
 $txt['merge_no_poll'] = 'Pas de sondage';
 
-$txt['response_prefix'] = 'Re&nbsp;: ';
+$txt['response_prefix'] = 'Re : ';
 $txt['current_icon'] = 'Icône actuelle';
 $txt['message_icon'] = 'Icône du message';
 

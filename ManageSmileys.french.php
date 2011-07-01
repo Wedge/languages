@@ -8,7 +8,7 @@ $txt['smiley_sets_confirm'] = 'Êtes-vous sûr de vouloir effacer ce jeu de smil
 
 $txt['setting_smiley_sets_default'] = 'Jeu de smileys par défaut';
 $txt['setting_smiley_sets_enable'] = 'Autoriser les utilisateurs à choisir un jeu de smileys';
-$txt['setting_smiley_enable'] = 'Activer les smileys personnalisés';
+$txt['setting_smiley_enable'] = 'Organiser, ajouter et modifier les smileys manuellement';
 $txt['setting_smileys_url'] = 'URL de base de tous les jeux de smileys';
 $txt['setting_smileys_dir'] = 'Chemin absolu vers tous les jeux de smileys';
 $txt['setting_messageIcons_enable'] = 'Activer les icônes de messages personnalisées';
