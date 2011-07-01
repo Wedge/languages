@@ -27,6 +27,7 @@ $txt['admin_title'] = 'Forum Title';
 $txt['admin_url'] = 'Forum URL';
 $txt['cookie_name'] = 'Cookie Name';
 $txt['admin_webmaster_email'] = 'Webmaster Email Address';
+$txt['admin_from_email'] = 'Email "From" Address';
 $txt['boarddir'] = 'Wedge Directory';
 $txt['sourcesdir'] = 'Sources Directory';
 $txt['cachedir'] = 'Cache Directory';
