@@ -275,9 +275,10 @@ $helptxt['pollMode'] = 'This selects whether polls are enabled or not. If polls 
 		&quot;Show Existing Polls as Topics&quot;.<br><br>To choose who can post polls, view polls, and similar, you
 		can allow and disallow those permissions. Remember this if polls are not working.';
 $helptxt['enableVBStyleLogin'] = 'This will show a more compact login on every page of the forum for guests.';
-$helptxt['from_email'] = 'This option allows you to specify a separate email address for all out-going email, so you do not expose your
-		forum\'s administrative email (typically the webmaster\'s) address for all notifications. It also means bounces and errant replies
-		do not go to your email address, but should return to the sender.';
+$helptxt['mail_from'] = 'This option allows you to specify a separate email address as the sender for all out-going email (notifications, newsletters...)
+		<br><br>If you leave it empty, Wedge will use the forum\'s administrative email (typically the webmaster\'s) address for all notifications.
+		Which means the admin should also receive all bounces, delivery error notifications and errant replies.<br>Lots of fun.
+		<br><br>Use a dummy sender address like "no-reply@my-domain.com" for instance, and if possible ensure that any emails sent to that address are bounced back to their sender.';
 $helptxt['enableCompressedOutput'] = 'This option will compress output to lower bandwidth consumption, but it requires
 		zlib to be installed.';
 $helptxt['enableCompressedData'] = 'This option will compress CSS and JS files to gzip format after caching them. It requires zlib to be installed, and the correct .htaccess
