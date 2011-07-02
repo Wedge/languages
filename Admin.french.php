@@ -571,7 +571,6 @@ $txt['mailqueue_settings'] = 'Paramètres';
 $txt['admin_search'] = 'Recherche Rapide';
 $txt['admin_search_type_internal'] = 'Tâche/Réglage';
 $txt['admin_search_type_member'] = 'Membre';
-$txt['admin_search_type_online'] = 'Manuel en ligne';
 $txt['admin_search_go'] = 'Aller';
 $txt['admin_search_results'] = 'Résultats Recherche';
 $txt['admin_search_results_desc'] = 'Résultats de la recherche&nbsp;: &quot;%1$s&quot;';
