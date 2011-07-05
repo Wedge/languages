@@ -4,7 +4,7 @@
 global $context;
 
 $txt['pm_inbox'] = 'Accueil des messages personnels';
-$txt['send_message'] = 'Envoyer un message';
+$txt['send_message'] = 'Envoyer le message';
 $txt['pm_add'] = 'Ajouter';
 $txt['make_bcc'] = 'Ajouter un BCC';
 $txt['pm_to'] = 'À&nbsp;';

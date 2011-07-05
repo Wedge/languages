@@ -48,7 +48,6 @@ $txt['admin_agreement_select_language'] = 'Langue à modifier';
 $txt['admin_agreement_select_language_change'] = 'Changer';
 $txt['admin_delete_members'] = 'Supprimer les membres sélectionnés';
 $txt['admin_repair'] = 'Réparer tous les sites et sujets';
-$txt['admin_main_welcome'] = 'Bienvenue dans votre &quot;%1$s&quot;. Ici, vous pourrez modifier vos préférences, faire des opérations de maintenance sur votre forum, voir les journaux (<em>logs</em>), installer des extensions, gérer les thèmes et bien plus encore.<div style="margin: 1ex 0">Si vous avez un problème, veuillez consulter la page &quot;Support et crédits&quot;. Si l\'information fournie ne vous aide pas, n\'hésitez pas à <a href="http://www.simplemachines.org/community/index.php" target="_blank">nous contacter pour de l\'aide</a> à propos de votre problème. (Pour de l\'aide en français, allez sur le <a href="http://www.simplemachines.org/community/index.php?board=14.0" hreflang="fr" target="_blank" title="Aide en français pour SMF">Support francophone</a>.)</div>Vous pouvez aussi trouver des réponses à vos questions en cliquant sur les symboles <span class="help" title="%2$s"></span> pour voir comment fonctionnent certaines options.';
 $txt['admin_news_desc'] = 'SVP, ne placez qu\'une seule nouvelle par zone de texte. Quelques balises BBC, comme <span title="Le gras, c\'est la vie">[b]</span>, <span title="Italiques">[i]</span> et <span title="C\'est bien de le souligner">[u]</span> sont autorisées dans vos nouvelles, ainsi que les smileys. Enlevez tout le texte d\'une zone de texte pour la désactiver.';
 $txt['administrators'] = 'Administrateurs du forum';
 $txt['admin_reserved_desc'] = 'Les noms réservés vont empêcher les utilisateurs de s\'inscrire sous certains identifiants ou d\'utiliser certains mots dans leur pseudonyme. Choisissez les options que vous souhaitez utiliser ci-dessous avant de soumettre la liste.';
@@ -104,7 +103,7 @@ $txt['remove_all'] = 'Supprimer tout';
 $txt['approve_new_members'] = 'Les admins doivent approuver tous les nouveaux membres';
 $txt['agreement_not_writable'] = 'Attention - agreement.txt n\'est PAS accessible en écriture. Les changements effectués ne seront PAS sauvegardés';
 
-$txt['version_check_desc'] = 'Ceci vous montre la version de vos fichiers installés comparés à ceux de la dernière version. Si un de ces fichiers n\'est pas à jour, vous devriez télécharger et installer la dernière version sur <a href="http://www.simplemachines.org/" target="_blank">www.simplemachines.org</a>.';
+$txt['version_check_desc'] = 'Cette section vous montre les versions des logiciels de votre serveur, et compare les versions de vos fichiers aux dernières en date. Si l\'un de ceux-ci n\'est pas à jour, vous devriez télécharger et installer la dernière version de Wedge sur <a href="http://wedge.org/" target="_blank" class="new_win">wedge.org</a>.';
 $txt['version_check_more'] = '(plus de détails)';
 
 $txt['lfyi'] = 'Impossible de récupérer les news de Wedge.org.';
@@ -291,9 +290,6 @@ $txt['support_versions_db'] = 'Version %1$s';
 $txt['support_versions_server'] = 'Version du serveur';
 $txt['support_versions_gd'] = 'Version de GD';
 $txt['support_versions'] = 'Infos sur la version';
-$txt['support_resources'] = 'Ressources de support';
-$txt['support_resources_p1'] = 'Notre <a href="%1$s">documentation en ligne</a> (Online Manual), en anglais uniquement, est la principale source d\'informations sur SMF. Cette documentation propose de nombreuses pages destinées à résoudre les problèmes techniques, et à expliquer les <a href="%2$s">Fonctionnalités</a>, <a href="%3$s">Réglages</a>, <a href="%4$s">Thèmes</a>, <a href="%5$s">Extensions</a>, etc. Tous les aspects de SMF sont documentés de façon approfondie et résoudront la plupart de vos problèmes rapidement et sans laisser de taches.';
-$txt['support_resources_p2'] = 'Si vous ne trouvez pas de réponse à vos questions dans la documentation en ligne, vous pouvez lancer une recherche sur la <a href="%1$s">Communauté de Support</a> ou demander de l\'aide sur un de nos forums en <a href="%2$s">anglais</a> ou dans de nombreuses <a href="%3$s">autres langues</a> (dont le <a href="http://www.simplemachines.org/community/index.php?board=14.0">français</a>). La Communauté de Support SMF propose de l\'aide pour le <a href="%4$s">support</a> ou la <a href="%5$s">personnalisation</a>, mais vous permet aussi de discuter de SMF en général, de trouver un hébergeur ou de parler de problèmes administratifs avec d\'autres responsables de forums.';
 
 $txt['support_latest'] = 'Questions fréquentes &amp; réponses';
 $txt['support_latest_fetch'] = 'Recherche les informations de support&hellip;';
@@ -501,6 +497,8 @@ $txt['spamWaitTime'] = 'Temps d\'attente requis entre deux envois en provenance 
 $txt['edit_wait_time'] = 'Période de révision';
 $txt['edit_disable_time'] = 'Temps maximum après l\'envoi pour modifier un message';
 $txt['edit_disable_time_zero'] = '0 pour désactiver';
+$txt['max_image_width'] = 'Largeur max. des images postées (0 pour désactiver)';
+$txt['max_image_height'] = 'Hauteur max. des images postées (0 pour désactiver)';
 
 $txt['enableBBC'] = 'Activer les BBCodes';
 $txt['enablePostHTML'] = 'Permettre l\'utilisation de balises HTML <em>basiques</em> dans les messages';

@@ -290,7 +290,6 @@ $txt['support_versions_db'] = '%1$s version';
 $txt['support_versions_server'] = 'Server version';
 $txt['support_versions_gd'] = 'GD version';
 $txt['support_versions'] = 'Version Information';
-$txt['support_resources'] = 'Support Resources';
 
 $txt['support_latest'] = 'Common Support &amp; Issues';
 $txt['support_latest_fetch'] = 'Retrieving support information...';
