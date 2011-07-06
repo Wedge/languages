@@ -81,7 +81,6 @@ $txt['news_fader'] = 'Activer la rotation des nouvelles sur la page d\'accueil';
 $txt['member_list_bar'] = 'Afficher la liste des membres sur l\'accueil du forum';
 $txt['current_pos_text_img'] = 'Afficher la position actuelle comme des liens, plutôt que du texte simple';
 $txt['show_view_profile_button'] = 'Afficher le bouton de profil dans les messages';
-$txt['enable_mark_as_read'] = 'Activer et afficher les boutons &quot;Marquer comme lu&quot; et &quot;Marquer non lu&quot;';
 $txt['header_logo_url'] = 'URL vers l\'image de logo';
 $txt['header_logo_url_desc'] = 'Laissez vide pour afficher le nom du forum ou le logo par défaut.';
 $txt['number_recent_posts'] = 'Nombre de messages récents à afficher sur la page d\'accueil du forum';
