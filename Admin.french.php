@@ -13,6 +13,7 @@ $txt['admin_members_list'] = 'Ci-dessous une liste de tous les membres actuellem
 $txt['admin_next'] = 'Suivant';
 $txt['admin_censored_words'] = 'Mots censurés';
 $txt['admin_censored_where'] = 'Écrivez le mot à censurer à gauche, et ce par quoi il est remplacé à droite.';
+$txt['allow_no_censored'] = 'Autoriser les utilisateurs à désactiver la censure des mots';
 $txt['admin_censored_desc'] = 'Etant donné la nature publique des forums, vous souhaitez peut-être censurer certains mots. Ci-dessous, vous pouvez entrer n\'importe quel mot que vous voudriez voir censuré à chaque fois qu\'un membre l\'utilise.<br>Videz une boîte du mot qu\'elle contient pour enlever celui-ci.';
 $txt['admin_reserved_names'] = 'Noms réservés';
 $txt['admin_template_edit'] = 'Modifier le modèle (template) de votre forum';

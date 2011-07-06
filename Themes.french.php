@@ -62,7 +62,6 @@ $txt['forum_width_desc'] = 'Spécifiez la largeur du forum. Exemples&nbsp;: 950p
 $txt['enable_random_news'] = 'Afficher les nouvelles dans l\'entête du forum';
 $txt['show_group_key'] = 'Montrer la liste des groupes sur l\'accueil du forum';
 $txt['additional_options_collapsable'] = 'Activer les Options Supplémentaires (à l\'écriture des messages)';
-$txt['allow_no_censored'] = 'Autoriser les utilisateurs à désactiver la censure des mots';
 $txt['who_display_viewing'] = 'Montrer qui visualise l\'accueil du forum et les messages';
 $txt['who_display_viewing_off'] = 'Ne pas montrer';
 $txt['who_display_viewing_numbers'] = 'Ne montrer que les nombres';

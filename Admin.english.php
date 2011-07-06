@@ -13,6 +13,7 @@ $txt['admin_members_list'] = 'Below is a listing of all the members currently re
 $txt['admin_next'] = 'Next';
 $txt['admin_censored_words'] = 'Censored Words';
 $txt['admin_censored_where'] = 'Put the word to be censored on the left, and what to change it to on the right.';
+$txt['allow_no_censored'] = 'Allow users to turn off word censoring';
 $txt['admin_censored_desc'] = 'Due to the public nature of forums there may be some words that you wish to prohibit being posted by users of your forum. You can enter any words below that you wish to be censored whenever used by a member.<br>Blank a box to remove that word.';
 $txt['admin_reserved_names'] = 'Reserved Names';
 $txt['admin_template_edit'] = 'Edit Your Forum Template';
