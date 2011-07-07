@@ -395,11 +395,11 @@ $txt['kilobyte'] = 'kB';
 
 $txt['more_stats'] = '[More Stats]';
 
-// Use numeric entities in the below three strings.
 $txt['code'] = 'Code';
 $txt['code_select'] = '[Select]';
 $txt['quote_from'] = 'Quote from';
 $txt['quote'] = 'Quote';
+$txt['quote_noun'] = 'Quote';
 
 $txt['merge_to_topic_id'] = 'ID of target topic';
 $txt['split'] = 'Split Topic';
