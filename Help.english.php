@@ -275,8 +275,8 @@ $helptxt['pollMode'] = 'This selects whether polls are enabled or not. If polls 
 		&quot;Show Existing Polls as Topics&quot;.<br><br>To choose who can post polls, view polls, and similar, you
 		can allow and disallow those permissions. Remember this if polls are not working.';
 $helptxt['enableVBStyleLogin'] = 'This will show a more compact login on every page of the forum for guests.';
-$helptxt['webmaster_email'] = 'This option allows you to specify the email address of the primary administrator. This address is used for urgent notifications (such as database errors) and really
-		should be a valid email address as a result.';
+$helptxt['webmaster_email'] = 'This option allows you to specify the email address of the primary administrator. This address is used for urgent notifications (such as database errors),
+		and as a result should <em>really</em> be a valid email address.';
 $helptxt['mail_from'] = 'This option allows you to specify a separate email address as the sender for all out-going email (notifications, newsletters...)
 		<br><br>If you leave it empty, Wedge will use the forum\'s administrative email (typically the webmaster\'s) address for all notifications.
 		Which means the admin should also receive all bounces, delivery error notifications and errant replies.<br>Lots of fun.
