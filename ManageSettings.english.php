@@ -232,6 +232,22 @@ $txt['custom_edit_registration_require'] = 'Yes, and require entry';
 $txt['custom_edit_display'] = 'Show on Topic View';
 $txt['custom_edit_picktype'] = 'Field Type';
 
+// Strings for the templates
+$txt['your_icq'] = 'This is your ICQ number.';
+$txt['your_aim'] = 'This is your AOL Instant Messenger nickname.';
+$txt['your_yim'] = 'This is your Yahoo! Instant Messenger nickname.';
+$txt['msn_email_address'] = 'Your Live messenger email address';
+$txt['your_twitter'] = 'This is your Twitter username, without the @ at the front';
+$txt['your_facebook'] = 'This is your Facebook account number, or vanity name (like facebook.com/wedgebook - just the wedgebook part is needed)';
+$txt['your_steam'] = 'This is your id from the Steam Community';
+$txt['custom_edit_tplgrp_social'] = 'Social Networking';
+$txt['custom_edit_tplgrp_im'] = 'Instant Messaging';
+$txt['custom_edit_tplgrp_gaming'] = 'Gaming';
+$txt['custom_edit_templates'] = 'Template Fields';
+$txt['custom_edit_templates_desc'] = 'Here are some common social networking services\' information fields you can use as templates.';
+$txt['custom_edit_a_template'] = 'Template to use';
+$txt['custom_edit_templates_select'] = '-- select a template --';
+
 $txt['custom_edit_max_length'] = 'Maximum Length';
 $txt['custom_edit_max_length_desc'] = '(0 for no limit)';
 $txt['custom_edit_dimension'] = 'Dimensions';
