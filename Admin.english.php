@@ -575,6 +575,7 @@ $txt['admin_search_results'] = 'Search Results';
 $txt['admin_search_results_desc'] = 'Results for search: &quot;%1$s&quot;';
 $txt['admin_search_results_again'] = 'Search again';
 $txt['admin_search_results_none'] = 'No results found!';
+$txt['admin_search_welcome'] = 'Welcome to the Wedge admin panel. You can access the many features through the menu, or by using the shortcut icons below. If you\'re lost, try typing a word or two of the feature name into the search box on the right.';
 
 $txt['admin_search_section_sections'] = 'Section';
 $txt['admin_search_section_settings'] = 'Setting';
