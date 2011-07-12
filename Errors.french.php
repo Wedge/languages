@@ -139,8 +139,8 @@ $txt['registration_no_secret_question'] = 'Désolé, il n\'y a aucune question s
 $txt['poll_range_error'] = 'Désolé, le sondage doit être validé pour plus de 0 jour.';
 $txt['delFirstPost'] = 'Vous n\'êtes pas autorisé à effacer le premier message d\'un sujet.<p>Si vous voulez effacer ce sujet, cliquez sur le lien Effacer le sujet, ou demandez à un modérateur/administrateur de le faire pour vous.</p>';
 $txt['parent_error'] = 'Impossible de créer une section&nbsp;!';
-$txt['login_cookie_error'] = 'Erreur de connexion.  Veuillez vérifier vos réglages pour l\'utilisation du témoin.';
-$txt['incorrect_answer'] = 'Désolé, mais vous n\'avez pas répondu correctement à votre question.  Veuillez cliquer sur \'Retour\' et réessayer, ou cliquez Retour 2 fois afin d\'utiliser la méthode par défaut pour retrouver votre mot de passe.';
+$txt['login_cookie_error'] = 'Erreur de connexion. Veuillez vérifier vos réglages pour l\'utilisation du témoin.';
+$txt['incorrect_answer'] = 'Désolé, mais vous n\'avez pas répondu correctement à votre question. Veuillez cliquer sur \'Retour\' et réessayer, ou cliquez Retour 2 fois afin d\'utiliser la méthode par défaut pour retrouver votre mot de passe.';
 $txt['no_mods'] = 'Aucun modérateur trouvé&nbsp;!';
 $txt['parent_not_found'] = 'La structure de la section est corrompue&nbsp;: impossible de trouver la section parente';
 $txt['modify_post_time_passed'] = 'Vous ne pouvez pas modifier ce message puisque le temps limite pour les modifications est dépassé.';
@@ -208,7 +208,7 @@ $txt['email_missing_data'] = 'Vous devez entrer quelque chose à la fois dans le
 $txt['topic_gone'] = 'Le sujet ou la section que vous recherchez à l\'air d\'être manquant ou inaccessible pour vous.';
 $txt['theme_edit_missing'] = 'Le fichier que vous essayez de modifier... est introuvable&nbsp;!';
 
-$txt['attachments_no_write'] = 'Le dossier de destination des fichiers joints est en lecture seule.  Votre fichier joint ou avatar ne peut pas être sauvegardé.';
+$txt['attachments_no_write'] = 'Le dossier de destination des fichiers joints est en lecture seule. Votre fichier joint ou avatar ne peut pas être sauvegardé.';
 $txt['attachments_limit_per_post'] = 'Vous ne pouvez pas transférer plus de %1$d fichiers joints par message';
 
 $txt['no_dump_database'] = 'Seul les administrateurs peuvent faire des copies de sauvegarde des bases de données&nbsp;!';
@@ -236,7 +236,7 @@ $txt['error_session_timeout'] = 'Votre session s\'est terminée alors que vous p
 $txt['error_no_to'] = 'Aucun destinataire spécifié.';
 $txt['error_bad_to'] = 'Un ou plusieurs destinataires \'À\' n\'ont pu être trouvés.';
 $txt['error_bad_bcc'] = 'Un ou plusieurs destinataires \'Bcc\' n\'ont pu être trouvés.';
-$txt['error_form_already_submitted'] = 'Vous avez déjà soumis ce message&nbsp;!  Vous avez sans doute accidentellement double-cliqué sur le bouton de soumission, ou vous avez rafraîchi la page.';
+$txt['error_form_already_submitted'] = 'Vous avez déjà soumis ce message&nbsp;! Vous avez sans doute accidentellement double-cliqué sur le bouton de soumission, ou vous avez rafraîchi la page.';
 $txt['error_poll_few'] = 'Vous devez avoir au moins deux (2) choix&nbsp;!';
 $txt['error_need_qr_verification'] = 'Merci de remplir le formulaire de vérification ci-dessous avant d\'envoyer votre message.';
 $txt['error_wrong_verification_code'] = 'Les lettres que vous avez tapées ne correspondent pas aux lettres montrées sur l\'image.';
@@ -244,6 +244,7 @@ $txt['error_wrong_verification_answer'] = 'Vous n\'avez pas répondu aux questio
 $txt['error_need_verification_code'] = 'Veuillez entrer le code de vérification ci-dessous pour passer aux résultats.';
 $txt['error_bad_file'] = 'Désolé mais le fichier spécifié n\'a pas pu être ouvert&nbsp;: %1$s';
 $txt['error_bad_line'] = 'La ligne indiquée est invalide.';
+$txt['error_too_quickly'] = 'Vous avez rempli le formulaire d\'enregistrement plus vite qu\'humainement possible.<br><br><div class="smalltext">(Eh, on n\'aime pas trop les robots par ici.)</div>';
 
 $txt['smiley_not_found'] = 'Smiley introuvable.';
 $txt['smiley_has_no_code'] = 'Aucun code pour ce smiley n\'a été donné.';
@@ -259,8 +260,8 @@ $txt['smileys_upload_error_blank'] = 'Tous les jeux de smileys doivent avoir une
 $txt['smileys_upload_error_name'] = 'Tous les smileys doivent avoir les mêmes noms de fichier&nbsp;!';
 $txt['smileys_upload_error_illegal'] = 'Format d\'image interdit.';
 
-$txt['search_invalid_weights'] = 'La pertinence des recherches n\'est pas bien configurée. Au moins un dispositif devrait être configuré afin d\'être différent de zéro.  Veuillez rapporter cette erreur à l\'administrateur.';
-$txt['unable_to_create_temporary'] = 'L\'outil de recherche a été incapable de créer des tables temporaires.  Veuillez réessayer.';
+$txt['search_invalid_weights'] = 'La pertinence des recherches n\'est pas bien configurée. Au moins un dispositif devrait être configuré afin d\'être différent de zéro. Veuillez rapporter cette erreur à l\'administrateur.';
+$txt['unable_to_create_temporary'] = 'L\'outil de recherche a été incapable de créer des tables temporaires. Veuillez réessayer.';
 
 $txt['package_no_file'] = 'Impossible de trouver le fichier d\'extension&nbsp;!';
 $txt['packageget_unable'] = 'Impossible de se connecter au serveur. Veuillez réessayer en utilisant plutôt <a href="%1$s" target="_blank" class="new_win">cette URL</a>.';
@@ -332,8 +333,8 @@ $txt['error_while_editing_poll'] = 'L\'erreur ou les erreurs suivantes sont appa
 $txt['loadavg_search_disabled'] = 'Dû à une charge élevée sur le serveur, la fonction de recherche a été automatiquement et temporairement désactivée. Réessayez un peu plus tard.';
 $txt['loadavg_generic_disabled'] = 'Dé dû à une charge élevée sur le serveur, cette fonction est actuellement indisponible.';
 $txt['loadavg_allunread_disabled'] = 'Les ressources du serveur sont temporairement surchargées&nbsp;; impossible de trouver tous les sujets que vous n\'avez pas lus.';
-$txt['loadavg_unreadreplies_disabled'] = 'Le serveur est actuellement sous une charge élevée.  Veuillez essayer de nouveau dans quelques instants.';
-$txt['loadavg_show_posts_disabled'] = 'Réessayer à nouveau plus tard.  Les messages de ce membre ce sont pas disponibles actuellement du fait d\'une surcharge du serveur.';
+$txt['loadavg_unreadreplies_disabled'] = 'Le serveur est actuellement sous une charge élevée. Veuillez essayer de nouveau dans quelques instants.';
+$txt['loadavg_show_posts_disabled'] = 'Réessayer à nouveau plus tard. Les messages de ce membre ce sont pas disponibles actuellement du fait d\'une surcharge du serveur.';
 $txt['loadavg_unread_disabled'] = 'Le serveur est temporairement trop stressé pour permettre d\'afficher les sujets non lus.';
 
 $txt['cannot_edit_permissions_inherited'] = 'Vous ne pouvez pas modifier les permissions de type hérité directement. Vous devez modifier soit le groupe parent, soit l\'héritage du groupe de membres.';

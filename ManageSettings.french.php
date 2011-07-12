@@ -231,6 +231,22 @@ $txt['custom_edit_registration_require'] = 'Oui, et réponse obligatoire';
 $txt['custom_edit_display'] = 'Montrer dans les sujets';
 $txt['custom_edit_picktype'] = 'Type de champ';
 
+// Strings for the templates
+$txt['your_icq'] = 'Votre numéro de compte ICQ.';
+$txt['your_aim'] = 'Votre nom d\'utilisateur AOL Instant Messenger.';
+$txt['your_yim'] = 'Votre nom d\'utilisateur Yahoo! Instant Messenger.';
+$txt['msn_email_address'] = 'Votre adresse e-mail Live Messenger';
+$txt['your_twitter'] = 'Votre nom d\'utilisateur Twitter, sans le @ qui le précède';
+$txt['your_facebook'] = 'Votre numéro de compte Facebook, ou son raccourci (par exemple "wedgebook" dans "facebook.com/wedgebook")';
+$txt['your_steam'] = 'Votre ID sur la communauté Steam';
+$txt['custom_edit_tplgrp_social'] = 'Réseaux sociaux';
+$txt['custom_edit_tplgrp_im'] = 'Messagerie instantanée';
+$txt['custom_edit_tplgrp_gaming'] = 'Jeux vidéo';
+$txt['custom_edit_templates'] = 'Modèles de champs';
+$txt['custom_edit_templates_desc'] = 'Voici quelques profils prédéfinis pour des réseaux sociaux populaires. Vous pouvez les utiliser en tant que modèles.';
+$txt['custom_edit_a_template'] = 'Modèle à utiliser';
+$txt['custom_edit_templates_select'] = '-- Choisissez un modèle --';
+
 $txt['custom_edit_max_length'] = 'Longueur maximale';
 $txt['custom_edit_max_length_desc'] = '(0 pour pas de limite)';
 $txt['custom_edit_dimension'] = 'Dimensions';
