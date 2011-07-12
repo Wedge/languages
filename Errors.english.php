@@ -244,6 +244,7 @@ $txt['error_wrong_verification_answer'] = 'You did not answer the verification q
 $txt['error_need_verification_code'] = 'Please enter the verification code below to continue to the results.';
 $txt['error_bad_file'] = 'Sorry but the file specified could not be opened: %1$s';
 $txt['error_bad_line'] = 'The line you specified is invalid.';
+$txt['error_too_quickly'] = 'You completed the registration form too quickly, faster than would normally be possible.';
 
 $txt['smiley_not_found'] = 'Smiley not found.';
 $txt['smiley_has_no_code'] = 'No code for this smiley was given.';
