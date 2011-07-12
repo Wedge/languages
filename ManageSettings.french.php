@@ -235,6 +235,8 @@ $txt['custom_edit_picktype'] = 'Type de champ';
 $txt['your_icq'] = 'Votre numéro de compte ICQ.';
 $txt['your_aim'] = 'Votre nom d\'utilisateur AOL Instant Messenger.';
 $txt['your_yim'] = 'Votre nom d\'utilisateur Yahoo! Instant Messenger.';
+// In this string, please use +'s for spaces.
+$txt['aim_default_message'] = 'Salut,+tu+es+disponible+?';
 $txt['msn_email_address'] = 'Votre adresse e-mail Live Messenger';
 $txt['your_twitter'] = 'Votre nom d\'utilisateur Twitter, sans le @ qui le précède';
 $txt['your_facebook'] = 'Votre numéro de compte Facebook, ou son raccourci (par exemple "wedgebook" dans "facebook.com/wedgebook")';

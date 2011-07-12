@@ -274,7 +274,6 @@ $txt['activated'] = 'Activé';
 $txt['not_activated'] = 'Non activé';
 $txt['primary'] = 'En Primaire';
 $txt['additional'] = 'En Additionnel';
-$txt['messenger_address'] = 'Adresse de messagerie';
 $txt['wild_cards_allowed'] = 'Les jokers * et ? sont permis';
 $txt['search_for'] = 'Rechercher';
 $txt['member_part_of_these_membergroups'] = 'Le membre fait partie de ces groupes de membres';

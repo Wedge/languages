@@ -38,9 +38,6 @@ $txt['dob_year'] = 'Année (AAAA)';
 $txt['password_strength'] = 'Pour plus de sécurité, vous devriez choisir au moins huit caractères avec une combinaison de lettres, chiffres et symboles.';
 $txt['include_website_url'] = 'Indispensable si vous mettez une URL ci-dessous.';
 $txt['complete_url'] = 'Ceci doit être une URL complète. (http://www. ...)';
-$txt['your_icq'] = 'Votre numéro ICQ.';
-$txt['your_aim'] = 'Votre identifiant pour la messagerie instantanée AOL.';
-$txt['your_yim'] = 'Votre identifiant pour Yahoo! Messenger.';
 $txt['sig_info'] = 'Les signatures sont affichées en bas de chaque message ou message personnel. Vous pouvez y inclure du BBCode et des smileys.';
 $txt['max_sig_characters'] = '%1$s caractères sont autorisés au maximum. Il en reste&nbsp;: ';
 $txt['send_member_pm'] = 'Envoyer un message personnel à ce membre';
@@ -51,7 +48,6 @@ $txt['digits_only'] = 'La case \'nombre de messages\' ne peut contenir que des c
 $txt['language'] = 'Langue';
 $txt['avatar_too_big'] = 'Cet Avatar est trop gros, merci de le redimensionner avant de réessayer (max';
 $txt['invalid_registration'] = 'Date d\'inscription invalide, exemple&nbsp;: ';
-$txt['msn_email_address'] = 'Votre adresse sur MSN/Live Messenger';
 $txt['current_password'] = 'Mot de passe actuel';
 $txt['required_security_reasons'] = 'Pour des raisons évidentes de sécurité, votre mot de passe actuel est nécessaire pour modifier votre compte.';
 

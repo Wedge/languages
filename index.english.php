@@ -298,17 +298,6 @@ $txt['newest_member'] = ', our newest member.';
 
 $txt['search_for'] = 'Search for';
 
-$txt['aim'] = 'AIM';
-// In this string, please use +'s for spaces.
-$txt['aim_default_message'] = 'Hi.+Are+you+there?';
-$txt['aim_title'] = 'AOL Instant Messenger';
-$txt['icq'] = 'ICQ';
-$txt['icq_title'] = 'ICQ Messenger';
-$txt['msn'] = 'Live';
-$txt['msn_title'] = 'Live Messenger (MSN)';
-$txt['yim'] = 'YIM';
-$txt['yim_title'] = 'Yahoo Instant Messenger';
-
 $txt['maintain_mode_on'] = 'Remember, this forum is in \'Maintenance Mode\'.';
 
 $txt['read'] = 'Read';
@@ -506,7 +495,6 @@ $txt['mail_send_unable'] = 'Unable to send mail to the email address \'%1$s\'';
 $txt['mlist_search'] = 'Search For Members';
 $txt['mlist_search_again'] = 'Search again';
 $txt['mlist_search_email'] = 'Search by email address';
-$txt['mlist_search_messenger'] = 'Search by messenger nickname';
 $txt['mlist_search_group'] = 'Search by position';
 $txt['mlist_search_name'] = 'Search by name';
 $txt['mlist_search_website'] = 'Search by website';

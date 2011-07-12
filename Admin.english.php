@@ -274,7 +274,6 @@ $txt['activated'] = 'Activated';
 $txt['not_activated'] = 'Not activated';
 $txt['primary'] = 'Primary';
 $txt['additional'] = 'Additional';
-$txt['messenger_address'] = 'Messenger Address';
 $txt['wild_cards_allowed'] = 'wildcard characters * and ? are allowed';
 $txt['search_for'] = 'Search for';
 $txt['member_part_of_these_membergroups'] = 'Member is part of these membergroups';
