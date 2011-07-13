@@ -444,7 +444,7 @@ $helptxt['default_personal_text'] = 'Choisit le texte personnel qu\'un nouvel ut
 
 $helptxt['modlog_enabled'] = 'Enregistre toutes les actions de modération dans un journal.';
 
-$helptxt['guest_hideContacts'] = 'Si cette option est sélectionnée, les adresses email des membres de votre forum ne seront visibles par les visiteurs anonymes';
+$helptxt['guest_hideContacts'] = 'Si cette option est sélectionnée, les adresses e-mail des membres de votre forum ne seront pas visibles pour les visiteurs anonymes';
 
 $helptxt['registration_method'] = 'Cette fonction détermine quelle méthode d\'inscription doit être adoptée pour les gens désirant rejoindre votre forum. Vous pouvez sélectionner un de ces choix&nbsp;:<br><br>
 	<ul class="normallist">
