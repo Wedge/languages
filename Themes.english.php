@@ -34,9 +34,9 @@ $txt['theme_set'] = 'Use this theme';
 $txt['theme_user'] = 'person is using this theme.';
 $txt['theme_users'] = 'people are using this theme.';
 
-$txt['theme_stylings'] = 'Stylings';
-$txt['theme_styling_preview'] = 'Preview styling';
-$txt['theme_styling_set'] = 'Use this styling';
+$txt['theme_skins'] = 'Skins';
+$txt['theme_skin_preview'] = 'Preview skin';
+$txt['theme_skin_set'] = 'Use this skin';
 
 $txt['theme_edit'] = 'Edit Theme';
 $txt['theme_edit_style'] = 'Modify the stylesheets. (Colors, fonts, etc.)';

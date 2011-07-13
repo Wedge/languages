@@ -244,7 +244,7 @@ $txt['error_wrong_verification_answer'] = 'Vous n\'avez pas répondu aux questio
 $txt['error_need_verification_code'] = 'Veuillez entrer le code de vérification ci-dessous pour passer aux résultats.';
 $txt['error_bad_file'] = 'Désolé mais le fichier spécifié n\'a pas pu être ouvert&nbsp;: %1$s';
 $txt['error_bad_line'] = 'La ligne indiquée est invalide.';
-$txt['error_too_quickly'] = 'Vous avez rempli le formulaire d\'enregistrement plus vite qu\'humainement possible.<br><br><div class="smalltext">(Eh, on n\'aime pas trop les robots par ici.)</div>';
+$txt['error_too_quickly'] = 'Vous avez rempli le formulaire d\'enregistrement plus vite qu\'humainement possible.<br><br><div class="smalltext">(Eh, on n\'aime pas trop les robots dans vot\' genre par chez nous.)</div>';
 
 $txt['smiley_not_found'] = 'Smiley introuvable.';
 $txt['smiley_has_no_code'] = 'Aucun code pour ce smiley n\'a été donné.';
