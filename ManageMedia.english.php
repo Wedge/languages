@@ -1,6 +1,6 @@
 <?php
 // Version: 2.0; ManageMedia
-
+$txt['embed_enabled'] = 'Enable auto-embedding of videos';
 $txt['embed_lookups'] = 'Enable Lookups';
 $txt['embed_lookup_success'] = 'This feature WILL work on your server';
 $txt['embed_lookup_fail'] = 'This feature will NOT work on your server';
