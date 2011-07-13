@@ -652,20 +652,19 @@ $txt['pretty'] = array(
 	'url_desc' => 'A URL fragment used for boards and topics.<br>Note: this will be processed as only a limited set of characters are allowed - other characters will be converted. Leave blank to use the board name. <strong>Once a URL is chosen, try not to change it again!</strong>',
 );
 
-$txt['pretty_settings'] = 'Core settings';
+$txt['pretty_settings'] = 'URL rewriting';
 $txt['pretty_maintenance'] = 'Maintenance';
 
 $txt['admin_pretty_urls'] = 'Pretty URLs Administration';
 $txt['pretty_refill'] = 'Refill topic subjects';
-$txt['pretty_cache'] = 'Enable URL cache';
-$txt['pretty_filters'] = 'URL rewriting filters';
+$txt['pretty_cache'] = 'Activate secondary cache<div class="pretty_filter">(Slightly faster, but requires more database space.)</div>';
 $txt['pretty_save'] = 'Save changes';
 $txt['pretty_converted'] = 'All topic titles are now converted!';
 $txt['pretty_duplicateboard'] = 'This address is already in use. Please go back and change it.';
-$txt['pretty_filter_boards'] = 'Wedge URLs<br>&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?board=1 &rarr; http://yoursite.com/wedge-name/</div>';
-$txt['pretty_filter_topics'] = 'Topic URLs<br>&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?topic=1.0 &rarr; http://yoursite.com/wedge-name/topic-name/</div>';
-$txt['pretty_filter_actions'] = 'Action URLs<br>&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/hello/</div>';
-$txt['pretty_filter_profiles'] = 'Profile URLs<br>&nbsp;&nbsp;<div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/~user-name/<br>As this uses the login name (user name) of an account rather than its display name, it may not be desirable to your users.</div>';
+$txt['pretty_filter_boards'] = 'Prettify Wedge URLs<div class="pretty_filter">http://yoursite.com/index.php?board=1 &rarr; http://yoursite.com/wedge-name/</div>';
+$txt['pretty_filter_topics'] = 'Prettify Topic URLs<div class="pretty_filter">http://yoursite.com/index.php?topic=1.0 &rarr; http://yoursite.com/wedge-name/topic-name/</div>';
+$txt['pretty_filter_actions'] = 'Prettify Action URLs<div class="pretty_filter">http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/hello/</div>';
+$txt['pretty_filter_profiles'] = 'Prettify Profile URLs<div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/~user-name/<br>As this uses the login name (user name) of an account rather than its display name, it may not be desirable to your users.</div>';
 
 // Media Gallery
 $txt['media_title'] = 'Media';

@@ -22,7 +22,7 @@ $txt['admin_security_moderation'] = 'Sécurité et Modération';
 $txt['admin_server_settings'] = 'Paramètres du Serveur';
 $txt['admin_reserved_set'] = 'Choix des noms réservés';
 $txt['admin_reserved_line'] = 'Un seul mot réservé par ligne.';
-$txt['admin_basic_settings'] = 'Cette page vous permet de modifier les réglages de base de votre forum. Soyez très vigilant avec ces réglages, puisqu\'ils peuvent rendre votre forum inopérant.';
+$txt['admin_basic_settings'] = 'Cette page vous permet de modifier les paramètres de base de votre forum. Soyez très vigilant avec ces réglages, puisqu\'ils peuvent rendre votre forum inopérant.';
 $txt['admin_maintain'] = 'Activer le Mode Maintenance';
 $txt['admin_title'] = 'Nom du forum';
 $txt['admin_url'] = 'URL du forum';
@@ -62,7 +62,7 @@ $txt['admin_fader_delay'] = 'Délai d\'enchaînement entre les nouvelles rotativ
 $txt['admin_bbc'] = 'Montrer les boutons BBCodes sur les pages d\'écriture de messages et de Messages Personnels';
 
 $txt['admin_backup_fail'] = 'Impossible de créer une copie de secours (backup) de Settings.php. Assurez-vous que Settings_bak.php existe et possède les bons droits d\'accès.';
-$txt['modSettings_info'] = 'Changer ou régler les options qui contrôlent le fonctionnement du forum.';
+$txt['modSettings_info'] = 'Changer ou régler les paramètres qui contrôlent le fonctionnement du forum.';
 $txt['database_server'] = 'Serveur de base de données';
 $txt['database_user'] = 'Nom d\'utilisateur de la base de données';
 $txt['database_password'] = 'Mot de passe de la base de données';
@@ -91,7 +91,7 @@ $txt['attachmentdir_size'] = 'Taille totale du répertoire des fichiers joints';
 $txt['attachmentdir_size_current'] = 'Taille totale du répertoire des fichiers joints actuel';
 $txt['attachment_space'] = 'Espace total disponible dans le répertoire des fichiers joints';
 $txt['attachment_space_current'] = 'Espace total disponible dans le répertoire des fichiers joints actuel';
-$txt['attachment_options'] = 'Options des Fichiers joints';
+$txt['attachment_options'] = 'Paramètres des Fichiers joints';
 $txt['attachment_log'] = 'Journal des Fichiers joints';
 $txt['attachment_remove_old'] = 'Supprimer les fichiers joints plus anciens que';
 $txt['attachment_remove_size'] = 'Supprimer les fichiers joints plus gros que';
@@ -116,7 +116,7 @@ $txt['smileys_manage'] = 'Smileys et icônes';
 $txt['smileys_manage_info'] = 'Installer des nouveaux jeux de smileys, ajouter des nouveaux smileys à des jeux existants ou gérez vos icônes de messages.';
 $txt['package_info'] = 'Installer des nouvelles fonctionnalités ou en modifier certaines à l\'aide de cette interface.';
 $txt['theme_admin'] = 'Thèmes et disposition';
-$txt['theme_admin_info'] = 'Créer et gérer vos thèmes et régler les options des thèmes.';
+$txt['theme_admin_info'] = 'Créer, gérer et paramétrer vos thèmes.';
 $txt['registration_center'] = 'Inscriptions';
 $txt['member_center_info'] = 'Voir la liste des membres, rechercher des utilisateurs et gérer les inscrits en cours d\'approbation ou d\'activation.';
 
@@ -207,7 +207,7 @@ $txt['ban_log_remove_selected'] = 'Supprimer la sélection';
 $txt['ban_log_remove_selected_confirm'] = 'Voulez-vous vraiment supprimer les entrées sélectionnées ?';
 $txt['ban_no_triggers'] = 'Aucun déclencheur de bannissement pour le moment.';
 
-$txt['settings_not_writable'] = 'Ces réglages ne peuvent pas être changés car Settings.php est accessible en lecture seulement.';
+$txt['settings_not_writable'] = 'Ces paramètres ne peuvent pas être changés car Settings.php est accessible en lecture seulement.';
 
 $txt['maintain_title'] = 'Maintenance du forum';
 $txt['maintain_info'] = 'Optimisez les tables, effectuez des copies de sauvegarde, recherchez les erreurs et réparez le forum avec ces outils.';
@@ -245,7 +245,7 @@ $txt['maintenance_message'] = 'Message à afficher';
 $txt['errlog_desc'] = 'Le Journal d\'erreurs traque toutes les erreurs rencontrées sur votre forum. Pour supprimer une erreur de la base de données, cochez le champ et cliquez sur le bouton %1$s au bas de la page.';
 $txt['errlog_no_entries'] = 'Aucune erreur à signaler dans le journal.';
 
-$txt['theme_settings'] = 'Réglages du thème';
+$txt['theme_settings'] = 'Paramètres du thème';
 $txt['theme_current_settings'] = 'Thème en cours';
 
 $txt['dvc_your'] = 'Votre version';
@@ -431,7 +431,7 @@ $txt['attach_repair_avatar_no_member'] = '%1$d avatars n\'ont plus de membre auq
 $txt['attach_repair_wrong_folder'] = '%1$d fichiers joints sont dans le mauvais dossier';
 
 $txt['news_title'] = 'Nouvelles et infolettres';
-$txt['news_settings_desc'] = 'Ici vous pouvez changer les réglages et permissions relatifs aux nouvelles et aux infolettres.';
+$txt['news_settings_desc'] = 'Ici vous pouvez changer les options et permissions relatives aux nouvelles et aux infolettres.';
 $txt['news_settings_submit'] = 'Enregistrer';
 $txt['news_mailing_desc'] = 'Depuis ce menu vous pouvez envoyer des messages à tous les membres qui se sont inscrits et ont spécifié leur adresse e-mail. Vous pouvez modifier la liste de distribution, ou envoyer un message à tous. Utile pour informer des mises à jour et nouvelles importantes.';
 $txt['groups_edit_news'] = 'Groupes autorisés à modifier les nouvelles';
@@ -443,7 +443,7 @@ $txt['editnews_remove_selected'] = 'Supprimer la sélection';
 $txt['editnews_remove_confirm'] = 'Voulez-vous vraiment supprimer les nouvelles sélectionnées ?';
 $txt['censor_clickadd'] = 'Cliquez ici pour ajouter un autre mot.';
 
-$txt['layout_controls'] = 'Apparence';
+$txt['layout_controls'] = 'Forum';
 $txt['logs'] = 'Journaux';
 $txt['generate_reports'] = 'Générer des rapports';
 
@@ -453,7 +453,7 @@ $txt['update_message'] = 'Vous utilisez une version périmée de Wedge, qui cont
 
 $txt['manageposts'] = 'Messages et sujets';
 $txt['manageposts_title'] = 'Gérer les messages et les sujets';
-$txt['manageposts_description'] = 'Ici vous pouvez gérer tous les réglages relatifs aux sujets et aux messages.';
+$txt['manageposts_description'] = 'Ici vous pouvez gérer toutes les options relatives aux sujets et aux messages.';
 
 $txt['manageposts_seconds'] = 'secondes';
 $txt['manageposts_minutes'] = 'minutes';
@@ -533,7 +533,7 @@ $txt['not_done_title'] = 'Pas encore effectué&nbsp;!';
 $txt['not_done_reason'] = 'Afin d\'éviter la surcharge de votre serveur, le processus a été interrompu temporairement. Il devrait reprendre automatiquement dans quelques secondes. S\'il ne reprend pas, veuillez cliquer sur le lien &quot;Continuer&quot; ci-dessous.';
 $txt['not_done_continue'] = 'Continuer';
 
-$txt['general_settings'] = 'Réglages';
+$txt['general_settings'] = 'Paramètres';
 $txt['database_paths_settings'] = 'Base de données et Chemins';
 $txt['cookies_sessions_settings'] = 'Cookies et Sessions';
 $txt['caching_settings'] = 'Configuration du Cache';
@@ -567,7 +567,7 @@ $txt['mailqueue_browse'] = 'Parcourir la file d\'attente';
 $txt['mailqueue_settings'] = 'Paramètres';
 
 $txt['admin_search'] = 'Recherche Rapide';
-$txt['admin_search_type_internal'] = 'Tâche/Réglage';
+$txt['admin_search_type_internal'] = 'Tâche/Option';
 $txt['admin_search_type_member'] = 'Membre';
 $txt['admin_search_go'] = 'Aller';
 $txt['admin_search_results'] = 'Résultats Recherche';
@@ -579,9 +579,9 @@ $txt['admin_search_welcome'] = 'Bienvenue dans le panneau d\'administration de W
 $txt['admin_search_section_sections'] = 'Site';
 $txt['admin_search_section_settings'] = 'Paramètres';
 
-$txt['core_settings_title'] = 'Options principales';
-$txt['mods_cat_features'] = 'Réglages';
-$txt['mods_cat_security_general'] = 'Réglages';
+$txt['core_settings_title'] = 'Fonctionnalités de base';
+$txt['mods_cat_features'] = 'Paramètres';
+$txt['mods_cat_security_general'] = 'Paramètres';
 $txt['antispam_title'] = 'Anti-Spam';
 $txt['mods_cat_modifications_misc'] = 'Diverses';
 $txt['mods_cat_layout'] = 'Apparence';
@@ -613,10 +613,10 @@ $txt['permissions_post_moderation'] = 'Modération des messages';
 $txt['browse_packages'] = 'Parcourir les Extensions';
 $txt['download_packages'] = 'Télécharger des Extensions';
 $txt['package_file_perms'] = 'Permissions des Fichiers';
-$txt['package_settings'] = 'Options';
+$txt['package_settings'] = 'Paramètres';
 $txt['themeadmin_admin_title'] = 'Gérer et Installer';
-$txt['themeadmin_list_title'] = 'Réglages des Thèmes';
-$txt['themeadmin_reset_title'] = 'Options des Membres';
+$txt['themeadmin_list_title'] = 'Paramètres des Thèmes';
+$txt['themeadmin_reset_title'] = 'Préférences des Membres';
 $txt['themeadmin_edit_title'] = 'Modifier les Thèmes';
 $txt['admin_browse_register_new'] = 'Inscrire un nouveau membre';
 
@@ -652,20 +652,19 @@ $txt['pretty'] = array(
 	'url_desc' => 'L\'adresse URL utilisée pour votre site.<br>N\'utilisez que l\'alphabet, les chiffres et le tiret (-). Laissez-le vide pour essayer d\'utiliser le nom ci-dessus. <strong>Une fois que votre site propose du contenu, évitez autant que possible de changer son URL !</strong>',
 );
 
-$txt['pretty_settings'] = 'Paramètres de base';
+$txt['pretty_settings'] = 'Réécriture des Adresses';
 $txt['pretty_maintenance'] = 'Maintenance';
 
 $txt['admin_pretty_urls'] = 'Administration des Adresses embellies';
 $txt['pretty_refill'] = 'Repeupler la liste des sujets';
-$txt['pretty_cache'] = 'Autoriser la mise en cache des adresses';
-$txt['pretty_filters'] = 'Filtres de réécriture des adresses';
+$txt['pretty_cache'] = 'Activer le cache secondaire<div class="pretty_filter">(Légèrement plus rapide, mais plus gourmand dans la base de données)</div>';
 $txt['pretty_save'] = 'Sauvegarder les changements';
 $txt['pretty_converted'] = 'Tous les titres de sujets ont été convertis !';
 $txt['pretty_duplicateboard'] = 'Cette adresse est déjà prise. Choisissez-en une autre.';
-$txt['pretty_filter_boards'] = 'Adresses des Quartiers<div class="pretty_filter">http://votresite.com/index.php?board=1 &rarr; http://votresite.com/nom-du-quartier/</div>';
-$txt['pretty_filter_topics'] = 'Adresses des Sujets<div class="pretty_filter">http://votresite.com/index.php?topic=1.0 &rarr; http://votresite.com/nom-du-quartier/nom-du-sujet/</div>';
-$txt['pretty_filter_actions'] = 'Adresses des Actions<div class="pretty_filter">http://votresite.com/index.php?action=hello &rarr; http://votresite.com/hello/</div>';
-$txt['pretty_filter_profiles'] = 'Adresses des Profils<div class="pretty_filter">http://votresite.com/index.php?action=profile;u=1 &rarr; http://votresite.com/~nom-du-membre/<br>L\'adresse utilisera l\'identifiant de connexion de l\'utilisateur et non pas son nom affiché. Assurez-vous que cela ne dérange pas vos utilisateurs.</div>';
+$txt['pretty_filter_boards'] = 'Réécrire les Adresses des Quartiers<div class="pretty_filter">http://votresite.com/index.php?board=1 &rarr; http://votresite.com/nom-du-quartier/</div>';
+$txt['pretty_filter_topics'] = 'Réécrire les Adresses des Sujets<div class="pretty_filter">http://votresite.com/index.php?topic=1.0 &rarr; http://votresite.com/nom-du-quartier/nom-du-sujet/</div>';
+$txt['pretty_filter_actions'] = 'Réécrire les Adresses des Actions<div class="pretty_filter">http://votresite.com/index.php?action=hello &rarr; http://votresite.com/hello/</div>';
+$txt['pretty_filter_profiles'] = 'Réécrire les Adresses des Profils<div class="pretty_filter">http://votresite.com/index.php?action=profile;u=1 &rarr; http://votresite.com/~nom-du-membre/<br>L\'adresse utilisera l\'identifiant de connexion de l\'utilisateur et non pas son nom affiché. Assurez-vous que cela ne dérange pas vos utilisateurs.</div>';
 
 // Media Gallery
 $txt['media_title'] = 'Media';
