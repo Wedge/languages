@@ -92,7 +92,6 @@ $txt['attachmentdir_size_current'] = 'Taille totale du répertoire des fichiers 
 $txt['attachment_space'] = 'Espace total disponible dans le répertoire des fichiers joints';
 $txt['attachment_space_current'] = 'Espace total disponible dans le répertoire des fichiers joints actuel';
 $txt['attachment_options'] = 'Paramètres des Fichiers joints';
-$txt['attachment_log'] = 'Journal des Fichiers joints';
 $txt['attachment_remove_old'] = 'Supprimer les fichiers joints plus anciens que';
 $txt['attachment_remove_size'] = 'Supprimer les fichiers joints plus gros que';
 $txt['attachment_name'] = 'Nom du fichier attaché';
@@ -193,18 +192,6 @@ $txt['ban_no_entries'] = 'Aucun bannissement n\'est actuellement actif.';
 $txt['ban_remove_selected_triggers_confirm'] = 'Êtes-vous sûr de vouloir supprimer les déclencheurs de bannissement sélectionnés ?';
 $txt['ban_trigger_browse'] = 'Liste des Déclencheurs';
 $txt['ban_trigger_browse_description'] = 'Cette interface montre toutes les entrées de bannissements groupées selon l\'adresse IP, nom hôte, adresse e-mail et nom d\'utilisateur.';
-
-$txt['ban_log'] = 'Journal de Bannissements';
-$txt['ban_log_description'] = 'Le journal de bannissements montre toutes les tentatives d\'accès au forum par les utilisateurs bannis (\'ban. complet\' and \'inscr. interdite\' seulement).';
-$txt['ban_log_no_entries'] = 'Aucune entrée pour le moment dans le journal de bannissements.';
-$txt['ban_log_ip'] = 'IP';
-$txt['ban_log_email'] = 'Adresse e-mail';
-$txt['ban_log_member'] = 'Membre';
-$txt['ban_log_date'] = 'Date';
-$txt['ban_log_remove_all'] = 'Supprimer tout';
-$txt['ban_log_remove_all_confirm'] = 'Voulez-vous vraiment supprimer toutes les entrées ?';
-$txt['ban_log_remove_selected'] = 'Supprimer la sélection';
-$txt['ban_log_remove_selected_confirm'] = 'Voulez-vous vraiment supprimer les entrées sélectionnées ?';
 $txt['ban_no_triggers'] = 'Aucun déclencheur de bannissement pour le moment.';
 
 $txt['settings_not_writable'] = 'Ces paramètres ne peuvent pas être changés car Settings.php est accessible en lecture seulement.';
@@ -221,14 +208,38 @@ $txt['maintain_no_errors'] = 'Félicitations, aucune erreur n\'a été trouvée&
 $txt['maintain_tasks'] = 'Tâches planifiées';
 $txt['maintain_tasks_desc'] = 'Organiser les tâches planifiées par Wedge.';
 
+$txt['ban_log'] = 'Journal de Bannissements';
+$txt['ban_log_description'] = 'Ce journal liste toutes les tentatives d\'accès au forum par les utilisateurs bannis (\'ban. complet\' et \'inscr. interdite\' seulement).';
+$txt['ban_log_no_entries'] = 'Aucune entrée pour le moment dans le journal de bannissements.';
+$txt['ban_log_ip'] = 'IP';
+$txt['ban_log_email'] = 'Adresse e-mail';
+$txt['ban_log_member'] = 'Membre';
+$txt['ban_log_date'] = 'Date';
+$txt['ban_log_remove_all'] = 'Supprimer tout';
+$txt['ban_log_remove_all_confirm'] = 'Voulez-vous vraiment supprimer toutes les entrées ?';
+$txt['ban_log_remove_selected'] = 'Supprimer la sélection';
+$txt['ban_log_remove_selected_confirm'] = 'Voulez-vous vraiment supprimer les entrées sélectionnées ?';
+
 $txt['scheduled_log'] = 'Journal des Tâches';
 $txt['scheduled_log_desc'] = 'Liste les tâches exécutées.';
 $txt['admin_log'] = 'Journal d\'Administration';
 $txt['admin_log_desc'] = 'Liste les tâches administratives ayant été exécutées par les admins de votre forum.';
 $txt['moderation_log'] = 'Journal de Modération';
 $txt['moderation_log_desc'] = 'Liste les activités de modération ayant été exécutées par les modérateurs de votre forum.';
+$txt['spider_log'] = 'Journal des Robots';
 $txt['spider_log_desc'] = 'Voir les entrées correspondant à l\'activité des moteurs de recherche sur votre forum.';
-$txt['pruning_log_desc'] = 'Utiliser ces scripts pour supprimer les entrées les plus anciennes sur les divers journaux.';
+$txt['errlog_desc'] = 'Le Journal d\'erreurs traque toutes les erreurs rencontrées sur votre forum. Pour supprimer une erreur de la base de données, cochez le champ et cliquez sur le bouton %1$s au bas de la page.';
+$txt['errlog_no_entries'] = 'Aucune erreur à signaler dans le journal.';
+
+// Repeating the same strings, but for the Log menu, so you can shorten them if you want.
+$txt['log_error'] = 'Erreurs';
+$txt['log_ban'] = 'Bannissements';
+$txt['log_scheduled'] = 'Tâches';
+$txt['log_admin'] = 'Administration';
+$txt['log_moderation'] = 'Modération';
+$txt['log_spider'] = 'Robots';
+$txt['log_pruning'] = 'Délestage';
+$txt['log_pruning_desc'] = 'Utilisez ces scripts pour supprimer les entrées les plus anciennes sur les divers journaux.';
 
 $txt['mailqueue_title'] = 'E-mail';
 
@@ -241,9 +252,6 @@ $txt['default_language'] = 'Langue par défaut du forum';
 
 $txt['maintenance_subject'] = 'Sujet à afficher';
 $txt['maintenance_message'] = 'Message à afficher';
-
-$txt['errlog_desc'] = 'Le Journal d\'erreurs traque toutes les erreurs rencontrées sur votre forum. Pour supprimer une erreur de la base de données, cochez le champ et cliquez sur le bouton %1$s au bas de la page.';
-$txt['errlog_no_entries'] = 'Aucune erreur à signaler dans le journal.';
 
 $txt['theme_settings'] = 'Paramètres du thème';
 $txt['theme_current_settings'] = 'Thème en cours';
@@ -346,7 +354,7 @@ $txt['attachmentPostLimit'] = 'Taille totale maximale des fichiers joints par me
 $txt['attachmentSizeLimit'] = 'Taille maximale de chaque fichier joint<dfn>(0 pour pas de limite)</dfn>';
 $txt['attachmentNumPerPostLimit'] = 'Nombre maximum de fichiers joints par message<dfn>(0 pour pas de limite)</dfn>';
 $txt['attachment_image_reencode'] = 'Réencoder les images potentiellement dangereuses envoyées en fichier joint';
-$txt['attachment_image_paranoid_warning'] = 'Cette fonctionnalité peut donner lieu à des faux positifs (fichiers sains rejetés).';
+$txt['attachment_image_paranoid_warning'] = 'Attention, la fonctionnalité ci-dessus peut donner lieu à des faux positifs (fichiers sains rejetés).';
 $txt['attachment_image_paranoid'] = 'Effectuer un maximum de tests de sécurité sur les images envoyées en fichier joint';
 $txt['attachmentThumbnails'] = 'Montrer les images jointes sous forme de vignettes sous les messages';
 $txt['attachment_thumb_png'] = 'Sauvegarder les vignettes au format PNG';
@@ -410,7 +418,7 @@ $txt['custom_avatar_dir_desc'] = 'Evitez d\'utiliser le répertoire où se situe
 $txt['custom_avatar_url'] = 'URL des avatars stockés';
 $txt['custom_avatar_check_empty'] = 'Le répertoire de stockage des avatars transférés que vous avez spécifié semble être vide ou invalide. Merci de vérifier vos paramètres.';
 $txt['avatar_reencode'] = 'Réencoder les avatars potentiellement dangereux';
-$txt['avatar_paranoid_warning'] = 'Cette fonctionnalité peut donner lieu à des faux positifs (avatars sains rejetés).';
+$txt['avatar_paranoid_warning'] = 'Attention, la fonctionnalité ci-dessus peut donner lieu à des faux positifs (avatars sains rejetés).';
 $txt['avatar_paranoid'] = 'Effectuer un maximum de tests de sécurité sur les avatars envoyés';
 $txt['avatar_banned_hide'] = 'Cacher l\'avatar des utilisateurs bannis';
 
@@ -588,7 +596,6 @@ $txt['mods_cat_layout'] = 'Apparence';
 $txt['moderation_settings_short'] = 'Modération';
 $txt['signature_settings_short'] = 'Signatures';
 $txt['custom_profile_shorttitle'] = 'Champs de Profil';
-$txt['pruning_title'] = 'Délestage de journal';
 
 $txt['boardsEdit'] = 'Modifier mes Sites';
 $txt['mboards_new_cat'] = 'Créer une nouvelle catégorie';
@@ -622,7 +629,6 @@ $txt['admin_browse_register_new'] = 'Inscrire un nouveau membre';
 
 $txt['search_engines'] = 'Moteurs de Recherche';
 $txt['spiders'] = 'Robots';
-$txt['spider_logs'] = 'Journal des Robots';
 $txt['spider_stats'] = 'Stats';
 
 $txt['paid_subscriptions'] = 'Abonnements payants';

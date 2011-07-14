@@ -139,15 +139,15 @@ $txt['spider_ip_info_desc'] = 'Comma separated list of IP addresses associated w
 $txt['spider'] = 'Spider';
 $txt['spider_time'] = 'Time';
 $txt['spider_viewing'] = 'Viewing';
-$txt['spider_logs_empty'] = 'There are currently no spider log entries.';
-$txt['spider_logs_info'] = 'Note that logging of every spider action only occurs if tracking is set to either &quot;high&quot; or &quot;very high&quot;. Detail of every spiders action is only logged if tracking is set to &quot;very high&quot;.';
+$txt['spider_log_empty'] = 'There are currently no spider log entries.';
+$txt['spider_log_info'] = 'Note that logging of every spider action only occurs if tracking is set to either &quot;high&quot; or &quot;very high&quot;. Detail of every spiders action is only logged if tracking is set to &quot;very high&quot;.';
 $txt['spider_disabled'] = 'Disabled';
 
-$txt['spider_logs_delete'] = 'Delete Entries';
-$txt['spider_logs_delete_older'] = 'Delete all entries older than';
-$txt['spider_logs_delete_day'] = 'days.';
-$txt['spider_logs_delete_submit'] = 'Delete';
-$txt['spider_logs_delete_confirm'] = 'Are you sure you wish to empty out all log entries?';
+$txt['spider_log_delete'] = 'Delete Entries';
+$txt['spider_log_delete_older'] = 'Delete all entries older than';
+$txt['spider_log_delete_day'] = 'days.';
+$txt['spider_log_delete_submit'] = 'Delete';
+$txt['spider_log_delete_confirm'] = 'Are you sure you wish to empty out all log entries?';
 
 $txt['spider_stats_select_month'] = 'Jump To Month';
 $txt['spider_stats_page_hits'] = 'Page Hits';

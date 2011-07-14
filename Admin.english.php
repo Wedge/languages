@@ -92,7 +92,6 @@ $txt['attachmentdir_size_current'] = 'Total Size of Current Attachment Directory
 $txt['attachment_space'] = 'Total Space Available in Attachment Directory';
 $txt['attachment_space_current'] = 'Total Space Available in Current Attachment Directory';
 $txt['attachment_options'] = 'File Attachment Options';
-$txt['attachment_log'] = 'Attachment Log';
 $txt['attachment_remove_old'] = 'Remove attachments older than';
 $txt['attachment_remove_size'] = 'Remove attachments larger than';
 $txt['attachment_name'] = 'Attachment Name';
@@ -193,18 +192,6 @@ $txt['ban_no_entries'] = 'There are currently no bans in effect.';
 $txt['ban_remove_selected_triggers_confirm'] = 'Are you sure you want to remove the selected ban triggers?';
 $txt['ban_trigger_browse'] = 'Browse Ban Triggers';
 $txt['ban_trigger_browse_description'] = 'This screen shows all banned entities grouped by IP address, hostname, email address and username.';
-
-$txt['ban_log'] = 'Ban Log';
-$txt['ban_log_description'] = 'The ban log shows all attempts to enter the forum by banned users (\'full ban\' and \'cannot register\' ban only).';
-$txt['ban_log_no_entries'] = 'There are currently no ban log entries.';
-$txt['ban_log_ip'] = 'IP';
-$txt['ban_log_email'] = 'Email address';
-$txt['ban_log_member'] = 'Member';
-$txt['ban_log_date'] = 'Date';
-$txt['ban_log_remove_all'] = 'Remove all';
-$txt['ban_log_remove_all_confirm'] = 'Are you sure you want to delete all ban log entries?';
-$txt['ban_log_remove_selected'] = 'Remove selected';
-$txt['ban_log_remove_selected_confirm'] = 'Are you sure you want to delete all selected ban log entries?';
 $txt['ban_no_triggers'] = 'There are currently no ban triggers.';
 
 $txt['settings_not_writable'] = 'These settings cannot be changed because Settings.php is read only.';
@@ -221,14 +208,38 @@ $txt['maintain_no_errors'] = 'Congratulations, no errors found! Thanks for check
 $txt['maintain_tasks'] = 'Scheduled Tasks';
 $txt['maintain_tasks_desc'] = 'Manage all the tasks scheduled by Wedge.';
 
+$txt['ban_log'] = 'Ban Log';
+$txt['ban_log_description'] = 'The ban log shows all attempts to enter the forum by banned users (\'full ban\' and \'cannot register\' ban only).';
+$txt['ban_log_no_entries'] = 'There are currently no ban log entries.';
+$txt['ban_log_ip'] = 'IP';
+$txt['ban_log_email'] = 'Email address';
+$txt['ban_log_member'] = 'Member';
+$txt['ban_log_date'] = 'Date';
+$txt['ban_log_remove_all'] = 'Remove all';
+$txt['ban_log_remove_all_confirm'] = 'Are you sure you want to delete all ban log entries?';
+$txt['ban_log_remove_selected'] = 'Remove selected';
+$txt['ban_log_remove_selected_confirm'] = 'Are you sure you want to delete all selected ban log entries?';
+
 $txt['scheduled_log'] = 'Task Log';
 $txt['scheduled_log_desc'] = 'Lists logs of the tasks that have be ran.';
 $txt['admin_log'] = 'Administration Log';
 $txt['admin_log_desc'] = 'Lists administrative tasks that have been performed by admins of your forum.';
 $txt['moderation_log'] = 'Moderation Log';
 $txt['moderation_log_desc'] = 'Lists moderation activities that have been performed by moderators on your forum.';
+$txt['spider_log'] = 'Spider Log';
 $txt['spider_log_desc'] = 'Review the entries related to search engine spider activity on your forum.';
-$txt['pruning_log_desc'] = 'Use these tools to prune older entries in the various logs.';
+$txt['errlog_desc'] = 'The error log tracks every error encountered by your forum. To delete any errors from the database, mark the checkbox, and click the %1$s button at the bottom of the page.';
+$txt['errlog_no_entries'] = 'There are currently no error log entries.';
+
+// Repeating the same strings, but for the Log menu, so you can shorten them if you want.
+$txt['log_error'] = 'Error Log';
+$txt['log_ban'] = 'Ban Log';
+$txt['log_scheduled'] = 'Task Log';
+$txt['log_admin'] = 'Admin Log';
+$txt['log_moderation'] = 'Moderation Log';
+$txt['log_spider'] = 'Spider Log';
+$txt['log_pruning'] = 'Log Pruning';
+$txt['log_pruning_desc'] = 'Use these tools to prune older entries in the various logs.';
 
 $txt['mailqueue_title'] = 'Mail';
 
@@ -241,9 +252,6 @@ $txt['default_language'] = 'Default Forum Language';
 
 $txt['maintenance_subject'] = 'Subject for display';
 $txt['maintenance_message'] = 'Message for display';
-
-$txt['errlog_desc'] = 'The error log tracks every error encountered by your forum. To delete any errors from the database, mark the checkbox, and click the %1$s button at the bottom of the page.';
-$txt['errlog_no_entries'] = 'There are currently no error log entries.';
 
 $txt['theme_settings'] = 'Theme Settings';
 $txt['theme_current_settings'] = 'Current Theme';
@@ -346,7 +354,7 @@ $txt['attachmentPostLimit'] = 'Max attachment size per post<dfn>(0 for no limit)
 $txt['attachmentSizeLimit'] = 'Max size per attachment<dfn>(0 for no limit)</dfn>';
 $txt['attachmentNumPerPostLimit'] = 'Max number of attachments per post<dfn>(0 for no limit)</dfn>';
 $txt['attachment_image_reencode'] = 'Re-encode potentially dangerous image attachments';
-$txt['attachment_image_paranoid_warning'] = 'The extensive security checks can result in a large number of rejected attachments.';
+$txt['attachment_image_paranoid_warning'] = 'Note: the above security checks are extensive, and can result in a large number of rejected attachments.';
 $txt['attachment_image_paranoid'] = 'Perform extensive security checks on uploaded image attachments';
 $txt['attachmentThumbnails'] = 'Resize images when showing under posts';
 $txt['attachment_thumb_png'] = 'Save thumbnails as PNG';
@@ -410,7 +418,7 @@ $txt['custom_avatar_dir_desc'] = 'This should not be the same as the server-stor
 $txt['custom_avatar_url'] = 'Upload URL';
 $txt['custom_avatar_check_empty'] = 'The custom avatar directory you have specified may be empty or invalid. Please ensure these settings are correct.';
 $txt['avatar_reencode'] = 'Re-encode potentially dangerous avatars';
-$txt['avatar_paranoid_warning'] = 'The extensive security checks can result in a large number of rejected avatars.';
+$txt['avatar_paranoid_warning'] = 'Note: the above security checks are extensive, and can result in a large number of rejected avatars.';
 $txt['avatar_paranoid'] = 'Perform extensive security checks on uploaded avatars';
 $txt['avatar_banned_hide'] = 'Hide the avatar of banned users';
 
@@ -588,7 +596,6 @@ $txt['mods_cat_layout'] = 'Layout';
 $txt['moderation_settings_short'] = 'Moderation';
 $txt['signature_settings_short'] = 'Signatures';
 $txt['custom_profile_shorttitle'] = 'Profile Fields';
-$txt['pruning_title'] = 'Log Pruning';
 
 $txt['boardsEdit'] = 'Modify Boards';
 $txt['mboards_new_cat'] = 'Create New Category';
@@ -622,7 +629,6 @@ $txt['admin_browse_register_new'] = 'Register New Member';
 
 $txt['search_engines'] = 'Search Engines';
 $txt['spiders'] = 'Spiders';
-$txt['spider_logs'] = 'Spider Log';
 $txt['spider_stats'] = 'Stats';
 
 $txt['paid_subscriptions'] = 'Paid Subscriptions';

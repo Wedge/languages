@@ -139,15 +139,15 @@ $txt['spider_ip_info_desc'] = 'Séparées par des virgules, la liste des adresse
 $txt['spider'] = 'Robot';
 $txt['spider_time'] = 'Heure';
 $txt['spider_viewing'] = 'A visité';
-$txt['spider_logs_empty'] = 'Le journal de robots est vide pour le moment.';
-$txt['spider_logs_info'] = 'Notez que l\'archivage des actions de robot ne se produit que si le suivi est réglé sur "élevé" ou "très élevé". Le détail de toutes les actions n\'est enregistré que si le suivi est fixé à "très élevé".';
+$txt['spider_log_empty'] = 'Le journal de robots est vide pour le moment.';
+$txt['spider_log_info'] = 'Notez que l\'archivage des actions de robot ne se produit que si le suivi est réglé sur "élevé" ou "très élevé". Le détail de toutes les actions n\'est enregistré que si le suivi est fixé à "très élevé".';
 $txt['spider_disabled'] = 'Désactivé';
 
-$txt['spider_logs_delete'] = 'Effacer les Entrées';
-$txt['spider_logs_delete_older'] = 'Effacer toutes les entrées antérieures à';
-$txt['spider_logs_delete_day'] = 'jours.';
-$txt['spider_logs_delete_submit'] = 'Effacer';
-$txt['spider_logs_delete_confirm'] = 'Êtes-vous sûr de vouloir vider le journal d\'activité des robots ?';
+$txt['spider_log_delete'] = 'Effacer les Entrées';
+$txt['spider_log_delete_older'] = 'Effacer toutes les entrées antérieures à';
+$txt['spider_log_delete_day'] = 'jours.';
+$txt['spider_log_delete_submit'] = 'Effacer';
+$txt['spider_log_delete_confirm'] = 'Êtes-vous sûr de vouloir vider le journal d\'activité des robots ?';
 
 $txt['spider_stats_select_month'] = 'Aller au mois de';
 $txt['spider_stats_page_hits'] = 'Pages visitées';
