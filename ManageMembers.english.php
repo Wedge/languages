@@ -77,7 +77,7 @@ $txt['membergroups_images_url'] = '{theme URL}/images/';
 $txt['membergroups_select_visible_boards'] = 'Show boards';
 $txt['membergroups_members_top'] = 'Members';
 $txt['membergroups_name'] = 'Name';
-$txt['membergroups_stars'] = 'Stars';
+$txt['membergroups_stars'] = 'Rank';
 
 $txt['admin_browse_approve'] = 'Members whose accounts are awaiting approval';
 $txt['admin_browse_approve_desc'] = 'From here you can manage all members who are waiting to have their accounts approved.';

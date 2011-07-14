@@ -445,7 +445,7 @@ $txt['censor_clickadd'] = 'Click here to add another word.';
 
 $txt['layout_controls'] = 'Forum';
 $txt['logs'] = 'Logs';
-$txt['generate_reports'] = 'Reports';
+$txt['generate_reports'] = 'Detailed Reports';
 
 $txt['update_available'] = 'Update Available!';
 $txt['update_message'] = 'You\'re using an outdated version of Wedge, which contains some bugs which have since been fixed.
@@ -549,7 +549,7 @@ $txt['language_settings'] = 'Settings';
 $txt['advanced'] = 'Advanced';
 $txt['simple'] = 'Simple';
 
-$txt['admin_news_select_recipients'] = 'Please select who should receive a copy of the newsletter';
+$txt['admin_news_select_recipients'] = 'Please select who should receive a copy of the newsletter.';
 $txt['admin_news_select_group'] = 'Membergroups';
 $txt['admin_news_select_group_desc'] = 'Select the groups to receive this newsletter.';
 $txt['admin_news_select_members'] = 'Members';

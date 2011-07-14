@@ -74,7 +74,7 @@ $txt['board_perms_group_read_only'] = 'Cette section n\'autorise pas de poster d
 $txt['member_group_color'] = 'Couleur';
 $txt['member_group_min_posts'] = 'Nombre de messages minimum';
 $txt['member_group_max_messages'] = 'Nombre maximal de messages personnels';
-$txt['member_group_stars'] = 'Étoiles';
+$txt['member_group_stars'] = 'Grade';
 $txt['member_group_settings'] = 'Réglages';
 $txt['member_group_access'] = 'Accès aux sections';
 

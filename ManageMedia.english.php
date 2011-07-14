@@ -1,11 +1,12 @@
 <?php
 // Version: 2.0; ManageMedia
-$txt['embed_enabled'] = 'Enable auto-embedding of videos';
+
+$txt['embed_enabled'] = 'Enable Auto-embedding';
 $txt['embed_lookups'] = 'Enable Lookups';
 $txt['embed_lookup_success'] = 'This feature WILL work on your server';
 $txt['embed_lookup_fail'] = 'This feature will NOT work on your server';
-$txt['embed_max_per_post'] = 'Max Embedding Per Post';
-$txt['embed_max_per_page'] = 'Max Embedding Per Page';
+$txt['embed_max_per_post'] = 'Max Embedding per Post';
+$txt['embed_max_per_page'] = 'Max Embedding per Page';
 $txt['embed_max_warning'] = 'Too much Flash is bad for your browser\'s health';
 $txt['embed_quotes'] = 'Enable Embedding in Quotes';
 $txt['embed_mov'] = 'MOV Files (via Quicktime)';

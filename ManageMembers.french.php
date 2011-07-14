@@ -47,7 +47,7 @@ $txt['membergroups_group_type_post'] = 'Basé sur les messages <span class="smal
 $txt['membergroups_min_posts'] = 'Nombre de messages requis';
 $txt['membergroups_online_color'] = 'Couleur dans la liste des membres connectés';
 $txt['membergroups_online_color_desc'] = 'Par exemple, #FFCC99.';
-$txt['membergroups_star_count'] = 'Nombre d\'images de rang';
+$txt['membergroups_star_count'] = 'Nombre d\'images de grade';
 $txt['membergroups_star_image'] = 'Nom du fichier image';
 $txt['membergroups_star_image_note'] = 'Vous pouvez utiliser $language pour pointer vers un dossier différent selon la langue du membre';
 $txt['membergroups_max_messages'] = 'Nombre de MP maximum';
@@ -77,7 +77,7 @@ $txt['membergroups_images_url'] = '{URL du thème}/images/';
 $txt['membergroups_select_visible_boards'] = 'Montrer les sections';
 $txt['membergroups_members_top'] = 'Membres';
 $txt['membergroups_name'] = 'Nom';
-$txt['membergroups_stars'] = 'Étoiles';
+$txt['membergroups_stars'] = 'Grade';
 
 $txt['admin_browse_approve'] = 'Membres dont le compte est en attente d\'approbation';
 $txt['admin_browse_approve_desc'] = 'Ici vous pouvez gérer tous les membres en attente d\'approbation de leur compte.';

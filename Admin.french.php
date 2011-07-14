@@ -17,7 +17,7 @@ $txt['allow_no_censored'] = 'Autoriser les utilisateurs à désactiver la censur
 $txt['admin_censored_desc'] = 'Etant donné la nature publique des forums, vous souhaitez peut-être censurer certains mots. Ci-dessous, vous pouvez entrer n\'importe quel mot que vous voudriez voir censuré à chaque fois qu\'un membre l\'utilise.<br>Videz une boîte du mot qu\'elle contient pour enlever celui-ci.';
 $txt['admin_reserved_names'] = 'Noms réservés';
 $txt['admin_template_edit'] = 'Modifier le modèle (template) de votre forum';
-$txt['admin_modifications'] = 'Options des Extensions';
+$txt['admin_modifications'] = 'Options';
 $txt['admin_security_moderation'] = 'Sécurité et Modération';
 $txt['admin_server_settings'] = 'Paramètres du Serveur';
 $txt['admin_reserved_set'] = 'Choix des noms réservés';
@@ -40,7 +40,7 @@ $txt['admin_config'] = 'Configuration';
 $txt['admin_version_check'] = 'Vérification détaillée de la version';
 $txt['admin_smffile'] = 'Fichiers Wedge';
 $txt['admin_smfpackage'] = 'Extensions Wedge';
-$txt['admin_maintenance'] = 'Maintenance';
+$txt['admin_maintenance'] = 'Serveur et Maintenance';
 $txt['admin_image_text'] = 'Montrer les boutons en tant qu\'images plutôt qu\'en textes';
 $txt['admin_credits'] = 'Crédits';
 $txt['admin_agreement'] = 'Afficher et exiger l\'accord des conditions lors de l\'inscription&nbsp;?';
@@ -209,7 +209,7 @@ $txt['ban_no_triggers'] = 'Aucun déclencheur de bannissement pour le moment.';
 
 $txt['settings_not_writable'] = 'Ces paramètres ne peuvent pas être changés car Settings.php est accessible en lecture seulement.';
 
-$txt['maintain_title'] = 'Maintenance du forum';
+$txt['maintain_title'] = 'Maintenance Forum';
 $txt['maintain_info'] = 'Optimisez les tables, effectuez des copies de sauvegarde, recherchez les erreurs et réparez le forum avec ces outils.';
 $txt['maintain_sub_database'] = 'Base de données';
 $txt['maintain_sub_routine'] = 'Routinières';
@@ -445,7 +445,7 @@ $txt['censor_clickadd'] = 'Cliquez ici pour ajouter un autre mot.';
 
 $txt['layout_controls'] = 'Forum';
 $txt['logs'] = 'Journaux';
-$txt['generate_reports'] = 'Générer des rapports';
+$txt['generate_reports'] = 'Rapports Détaillés';
 
 $txt['update_available'] = 'Mise à jour disponible&nbsp;!';
 $txt['update_message'] = 'Vous utilisez une version périmée de Wedge, qui contient quelques bugs qui ont pu être corrigés depuis la dernière révision.
@@ -549,7 +549,7 @@ $txt['language_settings'] = 'Paramètres';
 $txt['advanced'] = 'Avancé';
 $txt['simple'] = 'Simple';
 
-$txt['admin_news_select_recipients'] = 'Veuillez sélectionner qui doit recevoir une copie de l\'infolettre';
+$txt['admin_news_select_recipients'] = 'Veuillez sélectionner qui doit recevoir une copie de l\'infolettre.';
 $txt['admin_news_select_group'] = 'Groupes de Membres';
 $txt['admin_news_select_group_desc'] = 'Sélectionnez les groupes qui doivent recevoir cette infolettre.';
 $txt['admin_news_select_members'] = 'Membres';
@@ -675,7 +675,7 @@ $txt['media_admin_labels_reports'] = 'Signalements';
 $txt['media_admin_labels_submissions'] = 'Soumissions';
 $txt['media_admin_labels_bans'] = 'Bannissements';
 $txt['media_admin_labels_albums'] = 'Albums';
-$txt['media_admin_labels_maintenance'] = 'Maintenance';
+$txt['media_admin_labels_maintenance'] = 'Maintenance Media';
 $txt['media_admin_labels_about'] = 'À propos';
 $txt['media_admin_labels_ftp'] = 'Import par FTP';
 $txt['media_admin_labels_perms'] = 'Permissions';

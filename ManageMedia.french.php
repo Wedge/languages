@@ -1,6 +1,7 @@
 <?php
 // Version: 2.0; ManageMedia
 
+$txt['embed_enabled'] = 'Activer l\'intégration automatique (YouTube, etc.)';
 $txt['embed_lookups'] = 'Autoriser les lookups (vérifications distantes)';
 $txt['embed_lookup_success'] = 'Votre serveur supporte les lookups.';
 $txt['embed_lookup_fail'] = 'Votre serveur ne supporte PAS les lookups.';
@@ -36,7 +37,7 @@ $txt['embed_new_version'] = 'Une nouvelle version (<a href="%s">%s</a>) est disp
 $txt['embed_current_version'] = 'Version actuelle&nbsp;: %s';
 $txt['embed_sitelist_updated'] = 'La liste des sites a été mise à jour !';
 $txt['embed_titles'] = 'Stocker et montrer les titres des vidéos';
-$txt['embed_titles_desc'] = '(si le site est supporté par Aeva)';
+$txt['embed_titles_desc'] = '(si le site est supporté par Wedge)';
 $txt['embed_titles_yes'] = 'Oui, stocker et montrer';
 $txt['embed_titles_yes2'] = 'Oui, mais suspendre le stockage';
 $txt['embed_titles_no'] = 'Non, mais continuer à stocker pour plus tard';
@@ -46,7 +47,7 @@ $txt['embed_inlinetitles_desc'] = '(pour les sites le proposant, comme YouTube e
 $txt['embed_inlinetitles_yes'] = 'Oui';
 $txt['embed_inlinetitles_maybe'] = 'Seulement si le titre n\'est pas stocké';
 $txt['embed_inlinetitles_no'] = 'Non';
-$txt['embed_noscript'] = 'Utiliser l\'ancienne version d\'Aeva (sans JavaScript)';
+$txt['embed_noscript'] = 'Éviter d\'utiliser JavaScript pour l\'intégration';
 $txt['embed_noscript_desc'] = 'Uniquement si vous avez des soucis de compatibilité...';
 $txt['embed_expins'] = 'Utiliser la mise à jour express de Flash';
 $txt['embed_expins_desc'] = 'Si la version Flash de l\'utilisateur est périmée, un utilitaire de mise à jour automatique s\'affichera';
@@ -77,7 +78,7 @@ $txt['media_admin_settings_title_limits'] = 'Limites';
 $txt['media_admin_settings_title_tag'] = 'Tag [media] et intégration';
 $txt['media_admin_settings_title_misc'] = 'Divers';
 $txt['media_admin_settings_welcome'] = 'Message d\'accueil';
-$txt['media_admin_settings_welcome_subtext'] = 'Laissez vide pour utiliser $txt[\'aeva_welcome\'] dans le fichier Modifications.english.php (que vous pouvez traduire à votre guise), ou le message d\'accueil par défaut.';
+$txt['media_admin_settings_welcome_subtext'] = 'Laissez vide pour utiliser $txt[\'media_welcome\'] dans le fichier Modifications.english.php (que vous pouvez traduire à votre guise), ou le message d\'accueil par défaut.';
 $txt['media_admin_settings_data_dir_path'] = 'Chemin vers le répertoire de données';
 $txt['media_admin_settings_data_dir_path_subtext'] = 'Chemin sur le serveur (exemple&nbsp;: /home/www/media)';
 $txt['media_admin_settings_data_dir_url'] = 'Adresse du répertoire de données';
