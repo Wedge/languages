@@ -552,8 +552,8 @@ $txt['notification_disable_board'] = 'Êtes-vous sûr de vouloir désactiver la 
 $txt['notification_enable_topic'] = 'Êtes-vous sûr de vouloir activer la notification des nouvelles réponses pour ce sujet ?';
 $txt['notification_disable_topic'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouvelles réponses pour ce sujet ?';
 
-$txt['report_to_mod'] = 'Signaler au modérateur';
-$txt['issue_warning_post'] = 'Donner un avertissement à cause de ce message';
+$txt['report_to_mod'] = 'Signaler ce message aux modérateurs';
+$txt['issue_warning_post'] = 'Donner un avertissement à propos de ce message';
 
 $txt['unread_topics_all'] = 'Tous les sujets non lus';
 $txt['unread_replies'] = 'Sujets mis à jour';

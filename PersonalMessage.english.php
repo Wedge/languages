@@ -106,7 +106,7 @@ $txt['pm_is_replied_to_sent_1'] = 'This message was replied to.';
 $txt['pm_is_replied_to_sent_n'] = '%1$d responses to this message were sent.';
 
 // Reporting messages.
-$txt['pm_report_to_admin'] = 'Report To Admin';
+$txt['pm_report_to_admin'] = 'Report to Admin';
 $txt['pm_report_title'] = 'Report Personal Message';
 $txt['pm_report_desc'] = 'From this page you can report the personal message you received to the admin team of the forum. Please be sure to include a description of why you are reporting the message, as this will be sent along with the contents of the original message.';
 $txt['pm_report_admins'] = 'Administrator to send report to';
