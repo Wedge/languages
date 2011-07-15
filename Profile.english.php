@@ -295,9 +295,9 @@ $txt['display_quick_reply1'] = 'don\'t show at all';
 $txt['display_quick_reply2'] = 'show, off by default';
 $txt['display_quick_reply3'] = 'show, on by default';
 $txt['display_quick_mod'] = 'Show quick-moderation as ';
-$txt['display_quick_mod_none'] = 'don\'t show.';
-$txt['display_quick_mod_check'] = 'checkboxes.';
-$txt['display_quick_mod_image'] = 'icons.';
+$txt['display_quick_mod_none'] = 'don\'t show';
+$txt['display_quick_mod_check'] = 'checkboxes';
+$txt['display_quick_mod_image'] = 'icons';
 
 $txt['whois_title'] = 'Look up IP on a regional whois-server';
 $txt['whois_afrinic'] = 'AfriNIC (Africa)';
