@@ -6,46 +6,45 @@ global $helptxt;
 $txt['close_window'] = 'Fermer la fenêtre';
 
 $helptxt['manage_boards'] = '
-	<strong>Gestion des Sections et des Catégories</strong><br>
 	Dans ce menu, vous pouvez créer/réorganiser/supprimer des sections et les catégories
 	les concernant. Par exemple, si vous avez un gros site offrant des informations variées
-	sur plusieurs sujets tels que &quot;Sports&quot; et &quot;Voitures&quot; et &quot;Musique&quot;, ces
+	sur plusieurs sujets tels que "Sports" et "Voitures" et "Musique", ces
 	titres seraient ceux des catégories que vous créeriez. Sous chacune de ces catégories vous voudriez assurément insérer, de manière hiérarchique, des <em>sous-catégories</em>,
-	ou &quot;sections&quot;, pour des sujets les concernant. C\'est une simple hiérarchie, avec cette structure&nbsp;: <br>
+	ou "sections", pour des sujets les concernant. C\'est une simple hiérarchie, avec cette structure&nbsp;: <br>
 	<ul class="normallist">
 		<li>
 			<strong>Sports</strong>
-			&nbsp;- Une &quot;catégorie&quot;
+			&nbsp;- Une "catégorie"
 		</li>
 		<ul class="normallist">
 			<li>
 				<strong>Baseball</strong>
-				&nbsp;- Une section de la catégorie &quot;Sports&quot;
+				&nbsp;- Une section de la catégorie "Sports"
 			</li>
 			<ul class="normallist">
 				<li>
 					<strong>Stats</strong>
-					&nbsp;- Une sous-section de la section &quot;Baseball&quot;
+					&nbsp;- Une sous-section de la section "Baseball"
 				</li>
 			</ul>
 			<li><strong>Football</strong>
-			&nbsp;- Une section de la catégorie &quot;Sports&quot;</li>
+			&nbsp;- Une section de la catégorie "Sports"</li>
 		</ul>
 	</ul>
-	Les catégories vous permettent de séparer votre forum en différents sujets (&quot;Voitures,
-	Sports&quot;), et les &quot;sections&quot; en dessous sont les sujets dans lesquels
+	Les catégories vous permettent de séparer votre forum en différents sujets ("Voitures,
+	Sports"), et les "sections" en dessous sont les sujets dans lesquels
 	vos membres peuvent poster. Un utilisateur intéressé par les Twingo
-	voudra poster un message dans &quot;Voitures->Twingo&quot;. Les catégories permettent aux gens
-	de rapidement trouver ce qui les intéresse&nbsp;: au lieu d\'un &quot;Magasin&quot;, vous avez
-	un &quot;Magasin d\'informatique&quot; et un &quot;Magasin de chaussures&quot; où vous pouvez aller. Cela simplifie
-	votre recherche d\'un &quot;disque dur&quot;, parce que vous pouvez aller directement au &quot;Magasin d\'informatique&quot;
-	plutôt qu\'au &quot;Magasin de chaussures&quot; (où vous ne trouverez sans doute pas votre disque dur ;) ).
+	voudra poster un message dans "Voitures->Twingo". Les catégories permettent aux gens
+	de rapidement trouver ce qui les intéresse&nbsp;: au lieu d\'un "Magasin", vous avez
+	un "Magasin d\'informatique" et un "Magasin de chaussures" où vous pouvez aller. Cela simplifie
+	votre recherche d\'un "disque dur", parce que vous pouvez aller directement au "Magasin d\'informatique"
+	plutôt qu\'au "Magasin de chaussures" (où vous ne trouverez sans doute pas votre disque dur ;) ).
 	<br>
 	Comme précisé plus haut, une section est un sujet clé sous une catégorie mère.
-	Si vous voulez discuter de &quot;Twingo&quot;, vous irez à la catégorie &quot;Voitures&quot; et
-	irez à la section &quot;Twingo&quot; pour y poster votre avis à propos de cette automobile.<br>
+	Si vous voulez discuter de "Twingo", vous irez à la catégorie "Voitures" et
+	irez à la section "Twingo" pour y poster votre avis à propos de cette automobile.<br>
 	Les fonctions administratives possibles ici sont de créer des nouvelles sections
-	sous chaque catégorie, réordonner les sections (placer &quot;Twingo&quot; sous &quot;Renault&quot;), ou
+	sous chaque catégorie, réordonner les sections (placer "Twingo" sous "Renault"), ou
 	supprimer une section entièrement.';
 
 $helptxt['edit_news'] = '
@@ -53,7 +52,7 @@ $helptxt['edit_news'] = '
 		<li>
 			<strong>Nouvelles</strong><br>
 			Cette partie vous permet de définir du contenu pour les news de la page d\'accueil.
-			Mettez-y ce que vous voulez (par ex., &quot;Ne manquez pas la conférence de mardi prochain&quot;). Les news sont affichées de manière aléatoire et doivent être placées dans des boîtes séparées.
+			Mettez-y ce que vous voulez (par ex., "Ne manquez pas la conférence de mardi prochain"). Les news sont affichées de manière aléatoire et doivent être placées dans des boîtes séparées.
 		</li>
 		<li>
 			<strong>Infolettres</strong><br>
@@ -91,58 +90,58 @@ $helptxt['view_members'] = '
 		</li>
 	</ul>';
 
-$helptxt['ban_members'] = '<strong>Bannir des membres</strong><br>
-	SMF offre la possibilité de &quot;bannir&quot; des utilisateurs, afin d\'empêcher le retour de personnes ayant dérangé
+$helptxt['ban_members'] = '
+	Wedge offre la possibilité de "bannir" des utilisateurs, afin d\'empêcher le retour de personnes ayant dérangé
 	l\'atmosphère de votre forum par du pollupostage (spamming), des déviations de sujets (trolling), etc. En tant qu\'administrateur,
 	lorsque vous voyez un message, vous pouvez voir l\'adresse IP du posteur au moment de l\'envoi du message incriminé. Dans la liste de bannissement,
 	vous entrez simplement cette adresse IP, sauvegardez, et l\'utilisateur banni ne pourra plus poster depuis son ordinateur. <br>Vous pouvez aussi
 	bannir des gens par leur adresse e-mail.';
 
-$helptxt['featuresettings'] = '<strong>Fonctionnalités et Options</strong><br>
+$helptxt['featuresettings'] = '
 	Il y a plusieurs fonctionnalités dans cette section qui peuvent être changées à votre goût.';
 
-$helptxt['securitysettings'] = '<strong>Sécurité et Modération</strong><br>
+$helptxt['securitysettings'] = '
 	Cette section contient les réglages en relation avec la sécurité et la modération de votre forum.';
 
-$helptxt['modsettings'] = '<strong>Modifier les Caractéristiques et les Options</strong><br>
+$helptxt['modsettings'] = '
 	Plusieurs options peuvent être modifiées ici selon vos préférences. Les options pour les extensions installées vont généralement apparaître ici.';
 
-$helptxt['number_format'] = '<strong>Format des nombres</strong><br>
+$helptxt['number_format'] = '
 	Vous pouvez utiliser cette fonction afin de spécifier l\'allure qu\'auront les nombres insérés dans votre forum. Le format de cette fonction se constitue de cette façon&nbsp;:<br>
 	<div style="margin-left: 2ex;">1,234.00</div><br>
 	Où \',\' est le caractère utilisé pour séparer les milliers des centaines, \'.\' est celui utilisé pour séparer les unités des décimales et le nombre de zéros dicte à quelle décimale les nombres doivent être arrondis.';
 
-$helptxt['time_format'] = '<strong>Format de l\'heure</strong><br>
-	Vous avez la possibilité d\'ajuster la manière dont le temps et les dates seront affichés sur votre forum. Il y a beaucoup de lettres, mais c\'est relativement simple. La convention d\'écriture s\'accorde avec celle de la fonction <tt>strftime</tt> de PHP et est décrite ci-dessous (plus de détails peuvent être trouvés sur <a href="http://www.php.net/manual/fr/function.strftime.php" target="_blank">php.net</a>).<br>
+$helptxt['time_format'] = '
+	Vous avez la possibilité d\'ajuster la manière dont le temps et les dates seront affichés sur votre forum. Ce ne sont pas des hiéroglyphes, c\'est relativement simple. La structure est la même que pour la fonction <span class="bbc_tt">strftime</span> de PHP, et elle est décrite ci-dessous (plus de détails peuvent être trouvés sur <a href="http://www.php.net/manual/fr/function.strftime.php" target="_blank">php.net</a>).<br>
 	<br>
-	Les caractères suivants sont reconnus en tant qu\'entrées dans la chaîne du format de l\'heure&nbsp;:
-	<div class="smalltext">
-	&nbsp;&nbsp;%a - Nom du jour (abrégé)<br>
-	&nbsp;&nbsp;%A - Nom du jour (complet)<br>
-	&nbsp;&nbsp;%b - Nom du mois (abrégé)<br>
-	&nbsp;&nbsp;%B - Nom du mois (complet)<br>
-	&nbsp;&nbsp;%d - Jour du mois (01 à 31)<br>
-	&nbsp;&nbsp;%D - La même chose que %m/%d/%y <strong>*</strong><br>
-	&nbsp;&nbsp;%e - Jour du mois (1 à 31)<br>
-	&nbsp;&nbsp;%H - Heure au format 24 heures (de 00 à 23)<br>
-	&nbsp;&nbsp;%I - Heure au format 12 heures (de 01 à 12)<br>
-	&nbsp;&nbsp;%m - Numéro du mois (01 à 12)<br>
-	&nbsp;&nbsp;%M - Minutes en chiffres<br>
-	&nbsp;&nbsp;%p - Met &quot;am&quot; ou &quot;pm&quot; selon la période de la journée<br>
-	&nbsp;&nbsp;%R - Heure au format 24 heures<strong>*</strong><br>
-	&nbsp;&nbsp;%S - Secondes en chiffres<br>
-	&nbsp;&nbsp;%T - Temps en ce moment, la même chose que %H:%M:%S<strong>*</strong><br>
-	&nbsp;&nbsp;%y - Année au format 2 chiffres (00 to 99)<br>
-	&nbsp;&nbsp;%Y - Année au format 4 chiffres<br>
-	&nbsp;&nbsp;%% - Le symbole \'%\' en lui-même<br>
-	<br>
-	<em>* Ne fonctionnent pas sur les serveurs Windows.</em></div>';
+	Voici quelques-uns des caractères reconnus pour générer la date&nbsp;:
+	<div style="padding: 5px 0 5px 30px">
+		<span class="bbc_tt">%a</span> - Nom du jour de la semaine (abrégé)<br>
+		<span class="bbc_tt">%A</span> - Nom du jour de la semaine (complet)<br>
+		<span class="bbc_tt">%b</span> - Nom du mois (abrégé)<br>
+		<span class="bbc_tt">%B</span> - Nom du mois (complet)<br>
+		<span class="bbc_tt">%d</span> - Jour du mois (01 à 31)<br>
+		<span class="bbc_tt" style="color: #999">%D</span> - Équivalent de %m/%d/%y<br>
+		<span class="bbc_tt">%e</span> - Jour du mois (1 à 31)<br>
+		<span class="bbc_tt">%H</span> - Heure au format 24 heures (de 00 à 23)<br>
+		<span class="bbc_tt">%I</span> - Heure au format 12 heures (de 01 à 12)<br>
+		<span class="bbc_tt">%m</span> - Numéro du mois (01 à 12)<br>
+		<span class="bbc_tt">%M</span> - Minutes en chiffres (de 00 à 59)<br>
+		<span class="bbc_tt">%p</span> - Ajoute "am" (avant midi) ou "pm" (après midi), selon l\'heure<br>
+		<span class="bbc_tt" style="color: #999">%R</span> - Heure et minutes, équivalent de %H:%M<br>
+		<span class="bbc_tt">%S</span> - Secondes en chiffres (de 00 à 59)<br>
+		<span class="bbc_tt" style="color: #999">%T</span> - Heure, minutes et secondes, équivalent de %H:%M:%S<br>
+		<span class="bbc_tt">%y</span> - Année sur 2 chiffres (de 00 à 99)<br>
+		<span class="bbc_tt">%Y</span> - Année sur 4 chiffres<br>
+		<span class="bbc_tt">%%</span> - Le symbole \'%\' en lui-même<br>
+	</div>
+	<em>* Les caractères grisés ne fonctionnent pas sur les serveurs Windows.</em>';
 
-$helptxt['live_news'] = '<strong>En direct de Wedge...</strong><br>
+$helptxt['live_news'] = '
 	Cette boîte affiche les dernières dépêches en provenance de <a href="http://wedge.org/" target="_blank">Wedge.org</a>.
 	Vous devriez y surveiller les annonces concernant les mises à jour, nouvelles versions de Wedge et informations importantes de l\'équipe.';
 
-$helptxt['registrations'] = '<strong>Gestion des inscriptions</strong><br>
+$helptxt['registrations'] = '
 	Cette section contient toutes les fonctions nécessaires pour la gestion des nouvelles inscriptions sur votre forum. Elle peut contenir jusqu\'à quatre
 	rubriques, visibles selon vos paramètres de forum. Celles-ci sont détaillés ci-dessous&nbsp;:<br><br>
 	<ul class="normallist">
@@ -168,19 +167,19 @@ $helptxt['registrations'] = '<strong>Gestion des inscriptions</strong><br>
 		</li>
 	</ul>';
 
-$helptxt['modlog'] = '<strong>Journal de Modération</strong><br>
+$helptxt['modlog'] = '
 	Cette section permet à l\'équipe des administrateurs de conserver des traces de chaque action de modération effectuée sur le forum par un modérateur ou un administrateur (voire même par un membre). Afin que
 	les modérateurs ne puissent enlever les références aux actions entreprises, les entrées ne pourront être supprimées que 24 heures après leur application.
 	La colonne \'Objet\' liste les variables associées à l\'action.';
-$helptxt['adminlog'] = '<strong>Journal d\'Administration</strong><br>
+$helptxt['adminlog'] = '
 	Cette section permet aux membres de l\'équipe d\'administration de pister les actions effectuées par tout administrateur sur le forum. Afin que les administrateurs ne puissent enlever les références aux actions entreprises, les entrées ne pourront être supprimées que 24 heures après leur application.';
-$helptxt['warning_enable'] = '<strong>Gestion des Avertissements</strong><br>
+$helptxt['warning_enable'] = '
 	Cette fonctionnalité permet aux membres des équipes d\'administration et de modération d\'envoyer des avertissements aux utilisateurs - et d\'utiliser un niveau d\'avertissement pour déterminer les actions possibles pour leur cas au niveau du forum. Après avoir activé cette fonctionnalité, un nouveau paramètre sera disponible dans les permissions par section pour définir quels groupes pourront assigner des avertissements aux utilisateurs. Les niveaux d\'avertissement pourront être ajustés à partir du profil des utilisateurs. Les options suivantes sont disponibles:
 	<ul class="normallist">
 		<li>
 			<strong>Niveau d\'avertissement pour une mise en garde</strong><br>
-			Ce réglage définit le pourcentage de niveau d\'avertissement qu\'un utilisateur doit atteindre pour recevoir automatiquement une &quot;mise en garde&quot;.
-			Tous les utilisateurs qui sont &quot;mis en garde&quot; apparaitront dans l\'endroit adéquat du centre de modération.
+			Ce réglage définit le pourcentage de niveau d\'avertissement qu\'un utilisateur doit atteindre pour recevoir automatiquement une "mise en garde".
+			Tous les utilisateurs qui sont "mis en garde" apparaitront dans l\'endroit adéquat du centre de modération.
 		</li>
 		<li>
 			<strong>Niveau d\'avertissement pour une prémodération des messages</strong><br>
@@ -195,23 +194,23 @@ $helptxt['warning_enable'] = '<strong>Gestion des Avertissements</strong><br>
 			Ce réglage limite le nombre de points qu\'un modérateur peut ajouter/retirer à un utilisateur particulier sur une période de vingt quatre heures. Cela pourra être utile pour limiter ce que peut faire un modérateur sur une petite période de temps. Ce réglage peut être désactivé en mettant cette valeur à zéro. Notez que tout utilisateur avec des permissions d\'administration n\'est pas affecté par cette valeur.
 		</li>
 	</ul>';
-$helptxt['error_log'] = '<strong>Journal d\'Erreurs</strong><br>
+$helptxt['error_log'] = '
 	Le journal d\'erreurs conserve des traces de toutes les erreurs sérieuses rencontrées lors de l\'utilisation de votre forum. Il liste toutes les erreurs par date, qui peuvent être récupérées
 	en cliquant sur la flèche noire accompagnant chaque date. De plus, vous pouvez filtrer les erreurs en sélectionnant l\'image accompagnant les statistiques des erreurs. Ceci
 	vous permet, par exemple, de filtrer les erreurs par nom de membre. Lorsqu\'un filtre est actif les seuls résultats affichés seront ceux correspondants aux critères du filtre.';
-$helptxt['theme_settings'] = '<strong>Réglages du Thème</strong><br>
+$helptxt['theme_settings'] = '
 	L\'écran des réglages vous permet de modifier certains réglages spécifiques à un thème. Ces réglages incluent des options telles que le répertoire du thàme et l\'URL du thème, mais
 	aussi des options affectant le rendu à l\'écran de votre forum. La plupart des thèmes possédent une variété d\'options configurables par l\'utilisateur, vous permettant d\'adapter un thème
 	à vos besoins individuels.';
-$helptxt['smileys'] = '<strong>Gestionnaire de smileys</strong><br>
+$helptxt['smileys'] = '
 	Ici, vous pouvez ajouter et supprimer des smileys et des jeux de smileys. Note importante&nbsp;: si un smiley est présent dans un jeu, il l\'est aussi dans tous les autres - autrement, cela pourrait prêter à
 	confusion pour les utilisateurs utilisant des jeux différents.<br><br>
 
 	Vous pouvez aussi modifier les icônes de message depuis cette interface, si vous les avez activés sur la page des paramètres.';
-$helptxt['calendar'] = '<strong>Gérer le calendrier</strong><br>
+$helptxt['calendar'] = '
 	Ici vous pouvez modifier les réglages courants du calendrier, ou ajouter et supprimer des fêtes qui apparaissent dans le calendrier.';
 
-$helptxt['serversettings'] = '<strong>Paramètres Serveur</strong><br>
+$helptxt['serversettings'] = '
 	Ici, vous pouvez régler la configuration de votre serveur. Cette section comprend la base de données et les chemins des dossiers, ainsi que d\'autres
 	options de configuration importantes tels que les paramètres d\'e-mail et de cache. Faites attention lors de la modification de ces paramètres,
 	ils pourraient rendre le forum inaccessible';
@@ -219,7 +218,7 @@ $helptxt['manage_files'] = '
 	<ul class="normallist">
 		<li>
 			<strong>Parcourir les Fichiers</strong><br>
-			Parcourir à travers tous les fichiers joints, avatars et vignettes stockés par SMF.<br><br>
+			Parcourir à travers tous les fichiers joints, avatars et vignettes stockés par Wedge.<br><br>
 		</li><li>
 			<strong>Réglages des Fichiers Joints</strong><br>
 			Configurer où sont stockés les fichiers joints et mettre les restrictions sur les types de fichiers joints.<br><br>
@@ -233,7 +232,7 @@ $helptxt['manage_files'] = '
 	</ul>';
 
 $helptxt['topicSummaryPosts'] = 'Vous permet de régler le nombre de messages précédemment postés affichés dans le sommaire du sujet sur l\'écran de réponse à un sujet.';
-$helptxt['enableAllMessages'] = 'Mettez ici le nombre <em>maximum</em> de messages qu\'un sujet aura lors de l\'affichage par le lien &quot;Tous&quot;. Le régler au-dessous du &quot;Nombre de messages à afficher lors du visionnement d\'un sujet:&quot; signifiera simplement que le lien ne sera jamais affiché, et indiquer une valeur trop élevée peut ralentir votre forum.';
+$helptxt['enableAllMessages'] = 'Mettez ici le nombre <em>maximum</em> de messages qu\'un sujet aura lors de l\'affichage par le lien "Tous". Le régler au-dessous du "Nombre de messages à afficher lors du visionnement d\'un sujet" signifiera simplement que le lien ne sera jamais affiché, et indiquer une valeur trop élevée peut ralentir votre forum.';
 $helptxt['pruneSavedDrafts'] = 'Les brouillons sauvegardés sur le serveur n\'ont pas de date limite en temps normal, mais l\'administrateur peut utiliser cette option pour nettoyer automatiquement la base de données en supprimant les brouillons plus anciens. Ainsi, si vous entrez un chiffre N et qu\'il y a des brouillons créés depuis plus de N jours, ces derniers seront supprimés. Mettez à 0 pour toujours conserver les brouillons, du moins jusqu\'à leur publication, ou suppression par l\'auteur.';
 $helptxt['allow_guestAccess'] = 'Décocher cette option limitera les actions possibles des invités aux seules opérations de base - connexion, inscription, rappel du mot de passe, etc. - sur votre forum. Ce n\'est pas comme désactiver l\'accès aux sections pour les invités.';
 $helptxt['userLanguage'] = 'Activer cette option permettra aux utilisateurs de sélectionner la langue dans laquelle le forum leur sera affiché.
@@ -243,10 +242,10 @@ $helptxt['trackStats'] = 'Stats&nbsp;:<br>Permet aux visiteurs de voir les derni
 	Pages vues&nbsp;:<br>Ajoute une autre colonne à la page des statistiques contenant le nombre de pages vues sur votre forum.';
 $helptxt['titlesEnable'] = 'Activer les titres personnels permettra aux membres possédant les permissions suffisantes de s\'attribuer un titre spécial pour eux-mêmes.
 		Il sera affiché sous leur pseudonyme.<br><em>Par exemple :</em><br>Loulou<br>Oui, c\'est moi';
-$helptxt['topbottomEnable'] = 'Ceci ajoutera des boutons &quot;Monter&quot; et &quot;Descendre&quot; au début et à la fin de chaque sujet, afin que les visiteurs passent plus vite du haut au bas de la page et <em>vice versa</em>,
+$helptxt['topbottomEnable'] = 'Ceci ajoutera des boutons "Monter" et "Descendre" au début et à la fin de chaque sujet, afin que les visiteurs passent plus vite du haut au bas de la page et <em>vice versa</em>,
 		 sans utiliser la molette de la souris ou la barre de défilement.';
 $helptxt['onlineEnable'] = 'Ceci affichera une image indiquant si l\'utilisateur est connecté ou non en ce moment.';
-$helptxt['todayMod'] = 'Cette option affichera &quot;Aujourd\'hui&quot; ou &quot;Hier&quot; à la place de la date.<br><br>
+$helptxt['todayMod'] = 'Cette option affichera "Aujourd\'hui" ou "Hier" à la place de la date.<br><br>
 		<strong>Exemples :</strong><br><br>
 		<dt>
 			<dt>Désactivé</dt>
@@ -262,7 +261,7 @@ $helptxt['ignoreMoveVsNew'] = 'Si l\'utilisateur déplace un sujet vers une autr
 		parmi la liste des sections auxquelles il pourrait d\'habitude créer des sections (pour éviter qu\'ils ne les déplacent dans le forum des
 		news de votre site, par exemple).<br><br>Activez cette option pour lui permettre au contraire de déplacer ses sujets
 		vers n\'importe quelle destination visible pour lui.';
-$helptxt['pollMode'] = 'Ceci détermine si les sondages sont activés ou non. Si les sondages sont désactivés, tous les sondages actuels sont cachés sur la liste des sujets. Vous pouvez choisir de continuer à afficher la partie sujet des sondages en sélectionnant &quot;Montrer les sondages existants comme des sujets&quot;.<br><br>Pour choisir qui peut poster et voir des sondages (et similaires), vous pouvez autoriser ou refuser ces permissions. Rappelez-vous de cela si les sondages sont désactivés.';
+$helptxt['pollMode'] = 'Ceci détermine si les sondages sont activés ou non. Si les sondages sont désactivés, tous les sondages actuels sont cachés sur la liste des sujets. Vous pouvez choisir de continuer à afficher la partie sujet des sondages en sélectionnant "Montrer les sondages existants comme des sujets".<br><br>Pour choisir qui peut poster et voir des sondages (et similaires), vous pouvez autoriser ou refuser ces permissions. Rappelez-vous de cela si les sondages sont désactivés.';
 $helptxt['enableVBStyleLogin'] = 'Ceci affichera un champ de connexion dans l\encadré (sidebar) de chaque page du forum, si le visiteur n\'est pas encore connecté.';
 $helptxt['webmaster_email'] = 'Cette option vous permet de spécifier l\'adresse e-mail de l\'administrateur principal. Cette adresse est utilisée pour les notifications urgentes, telles que les erreurs de base de données.
 		<br><br>Pour cette raison, mettez-y une adresse valide.';
@@ -309,15 +308,15 @@ $helptxt['db_show_debug_who_log'] = 'Une partie des informations de débogage es
 		pendant un débogage, ces requêtes doivent être fournies à des utilisateurs sans droits d\'administration afin qu\'ils puissent faire des retours.';
 $helptxt['databaseSession_enable'] = 'Cette fonction utilise la base de données pour le stockage des sessions - c\'est mieux pour des serveurs à charge balancée, mais aide à régler tous les problèmes de fin de session indésirée et peut aider le forum à fonctionner plus rapidement.';
 $helptxt['databaseSession_loose'] = 'Activer cette option diminuera la bande passante utilisée par le forum, et fait en sorte que lorsque l\'utilisateur revient sur ses pas, la page n\'est pas rechargée - le point négatif de cette option est que les (nouvelles) icônes ne seront pas mises à jour, ainsi que quelques autres choses. (Sauf si vous rechargez cette page plutôt que de retourner sur vos pas.)';
-$helptxt['databaseSession_lifetime'] = 'Ceci est le temps en secondes au bout duquel la session se termine automatiquement après le dernier accès de l\'utilisateur. Si une session n\'a pas été accédée depuis trop longtemps, un message &quot;Session terminée&quot; est affiché. Tout ce qui est au-dessus de 2400 secondes est recommandé.';
+$helptxt['databaseSession_lifetime'] = 'Ceci est le temps en secondes au bout duquel la session se termine automatiquement après le dernier accès de l\'utilisateur. Si une session n\'a pas été accédée depuis trop longtemps, un message "Session terminée" est affiché. Tout ce qui est au-dessus de 2400 secondes est recommandé.';
 $helptxt['enableErrorLogging'] = 'Ceci indexera toutes les erreurs rencontrées, comme les connexions non réussies, afin que vous puissiez les consulter lorsque quelque chose ne va pas.';
 $helptxt['enableErrorQueryLogging'] = 'Ceci enregistrera les requêtes SQL complètes dans le journal d\'erreurs si la base de données retourne une erreur. Requiert l\'activation du journal d\'erreurs.<br><br><strong>Attention, cela modifiera la capacité de filtrage du journal d\'erreurs par message d\'erreur.</strong>';
-$helptxt['allow_disableAnnounce'] = 'Permet aux utilisateurs de désélectionner la réception des annonces du forum que vous envoyez en cochant &quot;Annoncer le sujet&quot; lorsque vous postez un message.';
+$helptxt['allow_disableAnnounce'] = 'Permet aux utilisateurs de désélectionner la réception des annonces du forum que vous envoyez en cochant "Annoncer le sujet" lorsque vous postez un message.';
 $helptxt['disallow_sendBody'] = 'Cette option supprime l\'option permettant de recevoir le texte des réponses et les messages dans les e-mails de notification.<br><br>Souvent, les membres vont répondre à l\'e-mail de notification, ce qui peut saturer, dans bien des cas, la boîte e-mail du webmestre.';
 $helptxt['compactTopicPagesEnable'] = 'Nombre de pages intermédiaires à afficher lors du visionnement d\'un sujet.<br><em>Exemple&nbsp;:</em>
-		&quot;3&quot; pour afficher&nbsp;: 1 ... 4 [5] 6 ... 9 <br>
-		&quot;5&quot; pour afficher&nbsp;: 1 ... 3 4 [5] 6 7 ... 9';
-$helptxt['timeLoadPageEnable'] = 'Afficher dans le pied de page du forum le temps utilisé par SMF pour générer la page en cours.';
+		"3" pour afficher&nbsp;: 1 ... 4 [5] 6 ... 9 <br>
+		"5" pour afficher&nbsp;: 1 ... 3 4 [5] 6 7 ... 9';
+$helptxt['timeLoadPageEnable'] = 'Afficher dans le pied de page du forum le temps utilisé par Wedge pour générer la page en cours.';
 $helptxt['removeNestedQuotes'] = 'Ceci effacera les citations imbriquées dans les messages que vous citez en cliquant sur le bouton Citer.';
 $helptxt['simpleSearch'] = 'Affiche, lors d\'une recherche, le formulaire de recherche simplifié ainsi qu\'un lien vers sa version complète.';
 $helptxt['max_image_width'] = 'Cette option vous permet de spécifier une taille maximale pour les images postées. Les images plus petites ne seront pas affectées.';
@@ -332,10 +331,10 @@ $helptxt['attachment_manager_settings'] = 'Les fichiers joints sont des fichiers
 		<strong>Nombre maximum de fichiers joints par message</strong> :<br> Sélectionnez le nombre de fichiers joints qu\'une personne peut mettre par message.<br>
 		<strong>Afficher les images jointes sous les messages</strong> :<br> Si le fichier uploadé est une image, elle sera affichée sous le message.<br>
 		<strong>Montrer les images jointes sous forme de vignettes sous les messages</strong> :<br> Si l\'option au-dessus est sélectionnée, cela sauvegardera une copie (plus petite) du fichier joint pour la vignette afin d\'économiser la bande passante.<br>
-		<strong>Largeur et hauteur maximales des vignettes</strong> :<br> Seulement utilisé avec l\'option &quot;Redimensionner les images quand affichées sous les messages&quot;, spécifie la taille et la hauteur maximales des vignettes créées pour les fichiers joints. Elles seront redimensionnées proportionnellement.';
-$helptxt['attachment_image_paranoid'] = 'Choisissez cette option pour mettre en place des contrôles de sécurité très stricts sur les images envoyées en fichier joint. Attention, ces contrôles peuvent parfois échouer sur des images sans danger. Nous vous recommandons de ne l\'utiliser qu\'en association avec l\'option de réencodage, auquel cas SMF essaiera de recréer et de mettre en ligne des images saines si le contrôle échoue. Si le réencodage n\'est pas activé, les fichiers joints échouant au contrôle seront rejetés.';
+		<strong>Largeur et hauteur maximales des vignettes</strong> :<br> Seulement utilisé avec l\'option "Redimensionner les images quand affichées sous les messages", spécifie la taille et la hauteur maximales des vignettes créées pour les fichiers joints. Elles seront redimensionnées proportionnellement.';
+$helptxt['attachment_image_paranoid'] = 'Choisissez cette option pour mettre en place des contrôles de sécurité très stricts sur les images envoyées en fichier joint. Attention, ces contrôles peuvent parfois échouer sur des images sans danger. Nous vous recommandons de ne l\'utiliser qu\'en association avec l\'option de réencodage, auquel cas Wedge essaiera de recréer et de mettre en ligne des images saines si le contrôle échoue. Si le réencodage n\'est pas activé, les fichiers joints échouant au contrôle seront rejetés.';
 $helptxt['attachment_image_reencode'] = 'Choisissez cette option pour permettre le réencodage des fichier joints envoyés par les utilisateurs. Le réencodage vous garantit une meilleure sécurité, mais il supprime également les animations des images animées.';
-$helptxt['avatar_paranoid'] = 'Choisissez cette option pour mettre en place des contrôles de sécurité très stricts sur les avatars au moment où les utilisateurs les envoient. Attention, ces contrôles peuvent parfois échouer sur des images sans danger. Nous vous recommandons de ne l\'utiliser qu\'en association avec l\'option de réencodage, auquel cas SMF essaiera de recréer et de mettre en ligne des images saines si le contrôle échoue. Si le réencodage n\'est pas activé, les avatars échouant au contrôle seront rejetés.';
+$helptxt['avatar_paranoid'] = 'Choisissez cette option pour mettre en place des contrôles de sécurité très stricts sur les avatars au moment où les utilisateurs les envoient. Attention, ces contrôles peuvent parfois échouer sur des images sans danger. Nous vous recommandons de ne l\'utiliser qu\'en association avec l\'option de réencodage, auquel cas Wedge essaiera de recréer et de mettre en ligne des images saines si le contrôle échoue. Si le réencodage n\'est pas activé, les avatars échouant au contrôle seront rejetés.';
 $helptxt['avatar_reencode'] = 'Choisissez cette option pour permettre le réencodage des avatars envoyés par les utilisateurs. Le réencodage vous garantit une meilleure sécurité, mais il supprime également les animations des images animées.';
 $helptxt['cal_enabled'] = 'Le calendrier peut êre utilisé afin d\'afficher les anniversaires et des dates importantes à votre communauté.<br><br>
 		<strong>Montrer les jours en tant que liens vers \'Poster un Événement\'</strong>&nbsp;:<br>Permet à vos membres de poster des événements pour ce jour, lorsqu\'ils cliquent sur la date.<br>
@@ -345,25 +344,25 @@ $helptxt['cal_enabled'] = 'Le calendrier peut êre utilisé afin d\'afficher les
 		<strong>Montrer les événements sur l\'accueil du forum</strong>&nbsp;:<br>Affiche les événements du jour dans une barre sur l\'accueil du forum.<br>
 		<strong>Section où Poster par Défaut</strong>:<br>Quelle est la section par défaut pour poster les événements&nbsp;?<br>
 		<strong>Permettre les événements qui ne sont liés à aucun message</strong>&nbsp;:<br>Permet aux membres de poster des événements sans nécessiter la création d\'un nouveau sujet dans le forum.<br>
-		<strong>Année minimale</strong>&nbsp;:<br>Sélectionne la &quot;première&quot; année dans la liste du calendrier.<br>
-		<strong>Année maximale</strong>&nbsp;:<br>Sélectionne la &quot;dernière&quot; année dans la liste du calendrier<br>
+		<strong>Année minimale</strong>&nbsp;:<br>Sélectionne la "première" année dans la liste du calendrier.<br>
+		<strong>Année maximale</strong>&nbsp;:<br>Sélectionne la "dernière" année dans la liste du calendrier<br>
 		<strong>Permettre aux événements de durer plusieurs jours</strong>&nbsp;:<br>Sélectionnez pour permettre aux événements de durer plusieurs jours.<br>
 		<strong>Durée maximale (en jours) d\'un événement</strong>&nbsp;:<br>Sélectionnez le nombre maximal de jours pour la duré d\'un événement.<br><br>
 		Rappelez-vous que l\'usage du calendrier (poster des événements, voir des événements, etc.) est contrôlable par les réglages des permissions à partir de l\'écran de gestion des permissions.';
-$helptxt['localCookies'] = 'SMF utilise des cookies (« témoins ») pour conserver les informations de connexion d\'un membre. Les cookies peuvent être stockés dans un dossier global (monserveur.com) ou localement (monserveur.com/chemin/vers/mon/forum).<br>
+$helptxt['localCookies'] = 'Wedge utilise des cookies (« témoins ») pour conserver les informations de connexion d\'un membre. Les cookies peuvent être stockés dans un dossier global (monserveur.com) ou localement (monserveur.com/chemin/vers/mon/forum).<br>
 	Cochez cette option si vous constatez certains problèmes avec des utilisateurs déconnectés automatiquement.<hr>
 	Les cookies stockés dans un dossier global sont moins sécurisés lorsqu\'ils sont utilisés sur un serveur mutualisé (comme Multimania/Lycos, Free, OVH, ...).<hr>
 	Les cookies stockés localement ne fonctionnent pas à l\'extérieur du dossier du forum. Donc, si votre forum est installé dans le répertoire www.monserveur.com/forum, les pages telles que www.monserveur.com/index.php ne pourront pas accéder aux cookies. Lors de l\'utilisation de SSI.php, il est recommandé de stocker les cookies dans un dossier global.';
 $helptxt['enableBBC'] = 'Activer cette fonction autorisera vos membres à utiliser les balises (BBCodes) sur votre forum, afin de permettre la mise en forme du texte, l\'insertion d\'images et plus.';
 $helptxt['time_offset'] = 'Tous les propriétaires de forums ne souhaitent pas forcément utiliser le fuseau horaire du serveur sur lequel ils sont hébergés. Utilisez cette fonction pour spécifier un temps de décalage (en heures) sur lequel le forum devrait se baser pour les dates et heures. Les temps négatifs et décimaux sont permis.';
 $helptxt['default_timezone'] = 'La zone horaire du serveur indique à PHP où il se trouve. Assurez-vous que ladite zone soit correctement renseignée, notamment le pays voire la ville. Vous trouverez plus d\'informations sur <a href="http://www.php.net/manual/fr/timezones.php" target="_blank">le site de PHP</a>.';
-$helptxt['spamWaitTime'] = 'Ici vous pouvez spécifier le temps minimal requis entre deux envois de messages en provenance d\'un même utilisateur. Cette option peut être utilisée afin de contrer le pollupostage (&quot;spamming&quot;).';
+$helptxt['spamWaitTime'] = 'Ici vous pouvez spécifier le temps minimal requis entre deux envois de messages en provenance d\'un même utilisateur. Cette option peut être utilisée afin de contrer le pollupostage ("spamming").';
 
 $helptxt['enablePostHTML'] = 'Permet l\'utilisation de quelques balises HTML basiques&nbsp;:
 	<ul class="normallist" style="margin-bottom: 0;">
 		<li>&lt;b&gt;, &lt;u&gt;, &lt;i&gt;, &lt;s&gt;, &lt;em&gt;, &lt;ins&gt;, &lt;del&gt;</li>
-		<li>&lt;a href=&quot;&quot;&gt;</li>
-		<li>&lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;</li>
+		<li>&lt;a href=""&gt;</li>
+		<li>&lt;img src="" alt="" /&gt;</li>
 		<li>&lt;br /&gt;, &lt;hr /&gt;</li>
 		<li>&lt;pre&gt;, &lt;blockquote&gt;</li>
 	</ul>';
@@ -379,11 +378,11 @@ $helptxt['xmlnews_enable'] = 'Les flux Atom sont comme des flux RSS, mais en mie
 $helptxt['globalCookies'] = 'Permet l\'utilisation de cookies (« témoins ») indépendants du sous-domaine. Par exemple, si...<br>
 	Votre site est situé sur http://www.chezmoi.org/,<br>
 	Et votre forum est situé sur http://forum.chezmoi.org/,<br>
-	Activer cette fonction vous permettra d\'utiliser les cookies de votre forum sur votre site (grâce à SSI.php, par exemple).';
+	Activer cette fonction vous permettra d\'utiliser les cookies de votre forum sur votre site (grâce à SSI.php, par exemple). Ne l\'activez pas s\'il y a d\'autres sous-domaines qui ne sont pas sous votre contrôle (par exemple hacker.mysite.org).';
 $helptxt['secureCookies'] = 'Activer cette option forcera la sécurisation des cookies (« témoins ») créés pour les utilisateurs de votre forum. Ne l\'activez que si vous utilisez le protocole HTTPS sur tout votre site, faute de quoi la gestion des cookies sera fortement perturbée&nbsp;!';
 $helptxt['securityDisable'] = 'Ceci <em>désactive</em> la vérification supplémentaire du mot de passe pour accéder à la zone d\'administration. Ça n\'est pas recommandé&nbsp;!';
 $helptxt['securityDisable_why'] = 'Ceci est votre mot de passe courant. (Le même que vous utilisez pour vous connecter au forum, quoi.)<br><br>Avoir à le taper de nouveau permet de vérifier que vous voulez bien effectuer quelque opération d\'administration, et que c\'est bien <strong>vous</strong> qui le faites.';
-$helptxt['emailmembers'] = 'Dans ce message, vous pouvez inclure certaines &quot;variables&quot;. Celles-ci sont&nbsp;:<br>
+$helptxt['emailmembers'] = 'Dans ce message, vous pouvez inclure certaines "variables". Celles-ci sont&nbsp;:<br>
 	{$board_url} - L\'URL vers votre forum.<br>
 	{$current_time} - L\'heure courante.<br>
 	{$member.email} - L\'adresse e-mail du membre.<br>
@@ -395,14 +394,14 @@ $helptxt['emailmembers'] = 'Dans ce message, vous pouvez inclure certaines &quot
 	{$latest_member.name} - Le nom du membre le plus récemment inscrit.';
 $helptxt['attachmentEncryptFilenames'] = 'Encrypter les noms des fichiers joints permet le transfert de fichiers dont le nom serait identique, d\'utiliser sécuritairement des fichiers .php pour gérer ces pièces jointes et une plus grande sécurité. D\'un autre côté, cela peut compliquer une reconstruction de base de données si un problème radical se présente.';
 
-$helptxt['failed_login_threshold'] = 'Spécifiez le nombre maximal de tentatives de connexion avant de rediriger l\'utilisateur vers la fonction &quot;Rappel de Mot de Passe&quot;.';
+$helptxt['failed_login_threshold'] = 'Spécifiez le nombre maximal de tentatives de connexion avant de rediriger l\'utilisateur vers la fonction "Rappel de Mot de Passe".';
 $helptxt['oldTopicDays'] = 'Si cette option est activée, un avertissement sera affiché aux utilisateurs qui tenteront de répondre dans un sujet dans lequel il n\'y a eu aucune intervention après un certain laps de temps, en jours, spécifié par ce paramêtre. Réglez-la à 0 pour désactiver cette fonction.';
-$helptxt['edit_wait_time'] = 'Temps en secondes permis pour la modification d\'un message avant que la mention &quot;Dernière édition&quot; apparaisse.';
+$helptxt['edit_wait_time'] = 'Temps en secondes permis pour la modification d\'un message avant que la mention "Dernière édition" apparaisse.';
 $helptxt['edit_disable_time'] = 'Nombre de minutes accordées à un utilisateur pour qu\'il puisse modifier ses messages. Mettre sur 0 pour désactiver. <br><br><em>Note: Cela n\'affectera pas l\'utilisateur qui a la permission de modifier les messages des autres.</em>';
 $helptxt['posts_require_captcha'] = 'Ce réglage forcera les utilisateurs à rentrer un code affiché sur une image de vérification à chaque fois qu\'ils posteront un message. Seul les utilisateurs avec un compteur de messages en dessous du nombre choisi auront à entrer le code - Cela devrait aider à combattre les scripts automatiques de spam.';
 $helptxt['enableSpellChecking'] = 'Active la vérification orthographique. Vous DEVEZ avoir la librairie pspell installée sur votre serveur et PHP doit être configuré de telle sorte qu\'il utilise cette librairie. Votre serveur ' . (function_exists('pspell_new') ? '<span style="color: green">semble</span>' : '<span style="color: red">NE SEMBLE PAS</span>') . ' avoir la librairie pspell.';
-$helptxt['disable_wysiwyg'] = 'Ce réglage désactivera l\'utilisation du WYSIWYG (acronyme de la locution anglaise &quot;What you see is what you get&quot;, signifiant littéralement en français &quot;vous aurez ce que vous voyez&quot;») sur la page de rédaction des messages chez tous les utilisateurs.';
-$helptxt['lastActive'] = 'Sélectionnez le nombre de minutes à afficher dans &quot;Membres actifs dans les X dernières minutes&quot;, sur l\'accueil du forum. Par défaut, la valeur est 15 minutes.';
+$helptxt['disable_wysiwyg'] = 'Ce réglage désactivera l\'utilisation du WYSIWYG (acronyme de la locution anglaise "What you see is what you get", signifiant littéralement en français "vous aurez ce que vous voyez") sur la page de rédaction des messages chez tous les utilisateurs.';
+$helptxt['lastActive'] = 'Sélectionnez le nombre de minutes à afficher dans "Membres actifs dans les X dernières minutes", sur l\'accueil du forum. Par défaut, la valeur est 15 minutes.';
 
 $helptxt['customoptions'] = 'Cette section définit les options qu\'un utilisateur peut choisir à partir d\'une liste déroulante. Il y a quelques points clés à noter pour cette section:
 	<ul class="normallist">
@@ -433,10 +432,10 @@ $helptxt['display_flags'] = 'En plus de la langue par défaut du forum, vous pou
 
 $helptxt['who_enabled'] = 'Cette option vous permet d\'activer ou non la possibilité de voir qui est en ligne sur le forum et ce qu\'il y fait.';
 
-$helptxt['recycle_enable'] = '&quot;Recycle&quot; les sujets et messages supprimés vers une section spécifique, souvent une section caché aux utilisateurs normaux.';
+$helptxt['recycle_enable'] = '"Recycle" les sujets et messages supprimés vers une section spécifique, souvent une section cachée aux utilisateurs normaux.';
 
 $helptxt['enableReportPM'] = 'Cette option permet aux utilisateurs de rapporter des messages personnels qu\'ils ont reçus à l\'équipe d\'administration. Pratique pour aider à traquer les abus effectués à l\'aide du système de messagerie personnelle.';
-$helptxt['max_pm_recipients'] = 'Cette option vous permet de limiter la quantité maximale de messages privés envoyé par un membre du forum. Cette option permet de lutter contre le pollupostage (&quot;spam&quot;) du système de MP. Notez que les utilisateurs ayant la permission d\'envoyer des bulletins d\'informations ne sont pas concernés par cette restriction. Réglez-la à 0 pour désactiver la fonction.';
+$helptxt['max_pm_recipients'] = 'Cette option vous permet de limiter la quantité maximale de messages privés envoyé par un membre du forum. Cette option permet de lutter contre le pollupostage ("spam") du système de MP. Notez que les utilisateurs ayant la permission d\'envoyer des bulletins d\'informations ne sont pas concernés par cette restriction. Réglez-la à 0 pour désactiver la fonction.';
 $helptxt['pm_posts_verification'] = 'Cette option forcera les utilisateurs à entrer un code affiché sur une image de vérification à chaque fois qu\'ils envoient un message personnel. Seuls les utilisateurs avec un compteur de messages en dessous de l\'ensemble de nombres auront besoin de saisir le code - Cela devrait aider à lutter contre les robots spammeurs.';
 $helptxt['pm_posts_per_hour'] = 'Cette option limitera le nombre de messages personnels qui pourront être envoyés par un utilisateur en une heure de temps. Cela n\'affecte pas les admins ou modérateurs.';
 
@@ -462,7 +461,7 @@ $helptxt['registration_method'] = 'Cette fonction détermine quelle méthode d\'
 				Lorsque cette option est sélectionnée, l\'inscription de tous les nouveaux utilisateurs de votre forum devra d\'abord être approuvée par les administrateurs pour être ensuite effective et leur permettre ainsi de rejoindre votre communauté.
 		</li>
 	</ul>';
-$helptxt['register_openid'] = '<strong>Identification avec OpenID</strong><br>
+$helptxt['register_openid'] = '
 	OpenID est un moyen d\'utiliser un seul nom d\'utilisateur pour différents sites web, sans avoir à retenir un identifiant pour chacun d\'eux. Pour utiliser OpenID vous devez d\'abord créer un compte OpenID - une liste de fournisseurs est disponible sur le <a href="http://openid.net/" target="_blank">Site officiel OpenID</a>.<br><br>
 	Une fois que vous avez un compte OpenID, entrez simplement votre URL unique d\'identification dans le champ OpenID et validez. Il sera effectué une vérification de votre identité via le site de vos fournisseurs avant de pouvoir entrer sur le site en question.<br><br>
 	Lors de votre première visite sur ce site, il vous sera demandé de confirmer une série de détails avant d\'être reconnu, après cela vous pourrez vous connecter sur le site et changer votre profil juste en utilisant votre OpenID.<br><br>
@@ -470,12 +469,12 @@ $helptxt['register_openid'] = '<strong>Identification avec OpenID</strong><br>
 
 $helptxt['send_validation_onChange'] = 'Lorsque cette option est cochée, tous les membres qui modifient leur adresse e-mail dans leur profil devront réactiver leur compte grâce à un e-mail envoyé à leur nouvelle adresse.';
 $helptxt['send_welcomeEmail'] = 'Lorsque cette option est activée, tous les nouveaux membres recevront un e-mail leur souhaitant la bienvenue sur votre communauté.';
-$helptxt['password_strength'] = 'Ce réglage détermine le niveau de sécurité requis pour les mots de passe sélectionnés par les membres de votre forum. Plus ce niveau est &quot;élevé&quot;, plus il devrait être difficile de découvrir le mot de passe et de pirater leurs comptes.
+$helptxt['password_strength'] = 'Ce réglage détermine le niveau de sécurité requis pour les mots de passe sélectionnés par les membres de votre forum. Plus ce niveau est "élevé", plus il devrait être difficile de découvrir le mot de passe et de pirater leurs comptes.
 	Les niveaux possibles sont&nbsp;:
 	<ul>
-		<li><strong>Bas&nbsp;:</strong> Le mot de passe doit être composé d\'au moins quatre caractères.</li>
-		<li><strong>Moyen&nbsp;:</strong> Le mot de passe doit être formé d\'au moins huit caractères, et ne peut contenir des parties de l\'identifiant ou de l\'adresse e-mail.</li>
-		<li><strong>élevé&nbsp;:</strong> Comme pour le niveau précédent, et le mot de passe doit aussi contenir des lettres majuscules et minuscules et au moins un chiffre.</li>
+		<li><strong>Bas</strong>&nbsp;: Le mot de passe doit être composé d\'au moins 4 caractères.</li>
+		<li><strong>Moyen</strong>&nbsp;: Le mot de passe doit être formé d\'au moins 8 caractères, et ne peut contenir des parties de l\'identifiant ou de l\'adresse e-mail.</li>
+		<li><strong>Élevé</strong>&nbsp;: Comme pour le niveau précédent, et le mot de passe doit aussi contenir des lettres majuscules et minuscules et au moins un chiffre.</li>
 	</ul>';
 
 $helptxt['coppaAge'] = 'La valeur spécifiée dans ce champ détermine l\'àge minimum que doit avoir un membre pour avoir un accè immédiat aux sections.
@@ -498,25 +497,25 @@ $helptxt['allow_hideOnline'] = 'En activant cette option, les membres peuvent ca
 $helptxt['make_email_viewable'] = 'Si cette option est activée, les e-mails des utilisateurs, au lieu d\'être cachés aux membres normaux et aux invités, seront publiquement visibles sur le forum. Activer ceci exposera vos utilisateurs à un plus grand risque d\'être victime de spam si des robots collecteurs d\'adresses visitent votre forum. Notez que ce réglage n\'écrase pas la préférence utilisateur pour cacher son adresse e-mail aux autres utilisateurs. Activer ceci n\'est <strong>pas</strong> recommandé.';
 $helptxt['meta_keywords'] = 'Cette fonctionnalité est facultative. Ces mots-clés sont placés dans les entêtes de chaque page pour indiquer aux robots le type de contenu de votre site (mais cette technique n\'est plus très efficace de nos jours, NDT). Séparez les mots par des virgules, et n\'utilisez pas de HTML.';
 
-$helptxt['latest_support'] = 'Ce panneau affiche quelques-uns des problèmes et questions les plus fréquents et communs et des informations sur votre serveur. Ne vous inquiétez pas, ces informations ne sont stockées nulle part.<br><br>Si l\'affichage du message &quot;Réception des informations de support&hellip;&quot; persiste, votre ordinateur ne peut probablement pas se connecter sur <a href="http://www.simplemachines.org/" target="_blank">www.simplemachines.org</a>.';
-$helptxt['latest_packages'] = 'Ici vous pouvez voir quelques extensions parmi les plus populaires et d\'autres choisies au hasard, avec une installation facile et rapide.<br><br>Si cette rubrique ne s\'affiche pas, votre ordinateur n\'arrive peut-être pas à se connecter à <a href="http://www.simplemachines.org/" target="_blank">www.simplemachines.org</a>.';
-$helptxt['latest_themes'] = 'Cette zone vous montre quelques-uns des derniers thèmes et les plus populaires en provenance de <a href="http://www.simplemachines.org/" target="_blank">www.simplemachines.org</a>. Cela peut néanmoins ne pas s\'afficher correctement si votre ordinateur a du mal à se connecter à <a href="http://www.simplemachines.org/" target="_blank">www.simplemachines.org</a>.';
+$helptxt['latest_support'] = 'Ce panneau affiche quelques-uns des problèmes et questions les plus fréquents et communs et des informations sur votre serveur. Ne vous inquiétez pas, ces informations ne sont stockées nulle part.<br><br>Si l\'affichage du message "Réception des informations de support&hellip;" persiste, votre serveur ne peut probablement pas se connecter sur <a href="http://wedge.org/" target="_blank">wedge.org</a>.';
+$helptxt['latest_packages'] = 'Ici vous pouvez voir quelques extensions parmi les plus populaires et d\'autres choisies au hasard, avec une installation facile et rapide.<br><br>Si cette rubrique ne s\'affiche pas, votre ordinateur n\'arrive peut-être pas à se connecter à <a href="http://wedge.org/" target="_blank">wedge.org</a>.';
+$helptxt['latest_themes'] = 'Cette zone vous montre quelques-uns des derniers thèmes et les plus populaires en provenance de <a href="http://wedge.org/" target="_blank">wedge.org</a>. Cela peut néanmoins ne pas s\'afficher correctement si votre ordinateur a du mal à se connecter à <a href="http://wedge.org/" target="_blank">wedge.org</a>.';
 
 $helptxt['secret_why_blank'] = 'Pour votre sécurité, votre mot de passe et la réponse à votre question secrète sont encryptés de telle manière que le moteur Wedge ne peut que vérifier si vous entrez la bonne valeur, sans pouvoir déterminer la valeur en question.';
 $helptxt['moderator_why_missing'] = 'Puisque la modération est définie indépendamment pour chaque section, vous devrez assigner les membres en tant que modérateurs à partir de <a href="javascript:window.open(\'%1$s?action=manageboards\'); self.close();">l\'interface de gestion des sections</a>.';
 
 $helptxt['permissions'] = 'Les permissions permettent de définir les droits accordés (ou non) aux membres pour effectuer une action particulière. Ces droits sont définis sur la base des groupes de membres <br><br>Vous pouvez modifier ces droits sur plusieurs sections en même temps en utilisant les cases à cocher, ou modifier les permissions d\'un groupe particulier en cliquant sur le lien \'Modifier\'';
 $helptxt['permissions_board'] = 'Si \'Global\' est sélectionné, cela signifie que cette section ne possèdera aucune permission particulière, et aura celles générales de votre forum. \'Local\' signifie qu\'elle aura ses propres permissions - indépendamment des permissions globales. Ceci vous permet d\'avoir des sections avec plus ou moins de permissions que d\'autres, sans navoir à régler toutes les permissions pour chaque section.';
-$helptxt['permissions_quickgroups'] = 'Vous permet d\'utiliser les réglages de permissions par &quot;défaut&quot; - standard signifie &quot;rien de spécial&quot;, restreint signifie &quot;comme un invité&quot;, modérateur signifie &quot;les mêmes droits qu\'un modérateur&quot;, et enfin maintenance signifie &quot;des permissions très proches de celles d\'un administrateur&quot;.';
+$helptxt['permissions_quickgroups'] = 'Vous permet d\'utiliser les réglages de permissions par "défaut" - standard signifie "rien de spécial", restreint signifie "comme un invité", modérateur signifie "les mêmes droits qu\'un modérateur", et enfin maintenance signifie "des permissions très proches de celles d\'un administrateur".';
 $helptxt['permissions_deny'] = 'Interdire des permissions peut être utile quand vous voulez enlever des permissions à certains membres. Vous pouvez ajouter un groupe de membres avec une permission \'interdite\' pour les membres auquels vous voulez interdire une permission.<br><br>À utiliser avec précaution, une permission interdite restera interdite peu importe dans quels autres groupes de membres le membre fait partie.';
 $helptxt['permissions_postgroups'] = 'Activer les permissions pour les groupes posteurs vous permettra d\'attribuer des permissions aux membres ayant posté un certain nombre de messages. Les permissions du groupe posteur sont <em>ajoutées</em> aux permissions des membres inscrits.';
 $helptxt['membergroup_guests'] = 'Le groupe de membres Invités contient tous les utilisateurs qui ne sont pas connectés à un compte membre sur votre forum.';
 $helptxt['membergroup_regular_members'] = 'Les membres inscrits correspondent à tous les utilisateurs ayant un compte membre sur votre forum, mais à qui aucun groupe permanent n\'a été assigné.';
 $helptxt['membergroup_administrator'] = 'L\'administrateur peut, par définition, faire tout ce qu\'il veut et voir toutes les sections. Il n\'y a aucun réglage de permissions pour les administrateurs.';
 $helptxt['membergroup_moderator'] = 'Le groupe Modérateur est un groupe spécial. Les permissions et réglages pour ce groupe s\'appliquent aux modérateurs mais uniquement <em>dans la (ou les) section(s) qu\'ils modèrent</em>. Au dehors de ces sections, ils sont considérés comme n\'importe quel autre membre régulier.';
-$helptxt['membergroups'] = 'Dans SMF il y a deux types de groupes auquels vos membres peuvent appartenir. Ce sont&nbsp;:
+$helptxt['membergroups'] = 'Dans Wedge, il y a deux types de groupes auquels vos membres peuvent appartenir. Ce sont&nbsp;:
 	<ul class="normallist">
-		<li><strong>Groupes permanents&nbsp;:</strong> Un groupe permanent est un groupe dans lequel un membre n\'est pas assigné automatiquement. Pour assigner un membre dans un groupe permanent, allez simplement dans son profil et cliquez sur &quot;Paramètres relatifs au compte&quot;. Ici vous pouvez paramétrer les différents groupes permanents auxquels les membres peuvent appartenir.</li>
+		<li><strong>Groupes permanents&nbsp;:</strong> Un groupe permanent est un groupe dans lequel un membre n\'est pas assigné automatiquement. Pour assigner un membre dans un groupe permanent, allez simplement dans son profil et cliquez sur "Paramètres relatifs au compte". Ici vous pouvez paramétrer les différents groupes permanents auxquels les membres peuvent appartenir.</li>
 		<li><strong>Groupes posteurs&nbsp;:</strong> Au contraire des groupes permanents, un membre ne peut être manuellement assigné à un groupe posteur, basé sur le nombre de message. Les membres sont plutôt assignés automatiqement à un groupe posteur lorsqu\'ils ont atteint le nombre minimum de messages requis pour faire partie de ce groupe.</li>
 	</ul>';
 
@@ -526,10 +525,10 @@ $helptxt['maintenance_backup'] = 'Cette section vous permettra de faire une copi
 $helptxt['maintenance_rot'] = 'Vous permet de supprimer <strong>complètement</strong> et <strong>irrévocablement</strong> les vieux sujets. Vous devriez effectuer une copie de sauvegarde de votre base de données avant de procéder à cette action, au cas où vous enleveriez quelque chose que vous ne vouliez pas supprimer.<br><br>À utiliser avec précaution.';
 $helptxt['maintenance_members'] = 'Vous permet d\'effacer <strong>complètement</strong> et <strong>irrévocablement</strong> des comptes de membres de votre forum. Vous devriez <strong>absolument</strong> faire une sauvegarde avant, juste au cas où vous effaceriez quelque chose que vous ne vouliez pas effacer.<br><br>Utilisez cette option avec précaution.';
 
-$helptxt['avatar_server_stored'] = 'Ceci permet à vos membres de choisir leur avatar parmi ceux préalablement installés sur votre serveur. Ils sont, généralement, au même endroit que votre forum SMF, dans le dossier des avatars.<br>Un conseil, si vous créez des répertoires dans ce dossier, vous pouvez faire des &quot;catégories&quot; d\'avatars.';
+$helptxt['avatar_server_stored'] = 'Ceci permet à vos membres de choisir leur avatar parmi ceux préalablement installés sur votre serveur. Ils sont, généralement, au même endroit que votre forum Wedge, dans le dossier des avatars.<br>Un conseil, si vous créez des répertoires dans ce dossier, vous pouvez faire des "catégories" d\'avatars.';
 $helptxt['avatar_external'] = 'Ceci permet à vos membres d\'insérer l\'adresse URL de leur propre avatar. L\'inconvénient est que, dans certains cas, ils pourraient utiliser des avatars beaucoup trop gros ou des images que vous ne voulez pas voir sur votre forum.';
 $helptxt['avatar_download_external'] = 'Ceci permet au forum de télécharger l\'avatar choisi par l\'utilisateur via l\'URL donnée par celui-ci. Si l\'opération réussit, l\'avatar sera traité comme un avatar transféré.';
-$helptxt['avatar_upload'] = 'Cette option est pratiquement la même chose que &quot;Permettre aux membres de sélectionner un avatar externe&quot;, sauf que vous avez un meilleur contrôle sur les avatars, plus de facilité pour les redimensionner, et vos membres n\'ont pas à avoir un endroit où mettre leurs avatars.<br><br>Mais l\'inconvénient est que cela peut prendre beaucoup d\'espace sur votre serveur.';
+$helptxt['avatar_upload'] = 'Cette option est pratiquement la même chose que "Permettre aux membres de sélectionner un avatar externe", sauf que vous avez un meilleur contrôle sur les avatars, plus de facilité pour les redimensionner, et vos membres n\'ont pas à avoir un endroit où mettre leurs avatars.<br><br>Mais l\'inconvénient est que cela peut prendre beaucoup d\'espace sur votre serveur.';
 $helptxt['avatar_download_png'] = 'Les images au format PNG sont plus lourdes, mais offrent un rendu de meilleure qualité. Si la case est décochée, le format JPEG sera utilisé à la place - ce qui donne des fichiers moins lourds, mais de moindre qualité, surtout les dessins, lesquels peuvent devenir assez flous.';
 $helptxt['gravatar_settings'] = 'Les Gravatars sont un type d\'avatar généré par <a href="http://www.gravatar.com/">Gravatar.com</a>. Il vous suffit de mettre en ligne votre avatar là-bas et vous pourrez l\'utiliser sur tous les sites compatibles à condition d\'y renseigner la même adresse e-mail - notamment de nombreux blogs WordPress.';
 $helptxt['gravatarEnabled'] = 'Les utilisateurs ne pourront utiliser des Gravatars que si cette option est activée.';
@@ -551,7 +550,7 @@ $helptxt['search'] = 'Ajustez ici tous les réglages de la fonction recherche.';
 $helptxt['search_why_use_index'] = 'Un index de recherche peut considérablement améliorer l\'exécution des recherches sur votre forum. En particulier lorsque le nombre de messages sur un forum est de plus en plus grand, la recherche sans index peut prendre un bon moment et augmenter la pression sur votre base de données. Si votre forum a plus de 50.000 messages, vous devriez penser à créer un index de recherche pour assurer un fonctionnement optimal de votre forum.<br><br>À noter qu\'un index de recherche peut prendre un certain espace... Un index à texte intégral est un index géré par MySQL. C\'est relativement compact (approximativement la même taille que la table message), mais beaucoup de mots ne sont pas indexés et il se peut que quelques recherches s\'avèrent très lentes. L\'index personnalisé est souvent plus grand (selon votre configuration, cela peut ètre plus de 3 fois la taille de la table des messages) mais la performance est meilleure qu\'en texte intégral et relativement stable.';
 
 $helptxt['see_member_ip'] = 'Votre adresse IP est affichée seulement à vous et à ceux auxquels l\'administrateur en a donné le droit. Rappelez-vous que cette information ne permet pas d\'identifier un individu précisément, la plupart des adresses changeant périodiquement.<br><br>Vous ne pouvez pas voir l\'adresse IP des autres, et les autres ne peuvent pas voir la vôtre.';
-$helptxt['whytwoip'] = 'SMF utilise plusieurs méthodes pour détecter les adresses IP d\'un utilisateur. Habituellement ces deux méthodes donnent la même adresse mais dans certains cas plus d\'une adresse peut être détectée. Dans ce cas SMF conserve les adresses, et les utilise par exemple lors des contrôles de bannissement. Vous pouvez cliquer sur chaque adresse pour traquer cette IP et la bannir si nécessaire.';
+$helptxt['whytwoip'] = 'Wedge utilise plusieurs méthodes pour détecter les adresses IP d\'un utilisateur. Habituellement ces deux méthodes donnent la même adresse mais dans certains cas plus d\'une adresse peut être détectée. Dans ce cas Wedge conserve les adresses, et les utilise par exemple lors des contrôles de bannissement. Vous pouvez cliquer sur chaque adresse pour traquer cette IP et la bannir si nécessaire.';
 
 $helptxt['ban_cannot_post'] = 'La restriction \'Ne peut pas poster\' a pour conséquence que le forum n\'est accessible qu\'en lecture seule pour l\'utilisateur banni. L\'utilisateur ne peut pas créer de nouveaux sujets ou répondre à ceux existants, envoyer des messages personnels ou voter dans les sondages. L\'utilisateur banni peut toutefois encore lire ses messages personnels et les sujets.<br><br>Un message d\'avertissement est affiché aux utilisateurs qui sont bannis avec cette restriction.';
 
@@ -571,8 +570,8 @@ $helptxt['posts_and_topics'] = '
 			Modifie les paramètres relatifs aux sujets&nbsp;: le nombre de sujets par page, l\'activation ou non des sujets épinglés, etc.
 		</li>
 	</ul>';
-$helptxt['spider_group'] = 'En sélectionnant un groupe restrictif, lorsqu\'un invité est identifié comme moteur de recherche, certaines permissions lui seront niées (autrement dit &quot;Interdites&quot;), par rapport aux permissions normales d\'un invité. Vous pouvez utiliser ceci pour donner moins d\'accès à un moteur de recherche par rapport à un invité normal. Vous pouvez par exemple vouloir créer un nouveau groupe appelé &quot;Robots&quot; et le sélectionner ici. Vous pourriez donc interdire à ce groupe la permission de voir les profils pour empêcher l\'indexation par les robots des profils de vos membres.<br>Note: La détection des robots n\'est pas parfaite et peut être simulée par les utilisateurs, donc cette fonctionnalité n\'est pas garantie pour restreindre le contenu aux seuls moteurs de recherche que vous avez ajoutés.';
-$helptxt['show_spider_online'] = 'Ce paramètre vous permet de choisir si les robots seront montrés ou pas sur la liste des utilisateurs en ligne et la page &quot;Qui est en ligne&quot;. Les options&nbsp;:
+$helptxt['spider_group'] = 'En sélectionnant un groupe restrictif, lorsqu\'un invité est identifié comme moteur de recherche, certaines permissions lui seront niées (autrement dit "Interdites"), par rapport aux permissions normales d\'un invité. Vous pouvez utiliser ceci pour donner moins d\'accès à un moteur de recherche par rapport à un invité normal. Vous pouvez par exemple vouloir créer un nouveau groupe appelé "Robots" et le sélectionner ici. Vous pourriez donc interdire à ce groupe la permission de voir les profils pour empêcher l\'indexation par les robots des profils de vos membres.<br>Note: La détection des robots n\'est pas parfaite et peut être simulée par les utilisateurs, donc cette fonctionnalité n\'est pas garantie pour restreindre le contenu aux seuls moteurs de recherche que vous avez ajoutés.';
+$helptxt['show_spider_online'] = 'Ce paramètre vous permet de choisir si les robots seront montrés ou pas sur la liste des utilisateurs en ligne et la page "Qui est en ligne". Les options&nbsp;:
 	<ul class="normallist">
 		<li>
 			<strong>Pas du tout</strong><br>
@@ -590,7 +589,7 @@ $helptxt['show_spider_online'] = 'Ce paramètre vous permet de choisir si les ro
 	</ul>';
 
 $helptxt['birthday_email'] = 'Choisissez le modèle du message d\'anniversaire par e-mail à utiliser. Une prévisualisation sera affichée dans le sujet de l\'e-mail et les champs du corps de l\'e-mail.<br><strong>Attention</strong>, régler cette option n\'active pas automatiquement les e-mails d\'anniversaire. Pour activer les e-mails d\'anniversaire, utilisez la page <a href="%1$s?action=admin;area=scheduledtasks;%3$s=%2$s" target="_blank" class="new_win">Tâches Planifiées</a> et activez la tâche E-mail d\'anniversaire.';
-$helptxt['pm_bcc'] = 'Lorsque vous envoyez un message personnel vous pouvez choisir d\'ajouter comme destinataire un BCC (soit &quot;Blind Carbon Copy&quot;). L\'existence et l\'identité des destinataires BCC seront cachées aux autres destinataires du message.';
+$helptxt['pm_bcc'] = 'Lorsque vous envoyez un message personnel vous pouvez choisir d\'ajouter comme destinataire un BCC (soit "Blind Carbon Copy"). L\'existence et l\'identité des destinataires BCC seront cachées aux autres destinataires du message.';
 
 $helptxt['move_topics_maintenance'] = 'Vous permet de déplacer tous les sujets d\'une section à une autre.';
 $helptxt['maintain_reattribute_posts'] = 'Vous pouvez utiliser cette fonction pour attribuer des messsages d\'invités de votre forum à un membre inscrit. Ceci est très utile par exemple si un utilisateur a effacé son compte, a changé d\'idée et veut récupérer les anciens messages associé à son compte.';
@@ -608,16 +607,16 @@ $helptxt['field_show_enclosed'] = 'Entoure le texte entré par l\'utilisateur pa
 			<li>{DEFAULT_IMAGES_URL} - URL du dossier images dans le thème par défaut.</li>
 		</ul>';
 
-$helptxt['custom_mask'] = 'Le masque d\'entrée est important pour la sécurité de votre forum. Valider le texte entré par un utilisateur peut vous permettre d\'éviter que ses données ne soient pas utilisées de manière inattendue. Vous pouvez utiliser des expressions régulières pour vous y aider.<br><br>
-	<div class="smalltext" style="margin: 0 2em">
-		&quot;[A-Za-z]+&quot; - Correspond à toutes les lettres de l\'alphabet, minuscules et majuscules.<br>
-		&quot;[0-9]+&quot; - Correspond à tous les chiffres.<br>
-		&quot;[A-Za-z0-9]{7}&quot; - Correspond à une suite de sept chiffres et/ou lettres de l\'alphabet, minuscules ou majuscules.<br>
-		&quot;[^0-9]?&quot; - Empêche la présence à cet endroit d\'un chiffre.<br>
-		&quot;^([A-Fa-f0-9]{3}|[A-Fa-f0-9]{6})$&quot; - N\'autoriser que 3 ou 6 caractères hexadécimaux.<br>
+$helptxt['custom_mask'] = 'Le masque d\'entrée est important pour la sécurité de votre forum. Valider le texte entré par un utilisateur peut vous permettre d\'éviter que ses données soient utilisées de manière inattendue. Vous pouvez utiliser des expressions régulières pour vous y aider.<br><br>
+	<div style="margin: 0 2em">
+		<span class="bbc_tt">[A-Za-z]+</span> - Correspond à toutes les lettres de l\'alphabet, minuscules et majuscules.<br>
+		<span class="bbc_tt">[0-9]+</span> - Correspond à tous les chiffres.<br>
+		<span class="bbc_tt">[A-Za-z0-9]{7}</span> - Correspond à une suite de sept chiffres et/ou lettres de l\'alphabet, minuscules ou majuscules.<br>
+		<span class="bbc_tt">[^0-9]*</span> - Empêche la présence à cet endroit d\'un chiffre.<br>
+		<span class="bbc_tt">^([A-Fa-f0-9]{3}|[A-Fa-f0-9]{6})$</span> - N\'autoriser que 3 ou 6 caractères hexadécimaux.<br>
 	</div><br><br>
-	De plus, vous pouvez utiliser les méta-caractères spéciaux ?+*^$ et {xx}.
-	<div class="smalltext" style="margin: 0 2em">
+	De plus, vous pouvez utiliser les méta-caractères spéciaux ? + * ^ $ \\ et {xx}.
+	<div style="margin: 0 2em">
 		? - Rien, ou une occurrence de l\'expression qui précède.<br>
 		+ - Au moins une occurrence de l\'expression qui précède.<br>
 		* - Rien, ou au moins une occurrence de l\'expression qui précède.<br>
@@ -650,7 +649,7 @@ $helptxt['mediatag'] = '<h2>Le tag [media] et autres joyeusetés.</h2>
 	<br>- type=<i>normal, box, link, preview, full, album</i>
 	<br>- align=<i>none, left, center, right</i>
 	<br>- width=<i>123</i> (en pixels)
-	<br>- caption=<i>&quot;Texte descriptif&quot;</i> ou caption=<i>EnUnMot</i>
+	<br>- caption=<i>"Texte descriptif"</i> ou caption=<i>EnUnMot</i>
 	<br><br>
 	<h2>Paramètres disponibles</h2>
 	<b>id</b>
@@ -687,7 +686,7 @@ $helptxt['mediatag'] = '<h2>Le tag [media] et autres joyeusetés.</h2>
 	<b>caption</b>
 	<ul class="normallist">
 		<li>Affiche un texte descriptif sous la vignette. Si le type est défini à <i>link</i>, le texte sera cliquable et vous mènera à la page consacrée à l\'élément.</li>
-		<li>Entrez ce que vous voulez. Si votre texte contient des espaces ou des crochets, assurez-vous de l\'entourer de &quot;guillemets&quot;. Sinon, ça fait tout n\'importe quoi, et c\'est encore Bibi qui doit s\'y coller pour faire le ménage.</li>
+		<li>Entrez ce que vous voulez. Si votre texte contient des espaces ou des crochets, assurez-vous de l\'entourer de "guillemets". Sinon, ça fait tout n\'importe quoi, et c\'est encore Bibi qui doit s\'y coller pour faire le ménage.</li>
 	</ul>';
 
 ?>
