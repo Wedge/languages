@@ -149,6 +149,7 @@ $txt['credits_and'] = 'et';
 $txt['credits_anyone'] = 'Et à tous ceux que nous avons oubliés&nbsp;: merci&nbsp;!';
 $txt['credits_copyright'] = 'Copyrights';
 $txt['credits_forum'] = 'Forum';
+$txt['credits_images'] = 'Images';
 $txt['credits_modifications'] = 'Spécialiste Extensions/Thèmes';
 $txt['credits_groups_ps'] = 'Fondateurs &amp; Directeurs';
 $txt['credits_groups_dev'] = 'Développeurs';

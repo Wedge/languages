@@ -160,7 +160,7 @@ $txt['post_by'] = 'Post by';
 $txt['memberlist_searchable'] = 'Searchable list of all registered members.';
 $txt['welcome_member'] = 'Please welcome';
 $txt['admin_center'] = 'Administration Center';
-$txt['last_edit'] = 'Last Edit';
+$txt['last_edit'] = 'Last edited';
 $txt['notify_deactivate'] = 'Would you like to deactivate notification on this topic?';
 
 $txt['recent_posts'] = 'Recent Posts';
