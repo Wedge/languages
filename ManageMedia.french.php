@@ -221,7 +221,6 @@ $txt['media_admin_reported_on'] = 'Signalé le';
 $txt['media_admin_del_report'] = 'Supprimer le rapport';
 $txt['media_admin_del_report_item'] = 'Supprimer l\'élément signalé';
 $txt['media_admin_report_reason'] = 'Raison du signalement';
-$txt['media_admin_banned'] = 'Banni';
 $txt['media_admin_banned_on'] = 'Banni le';
 $txt['media_admin_expires_on'] = 'Expire le';
 $txt['media_never'] = 'Jamais';
