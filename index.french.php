@@ -140,7 +140,7 @@ $txt['remove_message_confirm'] = 'Effacer ce message ?';
 
 $txt['online_users'] = 'Membres en ligne';
 $txt['personal_message'] = 'Message personnel';
-$txt['jump_to'] = 'Aller vers&nbsp;';
+$txt['jump_to'] = 'Accès rapide&nbsp;';
 $txt['go'] = 'OK';
 $txt['are_sure_remove_topic'] = 'Êtes-vous sûr de vouloir effacer ce sujet ?';
 $txt['yes'] = 'Oui';
@@ -186,7 +186,7 @@ $txt['hello_guest'] = 'Bienvenue,';
 $txt['welmsg_hey'] = 'Coucou,';
 $txt['welmsg_welcome'] = 'Bienvenue,';
 $txt['welmsg_please'] = 'S\'il vous plaît';
-$txt['select_destination'] = 'Merci de choisir une destination';
+$txt['select_destination'] = 'Destination ?';
 
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['posted_by'] = 'Posté par';
