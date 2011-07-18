@@ -682,7 +682,7 @@ $txt['pm_menu_drafts'] = 'Mes brouillons';
 
 $txt['hello_member_ndt'] = 'Bonjour, <span>%1$s</span>&nbsp;!';
 
-$txt['unapproved_posts'] = 'Messages non approuvés (Sujets: %1$d, Messages: %2$d)';
+$txt['unapproved_posts'] = 'Messages à approuver (Sujets: %1$d, Messages: %2$d)';
 
 $txt['ajax_in_progress'] = 'Chargement...';
 
@@ -705,8 +705,8 @@ $txt['modSettings_title'] = 'Fonctionnalités et Options';
 $txt['package'] = 'Extensions';
 $txt['errlog'] = 'Journal d\'Erreurs';
 $txt['edit_permissions'] = 'Permissions';
-$txt['mc_unapproved_attachments'] = 'Fichiers joints non approuvés';
-$txt['mc_unapproved_poststopics'] = 'Messages et Sujets non approuvés';
+$txt['mc_unapproved_attachments'] = 'Fichiers à approuver';
+$txt['mc_unapproved_poststopics'] = 'Messages à approuver';
 $txt['mc_reported_posts'] = 'Messages rapportés';
 $txt['modlog_view'] = 'Journal de Modération';
 $txt['calendar_menu'] = 'Voir le calendrier';
