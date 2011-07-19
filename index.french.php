@@ -89,11 +89,13 @@ $txt['warn_mute'] = 'Mis au silence';
 $txt['warn_ban'] = 'Banni';
 
 // The dropdown user menu
-$txt['usermenu_profile'] = 'Voir son profil';
-$txt['usermenu_website'] = 'Aller sur son site';
-$txt['usermenu_showposts'] = 'Voir ses messages';
+$txt['usermenu_profile'] = 'Profil';
+$txt['usermenu_website'] = 'Site web';
+$txt['usermenu_showposts'] = 'Messages';
 $txt['usermenu_addbuddy'] = 'Ajouter à mes amis';
 $txt['usermenu_removebuddy'] = 'Retirer de mes amis';
+
+$txt['more_actions'] = 'Plus&hellip;';
 
 $txt['message_index'] = 'Index des messages';
 $txt['news'] = 'À la une';

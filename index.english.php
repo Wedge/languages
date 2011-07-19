@@ -89,11 +89,13 @@ $txt['warn_mute'] = 'Muted';
 $txt['warn_ban'] = 'Banned';
 
 // The dropdown user menu
-$txt['usermenu_profile'] = 'View user profile';
+$txt['usermenu_profile'] = 'View profile';
 $txt['usermenu_website'] = 'Go to website';
-$txt['usermenu_showposts'] = 'Show user posts';
-$txt['usermenu_addbuddy'] = 'Add to Buddy List';
-$txt['usermenu_removebuddy'] = 'Remove from Buddy List';
+$txt['usermenu_showposts'] = 'Show posts';
+$txt['usermenu_addbuddy'] = 'Add to contacts';
+$txt['usermenu_removebuddy'] = 'Remove from contacts';
+
+$txt['more_actions'] = 'More&hellip;';
 
 $txt['message_index'] = 'Message Index';
 $txt['news'] = 'News';
@@ -772,7 +774,7 @@ $txt['b_type']['site'] = 'article';
 
 // Merge double posts. Yes. Really.
 $txt['search_date_posted'] = 'Posted:';
-$txt['merge_double'] = 'Merge';
+$txt['merge_double'] = 'Merge Posts';
 
 // Spoiler tags. But you're smart, so you don't need me telling.
 $txt['spoiler'] = 'Spoiler';
