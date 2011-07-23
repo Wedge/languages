@@ -18,7 +18,7 @@ $txt['mc_watched_topics'] = 'Sujets surveillés';
 $txt['mc_scratch_board'] = 'Section modérateur improvisée';
 $txt['mc_latest_news'] = 'Dernières nouvelles de Wedge';
 $txt['mc_recent_reports'] = 'Rapports de sujets récents';
-$txt['mc_warnings'] = 'Avertissements';
+$txt['mc_warnings'] = 'Sanctions';
 $txt['mc_notes'] = 'Notes de Modération';
 
 $txt['mc_cannot_connect_sm'] = 'Impossible de se connecter au fichier des dernières nouvelles de wedge.org.';
@@ -87,7 +87,7 @@ $txt['show_notice_text'] = 'Texte';
 $txt['mc_watched_users_title'] = 'Membres surveillés';
 $txt['mc_watched_users_desc'] = 'Ici vous pouvez garder une trace de tous les membres qui ont été assignés à &quot;surveillance&quot; par l\'équipe de modération.';
 $txt['mc_watched_users_post'] = 'Voir par Message';
-$txt['mc_watched_users_warning'] = 'Niveau d\'avertissement';
+$txt['mc_watched_users_warning'] = 'Niveau de sanction';
 $txt['mc_watched_users_last_login'] = 'Dernière connexion';
 $txt['mc_watched_users_last_post'] = 'Dernier message';
 $txt['mc_watched_users_no_posts'] = 'Il n\'y a aucun message de membres surveillés.';
@@ -95,16 +95,16 @@ $txt['mc_watched_users_delete_post'] = 'Êtes-vous sûr de vouloir effacer ce me
 $txt['mc_watched_users_posted'] = 'Posté';
 $txt['mc_watched_users_member'] = 'Voir par Membre';
 
-$txt['mc_warnings_description'] = 'Ici vous pouvez consulter les avertissements assignés aux membres du forum. Vous pouvez ajouter et modifier les modèles de notification utilisés pour envoyer un avertissement à un membre.';
+$txt['mc_warnings_description'] = 'Ici vous pouvez consulter les sanctions appliquées aux membres du forum. Vous pouvez ajouter et modifier les modèles des messages utilisés pour notifier leur sanction aux membres.';
 $txt['mc_warning_log'] = 'Journal';
 $txt['mc_warning_templates'] = 'Modèles Personnalisés';
-$txt['mc_warning_log_title'] = 'Consultation du journal d\'avertissements';
-$txt['mc_warning_templates_title'] = 'Modèles d\'Avertissement Personnalisés';
+$txt['mc_warning_log_title'] = 'Consultation du journal de sanctions';
+$txt['mc_warning_templates_title'] = 'Modèles de Sanction Personnalisés';
 
-$txt['mc_warnings_none'] = 'Aucun avertissement n\'a encore été donné!';
+$txt['mc_warnings_none'] = 'Aucune sanction n\'a encore été donnée&nbsp;!';
 $txt['mc_warnings_recipient'] = 'Destinataire';
 
-$txt['mc_warning_templates_none'] = 'Aucun modèle d\'avertissement n\'a encore été créé';
+$txt['mc_warning_templates_none'] = 'Aucun modèle de notification de sanction n\'a encore été créé';
 $txt['mc_warning_templates_time'] = 'Créé le';
 $txt['mc_warning_templates_name'] = 'Modèle';
 $txt['mc_warning_templates_creator'] = 'Créé par';
@@ -113,10 +113,10 @@ $txt['mc_warning_template_modify'] = 'Modifier le Modèle';
 $txt['mc_warning_template_delete'] = 'Effacer la Sélection';
 $txt['mc_warning_template_delete_confirm'] = 'Êtes-vous sûr de vouloir supprimer les modèles sélectionnés ?';
 
-$txt['mc_warning_template_desc'] = 'Utilisez cette page pour remplir les détails du modèle. Veuillez noter que le sujet de l\'e-mail ne fait pas partie du modèle. Notez également que comme la notification est envoyée par MP, vous pouvez utiliser la mention BBC dans le modèle. Enfin, si vous utilisez la variable {MESSAGE}, ce modèle ne sera pas disponible pour envoyer un avertissement générique (par exemple un avertissement non lié à un message).';
+$txt['mc_warning_template_desc'] = 'Utilisez cette page pour remplir les détails du modèle. Veuillez noter que le sujet de l\'e-mail ne fait pas partie du modèle. Notez également que comme la notification est envoyée par la messagerie personnelle et non par e-mail, vous pouvez utiliser les BBCodes et smileys dans le modèle. Enfin, si vous utilisez la variable {MESSAGE}, ce modèle ne sera pas disponible pour notifier une sanction générique (c\'est-à-dire non liée à un message).';
 $txt['mc_warning_template_title'] = 'Titre du Modèle';
-$txt['mc_warning_template_body_desc'] = 'Le contenu du message de notification. Vous pouvez utiliser les raccourcis suivants dans le modèle.<ul style="margin-top: 0px;"><li>{MEMBER} - Nom du membre.</li><li>{MESSAGE} - Lien vers le message incriminé. (S\'il existe)</li><li>{FORUMNAME} - Nom du forum.</li><li>{SITEURL} - Adresse web du forum.</li><li>{REGARDS} - Signature standard de l\'e-mail.</li></ul>';
-$txt['mc_warning_template_body_default'] = '{MEMBER},' . "\n\n" . 'Vous avez reçu un avertissement concernant des activités inappropriées. Merci de bien vouloir les cesser, et de respecter les règles du forum à l\'avenir, ou nous serons forcés de prendre des mesures à votre encontre.' . "\n\n" . '{REGARDS}';
+$txt['mc_warning_template_body_desc'] = 'Le contenu du message de notification. Vous pouvez utiliser les raccourcis suivants dans le modèle.<ul style="margin-top: 0px"><li>{MEMBER} - Nom du membre.</li><li>{MESSAGE} - Lien vers le message incriminé, s\'il existe.</li><li>{FORUMNAME} - Nom du forum.</li><li>{SITEURL} - Adresse web du forum.</li><li>{REGARDS} - Signature standard de l\'e-mail.</li></ul>';
+$txt['mc_warning_template_body_default'] = '{MEMBER},' . "\n\n" . 'Vous avez reçu une sanction liée à vos activités. Merci de bien vouloir désormais respecter les règles du forum, ou nous serons forcés de prendre des mesures à votre encontre.' . "\n\n" . '{REGARDS}';
 $txt['mc_warning_template_personal'] = 'Modèle Personnel';
 $txt['mc_warning_template_personal_desc'] = 'Si vous choisissez cette option, vous serez le seul à pouvoir consulter, modifier et utiliser ce modèle. Sinon, tous les modérateurs pourront l\'utiliser.';
 $txt['mc_warning_template_error_empty'] = 'Vous devez définir un titre et un contenu pour la notification.';

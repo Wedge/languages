@@ -43,7 +43,7 @@ $txt['whoall_recent'] = 'Consulte la <a href="' . $scripturl . '?action=recent">
 $txt['whoall_register'] = 'S\'inscrit sur le forum.';
 $txt['whoall_register2'] = 'S\'inscrit sur le forum.';
 $txt['whoall_reminder'] = 'Demande un rappel de mot de passe.';
-$txt['whoall_reporttm'] = 'Rapporte un sujet à un modérateur.';
+$txt['whoall_report'] = 'Signale un sujet à un modérateur.';
 $txt['whoall_spellcheck'] = 'Utilise le vérificateur d\'orthographe';
 $txt['whoall_unread'] = 'Consulte la liste des discussions non lues depuis sa dernière visite.';
 $txt['whoall_unreadreplies'] = 'Consulte la liste des réponses non lues depuis sa dernière visite.';
@@ -153,7 +153,7 @@ $txt['credits_images'] = 'Images';
 $txt['credits_modifications'] = 'Spécialiste Extensions/Thèmes';
 $txt['credits_groups_ps'] = 'Fondateurs &amp; Directeurs';
 $txt['credits_groups_dev'] = 'Développeurs';
-$txt['credits_groups_support'] = 'Spécialistes Support';
+$txt['credits_groups_support'] = 'Soutien Moral &amp; Technique';
 $txt['credits_groups_customize'] = 'Personnaliseurs';
 $txt['credits_groups_docs'] = 'Responsables de la Documentation';
 $txt['credits_groups_marketing'] = 'Marketing';
@@ -163,14 +163,14 @@ $txt['credits_groups_servers'] = 'Admins Réseau';
 $txt['credits_groups_translation'] = 'Traduction française';
 $txt['credits_groups_translators'] = 'Traducteurs';
 $txt['credits_translators_message'] = 'Merci pour vos efforts, ils ont permis d\'ouvrir les portes de Wedge au monde entier.';
-$txt['credits_groups_consultants'] = 'Consultants au Développement';
+$txt['credits_groups_consultants'] = 'Consultants Techniques';
 $txt['credits_groups_beta'] = 'Beta Testeurs';
 $txt['credits_beta_message'] = 'Les valeureux élus qui ont sans relâche ni pitié traqué les bugs, apporté leurs idées et fait basculer les développeurs dans la démence.';
 $txt['credits_groups_founder'] = 'Fondateur';
 
 // List of people who have made more than a token contribution to this translation. (Blank for English)
 $txt['translation_credits'] = array(
-	'<i>Nouvelle traduction</i>&nbsp;: <a style="text-decoration: underline" href="http://nao.noisen.com/">René-Gilles Deberdt</a>, encore lui. <i>Et pour l\'ancienne traduction</i>&nbsp;: Alexandre P., Sparcool et Lunatic.',
+	'<i>Traduction</i>&nbsp;: <a href="http://nao.noisen.com/">René-Gilles Deberdt</a> (on n\'est jamais si bien servi que par soi-même). <i>Et pour l\'ancienne traduction</i>&nbsp;: Alexandre P., Sparcool et Lunatic.',
 );
 
 ?>

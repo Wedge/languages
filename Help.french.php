@@ -174,24 +174,24 @@ $helptxt['modlog'] = '
 $helptxt['adminlog'] = '
 	Cette section permet aux membres de l\'équipe d\'administration de pister les actions effectuées par tout administrateur sur le forum. Afin que les administrateurs ne puissent enlever les références aux actions entreprises, les entrées ne pourront être supprimées que 24 heures après leur application.';
 $helptxt['warning_enable'] = '
-	Cette fonctionnalité permet aux membres des équipes d\'administration et de modération d\'envoyer des avertissements aux utilisateurs - et d\'utiliser un niveau d\'avertissement pour déterminer les actions possibles pour leur cas au niveau du forum. Après avoir activé cette fonctionnalité, un nouveau paramètre sera disponible dans les permissions par section pour définir quels groupes pourront assigner des avertissements aux utilisateurs. Les niveaux d\'avertissement pourront être ajustés à partir du profil des utilisateurs. Les options suivantes sont disponibles:
+	Cette fonctionnalité permet aux membres des équipes d\'administration et de modération de sanctionner les utilisateurs, et d\'utiliser un niveau de sanction pour déterminer les actions possibles pour leur cas au niveau du forum. Après avoir activé cette fonctionnalité, un nouveau paramètre sera disponible dans les permissions par section pour définir quels groupes pourront assigner des sanctions aux utilisateurs. Les niveaux de sanction pourront être ajustés à partir du profil des utilisateurs. Parmi les options disponibles&nbsp;:
 	<ul class="normallist">
 		<li>
-			<strong>Niveau d\'avertissement pour une mise en garde</strong><br>
-			Ce réglage définit le pourcentage de niveau d\'avertissement qu\'un utilisateur doit atteindre pour recevoir automatiquement une "mise en garde".
+			<strong>Niveau de sanction pour la mise sous surveillance</strong><br>
+			Ce réglage définit le pourcentage de niveau de sanction qu\'un utilisateur doit atteindre pour recevoir automatiquement une "mise en garde".
 			Tous les utilisateurs qui sont "mis en garde" apparaitront dans l\'endroit adéquat du centre de modération.
 		</li>
 		<li>
-			<strong>Niveau d\'avertissement pour une prémodération des messages</strong><br>
-			Si ce niveau d\'avertissement est atteint par un utilisateur, ces messages devront être validés par un modérateur pour apparaître sur le forum. Cela écrasera toutes les permissions par section qui pourront exister en relation avec la modération des messages.
+			<strong>Niveau de sanction pour la prémodération des messages</strong><br>
+			Si ce niveau de sanction est atteint par un utilisateur, ses messages devront être validés par un modérateur pour apparaître sur le forum. Cela outrepassera toutes les permissions par section qui peuvent exister en rapport avec la modération des messages.
 		</li>
 		<li>
-			<strong>Niveau d\'avertissement pour une suppression des droits d\'écriture</strong><br>
-			Si ce niveau d\'avertissement est atteint par un utilisateur, il lui sera impossible d\'envoyer des messages. L\'utilisateur perdra ainsi tous ses droits de postage.
+			<strong>Niveau de sanction pour réduire au silence l\'utilisateur</strong><br>
+			Si ce niveau de sanction est atteint par un utilisateur, il lui sera impossible d\'envoyer des messages. L\'utilisateur perdra ainsi tous ses droits de postage.
 		</li>
 		<li>
-			<strong>Points d\'avertissement maximum par jour</strong><br>
-			Ce réglage limite le nombre de points qu\'un modérateur peut ajouter/retirer à un utilisateur particulier sur une période de vingt quatre heures. Cela pourra être utile pour limiter ce que peut faire un modérateur sur une petite période de temps. Ce réglage peut être désactivé en mettant cette valeur à zéro. Notez que tout utilisateur avec des permissions d\'administration n\'est pas affecté par cette valeur.
+			<strong>Points de sanction maximum par jour</strong><br>
+			Ce réglage limite le nombre de points qu\'un modérateur peut ajouter ou retirer à un utilisateur particulier sur une période de 24 heures. Cela peut être utile pour limiter ce qu\'un modérateur un peu échaudé peut faire sur une courte période de temps. Ce réglage peut être désactivé en mettant la valeur à zéro. Notez que les utilisateurs avec des permissions d\'administration ne sont pas affectés par cette limite.
 		</li>
 	</ul>';
 $helptxt['error_log'] = '
@@ -552,7 +552,7 @@ $helptxt['search_why_use_index'] = 'Un index de recherche peut considérablement
 $helptxt['see_member_ip'] = 'Votre adresse IP est affichée seulement à vous et à ceux auxquels l\'administrateur en a donné le droit. Rappelez-vous que cette information ne permet pas d\'identifier un individu précisément, la plupart des adresses changeant périodiquement.<br><br>Vous ne pouvez pas voir l\'adresse IP des autres, et les autres ne peuvent pas voir la vôtre.';
 $helptxt['whytwoip'] = 'Wedge utilise plusieurs méthodes pour détecter les adresses IP d\'un utilisateur. Habituellement ces deux méthodes donnent la même adresse mais dans certains cas plus d\'une adresse peut être détectée. Dans ce cas Wedge conserve les adresses, et les utilise par exemple lors des contrôles de bannissement. Vous pouvez cliquer sur chaque adresse pour traquer cette IP et la bannir si nécessaire.';
 
-$helptxt['ban_cannot_post'] = 'La restriction \'Ne peut pas poster\' a pour conséquence que le forum n\'est accessible qu\'en lecture seule pour l\'utilisateur banni. L\'utilisateur ne peut pas créer de nouveaux sujets ou répondre à ceux existants, envoyer des messages personnels ou voter dans les sondages. L\'utilisateur banni peut toutefois encore lire ses messages personnels et les sujets.<br><br>Un message d\'avertissement est affiché aux utilisateurs qui sont bannis avec cette restriction.';
+$helptxt['ban_cannot_post'] = 'La restriction \'Ne peut pas poster\' a pour conséquence que le forum n\'est accessible qu\'en lecture seule pour l\'utilisateur banni. L\'utilisateur ne peut pas créer de nouveaux sujets ou répondre à ceux existants, envoyer des messages personnels ou voter dans les sondages. L\'utilisateur banni peut toutefois encore lire ses messages personnels et les sujets.<br><br>Un message explicatif est affiché aux utilisateurs qui sont bannis avec cette restriction.';
 
 $helptxt['posts_and_topics'] = '
 	<ul>

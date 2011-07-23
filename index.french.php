@@ -79,7 +79,7 @@ $txt['total'] = 'Total';
 $txt['posts_made'] = 'Messages';
 $txt['website'] = 'Site Web';
 $txt['register'] = 'Inscrivez-vous';
-$txt['warning_status'] = 'État d\'avertissement';
+$txt['warning_status'] = 'Niveau de sanction';
 $txt['user_warn_watch'] = 'L\'utilisateur est sur la liste de surveillance des modérateurs';
 $txt['user_warn_moderate'] = 'Les messages de l\'utilisateur doivent être approuvés avant publication';
 $txt['user_warn_mute'] = 'Suite à un bannissement, l\'utilisateur ne peut plus poster';
@@ -554,8 +554,9 @@ $txt['notification_disable_board'] = 'Êtes-vous sûr de vouloir désactiver la 
 $txt['notification_enable_topic'] = 'Êtes-vous sûr de vouloir activer la notification des nouvelles réponses pour ce sujet ?';
 $txt['notification_disable_topic'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouvelles réponses pour ce sujet ?';
 
-$txt['report_to_mod'] = 'Signaler ce message aux modérateurs';
-$txt['issue_warning_post'] = 'Donner un avertissement à propos de ce message';
+$txt['report'] = 'Avertir';
+$txt['report_to_mod'] = 'Avertir un modérateur à propos de ce message';
+$txt['issue_warning_post'] = 'Sanctionner l\'auteur de ce message';
 
 $txt['unread_topics_all'] = 'Tous les sujets non lus';
 $txt['unread_replies'] = 'Sujets mis à jour';

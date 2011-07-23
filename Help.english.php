@@ -179,7 +179,7 @@ $helptxt['adminlog'] = '
 $helptxt['warning_enable'] = '
 	This feature enables members of the admin and moderation team to issue warnings to members - and to use a members warning level to determine the
 	actions available to them on the forum. Upon enabling this feature a permission will be available within the permissions section to define
-	which groups may assign warnings to members. Warning levels can be adjusted from a members profile. The following additional options are available:
+	which groups may assign warnings to members. Warning levels can be adjusted from a members profile. Here are some of the options available:
 	<ul class="normallist">
 		<li>
 			<strong>Warning Level for Member Watch</strong><br>
@@ -197,9 +197,9 @@ $helptxt['warning_enable'] = '
 		</li>
 		<li>
 			<strong>Maximum Member Warning Point per Day</strong><br>
-			This setting limits the amount of points a moderator may add/remove to any particular member in a twenty four hour period. This will
-			can be used to limit what a moderator can do in a small period of time. This setting can be disabled by setting to a value of zero. Note that
-			any member with administrator permissions are not affected by this value.
+			This setting limits the amount of points a moderator may add/remove to any particular member in a 24-hour period. This will
+			can be used to limit what a moderator can do in a small period of time. This setting can be disabled by setting to a value of zero.
+			Note that any member with administrator permissions are not affected by this value.
 		</li>
 	</ul>';
 $helptxt['error_log'] = '

@@ -124,7 +124,7 @@ $txt['cannot_delete_any'] = 'Effacer n\'importe quel message sur ce forum n\'est
 $txt['cannot_report_any'] = 'Vous n\'êtes pas autorisé à rapporter des messages de cette section.';
 $txt['cannot_search_posts'] = 'Vous n\'êtes pas autorisé à rechercher des messages dans cette section.';
 $txt['cannot_send_mail'] = 'Vous n\'avez pas le privilège d\'envoyer des e-mails à quiconque.';
-$txt['cannot_issue_warning'] = 'Désolé, vous n\'avez pas la permission de donner des avertissements aux utilisateurs.';
+$txt['cannot_issue_warning'] = 'Désolé, vous n\'avez pas la permission de sanctionner les utilisateurs.';
 $txt['cannot_send_topic'] = 'Désolé, mais l\'administrateur a interdit l\'envoi de sujets de cette section.';
 $txt['cannot_split_any'] = 'Séparer un sujet n\'est pas autorisé dans cette section.';
 $txt['cannot_view_attachments'] = 'Il semble que vous n\'êtes pas autorisé à télécharger ou voir les fichiers joints de cette section.';
@@ -198,7 +198,7 @@ $txt['postWaitTime_broken'] = 'Le dernier message posté depuis votre adresse IP
 $txt['registerWaitTime_broken'] = 'Vous vous êtes déjà inscrit il y a %1$d secondes&nbsp;!';
 $txt['loginWaitTime_broken'] = 'Vous devez attendre environ %1$d secondes avant de vous reconnecter, désolé.';
 $txt['pmWaitTime_broken'] = 'Le dernier message principal posté depuis votre adresse IP date d\'il y a moins de %1$d secondes. Veuillez réessayer plus tard.';
-$txt['reporttmWaitTime_broken'] = 'Le dernier sujet rapporté depuis votre adresse IP date d\'il y a moins de %1$d secondes. Veuillez réessayer plus tard.';
+$txt['reportWaitTime_broken'] = 'Le dernier sujet rapporté depuis votre adresse IP date d\'il y a moins de %1$d secondes. Veuillez réessayer plus tard.';
 $txt['sendtopcWaitTime_broken'] = 'Le dernier sujet envoyé depuis votre adresse IP date d\'il y a moins de %1$d secondes. Veuillez réessayer plus tard.';
 $txt['sendmailWaitTime_broken'] = 'Le dernier e-mail envoyé depuis votre adresse IP date d\'il y a moins de %1$d secondes. Veuillez réessayer plus tard.';
 $txt['searchWaitTime_broken'] = 'Votre dernière recherche date d\'il y a moins de %1$d secondes. Veuillez réessayer plus tard.';
@@ -364,7 +364,7 @@ $txt['resend_email_success'] = 'L\'e-mail d\'activation a été renvoyé avec su
 $txt['custom_option_need_name'] = 'L\'option du profil doit avoir un nom&nbsp;!';
 $txt['custom_option_not_unique'] = 'Le nom du champ n\'est pas unique&nbsp;!';
 
-$txt['warning_no_reason'] = 'Vous devez entrer une raison pour modifier l\'état d\'avertissement d\'un membre.';
+$txt['warning_no_reason'] = 'Vous devez entrer une raison pour sanctionner un membre';
 $txt['warning_notify_blank'] = 'Vous avez choisi de notifier l\'utilisateur, mais vous n\'avez pas rempli les champs de titre/message.';
 
 $txt['cannot_connect_doc_site'] = 'Impossible de se connecter au manuel en ligne de Simple Machines. Veuillez vous assurer que votre configuration serveur permet les connexions Internet externes et réessayez plus tard.';

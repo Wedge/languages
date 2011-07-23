@@ -14,7 +14,7 @@ $txt['modlog_total_entries'] = 'Total des actions';
 $txt['modlog_ac_approve_topic'] = 'Sujet &quot;{topic}&quot; approuvé par &quot;{member}&quot;';
 $txt['modlog_ac_approve'] = 'Message &quot;{subject}&quot; approuvé dans &quot;{topic}&quot; par &quot;{member}&quot;';
 $txt['modlog_ac_lock'] = '&quot;{topic}&quot; verrouillé';
-$txt['modlog_ac_warning'] = '{member} averti concernant &quot;{message}&quot;';
+$txt['modlog_ac_warning'] = '{member} sanctionné à propos de &quot;{message}&quot;';
 $txt['modlog_ac_unlock'] = '&quot;{topic}&quot; débloqué';
 $txt['modlog_ac_sticky'] = '&quot;{topic}&quot; épinglé';
 $txt['modlog_ac_unsticky'] = '&quot;{topic}&quot; désépinglé';
@@ -40,9 +40,9 @@ $txt['modlog_search'] = 'Recherche Rapide';
 $txt['modlog_by'] = 'Par';
 $txt['modlog_id'] = '<em>Supprimé - (ID:%1$d)</em>';
 
-$txt['modlog_ac_add_warn_template'] = 'Ajouté un modèle d\'avertissement&nbsp;: &quot;{template}&quot;';
-$txt['modlog_ac_modify_warn_template'] = 'Modifié le modèle d\'avertissement &quot;{template}&quot;';
-$txt['modlog_ac_delete_warn_template'] = 'Supprimé le modèle d\'avertissement &quot;{template}&quot;';
+$txt['modlog_ac_add_warn_template'] = 'Ajouté un modèle de lettre de sanction&nbsp;: &quot;{template}&quot;';
+$txt['modlog_ac_modify_warn_template'] = 'Modifié le modèle de lettre de sanction &quot;{template}&quot;';
+$txt['modlog_ac_delete_warn_template'] = 'Supprimé le modèle de lettre de sanction &quot;{template}&quot;';
 
 $txt['modlog_ac_ban'] = 'Critères de bannissement ajoutés&nbsp;:';
 $txt['modlog_ac_ban_trigger_member'] = ' <em>Membre</em>&nbsp;: {member}';
