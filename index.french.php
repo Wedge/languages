@@ -17,7 +17,7 @@ $txt['lang_rtl'] = false;
 // Capitalize day and month names?
 $txt['lang_capitalize_dates'] = false;
 // Number formats?
-$txt['number_format'] = '1 234.00';
+$txt['number_format'] = '1 234,00';
 
 $txt['days'] = array('Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi');
 $txt['days_short'] = array('Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam');
@@ -42,6 +42,9 @@ $txt['forum_index'] = '%1$s - Accueil';
 $txt['members'] = 'Membres';
 $txt['board_name'] = 'Nom de la section';
 $txt['posts'] = 'Messages';
+$txt['posts_0'] = 'Pas de messages';
+$txt['posts_1'] = '%s message';
+$txt['posts_n'] = '%s messages';
 
 $txt['member_postcount'] = 'Messages';
 $txt['no_subject'] = '(Pas de titre)';
@@ -70,6 +73,9 @@ $txt['email'] = 'E-mail';
 $txt['subject'] = 'Titre';
 $txt['message'] = 'Message';
 $txt['redirects'] = 'Redirections';
+$txt['redirects_0'] = 'Pas de redirections';
+$txt['redirects_1'] = '%s redirection';
+$txt['redirects_n'] = '%s redirections';
 $txt['quick_modify'] = 'Modification rapide';
 
 $txt['choose_pass'] = 'Choisir un mot de passe';
@@ -255,7 +261,9 @@ $txt['from'] = 'De';
 $txt['check_new_messages'] = 'Vérifier les nouveaux messages';
 $txt['to'] = 'à';
 
-$txt['board_topics'] = 'Sujets';
+$txt['board_topics_0'] = 'Pas de sujets';
+$txt['board_topics_1'] = '%s sujet';
+$txt['board_topics_n'] = '%s sujets';
 $txt['members_title'] = 'Membres';
 $txt['members_list'] = 'Liste des membres';
 $txt['new_posts'] = 'Nouveaux messages';
