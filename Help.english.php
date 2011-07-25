@@ -107,11 +107,6 @@ $helptxt['securitysettings'] = '
 $helptxt['modsettings'] = '
 	This section should contain any settings added by add-ons installed on your forum.';
 
-$helptxt['number_format'] = '
-	You can use this setting to format the way in which numbers on your forum will be displayed to the user. The format of this setting is:<br>
-	<div style="margin-left: 2ex;">1,234.00</div><br>
-	Where \',\' is the character used to split up groups of thousands, \'.\' is the character used as the decimal point and the number of zeros dictate the accuracy of rounding.';
-
 $helptxt['time_format'] = '
 	You have the power to adjust how the time and date look for yourself. There are a lot of weird little letters, but it\'s quite simple.
 	The conventions follow PHP\'s <span class="bbc_tt">strftime</span> function and are described as below (more details at <a href="http://www.php.net/manual/function.strftime.php" target="_blank" class="new_win">php.net</a>).<br>

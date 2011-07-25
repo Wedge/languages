@@ -106,11 +106,6 @@ $helptxt['securitysettings'] = '
 $helptxt['modsettings'] = '
 	Plusieurs options peuvent être modifiées ici selon vos préférences. Les options pour les extensions installées vont généralement apparaître ici.';
 
-$helptxt['number_format'] = '
-	Vous pouvez utiliser cette fonction afin de spécifier l\'allure qu\'auront les nombres insérés dans votre forum. Le format de cette fonction se constitue de cette façon&nbsp;:<br>
-	<div style="margin-left: 2ex;">1,234.00</div><br>
-	Où \',\' est le caractère utilisé pour séparer les milliers des centaines, \'.\' est celui utilisé pour séparer les unités des décimales et le nombre de zéros dicte à quelle décimale les nombres doivent être arrondis.';
-
 $helptxt['time_format'] = '
 	Vous avez la possibilité d\'ajuster la manière dont le temps et les dates seront affichés sur votre forum. Ce ne sont pas des hiéroglyphes, c\'est relativement simple. La structure est la même que pour la fonction <span class="bbc_tt">strftime</span> de PHP, et elle est décrite ci-dessous (plus de détails peuvent être trouvés sur <a href="http://www.php.net/manual/fr/function.strftime.php" target="_blank">php.net</a>).<br>
 	<br>

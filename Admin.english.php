@@ -208,18 +208,6 @@ $txt['maintain_no_errors'] = 'Congratulations, no errors found! Thanks for check
 $txt['maintain_tasks'] = 'Scheduled Tasks';
 $txt['maintain_tasks_desc'] = 'Manage all the tasks scheduled by Wedge.';
 
-$txt['ban_log'] = 'Ban Log';
-$txt['ban_log_description'] = 'The ban log shows all attempts to enter the forum by banned users (\'full ban\' and \'cannot register\' ban only).';
-$txt['ban_log_no_entries'] = 'There are currently no ban log entries.';
-$txt['ban_log_ip'] = 'IP';
-$txt['ban_log_email'] = 'Email address';
-$txt['ban_log_member'] = 'Member';
-$txt['ban_log_date'] = 'Date';
-$txt['ban_log_remove_all'] = 'Remove all';
-$txt['ban_log_remove_all_confirm'] = 'Are you sure you want to delete all ban log entries?';
-$txt['ban_log_remove_selected'] = 'Remove selected';
-$txt['ban_log_remove_selected_confirm'] = 'Are you sure you want to delete all selected ban log entries?';
-
 $txt['scheduled_log'] = 'Task Log';
 $txt['scheduled_log_desc'] = 'Lists logs of the tasks that have be ran.';
 $txt['admin_log'] = 'Administration Log';

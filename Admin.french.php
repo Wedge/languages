@@ -208,18 +208,6 @@ $txt['maintain_no_errors'] = 'Félicitations, aucune erreur n\'a été trouvée&
 $txt['maintain_tasks'] = 'Tâches planifiées';
 $txt['maintain_tasks_desc'] = 'Organiser les tâches planifiées par Wedge.';
 
-$txt['ban_log'] = 'Journal de Bannissements';
-$txt['ban_log_description'] = 'Ce journal liste toutes les tentatives d\'accès au forum par les utilisateurs bannis (\'ban. complet\' et \'inscr. interdite\' seulement).';
-$txt['ban_log_no_entries'] = 'Aucune entrée pour le moment dans le journal de bannissements.';
-$txt['ban_log_ip'] = 'IP';
-$txt['ban_log_email'] = 'Adresse e-mail';
-$txt['ban_log_member'] = 'Membre';
-$txt['ban_log_date'] = 'Date';
-$txt['ban_log_remove_all'] = 'Supprimer tout';
-$txt['ban_log_remove_all_confirm'] = 'Voulez-vous vraiment supprimer toutes les entrées ?';
-$txt['ban_log_remove_selected'] = 'Supprimer la sélection';
-$txt['ban_log_remove_selected_confirm'] = 'Voulez-vous vraiment supprimer les entrées sélectionnées ?';
-
 $txt['scheduled_log'] = 'Journal des Tâches';
 $txt['scheduled_log_desc'] = 'Liste les tâches exécutées.';
 $txt['admin_log'] = 'Journal d\'Administration';
