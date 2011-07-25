@@ -90,12 +90,33 @@ $txt['warn_moderate'] = 'Modéré';
 $txt['warn_mute'] = 'Mis au silence';
 $txt['warn_ban'] = 'Banni';
 
-// The dropdown user menu
+// User menu strings
 $txt['usermenu_profile'] = 'Profil';
+$txt['usermenu_profile_desc'] = 'Voir son Profil';
 $txt['usermenu_website'] = 'Site web';
+$txt['usermenu_website_desc'] = 'Visiter son Site web';
+$txt['usermenu_sendpm'] = 'Contacter';
+$txt['usermenu_sendpm_desc'] = 'Envoyer un message personnel';
 $txt['usermenu_showposts'] = 'Messages';
-$txt['usermenu_addbuddy'] = 'Ajouter à mes amis';
-$txt['usermenu_removebuddy'] = 'Retirer de mes amis';
+$txt['usermenu_showposts_desc'] = 'Voir ses dernières Contributions';
+$txt['usermenu_addbuddy'] = '+ Contacts';
+$txt['usermenu_addbuddy_desc'] = 'Ajouter à mes contacts';
+$txt['usermenu_removebuddy'] = '- Contacts';
+$txt['usermenu_removebuddy_desc'] = 'Retirer de mes contacts';
+
+// Action menu strings (per post)
+$txt['acme_report'] = 'Avertir';
+$txt['acme_report_desc'] = 'Avertir un modérateur à propos de ce message';
+$txt['acme_restore'] = 'Restaurer';
+$txt['acme_restore_desc'] = 'Restaurer Message';
+$txt['acme_merge'] = 'Fusionner';
+$txt['acme_merge_desc'] = 'Fusionner ce doublon avec le précédent message';
+$txt['acme_split'] = 'Séparer';
+$txt['acme_split_desc'] = 'Séparer le sujet en deux';
+$txt['acme_remove'] = 'Effacer';
+$txt['acme_remove_desc'] = 'Effacer ce message définitivement';
+$txt['acme_approve'] = 'Approuver';
+$txt['acme_approve_desc'] = 'Autoriser la lecture de ce message';
 
 $txt['more_actions'] = 'Plus&hellip;';
 
@@ -119,7 +140,7 @@ $txt['notify'] = 'Notifier';
 $txt['unnotify'] = 'Se désinscrire';
 $txt['notify_request'] = 'Voulez-vous recevoir un e-mail de notification si quelqu\'un répond à ce sujet ?';
 // Use numeric entities in the below string.
-$txt['regards_team'] = "Cordialement,\nL'&#233;quipe ". $context['forum_name'];
+$txt['regards_team'] = 'Cordialement,' . "\n" . 'L\'&#233;quipe ' . $context['forum_name'];
 $txt['notify_replies'] = 'Notification de réponse';
 $txt['move_topic'] = 'Déplacer';
 $txt['move_to'] = 'Déplacer vers';
@@ -556,7 +577,6 @@ $txt['notification_disable_board'] = 'Êtes-vous sûr de vouloir désactiver la 
 $txt['notification_enable_topic'] = 'Êtes-vous sûr de vouloir activer la notification des nouvelles réponses pour ce sujet ?';
 $txt['notification_disable_topic'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouvelles réponses pour ce sujet ?';
 
-$txt['report'] = 'Avertir';
 $txt['report_to_mod'] = 'Avertir un modérateur à propos de ce message';
 $txt['issue_warning_post'] = 'Sanctionner l\'auteur de ce message';
 
@@ -734,7 +754,6 @@ $txt['footnote'] = 'Note de bas de page';
 
 // Restore topic
 $txt['restore_topic'] = 'Restaurer ce sujet';
-$txt['restore_message'] = 'Restaurer';
 $txt['quick_mod_restore'] = 'Restaurer les messages sélectionnés';
 
 // Editor prompt.
@@ -770,14 +789,13 @@ $txt['ignoring_topic'] = 'Vous ignorez actuellement ce sujet.';
 $txt['ignore_topic'] = 'Ignorer';
 $txt['unignore_topic'] = 'Ne plus ignorer';
 
-// Site type.
+// Site type. (Not used for now.)
 $txt['b_type']['blog'] = 'billet';
 $txt['b_type']['forum'] = 'sujet';
 $txt['b_type']['site'] = 'article';
 
-// Merge double posts. Yes. Really.
+// Indicates the date of the first post when merging two posts.
 $txt['search_date_posted'] = 'Posté&nbsp;:';
-$txt['merge_double'] = 'Doublon';
 
 // Spoiler tags. But you're smart, so you don't need me telling.
 $txt['spoiler'] = 'Spoiler';
