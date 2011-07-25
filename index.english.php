@@ -42,6 +42,9 @@ $txt['forum_index'] = '%1$s - Index';
 $txt['members'] = 'Members';
 $txt['board_name'] = 'Board name';
 $txt['posts'] = 'Posts';
+$txt['posts_0'] = 'No posts';
+$txt['posts_1'] = '%s Post';
+$txt['posts_n'] = '%s Posts';
 
 $txt['member_postcount'] = 'Posts';
 $txt['no_subject'] = '(No subject)';
@@ -70,6 +73,9 @@ $txt['email'] = 'Email';
 $txt['subject'] = 'Subject';
 $txt['message'] = 'Message';
 $txt['redirects'] = 'Redirects';
+$txt['redirects_0'] = 'No redirections';
+$txt['redirects_1'] = '%s Redirection';
+$txt['redirects_n'] = '%s Redirections';
 $txt['quick_modify'] = 'Modify Inline';
 
 $txt['choose_pass'] = 'Choose password';
@@ -255,7 +261,9 @@ $txt['from'] = 'From';
 $txt['check_new_messages'] = 'Check for new messages';
 $txt['to'] = 'To';
 
-$txt['board_topics'] = 'Topics';
+$txt['board_topics_0'] = 'No topics';
+$txt['board_topics_1'] = '%s Topic';
+$txt['board_topics_n'] = '%s Topics';
 $txt['members_title'] = 'Members';
 $txt['members_list'] = 'Members List';
 $txt['new_posts'] = 'New Posts';
