@@ -318,11 +318,11 @@ $txt['lang_entries_not_writable'] = '<strong>Attention</strong>&nbsp;: le fichie
 $txt['languages_ltr'] = 'De droite à gauche';
 
 $txt['add_language'] = 'Ajouter une Langue';
-$txt['add_language_smf'] = 'Télécharger à partir de Simple Machines';
+$txt['add_language_smf'] = 'Télécharger à partir de Wedge';
 $txt['add_language_smf_browse'] = 'Nom de la langue à rechercher, ou laisser vide pour rechercher tout.';
 $txt['add_language_smf_install'] = 'Installer';
 $txt['add_language_smf_found'] = 'Les langues suivantes ont été trouvées. Cliquez sur le lien d\'installation à côté de la langue que vous souhaitez installer, vous serez redirigé vers le gestionnaire d\'extensions pour l\'installer.';
-$txt['add_language_error_no_response'] = 'Le site de Simple Machines ne répond pas. Veuillez réessayer plus tard.';
+$txt['add_language_error_no_response'] = 'Le site web de Wedge ne répond pas. Veuillez réessayer plus tard.';
 $txt['add_language_error_no_files'] = 'Aucun fichier n\'a été trouvé.';
 $txt['add_language_smf_desc'] = 'Description';
 $txt['add_language_smf_utf8'] = 'UTF-8';
@@ -360,7 +360,7 @@ $txt['languages_download_exists_same'] = 'Identique';
 $txt['languages_download_exists_different'] = 'Différent';
 $txt['languages_download_copy'] = 'Copier';
 $txt['languages_download_not_chmod'] = 'Vous ne pouvez pas effectuer l\'installation tant que tous les fichiers à copier sélectionnés ne sont pas inscriptibles.';
-$txt['languages_download_illegal_paths'] = 'L\'extension contient des chemins illégaux - veuillez contacter Simple Machines';
+$txt['languages_download_illegal_paths'] = 'L\'extension contient des chemins illégaux - veuillez contacter Wedge';
 $txt['languages_download_complete'] = 'Installation terminée';
 $txt['languages_download_complete_desc'] = 'Le pack de Langue a été installé avec succès. Veuillez cliquer <a href="%1$s">ici</a> pour retourner à la page de gestion des langues';
 $txt['languages_delete_confirm'] = 'Êtes-vous sûr de vouloir supprimer cette langue ?';

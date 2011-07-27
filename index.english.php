@@ -617,8 +617,8 @@ $txt['guests'] = 'Guests';
 $txt['user'] = 'User';
 $txt['users'] = 'Users';
 $txt['hidden'] = 'Hidden';
-$txt['buddy'] = 'Buddy';
-$txt['buddies'] = 'Buddies';
+$txt['buddy'] = 'Contact';
+$txt['buddies'] = 'Contacts';
 $txt['most_online_ever'] = 'Most Online Ever';
 $txt['most_online_today'] = 'Most Online Today';
 
@@ -670,8 +670,8 @@ $txt['find_no_results'] = 'No results found';
 $txt['find_results'] = 'Results';
 $txt['find_close'] = 'Close';
 
-$txt['show_unread'] = 'Show unread posts';
-$txt['show_unread_replies'] = 'New replies to my posts';
+$txt['show_unread'] = 'Unread posts';
+$txt['show_unread_replies'] = 'Unread replies';
 
 $txt['change_color'] = 'Change Color';
 

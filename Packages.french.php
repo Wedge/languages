@@ -143,7 +143,7 @@ $txt['package_ftp_path'] = 'Chemin local vers Wedge';
 $txt['package_ftp_test'] = 'Test';
 $txt['package_ftp_test_connection'] = 'Test de Connexion';
 $txt['package_ftp_test_success'] = 'Connexion FTP établie.';
-$txt['package_ftp_test_failed'] = 'Impossible de contacter le serveur.';
+$txt['package_ftp_test_failed'] = 'La connexion au serveur FTP a échoué.';
 
 // For a break, use \\n instead of <br>... and don't use entities.
 $txt['package_delete_bad'] = 'L\'extension que vous tentez de supprimer est actuellement installée ! Si vous la supprimez maintenant, vous pourriez ne plus être capable de la désinstaller plus tard.\\n\\nVoulez-vous continuer ?';
