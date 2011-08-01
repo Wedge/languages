@@ -229,7 +229,7 @@ $txt['log_spider'] = 'Robots';
 $txt['log_pruning'] = 'Délestage';
 $txt['log_pruning_desc'] = 'Utilisez ces scripts pour supprimer les entrées les plus anciennes sur les divers journaux.';
 
-$txt['mailqueue_title'] = 'E-mail';
+$txt['mailqueue_title'] = 'Paramètres E-mail';
 
 $txt['db_error_send'] = 'Envoyer un e-mail lors d\'une erreur de connexion à la base de données';
 $txt['db_persist'] = 'Utiliser une connexion permanente';

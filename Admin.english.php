@@ -229,7 +229,7 @@ $txt['log_spider'] = 'Spider Log';
 $txt['log_pruning'] = 'Log Pruning';
 $txt['log_pruning_desc'] = 'Use these tools to prune older entries in the various logs.';
 
-$txt['mailqueue_title'] = 'Mail';
+$txt['mailqueue_title'] = 'Email Settings';
 
 $txt['db_error_send'] = 'Send emails on database connection error';
 $txt['db_persist'] = 'Use a persistent connection';
