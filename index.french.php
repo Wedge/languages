@@ -719,7 +719,8 @@ $txt['unapproved_posts'] = 'Messages à approuver (Sujets: %1$d, Messages: %2$d)
 
 $txt['ajax_in_progress'] = 'Chargement...';
 
-$txt['mod_reports_waiting'] = 'Il y a actuellement %1$d rapport(s) de modérateur ouvert(s).';
+$txt['mod_reports_waiting_1'] = 'Il y a actuellement un rapport de modération ouvert.';
+$txt['mod_reports_waiting_n'] = 'Il y a actuellement %1$d rapports de modération ouverts.';
 
 $txt['view_unread_category'] = 'Messages non lus';
 $txt['verification'] = 'Vérification';
