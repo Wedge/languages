@@ -59,7 +59,6 @@ $txt['admin_check_user'] = 'Vérifier les identifiants.';
 $txt['admin_check_display'] = 'Vérifier les pseudonymes.';
 $txt['admin_newsletter_send'] = 'Vous pouvez envoyer un e-mail à n\'importe qui à partir de cette page. Les adresses e-mail des groupes de membres sélectionnés devraient apparaîre ci-dessous, mais vous pouvez enlever ou ajouter n\'importe quelle adresse de votre choix. Veillez à vérifiez de séparer chaque adresse selon ce format&nbsp;: \'adresse1@qqch.com; adresse2@qqch.com\'.';
 $txt['admin_fader_delay'] = 'Délai d\'enchaînement entre les nouvelles rotatives';
-$txt['admin_bbc'] = 'Montrer les boutons BBCodes sur les pages d\'écriture de messages et de Messages Personnels';
 
 $txt['admin_backup_fail'] = 'Impossible de créer une copie de secours (backup) de Settings.php. Assurez-vous que Settings_bak.php existe et possède les bons droits d\'accès.';
 $txt['modSettings_info'] = 'Changer ou régler les paramètres qui contrôlent le fonctionnement du forum.';

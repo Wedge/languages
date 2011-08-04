@@ -237,8 +237,6 @@ $helptxt['trackStats'] = 'Stats&nbsp;:<br>Permet aux visiteurs de voir les derni
 	Pages vues&nbsp;:<br>Ajoute une autre colonne à la page des statistiques contenant le nombre de pages vues sur votre forum.';
 $helptxt['titlesEnable'] = 'Activer les titres personnels permettra aux membres possédant les permissions suffisantes de s\'attribuer un titre spécial pour eux-mêmes.
 		Il sera affiché sous leur pseudonyme.<br><em>Par exemple :</em><br>Loulou<br>Oui, c\'est moi';
-$helptxt['topbottomEnable'] = 'Ceci ajoutera des boutons "Monter" et "Descendre" au début et à la fin de chaque sujet, afin que les visiteurs passent plus vite du haut au bas de la page et <em>vice versa</em>,
-		 sans utiliser la molette de la souris ou la barre de défilement.';
 $helptxt['onlineEnable'] = 'Ceci affichera une image indiquant si l\'utilisateur est connecté ou non en ce moment.';
 $helptxt['todayMod'] = 'Cette option affichera "Aujourd\'hui" ou "Hier" à la place de la date.<br><br>
 		<strong>Exemples :</strong><br><br>

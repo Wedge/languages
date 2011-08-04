@@ -82,7 +82,6 @@ $txt['todayMod'] = 'Activer les dates abrégées';
 $txt['today_disabled'] = 'Désactivé';
 $txt['today_only'] = 'Seulement Aujourd\'hui';
 $txt['yesterday_today'] = 'Aujourd\'hui &amp; Hier';
-$txt['topbottomEnable'] = 'Afficher les boutons Haut de page/Bas de page';
 $txt['onlineEnable'] = 'Afficher \'En ligne\'/\'Hors ligne\' dans les messages et les MP';
 $txt['enableVBStyleLogin'] = 'Afficher un champ de connexion sur toutes les pages';
 $txt['defaultMaxMembers'] = 'Membres par page dans la liste des membres';
