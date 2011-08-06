@@ -253,8 +253,6 @@ $txt['media_more_albums_left'] = 'and %d more albums';
 $txt['media_items_only_in_children'] = ' in sub-albums';
 $txt['media_items_also_in_children'] = ', and %d in sub-albums';
 $txt['media_unbrowsable'] = 'Browsing disabled';
-$txt['media_last_check'] = 'Last checked';
-$txt['media_check_now'] = 'Check now';
 $txt['media_access_read'] = 'Read';
 $txt['media_access_write'] = 'Write';
 $txt['media_default_welcome'] = 'Welcome to the gallery section, powered by Wedge. To delete or modify this welcome message, just edit file /Themes/default/languages/Modifications.english.php and add this line to it:<br><pre>$txt[\'media_welcome\'] = \'Welcome.\';</pre>You can also change the text directly from within the admin area. This is simpler but you lose the ability to translate it to multiple languages.';
