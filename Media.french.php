@@ -1,4 +1,5 @@
 <?php
+// Version: 0.1; Media
 
 global $txt, $scripturl;
 

@@ -1,4 +1,5 @@
 <?php
+// Version: 0.1; Media
 
 // A message to translators: Wedge's Media area is inherited from Aeva Media. You may
 // want to start anew, or base your translation upon Aeva Media's earlier language files.
