@@ -476,7 +476,7 @@ $txt['go_down'] = 'Go Down';
 $txt['dynamic_replacements'] = '<abbr title="Dynamic Replacements">DR</abbr>';
 $txt['site_credits'] = 'Website credits';
 
-$forum_copyright = 'Powered by <a href="http://wedge.org/" target="_blank" class="new_win">%1$s</a>, a work in progress.
+$forum_copyright = 'Powered by <a href="http://wedge.org/" target="_blank" class="new_win">Wedge %1$s</a>, a work in progress.
 &copy; 2010&ndash;2011, <a href="http://about.wedge.org/" target="_blank" class="new_win" title="About Wedge">Wedgeward</a>';
 
 $txt['birthdays'] = 'Birthdays:';
