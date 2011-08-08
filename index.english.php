@@ -41,10 +41,6 @@ $txt['modify'] = 'Modify';
 $txt['forum_index'] = '%1$s - Index';
 $txt['members'] = 'Members';
 $txt['board_name'] = 'Board name';
-$txt['posts'] = 'Posts';
-$txt['posts_0'] = 'No posts';
-$txt['posts_1'] = '%s Post';
-$txt['posts_n'] = '%s Posts';
 
 $txt['member_postcount'] = 'Posts';
 $txt['no_subject'] = '(No subject)';
@@ -66,17 +62,25 @@ $txt['no_user_with_email'] = 'There are no usernames associated with that email.
 
 $txt['board_moderator'] = 'Board Moderator';
 $txt['remove_topic'] = 'Remove Topic';
-$txt['topics'] = 'Topics';
 $txt['modify_msg'] = 'Modify message';
 $txt['name'] = 'Name';
 $txt['email'] = 'Email';
 $txt['subject'] = 'Subject';
 $txt['message'] = 'Message';
+$txt['quick_modify'] = 'Modify Inline';
+
+$txt['posts'] = 'Posts';
+$txt['posts_0'] = 'No posts';
+$txt['posts_1'] = '%s post';
+$txt['posts_n'] = '%s posts';
+$txt['topics'] = 'Topics';
+$txt['topics_0'] = 'No topics';
+$txt['topics_1'] = '%s topic';
+$txt['topics_n'] = '%s topics';
 $txt['redirects'] = 'Redirects';
 $txt['redirects_0'] = 'No redirections';
-$txt['redirects_1'] = '%s Redirection';
-$txt['redirects_n'] = '%s Redirections';
-$txt['quick_modify'] = 'Modify Inline';
+$txt['redirects_1'] = '%s redirection';
+$txt['redirects_n'] = '%s redirections';
 
 $txt['choose_pass'] = 'Choose password';
 $txt['verify_pass'] = 'Verify password';
@@ -261,9 +265,6 @@ $txt['from'] = 'From';
 $txt['check_new_messages'] = 'Check for new messages';
 $txt['to'] = 'To';
 
-$txt['board_topics_0'] = 'No topics';
-$txt['board_topics_1'] = '%s Topic';
-$txt['board_topics_n'] = '%s Topics';
 $txt['members_title'] = 'Members';
 $txt['members_list'] = 'Members List';
 $txt['new_posts'] = 'New Posts';
