@@ -81,6 +81,14 @@ $txt['redirects'] = 'Redirections';
 $txt['redirects_0'] = 'Pas de redirections';
 $txt['redirects_1'] = '%s redirection';
 $txt['redirects_n'] = '%s redirections';
+$txt['replies'] = 'Réponses';
+$txt['replies_0'] = 'Pas de réponse';
+$txt['replies_1'] = '%s réponse';
+$txt['replies_n'] = '%s réponses';
+$txt['views'] = 'Vues';
+$txt['views_0'] = 'Jamais lu';
+$txt['views_1'] = '%s lecture';
+$txt['views_n'] = '%s lectures';
 
 $txt['choose_pass'] = 'Choisir un mot de passe';
 $txt['verify_pass'] = 'Vérifier le mot de passe';
@@ -140,7 +148,6 @@ $txt['error_occured'] = 'Une erreur s\'est produite&nbsp;!';
 $txt['at'] = 'à';
 $txt['logout'] = 'Déconnexion';
 $txt['started_by'] = 'Démarré par';
-$txt['replies'] = 'Réponses';
 $txt['last_post'] = 'Dernier message';
 $txt['admin_login'] = 'Connexion Admin';
 // Use numeric entities in the below string.
@@ -248,7 +255,6 @@ $txt['moderator'] = 'Modérateur';
 $txt['moderators'] = 'Modérateurs';
 
 $txt['mark_board_read'] = 'Marquer les sujets comme lus pour cette section';
-$txt['views'] = 'Vues';
 $txt['new'] = 'Nouveau';
 
 $txt['view_all_members'] = 'Voir tous les membres';

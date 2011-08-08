@@ -81,6 +81,14 @@ $txt['redirects'] = 'Redirects';
 $txt['redirects_0'] = 'No redirections';
 $txt['redirects_1'] = '%s redirection';
 $txt['redirects_n'] = '%s redirections';
+$txt['replies'] = 'Replies';
+$txt['replies_0'] = 'No reply';
+$txt['replies_1'] = '%s reply';
+$txt['replies_n'] = '%s replies';
+$txt['views'] = 'Views';
+$txt['views_0'] = 'Never viewed';
+$txt['views_1'] = '%s view';
+$txt['views_n'] = '%s views';
 
 $txt['choose_pass'] = 'Choose password';
 $txt['verify_pass'] = 'Verify password';
@@ -140,7 +148,6 @@ $txt['error_occured'] = 'An Error Has Occurred!';
 $txt['at'] = 'at';
 $txt['logout'] = 'Logout';
 $txt['started_by'] = 'Started by';
-$txt['replies'] = 'Replies';
 $txt['last_post'] = 'Last post';
 $txt['admin_login'] = 'Administration Login';
 // Use numeric entities in the below string.
@@ -248,7 +255,6 @@ $txt['moderator'] = 'Moderator';
 $txt['moderators'] = 'Moderators';
 
 $txt['mark_board_read'] = 'Mark Topics as Read for this Board';
-$txt['views'] = 'Views';
 $txt['new'] = 'New';
 
 $txt['view_all_members'] = 'View All Members';
