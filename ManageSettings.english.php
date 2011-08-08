@@ -88,7 +88,6 @@ $txt['defaultMaxMembers'] = 'Members per page in member list';
 $txt['timeLoadPageEnable'] = 'Display time taken to create every page';
 $txt['disableHostnameLookup'] = 'Disable hostname lookups';
 $txt['who_enabled'] = 'Enable who\'s online list';
-$txt['make_email_viewable'] = 'Allow viewable email addresses';
 $txt['meta_keywords'] = 'Meta keywords associated with forum<dfn>For search engines. Leave blank to disable.</dfn>';
 
 $txt['caching_information'] = '<div class="centertext" style="font-weight: bold; text-decoration: underline">Important! Read this first before enabling these features.</div><br>
