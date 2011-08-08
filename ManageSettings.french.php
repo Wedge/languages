@@ -170,7 +170,6 @@ $txt['setup_verification_answer'] = 'Réponse';
 $txt['setup_verification_add_more'] = 'Ajouter une autre question';
 
 $txt['moderation_settings'] = 'Réglages de Modération';
-$txt['setting_warning_enable'] = 'Activer le système de sanction';
 $txt['setting_warning_watch'] = 'Niveau de sanction pour la mise sous surveillance<dfn>Le niveau de sanction après lequel une surveillance de l\'utilisateur est mise en place - 0 pour désactiver.</dfn>';
 $txt['setting_warning_moderate'] = 'Niveau de sanction pour la prémodération des messages<dfn>Le niveau de sanction après lequel un utilisateur voit tous ses messages modérés avant publication - 0 pour désactiver.</dfn>';
 $txt['setting_warning_mute'] = 'Niveau de sanction pour réduire au silence l\'utilisateur<dfn>Le niveau de sanction après lequel un utilisateur ne peut plus rien poster - 0 pour désactiver.</dfn>';
@@ -298,8 +297,6 @@ $txt['core_settings_item_pm'] = 'Modération de message';
 $txt['core_settings_item_pm_desc'] = 'Permet de sélectionner les groupes et sections pour lesquels les messages doivent être approuvés avant d\'être publiés. N\'oubliez pas de mettre en place les permissions adéquates dans la section des Permissions.';
 $txt['core_settings_item_sp'] = 'Suivi des Moteurs de recherche';
 $txt['core_settings_item_sp_desc'] = 'Activer cette fonctionnalité permettra aux administrateurs de suivre les robots des moteurs de recherche lorsqu\'ils indexent votre forum.';
-$txt['core_settings_item_w'] = 'Système de Sanction';
-$txt['core_settings_item_w_desc'] = 'Permet aux modérateurs de donner des sanctions aux utilisateurs, et de supprimer automatiquement les droits utilisateur en fonction du niveau de sanction. Il est recommandé d\'activer conjointement &quot;Modération de message&quot;.';
 $txt['core_settings_switch_on'] = 'Cliquez pour activer';
 $txt['core_settings_switch_off'] = 'Cliquez pour désactiver';
 $txt['core_settings_enabled'] = 'Activé';

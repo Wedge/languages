@@ -171,7 +171,6 @@ $txt['setup_verification_answer'] = 'Answer';
 $txt['setup_verification_add_more'] = 'Add another question';
 
 $txt['moderation_settings'] = 'Moderation Settings';
-$txt['setting_warning_enable'] = 'Enable User Warning System';
 $txt['setting_warning_watch'] = 'Warning level for user watch<dfn>The user warning level after which a user watch is put in place - 0 to disable.</dfn>';
 $txt['setting_warning_moderate'] = 'Warning level for post moderation<dfn>The user warning level after which a user has all posts moderated - 0 to disable.</dfn>';
 $txt['setting_warning_mute'] = 'Warning level for user muting<dfn>The user warning level after which a user cannot post any further - 0 to disable.</dfn>';
@@ -299,8 +298,6 @@ $txt['core_settings_item_pm'] = 'Post Moderation';
 $txt['core_settings_item_pm_desc'] = 'Post moderation enables you to select groups and boards within which posts must be approved before they become public. Upon enabling this feature be sure to visit the permission section to set up the relevant permissions.';
 $txt['core_settings_item_sp'] = 'Search Engine Tracking';
 $txt['core_settings_item_sp_desc'] = 'Enabling this feature will allow administrators to track search engines as they index your forum.';
-$txt['core_settings_item_w'] = 'Warning System';
-$txt['core_settings_item_w_desc'] = 'This functionality allows administrators and moderators to issue warnings to users; it also includes advanced functionality for automatically removing user rights as their warning level increases. Note to take full advantage of this function &quot;Post Moderation&quot; should be enabled.';
 $txt['core_settings_switch_on'] = 'Click to Enable';
 $txt['core_settings_switch_off'] = 'Click to Disable';
 $txt['core_settings_enabled'] = 'Enabled';
