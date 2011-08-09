@@ -89,7 +89,6 @@ $txt['media_sort_order_desc'] = 'Descending';
 $txt['media_sort_order_filename'] = 'File name';
 $txt['media_sort_order_filesize'] = 'File size';
 $txt['media_sort_order_filedate'] = 'File date';
-$txt['media_pages'] = 'Pages';
 $txt['media_thumbnail'] = 'Thumbnail';
 $txt['media_item_title'] = 'Title';
 $txt['media_item_desc'] = 'Description';

@@ -81,7 +81,6 @@ $txt['media_sort_order_desc'] = 'Descendant';
 $txt['media_sort_order_filename'] = 'Nom des fichiers';
 $txt['media_sort_order_filesize'] = 'Taille des fichiers';
 $txt['media_sort_order_filedate'] = 'Date de création';
-$txt['media_pages'] = 'Pages';
 $txt['media_thumbnail'] = 'Miniature';
 $txt['media_item_title'] = 'Titre';
 $txt['media_item_desc'] = 'Description';
