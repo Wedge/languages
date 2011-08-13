@@ -233,7 +233,7 @@ $txt['select_destination'] = 'Select destination';
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['posted_by'] = 'Posted by';
 
-$txt['icon_smiley'] = 'Smiley';
+$txt['icon_smiley'] = 'Smile';
 $txt['icon_angry'] = 'Angry';
 $txt['icon_cheesy'] = 'Cheesy';
 $txt['icon_laugh'] = 'Laugh';
@@ -241,9 +241,9 @@ $txt['icon_sad'] = 'Sad';
 $txt['icon_wink'] = 'Wink';
 $txt['icon_grin'] = 'Grin';
 $txt['icon_shocked'] = 'Shocked';
-$txt['icon_cool'] = 'Cool';
-$txt['icon_huh'] = 'Huh';
-$txt['icon_rolleyes'] = 'Roll Eyes';
+$txt['icon_cool'] = 'Cool!';
+$txt['icon_huh'] = 'Huh?';
+$txt['icon_rolleyes'] = 'Roll eyes';
 $txt['icon_tongue'] = 'Tongue';
 $txt['icon_embarrassed'] = 'Embarrassed';
 $txt['icon_lips'] = 'Lips sealed';

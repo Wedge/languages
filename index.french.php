@@ -233,23 +233,23 @@ $txt['select_destination'] = 'Destination ?';
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['posted_by'] = 'Posté par';
 
-$txt['icon_smiley'] = 'Sourit';
+$txt['icon_smiley'] = 'Sourire';
 $txt['icon_angry'] = 'Fâché';
-$txt['icon_cheesy'] = 'Délire';
-$txt['icon_laugh'] = 'Rit';
+$txt['icon_cheesy'] = 'Grand sourire';
+$txt['icon_laugh'] = 'Mort de rire';
 $txt['icon_sad'] = 'Triste';
 $txt['icon_wink'] = 'Clin d\'oeil';
-$txt['icon_grin'] = 'Grimace';
+$txt['icon_grin'] = 'Gnéhé';
 $txt['icon_shocked'] = 'Choqué';
-$txt['icon_cool'] = 'Cool';
+$txt['icon_cool'] = 'Cool !';
 $txt['icon_huh'] = 'Hein ?';
-$txt['icon_rolleyes'] = 'Roule des yeux';
-$txt['icon_tongue'] = 'Tire la langue';
+$txt['icon_rolleyes'] = 'Tss...';
+$txt['icon_tongue'] = 'Hihi';
 $txt['icon_embarrassed'] = 'Embarrassé';
 $txt['icon_lips'] = 'Bouche cousue';
 $txt['icon_undecided'] = 'Indécis';
-$txt['icon_kiss'] = 'Bisou';
-$txt['icon_cry'] = 'Pleure';
+$txt['icon_kiss'] = 'Bises';
+$txt['icon_cry'] = 'Snif';
 
 $txt['moderator'] = 'Modérateur';
 $txt['moderators'] = 'Modérateurs';
