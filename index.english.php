@@ -236,7 +236,6 @@ $txt['posted_by'] = 'Posted by';
 $txt['icon_smiley'] = 'Smile';
 $txt['icon_angry'] = 'Angry';
 $txt['icon_cheesy'] = 'Cheesy';
-$txt['icon_laugh'] = 'Laugh';
 $txt['icon_sad'] = 'Sad';
 $txt['icon_wink'] = 'Wink';
 $txt['icon_grin'] = 'Grin';
@@ -250,6 +249,7 @@ $txt['icon_lips'] = 'Lips sealed';
 $txt['icon_undecided'] = 'Undecided';
 $txt['icon_kiss'] = 'Kiss';
 $txt['icon_cry'] = 'Cry';
+$txt['icon_edit'] = 'Edited';
 
 $txt['moderator'] = 'Moderator';
 $txt['moderators'] = 'Moderators';

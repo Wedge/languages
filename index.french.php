@@ -236,7 +236,6 @@ $txt['posted_by'] = 'Posté par';
 $txt['icon_smiley'] = 'Sourire';
 $txt['icon_angry'] = 'Fâché';
 $txt['icon_cheesy'] = 'Grand sourire';
-$txt['icon_laugh'] = 'Mort de rire';
 $txt['icon_sad'] = 'Triste';
 $txt['icon_wink'] = 'Clin d\'oeil';
 $txt['icon_grin'] = 'Gnéhé';
@@ -250,6 +249,7 @@ $txt['icon_lips'] = 'Bouche cousue';
 $txt['icon_undecided'] = 'Indécis';
 $txt['icon_kiss'] = 'Bises';
 $txt['icon_cry'] = 'Snif';
+$txt['icon_edit'] = 'Modifié';
 
 $txt['moderator'] = 'Modérateur';
 $txt['moderators'] = 'Modérateurs';
