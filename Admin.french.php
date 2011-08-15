@@ -613,6 +613,7 @@ $txt['themeadmin_list_title'] = 'Paramètres des Thèmes';
 $txt['themeadmin_reset_title'] = 'Préférences des Membres';
 $txt['themeadmin_edit_title'] = 'Modifier les Thèmes';
 $txt['admin_browse_register_new'] = 'Inscrire un nouveau membre';
+$txt['configure_options'] = 'Configurer les Options';
 
 $txt['search_engines'] = 'Moteurs de Recherche';
 $txt['spiders'] = 'Robots';
