@@ -613,6 +613,7 @@ $txt['themeadmin_list_title'] = 'Theme Settings';
 $txt['themeadmin_reset_title'] = 'Member Options';
 $txt['themeadmin_edit_title'] = 'Modify Themes';
 $txt['admin_browse_register_new'] = 'Register New Member';
+$txt['configure_options'] = 'Configure Options';
 
 $txt['search_engines'] = 'Search Engines';
 $txt['spiders'] = 'Spiders';
