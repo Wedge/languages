@@ -143,7 +143,7 @@ $txt['media_wo_hidden'] = 'Somewhere in the gallery, in a place you can\'t see..
 $txt['credits'] = 'Credits';
 $txt['credits_intro'] = 'This is a fork of the <a href="http://www.simplemachines.org/">Simple Machines</a> forum software. It is released under its own license. Here is the list of those who sacrificed themselves for its glory.';
 $txt['credits_team'] = 'The Team';
-$txt['credits_smf_team'] = 'Original SMF 2.0 Team';
+$txt['credits_smf2_team'] = 'Original SMF 2.0 Team';
 $txt['credits_special'] = 'Special Thanks';
 $txt['credits_and'] = 'and';
 $txt['credits_anyone'] = 'And for anyone we may have missed, thank you!';
