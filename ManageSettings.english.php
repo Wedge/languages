@@ -175,7 +175,6 @@ $txt['setting_warning_show_mods'] = 'Moderators Only';
 $txt['setting_warning_show_user'] = 'Moderators and Warned Users';
 $txt['setting_warning_show_all'] = 'All Users';
 
-$txt['member_options_title'] = 'Member Options';
 $txt['member_options_desc'] = 'From this page you can configure general options that apply to all members of your community.';
 $txt['allow_editDisplayName'] = 'Allow members to edit their displayed name';
 $txt['allow_hideOnline'] = 'Allow members to hide their online status';

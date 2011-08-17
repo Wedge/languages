@@ -174,7 +174,6 @@ $txt['setting_warning_show_mods'] = 'Modérateurs seulement';
 $txt['setting_warning_show_user'] = 'Modérateurs et l\'utilisateur concerné';
 $txt['setting_warning_show_all'] = 'Tout le monde';
 
-$txt['member_options_title'] = 'Options des Membres';
 $txt['member_options_desc'] = 'Cette section vous permet de configurer les options générales qui s\'appliquent aux membres de votre communauté.';
 $txt['allow_editDisplayName'] = 'Permettre aux membres de modifier leur pseudonyme';
 $txt['allow_hideOnline'] = 'Permettre aux membres de cacher leur présence en ligne';
