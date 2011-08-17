@@ -194,7 +194,7 @@ $txt['pm_rule_sel_label'] = 'Choisissez le label';
 $txt['pm_rule_delete'] = 'Effacer le Message';
 $txt['pm_rule_no_name'] = 'Vous avez oublié d\'entrer un nom pour la règle.';
 $txt['pm_rule_no_criteria'] = 'Une règle doit avoir au moins un critère et une action.';
-$txt['pm_rule_too_complex'] = 'La règle que vous êtes en train de créer est trop longue à enregistrer pour SMF. Essayez de la diviser en règles plus petites.';
+$txt['pm_rule_too_complex'] = 'La règle que vous êtes en train de créer est trop longue à enregistrer pour Wedge. Essayez de la diviser en règles plus petites.';
 
 $txt['pm_readable_and'] = '<em>et</em>';
 $txt['pm_readable_or'] = '<em>ou</em>';

@@ -84,7 +84,7 @@ $txt['disableHostnameLookup'] = 'Disable hostname lookups';
 $txt['who_enabled'] = 'Enable who\'s online list';
 
 $txt['caching_information'] = '<div class="centertext" style="font-weight: bold; text-decoration: underline">Important! Read this first before enabling these features.</div><br>
-	SMF supports caching through the use of accelerators. The currently supported accelerators include:<br>
+	Wedge supports caching through the use of accelerators. The currently supported accelerators include:<br>
 	<ul class="normallist">
 		<li>APC</li>
 		<li>eAccelerator</li>
@@ -93,23 +93,23 @@ $txt['caching_information'] = '<div class="centertext" style="font-weight: bold;
 		<li>XCache</li>
 	</ul>
 	Caching will work best if you have PHP compiled with one of the above optimizers, or have memcache
-	available. If you do not have any optimizer installed SMF will do file based caching.<br><br>
-	SMF performs caching at a variety of levels. The higher the level of caching enabled the more CPU time will be spent
+	available. If you do not have any optimizer installed Wedge will do file based caching.<br><br>
+	Wedge performs caching at a variety of levels. The higher the level of caching enabled the more CPU time will be spent
 	retrieving cached information. If caching is available on your machine it is recommended that you try caching at level 1 first.
 	<br><br>
 	Note that if you use memcached you need to provide the server details in the setting below. This should be entered as a comma separated list
 	as shown in the example below:<br>
 	&quot;server1,server2,server3:port,server4&quot;<br><br>
-	Note that if no port is specified SMF will use port 11211. SMF will attempt to perform rough/random load balancing across the servers.
+	Note that if no port is specified, Wedge will use port 11211 and will attempt to perform rough/random load balancing across the servers.
 	<br><br>
 	%1$s';
 
-$txt['detected_no_caching'] = '<strong class="alert">SMF has not been able to detect a compatible accelerator on your server.</strong>';
-$txt['detected_APC'] = '<strong style="color: green">SMF has detected that your server has APC installed.</strong>';
-$txt['detected_eAccelerator'] = '<strong style="color: green">SMF has detected that your server has eAccelerator installed.</strong>';
-$txt['detected_Zend'] = '<strong style="color: green">SMF has detected that your server has Zend installed.</strong>';
-$txt['detected_Memcached'] = '<strong style="color: green">SMF has detected that your server has Memcached installed.</strong>';
-$txt['detected_XCache'] = '<strong style="color: green">SMF has detected that your server has XCache installed.</strong>';
+$txt['detected_no_caching'] = '<strong class="alert">Wedge was unable to detect a compatible accelerator on your server.</strong>';
+$txt['detected_APC'] = '<strong style="color: green">Wedge has detected that your server has APC installed.</strong>';
+$txt['detected_eAccelerator'] = '<strong style="color: green">Wedge has detected that your server has eAccelerator installed.</strong>';
+$txt['detected_Zend'] = '<strong style="color: green">Wedge has detected that your server has Zend installed.</strong>';
+$txt['detected_Memcached'] = '<strong style="color: green">Wedge has detected that your server has Memcached installed.</strong>';
+$txt['detected_XCache'] = '<strong style="color: green">Wedge has detected that your server has XCache installed.</strong>';
 
 $txt['cache_enable'] = 'Caching Level';
 $txt['cache_off'] = 'No caching';
@@ -291,7 +291,7 @@ $txt['standard_profile_title'] = 'Standard Profile Fields';
 $txt['standard_profile_field'] = 'Field';
 
 $txt['core_settings_welcome_msg'] = 'Welcome to Your New Forum';
-$txt['core_settings_welcome_msg_desc'] = 'To get you started we suggest you select which of SMF\'s core features you want to enable. We\'d recommend only enabling with those features you need!';
+$txt['core_settings_welcome_msg_desc'] = 'To get you started we suggest you select which of Wedge\'s core features you want to enable. We\'d recommend only enabling with those features you need!';
 $txt['core_settings_item_m'] = 'Media Gallery';
 $txt['core_settings_item_m_desc'] = '';
 $txt['core_settings_item_ml'] = 'Moderation, Administration and User Logs';
@@ -340,8 +340,8 @@ $txt['languages_download'] = 'Download Language Pack';
 $txt['languages_download_note'] = 'This page lists all the files that are contained within the language pack and some useful information about each one. All files that have their associated check box marked will be copied.';
 $txt['languages_download_info'] = '<strong>Note:</strong>
 	<ul class="normallist">
-		<li>Files which have the status &quot;Not Writable&quot; means SMF will not be able to copy this file to the directory at the present and you must make the destination writable either using an FTP client or by filling in your details at the bottom of the page.</li>
-		<li>The Version information for a file displays the last SMF version which it was updated for. If it is indicated in green then this is a newer version than you have at current. If amber this indicates it\'s the same version number as at current, red indicates you have a newer version installed than contained in the pack.</li>
+		<li>Files which have the status &quot;Not Writable&quot; means Wedge will not be able to copy this file to the directory at the present and you must make the destination writable either using an FTP client or by filling in your details at the bottom of the page.</li>
+		<li>The Version information for a file displays the last Wedge version which it was updated for. If it is indicated in green then this is a newer version than you have at current. If amber this indicates it\'s the same version number as at current, red indicates you have a newer version installed than contained in the pack.</li>
 		<li>Where a file already exists on your forum the &quot;Already Exists&quot; column will have one of two values. &quot;Identical&quot; indicates that the file already exists in an identical form and need not be overwritten. &quot;Different&quot; means that the contents vary in some way and overwriting is probably the optimum solution.</li>
 	</ul>';
 

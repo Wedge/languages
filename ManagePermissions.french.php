@@ -6,7 +6,7 @@ $txt['permissions_modify'] = 'Modifier';
 $txt['permissions_view'] = 'Voir';
 $txt['permissions_allowed'] = 'Autorisées';
 $txt['permissions_denied'] = 'Refusées';
-$txt['permission_cannot_edit'] = '<strong>Note</strong>&nbsp;: vous ne pouvez pas modifier ce profil de permission car c\'est un profil-type prédéfini par SMF. Si vous voulez changer les permissions de ce profil, vous devez d\'abord créer une copie du profil en cliquant <a href="%1$s">ici</a>.';
+$txt['permission_cannot_edit'] = '<strong>Note</strong>&nbsp;: vous ne pouvez pas modifier ce profil de permission car c\'est un profil-type prédéfini par Wedge. Si vous voulez changer les permissions de ce profil, vous devez d\'abord créer une copie du profil en cliquant <a href="%1$s">ici</a>.';
 
 $txt['permissions_for_profile'] = 'Permissions pour le Profil&nbsp;';
 $txt['permissions_boards_desc'] = 'La liste ci-dessous montre le jeu de permissions qui a été assigné à chaque section de votre forum. Vous pouvez modifier les permissions de profil assignées en cliquant sur le nom de la section, ou en sélectionnant &quot;Tout modifier&quot; en bas de la page. Pour modifier le profil lui-même, cliquez simplement sur le nom du profil.';

@@ -84,7 +84,7 @@ $txt['disableHostnameLookup'] = 'Désactiver la recherche du nom d\'hôte';
 $txt['who_enabled'] = 'Activer &quot;Qui est en ligne&nbsp;?&quot;';
 
 $txt['caching_information'] = '<div class="centertext" style="font-weight: bold; text-decoration: underline">Important&nbsp;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br>
-	SMF peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&nbsp;:<br>
+	Wedge peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&nbsp;:<br>
 	<ul class="normallist">
 		<li>APC</li>
 		<li>eAccelerator</li>
@@ -92,23 +92,23 @@ $txt['caching_information'] = '<div class="centertext" style="font-weight: bold;
 		<li>Zend Platform/Performance Suite (pas Zend Optimizer)</li>
 	</ul>
 	Le système de cache fonctionnera mieux si PHP est compilé avec l\'un des accélérateurs susmentionnés, ou si memcache est disponible.
-	<strong>Si aucun accélérateur n\'est installé, SMF fera du cache fichier.</strong><br><br>
-	SMF gère plusieurs niveaux de cache. Plus le niveau est haut, plus le processeur de votre serveur sera utilisé
+	<strong>Si aucun accélérateur n\'est installé, Wedge fera du cache fichier.</strong><br><br>
+	Wedge gère plusieurs niveaux de cache. Plus le niveau est haut, plus le processeur de votre serveur sera utilisé
 	pour récupérer les informations. Si un système de cache est disponible sur votre serveur, il est recommandé de le tester au niveau 1 avant tout.
 	<br><br>
 	Veuillez noter que l\'utilisation de memcache nécessite que vous donniez quelques indications sur votre serveur dans les réglages à effectuer ci-dessous. Elles doivent être entrées sous forme de liste, dont les éléments sont séparés par une virgule,
 	comme dans l\'exemple suivant&nbsp;:<br>
 	&quot;serveur1,serveur2,serveur3:port,serveur4&quot;<br>
-	Si aucun port n\'est spécifié, SMF utilisera le port 11211 par défaut. SMF équilibrera de manière aléatoire la charge sur les serveurs.
+	Si aucun port n\'est spécifié, Wedge utilisera le port 11211 par défaut, et équilibrera de manière aléatoire la charge sur les serveurs.
 	<br><br>
 	%1$s';
 
-$txt['detected_no_caching'] = '<strong class="alert">SMF n\'a pas pu détecter d\'accélérateur compatible sur votre serveur.</strong>';
-$txt['detected_APC'] = '<strong style="color: green">SMF a détecté qu\'APC est installé sur votre serveur.</strong>';
-$txt['detected_eAccelerator'] = '<strong style="color: green">SMF a détecté qu\'eAccelerator est installé sur votre serveur.</strong>';
-$txt['detected_Zend'] = '<strong style="color: green">SMF a détecté que Zend est installé sur votre serveur.</strong>';
-$txt['detected_Memcached'] = '<strong style="color: green">SMF a détecté que Memcached est installé sur votre serveur.</strong>';
-$txt['detected_XCache'] = '<strong style="color: green">SMF a détecté que XCache est installé sur votre serveur.</strong>';
+$txt['detected_no_caching'] = '<strong class="alert">Wedge n\'a pas pu détecter d\'accélérateur compatible sur votre serveur.</strong>';
+$txt['detected_APC'] = '<strong style="color: green">Wedge a détecté qu\'APC est installé sur votre serveur.</strong>';
+$txt['detected_eAccelerator'] = '<strong style="color: green">Wedge a détecté qu\'eAccelerator est installé sur votre serveur.</strong>';
+$txt['detected_Zend'] = '<strong style="color: green">Wedge a détecté que Zend est installé sur votre serveur.</strong>';
+$txt['detected_Memcached'] = '<strong style="color: green">Wedge a détecté que Memcached est installé sur votre serveur.</strong>';
+$txt['detected_XCache'] = '<strong style="color: green">Wedge a détecté que XCache est installé sur votre serveur.</strong>';
 
 $txt['cache_enable'] = 'Niveau de cache';
 $txt['cache_off'] = 'Aucun cache';
@@ -290,7 +290,7 @@ $txt['standard_profile_title'] = 'Champs de profil standards';
 $txt['standard_profile_field'] = 'Champ';
 
 $txt['core_settings_welcome_msg'] = 'Bienvenue sur votre nouveau forum';
-$txt['core_settings_welcome_msg_desc'] = 'Pour commencer, nous vous suggérons de sélectionner quelles fonctionnalités centrales d\'SMF vous voulez activer. Nous vous recommendons de n\'activer que les fonctionnalités dont vous avez besoin&nbsp;!';
+$txt['core_settings_welcome_msg_desc'] = 'Pour commencer, nous vous suggérons de choisir les fonctionnalités de Wedge que vous souhaitez activer. Nous vous recommendons de n\'activer que celles dont vous avez besoin&nbsp;!';
 $txt['core_settings_item_m'] = 'Galerie Media';
 $txt['core_settings_item_m_desc'] = '';
 $txt['core_settings_item_ml'] = 'Journal de modération';
@@ -339,8 +339,8 @@ $txt['languages_download'] = 'Téléchargement de packs de Langue';
 $txt['languages_download_note'] = 'Cette page recense tous les fichiers contenus dans le pack de Langue et des informations utiles à propos de chacun d\'entre eux. Tous les fichiers qui ont leur case associée cochée seront copiés.';
 $txt['languages_download_info'] = '<strong>Note</strong>
 	<ul class="normallist">
-		<li>Si des fichiers ont le statut &quot;Non inscriptible&quot;, SMF ne sera pas capable de les copier dans le répertoire actuel et vous devrez rendre la destination inscriptible en utilisant un client FTP ou en remplissant les renseignements en bas de page.</li>
-		<li>L\'information de version pour un fichier indique la version d\'SMF pour laquelle il a été mis à jour. Si elle est indiquée en vert, c\'est qu\'il existe une version plus récente que celle que vous avez actuellement. La couleur ambrée indique que c\'est le même numéro de version que l\'actuelle, et la couleur rouge signifie que vous avez déjà une version plus récente que celle contenue dans le pack.</li>
+		<li>Si des fichiers ont le statut &quot;Non inscriptible&quot;, Wedge ne sera pas capable de les copier dans le répertoire actuel et vous devrez rendre la destination inscriptible en utilisant un client FTP ou en remplissant les renseignements en bas de page.</li>
+		<li>L\'information de version pour un fichier indique la version de Wedge pour laquelle il a été mis à jour. Si elle est indiquée en vert, c\'est qu\'il existe une version plus récente que celle que vous avez actuellement. La couleur ambrée indique que c\'est le même numéro de version que l\'actuelle, et la couleur rouge signifie que vous avez déjà une version plus récente que celle contenue dans le pack.</li>
 		<li>Si un fichier existe déjà sur votre forum, la colonne &quot;Existe déjà&quot; aura une de ces deux valeurs. &quot;Identique&quot; indique que le fichier existe déjà sous une forme identique et n\'a pas besoin d\'être écrasé. &quot;Différent&quot; veut dire que le contenu varie un peu et que l\'écrasement est probablement la meilleure solution.</li>
 	</ul>';
 

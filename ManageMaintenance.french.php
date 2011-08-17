@@ -113,7 +113,7 @@ $txt['errortype_general_desc'] = 'Erreurs générales inclassables.';
 $txt['errortype_critical'] = '<span style="color:red;">Critiques</span>';
 $txt['errortype_critical_desc'] = 'Erreurs critiques. Elles nécessitent votre attention immédiate. Si vous ignorez ces erreurs, il se peut que votre forum soit en danger.';
 $txt['errortype_database'] = 'Base de données';
-$txt['errortype_database_desc'] = 'Erreurs causées par des reqêtes malformées. Notez-les et rapportez-les à l\'équipe de développement de SMF.';
+$txt['errortype_database_desc'] = 'Erreurs causées par des reqêtes malformées. Notez-les et rapportez-les à l\'équipe de développement de Wedge.';
 $txt['errortype_undefined_vars'] = 'Éléments indéfinis';
 $txt['errortype_undefined_vars_desc'] = 'Erreurs causées par l\'utilisation d\'une variable, d\'un index ou d\'un offset indéfinis.';
 $txt['errortype_template'] = 'Modèles';
