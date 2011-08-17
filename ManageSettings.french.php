@@ -48,6 +48,7 @@ $txt['databaseSession_loose'] = 'Permettre aux navigateurs de revenir sur les pa
 $txt['databaseSession_lifetime'] = 'Secondes avant la fin d\'une session pour inutilisation';
 $txt['enableErrorLogging'] = 'Enregistrer les erreurs dans le journal';
 $txt['enableErrorQueryLogging'] = 'Inclure la requête de base de données dans le journal d\'erreurs';
+$txt['logPruning'] = 'Délestage des journaux';
 $txt['pruningOptions'] = 'Activer le délestage des entrées de journal';
 $txt['pruneErrorLog'] = 'Supprimer les entrées du journal d\'<strong>erreurs</strong> plus anciennes que...<dfn>(0 pour désactiver)</dfn>';
 $txt['pruneModLog'] = 'Supprimer les entrées du journal de <strong>modération</strong> plus anciennes que...<dfn>(0 pour désactiver)</dfn>';

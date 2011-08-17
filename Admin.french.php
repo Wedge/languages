@@ -225,8 +225,8 @@ $txt['log_scheduled'] = 'Tâches';
 $txt['log_admin'] = 'Administration';
 $txt['log_moderation'] = 'Modération';
 $txt['log_spider'] = 'Robots';
-$txt['log_settings'] = 'Délestage';
-$txt['log_settings_desc'] = 'Utilisez ces scripts pour supprimer les entrées les plus anciennes sur les divers journaux.';
+$txt['log_settings'] = 'Paramètres';
+$txt['log_settings_desc'] = 'Cette section vous permet de paramétrer les divers journaux, et de supprimer leurs entrées les plus anciennes.';
 
 $txt['mailqueue_title'] = 'Paramètres E-mail';
 
@@ -536,7 +536,7 @@ $txt['load_balancing_settings'] = 'Répartition de Charge';
 $txt['proxy_settings'] = 'Paramètres Proxy';
 
 $txt['language_configuration'] = 'Langues';
-$txt['language_description'] = 'Cette section vous permet de modifier les langues installées sur votre forum, et d\'en télécharger de nouvelles sur le site web de Simple Machines. Vous pouvez également modifier les paramètres liés aux langues ici.';
+$txt['language_description'] = 'Cette section vous permet de modifier les langues installées sur votre forum, et d\'en télécharger de nouvelles sur le site web de Wedge. Vous pouvez également modifier les paramètres liés aux langues ici.';
 $txt['language_edit'] = 'Modifier Langues';
 $txt['language_add'] = 'Ajouter Langue';
 $txt['language_settings'] = 'Paramètres';
