@@ -177,7 +177,6 @@ $txt['member_options_title'] = 'Options des Membres';
 $txt['member_options_desc'] = 'Cette section vous permet de configurer les options générales qui s\'appliquent aux membres de votre communauté.';
 $txt['allow_editDisplayName'] = 'Permettre aux membres de modifier leur pseudonyme';
 $txt['allow_hideOnline'] = 'Permettre aux non-administrateurs de cacher leur présence en ligne';
-$txt['guest_hideContacts'] = 'Ne pas révéler les informations de contact des membres aux invités';
 $txt['titlesEnable'] = 'Activer les titres personnalisés';
 $txt['enable_buddylist'] = 'Activé les listes de contacts et d\'ignorés';
 $txt['default_personal_text'] = 'Texte personnel par défaut<dfn>Ce texte sera assigné aux nouveaux membres à leur inscription.</dfn>';
