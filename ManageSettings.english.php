@@ -177,8 +177,8 @@ $txt['setting_warning_show_all'] = 'All Users';
 
 $txt['member_options_title'] = 'Member Options';
 $txt['member_options_desc'] = 'From this page you can configure general options that apply to all members of your community.';
-$txt['allow_editDisplayName'] = 'Allow users to edit their displayed name';
-$txt['allow_hideOnline'] = 'Allow non-administrators to hide their online status';
+$txt['allow_editDisplayName'] = 'Allow members to edit their displayed name';
+$txt['allow_hideOnline'] = 'Allow members to hide their online status';
 $txt['titlesEnable'] = 'Enable custom titles';
 $txt['enable_buddylist'] = 'Enable contacts &amp; ignore list';
 $txt['default_personal_text'] = 'Default personal text<dfn>Personal text to assign to newly registered members.</dfn>';
@@ -209,7 +209,7 @@ $txt['custom_profile_icon'] = 'Icon';
 $txt['custom_profile_type_text'] = 'Text';
 $txt['custom_profile_type_textarea'] = 'Large Text';
 $txt['custom_profile_type_select'] = 'Select Box';
-$txt['custom_profile_type_radio'] = 'Radio Button';
+$txt['custom_profile_type_radio'] = 'Radio Buttons';
 $txt['custom_profile_type_check'] = 'Checkbox';
 
 $txt['custom_add_title'] = 'Add Profile Field';
