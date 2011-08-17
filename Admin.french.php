@@ -225,8 +225,8 @@ $txt['log_scheduled'] = 'Tâches';
 $txt['log_admin'] = 'Administration';
 $txt['log_moderation'] = 'Modération';
 $txt['log_spider'] = 'Robots';
-$txt['log_pruning'] = 'Délestage';
-$txt['log_pruning_desc'] = 'Utilisez ces scripts pour supprimer les entrées les plus anciennes sur les divers journaux.';
+$txt['log_settings'] = 'Délestage';
+$txt['log_settings_desc'] = 'Utilisez ces scripts pour supprimer les entrées les plus anciennes sur les divers journaux.';
 
 $txt['mailqueue_title'] = 'Paramètres E-mail';
 

@@ -115,7 +115,7 @@ $txt['smileys_manage_info'] = 'Install new smiley sets, add smileys to existing 
 $txt['package_info'] = 'Install new features or modify existing ones with this interface.';
 $txt['theme_admin'] = 'Themes and Layout';
 $txt['theme_admin_info'] = 'Setup and manage your themes and set or reset theme options.';
-$txt['registration_center'] = 'Registration';
+$txt['registration_center'] = 'Registration and Login';
 $txt['member_center_info'] = 'View the member list, search for members and manage not-yet-approved members and members who haven\'t activated their account yet.';
 
 $txt['viewmembers_name'] = 'Username (display name)';
@@ -225,8 +225,8 @@ $txt['log_scheduled'] = 'Task Log';
 $txt['log_admin'] = 'Admin Log';
 $txt['log_moderation'] = 'Moderation Log';
 $txt['log_spider'] = 'Spider Log';
-$txt['log_pruning'] = 'Log Pruning';
-$txt['log_pruning_desc'] = 'Use these tools to prune older entries in the various logs.';
+$txt['log_settings'] = 'Log Settings';
+$txt['log_settings_desc'] = 'Use these tools to configure how logs work, and to remove older entries in the various logs.';
 
 $txt['mailqueue_title'] = 'Email Settings';
 

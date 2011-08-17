@@ -48,6 +48,7 @@ $txt['databaseSession_loose'] = 'Allow browsers to go back to cached pages';
 $txt['databaseSession_lifetime'] = 'Seconds before an unused session timeout';
 $txt['enableErrorLogging'] = 'Enable error logging';
 $txt['enableErrorQueryLogging'] = 'Include database query in the error log';
+$txt['logPruning'] = 'Log Pruning';
 $txt['pruningOptions'] = 'Enable pruning of log entries';
 $txt['pruneErrorLog'] = 'Remove error log entries older than<dfn>(0 to disable)</dfn>';
 $txt['pruneModLog'] = 'Remove moderation log entries older than<dfn>(0 to disable)</dfn>';
