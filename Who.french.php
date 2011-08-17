@@ -141,7 +141,7 @@ $txt['media_wo_hidden'] = 'Rôde quelque part dans la galerie, à un endroit ins
 
 // Credits text
 $txt['credits'] = 'Crédits';
-$txt['credits_intro'] = 'Wedge est un dérivé du logiciel de forum <a href="http://www.simplemachines.org/">Simple Machines</a>, distribué sous licence propre. Voici la liste des contributeurs ayant permis de donner vie au projet.';
+$txt['credits_intro'] = 'Wedge est un dérivé du logiciel de forum <a href="http://www.simplemachines.org/">Simple Machines</a> 2.0, distribué sous licence propre. Voici la liste des contributeurs ayant permis de donner vie au projet.';
 $txt['credits_team'] = 'L\'équipe';
 $txt['credits_smf2_team'] = 'Équipe d\'origine de SMF 2.0';
 $txt['credits_special'] = 'Remerciements spéciaux';

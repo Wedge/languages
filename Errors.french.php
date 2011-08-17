@@ -367,8 +367,6 @@ $txt['custom_option_not_unique'] = 'Le nom du champ n\'est pas unique&nbsp;!';
 $txt['warning_no_reason'] = 'Vous devez entrer une raison pour sanctionner un membre';
 $txt['warning_notify_blank'] = 'Vous avez choisi de notifier l\'utilisateur, mais vous n\'avez pas rempli les champs de titre/message.';
 
-$txt['cannot_connect_doc_site'] = 'Impossible de se connecter au manuel en ligne de Simple Machines. Veuillez vous assurer que votre configuration serveur permet les connexions Internet externes et réessayez plus tard.';
-
 $txt['movetopic_no_reason'] = 'Vous devez préciser une raison pour le déplacement du sujet, ou désactiver l\'option \'Poster un message de redirection\'.';
 
 // OpenID error strings
