@@ -315,15 +315,14 @@ $txt['lang_entries_not_writable'] = '<strong>Attention</strong>&nbsp;: le fichie
 $txt['languages_ltr'] = 'De droite à gauche';
 
 $txt['add_language'] = 'Ajouter une Langue';
-$txt['add_language_smf'] = 'Télécharger à partir de Wedge';
-$txt['add_language_smf_browse'] = 'Nom de la langue à rechercher, ou laisser vide pour rechercher tout.';
-$txt['add_language_smf_install'] = 'Installer';
-$txt['add_language_smf_found'] = 'Les langues suivantes ont été trouvées. Cliquez sur le lien d\'installation à côté de la langue que vous souhaitez installer, vous serez redirigé vers le gestionnaire d\'extensions pour l\'installer.';
+$txt['add_language_wedge'] = 'Télécharger à partir de Wedge';
+$txt['add_language_wedge_browse'] = 'Nom de la langue à rechercher, ou laisser vide pour rechercher tout.';
+$txt['add_language_wedge_install'] = 'Installer';
+$txt['add_language_wedge_found'] = 'Les langues suivantes ont été trouvées. Cliquez sur le lien d\'installation à côté de la langue que vous souhaitez installer, vous serez redirigé vers le gestionnaire d\'extensions pour l\'installer.';
 $txt['add_language_error_no_response'] = 'Le site web de Wedge ne répond pas. Veuillez réessayer plus tard.';
 $txt['add_language_error_no_files'] = 'Aucun fichier n\'a été trouvé.';
-$txt['add_language_smf_desc'] = 'Description';
-$txt['add_language_smf_utf8'] = 'UTF-8';
-$txt['add_language_smf_version'] = 'Version';
+$txt['add_language_wedge_desc'] = 'Description';
+$txt['add_language_wedge_version'] = 'Version';
 
 $txt['edit_language_entries_primary'] = 'Ci-dessous se trouvent les paramètres de base de langue pour ce pack de Langue.';
 $txt['edit_language_entries'] = 'Modifier les entrées de langue';

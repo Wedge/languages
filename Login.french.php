@@ -21,8 +21,7 @@ $txt['now_a_member'] = 'Vous êtes maintenant un membre du forum.';
 // Use numeric entities in the below string.
 $txt['your_password'] = 'et votre mot de passe est';
 $txt['valid_email_needed'] = 'Merci d\'entrer une adresse e-mail valide, %1$s.';
-$txt['required_info'] = 'Informations Requises';
-$txt['identification_by_smf'] = 'Utilisé uniquement pour la connexion à SMF.';
+$txt['required_info'] = 'Informations requises';
 $txt['additional_information'] = 'Informations supplémentaires';
 $txt['warning'] = 'Attention&nbsp;!';
 $txt['only_members_can_access'] = 'Seuls les membres inscrits sont autorisés à accéder à cette section.';
