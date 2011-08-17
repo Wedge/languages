@@ -434,8 +434,6 @@ $helptxt['pm_posts_per_hour'] = 'Cette option limitera le nombre de messages per
 
 $helptxt['default_personal_text'] = 'Choisit le texte personnel qu\'un nouvel utilisateur aura par défaut.';
 
-$helptxt['modlog_enabled'] = 'Enregistre toutes les actions de modération dans un journal.';
-
 $helptxt['registration_method'] = 'Cette fonction détermine quelle méthode d\'inscription doit être adoptée pour les gens désirant rejoindre votre forum. Vous pouvez sélectionner un de ces choix&nbsp;:<br><br>
 	<ul class="normallist">
 		<li>
