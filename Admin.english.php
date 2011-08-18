@@ -534,6 +534,7 @@ $txt['cookies_sessions_settings'] = 'Cookies and Sessions';
 $txt['caching_settings'] = 'Caching';
 $txt['load_balancing_settings'] = 'Load Balancing';
 $txt['proxy_settings'] = 'Proxy Settings';
+$txt['debug_settings'] = 'Debugging';
 
 $txt['language_configuration'] = 'Languages';
 $txt['language_description'] = 'This section allows you to edit languages installed on your forum, download new ones from the Wedge website. You may also edit language-related settings here.';
