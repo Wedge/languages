@@ -129,7 +129,6 @@ $txt['loadavg_allunread'] = 'Limite pour désactiver la liste des sujets non lus
 $txt['loadavg_unreadreplies'] = 'Limite pour désactiver la liste des réponses non lues';
 $txt['loadavg_show_posts'] = 'Limite pour désactiver l\'affichage des messages';
 $txt['loadavg_forum'] = 'Limite pour désactiver <strong>complètement</strong> le forum';
-$txt['loadavg_disabled_windows'] = '<span class="error">Les serveurs Windows ne supportent pas la répartition de charge.</span>';
 $txt['loadavg_disabled_conf'] = '<span class="error">La configuration de votre serveur ne supporte pas la répartition de charge.</span>';
 
 $txt['reverse_proxy'] = 'Ajouter le support des proxies inverses';

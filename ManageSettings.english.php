@@ -130,7 +130,6 @@ $txt['loadavg_allunread'] = 'Threshold to disabling all unread topics';
 $txt['loadavg_unreadreplies'] = 'Threshold to disabling unread replies';
 $txt['loadavg_show_posts'] = 'Threshold to disabling showing user posts';
 $txt['loadavg_forum'] = 'Threshold to disabling the forum <strong>completely</strong>';
-$txt['loadavg_disabled_windows'] = '<span class="error">Load balancing support is not available on Windows.</span>';
 $txt['loadavg_disabled_conf'] = '<span class="error">Load balancing support is disabled by your host configuration.</span>';
 
 $txt['reverse_proxy'] = 'Enable reverse proxy support';
