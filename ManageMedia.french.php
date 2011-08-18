@@ -248,7 +248,6 @@ $txt['media_admin_modlog_move'] = 'Déplacé <a href=%s">%s</a> de l\'album <a h
 $txt['media_admin_modlog_qsearch'] = 'Recherche rapide par membre';
 $txt['media_admin_modlog_filter'] = 'Journal de modération filtré par <a href="%s">%s</a>';
 $txt['media_admin_view_image'] = 'Voir l\'image';
-$txt['media_admin_live'] = 'En direct de SMF-Media.com';
 $txt['media_admin_ftp_files'] = 'Fichiers dans le dossier FTP';
 $txt['media_admin_profile_add'] = 'Créer un profil';
 $txt['media_admin_prof_name'] = 'Nom du profil';

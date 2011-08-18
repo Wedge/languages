@@ -265,7 +265,7 @@ $txt['unable_to_create_temporary'] = 'L\'outil de recherche a été incapable de
 
 $txt['package_no_file'] = 'Impossible de trouver le fichier d\'extension&nbsp;!';
 $txt['packageget_unable'] = 'Impossible de se connecter au serveur. Veuillez réessayer en utilisant plutôt <a href="%1$s" target="_blank" class="new_win">cette URL</a>.';
-$txt['not_on_simplemachines'] = 'Désolé, les extensions ne peuvent être téléchargées que de cette façon depuis le serveur simplemachines.org.';
+$txt['package_not_on_wedge'] = 'Désolé, les extensions ne peuvent être téléchargées de cette façon que depuis le serveur wedge.org.';
 $txt['package_cant_uninstall'] = 'Cette extension n\'a jamais été installée ou a déjà été désinstallée - vous ne pouvez pas la désinstaller maintenant.';
 $txt['package_cant_download'] = 'Vous ne pouvez pas installer ou télécharger d\'extensions parce que le répertoire /Packages ou un de ses fichiers est bloqué en écriture&nbsp;!';
 $txt['package_upload_error_nofile'] = 'Vous n\'avez pas choisi d\'extension à envoyer.';

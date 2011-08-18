@@ -73,7 +73,7 @@ $txt['package_installed_redirect_go_now'] = 'Redirect Now';
 $txt['package_installed_redirect_cancel'] = 'Return to Add-on Manager';
 
 $txt['packages_latest'] = 'Latest Add-ons';
-$txt['packages_latest_fetch'] = 'Attempting to fetch the most popular and recent add-ons from www.simplemachines.org...';
+$txt['packages_latest_fetch'] = 'Attempting to fetch the most popular and recent add-ons from wedge.org...';
 
 $txt['package_upgrade'] = 'Upgrade';
 $txt['package_uninstall_readme'] = 'Uninstallation Readme';

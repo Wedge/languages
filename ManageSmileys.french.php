@@ -20,7 +20,7 @@ $txt['smiley_sets_url'] = 'URL';
 $txt['smiley_sets_default'] = 'Défaut';
 
 $txt['smiley_sets_latest'] = 'Smileys du Moment';
-$txt['smiley_sets_latest_fetch'] = 'Chargement des infos sur les smileys depuis simplemachines.org...';
+$txt['smiley_sets_latest_fetch'] = 'Chargement des infos sur les smileys depuis wedge.org...';
 
 $txt['smileys_add_method'] = 'Source de l\'image';
 $txt['smileys_add_existing'] = 'Utiliser un fichier existant';

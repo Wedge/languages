@@ -26,7 +26,7 @@ $txt['theme_installed'] = 'Installé avec succès';
 $txt['theme_installed_message'] = 'a été installé avec succès.';
 
 $txt['theme_latest'] = 'Les Thèmes - les Derniers et les Plus Réussis';
-$txt['theme_latest_fetch'] = 'Recherche des derniers thèmes depuis www.simplemachines.org...';
+$txt['theme_latest_fetch'] = 'Recherche des derniers thèmes depuis wedge.org...';
 
 $txt['theme_pick'] = 'Choisir un thème...';
 $txt['theme_preview'] = 'Prévisualiser ce thème';

@@ -265,7 +265,7 @@ $txt['unable_to_create_temporary'] = 'The search function was unable to create t
 
 $txt['package_no_file'] = 'Unable to find add-on package file!';
 $txt['packageget_unable'] = 'Unable to connect to the server. Please try using <a href="%1$s" target="_blank" class="new_win">this URL</a> instead.';
-$txt['not_on_simplemachines'] = 'Sorry, add-ons can only be downloaded like this from the simplemachines.org server.';
+$txt['package_not_on_wedge'] = 'Sorry, add-ons can only be downloaded like this from the wedge.org server.';
 $txt['package_cant_uninstall'] = 'This add-on was either never installed or was already uninstalled - you can\'t uninstall it now.';
 $txt['package_cant_download'] = 'You cannot download or install new add-ons because the Packages directory or one of the files in it are not writable!';
 $txt['package_upload_error_nofile'] = 'You did not select an add-on to upload.';

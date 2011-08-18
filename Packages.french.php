@@ -73,7 +73,7 @@ $txt['package_installed_redirect_go_now'] = 'Redirection immédiate';
 $txt['package_installed_redirect_cancel'] = 'Revenir au gestionnaire d\'extensions';
 
 $txt['packages_latest'] = 'Dernières Extensions';
-$txt['packages_latest_fetch'] = 'Tentative de récupération des extensions les plus récentes et populaires depuis www.simplemachines.org...';
+$txt['packages_latest_fetch'] = 'Tentative de récupération des extensions les plus récentes et populaires depuis wedge.org...';
 
 $txt['package_upgrade'] = 'Mettre à jour';
 $txt['package_uninstall_readme'] = 'Instructions de désinstallation';
