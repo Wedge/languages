@@ -245,7 +245,6 @@ $helptxt['trackStats'] = 'Stats:<br>This will allow users to see the latest post
 		Page views:<br>Adds another column to the stats page with the number of pageviews on your forum.';
 $helptxt['titlesEnable'] = 'Switching Custom Titles on will allow members with the relevant permission to create a special title for themselves.
 		This will be shown underneath the name.<br><em>For example:</em><br>Pete<br>Cool Guy';
-$helptxt['onlineEnable'] = 'This will show an image to indicate whether the member is online or offline';
 $helptxt['todayMod'] = 'This will show "Today" or "Yesterday" instead of the date.<br><br>
 		<strong>Examples:</strong><br><br>
 		<dt>
@@ -446,7 +445,6 @@ $helptxt['who_enabled'] = 'This option allows you to turn on or off the ability 
 
 $helptxt['recycle_enable'] = '"Recycles" deleted topics and posts to the specified board.';
 
-$helptxt['enableReportPM'] = 'This option allows your users to report personal messages they receive to the administration team. This may be useful in helping to track down any abuse of the personal messaging system.';
 $helptxt['max_pm_recipients'] = 'This option allows you to set the maximum amount of recipients allowed in a single personal message sent by a forum member. This may be used to help stop spam abuse of the PM system. Note that users with permission to send newsletters are exempt from this restriction. Set to zero for no limit.';
 $helptxt['pm_posts_verification'] = 'This setting will force users to enter a code shown on a verification image each time they are sending a personal message. Only users with a post count below the number set will need to enter the code - this should help combat automated spamming scripts.';
 $helptxt['pm_posts_per_hour'] = 'This will limit the number of personal messages which may be sent by a user in a one hour period. This does not affect admins or moderators.';

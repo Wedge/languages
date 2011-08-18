@@ -237,7 +237,6 @@ $helptxt['trackStats'] = 'Stats&nbsp;:<br>Permet aux visiteurs de voir les derni
 	Pages vues&nbsp;:<br>Ajoute une autre colonne à la page des statistiques contenant le nombre de pages vues sur votre forum.';
 $helptxt['titlesEnable'] = 'Activer les titres personnels permettra aux membres possédant les permissions suffisantes de s\'attribuer un titre spécial pour eux-mêmes.
 		Il sera affiché sous leur pseudonyme.<br><em>Par exemple :</em><br>Loulou<br>Oui, c\'est moi';
-$helptxt['onlineEnable'] = 'Ceci affichera une image indiquant si l\'utilisateur est connecté ou non en ce moment.';
 $helptxt['todayMod'] = 'Cette option affichera "Aujourd\'hui" ou "Hier" à la place de la date.<br><br>
 		<strong>Exemples :</strong><br><br>
 		<dt>
@@ -427,7 +426,6 @@ $helptxt['who_enabled'] = 'Cette option vous permet d\'activer ou non la possibi
 
 $helptxt['recycle_enable'] = '"Recycle" les sujets et messages supprimés vers une section spécifique, souvent une section cachée aux utilisateurs normaux.';
 
-$helptxt['enableReportPM'] = 'Cette option permet aux utilisateurs de rapporter des messages personnels qu\'ils ont reçus à l\'équipe d\'administration. Pratique pour aider à traquer les abus effectués à l\'aide du système de messagerie personnelle.';
 $helptxt['max_pm_recipients'] = 'Cette option vous permet de limiter la quantité maximale de messages privés envoyé par un membre du forum. Cette option permet de lutter contre le pollupostage ("spam") du système de MP. Notez que les utilisateurs ayant la permission d\'envoyer des bulletins d\'informations ne sont pas concernés par cette restriction. Réglez-la à 0 pour désactiver la fonction.';
 $helptxt['pm_posts_verification'] = 'Cette option forcera les utilisateurs à entrer un code affiché sur une image de vérification à chaque fois qu\'ils envoient un message personnel. Seuls les utilisateurs avec un compteur de messages en dessous de l\'ensemble de nombres auront besoin de saisir le code - Cela devrait aider à lutter contre les robots spammeurs.';
 $helptxt['pm_posts_per_hour'] = 'Cette option limitera le nombre de messages personnels qui pourront être envoyés par un utilisateur en une heure de temps. Cela n\'affecte pas les admins ou modérateurs.';
