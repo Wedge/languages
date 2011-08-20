@@ -30,9 +30,9 @@ $txt['theme_latest_fetch'] = 'Recherche des derniers thèmes depuis wedge.org...
 
 $txt['theme_pick'] = 'Choisir un thème...';
 $txt['theme_preview'] = 'Prévisualiser ce thème';
-$txt['theme_set'] = 'Utiliser ce thème';
-$txt['theme_user'] = 'personne utilise ce thème.';
-$txt['theme_users'] = 'personnes utilisent ce Thème.';
+$txt['theme_set'] = 'Utiliser ce thème et son style par défaut';
+$txt['theme_users_1'] = '%d personne utilise ce thème.';
+$txt['theme_users_n'] = '%d personnes utilisent ce Thème.';
 
 $txt['theme_skins'] = 'Styles';
 $txt['theme_skin_preview'] = 'Prévisualiser ce style';
