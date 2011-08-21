@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; Themes
 
-$txt['themeadmin_explain'] = 'Les thèmes <em>(parfois appelés \'apparences\', \'habillages\' ou \'skins\')</em> sont des présentations graphiques pour votre forum. Ces paramètres affectent la sélection des thèmes et quel thème les invités et les autres membres utilisent.';
+$txt['themeadmin_explain'] = 'Les thèmes <em>(parfois appelés \'apparences\' ou \'habillages\')</em> sont des présentations graphiques pour votre forum. Ces paramètres affectent la sélection des thèmes et quel thème les invités et les autres membres utilisent.';
 
 $txt['theme_allow'] = 'Autoriser les membres à choisir leur propre thème ?';
 $txt['theme_guests'] = 'Thème par défaut pour les invités&nbsp;';
