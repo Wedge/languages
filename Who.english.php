@@ -140,33 +140,34 @@ $txt['media_wo_unknown'] = 'Doing some unknown action in the gallery';
 $txt['media_wo_hidden'] = 'Somewhere in the gallery, in a place you can\'t see... Scary huh?';
 
 // Credits text
-$txt['credits'] = 'Credits';
+$txt['credits_site'] = 'Website Credits';
+$txt['credits_admins_1'] = 'Administrator';
+$txt['credits_admins_n'] = 'Administrators';
+$txt['credits_moderators_1'] = 'Moderator';
+$txt['credits_moderators_n'] = 'Moderators';
+$txt['credits_software'] = 'Software Credits';
 $txt['credits_intro'] = 'This is a fork of the <a href="http://www.simplemachines.org/">Simple Machines</a> 2.0 forum software. It is released under its own license. Here is the list of those who sacrificed themselves for its glory.';
 $txt['credits_team'] = 'The Team';
 $txt['credits_smf2_team'] = 'Original SMF 2.0 Team';
 $txt['credits_special'] = 'Special Thanks';
 $txt['credits_and'] = 'and';
-$txt['credits_anyone'] = 'And for anyone we may have missed, thank you!';
 $txt['credits_copyright'] = 'Copyrights';
 $txt['credits_forum'] = 'Forum';
 $txt['credits_images'] = 'Images';
 $txt['credits_modifications'] = 'Add-ons';
+$txt['credits_groups_founder'] = 'Founder';
 $txt['credits_groups_ps'] = 'Founders &amp; Directors';
 $txt['credits_groups_dev'] = 'Developers';
-$txt['credits_groups_support'] = 'Technical &amp; Moral Support';
-$txt['credits_groups_customize'] = 'Customizers';
-$txt['credits_groups_docs'] = 'Documentation Writers';
-$txt['credits_groups_marketing'] = 'Marketing';
-$txt['credits_groups_internationalizers'] = 'Localizers';
-$txt['credits_groups_servers'] = 'Servers Administrators';
-// Replace "English" with the name of this language pack in the string below.
-$txt['credits_groups_translation'] = 'English Translation';
-$txt['credits_groups_translators'] = 'Language Translators';
-$txt['credits_translators_message'] = 'Thank you for your efforts. They make it possible for people all around the world to use Wedge.';
 $txt['credits_groups_consultants'] = 'Technical Consultants';
-$txt['credits_groups_beta'] = 'Beta Testers';
-$txt['credits_beta_message'] = 'The invaluable few who tirelessly find bugs, provide feedback, and drive the developers crazier.';
-$txt['credits_groups_founder'] = 'Founder';
+$txt['credits_groups_translation'] = 'Translation';
+// $txt['credits_groups_support'] = 'Technical &amp; Moral Support';
+// $txt['credits_groups_customize'] = 'Customizers';
+// $txt['credits_groups_docs'] = 'Documentation Writers';
+// $txt['credits_groups_marketing'] = 'Marketing';
+// $txt['credits_groups_internationalizers'] = 'Localizers';
+
+// Replace "English" with the name of this language pack in the string below.
+$txt['credits_groups_language'] = 'English version';
 
 // List of people who have made more than a token contribution to this translation. (blank for English)
 $txt['translation_credits'] = array();

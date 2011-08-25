@@ -140,37 +140,38 @@ $txt['media_wo_unknown'] = 'Effectue une action inconnue dans la galerie';
 $txt['media_wo_hidden'] = 'Rôde quelque part dans la galerie, à un endroit insondable...';
 
 // Credits text
-$txt['credits'] = 'Crédits';
-$txt['credits_intro'] = 'Wedge est un dérivé du logiciel de forum <a href="http://www.simplemachines.org/">Simple Machines</a> 2.0, distribué sous licence propre. Voici la liste des contributeurs ayant permis de donner vie au projet.';
-$txt['credits_team'] = 'L\'équipe';
-$txt['credits_smf2_team'] = 'Équipe d\'origine de SMF 2.0';
+$txt['credits_site'] = 'Crédits de ce site web';
+$txt['credits_admins_1'] = 'Administrateur';
+$txt['credits_admins_n'] = 'Administrateurs';
+$txt['credits_moderators_1'] = 'Modérateur';
+$txt['credits_moderators_n'] = 'Modérateurs';
+$txt['credits_software'] = 'Crédits du logiciel';
+$txt['credits_intro'] = 'Wedge est dérivé du logiciel de forum <a href="http://www.simplemachines.org/">Simple Machines</a> 2.0, distribué sous licence propre. Voici la liste des contributeurs ayant permis de donner vie au projet.';
+$txt['credits_team'] = 'L\'équipe de Wedge';
+$txt['credits_smf2_team'] = 'L\'équipe d\'origine de SMF 2.0';
 $txt['credits_special'] = 'Remerciements spéciaux';
 $txt['credits_and'] = 'et';
-$txt['credits_anyone'] = 'Et à tous ceux que nous avons oubliés&nbsp;: merci&nbsp;!';
 $txt['credits_copyright'] = 'Copyrights';
 $txt['credits_forum'] = 'Forum';
 $txt['credits_images'] = 'Images';
 $txt['credits_modifications'] = 'Spécialiste Extensions/Thèmes';
+$txt['credits_groups_founder'] = 'Fondateur';
 $txt['credits_groups_ps'] = 'Fondateurs &amp; Directeurs';
 $txt['credits_groups_dev'] = 'Développeurs';
-$txt['credits_groups_support'] = 'Soutien Moral &amp; Technique';
-$txt['credits_groups_customize'] = 'Personnaliseurs';
-$txt['credits_groups_docs'] = 'Responsables de la Documentation';
-$txt['credits_groups_marketing'] = 'Marketing';
-$txt['credits_groups_internationalizers'] = 'Localisation';
-$txt['credits_groups_servers'] = 'Admins Réseau';
-// Replace "English" with the name of this language pack in the string below.
-$txt['credits_groups_translation'] = 'Traduction française';
-$txt['credits_groups_translators'] = 'Traducteurs';
-$txt['credits_translators_message'] = 'Merci pour vos efforts, ils ont permis d\'ouvrir les portes de Wedge au monde entier.';
 $txt['credits_groups_consultants'] = 'Consultants Techniques';
-$txt['credits_groups_beta'] = 'Beta Testeurs';
-$txt['credits_beta_message'] = 'Les valeureux élus qui ont sans relâche ni pitié traqué les bugs, apporté leurs idées et fait basculer les développeurs dans la démence.';
-$txt['credits_groups_founder'] = 'Fondateur';
+$txt['credits_groups_translation'] = 'Traduction';
+// $txt['credits_groups_support'] = 'Soutien Moral &amp; Technique';
+// $txt['credits_groups_customize'] = 'Personnaliseurs';
+// $txt['credits_groups_docs'] = 'Responsables de la Documentation';
+// $txt['credits_groups_marketing'] = 'Marketing';
+// $txt['credits_groups_internationalizers'] = 'Localisation';
+
+// Replace "English" with the name of this language pack in the string below.
+$txt['credits_groups_language'] = 'Version française';
 
 // List of people who have made more than a token contribution to this translation. (Blank for English)
 $txt['translation_credits'] = array(
-	'<i>Traduction</i>&nbsp;: <a href="http://nao.noisen.com/">René-Gilles Deberdt</a> (on n\'est jamais si bien servi que par soi-même). <i>Et pour l\'ancienne traduction</i>&nbsp;: Alexandre P., Sparcool et Lunatic.',
+	'<a href="http://nao.noisen.com/">Nao &#23578; (Ren&eacute;-Gilles Deberdt)</a>, parce qu\'on n\'est jamais si bien servi que par soi-même. La traduction originale de SMF 1.x est créditée à Alexandre P., Sparcool et Lunatic.',
 );
 
 ?>
