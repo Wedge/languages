@@ -328,7 +328,6 @@ $txt['media_admin_php_ver'] = 'PHP Version';
 $txt['media_admin_about_header'] = 'Server information and installed modules';
 $txt['media_admin_credits_thanks'] = 'The people who made this Media area possible!';
 $txt['media_admin_credits'] = 'Credits';
-$txt['media_admin_thanks'] = 'Thanks to...';
 $txt['media_admin_about_modd'] = 'Gallery moderators and managers';
 $txt['media_admin_managers'] = 'Managers';
 $txt['media_admin_moderators'] = 'Moderators';

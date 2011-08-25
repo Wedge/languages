@@ -146,7 +146,7 @@ $txt['credits_admins_n'] = 'Administrateurs';
 $txt['credits_moderators_1'] = 'Modérateur';
 $txt['credits_moderators_n'] = 'Modérateurs';
 $txt['credits_software'] = 'Crédits du logiciel';
-$txt['credits_intro'] = 'Wedge est dérivé du logiciel de forum <a href="http://www.simplemachines.org/">Simple Machines</a> 2.0, distribué sous licence propre. Voici la liste des contributeurs ayant permis de donner vie au projet.';
+$txt['credits_intro'] = 'Wedge est dérivé du logiciel de forum <a href="http://www.simplemachines.org/">Simple Machines</a> 2.0, et distribué sous sa propre <a href="http://wedge.org/license/">licence</a>. Voici la liste des contributeurs ayant permis de donner vie au projet.';
 $txt['credits_team'] = 'L\'équipe de Wedge';
 $txt['credits_smf2_team'] = 'L\'équipe d\'origine de SMF 2.0';
 $txt['credits_special'] = 'Remerciements spéciaux';
@@ -160,18 +160,19 @@ $txt['credits_groups_ps'] = 'Fondateurs &amp; Directeurs';
 $txt['credits_groups_dev'] = 'Développeurs';
 $txt['credits_groups_consultants'] = 'Consultants Techniques';
 $txt['credits_groups_translation'] = 'Traduction';
-// $txt['credits_groups_support'] = 'Soutien Moral &amp; Technique';
-// $txt['credits_groups_customize'] = 'Personnaliseurs';
-// $txt['credits_groups_docs'] = 'Responsables de la Documentation';
-// $txt['credits_groups_marketing'] = 'Marketing';
-// $txt['credits_groups_internationalizers'] = 'Localisation';
+$txt['credits_tools'] = 'Outils';
+$txt['credits_tools_idtags'] = 'Analyseur/extracteur de données vidéo/audio.';
+$txt['credits_tools_exif'] = 'Bibliothèque d\'extraction de métadonnées Exif.';
+$txt['credits_tools_uploader'] = 'Uploader en masse basé sur Flash et Ajax. Barres de progression tirées de <a href="http://digitarald.de/project/fancyupload/">FancyUpload</a>.';
+$txt['credits_tools_player'] = 'Lecteur vidéo/audio en Flash, gratuit pour utilisation non commerciale.';
 
-// Replace "English" with the name of this language pack in the string below.
+// Replace the following string with the name of this language pack.
 $txt['credits_groups_language'] = 'Version française';
 
-// List of people who have made more than a token contribution to this translation. (Blank for English)
+// List of people who have made more than a token contribution to this translation.
 $txt['translation_credits'] = array(
-	'<a href="http://nao.noisen.com/">Nao &#23578; (Ren&eacute;-Gilles Deberdt)</a>, parce qu\'on n\'est jamais si bien servi que par soi-même. La traduction originale de SMF 1.x est créditée à Alexandre P., Sparcool et Lunatic.',
+	'<a href="http://nao.noisen.com/">Nao &#23578; (Ren&eacute;-Gilles Deberdt)</a>, parce qu\'on n\'est jamais si bien servi que par soi-même.',
+	'La traduction originale de SMF 1.x est créditée à Alexandre P., Sparcool et Lunatic.',
 );
 
 ?>

@@ -146,8 +146,8 @@ $txt['credits_admins_n'] = 'Administrators';
 $txt['credits_moderators_1'] = 'Moderator';
 $txt['credits_moderators_n'] = 'Moderators';
 $txt['credits_software'] = 'Software Credits';
-$txt['credits_intro'] = 'This is a fork of the <a href="http://www.simplemachines.org/">Simple Machines</a> 2.0 forum software. It is released under its own license. Here is the list of those who sacrificed themselves for its glory.';
-$txt['credits_team'] = 'The Team';
+$txt['credits_intro'] = 'This is a fork of the <a href="http://www.simplemachines.org/">Simple Machines</a> 2.0 forum software. It is released under its own <a href="http://wedge.org/license/">license</a>. Here is the list of those who sacrificed themselves for its glory.';
+$txt['credits_team'] = 'Wedge Team';
 $txt['credits_smf2_team'] = 'Original SMF 2.0 Team';
 $txt['credits_special'] = 'Special Thanks';
 $txt['credits_and'] = 'and';
@@ -160,16 +160,17 @@ $txt['credits_groups_ps'] = 'Founders &amp; Directors';
 $txt['credits_groups_dev'] = 'Developers';
 $txt['credits_groups_consultants'] = 'Technical Consultants';
 $txt['credits_groups_translation'] = 'Translation';
-// $txt['credits_groups_support'] = 'Technical &amp; Moral Support';
-// $txt['credits_groups_customize'] = 'Customizers';
-// $txt['credits_groups_docs'] = 'Documentation Writers';
-// $txt['credits_groups_marketing'] = 'Marketing';
-// $txt['credits_groups_internationalizers'] = 'Localizers';
+$txt['credits_tools'] = 'Libraries';
+$txt['credits_tools_idtags'] = 'Video/audio data parser/analyzer.';
+$txt['credits_tools_exif'] = 'Exif metadata parsing library.';
+$txt['credits_tools_uploader'] = 'Flash/Ajax-based mass uploader. Progress bars from <a href="http://digitarald.de/project/fancyupload/">FancyUpload</a>.';
+$txt['credits_tools_player'] = 'Flash-based video/audio player, free for non-commercial use.';
 
-// Replace "English" with the name of this language pack in the string below.
+// Replace the following string with the name of this language pack.
 $txt['credits_groups_language'] = 'English version';
 
-// List of people who have made more than a token contribution to this translation. (blank for English)
-$txt['translation_credits'] = array();
+// List of people who have made more than a token contribution to this translation. (See Who.french.php for an example.)
+$txt['translation_credits'] = array(
+);
 
 ?>
