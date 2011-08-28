@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; Index
 
-global $forum_copyright, $webmaster_email, $scripturl, $context, $boardurl;
+global $webmaster_email, $scripturl, $context, $boardurl;
 
 // Locale (strftime, pspell_new) and spelling. (pspell_new, can be left as '' normally.)
 // For more information see:
@@ -480,11 +480,9 @@ $txt['status'] = 'État';
 $txt['go_up'] = 'En haut';
 $txt['go_down'] = 'En bas';
 
-$txt['dynamic_replacements'] = '<abbr title="Remplacements Dynamiques">RD</abbr>';
 $txt['site_credits'] = 'Crédits du site';
-
-$forum_copyright = 'Propulsé par <a href="http://wedge.org/" target="_blank" class="new_win">Wedge %1$s</a>, logiciel en construction.
-&copy; 2010&ndash;2011, <a href="http://about.wedge.org/" target="_blank" class="new_win" title="À propos de Wedge">Wedgeward</a>';
+$txt['copyright'] = 'Propulsé par <a href="http://wedge.org/" target="_blank" class="new_win">Wedge</a>, logiciel en construction. &copy; Wedgeward.';
+$txt['dynamic_replacements'] = '<abbr title="Remplacements Dynamiques">RD</abbr>';
 
 $txt['birthdays'] = 'Anniversaires&nbsp;:';
 $txt['events'] = 'Événements&nbsp;:';
