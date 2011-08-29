@@ -80,7 +80,6 @@ $txt['today_disabled'] = 'Désactivé';
 $txt['today_only'] = 'Seulement Aujourd\'hui';
 $txt['yesterday_today'] = 'Aujourd\'hui &amp; Hier';
 $txt['enableVBStyleLogin'] = 'Afficher un champ de connexion sur toutes les pages';
-$txt['defaultMaxMembers'] = 'Membres par page dans la liste des membres';
 $txt['timeLoadPageEnable'] = 'Afficher le temps pris pour générer la page';
 $txt['disableHostnameLookup'] = 'Désactiver la recherche du nom d\'hôte';
 $txt['who_enabled'] = 'Activer &quot;Qui est en ligne&nbsp;?&quot;';
