@@ -62,7 +62,6 @@ $txt['cookieTime'] = 'Default login cookies length (in minutes)';
 $txt['localCookies'] = 'Enable local storage of cookies<dfn>(SSI won\'t work well with this on.)</dfn>';
 $txt['globalCookies'] = 'Use subdomain independent cookies<dfn>(turn off local cookies first!)</dfn>';
 $txt['secureCookies'] = 'Force cookies to be secure<dfn>(This only applies if you are using HTTPS - don\'t use otherwise!)</dfn>';
-$txt['securityDisable'] = 'Disable administration security';
 $txt['send_validation_onChange'] = 'Require reactivation after email change';
 $txt['approveAccountDeletion'] = 'Require admin approval when member deletes account';
 $txt['autoOptMaxOnline'] = 'Maximum users online when optimizing<dfn>(0 for no max.)</dfn>';

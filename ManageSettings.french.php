@@ -62,7 +62,6 @@ $txt['cookieTime'] = 'Durée par défaut des témoins (<em>cookies</em>) - en mi
 $txt['localCookies'] = 'Activer l\'archivage local des témoins<dfn>(SSI ne fonctionnera pas bien si ceci est activé.)</dfn>';
 $txt['globalCookies'] = 'Utiliser des témoins valides pour tous les sous-domaines<dfn>(désactivez d\'abord l\'archivage local des cookies&nbsp;!)</dfn>';
 $txt['secureCookies'] = 'Forcer la sécurisation des témoins<dfn>(Attention, à n\'utiliser que si votre site est en HTTPS&nbsp;!)</dfn>';
-$txt['securityDisable'] = 'Désactiver la protection d\'administration';
 $txt['send_validation_onChange'] = 'Demander une réactivation après un changement d\'adresse e-mail';
 $txt['approveAccountDeletion'] = 'Nécessiter l\'approbation d\'un admin quand un membre supprime son compte';
 $txt['autoOptMaxOnline'] = 'Attendre pour l\'optimisation que le nombre d\'utilisateurs en ligne ne dépasse pas<dfn>(0 pour aucune limite.)</dfn>';
