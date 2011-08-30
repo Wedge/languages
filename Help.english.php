@@ -389,6 +389,7 @@ $helptxt['globalCookies'] = 'Makes log in cookies available across subdomains. F
 	And your forum is at http://forum.mysite.org/,<br>
 	Using this option will allow you to access the forum\'s cookie on your site, for instance through the SSI.php bridge. Do not enable this if there are other subdomains (like hacker.mysite.org) not controlled by you.';
 $helptxt['secureCookies'] = 'Enabling this option will force the cookies created for users on your forum to be marked as secure. Only enable this option if you are using HTTPS throughout your site as it will break cookie handling otherwise!';
+$helptxt['securityDisable_why'] = 'Enter your account\'s password (the same one you use to login.)<br><br>Having to type this helps ensure that you want to access the administration panel, and that it is <strong>you</strong> doing it.';
 $helptxt['emailmembers'] = 'In this message you can use a few "variables". These are:<br>
 	{$board_url} - The URL to your forum.<br>
 	{$current_time} - The current time.<br>

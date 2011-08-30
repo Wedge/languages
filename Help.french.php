@@ -372,6 +372,7 @@ $helptxt['globalCookies'] = 'Permet l\'utilisation de cookies (« témoins ») i
 	Et votre forum est situé sur http://forum.chezmoi.org/,<br>
 	Activer cette fonction vous permettra d\'utiliser les cookies de votre forum sur votre site (grâce à SSI.php, par exemple). Ne l\'activez pas s\'il y a d\'autres sous-domaines qui ne sont pas sous votre contrôle (par exemple hacker.mysite.org).';
 $helptxt['secureCookies'] = 'Activer cette option forcera la sécurisation des cookies (« témoins ») créés pour les utilisateurs de votre forum. Ne l\'activez que si vous utilisez le protocole HTTPS sur tout votre site, faute de quoi la gestion des cookies sera fortement perturbée&nbsp;!';
+$helptxt['securityDisable_why'] = 'Entrez ici le mot de passe de votre compte &ndash; le même que vous utilisez pour vous connecter au forum.<br><br>Avoir à le taper de nouveau permet de vérifier que vous voulez bien accéder au panneau d\'administration, et que c\'est bien <strong>vous</strong> qui le faites.';
 $helptxt['emailmembers'] = 'Dans ce message, vous pouvez inclure certaines "variables". Celles-ci sont&nbsp;:<br>
 	{$board_url} - L\'URL vers votre forum.<br>
 	{$current_time} - L\'heure courante.<br>
