@@ -749,6 +749,7 @@ $txt['visual_verification_hidden'] = 'Laissez cette boîte vide !';
 $txt['summary'] = 'Résumé';
 $txt['account'] = 'Paramètres du Compte';
 $txt['forumprofile'] = 'Profil de base et avatar';
+$txt['change_skin'] = 'Changer de style';
 $txt['draft_posts'] = 'Brouillons';
 
 $txt['modSettings_title'] = 'Fonctionnalités et Options';

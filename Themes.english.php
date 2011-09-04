@@ -28,11 +28,11 @@ $txt['theme_installed_message'] = 'was installed successfully.';
 $txt['theme_latest'] = 'Latest and Greatest Themes';
 $txt['theme_latest_fetch'] = 'Fetching latest themes from wedge.org...';
 
-$txt['theme_pick'] = 'Choose a theme...';
 $txt['theme_preview'] = 'Preview theme';
 $txt['theme_set'] = 'Use this theme and its default style';
 $txt['theme_users_0'] = '%d person is using this theme.';
 $txt['theme_users_n'] = '%d people are using this theme.';
+$txt['current_theme'] = 'Current theme';
 
 $txt['theme_skins'] = 'Skins';
 $txt['theme_skin_preview'] = 'Preview skin';

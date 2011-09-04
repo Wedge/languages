@@ -58,9 +58,9 @@ $txt['secret_desc'] = 'Pour vous aider à retrouver votre mot de passe, vous pou
 $txt['secret_desc2'] = 'Choisissez-la prudemment et évitez que l\'on puisse deviner facilement la réponse&nbsp;! ';
 $txt['secret_answer'] = 'Réponse';
 $txt['secret_ask'] = 'Posez-moi ma question secrète';
-$txt['cant_retrieve'] = 'Il est impossible de récupérer votre mot de passe, mais vous pouvez en spécifier un nouveau en suivant le lien envoyé à votre adresse e-mail.  Vous avez aussi la possibilité de spécifier un nouveau mot de passe en répondant à votre question secrète.';
-$txt['incorrect_answer'] = 'Désolé, mais vous n\'avez pas défini de question secrète/réponse dans votre profil.  Merci de cliquer le bouton Retour, et utilisez la méthode par défaut pour obtenir votre mot de passe.';
-$txt['enter_new_password'] = 'Merci d\'entrer la réponse à votre question, et le mot de passe que vous souhaitez utiliser.  Votre mot de passe sera remplacé par celui fourni en répondant correctement à votre question.';
+$txt['cant_retrieve'] = 'Il est impossible de récupérer votre mot de passe, mais vous pouvez en spécifier un nouveau en suivant le lien envoyé à votre adresse e-mail. Vous avez aussi la possibilité de spécifier un nouveau mot de passe en répondant à votre question secrète.';
+$txt['incorrect_answer'] = 'Désolé, mais vous n\'avez pas défini de question secrète/réponse dans votre profil. Merci de cliquer le bouton Retour, et utilisez la méthode par défaut pour obtenir votre mot de passe.';
+$txt['enter_new_password'] = 'Merci d\'entrer la réponse à votre question, et le mot de passe que vous souhaitez utiliser. Votre mot de passe sera remplacé par celui fourni en répondant correctement à votre question.';
 $txt['password_success'] = 'Votre mot de passe a été modifié avec succès.<br>Cliquez <a href="' . $scripturl . '?action=login">ici</a> pour vous connecter.';
 $txt['secret_why_blank'] = 'Pourquoi est-ce vide&nbsp;? ';
 
@@ -74,12 +74,6 @@ $txt['authentication_password_secret'] = 'Je veux répondre à ma &quot;question
 $txt['openid_secret_reminder'] = 'Veuillez entrer votre réponse à la question ci-dessous. Si elle est correcte, votre identité OpenID sera affichée.';
 $txt['reminder_openid_is'] = 'L\'identité OpenID associée à votre compte est:<br>&nbsp;&nbsp;&nbsp;&nbsp;<strong>%1$s</strong><br><br>Veuillez la noter pour ne plus l\'oublier.';
 $txt['reminder_continue'] = 'Continuer';
-
-$txt['current_theme'] = 'Thème actuel';
-$txt['change'] = '(changer)';
-$txt['theme_preferences'] = 'Préférences de thème';
-$txt['theme_forum_default'] = 'Thème par défaut';
-$txt['theme_forum_default_desc'] = 'Ceci est le thème par défaut, ce qui signifie que votre thème changera suivant les réglages de l\'administrateur et/ou la section que vous consultez.';
 
 $txt['profileConfirm'] = 'Êtes-vous sûr de vouloir effacer ce membre ?';
 
@@ -176,17 +170,17 @@ $txt['change_authentication'] = 'D\'ici, vous pouvez changer votre manière de v
 $txt['profileEdit'] = 'Modifier le Profil';
 $txt['account_info'] = 'Cette page contient vos préférences de compte et recense toutes les informations critiques qui peuvent vous identifier sur le forum. Pour des raisons de sécurité, vous devrez entrer votre mot de passe (actuel) pour modifier ces informations.';
 $txt['forumProfile_info'] = 'Vous pouvez changer vos infos personnelles sur cette page. Ces informations seront visible à travers ' . $context['forum_name_html_safe'] . '. Si vous ne désirez pas présenter certaines infos, ne remplissez pas le champ - rien n\'est obligatoire ici.';
-$txt['theme'] = 'Affichage et disposition';
-$txt['theme_info'] = 'Cette section vous permet de personnaliser l\'affichage et la disposition du forum.';
+$txt['options'] = 'Préférences';
+$txt['options_info'] = 'Cette section vous permet de personnaliser le comportement visuel du site.';
 $txt['notification'] = 'Notifications et E-mails';
 $txt['notification_info'] = 'Wedge vous permet d\'être avisé des nouvelles réponses aux sujets, des nouveaux sujets et des nouvelles annonces du forum. Vous pouvez changer vos réglages ici, ou voir les sujets et sections que vous suivez actuellement.';
 $txt['groupmembership'] = 'Adhésions aux Groupes';
 $txt['groupMembership_info'] = 'Dans cette section de votre profil, vous pouvez changer le ou les groupes auxquels vous appartenez.';
+$txt['pmprefs'] = 'Messagerie Personnelle';
 $txt['ignoreboards'] = 'Ignorer des Sections';
 $txt['ignoreboards_info'] = 'Cette page vous permet d\'ignorer certains sites. Lorsqu\'un site est ignoré, l\'indicateur de nouveaux messages ne s\'affichera pas sur la liste des sites. Les nouveaux messages ne seront pas affichés lors de l\'utilisation de la fonction "messages non lus" (la recherche des messages ignorera ces sites). Malgré tout, les sites ignorés apparaîtront toujours sur la liste des sites, et les sujets mis à jour y seront signalés si vous y pénétrez. Enfin, la fonction "réponses non lues" prend en compte tous les sites, y compris ceux qui sont ignorés.';
-$txt['ignoretopics'] = 'Ignorer des Sujets';
-$txt['ignoretopics_info'] = 'Cette page vous permet d\'ignorer certains sujets. Lorsqu\'un sujet est ignoré, il n\'apparaîtra pas dans les fonctions <em>Messages non lus</em> et <em>Réponses non lues</em>. Malgré tout, les sujets ignorés apparaîtront toujours sur la liste des sections, et le dernier message non lu restera en mémoire.';
-$txt['pmprefs'] = 'Messagerie Personnelle';
+// $txt['ignoretopics'] = 'Ignorer des Sujets';
+// $txt['ignoretopics_info'] = 'Cette page vous permet d\'ignorer certains sujets. Lorsqu\'un sujet est ignoré, il n\'apparaîtra pas dans les fonctions <em>Messages non lus</em> et <em>Réponses non lues</em>. Malgré tout, les sujets ignorés apparaîtront toujours sur la liste des sections, et le dernier message non lu restera en mémoire.';
 
 $txt['profileAction'] = 'Actions';
 $txt['deleteAccount'] = 'Effacer ce compte';

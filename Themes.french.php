@@ -28,11 +28,11 @@ $txt['theme_installed_message'] = 'a été installé avec succès.';
 $txt['theme_latest'] = 'Les Thèmes - les Derniers et les Plus Réussis';
 $txt['theme_latest_fetch'] = 'Recherche des derniers thèmes depuis wedge.org...';
 
-$txt['theme_pick'] = 'Choisir un thème...';
 $txt['theme_preview'] = 'Prévisualiser ce thème';
 $txt['theme_set'] = 'Utiliser ce thème et son style par défaut';
 $txt['theme_users_1'] = '%d personne utilise ce thème.';
 $txt['theme_users_n'] = '%d personnes utilisent ce Thème.';
+$txt['current_theme'] = 'Thème actuel';
 
 $txt['theme_skins'] = 'Styles';
 $txt['theme_skin_preview'] = 'Prévisualiser ce style';
@@ -44,7 +44,7 @@ $txt['theme_edit_index'] = 'Modifier index.template.php (le modèle principal)';
 $txt['theme_edit_no_save'] = 'Ce fichier ne peut pas être sauveradé parce qu\'il n\'est pas inscriptible&nbsp;!  Veuillez vous assurer que le fichier suivant est en chmod 777 ou possède les permissions suffisantes.';
 $txt['theme_edit_save'] = 'Sauvegarder les Changements';
 
-$txt['theme_global_description'] = 'Ceci est le thème par défaut, ce qui signifie que votre thème changera suivant les paramètres de l\'administrateur et le forum que vous lisez.';
+$txt['theme_global_description'] = 'Ceci est le thème par défaut, ce qui signifie que votre thème changera suivant les réglages de l\'administrateur et/ou la section que vous consultez.';
 
 $txt['theme_url_config'] = 'URLs et Configuration des Thèmes';
 $txt['theme_options'] = 'Options et Préférences des Thèmes';

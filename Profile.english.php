@@ -58,9 +58,9 @@ $txt['secret_desc'] = 'To help retrieve your password, enter a question here wit
 $txt['secret_desc2'] = 'Choose carefully, you wouldn\'t want someone guessing your answer!';
 $txt['secret_answer'] = 'Answer';
 $txt['secret_ask'] = 'Ask me my question';
-$txt['cant_retrieve'] = 'You can\'t retrieve your password, but you can set a new one by following a link sent to you by email.  You also have the option of setting a new password by answering your secret question.';
-$txt['incorrect_answer'] = 'Sorry, but you did not specify a valid combination of Secret Question and Answer in your profile.  Please click on the back button, and use the default method of obtaining your password.';
-$txt['enter_new_password'] = 'Please enter the answer to your question, and the password you would like to use.  Your password will be changed to the one you select provided you answer the question correctly.';
+$txt['cant_retrieve'] = 'You can\'t retrieve your password, but you can set a new one by following a link sent to you by email. You also have the option of setting a new password by answering your secret question.';
+$txt['incorrect_answer'] = 'Sorry, but you did not specify a valid combination of Secret Question and Answer in your profile. Please click on the back button, and use the default method of obtaining your password.';
+$txt['enter_new_password'] = 'Please enter the answer to your question, and the password you would like to use. Your password will be changed to the one you select provided you answer the question correctly.';
 $txt['password_success'] = 'Your password was changed successfully.<br>Click <a href="' . $scripturl . '?action=login">here</a> to login.';
 $txt['secret_why_blank'] = 'why is this blank?';
 
@@ -74,12 +74,6 @@ $txt['authentication_password_secret'] = 'Let me set a new password by answering
 $txt['openid_secret_reminder'] = 'Please enter your answer to the question below. If you get it correct your OpenID identity will be shown.';
 $txt['reminder_openid_is'] = 'The OpenID identity associated with your account is:<br>&nbsp;&nbsp;&nbsp;&nbsp;<strong>%1$s</strong><br><br>Please make a note of this for future reference.';
 $txt['reminder_continue'] = 'Continue';
-
-$txt['current_theme'] = 'Current Theme';
-$txt['change'] = '(change)';
-$txt['theme_preferences'] = 'Theme preferences';
-$txt['theme_forum_default'] = 'Forum or Board Default';
-$txt['theme_forum_default_desc'] = 'This is the default theme, which means your theme will change along with the administrator\'s settings and the board you are viewing.';
 
 $txt['profileConfirm'] = 'Do you really want to delete this member?';
 
@@ -176,15 +170,17 @@ $txt['change_authentication'] = 'From this section you can change how you login 
 $txt['profileEdit'] = 'Modify Profile';
 $txt['account_info'] = 'These are your account settings. This page holds all critical information that identifies you on this forum. For security reasons, you will need to enter your (current) password to make changes to this information.';
 $txt['forumProfile_info'] = 'You can change your personal information on this page. This information will be displayed throughout ' . $context['forum_name_html_safe'] . '. If you aren\'t comfortable with sharing some information, simply skip it - nothing here is required.';
-$txt['theme'] = 'Look and Layout';
-$txt['theme_info'] = 'This section allows you to customize the look and layout of the forum.';
+$txt['options'] = 'Look and Layout';
+$txt['options_info'] = 'This section allows you to customize the look and layout of the forum.';
 $txt['notification'] = 'Notifications';
 $txt['notification_info'] = 'Wedge allows you to be notified of replies to posts, newly posted topics, and forum announcements. You can change those settings here, or oversee the topics and boards you are currently receiving notifications for.';
 $txt['groupmembership'] = 'Group Membership';
 $txt['groupMembership_info'] = 'In this section of your profile you can change which groups you belong to.';
-$txt['ignoreboards'] = 'Ignore Boards Options';
-$txt['ignoreboards_info'] = 'This page lets you ignore particular boards.  When a board is ignored, the new post indicator will not show up on the board index.  New posts will not show up using the "unread post" search link (when searching it will not look in those boards) however, ignored boards will still appear on the board index and upon entering will show which topics have new posts.  When using the "unread replies" link, new posts in an ignored board will still be shown.';
 $txt['pmprefs'] = 'Personal Messaging';
+$txt['ignoreboards'] = 'Ignore Boards Options';
+$txt['ignoreboards_info'] = 'This page lets you ignore particular boards. When a board is ignored, the new post indicator will not show up on the board index. New posts will not show up using the "unread post" search link (when searching it will not look in those boards) however, ignored boards will still appear on the board index and upon entering will show which topics have new posts. When using the "unread replies" link, new posts in an ignored board will still be shown.';
+// $txt['ignoretopics'] = 'Ignore Topics Options';
+// $txt['ignoretopics_info'] = 'This page lets you ignore particular topics. When a topic is ignored, it won\'t be shown on the various <em>Unread</em> feature pages. Ignored topics will still show up on the message index, though.';
 
 $txt['profileAction'] = 'Actions';
 $txt['deleteAccount'] = 'Delete this account';
