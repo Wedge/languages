@@ -742,7 +742,7 @@ $txt['visual_verification_hidden'] = 'This box must be left blank';
 $txt['summary'] = 'Summary';
 $txt['account'] = 'Account Settings';
 $txt['forumprofile'] = 'Forum Profile';
-$txt['change_skin'] = 'Skin selector';
+$txt['change_skin'] = 'Skin Selector';
 $txt['draft_posts'] = 'Draft Posts';
 
 $txt['modSettings_title'] = 'Features and Options';
