@@ -299,7 +299,7 @@ $helptxt['db_show_debug'] = 'Enables query debugging features. This is very usef
 		The following items are displayed:
 		<ul>
 			<li>Template files that were loaded
-			<li>Sub-templates that were executed (all the templates used to build the entire page)
+			<li>Blocks that were executed (all the template functions used to build the entire page)
 			<li>Language files that were loaded
 			<li>Style sheets that were loaded (through the proper method, may not include ones added by add-ons)
 			<li>Number of files included (and which ones)

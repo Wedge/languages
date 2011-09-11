@@ -286,7 +286,7 @@ $helptxt['db_show_debug'] = 'Active les fonctionnalités de débogage des requê
 		Les éléments suivants sont affichés&nbsp;:
 		<ul>
 			<li>Les fichiers de modèle (templates) chargés
-			<li>Les sous-modèles exécutés (tous les modèles utilisés pour mettre en place la page entière)
+			<li>Les blocs exécutés (les fonctions appelées pour mettre en place la page entière)
 			<li>Les fichiers de langue utilisés
 			<li>Les feuilles de style chargées (celles chargées par les extensions n\'apparaîtront pas forcément)
 			<li>Le nombre de fichiers inclus (et lesquels)

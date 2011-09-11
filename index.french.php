@@ -793,7 +793,7 @@ $txt['autosuggest_delete_item'] = 'Supprimer cet élément';
 
 // Debug related - when $db_show_debug is true.
 $txt['debug_templates'] = 'Modèles - ';
-$txt['debug_subtemplates'] = 'Sous-modèles - ';
+$txt['debug_blocks'] = 'Blocs - ';
 $txt['debug_language_files'] = 'Fichiers de langue - ';
 $txt['debug_stylesheets'] = 'Feuilles de style - ';
 $txt['debug_files_included'] = 'Fichiers inclus - ';

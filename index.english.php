@@ -786,7 +786,7 @@ $txt['autosuggest_delete_item'] = 'Delete Item';
 
 // Debug related - when $db_show_debug is true.
 $txt['debug_templates'] = 'Templates: ';
-$txt['debug_subtemplates'] = 'Sub templates: ';
+$txt['debug_blocks'] = 'Blocks: ';
 $txt['debug_language_files'] = 'Language files: ';
 $txt['debug_stylesheets'] = 'Style sheets: ';
 $txt['debug_files_included'] = 'Files included: ';
