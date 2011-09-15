@@ -435,9 +435,9 @@ $txt['profile_viewwarning_impact'] = 'Impact de la sanction';
 $txt['subscriptions'] = 'Abonnements payants';
 
 $txt['pm_settings_desc'] = 'D\'ici, vous pouvez modifier les options pour vos messages personnels, comme leur affichage et qui peut vous en envoyer.';
-$txt['email_notify'] = 'Notifier par e-mail à chaque fois que vous recevez un message personnel:';
+$txt['email_notify'] = 'M\'envoyer un e-mail à chaque fois que je reçois un message personnel&nbsp;:';
 $txt['email_notify_never'] = 'Jamais';
-$txt['email_notify_buddies'] = 'Des amis uniquement';
+$txt['email_notify_buddies'] = 'De mes amis uniquement';
 $txt['email_notify_always'] = 'Toujours';
 
 $txt['pm_receive_from'] = 'Recevoir des messages personnels de&nbsp;:';
