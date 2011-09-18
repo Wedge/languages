@@ -13,6 +13,8 @@ $txt['install_error_minmysql'] = 'MySQL version %1$s is required (%2$s available
 $txt['fatal_install_error_minmysql'] = 'This add-on cannot be installed, it requires MySQL version %1$d, but this server only has version %2$s installed.';
 $txt['install_error_missinghook'] = 'One or more features required by this add-on are not available.';
 $txt['fatal_install_error_missinghook'] = 'This add-on makes use of features not currently avaialble in this install, that have the references: %1$s. You should probably contact the add-on\'s author for support.';
+$txt['fatal_install_enable_missing'] = 'This add-on specifies that a certain file contains instructions to be carried out when enabling it, %1$s, but the file cannot be found where the add-on said it should be.';
+$txt['fatal_install_disable_missing'] = 'This add-on specifies that a certain file contains instructions to be carried out when disabling it, %1$s, but the file cannot be found where the add-on said it should be.';
 $txt['no_addons_found'] = 'No add-ons found.';
 
 $txt['addon_readmes'] = 'Information about this add-on';
