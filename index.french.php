@@ -753,7 +753,7 @@ $txt['change_skin'] = 'Changer de style';
 $txt['draft_posts'] = 'Brouillons';
 
 $txt['modSettings_title'] = 'Fonctionnalités et Options';
-$txt['package'] = 'Extensions';
+$txt['addon_manager'] = 'Extensions';
 $txt['errlog'] = 'Journal d\'Erreurs';
 $txt['edit_permissions'] = 'Permissions';
 $txt['mc_unapproved_attachments'] = 'Fichiers à approuver';
