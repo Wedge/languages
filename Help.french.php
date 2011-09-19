@@ -107,7 +107,7 @@ $helptxt['modsettings'] = '
 	Plusieurs options peuvent être modifiées ici selon vos préférences. Les options pour les extensions installées vont généralement apparaître ici.';
 
 $helptxt['time_format'] = '
-	Vous avez la possibilité d\'ajuster la manière dont le temps et les dates seront affichés sur votre forum. Ce ne sont pas des hiéroglyphes, c\'est relativement simple. La structure est la même que pour la fonction <span class="bbc_tt">strftime</span> de PHP, et elle est décrite ci-dessous (plus de détails peuvent être trouvés sur <a href="http://www.php.net/manual/fr/function.strftime.php" target="_blank">php.net</a>).<br>
+	Vous avez la possibilité d\'ajuster la manière dont le temps et les dates seront affichés sur votre forum. Ce ne sont pas des hiéroglyphes, c\'est relativement simple. La structure est la même que pour la fonction <span class="bbc_tt">strftime</span> de PHP, et elle est décrite ci-dessous (pour plus de détails, allez sur <a href="http://www.php.net/manual/fr/function.strftime.php" target="_blank">php.net</a>).<br>
 	<br>
 	Voici quelques-uns des caractères reconnus pour générer la date&nbsp;:
 	<div style="padding: 5px 0 5px 30px">
