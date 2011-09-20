@@ -404,5 +404,6 @@ $txt['merge_error_noid'] = 'ID de message ou de sujet introuvable !';
 $txt['merge_error_length'] = 'Le message fusionné dépasserait la taille limite autorisée !';
 
 $txt['cannot_media_viewprofile'] = 'Vous n\'avez pas l\'autorisation de consulter des profils de Galerie';
+$txt['default_layer_missing'] = 'Wedge ne peut pas afficher le contenu de cette page. En effet, sa structure a été corrompue, sans doute par un style, un thème ou une extension.<br><br>L\'administrateur en a été informé.';
 
 ?>
