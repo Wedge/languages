@@ -659,6 +659,7 @@ $txt['pretty_cache'] = 'Activate secondary cache<div class="pretty_filter">(Slig
 $txt['pretty_save'] = 'Save changes';
 $txt['pretty_converted'] = 'All topic titles are now converted!';
 $txt['pretty_duplicateboard'] = 'This address is already in use. Please go back and change it.';
+$txt['pretty_remove_index'] = 'Remove index.php from *all* URLs<div class="pretty_filter">You can ONLY use this if your forum still works after you manually remove "index.php" from its URL.</div>';
 $txt['pretty_filter_boards'] = 'Prettify Board URLs<div class="pretty_filter">http://yoursite.com/index.php?board=1 &rarr; http://yoursite.com/wedge-name/</div>';
 $txt['pretty_filter_topics'] = 'Prettify Topic URLs<div class="pretty_filter">http://yoursite.com/index.php?topic=1.0 &rarr; http://yoursite.com/wedge-name/topic-name/</div>';
 $txt['pretty_filter_actions'] = 'Prettify Action URLs<div class="pretty_filter">http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/do/hello/</div>';

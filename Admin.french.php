@@ -657,6 +657,7 @@ $txt['pretty_cache'] = 'Activer le cache secondaire<div class="pretty_filter">(L
 $txt['pretty_save'] = 'Sauvegarder les changements';
 $txt['pretty_converted'] = 'Tous les titres de sujets ont été convertis !';
 $txt['pretty_duplicateboard'] = 'Cette adresse est déjà prise. Choisissez-en une autre.';
+$txt['pretty_remove_index'] = 'Supprimer index.php de *toutes* les adresses<div class="pretty_filter">Vous ne pouvez le faire QUE si votre forum répond à l\'appel même après avoir supprimé "index.php" manuellement de son adresse.</div>';
 $txt['pretty_filter_boards'] = 'Réécrire les Adresses des Sections<div class="pretty_filter">http://votresite.com/index.php?board=1 &rarr; http://votresite.com/nom-du-quartier/</div>';
 $txt['pretty_filter_topics'] = 'Réécrire les Adresses des Sujets<div class="pretty_filter">http://votresite.com/index.php?topic=1.0 &rarr; http://votresite.com/nom-du-quartier/nom-du-sujet/</div>';
 $txt['pretty_filter_actions'] = 'Réécrire les Adresses des Actions<div class="pretty_filter">http://votresite.com/index.php?action=hello &rarr; http://votresite.com/do/hello/</div>';
