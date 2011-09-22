@@ -318,9 +318,9 @@ $helptxt['enableErrorLogging'] = 'This will log any errors, like a failed login,
 $helptxt['enableErrorQueryLogging'] = 'This will include the full query sent to the database in the error log. Requires error logging to be turned on.<br><br><strong>Note: This will affect the ability to filter the error log by the error message.</strong>';
 $helptxt['allow_disableAnnounce'] = 'This will allow users to opt out of notification of topics you announce by checking the "announce topic" checkbox when posting.';
 $helptxt['disallow_sendBody'] = 'This option removes the option to receive the text of replies and posts in notification emails.<br><br>Often, members will reply to the notification email, which in most cases means the webmaster receives the reply.';
-$helptxt['compactTopicPagesEnable'] = 'This will just show a selection of the number of pages.<br><em>Example:</em>
-		"3" to display: 1 ... 4 [5] 6 ... 9 <br>
-		"5" to display: 1 ... 3 4 [5] 6 7 ... 9';
+$helptxt['compactTopicPagesContiguous'] = 'When showing the page index, Wedge will show links to the first and last pages, as well as a number of links around the current page which you can define here.<br><br><em>Example:</em><br><br>
+		Choose "3" to display: <strong>1 ... 4 [5] 6 ... 9</strong><br>
+		Choose "5" to display: <strong>1 ... 3 4 [5] 6 7 ... 9</strong>';
 $helptxt['timeLoadPageEnable'] = 'This will show the time in seconds Wedge took to create that page at the bottom of the board.';
 $helptxt['removeNestedQuotes'] = 'This will strip nested quotes from a post when citing the post in question via a quote link.';
 $helptxt['simpleSearch'] = 'This will show a simple search form and a link to a more advanced form.';

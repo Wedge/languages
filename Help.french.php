@@ -305,9 +305,9 @@ $helptxt['enableErrorLogging'] = 'Ceci indexera toutes les erreurs rencontrées,
 $helptxt['enableErrorQueryLogging'] = 'Ceci enregistrera les requêtes SQL complètes dans le journal d\'erreurs si la base de données retourne une erreur. Requiert l\'activation du journal d\'erreurs.<br><br><strong>Attention, cela modifiera la capacité de filtrage du journal d\'erreurs par message d\'erreur.</strong>';
 $helptxt['allow_disableAnnounce'] = 'Permet aux utilisateurs de désélectionner la réception des annonces du forum que vous envoyez en cochant "Annoncer le sujet" lorsque vous postez un message.';
 $helptxt['disallow_sendBody'] = 'Cette option supprime l\'option permettant de recevoir le texte des réponses et les messages dans les e-mails de notification.<br><br>Souvent, les membres vont répondre à l\'e-mail de notification, ce qui peut saturer, dans bien des cas, la boîte e-mail du webmestre.';
-$helptxt['compactTopicPagesEnable'] = 'Nombre de pages intermédiaires à afficher lors du visionnement d\'un sujet.<br><em>Exemple&nbsp;:</em>
-		"3" pour afficher&nbsp;: 1 ... 4 [5] 6 ... 9 <br>
-		"5" pour afficher&nbsp;: 1 ... 3 4 [5] 6 7 ... 9';
+$helptxt['compactTopicPagesContiguous'] = 'Quand Wedge affiche une liste numérique de pages, il affiche automatiquement la première et la dernière, ainsi qu\'un nombre de pages autour de la page actuelle, que vous pouvez définir ici.<br><br><em>Par exemple&nbsp;:</em><br><br>
+		Mettez "3" pour afficher&nbsp;: <strong>1 ... 4 [5] 6 ... 9</strong><br>
+		Mettez "5" pour afficher&nbsp;: <strong>1 ... 3 4 [5] 6 7 ... 9</strong>';
 $helptxt['timeLoadPageEnable'] = 'Afficher dans le pied de page du forum le temps utilisé par Wedge pour générer la page en cours.';
 $helptxt['removeNestedQuotes'] = 'Ceci effacera les citations imbriquées dans les messages que vous citez en cliquant sur le bouton Citer.';
 $helptxt['simpleSearch'] = 'Affiche, lors d\'une recherche, le formulaire de recherche simplifié ainsi qu\'un lien vers sa version complète.';
