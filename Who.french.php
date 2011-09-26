@@ -146,16 +146,14 @@ $txt['credits_admins_n'] = 'Administrateurs';
 $txt['credits_moderators_1'] = 'Modérateur';
 $txt['credits_moderators_n'] = 'Modérateurs';
 $txt['credits_software'] = 'Crédits du logiciel';
-$txt['credits_intro'] = 'Wedge est dérivé du logiciel de forum <a href="http://www.simplemachines.org/">Simple Machines</a> 2.0, et distribué sous sa propre <a href="http://wedge.org/license/">licence</a>. Voici la liste des contributeurs ayant permis de donner vie au projet.';
+$txt['credits_wedge'] = 'Wedge est copyright © 2010-2011 Wedgeward (René-Gilles Deberdt et Peter Spicer), tous droits réservés. Distribué sous <a href="http://wedge.org/license/">licence propre</a>.';
 $txt['credits_team'] = 'L\'équipe de Wedge';
-$txt['credits_smf2_team'] = 'L\'équipe d\'origine de SMF 2.0';
+$txt['credits_smf2'] = 'Utilise des portions tirées du logiciel <a href="http://www.simplemachines.org/">SMF 2.0</a>, copyright © Simple Machines 2011, tous droits réservés. SMF est distribué sous license <a href="http://www.simplemachines.org/about/smf/license.php">BSD</a>, et développé par %1$s et %2$s.';
 $txt['credits_special'] = 'Remerciements spéciaux';
-$txt['credits_and'] = 'et';
 $txt['credits_copyright'] = 'Copyrights';
 $txt['credits_forum'] = 'Forum';
 $txt['credits_images'] = 'Images';
 $txt['credits_modifications'] = 'Spécialiste Extensions/Thèmes';
-$txt['credits_groups_founder'] = 'Fondateur';
 $txt['credits_groups_ps'] = 'Fondateurs &amp; Directeurs';
 $txt['credits_groups_dev'] = 'Développeurs';
 $txt['credits_groups_consultants'] = 'Consultants Techniques';
@@ -171,7 +169,7 @@ $txt['credits_groups_language'] = 'Version française';
 
 // List of people who have made more than a token contribution to this translation.
 $txt['translation_credits'] = array(
-	'<a href="http://nao.noisen.com/">Nao &#23578; (Ren&eacute;-Gilles Deberdt)</a>, parce qu\'on n\'est jamais si bien servi que par soi-même.',
+	'La traduction de Wedge et SMF 2.0 est créditée à <a href="http://nao.noisen.com/">Nao &#23578; (Ren&eacute;-Gilles Deberdt)</a>.',
 	'La traduction originale de SMF 1.x est créditée à Alexandre P., Sparcool et Lunatic.',
 );
 

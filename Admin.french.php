@@ -661,7 +661,7 @@ $txt['pretty_remove_index'] = 'Supprimer index.php de *toutes* les adresses<div 
 $txt['pretty_filter_boards'] = 'Réécrire les Adresses des Sections<div class="pretty_filter">http://votresite.com/index.php?board=1 &rarr; http://votresite.com/nom-du-quartier/</div>';
 $txt['pretty_filter_topics'] = 'Réécrire les Adresses des Sujets<div class="pretty_filter">http://votresite.com/index.php?topic=1.0 &rarr; http://votresite.com/nom-du-quartier/nom-du-sujet/</div>';
 $txt['pretty_filter_actions'] = 'Réécrire les Adresses des Actions<div class="pretty_filter">http://votresite.com/index.php?action=hello &rarr; http://votresite.com/do/hello/</div>';
-$txt['pretty_filter_profiles'] = 'Réécrire les Adresses des Profils<div class="pretty_filter">http://votresite.com/index.php?action=profile;u=1 &rarr; http://votresite.com/~nom-du-membre/<br>L\'adresse utilisera l\'identifiant de connexion de l\'utilisateur et non pas son nom affiché. Assurez-vous que cela ne dérange pas vos utilisateurs.</div>';
+$txt['pretty_filter_profiles'] = 'Réécrire les Adresses des Profils<div class="pretty_filter">http://votresite.com/index.php?action=profile;u=1 &rarr; http://votresite.com/profile/nom-du-membre/<br>L\'adresse utilisera l\'identifiant de connexion de l\'utilisateur et non pas son nom affiché. Assurez-vous que cela ne dérange pas vos utilisateurs.</div>';
 
 // Media Gallery
 $txt['media_title'] = 'Media';

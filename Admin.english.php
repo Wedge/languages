@@ -663,7 +663,7 @@ $txt['pretty_remove_index'] = 'Remove index.php from *all* URLs<div class="prett
 $txt['pretty_filter_boards'] = 'Prettify Board URLs<div class="pretty_filter">http://yoursite.com/index.php?board=1 &rarr; http://yoursite.com/wedge-name/</div>';
 $txt['pretty_filter_topics'] = 'Prettify Topic URLs<div class="pretty_filter">http://yoursite.com/index.php?topic=1.0 &rarr; http://yoursite.com/wedge-name/topic-name/</div>';
 $txt['pretty_filter_actions'] = 'Prettify Action URLs<div class="pretty_filter">http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/do/hello/</div>';
-$txt['pretty_filter_profiles'] = 'Prettify Profile URLs<div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/~user-name/<br>As this uses the login name (user name) of an account rather than its display name, it may not be desirable to your users.</div>';
+$txt['pretty_filter_profiles'] = 'Prettify Profile URLs<div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/profile/user-name/<br>As this uses the login name (user name) of an account rather than its display name, it may not be desirable to your users.</div>';
 
 // Media Gallery
 $txt['media_title'] = 'Media';
