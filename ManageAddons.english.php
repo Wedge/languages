@@ -15,7 +15,7 @@ $txt['fatal_install_error_minmysql'] = 'This add-on cannot be installed, it requ
 $txt['install_error_missinghook'] = 'One or more features required by this add-on are not available.';
 $txt['install_error_reqfunc'] = 'This function requires the following PHP functions to be accessible: %1$s';
 $txt['fatal_install_error_reqfunc'] = 'This add-on makes use of features not currently supported by your PHP installation, that have the following function names: %1$s. You should contact your web-host for more information.';
-$txt['fatal_install_error_missinghook'] = 'This add-on makes use of features not currently avaialble in this install, that have the references: %1$s. You should probably contact the add-on\'s author for support.';
+$txt['fatal_install_error_missinghook'] = 'This add-on makes use of features not currently available in this install, that have the references: %1$s. You should probably contact the add-on\'s author for support.';
 $txt['fatal_install_enable_missing'] = 'This add-on specifies that a certain file contains instructions to be carried out when enabling it, %1$s, but the file cannot be found where the add-on said it should be.';
 $txt['fatal_install_disable_missing'] = 'This add-on specifies that a certain file contains instructions to be carried out when disabling it, %1$s, but the file cannot be found where the add-on said it should be.';
 $txt['fatal_install_remove_missing'] = 'This add-on specifies that a certain file contains instructions to be carried out when disabling it, %1$s, but the file cannot be found where the add-on said it should be.';
@@ -42,4 +42,5 @@ $txt['remove_addon_unsure'] = 'If you are not sure whether you want to keep the 
 $txt['remove_addon_already_enabled'] = 'This add-on is currently enabled. You must disable it before attempting to remove it.';
 $txt['remove_addon_files_still_there'] = 'The files for your add-on could not be deleted. You may have to log into your server with FTP to remove the %1$s folder.';
 $txt['remove_addon_files_pre_still_there'] = 'Your add-on has not yet been removed; the files that make it up cannot be deleted without logging into FTP to change the permissions to make them deleteable.';
+
 ?>
