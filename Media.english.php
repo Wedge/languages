@@ -250,7 +250,7 @@ $txt['media_items_also_in_children'] = ', and %d in sub-albums';
 $txt['media_unbrowsable'] = 'Browsing disabled';
 $txt['media_access_read'] = 'Read';
 $txt['media_access_write'] = 'Write';
-$txt['media_default_welcome'] = 'Welcome to the gallery section, powered by Wedge. To delete or modify this welcome message, just edit file /Themes/default/languages/Modifications.english.php and add this line to it:<br><pre>$txt[\'media_welcome\'] = \'Welcome.\';</pre>You can also change the text directly from within the admin area. This is simpler but you lose the ability to translate it to multiple languages.';
+$txt['media_default_welcome'] = 'Welcome to the gallery section, powered by Wedge. To modify this welcome message, just go to the Media settings page in the admin area.';
 $txt['media_mass_cancel'] = 'Cancel';
 $txt['media_file_too_large_php'] = 'This file is too large for the server to handle. It has been discarded, because it would stall the server otherwise. The maximum allowed size for an upload, according to the php.ini file, is %s MB.';
 $txt['media_file_too_large_quota'] = 'This file is too large for your allowed quota. It has been discarded, as uploading it would fail anyway.';

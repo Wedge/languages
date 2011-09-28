@@ -242,7 +242,7 @@ $txt['media_items_also_in_children'] = ', et %d dans les sous-albums';
 $txt['media_unbrowsable'] = 'Navigation désactivée';
 $txt['media_access_read'] = 'Lecture';
 $txt['media_access_write'] = 'Écriture';
-$txt['media_default_welcome'] = 'Bienvenue dans la galerie, propulsée par Wedge. Pour supprimer ou modifier ce texte d\'introduction, modifiez le fichier /Themes/default/languages/Modifications.french.php et ajoutez-y la ligne :<br><pre>$txt[\'aeva_welcome\'] = \'Bienvenue.\';</pre>Vous pouvez aussi modifier le texte directement dans la section administration, mais vous perdez la possibilité de le traduire en plusieurs langues.';
+$txt['media_default_welcome'] = 'Bienvenue dans la galerie, propulsée par Wedge. Pour modifier ce texte d\'introduction, allez dans la section Media du panneau d\'administration.';
 $txt['media_mass_cancel'] = 'Annuler';
 $txt['media_file_too_large_php'] = 'Ce fichier est trop gros pour le serveur. Il ne sera pas uploadé, parce qu\'il bloquerait tout le processus. La taille maximale autorisée par le serveur est de %s Mo.';
 $txt['media_file_too_large_quota'] = 'Ce fichier est plus gros que votre quota ne l\'autorise. Il ne sera pas uploadé.';
