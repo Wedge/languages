@@ -76,7 +76,6 @@ $txt['media_admin_settings_data_dir_path_subtext'] = 'Server path (e.g. /home/ww
 $txt['media_admin_settings_data_dir_url'] = 'Data directory URL';
 $txt['media_admin_settings_data_dir_url_subtext'] = 'Same path, but through a web browser (e.g. http://mysite.com/media)';
 $txt['media_admin_settings_max_dir_files'] = 'Max number of files in a directory';
-$txt['media_admin_settings_max_dir_size'] = 'Max size of a directory';
 $txt['media_admin_settings_enable_re-rating'] = 'Enable Re-Rating';
 $txt['media_admin_settings_use_metadata_date'] = 'Set upload date to Exif datetime if available';
 $txt['media_admin_settings_use_metadata_date_subtext'] = 'If the file has Exif data available, the upload date will use its datetime setting instead of the current time.';

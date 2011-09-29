@@ -76,7 +76,6 @@ $txt['media_admin_settings_data_dir_path_subtext'] = 'Chemin sur le serveur (exe
 $txt['media_admin_settings_data_dir_url'] = 'Adresse du répertoire de données';
 $txt['media_admin_settings_data_dir_url_subtext'] = 'Même chemin, mais accessible par le web (exemple&nbsp;: http://mysite.com/media)';
 $txt['media_admin_settings_max_dir_files'] = 'Nombre maximal de fichiers par répertoire';
-$txt['media_admin_settings_max_dir_size'] = 'Taille maximale d\'un répertoire';
 $txt['media_admin_settings_enable_re-rating'] = 'Autoriser à changer son vote';
 $txt['media_admin_settings_use_metadata_date'] = 'Utiliser la date Exif si possible';
 $txt['media_admin_settings_use_metadata_date_subtext'] = 'Si le fichier contient des données Exif, la date de publication affichée sera celle donnée par Exif au lieu de l\'heure actuelle.';
