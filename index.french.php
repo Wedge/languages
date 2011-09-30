@@ -518,15 +518,8 @@ $txt['moveTopic2'] = 'Changer le titre du sujet';
 $txt['moveTopic3'] = 'Nouveau titre';
 $txt['moveTopic4'] = 'Changer le titre de tous les messages';
 $txt['moveTopic_redirection_period'] = 'Combien de temps doit rester en place le sujet de redirection&nbsp;?';
-$txt['moveTopic_redirection_1day'] = '1 jour';
-$txt['moveTopic_redirection_3day'] = '3 jours';
-$txt['moveTopic_redirection_5day'] = '5 jours';
-$txt['moveTopic_redirection_7day'] = '7 jours';
-$txt['moveTopic_redirection_10day'] = '10 jours';
-$txt['moveTopic_redirection_15day'] = '15 jours';
-$txt['moveTopic_redirection_30day'] = '30 jours';
-$txt['moveTopic_redirection_60day'] = '60 jours';
-$txt['moveTopic_redirection_90day'] = '90 jours';
+$txt['moveTopic_redirection_day_1'] = '1 jour';
+$txt['moveTopic_redirection_day_n'] = '%s jours';
 $txt['moveTopic_redirection_perm'] = 'Ad vitam';
 $txt['move_topic_unapproved_js'] = 'Attention ! Ce sujet n\'a pas encore été approuvé.\\n\\nIl n\'est pas recommandé de créer un message de redirection à moins que vous n\'ayez l\'intention d\'approuver le message immédiatement après le déplacement.';
 
