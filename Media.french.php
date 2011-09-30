@@ -252,7 +252,7 @@ $txt['media_silent_update'] = 'Mise à jour discrète';
 $txt['media_close'] = 'Fermer';
 $txt['media_page_seen'] = 'Marquer page comme vue';
 
-// Aeva Media's Foxy! add-on strings
+// Aeva Media's Foxy! strings
 $txt['media_linked_topic'] = 'Sujet lié';
 $txt['media_linked_topic_board'] = 'Créer un sujet lié dans...';
 $txt['media_no_topic_board'] = 'Ne pas créer de sujet lié';

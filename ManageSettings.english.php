@@ -5,9 +5,9 @@ global $scripturl;
 
 $txt['modSettings_desc'] = 'This page allows you to change the settings of features and basic options in your forum. Please see the <a href="' . $scripturl . '?action=admin;area=theme;sa=settings;th=%1$s;%3$s=%2$s">theme settings</a> for more options. Click the help icons for more information about a setting.';
 $txt['security_settings_desc'] = 'This page allows you to set options specifically related to the security and moderation of your forum, including anti-spam options.';
-$txt['modification_settings_desc'] = 'This page contains settings added by any add-ons to your forum';
+$txt['modification_settings_desc'] = 'This page contains settings added by any plugins to your forum';
 
-$txt['modification_no_misc_settings'] = 'There are no add-ons installed that have added any settings to this area yet.';
+$txt['modification_no_misc_settings'] = 'There are no plugins installed that have added any settings to this area yet.';
 
 $txt['pollMode'] = 'Poll mode';
 $txt['disable_polls'] = 'Disable polls';
@@ -314,7 +314,7 @@ $txt['add_language'] = 'Add Language';
 $txt['add_language_wedge'] = 'Download from Wedge';
 $txt['add_language_wedge_browse'] = 'Type name of language to search for or leave blank to search for all.';
 $txt['add_language_wedge_install'] = 'Install';
-$txt['add_language_wedge_found'] = 'The following languages were found. Click the install link next to the language you wish to install, you will then be taken to the add-on manager to install.';
+$txt['add_language_wedge_found'] = 'The following languages were found. Click the install link next to the language you wish to install, you will then be taken to the plugin manager to install.';
 $txt['add_language_error_no_response'] = 'The Wedge website is not responding. Please try again later.';
 $txt['add_language_error_no_files'] = 'No files could be found.';
 $txt['add_language_wedge_desc'] = 'Description';
@@ -352,7 +352,7 @@ $txt['languages_download_exists_same'] = 'Identical';
 $txt['languages_download_exists_different'] = 'Different';
 $txt['languages_download_copy'] = 'Copy';
 $txt['languages_download_not_chmod'] = 'You cannot proceed with the installation until all files selected to be copied are writable.';
-$txt['languages_download_illegal_paths'] = 'Add-on contains illegal paths - please contact Wedge';
+$txt['languages_download_illegal_paths'] = 'Plugin contains illegal paths - please contact Wedge';
 $txt['languages_download_complete'] = 'Installation Complete';
 $txt['languages_download_complete_desc'] = 'Language pack installed successfully. Please click <a href="%1$s">here</a> to return to the languages page';
 $txt['languages_delete_confirm'] = 'Are you sure you want to delete this language?';

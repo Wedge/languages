@@ -105,7 +105,7 @@ $helptxt['securitysettings'] = '
 	This section contains settings relating to the security and moderation of your forum.';
 
 $helptxt['modsettings'] = '
-	This section should contain any settings added by add-ons installed on your forum.';
+	This section should contain any settings added by plugins installed on your forum.';
 
 $helptxt['time_format'] = '
 	You have the power to adjust how the time and date look for yourself. There are a lot of weird little letters, but it\'s quite simple.
@@ -301,7 +301,7 @@ $helptxt['db_show_debug'] = 'Enables query debugging features. This is very usef
 			<li>Template files that were loaded
 			<li>Blocks that were executed (all the template functions used to build the entire page)
 			<li>Language files that were loaded
-			<li>Style sheets that were loaded (through the proper method, may not include ones added by add-ons)
+			<li>Style sheets that were loaded (through the proper method, may not include ones added by plugins)
 			<li>Number of files included (and which ones)
 			<li>Cache hits (what they were and how much time was spent with cache items)
 			<li>Queries used (including full details, this is restricted to admins only)
@@ -501,7 +501,7 @@ $helptxt['coppaPost'] = 'The contact boxes are required so that forms granting p
 $helptxt['allow_hideOnline'] = 'With this option enabled all members will be able to hide their online status from other users (except administrators). If disabled only users who can moderate the forum can hide their presence. Note that disabling this option will not change any existing member\'s status - it just stops them from hiding themselves in the future.';
 
 $helptxt['latest_support'] = 'This panel shows you some of the most common problems and questions on your server configuration. Don\'t worry, this information isn\'t logged or anything.<br><br>If this stays as "Retrieving support information...", your computer probably cannot connect to <a href="http://wedge.org/" target="_blank" class="new_win">wedge.org</a>.';
-$helptxt['latest_packages'] = 'Here you can see some of the most popular and some random add-ons, with quick and easy installations.<br><br>If this section doesn\'t show up, your computer probably cannot connect to <a href="http://wedge.org/" target="_blank" class="new_win">wedge.org</a>.';
+$helptxt['latest_packages'] = 'Here you can see some of the most popular and some random plugins, with quick and easy installations.<br><br>If this section doesn\'t show up, your computer probably cannot connect to <a href="http://wedge.org/" target="_blank" class="new_win">wedge.org</a>.';
 $helptxt['latest_themes'] = 'This area shows a few of the latest and most popular themes from <a href="http://wedge.org/" target="_blank" class="new_win">wedge.org</a>. It may not show up properly if your computer can\'t find <a href="http://wedge.org/" target="_blank" class="new_win">wedge.org</a>, though.';
 
 $helptxt['secret_why_blank'] = 'For your security, your password and the answer to your secret question are encrypted so that the Wedge software will never tell you, or anyone else, what they are.';

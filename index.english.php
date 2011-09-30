@@ -746,7 +746,7 @@ $txt['change_skin'] = 'Skin Selector';
 $txt['draft_posts'] = 'Draft Posts';
 
 $txt['modSettings_title'] = 'Features and Options';
-$txt['addon_manager'] = 'Add-ons';
+$txt['plugin_manager'] = 'Plugins';
 $txt['errlog'] = 'Error Log';
 $txt['edit_permissions'] = 'Permissions';
 $txt['mc_unapproved_attachments'] = 'Unapproved Attachments';

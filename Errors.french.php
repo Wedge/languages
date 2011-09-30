@@ -275,9 +275,9 @@ $txt['package_upload_error_supports'] = 'Le gestionnaire d\'extensions permet ac
 $txt['package_upload_error_broken'] = 'L\'extension n\'a pas pu être téléchargée pour la raison suivante&nbsp;:<br>&quot;%1$s&quot;';
 
 $txt['package_get_error_not_found'] = 'Impossible de trouver l\'extension que vous essayez d\'installer. Essayez d\'uploader l\'extension manuellement dans votre répertoire Packages.';
-$txt['package_get_error_missing_xml'] = 'Le fichier addon-info.xml est introuvable dans l\'extension que vous essayez d\'installer. Il doit se trouver à la racine du répertoire de l\'extension.';
+$txt['package_get_error_missing_xml'] = 'Le fichier plugin-info.xml est introuvable dans l\'extension que vous essayez d\'installer. Il doit se trouver à la racine du répertoire de l\'extension.';
 $txt['package_get_error_is_zero'] = 'L\'extension a été téléchargée avec succès, mais semble être vide. Vérifiez que le répertoire Packages et son sous-répertoire &quot;temp&quot; sont inscriptibles. Si le problème persiste, essayez d\'extraire l\'extension sur votre PC et d\'uploader les fichiers extraits manuellement vers un sous-répertoire de Packages. Par exemple, si l\'extension s\'appelle shout.tar.gz, vous devriez&nbsp;:<br>1) Télécharger le fichier sur votre machine et le décompresser.<br>2) Utiliser un client FTP pour créer un nouveau répertoire dans le répertoire &quot;Packages&quot;, par exemple ici &quot;shout&quot;.<br>3) Y placer tous les fichiers de l\'extension extraite.<br>4) Revenir sur la page du gestionnaire d\'extensions, et l\'extension devrait s\'y trouver automatiquement.';
-$txt['package_get_error_packageinfo_corrupt'] = 'Wedge n\'a pas trouvé d\'informations valables dans le fichier addon-info.xml inclus dans l\'extension. L\'extension comporte peut-être une erreur, ou elle est corrompue.';
+$txt['package_get_error_packageinfo_corrupt'] = 'Wedge n\'a pas trouvé d\'informations valables dans le fichier plugin-info.xml inclus dans l\'extension. L\'extension comporte peut-être une erreur, ou elle est corrompue.';
 
 $txt['no_membergroup_selected'] = 'Aucun groupe de membre sélectionné';
 $txt['membergroup_does_not_exist'] = 'Le groupe de membres n\'existe pas ou est invalide.';
