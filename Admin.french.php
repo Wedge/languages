@@ -579,7 +579,6 @@ $txt['admin_search_section_settings'] = 'Paramètres';
 
 $txt['core_settings_title'] = 'Fonctionnalités de base';
 $txt['mods_cat_features'] = 'Paramètres';
-$txt['mods_cat_security_general'] = 'Paramètres';
 $txt['antispam_title'] = 'Anti-Spam';
 $txt['mods_cat_modifications_misc'] = 'Diverses';
 $txt['moderation_settings_short'] = 'Modération';

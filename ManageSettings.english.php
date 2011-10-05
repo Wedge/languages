@@ -19,6 +19,7 @@ $txt['time_format'] = 'Default time format';
 $txt['setting_time_offset'] = 'Overall time offset<dfn>(added to the member specific option.)</dfn>';
 $txt['setting_default_timezone'] = 'Server timezone';
 $txt['failed_login_threshold'] = 'Failed login threshold';
+$txt['age_restrictions'] = 'Minimum Age Restrictions';
 $txt['lastActive'] = 'User online time threshold';
 $txt['trackStats'] = 'Track daily statistics';
 $txt['hitStats'] = 'Track daily page views (must have stats enabled)';
