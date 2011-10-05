@@ -582,7 +582,6 @@ $txt['mods_cat_features'] = 'Paramètres';
 $txt['mods_cat_security_general'] = 'Paramètres';
 $txt['antispam_title'] = 'Anti-Spam';
 $txt['mods_cat_modifications_misc'] = 'Diverses';
-$txt['mods_cat_layout'] = 'Apparence';
 $txt['moderation_settings_short'] = 'Modération';
 $txt['member_options_title'] = 'Options des Membres';
 $txt['signature_settings_short'] = 'Signatures';

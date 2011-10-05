@@ -265,7 +265,6 @@ $helptxt['pollMode'] = 'This selects whether polls are enabled or not. If polls 
 		from the topic listing. You can choose to continue to show the regular topic without their polls by selecting
 		"Show Existing Polls as Topics".<br><br>To choose who can post polls, view polls, and similar, you
 		can allow and disallow those permissions. Remember this if polls are not working.';
-$helptxt['enableVBStyleLogin'] = 'This will show a more compact login on every page of the forum for guests.';
 $helptxt['webmaster_email'] = 'This option allows you to specify the email address of the primary administrator. This address is used for urgent notifications (such as database errors),
 		and as a result should <em>really</em> be a valid email address.';
 $helptxt['mail_from'] = 'This option allows you to specify a separate email address as the sender for all out-going email (notifications, newsletters...)
@@ -318,9 +317,6 @@ $helptxt['enableErrorLogging'] = 'This will log any errors, like a failed login,
 $helptxt['enableErrorQueryLogging'] = 'This will include the full query sent to the database in the error log. Requires error logging to be turned on.<br><br><strong>Note: This will affect the ability to filter the error log by the error message.</strong>';
 $helptxt['allow_disableAnnounce'] = 'This will allow users to opt out of notification of topics you announce by checking the "announce topic" checkbox when posting.';
 $helptxt['disallow_sendBody'] = 'This option removes the option to receive the text of replies and posts in notification emails.<br><br>Often, members will reply to the notification email, which in most cases means the webmaster receives the reply.';
-$helptxt['compactTopicPagesContiguous'] = 'When showing the page index, Wedge will show links to the first and last pages, as well as a number of links around the current page which you can define here.<br><br><em>Example:</em><br><br>
-		Choose "3" to display: <strong>1 ... 4 [5] 6 ... 9</strong><br>
-		Choose "5" to display: <strong>1 ... 3 4 [5] 6 7 ... 9</strong>';
 $helptxt['timeLoadPageEnable'] = 'This will show the time in seconds Wedge took to create that page at the bottom of the board.';
 $helptxt['removeNestedQuotes'] = 'This will strip nested quotes from a post when citing the post in question via a quote link.';
 $helptxt['simpleSearch'] = 'This will show a simple search form and a link to a more advanced form.';
