@@ -19,6 +19,7 @@ $txt['time_format'] = 'Format d\'heure par défaut';
 $txt['setting_time_offset'] = 'Décalage horaire général<dfn>(ajouté aux options spécifiques des membres.)</dfn>';
 $txt['setting_default_timezone'] = 'Fuseau horaire du serveur';
 $txt['failed_login_threshold'] = 'Seuil de connexions dépassé';
+$txt['age_restrictions'] = 'Restrictions sur l\'âge minimal';
 $txt['lastActive'] = 'Seuil de temps de connexion en ligne';
 $txt['trackStats'] = 'Suivi des statistiques au quotidien';
 $txt['hitStats'] = 'Suivi des pages vues au quotidien (les stats doivent être activées)';
