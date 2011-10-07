@@ -136,13 +136,6 @@ $txt['maintain_version_info'] = 'Cette tâche de maintenance vous permet de fair
 $txt['maintain_run_now'] = 'Lancer maintenant';
 $txt['maintain_return'] = 'Retourner à la maintenance du forum';
 
-$txt['maintain_backup'] = 'Sauvegarder la base de données';
-$txt['maintain_backup_info'] = 'Télécharger une copie de sauvegarde de la base de données de votre forum en cas d\'urgence.';
-$txt['maintain_backup_struct'] = 'Sauvegarder la structure.';
-$txt['maintain_backup_data'] = 'Sauver les données des tables (le contenu important).';
-$txt['maintain_backup_gz'] = 'Compresser le fichier avec gzip.';
-$txt['maintain_backup_save'] = 'Télécharger';
-
 $txt['maintain_old'] = 'Enlever les anciens messages';
 $txt['maintain_old_since_days1'] = 'Supprimer les sujets sans nouveaux messages depuis ';
 $txt['maintain_old_since_days2'] = ' jours, qui sont&nbsp;:';

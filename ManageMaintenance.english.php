@@ -138,13 +138,6 @@ $txt['maintain_version_info'] = 'This maintenance task allows you to do a detail
 $txt['maintain_run_now'] = 'Run task now';
 $txt['maintain_return'] = 'Back to Forum Maintenance';
 
-$txt['maintain_backup'] = 'Backup Database';
-$txt['maintain_backup_info'] = 'Download a backup copy of your forum\'s database in case of emergency.';
-$txt['maintain_backup_struct'] = 'Save the table structure.';
-$txt['maintain_backup_data'] = 'Save the table data (the important stuff).';
-$txt['maintain_backup_gz'] = 'Compress the file with gzip.';
-$txt['maintain_backup_save'] = 'Download';
-
 $txt['maintain_old'] = 'Remove Old Posts';
 $txt['maintain_old_since_days1'] = 'Remove all topics not posted in for ';
 $txt['maintain_old_since_days2'] = ' days, which are:';
