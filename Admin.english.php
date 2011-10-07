@@ -2,6 +2,7 @@
 // Version: 2.0; Admin
 
 global $settings, $scripturl;
+$txt['changes_saved'] = 'Your changes have been saved.';
 
 $txt['admin_boards'] = 'Boards';
 $txt['admin_users'] = 'Members';
