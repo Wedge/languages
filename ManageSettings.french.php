@@ -15,7 +15,6 @@ $txt['enable_polls'] = 'Activer les sondages';
 $txt['polls_as_topics'] = 'Montrer les sondages existants comme des sujets';
 $txt['allow_guestAccess'] = 'Permettre aux invités de parcourir le forum';
 $txt['userLanguage'] = 'Permettre aux utilisateurs de choisir la langue';
-$txt['time_format'] = 'Format d\'heure par défaut';
 $txt['setting_time_offset'] = 'Décalage horaire général<dfn>(ajouté aux options spécifiques des membres.)</dfn>';
 $txt['setting_default_timezone'] = 'Fuseau horaire du serveur';
 $txt['failed_login_threshold'] = 'Seuil de connexions dépassé';

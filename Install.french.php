@@ -39,7 +39,6 @@ $txt['default_recycling_board_name'] = 'Corbeille';
 $txt['default_recycling_board_description'] = 'Les messages et sujets supprimés sont déplacés ici.';
 $txt['default_recycling_board_url'] = 'corbeille';
 $txt['default_category_name'] = 'Catégorie Générale';
-$txt['default_time_format'] = '%e %B %Y, %H:%M:%S';
 $txt['default_news'] = 'Nouveau forum Wedge installé&nbsp;!';
 $txt['default_reserved_names'] = 'Admin\nWebmaster\n\nWebmestre\nInvite\nInvité\nGuest\nroot\nadministrateur\nsuperutilisateur';
 $txt['default_smileyset_name'] = 'Par Alienine';

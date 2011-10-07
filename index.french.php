@@ -18,14 +18,13 @@ $txt['lang_rtl'] = false;
 $txt['lang_capitalize_dates'] = false;
 // Number formats?
 $txt['number_format'] = '1 234,00';
+$txt['time_format'] = '%B %e, %Y, %H:%M';
 
 $txt['days'] = array('Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi');
 $txt['days_short'] = array('Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam');
 // Months must start with 1 => 'January'. (or translated, of course.)
 $txt['months'] = array(1 => 'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre');
 $txt['months_short'] = array(1 => 'Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sep', 'Oct', 'Nov', 'Déc');
-$txt['time_am'] = 'am';
-$txt['time_pm'] = 'pm';
 
 $txt['newmessages0'] = 'est nouveau';
 $txt['newmessages1'] = 'sont nouveaux';

@@ -39,7 +39,6 @@ $txt['default_recycling_board_name'] = 'Recycle Bin';
 $txt['default_recycling_board_description'] = 'Posts and topics that get deleted end up here.';
 $txt['default_recycling_board_url'] = 'recycle';
 $txt['default_category_name'] = 'General Category';
-$txt['default_time_format'] = '%B %e, %Y, %I:%M:%S %p';
 $txt['default_news'] = 'Wedge - Just Installed!';
 $txt['default_reserved_names'] = 'Admin\nWebmaster\nGuest\nroot';
 $txt['default_smileyset_name'] = 'Alienine\'s Set';
