@@ -79,6 +79,8 @@ $txt['profileConfirm'] = 'Do you really want to delete this member?';
 
 $txt['custom_title'] = 'Custom Title';
 
+$txt['current_action'] = 'User is currently:';
+
 $txt['lastLoggedIn'] = 'Last Active';
 
 $txt['notify_settings'] = 'Notification Settings:';
@@ -217,10 +219,7 @@ $txt['avatar_will_upload'] = 'Upload an avatar';
 $txt['activate_changed_email_title'] = 'Email Address Changed';
 $txt['activate_changed_email_desc'] = 'You\'ve changed your email address. In order to validate this address you will receive an email. Click the link in that email to reactivate your account.';
 
-// Use numeric entities in the below three strings.
-$txt['no_reminder_email'] = 'Unable to send reminder email.';
-$txt['send_email'] = 'Send an email to';
-$txt['to_ask_password'] = 'to ask for your authentication details';
+$txt['no_reminder_email'] = 'Unable to send reminder email.<br>Send an email to <a href="%1$s">the webmaster</a> to ask for your authentication details';
 
 $txt['user_email'] = 'Username/Email';
 
@@ -233,8 +232,8 @@ $txt['reminder_set_password'] = 'Set Password';
 $txt['reminder_password_set'] = 'Password successfully set';
 $txt['reminder_error'] = '%1$s failed to answer their secret question correctly when attempting to change a forgotten password.';
 
-$txt['registration_not_approved'] = 'Sorry, this account has not yet been approved. If you need to change your email address please click';
-$txt['registration_not_activated'] = 'Sorry, this account has not yet been activated. If you need to resend the activation email please click';
+$txt['registration_not_approved'] = 'Sorry, this account has not yet been approved. If you need to change your email address please click <a href="%1$s">here</a>.';
+$txt['registration_not_activated'] = 'Sorry, this account has not yet been activated. If you need to resend the activation email please click <a href="%1$s">here</a>';
 
 $txt['primary_membergroup'] = 'Primary Membergroup';
 $txt['additional_membergroups'] = 'Additional Membergroups';
