@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; ManageSmileys
 
-$txt['smiley_sets_save'] = 'Sauvegarder les Changements';
+$txt['smiley_sets_save'] = 'Sauvegarder les changements';
 $txt['smiley_sets_add'] = 'Nouveau jeu de smileys';
 $txt['smiley_sets_delete'] = 'Effacer la sélection';
 $txt['smiley_sets_confirm'] = 'Êtes-vous sûr de vouloir effacer ce jeu de smileys ?\\n\\nNotez que cela n\'effacera pas les fichiers d\'images, mais seulement les choix possibles.';
@@ -36,7 +36,7 @@ $txt['smileys_code'] = 'Code';
 $txt['smileys_filename'] = 'Nom de fichier';
 $txt['smileys_description'] = 'Description';
 $txt['smileys_remove'] = 'Enlever';
-$txt['smileys_save'] = 'Sauvegarder les Changements';
+$txt['smileys_save'] = 'Sauvegarder les changements';
 $txt['smileys_delete'] = 'Effacer le smiley';
 $txt['smileys_delete_confirm'] = 'Êtes-vous sûr de vouloir effacer ce smiley ?';
 $txt['smileys_with_selected'] = 'Avec la sélection';

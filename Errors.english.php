@@ -211,7 +211,6 @@ $txt['theme_edit_missing'] = 'The file you are trying to edit... can\'t even be 
 $txt['attachments_no_write'] = 'The attachments upload directory is not writable. Your attachment or avatar cannot be saved.';
 $txt['attachments_limit_per_post'] = 'You may not upload more than %1$d attachments per post';
 
-$txt['no_dump_database'] = 'Only administrators can make database backups!';
 $txt['pm_not_yours'] = 'The personal message you\'re trying to quote is not your own or does not exist, please go back and try again.';
 $txt['mangled_post'] = 'Mangled form data - please go back and try again.';
 $txt['quoted_post_deleted'] = 'The post you are trying to quote either does not exist, was deleted, or is no longer viewable by you.';

@@ -42,7 +42,7 @@ $txt['theme_edit'] = 'Modifier un Thème';
 $txt['theme_edit_style'] = 'Modifier les feuilles de style (couleurs, polices, etc.)';
 $txt['theme_edit_index'] = 'Modifier index.template.php (le modèle principal)';
 $txt['theme_edit_no_save'] = 'Ce fichier ne peut pas être sauveradé parce qu\'il n\'est pas inscriptible&nbsp;!  Veuillez vous assurer que le fichier suivant est en chmod 777 ou possède les permissions suffisantes.';
-$txt['theme_edit_save'] = 'Sauvegarder les Changements';
+$txt['theme_edit_save'] = 'Sauvegarder les changements';
 
 $txt['theme_global_description'] = 'Ceci est le thème par défaut, ce qui signifie que votre thème changera suivant les réglages de l\'administrateur et/ou la section que vous consultez.';
 

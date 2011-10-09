@@ -211,7 +211,6 @@ $txt['theme_edit_missing'] = 'Le fichier que vous essayez de modifier... est int
 $txt['attachments_no_write'] = 'Le dossier de destination des fichiers joints est en lecture seule. Votre fichier joint ou avatar ne peut pas être sauvegardé.';
 $txt['attachments_limit_per_post'] = 'Vous ne pouvez pas transférer plus de %1$d fichiers joints par message';
 
-$txt['no_dump_database'] = 'Seul les administrateurs peuvent faire des copies de sauvegarde des bases de données&nbsp;!';
 $txt['pm_not_yours'] = 'Le message personnel que vous tentez de citer n\'est pas de vous ou n\'existe pas, retournez d\'où vous venez et réessayez.';
 $txt['mangled_post'] = 'Données du formulaire erronées - veuillez retourner à la page précédente et réessayer.';
 $txt['quoted_post_deleted'] = 'Le message que vous essayez de citer, soit n\'existe pas, soit à été supprimé, ou n\'est plus accessible pour vous.';

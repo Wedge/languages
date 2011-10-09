@@ -200,7 +200,7 @@ $txt['ban_no_triggers'] = 'Aucun déclencheur de bannissement pour le moment.';
 $txt['settings_not_writable'] = 'Ces paramètres ne peuvent pas être changés car Settings.php est accessible en lecture seulement.';
 
 $txt['maintain_title'] = 'Maintenance Forum';
-$txt['maintain_info'] = 'Optimisez les tables, effectuez des copies de sauvegarde, recherchez les erreurs et réparez le forum avec ces outils.';
+$txt['maintain_info'] = 'Optimisez les tables, recherchez les erreurs et réparez le forum avec ces outils.';
 $txt['maintain_sub_database'] = 'Base de données';
 $txt['maintain_sub_routine'] = 'Routinières';
 $txt['maintain_sub_members'] = 'Membres';

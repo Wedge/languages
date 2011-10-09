@@ -286,7 +286,7 @@ $txt['no_matches'] = 'Désolé, aucune correspondance trouvée';
 
 $txt['notification'] = 'Notification';
 
-$txt['your_ban'] = 'Désolé %1$s, vous êtes banni de ce forum!&1$s';
+$txt['your_ban'] = 'Désolé %1$s, vous êtes banni de ce forum&nbsp;!<br>%2$s';
 $txt['your_ban_expires'] = 'Ce bannissement devrait expirer le %1$s';
 $txt['your_ban_expires_never'] = 'Ce bannissement n\'a pas de date d\'expiration prévue.';
 $txt['ban_continue_browse'] = 'Vous pouvez cependant continuer à naviguer sur le forum en mode invité.';
@@ -445,8 +445,6 @@ $txt['new_merged_topic'] = 'Sujet après fusion';
 $txt['topic_to_merge'] = 'Sujets à fusionner';
 $txt['target_board'] = 'Section de destination';
 $txt['target_topic'] = 'Sujet de destination';
-$txt['merge_confirm'] = 'Êtes-vous sûr de vouloir fusionner';
-$txt['with'] = 'avec';
 $txt['merge_desc'] = 'Cette fonction réunira les messages de deux sujets en un seul. Les messages seront classés par date de publication. Le plus ancien message deviendra le premier du nouveau sujet fusionné.';
 
 $txt['set_sticky'] = 'Épingler';
@@ -458,7 +456,7 @@ $txt['search_advanced'] = 'Recherche avancée';
 $txt['search_simple'] = 'Recherche simple';
 
 $txt['security_risk'] = 'RISQUE DE SÉCURITÉ MAJEUR';
-$txt['not_removed'] = 'Vous n\'avez pas enlevé ';
+$txt['not_removed'] = 'Vous n\'avez pas supprimé <strong>%1$s</strong>&nbsp;!';
 $txt['not_removed_extra'] = '%1$s est une copie de %2$s qui n\'a pas été générée par Wedge. Il est accessible directement et peut être exploité pour obtenir un accès non autorisé à votre forum. Vous devriez le supprimer immédiatement.';
 
 $txt['cache_writable_head'] = 'Avertissement sur la performance';

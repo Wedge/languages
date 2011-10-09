@@ -79,6 +79,8 @@ $txt['profileConfirm'] = 'Êtes-vous sûr de vouloir effacer ce membre ?';
 
 $txt['custom_title'] = 'Titre personnel';
 
+$txt['current_action'] = 'Dernière action&nbsp;:';
+
 $txt['lastLoggedIn'] = 'Dernière visite';
 
 $txt['notify_settings'] = 'Paramètres de notification&nbsp;:';
@@ -218,7 +220,7 @@ $txt['activate_changed_email_title'] = 'Adresse e-mail modifiée';
 $txt['activate_changed_email_desc'] = 'Vous avez changé votre adresse e-mail. Afin de valider cette adresse, vous allez recevoir un e-mail dans la nouvelle boîte spécifiée. Cliquez sur le lien dans cet e-mail pour réactiver votre compte.';
 
 // Use numeric entities in the below strings.
-$txt['no_reminder_email'] = 'Impossible d\'envoyer l\'e-mail de rappel.<br>Envoyer un e-mail à <a href="%1$s">le webmaster</a> pour demander le mot de passe';
+$txt['no_reminder_email'] = 'Impossible d\'envoyer l\'e-mail de rappel.<br>Contactez le <a href="%1$s">webmaster</a> pour lui demander vos informations d\'authentification.';
 
 $txt['user_email'] = 'Identifiant/e-mail';
 
@@ -232,7 +234,7 @@ $txt['reminder_password_set'] = 'Mot de passe défini avec succès';
 $txt['reminder_error'] = '%1$s n\'a pas réussi à répondre correctement à sa question secrète en voulant retrouver un mot de passe perdu.';
 
 $txt['registration_not_approved'] = 'Desolé, ce compte n\'a pas encore été approuvé. Si vous avez besoin de changer votre adresse e-mail, cliquez <a href="%1$s">ici</a>.';
-$txt['registration_not_activated'] = 'Desolé, ce compte n\'a pas encore été activé. Si vous avez besoin de changer votre adresse e-mail, cliquez <a href="%1$s">ici</a>.';
+$txt['registration_not_activated'] = 'Desolé, ce compte n\'a pas encore été activé. Si vous n\'avez pas reçu l\'e-mail d\'activation, cliquez <a href="%1$s">ici</a> pour le renvoyer.';
 
 $txt['primary_membergroup'] = 'Groupe principal';
 $txt['additional_membergroups'] = 'Groupes additionnels';
