@@ -286,7 +286,7 @@ $txt['no_matches'] = 'Désolé, aucune correspondance trouvée';
 
 $txt['notification'] = 'Notification';
 
-$txt['your_ban'] = 'Désolé %1$s, vous êtes banni de ce forum&nbsp;!';
+$txt['your_ban'] = 'Désolé %1$s, vous êtes banni de ce forum!&1$s';
 $txt['your_ban_expires'] = 'Ce bannissement devrait expirer le %1$s';
 $txt['your_ban_expires_never'] = 'Ce bannissement n\'a pas de date d\'expiration prévue.';
 $txt['ban_continue_browse'] = 'Vous pouvez cependant continuer à naviguer sur le forum en mode invité.';
