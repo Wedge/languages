@@ -3,6 +3,8 @@
 
 global $settings, $scripturl;
 
+$txt['changes_saved'] = 'Vos changements ont été pris en compte.';
+
 $txt['admin_boards'] = 'Sites';
 $txt['admin_users'] = 'Membres';
 $txt['admin_newsletters'] = 'Infolettres';
