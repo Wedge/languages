@@ -79,7 +79,7 @@ $txt['profileConfirm'] = 'Do you really want to delete this member?';
 
 $txt['custom_title'] = 'Custom Title';
 
-$txt['current_action'] = 'User is currently:';
+$txt['current_action'] = 'User is currently';
 
 $txt['lastLoggedIn'] = 'Last Active';
 

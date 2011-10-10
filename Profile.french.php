@@ -79,7 +79,7 @@ $txt['profileConfirm'] = 'Êtes-vous sûr de vouloir effacer ce membre ?';
 
 $txt['custom_title'] = 'Titre personnel';
 
-$txt['current_action'] = 'Dernière action&nbsp;:';
+$txt['current_action'] = 'Dernière action';
 
 $txt['lastLoggedIn'] = 'Dernière visite';
 
