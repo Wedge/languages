@@ -14,6 +14,8 @@ $txt['install_error_minmysql'] = 'MySQL doit être mis à jour en version %1$s (
 $txt['fatal_install_error_minmysql'] = 'Cette extension n\'a pas pu être installée, car elle nécessite que MySQL soit mis à jour en version %1$s. La version actuelle est %2$s.';
 $txt['install_error_missinghook'] = 'Au moins une des fonctionnalités requises par cette extension n\'est pas disponible.';
 $txt['install_error_reqfunc'] = 'Cette fonction fait appel à des fonctions PHP inexistantes&nbsp;: %1$s';
+$txt['install_error_duplicate_id'] = 'Une autre extension avec un identifiant identique est déjà activée.';
+$txt['fatal_duplicate_id'] = 'Une autre extension partageant le même identifiant est déjà activée. Il s\'agit peut-être d\'une autre version de la même extension. Vous devrez la désactiver avant de pouvoir activer celle-ci.';
 $txt['fatal_install_error_reqfunc'] = 'Cette extension fait appel à des fonctionnalités non disponibles sur votre version de PHP, dont voici le nom des fonctions&nbsp;: %1$s. Contactez votre hébergeur pour plus d\'informations.';
 $txt['fatal_install_error_missinghook'] = 'Cette extension fait appel à des fonctionnalités non disponibles sur votre serveur, sous les références suivantes&nbsp:: %1$s. Contactez l\'auteur de l\'extension pour plus d\'informations.';
 $txt['fatal_install_enable_missing'] =  'Cette extension spécifie qu\'un fichier en particulier contient des instructions à exécuter au moment de son activation, %1$s, mais le fichier est introuvable à l\'endroit indiqué par l\'extension.';
@@ -42,5 +44,11 @@ $txt['remove_plugin_unsure'] = 'En cas de doute, choisissez toujours de "sauvega
 $txt['remove_plugin_already_enabled'] = 'Cette extension est actuellement activée. Vous devez l\'activer avant de pouvoir la supprimer.';
 $txt['remove_plugin_files_still_there'] = 'Les fichiers de cette extension n\'ont pas pu être supprimés. Vous devrez peut-être vous connecter par FTP à votre serveur pour en supprimer le dossier %1$s.';
 $txt['remove_plugin_files_pre_still_there'] = 'Cette extension n\'est pas encore supprimée. Les fichiers qui la constituent ne pourront être effacés que si vous vous connectez par FTP à votre serveur pour en changer les permissions.';
+
+$txt['plugin_filter'] = 'Filtrer&nbsp;:';
+$txt['plugin_filter_all'] = 'Toutes (%1$d)';
+$txt['plugin_filter_enabled'] = 'Actives (%1$d)';
+$txt['plugin_filter_disabled'] = 'Inactives (%1$d)';
+$txt['plugin_filter_install_errors'] = 'Incompatibles (%1$d)';
 
 ?>

@@ -26,11 +26,6 @@ $txt['days_short'] = array('Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam');
 $txt['months'] = array(1 => 'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre');
 $txt['months_short'] = array(1 => 'Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sep', 'Oct', 'Nov', 'Déc');
 
-$txt['newmessages0'] = 'est nouveau';
-$txt['newmessages1'] = 'sont nouveaux';
-$txt['newmessages3'] = 'Nouveau';
-$txt['newmessages4'] = ',';
-
 $txt['admin'] = 'Admin';
 $txt['moderate'] = 'Modérer';
 
@@ -174,8 +169,14 @@ $txt['post_awaiting_approval'] = 'Ce message est en attente d\'approbation par u
 $txt['there_are_unapproved_topics'] = 'Il y a %1$s sujets et %2$s messages en attente d\'approbation dans cette section. Cliquez <a href="%3$s">ici</a> pour tous les voir.';
 
 $txt['msg_alert_none'] = 'Pas de message...';
-$txt['msg_alert_you_have'] = 'vous avez';
-$txt['msg_alert_messages'] = 'messages';
+$txt['you_have_msg_0'] = 'votre messagerie est vide';
+$txt['you_have_msg_1'] = 'vous avez <a href="{scripturl}?action=pm">1</a> message {new}';
+$txt['you_have_msg_n'] = 'vous avez <a href="{scripturl}?action=pm">%1$s</a> messages {new}';
+// The {new} construct is used to add the (x new) area in a language-dependent manner, using unread_pms, as below.
+$txt['unread_pms_0'] = '(pas de nouveau)';
+$txt['unread_pms_1'] = '(1 nouveau)';
+$txt['unread_pms_n'] = '(%1$s nouveaux)';
+
 $txt['remove_message'] = 'Effacer ce message';
 $txt['remove_message_confirm'] = 'Effacer ce message ?';
 
@@ -351,10 +352,10 @@ $txt['latest_member'] = 'Dernier membre';
 $txt['total_cats'] = 'Total des catégories';
 $txt['latest_post'] = 'Dernier message';
 
-$txt['you_have'] = 'Vous avez';
-$txt['click'] = 'Cliquez';
-$txt['here'] = 'ici';
-$txt['to_view'] = 'pour les voir.';
+$txt['youve_got_pms_0'] = 'Pas de messages.';
+$txt['youve_got_pms_1'] = 'Vous avez un message.';
+$txt['youve_got_pms_n'] = 'Vous avez %1$s messages.';
+$txt['click_to_view_them'] = 'Cliquez <a href="%1$s">ici</a> pour consulter votre messagerie.';
 
 $txt['total_boards'] = 'Total des sections';
 
@@ -362,11 +363,9 @@ $txt['print_page'] = 'Imprimer la page';
 
 $txt['valid_email'] = 'Ce doit être une adresse e-mail valide.';
 
-$txt['geek'] = 'Je suis un geek&nbsp;!!';
 $txt['info_center_title'] = 'Centre d\'informations';
 
 $txt['send_topic'] = 'Partager';
-
 $txt['sendtopic_title'] = 'Envoyer le sujet &quot;%1$s&quot; à un ami.';
 $txt['sendtopic_sender_name'] = 'Votre nom';
 $txt['sendtopic_sender_email'] = 'Votre adresse e-mail';
@@ -416,8 +415,6 @@ $txt['in'] = 'dans';
 $txt['sticky_topic'] = 'Sujet épinglé';
 
 $txt['delete'] = 'Effacer';
-
-$txt['your_pms'] = 'Vos messages personnels';
 
 $txt['kilobyte'] = 'ko';
 
