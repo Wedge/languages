@@ -43,4 +43,9 @@ $txt['remove_plugin_already_enabled'] = 'This plugin is currently enabled. You m
 $txt['remove_plugin_files_still_there'] = 'The files for your plugin could not be deleted. You may have to log into your server with FTP to remove the %1$s folder.';
 $txt['remove_plugin_files_pre_still_there'] = 'Your plugin has not yet been removed; the files that make it up cannot be deleted without logging into FTP to change the permissions to make them deleteable.';
 
+$txt['plugin_filter'] = 'Filter plugins:';
+$txt['plugin_filter_all'] = 'All (%1$d)';
+$txt['plugin_filter_enabled'] = 'Enabled (%1$d)';
+$txt['plugin_filter_disabled'] = 'Disabled (%1$d)';
+$txt['plugin_filter_install_errors'] = 'Incompatible (%1$d)';
 ?>
