@@ -1,9 +1,7 @@
 <?php
 // Version: 2.0; ManageSettings
 
-global $scripturl;
-
-$txt['modSettings_desc'] = 'This page allows you to change the settings of features and basic options in your forum. Please see the <a href="' . $scripturl . '?action=admin;area=theme;sa=settings;th=%1$s;%3$s=%2$s">theme settings</a> for more options. Click the help icons for more information about a setting.';
+$txt['modSettings_desc'] = 'This page allows you to change the settings of features and basic options in your forum. Please see the <a href="%3$s?action=admin;area=theme;sa=settings;th=%1$s;%2$s">theme settings</a> for more options. Click the help icons for more information about a setting.';
 $txt['security_settings_desc'] = 'This page allows you to set options specifically related to the security and moderation of your forum, including anti-spam options.';
 $txt['modification_settings_desc'] = 'This page contains settings added by any plugins to your forum';
 
@@ -178,7 +176,7 @@ $txt['default_personal_text'] = 'Default personal text<dfn>Personal text to assi
 
 $txt['signature_settings'] = 'Signature Settings';
 $txt['signature_settings_desc'] = 'Use the settings on this page to decide what facilities members should have for their signatures.';
-$txt['signature_settings_warning'] = 'Note that settings are not applied to existing signatures by default. Click <a href="' . $scripturl . '?action=admin;area=memberoptions;sa=sig;apply;%2$s=%1$s">here</a> to apply rules to all existing signatures.';
+$txt['signature_settings_warning'] = 'Note that settings are not applied to existing signatures by default. Click <a href="%1$s?action=admin;area=memberoptions;sa=sig;apply;%2$s">here</a> to apply rules to all existing signatures.';
 $txt['signature_enable'] = 'Enable signatures';
 $txt['signature_max_length'] = 'Maximum allowed characters<dfn>(0 for no max.)</dfn>';
 $txt['signature_max_lines'] = 'Maximum amount of lines<dfn>(0 for no max)</dfn>';

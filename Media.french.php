@@ -1,7 +1,7 @@
 <?php
 // Version: 0.1; Media
 
-global $txt, $scripturl;
+global $txt;
 
 // Auto-embedder strings
 $txt['media'] = 'Media';

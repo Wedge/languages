@@ -1,8 +1,6 @@
 <?php
 // Version: 2.0; Errors
 
-global $scripturl, $modSettings;
-
 $txt['no_access'] = 'Vous n\'êtes pas autorisé à accéder à cette section.';
 $txt['wireless_error_notyet'] = 'Désolé, cette action n\'est pas disponible en mode mobile pour l\'instant.';
 
@@ -309,7 +307,7 @@ $txt['profile_error_no_password'] = 'Vous n\'avez pas entré votre mot de passe'
 $txt['profile_error_bad_new_password'] = 'Les nouveaux mots de passe que vous avez entrés ne correspondent pas';
 $txt['profile_error_bad_password'] = 'Le mot de passe que vous avez entré est incorrect';
 $txt['profile_error_bad_avatar'] = 'L\'avatar que vous avez choisi est trop grand ou n\'est pas un avatar';
-$txt['profile_error_password_short'] = 'Votre mot de passe doit contenir au moins ' . (empty($modSettings['password_strength']) ? 4 : 8) . ' caractères.';
+$txt['profile_error_password_short'] = 'Votre mot de passe doit contenir au moins %1$d caractères.';
 $txt['profile_error_password_restricted_words'] = 'Votre mot de passe de doit pas contenir votre identifiant, adresse e-mail ou autre mot couramment utilisé.';
 $txt['profile_error_password_chars'] = 'Votre mot de passe doit contenir un mélange de lettres majuscules et minuscules, de même que des numéros.';
 $txt['profile_error_already_requested_group'] = 'Vous avez déjà une demande en instance pour ce groupe&nbsp;!';

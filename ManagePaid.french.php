@@ -1,8 +1,6 @@
 <?php
 // Version: 2.0; ManagePaid
 
-global $boardurl;
-
 // Symbols.
 $txt['usd_symbol'] = '$%1.2f';
 $txt['eur_symbol'] = '%1.2f €';
@@ -62,7 +60,7 @@ $txt['paid_settings_save'] = 'Sauvegarder';
 
 $txt['paid_note'] = '<strong class="alert">Note</strong>&nbsp;:<br>Pour que les abonnements soient mis à jour automatiquement pour vos utilisateurs, vous
 	aurez besoin de mettre en place une URL de retour pour chacune de vos méthodes de paiement. Pour tous les types de paiement, cette URL de retour doit
-	être équivalente à&nbsp;:<br><br>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<strong>' . $boardurl . '/subscriptions.php</strong><br><br>
+	être équivalente à&nbsp;:<br><br>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<strong>{board_url}/subscriptions.php</strong><br><br>
 	Vous pouvez modifier le lien pour PayPal directement, en cliquant <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-ipn-notify" target="_blank">ici</a>.<br>
 	Pour les autres passerelles (si installées), vous pouvez normalement les trouver dans votre panneau client, habituellement sous le terme &quot;URL de Retour&quot; (<em>Return URL</em>) ou &quot;URL de Rappel&quot; (<em>Callback URL</em>).';
 

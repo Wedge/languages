@@ -1,8 +1,6 @@
 <?php
 // Version: 2.0; Modlog
 
-global $scripturl;
-
 $txt['modlog_date'] = 'Date';
 $txt['modlog_member'] = 'Membre';
 $txt['modlog_position'] = 'Position';

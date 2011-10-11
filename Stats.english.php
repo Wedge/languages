@@ -1,8 +1,6 @@
 <?php
 // Version: 2.0; Stats
 
-global $context;
-
 $txt['stats_center'] = 'Statistics Center';
 $txt['general_stats'] = 'General Statistics';
 $txt['top_posters'] = 'Top 10 Posters';
@@ -35,6 +33,6 @@ $txt['ssi_comment'] = 'comment';
 $txt['ssi_comments'] = 'comments';
 $txt['ssi_write_comment'] = 'Write Comment';
 $txt['ssi_no_guests'] = 'You cannot specify a board that doesn\'t allow guests.  Please check the board ID before trying again.';
-$txt['xml_feed_desc'] = 'Live information from ' . $context['forum_name'];
+$txt['xml_feed_desc'] = 'Live information from {forum_name}';
 
 ?>

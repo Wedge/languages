@@ -1,9 +1,7 @@
 <?php
 // Version: 2.0; ManageSettings
 
-global $scripturl;
-
-$txt['modSettings_desc'] = 'Cette page vous permet de paramétrer les caractéristiques et options de base de votre forum. Veuillez voir les <a href="' . $scripturl . '?action=admin;area=theme;sa=settings;th=%1$s;%3$s=%2$s">Réglages du thème</a> pour plus d\'options. Cliquez sur l\'icône d\'aide pour plus d\'informations à propos d\'un paramètre.';
+$txt['modSettings_desc'] = 'Cette page vous permet de paramétrer les caractéristiques et options de base de votre forum. Veuillez voir les <a href="%3$s?action=admin;area=theme;sa=settings;th=%1$s;%2$s">Réglages du thème</a> pour plus d\'options. Cliquez sur l\'icône d\'aide pour plus d\'informations à propos d\'un paramètre.';
 $txt['security_settings_desc'] = 'Cette page vous permet de régler les options spécifiquement liées à la sécurité et la modération de votre forum, en incluant les options anti-spam.';
 $txt['modification_settings_desc'] = 'Cette page contient les réglages ajoutés par les extensions à votre forum';
 
@@ -177,7 +175,7 @@ $txt['default_personal_text'] = 'Texte personnel par défaut<dfn>Ce texte sera a
 
 $txt['signature_settings'] = 'Paramètres de Signature';
 $txt['signature_settings_desc'] = 'Utilisez les paramètres de cette page pour décider des fonctionnalités offertes aux membres pour leurs signatures.';
-$txt['signature_settings_warning'] = 'Notez que par défaut, ces paramètres ne sont pas appliqués sur les signatures existantes. Cliquez <a href="' . $scripturl . '?action=admin;area=memberoptions;sa=sig;apply;%2$s=%1$s">ici</a> pour appliquer les règles à toutes les signatures existantes.';
+$txt['signature_settings_warning'] = 'Notez que par défaut, ces paramètres ne sont pas appliqués sur les signatures existantes. Cliquez <a href="%1$s?action=admin;area=memberoptions;sa=sig;apply;%2$s">ici</a> pour appliquer les règles à toutes les signatures existantes.';
 $txt['signature_enable'] = 'Activer les signatures';
 $txt['signature_max_length'] = 'Nombre maximal de caractères autorisé<dfn>(0 pour pas de max.)</dfn>';
 $txt['signature_max_lines'] = 'Nombre maximal de lignes<dfn>(0 pour pas de max)</dfn>';

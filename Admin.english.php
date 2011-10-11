@@ -1,8 +1,6 @@
 <?php
 // Version: 2.0; Admin
 
-global $settings, $scripturl;
-
 $txt['changes_saved'] = 'Your changes have been saved.';
 
 $txt['admin_boards'] = 'Boards';
@@ -138,7 +136,7 @@ $txt['security_wrong'] = 'Administration login attempt!' . "\n" . 'Referer: %1$s
 
 $txt['email_as_html'] = 'Send in HTML format. (With this, you can put normal HTML in the email.)';
 $txt['email_parsed_html'] = 'Add &lt;br /&gt;s and &amp;nbsp;s to this message.';
-$txt['email_variables'] = 'In this message you can use a few &quot;variables&quot;. Click <a href="' . $scripturl . '?action=help;in=emailmembers" onclick="return reqWin(this);">here</a> for more information.';
+$txt['email_variables'] = 'In this message you can use a few &quot;variables&quot;. Click <a href="{scripturl}?action=help;in=emailmembers" onclick="return reqWin(this);">here</a> for more information.';
 $txt['email_force'] = 'Send this to members even if they have chosen not to receive announcements.';
 $txt['email_as_pms'] = 'Send this to these groups using personal messages.';
 $txt['email_continue'] = 'Continue';
@@ -337,9 +335,9 @@ $txt['attachmentExtensions'] = 'Allowed attachment extensions';
 $txt['attachmentRecodeLineEndings'] = 'Recode line endings in textual attachments';
 $txt['attachmentShowImages'] = 'Display image attachments as pictures under post';
 $txt['attachmentEncryptFilenames'] = 'Encrypt stored filenames';
-$txt['attachmentUploadDir'] = 'Attachments directory<dfn><a href="' . $scripturl . '?action=admin;area=manageattachments;sa=attachpaths">Configure multiple attachment directories</a></dfn>';
+$txt['attachmentUploadDir'] = 'Attachments directory<dfn><a href="{scripturl}?action=admin;area=manageattachments;sa=attachpaths">Configure multiple attachment directories</a></dfn>';
 $txt['attachmentUploadDir_multiple'] = 'Attachments directory';
-$txt['attachmentUploadDir_multiple_configure'] = '<a href="' . $scripturl . '?action=admin;area=manageattachments;sa=attachpaths">[Configure multiple attachment directories]</a>';
+$txt['attachmentUploadDir_multiple_configure'] = '<a href="{scripturl}?action=admin;area=manageattachments;sa=attachpaths">[Configure multiple attachment directories]</a>';
 $txt['attachmentDirSizeLimit'] = 'Max attachment folder space<dfn>(0 for no limit)</dfn>';
 $txt['attachmentPostLimit'] = 'Max attachment size per post<dfn>(0 for no limit)</dfn>';
 $txt['attachmentSizeLimit'] = 'Max size per attachment<dfn>(0 for no limit)</dfn>';
@@ -354,7 +352,7 @@ $txt['attachmentThumbHeight'] = 'Maximum height of thumbnails';
 
 $txt['attach_dir_does_not_exist'] = 'Does Not Exist';
 $txt['attach_dir_not_writable'] = 'Not Writable';
-$txt['attach_dir_files_missing'] = 'Files Missing (<a href="' . $scripturl . '?action=admin;area=manageattachments;sa=repair;%2$s=%1$s">Repair</a>)';
+$txt['attach_dir_files_missing'] = 'Files Missing (<a href="%1$s?action=admin;area=manageattachments;sa=repair;%2$s">Repair</a>)';
 $txt['attach_dir_unused'] = 'Unused';
 $txt['attach_dir_ok'] = 'OK';
 

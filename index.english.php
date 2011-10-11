@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; index
 
-global $webmaster_email, $scripturl, $context, $boardurl;
+global $scripturl;
 
 // Locale (strftime, pspell_new) and spelling. (pspell_new, can be left as '' normally.)
 // For more information see:
@@ -139,9 +139,10 @@ $txt['home'] = 'Home';
 $txt['lock_unlock'] = 'Lock/Unlock Topic';
 $txt['post'] = 'Post';
 $txt['error_occured'] = 'An Error Has Occurred!';
-$txt['at'] = 'at';
 $txt['logout'] = 'Logout';
 $txt['started_by'] = 'Started by';
+$txt['board_index_last_post'] = '<strong>Last post</strong> by {member_link} <br> in {post_link}<br> on {post_time}';
+
 $txt['last_post'] = 'Last post';
 $txt['admin_login'] = 'Administration Login';
 // Use numeric entities in the below string.
@@ -151,7 +152,7 @@ $txt['notify'] = 'Notify';
 $txt['unnotify'] = 'Unnotify';
 $txt['notify_request'] = 'Do you want a notification email if someone replies to this topic?';
 // Use numeric entities in the below string.
-$txt['regards_team'] = 'Regards,' . "\n" . 'The ' . $context['forum_name'] . ' Team.';
+$txt['regards_team'] = 'Regards,' . "\n" . 'The {forum_name} Team.';
 $txt['notify_replies'] = 'Notify of replies';
 $txt['move_topic'] = 'Move Topic';
 $txt['move_to'] = 'Move to';
@@ -169,8 +170,7 @@ $txt['post_awaiting_approval'] = 'Note: This message is awaiting approval by a m
 $txt['there_are_unapproved_topics'] = 'There are %1$s topics and %2$s posts awaiting approval in this board. Click <a href="%3$s">here</a> to view them all.';
 
 $txt['msg_alert_none'] = 'No messages...';
-$txt['msg_alert_you_have'] = 'you have';
-$txt['you_have_msg_0'] = 'you have no messages {new}';
+$txt['you_have_msg_0'] = 'you have no messages';
 $txt['you_have_msg_1'] = 'you have <a href="{scripturl}?action=pm">1</a> message {new}';
 $txt['you_have_msg_n'] = 'you have <a href="{scripturl}?action=pm">%1$s</a> messages {new}';
 // The {new} construct is used to add the (x new) area in a language-dependent manner, using unread_pms, as below.
@@ -178,7 +178,6 @@ $txt['unread_pms_0'] = '(none new)';
 $txt['unread_pms_1'] = '(1 new)';
 $txt['unread_pms_n'] = '(%1$s new)';
 
-$txt['msg_alert_messages'] = 'messages';
 $txt['remove_message'] = 'Remove this message';
 $txt['remove_message_confirm'] = 'Remove this message?';
 
@@ -227,9 +226,6 @@ $txt['welcome_guest_activate'] = '<br>Did you miss your <a href="' . $scripturl 
 $txt['hello_member'] = 'Hey,';
 // Use numeric entities in the below string.
 $txt['hello_guest'] = 'Welcome,';
-$txt['welmsg_hey'] = 'Hey,';
-$txt['welmsg_welcome'] = 'Welcome,';
-$txt['welmsg_please'] = 'Please';
 $txt['select_destination'] = 'Select destination';
 
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
@@ -301,8 +297,6 @@ $txt['locked_topic'] = 'Locked Topic';
 $txt['normal_topic'] = 'Normal Topic';
 $txt['participation_caption'] = 'Topic you have posted in';
 
-$txt['go_caps'] = 'GO';
-
 $txt['print'] = 'Print';
 $txt['profile'] = 'Profile';
 $txt['topic_summary'] = 'Topic Summary';
@@ -330,8 +324,6 @@ $txt['last_saved_on'] = 'Last saved';
 // Use numeric entities in the below string.
 $txt['ip'] = 'IP';
 
-$txt['www'] = 'WWW';
-
 $txt['by'] = 'by';
 
 $txt['days_word'] = 'days';
@@ -357,7 +349,7 @@ $txt['latest_post'] = 'Latest Post';
 $txt['youve_got_pms_0'] = 'You have no messages...';
 $txt['youve_got_pms_1'] = 'You have 1 message...';
 $txt['youve_got_pms_n'] = 'You have %1$s messages...';
-$txt['click_to_view_them'] = 'Click <a href="%1$s">here</a> to view them';
+$txt['click_to_view_them'] = 'Click <a href="%1$s">here</a> to view them.';
 
 $txt['total_boards'] = 'Total Boards';
 
@@ -390,7 +382,7 @@ $txt['tried_to_repair'] = 'Wedge has detected and automatically tried to repair 
 $txt['database_error_versions'] = '<strong>Note:</strong> It appears that your database <em>may</em> require an upgrade. Your forum\'s files are currently at version %1$s, while your database is at version %2$s. The above error might possibly go away if you execute the latest version of upgrade.php.';
 $txt['template_parse_error'] = 'Template Parse Error!';
 $txt['template_parse_error_message'] = 'It seems something has gone sour on the forum with the template system. This problem should only be temporary, so please come back later and try again. If you continue to see this message, please contact the administrator.<br><br>You can also try <a href="javascript:location.reload();">refreshing this page</a>.';
-$txt['template_parse_error_details'] = 'There was a problem loading the <tt><strong>%1$s</strong></tt> template or language file. Please check the syntax and try again - remember, single quotes (<tt>\'</tt>) often have to be escaped with a slash (<tt>\\</tt>). To see more specific error information from PHP, try <a href="' . $boardurl . '%1$s">accessing the file directly</a>.<br><br>You may want to try to <a href="javascript:location.reload();">refresh this page</a> or <a href="' . $scripturl . '?theme=1">use the default theme</a>.';
+$txt['template_parse_error_details'] = 'There was a problem loading the <tt><strong>%1$s</strong></tt> template or language file. Please check the syntax and try again - remember, single quotes (<tt>\'</tt>) often have to be escaped with a slash (<tt>\\</tt>). To see more specific error information from PHP, try <a href="{board_url}%1$s">accessing the file directly</a>.<br><br>You may want to try to <a href="javascript:location.reload();">refresh this page</a> or <a href="' . $scripturl . '?theme=1">use the default theme</a>.';
 
 $txt['today'] = '<strong>Today</strong> at ';
 $txt['yesterday'] = '<strong>Yesterday</strong> at ';
@@ -659,11 +651,8 @@ $txt['totalTimeLogged5'] = 'd ';
 $txt['totalTimeLogged6'] = 'h ';
 $txt['totalTimeLogged7'] = 'm';
 
-$txt['approve_thereis'] = 'There is';
-$txt['approve_thereare'] = 'There are';
-$txt['approve_member'] = 'one member';
-$txt['approve_members'] = 'members';
-$txt['approve_members_waiting'] = 'awaiting approval.';
+$txt['approve_members_waiting_1'] = 'There is <a href="{scripturl}?action=admin;area=viewmembers;sa=browse;type=approve">one member</a> awaiting approval.';
+$txt['approve_members_waiting_n'] = 'There are <a href="{scripturl}?action=admin;area=viewmembers;sa=browse;type=approve">%1$s members</a> awaiting approval';
 
 $txt['notifyboard_turnon'] = 'Do you want a notification email when someone posts a new topic in this board?';
 $txt['notifyboard_turnoff'] = 'Are you sure you do not want to receive new topic notifications for this board?';

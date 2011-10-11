@@ -1,8 +1,6 @@
 <?php
 // Version: 2.0; PersonalMessage
 
-global $context;
-
 $txt['pm_inbox'] = 'Personal Messages Index';
 $txt['send_message'] = 'Send message';
 $txt['pm_add'] = 'Add';
@@ -22,7 +20,7 @@ $txt['recipient'] = 'Recipient';
 // Don't translate the word "SUBJECT" here, as it is used to format the message - use numeric entities as well.
 $txt['new_pm_subject'] = 'New Personal Message: SUBJECT';
 // Don't translate SENDER or MESSAGE in this language string; they are replaced with the corresponding text - use numeric entities too.
-$txt['pm_email'] = 'You have just been sent a personal message by SENDER on ' . $context['forum_name'] . '.' . "\n\n" . 'IMPORTANT: Remember, this is just a notification. Please do not reply to this email.' . "\n\n" . 'The message they sent you was:' . "\n\n" . 'MESSAGE';
+$txt['pm_email'] = 'You have just been sent a personal message by SENDER on {forum_name}.' . "\n\n" . 'IMPORTANT: Remember, this is just a notification. Please do not reply to this email.' . "\n\n" . 'The message they sent you was:' . "\n\n" . 'MESSAGE';
 $txt['pm_multiple'] = '(multiple recipients: \'name1, name2\')';
 // Use numeric entities in the below string.
 $txt['instant_reply'] = 'Reply to this Personal Message here:';

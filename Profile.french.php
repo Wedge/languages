@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; Profile
 
-global $scripturl, $context;
+global $context;
 
 $txt['no_profile_edit'] = 'Vous n\'êtes pas autorisé à modifier le profil de ce membre.';
 $txt['website_title'] = 'Titre du site web';
@@ -61,7 +61,6 @@ $txt['secret_ask'] = 'Posez-moi ma question secrète';
 $txt['cant_retrieve'] = 'Il est impossible de récupérer votre mot de passe, mais vous pouvez en spécifier un nouveau en suivant le lien envoyé à votre adresse e-mail. Vous avez aussi la possibilité de spécifier un nouveau mot de passe en répondant à votre question secrète.';
 $txt['incorrect_answer'] = 'Désolé, mais vous n\'avez pas défini de question secrète/réponse dans votre profil. Merci de cliquer le bouton Retour, et utilisez la méthode par défaut pour obtenir votre mot de passe.';
 $txt['enter_new_password'] = 'Merci d\'entrer la réponse à votre question, et le mot de passe que vous souhaitez utiliser. Votre mot de passe sera remplacé par celui fourni en répondant correctement à votre question.';
-$txt['password_success'] = 'Votre mot de passe a été modifié avec succès.<br>Cliquez <a href="' . $scripturl . '?action=login">ici</a> pour vous connecter.';
 $txt['secret_why_blank'] = 'Pourquoi est-ce vide&nbsp;? ';
 
 $txt['authentication_reminder'] = 'Rappel d\'authentification';

@@ -1,8 +1,6 @@
 <?php
 // Version: 2.0; Errors
 
-global $scripturl, $modSettings;
-
 $txt['no_access'] = 'You are not allowed to access this section.';
 $txt['wireless_error_notyet'] = 'Sorry, this section isn\'t available for wireless users at this time.';
 
@@ -309,7 +307,7 @@ $txt['profile_error_no_password'] = 'You did not enter your password';
 $txt['profile_error_bad_new_password'] = 'The new passwords you entered do not match';
 $txt['profile_error_bad_password'] = 'The password you entered was not correct';
 $txt['profile_error_bad_avatar'] = 'The avatar you have selected is either too large or not an avatar';
-$txt['profile_error_password_short'] = 'Your password must be at least ' . (empty($modSettings['password_strength']) ? 4 : 8) . ' characters long.';
+$txt['profile_error_password_short'] = 'Your password must be at least %1$d characters long.';
 $txt['profile_error_password_restricted_words'] = 'Your password must not contain your username, email address or other commonly used words.';
 $txt['profile_error_password_chars'] = 'Your password must contain a mix of upper and lower case letters, as well as digits.';
 $txt['profile_error_already_requested_group'] = 'You already have an outstanding request for this group!';

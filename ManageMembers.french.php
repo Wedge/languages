@@ -1,8 +1,6 @@
 <?php
 // Version: 2.0; ManageMembers
 
-global $context;
-
 $txt['groups'] = 'Groupes';
 $txt['viewing_groups'] = 'Affichage des groupes de membres';
 $txt['visible_to_all'] = '(déjà visible à tous les membres)';
