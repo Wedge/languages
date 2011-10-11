@@ -26,11 +26,6 @@ $txt['days_short'] = array('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat');
 $txt['months'] = array(1 => 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
 $txt['months_short'] = array(1 => 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
 
-$txt['newmessages0'] = 'is new';
-$txt['newmessages1'] = 'are new';
-$txt['newmessages3'] = 'New';
-$txt['newmessages4'] = ',';
-
 $txt['admin'] = 'Admin';
 $txt['moderate'] = 'Moderate';
 
@@ -175,6 +170,14 @@ $txt['there_are_unapproved_topics'] = 'There are %1$s topics and %2$s posts awai
 
 $txt['msg_alert_none'] = 'No messages...';
 $txt['msg_alert_you_have'] = 'you have';
+$txt['you_have_msg_0'] = 'you have no messages {new}';
+$txt['you_have_msg_1'] = 'you have <a href="{scripturl}?action=pm">1</a> message {new}';
+$txt['you_have_msg_n'] = 'you have <a href="{scripturl}?action=pm">%1$s</a> messages {new}';
+// The {new} construct is used to add the (x new) area in a language-dependent manner, using unread_pms, as below.
+$txt['unread_pms_0'] = '(none new)';
+$txt['unread_pms_1'] = '(1 new)';
+$txt['unread_pms_n'] = '(%1$s new)';
+
 $txt['msg_alert_messages'] = 'messages';
 $txt['remove_message'] = 'Remove this message';
 $txt['remove_message_confirm'] = 'Remove this message?';
@@ -351,10 +354,10 @@ $txt['latest_member'] = 'Latest Member';
 $txt['total_cats'] = 'Total Categories';
 $txt['latest_post'] = 'Latest Post';
 
-$txt['you_have'] = 'You\'ve got';
-$txt['click'] = 'Click';
-$txt['here'] = 'here';
-$txt['to_view'] = 'to view them.';
+$txt['youve_got_pms_0'] = 'You have no messages...';
+$txt['youve_got_pms_1'] = 'You have 1 message...';
+$txt['youve_got_pms_n'] = 'You have %1$s messages...';
+$txt['click_to_view_them'] = 'Click <a href="%1$s">here</a> to view them';
 
 $txt['total_boards'] = 'Total Boards';
 
@@ -362,7 +365,6 @@ $txt['print_page'] = 'Print Page';
 
 $txt['valid_email'] = 'This must be a valid email address.';
 
-$txt['geek'] = 'I am a geek!!';
 $txt['info_center_title'] = 'Info Center';
 
 $txt['send_topic'] = 'Send this topic';
