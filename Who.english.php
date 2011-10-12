@@ -1,8 +1,6 @@
 <?php
 // Version: 2.0; Who
 
-global $context;
-
 $txt['who_hidden'] = '<em>Nothing, or nothing you can see...</em>';
 $txt['who_unknown'] = '<em>Unknown Action</em>';
 $txt['who_user'] = 'User';
@@ -115,7 +113,7 @@ $txt['whoallow_viewmembers'] = 'Viewing a list of members.';
 
 $txt['who_topic'] = 'Viewing the topic <a href="{scripturl}?topic=%1$d.0">%2$s</a>.';
 $txt['who_board'] = 'Viewing the board <a href="{scripturl}?board=%1$d.0">%2$s</a>.';
-$txt['who_index'] = 'Viewing the board index of <a href="{scripturl}">' . $context['forum_name'] . '</a>.';
+$txt['who_index'] = 'Viewing the board index of <a href="{scripturl}">{forum_name}</a>.';
 $txt['who_viewprofile'] = 'Viewing <a href="{scripturl}?action=profile;u=%1$d">%2$s</a>\'s profile.';
 $txt['who_profile'] = 'Editing the profile of <a href="{scripturl}?action=profile;u=%1$d">%2$s</a>.';
 $txt['who_post'] = 'Posting a new topic in <a href="{scripturl}?board=%1$d.0">%2$s</a>.';

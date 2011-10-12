@@ -9,8 +9,6 @@
 // will probably be to split the original file's strings among Media, ManageMedia, Admin,
 // ManagePermissions and index files... Good luck. You can do it. Or start from scratch.
 
-global $txt;
-
 // Auto-embedder strings
 $txt['media'] = 'Media';
 $txt['media_noexternalembedding'] = '(The video\'s owner prevents external embedding)';

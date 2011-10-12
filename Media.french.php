@@ -1,8 +1,6 @@
 <?php
 // Version: 0.1; Media
 
-global $txt;
-
 // Auto-embedder strings
 $txt['media'] = 'Media';
 $txt['media_noexternalembedding'] = '(L\'auteur de la vidéo refuse les intégrations externes)';

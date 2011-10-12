@@ -1,8 +1,6 @@
 <?php
 // Version: 2.0; Login
 
-global $context;
-
 // Registration agreement page.
 $txt['registration_agreement'] = 'Accord d\'inscription';
 $txt['agreement_agree'] = 'J\'accepte les conditions de ce document.';
@@ -110,7 +108,7 @@ $txt['admin_register_group_none'] = '(pas de groupe principal)';
 $txt['admin_register_done'] = 'Le membre %1$s s\'est inscrit avec succès&nbsp;!';
 
 $txt['coppa_title'] = 'Forum avec restriction d\'âge';
-$txt['coppa_after_registration'] = 'Merci de vous être inscrit sur ' . $context['forum_name_html_safe'] . '.<br><br>Parce que vous êtes âgé de moins de {MINIMUM_AGE} ans, il est légalement requis
+$txt['coppa_after_registration'] = 'Merci de vous être inscrit sur {forum_name_safe}.<br><br>Parce que vous êtes âgé de moins de {MINIMUM_AGE} ans, il est légalement requis
 	que vous obteniez une autorisation de vos parents ou tuteurs légaux avant que vous puissiez utiliser votre compte.  Pour arranger l\'activation de votre compte, veuillez imprimer le formulaire ci-dessous&nbsp;:';
 $txt['coppa_form_link_popup'] = 'Charger le formulaire dans une nouvelle fenêtre';
 $txt['coppa_form_link_download'] = 'Télécharger le formulaire en tant que fichier texte';
@@ -120,10 +118,10 @@ $txt['coppa_send_by_post'] = 'Voie postale à l\'adresse suivante&nbsp;:';
 $txt['coppa_send_by_fax'] = 'Fax au numéro suivant&nbsp;:';
 $txt['coppa_send_by_phone'] = 'Alternativement, demandez-leur de contacter l\'administrateur par téléphone au numéro {PHONE_NUMBER}.';
 
-$txt['coppa_form_title'] = 'Formulaire d\'autorisation d\'inscription au forum ' . $context['forum_name_html_safe'];
+$txt['coppa_form_title'] = 'Formulaire d\'autorisation d\'inscription au forum {forum_name_safe}';
 $txt['coppa_form_address'] = 'Adresse';
 $txt['coppa_form_date'] = 'Date';
-$txt['coppa_form_body'] = 'Je soussigné, {PARENT_NAME},<br><br>Donne la permission à {CHILD_NAME} (nom de l\'enfant) de devenir un membre à part entière du forum : ' . $context['forum_name_html_safe'] . ', sous l\'identifiant : {USER_NAME}.<br><br>Je comprends que certaines informations personnelles entrées par {USER_NAME} peuvent êtres affichées à d\'autres visiteurs du forum.<br><br>Signé&nbsp;:<br>{PARENT_NAME} (Parent/Tuteur légal).';
+$txt['coppa_form_body'] = 'Je soussigné, {PARENT_NAME},<br><br>Donne la permission à {CHILD_NAME} (nom de l\'enfant) de devenir un membre à part entière du forum : {forum_name_safe}, sous l\'identifiant : {USER_NAME}.<br><br>Je comprends que certaines informations personnelles entrées par {USER_NAME} peuvent êtres affichées à d\'autres visiteurs du forum.<br><br>Signé&nbsp;:<br>{PARENT_NAME} (Parent/Tuteur légal).';
 
 $txt['visual_verification_sound_again'] = 'Recommencer';
 $txt['visual_verification_sound_close'] = 'Fermer la fenêtre';

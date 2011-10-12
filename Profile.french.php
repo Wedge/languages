@@ -1,8 +1,6 @@
 <?php
 // Version: 2.0; Profile
 
-global $context;
-
 $txt['no_profile_edit'] = 'Vous n\'êtes pas autorisé à modifier le profil de ce membre.';
 $txt['website_title'] = 'Titre du site web';
 $txt['website_url'] = 'URL du site web';
@@ -170,7 +168,7 @@ $txt['change_authentication'] = 'D\'ici, vous pouvez changer votre manière de v
 
 $txt['profileEdit'] = 'Modifier le Profil';
 $txt['account_info'] = 'Cette page contient vos préférences de compte et recense toutes les informations critiques qui peuvent vous identifier sur le forum. Pour des raisons de sécurité, vous devrez entrer votre mot de passe (actuel) pour modifier ces informations.';
-$txt['forumProfile_info'] = 'Vous pouvez changer vos infos personnelles sur cette page. Ces informations seront visible à travers ' . $context['forum_name_html_safe'] . '. Si vous ne désirez pas présenter certaines infos, ne remplissez pas le champ - rien n\'est obligatoire ici.';
+$txt['forumProfile_info'] = 'Vous pouvez changer vos infos personnelles sur cette page. Ces informations seront visible à travers {forum_name_safe}. Si vous ne désirez pas présenter certaines infos, ne remplissez pas le champ - rien n\'est obligatoire ici.';
 $txt['options'] = 'Préférences';
 $txt['options_info'] = 'Cette section vous permet de personnaliser le comportement visuel du site.';
 $txt['notification'] = 'Notifications et E-mails';
