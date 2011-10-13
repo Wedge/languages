@@ -216,14 +216,10 @@ $txt['avatar_will_upload'] = 'Transférer un avatar';
 $txt['activate_changed_email_title'] = 'Adresse e-mail modifiée';
 $txt['activate_changed_email_desc'] = 'Vous avez changé votre adresse e-mail. Afin de valider cette adresse, vous allez recevoir un e-mail dans la nouvelle boîte spécifiée. Cliquez sur le lien dans cet e-mail pour réactiver votre compte.';
 
-// Use numeric entities in the below strings.
 $txt['no_reminder_email'] = 'Impossible d\'envoyer l\'e-mail de rappel.<br>Contactez le <a href="%1$s">webmaster</a> pour lui demander vos informations d\'authentification.';
 
 $txt['user_email'] = 'Identifiant/e-mail';
 
-// Use numeric entities in the below two strings.
-$txt['reminder_subject'] = 'Nouveau mot de passe pour ' . $context['forum_name'];
-$txt['reminder_mail'] = 'Cet e-mail a &#233;t&#233; envoy&#233; car la fonction "Rappel de mot de passe" a &#233;t&#233; appliqu&#233;e &#224; votre compte. Pour obtenir un nouveau mot de passe, cliquez sur le lien suivant';
 $txt['reminder_sent'] = 'Un e-mail a été envoyé à votre adresse e-mail. Suivez le lien dans ce message pour obtenir un nouveau mot de passe.';
 $txt['reminder_openid_sent'] = 'Votre identité OpenID actuelle a été envoyée à votre adresse e-mail.';
 $txt['reminder_set_password'] = 'Définir le mot de passe';
@@ -264,7 +260,7 @@ $txt['recent_posts_at_top'] = 'Voir les messages récents en premier.';
 $txt['recent_pms_at_top'] = 'Voir les messages personnels récents en premier.';
 $txt['wysiwyg_default'] = 'Afficher l\'éditeur WYSIWYG sur la page d\'écriture par défaut.';
 
-$txt['timeformat_default'] = '(Par défaut - Réglages du forum)';
+$txt['timeformat_default'] = '(Valeur par défaut du forum)';
 $txt['timeformat_easy1'] = 'Mois Jour, Année, hh:mm:ss am/pm (sur 12 heures)';
 $txt['timeformat_easy2'] = 'Mois Jour, Année, hh:mm:ss (sur 24 heures)';
 $txt['timeformat_easy3'] = 'AAAA-MM-JJ, hh:mm:ss';

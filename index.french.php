@@ -644,11 +644,8 @@ $txt['totalTimeLogged5'] = 'j ';
 $txt['totalTimeLogged6'] = 'h ';
 $txt['totalTimeLogged7'] = 'm';
 
-$txt['approve_thereis'] = 'Il y a';
-$txt['approve_thereare'] = 'Il y a';
-$txt['approve_member'] = 'un membre';
-$txt['approve_members'] = 'membres';
-$txt['approve_members_waiting'] = 'en attente d\'approbation.';
+$txt['approve_members_waiting_1'] = 'Il y a <a href="<we:scripturl>?action=admin;area=viewmembers;sa=browse;type=approve">un membre</a> en attente d\'approbation.';
+$txt['approve_members_waiting_n'] = 'Il y a <a href="<we:scripturl>?action=admin;area=viewmembers;sa=browse;type=approve">%1$s membres</a> en attente d\'approbation.';
 
 $txt['notifyboard_turnon'] = 'Voulez-vous recevoir un e-mail de notification quand quelqu\'un poste un nouveau sujet dans cette section ?';
 $txt['notifyboard_turnoff'] = 'Êtes-vous sûr de vouloir désactiver les e-mails de notification des nouveaux sujet pour cette section ?';

@@ -373,7 +373,7 @@ Pour &#233;diter vos souscriptions, veuillez visiter l\'URL suivante :
 		'body' => 'Pour pouvoir valider &#224; nouveau votre adresse e-mail, votre compte a &#233;t&#233; d&#233;sactiv&#233;. Cliquez sur le lien suivant pour le r&#233;activer :
 {ACTIVATIONLINK}
 
-Si vous avez un probl&#232;me quelconque avec l\'activation, veuillez utiliser le code "{ACTIVATIONCODE}".
+Si vous avez un probl&#232;me quelconque avec l\'activation, veuillez aller sur {ACTIVATIONLINKWITHOUTCODE} et utiliser le code "{ACTIVATIONCODE}".
 
 {REGARDS}',
 	),
@@ -536,7 +536,9 @@ Une fois connect&#233;, vous pouvez changer votre mot de passe en allant sur la 
 				USERNAME: The user name for the member receiving the email.
 				PASSWORD: The password for the member.
 				ACTIVATIONLINK: The url link to reactivate the member's account.
+				ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
 				ACTIVATIONCODE: The code needed to reactivate the member's account.
+				FORGOTPASSWORDLINK: The url to the "forgot password" page.
 			@description:
 		*/
 		'subject' => 'Bienvenue sur {FORUMNAME}',

@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0; index
+// Version: 2.0; Index
 
 // Locale (strftime, pspell_new) and spelling. (pspell_new, can be left as '' normally.)
 // For more information see:
@@ -358,7 +358,6 @@ $txt['valid_email'] = 'This must be a valid email address.';
 $txt['info_center_title'] = 'Info Center';
 
 $txt['send_topic'] = 'Send this topic';
-
 $txt['sendtopic_title'] = 'Send the topic &quot;%1$s&quot; to a friend.';
 $txt['sendtopic_sender_name'] = 'Your name';
 $txt['sendtopic_sender_email'] = 'Your email address';
@@ -646,7 +645,7 @@ $txt['totalTimeLogged6'] = 'h ';
 $txt['totalTimeLogged7'] = 'm';
 
 $txt['approve_members_waiting_1'] = 'There is <a href="<we:scripturl>?action=admin;area=viewmembers;sa=browse;type=approve">one member</a> awaiting approval.';
-$txt['approve_members_waiting_n'] = 'There are <a href="<we:scripturl>?action=admin;area=viewmembers;sa=browse;type=approve">%1$s members</a> awaiting approval';
+$txt['approve_members_waiting_n'] = 'There are <a href="<we:scripturl>?action=admin;area=viewmembers;sa=browse;type=approve">%1$s members</a> awaiting approval.';
 
 $txt['notifyboard_turnon'] = 'Do you want a notification email when someone posts a new topic in this board?';
 $txt['notifyboard_turnoff'] = 'Are you sure you do not want to receive new topic notifications for this board?';
