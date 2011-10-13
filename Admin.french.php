@@ -136,7 +136,7 @@ $txt['security_wrong'] = 'Tentative de connexion à l\'administration&nbsp;!' . 
 
 $txt['email_as_html'] = 'Envoyer au format HTML. (Vous pouvez utiliser du HTML normal dans cet e-mail.)';
 $txt['email_parsed_html'] = 'Ajouter les balises &lt;br /&gt; et &amp;nbsp; au message.';
-$txt['email_variables'] = 'Dans ce message, vous pouvez utiliser quelques &quot;variables&quot;. Cliquez <a href="{scripturl}?action=help;in=emailmembers" onclick="return reqWin(this);">ici</a> pour plus d\'informations.';
+$txt['email_variables'] = 'Dans ce message, vous pouvez utiliser quelques &quot;variables&quot;. Cliquez <a href="<we:scripturl>?action=help;in=emailmembers" onclick="return reqWin(this);">ici</a> pour plus d\'informations.';
 $txt['email_force'] = 'Envoyer ce message aux membres même s\'ils ont choisi de ne pas recevoir d\'annonces.';
 $txt['email_as_pms'] = 'Envoyer ceci à ces groupes par la messagerie personnelle.';
 $txt['email_continue'] = 'Continuer';
@@ -335,9 +335,9 @@ $txt['attachmentExtensions'] = 'Extensions autorisées';
 $txt['attachmentRecodeLineEndings'] = 'Recoder les fins de ligne dans les fichiers joints au format texte';
 $txt['attachmentShowImages'] = 'Afficher les images jointes sous les messages';
 $txt['attachmentEncryptFilenames'] = 'Encrypter les noms des fichiers stockés';
-$txt['attachmentUploadDir'] = 'Répertoire des fichiers joints<dfn><a href="{scripturl}?action=admin;area=manageattachments;sa=attachpaths">[Configurer plusieurs répertoires pour fichiers joints]</a></dfn>';
+$txt['attachmentUploadDir'] = 'Répertoire des fichiers joints<dfn><a href="<we:scripturl>?action=admin;area=manageattachments;sa=attachpaths">[Configurer plusieurs répertoires pour fichiers joints]</a></dfn>';
 $txt['attachmentUploadDir_multiple'] = 'Répertoire des fichiers joints';
-$txt['attachmentUploadDir_multiple_configure'] = '<a href="{scripturl}?action=admin;area=manageattachments;sa=attachpaths">[Configurer plusieurs répertoires pour fichiers joints]</a>';
+$txt['attachmentUploadDir_multiple_configure'] = '<a href="<we:scripturl>?action=admin;area=manageattachments;sa=attachpaths">[Configurer plusieurs répertoires pour fichiers joints]</a>';
 $txt['attachmentDirSizeLimit'] = 'Taille maximale du répertoire des fichiers joints<dfn>(0 pour pas de limite)</dfn>';
 $txt['attachmentPostLimit'] = 'Taille totale maximale des fichiers joints par message<dfn>(0 pour pas de limite)</dfn>';
 $txt['attachmentSizeLimit'] = 'Taille maximale de chaque fichier joint<dfn>(0 pour pas de limite)</dfn>';

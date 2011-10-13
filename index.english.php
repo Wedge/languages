@@ -1,8 +1,6 @@
 <?php
 // Version: 2.0; index
 
-global $scripturl;
-
 // Locale (strftime, pspell_new) and spelling. (pspell_new, can be left as '' normally.)
 // For more information see:
 //		http://www.php.net/function.pspell-new
@@ -171,8 +169,8 @@ $txt['there_are_unapproved_topics'] = 'There are %1$s topics and %2$s posts awai
 
 $txt['msg_alert_none'] = 'No messages...';
 $txt['you_have_msg_0'] = 'you have no messages';
-$txt['you_have_msg_1'] = 'you have <a href="{scripturl}?action=pm">1</a> message {new}';
-$txt['you_have_msg_n'] = 'you have <a href="{scripturl}?action=pm">%1$s</a> messages {new}';
+$txt['you_have_msg_1'] = 'you have <a href="<we:scripturl>?action=pm">1</a> message {new}';
+$txt['you_have_msg_n'] = 'you have <a href="<we:scripturl>?action=pm">%1$s</a> messages {new}';
 // The {new} construct is used to add the (x new) area in a language-dependent manner, using unread_pms, as below.
 $txt['unread_pms_0'] = '(none new)';
 $txt['unread_pms_1'] = '(1 new)';
@@ -220,9 +218,9 @@ $txt['female'] = 'Female';
 
 $txt['error_invalid_characters_username'] = 'Invalid character used in Username.';
 
-$txt['welcome_guest'] = 'Welcome, <strong>%1$s</strong>. Please <a href="' . $scripturl . '?action=login">login</a> or <a href="' . $scripturl . '?action=register">register</a>.';
-$txt['login_or_register'] = 'Please <a href="' . $scripturl . '?action=login">login</a> or <a href="' . $scripturl . '?action=register">register</a>.';
-$txt['welcome_guest_activate'] = '<br>Did you miss your <a href="' . $scripturl . '?action=activate">activation email</a>?';
+$txt['welcome_guest'] = 'Welcome, <strong>%1$s</strong>. Please <a href="<we:scripturl>?action=login">login</a> or <a href="<we:scripturl>?action=register">register</a>.';
+$txt['login_or_register'] = 'Please <a href="<we:scripturl>?action=login">login</a> or <a href="<we:scripturl>?action=register">register</a>.';
+$txt['welcome_guest_activate'] = '<br>Did you miss your <a href="<we:scripturl>?action=activate">activation email</a>?';
 $txt['hello_member'] = 'Hey,';
 // Use numeric entities in the below string.
 $txt['hello_guest'] = 'Welcome,';
@@ -382,7 +380,7 @@ $txt['tried_to_repair'] = 'Wedge has detected and automatically tried to repair 
 $txt['database_error_versions'] = '<strong>Note:</strong> It appears that your database <em>may</em> require an upgrade. Your forum\'s files are currently at version %1$s, while your database is at version %2$s. The above error might possibly go away if you execute the latest version of upgrade.php.';
 $txt['template_parse_error'] = 'Template Parse Error!';
 $txt['template_parse_error_message'] = 'It seems something has gone sour on the forum with the template system. This problem should only be temporary, so please come back later and try again. If you continue to see this message, please contact the administrator.<br><br>You can also try <a href="javascript:location.reload();">refreshing this page</a>.';
-$txt['template_parse_error_details'] = 'There was a problem loading the <tt><strong>%1$s</strong></tt> template or language file. Please check the syntax and try again - remember, single quotes (<tt>\'</tt>) often have to be escaped with a slash (<tt>\\</tt>). To see more specific error information from PHP, try <a href="{board_url}%1$s">accessing the file directly</a>.<br><br>You may want to try to <a href="javascript:location.reload();">refresh this page</a> or <a href="{scripturl}?theme=1">use the default theme</a>.';
+$txt['template_parse_error_details'] = 'There was a problem loading the <tt><strong>%1$s</strong></tt> template or language file. Please check the syntax and try again - remember, single quotes (<tt>\'</tt>) often have to be escaped with a slash (<tt>\\</tt>). To see more specific error information from PHP, try <a href="{board_url}%1$s">accessing the file directly</a>.<br><br>You may want to try to <a href="javascript:location.reload();">refresh this page</a> or <a href="<we:scripturl>?theme=1">use the default theme</a>.';
 
 $txt['today'] = '<strong>Today</strong> at ';
 $txt['yesterday'] = '<strong>Yesterday</strong> at ';
@@ -647,8 +645,8 @@ $txt['totalTimeLogged5'] = 'd ';
 $txt['totalTimeLogged6'] = 'h ';
 $txt['totalTimeLogged7'] = 'm';
 
-$txt['approve_members_waiting_1'] = 'There is <a href="{scripturl}?action=admin;area=viewmembers;sa=browse;type=approve">one member</a> awaiting approval.';
-$txt['approve_members_waiting_n'] = 'There are <a href="{scripturl}?action=admin;area=viewmembers;sa=browse;type=approve">%1$s members</a> awaiting approval';
+$txt['approve_members_waiting_1'] = 'There is <a href="<we:scripturl>?action=admin;area=viewmembers;sa=browse;type=approve">one member</a> awaiting approval.';
+$txt['approve_members_waiting_n'] = 'There are <a href="<we:scripturl>?action=admin;area=viewmembers;sa=browse;type=approve">%1$s members</a> awaiting approval';
 
 $txt['notifyboard_turnon'] = 'Do you want a notification email when someone posts a new topic in this board?';
 $txt['notifyboard_turnoff'] = 'Are you sure you do not want to receive new topic notifications for this board?';

@@ -8,7 +8,7 @@ $txt['mc_groups'] = 'Groupes de membres';
 
 $txt['mc_view_groups'] = 'Voir les Groupes de membres';
 
-$txt['mc_description'] = 'Bienvenue dans votre Centre de Modération. À partir d\'ici, vous pouvez accomplir toutes les actions de modération qui vous ont été assignées par l\'administrateur. Cette page d\'accueil contient un résumé de tout ce qui s\'est passé dernièrement dans votre communauté. Vous pouvez en personnaliser l\'affichage en cliquant <a href="{scripturl}?action=moderate;area=settings">ici</a>.';
+$txt['mc_description'] = 'Bienvenue dans votre Centre de Modération. À partir d\'ici, vous pouvez accomplir toutes les actions de modération qui vous ont été assignées par l\'administrateur. Cette page d\'accueil contient un résumé de tout ce qui s\'est passé dernièrement dans votre communauté. Vous pouvez en personnaliser l\'affichage en cliquant <a href="<we:scripturl>?action=moderate;area=settings">ici</a>.';
 $txt['mc_group_requests'] = 'Demandes d\'adhésion';
 $txt['mc_unapproved_posts'] = 'Messages non approuvés';
 $txt['mc_watched_users'] = 'Membres surveillés récemment';
@@ -113,7 +113,7 @@ $txt['mc_warning_template_delete_confirm'] = 'Êtes-vous sûr de vouloir supprim
 
 $txt['mc_warning_template_desc'] = 'Utilisez cette page pour remplir les détails du modèle. Veuillez noter que le sujet de l\'e-mail ne fait pas partie du modèle. Notez également que comme la notification est envoyée par la messagerie personnelle et non par e-mail, vous pouvez utiliser les BBCodes et smileys dans le modèle. Enfin, si vous utilisez la variable {MESSAGE}, ce modèle ne sera pas disponible pour notifier une sanction générique (c\'est-à-dire non liée à un message).';
 $txt['mc_warning_template_title'] = 'Titre du Modèle';
-$txt['mc_warning_template_body_desc'] = 'Le contenu du message de notification. Vous pouvez utiliser les raccourcis suivants dans le modèle.<ul style="margin-top: 0px"><li>{MEMBER} - Nom du membre.</li><li>{MESSAGE} - Lien vers le message incriminé, s\'il existe.</li><li>{FORUMNAME} - Nom du forum.</li><li>{SITEURL} - Adresse web du forum.</li><li>{REGARDS} - Signature standard de l\'e-mail.</li></ul>';
+$txt['mc_warning_template_body_desc'] = 'Le contenu du message de notification. Vous pouvez utiliser les raccourcis suivants dans le modèle.<ul style="margin-top: 0px"><li>{MEMBER} - Nom du membre.</li><li>{MESSAGE} - Lien vers le message incriminé, s\'il existe.</li><li>{FORUMNAME} - Nom du forum.</li><li>{SCRIPTURL} - Adresse web du forum.</li><li>{REGARDS} - Signature standard de l\'e-mail.</li></ul>';
 $txt['mc_warning_template_body_default'] = '{MEMBER},' . "\n\n" . 'Vous avez reçu une sanction liée à vos activités. Merci de bien vouloir désormais respecter les règles du forum, ou nous serons forcés de prendre des mesures à votre encontre.' . "\n\n" . '{REGARDS}';
 $txt['mc_warning_template_personal'] = 'Modèle Personnel';
 $txt['mc_warning_template_personal_desc'] = 'Si vous choisissez cette option, vous serez le seul à pouvoir consulter, modifier et utiliser ce modèle. Sinon, tous les modérateurs pourront l\'utiliser.';
