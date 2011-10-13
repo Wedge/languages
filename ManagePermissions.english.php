@@ -100,7 +100,7 @@ $txt['permissionhelp_simple_auto_save_pm_draft'] = 'This permission, when combin
 
 $txt['permissiongroup_calendar'] = 'Calendar';
 $txt['permissionname_calendar_view'] = 'View the calendar';
-$txt['permissionhelp_calendar_view'] = 'The calendar shows for each month the birthdays, events and holidays. This permission allows access to this calendar. When this permission is enabled, a button will be added to the top button bar and a list will be shown at the bottom of the board index with current and upcoming birthdays, events and holidays. The calendar needs be enabled from \'Configuration - Core Features\'.';
+$txt['permissionhelp_calendar_view'] = 'The calendar shows for each month the events and holidays. This permission allows access to this calendar. When this permission is enabled, a button will be added to the top button bar and a list will be shown at the bottom of the board index with current and upcoming events and holidays. The calendar needs be enabled from \'Configuration - Core Features\'.';
 $txt['permissionname_calendar_post'] = 'Create events in the calendar';
 $txt['permissionhelp_calendar_post'] = 'An Event is a topic linked to a certain date or date range. Creating events can be done from the calendar. An event can only be created if the user that creates the event is allowed to post new topics.';
 $txt['permissionname_calendar_edit'] = 'Edit events in the calendar';

@@ -1,8 +1,6 @@
 <?php
 // Version: 2.0; Help
 
-global $helptxt;
-
 $txt['close_window'] = 'Close window';
 
 $helptxt['manage_boards'] = '
@@ -337,11 +335,10 @@ $helptxt['attachment_image_paranoid'] = 'Selecting this option will enable very 
 $helptxt['attachment_image_reencode'] = 'Selecting this option will enable trying to re-encode the uploaded image attachments. Image re-encoding offers better security. Note however that image re-encoding also renders all animated images static.';
 $helptxt['avatar_paranoid'] = 'Selecting this option will enable very strict security checks on avatars. Warning! These extensive checks can fail on valid images too. It is strongly recommended to only use this option together with avatars re-encoding, in order to have Wedge try to resample the images which fail the security checks: if successful, they will be sanitized and uploaded. Otherwise, if re-encoding of avatars is not enabled, all avatars failing checks will be rejected.';
 $helptxt['avatar_reencode'] = 'Selecting this option will enable trying to re-encode the uploaded avatars. Image re-encoding offers better security. Note however that image re-encoding also renders all animated images static.';
-$helptxt['cal_enabled'] = 'The calendar can be used for showing birthdays, or for showing important moments happening in your community.<br><br>
+$helptxt['cal_enabled'] = 'The calendar can be used for showing important moments happening in your community.<br><br>
 		<strong>Show days as link to \'Post Event\'</strong>:<br>This will allow members to post events for that day, when they click on that date<br>
 		<strong>Max days in advance on board index</strong>:<br>If this is set to 7, the next week\'s worth of events will be shown.<br>
 		<strong>Show holidays on board index</strong>:<br>Show today\'s holidays in a calendar bar on the board index.<br>
-		<strong>Show birthdays on board index</strong>:<br>Show today\'s birthdays in a calendar bar on the board index.<br>
 		<strong>Show events on board index</strong>:<br>Show today\'s events in a calendar bar on the board index.<br>
 		<strong>Default Board to Post In</strong>:<br>What\'s the default board to post events in?<br>
 		<strong>Allow events not linked to posts</strong>:<br>Allow members to post events without requiring it to be linked with a post in a board.<br>
@@ -587,7 +584,6 @@ $helptxt['show_spider_online'] = 'This setting allows you to select whether spid
 		</li>
 	</ul>';
 
-$helptxt['birthday_email'] = 'Choose the index of the birthday email message to use. A preview will be shown in the Email Subject and Email Body fields.<br><strong>Note:</strong> Setting this option does not automatically enable birthday emails. To enable birthday emails use the <a href="%1$s?action=admin;area=scheduledtasks;%2$s" target="_blank" class="new_win">Scheduled Tasks</a> page and enable the birthday email task.';
 $helptxt['pm_bcc'] = 'When sending a personal message you can choose to add a recipient as BCC or "Blind Carbon Copy". BCC recipients do not have their identities revealed to other recipients of the message.';
 
 $helptxt['move_topics_maintenance'] = 'This will allow you to move all the posts from one board to another board.';

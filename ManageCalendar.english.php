@@ -14,7 +14,6 @@ $txt['setting_cal_enabled'] = 'Enable the calendar';
 $txt['setting_cal_daysaslink'] = 'Show days as links to \'Post Event\'';
 $txt['setting_cal_days_for_index'] = 'Max days in advance on board index';
 $txt['setting_cal_showholidays'] = 'Show holidays';
-$txt['setting_cal_showbdays'] = 'Show birthdays';
 $txt['setting_cal_showevents'] = 'Show events';
 $txt['setting_cal_show_never'] = 'Never';
 $txt['setting_cal_show_cal'] = 'In calendar only';

@@ -1,8 +1,6 @@
 <?php
 // Version: 2.0; Help
 
-global $helptxt;
-
 $txt['close_window'] = 'Fermer la fenêtre';
 
 $helptxt['manage_boards'] = '
@@ -328,7 +326,6 @@ $helptxt['cal_enabled'] = 'Le calendrier peut êre utilisé afin d\'afficher les
 		<strong>Montrer les jours en tant que liens vers \'Poster un Événement\'</strong>&nbsp;:<br>Permet à vos membres de poster des événements pour ce jour, lorsqu\'ils cliquent sur la date.<br>
 		<strong>Jours d\'avance max. sur l\'accueil</strong>:<br>Si cette option est mise à 7, tous les événements de la semaine à venir seront montrés.<br>
 		<strong>Montrer les jours de fête sur l\'accueil du forum</strong>&nbsp;:<br>Montre les jours de fête dans une barre sur l\'accueil du forum.<br>
-		<strong>Afficher les anniversaires sur l\'accueil du forum</strong>&nbsp;:<br>Montre les anniversaires du jour dans une barre sur l\'accueil du forum.<br>
 		<strong>Montrer les événements sur l\'accueil du forum</strong>&nbsp;:<br>Affiche les événements du jour dans une barre sur l\'accueil du forum.<br>
 		<strong>Section où Poster par Défaut</strong>:<br>Quelle est la section par défaut pour poster les événements&nbsp;?<br>
 		<strong>Permettre les événements qui ne sont liés à aucun message</strong>&nbsp;:<br>Permet aux membres de poster des événements sans nécessiter la création d\'un nouveau sujet dans le forum.<br>
@@ -568,7 +565,6 @@ $helptxt['show_spider_online'] = 'Ce paramètre vous permet de choisir si les ro
 		</li>
 	</ul>';
 
-$helptxt['birthday_email'] = 'Choisissez le modèle du message d\'anniversaire par e-mail à utiliser. Une prévisualisation sera affichée dans le sujet de l\'e-mail et les champs du corps de l\'e-mail.<br><strong>Attention</strong>, régler cette option n\'active pas automatiquement les e-mails d\'anniversaire. Pour activer les e-mails d\'anniversaire, utilisez la page <a href="%1$s?action=admin;area=scheduledtasks;%2$s" target="_blank" class="new_win">Tâches Planifiées</a> et activez la tâche E-mail d\'anniversaire.';
 $helptxt['pm_bcc'] = 'Lorsque vous envoyez un message personnel vous pouvez choisir d\'ajouter comme destinataire un BCC (soit "Blind Carbon Copy"). L\'existence et l\'identité des destinataires BCC seront cachées aux autres destinataires du message.';
 
 $helptxt['move_topics_maintenance'] = 'Vous permet de déplacer tous les sujets d\'une section à une autre.';

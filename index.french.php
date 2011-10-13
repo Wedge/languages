@@ -472,9 +472,7 @@ $txt['site_credits'] = 'Crédits du site';
 $txt['copyright'] = 'Propulsé par <a href="http://wedge.org/" target="_blank" class="new_win">Wedge</a>, logiciel en construction. &copy; Wedgeward.';
 $txt['dynamic_replacements'] = '<abbr title="Remplacements Dynamiques">RD</abbr>';
 
-$txt['birthdays'] = 'Anniversaires&nbsp;:';
 $txt['events'] = 'Événements&nbsp;:';
-$txt['birthdays_upcoming'] = 'Prochains anniversaires&nbsp;:';
 $txt['events_upcoming'] = 'Prochains événements&nbsp;:';
 // Prompt for holidays in the calendar, leave blank to just display the holiday's name.
 $txt['calendar_prompt'] = '';

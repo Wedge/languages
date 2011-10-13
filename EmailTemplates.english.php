@@ -9,8 +9,6 @@
 
 // Do not use block comments in this file, they will have special meaning.
 
-global $context, $birthdayEmails;
-
 $txt['scheduled_approval_email_topic'] = 'The following topics are awaiting approval:';
 $txt['scheduled_approval_email_msg'] = 'The following posts are awaiting approval:';
 $txt['scheduled_approval_email_attach'] = 'The following attachments are awaiting approval:';
@@ -980,83 +978,4 @@ The following error occurred when processing a paid subscription
 	),
 );
 
-/*
-	@additional_params: happy_birthday
-		REALNAME: The real (display) name of the person receiving the birthday message.
-	@description: A message sent to members on their birthday.
-*/
-$birthdayEmails = array(
-	'happy_birthday' => array(
-		'subject' => 'Happy birthday from {FORUMNAME}.',
-		'body' => 'Dear {REALNAME},
-
-We here at {FORUMNAME} would like to wish you a happy birthday. May this day and the year to follow be full of joy.
-
-{REGARDS}',
-		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=2676">Thantos</a>',
-	),
-	'karlbenson1' => array(
-		'subject' => 'On your Birthday...',
-		'body' => 'We could have sent you a birthday card. We could have sent you some flowers or a cake.
-
-But we didn\'t.
-
-We could have even sent you one of those automatically generated messages to wish you happy birthday where we don\'t even have to replace INSERT NAME.
-
-But we didn\'t
-
-We wrote this birthday greeting just for you.
-
-We would like to wish you a very special birthday.
-
-{REGARDS}
-
-//:: This message was automatically generated :://',
-		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=63186">karlbenson</a>',
-	),
-	'nite0859' => array(
-		'subject' => 'Happy Birthday!',
-		'body' => 'Your friends at {FORUMNAME} would like to take a moment of your time to wish you a happy birthday, {REALNAME}. If you have not done so recently, please visit our community in order for others to have the opportunity to pass along their warm regards.
-
-Even though today is your birthday, {REALNAME}, we would like to remind you that your membership in our community has been the best gift to us thus far.
-
-Best Wishes,
-The Staff of {FORUMNAME}',
-		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=46625">nite0859</a>',
-	),
-	'zwaldowski' => array(
-		'subject' => 'Birthday Wishes to {REALNAME}',
-		'body' => 'Dear {REALNAME},
-
-Another year in your life has passed. We at {FORUMNAME} hope it has been filled with happiness, and wish you luck in the coming one.
-
-{REGARDS}',
-		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=72038">zwaldowski</a>',
-	),
-	'geezmo' => array(
-		'subject' => 'Happy birthday, {REALNAME}!',
-		'body' => 'Do you know who\'s having a birthday today, {REALNAME}?
-
-We know... YOU!
-
-Happy birthday!
-
-You\'re now a year older but we hope you\'re a lot happier than last year.
-
-Enjoy your day today, {REALNAME}!
-
-- From your {FORUMNAME} family',
-		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=48671">geezmo</a>',
-	),
-	'karlbenson2' => array(
-		'subject' => 'Your Birthday Greeting',
-		'body' => 'We hope your birthday is the best ever cloudy, sunny or whatever the weather.
-Have lots of birthday cake and fun, and tell us what you have done.
-
-We hope this message brought you cheer, and make it last, until same time same place, next year.
-
-{REGARDS}',
-		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=63186">karlbenson</a>',
-	),
-);
 ?>

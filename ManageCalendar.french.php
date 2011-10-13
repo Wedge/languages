@@ -14,7 +14,6 @@ $txt['setting_cal_enabled'] = 'Activer le calendrier';
 $txt['setting_cal_daysaslink'] = 'Montrer les jours en tant que liens vers \'Poster un événement\'';
 $txt['setting_cal_days_for_index'] = 'Nombres de jours à l\'avance sur l\'accueil du forum';
 $txt['setting_cal_showholidays'] = 'Montrer les fêtes';
-$txt['setting_cal_showbdays'] = 'Montrer les anniversaires';
 $txt['setting_cal_showevents'] = 'Montrer les événements';
 $txt['setting_cal_show_never'] = 'Jamais';
 $txt['setting_cal_show_cal'] = 'Dans le calendrier seulement';
