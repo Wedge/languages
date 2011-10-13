@@ -8,7 +8,7 @@ $txt['mc_groups'] = 'Groupes de membres';
 
 $txt['mc_view_groups'] = 'Voir les Groupes de membres';
 
-$txt['mc_description'] = 'Bienvenue dans votre Centre de Modération. À partir d\'ici, vous pouvez accomplir toutes les actions de modération qui vous ont été assignées par l\'administrateur. Cette page d\'accueil contient un résumé de tout ce qui s\'est passé dernièrement dans votre communauté. Vous pouvez en personnaliser l\'affichage en cliquant <a href="<we:scripturl>?action=moderate;area=settings">ici</a>.';
+$txt['mc_description'] = 'Bienvenue dans votre Centre de Modération. À partir d\'ici, vous pouvez accomplir toutes les actions de modération qui vous ont été assignées par l\'administrateur. Cette page d\'accueil contient un résumé de tout ce qui s\'est passé dernièrement dans votre communauté. Vous pouvez en personnaliser l\'affichage en cliquant <a href="<URL>?action=moderate;area=settings">ici</a>.';
 $txt['mc_group_requests'] = 'Demandes d\'adhésion';
 $txt['mc_unapproved_posts'] = 'Messages non approuvés';
 $txt['mc_watched_users'] = 'Membres surveillés récemment';

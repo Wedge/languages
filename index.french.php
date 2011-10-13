@@ -17,6 +17,7 @@ $txt['lang_capitalize_dates'] = false;
 // Number formats?
 $txt['number_format'] = '1 234,00';
 $txt['time_format'] = '%e %B %Y à %H:%M';
+//$txt['time_format_this_year'] = '%e %B à %H:%M';
 
 $txt['days'] = array('Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi');
 $txt['days_short'] = array('Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam');
@@ -169,8 +170,8 @@ $txt['there_are_unapproved_topics'] = 'Il y a %1$s sujets et %2$s messages en at
 
 $txt['msg_alert_none'] = 'Pas de message...';
 $txt['you_have_msg_0'] = 'votre messagerie est vide';
-$txt['you_have_msg_1'] = 'vous avez <a href="<we:scripturl>?action=pm">1</a> message {new}';
-$txt['you_have_msg_n'] = 'vous avez <a href="<we:scripturl>?action=pm">%1$s</a> messages {new}';
+$txt['you_have_msg_1'] = 'vous avez <a href="<URL>?action=pm">1</a> message {new}';
+$txt['you_have_msg_n'] = 'vous avez <a href="<URL>?action=pm">%1$s</a> messages {new}';
 // The {new} construct is used to add the (x new) area in a language-dependent manner, using unread_pms, as below.
 $txt['unread_pms_0'] = '(pas de nouveau)';
 $txt['unread_pms_1'] = '(1 nouveau)';
@@ -218,9 +219,9 @@ $txt['female'] = 'Femme';
 
 $txt['error_invalid_characters_username'] = 'Caractère invalide dans l\'identifiant/pseudonyme.';
 
-$txt['welcome_guest'] = 'Bienvenue, <strong>%1$s</strong>. Merci de <a href="<we:scripturl>?action=login">vous connecter</a> ou de <a href="<we:scripturl>?action=register">vous inscrire</a>.';
-$txt['login_or_register'] = 'Merci de <a href="<we:scripturl>?action=login">vous connecter</a> ou de <a href="<we:scripturl>?action=register">vous inscrire</a>.';
-$txt['welcome_guest_activate'] = '<br>Perdu votre <a href="<we:scripturl>?action=activate">e-mail d\'activation</a> ?';
+$txt['welcome_guest'] = 'Bienvenue, <strong>%1$s</strong>. Merci de <a href="<URL>?action=login">vous connecter</a> ou de <a href="<URL>?action=register">vous inscrire</a>.';
+$txt['login_or_register'] = 'Merci de <a href="<URL>?action=login">vous connecter</a> ou de <a href="<URL>?action=register">vous inscrire</a>.';
+$txt['welcome_guest_activate'] = '<br>Perdu votre <a href="<URL>?action=activate">e-mail d\'activation</a> ?';
 $txt['hello_member'] = 'Coucou,';
 // Use numeric entities in the below string.
 $txt['hello_guest'] = 'Bienvenue,';
@@ -379,7 +380,7 @@ $txt['tried_to_repair'] = 'Wedge a d&#233;tect&#233; et a automatiquement essay&
 $txt['database_error_versions'] = '<strong>Note</strong>&nbsp;: Il est <em>possible</em> que votre base de données nécessite une mise à jour. Actuellement, la version des fichiers du forum est %1$s, alors que votre base de données est en version %2$s. L\'erreur signalée ci-dessus pourrait peut-être corrigée en exécutant la dernière version de upgrade.php.';
 $txt['template_parse_error'] = 'Erreur de traitement du modèle&nbsp;!';
 $txt['template_parse_error_message'] = 'Il semble que le forum rencontre actuellement quelques difficultés avec un de ses modèles graphiques. Le problème pourrait n\'être que temporaire, essayez de revenir plus tard. Si vous continuez à voir ce message, contactez l\'administrateur.<br><br>Vous pouvez aussi essayer de <a href="javascript:location.reload();">recharger la page</a>.';
-$txt['template_parse_error_details'] = 'Un problème s\'est produit durant le chargement du modèle ou du fichier de langue <tt><strong>%1$s</strong></tt>. Vérifiez la syntaxe et réessayez. Rappelez-vous que les apostrophes (<tt>\'</tt>) doivent souvent être échappées via une barre oblique (<tt>\\</tt>). Pour obtenir plus de détails sur ces erreurs par PHP, essayez d\'<a href="{board_url}%1$s">accéder directement au fichier</a>.<br><br>Vous pouvez aussi <a href="javascript:location.reload();">recharger la page</a> ou <a href="<we:scripturl>?theme=1">utiliser le thème par défaut</a>.';
+$txt['template_parse_error_details'] = 'Un problème s\'est produit durant le chargement du modèle ou du fichier de langue <tt><strong>%1$s</strong></tt>. Vérifiez la syntaxe et réessayez. Rappelez-vous que les apostrophes (<tt>\'</tt>) doivent souvent être échappées via une barre oblique (<tt>\\</tt>). Pour obtenir plus de détails sur ces erreurs par PHP, essayez d\'<a href="{board_url}%1$s">accéder directement au fichier</a>.<br><br>Vous pouvez aussi <a href="javascript:location.reload();">recharger la page</a> ou <a href="<URL>?theme=1">utiliser le thème par défaut</a>.';
 
 $txt['today'] = '<strong>Aujourd\'hui</strong> à ';
 $txt['yesterday'] = '<strong>Hier</strong> à ';
@@ -644,8 +645,8 @@ $txt['totalTimeLogged5'] = 'j ';
 $txt['totalTimeLogged6'] = 'h ';
 $txt['totalTimeLogged7'] = 'm';
 
-$txt['approve_members_waiting_1'] = 'Il y a <a href="<we:scripturl>?action=admin;area=viewmembers;sa=browse;type=approve">un membre</a> en attente d\'approbation.';
-$txt['approve_members_waiting_n'] = 'Il y a <a href="<we:scripturl>?action=admin;area=viewmembers;sa=browse;type=approve">%1$s membres</a> en attente d\'approbation.';
+$txt['approve_members_waiting_1'] = 'Il y a <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">un membre</a> en attente d\'approbation.';
+$txt['approve_members_waiting_n'] = 'Il y a <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">%1$s membres</a> en attente d\'approbation.';
 
 $txt['notifyboard_turnon'] = 'Voulez-vous recevoir un e-mail de notification quand quelqu\'un poste un nouveau sujet dans cette section ?';
 $txt['notifyboard_turnoff'] = 'Êtes-vous sûr de vouloir désactiver les e-mails de notification des nouveaux sujet pour cette section ?';
