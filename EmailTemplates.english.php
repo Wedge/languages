@@ -394,24 +394,6 @@ Username: {MEMBERNAME}
 
 {REGARDS}',
 	),
-	'forgot_openid' => array(
-		/*
-			@additional_params: forgot_password
-				REALNAME: The real (display) name of the person receiving the reminder.
-				IP: The IP address of the requester.
-				OPENID: The members OpenID identity.
-			@description:
-		*/
-		'subject' => 'OpenID reminder for {FORUMNAME}',
-		'body' => 'Dear {REALNAME},
-This mail was sent because the \'forgot OpenID\' function has been applied to your account. Below is the OpenID that your account is associated with:
-{OPENID}
-
-IP: {IP}
-Username: {MEMBERNAME}
-
-{REGARDS}',
-	),
 	'scheduled_approval' => array(
 		/*
 			@additional_params: scheduled_approval
@@ -549,29 +531,6 @@ Should you have any problems with activation, please visit {ACTIVATIONLINKWITHOU
 
 {REGARDS}',
 	),
-	'register_openid_activate' => array(
-		/*
-			@additional_params: register_activate
-				REALNAME: The display name for the member receiving the email.
-				USERNAME: The user name for the member receiving the email.
-				OPENID: The openID identity for the member.
-				ACTIVATIONLINK: The url link to reactivate the member's account.
-				ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
-				ACTIVATIONCODE: The code needed to reactivate the member's account.
-			@description:
-		*/
-		'subject' => 'Welcome to {FORUMNAME}',
-		'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME}. You have chosen to authenticate using the following OpenID identity:
-{OPENID}
-
-Before you can login, you first need to activate your account. To do so, please follow this link:
-
-{ACTIVATIONLINK}
-
-Should you have any problems with activation, please visit {ACTIVATIONLINKWITHOUTCODE} and use the code "{ACTIVATIONCODE}".
-
-{REGARDS}',
-	),
 	'register_coppa' => array(
 		/*
 			@additional_params: register_coppa
@@ -584,27 +543,6 @@ Should you have any problems with activation, please visit {ACTIVATIONLINKWITHOU
 		*/
 		'subject' => 'Welcome to {FORUMNAME}',
 		'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME}. If you forget your password, you can change it at {FORGOTPASSWORDLINK}
-
-Before you can login, the admin requires consent from your parent/guardian for you to join the community. You can obtain more information at the link below:
-
-{COPPALINK}
-
-{REGARDS}',
-	),
-	'register_openid_coppa' => array(
-		/*
-			@additional_params: register_coppa
-				REALNAME: The display name for the member receiving the email.
-				USERNAME: The user name for the member receiving the email.
-				OPENID: The openID identity for the member.
-				COPPALINK: The url link to the coppa form.
-			@description:
-		*/
-		'subject' => 'Welcome to {FORUMNAME}',
-		'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME}.
-
-You have chosen to authenticate using the following OpenID identity:
-{OPENID}
 
 Before you can login, the admin requires consent from your parent/guardian for you to join the community. You can obtain more information at the link below:
 
@@ -626,26 +564,6 @@ Before you can login, the admin requires consent from your parent/guardian for y
 
 {REGARDS}',
 	),
-	'register_openid_immediate' => array(
-		/*
-			@additional_params: register_immediate
-				REALNAME: The display name for the member receiving the email.
-				USERNAME: The user name for the member receiving the email.
-				OPENID: The openID identity for the member.
-			@description:
-		*/
-		'subject' => 'Welcome to {FORUMNAME}',
-		'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME}.
-
-You have chosen to authenticate using the following OpenID identity:
-{OPENID}
-
-You may update your profile by visiting this page after you login:
-
-{SCRIPTURL}?action=profile
-
-{REGARDS}',
-	),
 	'register_pending' => array(
 		/*
 			@additional_params: register_pending
@@ -659,26 +577,6 @@ You may update your profile by visiting this page after you login:
 		'body' => 'Your registration request at {FORUMNAME} has been received, {REALNAME}.
 
 The username you registered with was {USERNAME}. If you forget your password, you can change it at {FORGOTPASSWORDLINK}.
-
-Before you can login and start using the forum, your request will be reviewed and approved. When this happens, you will receive another email from this address.
-
-{REGARDS}',
-	),
-	'register_openid_pending' => array(
-		/*
-			@additional_params: register_pending
-				REALNAME: The display name for the member receiving the email.
-				USERNAME: The user name for the member receiving the email.
-				OPENID: The openID identity for the member.
-			@description:
-		*/
-		'subject' => 'Welcome to {FORUMNAME}',
-		'body' => 'Your registration request at {FORUMNAME} has been received, {REALNAME}.
-
-The username you registered with was {USERNAME}.
-
-You have chosen to authenticate using the following OpenID identity:
-{OPENID}
 
 Before you can login and start using the forum, your request will be reviewed and approved. When this happens, you will receive another email from this address.
 

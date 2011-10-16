@@ -396,24 +396,6 @@ Username : {MEMBERNAME}
 
 {REGARDS}',
 	),
-	'forgot_openid' => array(
-		/*
-			@additional_params: forgot_password
-				REALNAME: The real (display) name of the person receiving the reminder.
-				IP: The IP address of the requester.
-				OPENID: The members OpenID identity.
-			@description:
-		*/
-		'subject' => 'Rappel OpenID pour {FORUMNAME}',
-		'body' => 'Cher {REALNAME},
-Cet e-mail vous a &#233;t&#233; envoy&#233; car la fonction \'forgot OpenID\' a &#233;t&#233; appliqu&#233; &#224; votre compte. Voici l\'identifiant OpenID associ&#233; &#224; votre compte :
-{OPENID}
-
-IP : {IP}
-utilisateur : {MEMBERNAME}
-
-{REGARDS}',
-	),
 	'scheduled_approval' => array(
 		/*
 			@additional_params: scheduled_approval
@@ -554,29 +536,6 @@ Si vous avez un probl&#232;me quelconque avec l\'activation, veuillez utiliser l
 
 {REGARDS}',
 	),
-	'register_openid_activate' => array(
-		/*
-			@additional_params: register_activate
-				REALNAME: The display name for the member receiving the email.
-				USERNAME: The user name for the member receiving the email.
-				OPENID: The openID identity for the member.
-				ACTIVATIONLINK: The url link to reactivate the member's account.
-				ACTIVATIONCODE: The code needed to reactivate the member's account.
-			@description:
-		*/
-		'subject' => 'Bienvenue sur {FORUMNAME}',
-		'body' => 'Vous &#234;tes maintenant inscrit sur {FORUMNAME}, {REALNAME} !
-
-L\'identifiant de votre compte est {USERNAME}. Vous avez choisi de vous identifier avec l\'identifiant OpenID suivant :
-{OPENID}
-
-Avant de pouvoir vous connecter, vous devez d\'abord activer ce compte. Pour cela, vous devez suivre le lien suivant :
-{ACTIVATIONLINK}
-
-Si vous avez un probl&#232;me quelconque avec l\'activation, veuillez utiliser le code "{ACTIVATIONCODE}".
-
-{REGARDS}',
-	),
 	'register_coppa' => array(
 		/*
 			@additional_params: register_coppa
@@ -590,28 +549,6 @@ Si vous avez un probl&#232;me quelconque avec l\'activation, veuillez utiliser l
 		'body' => 'Vous &#234;tes maintenant inscrit sur {FORUMNAME}, {REALNAME} !
 
 L\'identifiant de votre compte est {USERNAME} et son mot de passe est {PASSWORD} (que vous pourrez changer ensuite.)
-
-Avant de pouvoir vous connecter, l\'administrateur de ce forum souhaite obtenir l\'approbation de votre parent/tuteur pour votre adh&#233;sion &#224; cette communaut&#233;. Pour plus d\'informations, veuillez consulter le lien ci-dessous :
-{COPPALINK}
-
-{REGARDS}',
-	),
-	'register_openid_coppa' => array(
-		/*
-			@additional_params: register_coppa
-				REALNAME: The display name for the member receiving the email.
-				USERNAME: The user name for the member receiving the email.
-				OPENID: The openID identity for the member.
-				COPPALINK: The url link to the coppa form.
-			@description:
-		*/
-		'subject' => 'Bienvenue sur {FORUMNAME}',
-		'body' => 'Vous &#234;tes maintenant inscrit sur {FORUMNAME}, {REALNAME} !
-
-L\'identifiant de votre compte est {USERNAME} .
-
-Vous avez choisi de vous identifier avec l\'identifiant OpenID suivant :
-{OPENID}
 
 Avant de pouvoir vous connecter, l\'administrateur de ce forum souhaite obtenir l\'approbation de votre parent/tuteur pour votre adh&#233;sion &#224; cette communaut&#233;. Pour plus d\'informations, veuillez consulter le lien ci-dessous :
 {COPPALINK}
@@ -637,27 +574,6 @@ Une fois connect&#233;, vous pouvez changer votre mot de passe en allant sur la 
 
 {REGARDS}',
 	),
-	'register_openid_immediate' => array(
-		/*
-			@additional_params: register_immediate
-				REALNAME: The display name for the member receiving the email.
-				USERNAME: The user name for the member receiving the email.
-				OPENID: The openID identity for the member.
-			@description:
-		*/
-		'subject' => 'Welcome to {FORUMNAME}',
-		'body' => 'You are now registered with an account at {FORUMNAME}, {REALNAME} !
-
-L\'identifiant de votre compte est {USERNAME} et son mot de passe est {PASSWORD}.
-
-Vous avez choisi de vous identifier avec l\'identifiant OpenID suivant :
-{OPENID}
-
-Vous pouvez modifier votre profil en consultant la page suivante :
-{SCRIPTURL}?action=profile
-
-{REGARDS}',
-	),
 	'register_pending' => array(
 		/*
 			@additional_params: register_pending
@@ -670,26 +586,6 @@ Vous pouvez modifier votre profil en consultant la page suivante :
 		'body' => 'Votre demande d\'inscription sur {FORUMNAME} a &#233;t&#233; re&#231;ue, {REALNAME}.
 
 L\'identifiant de votre compte est {USERNAME} et son mot de passe est {PASSWORD}.
-
-Avant de pouvoir vous connecter, votre demande sera d\'abord &#233;tudi&#233;e et valid&#233;e. Vous recevrez ensuite un e-mail de confirmation.
-
-{REGARDS}',
-	),
-	'register_openid_pending' => array(
-		/*
-			@additional_params: register_pending
-				REALNAME: The display name for the member receiving the email.
-				USERNAME: The user name for the member receiving the email.
-				OPENID: The openID identity for the member.
-			@description:
-		*/
-		'subject' => 'Bienvenue sur {FORUMNAME}',
-		'body' => 'Votre demande d\'inscription sur {FORUMNAME} a &#233;t&#233; re&#231;ue, {REALNAME}.
-
-L\'identifiant de votre compte est {USERNAME}.
-
-Vous avez choisi de vous identifier avec l\'identifiant OpenID suivant :
-{OPENID}
 
 Avant de pouvoir vous connecter, votre demande sera d\'abord &#233;tudi&#233;e et valid&#233;e. Vous recevrez ensuite un e-mail de confirmation.
 

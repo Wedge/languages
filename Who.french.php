@@ -35,7 +35,6 @@ $txt['whoall_markasread'] = 'Marque des sujets lus ou non lus.';
 $txt['whoall_news'] = 'Consulte les nouvelles.';
 $txt['whoall_notify'] = 'Modifie ses paramètres de notification.';
 $txt['whoall_notifyboard'] = 'Modifie ses paramètres de notification.';
-$txt['whoall_openidreturn'] = 'Se connecte avec OpenID.';
 $txt['whoall_quickmod'] = 'Modère un quartier.';
 $txt['whoall_recent'] = 'Consulte la <a href="<URL>?action=recent">liste des sujets récents</a>.';
 $txt['whoall_register'] = 'S\'inscrit sur le forum.';

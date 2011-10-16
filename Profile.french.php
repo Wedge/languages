@@ -64,12 +64,8 @@ $txt['secret_why_blank'] = 'Pourquoi est-ce vide&nbsp;? ';
 $txt['authentication_reminder'] = 'Rappel d\'authentification';
 $txt['password_reminder_desc'] = 'Si vous avez oublié vos détails de connexion, pas de souci, on peut vous aider. Pour commencer, veuillez entrer votre identifiant ou adresse e-mail ci-dessous.';
 $txt['authentication_options'] = 'Veuillez choisir une des deux options ci-dessous';
-$txt['authentication_openid_email'] = 'Envoyez-moi par e-mail un rappel de mon identité OpenID';
-$txt['authentication_openid_secret'] = 'Je veux répondre à ma &quot;question secrète&quot; pour afficher mon identité OpenID';
 $txt['authentication_password_email'] = 'Envoyez-moi par e-mail un nouveau mot de passe';
 $txt['authentication_password_secret'] = 'Je veux répondre à ma &quot;question secrète&quot; pour changer de mot de passe';
-$txt['openid_secret_reminder'] = 'Veuillez entrer votre réponse à la question ci-dessous. Si elle est correcte, votre identité OpenID sera affichée.';
-$txt['reminder_openid_is'] = 'L\'identité OpenID associée à votre compte est:<br>&nbsp;&nbsp;&nbsp;&nbsp;<strong>%1$s</strong><br><br>Veuillez la noter pour ne plus l\'oublier.';
 $txt['reminder_continue'] = 'Continuer';
 
 $txt['profileConfirm'] = 'Êtes-vous sûr de vouloir effacer ce membre ?';
@@ -163,9 +159,6 @@ $txt['draftAutoPurge_n'] = 'Les brouillons sont stockés sur le serveur pendant 
 $txt['remove_all_drafts'] = 'Supprimer tous mes brouillons';
 $txt['remove_all_drafts_confirm'] = 'Êtes-vous sûr de vouloir supprimer tous vos brouillons ? Cette opération est irréversible !';
 
-$txt['authentication'] = 'Authentification';
-$txt['change_authentication'] = 'D\'ici, vous pouvez changer votre manière de vous connecter au forum. Vous pouvez choisir d\'utiliser soit un compte OpenID pour votre authentification, soit de basculer sur l\'utilisation d\'un identifiant avec mot de passe.';
-
 $txt['profileEdit'] = 'Modifier le Profil';
 $txt['account_info'] = 'Cette page contient vos préférences de compte et recense toutes les informations critiques qui peuvent vous identifier sur le forum. Pour des raisons de sécurité, vous devrez entrer votre mot de passe (actuel) pour modifier ces informations.';
 $txt['forumProfile_info'] = 'Vous pouvez changer vos infos personnelles sur cette page. Ces informations seront visible à travers {forum_name_safe}. Si vous ne désirez pas présenter certaines infos, ne remplissez pas le champ - rien n\'est obligatoire ici.';
@@ -221,7 +214,6 @@ $txt['no_reminder_email'] = 'Impossible d\'envoyer l\'e-mail de rappel.<br>Conta
 $txt['user_email'] = 'Identifiant/e-mail';
 
 $txt['reminder_sent'] = 'Un e-mail a été envoyé à votre adresse e-mail. Suivez le lien dans ce message pour obtenir un nouveau mot de passe.';
-$txt['reminder_openid_sent'] = 'Votre identité OpenID actuelle a été envoyée à votre adresse e-mail.';
 $txt['reminder_set_password'] = 'Définir le mot de passe';
 $txt['reminder_password_set'] = 'Mot de passe défini avec succès';
 $txt['reminder_error'] = '%1$s n\'a pas réussi à répondre correctement à sa question secrète en voulant retrouver un mot de passe perdu.';

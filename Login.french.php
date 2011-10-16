@@ -71,8 +71,6 @@ $txt['approval_after_registration'] = 'Merci de vous être inscrit. L\'administr
 
 $txt['admin_settings_desc'] = 'Ici vous pouvez changer une variété de paramètres concernant l\'inscription des nouveaux membres.';
 
-$txt['setting_enableOpenID'] = 'Permettre aux utilisateurs de s\'inscrire en utilisant OpenID';
-
 $txt['setting_registration_method'] = 'Méthode d\'inscription employée pour les futurs membres';
 $txt['setting_registration_disabled'] = 'Inscription désactivée';
 $txt['setting_registration_standard'] = 'Inscription immédiate';
@@ -137,10 +135,5 @@ $txt['registration_password_no_match'] = 'Les mots de passe ne correspondent pas
 $txt['registration_password_valid'] = 'Le mot de passe est valide';
 
 $txt['registration_errors_occurred'] = 'Les erreurs suivantes ont été détectées lors de votre inscription. Merci de les corriger pour pouvoir continuer&nbsp;:';
-
-$txt['authenticate_label'] = 'Méthode d\'authentification';
-$txt['authenticate_password'] = 'Mot de passe';
-$txt['authenticate_openid'] = 'OpenID';
-$txt['authenticate_openid_url'] = 'URL d\'authentification OpenID';
 
 ?>

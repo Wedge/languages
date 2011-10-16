@@ -311,7 +311,6 @@ $txt['profile_error_password_short'] = 'Your password must be at least %1$d char
 $txt['profile_error_password_restricted_words'] = 'Your password must not contain your username, email address or other commonly used words.';
 $txt['profile_error_password_chars'] = 'Your password must contain a mix of upper and lower case letters, as well as digits.';
 $txt['profile_error_already_requested_group'] = 'You already have an outstanding request for this group!';
-$txt['profile_error_openid_in_use'] = 'Another user is already using that OpenID authentication URL';
 
 $txt['mysql_error_space'] = ' - check database storage space or contact the server administrator.';
 
@@ -365,15 +364,6 @@ $txt['warning_no_reason'] = 'You must enter a reason for altering the warning st
 $txt['warning_notify_blank'] = 'You selected to notify the user but did not fill in the subject/message fields';
 
 $txt['movetopic_no_reason'] = 'You must enter a reason for moving the topic, or uncheck the option to \'post a redirection topic\'.';
-
-// OpenID error strings
-$txt['openid_server_bad_response'] = 'The requested identifier did not return the proper information.';
-$txt['openid_return_no_mode'] = 'The identity provider did not respond with the OpenID mode.';
-$txt['openid_not_resolved'] = 'The identity provider did not approve your request.';
-$txt['openid_no_assoc'] = 'Could not find the requested association with the identity provider.';
-$txt['openid_sig_invalid'] = 'The signature from the identity provider is invalid.';
-$txt['openid_load_data'] = 'Could not load the data from your login request. Please try again.';
-$txt['openid_not_verified'] = 'The OpenID address given has not been verified yet. Please log in to verify.';
 
 $txt['error_custom_field_too_long'] = 'The &quot;%1$s&quot; field cannot be greater than %2$d characters in length.';
 $txt['error_custom_field_invalid_email'] = 'The &quot;%1$s&quot; field must be a valid email address.';

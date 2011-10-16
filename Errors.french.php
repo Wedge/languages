@@ -311,7 +311,6 @@ $txt['profile_error_password_short'] = 'Votre mot de passe doit contenir au moin
 $txt['profile_error_password_restricted_words'] = 'Votre mot de passe de doit pas contenir votre identifiant, adresse e-mail ou autre mot couramment utilisé.';
 $txt['profile_error_password_chars'] = 'Votre mot de passe doit contenir un mélange de lettres majuscules et minuscules, de même que des numéros.';
 $txt['profile_error_already_requested_group'] = 'Vous avez déjà une demande en instance pour ce groupe&nbsp;!';
-$txt['profile_error_openid_in_use'] = 'Un autre membre utilise déjà cette URL d\'authentification OpenID';
 
 $txt['mysql_error_space'] = ' - vérifiez la taille de votre base de données ou contactez un administrateur du serveur.';
 
@@ -365,15 +364,6 @@ $txt['warning_no_reason'] = 'Vous devez entrer une raison pour sanctionner un me
 $txt['warning_notify_blank'] = 'Vous avez choisi de notifier l\'utilisateur, mais vous n\'avez pas rempli les champs de titre/message.';
 
 $txt['movetopic_no_reason'] = 'Vous devez préciser une raison pour le déplacement du sujet, ou désactiver l\'option \'Poster un message de redirection\'.';
-
-// OpenID error strings
-$txt['openid_server_bad_response'] = 'L\'identifiant demandé n\'a pas retourné l\'information attendue.';
-$txt['openid_return_no_mode'] = 'Le fournisseur d\'identité n\'a pas répondu avec le mode OpenID.';
-$txt['openid_not_resolved'] = 'Le fournisseur d\'identité n\'a pas appouvé votre demande.';
-$txt['openid_no_assoc'] = 'Impossible de trouver l\'association demandée avec le fournisseur d\'identité.';
-$txt['openid_sig_invalid'] = 'La signature du fournisseur d\'identité est invalide.';
-$txt['openid_load_data'] = 'Impossible de charger les données à partir de votre requête de connexion. Veuillez réessayer.';
-$txt['openid_not_verified'] = 'L\'adresse OpenID fournie n\'a pas encore été vérifiée. Veuillez vous connecter pour la vérifier.';
 
 $txt['error_custom_field_too_long'] = 'Le champ &quot;%1$s&quot; ne peut faire plus de %2$d caractères.';
 $txt['error_custom_field_invalid_email'] = 'Le champ &quot;%1$s&quot; doit être une adresse e-mail valide.';

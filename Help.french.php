@@ -440,11 +440,6 @@ $helptxt['registration_method'] = 'Cette fonction détermine quelle méthode d\'
 				Lorsque cette option est sélectionnée, l\'inscription de tous les nouveaux utilisateurs de votre forum devra d\'abord être approuvée par les administrateurs pour être ensuite effective et leur permettre ainsi de rejoindre votre communauté.
 		</li>
 	</ul>';
-$helptxt['register_openid'] = '
-	OpenID est un moyen d\'utiliser un seul nom d\'utilisateur pour différents sites web, sans avoir à retenir un identifiant pour chacun d\'eux. Pour utiliser OpenID vous devez d\'abord créer un compte OpenID - une liste de fournisseurs est disponible sur le <a href="http://openid.net/" target="_blank">Site officiel OpenID</a>.<br><br>
-	Une fois que vous avez un compte OpenID, entrez simplement votre URL unique d\'identification dans le champ OpenID et validez. Il sera effectué une vérification de votre identité via le site de vos fournisseurs avant de pouvoir entrer sur le site en question.<br><br>
-	Lors de votre première visite sur ce site, il vous sera demandé de confirmer une série de détails avant d\'être reconnu, après cela vous pourrez vous connecter sur le site et changer votre profil juste en utilisant votre OpenID.<br><br>
-	Pour plus d\'informations, veuillez visiter le <a href="http://openid.net/" target="_blank">Site officiel OpenID</a>.';
 
 $helptxt['send_validation_onChange'] = 'Lorsque cette option est cochée, tous les membres qui modifient leur adresse e-mail dans leur profil devront réactiver leur compte grâce à un e-mail envoyé à leur nouvelle adresse.';
 $helptxt['send_welcomeEmail'] = 'Lorsque cette option est activée, tous les nouveaux membres recevront un e-mail leur souhaitant la bienvenue sur votre communauté.';

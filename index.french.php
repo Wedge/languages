@@ -747,7 +747,6 @@ $txt['show_ignore_user_post'] = 'Me montrer le message.';
 
 $txt['spider'] = 'Robot';
 $txt['spiders'] = 'Robots';
-$txt['openid'] = 'OpenID';
 
 $txt['downloads'] = 'Téléchargements';
 $txt['filesize'] = 'Taille de fichier';
