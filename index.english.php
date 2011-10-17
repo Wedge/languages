@@ -36,7 +36,7 @@ $txt['board_name'] = 'Board name';
 
 $txt['member_postcount'] = 'Posts';
 $txt['no_subject'] = '(No subject)';
-$txt['view_profile'] = 'View Profile';
+$txt['view_profile'] = 'View profile';
 $txt['guest_title'] = 'Guest';
 $txt['author'] = 'Author';
 $txt['on'] = 'on';
@@ -86,7 +86,6 @@ $txt['choose_pass'] = 'Choose password';
 $txt['verify_pass'] = 'Verify password';
 $txt['position'] = 'Position';
 
-$txt['profile_of'] = 'View the profile of';
 $txt['total'] = 'Total';
 $txt['posts_made'] = 'Posts';
 $txt['website'] = 'Website';

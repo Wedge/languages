@@ -37,7 +37,7 @@ $txt['board_name'] = 'Nom de la section';
 
 $txt['member_postcount'] = 'Messages';
 $txt['no_subject'] = '(Pas de titre)';
-$txt['view_profile'] = 'Voir le profil';
+$txt['view_profile'] = 'Voir profil';
 $txt['guest_title'] = 'Invité';
 $txt['author'] = 'Auteur';
 $txt['on'] = 'le';
@@ -87,7 +87,6 @@ $txt['choose_pass'] = 'Choisir un mot de passe';
 $txt['verify_pass'] = 'Vérifier le mot de passe';
 $txt['position'] = 'Rang';
 
-$txt['profile_of'] = 'Voir le profil de';
 $txt['total'] = 'Total';
 $txt['posts_made'] = 'Messages';
 $txt['website'] = 'Site Web';
