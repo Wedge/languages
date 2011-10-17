@@ -120,7 +120,7 @@ $helptxt['time_format'] = '
 		<span class="bbc_tt">%I</span> - Heure au format 12 heures (de 01 à 12)<br>
 		<span class="bbc_tt">%m</span> - Numéro du mois (01 à 12)<br>
 		<span class="bbc_tt">%M</span> - Minutes en chiffres (de 00 à 59)<br>
-		<span class="bbc_tt">%p</span> - Ajoute "am" (avant midi) ou "pm" (après midi), selon l\'heure<br>
+		<span class="bbc_tt">%p</span> - Ajoute "AM" (avant midi) ou "AM" (après midi), selon l\'heure<br>
 		<span class="bbc_tt" style="color: #999">%R</span> - Heure et minutes, équivalent de %H:%M<br>
 		<span class="bbc_tt">%S</span> - Secondes en chiffres (de 00 à 59)<br>
 		<span class="bbc_tt" style="color: #999">%T</span> - Heure, minutes et secondes, équivalent de %H:%M:%S<br>

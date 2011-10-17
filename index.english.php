@@ -17,6 +17,7 @@ $txt['lang_capitalize_dates'] = true;
 // Number formats?
 $txt['number_format'] = '1,234.00';
 $txt['time_format'] = '%B %e, %Y, %I:%M %p';
+$txt['time_format_this_year'] = '%B %e, %I:%M %p';
 
 $txt['days'] = array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
 $txt['days_short'] = array('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat');
