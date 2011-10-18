@@ -50,4 +50,7 @@ $txt['plugin_filter_all'] = 'All (%1$d)';
 $txt['plugin_filter_enabled'] = 'Enabled (%1$d)';
 $txt['plugin_filter_disabled'] = 'Disabled (%1$d)';
 $txt['plugin_filter_install_errors'] = 'Incompatible (%1$d)';
+
+$txt['could_not_connect_remote'] = 'Wedge was unable to log in to the server to perform changes for you.<br>The server returned the following error: %1$s<br><br>You may wish to try going back and checking the login details provided.';
+
 ?>
