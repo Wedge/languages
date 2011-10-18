@@ -51,4 +51,6 @@ $txt['plugin_filter_enabled'] = 'Actives (%1$d)';
 $txt['plugin_filter_disabled'] = 'Inactives (%1$d)';
 $txt['plugin_filter_install_errors'] = 'Incompatibles (%1$d)';
 
+$txt['could_not_connect_remote'] = 'Wedge n\'a pas pu se connecter au serveur pour y effectuer les changements à votre place.<br>Le serveur a renvoyé ce message d\'erreur&nbsp;: %1$s<br><br>Essayez de revenir en arrière et de vérifier que vous avez fourni les bons identifiants de connexion.';
+
 ?>

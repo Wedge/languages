@@ -43,7 +43,7 @@ $txt['remove_plugin_delete_desc'] = 'The plugin, plus its data and settings will
 $txt['remove_plugin_unsure'] = 'If you are not sure whether you want to keep the data or not, select to "not remove the data".';
 $txt['remove_plugin_already_enabled'] = 'This plugin is currently enabled. You must disable it before attempting to remove it.';
 $txt['remove_plugin_files_still_there'] = 'The files for your plugin could not be deleted. You may have to log into your server with FTP to remove the %1$s folder.';
-$txt['remove_plugin_files_pre_still_there'] = 'Your plugin has not yet been removed; the files that make it up cannot be deleted without logging into FTP to change the permissions to make them deleteable.';
+$txt['remove_plugin_files_pre_still_there'] = 'Your plugin has not yet been removed; the files that make it up cannot be deleted without logging into FTP to change the permissions to make them deletable.';
 
 $txt['plugin_filter'] = 'Filter plugins:';
 $txt['plugin_filter_all'] = 'All (%1$d)';
