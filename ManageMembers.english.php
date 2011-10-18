@@ -43,8 +43,8 @@ $txt['membergroups_group_type_request'] = 'Requestable <span class="smalltext">(
 $txt['membergroups_group_type_free'] = 'Free <span class="smalltext">(User may leave and join group at will)</span>';
 $txt['membergroups_group_type_post'] = 'Post Based <span class="smalltext">(Membership based on post count)</span>';
 $txt['membergroups_min_posts'] = 'Required posts';
-$txt['membergroups_online_color'] = 'Color in online list';
-$txt['membergroups_online_color_desc'] = 'e.g. #FFCC99';
+$txt['membergroups_online_color'] = 'Color for profile links';
+$txt['membergroups_online_color_desc'] = 'e.g. #ffcc99';
 $txt['membergroups_star_count'] = 'Number of rank images';
 $txt['membergroups_star_image'] = 'Rank image filename';
 $txt['membergroups_star_image_note'] = 'you can use $language for the language of the user';
