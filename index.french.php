@@ -191,7 +191,7 @@ $txt['search_end_results'] = 'Fin des résultats';
 $txt['search_on'] = 'le';
 
 $txt['search'] = 'Chercher';
-$txt['all'] = 'Toutes';
+$txt['all_pages'] = 'Toutes';
 
 $txt['back'] = 'Retour';
 $txt['password_reminder'] = 'Rappel de mot de passe';
@@ -277,7 +277,6 @@ $txt['sendtopic_send'] = 'Envoyer';
 $txt['report_sent'] = 'Votre rapport a été envoyé avec succès.';
 
 $txt['time_offset'] = 'Décalage horaire';
-$txt['or'] = 'ou';
 
 $txt['no_matches'] = 'Désolé, aucune correspondance trouvée';
 
@@ -581,7 +580,7 @@ $txt['notification_disable_topic'] = 'Êtes-vous sûr de vouloir désactiver la 
 $txt['report_to_mod'] = 'Avertir un modérateur à propos de ce message';
 $txt['issue_warning_post'] = 'Sanctionner l\'auteur de ce message';
 
-$txt['unread_topics_all'] = 'Tous les sujets non lus';
+$txt['unread_topics'] = 'Sujets non lus';
 $txt['unread_replies'] = 'Sujets mis à jour';
 
 $txt['who_title'] = 'Qui est en ligne';

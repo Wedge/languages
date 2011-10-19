@@ -191,7 +191,7 @@ $txt['search_end_results'] = 'End of results';
 $txt['search_on'] = 'on';
 
 $txt['search'] = 'Search';
-$txt['all'] = 'All';
+$txt['all_pages'] = 'All';
 
 $txt['back'] = 'Back';
 $txt['password_reminder'] = 'Password reminder';
@@ -277,7 +277,6 @@ $txt['sendtopic_send'] = 'Send';
 $txt['report_sent'] = 'Your report has been sent successfully.';
 
 $txt['time_offset'] = 'Time Offset';
-$txt['or'] = 'or';
 
 $txt['no_matches'] = 'Sorry, no matches were found';
 
@@ -581,7 +580,7 @@ $txt['notification_disable_topic'] = 'Are you sure you wish to disable notificat
 $txt['report_to_mod'] = 'Report this post to a moderator';
 $txt['issue_warning_post'] = 'Issue a warning about this post';
 
-$txt['unread_topics_all'] = 'All Unread Topics';
+$txt['unread_topics'] = 'Unread Topics';
 $txt['unread_replies'] = 'Updated Topics';
 
 $txt['who_title'] = 'Who\'s Online';
