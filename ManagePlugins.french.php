@@ -53,4 +53,44 @@ $txt['plugin_filter_install_errors'] = 'Incompatibles (%1$d)';
 
 $txt['could_not_connect_remote'] = 'Wedge n\'a pas pu se connecter au serveur pour y effectuer les changements à votre place.<br>Le serveur a renvoyé ce message d\'erreur&nbsp;: %1$s<br><br>Essayez de revenir en arrière et de vérifier que vous avez fourni les bons identifiants de connexion.';
 
+$txt['plugins_add_desc'] = 'Cette page vous permet d\'ajouter de nouvelles extensions à votre forum.';
+$txt['plugins_add_download'] = 'Récupérer une Extension sur un Dépôt';
+$txt['plugins_add_download_desc'] = 'Vous pouvez utiliser les options ci-dessous pour télécharger des extensions à partir de dépôts (serveurs distants servant de bibliothèques d\'extensions).';
+$txt['plugins_repository'] = 'Dépôt';
+$txt['plugins_active'] = 'Actif';
+$txt['plugins_browse'] = 'Parcourir';
+$txt['plugins_modify'] = 'Modifier';
+$txt['plugins_no_repos'] = 'Pas de dépôts listés.';
+$txt['plugins_add_repo'] = 'Ajouter un dépôt';
+$txt['plugins_repo_auth'] = 'Des identifiants seront transmis à ce dépôt pour s\'y connecter.';
+$txt['plugins_repo_error'] = 'Erreur';
+$txt['plugins_add_upload'] = 'Transférer une Extension à partir de votre Ordinateur';
+$txt['plugins_add_upload_desc'] = 'Vous pouvez utiliser cette fonctionnalité pour transférer une extension au format .zip ou .tar.gz vers votre forum.';
+$txt['plugins_add_upload_file'] = 'Fichier à transférer&nbsp;:';
+$txt['plugins_upload_plugin'] = 'Transmettre';
+
+$txt['plugins_edit_repo'] = 'Modifier dépôt';
+$txt['plugins_edit_repo_desc'] = 'Cette page vous permet de modifier les paramètres des dépôts supplémentaires.';
+$txt['plugins_edit_invalid'] = 'Vous avez essayé de modifier un dépôt qui n\'existe pas. Utilisez la fonction un peu plus bas pour ajouter un nouveau dépôt.';
+$txt['plugins_edit_invalid_error'] = 'Vous avez essayé de modifier un dépôt qui n\'existe pas.';
+$txt['plugins_repo_details'] = 'Détails du Dépôt';
+$txt['plugins_repo_details_desc'] = 'Vous devrez renseigner le nom et l\'adresse du dépôt pour s\'y connecter, et vous pouvez également lui fournir un identifiant et un mot de passe pour la connexion (facultatif).';
+
+$txt['plugins_repo_name'] = 'Nom du Dépôt';
+$txt['plugins_repo_address'] = 'Adresse du Dépôt';
+$txt['plugins_repo_active'] = 'Le dépôt est actif';
+$txt['plugins_repo_delete'] = 'Supprimer';
+$txt['plugins_repo_delete_confirm'] = 'Êtes-vous sûr de vouloir supprimer ce dépôt ? Il ne sera pas possible d\'annuler cette opération.';
+
+$txt['plugins_repo_auth'] = 'Détails d\'Authentification';
+$txt['plugins_repo_auth_desc'] = 'Si ce dépôt nécessite un identifiant et un mot de passe, entrez-les ici. Sinon, laissez cet espace vide.';
+$txt['plugins_repo_username'] = 'Nom d\'utilisateur';
+$txt['plugins_repo_password'] = 'Mot de passe';
+$txt['plugins_repo_password_blank'] = 'Pourquoi est-ce vide&nbsp;?';
+
+$txt['plugins_repo_no_name'] = 'Vous n\'avez pas entré de nom pour le dépôt. Il est requis pour continuer.';
+$txt['plugins_repo_no_url'] = 'Vous n\'avez pas entré d\'adresse nom pour le dépôt. Elle est requise pour continuer.';
+$txt['plugins_auth_pwd_nouser'] = 'Vous avez entré un mot de passe pour le dépôt, mais pas d\'identifiant - les deux sont nécessaires, ou laissez vide si le dépôt ne demande pas d\'authentification.';
+$txt['plugins_auth_diffuser'] = 'Vous avez entré un identifiant pour le dépôt, mais pas de mot de passe - les deux sont nécessaires, ou laissez vide si le dépôt ne demande pas d\'authentification.';
+
 ?>

@@ -83,7 +83,7 @@ $txt['plugins_repo_delete'] = 'Delete';
 $txt['plugins_repo_delete_confirm'] = 'Are you sure you wish to remove this repository? There is no undo function for this.';
 
 $txt['plugins_repo_auth'] = 'Authorization Details';
-$txt['plugins_repo_auth_desc'] = 'If this repository needs a username and address, it should be entered here. If no authorization details should be used, leave both boxes blank.';
+$txt['plugins_repo_auth_desc'] = 'If this repository needs a username and password, it should be entered here. If no authorization details should be used, leave both boxes blank.';
 $txt['plugins_repo_username'] = 'Username';
 $txt['plugins_repo_password'] = 'Password';
 $txt['plugins_repo_password_blank'] = 'Why is it blank?';
@@ -92,4 +92,5 @@ $txt['plugins_repo_no_name'] = 'No repository name was provided; one is required
 $txt['plugins_repo_no_url'] = 'No address was provided for the repository; one is required.';
 $txt['plugins_auth_pwd_nouser'] = 'You provided a password for a repository but no username - if you wish to provide account details for a repository, both username and password are required.';
 $txt['plugins_auth_diffuser'] = 'You have provided a username but no password (or, you\'ve tried to change the username attached to this repository, and not re-supplied the password), both must be given if details are to be used.';
+
 ?>

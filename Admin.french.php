@@ -606,10 +606,14 @@ $txt['permissions_boards'] = 'Permissions par Site';
 $txt['permissions_profiles'] = 'Modifier les Profils';
 $txt['permissions_post_moderation'] = 'Modération des messages';
 
+// These are the old ones, which will be going
 $txt['browse_packages'] = 'Parcourir les Extensions';
 $txt['download_packages'] = 'Télécharger des Extensions';
 $txt['package_file_perms'] = 'Permissions des Fichiers';
 $txt['package_settings'] = 'Paramètres';
+// These will be replacing them
+$txt['plugins_add_plugins'] = 'Ajouter des Extensions';
+
 $txt['themeadmin_admin_title'] = 'Gérer et Installer';
 $txt['themeadmin_list_title'] = 'Paramètres des Thèmes';
 $txt['themeadmin_reset_title'] = 'Options des Membres';
