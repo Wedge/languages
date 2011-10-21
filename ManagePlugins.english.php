@@ -53,4 +53,43 @@ $txt['plugin_filter_install_errors'] = 'Incompatible (%1$d)';
 
 $txt['could_not_connect_remote'] = 'Wedge was unable to log in to the server to perform changes for you.<br>The server returned the following error: %1$s<br><br>You may wish to try going back and checking the login details provided.';
 
+$txt['plugins_add_desc'] = 'From this area, you can add new plugins to your forum.';
+$txt['plugins_add_download'] = 'Download a Plugin from a Repository';
+$txt['plugins_add_download_desc'] = 'There are repositories that contain various plugins for your forum, you can use the options below to find plugins on them.';
+$txt['plugins_repository'] = 'Repository';
+$txt['plugins_active'] = 'Active';
+$txt['plugins_browse'] = 'Browse';
+$txt['plugins_modify'] = 'Modify';
+$txt['plugins_no_repos'] = 'No repositories listed.';
+$txt['plugins_add_repo'] = 'Add repository';
+$txt['plugins_repo_auth'] = 'When contacting this repository, login details for it will be supplied.';
+$txt['plugins_repo_error'] = 'Error';
+$txt['plugins_add_upload'] = 'Upload a Plugin from your computer';
+$txt['plugins_add_upload_desc'] = 'You can use this facility to upload a plugin in .zip or .tar.gz format to your forum.';
+$txt['plugins_add_upload_file'] = 'The plugin file to upload:';
+$txt['plugins_upload_plugin'] = 'Upload Plugin';
+
+$txt['plugins_edit_repo'] = 'Edit repository';
+$txt['plugins_edit_repo_desc'] = 'From this page, you can provide the details for additional repositories for plugins.';
+$txt['plugins_edit_invalid'] = 'You tried to edit a plugin repository that does not exist. You can add a new repository below.';
+$txt['plugins_edit_invalid_error'] = 'You tried to edit a plugin repository that does not exist.';
+$txt['plugins_repo_details'] = 'Repository Details';
+$txt['plugins_repo_details_desc'] = 'A repository needs a name and an address, and optionally if you need to, you can also supply a username and password that will be used when contacting the repository for plugins.';
+
+$txt['plugins_repo_name'] = 'Repository name';
+$txt['plugins_repo_address'] = 'Repository address';
+$txt['plugins_repo_active'] = 'Repository is active';
+$txt['plugins_repo_delete'] = 'Delete';
+$txt['plugins_repo_delete_confirm'] = 'Are you sure you wish to remove this repository? There is no undo function for this.';
+
+$txt['plugins_repo_auth'] = 'Authorization Details';
+$txt['plugins_repo_auth_desc'] = 'If this repository needs a username and address, it should be entered here. If no authorization details should be used, leave both boxes blank.';
+$txt['plugins_repo_username'] = 'Username';
+$txt['plugins_repo_password'] = 'Password';
+$txt['plugins_repo_password_blank'] = 'Why is it blank?';
+
+$txt['plugins_repo_no_name'] = 'No repository name was provided; one is required.';
+$txt['plugins_repo_no_url'] = 'No address was provided for the repository; one is required.';
+$txt['plugins_auth_pwd_nouser'] = 'You provided a password for a repository but no username - if you wish to provide account details for a repository, both username and password are required.';
+$txt['plugins_auth_diffuser'] = 'You have provided a username but no password (or, you\'ve tried to change the username attached to this repository, and not re-supplied the password), both must be given if details are to be used.';
 ?>

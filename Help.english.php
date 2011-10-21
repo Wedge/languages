@@ -492,6 +492,10 @@ $helptxt['latest_support'] = 'This panel shows you some of the most common probl
 $helptxt['latest_packages'] = 'Here you can see some of the most popular and some random plugins, with quick and easy installations.<br><br>If this section doesn\'t show up, your computer probably cannot connect to <a href="http://wedge.org/" target="_blank" class="new_win">wedge.org</a>.';
 $helptxt['latest_themes'] = 'This area shows a few of the latest and most popular themes from <a href="http://wedge.org/" target="_blank" class="new_win">wedge.org</a>. It may not show up properly if your computer can\'t find <a href="http://wedge.org/" target="_blank" class="new_win">wedge.org</a>, though.';
 
+$helptxt['error_plugin_repo'] = 'The last time this repository was called, to see if it had any updated plugins for your forum, it could not be contacted properly, and you should probably check the URL of the repository to make sure it still exists. Also, if it requires a username and password, you may wish to re-enter the details to check them.';
+$helptxt['plugins_repo_active'] = 'If a repository is not marked active, you will still be able to select the browse function, but it will not be called automatically for updates, so you will not automatically be notified if any of your plugins has an available update.';
+$helptxt['plugins_password_blank'] = 'A password has previously been supplied for this repository but it is encrypted on the server so that your password cannot be shared with another person.<br><br>If you want, you can change the username and/or password by entering the new details - or leave the boxes as they are to leave the details as they are currently.';
+
 $helptxt['secret_why_blank'] = 'For your security, your password and the answer to your secret question are encrypted so that the Wedge software will never tell you, or anyone else, what they are.';
 $helptxt['moderator_why_missing'] = 'Since moderation is done on a board-by-board basis, you have to make members moderators from the <a href="javascript:window.open(\'%1$s?action=admin;area=manageboards\'); self.close();">board management interface</a>.';
 

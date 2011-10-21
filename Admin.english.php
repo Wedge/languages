@@ -606,10 +606,14 @@ $txt['permissions_boards'] = 'Board Permissions';
 $txt['permissions_profiles'] = 'Edit Profiles';
 $txt['permissions_post_moderation'] = 'Post Moderation';
 
+// These are the old ones, which will be going
 $txt['browse_packages'] = 'Browse Plugins';
 $txt['download_packages'] = 'Download Plugins';
 $txt['package_file_perms'] = 'File Permissions';
 $txt['package_settings'] = 'Options';
+// These will be replacing them
+$txt['plugins_add_plugins'] = 'Add Plugins';
+
 $txt['themeadmin_admin_title'] = 'Manage and Install';
 $txt['themeadmin_list_title'] = 'Theme Settings';
 $txt['themeadmin_reset_title'] = 'Member Options';
