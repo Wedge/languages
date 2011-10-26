@@ -53,6 +53,7 @@ $txt['plugin_filter_install_errors'] = 'Incompatible (%1$d)';
 
 $txt['could_not_connect_remote'] = 'Wedge was unable to log in to the server to perform changes for you.<br>The server returned the following error: %1$s<br><br>You may wish to try going back and checking the login details provided.';
 
+$txt['plugins_no_gzinflate'] = 'Your server does not support gzinflate, the upload/download plugin facilities are not available. Your host may be able to help if they can enable zlib support in PHP.';
 $txt['plugins_add_desc'] = 'From this area, you can add new plugins to your forum.';
 $txt['plugins_add_download'] = 'Download a Plugin from a Repository';
 $txt['plugins_add_download_desc'] = 'There are repositories that contain various plugins for your forum, you can use the options below to find plugins on them.';
@@ -68,6 +69,9 @@ $txt['plugins_add_upload'] = 'Upload a Plugin from your computer';
 $txt['plugins_add_upload_desc'] = 'You can use this facility to upload a plugin in .zip or .tar.gz format to your forum.';
 $txt['plugins_add_upload_file'] = 'The plugin file to upload:';
 $txt['plugins_upload_plugin'] = 'Upload Plugin';
+
+$txt['plugins_browse_invalid_error'] = 'You tried to browse a plugin repository that does not exist.';
+$txt['plugins_browse_could_not_connect'] = 'The selected plugin repository could not be located; it may be temporarily unavailable. You may be able to browse it manually via its link: <a href="%1$s">%1$s</a>';
 
 $txt['plugins_edit_repo'] = 'Edit repository';
 $txt['plugins_edit_repo_desc'] = 'From this page, you can provide the details for additional repositories for plugins.';
@@ -90,6 +94,7 @@ $txt['plugins_repo_password_blank'] = 'Why is it blank?';
 
 $txt['plugins_repo_no_name'] = 'No repository name was provided; one is required.';
 $txt['plugins_repo_no_url'] = 'No address was provided for the repository; one is required.';
+$txt['plugins_repo_invalid_url'] = 'The address provided for the repository was invalid, please recheck and try again.';
 $txt['plugins_auth_pwd_nouser'] = 'You provided a password for a repository but no username - if you wish to provide account details for a repository, both username and password are required.';
 $txt['plugins_auth_diffuser'] = 'You have provided a username but no password (or, you\'ve tried to change the username attached to this repository, and not re-supplied the password), both must be given if details are to be used.';
 
