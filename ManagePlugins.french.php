@@ -53,6 +53,7 @@ $txt['plugin_filter_install_errors'] = 'Incompatibles (%1$d)';
 
 $txt['could_not_connect_remote'] = 'Wedge n\'a pas pu se connecter au serveur pour y effectuer les changements à votre place.<br>Le serveur a renvoyé ce message d\'erreur&nbsp;: %1$s<br><br>Essayez de revenir en arrière et de vérifier que vous avez fourni les bons identifiants de connexion.';
 
+$txt['plugins_no_gzinflate'] = 'Votre serveur ne supportant pas gzinflate, les fonctionnalités de téléchargement/upload d\'extensions ne sont pas disponibles. Demandez à votre hébergeur s\'ils peuvent activer le support de la bibliothèque zlib dans leur installation de PHP.';
 $txt['plugins_add_desc'] = 'Cette page vous permet d\'ajouter de nouvelles extensions à votre forum.';
 $txt['plugins_add_download'] = 'Récupérer une Extension sur un Dépôt';
 $txt['plugins_add_download_desc'] = 'Vous pouvez utiliser les options ci-dessous pour télécharger des extensions à partir de dépôts (serveurs distants servant de bibliothèques d\'extensions).';
@@ -68,6 +69,9 @@ $txt['plugins_add_upload'] = 'Transférer une Extension à partir de votre Ordin
 $txt['plugins_add_upload_desc'] = 'Vous pouvez utiliser cette fonctionnalité pour transférer une extension au format .zip ou .tar.gz vers votre forum.';
 $txt['plugins_add_upload_file'] = 'Fichier à transférer&nbsp;:';
 $txt['plugins_upload_plugin'] = 'Transmettre';
+
+$txt['plugins_browse_invalid_error'] = 'Le dépôt d\'extensions auquel vous essayez d\'accéder n\'existe pas.';
+$txt['plugins_browse_could_not_connect'] = 'Le dépôt d\'extensions demandé est introuvable. Il est peut-être temporairement indisponible. Essayez de le parcourir manuellement via ce lien&nbsp;: <a href="%1$s">%1$s</a>';
 
 $txt['plugins_edit_repo'] = 'Modifier dépôt';
 $txt['plugins_edit_repo_desc'] = 'Cette page vous permet de modifier les paramètres des dépôts supplémentaires.';
@@ -90,6 +94,7 @@ $txt['plugins_repo_password_blank'] = 'Pourquoi est-ce vide&nbsp;?';
 
 $txt['plugins_repo_no_name'] = 'Vous n\'avez pas entré de nom pour le dépôt. Il est requis pour continuer.';
 $txt['plugins_repo_no_url'] = 'Vous n\'avez pas entré d\'adresse nom pour le dépôt. Elle est requise pour continuer.';
+$txt['plugins_repo_invalid_url'] = 'L\'adresse fournie pour le dépôt est invalide. Merci de la vérifier et de réessayer.';
 $txt['plugins_auth_pwd_nouser'] = 'Vous avez entré un mot de passe pour le dépôt, mais pas d\'identifiant - les deux sont nécessaires, ou laissez vide si le dépôt ne demande pas d\'authentification.';
 $txt['plugins_auth_diffuser'] = 'Vous avez entré un identifiant pour le dépôt, mais pas de mot de passe - les deux sont nécessaires, ou laissez vide si le dépôt ne demande pas d\'authentification.';
 
