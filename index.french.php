@@ -506,8 +506,9 @@ $txt['moveTopic_redirection_day_n'] = '%s jours';
 $txt['moveTopic_redirection_perm'] = 'Ad vitam';
 $txt['move_topic_unapproved_js'] = 'Attention ! Ce sujet n\'a pas encore été approuvé.\\n\\nIl n\'est pas recommandé de créer un message de redirection à moins que vous n\'ayez l\'intention d\'approuver le message immédiatement après le déplacement.';
 
-$txt['theme_template_error'] = 'Impossible de charger le modèle \'%1$s\'.';
-$txt['theme_language_error'] = 'Impossible de charger le fichier de langues \'%1$s\'.';
+$txt['template_block_error'] = 'Impossible de trouver le bloc visuel <em>%s</em>.';
+$txt['theme_template_error'] = 'Impossible de charger le modèle <em>%1$s</em>.';
+$txt['theme_language_error'] = 'Impossible de charger le fichier de langues <em>%1$s\</em>.';
 
 $txt['sub_boards'] = 'Sous-sections';
 
@@ -593,7 +594,7 @@ $txt['who_member'] = 'Membre';
 $txt['feed'] = 'Flux de messages';
 $txt['feed_current_topic'] = 'Ce sujet&nbsp;:';
 $txt['feed_current_board'] = 'Ce forum&nbsp;:';
-$txt['feed_current_blog'] = 'Ce blog&nsbp;:';
+$txt['feed_current_blog'] = 'Ce blog&nbsp;:';
 $txt['feed_everywhere'] = 'Tout le site&nbsp;:';
 $txt['feed_posts'] = '<a href="%1$s">messages</a>';
 $txt['feed_topics'] = '<a href="%1$s">sujets</a>';
@@ -694,7 +695,6 @@ $txt['split_selected_posts'] = 'Messages sélectionnés';
 $txt['split_selected_posts_desc'] = 'Les messages suivants formeront un nouveau sujet après la scission.';
 $txt['split_reset_selection'] = 'recommencer la sélection';
 
-$txt['modify_cancel'] = 'Annuler';
 $txt['mark_read_short'] = 'Marquer lu';
 
 $txt['pm_short'] = 'Messagerie';
@@ -800,6 +800,13 @@ $txt['spoiler'] = 'Spoiler';
 $txt['click_for_spoiler'] = '(cliquez pour montrer/cacher)';
 
 $txt['readmore'] = '(Reste %1$d caractères)';
+$txt['thought'] = 'Pensée';
+$txt['thoughts'] = 'Pensées';
+$txt['ajax_personal_text_none'] = '<em>(No Personal Text, click here to set it)</em>';
+
+// Do not use double quotes in the form_* text strings. (Why would you?)
+$txt['form_submit'] = 'Envoyer';
+$txt['form_cancel'] = 'Annuler';
 
 // Media Gallery
 $txt['media_gallery'] = 'Media';

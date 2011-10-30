@@ -301,7 +301,7 @@ $txt['show_attach_filename'] = 'Nom de fichier';
 $txt['show_attach_downloads'] = 'Téléchargements';
 $txt['show_attach_posted'] = 'Posté';
 
-$txt['showPermissions'] = 'Montrer les permissions';
+$txt['showPermissions'] = 'Voir les permissions';
 $txt['showPermissions_status'] = 'Statut de la permission';
 $txt['showPermissions_help'] = 'Cette section vous permet de voir toutes les permissions de ce membre (les permissions refusées sont <del>barrées</del>).';
 $txt['showPermissions_given'] = 'Attribué par';
@@ -310,7 +310,7 @@ $txt['showPermissions_permission'] = 'Permission (les permissions refusées sont
 $txt['showPermissions_none_general'] = 'Aucune permission générale n\'a été enregistrée pour ce membre.';
 $txt['showPermissions_none_board'] = 'Aucune permission spécifique n\'a été enregistrée pour ce membre.';
 $txt['showPermissions_all'] = 'En tant qu\'administrateur, ce membre a toutes les permissions possibles.';
-$txt['showPermissions_select'] = 'Montrer les permissions pour';
+$txt['showPermissions_select'] = 'Voir les permissions pour';
 $txt['showPermissions_general'] = 'Permissions générales';
 $txt['showPermissions_global'] = 'Toutes les sections';
 $txt['showPermissions_restricted_boards'] = 'Sites à accès restreint';

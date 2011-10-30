@@ -506,8 +506,9 @@ $txt['moveTopic_redirection_day_n'] = '%s days';
 $txt['moveTopic_redirection_perm'] = 'Permanently';
 $txt['move_topic_unapproved_js'] = 'Warning! This topic has not yet been approved.\\n\\nIt is not recommended that you create a redirection topic unless you intend to approve the post immediately following the move.';
 
-$txt['theme_template_error'] = 'Unable to load the \'%1$s\' template.';
-$txt['theme_language_error'] = 'Unable to load the \'%1$s\' language file.';
+$txt['template_block_error'] = 'Unable to find the <em>%s</em> template block.';
+$txt['theme_template_error'] = 'Unable to load the <em>%1$s</em> template.';
+$txt['theme_language_error'] = 'Unable to load the <em>%1$s</em> language file.';
 
 $txt['sub_boards'] = 'Sub-Boards';
 
@@ -694,7 +695,6 @@ $txt['split_selected_posts'] = 'Selected posts';
 $txt['split_selected_posts_desc'] = 'The posts below will form a new topic after splitting.';
 $txt['split_reset_selection'] = 'reset selection';
 
-$txt['modify_cancel'] = 'Cancel';
 $txt['mark_read_short'] = 'Mark Read';
 
 $txt['pm_short'] = 'My Messages';
@@ -800,6 +800,13 @@ $txt['spoiler'] = 'Spoiler';
 $txt['click_for_spoiler'] = '(click to show/hide)';
 
 $txt['readmore'] = '(%1$d more chars)';
+$txt['thought'] = 'Thought';
+$txt['thoughts'] = 'Thoughts';
+$txt['ajax_personal_text_none'] = '<em>(No Personal Text, click here to set it)</em>';
+
+// Do not use double quotes in the form_* text strings. (Why would you?)
+$txt['form_submit'] = 'Submit';
+$txt['form_cancel'] = 'Cancel';
 
 // Media Gallery
 $txt['media_gallery'] = 'Media';
