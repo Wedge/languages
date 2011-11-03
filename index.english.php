@@ -506,9 +506,9 @@ $txt['moveTopic_redirection_day_n'] = '%s days';
 $txt['moveTopic_redirection_perm'] = 'Permanently';
 $txt['move_topic_unapproved_js'] = 'Warning! This topic has not yet been approved.\\n\\nIt is not recommended that you create a redirection topic unless you intend to approve the post immediately following the move.';
 
-$txt['template_block_error'] = 'Unable to find the <em>%s</em> template block.';
-$txt['theme_template_error'] = 'Unable to load the <em>%1$s</em> template.';
-$txt['theme_language_error'] = 'Unable to load the <em>%1$s</em> language file.';
+$txt['template_block_error'] = 'Unable to find the "%1$s" template block.';
+$txt['theme_template_error'] = 'Unable to load the "%1$s" template.';
+$txt['theme_language_error'] = 'Unable to load the "%1$s" language file.';
 
 $txt['sub_boards'] = 'Sub-Boards';
 
@@ -802,7 +802,13 @@ $txt['click_for_spoiler'] = '(click to show/hide)';
 $txt['readmore'] = '(%1$d more chars)';
 $txt['thought'] = 'Thought';
 $txt['thoughts'] = 'Thoughts';
-$txt['ajax_personal_text_none'] = '<em>(No Personal Text, click here to set it)</em>';
+$txt['no_thought_yet'] = '<em>(Click here to set your first thought)</em>';
+
+// Do not use double quotes in the following strings.
+$txt['privacy_public'] = 'Public';
+$txt['privacy_members'] = 'Members';
+$txt['privacy_friends'] = 'Friends';
+$txt['privacy_self'] = 'Self';
 
 // Do not use double quotes in the form_* text strings. (Why would you?)
 $txt['form_submit'] = 'Submit';

@@ -506,9 +506,9 @@ $txt['moveTopic_redirection_day_n'] = '%s jours';
 $txt['moveTopic_redirection_perm'] = 'Ad vitam';
 $txt['move_topic_unapproved_js'] = 'Attention ! Ce sujet n\'a pas encore été approuvé.\\n\\nIl n\'est pas recommandé de créer un message de redirection à moins que vous n\'ayez l\'intention d\'approuver le message immédiatement après le déplacement.';
 
-$txt['template_block_error'] = 'Impossible de trouver le bloc visuel <em>%s</em>.';
-$txt['theme_template_error'] = 'Impossible de charger le modèle <em>%1$s</em>.';
-$txt['theme_language_error'] = 'Impossible de charger le fichier de langues <em>%1$s\</em>.';
+$txt['template_block_error'] = 'Impossible de trouver le bloc visuel "%1$s".';
+$txt['theme_template_error'] = 'Impossible de charger le modèle "%1$s".';
+$txt['theme_language_error'] = 'Impossible de charger le fichier de langues "%1$s".';
 
 $txt['sub_boards'] = 'Sous-sections';
 
@@ -802,7 +802,13 @@ $txt['click_for_spoiler'] = '(cliquez pour montrer/cacher)';
 $txt['readmore'] = '(Reste %1$d caractères)';
 $txt['thought'] = 'Pensée';
 $txt['thoughts'] = 'Pensées';
-$txt['ajax_personal_text_none'] = '<em>(No Personal Text, click here to set it)</em>';
+$txt['no_thought_yet'] = '<em>(Cliquez ici pour écrire une pensée)</em>';
+
+// Do not use double quotes in the following strings.
+$txt['privacy_public'] = 'Public';
+$txt['privacy_members'] = 'Membres';
+$txt['privacy_friends'] = 'Mes amis';
+$txt['privacy_self'] = 'Juste moi';
 
 // Do not use double quotes in the form_* text strings. (Why would you?)
 $txt['form_submit'] = 'Envoyer';
