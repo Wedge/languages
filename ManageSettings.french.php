@@ -171,7 +171,6 @@ $txt['allow_editDisplayName'] = 'Permettre aux membres de modifier leur pseudony
 $txt['allow_hideOnline'] = 'Permettre aux membres de cacher leur présence en ligne';
 $txt['titlesEnable'] = 'Activer les titres personnalisés';
 $txt['enable_buddylist'] = 'Activer les listes de contacts et d\'ignorés';
-$txt['default_personal_text'] = 'Texte personnel par défaut<dfn>Ce texte sera assigné aux nouveaux membres à leur inscription.</dfn>';
 
 $txt['signature_settings'] = 'Paramètres de Signature';
 $txt['signature_settings_desc'] = 'Utilisez les paramètres de cette page pour décider des fonctionnalités offertes aux membres pour leurs signatures.';

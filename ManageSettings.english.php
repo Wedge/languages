@@ -172,7 +172,6 @@ $txt['allow_editDisplayName'] = 'Allow members to edit their displayed name';
 $txt['allow_hideOnline'] = 'Allow members to hide their online status';
 $txt['titlesEnable'] = 'Enable custom titles';
 $txt['enable_buddylist'] = 'Enable contacts &amp; ignore list';
-$txt['default_personal_text'] = 'Default personal text<dfn>Personal text to assign to newly registered members.</dfn>';
 
 $txt['signature_settings'] = 'Signature Settings';
 $txt['signature_settings_desc'] = 'Use the settings on this page to decide what facilities members should have for their signatures.';
