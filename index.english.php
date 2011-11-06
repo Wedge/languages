@@ -805,6 +805,7 @@ $txt['thoughts'] = 'Thoughts';
 $txt['no_thought_yet'] = '<em>(Click here to set your first thought)</em>';
 
 // Do not use double quotes in the following strings.
+$txt['privacy_everywhere'] = 'Blurb';
 $txt['privacy_public'] = 'Public';
 $txt['privacy_members'] = 'Members';
 $txt['privacy_friends'] = 'Friends';
