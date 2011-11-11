@@ -218,8 +218,8 @@ $txt['permissionhelp_report_any'] = 'Cette permission ajoute un lien à chaque m
 
 $txt['permissionname_save_post_draft'] = 'Sauver des brouillons';
 $txt['permissionname_simple_save_post_draft'] = 'Sauver des brouillons';
-$txt['permissionhelp_save_post_draft'] = 'Cette permission permet à l\'utilisateur de sauver leurs nouveaux messages en tant que brouillons, avant leur publication. Les fichiers joints, sondages et événements ne sont PAS sauvegardés.';
-$txt['permissionhelp_simple_save_post_draft'] = 'Cette permission permet à l\'utilisateur de sauver leurs nouveaux messages en tant que brouillons, avant leur publication. Les fichiers joints, sondages et événements ne sont PAS sauvegardés.';
+$txt['permissionhelp_save_post_draft'] = 'Cette permission permet à l\'utilisateur de sauver leurs nouveaux messages en tant que brouillons, avant leur publication. Les fichiers joints et sondages ne sont PAS sauvegardés.';
+$txt['permissionhelp_simple_save_post_draft'] = 'Cette permission permet à l\'utilisateur de sauver leurs nouveaux messages en tant que brouillons, avant leur publication. Les fichiers joints et sondages ne sont PAS sauvegardés.';
 $txt['permissionname_auto_save_post_draft'] = 'Sauver automatiquement des brouillons';
 $txt['permissionname_simple_auto_save_post_draft'] = 'Sauver automatiquement des brouillons';
 $txt['permissionhelp_auto_save_post_draft'] = 'Cette permission, si elle est combinée avec la précédente, permet de sauvegarder automatiquement des brouillons des nouveaux messages et sujets, par défaut toutes les 30 secondes environ (configurable dans le panneau d\'administration).';
