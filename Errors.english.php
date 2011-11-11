@@ -139,24 +139,11 @@ $txt['no_mods'] = 'No moderators found!';
 $txt['parent_not_found'] = 'Board structure corrupt: unable to find parent board';
 $txt['modify_post_time_passed'] = 'You may not modify this post as the time limit for edits has passed.';
 
-$txt['invalid_month'] = 'Invalid month value.';
-$txt['invalid_year'] = 'Invalid year value.';
-$txt['invalid_day'] = 'Invalid day value.';
-$txt['event_month_missing'] = 'Event month is missing.';
-$txt['event_year_missing'] = 'Event year is missing.';
-$txt['event_day_missing'] = 'Event day is missing.';
-$txt['event_title_missing'] = 'Event title is missing.';
-$txt['invalid_date'] = 'Invalid date.';
-$txt['no_event_title'] = 'No event title was entered.';
-$txt['missing_event_id'] = 'Missing event ID.';
-$txt['cant_edit_event'] = 'You do not have permission to edit this event.';
 $txt['missing_board_id'] = 'Board ID is missing.';
 $txt['missing_topic_id'] = 'Topic ID is missing.';
 $txt['topic_doesnt_exist'] = 'Topic doesn\'t exist.';
 $txt['not_your_topic'] = 'You are not the owner of this topic.';
 $txt['board_doesnt_exist'] = 'The board does not exist.';
-$txt['no_span'] = 'The span feature is currently disabled.';
-$txt['invalid_days_numb'] = 'Invalid number of days to span.';
 
 $txt['moveto_noboards'] = 'There are no boards to move this topic to!';
 
@@ -218,7 +205,6 @@ $txt['error_no_name'] = 'No name was provided.';
 $txt['error_bad_name'] = 'The name you submitted cannot be used, because it is or contains a reserved name.';
 $txt['error_no_email'] = 'No email address was provided.';
 $txt['error_bad_email'] = 'An invalid email address was given.';
-$txt['error_no_event'] = 'No event name has been given.';
 $txt['error_no_subject'] = 'No subject was filled in.';
 $txt['error_no_question'] = 'No question was filled in for this poll.';
 $txt['error_no_message'] = 'The message body was left empty.';

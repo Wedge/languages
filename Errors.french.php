@@ -139,24 +139,11 @@ $txt['no_mods'] = 'Aucun modérateur trouvé&nbsp;!';
 $txt['parent_not_found'] = 'La structure de la section est corrompue&nbsp;: impossible de trouver la section parente';
 $txt['modify_post_time_passed'] = 'Vous ne pouvez pas modifier ce message puisque le temps limite pour les modifications est dépassé.';
 
-$txt['invalid_month'] = 'Mois invalide.';
-$txt['invalid_year'] = 'Année invalide.';
-$txt['invalid_day'] = 'Jour invalide.';
-$txt['event_month_missing'] = 'Mois de l\'événement manquant.';
-$txt['event_year_missing'] = 'Année de l\'événement manquante.';
-$txt['event_day_missing'] = 'Jour de l\'événement manquant.';
-$txt['event_title_missing'] = 'Titre de l\'événement manquant.';
-$txt['invalid_date'] = 'Date invalide.';
-$txt['no_event_title'] = 'Titre d\'événement manquant.';
-$txt['missing_event_id'] = 'ID d\'événement manquant.';
-$txt['cant_edit_event'] = 'Vous n\'êtes pas autorisé à modifier cet événement.';
 $txt['missing_board_id'] = 'ID de section manquant.';
 $txt['missing_topic_id'] = 'ID de sujet manquant.';
 $txt['topic_doesnt_exist'] = 'Le sujet n\'existe pas.';
 $txt['not_your_topic'] = 'Ce sujet n\'est pas le votre.';
 $txt['board_doesnt_exist'] = 'La section n\'existe pas.';
-$txt['no_span'] = 'La fonction d\'étalement est désactivée.';
-$txt['invalid_days_numb'] = 'Nombre de jours d\'étalement invalide.';
 
 $txt['moveto_noboards'] = 'Il n\'y a pas de forum où déplacer ce sujet';
 
@@ -218,7 +205,6 @@ $txt['error_no_name'] = 'Aucun pseudonyme n\'a été fourni.';
 $txt['error_bad_name'] = 'Ce pseudonyme ne peut être utilisé, car c\'est un mot réservé, ou il le contient.';
 $txt['error_no_email'] = 'Aucune adresse e-mail n\'a été indiquée.';
 $txt['error_bad_email'] = 'Une adresse e-mail invalide a été indiquée.';
-$txt['error_no_event'] = 'Aucun nom d\'événement n\'a été donné.';
 $txt['error_no_subject'] = 'Aucun titre de sujet n\'a été indiqué.';
 $txt['error_no_question'] = 'Aucune question n\'a été posée pour ce sondage.';
 $txt['error_no_message'] = 'Le corps du message est vide.';
