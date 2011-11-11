@@ -134,6 +134,7 @@ $txt['deleteAccount_approval'] = 'Veuillez noter que les modérateurs du forum d
 
 $txt['profile_of_username'] = 'Profil de %1$s';
 $txt['profileInfo'] = 'Infos du Profil';
+$txt['showThoughts'] = 'Voir les pensées';
 $txt['showPosts'] = 'Voir les contributions';
 $txt['showPosts_help'] = 'Cette section vous permet de consulter les contributions (messages, sujets et fichiers joints) d\'un utilisateur. Vous ne pourrez voir que les contributions des zones auxquelles vous avez accès.';
 $txt['showMessages'] = 'Messages';

@@ -134,6 +134,7 @@ $txt['deleteAccount_approval'] = 'Please note that the forum moderators will hav
 
 $txt['profile_of_username'] = 'Profile of %1$s';
 $txt['profileInfo'] = 'Profile Info';
+$txt['showThoughts'] = 'Show Thoughts';
 $txt['showPosts'] = 'Show Posts';
 $txt['showPosts_help'] = 'This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.';
 $txt['showMessages'] = 'Messages';
