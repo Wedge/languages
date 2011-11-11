@@ -208,8 +208,6 @@ $helptxt['smileys'] = '
 	get confusing for your users using different sets.<br><br>
 
 	You are also able to edit message icons from here, if you have them enabled on the settings page.';
-$helptxt['calendar'] = '
-	Here you can modify the current calendar settings as well as add and remove holidays that appear on the calendar.';
 
 $helptxt['serversettings'] = '
 	Here you can perform the core configuration for your forum. This section includes the database and url settings, as well as other
@@ -335,18 +333,7 @@ $helptxt['attachment_image_paranoid'] = 'Selecting this option will enable very 
 $helptxt['attachment_image_reencode'] = 'Selecting this option will enable trying to re-encode the uploaded image attachments. Image re-encoding offers better security. Note however that image re-encoding also renders all animated images static.';
 $helptxt['avatar_paranoid'] = 'Selecting this option will enable very strict security checks on avatars. Warning! These extensive checks can fail on valid images too. It is strongly recommended to only use this option together with avatars re-encoding, in order to have Wedge try to resample the images which fail the security checks: if successful, they will be sanitized and uploaded. Otherwise, if re-encoding of avatars is not enabled, all avatars failing checks will be rejected.';
 $helptxt['avatar_reencode'] = 'Selecting this option will enable trying to re-encode the uploaded avatars. Image re-encoding offers better security. Note however that image re-encoding also renders all animated images static.';
-$helptxt['cal_enabled'] = 'The calendar can be used for showing important moments happening in your community.<br><br>
-		<strong>Show days as link to \'Post Event\'</strong>:<br>This will allow members to post events for that day, when they click on that date<br>
-		<strong>Max days in advance on board index</strong>:<br>If this is set to 7, the next week\'s worth of events will be shown.<br>
-		<strong>Show holidays on board index</strong>:<br>Show today\'s holidays in a calendar bar on the board index.<br>
-		<strong>Show events on board index</strong>:<br>Show today\'s events in a calendar bar on the board index.<br>
-		<strong>Default Board to Post In</strong>:<br>What\'s the default board to post events in?<br>
-		<strong>Allow events not linked to posts</strong>:<br>Allow members to post events without requiring it to be linked with a post in a board.<br>
-		<strong>Minimum year</strong>:<br>Select the "first" year on the calendar list.<br>
-		<strong>Maximum year</strong>:<br>Select the "last" year on the calendar list<br>
-		<strong>Allow events to span multiple days</strong>:<br>Check to allow events to span multiple days.<br>
-		<strong>Max number of days an event can span</strong>:<br>Select the maximum days that an event can span.<br><br>
-		Remember that usage of the calendar (posting events, viewing events, etc.) is controlled by permissions set on the permissions screen.';
+
 $helptxt['localCookies'] = 'Wedge uses cookies to store login information on the client computer.
 	Cookies can be stored globally (myserver.com) or locally (myserver.com/path/to/forum).<br>
 	Check this option if you\'re experiencing problems with users getting logged out automatically.<hr>
@@ -511,8 +498,6 @@ $helptxt['membergroups'] = 'In Wedge, there are two types of groups that your me
 		<li><strong>Regular Groups:</strong> A regular group is a group to which members are not automatically put into. To assign a member to be in a group simply go to their profile and click "Account Settings". From here you can assign them any number of regular groups to which they will be part.</li>
 		<li><strong>Post Groups:</strong> Unlike regular groups post based groups cannot be assigned. Instead, members are automatically assigned to a post based group when they reach the minimum number of posts required to be in that group.</li>
 	</ul>';
-
-$helptxt['calendar_how_edit'] = 'You can edit these events by clicking on the red asterisk (*) next to their names.';
 
 $helptxt['maintenance_backup'] = 'This area allows you to save a copy of all the posts, settings, members, and other information in your forum to a very large file.<br><br>It is recommended that you do this often, perhaps weekly, for safety and security.';
 $helptxt['maintenance_rot'] = 'This allows you to <strong>completely</strong> and <strong>irrevocably</strong> remove old topics. It is recommended that you try to make a backup first, just in case you remove something you didn\'t mean to.<br><br>Use this option with care.';

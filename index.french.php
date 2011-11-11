@@ -469,32 +469,8 @@ $txt['site_credits'] = 'Crédits du site';
 $txt['copyright'] = 'Propulsé par <a href="http://wedge.org/" target="_blank" class="new_win">Wedge</a>, logiciel en construction. &copy; Wedgeward.';
 $txt['dynamic_replacements'] = '<abbr title="Remplacements Dynamiques">RD</abbr>';
 
-$txt['events'] = 'Événements&nbsp;:';
-$txt['events_upcoming'] = 'Prochains événements&nbsp;:';
-// Prompt for holidays in the calendar, leave blank to just display the holiday's name.
-$txt['calendar_prompt'] = '';
 $txt['calendar_month'] = 'Mois&nbsp;:';
-$txt['calendar_year'] = 'Année&nbsp;:';
 $txt['calendar_day'] = 'Jour&nbsp;:';
-$txt['calendar_event_title'] = 'Titre de l\'événement';
-$txt['calendar_event_options'] = 'Options de l\'événement';
-$txt['calendar_post_in'] = 'Poster dans&nbsp;:';
-$txt['calendar_edit'] = 'Modifier l\'événement';
-$txt['event_delete_confirm'] = 'Effacer cet événement ?';
-$txt['event_delete'] = 'Effacer l\'événement';
-$txt['calendar_post_event'] = 'Poster un événement';
-$txt['calendar'] = 'Calendrier';
-$txt['calendar_link'] = 'Lien vers le calendrier';
-$txt['calendar_upcoming'] = 'Prochains événements';
-$txt['calendar_today'] = 'Événements du jour';
-$txt['calendar_week'] = 'Semaine';
-$txt['calendar_week_title'] = 'Semaine %1$d sur %2$d';
-$txt['calendar_numb_days'] = 'Nombre de jours&nbsp;:';
-$txt['calendar_how_edit'] = 'Comment modifier ces événements&nbsp;?';
-$txt['calendar_link_event'] = 'Lier vers l\'événement&nbsp;:';
-$txt['calendar_confirm_delete'] = 'Voulez-vous vraiment supprimer cet événement ?';
-$txt['calendar_linked_events'] = 'Événements liés';
-$txt['calendar_click_all'] = 'cliquer pour voir tous les %1$s';
 
 $txt['moveTopic1'] = 'Poster un message de redirection';
 $txt['moveTopic2'] = 'Changer le titre du sujet';
@@ -733,7 +709,6 @@ $txt['mc_unapproved_attachments'] = 'Fichiers à approuver';
 $txt['mc_unapproved_poststopics'] = 'Messages à approuver';
 $txt['mc_reported_posts'] = 'Messages rapportés';
 $txt['modlog_view'] = 'Journal de Modération';
-$txt['calendar_menu'] = 'Voir le calendrier';
 
 //!!! Send email strings - should move?
 $txt['send_email'] = 'Envoyer un e-mail';

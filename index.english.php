@@ -312,7 +312,7 @@ $txt['preview'] = 'Preview';
 $txt['always_logged_in'] = 'Always stay logged in';
 
 $txt['save_draft'] = 'Save as Draft';
-$txt['save_draft_warning'] = 'Saving a draft will retain the basic post details (title, text, icon), but not attachments, poll options or calendar events. Are you happy to proceed with saving this draft?';
+$txt['save_draft_warning'] = 'Saving a draft will retain the basic post details (title, text, icon), but not attachments, poll options or anything else. Are you happy to proceed with saving this draft?';
 $txt['draft_saved'] = 'Your post has been saved as a draft. You can access it from <a href="{draft_link}">your profile</a>.';
 $txt['pm_draft_saved'] = 'Your message has been saved as a draft. You can access it from <a href="{draft_link}">your drafts area</a>.';
 $txt['remove_draft'] = 'Remove draft';
@@ -469,32 +469,8 @@ $txt['site_credits'] = 'Website credits';
 $txt['copyright'] = 'Powered by <a href="http://wedge.org/" target="_blank" class="new_win">Wedge</a>, a work in progress. &copy; Wedgeward.';
 $txt['dynamic_replacements'] = '<abbr title="Dynamic Replacements">DR</abbr>';
 
-$txt['events'] = 'Events:';
-$txt['events_upcoming'] = 'Upcoming Events:';
-// Prompt for holidays in the calendar, leave blank to just display the holiday's name.
-$txt['calendar_prompt'] = '';
 $txt['calendar_month'] = 'Month:';
-$txt['calendar_year'] = 'Year:';
 $txt['calendar_day'] = 'Day:';
-$txt['calendar_event_title'] = 'Event Title';
-$txt['calendar_event_options'] = 'Event Options';
-$txt['calendar_post_in'] = 'Post In:';
-$txt['calendar_edit'] = 'Edit Event';
-$txt['event_delete_confirm'] = 'Delete this event?';
-$txt['event_delete'] = 'Delete Event';
-$txt['calendar_post_event'] = 'Post Event';
-$txt['calendar'] = 'Calendar';
-$txt['calendar_link'] = 'Link to Calendar';
-$txt['calendar_upcoming'] = 'Upcoming Calendar';
-$txt['calendar_today'] = 'Today\'s Calendar';
-$txt['calendar_week'] = 'Week';
-$txt['calendar_week_title'] = 'Week %1$d of %2$d';
-$txt['calendar_numb_days'] = 'Number of Days:';
-$txt['calendar_how_edit'] = 'how do you edit these events?';
-$txt['calendar_link_event'] = 'Link Event To Post:';
-$txt['calendar_confirm_delete'] = 'Are you sure you want to delete this event?';
-$txt['calendar_linked_events'] = 'Linked Events';
-$txt['calendar_click_all'] = 'click to see all %1$s';
 
 $txt['moveTopic1'] = 'Post a redirection topic';
 $txt['moveTopic2'] = 'Change the topic\'s subject';
@@ -733,7 +709,6 @@ $txt['mc_unapproved_attachments'] = 'Unapproved Attachments';
 $txt['mc_unapproved_poststopics'] = 'Unapproved Posts';
 $txt['mc_reported_posts'] = 'Reported Posts';
 $txt['modlog_view'] = 'Moderation Log';
-$txt['calendar_menu'] = 'View Calendar';
 
 //!!! Send email strings - should move?
 $txt['send_email'] = 'Send an email';

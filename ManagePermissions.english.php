@@ -98,16 +98,6 @@ $txt['permissionname_simple_auto_save_pm_draft'] = 'Automatically save drafts of
 $txt['permissionhelp_auto_save_pm_draft'] = 'This permission, when combined with the above permission, enables automatic saving of message drafts - by default approximately once every 30 seconds, though this is configurable from the Topic Settings area in the Administration Panel.';
 $txt['permissionhelp_simple_auto_save_pm_draft'] = 'This permission, when combined with the above permission, enables automatic saving of message drafts approximately once every 30 seconds, though this is configurable from the Topic Settings area in the Administration Panel.';
 
-$txt['permissiongroup_calendar'] = 'Calendar';
-$txt['permissionname_calendar_view'] = 'View the calendar';
-$txt['permissionhelp_calendar_view'] = 'The calendar shows for each month the events and holidays. This permission allows access to this calendar. When this permission is enabled, a button will be added to the top button bar and a list will be shown at the bottom of the board index with current and upcoming events and holidays. The calendar needs be enabled from \'Configuration - Core Features\'.';
-$txt['permissionname_calendar_post'] = 'Create events in the calendar';
-$txt['permissionhelp_calendar_post'] = 'An Event is a topic linked to a certain date or date range. Creating events can be done from the calendar. An event can only be created if the user that creates the event is allowed to post new topics.';
-$txt['permissionname_calendar_edit'] = 'Edit events in the calendar';
-$txt['permissionhelp_calendar_edit'] = 'An Event is a topic linked to a certain date or date range. The Event can be edited by clicking the red asterisk (*) next to the event in the calendar view. In order to be able to edit an event, a user must have sufficient permissions to edit the first message of the topic that is linked to the event.';
-$txt['permissionname_calendar_edit_own'] = 'Own events';
-$txt['permissionname_calendar_edit_any'] = 'Any events';
-
 $txt['permissiongroup_maintenance'] = 'Forum administration';
 $txt['permissionname_admin_forum'] = 'Administrate forum and database';
 $txt['permissionhelp_admin_forum'] = 'This permission allows a user to:<ul class="normallist"><li>change forum, database and theme settings</li><li>manage plugins</li><li>use the forum and database maintenance tools</li><li>view the error and mod logs</li></ul> Use this permission with caution, as it is very powerful.';
@@ -228,8 +218,8 @@ $txt['permissionhelp_report_any'] = 'This permission adds a link to each message
 
 $txt['permissionname_save_post_draft'] = 'Save drafts of new posts';
 $txt['permissionname_simple_save_post_draft'] = 'Save drafts of new posts';
-$txt['permissionhelp_save_post_draft'] = 'This permission allows users to save drafts of new posts, before they are posted. Attachments, polls and calendar events are NOT saved.';
-$txt['permissionhelp_simple_save_post_draft'] = 'This permission allows users to save drafts of new posts, before they are posted. Attachments, polls and calendar events are NOT saved.';
+$txt['permissionhelp_save_post_draft'] = 'This permission allows users to save drafts of new posts, before they are posted. Attachments and polls are NOT saved.';
+$txt['permissionhelp_simple_save_post_draft'] = 'This permission allows users to save drafts of new posts, before they are posted. Attachments and polls are NOT saved.';
 $txt['permissionname_auto_save_post_draft'] = 'Automatically save draft posts';
 $txt['permissionname_simple_auto_save_post_draft'] = 'Automatically save drafts of new posts';
 $txt['permissionhelp_auto_save_post_draft'] = 'This permission, when combined with the above permission, enables automatic saving of post drafts - by default approximately once every 30 seconds, though this is configurable from the Topic Settings area in the Administration Panel - both for new topics and replies.';
@@ -285,7 +275,6 @@ $txt['permissionhelp_post_attachment'] = 'Attachments are files that are attache
 
 $txt['permissiongroup_simple_view_basic_info'] = 'Use basic forum functionality';
 $txt['permissiongroup_simple_use_pm_system'] = 'Contact members using the personal messaging system';
-$txt['permissiongroup_simple_post_calendar'] = 'Post events onto the calendar';
 $txt['permissiongroup_simple_edit_profile'] = 'Personalize their profile';
 $txt['permissiongroup_simple_delete_account'] = 'Delete their account';
 $txt['permissiongroup_simple_use_avatar'] = 'Select or upload an avatar';
@@ -294,8 +283,6 @@ $txt['permissiongroup_simple_administrate'] = 'Carry out administrative duties';
 
 $txt['permissionname_simple_view_ip_address_own'] = 'Allow a user to see their own IP address';
 $txt['permissionname_simple_view_ip_address_any'] = 'Allow a user to see any IP address';
-$txt['permissionname_simple_calendar_edit_own'] = 'Edit their own calendar events';
-$txt['permissionname_simple_calendar_edit_any'] = 'Edit anyone\'s calendar events';
 $txt['permissionname_simple_profile_view_own'] = 'View their own profile';
 $txt['permissionname_simple_profile_view_any'] = 'View anyone\'s profile';
 $txt['permissionname_simple_profile_identity_own'] = 'Edit their account settings';

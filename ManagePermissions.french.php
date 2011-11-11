@@ -98,16 +98,6 @@ $txt['permissionname_simple_auto_save_pm_draft'] = 'Sauver des brouillons de mes
 $txt['permissionhelp_auto_save_pm_draft'] = 'Cette permission, si elle est combinée avec la précédente, permet la sauvegarde automatique, en tâche de fond, des messages personnels en cours d\'écriture, toutes les 30 secondes à peu près (configurable dans le panneau d\'administration).';
 $txt['permissionhelp_simple_auto_save_pm_draft'] = 'Cette permission, si elle est combinée avec la précédente, permet la sauvegarde automatique, en tâche de fond, des messages personnels en cours d\'écriture, toutes les 30 secondes à peu près (configurable dans le panneau d\'administration).';
 
-$txt['permissiongroup_calendar'] = 'Calendrier';
-$txt['permissionname_calendar_view'] = 'Voir le calendrier';
-$txt['permissionhelp_calendar_view'] = 'Le calendrier affiche pour chaque mois les événements et les jours fériés. Cette permission autorise l\'accès à ce calendrier. Quand cette permission est validée, un bouton est ajouté à la barre de menu principal et une liste est affichée au bas de l\'accueil du forum avec les événements et fêtes courants et à venir. Le calendrier doit être activé depuis la page <em>Options principales</em>.';
-$txt['permissionname_calendar_post'] = 'Créer des événements dans le calendrier';
-$txt['permissionhelp_calendar_post'] = 'Un événement est un sujet lié à une certaine date ou plage de dates. Vous pouvez créer des événements depuis le calendrier. Un événement ne peut être créé que par un utilisateur qui a la permission de poster des nouveaux sujets.';
-$txt['permissionname_calendar_edit'] = 'Modifier les événements du calendrier';
-$txt['permissionhelp_calendar_edit'] = 'Un événement est un sujet lié à une certaine date ou plage de dates. Il peut être modifié en cliquant l\'astérisque rouge (<span style="color: red;">*</span>) sur la page du calendrier. Pour modifier un événement, l\'utilisateur doit avoir les permissions suffisantes pour modifier le premier message du sujet lié à cet événement.';
-$txt['permissionname_calendar_edit_own'] = 'Événements personnels';
-$txt['permissionname_calendar_edit_any'] = 'Tous les événements';
-
 $txt['permissiongroup_maintenance'] = 'Administration du forum';
 $txt['permissionname_admin_forum'] = 'Administrer le forum et la base de données';
 $txt['permissionhelp_admin_forum'] = 'Cette permission autorise un utilisateur à&nbsp;:<ul class="normallist"><li>modifier les paramètres du forum, de la base de données et du thème</li><li>gérer les extensions</li><li>utiliser les outils de maintenance du forum et de la base de données</li><li>voir le Journal de Modération et d\'Erreurs.</li></ul> Utilisez cette permission avec précaution, elle est très puissante.';
@@ -285,7 +275,6 @@ $txt['permissionhelp_post_attachment'] = 'Les fichiers joints sont des pièces a
 
 $txt['permissiongroup_simple_view_basic_info'] = 'Utiliser les fonctionnalités de base du forum';
 $txt['permissiongroup_simple_use_pm_system'] = 'Contacter les membres en utilisant la Messagerie Personnelle';
-$txt['permissiongroup_simple_post_calendar'] = 'Poster des événements sur le calendrier';
 $txt['permissiongroup_simple_edit_profile'] = 'Personnaliser son profil';
 $txt['permissiongroup_simple_delete_account'] = 'Supprimer son compte';
 $txt['permissiongroup_simple_use_avatar'] = 'Sélectionner ou uploader un avatar';
@@ -294,8 +283,6 @@ $txt['permissiongroup_simple_administrate'] = 'Accomplir des tâches administrat
 
 $txt['permissionname_simple_view_ip_address_own'] = 'Permettre à un utilisateur de voir sa propre adresse IP';
 $txt['permissionname_simple_view_ip_address_any'] = 'Permettre à un utilisateur de voir toutes les adresses IP';
-$txt['permissionname_simple_calendar_edit_own'] = 'Modifier ses propres événements de calendrier';
-$txt['permissionname_simple_calendar_edit_any'] = 'Modifier les événements de calendrier de tous les utilisateurs';
 $txt['permissionname_simple_profile_view_own'] = 'Voir son propre profil';
 $txt['permissionname_simple_profile_view_any'] = 'Voir les profils de tous les utilisateurs';
 $txt['permissionname_simple_profile_identity_own'] = 'Modifier les paramètres de son compte';

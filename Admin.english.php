@@ -109,7 +109,6 @@ $txt['version_check_more'] = '(more detailed)';
 
 $txt['lfyi'] = 'Unable to retrieve Wedge.org\'s latest news.';
 
-$txt['manage_calendar'] = 'Calendar';
 $txt['manage_search'] = 'Search';
 
 $txt['smileys_manage'] = 'Smileys and Message Icons';
@@ -588,8 +587,6 @@ $txt['custom_profile_shorttitle'] = 'Profile Fields';
 
 $txt['boardsEdit'] = 'Modify Boards';
 $txt['mboards_new_cat'] = 'Create New Category';
-$txt['manage_holidays'] = 'Manage Holidays';
-$txt['calendar_settings'] = 'Calendar Settings';
 $txt['search_weights'] = 'Weights';
 $txt['search_method'] = 'Search Method';
 

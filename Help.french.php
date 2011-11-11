@@ -200,8 +200,6 @@ $helptxt['smileys'] = '
 	confusion pour les utilisateurs utilisant des jeux différents.<br><br>
 
 	Vous pouvez aussi modifier les icônes de message depuis cette interface, si vous les avez activés sur la page des paramètres.';
-$helptxt['calendar'] = '
-	Ici vous pouvez modifier les réglages courants du calendrier, ou ajouter et supprimer des fêtes qui apparaissent dans le calendrier.';
 
 $helptxt['serversettings'] = '
 	Ici, vous pouvez régler la configuration de votre serveur. Cette section comprend la base de données et les chemins des dossiers, ainsi que d\'autres
@@ -322,18 +320,7 @@ $helptxt['attachment_image_paranoid'] = 'Choisissez cette option pour mettre en 
 $helptxt['attachment_image_reencode'] = 'Choisissez cette option pour permettre le réencodage des fichier joints envoyés par les utilisateurs. Le réencodage vous garantit une meilleure sécurité, mais il supprime également les animations des images animées.';
 $helptxt['avatar_paranoid'] = 'Choisissez cette option pour mettre en place des contrôles de sécurité très stricts sur les avatars au moment où les utilisateurs les envoient. Attention, ces contrôles peuvent parfois échouer sur des images sans danger. Nous vous recommandons de ne l\'utiliser qu\'en association avec l\'option de réencodage, auquel cas Wedge essaiera de recréer et de mettre en ligne des images saines si le contrôle échoue. Si le réencodage n\'est pas activé, les avatars échouant au contrôle seront rejetés.';
 $helptxt['avatar_reencode'] = 'Choisissez cette option pour permettre le réencodage des avatars envoyés par les utilisateurs. Le réencodage vous garantit une meilleure sécurité, mais il supprime également les animations des images animées.';
-$helptxt['cal_enabled'] = 'Le calendrier peut êre utilisé afin d\'afficher les dates importantes à votre communauté.<br><br>
-		<strong>Montrer les jours en tant que liens vers \'Poster un Événement\'</strong>&nbsp;:<br>Permet à vos membres de poster des événements pour ce jour, lorsqu\'ils cliquent sur la date.<br>
-		<strong>Jours d\'avance max. sur l\'accueil</strong>:<br>Si cette option est mise à 7, tous les événements de la semaine à venir seront montrés.<br>
-		<strong>Montrer les jours de fête sur l\'accueil du forum</strong>&nbsp;:<br>Montre les jours de fête dans une barre sur l\'accueil du forum.<br>
-		<strong>Montrer les événements sur l\'accueil du forum</strong>&nbsp;:<br>Affiche les événements du jour dans une barre sur l\'accueil du forum.<br>
-		<strong>Section où Poster par Défaut</strong>:<br>Quelle est la section par défaut pour poster les événements&nbsp;?<br>
-		<strong>Permettre les événements qui ne sont liés à aucun message</strong>&nbsp;:<br>Permet aux membres de poster des événements sans nécessiter la création d\'un nouveau sujet dans le forum.<br>
-		<strong>Année minimale</strong>&nbsp;:<br>Sélectionne la "première" année dans la liste du calendrier.<br>
-		<strong>Année maximale</strong>&nbsp;:<br>Sélectionne la "dernière" année dans la liste du calendrier<br>
-		<strong>Permettre aux événements de durer plusieurs jours</strong>&nbsp;:<br>Sélectionnez pour permettre aux événements de durer plusieurs jours.<br>
-		<strong>Durée maximale (en jours) d\'un événement</strong>&nbsp;:<br>Sélectionnez le nombre maximal de jours pour la duré d\'un événement.<br><br>
-		Rappelez-vous que l\'usage du calendrier (poster des événements, voir des événements, etc.) est contrôlable par les réglages des permissions à partir de l\'écran de gestion des permissions.';
+
 $helptxt['localCookies'] = 'Wedge utilise des cookies (« témoins ») pour conserver les informations de connexion d\'un membre. Les cookies peuvent être stockés dans un dossier global (monserveur.com) ou localement (monserveur.com/chemin/vers/mon/forum).<br>
 	Cochez cette option si vous constatez certains problèmes avec des utilisateurs déconnectés automatiquement.<hr>
 	Les cookies stockés dans un dossier global sont moins sécurisés lorsqu\'ils sont utilisés sur un serveur mutualisé (comme Multimania/Lycos, Free, OVH, ...).<hr>
@@ -492,8 +479,6 @@ $helptxt['membergroups'] = 'Dans Wedge, il y a deux types de groupes auquels vos
 		<li><strong>Groupes permanents&nbsp;:</strong> Un groupe permanent est un groupe dans lequel un membre n\'est pas assigné automatiquement. Pour assigner un membre dans un groupe permanent, allez simplement dans son profil et cliquez sur "Paramètres relatifs au compte". Ici vous pouvez paramétrer les différents groupes permanents auxquels les membres peuvent appartenir.</li>
 		<li><strong>Groupes posteurs&nbsp;:</strong> Au contraire des groupes permanents, un membre ne peut être manuellement assigné à un groupe posteur, basé sur le nombre de message. Les membres sont plutôt assignés automatiqement à un groupe posteur lorsqu\'ils ont atteint le nombre minimum de messages requis pour faire partie de ce groupe.</li>
 	</ul>';
-
-$helptxt['calendar_how_edit'] = 'Vous pouvez modifier ces événements en cliquant sur l\'astérisque (*) rouge accompagnant leur nom.';
 
 $helptxt['maintenance_backup'] = 'Cette section vous permettra de faire une copie de sauvegarde des messages, des réglages, des membres et autres informations utiles de votre forum dans un gros fichier.<br><br>Il est recommandé d\'effectuer cette opération souvent, par exemple hebdomadairement, pour plus de sécurité et de protection.';
 $helptxt['maintenance_rot'] = 'Vous permet de supprimer <strong>complètement</strong> et <strong>irrévocablement</strong> les vieux sujets. Vous devriez effectuer une copie de sauvegarde de votre base de données avant de procéder à cette action, au cas où vous enleveriez quelque chose que vous ne vouliez pas supprimer.<br><br>À utiliser avec précaution.';

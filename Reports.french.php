@@ -94,10 +94,6 @@ $txt['board_groups'] = 'Groupes avec accès';
 // Group Permissions.
 $txt['group_perms_name_access_mod_center'] = 'Accès au Centre de Modération';
 $txt['group_perms_name_admin_forum'] = 'Administrer le forum';
-$txt['group_perms_name_calendar_edit_any'] = 'Modifier n\'importe quel événement';
-$txt['group_perms_name_calendar_edit_own'] = 'Modifier ses propres événements';
-$txt['group_perms_name_calendar_post'] = 'Poster des événements';
-$txt['group_perms_name_calendar_view'] = 'Voir les événements';
 $txt['group_perms_name_edit_news'] = 'Modifier les nouvelles du forum';
 $txt['group_perms_name_issue_warning'] = 'Sanctionner des utilisateurs';
 $txt['group_perms_name_manage_attachments'] = 'Gérer les fichiers joints';

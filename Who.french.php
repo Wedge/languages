@@ -93,7 +93,6 @@ $txt['whoallow_manageboards'] = 'Modifie les paramètres des sites et des catég
 $txt['whoallow_admin'] = 'Consulte le <a href="<URL>?action=admin";>Centre d\'Administration</a>.';
 $txt['whoallow_ban'] = 'Modifie la liste des bannissements.';
 $txt['whoallow_boardrecount'] = 'Recompte les totaux du forum.';
-$txt['whoallow_calendar'] = 'Consulte le <a href="<URL>?action=calendar">calendrier</a>.';
 $txt['whoallow_editnews'] = 'Modifie les nouvelles.';
 $txt['whoallow_mailing'] = 'Envoie un e-mail du forum.';
 $txt['whoallow_maintain'] = 'Exécute une tâche de maintenance du forum.';
