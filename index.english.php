@@ -252,6 +252,8 @@ $txt['moderators'] = 'Moderators';
 
 $txt['mark_board_read'] = 'Mark Topics as Read for this Board';
 $txt['new'] = 'New';
+// As used in menus (short form if possible)
+$txt['menu_new'] = 'New';
 
 $txt['view_all_members'] = 'View All Members';
 $txt['view'] = 'View';

@@ -252,6 +252,7 @@ $txt['moderators'] = 'Modérateurs';
 
 $txt['mark_board_read'] = 'Marquer les sujets comme lus pour cette section';
 $txt['new'] = 'Nouveau';
+$txt['menu_new'] = '!';
 
 $txt['view_all_members'] = 'Voir tous les membres';
 $txt['view'] = 'Voir';
