@@ -204,14 +204,11 @@ $txt['admin_center'] = 'Centre d\'administration';
 $txt['last_edit'] = 'Modifié';
 $txt['notify_deactivate'] = 'Voulez-vous désactiver la notification pour ce sujet ?';
 
-$txt['recent_posts'] = 'Messages récents';
-
 $txt['location'] = 'Localisation';
 $txt['gender'] = 'Sexe';
 $txt['date_registered'] = 'Inscrit le';
 
 $txt['recent_view'] = 'Voir les plus récents messages du forum.';
-$txt['recent_updated'] = 'est le dernier sujet mis à jour';
 
 $txt['male'] = 'Homme';
 $txt['female'] = 'Femme';

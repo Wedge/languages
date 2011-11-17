@@ -68,7 +68,6 @@ $txt['who_display_viewing'] = 'Show who is viewing the board index and posts';
 $txt['who_display_viewing_off'] = 'Don\'t show';
 $txt['who_display_viewing_numbers'] = 'Show only numbers';
 $txt['who_display_viewing_names'] = 'Show member names';
-$txt['disable_recent_posts'] = 'Disable recent posts';
 $txt['enable_single_post'] = 'Enable single post';
 $txt['enable_multiple_posts'] = 'Enable multiple posts';
 $txt['enable_inline_links'] = 'Enable inline links';
@@ -84,8 +83,6 @@ $txt['member_list_bar'] = 'Show members list bar on board index';
 $txt['show_view_profile_button'] = 'Show view profile button under post';
 $txt['header_logo_url'] = 'Logo image URL';
 $txt['header_logo_url_desc'] = 'Leave blank to show forum name or default logo.';
-$txt['number_recent_posts'] = 'Number of recent posts to display on board index';
-$txt['number_recent_posts_desc'] = 'To disable the recent posts bar set this value to zero.';
 $txt['hide_post_group'] = 'Hide post group titles for grouped members';
 $txt['hide_post_group_desc'] = 'Enabling this will not display a member\'s post group title on the message view if they are assigned to a non-post based group.';
 

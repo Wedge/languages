@@ -68,7 +68,6 @@ $txt['who_display_viewing'] = 'Montrer qui visualise l\'accueil du forum et les 
 $txt['who_display_viewing_off'] = 'Ne pas montrer';
 $txt['who_display_viewing_numbers'] = 'Ne montrer que les nombres';
 $txt['who_display_viewing_names'] = 'Montrer les pseudonymes des membres';
-$txt['disable_recent_posts'] = 'Désactiver les messages récents';
 $txt['enable_single_post'] = 'Activer un seul message';
 $txt['enable_multiple_posts'] = 'Activer plusieurs messages';
 $txt['enable_inline_links'] = 'Activer l\'arborescence en une ligne';
@@ -84,8 +83,6 @@ $txt['member_list_bar'] = 'Afficher la liste des membres sur l\'accueil du forum
 $txt['show_view_profile_button'] = 'Afficher le bouton de profil dans les messages';
 $txt['header_logo_url'] = 'URL vers l\'image de logo';
 $txt['header_logo_url_desc'] = 'Laissez vide pour afficher le nom du forum ou le logo par défaut.';
-$txt['number_recent_posts'] = 'Nombre de messages récents à afficher sur la page d\'accueil du forum';
-$txt['number_recent_posts_desc'] = 'Pour désactiver la barre des messages récents, réglez ce paramètre à zéro.';
 $txt['hide_post_group'] = 'Cacher le <abbr title="Groupe basé sur le nombre de messages">groupe posteur</abbr> pour les membres classés dans des <abbr title="Groupes ne variant pas avec le nombre d\'interventions dans le forum">groupes permanents</abbr>';
 $txt['hide_post_group_desc'] = 'Si vous activez cette option, le nom du groupe posteur <em>(groupe automatique basé sur le nombre de messages postés)</em> ne sera pas indiqué pour les membres appartenant à un groupe permanent <em>(groupes spéciaux, indépendants du nombre de messages, comme \'Modérateur\' ou \'Administrateur\', etc.)</em>';
 
