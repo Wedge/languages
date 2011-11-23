@@ -208,7 +208,8 @@ $txt['location'] = 'Localisation';
 $txt['gender'] = 'Sexe';
 $txt['date_registered'] = 'Inscrit le';
 
-$txt['recent_view'] = 'Voir les plus récents messages du forum.';
+$txt['recent_posts'] = 'Messages récents';
+$txt['recent_view'] = 'Voir les messages les plus récents du forum.';
 
 $txt['male'] = 'Homme';
 $txt['female'] = 'Femme';
