@@ -155,6 +155,7 @@ $txt['more_smileys'] = 'plus';
 $txt['more_smileys_pick'] = 'Afficher les smileys disponibles';
 
 $txt['empty_draft'] = 'Impossible de sauvegarder un brouillon vide.';
+$txt['reload_page'] = '(Reload page to interact.)';
 
 $txt['error_new_reply'] = 'Attention &#151; une nouvelle réponse a été postée pendant que vous rédigiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.';
 $txt['error_new_replies'] = 'Attention &#151; %1$d nouvelles réponses ont été postées pendant que vous rédigiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.';

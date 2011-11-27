@@ -155,6 +155,7 @@ $txt['more_smileys'] = 'more';
 $txt['more_smileys_pick'] = 'Show available smileys';
 
 $txt['empty_draft'] = 'You cannot have a draft that is completely empty.';
+$txt['reload_page'] = '(Reload page to interact.)';
 
 $txt['error_new_reply'] = 'Warning - while you were typing a new reply has been posted. You may wish to review your post.';
 $txt['error_new_replies'] = 'Warning - while you were typing %1$d new replies have been posted. You may wish to review your post.';
