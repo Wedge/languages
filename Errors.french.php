@@ -373,6 +373,6 @@ $txt['merge_error_length'] = 'Le message fusionné dépasserait la taille limite
 
 $txt['cannot_media_viewprofile'] = 'Vous n\'avez pas l\'autorisation de consulter des profils de Galerie';
 $txt['default_layer_missing'] = 'Wedge ne peut pas afficher le contenu de cette page. En effet, sa structure a été corrompue, sans doute par un style, un thème ou une extension.<br><br>L\'administrateur en a été informé.';
-$txt['error_mismatched_tags'] = 'Balises <strong>%1$s</strong> manquantes. Wedge en attendait %2$d, mais en a trouvé %3$d. Vous devrez corriger cette erreur manuellement.';
+$txt['error_mismatched_tags'] = 'Il manque %2$s balise(s) <strong>%1$s</strong> à votre message. Vous devrez corriger cette erreur manuellement.';
 
 ?>
