@@ -281,7 +281,7 @@ $txt['media_ban_not_found'] = 'Ban not found';
 $txt['media_admin_already_banned'] = 'User is already banned!';
 $txt['media_admin_unique_permission'] = 'You must select only one option';
 $txt['media_admin_quick_none'] = 'No option selected';
-$txt['media_admin_invalid_groups'] = 'An invalid group selection was supplied, either the group does not exist or if you\'re copying permissions, make sure you have not selected the group you\'re copying permissions from or you have simply not selected any group';
+$txt['media_admin_invalid_groups'] = 'An invalid group selection was supplied, either the group does not exist or if you\'re copying permissions, make sure you have not selected the group you\'re copying permissions from or you have simply not selected any group.';
 
 // Admin help strings
 $txt['media_admin_desc'] = 'Media Admin';

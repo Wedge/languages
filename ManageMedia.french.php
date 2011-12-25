@@ -281,7 +281,7 @@ $txt['media_ban_not_found'] = 'Bannissement introuvable';
 $txt['media_admin_already_banned'] = 'Utilisateur déjà banni';
 $txt['media_admin_unique_permission'] = 'Vous devez ne sélectionner qu\'une option';
 $txt['media_admin_quick_none'] = 'Pas d\'option sélectionnée';
-$txt['media_admin_invalid_groups'] = 'Une sélection invalide a été détectée. Peut-être le groupe sélectionné n\'existe-t-il pas. Si vous copiez des permissions, assurez-vous d\'avoir sélectionné au moins un groupe, et de ne pas y avoir mis le groupe dont vous copiez les permissions';
+$txt['media_admin_invalid_groups'] = 'Une sélection invalide a été détectée. Peut-être le groupe sélectionné n\'existe-t-il pas. Si vous copiez des permissions, assurez-vous d\'avoir sélectionné au moins un groupe, et de ne pas y avoir mis le groupe dont vous copiez les permissions.';
 
 // Admin help strings
 $txt['media_admin_desc'] = 'Administration Media';

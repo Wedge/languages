@@ -77,7 +77,6 @@ $txt['pm_actions_filter_by_label'] = 'Filtrer par label';
 $txt['pm_actions_go'] = 'Exécuter';
 
 // Manage Labels Screen.
-$txt['pm_apply'] = 'Appliquer';
 $txt['pm_manage_labels'] = 'Gérer les labels';
 $txt['pm_labels_delete'] = 'Êtes-vous sûr de vouloir effacer les labels sélectionnés ?';
 $txt['pm_labels_desc'] = 'Ici vous pouvez ajouter, modifier et supprimer les labels utilisés dans votre centre de messagerie personnelle.';
@@ -85,13 +84,13 @@ $txt['pm_label_add_new'] = 'Ajouter un nouveau label';
 $txt['pm_label_name'] = 'Nom du label';
 $txt['pm_labels_no_exist'] = 'Vous n\'avez actuellement aucun label paramétré&nbsp;!';
 
-// Labeling Drop Down.
+// Labeling Drop Down. ("Label Selected" means "Apply a label to the selection", in case it's unclear.)
 $txt['pm_current_label'] = 'Label';
-$txt['pm_msg_label_title'] = 'Attribuer un label au message';
+$txt['pm_sel_label_title'] = 'Étiqueter la sélection...';
+$txt['pm_msg_label_title'] = 'Étiqueter...';
 $txt['pm_msg_label_apply'] = 'Ajouter un label';
 $txt['pm_msg_label_remove'] = 'Enlever un label';
 $txt['pm_msg_label_inbox'] = 'Boîte de réception';
-$txt['pm_sel_label_title'] = 'Label sélectionné';
 
 // Sidebar Headings.
 $txt['pm_labels'] = 'Labels';
