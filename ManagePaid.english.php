@@ -127,6 +127,8 @@ $txt['day'] = 'Day';
 $txt['week'] = 'Week';
 $txt['month'] = 'Month';
 $txt['year'] = 'Year';
+$txt['hour'] = 'Hour';
+$txt['minute'] = 'Minute';
 
 // View subscribed users.
 $txt['viewing_users_subscribed'] = 'Viewing Users';
@@ -146,8 +148,6 @@ $txt['start_date_and_time'] = 'Start Date and Time';
 $txt['end_date_and_time'] = 'End Date and Time';
 $txt['edit'] = 'EDIT';
 $txt['one_username'] = 'Please enter one username only.';
-$txt['hour'] = 'Hour';
-$txt['minute'] = 'Minute';
 $txt['error_member_not_found'] = 'The member entered could not be found';
 $txt['member_already_subscribed'] = 'This member is already subscribed to this subscription. Please edit their existing subscription.';
 $txt['search_sub'] = 'Find User';

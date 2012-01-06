@@ -127,6 +127,8 @@ $txt['day'] = 'Jour';
 $txt['week'] = 'Semaine';
 $txt['month'] = 'Mois';
 $txt['year'] = 'An';
+$txt['hour'] = 'Heure';
+$txt['minute'] = 'Minute';
 
 // View subscribed users.
 $txt['viewing_users_subscribed'] = 'Liste des Abonnés';
@@ -146,8 +148,6 @@ $txt['start_date_and_time'] = 'Date et Heure de Début';
 $txt['end_date_and_time'] = 'Date et Heure de Fin';
 $txt['edit'] = 'MODIFIER';
 $txt['one_username'] = 'Veuillez n\'entrer qu\'un seul identifiant.';
-$txt['hour'] = 'Heure';
-$txt['minute'] = 'Minute';
 $txt['error_member_not_found'] = 'Le membre entré est introuvable';
 $txt['member_already_subscribed'] = 'Ce membre a déjà souscrit à cet abonnement. Veuillez modifier son abonnement existant.';
 $txt['search_sub'] = 'Trouver un utilisateur';

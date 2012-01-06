@@ -467,9 +467,6 @@ $txt['site_credits'] = 'Website credits';
 $txt['copyright'] = 'Powered by <a href="http://wedge.org/" target="_blank" class="new_win">Wedge</a>, a work in progress. &copy; Wedgeward.';
 $txt['dynamic_replacements'] = '<abbr title="Dynamic Replacements">DR</abbr>';
 
-$txt['calendar_month'] = 'Month:';
-$txt['calendar_day'] = 'Day:';
-
 $txt['moveTopic1'] = 'Post a redirection topic';
 $txt['moveTopic2'] = 'Change the topic\'s subject';
 $txt['moveTopic3'] = 'New subject';
