@@ -142,7 +142,7 @@ $txt['credits_admins_n'] = 'Administrateurs';
 $txt['credits_moderators_1'] = 'Modérateur';
 $txt['credits_moderators_n'] = 'Modérateurs';
 $txt['credits_software'] = 'Crédits du logiciel';
-$txt['credits_wedge'] = 'Wedge est copyright © 2010-2011 Wedgeward (René-Gilles Deberdt et Peter Spicer), tous droits réservés. Distribué sous <a href="http://wedge.org/license/">licence propre</a>.';
+$txt['credits_wedge'] = 'Wedge est copyright © 2010-2012 Wedgeward (René-Gilles Deberdt et Peter Spicer), tous droits réservés. Distribué sous <a href="http://wedge.org/license/">licence propre</a>.';
 $txt['credits_team'] = 'L\'équipe de Wedge';
 $txt['credits_smf2'] = 'Utilise des portions tirées du logiciel <a href="http://www.simplemachines.org/">SMF 2.0</a>, copyright © Simple Machines 2011, tous droits réservés. SMF est distribué sous license <a href="http://www.simplemachines.org/about/smf/license.php">BSD</a>, et développé par %1$s et %2$s.';
 $txt['credits_special'] = 'Remerciements spéciaux';
