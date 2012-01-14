@@ -774,11 +774,13 @@ $txt['thoughts'] = 'Pensées';
 $txt['no_thought_yet'] = '<em>(Cliquez ici pour écrire une pensée)</em>';
 
 // Do not use double quotes in the following strings.
-$txt['privacy_everywhere'] = 'Public+';
 $txt['privacy_public'] = 'Public';
 $txt['privacy_members'] = 'Membres';
-$txt['privacy_friends'] = 'Mes amis';
 $txt['privacy_self'] = 'Juste moi';
+
+// These aren't currently in use.
+// $txt['privacy_everywhere'] = 'Diffusion';
+// $txt['privacy_friends'] = 'Mes amis';
 
 // Do not use double quotes in the form_* text strings. (Why would you?)
 $txt['form_submit'] = 'Envoyer';
