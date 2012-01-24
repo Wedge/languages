@@ -193,11 +193,11 @@ $txt['pm_rule_no_name'] = 'Vous avez oublié d\'entrer un nom pour la règle.';
 $txt['pm_rule_no_criteria'] = 'Une règle doit avoir au moins un critère et une action.';
 $txt['pm_rule_too_complex'] = 'La règle que vous êtes en train de créer est trop longue à enregistrer pour Wedge. Essayez de la diviser en règles plus petites.';
 
-$txt['pm_readable_and'] = '<em>et</em>';
-$txt['pm_readable_or'] = '<em>ou</em>';
+$txt['pm_readable_and'] = '<strong>et</strong>';
+$txt['pm_readable_or'] = '<strong>ou</strong>';
 $txt['pm_readable_start'] = 'Si ';
 $txt['pm_readable_end'] = '.';
-$txt['pm_readable_member'] = 'message vient de &quot;{MEMBER}&quot;';
+$txt['pm_readable_member'] = 'le message vient de &quot;{MEMBER}&quot;';
 $txt['pm_readable_group'] = 'l\'expéditeur est du groupe &quot;{GROUP}&quot;';
 $txt['pm_readable_subject'] = 'le titre du message contient &quot;{SUBJECT}&quot;';
 $txt['pm_readable_body'] = 'le corps du message contient &quot;{BODY}&quot;';

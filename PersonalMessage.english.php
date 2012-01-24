@@ -193,8 +193,8 @@ $txt['pm_rule_no_name'] = 'You forgot to enter a name for the rule.';
 $txt['pm_rule_no_criteria'] = 'A rule must have at least one criteria and one action set.';
 $txt['pm_rule_too_complex'] = 'The rule you are creating is too long for Wedge to store. Try breaking it up into smaller rules.';
 
-$txt['pm_readable_and'] = '<em>and</em>';
-$txt['pm_readable_or'] = '<em>or</em>';
+$txt['pm_readable_and'] = '<strong>and</strong>';
+$txt['pm_readable_or'] = '<strong>or</strong>';
 $txt['pm_readable_start'] = 'If ';
 $txt['pm_readable_end'] = '.';
 $txt['pm_readable_member'] = 'message is from &quot;{MEMBER}&quot;';
