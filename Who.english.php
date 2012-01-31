@@ -68,7 +68,7 @@ $txt['whotopic_quickmod2'] = 'Moderating the topic <a href="<URL>?topic=%1$d.0">
 $txt['whotopic_removetopic2'] = 'Removing the topic <a href="<URL>?topic=%1$d.0">%2$s</a>.';
 $txt['whotopic_sendtopic'] = 'Sending the topic &quot;<a href="<URL>?topic=%1$d.0">%2$s</a>&quot; to a friend.';
 $txt['whotopic_splittopics'] = 'Splitting the topic &quot;<a href="<URL>?topic=%1$d.0">%2$s</a>&quot; into two topics.';
-$txt['whotopic_sticky'] = 'Setting the topic &quot;<a href="<URL>?topic=%1$d.0">%2$s</a>&quot; as sticky.';
+$txt['whotopic_pin'] = 'Pinning the topic &quot;<a href="<URL>?topic=%1$d.0">%2$s</a>&quot;.';
 
 $txt['whotopic_poll_editpoll'] = 'Editing the poll in &quot;<a href="<URL>?topic=%1$d.0">%2$s</a>&quot;.';
 $txt['whotopic_poll_editpoll2'] = 'Editing the poll in &quot;<a href="<URL>?topic=%1$d.0">%2$s</a>&quot;.';

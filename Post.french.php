@@ -118,7 +118,7 @@ $txt['attach_restrict_attachmentNumPerPostLimit'] = '%1$d par message';
 $txt['attach_restrictions'] = 'Restrictions&nbsp;:';
 
 $txt['post_additionalopt'] = 'Fichiers joints et autres options&hellip;';
-$txt['sticky_after'] = 'Épingler ce sujet';
+$txt['pin_after'] = 'Épingler ce sujet';
 $txt['move_after2'] = 'Déplacer ce sujet';
 $txt['back_to_topic'] = 'Retourner au sujet';
 $txt['approve_this_post'] = 'Approuver ce message';
@@ -182,7 +182,7 @@ $txt['digest_new_replies'] = 'Des réponses ont été postées dans les sujets s
 $txt['digest_new_replies_one'] = '1 réponse dans "%1$s"';
 $txt['digest_new_replies_many'] = '%1$d réponses dans "%2$s"';
 $txt['digest_mod_actions'] = 'Les actions de modération suivantes ont été accomplies';
-$txt['digest_mod_act_sticky'] = '"%1$s" a été épinglé';
+$txt['digest_mod_act_pin'] = '"%1$s" a été épinglé';
 $txt['digest_mod_act_lock'] = '"%1$s" a été verrouillé';
 $txt['digest_mod_act_unlock'] = '"%1$s" a été déverrouillé';
 $txt['digest_mod_act_remove'] = '"%1$s" a été effacé';

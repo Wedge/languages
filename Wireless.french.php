@@ -31,8 +31,8 @@ $txt['wireless_recent_unread_replies'] = 'Réponses non lues';
 
 $txt['wireless_display_edit'] = 'Modifier';
 $txt['wireless_display_moderate'] = 'Modérer';
-$txt['wireless_display_sticky'] = 'Epingler';
-$txt['wireless_display_unsticky'] = 'Dépingler';
+$txt['wireless_display_pin'] = 'Épingler';
+$txt['wireless_display_unpin'] = 'Dépingler';
 $txt['wireless_display_lock'] = 'Bloquer';
 $txt['wireless_display_unlock'] = 'Débloquer';
 

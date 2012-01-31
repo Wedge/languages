@@ -35,7 +35,7 @@ $txt['search_weight_age'] = 'Résultats affichés selon un facteur d\'anciennet�
 $txt['search_weight_length'] = 'Résultats affichés selon un facteur de longueur du sujet';
 $txt['search_weight_subject'] = 'Résultats affichés selon un facteur de correspondance avec le sujet';
 $txt['search_weight_first_message'] = 'Résultats affichés selon un facteur de correspondance dans le premier message d\'une discussion';
-$txt['search_weight_sticky'] = 'Résultats affichés selon un facteur de correspondance dans un sujet épinglé';
+$txt['search_weight_pinned'] = 'Résultats affichés selon un facteur de correspondance dans un sujet épinglé';
 
 $txt['search_settings_desc'] = 'Ici vous pouvez changer les réglages de base de la fonction de recherche.';
 $txt['search_settings_title'] = 'Fonction de recherche - réglages';

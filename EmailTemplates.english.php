@@ -666,13 +666,13 @@ More replies may be posted, but you won\'t receive any more notifications until 
 
 {REGARDS}',
 	),
-	'notification_sticky' => array(
+	'notification_pin' => array(
 		/*
-			@additional_params: notification_sticky
+			@additional_params: notification_pin
 			@description:
 		*/
-		'subject' => 'Topic stickied: {TOPICSUBJECT}',
-		'body' => 'A topic you are watching has been marked as a sticky topic by {POSTERNAME}.
+		'subject' => 'Topic pinned: {TOPICSUBJECT}',
+		'body' => 'A topic you are watching has been pinned or unpinned by {POSTERNAME}.
 
 View the topic at: {TOPICLINK}
 

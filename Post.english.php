@@ -118,7 +118,7 @@ $txt['attach_restrict_attachmentNumPerPostLimit'] = '%1$d per post';
 $txt['attach_restrictions'] = 'Restrictions:';
 
 $txt['post_additionalopt'] = 'Attachments and other options&hellip;';
-$txt['sticky_after'] = 'Sticky this topic.';
+$txt['pin_after'] = 'Pin this topic.';
 $txt['move_after2'] = 'Move this topic.';
 $txt['back_to_topic'] = 'Return to this topic.';
 $txt['approve_this_post'] = 'Approve this Post';
@@ -182,7 +182,7 @@ $txt['digest_new_replies'] = 'Replies have been made in the following topics';
 $txt['digest_new_replies_one'] = '1 reply in "%1$s"';
 $txt['digest_new_replies_many'] = '%1$d replies in "%2$s"';
 $txt['digest_mod_actions'] = 'The following moderation actions have taken place';
-$txt['digest_mod_act_sticky'] = '"%1$s" was stickied';
+$txt['digest_mod_act_pin'] = '"%1$s" was pinned';
 $txt['digest_mod_act_lock'] = '"%1$s" was locked';
 $txt['digest_mod_act_unlock'] = '"%1$s" was unlocked';
 $txt['digest_mod_act_remove'] = '"%1$s" was removed';

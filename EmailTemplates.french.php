@@ -683,13 +683,13 @@ Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
 
 {REGARDS}',
 	),
-	'notification_sticky' => array(
+	'notification_pin' => array(
 		/*
-			@additional_params: notification_sticky
+			@additional_params: notification_pin
 			@description:
 		*/
 		'subject' => 'Sujet &#233;pingl&#233; : {TOPICSUBJECT}',
-		'body' => 'Un sujet que vous surveillez a &#233;t&#233; &#233;pingl&#233; par {POSTERNAME}.
+		'body' => 'Un sujet que vous surveillez a &#233;t&#233; &#233;pingl&#233; ou d&#233;pingl&#233; par {POSTERNAME}.
 
 Voir le sujet :
 {TOPICLINK}

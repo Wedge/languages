@@ -400,7 +400,7 @@ $txt['moved'] = 'DÉPLACÉ';
 $txt['moved_why'] = 'Merci de préciser la raison du déplacement de ce sujet.';
 $txt['board'] = 'Section';
 $txt['in'] = 'dans';
-$txt['sticky_topic'] = 'Sujet épinglé';
+$txt['pinned_topic'] = 'Sujet épinglé';
 
 $txt['delete'] = 'Effacer';
 
@@ -432,8 +432,8 @@ $txt['target_board'] = 'Section de destination';
 $txt['target_topic'] = 'Sujet de destination';
 $txt['merge_desc'] = 'Cette fonction réunira les messages de deux sujets en un seul. Les messages seront classés par date de publication. Le plus ancien message deviendra le premier du nouveau sujet fusionné.';
 
-$txt['set_sticky'] = 'Épingler';
-$txt['set_nonsticky'] = 'Dépingler';
+$txt['set_pin'] = 'Épingler';
+$txt['set_unpin'] = 'Dépingler';
 $txt['set_lock'] = 'Bloquer';
 $txt['set_unlock'] = 'Débloquer';
 
@@ -526,7 +526,7 @@ $txt['poll_cannot_see'] = 'Vous ne pouvez pas voir les résultats de ce sondage 
 $txt['quick_mod_approve'] = 'Approuver la sélection';
 $txt['quick_mod_remove'] = 'Supprimer la sélection';
 $txt['quick_mod_lock'] = '(Dé)bloquer la sélection';
-$txt['quick_mod_sticky'] = '(D)épingler la sélection';
+$txt['quick_mod_pin'] = '(D)épingler la sélection';
 $txt['quick_mod_move'] = 'Déplacer la sélection vers';
 $txt['quick_mod_merge'] = 'Fusionner la sélection';
 $txt['quick_mod_markread'] = 'Marquer la sélection comme lue';

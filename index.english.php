@@ -401,7 +401,7 @@ $txt['moved'] = 'MOVED';
 $txt['moved_why'] = 'Please enter a brief description as to<br>why this topic is being moved.';
 $txt['board'] = 'Board';
 $txt['in'] = 'in';
-$txt['sticky_topic'] = 'Sticky Topic';
+$txt['pinned_topic'] = 'Pinned Topic';
 
 $txt['delete'] = 'Delete';
 
@@ -433,8 +433,8 @@ $txt['target_board'] = 'Target board';
 $txt['target_topic'] = 'Target topic';
 $txt['merge_desc'] = 'This function will merge the messages of two topics into one topic. The messages will be sorted according to the time of posting. Therefore the earliest posted message will be the first message of the merged topic.';
 
-$txt['set_sticky'] = 'Set topic sticky';
-$txt['set_nonsticky'] = 'Set topic non-sticky';
+$txt['set_pin'] = 'Pin topic';
+$txt['set_unpin'] = 'Unpin topic';
 $txt['set_lock'] = 'Lock topic';
 $txt['set_unlock'] = 'Unlock topic';
 
@@ -527,7 +527,7 @@ $txt['poll_cannot_see'] = 'You cannot see the results of this poll at the moment
 $txt['quick_mod_approve'] = 'Approve selected';
 $txt['quick_mod_remove'] = 'Remove selected';
 $txt['quick_mod_lock'] = 'Lock/Unlock selected';
-$txt['quick_mod_sticky'] = 'Sticky/Unsticky selected';
+$txt['quick_mod_pin'] = 'Pin/Unpin selected';
 $txt['quick_mod_move'] = 'Move selected to';
 $txt['quick_mod_merge'] = 'Merge selected';
 $txt['quick_mod_markread'] = 'Mark selected read';
