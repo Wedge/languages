@@ -181,7 +181,7 @@ $txt['remove_message_confirm'] = 'Effacer ce message ?';
 
 $txt['online_users'] = 'Membres en ligne';
 $txt['personal_message'] = 'Message personnel';
-$txt['jump_to'] = 'Accès rapide&nbsp;';
+$txt['jump_to'] = 'Accès rapide';
 $txt['go'] = 'OK';
 $txt['are_sure_remove_topic'] = 'Êtes-vous sûr de vouloir effacer ce sujet ?';
 $txt['yes'] = 'Oui';
