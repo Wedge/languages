@@ -2,7 +2,8 @@
 // Version: 2.0; Search
 
 $txt['set_parameters'] = 'Régler les paramètres de recherche';
-$txt['choose_board'] = 'Choisir une section dans laquelle rechercher, ou chercher dans toutes les sections';
+$txt['choose_board'] = 'Chercher dans des sections spécifiques';
+$txt['all_boards'] = 'Chercher dans toutes les sections';
 $txt['all_words'] = 'contenant tous ces mots';
 $txt['any_words'] = 'contenant n\'importe lequel de ces mots';
 $txt['by_user'] = 'Par l\'utilisateur';
