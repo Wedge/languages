@@ -60,7 +60,7 @@ $txt['forum_width'] = 'Largeur du forum';
 $txt['forum_width_desc'] = 'Spécifiez la largeur du forum. Exemples&nbsp;: 950px, 80%, 1240px.';
 
 $txt['enable_quick_login'] = 'Afficher un champ de connexion sur toutes les pages';
-$txt['enable_quick_login_desc'] = 'Ceci affichera un champ de connexion dans l\encadré (sidebar) de chaque page du forum, si le visiteur n\'est pas encore connecté.';
+$txt['enable_quick_login_desc'] = 'Ceci affichera un champ de connexion dans l\'encadré (sidebar) de chaque page du forum, si le visiteur n\'est pas encore connecté.';
 $txt['enable_random_news'] = 'Afficher les nouvelles dans l\'entête du forum';
 $txt['show_group_key'] = 'Montrer la liste des groupes sur l\'accueil du forum';
 $txt['additional_options_collapsable'] = 'Activer les Options Supplémentaires (à l\'écriture des messages)';
