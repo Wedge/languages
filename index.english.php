@@ -749,6 +749,7 @@ $txt['debug_queries_used_and_warnings'] = 'Queries used: %1$d, %2$d warnings.';
 $txt['debug_query_in_line'] = 'in <em>%1$s</em> line <em>%2$s</em>, ';
 $txt['debug_query_which_took'] = 'which took %1$s seconds.';
 $txt['debug_query_which_took_at'] = 'which took %1$s seconds at %2$s into request.';
+$txt['debug_peak_memory_use'] = 'Peak memory use: ';
 $txt['debug_show_queries'] = '[Show Queries]';
 $txt['debug_hide_queries'] = '[Hide Queries]';
 

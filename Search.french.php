@@ -110,7 +110,7 @@ $txt['spider_mode_off'] = 'Désactivée';
 $txt['spider_mode_standard'] = 'Standard - Le journal note l\'activité de base du robot.';
 $txt['spider_mode_high'] = 'Haute - Fournit des statistiques plus précises.';
 $txt['spider_mode_vhigh'] = 'Très haute - Comme pour &quot;Haute&quot;, mais le journal note chaque page visitée.';
-$txt['spider_settings_desc'] = 'Vous pouvez changer les réglages de surveillance des robots à partir de cette page. Notez que si vous voulez activer le délestage automatique des journaux de visites, c\'est par <a href="%1$s">ici</a> que ça se passe';
+$txt['spider_settings_desc'] = 'Vous pouvez changer les réglages de surveillance des robots à partir de cette page. Notez que si vous voulez activer le délestage automatique des journaux de visites, c\'est par <a href="%1$s">ici</a> que ça se passe.';
 
 $txt['spider_group'] = 'Utiliser les permissions restrictives du groupe<dfn>Pour empêcher les robots d\'indexer certaines pages.</dfn>';
 $txt['spider_group_none'] = 'Désactivé';

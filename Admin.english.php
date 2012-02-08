@@ -618,7 +618,7 @@ $txt['themeadmin_edit_title'] = 'Modify Themes';
 $txt['admin_browse_register_new'] = 'Register New Member';
 $txt['configure_options'] = 'Configure Options';
 
-$txt['search_engines'] = 'Search Engines';
+$txt['search_engines'] = 'Search Engine Tracking';
 $txt['spiders'] = 'Spiders';
 $txt['spider_stats'] = 'Stats';
 
