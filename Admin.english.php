@@ -480,6 +480,7 @@ $txt['manageposts_merge'] = 'Merging';
 $txt['removeNestedQuotes'] = 'Remove nested quotes when quoting';
 $txt['enableEmbeddedFlash'] = 'Embed flash into posts';
 $txt['enableEmbeddedFlash_warning'] = 'May be a security risk!';
+$txt['additional_options_collapsable'] = 'Enable collapsible additional post options';
 $txt['enableSpellChecking'] = 'Enable spell checking';
 $txt['enableSpellChecking_warning'] = 'This does not work on all servers!';
 $txt['disable_wysiwyg'] = 'Disable WYSIWYG editor';

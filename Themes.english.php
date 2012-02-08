@@ -63,7 +63,6 @@ $txt['enable_quick_login'] = 'Show a quick login on every page';
 $txt['enable_quick_login_desc'] = 'This will show a compact login in the sidebar for guests.';
 $txt['enable_random_news'] = 'Enable random news line in the forum header';
 $txt['show_group_key'] = 'Show group key on board index';
-$txt['additional_options_collapsable'] = 'Enable collapsible additional post options';
 $txt['enable_single_post'] = 'Enable single post';
 $txt['enable_multiple_posts'] = 'Enable multiple posts';
 $txt['enable_inline_links'] = 'Enable inline links';

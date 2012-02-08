@@ -63,7 +63,6 @@ $txt['enable_quick_login'] = 'Afficher un champ de connexion sur toutes les page
 $txt['enable_quick_login_desc'] = 'Ceci affichera un champ de connexion dans l\'encadré (sidebar) de chaque page du forum, si le visiteur n\'est pas encore connecté.';
 $txt['enable_random_news'] = 'Afficher les nouvelles dans l\'entête du forum';
 $txt['show_group_key'] = 'Montrer la liste des groupes sur l\'accueil du forum';
-$txt['additional_options_collapsable'] = 'Activer les Options Supplémentaires (à l\'écriture des messages)';
 $txt['enable_single_post'] = 'Activer un seul message';
 $txt['enable_multiple_posts'] = 'Activer plusieurs messages';
 $txt['enable_inline_links'] = 'Activer l\'arborescence en une ligne';
