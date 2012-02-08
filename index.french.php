@@ -31,7 +31,6 @@ $txt['moderate'] = 'Modérer';
 $txt['save'] = 'Sauvegarder';
 
 $txt['modify'] = 'Modifier';
-$txt['forum_index'] = '%1$s - Accueil';
 $txt['members'] = 'Membres';
 $txt['board_name'] = 'Nom de la section';
 
@@ -130,7 +129,8 @@ $txt['acme_approve_desc'] = 'Autoriser la lecture de ce message';
 
 $txt['more_actions'] = 'Plus&hellip;';
 
-$txt['message_index'] = 'Index des messages';
+$txt['board_index'] = 'Liste des sections';
+$txt['message_index'] = 'Liste des messages';
 $txt['news'] = 'À la une';
 $txt['home'] = 'Accueil';
 
@@ -748,6 +748,7 @@ $txt['debug_queries_used_and_warnings'] = 'Requêtes utilisées&nbsp;: %1$d, %2$
 $txt['debug_query_in_line'] = 'Appelée dans <em>%1$s</em>, à la ligne <em>%2$s</em>, ';
 $txt['debug_query_which_took'] = 'et exécutée en %1$s secondes.';
 $txt['debug_query_which_took_at'] = 'et exécutée en %1$s secondes, à %2$s secondes du lancement du script.';
+$txt['debug_peak_memory_use'] = 'Mémoire max. utilisée&nbsp;: ';
 $txt['debug_show_queries'] = '[Montrer les Requêtes]';
 $txt['debug_hide_queries'] = '[Cacher les Requêtes]';
 

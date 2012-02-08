@@ -31,7 +31,6 @@ $txt['moderate'] = 'Moderate';
 $txt['save'] = 'Save';
 
 $txt['modify'] = 'Modify';
-$txt['forum_index'] = '%1$s - Index';
 $txt['members'] = 'Members';
 $txt['board_name'] = 'Board name';
 
@@ -130,6 +129,7 @@ $txt['acme_approve_desc'] = 'Allow this post to be viewed by others';
 
 $txt['more_actions'] = 'More&hellip;';
 
+$txt['board_index'] = 'Board index';
 $txt['message_index'] = 'Message Index';
 $txt['news'] = 'News';
 $txt['home'] = 'Home';
