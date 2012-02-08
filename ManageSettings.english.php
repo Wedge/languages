@@ -76,6 +76,10 @@ $txt['yesterday_today'] = 'Today &amp; Yesterday';
 $txt['timeLoadPageEnable'] = 'Display time taken to create every page';
 $txt['disableHostnameLookup'] = 'Disable hostname lookups';
 $txt['who_enabled'] = 'Enable who\'s online list';
+$txt['display_who_viewing'] = 'Show who is viewing the board index and posts';
+$txt['who_display_viewing_off'] = 'Don\'t show';
+$txt['who_display_viewing_numbers'] = 'Show only numbers';
+$txt['who_display_viewing_names'] = 'Show member names';
 
 $txt['caching_information'] = '<div class="centertext" style="font-weight: bold; text-decoration: underline">Important! Read this first before enabling these features.</div><br>
 	Wedge supports caching through the use of accelerators. The currently supported accelerators include:<br>

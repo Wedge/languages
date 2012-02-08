@@ -76,6 +76,10 @@ $txt['yesterday_today'] = 'Aujourd\'hui &amp; Hier';
 $txt['timeLoadPageEnable'] = 'Afficher le temps pris pour générer la page';
 $txt['disableHostnameLookup'] = 'Désactiver la recherche du nom d\'hôte';
 $txt['who_enabled'] = 'Activer &quot;Qui est en ligne&nbsp;?&quot;';
+$txt['display_who_viewing'] = 'Montrer qui visualise l\'accueil du forum et les messages';
+$txt['who_display_viewing_off'] = 'Ne pas montrer';
+$txt['who_display_viewing_numbers'] = 'Ne montrer que les nombres';
+$txt['who_display_viewing_names'] = 'Montrer les pseudonymes des membres';
 
 $txt['caching_information'] = '<div class="centertext" style="font-weight: bold; text-decoration: underline">Important&nbsp;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br>
 	Wedge peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&nbsp;:<br>
