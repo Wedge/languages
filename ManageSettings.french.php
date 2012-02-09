@@ -285,10 +285,6 @@ $txt['custom_edit_delete_sure'] = 'Êtes-vous sûr de vouloir supprimer ce champ
 $txt['standard_profile_title'] = 'Champs de profil standards';
 $txt['standard_profile_field'] = 'Champ';
 
-$txt['core_settings_welcome_msg'] = 'Bienvenue sur votre nouveau forum';
-$txt['core_settings_welcome_msg_desc'] = 'Pour commencer, nous vous suggérons de choisir les fonctionnalités de Wedge que vous souhaitez activer. Nous vous recommendons de n\'activer que celles dont vous avez besoin&nbsp;!';
-$txt['core_settings_item_m'] = 'Galerie Media';
-$txt['core_settings_item_m_desc'] = '';
 $txt['core_settings_item_pm'] = 'Modération de message';
 $txt['core_settings_item_pm_desc'] = 'Permet de sélectionner les groupes et sections pour lesquels les messages doivent être approuvés avant d\'être publiés. N\'oubliez pas de mettre en place les permissions adéquates dans la section des Permissions.';
 $txt['core_settings_switch_on'] = 'Cliquez pour activer';

@@ -17,6 +17,8 @@ $txt['media_reset'] = 'Reset To Defaults';
 $txt['media_too_many_embeds'] = '(Embedding disabled, limit reached)';
 
 // General tabs and titles
+$txt['media_admin_settings_media_enabled'] = '<strong>Enable Media Gallery</strong>';
+$txt['media_admin_settings_media_enabled_subtext'] = 'Master setting';
 $txt['media_admin'] = 'Admin';
 $txt['media_add_album'] = 'Create a new Album';
 $txt['media_add_title'] = 'Title';

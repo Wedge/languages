@@ -286,10 +286,6 @@ $txt['custom_edit_delete_sure'] = 'Are you sure you wish to delete this field - 
 $txt['standard_profile_title'] = 'Standard Profile Fields';
 $txt['standard_profile_field'] = 'Field';
 
-$txt['core_settings_welcome_msg'] = 'Welcome to Your New Forum';
-$txt['core_settings_welcome_msg_desc'] = 'To get you started we suggest you select which of Wedge\'s core features you want to enable. We\'d recommend only enabling with those features you need!';
-$txt['core_settings_item_m'] = 'Media Gallery';
-$txt['core_settings_item_m_desc'] = '';
 $txt['core_settings_item_pm'] = 'Post Moderation';
 $txt['core_settings_item_pm_desc'] = 'Post moderation enables you to select groups and boards within which posts must be approved before they become public. Upon enabling this feature be sure to visit the permission section to set up the relevant permissions.';
 $txt['core_settings_switch_on'] = 'Click to Enable';

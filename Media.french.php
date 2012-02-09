@@ -9,6 +9,8 @@ $txt['media_reset'] = 'Remettre à zéro';
 $txt['media_too_many_embeds'] = '(Intégration désactivée, limite atteinte)';
 
 // General tabs and titles
+$txt['media_admin_settings_media_enabled'] = '<strong>Activer la Galerie Média</strong>';
+$txt['media_admin_settings_media_enabled_subtext'] = 'Outrepasse tout';
 $txt['media_admin'] = 'Admin';
 $txt['media_add_album'] = 'Créer un Album';
 $txt['media_add_title'] = 'Titre';
