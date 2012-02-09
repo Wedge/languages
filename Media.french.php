@@ -10,7 +10,7 @@ $txt['media_too_many_embeds'] = '(Intégration désactivée, limite atteinte)';
 
 // General tabs and titles
 $txt['media_admin_settings_media_enabled'] = '<strong>Activer la Galerie Média</strong>';
-$txt['media_admin_settings_media_enabled_subtext'] = 'Outrepasse tout';
+$txt['media_admin_settings_media_enabled_desc'] = 'Outrepasse tout';
 $txt['media_admin'] = 'Admin';
 $txt['media_add_album'] = 'Créer un Album';
 $txt['media_add_title'] = 'Titre';
@@ -188,7 +188,7 @@ $txt['media_use_as_album_icon'] = 'Utiliser la vignette de cet élément comme i
 $txt['media_default_sort_order'] = 'Ordre de tri par défaut';
 $txt['media_overall_prog'] = 'Avancement global';
 $txt['media_curr_prog'] = 'Avancement du fichier en cours';
-$txt['media_add_desc_subtxt'] = 'Vous pouvez utiliser du BBCode et raconter votre vie ici si vous le voulez. Mais on ne vous force pas, non plus.';
+$txt['media_add_desc_desc'] = 'Vous pouvez utiliser du BBCode et raconter votre vie ici si vous le voulez. Mais on ne vous force pas, non plus.';
 $txt['media_mark_as_seen'] = 'Marquer tout comme vu';
 $txt['media_mark_album_as_seen'] = 'Marquer comme vu';
 $txt['media_search_results_for'] = 'résultats pour la recherche sur';
@@ -211,7 +211,7 @@ $txt['media_default_tag_normal'] = 'Montrer la vignette (petite taille)';
 $txt['media_default_tag_preview'] = 'Montrer l\'aperçu (taille intermédiaire)';
 $txt['media_default_tag_full'] = 'Montrer l\'image entière';
 $txt['media_force_thumbnail'] = 'Utiliser ce fichier pour la vignette';
-$txt['media_force_thumbnail_subtxt'] = 'Utile pour les fichiers locaux ne sachant pas générer leur propre vignette - une jaquette de CD pour un MP3, une copie d\'écran pour une vidéo...';
+$txt['media_force_thumbnail_desc'] = 'Utile pour les fichiers locaux ne sachant pas générer leur propre vignette - une jaquette de CD pour un MP3, une copie d\'écran pour une vidéo...';
 $txt['media_force_thumbnail_edit'] = ' Laissez vide pour garder la vignette actuelle.';
 $txt['media_default_perm_profile'] = 'Profil par défaut';
 $txt['media_perm_profile'] = 'Profil de permissions';
@@ -311,8 +311,8 @@ $txt['media_zoom_play'] = 'Diaporama';
 $txt['media_zoom_pause'] = 'Pause Diaporama';
 
 // Help strings
-$txt['media_add_keywords_sub'] = 'Utilisez des virgules pour séparer les mots-clés. Si un mot-clé contient une virgule, entourez-le de guillemets. Si votre mot-clé contient des guillemets, oh et puis zut débrouillez-vous.';
-$txt['media_add_embed_sub'] = 'Adresse URL proposant la vidéo (sur YouTube ou autre). À n\'utiliser que si vous n\'uploadez pas de fichier.';
+$txt['media_add_keywords_desc'] = 'Utilisez des virgules pour séparer les mots-clés. Si un mot-clé contient une virgule, entourez-le de guillemets. Si votre mot-clé contient des guillemets, oh et puis zut débrouillez-vous.';
+$txt['media_add_embed_desc'] = 'Adresse URL proposant la vidéo (sur YouTube ou autre). À n\'utiliser que si vous n\'uploadez pas de fichier.';
 $txt['media_will_be_approved'] = 'Votre envoi devra être approuvé par un modérateur avant d\'être visible en ligne.';
 $txt['media_com_will_be_approved'] = 'Votre commentaire devra être approuvé par un modérateur avant d\'être mis en ligne.';
 $txt['media_album_will_be_approved'] = 'Votre album devra être approuvé par un modérateur avant d\'être mis en ligne.';
@@ -321,12 +321,12 @@ $txt['media_what_album_select'] = 'Choisissez l\'album où envoyer cet élément
 $txt['media_no_listing'] = 'Pas d\'éléments à lister';
 $txt['media_resized'] = 'Cliquez sur l\'image pour la voir en taille réelle.';
 $txt['media_reported'] = 'Cet élément a été signalé, il sera prochainement passé en revue par un modérateur.<br><br><a href="%s">Retour</a>';
-$txt['media_edit_file_subtext'] = 'Laissez vide si vous ne souhaitez pas ré-envoyer le fichier et remplacer l\'ancien.';
+$txt['media_edit_file_desc'] = 'Laissez vide si vous ne souhaitez pas ré-envoyer le fichier et remplacer l\'ancien.';
 $txt['media_embed_sub_edit'] = 'Si vous changez l\'adresse URL d\'intégration, elle écrasera les URL ou fichiers préexistants liés à cet élément';
 $txt['media_editing_item'] = 'Vous êtes en train de modifier cet élément&nbsp;: <a href="%s">%s</a>';
 $txt['media_editing_com'] = 'Modification du commentaire';
 $txt['media_moving_item'] = 'Déplacement de l\'élément';
-$txt['media_search_by_mem_sub'] = 'Entrez les noms des membres en les séparant par une virgule. Laissez vide pour chercher parmi les éléments de tous les membres.';
+$txt['media_search_by_mem_desc'] = 'Entrez les noms des membres en les séparant par une virgule. Laissez vide pour chercher parmi les éléments de tous les membres.';
 $txt['media_passwd_protected'] = 'Cet album est protégé par un mot de passe, merci de l\'entrer pour continuer.';
 $txt['media_user_albums_desc'] = 'D\'ici vous pouvez gérer vos albums, en ajouter ou les modifier.';
 $txt['media_click_to_close'] = 'Cliquez pour fermer';

@@ -18,7 +18,7 @@ $txt['media_too_many_embeds'] = '(Embedding disabled, limit reached)';
 
 // General tabs and titles
 $txt['media_admin_settings_media_enabled'] = '<strong>Enable Media Gallery</strong>';
-$txt['media_admin_settings_media_enabled_subtext'] = 'Master setting';
+$txt['media_admin_settings_media_enabled_desc'] = 'Master setting';
 $txt['media_admin'] = 'Admin';
 $txt['media_add_album'] = 'Create a new Album';
 $txt['media_add_title'] = 'Title';
@@ -196,7 +196,7 @@ $txt['media_use_as_album_icon'] = 'Use this item\'s thumbnail as the album icon.
 $txt['media_default_sort_order'] = 'Default sort order';
 $txt['media_overall_prog'] = 'Overall progress';
 $txt['media_curr_prog'] = 'Current file progress';
-$txt['media_add_desc_subtxt'] = 'You may use BBCode here, and say anything you\'d like. Please don\'t say anything boring, though. Like this description. People don\'t like that.';
+$txt['media_add_desc_desc'] = 'You may use BBCode here, and say anything you\'d like. Please don\'t say anything boring, though. Like this description. People don\'t like that.';
 $txt['media_mark_as_seen'] = 'Mark all as seen';
 $txt['media_mark_album_as_seen'] = 'Mark as seen';
 $txt['media_search_results_for'] = 'results found for';
@@ -219,7 +219,7 @@ $txt['media_default_tag_normal'] = 'Show thumbnails (smaller size)';
 $txt['media_default_tag_preview'] = 'Show previews (intermediate size)';
 $txt['media_default_tag_full'] = 'Show full picture';
 $txt['media_force_thumbnail'] = 'Use this file as thumbnail';
-$txt['media_force_thumbnail_subtxt'] = 'If you\'re sending a local file that won\'t generate its own thumbnail... Think of a CD cover for a MP3, or a screenshot for a video...';
+$txt['media_force_thumbnail_desc'] = 'If you\'re sending a local file that won\'t generate its own thumbnail... Think of a CD cover for a MP3, or a screenshot for a video...';
 $txt['media_force_thumbnail_edit'] = ' Leave empty to keep current thumbnail, if any.';
 $txt['media_default_perm_profile'] = 'Default profile';
 $txt['media_perm_profile'] = 'Permission profile';
@@ -319,8 +319,8 @@ $txt['media_zoom_play'] = 'Play slideshow';
 $txt['media_zoom_pause'] = 'Pause slideshow';
 
 // Help strings
-$txt['media_add_keywords_sub'] = 'Use comma (,) as a separator';
-$txt['media_add_embed_sub'] = 'URL to embed video from (e.g. Youtube.) Enter only if you are not uploading a file.';
+$txt['media_add_keywords_desc'] = 'Use comma (,) as a separator';
+$txt['media_add_embed_desc'] = 'URL to embed video from (e.g. Youtube.) Enter only if you are not uploading a file.';
 $txt['media_will_be_approved'] = 'Your submission will be reviewed by a moderator before being made public.';
 $txt['media_com_will_be_approved'] = 'Your comment will first have to be approved by a moderator before it can be read.';
 $txt['media_album_will_be_approved'] = 'Your album will first have to be approved by a moderator before it is activated.';
@@ -329,12 +329,12 @@ $txt['media_what_album_select'] = 'Select which album you want to upload this it
 $txt['media_no_listing'] = 'There are no items to list';
 $txt['media_resized'] = 'Click the picture to view full size.';
 $txt['media_reported'] = 'This item has been reported and will be reviewed by an administrator.<br><br><a href="%s">Return</a>';
-$txt['media_edit_file_subtext'] = 'Leave this blank if you do not wish do re-upload a file. Please remember that, if you upload a file, the old one will be replaced by the new one';
+$txt['media_edit_file_desc'] = 'Leave this blank if you do not wish do re-upload a file. Please remember that, if you upload a file, the old one will be replaced by the new one';
 $txt['media_embed_sub_edit'] = 'Change your embed URL. If you do this, any previous URLs and related files will be overwritten.';
 $txt['media_editing_item'] = 'You are editing item <a href="%s">%s</a>';
 $txt['media_editing_com'] = 'Editing Comment';
 $txt['media_moving_item'] = 'Moving item';
-$txt['media_search_by_mem_sub'] = 'Use comma (,) as a separator. Leave blank to search items by all members. Enter a member\'s username';
+$txt['media_search_by_mem_desc'] = 'Use comma (,) as a separator. Leave blank to search items by all members. Enter a member\'s username';
 $txt['media_passwd_protected'] = 'This album is password protected, please enter the password to continue.';
 $txt['media_user_albums_desc'] = 'You can manage your albums here, adding new albums or editing existing ones.';
 $txt['media_click_to_close'] = 'Click to close';
