@@ -170,6 +170,39 @@ $txt['setting_warning_show_mods'] = 'Modérateurs seulement';
 $txt['setting_warning_show_user'] = 'Modérateurs et l\'utilisateur concerné';
 $txt['setting_warning_show_all'] = 'Tout le monde';
 
+$txt['modfilter_norules'] = 'Aucune règle de filtrage pour le moment.';
+$txt['modfilter_addrule'] = 'Ajouter une règle de filtrage';
+$txt['modfilter_rule_posts'] = 'En soumettant un message&nbsp;:';
+$txt['modfilter_rule_topics'] = 'En démarrant un nouveau sujet&nbsp;:';
+$txt['modfilter_action_prevent'] = 'Empêcher le message d\'être sauvegardé';
+$txt['modfilter_action_moderate'] = 'Le modérateur doit approuver le message (avant qu\'il ne devienne public)';
+$txt['modfilter_action_pin'] = 'Épingler le sujet actuel';
+$txt['modfilter_action_unpin'] = 'Dépingler le sujet actuel';
+$txt['modfilter_action_lock'] = 'Fermer le sujet';
+$txt['modfilter_action_unlock'] = 'Rouvrir le sujet';
+$txt['modfilter_conditions'] = 'Si ces règles sont confirmées&nbsp;:';
+$txt['modfilter_cond_boards_in'] = 'Poster dans ces sections&nbsp;:';
+$txt['modfilter_cond_boards_ex'] = 'Poster partout sauf dans&nbsp;:';
+$txt['modfilter_cond_groups_in'] = 'Membre d\'un de ces groupes&nbsp;:';
+$txt['modfilter_cond_groups_ex'] = 'Pas membre d\'un de ces groupes&nbsp;:';
+$txt['modfilter_cond_permissions_in'] = 'A au moins une de ces permissions&nbsp;:';
+$txt['modfilter_cond_permissions_ex'] = 'N\'a aucune de ces permissions&nbsp;:';
+$txt['modfilter_cond_userid_in'] = 'L\'utilisateur est parmi&nbsp;:';
+$txt['modfilter_cond_userid_ex'] = 'L\'utilisateur n\'est pas parmi&nbsp;:';
+$txt['modfilter_cond_subject_regex'] = 'Le titre du message correspond à cette expression régulière&nbsp;:';
+$txt['modfilter_cond_body_regex'] = 'Le contenu du message correspond à cette expression régulière&nbsp;:';
+$txt['modfilter_cond_postcount'] = 'Nombre de messages&nbsp;:';
+$txt['modfilter_cond_warning'] = 'Niveau d\'avertissement (%)&nbsp;:';
+$txt['modfilter_range_lt'] = 'inférieur à';
+$txt['modfilter_range_lte'] = 'inférieur ou égal à';
+$txt['modfilter_range_eq'] = 'égal à';
+$txt['modfilter_range_gt'] = 'supérieur à';
+$txt['modfilter_range_gte'] = 'supérieur ou égal à';
+$txt['modfilter_cond_unknownrule'] = 'Type de règle inconnu&nbsp;:';
+$txt['modfilter_approve_title'] = 'Approuver les éléments en attente';
+$txt['modfilter_approve_desc'] = 'S\'il y a des éléments en attente d\'approbation, ou si vous envisagez de désactiver les filtres de modération, vous devriez gérer tous les éléments en attente pour éviter de les perdre. Assurez-vous de vérifier les éléments modérés avant d\'utiliser cette option, pour éviter d\'approuver ce qui ne devrait pas l\'être.';
+$txt['modfilter_all_approved'] = 'Tous les éléments en attente de modération ont été approuvés.';
+
 $txt['member_options_desc'] = 'Cette section vous permet de configurer les options générales qui s\'appliquent aux membres de votre communauté.';
 $txt['allow_editDisplayName'] = 'Permettre aux membres de modifier leur pseudonyme';
 $txt['allow_hideOnline'] = 'Permettre aux membres de cacher leur présence en ligne';
@@ -284,13 +317,6 @@ $txt['custom_edit_delete_sure'] = 'Êtes-vous sûr de vouloir supprimer ce champ
 
 $txt['standard_profile_title'] = 'Champs de profil standards';
 $txt['standard_profile_field'] = 'Champ';
-
-$txt['core_settings_item_pm'] = 'Modération de message';
-$txt['core_settings_item_pm_desc'] = 'Permet de sélectionner les groupes et sections pour lesquels les messages doivent être approuvés avant d\'être publiés. N\'oubliez pas de mettre en place les permissions adéquates dans la section des Permissions.';
-$txt['core_settings_switch_on'] = 'Cliquez pour activer';
-$txt['core_settings_switch_off'] = 'Cliquez pour désactiver';
-$txt['core_settings_enabled'] = 'Activé';
-$txt['core_settings_disabled'] = 'Désactivé';
 
 $txt['languages_lang_name'] = 'Langue (cliquez pour modifier la langue)';
 $txt['languages_locale'] = 'Paramètres régionaux';

@@ -19,6 +19,7 @@ $txt['admin_reserved_names'] = 'Noms réservés';
 $txt['admin_template_edit'] = 'Modifier le modèle (template) de votre forum';
 $txt['admin_modifications'] = 'Options';
 $txt['admin_security_moderation'] = 'Sécurité et Modération';
+$txt['admin_mod_filters'] = 'Filtres de Modération';
 $txt['admin_server_settings'] = 'Paramètres du Serveur';
 $txt['admin_reserved_set'] = 'Choix des noms réservés';
 $txt['admin_reserved_line'] = 'Un seul mot réservé par ligne.';
@@ -577,7 +578,6 @@ $txt['admin_search_welcome'] = 'Bienvenue dans le panneau d\'administration de W
 $txt['admin_search_section_sections'] = 'Site';
 $txt['admin_search_section_settings'] = 'Paramètres';
 
-$txt['core_settings_title'] = 'Fonctionnalités de base';
 $txt['mods_cat_features'] = 'Paramètres';
 $txt['antispam_title'] = 'Anti-Spam';
 $txt['mods_cat_modifications_misc'] = 'Diverses';

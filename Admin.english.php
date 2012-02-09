@@ -578,7 +578,6 @@ $txt['admin_search_welcome'] = 'Welcome to the Wedge admin panel. You can access
 $txt['admin_search_section_sections'] = 'Section';
 $txt['admin_search_section_settings'] = 'Setting';
 
-$txt['core_settings_title'] = 'Core Features';
 $txt['mods_cat_features'] = 'General';
 $txt['antispam_title'] = 'Anti-Spam';
 $txt['mods_cat_modifications_misc'] = 'Miscellaneous';

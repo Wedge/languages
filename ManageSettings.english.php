@@ -329,13 +329,6 @@ $txt['custom_edit_delete_sure'] = 'Are you sure you wish to delete this field - 
 $txt['standard_profile_title'] = 'Standard Profile Fields';
 $txt['standard_profile_field'] = 'Field';
 
-$txt['core_settings_item_pm'] = 'Post Moderation';
-$txt['core_settings_item_pm_desc'] = 'Post moderation enables you to select groups and boards within which posts must be approved before they become public. Upon enabling this feature be sure to visit the permission section to set up the relevant permissions.';
-$txt['core_settings_switch_on'] = 'Click to Enable';
-$txt['core_settings_switch_off'] = 'Click to Disable';
-$txt['core_settings_enabled'] = 'Enabled';
-$txt['core_settings_disabled'] = 'Disabled';
-
 $txt['languages_lang_name'] = 'Language Name (click to edit the language)';
 $txt['languages_locale'] = 'Locale';
 $txt['languages_default'] = 'Default';
