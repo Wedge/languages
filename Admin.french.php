@@ -602,7 +602,6 @@ $txt['membergroups_edit_groups'] = 'Modifier les Groupes de membres';
 $txt['permissions_groups'] = 'Permissions par Groupe de membres';
 $txt['permissions_boards'] = 'Permissions par Site';
 $txt['permissions_profiles'] = 'Modifier les Profils';
-$txt['permissions_post_moderation'] = 'Modération des messages';
 
 // These are the old ones, which will be going
 $txt['browse_packages'] = 'Parcourir les Extensions';

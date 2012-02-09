@@ -19,6 +19,7 @@ $txt['admin_reserved_names'] = 'Reserved Names';
 $txt['admin_template_edit'] = 'Edit Your Forum Template';
 $txt['admin_modifications'] = 'Plugin Settings';
 $txt['admin_security_moderation'] = 'Security and Moderation';
+$txt['admin_mod_filters'] = 'Moderation Filters';
 $txt['admin_server_settings'] = 'Server Settings';
 $txt['admin_reserved_set'] = 'Set Reserved Names';
 $txt['admin_reserved_line'] = 'One reserved word per line.';
@@ -602,7 +603,6 @@ $txt['membergroups_edit_groups'] = 'Edit Membergroups';
 $txt['permissions_groups'] = 'General Permissions';
 $txt['permissions_boards'] = 'Board Permissions';
 $txt['permissions_profiles'] = 'Edit Profiles';
-$txt['permissions_post_moderation'] = 'Post Moderation';
 
 // These are the old ones, which will be going
 $txt['browse_packages'] = 'Browse Plugins';

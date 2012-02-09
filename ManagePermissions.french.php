@@ -340,19 +340,6 @@ $txt['permission_by_board_desc'] = 'Ici pous pouvez attribuer un profil de permi
 $txt['permission_settings_desc'] = 'Ici vous pouvez régler qui a la permission de changer les permissions, de même que la complexité que devrait avoir le système de permissions.';
 $txt['permission_settings_enable_postgroups'] = 'Activer les permissions pour les groupes posteurs';
 
-$txt['permissions_post_moderation_desc'] = 'D\'ici, vous pouvez facilement changer quels groupes voient leurs messages modérés pour un profil de permissions spécifique.';
-$txt['permissions_post_moderation_deny_note'] = 'Notez que si vous avez activé les permissions avancées, vous ne pourrez pas appliquer la permission &quot;refuser&quot; à partir de cette page. Veuillez modifier les permissions directement si vous voulez appliquer un refus de permission.';
-$txt['permissions_post_moderation_select'] = 'Choisissez le Profil&nbsp;';
-$txt['permissions_post_moderation_new_topics'] = 'Nouveaux sujets';
-$txt['permissions_post_moderation_replies_own'] = 'Réponses sur ses fils';
-$txt['permissions_post_moderation_replies_any'] = 'Réponses partout';
-$txt['permissions_post_moderation_attachments'] = 'Fichiers joints';
-$txt['permissions_post_moderation_legend'] = 'Légende&nbsp;';
-$txt['permissions_post_moderation_allow'] = 'Peut créer/envoyer';
-$txt['permissions_post_moderation_moderate'] = 'Peut créer/envoyer mais nécessite l\'approbation d\'un modérateur';
-$txt['permissions_post_moderation_disallow'] = 'Ne peut pas créer/envoyer';
-$txt['permissions_post_moderation_group'] = 'Groupe';
-
 $txt['auto_approve_topics'] = 'Poster des sujets auto-approuvés';
 $txt['auto_approve_replies'] = 'Poster des réponses auto-approuvées aux sujets';
 $txt['auto_approve_attachments'] = 'Poster des fichiers joints auto-approuvés';

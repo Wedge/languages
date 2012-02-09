@@ -340,19 +340,6 @@ $txt['permission_by_board_desc'] = 'Here you can set which permissions profile a
 $txt['permission_settings_desc'] = 'Here you can set who has permission to change permissions, as well as how sophisticated the permission system should be.';
 $txt['permission_settings_enable_postgroups'] = 'Enable permissions for post count based groups';
 
-$txt['permissions_post_moderation_desc'] = 'From this page you can easily change which groups have their posts moderated for a particular permissions profile.';
-$txt['permissions_post_moderation_deny_note'] = 'Note that while you have advanced permissions enabled you cannot apply the &quot;deny&quot; permission from this page. Please edit the permissions directly if you wish to apply a deny permission.';
-$txt['permissions_post_moderation_select'] = 'Select Profile';
-$txt['permissions_post_moderation_new_topics'] = 'New Topics';
-$txt['permissions_post_moderation_replies_own'] = 'Own Replies';
-$txt['permissions_post_moderation_replies_any'] = 'Any Replies';
-$txt['permissions_post_moderation_attachments'] = 'Attachments';
-$txt['permissions_post_moderation_legend'] = 'Legend';
-$txt['permissions_post_moderation_allow'] = 'Can create';
-$txt['permissions_post_moderation_moderate'] = 'Can create but requires approval';
-$txt['permissions_post_moderation_disallow'] = 'Cannot create';
-$txt['permissions_post_moderation_group'] = 'Group';
-
 $txt['auto_approve_topics'] = 'Post new topics, without requiring approval';
 $txt['auto_approve_replies'] = 'Post replies to topics, without requiring approval';
 $txt['auto_approve_attachments'] = 'Post attachments, without requiring approval';
