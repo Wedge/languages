@@ -11,8 +11,6 @@
 
 $txt['scheduled_approval_email_topic'] = 'Les sujets suivants sont en attente d\'approbation :';
 $txt['scheduled_approval_email_msg'] = 'Les messages suivants sont en attente d\'approbation :';
-$txt['scheduled_approval_email_attach'] = 'Les fichiers joints suivants sont en attente d\'approbation :';
-$txt['scheduled_approval_email_event'] = 'Les &#233;v&#232;nements suivants sont en attente d\'approbation :';
 
 $txt['emails'] = array(
 	'resend_activate_message' => array(

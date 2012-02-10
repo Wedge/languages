@@ -58,7 +58,6 @@ $txt['mc_groupr_reject'] = 'Reject Request (No Reason)';
 $txt['mc_groupr_reject_w_reason'] = 'Reject Request with Reason';
 $txt['mc_groupr_warning'] = 'Are you sure you wish to do this?';
 
-$txt['mc_unapproved_attachments_none_found'] = 'There are currently no attachments awaiting approval';
 $txt['mc_unapproved_replies_none_found'] = 'There are currently no posts awaiting approval';
 $txt['mc_unapproved_topics_none_found'] = 'There are currently no topics awaiting approval';
 $txt['mc_unapproved_posts_desc'] = 'From here you can approve or delete any posts awaiting moderation.';
@@ -66,9 +65,6 @@ $txt['mc_unapproved_replies'] = 'Replies';
 $txt['mc_unapproved_topics'] = 'Topics';
 $txt['mc_unapproved_by'] = 'by';
 $txt['mc_unapproved_sure'] = 'Are you sure you want to do this?';
-$txt['mc_unapproved_attach_name'] = 'Attachment Name';
-$txt['mc_unapproved_attach_size'] = 'Filesize';
-$txt['mc_unapproved_attach_poster'] = 'Poster';
 $txt['mc_viewmodreport'] = 'Moderation Report for %1$s by %2$s';
 $txt['mc_modreport_summary'] = 'There have been %1$d report(s) concerning this post.  The last report was %2$s.';
 $txt['mc_modreport_whoreported_title'] = 'Members who have reported this post';

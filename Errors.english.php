@@ -56,7 +56,6 @@ $txt['cannot_access_mod_center'] = 'You do not have permission to access the mod
 $txt['cannot_admin_forum'] = 'You are not allowed to administrate this forum.';
 $txt['cannot_announce_topic'] = 'You are not allowed to announce topics on this board.';
 $txt['cannot_approve_posts'] = 'You do not have permission to approve items.';
-$txt['cannot_post_unapproved_attachments'] = 'You do not have permission to post unapproved attachments.';
 $txt['cannot_post_unapproved_topics'] = 'You do not have permission to post unapproved topics.';
 $txt['cannot_post_unapproved_replies_own'] = 'You do not have permission to post unapproved replies to your topics.';
 $txt['cannot_post_unapproved_replies_any'] = 'You do not have permission to post unapproved replies to other users\' topics.';

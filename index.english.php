@@ -700,7 +700,6 @@ $txt['modSettings_title'] = 'Features and Options';
 $txt['plugin_manager'] = 'Plugins';
 $txt['errlog'] = 'Error Log';
 $txt['edit_permissions'] = 'Permissions';
-$txt['mc_unapproved_attachments'] = 'Unapproved Attachments';
 $txt['mc_unapproved_poststopics'] = 'Unapproved Posts';
 $txt['mc_reported_posts'] = 'Reported Posts';
 $txt['modlog_view'] = 'Moderation Log';

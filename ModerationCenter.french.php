@@ -58,7 +58,6 @@ $txt['mc_groupr_reject'] = 'Rejeter la demande (Sans Raison)';
 $txt['mc_groupr_reject_w_reason'] = 'Rejeter la demande avec la raison';
 $txt['mc_groupr_warning'] = 'Etes vous sûr de vouloir faire cela ?';
 
-$txt['mc_unapproved_attachments_none_found'] = 'Aucun fichier joint ne nécessite d\'approbation.';
 $txt['mc_unapproved_replies_none_found'] = 'Aucun message ne nécessite d\'approbation.';
 $txt['mc_unapproved_topics_none_found'] = 'Aucun sujet ne nécessite d\'approbation.';
 $txt['mc_unapproved_posts_desc'] = 'Vous pouvez à partir d\'ici approuver ou supprimer tout message en attente de modération.';
@@ -66,9 +65,6 @@ $txt['mc_unapproved_replies'] = 'Réponses';
 $txt['mc_unapproved_topics'] = 'Sujets';
 $txt['mc_unapproved_by'] = 'par';
 $txt['mc_unapproved_sure'] = 'Etes vous sûr de vouloir faire cela?';
-$txt['mc_unapproved_attach_name'] = 'Nom de Fichier Joint';
-$txt['mc_unapproved_attach_size'] = 'Taille de fichier';
-$txt['mc_unapproved_attach_poster'] = 'Posteur';
 $txt['mc_viewmodreport'] = 'Rapport de Modération pour %1$s par %2$s';
 $txt['mc_modreport_summary'] = 'Il y a eu %1$d rapport(s) concernant ce message. Date du dernier rapport&nbsp: %2$s.';
 $txt['mc_modreport_whoreported_title'] = 'Membres ayant rapporté ce message';

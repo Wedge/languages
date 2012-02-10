@@ -56,7 +56,6 @@ $txt['cannot_access_mod_center'] = 'Vous n\'avez pas la permission d\'accéder a
 $txt['cannot_admin_forum'] = 'Vous n\'êtes pas autorisé à administrer ce forum.';
 $txt['cannot_announce_topic'] = 'Vous n\'êtes pas autorisé à annoncer vos sujets dans cette section.';
 $txt['cannot_approve_posts'] = 'Vous n\'avez pas la permission d\'approuver quoi que ce soit.';
-$txt['cannot_post_unapproved_attachments'] = 'Vous n\'avez pas la permission de poster des fichiers joints non approuvés.';
 $txt['cannot_post_unapproved_topics'] = 'Vous n\'avez pas la permission de poster des sujets non approuvés.';
 $txt['cannot_post_unapproved_replies_own'] = 'Vous n\'avez pas la permission de poster des réponses non approuvées dans vos sujets.';
 $txt['cannot_post_unapproved_replies_any'] = 'Vous n\'avez pas la permission de poster des réponses non approuvées dans les sujets des autres utilisateurs.';

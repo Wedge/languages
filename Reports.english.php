@@ -55,7 +55,6 @@ $txt['board_perms_name_post_attachment'] = 'Post attachments';
 $txt['board_perms_name_post_new'] = 'Post new topics';
 $txt['board_perms_name_post_reply_any'] = 'Post replies in any topic';
 $txt['board_perms_name_post_reply_own'] = 'Post replies in own topics';
-$txt['board_perms_name_post_unapproved_attachments'] = 'Post unapproved attachments';
 $txt['board_perms_name_post_unapproved_topics'] = 'Post unapproved topics';
 $txt['board_perms_name_post_unapproved_replies_any'] = 'Post unapproved replies in any topic';
 $txt['board_perms_name_post_unapproved_replies_own'] = 'Post unapproved replies in own topic';

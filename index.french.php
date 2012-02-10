@@ -699,7 +699,6 @@ $txt['modSettings_title'] = 'Fonctionnalités et Options';
 $txt['plugin_manager'] = 'Extensions';
 $txt['errlog'] = 'Journal d\'Erreurs';
 $txt['edit_permissions'] = 'Permissions';
-$txt['mc_unapproved_attachments'] = 'Fichiers à approuver';
 $txt['mc_unapproved_poststopics'] = 'Messages à approuver';
 $txt['mc_reported_posts'] = 'Messages rapportés';
 $txt['modlog_view'] = 'Journal de Modération';

@@ -55,7 +55,6 @@ $txt['board_perms_name_post_attachment'] = 'Poster des fichiers joints';
 $txt['board_perms_name_post_new'] = 'Poster des nouveaux sujets';
 $txt['board_perms_name_post_reply_any'] = 'Poster des réponses dans n\'importe quel sujet';
 $txt['board_perms_name_post_reply_own'] = 'Poster des réponses dans ses propres sujets';
-$txt['board_perms_name_post_unapproved_attachments'] = 'Poster des fichiers joints à faire approuver';
 $txt['board_perms_name_post_unapproved_topics'] = 'Poster des sujets à faire approuver';
 $txt['board_perms_name_post_unapproved_replies_any'] = 'Poster des réponses à faire approuver, dans tout sujet';
 $txt['board_perms_name_post_unapproved_replies_own'] = 'Poster des réponses à faire approuver, dans son propre sujet';

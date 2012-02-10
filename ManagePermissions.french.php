@@ -258,8 +258,6 @@ $txt['permissionname_post_unapproved_replies_own'] = 'Sujets personnels';
 $txt['permissionname_post_unapproved_replies_any'] = 'Tous les sujets';
 $txt['permissionname_post_unapproved_topics'] = 'Poster des sujets à faire approuver';
 $txt['permissionhelp_post_unapproved_topics'] = 'Cette permission permet à un utilisateur de poster de nouveaux sujets, mais qui ne seront pas affichés avant l\'approbation d\'un modérateur si la prémodération est activée.';
-$txt['permissionname_post_unapproved_attachments'] = 'Poster des fichiers joints à faire approuver';
-$txt['permissionhelp_post_unapproved_attachments'] = 'Cette permission permet aux utilisateurs de joindre à leurs messages des fichiers qui ne seront affichés qu\'après approbation d\'un modérateur si la prémodération est activée.';
 
 $txt['permissiongroup_notification'] = 'Notifications';
 $txt['permissionname_mark_any_notify'] = 'Notification des réponses';

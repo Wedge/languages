@@ -11,8 +11,6 @@
 
 $txt['scheduled_approval_email_topic'] = 'The following topics are awaiting approval:';
 $txt['scheduled_approval_email_msg'] = 'The following posts are awaiting approval:';
-$txt['scheduled_approval_email_attach'] = 'The following attachments are awaiting approval:';
-$txt['scheduled_approval_email_event'] = 'The following events are awaiting approval:';
 
 $txt['emails'] = array(
 	'resend_activate_message' => array(

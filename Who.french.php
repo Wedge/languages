@@ -53,7 +53,6 @@ $txt['whoall_pm_send'] = 'Envoie un message personnel.';
 $txt['whoall_pm_send2'] = 'Envoie un message personnel.';
 
 $txt['whotopic_announce'] = 'Annonce le sujet &quot;<a href="<URL>?topic=%1$d.0">%2$s</a>&quot;.';
-$txt['whotopic_attachapprove'] = 'Approuve un fichier joint.';
 $txt['whotopic_dlattach'] = 'Télécharge un fichier joint.';
 $txt['whotopic_deletemsg'] = 'Efface un message.';
 $txt['whotopic_jsmodify'] = 'Modifie un message dans le sujet &quot;<a href="<URL>?topic=%1$d.0">%2$s</a>&quot;.';

@@ -258,8 +258,6 @@ $txt['permissionname_post_unapproved_replies_own'] = 'Own topic';
 $txt['permissionname_post_unapproved_replies_any'] = 'Any topic';
 $txt['permissionname_post_unapproved_topics'] = 'Post new topics, but hide until approved';
 $txt['permissionhelp_post_unapproved_topics'] = 'This permission allows a user to post a new topic which will require approval before being shown.';
-$txt['permissionname_post_unapproved_attachments'] = 'Post attachments, but hide until approved';
-$txt['permissionhelp_post_unapproved_attachments'] = 'This permission allows a user to attach files to their posts. The attached files will then require approval before being shown to other users.';
 
 $txt['permissiongroup_notification'] = 'Notifications';
 $txt['permissionname_mark_any_notify'] = 'Request notification on replies';
@@ -342,7 +340,6 @@ $txt['permission_settings_enable_postgroups'] = 'Enable permissions for post cou
 
 $txt['auto_approve_topics'] = 'Post new topics, without requiring approval';
 $txt['auto_approve_replies'] = 'Post replies to topics, without requiring approval';
-$txt['auto_approve_attachments'] = 'Post attachments, without requiring approval';
 
 $txt['permissiongroup_media'] = 'Media';
 $txt['permissiongroup_simple_media'] = 'Media';
