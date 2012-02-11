@@ -29,8 +29,8 @@ $txt['admin'] = 'Admin';
 $txt['moderate'] = 'Moderate';
 
 $txt['save'] = 'Save';
-
 $txt['modify'] = 'Modify';
+
 $txt['members'] = 'Members';
 $txt['board_name'] = 'Board name';
 
@@ -163,7 +163,6 @@ $txt['reply_noun'] = 'Reply';
 $txt['approve'] = 'Approve';
 $txt['approve_all'] = 'approve all';
 $txt['awaiting_approval'] = 'Awaiting Approval';
-$txt['attach_awaiting_approve'] = 'Attachments awaiting approval';
 $txt['post_awaiting_approval'] = 'Note: This message is awaiting approval by a moderator.';
 $txt['there_are_unapproved_topics'] = 'There are %1$s topics and %2$s posts awaiting approval in this board. Click <a href="%3$s">here</a> to view them all.';
 
@@ -248,10 +247,13 @@ $txt['icon_edit'] = 'Edited';
 $txt['moderator'] = 'Moderator';
 $txt['moderators'] = 'Moderators';
 
-$txt['mark_board_read'] = 'Mark Topics as Read for this Board';
+// For the Short form, use '!' in case your language's 'New' is too long.
 $txt['new'] = 'New';
-// As used in menus (short form if possible)
-$txt['menu_new'] = 'New';
+$txt['new_short'] = 'New';
+
+// Can be used in a title parameter, so stick to alphanumeric characters.
+$txt['new_posts'] = 'New Posts';
+$txt['old_posts'] = 'No New Posts';
 
 $txt['view_all_members'] = 'View All Members';
 $txt['view'] = 'View';
@@ -269,8 +271,7 @@ $txt['to'] = 'To';
 
 $txt['members_title'] = 'Members';
 $txt['members_list'] = 'Members List';
-$txt['new_posts'] = 'New Posts';
-$txt['old_posts'] = 'No New Posts';
+
 $txt['redirect_board'] = 'Redirect Board';
 
 $txt['sendtopic_send'] = 'Send';
@@ -287,6 +288,7 @@ $txt['your_ban_expires'] = 'This ban is set to expire %1$s.';
 $txt['your_ban_expires_never'] = 'This ban is not set to expire.';
 $txt['ban_continue_browse'] = 'You may continue to browse the forum as a guest.';
 
+$txt['mark_board_read'] = 'Mark Topics as Read for this Board';
 $txt['mark_as_read'] = 'Mark ALL messages as read';
 
 $txt['legend'] = 'Legend';
@@ -658,7 +660,6 @@ $txt['ssi_session_broken'] = 'SSI.php was unable to load a session! This may cau
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['preview_title'] = 'Preview post';
 $txt['preview_fetch'] = 'Fetching preview...';
-$txt['preview_new'] = 'New message';
 $txt['error_while_submitting'] = 'The following error or errors occurred while posting this message:';
 $txt['error_old_topic'] = 'Warning: this topic has not been posted in for at least %1$d days.<br>Unless you\'re sure you want to reply, please consider starting a new topic.';
 
@@ -773,6 +774,8 @@ $txt['readmore'] = '(%1$d more chars)';
 $txt['thought'] = 'Thought';
 $txt['thoughts'] = 'Thoughts';
 $txt['no_thought_yet'] = '<em>(Click here to set your first thought)</em>';
+$txt['edit_thought'] = 'Edit';
+$txt['add_thought'] = 'New thought';
 
 // Do not use double quotes in the following strings.
 $txt['privacy_public'] = 'Public';

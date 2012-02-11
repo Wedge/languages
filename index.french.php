@@ -29,8 +29,8 @@ $txt['admin'] = 'Admin';
 $txt['moderate'] = 'Modérer';
 
 $txt['save'] = 'Sauvegarder';
-
 $txt['modify'] = 'Modifier';
+
 $txt['members'] = 'Membres';
 $txt['board_name'] = 'Nom de la section';
 
@@ -163,7 +163,6 @@ $txt['reply_noun'] = 'Réponse';
 $txt['approve'] = 'Approuver';
 $txt['approve_all'] = 'Tout approuver';
 $txt['awaiting_approval'] = 'En attente d\'approbation';
-$txt['attach_awaiting_approve'] = 'Fichiers joints en attente d\'approbation';
 $txt['post_awaiting_approval'] = 'Ce message est en attente d\'approbation par un modérateur.';
 $txt['there_are_unapproved_topics'] = 'Il y a %1$s sujets et %2$s messages en attente d\'approbation dans cette section. Cliquez <a href="%3$s">ici</a> pour tous les voir.';
 
@@ -248,9 +247,13 @@ $txt['icon_edit'] = 'Modifié';
 $txt['moderator'] = 'Modérateur';
 $txt['moderators'] = 'Modérateurs';
 
-$txt['mark_board_read'] = 'Marquer les sujets comme lus pour cette section';
+// For the Short form, use '!' in case your language's 'New' is too long.
 $txt['new'] = 'Nouveau';
-$txt['menu_new'] = '!';
+$txt['new_short'] = 'Nouv';
+
+// Can be used in a title parameter, so stick to alphanumeric characters.
+$txt['new_posts'] = 'Nouveaux messages';
+$txt['old_posts'] = 'Pas de nouveau message';
 
 $txt['view_all_members'] = 'Voir tous les membres';
 $txt['view'] = 'Voir';
@@ -268,8 +271,6 @@ $txt['to'] = 'à';
 
 $txt['members_title'] = 'Membres';
 $txt['members_list'] = 'Liste des membres';
-$txt['new_posts'] = 'Nouveaux messages';
-$txt['old_posts'] = 'Pas de nouveau message';
 $txt['redirect_board'] = 'Redirection';
 
 $txt['sendtopic_send'] = 'Envoyer';
@@ -286,6 +287,7 @@ $txt['your_ban_expires'] = 'Ce bannissement devrait expirer le %1$s';
 $txt['your_ban_expires_never'] = 'Ce bannissement n\'a pas de date d\'expiration prévue.';
 $txt['ban_continue_browse'] = 'Vous pouvez cependant continuer à naviguer sur le forum en mode invité.';
 
+$txt['mark_board_read'] = 'Marquer les sujets comme lus pour cette section';
 $txt['mark_as_read'] = 'Marquer TOUS les messages comme lus';
 
 $txt['legend'] = 'Légende';
@@ -657,7 +659,6 @@ $txt['ssi_session_broken'] = 'SSI.php n\'a pas pu charger une session&nbsp;! Cel
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['preview_title'] = 'Prévisualiser le message';
 $txt['preview_fetch'] = 'Chargement de la prévisualisation&hellip;';
-$txt['preview_new'] = 'Nouveau message';
 $txt['error_while_submitting'] = 'L\'erreur ou les erreurs suivantes sont apparues durant la soumission de ce message&nbsp;:';
 $txt['error_old_topic'] = 'Attention, il n\'y a pas eu de réponse à ce sujet depuis au moins %1$d jours.<br>À moins que vous ne soyez sûr de vouloir répondre, pensez éventuellement à créer un nouveau sujet.';
 
@@ -772,6 +773,8 @@ $txt['readmore'] = '(Reste %1$d caractères)';
 $txt['thought'] = 'Pensée';
 $txt['thoughts'] = 'Pensées';
 $txt['no_thought_yet'] = '<em>(Cliquez ici pour écrire une pensée)</em>';
+$txt['edit_thought'] = 'Modifier';
+$txt['add_thought'] = 'Nouvelle';
 
 // Do not use double quotes in the following strings.
 $txt['privacy_public'] = 'Public';
