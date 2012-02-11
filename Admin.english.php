@@ -64,7 +64,6 @@ $txt['admin_newsletter_send'] = 'You can email anyone from this page. The email 
 $txt['admin_fader_delay'] = 'Fading delay between items for the news fader';
 
 $txt['admin_backup_fail'] = 'Failed to make backup of Settings.php - make sure Settings_bak.php exists and is writable.';
-$txt['modSettings_info'] = 'Change or set options that control how this forum operates.';
 $txt['database_server'] = 'Database Server';
 $txt['database_user'] = 'Database Username';
 $txt['database_password'] = 'Database Password';

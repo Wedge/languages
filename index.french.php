@@ -696,7 +696,7 @@ $txt['forumprofile'] = 'Profil de base et avatar';
 $txt['change_skin'] = 'Changer de style';
 $txt['draft_posts'] = 'Brouillons';
 
-$txt['modSettings_title'] = 'Fonctionnalités et Options';
+$txt['settings_title'] = 'Fonctionnalités et Options';
 $txt['plugin_manager'] = 'Extensions';
 $txt['errlog'] = 'Journal d\'Erreurs';
 $txt['edit_permissions'] = 'Permissions';

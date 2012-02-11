@@ -64,7 +64,6 @@ $txt['admin_newsletter_send'] = 'Vous pouvez envoyer un e-mail à n\'importe qui
 $txt['admin_fader_delay'] = 'Délai d\'enchaînement entre les nouvelles rotatives';
 
 $txt['admin_backup_fail'] = 'Impossible de créer une copie de secours (backup) de Settings.php. Assurez-vous que Settings_bak.php existe et possède les bons droits d\'accès.';
-$txt['modSettings_info'] = 'Changer ou régler les paramètres qui contrôlent le fonctionnement du forum.';
 $txt['database_server'] = 'Serveur de base de données';
 $txt['database_user'] = 'Nom d\'utilisateur de la base de données';
 $txt['database_password'] = 'Mot de passe de la base de données';

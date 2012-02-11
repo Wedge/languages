@@ -697,7 +697,7 @@ $txt['forumprofile'] = 'Forum Profile';
 $txt['change_skin'] = 'Skin Selector';
 $txt['draft_posts'] = 'Draft Posts';
 
-$txt['modSettings_title'] = 'Features and Options';
+$txt['settings_title'] = 'Features and Options';
 $txt['plugin_manager'] = 'Plugins';
 $txt['errlog'] = 'Error Log';
 $txt['edit_permissions'] = 'Permissions';
