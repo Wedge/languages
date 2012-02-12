@@ -276,10 +276,6 @@ $txt['display_quick_reply'] = 'Utiliser la Réponse Rapide dans l\'affichage du 
 $txt['display_quick_reply1'] = 'ne pas montrer du tout';
 $txt['display_quick_reply2'] = 'montrer, rétracté par défaut';
 $txt['display_quick_reply3'] = 'montrer, développé par défaut';
-$txt['display_quick_mod'] = 'Montrer la modération rapide sous forme...';
-$txt['display_quick_mod_none'] = 'Ne pas montrer';
-$txt['display_quick_mod_check'] = 'De boîtes à cocher';
-$txt['display_quick_mod_image'] = 'D\'icônes';
 
 $txt['whois_title'] = 'Chercher cette IP sur un serveur WHOIS régional';
 $txt['whois_afrinic'] = 'AfriNIC (Afrique)';
