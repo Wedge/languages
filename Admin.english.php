@@ -410,6 +410,9 @@ $txt['avatar_paranoid_warning'] = 'Note: the above security checks are extensive
 $txt['avatar_paranoid'] = 'Perform extensive security checks on uploaded avatars';
 $txt['avatar_banned_hide'] = 'Hide the avatar of banned users';
 
+$txt['select_from_list'] = 'Select from the list below';
+$txt['click_to_see_more'] = 'Click to expand the list';
+
 $txt['repair_attachments'] = 'Maintain Attachments';
 $txt['repair_attachments_complete'] = 'Maintenance Complete';
 $txt['repair_attachments_complete_desc'] = 'All selected errors have now been corrected';
