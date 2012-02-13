@@ -680,9 +680,6 @@ $txt['unapproved_posts'] = 'Unapproved Posts (Topics: %1$d, Posts: %2$d)';
 
 $txt['ajax_in_progress'] = 'Loading...';
 
-$txt['mod_reports_waiting_1'] = 'There is currently 1 moderator report open.';
-$txt['mod_reports_waiting_n'] = 'There are currently %1$d moderator reports open.';
-
 $txt['view_unread_category'] = 'Unread Posts';
 $txt['verification'] = 'Verification';
 $txt['visual_verification_description'] = 'Type the letters shown in the picture';

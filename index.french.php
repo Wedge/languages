@@ -679,9 +679,6 @@ $txt['unapproved_posts'] = 'Messages à approuver (Sujets: %1$d, Messages: %2$d)
 
 $txt['ajax_in_progress'] = 'Chargement...';
 
-$txt['mod_reports_waiting_1'] = 'Il y a actuellement un rapport de modération ouvert.';
-$txt['mod_reports_waiting_n'] = 'Il y a actuellement %1$d rapports de modération ouverts.';
-
 $txt['view_unread_category'] = 'Messages non lus';
 $txt['verification'] = 'Vérification';
 $txt['visual_verification_description'] = 'Taper les lettres montrées dans l\'image';
@@ -703,6 +700,7 @@ $txt['edit_permissions'] = 'Permissions';
 $txt['mc_unapproved_poststopics'] = 'Messages à approuver';
 $txt['mc_reported_posts'] = 'Messages rapportés';
 $txt['modlog_view'] = 'Journal de Modération';
+$txt['unapproved_members'] = 'Membres à approuver';
 
 //!!! Send email strings - should move?
 $txt['send_email'] = 'Envoyer un e-mail';
