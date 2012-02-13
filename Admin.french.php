@@ -410,6 +410,9 @@ $txt['avatar_paranoid_warning'] = 'Attention, la fonctionnalité ci-dessus peut 
 $txt['avatar_paranoid'] = 'Effectuer un maximum de tests de sécurité sur les avatars envoyés';
 $txt['avatar_banned_hide'] = 'Cacher l\'avatar des utilisateurs bannis';
 
+$txt['select_from_list'] = 'Choisissez dans la liste ci-dessous';
+$txt['click_to_see_more'] = 'Cliquez pour voir la liste complète';
+
 $txt['repair_attachments'] = 'Maintenance des Fichiers joints';
 $txt['repair_attachments_complete'] = 'Maintenance complétée';
 $txt['repair_attachments_complete_desc'] = 'Toutes les erreurs sélectionnées ont maintenant été corrigées';
