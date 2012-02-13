@@ -704,6 +704,7 @@ $txt['edit_permissions'] = 'Permissions';
 $txt['mc_unapproved_poststopics'] = 'Unapproved Posts';
 $txt['mc_reported_posts'] = 'Reported Posts';
 $txt['modlog_view'] = 'Moderation Log';
+$txt['unapproved_members'] = 'Unapproved Members';
 
 //!!! Send email strings - should move?
 $txt['send_email'] = 'Send an email';
