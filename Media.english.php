@@ -334,7 +334,7 @@ $txt['media_embed_sub_edit'] = 'Change your embed URL. If you do this, any previ
 $txt['media_editing_item'] = 'You are editing item <a href="%s">%s</a>';
 $txt['media_editing_com'] = 'Editing Comment';
 $txt['media_moving_item'] = 'Moving item';
-$txt['media_search_by_mem_desc'] = 'Use comma (,) as a separator. Leave blank to search items by all members. Enter a member\'s username';
+$txt['media_search_by_mem_desc'] = 'Enter one or more member usernames. Leave blank to search items by all members.';
 $txt['media_passwd_protected'] = 'This album is password protected, please enter the password to continue.';
 $txt['media_user_albums_desc'] = 'You can manage your albums here, adding new albums or editing existing ones.';
 $txt['media_click_to_close'] = 'Click to close';
