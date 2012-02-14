@@ -59,8 +59,6 @@ $txt['site_slogan_desc'] = 'Add your own text for a slogan here. It will replace
 $txt['forum_width'] = 'Forum width';
 $txt['forum_width_desc'] = 'Set the forum width. Examples: 950px, 80%, 1240px.';
 
-$txt['enable_quick_login'] = 'Show a quick login on every page';
-$txt['enable_quick_login_desc'] = 'This will show a compact login in the sidebar for guests.';
 $txt['enable_random_news'] = 'Enable random news line in the forum header';
 $txt['show_group_key'] = 'Show group key on board index';
 $txt['enable_single_post'] = 'Enable single post';

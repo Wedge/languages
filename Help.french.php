@@ -366,6 +366,7 @@ $helptxt['emailmembers'] = 'Dans ce message, vous pouvez inclure certaines "vari
 $helptxt['attachmentEncryptFilenames'] = 'Encrypter les noms des fichiers joints permet le transfert de fichiers dont le nom serait identique, d\'utiliser sécuritairement des fichiers .php pour gérer ces pièces jointes et une plus grande sécurité. D\'un autre côté, cela peut compliquer une reconstruction de base de données si un problème radical se présente.';
 
 $helptxt['failed_login_threshold'] = 'Spécifiez le nombre maximal de tentatives de connexion avant de rediriger l\'utilisateur vers la fonction "Rappel de Mot de Passe".';
+$helptxt['enable_quick_login'] = 'Ceci affichera un champ de connexion dans l\'encadré (sidebar) de chaque page du forum, si le visiteur n\'est pas encore connecté.';
 $helptxt['oldTopicDays'] = 'Si cette option est activée, un avertissement sera affiché aux utilisateurs qui tenteront de répondre dans un sujet dans lequel il n\'y a eu aucune intervention après un certain laps de temps, en jours, spécifié par ce paramêtre. Réglez-la à 0 pour désactiver cette fonction.';
 $helptxt['edit_wait_time'] = 'Temps en secondes permis pour la modification d\'un message avant que la mention "Dernière édition" apparaisse.';
 $helptxt['edit_disable_time'] = 'Nombre de minutes accordées à un utilisateur pour qu\'il puisse modifier ses messages. Mettre sur 0 pour désactiver. <br><br><em>Note: Cela n\'affectera pas l\'utilisateur qui a la permission de modifier les messages des autres.</em>';

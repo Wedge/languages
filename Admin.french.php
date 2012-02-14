@@ -3,7 +3,7 @@
 
 $txt['changes_saved'] = 'Vos changements ont été pris en compte.';
 
-$txt['admin_boards'] = 'Sites';
+$txt['admin_boards'] = 'Sites et catégories';
 $txt['admin_users'] = 'Membres';
 $txt['admin_newsletters'] = 'Infolettres';
 $txt['admin_edit_news'] = 'Nouvelles';

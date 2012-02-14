@@ -16,6 +16,7 @@ $txt['userLanguage'] = 'Permettre aux utilisateurs de choisir la langue';
 $txt['setting_time_offset'] = 'Décalage horaire général<dfn>(ajouté aux options spécifiques des membres.)</dfn>';
 $txt['setting_default_timezone'] = 'Fuseau horaire du serveur';
 $txt['failed_login_threshold'] = 'Seuil de connexions dépassé';
+$txt['enable_quick_login'] = 'Afficher un champ de connexion sur toutes les pages';
 $txt['age_restrictions'] = 'Restrictions sur l\'âge minimal';
 $txt['lastActive'] = 'Seuil de temps de connexion en ligne';
 $txt['trackStats'] = 'Suivi des statistiques au quotidien';
