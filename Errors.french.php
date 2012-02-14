@@ -2,7 +2,6 @@
 // Version: 2.0; Errors
 
 $txt['no_access'] = 'Vous n\'êtes pas autorisé à accéder à cette section.';
-$txt['wireless_error_notyet'] = 'Désolé, cette action n\'est pas disponible en mode mobile pour l\'instant.';
 
 $txt['mods_only'] = 'Seuls les modérateurs peuvent utiliser la fonction d\'effacement direct, vous pouvez effacer ce message par la fonction Modifier.';
 $txt['no_name'] = 'Vous n\'avez pas rempli le champ IDENTIFIANT. Il est requis.';

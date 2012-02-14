@@ -573,7 +573,6 @@ $txt['feed_topics'] = '<a href="%1$s">sujets</a>';
 
 // Footer strings
 $txt['valid_html5'] = 'HTML5 valide&nbsp;!';
-$txt['wap2'] = 'WAP2';
 $txt['html5'] = 'HTML5';
 $txt['html'] = 'HTML';
 

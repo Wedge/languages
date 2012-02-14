@@ -2,7 +2,6 @@
 // Version: 2.0; Errors
 
 $txt['no_access'] = 'You are not allowed to access this section.';
-$txt['wireless_error_notyet'] = 'Sorry, this section isn\'t available for wireless users at this time.';
 
 $txt['mods_only'] = 'Only Moderators can use the direct remove function, please remove this message through the modify feature.';
 $txt['no_name'] = 'You didn\'t fill the name field out. It is required.';
