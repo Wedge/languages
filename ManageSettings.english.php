@@ -248,6 +248,7 @@ $txt['modfilter_condtype_body'] = 'Depends on the post contents';
 $txt['modfilter_applies_all'] = 'Applies to the selected items:';
 $txt['modfilter_applies_allexcept'] = 'Applies to <strong>all except</strong> the selected items:';
 $txt['modfilter_condition_done'] = 'Add this condition';
+$txt['modfilter_postcount_is'] = 'The user\'s post-count is:';
 $txt['modfilter_save_this_rule'] = 'Save this rule';
 
 $txt['member_options_desc'] = 'From this page you can configure general options that apply to all members of your community.';
