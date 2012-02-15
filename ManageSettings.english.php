@@ -82,7 +82,7 @@ $txt['who_display_viewing_off'] = 'Don\'t show';
 $txt['who_display_viewing_numbers'] = 'Show only numbers';
 $txt['who_display_viewing_names'] = 'Show member names';
 
-$txt['caching_information'] = '<div class="centertext" style="font-weight: bold; text-decoration: underline">Important! Read this first before enabling these features.</div><br>
+$txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important! Read this first before enabling these features.</div><br>
 	Wedge supports caching through the use of accelerators. The currently supported accelerators include:<br>
 	<ul class="normallist">
 		<li>APC</li>

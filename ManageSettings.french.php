@@ -82,7 +82,7 @@ $txt['who_display_viewing_off'] = 'Ne pas montrer';
 $txt['who_display_viewing_numbers'] = 'Ne montrer que les nombres';
 $txt['who_display_viewing_names'] = 'Montrer les pseudonymes des membres';
 
-$txt['caching_information'] = '<div class="centertext" style="font-weight: bold; text-decoration: underline">Important&nbsp;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br>
+$txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important&nbsp;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br>
 	Wedge peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&nbsp;:<br>
 	<ul class="normallist">
 		<li>APC</li>
