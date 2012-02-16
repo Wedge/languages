@@ -259,6 +259,7 @@ $txt['modfilter_regex_matches'] = 'matches';
 $txt['modfilter_regex_regex'] = 'matches regular expression';
 $txt['modfilter_be_case_sensitive'] = 'Be case sensitive (treat UPPER and lower case differently)';
 $txt['modfilter_save_this_rule'] = 'Save this rule';
+$txt['modfilter_error_saving'] = 'This rule could not be saved, there was something wrong in sending the data. Please go back and try again.';
 
 $txt['member_options_desc'] = 'From this page you can configure general options that apply to all members of your community.';
 $txt['allow_editDisplayName'] = 'Allow members to edit their displayed name';
