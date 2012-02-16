@@ -318,8 +318,8 @@ $txt['posts_per_day'] = 'per day';
 
 $txt['buddy_ignore_desc'] = 'This area allows you to maintain your contacts and ignore list for this forum. Adding members to these lists will, amongst other things, help control mail and PM traffic, depending on your preferences.';
 
-$txt['buddy_add'] = 'Add To my Contacts';
-$txt['buddy_remove'] = 'Remove From my Contacts';
+$txt['buddy_add'] = 'Add to my Contacts';
+$txt['buddy_remove'] = 'Remove from my Contacts';
 $txt['buddy_add_button'] = 'Add';
 $txt['no_buddies'] = 'You currently have no contacts';
 

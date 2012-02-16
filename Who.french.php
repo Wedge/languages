@@ -21,7 +21,7 @@ $txt['whospider_register'] = 'Consulte la page d\'inscription.';
 $txt['whospider_reminder'] = 'Consulte la page de rappel du mot de passe.';
 
 $txt['whoall_activate'] = 'Active son compte.';
-$txt['whoall_buddy'] = 'Modifie sa liste d\'amis.';
+$txt['whoall_buddy'] = 'Modifie sa liste de contacts.';
 $txt['whoall_coppa'] = 'Remplit le formulaire d\'accord parental.';
 $txt['whoall_credits'] = 'Consulte la page des crédits.';
 $txt['whoall_emailuser'] = 'Envoie un e-mail à un autre membre.';

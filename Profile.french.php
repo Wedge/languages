@@ -141,8 +141,8 @@ $txt['showMessages'] = 'Messages';
 $txt['showTopics'] = 'Sujets';
 $txt['showAttachments'] = 'Fichiers joints';
 $txt['statPanel'] = 'Voir les statistiques';
-$txt['editBuddyIgnoreLists'] = 'Amis et Ignorés';
-$txt['editBuddies'] = 'Modifier la liste d\'Amis';
+$txt['editBuddyIgnoreLists'] = 'Contacts et Ignorés';
+$txt['editBuddies'] = 'Modifier la liste de Contacts';
 $txt['editIgnoreList'] = 'Modifier la liste d\'Ignorés';
 $txt['trackUser'] = 'Suivre le membre';
 $txt['trackActivity'] = 'Activité';
@@ -316,12 +316,12 @@ $txt['showPermissions_restricted_boards_desc'] = 'Les sites suivants ne sont pas
 $txt['local_time'] = 'Temps local';
 $txt['posts_per_day'] = 'par jour';
 
-$txt['buddy_ignore_desc'] = 'Cette section vous permet de tenir à jour vos listes d\'amis et d\'utilisateurs à ignorer sur ce forum. En ajoutant des membres à ces listes, vous pourrez contrôler votre trafic d\'e-mails et de messages personnels selon vos préférences.';
+$txt['buddy_ignore_desc'] = 'Cette section vous permet de tenir à jour vos listes de contacts et d\'utilisateurs à ignorer sur ce forum. En ajoutant des membres à ces listes, vous pourrez contrôler votre trafic d\'e-mails et de messages personnels selon vos préférences.';
 
-$txt['buddy_add'] = 'Ajouter à la liste d\'amis';
-$txt['buddy_remove'] = 'Enlever de la liste d\'amis';
+$txt['buddy_add'] = 'Ajouter à mes Contacts';
+$txt['buddy_remove'] = 'Enlever de mes Contacts';
 $txt['buddy_add_button'] = 'Ajouter';
-$txt['no_buddies'] = 'Votre liste actuelle d\'amis est vide';
+$txt['no_buddies'] = 'Votre liste actuelle de contacts est vide';
 
 $txt['ignore_add'] = 'Ajouter aux Ignorés';
 $txt['ignore_remove'] = 'Retirer des Ignorés';
@@ -419,14 +419,14 @@ $txt['subscriptions'] = 'Abonnements payants';
 $txt['pm_settings_desc'] = 'D\'ici, vous pouvez modifier les options pour vos messages personnels, comme leur affichage et qui peut vous en envoyer.';
 $txt['email_notify'] = 'M\'envoyer un e-mail à chaque fois que je reçois un message personnel&nbsp;:';
 $txt['email_notify_never'] = 'Jamais';
-$txt['email_notify_buddies'] = 'De mes amis uniquement';
+$txt['email_notify_buddies'] = 'De mes contacts uniquement';
 $txt['email_notify_always'] = 'Toujours';
 
 $txt['pm_receive_from'] = 'Recevoir des messages personnels de&nbsp;:';
 $txt['pm_receive_from_everyone'] = 'Tous les membres';
 $txt['pm_receive_from_ignore'] = 'Tous les membres, sauf ceux que j\'ignore';
 $txt['pm_receive_from_admins'] = 'Les administrateurs seulement';
-$txt['pm_receive_from_buddies'] = 'Mes amis et les administrateurs seulement';
+$txt['pm_receive_from_buddies'] = 'Mes contacts et les administrateurs seulement';
 
 $txt['copy_to_outbox'] = 'Sauvegarder par défaut une copie de tous les messages personnels que j\'envoie.';
 $txt['popup_messages'] = 'Afficher une fenêtre pop-up lorsque je reçois de nouveaux messages';

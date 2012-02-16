@@ -358,7 +358,7 @@ $txt['valid_email'] = 'Ce doit être une adresse e-mail valide.';
 $txt['info_center_title'] = 'Centre d\'informations';
 
 $txt['send_topic'] = 'Partager';
-$txt['sendtopic_title'] = 'Envoyer le sujet &quot;%1$s&quot; à un ami.';
+$txt['sendtopic_title'] = 'Signaler le sujet &quot;%1$s&quot; à un ami.';
 $txt['sendtopic_sender_name'] = 'Votre nom';
 $txt['sendtopic_sender_email'] = 'Votre adresse e-mail';
 $txt['sendtopic_receiver_name'] = 'Nom du destinataire';
@@ -581,8 +581,8 @@ $txt['guests'] = 'Invités';
 $txt['user'] = 'Membre';
 $txt['users'] = 'Membres';
 $txt['hidden'] = 'Caché';
-$txt['buddy'] = 'Ami';
-$txt['buddies'] = 'Amis';
+$txt['buddy'] = 'Contact';
+$txt['buddies'] = 'Contacts';
 $txt['most_online_ever'] = 'Record de connexions absolu';
 $txt['most_online_today'] = 'Record de connexions aujourd\'hui';
 
@@ -625,7 +625,7 @@ $txt['activate_code'] = 'Votre code d\'activation est';
 
 $txt['find_members'] = 'Trouver des membres';
 $txt['find_username'] = 'Identifiant, pseudonyme ou adresse e-mail';
-$txt['find_buddies'] = 'Ne montrer que les amis';
+$txt['find_buddies'] = 'Ne montrer que mes contacts';
 $txt['find_wildcards'] = 'Jokers autorisés&nbsp;: *, ?';
 $txt['find_no_results'] = 'Pas de résultat';
 $txt['find_results'] = 'Résultats';
@@ -780,7 +780,7 @@ $txt['privacy_self'] = 'Juste moi';
 
 // These aren't currently in use.
 // $txt['privacy_everywhere'] = 'Diffusion';
-// $txt['privacy_friends'] = 'Mes amis';
+// $txt['privacy_contacts'] = 'Mes contacts';
 
 // Do not use double quotes in the form_* text strings. (Why would you?)
 $txt['form_submit'] = 'Envoyer';

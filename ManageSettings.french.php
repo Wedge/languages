@@ -248,6 +248,7 @@ $txt['modfilter_applies_all'] = 'S\'applique au éléments sélectionnés&nbsp;:
 $txt['modfilter_applies_allexcept'] = 'S\'applique à <strong>tout sauf</strong> les éléments sélectionnés&nbsp;:';
 $txt['modfilter_condition_done'] = 'Ajouter cette condition';
 $txt['modfilter_postcount_is'] = 'Le nombre de messages de l\'utilisateur est&nbsp;:';
+$txt['modfilter_warning_is'] = 'Le niveau d\'avertissement du membre est&nbsp;:';
 $txt['modfilter_save_this_rule'] = 'Sauvegarder cette règle';
 
 $txt['member_options_desc'] = 'Cette section vous permet de configurer les options générales qui s\'appliquent aux membres de votre communauté.';

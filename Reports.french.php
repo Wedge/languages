@@ -58,11 +58,11 @@ $txt['board_perms_name_post_reply_own'] = 'Poster des réponses dans ses propres
 $txt['board_perms_name_post_unapproved_topics'] = 'Poster des sujets à faire approuver';
 $txt['board_perms_name_post_unapproved_replies_any'] = 'Poster des réponses à faire approuver, dans tout sujet';
 $txt['board_perms_name_post_unapproved_replies_own'] = 'Poster des réponses à faire approuver, dans son propre sujet';
-$txt['board_perms_name_remove_any'] = 'Supprimer n\'importe quel sujet';
+$txt['board_perms_name_remove_any'] = 'Supprimer tout sujet';
 $txt['board_perms_name_remove_own'] = 'Supprimer ses propres sujets';
 $txt['board_perms_name_report_any'] = 'Rapporter n\'importe quel message';
-$txt['board_perms_name_send_topic'] = 'Envoyer des sujets à ses amis';
-$txt['board_perms_name_split_any'] = 'Séparer n\'importe quel sujet';
+$txt['board_perms_name_send_topic'] = 'Partager des sujets';
+$txt['board_perms_name_split_any'] = 'Séparer en deux tout sujet';
 $txt['board_perms_name_view_attachments'] = 'Voir les fichiers joints';
 
 $txt['board_perms_group_no_polls'] = 'Cette section n\'autorise pas les sondages';

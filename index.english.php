@@ -626,7 +626,7 @@ $txt['activate_code'] = 'Your activation code is';
 
 $txt['find_members'] = 'Find Members';
 $txt['find_username'] = 'Name, username, or email address';
-$txt['find_buddies'] = 'Show Buddies Only?';
+$txt['find_buddies'] = 'Show contacts only?';
 $txt['find_wildcards'] = 'Allowed Wildcards: *, ?';
 $txt['find_no_results'] = 'No results found';
 $txt['find_results'] = 'Results';
@@ -781,7 +781,7 @@ $txt['privacy_self'] = 'Self';
 
 // These aren't currently in use.
 // $txt['privacy_everywhere'] = 'Everywhere';
-// $txt['privacy_friends'] = 'Friends';
+// $txt['privacy_contacts'] = 'Contacts';
 
 // Do not use double quotes in the form_* text strings. (Why would you?)
 $txt['form_submit'] = 'Submit';
