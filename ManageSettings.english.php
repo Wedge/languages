@@ -257,6 +257,7 @@ $txt['modfilter_regex_contains'] = 'contains';
 $txt['modfilter_regex_ends'] = 'ends with';
 $txt['modfilter_regex_matches'] = 'matches';
 $txt['modfilter_regex_regex'] = 'matches regular expression';
+$txt['modfilter_be_case_sensitive'] = 'Be case sensitive (treat UPPER and lower case differently)';
 $txt['modfilter_save_this_rule'] = 'Save this rule';
 
 $txt['member_options_desc'] = 'From this page you can configure general options that apply to all members of your community.';
