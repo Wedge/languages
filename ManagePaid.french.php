@@ -67,8 +67,8 @@ $txt['paid_note'] = '<strong class="alert">Note</strong>&nbsp;:<br>Pour que les 
 // View subscription strings.
 $txt['paid_name'] = 'Nom';
 $txt['paid_status'] = 'État';
-$txt['paid_cost'] = 'Prix';
-$txt['paid_duration'] = 'Durée';
+$txt['paid_cost'] = 'Prix&nbsp;';
+$txt['paid_duration'] = 'Durée&nbsp;';
 $txt['paid_active'] = 'Actif';
 $txt['paid_pending'] = 'Paiement en attente';
 $txt['paid_finished'] = 'Expiré';
@@ -199,7 +199,7 @@ $txt['subscriptions'] = 'Abonnements';
 $txt['subscription'] = 'Abonnement';
 $txt['paid_subs_desc'] = 'Vous trouverez ci-dessous la liste des abonnements disponibles pour ce site.';
 $txt['paid_subs_none'] = 'Il n\'y a actuellement aucun abonnement payant en place&nbsp;!';
-$txt['paid_subs_admin_override'] = 'Cet utilisateur n\'est dans aucun des groupes autorisés à prendre cet abonnement.';
+$txt['paid_subs_admin_override'] = 'L\'utilisateur n\'est dans aucun des groupes autorisés à prendre cet abonnement.';
 
 $txt['paid_current'] = 'Abonnements existants';
 $txt['pending_payments'] = 'Paiements en attente';
