@@ -174,6 +174,7 @@ $txt['setting_warning_show_all'] = 'All Users';
 
 $txt['modfilter_norules'] = 'There are no filter rules set up.';
 $txt['modfilter_addrule'] = 'Add a filter rule';
+$txt['modfilter_editrule'] = 'Edit filter rule';
 $txt['modfilter_rule_posts'] = 'When saving any post:';
 $txt['modfilter_rule_topics'] = 'When starting a new topic:';
 $txt['modfilter_action_prevent'] = 'Prevent the post being saved';
@@ -260,6 +261,7 @@ $txt['modfilter_regex_regex'] = 'matches regular expression';
 $txt['modfilter_be_case_sensitive'] = 'Be case sensitive (treat UPPER and lower case differently)';
 $txt['modfilter_save_this_rule'] = 'Save this rule';
 $txt['modfilter_error_saving'] = 'This rule could not be saved, there was something wrong in sending the data. Please go back and try again.';
+$txt['modfilter_rule_not_found'] = 'The rule you are trying to edit does not exist.';
 
 $txt['member_options_desc'] = 'From this page you can configure general options that apply to all members of your community.';
 $txt['allow_editDisplayName'] = 'Allow members to edit their displayed name';
