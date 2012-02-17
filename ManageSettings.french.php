@@ -173,6 +173,7 @@ $txt['setting_warning_show_all'] = 'Tout le monde';
 
 $txt['modfilter_norules'] = 'Aucune règle de filtrage pour le moment.';
 $txt['modfilter_addrule'] = 'Ajouter une règle de filtrage';
+$txt['modfilter_editrule'] = 'Modifier la règle de filtrage';
 $txt['modfilter_rule_posts'] = 'En soumettant un message&nbsp;:';
 $txt['modfilter_rule_topics'] = 'En démarrant un nouveau sujet&nbsp;:';
 $txt['modfilter_action_prevent'] = 'Empêcher le message d\'être sauvegardé';
@@ -258,7 +259,9 @@ $txt['modfilter_regex_matches'] = 'correspond à l\'expression régulière';
 $txt['modfilter_regex_regex'] = 'contient à l\'expression régulière';
 $txt['modfilter_be_case_sensitive'] = 'Respecter la casse (minuscules et majuscules vues différemment)';
 $txt['modfilter_save_this_rule'] = 'Sauvegarder cette règle';
+$txt['modfilter_remove_this_rule'] = 'Supprimer cette règle';
 $txt['modfilter_error_saving'] = 'Une erreur s\'est produit lors de l\'envoi des données, la règle n\'a pas pu être sauvegardée. Retournez en arrière et réessayez.';
+$txt['modfilter_rule_not_found'] = 'La règle que vous essayez de modifier est introuvable.';
 
 $txt['member_options_desc'] = 'Cette section vous permet de configurer les options générales qui s\'appliquent aux membres de votre communauté.';
 $txt['allow_editDisplayName'] = 'Permettre aux membres de modifier leur pseudonyme';

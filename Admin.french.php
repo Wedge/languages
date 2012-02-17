@@ -286,6 +286,15 @@ $txt['support_versions_db'] = 'Version %1$s';
 $txt['support_versions_server'] = 'Version du serveur';
 $txt['support_versions_gd'] = 'Version de GD';
 $txt['support_versions'] = 'Infos sur la version';
+$txt['support_safe_mode'] = '<a href="http://php.net/manual/features.safe-mode.php">Safe Mode</a>';
+$txt['support_safe_mode_enabled'] = 'actif. (It can cause conflicts with Wedge. Please <span class="alert">disable it</span> if possible!)';
+$txt['support_safe_mode_disabled'] = 'inactif';
+$txt['support_available'] = 'disponible';
+$txt['support_not_available'] = 'non disponible';
+$txt['support_ffmpeg'] = 'FFMPEG';
+$txt['support_imagemagick'] = 'ImageMagick';
+$txt['support_MW'] = 'MagickWand';
+$txt['support_imagick'] = 'IMagick';
 
 $txt['support_latest'] = 'Questions fréquentes &amp; réponses';
 $txt['support_latest_fetch'] = 'Recherche les informations de support&hellip;';
