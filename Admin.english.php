@@ -286,6 +286,10 @@ $txt['support_versions_db'] = '%1$s version';
 $txt['support_versions_server'] = 'Server version';
 $txt['support_versions_gd'] = 'GD version';
 $txt['support_versions'] = 'Version Information';
+$txt['support_safe_mode'] = 'Safe Mode';
+$txt['support_safe_mode_enabled'] = 'enabled. (It can cause conflicts with Wedge. Please <span style="color: red">disable it</span> if possible!)';
+$txt['support_safe_mode_disabled'] = 'disabled';
+
 
 $txt['support_latest'] = 'Common Support &amp; Issues';
 $txt['support_latest_fetch'] = 'Retrieving support information...';

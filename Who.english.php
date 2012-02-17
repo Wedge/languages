@@ -143,7 +143,7 @@ $txt['credits_moderators_n'] = 'Moderators';
 $txt['credits_software'] = 'Software Credits';
 $txt['credits_wedge'] = 'Wedge is copyright © 2010-2012 by Wedgeward (René-Gilles Deberdt and Peter Spicer), and distributed under the <a href="http://wedge.org/license/">Wedge license</a>.';
 $txt['credits_team'] = 'The Wedge Team';
-$txt['credits_smf2'] = 'Uses portions from <a href="http://www.simplemachines.org/">SMF 2.0</a>, copyright © Simple Machines 2011, all rights reserved. SMF is covered by the <a href="http://www.simplemachines.org/about/smf/license.php">BSD</a> licensed, and developped by %1$s and %2$s.';
+$txt['credits_smf2'] = 'Uses portions from <a href="http://www.simplemachines.org/">SMF 2.0</a>, copyright © Simple Machines 2011, all rights reserved. SMF is covered by the <a href="http://www.simplemachines.org/about/smf/license.php">BSD</a> license, and developed by %1$s and %2$s.';
 $txt['credits_special'] = 'Special Thanks';
 $txt['credits_copyright'] = 'Copyrights';
 $txt['credits_forum'] = 'Forum';
