@@ -320,12 +320,6 @@ $txt['media_admin_maintenance_checkorphans_no_files'] = 'No orphan files found';
 $txt['media_admin_maintenance_clear_pending'] = 'The script is still working. Currently %s out of %s items are done.<br><br>Please <a href="%s">click here</a> to continue. Make sure you wait 1-2 seconds to avoid overload.';
 $txt['media_admin_maintenance_clear_done'] = 'All files have been successfully renamed.';
 $txt['media_admin_installed_on'] = 'Installed on';
-$txt['media_admin_ffmpeg'] = ' FFMPEG';
-$txt['media_admin_wedge_ver'] = 'Wedge Version';
-$txt['media_admin_php_ver'] = 'PHP Version';
-$txt['media_admin_about_header'] = 'Server information and installed modules';
-$txt['media_admin_credits_thanks'] = 'The people who made this Media area possible!';
-$txt['media_admin_credits'] = 'Credits';
 $txt['media_admin_about_modd'] = 'Gallery moderators and managers';
 $txt['media_admin_managers'] = 'Managers';
 $txt['media_admin_moderators'] = 'Moderators';
@@ -339,8 +333,6 @@ $txt['media_admin_ftp_halted'] = 'The script is taking a short break to avoid se
 $txt['media_admin_perms_desc'] = 'Here you can manage the different permission profiles, which allow you to control per-album accesses.';
 $txt['media_admin_prof_del_switch_help'] = 'If you want to delete a profile that is currently being used, the albums using it will require another profile to be assigned to them.';
 $txt['media_admin_quotas_desc'] = 'Here you can manage the Membergroup Quota profiles';
-$txt['media_admin_safe_mode'] = 'PHP\'s Safe Mode is enabled. It may cause conflicts with the Media feature. Please <span style="color: red">disable it</span> or read the documentation in the MGallerySafeMode.php file!';
-$txt['media_admin_safe_mode_none'] = 'PHP\'s Safe Mode is disabled. Good thing.';
 $txt['media_admin_perms_warning'] = '<strong>Warning</strong>: this page is only for album permissions. General access permissions for the Media area are to be set membergroup by membergroup, in the regular <a href="%s">administration area</a>.';
 
 // Per-album Permissions

@@ -153,7 +153,6 @@ $txt['media_top_items_comments'] = 'Top 5 Items by comments';
 $txt['media_top_items_rating'] = 'Top 5 Items by rating';
 $txt['media_top_items_voters'] = 'Top 5 Items by voters';
 $txt['media_filename'] = 'Filename';
-$txt['media_aka'] = 'a.k.a.';
 $txt['media_no_comments'] = 'No comments';
 $txt['media_no_items'] = 'No items';
 $txt['media_no_albums'] = 'No Albums';

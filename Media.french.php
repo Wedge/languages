@@ -145,7 +145,6 @@ $txt['media_top_items_comments'] = 'Top 5 des Éléments par commentaires';
 $txt['media_top_items_rating'] = 'Top 5 des Éléments par note';
 $txt['media_top_items_voters'] = 'Top 5 des Éléments par votes';
 $txt['media_filename'] = 'Nom du fichier';
-$txt['media_aka'] = 'alias';
 $txt['media_no_comments'] = 'Pas de commentaires';
 $txt['media_no_items'] = 'Pas d\'éléments';
 $txt['media_no_albums'] = 'Pas d\'albums';

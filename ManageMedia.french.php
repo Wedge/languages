@@ -320,12 +320,6 @@ $txt['media_admin_maintenance_checkorphans_no_files'] = 'Pas de fichiers orpheli
 $txt['media_admin_maintenance_clear_pending'] = 'Ce script est toujours actif. %s éléments sur %s sont terminés pour le moment.<br><br>Veuillez <a href="%s">cliquer ici</a> pour continuer. Assurez-vous d\'avoir attendu 1 à 2 secondes afin d\'éviter les surcharges.';
 $txt['media_admin_maintenance_clear_done'] = 'Tous les fichiers ont été renommés avec succès.';
 $txt['media_admin_installed_on'] = 'Installé le';
-$txt['media_admin_ffmpeg'] = ' FFMPEG';
-$txt['media_admin_wedge_ver'] = 'Version de Wedge';
-$txt['media_admin_php_ver'] = 'Version de PHP';
-$txt['media_admin_about_header'] = 'Informations sur le serveur et ses modules installés';
-$txt['media_admin_credits_thanks'] = 'Ceux qui ont rendu la section Media possible&nbsp;!';
-$txt['media_admin_credits'] = 'Crédits';
 $txt['media_admin_about_modd'] = 'Modérateurs et gérants du module';
 $txt['media_admin_managers'] = 'Gérants';
 $txt['media_admin_moderators'] = 'Modérateurs';
@@ -339,8 +333,6 @@ $txt['media_admin_ftp_halted'] = 'Importation mise en pause pour éviter une sur
 $txt['media_admin_perms_desc'] = 'Cette section vous permet de gérer les différents profils de permissions, destinés à gérer les autorisations sur les albums.';
 $txt['media_admin_prof_del_switch_help'] = 'Si vous désirez supprimer un profil utilisé par un ou plusieurs albums, vous devrez attribuer un autre profil aux albums en question.';
 $txt['media_admin_quotas_desc'] = 'D\'ici, vous pouvez gérer les profils de quotas des groupes de membres. Oui, ça fait peur rien qu\'à le prononcer, ça.';
-$txt['media_admin_safe_mode'] = 'Le Safe Mode de PHP est activé. Il peut causer des conflits avec les fonctionnalités Media. Merci de le <span style="color: red">désactiver</span> ou de lire la documentation dans le fichier MGallerySafeMode.php !';
-$txt['media_admin_safe_mode_none'] = 'Le Safe Mode de PHP est désactivé. Bonne nouvelle !';
 $txt['media_admin_perms_warning'] = '<strong>Attention</strong>, les permissions générales d\'accès à la section Media sont à régler, groupe de membre par groupe de membre, dans <a href="%s">l\'administration classique</a>.';
 
 // Per-album Permissions

@@ -289,7 +289,12 @@ $txt['support_versions'] = 'Version Information';
 $txt['support_safe_mode'] = 'Safe Mode';
 $txt['support_safe_mode_enabled'] = 'enabled. (It can cause conflicts with Wedge. Please <span style="color: red">disable it</span> if possible!)';
 $txt['support_safe_mode_disabled'] = 'disabled';
-
+$txt['support_ffmpeg'] = 'FFMPEG';
+$txt['support_available'] = 'available';
+$txt['support_not_available'] = 'not available';
+$txt['support_imagemagick'] = 'ImageMagick';
+$txt['support_MW'] = 'MagickWand';
+$txt['support_imagick'] = 'IMagick';
 
 $txt['support_latest'] = 'Common Support &amp; Issues';
 $txt['support_latest_fetch'] = 'Retrieving support information...';
