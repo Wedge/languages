@@ -260,6 +260,7 @@ $txt['modfilter_regex_matches'] = 'matches';
 $txt['modfilter_regex_regex'] = 'matches regular expression';
 $txt['modfilter_be_case_sensitive'] = 'Be case sensitive (treat UPPER and lower case differently)';
 $txt['modfilter_save_this_rule'] = 'Save this rule';
+$txt['modfilter_remove_this_rule'] = 'Remove this rule';
 $txt['modfilter_error_saving'] = 'This rule could not be saved, there was something wrong in sending the data. Please go back and try again.';
 $txt['modfilter_rule_not_found'] = 'The rule you are trying to edit does not exist.';
 
