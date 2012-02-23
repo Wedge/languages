@@ -3,12 +3,12 @@
 
 // Symbols.
 $txt['usd_symbol'] = '$%1.2f';
-$txt['eur_symbol'] = '%1.2f €';
-$txt['gbp_symbol'] = '£ %1.2f';
+$txt['eur_symbol'] = '%1.2f â‚¬';
+$txt['gbp_symbol'] = 'Â£ %1.2f';
 
 $txt['usd'] = 'USD ($)';
-$txt['eur'] = 'EURO (€)';
-$txt['gbp'] = 'GBP (£)';
+$txt['eur'] = 'EURO (â‚¬)';
+$txt['gbp'] = 'GBP (Â£)';
 $txt['other'] = 'Other';
 
 $txt['paid_username'] = 'Username';
@@ -97,6 +97,8 @@ $txt['paid_mod_cost_eur'] = 'Cost (EUR)';
 $txt['paid_mod_cost_gbp'] = 'Cost (GBP)';
 $txt['paid_mod_cost_blank'] = 'Leave this blank to not offer this currency.';
 $txt['paid_mod_span'] = 'Length of Subscription';
+$txt['paid_mod_span_lifetime'] = 'Lifetime';
+$txt['paid_mod_span_lifetime_expires'] = 'Never (lifetime)';
 $txt['paid_mod_span_days'] = 'Days';
 $txt['paid_mod_span_weeks'] = 'Weeks';
 $txt['paid_mod_span_months'] = 'Months';
@@ -118,6 +120,7 @@ $txt['paid_mod_flexible_price'] = 'Subscription price varies on duration ordered
 $txt['paid_mod_price_breakdown'] = 'Flexible Price Breakdown';
 $txt['paid_mod_price_breakdown_desc'] = 'Define here how much the subscription should cost dependant on the period they subscribe for. For example, it could cost 12USD to subscribe for a month, but only 100USD for a year. If you don\'t want to define a price for a particular period of time leave it blank.';
 $txt['flexible'] = 'Flexible';
+$txt['paid_mod_lifetime_price'] = 'Subscription is a one-off payment';
 
 $txt['paid_per_day'] = 'Price Per Day';
 $txt['paid_per_week'] = 'Price Per Week';
