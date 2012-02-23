@@ -97,6 +97,8 @@ $txt['paid_mod_cost_eur'] = 'Prix (EUR)';
 $txt['paid_mod_cost_gbp'] = 'Prix (GBP)';
 $txt['paid_mod_cost_blank'] = 'Laissez vide pour ne pas proposer cette devise.';
 $txt['paid_mod_span'] = 'Durée d\'Abonnement';
+$txt['paid_mod_span_lifetime'] = 'À vie';
+$txt['paid_mod_span_lifetime_expires'] = 'Jamais (à vie)';
 $txt['paid_mod_span_days'] = 'Jours';
 $txt['paid_mod_span_weeks'] = 'Semaines';
 $txt['paid_mod_span_months'] = 'Mois';
@@ -118,6 +120,7 @@ $txt['paid_mod_flexible_price'] = 'Abonnement dont le prix dépend de la durée 
 $txt['paid_mod_price_breakdown'] = 'Détails sur le Prix Flexible';
 $txt['paid_mod_price_breakdown_desc'] = 'Définissez ici combien l\'abonnement coûtera selon la durée pour laquelle on y souscrit. Par exemple, il pourrait coûter 8€ pour un abonnement d\'un mois, mais seulement 50€ pour un an. Si vous ne voulez pas définir un prix pour une durée particulière, laissez vide.';
 $txt['flexible'] = 'Flexible';
+$txt['paid_mod_lifetime_price'] = 'La souscription est valable à vie, pas besoin de renouvellement';
 
 $txt['paid_per_day'] = 'Prix par Jour';
 $txt['paid_per_week'] = 'Prix par Semaine';
