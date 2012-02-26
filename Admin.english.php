@@ -596,6 +596,7 @@ $txt['moderation_settings_short'] = 'Moderation';
 $txt['member_options_title'] = 'Member Options';
 $txt['signature_settings_short'] = 'Signatures';
 $txt['custom_profile_shorttitle'] = 'Profile Fields';
+$txt['admin_personal_messages'] = 'Personal Messages';
 
 $txt['boardsEdit'] = 'Modify Boards';
 $txt['mboards_new_cat'] = 'Create New Category';

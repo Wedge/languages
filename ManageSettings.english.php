@@ -82,6 +82,10 @@ $txt['who_display_viewing_off'] = 'Don\'t show';
 $txt['who_display_viewing_numbers'] = 'Show only numbers';
 $txt['who_display_viewing_names'] = 'Show member names';
 
+$txt['pm_enabled'] = 'Enable personal messages between members';
+$txt['pm_read'] = 'Groups allowed to read their messages';
+$txt['pm_send'] = 'Groups allowed to send messages';
+
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important! Read this first before enabling these features.</div><br>
 	Wedge supports caching through the use of accelerators. The currently supported accelerators include:<br>
 	<ul class="normallist">
