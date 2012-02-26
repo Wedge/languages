@@ -126,6 +126,12 @@ $txt['loadavg_show_posts'] = 'Limite pour désactiver l\'affichage des messages'
 $txt['loadavg_forum'] = 'Limite pour désactiver <strong>complètement</strong> le forum';
 $txt['loadavg_disabled_conf'] = '<span class="error">La configuration de votre serveur ne supporte pas la répartition de charge.</span>';
 
+$txt['news_settings_submit'] = 'Enregistrer';
+$txt['xmlnews_enable'] = 'Activer les flux Atom';
+$txt['xmlnews_maxlen'] = 'Longueur maximale d\'un message&nbsp;:<dfn>(0 pour désactiver, mauvaise idée.)</dfn>';
+$txt['show_newsfader'] = 'Activer la rotation des nouvelles sur la page d\'accueil';
+$txt['newsfader_time'] = 'Délai d\'enchaînement entre les nouvelles rotatives';
+
 $txt['reverse_proxy'] = 'Ajouter le support des proxies inverses';
 $txt['reverse_proxy_header'] = 'Entête HTTP Proxy avec adresse IP';
 $txt['reverse_proxy_ips'] = 'IP ou bloc d\'adresses CIDR de serveurs proxy';

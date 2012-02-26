@@ -61,7 +61,6 @@ $txt['admin_match_case'] = 'Match case. If unchecked, search will be case insens
 $txt['admin_check_user'] = 'Check username.';
 $txt['admin_check_display'] = 'Check display name.';
 $txt['admin_newsletter_send'] = 'You can email anyone from this page. The email addresses of the selected membergroups should appear below, but you may remove or add any email addresses you wish. Be sure that each address is separated in this fashion: \'address1; address2\'.';
-$txt['admin_fader_delay'] = 'Fading delay between items for the news fader';
 
 $txt['admin_backup_fail'] = 'Failed to make backup of Settings.php - make sure Settings_bak.php exists and is writable.';
 $txt['database_server'] = 'Database Server';
@@ -440,12 +439,9 @@ $txt['attach_repair_wrong_folder'] = '%1$d attachments are in the wrong folder';
 
 $txt['news_title'] = 'News and Newsletters';
 $txt['news_settings_desc'] = 'Here you can change the settings and permissions related to news and newsletters.';
-$txt['news_settings_submit'] = 'Save';
 $txt['news_mailing_desc'] = 'From this menu you can send messages to all members who\'ve registered and entered their email addresses. You may edit the distribution list, or send messages to all. Useful for important update/news information.';
 $txt['groups_edit_news'] = 'Groups allowed to edit news items';
 $txt['groups_send_mail'] = 'Groups allowed to send out forum newsletters';
-$txt['xmlnews_enable'] = 'Enable Atom feeds';
-$txt['xmlnews_maxlen'] = 'Maximum message length:<dfn>(0 to disable, bad idea.)</dfn>';
 $txt['editnews_clickadd'] = 'Click here to add another item.';
 $txt['editnews_remove_selected'] = 'Remove selected';
 $txt['editnews_remove_confirm'] = 'Are you sure you want to delete the selected news items?';

@@ -133,6 +133,12 @@ $txt['loadavg_show_posts'] = 'Threshold to disabling showing user posts';
 $txt['loadavg_forum'] = 'Threshold to disabling the forum <strong>completely</strong>';
 $txt['loadavg_disabled_conf'] = '<span class="error">Load balancing support is disabled by your host configuration.</span>';
 
+$txt['news_settings_submit'] = 'Save';
+$txt['xmlnews_enable'] = 'Enable Atom feeds';
+$txt['xmlnews_maxlen'] = 'Maximum message length:<dfn>(0 to disable, bad idea.)</dfn>';
+$txt['show_newsfader'] = 'Show news fader on board index';
+$txt['newsfader_time'] = 'Fading delay between items for the news fader';
+
 $txt['reverse_proxy'] = 'Enable reverse proxy support';
 $txt['reverse_proxy_header'] = 'Proxy HTTP header with IP address';
 $txt['reverse_proxy_ips'] = 'IP or CIDR block addresses of proxy servers';

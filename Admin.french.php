@@ -61,7 +61,6 @@ $txt['admin_match_case'] = 'Concordance avec la casse. Si décoché, recherchera
 $txt['admin_check_user'] = 'Vérifier les identifiants.';
 $txt['admin_check_display'] = 'Vérifier les pseudonymes.';
 $txt['admin_newsletter_send'] = 'Vous pouvez envoyer un e-mail à n\'importe qui à partir de cette page. Les adresses e-mail des groupes de membres sélectionnés devraient apparaîre ci-dessous, mais vous pouvez enlever ou ajouter n\'importe quelle adresse de votre choix. Veillez à vérifiez de séparer chaque adresse selon ce format&nbsp;: \'adresse1@qqch.com; adresse2@qqch.com\'.';
-$txt['admin_fader_delay'] = 'Délai d\'enchaînement entre les nouvelles rotatives';
 
 $txt['admin_backup_fail'] = 'Impossible de créer une copie de secours (backup) de Settings.php. Assurez-vous que Settings_bak.php existe et possède les bons droits d\'accès.';
 $txt['database_server'] = 'Serveur de base de données';
@@ -440,12 +439,9 @@ $txt['attach_repair_wrong_folder'] = '%1$d fichiers joints sont dans le mauvais 
 
 $txt['news_title'] = 'Nouvelles et infolettres';
 $txt['news_settings_desc'] = 'Ici vous pouvez changer les options et permissions relatives aux nouvelles et aux infolettres.';
-$txt['news_settings_submit'] = 'Enregistrer';
 $txt['news_mailing_desc'] = 'Depuis ce menu vous pouvez envoyer des messages à tous les membres qui se sont inscrits et ont spécifié leur adresse e-mail. Vous pouvez modifier la liste de distribution, ou envoyer un message à tous. Utile pour informer des mises à jour et nouvelles importantes.';
 $txt['groups_edit_news'] = 'Groupes autorisés à modifier les nouvelles';
 $txt['groups_send_mail'] = 'Groupes autorisés à envoyer les infolettres du forum';
-$txt['xmlnews_enable'] = 'Activer les flux Atom';
-$txt['xmlnews_maxlen'] = 'Longueur maximale d\'un message&nbsp;:<dfn>(0 pour désactiver, mauvaise idée.)</dfn>';
 $txt['editnews_clickadd'] = 'Cliquez ici pour ajouter un item.';
 $txt['editnews_remove_selected'] = 'Supprimer la sélection';
 $txt['editnews_remove_confirm'] = 'Voulez-vous vraiment supprimer les nouvelles sélectionnées ?';

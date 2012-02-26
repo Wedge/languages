@@ -71,7 +71,6 @@ $txt['last_modification'] = 'Afficher la dernière date de modification dans les
 $txt['user_avatars'] = 'Afficher les avatars des membres dans les messages';
 $txt['user_text'] = 'Afficher le texte personnel dans les messages';
 $txt['gender_images'] = 'Afficher les images du sexe (h/f) dans les messages';
-$txt['news_fader'] = 'Activer la rotation des nouvelles sur la page d\'accueil';
 $txt['member_list_bar'] = 'Afficher la liste des membres sur l\'accueil du forum';
 $txt['show_view_profile_button'] = 'Afficher le bouton de profil dans les messages';
 $txt['header_logo_url'] = 'URL vers l\'image de logo';
