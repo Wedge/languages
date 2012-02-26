@@ -274,6 +274,7 @@ $txt['signature_settings'] = 'Signature Settings';
 $txt['signature_settings_desc'] = 'Use the settings on this page to decide what facilities members should have for their signatures.';
 $txt['signature_settings_warning'] = 'Note that settings are not applied to existing signatures by default. Click <a href="%1$s?action=admin;area=memberoptions;sa=sig;apply;%2$s">here</a> to apply rules to all existing signatures.';
 $txt['signature_enable'] = 'Enable signatures';
+$txt['signature_minposts'] = 'Minimum number of posts for signatures to be visible';
 $txt['signature_max_length'] = 'Maximum allowed characters<dfn>(0 for no max.)</dfn>';
 $txt['signature_max_lines'] = 'Maximum amount of lines<dfn>(0 for no max)</dfn>';
 $txt['signature_max_images'] = 'Maximum image count<dfn>(0 for no max - excludes smileys)</dfn>';
