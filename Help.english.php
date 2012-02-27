@@ -49,14 +49,14 @@ $helptxt['manage_boards'] = '
 $helptxt['need_deny_perm'] = '
 	Normally, controlling access to boards is simple enough - users who
 	should see a board are given access, and those who should not see
-	it (or enter it) are not.<br>
+	it (or enter it) are not.<br><br>
 	Sometimes, though, you may want to specifically prevent a group from
 	seeing a board, but some users in that group may be in other groups
 	that would normally allow them in. For example, you may have a group
 	for troublemakers, that you want to put people into, so you can find
 	them easily later. You may want to prevent users in this troublemakers
 	group from accessing certain boards - this is what "deny" permission
-	is used for.<br>
+	is used for.<br><br>
 	A group that has been denied from viewing (or entering) a board will
 	be prevented from doing so, regardless of any other groups they are
 	members of, with the exception of administrators.';
