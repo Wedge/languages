@@ -51,6 +51,15 @@ $txt['mboards_groups'] = 'Allowed Groups';
 $txt['mboards_groups_desc'] = 'Groups allowed to access this board.<br><em>Note: if the member is in any group or post group checked, they will have access to this board.</em>';
 $txt['mboards_groups_regular_members'] = 'This group contains all members that have no primary group set.';
 $txt['mboards_groups_post_group'] = 'This group is a post count based group.';
+
+$txt['mboards_yes'] = 'Yes';
+$txt['mboards_no'] = 'No';
+$txt['mboards_never'] = 'Never';
+$txt['mboards_view_board'] = 'Who can see this board';
+$txt['mboards_enter_board'] = 'Who can enter this board';
+$txt['mboards_groups_view_enter_same'] = 'All groups who can see a board can enter it as well';
+$txt['mboards_groups_need_deny_perm'] = 'I want to deny a group from this board';
+
 $txt['mboards_moderators'] = 'Moderators';
 $txt['mboards_moderators_desc'] = 'Additional members to have moderation privileges on this board.  Note that administrators don\'t have to be listed here.';
 $txt['mboards_count_posts'] = 'Count Posts';
