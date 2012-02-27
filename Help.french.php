@@ -45,6 +45,19 @@ $helptxt['manage_boards'] = '
 	sous chaque catégorie, réordonner les sections (placer "Twingo" sous "Renault"), ou
 	supprimer une section entièrement.';
 
+$helptxt['need_deny_perm'] = '
+	Normalement, le contrôle de l\'accès aux sections est assez simple&nbsp;: les utilisateurs
+	qui peuvent voir une section dans la liste peuvent aussi y accéder, et ceux qui n\'y ont pas
+	accès ne pourront pas la voir dans la liste.<br><br>
+	Toutefois, il peut arriver que vous décidiez d\'empêcher un groupe de voir une section
+	dans la liste, même si certains de ses membres y ont accès via un autre groupe auquel ils
+	appartiendraient. Par exemple, un groupe destiné à réunir les trolleurs et autres gêneurs
+	à surveiller. Vous pourriez vouloir empêcher aux membres de ce groupe d\'accéder à certains
+	groupes&nbsp;; l\'interdiction de permission est faite pour cela.<br><br>
+	Un membre d\'un groupe à qui l\'on empêche de voir ou d\'accéder à une section ne pourra pas le faire,
+	même s\'il appartient aussi à un autre groupe qui, lui, en a le droit. Seuls les administrateurs
+	sont exempts de toute interdiction.';
+
 $helptxt['edit_news'] = '
 	<ul class="normallist">
 		<li>
@@ -592,6 +605,8 @@ $helptxt['custom_mask'] = 'Le masque d\'entrée est important pour la sécurité
 $helptxt['reverse_proxy'] = 'Si vous utilisez Bad Behavior derrière un proxy inverse, un répartiteur de charge, un accélérateur HTTP, un cache de contenu ou une autre technologie similaire, activez cette option.';
 $helptxt['reverse_proxy_header'] = 'Votre ou vos serveurs proxy inverses doivent placer dans une entête HTTP l\'adresse IP du client Internet dont ils ont reçu la requête. En général, <a href="http://en.wikipedia.org/wiki/X-Forwarded-For">X-Forwarded-For</a> sera de mise, parce qu\'il est supporté par la plupart des serveurs proxy, mais assurez-vous bien qu\'il soit activé sur le vôtre. D\'autres entêtes possibles&nbsp;: "X-Real-Ip" (nginx) et "Cf-Connecting-Ip" (CloudFlare).';
 $helptxt['reverse_proxy_ips'] = 'Cette zone vous permet de lister les adresses IP dans le style classique (par ex. 127.0.0.1), ou par blocs CIDR (par ex. 127.0.0.0/8). Si vous avez une chaîne de deux (ou plus) proxies inverses entre votre serveur et l\'Internet public, vous devez spécifier <em>toutes</em> les zones IP (au format CIDR) de tous vos serveurs proxy, répartiteurs de charge, etc. Si vous ne le faites pas, il sera impossible de déterminer la véritable adresse IP du client.';
+
+$helptxt['signature_minposts'] = 'Certains administrateurs préfèrent activer des permissions pour l\'affichage des signatures, d\'autres préfèreront permettre l\'ajout d\'une signature, mais sans la montrer publiquement. Cela peut peut-être aider à décourager le spam.';
 
 // Help popup for the Media tag...
 $helptxt['mediatag'] = '<h2>Le tag [media] et autres joyeusetés.</h2>

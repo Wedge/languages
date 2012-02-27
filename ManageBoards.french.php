@@ -51,6 +51,15 @@ $txt['mboards_groups'] = 'Groupes autorisés';
 $txt['mboards_groups_desc'] = 'Groupes autorisés à voir et à accéder à cette section.<br><em>Si un membre est dans un des groupes autorisés ou que &quot;Membres inscrits&quot; est sélectionné, il aura accès à la section.</em>';
 $txt['mboards_groups_regular_members'] = 'Ce groupe contient tous les membres à qui aucun groupe principal n\'a été attribué.';
 $txt['mboards_groups_post_group'] = 'Ce groupe est attribué en fonction du nombre de messages postés.';
+
+$txt['mboards_yes'] = 'Oui';
+$txt['mboards_no'] = 'Non';
+$txt['mboards_never'] = 'Jamais';
+$txt['mboards_view_board'] = 'Qui peut voir cette section';
+$txt['mboards_enter_board'] = 'Qui peut y accéder';
+$txt['mboards_groups_view_enter_same'] = 'Tous les groupes pouvant voir une section peuvent aussi y accéder';
+$txt['mboards_groups_need_deny_perm'] = 'Activer la possibilité d\'interdire l\'accès à un groupe particulier';
+
 $txt['mboards_moderators'] = 'Modérateurs';
 $txt['mboards_moderators_desc'] = 'Membres ayant des privilèges de modérateur local sur cette section seulement. Les administrateurs et les modérateurs globaux n\'ont pas à être listés ici.';
 $txt['mboards_count_posts'] = 'Comptabiliser les messages';

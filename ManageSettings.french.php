@@ -82,6 +82,12 @@ $txt['who_display_viewing_off'] = 'Ne pas montrer';
 $txt['who_display_viewing_numbers'] = 'Ne montrer que les nombres';
 $txt['who_display_viewing_names'] = 'Montrer les pseudonymes des membres';
 
+$txt['pm_enabled'] = 'Activer la messagerie entre membres';
+$txt['pm_read'] = 'Groupes autorisés à lire leurs messages';
+$txt['pm_send'] = 'Groupes autorisés à envoyer des messages';
+$txt['save_pm_draft'] = 'Groupes autorisés à sauvegarder des brouillons';
+$txt['auto_save_pm_draft'] = 'Groupes pour lesquels les brouillons sont automatiques';
+
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important&nbsp;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br>
 	Wedge peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&nbsp;:<br>
 	<ul class="normallist">
@@ -279,6 +285,7 @@ $txt['signature_settings'] = 'Paramètres de Signature';
 $txt['signature_settings_desc'] = 'Utilisez les paramètres de cette page pour décider des fonctionnalités offertes aux membres pour leurs signatures.';
 $txt['signature_settings_warning'] = 'Notez que par défaut, ces paramètres ne sont pas appliqués sur les signatures existantes. Cliquez <a href="%1$s?action=admin;area=memberoptions;sa=sig;apply;%2$s">ici</a> pour appliquer les règles à toutes les signatures existantes.';
 $txt['signature_enable'] = 'Activer les signatures';
+$txt['signature_minposts'] = 'Nombre minimal de messages pour que la signature devienne visible';
 $txt['signature_max_length'] = 'Nombre maximal de caractères autorisé<dfn>(0 pour pas de max.)</dfn>';
 $txt['signature_max_lines'] = 'Nombre maximal de lignes<dfn>(0 pour pas de max)</dfn>';
 $txt['signature_max_images'] = 'Nombre maximal d\'images<dfn>(0 pour pas de max - à l\'exception des smileys)</dfn>';
