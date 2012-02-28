@@ -587,7 +587,6 @@ $txt['admin_search_section_settings'] = 'Setting';
 
 $txt['mods_cat_features'] = 'General';
 $txt['antispam_title'] = 'Anti-Spam';
-$txt['mods_cat_modifications_misc'] = 'Miscellaneous';
 $txt['moderation_settings_short'] = 'Moderation';
 $txt['member_options_title'] = 'Member Options';
 $txt['signature_settings_short'] = 'Signatures';
