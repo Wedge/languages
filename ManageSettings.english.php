@@ -89,7 +89,6 @@ $txt['caching_information'] = '<div class="center" style="font-weight: bold; tex
 	Wedge supports caching through the use of accelerators. The currently supported accelerators include:<br>
 	<ul class="normallist">
 		<li>APC</li>
-		<li>eAccelerator</li>
 		<li>Memcached</li>
 		<li>Zend Platform/Performance Suite (Not Zend Optimizer)</li>
 		<li>XCache</li>
@@ -108,7 +107,6 @@ $txt['caching_information'] = '<div class="center" style="font-weight: bold; tex
 
 $txt['detected_no_caching'] = '<strong class="alert">Wedge was unable to detect a compatible accelerator on your server.</strong>';
 $txt['detected_APC'] = '<strong style="color: green">Wedge has detected that your server has APC installed.</strong>';
-$txt['detected_eAccelerator'] = '<strong style="color: green">Wedge has detected that your server has eAccelerator installed.</strong>';
 $txt['detected_Zend'] = '<strong style="color: green">Wedge has detected that your server has Zend installed.</strong>';
 $txt['detected_Memcached'] = '<strong style="color: green">Wedge has detected that your server has Memcached installed.</strong>';
 $txt['detected_XCache'] = '<strong style="color: green">Wedge has detected that your server has XCache installed.</strong>';

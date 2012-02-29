@@ -89,7 +89,6 @@ $txt['caching_information'] = '<div class="center" style="font-weight: bold; tex
 	Wedge peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&nbsp;:<br>
 	<ul class="normallist">
 		<li>APC</li>
-		<li>eAccelerator</li>
 		<li>Memcached</li>
 		<li>Zend Platform/Performance Suite (pas Zend Optimizer)</li>
 	</ul>
@@ -107,7 +106,6 @@ $txt['caching_information'] = '<div class="center" style="font-weight: bold; tex
 
 $txt['detected_no_caching'] = '<strong class="alert">Wedge n\'a pas pu détecter d\'accélérateur compatible sur votre serveur.</strong>';
 $txt['detected_APC'] = '<strong style="color: green">Wedge a détecté qu\'APC est installé sur votre serveur.</strong>';
-$txt['detected_eAccelerator'] = '<strong style="color: green">Wedge a détecté qu\'eAccelerator est installé sur votre serveur.</strong>';
 $txt['detected_Zend'] = '<strong style="color: green">Wedge a détecté que Zend est installé sur votre serveur.</strong>';
 $txt['detected_Memcached'] = '<strong style="color: green">Wedge a détecté que Memcached est installé sur votre serveur.</strong>';
 $txt['detected_XCache'] = '<strong style="color: green">Wedge a détecté que XCache est installé sur votre serveur.</strong>';
