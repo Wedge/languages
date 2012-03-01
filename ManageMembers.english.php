@@ -88,6 +88,7 @@ $txt['admin_browse_username'] = 'Username';
 $txt['admin_browse_email'] = 'Email Address';
 $txt['admin_browse_ip'] = 'IP Address';
 $txt['admin_browse_registered'] = 'Registered';
+$txt['admin_browse_login'] = 'Last Login';
 $txt['admin_browse_id'] = 'ID';
 $txt['admin_browse_with_selected'] = 'With Selected';
 $txt['admin_browse_no_members_approval'] = 'No members currently await approval.';
