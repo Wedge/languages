@@ -123,6 +123,7 @@ $txt['cannot_view_attachments'] = 'It seems that you are not allowed to download
 $txt['cannot_view_mlist'] = 'You can\'t view the memberlist because you don\'t have permission to.';
 $txt['cannot_view_stats'] = 'You aren\'t allowed to view the forum statistics.';
 $txt['cannot_who_view'] = 'Sorry - you don\'t have the proper permissions to view the Who\'s Online list.';
+$txt['stats_not_available'] = 'The forum statistics are not available.';
 
 $txt['no_theme'] = 'That theme does not exist.';
 $txt['theme_dir_wrong'] = 'The default theme\'s directory is wrong, please correct it by clicking this text.';

@@ -63,7 +63,6 @@ $txt['enable_random_news'] = 'Afficher les nouvelles dans l\'entête du forum';
 $txt['show_group_key'] = 'Montrer la liste des groupes sur l\'accueil du forum';
 $txt['enable_single_post'] = 'Activer un seul message';
 $txt['enable_multiple_posts'] = 'Activer plusieurs messages';
-$txt['enable_inline_links'] = 'Activer l\'arborescence en une ligne';
 $txt['inline_desc'] = 'Activer ceci affichera l\'arborescence de votre position actuelle en une seule ligne, et non pas en branches.';
 $txt['show_stats_index'] = 'Montrer les statistiques sur l\'accueil du forum';
 $txt['latest_members'] = 'Afficher le dernier membre sur l\'accueil du forum';

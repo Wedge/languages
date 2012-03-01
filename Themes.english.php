@@ -63,7 +63,6 @@ $txt['enable_random_news'] = 'Enable random news line in the forum header';
 $txt['show_group_key'] = 'Show group key on board index';
 $txt['enable_single_post'] = 'Enable single post';
 $txt['enable_multiple_posts'] = 'Enable multiple posts';
-$txt['enable_inline_links'] = 'Enable inline links';
 $txt['inline_desc'] = 'Enabling this will cause your current location to be drawn in a single line, as opposed to in a tree-like manner.';
 $txt['show_stats_index'] = 'Show statistics on board index';
 $txt['latest_members'] = 'Show latest member on board index';

@@ -218,7 +218,9 @@ $txt['female'] = 'Female';
 $txt['error_invalid_characters_username'] = 'Invalid character used in Username.';
 
 $txt['welcome_guest'] = 'Welcome, <strong>%1$s</strong>. Please <a href="<URL>?action=login">login</a> or <a href="<URL>?action=register">register</a>.';
+$txt['welcome_guest_noregister'] = 'Welcome, <strong>%1$s</strong>. Please <a href="<URL>?action=login">login</a>.';
 $txt['login_or_register'] = 'Please <a href="<URL>?action=login">login</a> or <a href="<URL>?action=register">register</a>.';
+$txt['please_login'] = 'Please <a href="<URL>?action=login">login</a>.';
 $txt['welcome_guest_activate'] = '<br>Did you miss your <a href="<URL>?action=activate">activation email</a>?';
 $txt['hello_member'] = 'Hey,';
 // Use numeric entities in the below string.
