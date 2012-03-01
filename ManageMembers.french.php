@@ -88,6 +88,7 @@ $txt['admin_browse_username'] = 'Identifiant';
 $txt['admin_browse_email'] = 'Adresse e-mail';
 $txt['admin_browse_ip'] = 'Adresse IP';
 $txt['admin_browse_registered'] = 'Inscrit';
+$txt['admin_browse_login'] = 'Dernière connexion';
 $txt['admin_browse_id'] = 'ID';
 $txt['admin_browse_with_selected'] = 'Avec la sélection';
 $txt['admin_browse_no_members_approval'] = 'Aucun compte n\'est actuellement en attente d\'approbation.';

@@ -123,6 +123,7 @@ $txt['cannot_view_attachments'] = 'Il semble que vous n\'êtes pas autorisé à 
 $txt['cannot_view_mlist'] = 'Vous ne pouvez pas voir la liste des membres.';
 $txt['cannot_view_stats'] = 'Vous ne pouvez pas voir les statistiques du forum.';
 $txt['cannot_who_view'] = 'Désolé - vous n\'avez pas les permissions nécessaires pour voir la liste des membres en ligne.';
+$txt['stats_not_available'] = 'Les statistiques du forum sont désactivées.';
 
 $txt['no_theme'] = 'Ce thème n\'existe pas.';
 $txt['theme_dir_wrong'] = 'Le répertoire du thème par défaut est erroné, veuillez le corriger en cliquant sur ce texte.';

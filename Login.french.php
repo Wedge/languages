@@ -23,9 +23,8 @@ $txt['required_info'] = 'Informations requises';
 $txt['additional_information'] = 'Informations supplémentaires';
 $txt['warning'] = 'Attention&nbsp;!';
 $txt['only_members_can_access'] = 'Seuls les membres inscrits sont autorisés à accéder à cette section.';
-$txt['login_below'] = 'Merci de vous connecter ci-dessous ou';
-$txt['register_an_account'] = 'vous inscrire';
-$txt['login_with_forum'] = 'sur %1$s.';
+$txt['login_below'] = 'Connectez-vous à %1$s ci-dessous.';
+$txt['login_below_register'] = 'Connectez-vous à %1$s ci-dessous, ou <a href="%1$s">créez un compte</a>.';
 // Use numeric entities in the below two strings.
 $txt['may_change_in_profile'] = 'Vous pouvez le changer apr&#232;s vous &#234;tre connect&#233; en allant sur votre page de profil, ou en visitant cette page apr&#232;s identification&#160;:';
 $txt['your_username_is'] = 'Votre identifiant est';

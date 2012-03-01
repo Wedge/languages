@@ -19,6 +19,8 @@ $txt['number_format'] = '1 234,00';
 $txt['time_format'] = '%e %B %Y à %H:%M';
 $txt['time_format_this_year'] = '%e %B à %H:%M';
 
+$txt['page_indicator_n'] = ' - page %1$s';
+
 $txt['days'] = array('Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi');
 $txt['days_short'] = array('Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam');
 // Months must start with 1 => 'January'. (or translated, of course.)
@@ -215,8 +217,10 @@ $txt['female'] = 'Femme';
 
 $txt['error_invalid_characters_username'] = 'Caractère invalide dans l\'identifiant/pseudonyme.';
 
-$txt['welcome_guest'] = 'Bienvenue, <strong>%1$s</strong>. Merci de <a href="<URL>?action=login">vous connecter</a> ou de <a href="<URL>?action=register">vous inscrire</a>.';
-$txt['login_or_register'] = 'Merci de <a href="<URL>?action=login">vous connecter</a> ou de <a href="<URL>?action=register">vous inscrire</a>.';
+$txt['welcome_guest'] = 'Bienvenue, <strong>%1$s</strong>. Merci de vous <a href="<URL>?action=login">connecter</a> ou de vous <a href="<URL>?action=register">inscrire</a>.';
+$txt['welcome_guest_noregister'] = 'Bienvenue, <strong>%1$s</strong>. Merci de vous <a href="<URL>?action=login">connecter</a>.';
+$txt['login_or_register'] = 'Merci de vous <a href="<URL>?action=login">connecter</a> ou de vous <a href="<URL>?action=register">inscrire</a>.';
+$txt['please_login'] = 'Merci de vous <a href="<URL>?action=login">connecter</a>.';
 $txt['welcome_guest_activate'] = '<br>Perdu votre <a href="<URL>?action=activate">e-mail d\'activation</a> ?';
 $txt['hello_member'] = 'Coucou,';
 // Use numeric entities in the below string.
