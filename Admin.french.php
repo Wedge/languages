@@ -639,13 +639,16 @@ $txt['allow_ignore_topics'] = 'Permettre aux membres d\'ignorer des sujets';
 // Fusion des doublons
 $txt['merge_post_header'] = 'Fusion des doublons';
 $txt['merge_post_auto'] = 'Fusionner les doublons automatiquement<dfn>Dans un sujet, deux messages successifs d\'un même auteur sont considérés comme des doublons.</dfn>';
-$txt['merge_post_auto_time'] = 'Temps maximum entre deux messages pour qu\'ils soient fusionnés automatiquement.<dfn>(mettez 0 pour toujours fusionner)</dfn>';
+$txt['merge_post_auto_time'] = 'Temps maximum entre deux messages pour qu\'ils soient fusionnés automatiquement.';
+$txt['merge_post_auto_time_subtext'] = '(mettez 0 pour toujours fusionner)';
 $txt['merge_post_admin_double_post'] = 'Fusionner les doublons des admins';
 $txt['merge_post_no_time'] = 'Ne pas indiquer l\'ancienne date avant le séparateur';
 $txt['merge_post_no_sep'] = 'Ne montrer ni le séparateur ni l\'ancienne date';
 $txt['merge_post_ignore_length'] = 'Ignorer la longueur maximale des messages';
-$txt['merge_post_separator'] = 'Séparateur entre les messages fusionnés (activez l\'option ci-dessus)<dfn>Vous pouvez utiliser du code BBC. Pour la date de l\'ancien post, utilisez la variable <strong>$date</strong> dans le champ texte.<br>Exemple : [size=1]$date[/size][hr][br] (version par défaut)</dfn>';
-$txt['merge_post_custom_separator'] = 'Utiliser son propre séparateur pour distinguer les messages fusionnés.<dfn>Les options au-dessus seront désactivées.</dfn>';
+$txt['merge_post_separator'] = 'Séparateur entre les messages fusionnés (activez l\'option ci-dessus)';
+$txt['merge_post_separator_subtext'] = 'Vous pouvez utiliser du code BBC. Pour la date de l\'ancien post, utilisez la variable <strong>$date</strong> dans le champ texte.<br>Exemple : [size=1]$date[/size][hr][br] (version par défaut)';
+$txt['merge_post_custom_separator'] = 'Utiliser son propre séparateur pour distinguer les messages fusionnés.';
+$txt['merge_post_custom_separator_subtext'] = 'Les options au-dessus seront désactivées.';
 
 // Pretty URLs
 $txt['pretty_urls'] = 'Adresses embellies';
@@ -666,10 +669,14 @@ $txt['pretty_save'] = 'Sauvegarder les changements';
 $txt['pretty_converted'] = 'Tous les titres de sujets ont été convertis !';
 $txt['pretty_duplicateboard'] = 'Cette adresse est déjà prise. Choisissez-en une autre.';
 $txt['pretty_remove_index'] = 'Supprimer index.php de *toutes* les adresses<div class="pretty_filter">Vous ne pouvez le faire QUE si votre forum répond à l\'appel même après avoir supprimé "index.php" manuellement de son adresse.</div>';
-$txt['pretty_filter_boards'] = 'Réécrire les Adresses des Sections<div class="pretty_filter">http://votresite.com/index.php?board=1 &rarr; http://votresite.com/nom-du-quartier/</div>';
-$txt['pretty_filter_topics'] = 'Réécrire les Adresses des Sujets<div class="pretty_filter">http://votresite.com/index.php?topic=1.0 &rarr; http://votresite.com/nom-du-quartier/nom-du-sujet/</div>';
-$txt['pretty_filter_actions'] = 'Réécrire les Adresses des Actions<div class="pretty_filter">http://votresite.com/index.php?action=hello &rarr; http://votresite.com/do/hello/</div>';
-$txt['pretty_filter_profiles'] = 'Réécrire les Adresses des Profils<div class="pretty_filter">http://votresite.com/index.php?action=profile;u=1 &rarr; http://votresite.com/profile/nom-du-membre/<br>L\'adresse utilisera l\'identifiant de connexion de l\'utilisateur et non pas son nom affiché. Assurez-vous que cela ne dérange pas vos utilisateurs.</div>';
+$txt['pretty_filter_boards'] = 'Réécrire les Adresses des Sections';
+$txt['pretty_filter_boards_example'] = 'http://votresite.com/index.php?board=1 &rarr; http://votresite.com/nom-du-quartier/';
+$txt['pretty_filter_topics'] = 'Réécrire les Adresses des Sujets';
+$txt['pretty_filter_topics_example'] = 'http://votresite.com/index.php?topic=1.0 &rarr; http://votresite.com/nom-du-quartier/nom-du-sujet/';
+$txt['pretty_filter_actions'] = 'Réécrire les Adresses des Actions';
+$txt['pretty_filter_actions_example'] = 'http://votresite.com/index.php?action=hello &rarr; http://votresite.com/do/hello/';
+$txt['pretty_filter_profiles'] = 'Réécrire les Adresses des Profils';
+$txt['pretty_filter_profiles_example'] = 'http://votresite.com/index.php?action=profile;u=1 &rarr; http://votresite.com/profile/nom-du-membre/<br>L\'adresse utilisera l\'identifiant de connexion de l\'utilisateur et non pas son nom affiché. Assurez-vous que cela ne dérange pas vos utilisateurs.';
 
 // Media Gallery
 $txt['media_title'] = 'Media';

@@ -639,13 +639,16 @@ $txt['allow_ignore_topics'] = 'Enable members to ignore topics';
 // Merge double posts
 $txt['merge_post_header'] = 'Merging double posts';
 $txt['merge_post_auto'] = 'Merge double posts automatically';
-$txt['merge_post_auto_time'] = 'Delay after which posts are no longer merged automatically.<dfn>(Set to 0 to always merge)</dfn>';
+$txt['merge_post_auto_time'] = 'Delay after which posts are no longer merged automatically.';
+$txt['merge_post_auto_time_subtext'] = '(Set to 0 to always merge)';
 $txt['merge_post_admin_double_post'] = 'Merge double posts sent by administrators';
 $txt['merge_post_no_time'] = 'Don\'t show the older post\'s date before the separator';
 $txt['merge_post_no_sep'] = 'Show neither the separator, nor the older post\'s date.';
 $txt['merge_post_ignore_length'] = 'Ignore posts\' maximum length';
-$txt['merge_post_separator'] = 'Separator between merged posts (enable the setting above.)<dfn>You may use BBCode. You can get the older post\'s date by using the <strong>$date</strong> variable in the text field.<br>Default is [size=1]$date[/size][hr][br]</dfn>';
-$txt['merge_post_custom_separator'] = 'Use a custom separator between merged posts.<dfn>The settings above will be disabled.</dfn>';
+$txt['merge_post_separator'] = 'Separator between merged posts (enable the setting above.)';
+$txt['merge_post_separator_subtext'] = 'You may use BBCode. You can get the older post\'s date by using the <strong>$date</strong> variable in the text field.<br>Default is [size=1]$date[/size][hr][br]';
+$txt['merge_post_custom_separator'] = 'Use a custom separator between merged posts.';
+$txt['merge_post_custom_separator_subtext'] = 'The settings above will be disabled.';
 
 // Pretty URLs
 $txt['pretty_urls'] = 'Pretty URLs';
@@ -666,10 +669,14 @@ $txt['pretty_save'] = 'Save changes';
 $txt['pretty_converted'] = 'All topic titles are now converted!';
 $txt['pretty_duplicateboard'] = 'This address is already in use. Please go back and change it.';
 $txt['pretty_remove_index'] = 'Remove index.php from *all* URLs<div class="pretty_filter">You can ONLY use this if your forum still works after you manually remove "index.php" from its URL.</div>';
-$txt['pretty_filter_boards'] = 'Prettify Board URLs<div class="pretty_filter">http://yoursite.com/index.php?board=1 &rarr; http://yoursite.com/wedge-name/</div>';
-$txt['pretty_filter_topics'] = 'Prettify Topic URLs<div class="pretty_filter">http://yoursite.com/index.php?topic=1.0 &rarr; http://yoursite.com/wedge-name/topic-name/</div>';
-$txt['pretty_filter_actions'] = 'Prettify Action URLs<div class="pretty_filter">http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/do/hello/</div>';
-$txt['pretty_filter_profiles'] = 'Prettify Profile URLs<div class="pretty_filter">http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/profile/user-name/<br>As this uses the login name (user name) of an account rather than its display name, it may not be desirable to your users.</div>';
+$txt['pretty_filter_boards'] = 'Prettify Board URLs';
+$txt['pretty_filter_boards_example'] = 'http://yoursite.com/index.php?board=1 &rarr; http://yoursite.com/wedge-name/';
+$txt['pretty_filter_topics'] = 'Prettify Topic URLs';
+$txt['pretty_filter_topics_example'] = 'http://yoursite.com/index.php?topic=1.0 &rarr; http://yoursite.com/wedge-name/topic-name/';
+$txt['pretty_filter_actions'] = 'Prettify Action URLs';
+$txt['pretty_filter_actions_example'] = 'http://yoursite.com/index.php?action=hello &rarr; http://yoursite.com/do/hello/';
+$txt['pretty_filter_profiles'] = 'Prettify Profile URLs';
+$txt['pretty_filter_profiles_example'] = 'http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/profile/user-name/<br>As this uses the login name (user name) of an account rather than its display name, it may not be desirable to your users.';
 
 // Media Gallery
 $txt['media_title'] = 'Media';
