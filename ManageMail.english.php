@@ -10,6 +10,9 @@ $txt['smtp_port'] = 'SMTP port';
 $txt['smtp_username'] = 'SMTP username';
 $txt['smtp_password'] = 'SMTP password';
 
+$txt['webmaster_email'] = 'Webmaster Email Address';
+$txt['mail_from'] = 'Email "From" Address';
+
 $txt['mail_queue'] = 'Enable Mail Queue';
 $txt['mail_limit'] = 'Maximum emails to send per minute';
 $txt['mail_limit_desc'] = '(Set to 0 to disable)';

@@ -10,6 +10,9 @@ $txt['smtp_port'] = 'Port SMTP';
 $txt['smtp_username'] = 'Nom d\'utilisateur SMTP';
 $txt['smtp_password'] = 'Mot de passe SMTP';
 
+$txt['webmaster_email'] = 'Adresse e-mail du webmestre';
+$txt['mail_from'] = 'Adresse e-mail du champ Expéditeur à l\'envoi';
+
 $txt['mail_queue'] = 'Activer la File d\'attente E-mail';
 $txt['mail_limit'] = 'Nombre maximal d\'e-mails à envoyer par minute';
 $txt['mail_limit_desc'] = '(Mettez 0 pour désactiver)';
