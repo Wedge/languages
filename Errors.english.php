@@ -167,6 +167,7 @@ $txt['recycle_no_valid_board'] = 'No valid board selected for recycled topics';
 
 $txt['login_threshold_fail'] = 'Sorry, you are out of login chances. Please come back and try again later.';
 $txt['login_threshold_brute_fail'] = 'Sorry, but you\'ve reached your login attempts threshold. Please wait 30 seconds and try again later.';
+$txt['under_age_registration_prohibited'] = 'Sorry, but users under the age of %1$d are not allowed to register on this forum.';
 
 $txt['who_off'] = 'You cannot access Who\'s Online right now because it is disabled.';
 

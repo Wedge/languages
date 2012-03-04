@@ -6,6 +6,8 @@ $txt['registration_agreement'] = 'Registration Agreement';
 $txt['agreement_agree'] = 'I accept the terms of the agreement.';
 $txt['agreement_agree_coppa_above'] = 'I accept the terms of the agreement and I am at least %1$d years old.';
 $txt['agreement_agree_coppa_below'] = 'I accept the terms of the agreement and I am younger than %1$d years old.';
+$txt['noagreement_coppa_above'] = 'I am at least %1$d years old.';
+$txt['noagreement_coppa_below'] = 'I am younger than %1$d years old.';
 
 // Registration form.
 $txt['registration_form'] = 'Registration Form';
@@ -32,7 +34,6 @@ $txt['your_username_is'] = 'Your username is: ';
 $txt['login_hash_error'] = 'Password security has recently been upgraded.  Please enter your password again.';
 
 $txt['ban_register_prohibited'] = 'Sorry, you are not allowed to register on this forum.';
-$txt['under_age_registration_prohibited'] = 'Sorry, but users under the age of %1$d are not allowed to register on this forum.';
 
 $txt['activate_account'] = 'Account activation';
 $txt['activate_success'] = 'Your account has been successfully activated. You can now proceed to login.';

@@ -32,7 +32,6 @@ $txt['your_username_is'] = 'Votre identifiant est';
 $txt['login_hash_error'] = 'La sécurité des mots de passe a récemment été accrue.  Veuillez entrer de nouveau votre mot de passe.';
 
 $txt['ban_register_prohibited'] = 'Désolé, vous n\'êtes pas autorisé à vous inscrire sur ce forum';
-$txt['under_age_registration_prohibited'] = 'Désolé, mais les utilisateurs au-dessous de %1$d ans ne peuvent pas s\'inscrire sur ce forum.';
 
 $txt['activate_account'] = 'Activation de Compte';
 $txt['activate_success'] = 'Votre compte a été activé avec succès. Vous pouvez maintenant vous connecter.';
