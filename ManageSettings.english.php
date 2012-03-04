@@ -15,7 +15,6 @@ $txt['setting_default_timezone'] = 'Server timezone';
 $txt['failed_login_threshold'] = 'Failed login threshold';
 $txt['enable_quick_login'] = 'Show a quick login on every page';
 $txt['age_restrictions'] = 'Minimum Age Restrictions';
-$txt['lastActive'] = 'User online time threshold';
 $txt['trackStats'] = 'Track daily statistics';
 $txt['hitStats'] = 'Track daily page views (must have stats enabled)';
 $txt['enableCompressedOutput'] = 'Enable compressed output';
@@ -323,6 +322,10 @@ $txt['custom_edit_registration_allow'] = 'Yes';
 $txt['custom_edit_registration_require'] = 'Yes, and require entry';
 $txt['custom_edit_display'] = 'Show on Topic View';
 $txt['custom_edit_picktype'] = 'Field Type';
+
+$txt['whos_online_desc'] = 'From this page, you can manage how users can see who is online and who is not.';
+$txt['lastActive'] = 'User online time threshold';
+$txt['who_view'] = 'Membergroups who can see "Who\'s Online"';
 
 // Strings for the templates
 $txt['your_icq'] = 'This is your ICQ number.';
