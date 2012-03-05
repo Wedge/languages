@@ -266,10 +266,6 @@ $helptxt['ignoreMoveVsNew'] = 'By default, when moving topics between boards, th
 		boards that they could normally create topics in (so that they can\'t move topics into announcement boards, for example).
 		<br><br>Enabling this will present them with a list of any board they could normally see as a possible destination
 		for moving topics to.';
-$helptxt['pollMode'] = 'This selects whether polls are enabled or not. If polls are disabled, any existing polls will be hidden
-		from the topic listing. You can choose to continue to show the regular topic without their polls by selecting
-		"Show Existing Polls as Topics".<br><br>To choose who can post polls, view polls, and similar, you
-		can allow and disallow those permissions. Remember this if polls are not working.';
 $helptxt['webmaster_email'] = 'This option allows you to specify the email address of the primary administrator. This address is used for urgent notifications (such as database errors),
 		and as a result should <em>really</em> be a valid email address.';
 $helptxt['mail_from'] = 'This option allows you to specify a separate email address as the sender for all out-going email (notifications, newsletters...)

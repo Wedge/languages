@@ -3,10 +3,6 @@
 
 $txt['settings_desc'] = 'This page allows you to change the settings of features and basic options in your forum. Please see the <a href="%3$s?action=admin;area=theme;sa=settings;th=%1$s;%2$s">theme settings</a> for more options. Click the help icons for more information about a setting.';
 
-$txt['pollMode'] = 'Poll mode';
-$txt['disable_polls'] = 'Disable polls';
-$txt['enable_polls'] = 'Enable polls';
-$txt['polls_as_topics'] = 'Show existing polls as topics';
 $txt['allow_guestAccess'] = 'Allow guests to browse the forum';
 $txt['userLanguage'] = 'Enable user-selectable language support';
 $txt['setting_time_offset'] = 'Overall time offset<dfn>(added to the member specific option.)</dfn>';

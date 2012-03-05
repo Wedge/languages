@@ -256,7 +256,6 @@ $helptxt['ignoreMoveVsNew'] = 'Si l\'utilisateur déplace un sujet vers une autr
 		parmi la liste des sections auxquelles il pourrait d\'habitude créer des sections (pour éviter qu\'ils ne les déplacent dans le forum des
 		news de votre site, par exemple).<br><br>Activez cette option pour lui permettre au contraire de déplacer ses sujets
 		vers n\'importe quelle destination visible pour lui.';
-$helptxt['pollMode'] = 'Ceci détermine si les sondages sont activés ou non. Si les sondages sont désactivés, tous les sondages actuels sont cachés sur la liste des sujets. Vous pouvez choisir de continuer à afficher la partie sujet des sondages en sélectionnant "Montrer les sondages existants comme des sujets".<br><br>Pour choisir qui peut poster et voir des sondages (et similaires), vous pouvez autoriser ou refuser ces permissions. Rappelez-vous de cela si les sondages sont désactivés.';
 $helptxt['webmaster_email'] = 'Cette option vous permet de spécifier l\'adresse e-mail de l\'administrateur principal. Cette adresse est utilisée pour les notifications urgentes, telles que les erreurs de base de données.
 		<br><br>Pour cette raison, mettez-y une adresse valide.';
 $helptxt['mail_from'] = 'Cette option vous permet de spécifier l\'adresse e-mail utilisée en tant que champ "Expéditeur" de tous les e-mails envoyés par le serveur aux membres (notifications, info-lettres, etc).

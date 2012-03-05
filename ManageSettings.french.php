@@ -3,10 +3,6 @@
 
 $txt['settings_desc'] = 'Cette page vous permet de paramétrer les caractéristiques et options de base de votre forum. Veuillez voir les <a href="%3$s?action=admin;area=theme;sa=settings;th=%1$s;%2$s">Réglages du thème</a> pour plus d\'options. Cliquez sur l\'icône d\'aide pour plus d\'informations à propos d\'un paramètre.';
 
-$txt['pollMode'] = 'Mode de sondage';
-$txt['disable_polls'] = 'Désactiver les sondages';
-$txt['enable_polls'] = 'Activer les sondages';
-$txt['polls_as_topics'] = 'Montrer les sondages existants comme des sujets';
 $txt['allow_guestAccess'] = 'Permettre aux invités de parcourir le forum';
 $txt['userLanguage'] = 'Permettre aux utilisateurs de choisir la langue';
 $txt['setting_time_offset'] = 'Décalage horaire général<dfn>(ajouté aux options spécifiques des membres.)</dfn>';
