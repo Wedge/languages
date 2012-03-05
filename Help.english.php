@@ -114,9 +114,6 @@ $helptxt['ban_members'] = '
 $helptxt['featuresettings'] = '
 	There are several features in this section that can be changed to your preference.';
 
-$helptxt['securitysettings'] = '
-	This section contains settings relating to the security and moderation of your forum.';
-
 $helptxt['time_format'] = '
 	You have the power to adjust how the time and date look for yourself. There are a lot of weird little letters, but it\'s quite simple.
 	The conventions follow PHP\'s <span class="bbc_tt">strftime</span> function and are described as below (more details at <a href="http://www.php.net/manual/function.strftime.php" target="_blank" class="new_win">php.net</a>).<br>

@@ -18,7 +18,6 @@ $txt['admin_censored_desc'] = 'Due to the public nature of forums there may be s
 $txt['admin_reserved_names'] = 'Reserved Names';
 $txt['admin_template_edit'] = 'Edit Your Forum Template';
 $txt['admin_plugin_settings'] = 'Plugin Settings';
-$txt['admin_security_moderation'] = 'Security and Moderation';
 $txt['admin_mod_filters'] = 'Moderation Filters';
 $txt['admin_server_settings'] = 'Server Settings';
 $txt['admin_reserved_set'] = 'Set Reserved Names';
@@ -585,7 +584,7 @@ $txt['admin_search_section_settings'] = 'Setting';
 
 $txt['mods_cat_features'] = 'General';
 $txt['antispam_title'] = 'Anti-Spam';
-$txt['moderation_settings_short'] = 'Moderation';
+$txt['warning_title'] = 'Warnings';
 $txt['member_options_title'] = 'Member Options';
 $txt['signature_settings_short'] = 'Signatures';
 $txt['custom_profile_shorttitle'] = 'Profile Fields';

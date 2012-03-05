@@ -2,7 +2,6 @@
 // Version: 2.0; ManageSettings
 
 $txt['settings_desc'] = 'Cette page vous permet de paramétrer les caractéristiques et options de base de votre forum. Veuillez voir les <a href="%3$s?action=admin;area=theme;sa=settings;th=%1$s;%2$s">Réglages du thème</a> pour plus d\'options. Cliquez sur l\'icône d\'aide pour plus d\'informations à propos d\'un paramètre.';
-$txt['security_settings_desc'] = 'Cette page vous permet de régler les options spécifiquement liées à la sécurité et la modération de votre forum, en incluant les options anti-spam.';
 
 $txt['pollMode'] = 'Mode de sondage';
 $txt['disable_polls'] = 'Désactiver les sondages';

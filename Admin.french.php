@@ -18,7 +18,6 @@ $txt['admin_censored_desc'] = 'Etant donné la nature publique des forums, vous 
 $txt['admin_reserved_names'] = 'Noms réservés';
 $txt['admin_template_edit'] = 'Modifier le modèle (template) de votre forum';
 $txt['admin_plugin_settings'] = 'Options';
-$txt['admin_security_moderation'] = 'Sécurité et Modération';
 $txt['admin_mod_filters'] = 'Filtres de Modération';
 $txt['admin_server_settings'] = 'Paramètres du Serveur';
 $txt['admin_reserved_set'] = 'Choix des noms réservés';
@@ -585,7 +584,6 @@ $txt['admin_search_section_settings'] = 'Paramètres';
 
 $txt['mods_cat_features'] = 'Paramètres';
 $txt['antispam_title'] = 'Anti-Spam';
-$txt['moderation_settings_short'] = 'Modération';
 $txt['member_options_title'] = 'Options des Membres';
 $txt['signature_settings_short'] = 'Signatures';
 $txt['custom_profile_shorttitle'] = 'Champs de Profil';

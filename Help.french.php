@@ -111,9 +111,6 @@ $helptxt['ban_members'] = '
 $helptxt['featuresettings'] = '
 	Il y a plusieurs fonctionnalités dans cette section qui peuvent être changées à votre goût.';
 
-$helptxt['securitysettings'] = '
-	Cette section contient les réglages en relation avec la sécurité et la modération de votre forum.';
-
 $helptxt['time_format'] = '
 	Vous avez la possibilité d\'ajuster la manière dont le temps et les dates seront affichés sur votre forum. Ce ne sont pas des hiéroglyphes, c\'est relativement simple. La structure est la même que pour la fonction <span class="bbc_tt">strftime</span> de PHP, et elle est décrite ci-dessous (pour plus de détails, allez sur <a href="http://www.php.net/manual/fr/function.strftime.php" target="_blank">php.net</a>).<br>
 	<br>
