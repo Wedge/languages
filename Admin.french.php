@@ -24,7 +24,7 @@ $txt['admin_server_settings'] = 'Paramètres du Serveur';
 $txt['admin_reserved_set'] = 'Choix des noms réservés';
 $txt['admin_reserved_line'] = 'Un seul mot réservé par ligne.';
 $txt['admin_basic_settings'] = 'Cette page vous permet de modifier les paramètres de base de votre forum. Soyez très vigilant avec ces réglages, puisqu\'ils peuvent rendre votre forum inopérant.';
-$txt['admin_maintain'] = 'Activer le Mode Maintenance';
+$txt['maintenance'] = 'Activer le Mode Maintenance';
 $txt['admin_title'] = 'Nom du forum';
 $txt['admin_url'] = 'URL du forum';
 $txt['cookie_name'] = 'Nom du cookie (témoin)';
@@ -235,8 +235,8 @@ $txt['ssi_db_passwd'] = 'Mot de passe de la Base de données à utiliser en mode
 
 $txt['default_language'] = 'Langue par défaut du forum';
 
-$txt['maintenance_subject'] = 'Sujet à afficher';
-$txt['maintenance_message'] = 'Message à afficher';
+$txt['setting_mtitle'] = 'Sujet à afficher';
+$txt['setting_mmessage'] = 'Message à afficher';
 
 $txt['theme_settings'] = 'Paramètres du thème';
 $txt['theme_current_settings'] = 'Thème en cours';

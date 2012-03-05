@@ -24,7 +24,7 @@ $txt['admin_server_settings'] = 'Server Settings';
 $txt['admin_reserved_set'] = 'Set Reserved Names';
 $txt['admin_reserved_line'] = 'One reserved word per line.';
 $txt['admin_basic_settings'] = 'This page allows you to change the basic settings for your forum. Be very careful with these settings, as they may render the forum dysfunctional.';
-$txt['admin_maintain'] = 'Enable Maintenance Mode';
+$txt['maintenance'] = 'Enable Maintenance Mode';
 $txt['admin_title'] = 'Forum Title';
 $txt['admin_url'] = 'Forum URL';
 $txt['cookie_name'] = 'Cookie Name';
@@ -235,8 +235,8 @@ $txt['ssi_db_passwd'] = 'Database password to use in SSI mode';
 
 $txt['default_language'] = 'Default Forum Language';
 
-$txt['maintenance_subject'] = 'Subject for display';
-$txt['maintenance_message'] = 'Message for display';
+$txt['setting_mtitle'] = 'Subject for display';
+$txt['setting_mmessage'] = 'Message for display';
 
 $txt['theme_settings'] = 'Theme Settings';
 $txt['theme_current_settings'] = 'Current Theme';
