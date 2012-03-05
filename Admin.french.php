@@ -585,8 +585,11 @@ $txt['admin_search_section_settings'] = 'Paramètres';
 $txt['mods_cat_features'] = 'Paramètres';
 $txt['antispam_title'] = 'Anti-Spam';
 $txt['member_options_title'] = 'Options des Membres';
+$txt['warning_title'] = 'Avertissements';
 $txt['signature_settings_short'] = 'Signatures';
 $txt['custom_profile_shorttitle'] = 'Champs de Profil';
+$txt['admin_member_prefs'] = 'Préférences';
+$txt['admin_whos_online'] = 'Qui est en ligne';
 $txt['admin_personal_messages'] = 'Messagerie';
 
 $txt['boardsEdit'] = 'Modifier mes Sites';

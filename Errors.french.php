@@ -167,7 +167,7 @@ $txt['recycle_no_valid_board'] = 'Aucune section valide n\'a été choisie pour 
 
 $txt['login_threshold_fail'] = 'Désolé, nombre de tentatives de connexion dépassé. Revenez essayer plus tard.';
 $txt['login_threshold_brute_fail'] = 'Désolé, nombre de tentatives de connexion dépassé. Patientez 30 secondes et réessayez.';
-$txt['under_age_registration_prohibited'] = 'Désolé, mais les utilisateurs au-dessous de %1$d ans ne peuvent pas s\'inscrire sur ce forum.';
+$txt['under_age_registration_prohibited'] = 'Désolé, mais les utilisateurs de moins de %1$d ans ne peuvent pas s\'inscrire sur ce forum.';
 
 $txt['who_off'] = 'La liste des membres en ligne est indisponible pour le moment.';
 

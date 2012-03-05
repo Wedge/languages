@@ -6,6 +6,8 @@ $txt['registration_agreement'] = 'Accord d\'inscription';
 $txt['agreement_agree'] = 'J\'accepte les conditions de ce document.';
 $txt['agreement_agree_coppa_above'] = 'J\'accepte les conditions de ce document et j\'ai au moins %1$d ans.';
 $txt['agreement_agree_coppa_below'] = 'J\'accepte les conditions de ce document et j\'ai moins de %1$d ans.';
+$txt['noagreement_coppa_above'] = 'J\'ai au moins %1$d ans.';
+$txt['noagreement_coppa_below'] = 'J\'ai moins de %1$d ans.';
 
 // Registration form.
 $txt['registration_form'] = 'Formulaire d\'inscription';

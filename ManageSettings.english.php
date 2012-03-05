@@ -138,8 +138,8 @@ $txt['setting_password_strength_low'] = 'Low - 4 character minimum';
 $txt['setting_password_strength_medium'] = 'Medium - cannot contain username';
 $txt['setting_password_strength_high'] = 'High - mixture of different characters';
 
-$txt['antispam_Settings'] = 'Anti-Spam Verification';
-$txt['antispam_Settings_desc'] = 'This section allows you to setup verification checks to ensure the user is a human (and not a bot), and tweak how and where these apply.';
+$txt['antispam_settings'] = 'Anti-Spam Verification';
+$txt['antispam_settings_desc'] = 'This section allows you to setup verification checks to ensure the user is a human (and not a bot), and tweak how and where these apply.';
 $txt['setting_reg_verification'] = 'Require verification on registration page';
 $txt['posts_require_captcha'] = 'Post count under which users must pass verification to make a post';
 $txt['posts_require_captcha_desc'] = '(0 for no limit, moderators are exempt)';

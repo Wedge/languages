@@ -10,7 +10,6 @@ $txt['setting_default_timezone'] = 'Fuseau horaire du serveur';
 $txt['failed_login_threshold'] = 'Seuil de connexions dépassé';
 $txt['enable_quick_login'] = 'Afficher un champ de connexion sur toutes les pages';
 $txt['age_restrictions'] = 'Restrictions sur l\'âge minimal';
-$txt['lastActive'] = 'Seuil de temps de connexion en ligne';
 $txt['trackStats'] = 'Suivi des statistiques au quotidien';
 $txt['hitStats'] = 'Suivi des pages vues au quotidien (les stats doivent être activées)';
 $txt['enableCompressedOutput'] = 'Activer la compression des pages';
@@ -86,6 +85,7 @@ $txt['caching_information'] = '<div class="center" style="font-weight: bold; tex
 		<li>APC</li>
 		<li>Memcached</li>
 		<li>Zend Platform/Performance Suite (pas Zend Optimizer)</li>
+		<li>XCache</li>
 	</ul>
 	Le système de cache fonctionnera mieux si PHP est compilé avec l\'un des accélérateurs susmentionnés, ou si memcache est disponible.
 	<strong>Si aucun accélérateur n\'est installé, Wedge fera du cache fichier.</strong><br><br>
@@ -138,8 +138,8 @@ $txt['setting_password_strength_low'] = 'Basse - 4 caractères minimum';
 $txt['setting_password_strength_medium'] = 'Moyenne - Ne doit pas contenir l\'identifiant';
 $txt['setting_password_strength_high'] = 'Haute - mélange de différents caractères';
 
-$txt['antispam_Settings'] = 'Vérification Anti-Spam';
-$txt['antispam_Settings_desc'] = 'Cette section vous permet de régler les contrôles de vérification pour vous assurer que l\'utilisateur est un humain (et non un robot), et peaufiner comment et où ils doivent s\'appliquer.';
+$txt['antispam_settings'] = 'Vérification Anti-Spam';
+$txt['antispam_settings_desc'] = 'Cette section vous permet de régler les contrôles de vérification pour vous assurer que l\'utilisateur est un humain (et non un robot), et peaufiner comment et où ils doivent s\'appliquer.';
 $txt['setting_reg_verification'] = 'Demander une vérification au moment de l\'inscription';
 $txt['posts_require_captcha'] = 'Nombre de messages de forum en dessous duquel les utilisateurs doivent entrer un code pour poster un message';
 $txt['posts_require_captcha_desc'] = '(0 pour pas de limite, les modérateurs sont exemptés)';
@@ -317,6 +317,18 @@ $txt['custom_edit_registration_allow'] = 'Oui';
 $txt['custom_edit_registration_require'] = 'Oui, et réponse obligatoire';
 $txt['custom_edit_display'] = 'Montrer dans les sujets';
 $txt['custom_edit_picktype'] = 'Type de champ';
+
+$txt['whos_online_desc'] = 'Cette page vous permet de gérer la façon dont les utilisateurs voient qui est en ligne ou pas.';
+$txt['lastActive'] = 'Seuil de temps de connexion en ligne';
+$txt['who_view'] = 'Groupes de membres pouvant voir la page "Qui est en ligne"';
+$txt['member_prefs_desc'] = 'Cette page vous permet de régler certaines options également configurables par les utilisateurs&nbsp;; vous pouvez choisir l\'option à activer par défaut, et remettre à zéro les options de tout le monde si nécessaire.';
+$txt['member_prefs_default'] = 'Valeur par défaut&nbsp;:';
+$txt['member_prefs_change'] = 'Changer';
+$txt['no_change'] = '%s (pas de changement)';
+$txt['leave_alone'] = 'Ne pas modifier leurs options';
+$txt['member_prefs_guest'] = 'Pour les invités et nouveaux membres&nbsp;:';
+$txt['member_prefs_members'] = 'Pour les membres existants&nbsp;:';
+$txt['member_prefs_override'] = 'Mettre tout à monde à "%s"';
 
 // Strings for the templates
 $txt['your_icq'] = 'Votre numéro de compte ICQ.';

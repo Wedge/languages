@@ -148,7 +148,7 @@ $txt['spider_log_delete'] = 'Effacer les Entrées';
 $txt['spider_log_delete_older'] = 'Effacer toutes les entrées antérieures à';
 $txt['spider_log_delete_day'] = 'jours.';
 $txt['spider_log_delete_submit'] = 'Effacer';
-$txt['spider_log_delete_confirm'] = 'Êtes-vous sûr de vouloir vider le journal d\'activité des robots ?';
+$txt['spider_log_delete_confirm'] = 'Êtes-vous sûr de vouloir effacer les entrées anciennes du journal d\'activité des robots ?';
 
 $txt['spider_stats_select_month'] = 'Aller au mois de';
 $txt['spider_stats_page_hits'] = 'Pages visitées';
