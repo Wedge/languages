@@ -232,7 +232,7 @@ $txt['db_persist'] = 'Utiliser une connexion permanente';
 $txt['ssi_db_user'] = 'Nom d\'utilisateur de la Base de données à utiliser en mode SSI';
 $txt['ssi_db_passwd'] = 'Mot de passe de la Base de données à utiliser en mode SSI';
 
-$txt['default_language'] = 'Langue par défaut du forum';
+$txt['setting_language'] = 'Langue par défaut du forum';
 
 $txt['setting_mtitle'] = 'Sujet à afficher';
 $txt['setting_mmessage'] = 'Message à afficher';

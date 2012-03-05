@@ -251,8 +251,8 @@ $txt['show_online'] = 'Autoriser l\'affichage de ma présence en ligne';
 $txt['return_to_post'] = 'Par défaut, retourner dans les sujets après avoir posté.';
 $txt['no_new_reply_warning'] = 'Ne pas aviser des nouvelles réponses postées lors de la rédaction d\'un message.';
 $txt['posts_apply_ignore_list'] = 'Cacher les messages postés par les membres que j\'ignore.';
-$txt['recent_posts_at_top'] = 'Voir les messages récents en premier.';
-$txt['recent_pms_at_top'] = 'Voir les messages personnels récents en premier.';
+$txt['view_newest_first'] = 'Voir les messages récents en premier.';
+$txt['view_newest_pm_first'] = 'Voir les messages personnels récents en premier.';
 $txt['wysiwyg_default'] = 'Afficher l\'éditeur WYSIWYG sur la page d\'écriture par défaut.';
 
 $txt['timeformat_default'] = '(Valeur par défaut du forum)';
@@ -264,7 +264,7 @@ $txt['timeformat_easy5'] = 'JJ-MM-AAAA, hh:mm:ss';
 
 $txt['poster'] = 'Auteur';
 
-$txt['board_desc_inside'] = 'Montrer les descriptions des sections dans les sections.';
+$txt['show_board_desc'] = 'Montrer les descriptions des sections dans les sections.';
 $txt['show_children'] = 'Montrer les sous-sections sur chaque page des sections, pas seulement la première.';
 $txt['use_sidebar_menu'] = 'Montrer si possible les menus dans l\'encadré (sidebar) plutôt qu\'en menu déroulant.';
 $txt['show_no_avatars'] = 'Ne pas montrer les avatars des autres membres.';

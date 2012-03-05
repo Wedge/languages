@@ -325,6 +325,14 @@ $txt['custom_edit_picktype'] = 'Field Type';
 $txt['whos_online_desc'] = 'From this page, you can manage how users can see who is online and who is not.';
 $txt['lastActive'] = 'User online time threshold';
 $txt['who_view'] = 'Membergroups who can see "Who\'s Online"';
+$txt['member_prefs_desc'] = 'From this page, you can set certain options that are also configurable by your users; you can set what the normal option is and reset everyone\'s options if needed.';
+$txt['member_prefs_default'] = 'Default value:';
+$txt['member_prefs_change'] = 'Change';
+$txt['no_change'] = '%s (no change)';
+$txt['leave_alone'] = 'Leave their choice alone';
+$txt['member_prefs_guest'] = 'For guests/new members:';
+$txt['member_prefs_members'] = 'For existing members:';
+$txt['member_prefs_override'] = 'Set to "%s" for everyone';
 
 // Strings for the templates
 $txt['your_icq'] = 'This is your ICQ number.';

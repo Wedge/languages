@@ -232,7 +232,7 @@ $txt['db_persist'] = 'Use a persistent connection';
 $txt['ssi_db_user'] = 'Database username to use in SSI mode';
 $txt['ssi_db_passwd'] = 'Database password to use in SSI mode';
 
-$txt['default_language'] = 'Default Forum Language';
+$txt['setting_language'] = 'Default Forum Language';
 
 $txt['setting_mtitle'] = 'Subject for display';
 $txt['setting_mmessage'] = 'Message for display';
@@ -588,6 +588,7 @@ $txt['warning_title'] = 'Warnings';
 $txt['member_options_title'] = 'Member Options';
 $txt['signature_settings_short'] = 'Signatures';
 $txt['custom_profile_shorttitle'] = 'Profile Fields';
+$txt['admin_member_prefs'] = 'Preferences';
 $txt['admin_whos_online'] = 'Who\'s Online';
 $txt['admin_personal_messages'] = 'Personal Messages';
 
