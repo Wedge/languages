@@ -135,6 +135,7 @@ $txt['board_index'] = 'Board index';
 $txt['message_index'] = 'Message Index';
 $txt['news'] = 'News';
 $txt['home'] = 'Home';
+$txt['community'] = 'Community';
 
 $txt['lock_unlock'] = 'Lock/Unlock Topic';
 $txt['post'] = 'Post';
