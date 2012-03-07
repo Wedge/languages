@@ -77,14 +77,10 @@ $txt['header_logo_url_desc'] = 'Laissez vide pour afficher le nom du forum ou le
 $txt['hide_post_group'] = 'Cacher le <abbr title="Groupe basé sur le nombre de messages">groupe posteur</abbr> pour les membres classés dans des <abbr title="Groupes ne variant pas avec le nombre d\'interventions dans le forum">groupes permanents</abbr>';
 $txt['hide_post_group_desc'] = 'Si vous activez cette option, le nom du groupe posteur <em>(groupe automatique basé sur le nombre de messages postés)</em> ne sera pas indiqué pour les membres appartenant à un groupe permanent <em>(groupes spéciaux, indépendants du nombre de messages, comme \'Modérateur\' ou \'Administrateur\', etc.)</em>';
 
-$txt['theme_options_defaults'] = 'Ceci sont les valeurs par défaut de quelques réglages spécifiques des membres.  Les modifier affectera seulement les invités et les nouveaux membres.';
-$txt['theme_options_title'] = 'Changer ou Réinitialiser les Options par Défaut';
-
 $txt['themeadmin_title'] = 'Options de thèmes et disposition';
 $txt['themeadmin_description'] = 'Ici vous pouvez modifier les paramètres de vos thèmes, mettre à jour la liste des thèmes, réinitialiser les options des membres et autres réglages du genre.';
 $txt['themeadmin_admin_desc'] = 'Cette page vous permet de changer le thème par défaut de votre forum, réinitialiser les membres pour utiliser un certain thème et choisir d\'autres réglages relatifs à la sélection des thèmes.  Vous pouvez aussi installer des nouveaux thèmes depuis cette interface.<br><br>N\'oubliez pas de jeter un oeil aux réglages du thème pour votre thème pour des personnalisations de disposition.';
 $txt['themeadmin_list_desc'] = 'Ici vous pouvez voir la liste des thèmes actuellement installés, changer leur chemin et réglages, de même que les désinstaller.';
-$txt['themeadmin_reset_desc'] = 'Ci-dessous se trouve une interface pour changer les options spécifiques au thème pour tous vos membres.  Vous ne verrez que les thèmes qui ont leur propre jeu de paramètres.';
 $txt['themeadmin_edit_desc'] = 'Modifiez la feuille de style et le code-source de vos thèmes installés.  Veuillez consulter la documentation pour plus d\'informations.';
 
 $txt['themeadmin_list_heading'] = 'Aperçu des paramètres du thème';
@@ -97,18 +93,6 @@ $txt['themeadmin_list_reset'] = 'Réinitialiser l\'URL des thèmes et leur répe
 $txt['themeadmin_list_reset_dir'] = 'Chemin absolu vers le répertoire des thèmes';
 $txt['themeadmin_list_reset_url'] = 'URL vers le répertoire de base commun';
 $txt['themeadmin_list_reset_go'] = 'Tenter de réinitialiser tous les thèmes';
-
-$txt['themeadmin_reset_tip'] = 'Chaque thème peut avoir ses propres options personnalisées à sélectionner par vos membres.  Elles incluent des réglages comme &quot;Réponse Rapide&quot;, les avatars et signatures, options de disposition et autres options similaires.  Ici vous pouvez changer les paramètres par défaut ou réinitialiser les options de tout le monde.<br><br>Veuillez noter que certains thèmes peuvent utiliser les options par défaut, auquel cas ils n\'auront pas leurs propres options.';
-$txt['themeadmin_reset_defaults'] = 'Réinitialiser les options par défaut (et des invités) pour ce thème';
-$txt['themeadmin_reset_defaults_current'] = 'options actuellement réglées.';
-$txt['themeadmin_reset_members'] = 'Réinitialiser les options de tous les membres pour ce thème';
-$txt['themeadmin_reset_remove'] = 'Enlever toutes les options des membres et les réinitialiser aux valeurs par défaut';
-$txt['themeadmin_reset_remove_current'] = 'membres utilisent actuellement leurs propres options.';
-$txt['themeadmin_reset_remove_confirm'] = 'Êtes-vous sûr de vouloir enlever toutes les options de thème ?\\nCeci peut aussi réinitialiser quelques champs personnalisés des profils.';
-$txt['themeadmin_reset_options_info'] = 'Les options ci-dessous surclasseront les options de <em>tout le monde</em>.  Pour changer une option, sélectionner &quot;changer&quot; dans la boîte d\'à coté, et choisissez lui une valeur.  Pour utiliser la valeur par défaut, sélectionner &quot;enlever&quot;. Sinon utilisez &quot;Ne pas changer&quot; pour le laisser tel quel.';
-$txt['themeadmin_reset_options_change'] = 'Changer';
-$txt['themeadmin_reset_options_none'] = 'Ne pas changer';
-$txt['themeadmin_reset_options_remove'] = 'Enlever';
 
 $txt['themeadmin_edit_browse'] = 'Accéder à la liste des fichiers du thème actuel.';
 $txt['themeadmin_edit_style'] = 'Accéder aux feuilles de style du thème actuel.';

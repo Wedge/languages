@@ -77,14 +77,10 @@ $txt['header_logo_url_desc'] = 'Leave blank to show forum name or default logo.'
 $txt['hide_post_group'] = 'Hide post group titles for grouped members';
 $txt['hide_post_group_desc'] = 'Enabling this will not display a member\'s post group title on the message view if they are assigned to a non-post based group.';
 
-$txt['theme_options_defaults'] = 'These are the default values for some member specific settings.  Changing these will only affect new members and guests.';
-$txt['theme_options_title'] = 'Change or reset default options';
-
 $txt['themeadmin_title'] = 'Themes and Layout Settings';
 $txt['themeadmin_description'] = 'Here you can modify the settings for your themes, update theme selections, reset member options, and the like.';
 $txt['themeadmin_admin_desc'] = 'This page allows you to change the default theme, reset members to all use a certain theme, and choose other settings related to theme selection.  You are also able to install themes from here.<br><br>Don\'t forget to look at the theme settings for your themes for layout options.';
 $txt['themeadmin_list_desc'] = 'From here, you can view the list of themes you currently have installed, change their paths and settings, and uninstall them.';
-$txt['themeadmin_reset_desc'] = 'Below you will see an interface to change the current theme-specific options for all your members.  You will only see those themes that have their own set of settings.';
 $txt['themeadmin_edit_desc'] = 'Modify the stylesheet and source code of your installed themes.  Please consult the documentation for more information.';
 
 $txt['themeadmin_list_heading'] = 'Theme Settings Overview';
@@ -97,18 +93,6 @@ $txt['themeadmin_list_reset'] = 'Reset Theme URLs and Directories';
 $txt['themeadmin_list_reset_dir'] = 'Base path to Themes directory';
 $txt['themeadmin_list_reset_url'] = 'Base URL to the same directory';
 $txt['themeadmin_list_reset_go'] = 'Attempt to reset all themes';
-
-$txt['themeadmin_reset_tip'] = 'Each theme may have its own custom options for selection by your members.  These include things like &quot;quick reply&quot;, avatars and signatures, layout options, and other similar options.  Here you can change the defaults or reset everyone\'s options.<br><br>Please note that some themes may use the default options, in which case they will not have their own options.';
-$txt['themeadmin_reset_defaults'] = 'Configure guest and new user options for this theme';
-$txt['themeadmin_reset_defaults_current'] = 'options currently set.';
-$txt['themeadmin_reset_members'] = 'Change current options for all members using this theme';
-$txt['themeadmin_reset_remove'] = 'Remove all members\' options and use the defaults';
-$txt['themeadmin_reset_remove_current'] = 'members currently using their own options.';
-$txt['themeadmin_reset_remove_confirm'] = 'Are you sure you want to remove all theme options?\\nThis may reset some custom profile fields as well.';
-$txt['themeadmin_reset_options_info'] = 'The options below will reset options for <em>everyone</em>.  To change an option, select &quot;change&quot; in the box next to it, and then select a value for it.  To use the default, select &quot;remove&quot;.  Otherwise, use &quot;don\'t change&quot; to keep it as-is.';
-$txt['themeadmin_reset_options_change'] = 'Change';
-$txt['themeadmin_reset_options_none'] = 'Don\'t change';
-$txt['themeadmin_reset_options_remove'] = 'Remove';
 
 $txt['themeadmin_edit_browse'] = 'Browse the templates and files in this theme.';
 $txt['themeadmin_edit_style'] = 'Browse this theme\'s stylesheets.';

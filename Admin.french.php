@@ -619,7 +619,6 @@ $txt['plugins_add_plugins'] = 'Ajouter des Extensions';
 
 $txt['themeadmin_admin_title'] = 'Gérer et Installer';
 $txt['themeadmin_list_title'] = 'Paramètres des Thèmes';
-$txt['themeadmin_reset_title'] = 'Options des Membres';
 $txt['themeadmin_edit_title'] = 'Modifier les Thèmes';
 $txt['admin_browse_register_new'] = 'Inscrire un nouveau membre';
 $txt['configure_options'] = 'Configurer les Options';
