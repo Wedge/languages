@@ -135,6 +135,7 @@ $txt['board_index'] = 'Liste des sections';
 $txt['message_index'] = 'Liste des messages';
 $txt['news'] = 'À la une';
 $txt['home'] = 'Accueil';
+$txt['community'] = 'Communauté';
 
 $txt['lock_unlock'] = '(Dé)bloquer le sujet';
 $txt['post'] = 'Soumettre';

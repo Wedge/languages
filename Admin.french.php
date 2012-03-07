@@ -579,8 +579,9 @@ $txt['admin_search_results_again'] = 'Rechercher à nouveau';
 $txt['admin_search_results_none'] = 'Aucun résultat&nbsp;!';
 $txt['admin_search_welcome'] = 'Bienvenue dans le panneau d\'administration de Wedge. Vous pouvez accéder aux pages d\'options via le menu ci-dessus, ou par les raccourcis ci-dessous. Si vous vous perdez, essayez de taper à droite un mot ou deux de la fonctionnalité que vous cherchez.';
 
-$txt['admin_search_section_sections'] = 'Site';
-$txt['admin_search_section_settings'] = 'Paramètres';
+$txt['admin_search_section_sections'] = 'Section';
+$txt['admin_search_section_settings'] = 'Option';
+$txt['admin_search_section_preferences'] = 'Préférence';
 
 $txt['mods_cat_features'] = 'Paramètres';
 $txt['antispam_title'] = 'Anti-Spam';
