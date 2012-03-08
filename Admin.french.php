@@ -504,6 +504,8 @@ $txt['max_image_height'] = 'Hauteur max. des images postées (0 pour désactiver
 
 $txt['enableBBC'] = 'Activer les BBCodes';
 $txt['enablePostHTML'] = 'Permettre l\'utilisation de balises HTML <em>basiques</em> dans les messages';
+$txt['editorFonts'] = 'Polices à proposer dans l\'éditeur';
+$txt['editorFonts_note'] = 'Vous pouvez indiquer n\'importe quelle fonte ici, elle sera listée dans la boîte déroulante "Police du texte" de l\'éditeur de messages. Assurez-vous que la fonte est installée sur l\'ordinateur de vos utilisateurs.';
 $txt['autoLinkUrls'] = 'Reconnaissance automatique des URLs';
 $txt['disabledBBC'] = 'Balises BBCode autorisées';
 $txt['bbcTagsToUse'] = 'Balises BBCodes activées';
