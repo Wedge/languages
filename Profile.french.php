@@ -249,7 +249,7 @@ $txt['ban_type_access'] = 'accéder au forum';
 $txt['show_online'] = 'Autoriser l\'affichage de ma présence en ligne';
 
 $txt['return_to_post'] = 'Par défaut, retourner dans les sujets après avoir posté.';
-$txt['no_new_reply_warning'] = 'Ne pas aviser des nouvelles réponses postées lors de la rédaction d\'un message.';
+$txt['new_reply_warning'] = 'Aviser des nouvelles réponses postées lors de la rédaction d\'un message.';
 $txt['posts_apply_ignore_list'] = 'Cacher les messages postés par les membres que j\'ignore.';
 $txt['view_newest_first'] = 'Voir les messages récents en premier.';
 $txt['view_newest_pm_first'] = 'Voir les messages personnels récents en premier.';
