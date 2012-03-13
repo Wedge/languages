@@ -129,6 +129,14 @@ $txt['usermenu_removebuddy'] = '- Contacts';
 $txt['usermenu_removebuddy_desc'] = 'Remove user from my contacts';
 
 // Action menu strings (per post)
+$txt['acme_like'] = 'Like';
+$txt['acme_like_desc'] = 'Like this post';
+$txt['acme_unlike'] = 'Unlike';
+$txt['acme_unlike_desc'] = 'Unlike this post';
+$txt['acme_quote'] = 'Quote';
+$txt['acme_quote_desc'] = 'Reply to this post';
+$txt['acme_modify'] = 'Modify';
+$txt['acme_modify_desc'] = 'Edit this post';
 $txt['acme_report'] = 'Report';
 $txt['acme_report_desc'] = 'Report this post to a moderator';
 $txt['acme_restore'] = 'Restore';
@@ -173,9 +181,13 @@ $txt['move_to'] = 'Move to';
 $txt['pages'] = 'Pages';
 $txt['users_active'] = 'Users active in past %1$d minutes';
 $txt['personal_messages'] = 'Personal Messages';
-$txt['reply_quote'] = 'Reply with quote';
+
+$txt['quote_from'] = 'Quote from';
+$txt['quote'] = 'Quote';
+$txt['quote_noun'] = 'Quote';
 $txt['reply'] = 'Reply';
 $txt['reply_noun'] = 'Reply';
+
 $txt['approve'] = 'Approve';
 $txt['approve_all'] = 'approve all';
 $txt['awaiting_approval'] = 'Awaiting Approval';
@@ -431,9 +443,6 @@ $txt['more_stats'] = '[More Stats]';
 
 $txt['code'] = 'Code';
 $txt['code_select'] = '[Select]';
-$txt['quote_from'] = 'Quote from';
-$txt['quote'] = 'Quote';
-$txt['quote_noun'] = 'Quote';
 
 $txt['merge_to_topic_id'] = 'ID of target topic';
 $txt['split'] = 'Split current topic into another';

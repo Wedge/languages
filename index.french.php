@@ -84,6 +84,19 @@ $txt['views_0'] = 'Jamais lu';
 $txt['views_1'] = '%s lecture';
 $txt['views_n'] = '%s lectures';
 
+// Likes. It's pretty complicated.
+$txt['you_like_this'] = 'Vous aimez cela.';
+$txt['you_1_like_this'] = 'Vous et {name1} aimez cela.';
+$txt['you_2_like_this'] = 'Vous, {name1} et {name2} aimez cela.';
+$txt['you_n_like_this_1'] = 'Vous, {name1}, {name2} et 1 autre aiment cela.';
+$txt['you_n_like_this_n'] = 'Vous, {name1}, {name2} et %1$s autres aiment cela.';
+$txt['1_like_this'] = '{name1} aime cela.';
+$txt['2_like_this'] = '{name1} et {name2} aiment cela.';
+$txt['n_like_this_1'] = '{name1}, {name2} et 1 autre aiment cela.';
+$txt['n_like_this_n'] = '{name1}, {name2} et %1$s autres aiment cela.';
+$txt['like'] = 'Aimer';
+$txt['unlike'] = 'Désaimer';
+
 $txt['choose_pass'] = 'Choisir un mot de passe';
 $txt['verify_pass'] = 'Vérifier le mot de passe';
 $txt['position'] = 'Rang';
@@ -116,6 +129,14 @@ $txt['usermenu_removebuddy'] = '- Contacts';
 $txt['usermenu_removebuddy_desc'] = 'Retirer de mes contacts';
 
 // Action menu strings (per post)
+$txt['acme_like'] = 'Aimer';
+$txt['acme_like_desc'] = 'J\'aime ce message';
+$txt['acme_unlike'] = 'Désaimer';
+$txt['acme_unlike_desc'] = 'Je n\'aime plus ce message';
+$txt['acme_quote'] = 'Citer';
+$txt['acme_quote_desc'] = 'Citer ce message en réponse';
+$txt['acme_modify'] = 'Modifier';
+$txt['acme_modify_desc'] = 'Modifier ce message';
 $txt['acme_report'] = 'Avertir';
 $txt['acme_report_desc'] = 'Avertir un modérateur à propos de ce message';
 $txt['acme_restore'] = 'Restaurer';
@@ -160,9 +181,13 @@ $txt['move_to'] = 'Déplacer vers';
 $txt['pages'] = 'Pages';
 $txt['users_active'] = 'Membres actifs dans les %1$d dernières minutes';
 $txt['personal_messages'] = 'Messages personnels';
-$txt['reply_quote'] = 'Citer';
+
+$txt['quote_from'] = 'Citation de';
+$txt['quote'] = 'Citer';
+$txt['quote_noun'] = 'Citation';
 $txt['reply'] = 'Répondre';
 $txt['reply_noun'] = 'Réponse';
+
 $txt['approve'] = 'Approuver';
 $txt['approve_all'] = 'Tout approuver';
 $txt['awaiting_approval'] = 'En attente d\'approbation';
@@ -417,9 +442,6 @@ $txt['more_stats'] = '[plus de stats]';
 
 $txt['code'] = 'Code';
 $txt['code_select'] = '[Sélectionner]';
-$txt['quote_from'] = 'Citation de';
-$txt['quote'] = 'Citer';
-$txt['quote_noun'] = 'Citation';
 
 $txt['merge_to_topic_id'] = 'ID du sujet de destination';
 $txt['split'] = 'Séparer';
