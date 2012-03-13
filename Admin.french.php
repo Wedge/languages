@@ -339,13 +339,14 @@ $txt['attachmentExtensions'] = 'Extensions autorisées';
 $txt['attachmentRecodeLineEndings'] = 'Recoder les fins de ligne dans les fichiers joints au format texte';
 $txt['attachmentShowImages'] = 'Afficher les images jointes sous les messages';
 $txt['attachmentEncryptFilenames'] = 'Encrypter les noms des fichiers stockés';
-$txt['attachmentUploadDir'] = 'Répertoire des fichiers joints<dfn><a href="<URL>?action=admin;area=manageattachments;sa=attachpaths">[Configurer plusieurs répertoires pour fichiers joints]</a></dfn>';
+$txt['attachmentUploadDir'] = 'Répertoire des fichiers joints';
 $txt['attachmentUploadDir_multiple'] = 'Répertoire des fichiers joints';
 $txt['attachmentUploadDir_multiple_configure'] = '<a href="<URL>?action=admin;area=manageattachments;sa=attachpaths">[Configurer plusieurs répertoires pour fichiers joints]</a>';
-$txt['attachmentDirSizeLimit'] = 'Taille maximale du répertoire des fichiers joints<dfn>(0 pour pas de limite)</dfn>';
-$txt['attachmentPostLimit'] = 'Taille totale maximale des fichiers joints par message<dfn>(0 pour pas de limite)</dfn>';
-$txt['attachmentSizeLimit'] = 'Taille maximale de chaque fichier joint<dfn>(0 pour pas de limite)</dfn>';
-$txt['attachmentNumPerPostLimit'] = 'Nombre maximum de fichiers joints par message<dfn>(0 pour pas de limite)</dfn>';
+$txt['attachmentZeroNoLimit'] = '(0 pour pas de limite)';
+$txt['attachmentDirSizeLimit'] = 'Taille maximale du répertoire des fichiers joints';
+$txt['attachmentPostLimit'] = 'Taille totale maximale des fichiers joints par message';
+$txt['attachmentSizeLimit'] = 'Taille maximale de chaque fichier joint';
+$txt['attachmentNumPerPostLimit'] = 'Nombre maximum de fichiers joints par message';
 $txt['attachment_image_reencode'] = 'Réencoder les images potentiellement dangereuses envoyées en fichier joint';
 $txt['attachment_image_paranoid_warning'] = 'Attention, la fonctionnalité ci-dessus peut donner lieu à des faux positifs (fichiers sains rejetés).';
 $txt['attachment_image_paranoid'] = 'Effectuer un maximum de tests de sécurité sur les images envoyées en fichier joint';
@@ -633,7 +634,8 @@ $txt['spider_stats'] = 'Stats';
 $txt['paid_subscriptions'] = 'Abonnements payants';
 $txt['paid_subs_view'] = 'Voir les Abonnements';
 
-$txt['max_urlLength'] = 'Dans les messages, raccourcir les adresses de plus de...<dfn>Par défaut, 50 caractères. Mettez à 0 pour désactiver.</dfn>';
+$txt['max_urlLength'] = 'Dans les messages, raccourcir les adresses de plus de...';
+$txt['max_urlLength_subtext'] = 'Par défaut, 50 caractères. Mettez à 0 pour désactiver.';
 
 $txt['allow_ignore_topics'] = 'Permettre aux membres d\'ignorer des sujets';
 
