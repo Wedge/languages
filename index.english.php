@@ -84,6 +84,19 @@ $txt['views_0'] = 'Never viewed';
 $txt['views_1'] = '%s view';
 $txt['views_n'] = '%s views';
 
+// Likes. It's pretty complicated.
+$txt['you_like_this'] = 'You like this.';
+$txt['you_1_like_this'] = 'You and {name1} like this.';
+$txt['you_2_like_this'] = 'You, {name1} and {name2} like this.';
+$txt['you_n_like_this_1'] = 'You, {name1}, {name2} and 1 other like this.';
+$txt['you_n_like_this_n'] = 'You, {name1}, {name2} and %1$s others like this.';
+$txt['1_like_this'] = '{name1} likes this.';
+$txt['2_like_this'] = '{name1} and {name2} like this.';
+$txt['n_like_this_1'] = '{name1}, {name2} and 1 other likes this.';
+$txt['n_like_this_n'] = '{name1}, {name2} and %1$s others like this.';
+$txt['like'] = 'Like';
+$txt['unlike'] = 'Unlike';
+
 $txt['choose_pass'] = 'Choose password';
 $txt['verify_pass'] = 'Verify password';
 $txt['position'] = 'Position';
