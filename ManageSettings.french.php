@@ -94,6 +94,7 @@ $txt['pm_read'] = 'Groupes autorisés à lire leurs messages';
 $txt['pm_send'] = 'Groupes autorisés à envoyer des messages';
 $txt['save_pm_draft'] = 'Groupes autorisés à sauvegarder des brouillons';
 $txt['auto_save_pm_draft'] = 'Groupes pour lesquels les brouillons sont automatiques';
+$txt['pm_draft_other_settings'] = 'Vous pouvez également choisir la fréquence d\'enregistrement automatique des brouillons, et si les brouillons trop anciens doivent être supprimés, sur la page de paramétrage des <a href="<URL>?action=admin;area=postsettings;sa=drafts">Brouillons</a>.';
 
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important&nbsp;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br>
 	Wedge peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&nbsp;:<br>
