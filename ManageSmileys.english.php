@@ -12,7 +12,7 @@ $txt['setting_smiley_enable'] = 'Organize, add and edit smileys manually';
 $txt['setting_smileys_url'] = 'Base URL to all smiley sets';
 $txt['setting_smileys_dir'] = 'Absolute path to all smiley sets';
 $txt['setting_messageIcons_enable'] = 'Enable customized message icons';
-$txt['setting_messageIcons_enable_note'] = '(otherwise, the default message icons will be used.)';
+$txt['setting_messageIcons_enable_subtext'] = '(otherwise, the default message icons will be used.)';
 $txt['groups_manage_smileys'] = 'Groups allowed to manage smileys and message icons';
 
 $txt['smiley_sets_name'] = 'Name';
@@ -31,7 +31,7 @@ $txt['smileys_add_upload_all'] = 'Same image for all sets';
 $txt['smileys_add_upload_for1'] = 'Image for the';
 $txt['smileys_add_upload_for2'] = 'set';
 
-$txt['smileys_enable_note'] = '(otherwise, the default smileys will be used.)';
+$txt['smileys_enable_subtext'] = '(otherwise, the default smileys will be used.)';
 $txt['smileys_code'] = 'Code';
 $txt['smileys_filename'] = 'Filename';
 $txt['smileys_description'] = 'Tooltip or description';

@@ -74,9 +74,9 @@ $txt['pm_posts_verification_subtext'] = '(0 for no limit, admins are exempt)';
 $txt['pm_posts_per_hour'] = 'Number of personal messages a user may send in an hour';
 $txt['pm_posts_per_hour_subtext'] = '(0 for no limit, moderators are exempt)';
 $txt['home_url'] = 'Site address';
-$txt['home_url_note'] = 'If your forum is part of a larger site, put the address of that here, and the Home tab on the menu will point to it, as opposed to the forum front page.';
+$txt['home_url_subtext'] = 'If your forum is part of a larger site, put the address of that here, and the Home tab on the menu will point to it, as opposed to the forum front page.';
 $txt['home_link'] = 'Link the title to the home page';
-$txt['home_link_note'] = 'The forum title at the top of the page is also a link back to the forum front page. Ticking this box will make it link back to the overall site address you provided above.';
+$txt['home_link_subtext'] = 'The forum title at the top of the page is also a link back to the forum front page. Ticking this box will make it link back to the overall site address you provided above.';
 $txt['todayMod'] = 'Enable shorthand date display';
 $txt['today_disabled'] = 'Disabled';
 $txt['today_only'] = 'Only Today';
@@ -94,6 +94,7 @@ $txt['pm_read'] = 'Groups allowed to read their messages';
 $txt['pm_send'] = 'Groups allowed to send messages';
 $txt['save_pm_draft'] = 'Groups allowed to save drafts';
 $txt['auto_save_pm_draft'] = 'Groups whose drafts will automatically save';
+$txt['pm_draft_other_settings'] = 'You can also set how often drafts are saved and whether old drafts are removed from the <a href="<URL>?action=admin;area=postsettings;sa=drafts">Draft Settings</a> page.';
 
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important! Read this first before enabling these features.</div><br>
 	Wedge supports caching through the use of accelerators. The currently supported accelerators include:<br>

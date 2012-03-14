@@ -506,7 +506,7 @@ $txt['max_image_height'] = 'Max height of posted pictures (0 = disable)';
 $txt['enableBBC'] = 'Enable bulletin board code (BBC)';
 $txt['enablePostHTML'] = 'Enable <em>basic</em> HTML in posts';
 $txt['editorFonts'] = 'Fonts to list in the editor';
-$txt['editorFonts_note'] = 'While you can list any font here, and it will be shown in the main editor in the "Font Face" dropdown, it will only work if the font is installed on your users\' computers.';
+$txt['editorFonts_subtext'] = 'While you can list any font here, and it will be shown in the main editor in the "Font Face" dropdown, it will only work if the font is installed on your users\' computers.';
 $txt['autoLinkUrls'] = 'Automatically link posted URLs';
 $txt['disabledBBC'] = 'Enabled BBC tags';
 $txt['bbcTagsToUse'] = 'Enabled BBC tags';

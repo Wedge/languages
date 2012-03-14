@@ -121,7 +121,6 @@ $txt['mc_prefs_title'] = 'Préférences de Modération';
 $txt['mc_prefs_desc'] = 'Cette section vous permet de régler des préférences personnelles pour les activités liées à la modération tel que les notifications par e-mail.';
 $txt['mc_prefs_homepage'] = 'Éléments à montrer sur la page d\'accueil de modération';
 $txt['mc_prefs_latest_news'] = 'Nouvelles de Wedge';
-$txt['mc_prefs_show_reports'] = 'Montrer le nombre de rapports ouverts dans l\'entête du forum';
 $txt['mc_prefs_notify_report'] = 'Notification de rapports de sujet';
 $txt['mc_prefs_notify_report_never'] = 'Jamais';
 $txt['mc_prefs_notify_report_moderator'] = 'Seulement si c\'est une section que je modère';

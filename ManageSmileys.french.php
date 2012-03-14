@@ -12,7 +12,7 @@ $txt['setting_smiley_enable'] = 'Organiser, ajouter et modifier les smileys manu
 $txt['setting_smileys_url'] = 'URL de base de tous les jeux de smileys';
 $txt['setting_smileys_dir'] = 'Chemin absolu vers tous les jeux de smileys';
 $txt['setting_messageIcons_enable'] = 'Activer les icônes de messages personnalisées';
-$txt['setting_messageIcons_enable_note'] = '(autrement, les icônes par défaut seront utilisées.)';
+$txt['setting_messageIcons_enable_subtext'] = '(autrement, les icônes par défaut seront utilisées.)';
 $txt['groups_manage_smileys'] = 'Groupes autorisés à gérer les smileys et icônes de messages';
 
 $txt['smiley_sets_name'] = 'Nom';
@@ -31,7 +31,7 @@ $txt['smileys_add_upload_all'] = 'Même image pour tous les jeux';
 $txt['smileys_add_upload_for1'] = 'Image pour le';
 $txt['smileys_add_upload_for2'] = 'jeu';
 
-$txt['smileys_enable_note'] = '(autrement, les smileys par défaut seront utilisés.)';
+$txt['smileys_enable_subtext'] = '(autrement, les smileys par défaut seront utilisés.)';
 $txt['smileys_code'] = 'Code';
 $txt['smileys_filename'] = 'Nom de fichier';
 $txt['smileys_description'] = 'Description';
