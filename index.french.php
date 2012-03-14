@@ -25,7 +25,7 @@ $txt['days'] = array('Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendred
 $txt['days_short'] = array('Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam');
 // Months must start with 1 => 'January'. (or translated, of course.)
 $txt['months'] = array(1 => 'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre');
-$txt['months_short'] = array(1 => 'Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sep', 'Oct', 'Nov', 'Déc');
+$txt['months_short'] = array(1 => 'Jan', 'Fév', 'Mars', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sep', 'Oct', 'Nov', 'Déc');
 
 $txt['admin'] = 'Admin';
 $txt['moderate'] = 'Modérer';
@@ -719,7 +719,7 @@ $txt['forumprofile'] = 'Profil de base et avatar';
 $txt['change_skin'] = 'Changer de style';
 $txt['draft_posts'] = 'Brouillons';
 
-$txt['settings_title'] = 'Fonctionnalités et Options';
+$txt['settings_title'] = 'Options Générales';
 $txt['plugin_manager'] = 'Extensions';
 $txt['errlog'] = 'Journal d\'Erreurs';
 $txt['edit_permissions'] = 'Permissions';

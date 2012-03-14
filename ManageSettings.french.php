@@ -73,8 +73,10 @@ $txt['pm_posts_verification'] = 'Nombre de messages de forum en dessous duquel l
 $txt['pm_posts_verification_subtext'] = '(0 pour pas de limite, les admins sont exemptés)';
 $txt['pm_posts_per_hour'] = 'Nombre de messages personnels qu\'un utilisateur peut envoyer en une heure';
 $txt['pm_posts_per_hour_subtext'] = '(0 pour pas de limite, les modérateurs sont exemptés)';
-$txt['home_url'] = 'Adresse du site';
+$txt['home_url'] = 'Adresse du site principal';
 $txt['home_url_note'] = 'Si votre forum fait partie d\'un site plus global, mettez son adresse ici, et le lien Accueil pointera vers lui, au lieu de l\'accueil du forum.';
+$txt['home_link'] = 'Lier le titre au site principal&nbsp?';
+$txt['home_link_note'] = 'Le nom du forum en haut de la page est aussi un lien vers sa page d\'accueil. Cochez cette case pour que le lien pointe plutôt sur l\'adresse remplie ci-dessus.';
 $txt['todayMod'] = 'Activer les dates abrégées';
 $txt['today_disabled'] = 'Désactivé';
 $txt['today_only'] = 'Seulement Aujourd\'hui';
@@ -143,10 +145,10 @@ $txt['xmlnews_maxlen_subtext'] = '(0 pour désactiver, mauvaise idée.)';
 $txt['show_newsfader'] = 'Activer la rotation des nouvelles sur la page d\'accueil';
 $txt['newsfader_time'] = 'Délai d\'enchaînement entre les nouvelles rotatives';
 
-$txt['reverse_proxy'] = 'Ajouter le support des proxies inverses';
+$txt['reverse_proxy'] = 'Ajouter le support des serveurs proxy inverses';
 $txt['reverse_proxy_header'] = 'Entête HTTP Proxy avec adresse IP';
 $txt['reverse_proxy_ips'] = 'IP ou bloc d\'adresses CIDR de serveurs proxy';
-$txt['reverse_proxy_one_per_line'] = 'N\'entrez qu\'adresse par ligne';
+$txt['reverse_proxy_one_per_line'] = 'N\'entrez qu\'une adresse par ligne';
 
 $txt['setting_password_strength'] = 'Protection requise pour les mots de passe utilisateur';
 $txt['setting_password_strength_low'] = 'Basse - 4 caractères minimum';
