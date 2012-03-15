@@ -488,7 +488,10 @@ $helptxt['plugins_repo_active'] = 'If a repository is not marked active, you wil
 $helptxt['plugins_password_blank'] = 'A password has previously been supplied for this repository but it is encrypted on the server so that your password cannot be shared with another person.<br><br>If you want, you can change the username and/or password by entering the new details - or leave the boxes as they are to leave the details as they are currently.';
 
 $helptxt['secret_why_blank'] = 'For your security, your password and the answer to your secret question are encrypted so that the Wedge software will never tell you, or anyone else, what they are.';
-$helptxt['moderator_why_missing'] = 'Since moderation is done on a board-by-board basis, you have to make members moderators from the <a href="javascript:window.open(\'%1$s?action=admin;area=manageboards\'); self.close();">board management interface</a>.';
+$helptxt['primary_membergroup'] = '
+	Wedge allows you to define primary and additional membergroups. If no primary membergroup is set for a member, they will be considered to be in the <em>Regular Members</em> virtual membergroup. Setting a member\'s primary membergroup to something else may cause them to lose all permissions associated with Regular Members. It is <strong>best practice</strong> to consider assigning membergroups as additional as much as possible.
+	<h6>Why is the Moderator group missing from here?</h6>
+	Since moderation is done on a board-by-board basis, and the moderator membergroup is another virtual membergroup, you have to make members moderators from the <a href="javascript:window.open(\'%1$s?action=admin;area=manageboards\'); self.close();">board management interface</a>.';
 
 $helptxt['permissions'] = 'Permissions are how you either allow groups to, or deny groups from, doing specific things.<br><br>You can modify multiple boards at once with the checkboxes, or look at the permissions for a specific group by clicking \'Modify.\'';
 $helptxt['permissions_board'] = 'If a board is set to \'Global,\' it means that the board will not have any special permissions. \'Local\' means it will have its own permissions - separate from the global ones. This allows you to have a board that has more or less permissions than another, without requiring you to set them for each and every board.';

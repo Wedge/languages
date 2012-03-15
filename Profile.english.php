@@ -286,7 +286,7 @@ $txt['whois_arin'] = 'ARIN (North America, a portion of the Caribbean and sub-Sa
 $txt['whois_lacnic'] = 'LACNIC (Latin American and Caribbean region)';
 $txt['whois_ripe'] = 'RIPE (Europe, the Middle East and parts of Africa and Asia)';
 
-$txt['moderator_why_missing'] = 'why isn\'t moderator here?';
+$txt['primary_membergroup_subtext'] = '(Click the Help icon for more details.)';
 $txt['username_change'] = 'change';
 $txt['username_warning'] = 'To change this member\'s username, the forum must also reset their password, which will be emailed to the member with their new username.';
 

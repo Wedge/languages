@@ -286,7 +286,7 @@ $txt['whois_arin'] = 'ARIN (Amérique du Nord, une partie des Caraïbes et Afriq
 $txt['whois_lacnic'] = 'LACNIC (Amérique Latine et Caraïbes)';
 $txt['whois_ripe'] = 'RIPE (Europe, le Moyen-Orient et des parties de l\'Afrique et Asie)';
 
-$txt['moderator_why_missing'] = 'Pourquoi n\'y a-t-il aucun modérateur ici&nbsp;?';
+$txt['primary_membergroup_subtext'] = '(Cliquez sur l\'icône d\'aide pour plus de détails)';
 $txt['username_change'] = 'changer';
 $txt['username_warning'] = 'Pour changer l\'identifiant de ce membre, le forum doit aussi réinitialiser son mot de passe, qui lui sera envoyé par e-mail avec son nouvel identifiant.';
 
