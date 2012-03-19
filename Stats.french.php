@@ -15,6 +15,7 @@ $txt['top_topics_replies'] = 'Top 10 des sujets (par réponses)';
 $txt['top_topics_views'] = 'Top 10 des sujets (par pages vues)';
 $txt['yearly_summary'] = 'Sommaire mensuel';
 $txt['most_online'] = 'Connexions simultanées';
+$txt['top_likes'] = 'Messages les plus appréciés';
 $txt['top_starters'] = 'Top lanceurs de sujets';
 $txt['most_time_online'] = 'Temps de connexion cumulé';
 $txt['stats_more_detailed'] = 'plus de détails &raquo;';
