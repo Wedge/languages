@@ -85,12 +85,14 @@ $txt['database_opimize_unneeded'] = 'It wasn\'t necessary to optimize any tables
 $txt['database_optimized'] = ' table(s) optimized.';
 $txt['database_no_id'] = 'has a non-existent member ID';
 
+// Error and intrusion logs.
 $txt['apply_filter'] = 'Apply Filter';
 $txt['applying_filter'] = 'Applying Filter';
 $txt['filter_only_member'] = 'Only show the error messages of this member';
 $txt['filter_only_ip'] = 'Only show the error messages of this IP address';
 $txt['filter_only_url'] = 'Only show the error messages of this URL';
 $txt['filter_only_message'] = 'Only show the errors with the same message';
+$txt['filter_only_ua'] = 'Only show the errors from this user agent';
 $txt['error_url'] = 'URL of page causing the error';
 $txt['error_message'] = 'Error message';
 $txt['clear_filter'] = 'Clear filter';
@@ -102,6 +104,10 @@ $txt['error_type'] = 'Type of error';
 $txt['filter_only_type'] = 'Only show the errors of this type';
 $txt['filter_only_file'] = 'Only show the errors from this file';
 $txt['apply_filter_of_type'] = 'Apply filter of type';
+$txt['request_method'] = 'Request method';
+$txt['request_protocol'] = 'Request protocol';
+$txt['user_agent'] = 'User agent';
+$txt['http_headers'] = 'Other HTTP headers:';
 
 $txt['errortype_all'] = 'All errors';
 $txt['errortype_general'] = 'General';

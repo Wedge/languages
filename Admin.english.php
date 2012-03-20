@@ -214,9 +214,12 @@ $txt['spider_log'] = 'Spider Log';
 $txt['spider_log_desc'] = 'Review the entries related to search engine spider activity on your forum.';
 $txt['errlog_desc'] = 'The error log tracks every error encountered by your forum. To delete any errors from the database, mark the checkbox, and click the %1$s button at the bottom of the page.';
 $txt['errlog_no_entries'] = 'There are currently no error log entries.';
+$txt['intrusion_log_desc'] = 'Wedge includes a minimal firewall, based on <a href="http://bad-behavior.ioerror.us/">Bad Behavior</a> to limit potential problems on your forum. Any requests made to your forum that are stopped by this system are logged here.';
+$txt['intrusion_log_no_entries'] = 'There are currently no intrusion log entries.';
 
 // Repeating the same strings, but for the Log menu, so you can shorten them if you want.
 $txt['log_error'] = 'Error Log';
+$txt['log_intrusion'] = 'Intrusion Log';
 $txt['log_ban'] = 'Ban Log';
 $txt['log_scheduled'] = 'Task Log';
 $txt['log_admin'] = 'Admin Log';
