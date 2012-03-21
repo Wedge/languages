@@ -186,7 +186,7 @@ $txt['quote_from'] = 'Citation de';
 $txt['quote'] = 'Citer';
 $txt['quote_noun'] = 'Citation';
 $txt['reply'] = 'Répondre';
-$txt['reply_number'] = 'Réponse n°<strong>%1$d</strong>,';
+$txt['reply_number'] = 'Réponse #<strong>%1$d</strong>,';
 
 $txt['approve'] = 'Approuver';
 $txt['approve_all'] = 'Tout approuver';
