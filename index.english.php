@@ -186,7 +186,7 @@ $txt['quote_from'] = 'Quote from';
 $txt['quote'] = 'Quote';
 $txt['quote_noun'] = 'Quote';
 $txt['reply'] = 'Reply';
-$txt['reply_noun'] = 'Reply';
+$txt['reply_number'] = 'Reply #<strong>%1$d</strong>';
 
 $txt['approve'] = 'Approve';
 $txt['approve_all'] = 'approve all';
