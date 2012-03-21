@@ -214,9 +214,12 @@ $txt['spider_log'] = 'Journal des Robots';
 $txt['spider_log_desc'] = 'Voir les entrées correspondant à l\'activité des moteurs de recherche sur votre forum.';
 $txt['errlog_desc'] = 'Le Journal d\'erreurs traque toutes les erreurs rencontrées sur votre forum. Pour supprimer une erreur de la base de données, cochez le champ et cliquez sur le bouton %1$s au bas de la page.';
 $txt['errlog_no_entries'] = 'Aucune erreur à signaler dans le journal.';
+$txt['intrusion_log_desc'] = 'Wedge inclut un pare-feu minimal, basé sur <a href="http://bad-behavior.ioerror.us/">Bad Behavior</a>, pour limiter les problèmes potentiels sur votre forum. Toute requête à votre forum rejetée par ce système sera ajoutée à ce journal.';
+$txt['intrusion_log_no_entries'] = 'Le journal d\'intrusions est vide.';
 
 // Repeating the same strings, but for the Log menu, so you can shorten them if you want.
 $txt['log_error'] = 'Erreurs';
+$txt['log_intrusion'] = 'Intrusions';
 $txt['log_ban'] = 'Bannissements';
 $txt['log_scheduled'] = 'Tâches';
 $txt['log_admin'] = 'Administration';

@@ -85,12 +85,14 @@ $txt['database_opimize_unneeded'] = 'Il n\'était pas nécessaire d\'optimiser l
 $txt['database_optimized'] = ' table(s) optimisée(s).';
 $txt['database_no_id'] = 'a un ID de membre inexistant';
 
+// Error and intrusion logs.
 $txt['apply_filter'] = 'Appliquer le filtre';
 $txt['applying_filter'] = 'Application du filtre';
 $txt['filter_only_member'] = 'Afficher les messages d\'erreurs pour ce membre seulement';
 $txt['filter_only_ip'] = 'Afficher les messages d\'erreurs pour cette adresse IP seulement';
 $txt['filter_only_url'] = 'Afficher les messages d\'erreurs pour cette URL seulement';
 $txt['filter_only_message'] = 'Montrer les erreurs qui ont un message identique';
+$txt['filter_only_ua'] = 'Ne montrer que les erreurs de ce User-Agent';
 $txt['error_url'] = 'URL de la page causant l\'erreur';
 $txt['error_message'] = 'Message d\'erreur';
 $txt['clear_filter'] = 'Vider le filtre';
@@ -102,6 +104,10 @@ $txt['error_type'] = 'Type d\'erreur';
 $txt['filter_only_type'] = 'Ne montrer que les erreurs de ce type';
 $txt['filter_only_file'] = 'Ne montrer que les erreurs provenant de ce fichier';
 $txt['apply_filter_of_type'] = 'Appliquer le filtre de type&nbsp;';
+$txt['request_method'] = 'Méthode de la requête';
+$txt['request_protocol'] = 'Protocole de la requête';
+$txt['user_agent'] = 'User-Agent';
+$txt['http_headers'] = 'Autres entêtes HTTP&nbsp;:';
 
 $txt['errortype_all'] = 'Toutes les erreurs';
 $txt['errortype_general'] = 'Générale';
@@ -116,8 +122,10 @@ $txt['errortype_filenotfound'] = 'Fichier introuvable';
 $txt['errortype_filenotfound_desc'] = 'Erreurs causées par des fichiers demandés mais introuvables sur le serveur.';
 $txt['errortype_template'] = 'Modèles';
 $txt['errortype_template_desc'] = 'Erreurs liées au chargement d\'un modèle.';
+$txt['errortype_password'] = 'Mots de passe';
+$txt['errortype_password_desc'] = 'Utilisateurs ayant entré un mot de passe incorrect.';
 $txt['errortype_user'] = 'Utilisateurs';
-$txt['errortype_user_desc'] = 'Erreurs liées au comportement des utilisateurs. Par exemple, mot de passe erroné, tentative de connexion malgré un bannissement, et absence de permission pour une action spécifique.';
+$txt['errortype_user_desc'] = 'Erreurs liées au comportement des utilisateurs. Par exemple, tentative de se connecter malgré un bannissement, ou de lancer une action sans en avoir la permission.';
 
 $txt['maintain_recount'] = 'Recompter les totaux et statistiques des sections';
 $txt['maintain_recount_info'] = 'Si le nombre total de messages sur un sujet ou dans votre boîte de réception est incorrect, cette fonction peut corriger tous les décomptes et statistiques pour vous.';
