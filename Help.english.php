@@ -239,7 +239,7 @@ $helptxt['manage_files'] = '
 		</li>
 	</ul>';
 
-$helptxt['topicSummaryPosts'] = 'This allows you to set the number of previous posts shown in the topic summary at the reply screen.';
+$helptxt['topicSummaryPosts'] = 'This allows you to set the number of previous posts shown in the topic summary at the post reply screen, right below the text area.';
 $helptxt['enableAllMessages'] = 'Set this to the <em>maximum</em> number of posts a topic can have to show the all link. Setting this lower than "Maximum messages to display in a topic page" will simply mean it never gets shown, and setting it too high could slow down your forum.';
 $helptxt['pruneSavedDrafts'] = 'Drafts saved on the server do not have any normal limits, but the administrator can use this option to automatically clean out old drafts of users to keep the database smaller. If this is set to a number, any drafts older than the number of days given will be removed. If set to 0, drafts are always kept until the author decides to publish them or delete them from their profile.';
 $helptxt['allow_guestAccess'] = 'Unchecking this box will stop guests from doing anything but very basic actions - login, register, password reminder, etc. - on your forum. This is not the same as disallowing guest access to boards.';

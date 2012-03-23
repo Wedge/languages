@@ -517,7 +517,7 @@ $txt['bbcTagsToUse_select'] = 'Sélectionnez toutes les balises pouvant être ut
 $txt['bbcTagsToUse_select_all'] = 'Sélectionner toutes les balises';
 
 $txt['enableParticipation'] = 'Activer l\'icône de participation';
-$txt['oldTopicDays'] = 'Temps avant qu\'un sujet ne soit mentionné comme ancien lors de l\'écriture d\'une réponse';
+$txt['oldTopicDays'] = 'Délai avant qu\'un sujet ne soit mentionné comme ancien lors de l\'écriture d\'une réponse';
 $txt['oldTopicDays_zero'] = '0 pour désactiver';
 $txt['defaultMaxTopics'] = 'Nombre de sujets par page lors du visionnage d\'un site';
 $txt['defaultMaxMessages'] = 'Nombre de messages à afficher lors du visionnage d\'un sujet';
