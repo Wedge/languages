@@ -487,7 +487,7 @@ $txt['manageposts_draft_settings_submit'] = 'Enregistrer';
 $txt['manageposts_merge'] = 'Doublons';
 
 $txt['removeNestedQuotes'] = 'Supprimer les citations imbriquées en citant un message';
-$txt['enableEmbeddedFlash'] = 'Inclure des animations Flash dans les messages';
+$txt['enableEmbeddedFlash'] = 'Autoriser l\'intégration d\'animations Flash dans les messages';
 $txt['enableEmbeddedFlash_warning'] = 'Peut constituer un risque de sécurité&nbsp;!';
 $txt['additional_options_collapsable'] = 'Activer les Options Supplémentaires (à l\'écriture des messages)';
 $txt['enableSpellChecking'] = 'Activer le correcteur orthographique';

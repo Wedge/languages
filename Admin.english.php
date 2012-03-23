@@ -487,7 +487,7 @@ $txt['manageposts_draft_settings_submit'] = 'Save';
 $txt['manageposts_merge'] = 'Merging';
 
 $txt['removeNestedQuotes'] = 'Remove nested quotes when quoting';
-$txt['enableEmbeddedFlash'] = 'Embed flash into posts';
+$txt['enableEmbeddedFlash'] = 'Allow Flash embedding in posts';
 $txt['enableEmbeddedFlash_warning'] = 'May be a security risk!';
 $txt['additional_options_collapsable'] = 'Enable collapsible additional post options';
 $txt['enableSpellChecking'] = 'Enable spell checking';
