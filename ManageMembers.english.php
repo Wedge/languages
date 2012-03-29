@@ -46,8 +46,9 @@ $txt['membergroups_min_posts'] = 'Required posts';
 $txt['membergroups_online_color'] = 'Color for profile links';
 $txt['membergroups_online_color_desc'] = 'e.g. #ffcc99';
 $txt['membergroups_star_count'] = 'Number of rank images';
+$txt['membergroups_star_count_note'] = 'Or set to 1 to use a badge instead of stars, for instance.';
 $txt['membergroups_star_image'] = 'Rank image filename';
-$txt['membergroups_star_image_note'] = 'you can use $language for the language of the user';
+$txt['membergroups_star_image_note'] = 'You can use $language for the language of the user.';
 $txt['membergroups_max_messages'] = 'Max personal messages';
 $txt['membergroups_max_messages_note'] = '0 = unlimited';
 $txt['membergroups_edit_save'] = 'Save';
@@ -70,6 +71,7 @@ $txt['membergroups_members_deadmin_confirm'] = 'Are you sure you wish to remove 
 $txt['membergroups_postgroups'] = 'Post groups';
 $txt['membergroups_settings'] = 'Membergroup Settings';
 $txt['groups_manage_membergroups'] = 'Groups allowed to change membergroups';
+
 $txt['membergroups_select_permission_type'] = 'Select permission profile';
 $txt['membergroups_images_url'] = '{theme URL}/images/';
 $txt['membergroups_select_visible_boards'] = 'Show boards';

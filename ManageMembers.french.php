@@ -46,8 +46,9 @@ $txt['membergroups_min_posts'] = 'Nombre de messages requis';
 $txt['membergroups_online_color'] = 'Couleur des liens vers les profils';
 $txt['membergroups_online_color_desc'] = 'Par exemple #ffcc99';
 $txt['membergroups_star_count'] = 'Nombre d\'images de grade';
+$txt['membergroups_star_count_note'] = 'Ou mettez à 1 pour créer facilement un badge, par exemple.';
 $txt['membergroups_star_image'] = 'Nom du fichier image';
-$txt['membergroups_star_image_note'] = 'Vous pouvez utiliser $language pour pointer vers un dossier différent selon la langue du membre';
+$txt['membergroups_star_image_note'] = 'Vous pouvez utiliser $language pour pointer vers un dossier différent selon la langue du membre.';
 $txt['membergroups_max_messages'] = 'Nombre de MP maximum';
 $txt['membergroups_max_messages_note'] = '0 = illimité';
 $txt['membergroups_edit_save'] = 'Sauvegarder';
@@ -70,6 +71,7 @@ $txt['membergroups_members_deadmin_confirm'] = 'Êtes-vous sûr de vouloir vous 
 $txt['membergroups_postgroups'] = 'Groupes Posteurs';
 $txt['membergroups_settings'] = 'Réglages des groupes de membres';
 $txt['groups_manage_membergroups'] = 'Groupes autorisés à modifier les groupes de membres';
+
 $txt['membergroups_select_permission_type'] = 'Sélectionner un profil de permissions';
 $txt['membergroups_images_url'] = '{URL du thème}/images/';
 $txt['membergroups_select_visible_boards'] = 'Montrer les sections';
