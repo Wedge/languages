@@ -308,6 +308,7 @@ $txt['sendtopic_send'] = 'Send';
 $txt['report_sent'] = 'Your report has been sent successfully.';
 
 $txt['time_offset'] = 'Time Offset';
+$txt['time_zone'] = 'Time Zone';
 
 $txt['no_matches'] = 'Sorry, no matches were found';
 
