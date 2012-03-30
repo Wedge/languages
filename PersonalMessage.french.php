@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; PersonalMessage
 
-$txt['pm_inbox'] = 'Accueil des messages personnels';
+$txt['pm_inbox'] = 'Messagerie - Boîte de réception';
 $txt['send_message'] = 'Envoyer le message';
 $txt['pm_add'] = 'Ajouter';
 $txt['make_bcc'] = 'Ajouter un BCC';
@@ -123,7 +123,7 @@ $txt['pm_report_pm_sent'] = 'Envoy&#233; :';
 $txt['pm_report_done'] = 'Merci d\'avoir soumis ce rapport. Vous devriez recevoir des nouvelles des administrateurs rapidement.';
 $txt['pm_report_return'] = 'Retourner à la boîte de réception';
 
-$txt['pm_search_title'] = 'Rechercher dans la boîte de messages personnels';
+$txt['pm_search_title'] = 'Rechercher dans ma messagerie';
 $txt['pm_search_bar_title'] = 'Rechercher des messages';
 $txt['pm_search_text'] = 'Entrez le texte à rechercher&nbsp;';
 $txt['pm_search_go'] = 'Rechercher';

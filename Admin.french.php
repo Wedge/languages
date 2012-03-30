@@ -588,6 +588,7 @@ $txt['admin_search_welcome'] = 'Bienvenue dans le panneau d\'administration de W
 $txt['admin_search_section_sections'] = 'Section';
 $txt['admin_search_section_settings'] = 'Option';
 $txt['admin_search_section_preferences'] = 'Préférence';
+$txt['admin_search_section_tasks'] = 'Tâche';
 
 $txt['mods_cat_features'] = 'Paramètres';
 $txt['antispam_title'] = 'Anti-Spam';

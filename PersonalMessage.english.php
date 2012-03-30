@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; PersonalMessage
 
-$txt['pm_inbox'] = 'Personal Messages Index';
+$txt['pm_inbox'] = 'Personal Messages - Inbox';
 $txt['send_message'] = 'Send message';
 $txt['pm_add'] = 'Add';
 $txt['make_bcc'] = 'Add BCC';
