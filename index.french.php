@@ -307,6 +307,7 @@ $txt['sendtopic_send'] = 'Envoyer';
 $txt['report_sent'] = 'Votre rapport a été envoyé avec succès.';
 
 $txt['time_offset'] = 'Décalage horaire';
+$txt['time_zone'] = 'Fuseau horaire';
 
 $txt['no_matches'] = 'Désolé, aucune correspondance trouvée';
 
