@@ -320,9 +320,6 @@ $txt['media_admin_maintenance_checkorphans_no_files'] = 'Pas de fichiers orpheli
 $txt['media_admin_maintenance_clear_pending'] = 'Ce script est toujours actif. %s éléments sur %s sont terminés pour le moment.<br><br>Veuillez <a href="%s">cliquer ici</a> pour continuer. Assurez-vous d\'avoir attendu 1 à 2 secondes afin d\'éviter les surcharges.';
 $txt['media_admin_maintenance_clear_done'] = 'Tous les fichiers ont été renommés avec succès.';
 $txt['media_admin_installed_on'] = 'Installé le';
-$txt['media_admin_about_modd'] = 'Modérateurs et gérants du module';
-$txt['media_admin_managers'] = 'Gérants';
-$txt['media_admin_moderators'] = 'Modérateurs';
 $txt['media_admin_icon_edit_desc'] = 'Si vous désirez envoyer une icône, l\'ancienne sera écrasée. Laissez vide pour conserver l\'ancienne.';
 $txt['media_admin_bans_mems_empty'] = 'Aucun membre n\'a été spécifié';
 $txt['media_admin_expires_on_help'] = 'Doit être indiqué en &quot;jours&quot;, à partir de maintenant';

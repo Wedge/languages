@@ -695,7 +695,6 @@ $txt['media_admin_labels_submissions'] = 'Soumissions';
 $txt['media_admin_labels_bans'] = 'Bannissements';
 $txt['media_admin_labels_albums'] = 'Albums';
 $txt['media_admin_labels_maintenance'] = 'Maintenance Media';
-$txt['media_admin_labels_about'] = 'À propos';
 $txt['media_admin_labels_ftp'] = 'Import par FTP';
 $txt['media_admin_labels_perms'] = 'Permissions';
 $txt['media_admin_labels_quotas'] = 'Quotas';
