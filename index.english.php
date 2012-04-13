@@ -14,10 +14,24 @@ $txt['lang_spelling'] = 'american';
 $txt['lang_rtl'] = false;
 // Capitalize day and month names?
 $txt['lang_capitalize_dates'] = true;
+
 // Number formats?
 $txt['number_format'] = '1,234.00';
-$txt['time_format'] = '%B %e, %Y, %I:%M %p';
-$txt['time_format_this_year'] = '%B %e, %I:%M %p';
+$txt['time_format'] = '%B %@, %Y, %I:%M %p';
+$txt['time_format_this_year'] = '%B %@, %I:%M %p';
+
+// %@ is a special format that adds a suffix to a day (1-31), e.g. 1st, 2nd...
+// If your language doesn't have any prefixes/suffixes it could use, just set it to array('n' => '%d').
+$txt['day_suffix'] = array(
+	'n' => '%dth',
+	1 => '1st',
+	2 => '2nd',
+	3 => '3rd',
+	21 => '21st',
+	22 => '22nd',
+	23 => '23rd',
+	31 => '31st',
+);
 
 $txt['page_indicator_n'] = ' - page %1$s';
 

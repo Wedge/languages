@@ -14,10 +14,18 @@ $txt['lang_spelling'] = 'french';
 $txt['lang_rtl'] = false;
 // Capitalize day and month names?
 $txt['lang_capitalize_dates'] = false;
+
 // Number formats?
 $txt['number_format'] = '1 234,00';
-$txt['time_format'] = '%e %B %Y à %H:%M';
-$txt['time_format_this_year'] = '%e %B à %H:%M';
+$txt['time_format'] = '%@ %B %Y à %H:%M';
+$txt['time_format_this_year'] = '%@ %B à %H:%M';
+
+// %@ is a special format that adds a suffix to a day (1-31), e.g. 1st, 2nd...
+// If your language doesn't have any prefixes/suffixes it could use, just set it to array('n' => '%d').
+$txt['day_suffix'] = array(
+	'n' => '%d',
+	1 => '1er',
+);
 
 $txt['page_indicator_n'] = ' - page %1$s';
 
