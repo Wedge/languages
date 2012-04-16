@@ -38,6 +38,7 @@ $txt['databaseSession_enable'] = 'Faire gérer les sessions par la base de donn�
 $txt['databaseSession_loose'] = 'Permettre aux navigateurs de revenir sur les pages en cache';
 $txt['databaseSession_lifetime'] = 'Secondes avant la fin d\'une session pour inutilisation';
 $txt['enableErrorLogging'] = 'Enregistrer les erreurs dans le journal';
+$txt['enableError404Logging'] = 'Enregistrer les erreurs 404 (fichier non trouvé) dans le journal d\'erreurs';
 $txt['enableErrorQueryLogging'] = 'Inclure la requête de base de données dans le journal d\'erreurs';
 $txt['logPruning'] = 'Délestage des journaux';
 $txt['log_enabled_moderate'] = 'Enregistrer les actions de modération dans le journal dédié';

@@ -38,6 +38,7 @@ $txt['databaseSession_enable'] = 'Use database driven sessions';
 $txt['databaseSession_loose'] = 'Allow browsers to go back to cached pages';
 $txt['databaseSession_lifetime'] = 'Seconds before an unused session timeout';
 $txt['enableErrorLogging'] = 'Enable error logging';
+$txt['enableError404Logging'] = 'Log errors 404 (file not found) to the error log';
 $txt['enableErrorQueryLogging'] = 'Include database query in the error log';
 $txt['logPruning'] = 'Log Pruning';
 $txt['log_enabled_moderate'] = 'Enable logging of moderation actions';
