@@ -468,7 +468,7 @@ $txt['new_merged_topic'] = 'Sujet après fusion';
 $txt['topic_to_merge'] = 'Sujets à fusionner';
 $txt['target_board'] = 'Section de destination';
 $txt['target_topic'] = 'Sujet de destination';
-$txt['merge_desc'] = 'Cette fonction réunira les messages de deux sujets en un seul. Les messages seront classés par date de publication. Le plus ancien message deviendra le premier du nouveau sujet fusionné.';
+$txt['merge_desc'] = 'Cette fonction réunira les messages de deux sujets en un seul. Les messages seront classés par date de publication. Le message le plus ancien deviendra le premier du nouveau sujet fusionné.';
 
 $txt['set_pin'] = 'Épingler';
 $txt['set_unpin'] = 'Dépingler';
