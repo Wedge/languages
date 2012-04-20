@@ -234,7 +234,7 @@ $txt['topic_started'] = 'Discussion démarrée par';
 $txt['title'] = 'Titre';
 $txt['post_by'] = 'Posté par';
 $txt['memberlist_searchable'] = 'Liste de tous les membres inscrits sur ce forum.';
-$txt['welcome_member'] = 'Merci d\'accueillir';
+$txt['welcome_member'] = 'Merci d\'accueillir %1$s, notre dernier membre.';
 $txt['admin_center'] = 'Centre d\'administration';
 $txt['last_edit'] = 'Modifié';
 $txt['notify_deactivate'] = 'Voulez-vous désactiver la notification pour ce sujet ?';
@@ -365,8 +365,6 @@ $txt['by'] = 'par';
 
 $txt['days_word'] = 'jours';
 
-$txt['newest_member'] = ', notre dernier membre.';
-
 $txt['search_for'] = 'Rechercher';
 
 $txt['maintain_mode_on'] = 'Attention, ce forum est en \'Mode Maintenance\'.';
@@ -452,23 +450,8 @@ $txt['more_stats'] = '[plus de stats]';
 $txt['code'] = 'Code';
 $txt['code_select'] = '[Sélectionner]';
 
-$txt['merge_to_topic_id'] = 'ID du sujet de destination';
-$txt['split'] = 'Séparer';
 $txt['merge'] = 'Fusionner des sujets';
-$txt['subject_new_topic'] = 'Titre du nouveau sujet';
-$txt['split_this_post'] = 'Ne séparer du sujet que ce message-ci.';
-$txt['split_after_and_this_post'] = 'Séparer du sujet ce message et tous ceux qui le suivent.';
-$txt['select_split_posts'] = 'Choisir les messages à séparer du sujet.';
 $txt['new_topic'] = 'Nouveau sujet';
-$txt['split_successful'] = 'Ce sujet a été séparé en deux avec succès.';
-$txt['origin_topic'] = 'Sujet d\'origine';
-$txt['please_select_split'] = 'Merci de choisir quels messages vous voulez séparer.';
-$txt['merge_successful'] = 'Sujet fusionnés avec succès.';
-$txt['new_merged_topic'] = 'Sujet après fusion';
-$txt['topic_to_merge'] = 'Sujets à fusionner';
-$txt['target_board'] = 'Section de destination';
-$txt['target_topic'] = 'Sujet de destination';
-$txt['merge_desc'] = 'Cette fonction réunira les messages de deux sujets en un seul. Les messages seront classés par date de publication. Le message le plus ancien deviendra le premier du nouveau sujet fusionné.';
 
 $txt['set_pin'] = 'Épingler';
 $txt['set_unpin'] = 'Dépingler';
@@ -503,16 +486,6 @@ $txt['go_down'] = 'En bas';
 $txt['site_credits'] = 'Crédits du site';
 $txt['copyright'] = 'Propulsé par <a href="http://wedge.org/" target="_blank" class="new_win">Wedge</a>, logiciel en construction. &copy; Wedgeward.';
 $txt['dynamic_replacements'] = '<abbr title="Remplacements Dynamiques">RD</abbr>';
-
-$txt['moveTopic1'] = 'Poster un message de redirection';
-$txt['moveTopic2'] = 'Changer le titre du sujet';
-$txt['moveTopic3'] = 'Nouveau titre';
-$txt['moveTopic4'] = 'Changer le titre de tous les messages';
-$txt['moveTopic_redirection_period'] = 'Combien de temps doit rester en place le sujet de redirection&nbsp;?';
-$txt['moveTopic_redirection_day_1'] = '1 jour';
-$txt['moveTopic_redirection_day_n'] = '%s jours';
-$txt['moveTopic_redirection_perm'] = 'Ad vitam';
-$txt['move_topic_unapproved_js'] = 'Attention ! Ce sujet n\'a pas encore été approuvé.\\n\\nIl n\'est pas recommandé de créer un message de redirection à moins que vous n\'ayez l\'intention d\'approuver le message immédiatement après le déplacement.';
 
 $txt['template_block_error'] = 'Impossible de trouver le bloc visuel "%1$s".';
 $txt['theme_template_error'] = 'Impossible de charger le modèle "%1$s".';

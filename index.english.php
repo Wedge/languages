@@ -240,7 +240,7 @@ $txt['topic_started'] = 'Topic started by';
 $txt['title'] = 'Title';
 $txt['post_by'] = 'Post by';
 $txt['memberlist_searchable'] = 'Searchable list of all registered members.';
-$txt['welcome_member'] = 'Please welcome';
+$txt['welcome_member'] = 'Please welcome %1$s, our newest member.';
 $txt['admin_center'] = 'Administration Center';
 $txt['last_edit'] = 'Last edited';
 $txt['notify_deactivate'] = 'Would you like to deactivate notification on this topic?';
@@ -372,8 +372,6 @@ $txt['by'] = 'by';
 
 $txt['days_word'] = 'days';
 
-$txt['newest_member'] = ', our newest member.';
-
 $txt['search_for'] = 'Search for';
 
 $txt['maintain_mode_on'] = 'Remember, this forum is in \'Maintenance Mode\'.';
@@ -459,23 +457,8 @@ $txt['more_stats'] = '[More Stats]';
 $txt['code'] = 'Code';
 $txt['code_select'] = '[Select]';
 
-$txt['merge_to_topic_id'] = 'ID of target topic';
-$txt['split'] = 'Split current topic into another';
 $txt['merge'] = 'Merge Topics';
-$txt['subject_new_topic'] = 'Subject For New Topic';
-$txt['split_this_post'] = 'Only split this post.';
-$txt['split_after_and_this_post'] = 'Split topic after and including this post.';
-$txt['select_split_posts'] = 'Select posts to split.';
 $txt['new_topic'] = 'New Topic';
-$txt['split_successful'] = 'Topic successfully split into two topics.';
-$txt['origin_topic'] = 'Origin Topic';
-$txt['please_select_split'] = 'Please select which posts you wish to split.';
-$txt['merge_successful'] = 'Topics successfully merged.';
-$txt['new_merged_topic'] = 'Newly Merged Topic';
-$txt['topic_to_merge'] = 'Topic to be merged';
-$txt['target_board'] = 'Target board';
-$txt['target_topic'] = 'Target topic';
-$txt['merge_desc'] = 'This function will merge the messages of two topics into one topic. The messages will be sorted according to the time of posting. Therefore the earliest posted message will be the first message of the merged topic.';
 
 $txt['set_pin'] = 'Pin topic';
 $txt['set_unpin'] = 'Unpin topic';
@@ -510,16 +493,6 @@ $txt['go_down'] = 'Go Down';
 $txt['site_credits'] = 'Website credits';
 $txt['copyright'] = 'Powered by <a href="http://wedge.org/" target="_blank" class="new_win">Wedge</a>, a work in progress. &copy; Wedgeward.';
 $txt['dynamic_replacements'] = '<abbr title="Dynamic Replacements">DR</abbr>';
-
-$txt['moveTopic1'] = 'Post a redirection topic';
-$txt['moveTopic2'] = 'Change the topic\'s subject';
-$txt['moveTopic3'] = 'New subject';
-$txt['moveTopic4'] = 'Change every message\'s subject';
-$txt['moveTopic_redirection_period'] = 'How long should the redirection topic<br>be left in place for?';
-$txt['moveTopic_redirection_day_1'] = '1 day';
-$txt['moveTopic_redirection_day_n'] = '%s days';
-$txt['moveTopic_redirection_perm'] = 'Permanently';
-$txt['move_topic_unapproved_js'] = 'Warning! This topic has not yet been approved.\\n\\nIt is not recommended that you create a redirection topic unless you intend to approve the post immediately following the move.';
 
 $txt['template_block_error'] = 'Unable to find the "%1$s" template block.';
 $txt['theme_template_error'] = 'Unable to load the "%1$s" template.';
