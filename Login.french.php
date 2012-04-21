@@ -1,6 +1,12 @@
 <?php
 // Version: 2.0; Login
 
+$txt['maintain_mode'] = 'Mode Maintenance';
+$txt['admin_login'] = 'Connexion Admin';
+$txt['username_no_exist'] = 'Cet identifiant n\'existe pas.';
+$txt['no_user_with_email'] = 'Il n\'y a pas d\'identifiants associés à cette adresse e-mail.';
+$txt['name_in_use'] = 'Ce nom est déjà utilisé par un autre membre.';
+
 // Registration agreement page.
 $txt['registration_agreement'] = 'Accord d\'inscription';
 $txt['agreement_agree'] = 'J\'accepte les conditions de ce document.';
@@ -15,7 +21,6 @@ $txt['need_username'] = 'Vous devez mettre un nom d\'utilisateur.';
 $txt['no_password'] = 'Vous n\'avez entré aucun mot de passe';
 $txt['incorrect_password'] = 'Mot de passe incorrect';
 $txt['choose_username'] = 'Choisissez un identifiant';
-$txt['maintain_mode'] = 'Mode Maintenance';
 $txt['registration_successful'] = 'Inscription réussie';
 $txt['now_a_member'] = 'Vous êtes maintenant un membre du forum.';
 // Use numeric entities in the below string.
@@ -31,7 +36,7 @@ $txt['login_below_register'] = 'Connectez-vous à %1$s ci-dessous, ou <a href="%
 $txt['may_change_in_profile'] = 'Vous pouvez le changer apr&#232;s vous &#234;tre connect&#233; en allant sur votre page de profil, ou en visitant cette page apr&#232;s identification&#160;:';
 $txt['your_username_is'] = 'Votre identifiant est';
 
-$txt['login_hash_error'] = 'La sécurité des mots de passe a récemment été accrue.  Veuillez entrer de nouveau votre mot de passe.';
+$txt['login_hash_error'] = 'La sécurité des mots de passe a récemment été accrue. Veuillez entrer de nouveau votre mot de passe.';
 
 $txt['ban_register_prohibited'] = 'Désolé, vous n\'êtes pas autorisé à vous inscrire sur ce forum';
 
@@ -39,7 +44,7 @@ $txt['activate_account'] = 'Activation de Compte';
 $txt['activate_success'] = 'Votre compte a été activé avec succès. Vous pouvez maintenant vous connecter.';
 $txt['activate_not_completed1'] = 'Votre adresse e-mail doit être validée avant que vous puissiez vous connecter.';
 $txt['activate_not_completed2'] = 'Un autre e-mail d\'activation&nbsp;?';
-$txt['activate_after_registration'] = 'Merci de vous être inscrit. Vous recevrez rapidement un e-mail contenant un lien pour activer votre compte.  Si vous ne recevez rien après un certain temps, vérifiez votre boîte à spams.';
+$txt['activate_after_registration'] = 'Merci de vous être inscrit. Vous recevrez rapidement un e-mail contenant un lien pour activer votre compte. Si vous ne recevez rien après un certain temps, vérifiez votre boîte à spams.';
 $txt['invalid_userid'] = 'L\'utilisateur n\'existe pas';
 $txt['invalid_activation_code'] = 'Code d\'activation invalide';
 $txt['invalid_activation_username'] = 'Identifiant ou adresse e-mail';
@@ -107,7 +112,7 @@ $txt['admin_register_done'] = 'Le membre %1$s s\'est inscrit avec succès&nbsp;!
 
 $txt['coppa_title'] = 'Forum avec restriction d\'âge';
 $txt['coppa_after_registration'] = 'Merci de vous être inscrit sur {forum_name_safe}.<br><br>Parce que vous êtes âgé de moins de {MINIMUM_AGE} ans, il est légalement requis
-	que vous obteniez une autorisation de vos parents ou tuteurs légaux avant que vous puissiez utiliser votre compte.  Pour arranger l\'activation de votre compte, veuillez imprimer le formulaire ci-dessous&nbsp;:';
+	que vous obteniez une autorisation de vos parents ou tuteurs légaux avant que vous puissiez utiliser votre compte. Pour arranger l\'activation de votre compte, veuillez imprimer le formulaire ci-dessous&nbsp;:';
 $txt['coppa_form_link_popup'] = 'Charger le formulaire dans une nouvelle fenêtre';
 $txt['coppa_form_link_download'] = 'Télécharger le formulaire en tant que fichier texte';
 $txt['coppa_send_to_one_option'] = 'Ensuite, demandez à vos parents ou tuteurs de l\'envoyer complété par&nbsp;:';

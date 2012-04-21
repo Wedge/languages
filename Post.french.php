@@ -40,7 +40,7 @@ $txt['maroon'] = 'Marron';
 $txt['lime_green'] = 'Vert de chaux';
 $txt['white'] = 'Blanc';
 $txt['disable_smileys'] = 'Désactiver les smileys';
-$txt['dont_use_smileys'] = 'Ne pas utiliser de smiley.';
+$txt['dont_use_smileys'] = 'Ne pas utiliser de smiley';
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['posted_on'] = 'Posté le';
 $txt['standard'] = 'Standard';
@@ -81,7 +81,7 @@ $txt['notifyUnsubscribe'] = 'Cliquez ici pour vous d&#233;sabonner de ce sujet';
 
 $txt['lock_after_post'] = 'Bloquer après ce message.';
 $txt['notify_replies'] = 'Suivre les réponses de ce sujet';
-$txt['lock_topic'] = 'Bloquer ce sujet.';
+$txt['lock_topic'] = 'Bloquer ce sujet';
 $txt['shortcuts'] = 'Raccourcis clavier&nbsp;: <kbd>[Shift]+[Enter]</kbd> pour fermer intelligemment les tags, <kbd>[Alt]+S</kbd> (soumettre), <kbd>[Alt]+P</kbd> (prévisualiser) et <kbd>[Alt]+D</kbd> (brouillon).';
 $txt['shortcuts_opera'] = 'Raccourcis clavier&nbsp;: <kbd>[Shift]+[Enter]</kbd> pour fermer intelligemment les tags, et <kbd>[Shift]+[Echap]</kbd> puis <kbd>S</kbd> (soumettre), <kbd>P</kbd> (prévisualiser) ou <kbd>D</kbd> (brouillon).';
 $txt['shortcuts_firefox'] = 'Raccourcis clavier&nbsp;: <kbd>[Shift]+[Alt]+[S]</kbd> (Submit) pour envoyer<br>le message, ou <kbd>[Shift]+[Alt]+[P]</kbd> pour le prévisualiser';

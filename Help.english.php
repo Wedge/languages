@@ -127,6 +127,7 @@ $helptxt['time_format'] = '
 		<span class="bbc_tt">%d</span> - day of the month (01 to 31)<br>
 		<span class="bbc_tt" style="color: #999">%D</span> - short date, same as %m/%d/%y<br>
 		<span class="bbc_tt">%e</span> - day of the month (1 to 31)<br>
+		<span class="bbc_tt">%@</span> - day of the month and suffix (1st to 31st)<br>
 		<span class="bbc_tt">%H</span> - hour using a 24-hour clock (range 00 to 23)<br>
 		<span class="bbc_tt">%I</span> - hour using a 12-hour clock (range 01 to 12)<br>
 		<span class="bbc_tt">%m</span> - month as a number (01 to 12)<br>
@@ -621,6 +622,8 @@ $helptxt['reverse_proxy_header'] = 'Your reverse proxy server(s) must set the IP
 $helptxt['reverse_proxy_ips'] = 'This area needs to list the IP addresses (e.g. 127.0.0.1) or CIDR blocks (e.g. 127.0.0.0/8) style format. If you have a chain of two or more reverse proxies between your server and the public Internet, you must specify <em>all</em> of the IP address ranges (in CIDR format) of all of your proxy servers, load balancers, etc. Otherwise, it may not be possible to determine the client\'s true IP address.';
 
 $helptxt['signature_minposts'] = 'While some sites may choose to use permissions to control signatures, others may decide to allow users to add signatures but not show them to users publicly. It can provide another deterrence against spammers.';
+
+$helptxt['media_permissions'] = 'Here you can add/edit/delete the various permission profiles. The profiles can be assigned to one or multiple albums and the assigned albums will follow that permission set.';
 
 // Help popup for the Media tag...
 $helptxt['mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>

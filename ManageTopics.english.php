@@ -16,6 +16,9 @@ $txt['new_merged_topic'] = 'Newly Merged Topic';
 $txt['topic_to_merge'] = 'Topic to be merged';
 $txt['target_board'] = 'Target board';
 $txt['target_topic'] = 'Target topic';
+$txt['split_selected_posts'] = 'Selected posts';
+$txt['split_selected_posts_desc'] = 'The posts below will form a new topic after splitting.';
+$txt['split_reset_selection'] = 'reset selection';
 
 $txt['moveTopic1'] = 'Post a redirection topic';
 $txt['moveTopic2'] = 'Change the topic\'s subject';

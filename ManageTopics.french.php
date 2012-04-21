@@ -16,6 +16,9 @@ $txt['new_merged_topic'] = 'Sujet après fusion';
 $txt['topic_to_merge'] = 'Sujets à fusionner';
 $txt['target_board'] = 'Section de destination';
 $txt['target_topic'] = 'Sujet de destination';
+$txt['split_selected_posts'] = 'Messages sélectionnés';
+$txt['split_selected_posts_desc'] = 'Les messages suivants formeront un nouveau sujet après la scission.';
+$txt['split_reset_selection'] = 'recommencer la sélection';
 
 $txt['moveTopic1'] = 'Poster un message de redirection';
 $txt['moveTopic2'] = 'Changer le titre du sujet';

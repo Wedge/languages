@@ -57,6 +57,8 @@ $txt['invalid_registration'] = 'Date d\'inscription invalide, exemple&nbsp;: ';
 $txt['current_password'] = 'Mot de passe actuel';
 $txt['required_security_reasons'] = 'Pour des raisons évidentes de sécurité, votre mot de passe actuel est nécessaire pour modifier votre compte.';
 
+$txt['time_zone'] = 'Fuseau horaire';
+$txt['time_offset'] = 'Décalage horaire';
 $txt['timeoffset_autodetect'] = '(auto-détecter)';
 
 $txt['secret_question'] = 'Question secrète';

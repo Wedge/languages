@@ -123,6 +123,7 @@ $helptxt['time_format'] = '
 		<span class="bbc_tt">%d</span> - Jour du mois (01 à 31)<br>
 		<span class="bbc_tt" style="color: #999">%D</span> - Équivalent de %m/%d/%y<br>
 		<span class="bbc_tt">%e</span> - Jour du mois (1 à 31)<br>
+		<span class="bbc_tt">%z</span> - Jour du mois à la française (1er à 31)<br>
 		<span class="bbc_tt">%H</span> - Heure au format 24 heures (de 00 à 23)<br>
 		<span class="bbc_tt">%I</span> - Heure au format 12 heures (de 01 à 12)<br>
 		<span class="bbc_tt">%m</span> - Numéro du mois (01 à 12)<br>
@@ -603,6 +604,8 @@ $helptxt['reverse_proxy_header'] = 'Votre ou vos serveurs proxy inverses doivent
 $helptxt['reverse_proxy_ips'] = 'Cette zone vous permet de lister les adresses IP dans le style classique (par ex. 127.0.0.1), ou par blocs CIDR (par ex. 127.0.0.0/8). Si vous avez une chaîne de deux (ou plus) proxies inverses entre votre serveur et l\'Internet public, vous devez spécifier <em>toutes</em> les zones IP (au format CIDR) de tous vos serveurs proxy, répartiteurs de charge, etc. Si vous ne le faites pas, il sera impossible de déterminer la véritable adresse IP du client.';
 
 $helptxt['signature_minposts'] = 'Certains administrateurs préfèrent activer des permissions pour l\'affichage des signatures, d\'autres préfèreront permettre l\'ajout d\'une signature, mais sans la montrer publiquement. Cela peut peut-être aider à décourager le spam.';
+
+$helptxt['media_permissions'] = 'D\'ici vous pouvez ajouter, modifier ou supprimer les profils de permissions. Les profils peuvent être assignés à un ou plusieurs albums, et les albums en question suivront les permissions concernées.';
 
 // Help popup for the Media tag...
 $helptxt['mediatag'] = '<h2>Le tag [media] et autres joyeusetés.</h2>

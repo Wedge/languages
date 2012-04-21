@@ -1,6 +1,11 @@
 <?php
 // Version: 2.0; Login
 
+$txt['maintain_mode'] = 'Maintenance Mode';
+$txt['admin_login'] = 'Administration Login';
+$txt['username_no_exist'] = 'That username does not exist.';
+$txt['no_user_with_email'] = 'There are no usernames associated with that email.';
+
 // Registration agreement page.
 $txt['registration_agreement'] = 'Registration Agreement';
 $txt['agreement_agree'] = 'I accept the terms of the agreement.';
@@ -15,7 +20,6 @@ $txt['need_username'] = 'You need to fill in a username.';
 $txt['no_password'] = 'You didn\'t enter your password.';
 $txt['incorrect_password'] = 'Password incorrect';
 $txt['choose_username'] = 'Choose username';
-$txt['maintain_mode'] = 'Maintenance Mode';
 $txt['registration_successful'] = 'Registration Successful';
 $txt['now_a_member'] = 'Success! You are now a member of the forum.';
 // Use numeric entities in the below string.
@@ -31,7 +35,7 @@ $txt['login_below_register'] = 'Please login below or <a href="%1$s">register an
 $txt['may_change_in_profile'] = 'You may change it after you login by going to the profile page, or by visiting this page after you login:';
 $txt['your_username_is'] = 'Your username is: ';
 
-$txt['login_hash_error'] = 'Password security has recently been upgraded.  Please enter your password again.';
+$txt['login_hash_error'] = 'Password security has recently been upgraded. Please enter your password again.';
 
 $txt['ban_register_prohibited'] = 'Sorry, you are not allowed to register on this forum.';
 
@@ -39,7 +43,7 @@ $txt['activate_account'] = 'Account activation';
 $txt['activate_success'] = 'Your account has been successfully activated. You can now proceed to login.';
 $txt['activate_not_completed1'] = 'Your email address needs to be validated before you can login.';
 $txt['activate_not_completed2'] = 'Need another activation email?';
-$txt['activate_after_registration'] = 'Thank you for registering. You will receive an email soon with a link to activate your account.  If you don\'t receive an email after some time, check your spam folder.';
+$txt['activate_after_registration'] = 'Thank you for registering. You will receive an email soon with a link to activate your account. If you don\'t receive an email after some time, check your spam folder.';
 $txt['invalid_userid'] = 'User does not exist';
 $txt['invalid_activation_code'] = 'Invalid activation code';
 $txt['invalid_activation_username'] = 'Username or email';
@@ -107,7 +111,7 @@ $txt['admin_register_done'] = 'Member %1$s has been registered successfully!';
 
 $txt['coppa_title'] = 'Age Restricted Forum';
 $txt['coppa_after_registration'] = 'Thank you for registering with {forum_name_safe}.<br><br>Because you fall under the age of {MINIMUM_AGE}, it is a legal requirement
-	to obtain your parent or guardian\'s permission before you may begin to use your account.  To arrange for account activation please print off the form below:';
+	to obtain your parent or guardian\'s permission before you may begin to use your account. To arrange for account activation please print off the form below:';
 $txt['coppa_form_link_popup'] = 'Load Form In New Window';
 $txt['coppa_form_link_download'] = 'Download Form as Text File';
 $txt['coppa_send_to_one_option'] = 'Then arrange for your parent/guardian to send the completed form by:';
@@ -123,7 +127,7 @@ $txt['coppa_form_body'] = 'I {PARENT_NAME},<br><br>Give permission for {CHILD_NA
 
 $txt['visual_verification_sound_again'] = 'Play again';
 $txt['visual_verification_sound_close'] = 'Close window';
-$txt['visual_verification_sound_direct'] = 'Having problems hearing this?  Try a direct link to it.';
+$txt['visual_verification_sound_direct'] = 'Having problems hearing this? Try a direct link to it.';
 
 $txt['registration_username_available'] = 'Username is available';
 $txt['registration_username_unavailable'] = 'Username is not available';

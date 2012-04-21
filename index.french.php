@@ -59,9 +59,6 @@ $txt['login'] = 'Identifiez-vous';
 $txt['username'] = 'Identifiant';
 $txt['password'] = 'Mot de passe';
 
-$txt['username_no_exist'] = 'Cet identifiant n\'existe pas.';
-$txt['no_user_with_email'] = 'Il n\'y a pas d\'identifiants associés à cette adresse e-mail.';
-
 $txt['board_moderator'] = 'Modérateur';
 $txt['remove_topic'] = 'Effacer';
 $txt['modify_msg'] = 'Modifier le message';
@@ -174,7 +171,6 @@ $txt['started_by'] = 'Démarré par';
 $txt['board_index_last_post'] = '<strong>Dernier message</strong> par {member_link}<br>dans {post_link}<br>{post_time}';
 
 $txt['last_post'] = 'Dernier message';
-$txt['admin_login'] = 'Connexion Admin';
 // Use numeric entities in the below string.
 $txt['topic'] = 'Sujet';
 $txt['help'] = 'Aide';
@@ -222,9 +218,7 @@ $txt['are_sure_remove_topic'] = 'Êtes-vous sûr de vouloir effacer ce sujet ?';
 $txt['yes'] = 'Oui';
 $txt['no'] = 'Non';
 
-$txt['search_end_results'] = 'Fin des résultats';
 $txt['search_on'] = 'le';
-
 $txt['search'] = 'Chercher';
 $txt['all_pages'] = 'Toutes';
 
@@ -233,9 +227,7 @@ $txt['password_reminder'] = 'Rappel de mot de passe';
 $txt['topic_started'] = 'Discussion démarrée par';
 $txt['title'] = 'Titre';
 $txt['post_by'] = 'Posté par';
-$txt['memberlist_searchable'] = 'Liste de tous les membres inscrits sur ce forum.';
-$txt['welcome_member'] = 'Merci d\'accueillir %1$s, notre dernier membre.';
-$txt['admin_center'] = 'Centre d\'administration';
+$txt['welcome_member'] = 'Bienvenue à %1$s, notre dernier membre.';
 $txt['last_edit'] = 'Modifié';
 $txt['notify_deactivate'] = 'Voulez-vous désactiver la notification pour ce sujet ?';
 
@@ -304,20 +296,15 @@ $txt['forgot_your_password'] = 'Mot de passe oublié&nbsp;?';
 $txt['date'] = 'Date';
 // Use numeric entities in the below string.
 $txt['from'] = 'De';
-$txt['check_new_messages'] = 'Vérifier les nouveaux messages';
 $txt['to'] = 'à';
 
 $txt['members_title'] = 'Membres';
 $txt['members_list'] = 'Liste des membres';
+
 $txt['redirect_board'] = 'Redirection';
 
 $txt['sendtopic_send'] = 'Envoyer';
 $txt['report_sent'] = 'Votre rapport a été envoyé avec succès.';
-
-$txt['time_offset'] = 'Décalage horaire';
-$txt['time_zone'] = 'Fuseau horaire';
-
-$txt['no_matches'] = 'Désolé, aucune correspondance trouvée';
 
 $txt['notification'] = 'Notification';
 
@@ -338,8 +325,6 @@ $txt['print'] = 'Imprimer';
 $txt['profile'] = 'Profil';
 $txt['topic_summary'] = 'Résumé de la discussion';
 $txt['not_applicable'] = 'N/A';
-$txt['message_lowercase'] = 'message';
-$txt['name_in_use'] = 'Ce nom est déjà utilisé par un autre membre.';
 
 $txt['total_members'] = 'Total des membres';
 $txt['total_posts'] = 'Total des messages';
@@ -669,10 +654,6 @@ $txt['preview_title'] = 'Prévisualiser le message';
 $txt['preview_fetch'] = 'Chargement de la prévisualisation&hellip;';
 $txt['error_while_submitting'] = 'L\'erreur ou les erreurs suivantes sont apparues durant la soumission de ce message&nbsp;:';
 $txt['error_old_topic'] = 'Attention, il n\'y a pas eu de réponse à ce sujet depuis au moins %1$d jours.<br>À moins que vous ne soyez sûr de vouloir répondre, pensez éventuellement à créer un nouveau sujet.';
-
-$txt['split_selected_posts'] = 'Messages sélectionnés';
-$txt['split_selected_posts_desc'] = 'Les messages suivants formeront un nouveau sujet après la scission.';
-$txt['split_reset_selection'] = 'recommencer la sélection';
 
 $txt['mark_read_short'] = 'Marquer lu';
 

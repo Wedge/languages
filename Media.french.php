@@ -413,8 +413,6 @@ $txt['media_meta_exifVersion'] = 'Version Exif';
 // ModCP
 $txt['media_modcp'] = 'Modération';
 $txt['media_modcp_desc'] = 'Le centre de modération de la section Media vous permet de gérer les soumissions et rapports envoyés par les utilisateurs, et de consulter les journaux.';
-
-$txt['media_permissions_help'] = 'D\'ici vous pouvez ajouter, modifier ou supprimer les profils de permissions. Les profils peuvent être assignés à un ou plusieurs albums, et les albums en question suivront les permissions concernées.';
 $txt['media_permissions_undeletable'] = 'Vous ne pouvez pas supprimer ce profil, car c\'est un profil par défaut.';
 
 ?>

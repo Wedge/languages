@@ -65,9 +65,6 @@ $txt['login'] = 'Login';
 $txt['username'] = 'Username';
 $txt['password'] = 'Password';
 
-$txt['username_no_exist'] = 'That username does not exist.';
-$txt['no_user_with_email'] = 'There are no usernames associated with that email.';
-
 $txt['board_moderator'] = 'Board Moderator';
 $txt['remove_topic'] = 'Remove Topic';
 $txt['modify_msg'] = 'Modify message';
@@ -180,7 +177,6 @@ $txt['started_by'] = 'Started by';
 $txt['board_index_last_post'] = '<strong>Last post</strong> by {member_link}<br>in {post_link}<br>{post_time}';
 
 $txt['last_post'] = 'Last post';
-$txt['admin_login'] = 'Administration Login';
 // Use numeric entities in the below string.
 $txt['topic'] = 'Topic';
 $txt['help'] = 'Help';
@@ -228,9 +224,7 @@ $txt['are_sure_remove_topic'] = 'Are you sure you want to remove this topic?';
 $txt['yes'] = 'Yes';
 $txt['no'] = 'No';
 
-$txt['search_end_results'] = 'End of results';
 $txt['search_on'] = 'on';
-
 $txt['search'] = 'Search';
 $txt['all_pages'] = 'All';
 
@@ -239,9 +233,7 @@ $txt['password_reminder'] = 'Password reminder';
 $txt['topic_started'] = 'Topic started by';
 $txt['title'] = 'Title';
 $txt['post_by'] = 'Post by';
-$txt['memberlist_searchable'] = 'Searchable list of all registered members.';
 $txt['welcome_member'] = 'Please welcome %1$s, our newest member.';
-$txt['admin_center'] = 'Administration Center';
 $txt['last_edit'] = 'Last edited';
 $txt['notify_deactivate'] = 'Would you like to deactivate notification on this topic?';
 
@@ -310,7 +302,6 @@ $txt['forgot_your_password'] = 'Forgot your password?';
 $txt['date'] = 'Date';
 // Use numeric entities in the below string.
 $txt['from'] = 'From';
-$txt['check_new_messages'] = 'Check for new messages';
 $txt['to'] = 'To';
 
 $txt['members_title'] = 'Members';
@@ -320,11 +311,6 @@ $txt['redirect_board'] = 'Redirect Board';
 
 $txt['sendtopic_send'] = 'Send';
 $txt['report_sent'] = 'Your report has been sent successfully.';
-
-$txt['time_offset'] = 'Time Offset';
-$txt['time_zone'] = 'Time Zone';
-
-$txt['no_matches'] = 'Sorry, no matches were found';
 
 $txt['notification'] = 'Notification';
 
@@ -345,8 +331,6 @@ $txt['print'] = 'Print';
 $txt['profile'] = 'Profile';
 $txt['topic_summary'] = 'Topic Summary';
 $txt['not_applicable'] = 'N/A';
-$txt['message_lowercase'] = 'message';
-$txt['name_in_use'] = 'This name is already in use by another member.';
 
 $txt['total_members'] = 'Total Members';
 $txt['total_posts'] = 'Total Posts';
@@ -676,10 +660,6 @@ $txt['preview_title'] = 'Preview post';
 $txt['preview_fetch'] = 'Fetching preview...';
 $txt['error_while_submitting'] = 'The following error or errors occurred while posting this message:';
 $txt['error_old_topic'] = 'Warning: this topic has not been posted in for at least %1$d days.<br>Unless you\'re sure you want to reply, please consider starting a new topic.';
-
-$txt['split_selected_posts'] = 'Selected posts';
-$txt['split_selected_posts_desc'] = 'The posts below will form a new topic after splitting.';
-$txt['split_reset_selection'] = 'reset selection';
 
 $txt['mark_read_short'] = 'Mark Read';
 
