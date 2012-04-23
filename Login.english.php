@@ -6,6 +6,7 @@ $txt['admin_login'] = 'Administration Login';
 $txt['username_no_exist'] = 'That username does not exist.';
 $txt['no_user_with_email'] = 'There are no usernames associated with that email.';
 $txt['mins_logged_in'] = 'Minutes to stay logged in';
+$txt['always_logged_in'] = 'Always stay logged in';
 
 // Registration agreement page.
 $txt['registration_agreement'] = 'Registration Agreement';

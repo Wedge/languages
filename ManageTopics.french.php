@@ -27,14 +27,14 @@ $txt['moveTopic2'] = 'Changer le titre du sujet';
 $txt['moveTopic3'] = 'Nouveau titre';
 $txt['moveTopic4'] = 'Changer le titre de tous les messages';
 $txt['moveTopic_redirection_period'] = 'Combien de temps doit rester en place le sujet de redirection&nbsp;?';
-$txt['moveTopic_redirection_day_1'] = '1 jour';
-$txt['moveTopic_redirection_day_n'] = '%s jours';
+$txt['moveTopic_redirection_day'] = array(1 => '1 jour', 'n' => '%s jours');
 $txt['moveTopic_redirection_perm'] = 'Ad vitam';
 $txt['move_topic_unapproved_js'] = 'Attention ! Ce sujet n\'a pas encore été approuvé.\\n\\nIl n\'est pas recommandé de créer un message de redirection à moins que vous n\'ayez l\'intention d\'approuver le message immédiatement après le déplacement.';
 $txt['movetopic_auto_board'] = '[SECTION]';
 $txt['movetopic_auto_topic'] = '[LIEN DE LA DISCUSSION]';
 $txt['movetopic_default'] = 'Ce sujet a été déplacé vers ' . $txt['movetopic_auto_board'] . ".\n\n" . $txt['movetopic_auto_topic'];
 
+$txt['sendtopic_send'] = 'Envoyer';
 $txt['sendtopic_title'] = 'Signaler le sujet &quot;%1$s&quot; à un ami.';
 $txt['sendtopic_sender_name'] = 'Votre nom';
 $txt['sendtopic_sender_email'] = 'Votre adresse e-mail';

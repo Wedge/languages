@@ -43,8 +43,10 @@ $txt['password_strength'] = 'For best security, you should use eight or more cha
 $txt['include_website_url'] = 'This must be included if you specify a URL below.';
 $txt['complete_url'] = 'This must be a complete URL.';
 $txt['sig_info'] = 'Signatures are displayed at the bottom of each post or personal message. BBCode and smileys may be used in your signature.';
-$txt['signature_minposts_1'] = 'Your signature will not be shown to other members until you have made at least 1 post.';
-$txt['signature_minposts_n'] = 'Your signature will not be shown to other members until you have made at least %1$s posts.';
+$txt['signature_minposts'] = array(
+	1 => 'Your signature will not be shown to other members until you have made at least 1 post.',
+	'n' => 'Your signature will not be shown to other members until you have made at least %s posts.',
+);
 $txt['max_sig_characters'] = 'Max characters: %1$d; characters remaining: ';
 $txt['send_member_pm'] = 'Send this member a personal message';
 $txt['hidden'] = 'hidden';
@@ -165,8 +167,10 @@ $txt['show_drafts_none'] = 'You have no draft messages saved at this time.';
 $txt['edit_draft'] = 'Edit draft';
 $txt['topic_no_longer_available'] = 'This draft is a reply to a topic that is no longer available. Editing this draft will attempt to create a new topic.';
 $txt['topic_is_locked'] = 'This draft is a reply to a topic that is currently locked by a moderator. Editing this draft will attempt to create a new topic.';
-$txt['draftAutoPurge_1'] = 'Drafts are stored on the server for up to a day, and if not posted or modified in that time, they will be removed.';
-$txt['draftAutoPurge_n'] = 'Drafts are stored on the server for up to %1$d days, and if not posted or modified in that time, they will be removed.';
+$txt['draftAutoPurge'] = array(
+	1 => 'Drafts are stored on the server for up to a day, and if not posted or modified in that time, they will be removed.',
+	'n' => 'Drafts are stored on the server for up to %s days, and if not posted or modified in that time, they will be removed.',
+);
 $txt['remove_all_drafts'] = 'Remove all drafts';
 $txt['remove_all_drafts_confirm'] = 'Are you sure you want to remove all of your draft messages? (This operation is not reversible.)';
 

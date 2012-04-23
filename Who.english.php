@@ -136,10 +136,8 @@ $txt['media_wo_hidden'] = 'Somewhere in the gallery, in a place you can\'t see..
 
 // Credits text
 $txt['credits_site'] = 'Website Credits';
-$txt['credits_admins_1'] = 'Administrator';
-$txt['credits_admins_n'] = 'Administrators';
-$txt['credits_moderators_1'] = 'Moderator';
-$txt['credits_moderators_n'] = 'Moderators';
+$txt['credits_admins'] = array(1 => 'Administrator', 'n' => 'Administrators');
+$txt['credits_moderators'] = array(1 => 'Moderator', 'n' => 'Moderators');
 $txt['credits_software'] = 'Software Credits';
 $txt['credits_wedge'] = 'Wedge is copyright © 2010-2012 by Wedgeward (René-Gilles Deberdt and Peter Spicer), and distributed under the <a href="http://wedge.org/license/">Wedge license</a>.';
 $txt['credits_team'] = 'The Wedge Team';

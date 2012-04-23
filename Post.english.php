@@ -190,5 +190,6 @@ $txt['digest_mod_act_merge'] = '"%1$s" was merged';
 $txt['digest_mod_act_split'] = '"%1$s" was split';
 
 $txt['mail_send_unable'] = 'Unable to send mail to the email address \'%1$s\'';
+$txt['topic_summary'] = 'Topic Summary';
 
 ?>

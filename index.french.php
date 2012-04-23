@@ -21,13 +21,13 @@ $txt['time_format'] = '%@ %B %Y à %H:%M';
 $txt['time_format_this_year'] = '%@ %B à %H:%M';
 
 // %@ is a special format that adds a suffix to a day (1-31), e.g. 1st, 2nd...
-// If your language doesn't have any prefixes/suffixes it could use, just set it to array('n' => '%d').
+// If your language doesn't have any prefixes/suffixes it could use, just set it to $txt['day_suffix'] = '%s';
 $txt['day_suffix'] = array(
-	'n' => '%d',
+	'n' => '%s',
 	1 => '1er',
 );
 
-$txt['page_indicator_n'] = ' - page %1$s';
+$txt['page_indicator'] = ' - page %s'; // can be turned into an array as needed (1 => '', 'n' => ...)
 
 $txt['days'] = array('Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi');
 $txt['days_short'] = array('Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam');
@@ -69,36 +69,25 @@ $txt['message'] = 'Message';
 $txt['quick_modify'] = 'Modification rapide';
 
 $txt['posts'] = 'Messages';
-$txt['posts_0'] = 'Pas de messages';
-$txt['posts_1'] = '%s message';
-$txt['posts_n'] = '%s messages';
 $txt['topics'] = 'Sujets';
-$txt['topics_0'] = 'Pas de sujets';
-$txt['topics_1'] = '%s sujet';
-$txt['topics_n'] = '%s sujets';
 $txt['redirects'] = 'Redirections';
-$txt['redirects_0'] = 'Pas de redirections';
-$txt['redirects_1'] = '%s redirection';
-$txt['redirects_n'] = '%s redirections';
 $txt['replies'] = 'Réponses';
-$txt['replies_0'] = 'Pas de réponse';
-$txt['replies_1'] = '%s réponse';
-$txt['replies_n'] = '%s réponses';
 $txt['views'] = 'Vues';
-$txt['views_0'] = 'Jamais lu';
-$txt['views_1'] = '%s lecture';
-$txt['views_n'] = '%s lectures';
+
+$txt['num_posts'] = array(0 => 'Aucun message', 1 => '1 message', 'n' => '%s messages');
+$txt['num_topics'] = array(0 => 'Aucun sujet', 1 => '1 sujet', 'n' => '%s sujets');
+$txt['num_redirects'] = array(0 => 'Aucune redirection', 1 => '1 redirection', 'n' => '%s redirections');
+$txt['num_replies'] = array(0 => 'Aucune réponse', 1 => '1 réponse', 'n' => '%s réponses');
+$txt['num_views'] = array(0 => 'Jamais lu', 1 => '1 lecture', 'n' => '%s lectures');
 
 // Likes. It's pretty complicated.
 $txt['you_like_this'] = 'Vous aimez cela.';
 $txt['you_1_like_this'] = 'Vous et {name1} aimez cela.';
 $txt['you_2_like_this'] = 'Vous, {name1} et {name2} aimez cela.';
-$txt['you_n_like_this_1'] = 'Vous, {name1}, {name2} et 1 autre aimez cela.';
-$txt['you_n_like_this_n'] = 'Vous, {name1}, {name2} et %1$s autres aimez cela.';
+$txt['you_n_like_this'] = array(1 => 'Vous, {name1}, {name2} et 1 autre aimez cela.', 'n' => 'Vous, {name1}, {name2} et %s autres aimez cela.');
 $txt['1_like_this'] = '{name1} aime cela.';
 $txt['2_like_this'] = '{name1} et {name2} aiment cela.';
-$txt['n_like_this_1'] = '{name1}, {name2} et 1 autre aiment cela.';
-$txt['n_like_this_n'] = '{name1}, {name2} et %1$s autres aiment cela.';
+$txt['n_like_this'] = array(1 => '{name1}, {name2} et 1 autre aiment cela.', 'n' => '{name1}, {name2} et %s autres aiment cela.');
 $txt['like'] = 'Aimer';
 $txt['unlike'] = 'Désaimer';
 
@@ -199,13 +188,13 @@ $txt['post_awaiting_approval'] = 'Ce message est en attente d\'approbation par u
 $txt['there_are_unapproved_topics'] = 'Il y a %1$s sujets et %2$s messages en attente d\'approbation dans cette section. Cliquez <a href="%3$s">ici</a> pour tous les voir.';
 
 $txt['msg_alert_none'] = 'Pas de message...';
-$txt['you_have_msg_0'] = 'votre messagerie est vide';
-$txt['you_have_msg_1'] = 'vous avez <a href="<URL>?action=pm">1</a> message {new}';
-$txt['you_have_msg_n'] = 'vous avez <a href="<URL>?action=pm">%1$s</a> messages {new}';
-// The {new} construct is used to add the (x new) area in a language-dependent manner, using unread_pms, as below.
-$txt['unread_pms_0'] = '(pas de nouveau)';
-$txt['unread_pms_1'] = '(1 nouveau)';
-$txt['unread_pms_n'] = '(%1$s nouveaux)';
+// SSI - The {new} construct is used to add the (x new) area in a language-dependent manner, using unread_pms, as below.
+$txt['you_have_msg'] = array(
+	0 => 'votre messagerie est vide',
+	1 => 'vous avez <a href="<URL>?action=pm">1</a> message {new}',
+	'n' => 'vous avez <a href="<URL>?action=pm">%s</a> messages {new}',
+);
+$txt['unread_pms'] = array(0 => '(pas de nouveau)', 1 => '(1 nouveau)', 'n' => '(%s nouveaux)');
 
 $txt['remove_message'] = 'Effacer ce message';
 $txt['remove_message_confirm'] = 'Effacer ce message ?';
@@ -223,7 +212,6 @@ $txt['search'] = 'Chercher';
 $txt['all_pages'] = 'Toutes';
 
 $txt['back'] = 'Retour';
-$txt['password_reminder'] = 'Rappel de mot de passe';
 $txt['topic_started'] = 'Discussion démarrée par';
 $txt['title'] = 'Titre';
 $txt['post_by'] = 'Posté par';
@@ -303,7 +291,6 @@ $txt['members_list'] = 'Liste des membres';
 
 $txt['redirect_board'] = 'Redirection';
 
-$txt['sendtopic_send'] = 'Envoyer';
 $txt['report_sent'] = 'Votre rapport a été envoyé avec succès.';
 
 $txt['notification'] = 'Notification';
@@ -323,7 +310,6 @@ $txt['participation_caption'] = 'Sujet dans lequel vous êtes intervenu';
 
 $txt['print'] = 'Imprimer';
 $txt['profile'] = 'Profil';
-$txt['topic_summary'] = 'Résumé de la discussion';
 $txt['not_applicable'] = 'N/A';
 
 $txt['total_members'] = 'Total des membres';
@@ -333,7 +319,6 @@ $txt['total_boards'] = 'Total des sections';
 
 $txt['switch_mode'] = 'Passer à l\'éditeur complet';
 $txt['preview'] = 'Prévisualiser';
-$txt['always_logged_in'] = 'Toujours connecté';
 
 $txt['save_draft'] = 'Brouillon';
 $txt['save_draft_warning'] = 'Sauvegarder en tant que brouillon conservera uniquement les détails de base du message (titre, texte, icône), et donc ni ses fichiers joints, ni les options de sondage, etc. Êtes-vous sûr de vouloir continuer ?';
@@ -362,9 +347,7 @@ $txt['latest_member'] = 'Dernier membre';
 $txt['total_cats'] = 'Total des catégories';
 $txt['latest_post'] = 'Dernier message';
 
-$txt['youve_got_pms_0'] = 'Pas de messages.';
-$txt['youve_got_pms_1'] = 'Vous avez un message.';
-$txt['youve_got_pms_n'] = 'Vous avez %1$s messages.';
+$txt['youve_got_pms'] = array(0 => 'Pas de messages.', 1 => 'Vous avez un message.', 'n' => 'Vous avez %s messages.');
 $txt['click_to_view_them'] = 'Cliquez <a href="%1$s">ici</a> pour consulter votre messagerie.';
 
 $txt['print_page'] = 'Imprimer la page';
@@ -426,7 +409,7 @@ $txt['online'] = 'En ligne';
 $txt['offline'] = 'Hors ligne';
 $txt['pm_online'] = 'Message personnel (En ligne)';
 $txt['pm_offline'] = 'Message personnel (Hors ligne)';
-$txt['status'] = 'État';
+$txt['online_status'] = 'État';
 
 $txt['go_up'] = 'En haut';
 $txt['go_down'] = 'En bas';
@@ -456,10 +439,8 @@ $txt['mlist_search_results'] = 'Résultats de la recherche pour';
 $txt['mlist_search_by'] = 'Rechercher par %1$s';
 $txt['mlist_menu_view'] = 'Voir la liste des membres';
 
-$txt['attach_downloaded_1'] = 'téléchargé 1 fois.';
-$txt['attach_downloaded_n'] = 'téléchargé %1$d fois.';
-$txt['attach_viewed_1'] = 'vu 1 fois.';
-$txt['attach_viewed_n'] = 'vu %1$d fois.';
+$txt['attach_downloaded'] = 'téléchargé %s fois.';
+$txt['attach_viewed'] = 'vu %s fois.';
 
 $txt['settings'] = 'Paramètres';
 $txt['never'] = 'Jamais';
@@ -560,8 +541,10 @@ $txt['totalTimeLogged5'] = 'j ';
 $txt['totalTimeLogged6'] = 'h ';
 $txt['totalTimeLogged7'] = 'm';
 
-$txt['approve_members_waiting_1'] = 'Il y a <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">un membre</a> en attente d\'approbation.';
-$txt['approve_members_waiting_n'] = 'Il y a <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">%1$s membres</a> en attente d\'approbation.';
+$txt['approve_members_waiting'] = array(
+	1 => 'Il y a <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">un membre</a> en attente d\'approbation.',
+	'n' => 'Il y a <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">%s membres</a> en attente d\'approbation.',
+);
 
 $txt['notifyboard_turnon'] = 'Voulez-vous recevoir un e-mail de notification quand quelqu\'un poste un nouveau sujet dans cette section ?';
 $txt['notifyboard_turnoff'] = 'Êtes-vous sûr de vouloir désactiver les e-mails de notification des nouveaux sujet pour cette section ?';

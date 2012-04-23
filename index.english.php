@@ -21,9 +21,9 @@ $txt['time_format'] = '%B %@, %Y, %I:%M %p';
 $txt['time_format_this_year'] = '%B %@, %I:%M %p';
 
 // %@ is a special format that adds a suffix to a day (1-31), e.g. 1st, 2nd...
-// If your language doesn't have any prefixes/suffixes it could use, just set it to array('n' => '%d').
+// If your language doesn't have any prefixes/suffixes it could use, just set it to $txt['day_suffix'] = '%s';
 $txt['day_suffix'] = array(
-	'n' => '%dth',
+	'n' => '%sth',
 	1 => '1st',
 	2 => '2nd',
 	3 => '3rd',
@@ -33,7 +33,7 @@ $txt['day_suffix'] = array(
 	31 => '31st',
 );
 
-$txt['page_indicator_n'] = ' - page %1$s';
+$txt['page_indicator'] = ' - page %s'; // can be turned into an array as needed (1 => '', 'n' => ...)
 
 $txt['days'] = array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
 $txt['days_short'] = array('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat');
@@ -75,36 +75,25 @@ $txt['message'] = 'Message';
 $txt['quick_modify'] = 'Modify Inline';
 
 $txt['posts'] = 'Posts';
-$txt['posts_0'] = 'No posts';
-$txt['posts_1'] = '%s post';
-$txt['posts_n'] = '%s posts';
 $txt['topics'] = 'Topics';
-$txt['topics_0'] = 'No topics';
-$txt['topics_1'] = '%s topic';
-$txt['topics_n'] = '%s topics';
 $txt['redirects'] = 'Redirects';
-$txt['redirects_0'] = 'No redirections';
-$txt['redirects_1'] = '%s redirection';
-$txt['redirects_n'] = '%s redirections';
 $txt['replies'] = 'Replies';
-$txt['replies_0'] = 'No reply';
-$txt['replies_1'] = '%s reply';
-$txt['replies_n'] = '%s replies';
 $txt['views'] = 'Views';
-$txt['views_0'] = 'Never viewed';
-$txt['views_1'] = '%s view';
-$txt['views_n'] = '%s views';
+
+$txt['num_posts'] = array(0 => 'No posts', 1 => '1 post', 'n' => '%s posts');
+$txt['num_topics'] = array(0 => 'No topics', 1 => '1 topic', 'n' => '%s topics');
+$txt['num_redirects'] = array(0 => 'No redirections', 1 => '1 redirection', 'n' => '%s redirections');
+$txt['num_replies'] = array(0 => 'No reply', 1 => '1 reply', 'n' => '%s replies');
+$txt['num_views'] = array(0 => 'Never viewed', 1 => '1 view', 'n' => '%s views');
 
 // Likes. It's pretty complicated.
 $txt['you_like_this'] = 'You like this.';
 $txt['you_1_like_this'] = 'You and {name1} like this.';
 $txt['you_2_like_this'] = 'You, {name1} and {name2} like this.';
-$txt['you_n_like_this_1'] = 'You, {name1}, {name2} and 1 other like this.';
-$txt['you_n_like_this_n'] = 'You, {name1}, {name2} and %1$s others like this.';
+$txt['you_n_like_this'] = array(1 => 'You, {name1}, {name2} and 1 other like this.', 'n' => 'You, {name1}, {name2} and %s others like this.');
 $txt['1_like_this'] = '{name1} likes this.';
 $txt['2_like_this'] = '{name1} and {name2} like this.';
-$txt['n_like_this_1'] = '{name1}, {name2} and 1 other likes this.';
-$txt['n_like_this_n'] = '{name1}, {name2} and %1$s others like this.';
+$txt['n_like_this'] = array(1 => '{name1}, {name2} and 1 other likes this.', 'n' => '{name1}, {name2} and %s others like this.');
 $txt['like'] = 'Like';
 $txt['unlike'] = 'Unlike';
 
@@ -205,13 +194,13 @@ $txt['post_awaiting_approval'] = 'Note: This message is awaiting approval by a m
 $txt['there_are_unapproved_topics'] = 'There are %1$s topics and %2$s posts awaiting approval in this board. Click <a href="%3$s">here</a> to view them all.';
 
 $txt['msg_alert_none'] = 'No messages...';
-$txt['you_have_msg_0'] = 'you have no messages';
-$txt['you_have_msg_1'] = 'you have <a href="<URL>?action=pm">1</a> message {new}';
-$txt['you_have_msg_n'] = 'you have <a href="<URL>?action=pm">%1$s</a> messages {new}';
-// The {new} construct is used to add the (x new) area in a language-dependent manner, using unread_pms, as below.
-$txt['unread_pms_0'] = '(none new)';
-$txt['unread_pms_1'] = '(1 new)';
-$txt['unread_pms_n'] = '(%1$s new)';
+// SSI - The {new} construct is used to add the (x new) area in a language-dependent manner, using unread_pms, as below.
+$txt['you_have_msg'] = array(
+	0 => 'you have no messages',
+	1 => 'you have <a href="<URL>?action=pm">1</a> message {new}',
+	'n' => 'you have <a href="<URL>?action=pm">%s</a> messages {new}',
+);
+$txt['unread_pms'] = array(0 => '(none new)', 1 => '(1 new)', 'n' => '(%s new)');
 
 $txt['remove_message'] = 'Remove this message';
 $txt['remove_message_confirm'] = 'Remove this message?';
@@ -229,7 +218,6 @@ $txt['search'] = 'Search';
 $txt['all_pages'] = 'All';
 
 $txt['back'] = 'Back';
-$txt['password_reminder'] = 'Password reminder';
 $txt['topic_started'] = 'Topic started by';
 $txt['title'] = 'Title';
 $txt['post_by'] = 'Post by';
@@ -309,7 +297,6 @@ $txt['members_list'] = 'Members List';
 
 $txt['redirect_board'] = 'Redirect Board';
 
-$txt['sendtopic_send'] = 'Send';
 $txt['report_sent'] = 'Your report has been sent successfully.';
 
 $txt['notification'] = 'Notification';
@@ -329,7 +316,6 @@ $txt['participation_caption'] = 'Topic you have posted in';
 
 $txt['print'] = 'Print';
 $txt['profile'] = 'Profile';
-$txt['topic_summary'] = 'Topic Summary';
 $txt['not_applicable'] = 'N/A';
 
 $txt['total_members'] = 'Total Members';
@@ -339,7 +325,6 @@ $txt['total_boards'] = 'Total Boards';
 
 $txt['switch_mode'] = 'Switch to full editor';
 $txt['preview'] = 'Preview';
-$txt['always_logged_in'] = 'Always stay logged in';
 
 $txt['save_draft'] = 'Save as Draft';
 $txt['save_draft_warning'] = 'Saving a draft will retain the basic post details (title, text, icon), but not attachments, poll options or anything else. Are you happy to proceed with saving this draft?';
@@ -368,9 +353,7 @@ $txt['latest_member'] = 'Latest Member';
 $txt['total_cats'] = 'Total Categories';
 $txt['latest_post'] = 'Latest Post';
 
-$txt['youve_got_pms_0'] = 'You have no messages...';
-$txt['youve_got_pms_1'] = 'You have 1 message...';
-$txt['youve_got_pms_n'] = 'You have %1$s messages...';
+$txt['youve_got_pms'] = array(0 => 'You have no messages...', 1 => 'You have 1 message...', 'n' => 'You have %s messages...');
 $txt['click_to_view_them'] = 'Click <a href="%1$s">here</a> to view them.';
 
 $txt['print_page'] = 'Print Page';
@@ -432,7 +415,7 @@ $txt['online'] = 'Online';
 $txt['offline'] = 'Offline';
 $txt['pm_online'] = 'Personal Message (Online)';
 $txt['pm_offline'] = 'Personal Message (Offline)';
-$txt['status'] = 'Status';
+$txt['online_status'] = 'Status';
 
 $txt['go_up'] = 'Go Up';
 $txt['go_down'] = 'Go Down';
@@ -462,10 +445,8 @@ $txt['mlist_search_results'] = 'Search results for';
 $txt['mlist_search_by'] = 'Search by %1$s';
 $txt['mlist_menu_view'] = 'View the memberlist';
 
-$txt['attach_downloaded_1'] = 'downloaded 1 time.';
-$txt['attach_downloaded_n'] = 'downloaded %1$d times.';
-$txt['attach_viewed_1'] = 'viewed 1 time.';
-$txt['attach_viewed_n'] = 'viewed %1$d times.';
+$txt['attach_downloaded'] = array(1 => 'downloaded once.', 'n' => 'downloaded %s times.');
+$txt['attach_viewed'] = array(1 => 'viewed once.', 'n' => 'viewed %s times.');
 
 $txt['settings'] = 'Settings';
 $txt['never'] = 'Never';
@@ -566,8 +547,10 @@ $txt['totalTimeLogged5'] = 'd ';
 $txt['totalTimeLogged6'] = 'h ';
 $txt['totalTimeLogged7'] = 'm';
 
-$txt['approve_members_waiting_1'] = 'There is <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">one member</a> awaiting approval.';
-$txt['approve_members_waiting_n'] = 'There are <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">%1$s members</a> awaiting approval.';
+$txt['approve_members_waiting'] = array(
+	1 => 'There is <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">one member</a> awaiting approval.',
+	'n' => 'There are <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">%s members</a> awaiting approval.',
+);
 
 $txt['notifyboard_turnon'] = 'Do you want a notification email when someone posts a new topic in this board?';
 $txt['notifyboard_turnoff'] = 'Are you sure you do not want to receive new topic notifications for this board?';

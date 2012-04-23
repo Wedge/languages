@@ -58,8 +58,10 @@ $txt['showDrafts'] = 'Show Drafts';
 $txt['showDrafts_desc'] = 'This section shows you all the draft messages you have saved, or were saved on your behalf.';
 $txt['show_drafts_none'] = 'You have no draft messages saved at this time.';
 $txt['edit_draft'] = 'Edit draft';
-$txt['draftAutoPurge_1'] = 'Drafts are stored on the server for up to a day, and if not posted or modified in that time, they will be removed.';
-$txt['draftAutoPurge_n'] = 'Drafts are stored on the server for up to %1$d days, and if not posted or modified in that time, they will be removed.';
+$txt['draftAutoPurge'] = array(
+	1 => 'Drafts are stored on the server for up to a day, and if not posted or modified in that time, they will be removed.',
+	'n' => 'Drafts are stored on the server for up to %s days, and if not posted or modified in that time, they will be removed.',
+);
 $txt['remove_all_drafts'] = 'Remove all drafts';
 $txt['remove_all_drafts_confirm'] = 'Are you sure you want to remove all of your draft messages? (This operation is not reversible.)';
 $txt['no_recipients'] = '(no recipients)';
@@ -99,8 +101,7 @@ $txt['pm_actions'] = 'Actions';
 $txt['pm_preferences'] = 'Preferences';
 
 $txt['pm_is_replied_to'] = 'You have responded to this message.';
-$txt['pm_is_replied_to_sent_1'] = 'This message was replied to.';
-$txt['pm_is_replied_to_sent_n'] = '%1$d responses to this message were sent.';
+$txt['pm_is_replied_to_sent'] = array(1 => 'This message was replied to.', 'n' => '%s responses to this message were sent.');
 
 // Reporting messages.
 $txt['pm_report_to_admin'] = 'Report to Admin';

@@ -58,8 +58,10 @@ $txt['showDrafts'] = 'Voir les Brouillons';
 $txt['showDrafts_desc'] = 'Cette section vous permet de consulter les brouillons que vous avez sauvegardés, ou qui ont été sauvegardés automatiquement pour vous.';
 $txt['show_drafts_none'] = 'Pas de brouillons pour le moment.';
 $txt['edit_draft'] = 'Modifier brouillon';
-$txt['draftAutoPurge_1'] = 'Les brouillons sont stockés sur le serveur pendant 24 heures. Si vous ne les postez ni ne les modifiez durant ce délai, ils seront supprimés.';
-$txt['draftAutoPurge_n'] = 'Les brouillons sont stockés sur le serveur pendant %1$d jours. Si vous ne les postez ni ne les modifiez durant ce délai, ils seront supprimés.';
+$txt['draftAutoPurge'] = array(
+	1 => 'Les brouillons sont stockés sur le serveur pendant 24 heures. Si vous ne les postez ni ne les modifiez durant ce délai, ils seront supprimés.',
+	'n' => 'Les brouillons sont stockés sur le serveur pendant %s jours. Si vous ne les postez ni ne les modifiez durant ce délai, ils seront supprimés.',
+);
 $txt['remove_all_drafts'] = 'Supprimer tous mes brouillons';
 $txt['remove_all_drafts_confirm'] = 'Êtes-vous sûr de vouloir supprimer tous vos brouillons ? Cette opération est irréversible !';
 $txt['no_recipients'] = '(pas de destinataire)';
@@ -99,8 +101,7 @@ $txt['pm_actions'] = 'Actions';
 $txt['pm_preferences'] = 'Préférences';
 
 $txt['pm_is_replied_to'] = 'Vous avez répondu à ce message.';
-$txt['pm_is_replied_to_sent_1'] = 'Ce message a fait l\'objet d\'une réponse.';
-$txt['pm_is_replied_to_sent_n'] = 'Ce message a fait l\'objet de %1$d réponses.';
+$txt['pm_is_replied_to_sent'] = array(1 => 'Ce message a fait l\'objet d\'une réponse.', 'n' => 'Ce message a fait l\'objet de %s réponses.');
 
 // Reporting messages.
 $txt['pm_report_to_admin'] = 'Rapporter à l\'administrateur';

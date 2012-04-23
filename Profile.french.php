@@ -43,8 +43,10 @@ $txt['password_strength'] = 'Pour plus de sécurité, vous devriez choisir au mo
 $txt['include_website_url'] = 'Indispensable si vous mettez une URL ci-dessous.';
 $txt['complete_url'] = 'Ceci doit être une URL complète. (http://www. ...)';
 $txt['sig_info'] = 'Les signatures sont affichées en bas de chaque message ou message personnel. Vous pouvez y inclure du BBCode et des smileys.';
-$txt['signature_minposts_1'] = 'Votre signature ne sera pas visible aux autres utilisateurs tant que vous n\'aurez pas posté au moins un message.';
-$txt['signature_minposts_n'] = 'Votre signature ne sera pas visible aux autres utilisateurs tant que vous n\'aurez pas posté au moins %1$s messages.';
+$txt['signature_minposts'] = array(
+	1 => 'Votre signature ne sera pas visible aux autres utilisateurs tant que vous n\'aurez pas posté au moins un message.',
+	'n' => 'Votre signature ne sera pas visible aux autres utilisateurs tant que vous n\'aurez pas posté au moins %s messages.',
+);
 $txt['max_sig_characters'] = '%1$s caractères sont autorisés au maximum. Il en reste&nbsp;: ';
 $txt['send_member_pm'] = 'Envoyer un message personnel à ce membre';
 $txt['hidden'] = 'caché';
@@ -165,8 +167,10 @@ $txt['show_drafts_none'] = 'Aucun brouillon pour le moment.';
 $txt['edit_draft'] = 'Modifier brouillon';
 $txt['topic_no_longer_available'] = 'Ce brouillon a été écrit en réponse à un sujet qui n\'est plus disponible. Si vous le modifiez, il sera posté en tant que nouveau sujet.';
 $txt['topic_is_locked'] = 'Ce brouillon a été écrit en réponse à un sujet qui est actuellement bloqué par un modérateur. Si vous le modifiez, il sera posté en tant que nouveau sujet.';
-$txt['draftAutoPurge_1'] = 'Les brouillons sont stockés sur le serveur pendant 24 heures. Si vous ne les postez ni ne les modifiez durant ce délai, ils seront supprimés.';
-$txt['draftAutoPurge_n'] = 'Les brouillons sont stockés sur le serveur pendant %1$d jours. Si vous ne les postez ni ne les modifiez durant ce délai, ils seront supprimés.';
+$txt['draftAutoPurge'] = array(
+	1 => 'Les brouillons sont stockés sur le serveur pendant 24 heures. Si vous ne les postez ni ne les modifiez durant ce délai, ils seront supprimés.',
+	'n' => 'Les brouillons sont stockés sur le serveur pendant %s jours. Si vous ne les postez ni ne les modifiez durant ce délai, ils seront supprimés.',
+);
 $txt['remove_all_drafts'] = 'Supprimer tous mes brouillons';
 $txt['remove_all_drafts_confirm'] = 'Êtes-vous sûr de vouloir supprimer tous vos brouillons ? Cette opération est irréversible !';
 

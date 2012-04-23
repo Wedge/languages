@@ -7,6 +7,7 @@ $txt['username_no_exist'] = 'Cet identifiant n\'existe pas.';
 $txt['no_user_with_email'] = 'Il n\'y a pas d\'identifiants associés à cette adresse e-mail.';
 $txt['name_in_use'] = 'Ce nom est déjà utilisé par un autre membre.';
 $txt['mins_logged_in'] = 'Durée de connexion (en minutes)&nbsp;';
+$txt['always_logged_in'] = 'Toujours connecté';
 
 // Registration agreement page.
 $txt['registration_agreement'] = 'Accord d\'inscription';

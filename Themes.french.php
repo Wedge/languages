@@ -30,8 +30,11 @@ $txt['theme_latest_fetch'] = 'Recherche des derniers thèmes depuis wedge.org...
 
 $txt['theme_preview'] = 'Prévisualiser ce thème';
 $txt['theme_set'] = 'Utiliser ce thème et son style par défaut';
-$txt['theme_users_1'] = '%d personne utilise ce thème.';
-$txt['theme_users_n'] = '%d personnes utilisent ce Thème.';
+$txt['theme_users'] = array(
+	0 => 'Personne n\'utilise ce thème.',
+	1 => '1 personne utilise ce thème.',
+	'n' => '%s personnes utilisent ce thème.',
+);
 $txt['current_theme'] = 'Thème actuel';
 
 $txt['theme_skins'] = 'Styles';

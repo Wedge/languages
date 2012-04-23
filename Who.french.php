@@ -136,10 +136,8 @@ $txt['media_wo_hidden'] = 'Rôde quelque part dans la galerie, à un endroit ins
 
 // Credits text
 $txt['credits_site'] = 'Crédits de ce site web';
-$txt['credits_admins_1'] = 'Administrateur';
-$txt['credits_admins_n'] = 'Administrateurs';
-$txt['credits_moderators_1'] = 'Modérateur';
-$txt['credits_moderators_n'] = 'Modérateurs';
+$txt['credits_admins'] = array(1 => 'Administrateur', 'n' => 'Administrateurs');
+$txt['credits_moderators'] = array(1 => 'Modérateur', 'n' => 'Modérateurs');
 $txt['credits_software'] = 'Crédits du logiciel';
 $txt['credits_wedge'] = 'Wedge est copyright © 2010-2012 Wedgeward (René-Gilles Deberdt et Peter Spicer), tous droits réservés. Distribué sous <a href="http://wedge.org/license/">licence propre</a>.';
 $txt['credits_team'] = 'L\'équipe de Wedge';
