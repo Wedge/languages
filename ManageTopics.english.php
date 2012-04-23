@@ -20,6 +20,8 @@ $txt['split_selected_posts'] = 'Selected posts';
 $txt['split_selected_posts_desc'] = 'The posts below will form a new topic after splitting.';
 $txt['split_reset_selection'] = 'reset selection';
 
+$txt['moved'] = 'MOVED';
+$txt['moved_why'] = 'Please enter a brief description as to<br>why this topic is being moved.';
 $txt['moveTopic1'] = 'Post a redirection topic';
 $txt['moveTopic2'] = 'Change the topic\'s subject';
 $txt['moveTopic3'] = 'New subject';
@@ -29,5 +31,31 @@ $txt['moveTopic_redirection_day_1'] = '1 day';
 $txt['moveTopic_redirection_day_n'] = '%s days';
 $txt['moveTopic_redirection_perm'] = 'Permanently';
 $txt['move_topic_unapproved_js'] = 'Warning! This topic has not yet been approved.\\n\\nIt is not recommended that you create a redirection topic unless you intend to approve the post immediately following the move.';
+$txt['movetopic_auto_board'] = '[BOARD]';
+$txt['movetopic_auto_topic'] = '[TOPIC LINK]';
+$txt['movetopic_default'] = 'This topic has been moved to ' . $txt['movetopic_auto_board'] . ".\n\n" . $txt['movetopic_auto_topic'];
+
+$txt['sendtopic_title'] = 'Send the topic &quot;%1$s&quot; to a friend.';
+$txt['sendtopic_sender_name'] = 'Your name';
+$txt['sendtopic_sender_email'] = 'Your email address';
+$txt['sendtopic_receiver_name'] = 'Recipient\'s name';
+$txt['sendtopic_receiver_email'] = 'Recipient\'s email address';
+$txt['sendtopic_comment'] = 'Add a comment';
+
+$txt['merge_select_target_board'] = 'Select the target board of the merged topic';
+$txt['merge_select_poll'] = 'Select which poll the merged topic should have';
+$txt['merge_topic_list'] = 'Select topics to be merged';
+$txt['merge_select_subject'] = 'Select subject of merged topic';
+$txt['merge_custom_subject'] = 'Custom subject';
+$txt['merge_enforce_subject'] = 'Change the subject of all the messages';
+$txt['merge_include_notifications'] = 'Include notifications?';
+$txt['merge_check'] = 'Merge?';
+$txt['merge_no_poll'] = 'No poll';
+
+$txt['report_to_mod_func'] = 'Use this function to inform the moderators and administrators of an abusive or wrongly posted message.<br><em>Please note that your email address will be revealed to the moderators if you use this.</em>';
+
+$txt['send_email'] = 'Send an email';
+$txt['send_email_disclosed'] = 'Note this will be visible to the recipient.';
+$txt['send_email_subject'] = 'Email Subject';
 
 ?>

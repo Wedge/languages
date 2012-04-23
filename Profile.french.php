@@ -223,6 +223,8 @@ $txt['activate_changed_email_desc'] = 'Vous avez changé votre adresse e-mail. A
 $txt['no_reminder_email'] = 'Impossible d\'envoyer l\'e-mail de rappel.<br>Contactez le <a href="%1$s">webmaster</a> pour lui demander vos informations d\'authentification.';
 
 $txt['user_email'] = 'Identifiant/e-mail';
+$txt['valid_email'] = 'Ce doit être une adresse e-mail valide.';
+$txt['allow_user_email'] = 'Permettre aux utilisateurs de m\'envoyer des e-mails';
 
 $txt['reminder_sent'] = 'Un e-mail a été envoyé à votre adresse e-mail. Suivez le lien dans ce message pour obtenir un nouveau mot de passe.';
 $txt['reminder_set_password'] = 'Définir le mot de passe';

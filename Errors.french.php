@@ -294,7 +294,31 @@ $txt['profile_error_password_restricted_words'] = 'Votre mot de passe de doit pa
 $txt['profile_error_password_chars'] = 'Votre mot de passe doit contenir un mélange de lettres majuscules et minuscules, de même que des numéros.';
 $txt['profile_error_already_requested_group'] = 'Vous avez déjà une demande en instance pour ce groupe&nbsp;!';
 
+// Use numeric entities in the below string, as it's to be used in emails.
+$txt['database_error'] = 'Erreur de base de donn&#233;es';
+// Use numeric entities in the below string, as it's to be used in emails.
+$txt['tried_to_repair'] = 'Wedge a d&#233;tect&#233; et a automatiquement essay&#233; de r&#233;parer une erreur dans votre base de donn&#233;es. Si le probl&#232;me persiste ou si vous continuez de recevoir ces e-mails, contactez votre h&#233;bergeur.';
+
+// Database errors (Class-DB.php)
 $txt['mysql_error_space'] = ' - vérifiez la taille de votre base de données ou contactez un administrateur du serveur.';
+$txt['try_again'] = 'Merci de réessayer. Si l\'erreur se reproduit, signalez cette erreur à un administrateur.';
+$txt['database_error_versions'] = '<strong>Note</strong>&nbsp;: Il est <em>possible</em> que votre base de données nécessite une mise à jour. Actuellement, la version des fichiers du forum est %1$s, alors que votre base de données est en version %2$s. L\'erreur signalée ci-dessus pourrait peut-être corrigée en exécutant la dernière version de upgrade.php.';
+// Line number in a file.
+$txt['line'] = 'Ligne';
+
+// Skin parsing errors
+$txt['template_parse_error'] = 'Erreur de traitement du modèle&nbsp;!';
+$txt['template_parse_error_message'] = 'Il semble que le forum rencontre actuellement quelques difficultés avec un de ses modèles graphiques. Le problème pourrait n\'être que temporaire, essayez de revenir plus tard. Si vous continuez à voir ce message, contactez l\'administrateur.<br><br>Vous pouvez aussi essayer de <a href="javascript:location.reload();">recharger la page</a>.';
+$txt['template_parse_error_details'] = 'Un problème s\'est produit durant le chargement du modèle ou du fichier de langue <tt><strong>%1$s</strong></tt>. Vérifiez la syntaxe et réessayez. Rappelez-vous que les apostrophes (<tt>\'</tt>) doivent souvent être échappées via une barre oblique (<tt>\\</tt>). Pour obtenir plus de détails sur ces erreurs par PHP, essayez d\'<a href="{board_url}%1$s">accéder directement au fichier</a>.<br><br>Vous pouvez aussi <a href="javascript:location.reload();">recharger la page</a> ou <a href="<URL>?theme=1">utiliser le thème par défaut</a>.';
+
+$txt['security_risk'] = 'RISQUE DE SÉCURITÉ MAJEUR';
+$txt['cache_writable_head'] = 'Avertissement sur la performance';
+$txt['cache_writable'] = 'Le répertoire cache est protégé en écriture - cela affectera grandement la performance de votre forum.';
+$txt['not_removed'] = 'Vous n\'avez pas supprimé <strong>%1$s</strong>&nbsp;!';
+$txt['not_removed_extra'] = '%1$s est une copie de %2$s qui n\'a pas été générée par Wedge. Il est accessible directement et peut être exploité pour obtenir un accès non autorisé à votre forum. Vous devriez le supprimer immédiatement.';
+
+$txt['ssi_not_direct'] = 'Veuillez ne pas accéder directement à SSI.php par l\'URL; utilisez plutôt le chemin (%1$s) ou ajoutez ?ssi_function=quelquechose.';
+$txt['ssi_session_broken'] = 'SSI.php n\'a pas pu charger une session&nbsp;! Cela peut causer des problèmes pour la déconnexion et d\'autres fonctions - veuillez vous assurer que SSI.php est inclus avant *tout* le reste de votre code dans vos scripts&nbsp;!';
 
 $txt['icon_not_found'] = 'L\'icône de message n\'a pu être trouvée pour le thème par défaut - veuillez vous assurer que l\'image a bien été transférée et essayez de nouveau.';
 $txt['icon_after_itself'] = 'L\'icône ne peut pas être positionnée après elle-même&nbsp;!';

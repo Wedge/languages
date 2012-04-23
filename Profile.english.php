@@ -223,6 +223,8 @@ $txt['activate_changed_email_desc'] = 'You\'ve changed your email address. In or
 $txt['no_reminder_email'] = 'Unable to send reminder email.<br>Send an email to <a href="%1$s">the webmaster</a> to ask for your authentication details.';
 
 $txt['user_email'] = 'Username/Email';
+$txt['valid_email'] = 'This must be a valid email address.';
+$txt['allow_user_email'] = 'Allow users to email me';
 
 $txt['reminder_sent'] = 'A mail has been sent to your email address. Click the link in that mail to set a new password.';
 $txt['reminder_set_password'] = 'Set Password';
