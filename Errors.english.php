@@ -370,6 +370,7 @@ $txt['warning_no_reason'] = 'You must enter a reason for altering the warning st
 $txt['warning_notify_blank'] = 'You selected to notify the user but did not fill in the subject/message fields';
 
 $txt['movetopic_no_reason'] = 'You must enter a reason for moving the topic, or uncheck the option to \'post a redirection topic\'.';
+$txt['movetopic_no_pm'] = 'You must enter a personal message to send when moving this topic, or uncheck the option to \'send the topic starter a message\'.';
 
 $txt['error_custom_field_too_long'] = 'The &quot;%1$s&quot; field cannot be greater than %2$d characters in length.';
 $txt['error_custom_field_invalid_email'] = 'The &quot;%1$s&quot; field must be a valid email address.';
