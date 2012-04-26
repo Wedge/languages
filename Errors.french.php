@@ -370,6 +370,7 @@ $txt['warning_no_reason'] = 'Vous devez entrer une raison pour sanctionner un me
 $txt['warning_notify_blank'] = 'Vous avez choisi de notifier l\'utilisateur, mais vous n\'avez pas rempli les champs de titre/message.';
 
 $txt['movetopic_no_reason'] = 'Vous devez préciser une raison pour le déplacement du sujet, ou désactiver l\'option \'Poster un message de redirection\'.';
+$txt['movetopic_no_pm'] = 'Vous devez taper un message personnel pour signaler à l\'auteur le déplacement de son sujet, ou décocher l\'option correspondante.';
 
 $txt['error_custom_field_too_long'] = 'Le champ &quot;%1$s&quot; ne peut faire plus de %2$d caractères.';
 $txt['error_custom_field_invalid_email'] = 'Le champ &quot;%1$s&quot; doit être une adresse e-mail valide.';
