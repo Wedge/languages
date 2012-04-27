@@ -22,6 +22,7 @@ $txt['need_username'] = 'You need to fill in a username.';
 $txt['no_password'] = 'You didn\'t enter your password.';
 $txt['incorrect_password'] = 'Password incorrect';
 $txt['choose_username'] = 'Choose username';
+$txt['choose_timezone'] = 'What time zone are you in?';
 $txt['registration_successful'] = 'Registration Successful';
 $txt['now_a_member'] = 'Success! You are now a member of the forum.';
 // Use numeric entities in the below string.
