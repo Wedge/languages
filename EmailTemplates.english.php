@@ -203,6 +203,8 @@ Should you have any problems with the activation, please visit {ACTIVATIONLINKWI
 		'subject' => 'Welcome to {FORUMNAME}',
 		'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME} and your password is {PASSWORD}.
 
+You can reach {FORUMNAME} by visiting {SCRIPTURL} in your browser.
+
 {REGARDS}',
 	),
 	'new_announcement' => array(
