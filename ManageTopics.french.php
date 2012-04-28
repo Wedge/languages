@@ -22,10 +22,10 @@ $txt['split_reset_selection'] = 'recommencer la sélection';
 
 $txt['moved'] = 'DÉPLACÉ';
 $txt['moved_why'] = 'Merci de préciser la raison du déplacement de ce sujet.';
-$txt['moveTopic1'] = 'Poster un message de redirection';
-$txt['moveTopic2'] = 'Changer le titre du sujet';
+$txt['moveTopic1'] = 'Poster un message de redirection.';
+$txt['moveTopic2'] = 'Changer le titre du sujet.';
 $txt['moveTopic3'] = 'Nouveau titre';
-$txt['moveTopic4'] = 'Changer le titre de tous les messages';
+$txt['moveTopic4'] = 'Changer le titre de tous les messages.';
 $txt['moveTopic_redirection_period'] = 'Combien de temps doit rester en place le sujet de redirection&nbsp;?';
 $txt['moveTopic_redirection_day'] = array(1 => '1 jour', 'n' => '%s jours');
 $txt['moveTopic_redirection_perm'] = 'Ad vitam';
@@ -33,7 +33,7 @@ $txt['move_topic_unapproved_js'] = 'Attention ! Ce sujet n\'a pas encore été a
 $txt['movetopic_auto_board'] = '[SECTION]';
 $txt['movetopic_auto_topic'] = '[LIEN DE LA DISCUSSION]';
 $txt['movetopic_default'] = 'Ce sujet a été déplacé vers ' . $txt['movetopic_auto_board'] . ".\n\n" . $txt['movetopic_auto_topic'];
-$txt['movetopic_sendpm'] = 'Envoyer un message personnel à l\'auteur du sujet, pour lui faire savoir qu\'il a été déplacé';
+$txt['movetopic_sendpm'] = 'Envoyer un message personnel à l\'auteur du sujet, pour lui faire savoir qu\'il a été déplacé.';
 $txt['movetopic_sendpm_desc'] = 'Tapez ici le message à envoyer';
 $txt['movetopic_default_pm'] = 'Juste pour information, votre sujet - ' . $txt['movetopic_auto_topic'] . ' - a été déplacé vers ' . $txt['movetopic_auto_board'] . '.';
 

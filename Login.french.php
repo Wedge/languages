@@ -23,6 +23,7 @@ $txt['need_username'] = 'Vous devez mettre un nom d\'utilisateur.';
 $txt['no_password'] = 'Vous n\'avez entré aucun mot de passe';
 $txt['incorrect_password'] = 'Mot de passe incorrect';
 $txt['choose_username'] = 'Choisissez un identifiant';
+$txt['choose_timezone'] = 'Choisissez votre fuseau horaire';
 $txt['registration_successful'] = 'Inscription réussie';
 $txt['now_a_member'] = 'Vous êtes maintenant un membre du forum.';
 // Use numeric entities in the below string.

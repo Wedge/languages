@@ -22,10 +22,10 @@ $txt['split_reset_selection'] = 'reset selection';
 
 $txt['moved'] = 'MOVED';
 $txt['moved_why'] = 'Please enter a brief description as to<br>why this topic is being moved.';
-$txt['moveTopic1'] = 'Post a redirection topic';
-$txt['moveTopic2'] = 'Change the topic\'s subject';
+$txt['moveTopic1'] = 'Post a redirection topic.';
+$txt['moveTopic2'] = 'Change the topic\'s subject.';
 $txt['moveTopic3'] = 'New subject';
-$txt['moveTopic4'] = 'Change every message\'s subject';
+$txt['moveTopic4'] = 'Change every message\'s subject.';
 $txt['moveTopic_redirection_period'] = 'How long should the redirection topic<br>be left in place for?';
 $txt['moveTopic_redirection_day'] = array(1 => '1 day', 'n' => '%s days');
 $txt['moveTopic_redirection_perm'] = 'Permanently';
@@ -33,7 +33,7 @@ $txt['move_topic_unapproved_js'] = 'Warning! This topic has not yet been approve
 $txt['movetopic_auto_board'] = '[BOARD]';
 $txt['movetopic_auto_topic'] = '[TOPIC LINK]';
 $txt['movetopic_default'] = 'This topic has been moved to ' . $txt['movetopic_auto_board'] . ".\n\n" . $txt['movetopic_auto_topic'];
-$txt['movetopic_sendpm'] = 'Send the topic starter a message, to let them know the topic has been moved';
+$txt['movetopic_sendpm'] = 'Send the topic starter a message, to let them know the topic has been moved.';
 $txt['movetopic_sendpm_desc'] = 'The personal message to send';
 $txt['movetopic_default_pm'] = 'Your topic - ' . $txt['movetopic_auto_topic'] . ' - has been moved to ' . $txt['movetopic_auto_board'] . ', just thought you should know.';
 

@@ -206,6 +206,8 @@ En cas de souci avec l\'activation, rendez-vous sur {ACTIVATIONLINKWITHOUTCODE} 
 		'subject' => 'Bienvenue sur {FORUMNAME}',
 		'body' => 'Merci d\'avoir rejoint {FORUMNAME}. Votre identifiant est {USERNAME} et votre mot de passe est {PASSWORD}.
 
+Vous pouvez visiter {FORUMNAME} en vous rendant sur {SCRIPTURL} dans votre navigateur web.
+
 {REGARDS}',
 	),
 	'new_announcement' => array(
