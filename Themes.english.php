@@ -5,6 +5,7 @@ $txt['themeadmin_explain'] = 'Themes are the different looks and feels of your f
 
 $txt['theme_allow'] = 'Allow members to select their own themes?';
 $txt['theme_guests'] = 'Overall forum default for guests';
+$txt['theme_guests_mobile'] = 'Overall forum default for guests (mobile mode)';
 $txt['theme_select'] = 'choose...';
 $txt['theme_reset'] = 'Reset everyone to';
 $txt['theme_nochange'] = 'No change';

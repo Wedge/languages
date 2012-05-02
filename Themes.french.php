@@ -5,6 +5,7 @@ $txt['themeadmin_explain'] = 'Les thèmes <em>(parfois appelés \'apparences\' o
 
 $txt['theme_allow'] = 'Autoriser les membres à choisir leur propre thème ?';
 $txt['theme_guests'] = 'Thème par défaut pour les invités&nbsp;';
+$txt['theme_guests_mobile'] = 'Thème par défaut pour les invités (mode mobile)&nbsp;';
 $txt['theme_select'] = 'choisir...';
 $txt['theme_reset'] = 'Régler tout le monde sur&nbsp;';
 $txt['theme_nochange'] = 'Aucun changement';
