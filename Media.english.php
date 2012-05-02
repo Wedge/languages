@@ -116,6 +116,7 @@ $txt['media_reason'] = 'Reason';
 $txt['media_add'] = 'Add item';
 $txt['media_last_edited'] = 'Last Edited';
 $txt['media_album'] = 'Album';
+$txt['media_album_is'] = 'Album: %1$s';
 $txt['media_album_to_move'] = 'Album to move to';
 $txt['media_moving'] = 'Moving';
 $txt['media_viewing_unseen'] = 'Unseen items';

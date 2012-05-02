@@ -108,6 +108,7 @@ $txt['media_reason'] = 'Raison';
 $txt['media_add'] = 'Ajouter un élément';
 $txt['media_last_edited'] = 'Dernière modification';
 $txt['media_album'] = 'Album';
+$txt['media_album_is'] = 'Album&nbsp;: %1$s';
 $txt['media_album_to_move'] = 'Album de destination';
 $txt['media_moving'] = 'Déplacement en cours';
 $txt['media_viewing_unseen'] = 'Éléments non vus';
