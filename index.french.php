@@ -49,7 +49,6 @@ $txt['no_subject'] = '(Pas de titre)';
 $txt['view_profile'] = 'Voir profil';
 $txt['guest_title'] = 'Invité';
 $txt['author'] = 'Auteur';
-$txt['on'] = 'le';
 $txt['on_date'] = 'le %1$s';
 $txt['remove'] = 'Enlever';
 $txt['start_new_topic'] = 'Nouveau sujet';
@@ -88,8 +87,8 @@ $txt['you_n_like_this'] = array(1 => 'Vous, {name1}, {name2} et 1 autre aimez ce
 $txt['1_like_this'] = '{name1} aime cela.';
 $txt['2_like_this'] = '{name1} et {name2} aiment cela.';
 $txt['n_like_this'] = array(1 => '{name1}, {name2} et 1 autre aiment cela.', 'n' => '{name1}, {name2} et %s autres aiment cela.');
-$txt['like'] = 'Aimer';
-$txt['unlike'] = 'Désaimer';
+$txt['like'] = 'J\'aime';
+$txt['unlike'] = 'Je n\'aime plus';
 
 $txt['choose_pass'] = 'Choisir un mot de passe';
 $txt['verify_pass'] = 'Vérifier le mot de passe';
@@ -123,9 +122,9 @@ $txt['usermenu_removebuddy'] = '- Contacts';
 $txt['usermenu_removebuddy_desc'] = 'Retirer de mes contacts';
 
 // Action menu strings (per post)
-$txt['acme_like'] = 'Aimer';
+$txt['acme_like'] = 'J\'aime';
 $txt['acme_like_desc'] = 'J\'aime ce message';
-$txt['acme_unlike'] = 'Désaimer';
+$txt['acme_unlike'] = 'Je n\'aime plus';
 $txt['acme_unlike_desc'] = 'Je n\'aime plus ce message';
 $txt['acme_quote'] = 'Citer';
 $txt['acme_quote_desc'] = 'Citer ce message en réponse';
@@ -143,7 +142,10 @@ $txt['acme_remove'] = 'Effacer';
 $txt['acme_remove_desc'] = 'Effacer ce message définitivement';
 $txt['acme_approve'] = 'Approuver';
 $txt['acme_approve_desc'] = 'Autoriser la lecture de ce message';
+$txt['acme_warn'] = 'Sanctionner';
+$txt['acme_warn_desc'] = 'Sanctionner l\'auteur de ce message';
 
+$txt['actions_button'] = 'Actions&hellip;';
 $txt['more_actions'] = 'Plus&hellip;';
 
 $txt['board_index'] = 'Liste des sections';
@@ -207,7 +209,6 @@ $txt['are_sure_remove_topic'] = 'Êtes-vous sûr de vouloir effacer ce sujet ?';
 $txt['yes'] = 'Oui';
 $txt['no'] = 'Non';
 
-$txt['search_on'] = 'le';
 $txt['search'] = 'Chercher';
 $txt['all_pages'] = 'Toutes';
 
@@ -487,7 +488,6 @@ $txt['notification_enable_topic'] = 'Êtes-vous sûr de vouloir activer la notif
 $txt['notification_disable_topic'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouvelles réponses pour ce sujet ?';
 
 $txt['report_to_mod'] = 'Avertir un modérateur à propos de ce message';
-$txt['issue_warning_post'] = 'Sanctionner l\'auteur de ce message';
 
 $txt['unread_topics'] = 'Sujets non lus';
 $txt['unread_replies'] = 'Sujets mis à jour';

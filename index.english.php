@@ -55,7 +55,6 @@ $txt['no_subject'] = '(No subject)';
 $txt['view_profile'] = 'View profile';
 $txt['guest_title'] = 'Guest';
 $txt['author'] = 'Author';
-$txt['on'] = 'on';
 $txt['on_date'] = 'on %1$s';
 $txt['remove'] = 'Remove';
 $txt['start_new_topic'] = 'Start new topic';
@@ -149,7 +148,10 @@ $txt['acme_remove'] = 'Delete';
 $txt['acme_remove_desc'] = 'Delete this post definitively';
 $txt['acme_approve'] = 'Approve';
 $txt['acme_approve_desc'] = 'Allow this post to be viewed by others';
+$txt['acme_warn'] = 'Warn';
+$txt['acme_warn_desc'] = 'Issue a warning about this post';
 
+$txt['actions_button'] = 'Actions&hellip;';
 $txt['more_actions'] = 'More&hellip;';
 
 $txt['board_index'] = 'Board index';
@@ -213,7 +215,6 @@ $txt['are_sure_remove_topic'] = 'Are you sure you want to remove this topic?';
 $txt['yes'] = 'Yes';
 $txt['no'] = 'No';
 
-$txt['search_on'] = 'on';
 $txt['search'] = 'Search';
 $txt['all_pages'] = 'All';
 
@@ -493,7 +494,6 @@ $txt['notification_enable_topic'] = 'Are you sure you wish to enable notificatio
 $txt['notification_disable_topic'] = 'Are you sure you wish to disable notification of new replies for this topic?';
 
 $txt['report_to_mod'] = 'Report this post to a moderator';
-$txt['issue_warning_post'] = 'Issue a warning about this post';
 
 $txt['unread_topics'] = 'Unread Topics';
 $txt['unread_replies'] = 'Updated Topics';
