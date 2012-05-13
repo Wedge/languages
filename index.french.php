@@ -159,7 +159,8 @@ $txt['post'] = 'Soumettre';
 $txt['error_occured'] = 'Une erreur s\'est produite&nbsp;!';
 $txt['logout'] = 'Déconnexion';
 $txt['started_by'] = 'Démarré par';
-$txt['board_index_last_post'] = '<strong>Dernier message</strong> par {member_link}<br>dans {post_link}<br>{post_time}';
+$txt['last_post_author_link_time'] = '<strong>Dernier message</strong> par {author}<br>dans {link}<br>{time}';
+$txt['last_post_time_author'] = '{time}<br>par {author}';
 
 $txt['last_post'] = 'Dernier message';
 // Use numeric entities in the below string.
@@ -217,8 +218,10 @@ $txt['topic_started'] = 'Discussion démarrée par';
 $txt['title'] = 'Titre';
 $txt['post_by'] = 'Posté par';
 $txt['welcome_member'] = 'Bienvenue à %1$s, notre dernier membre.';
-$txt['last_edit'] = 'Modifié';
 $txt['notify_deactivate'] = 'Voulez-vous désactiver la notification pour ce sujet ?';
+
+$txt['last_edit'] = 'Modifié {date} par {name}';
+$txt['last_edit_mine'] = 'Modifié {date}';
 
 $txt['location'] = 'Localisation';
 $txt['gender'] = 'Sexe';
@@ -618,8 +621,7 @@ $txt['mc_reported_posts'] = 'Messages rapportés';
 $txt['modlog_view'] = 'Journal de Modération';
 $txt['unapproved_members'] = 'Membres à approuver';
 
-$txt['ignoring_user'] = 'Vous ignorez cet utilisateur.';
-$txt['show_ignore_user_post'] = 'Me montrer le message.';
+$txt['ignoring_user'] = 'Vous ignorez cet utilisateur. Cliquez ici pour voir ou cacher son message.';
 
 $txt['spider'] = 'Robot';
 $txt['spiders'] = 'Robots';

@@ -165,7 +165,8 @@ $txt['post'] = 'Post';
 $txt['error_occured'] = 'An Error Has Occurred!';
 $txt['logout'] = 'Logout';
 $txt['started_by'] = 'Started by';
-$txt['board_index_last_post'] = '<strong>Last post</strong> by {member_link}<br>in {post_link}<br>{post_time}';
+$txt['last_post_author_link_time'] = '<strong>Last post</strong> by {author}<br>in {link}<br>{time}';
+$txt['last_post_time_author'] = '{time}<br>by {author}';
 
 $txt['last_post'] = 'Last post';
 // Use numeric entities in the below string.
@@ -223,8 +224,10 @@ $txt['topic_started'] = 'Topic started by';
 $txt['title'] = 'Title';
 $txt['post_by'] = 'Post by';
 $txt['welcome_member'] = 'Please welcome %1$s, our newest member.';
-$txt['last_edit'] = 'Last edited';
 $txt['notify_deactivate'] = 'Would you like to deactivate notification on this topic?';
+
+$txt['last_edit'] = 'Last edited {date} by {name}';
+$txt['last_edit_mine'] = 'Last edited {date}';
 
 $txt['location'] = 'Location';
 $txt['gender'] = 'Gender';
@@ -624,8 +627,7 @@ $txt['mc_reported_posts'] = 'Reported Posts';
 $txt['modlog_view'] = 'Moderation Log';
 $txt['unapproved_members'] = 'Unapproved Members';
 
-$txt['ignoring_user'] = 'You are ignoring this user.';
-$txt['show_ignore_user_post'] = 'Show me the post.';
+$txt['ignoring_user'] = 'You are ignoring this user. Click here to see or hide the post.';
 
 $txt['spider'] = 'Spider';
 $txt['spiders'] = 'Spiders';
