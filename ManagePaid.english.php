@@ -118,7 +118,7 @@ $txt['paid_mod_allow_partial_desc'] = 'If this option is enabled, in the case wh
 $txt['paid_mod_fixed_price'] = 'Subscription for fixed price and period';
 $txt['paid_mod_flexible_price'] = 'Subscription price varies on duration ordered';
 $txt['paid_mod_price_breakdown'] = 'Flexible Price Breakdown';
-$txt['paid_mod_price_breakdown_desc'] = 'Define here how much the subscription should cost dependant on the period they subscribe for. For example, it could cost 12USD to subscribe for a month, but only 100USD for a year. If you don\'t want to define a price for a particular period of time leave it blank.';
+$txt['paid_mod_price_breakdown_desc'] = 'Define here how much the subscription should cost depending on the period they subscribe for. For example, it could cost 12USD to subscribe for a month, but only 100USD for a year. If you don\'t want to define a price for a particular period of time leave it blank.';
 $txt['flexible'] = 'Flexible';
 $txt['paid_mod_lifetime_price'] = 'Subscription is a one-off payment';
 

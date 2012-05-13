@@ -463,7 +463,7 @@ $helptxt['password_strength'] = 'This setting determines the strength required f
 	</ul>';
 
 $helptxt['coppaAge'] = 'The value specified in this box will determine the minimum age that new members must be to be granted immediate access to the forums.
-	On registration they will be prompted to confirm whether they are over this age, and if not will either have their application rejected or suspended awaiting parental approval - dependant on the type of restriction chosen.
+	On registration they will be prompted to confirm whether they are over this age, and if not will either have their application rejected or suspended awaiting parental approval - depending on the type of restriction chosen.
 	If a value of 0 is chosen for this setting then all other age restriction settings shall be ignored.';
 $helptxt['coppaType'] = 'If age restrictions are enabled, then this setting will define that happens when a user below the minimum age attempts to register with your forum. There are two possible choices:
 	<ul class="normallist">
@@ -492,7 +492,7 @@ $helptxt['secret_why_blank'] = 'For your security, your password and the answer 
 $helptxt['primary_membergroup'] = '
 	Wedge allows you to define primary and additional membergroups. If no primary membergroup is set for a member, they will be considered to be in the <em>Regular Members</em> virtual membergroup. Setting a member\'s primary membergroup to something else may cause them to lose all permissions associated with Regular Members. It is <strong>best practice</strong> to consider assigning membergroups as additional as much as possible.
 	<h6>Why is the Moderator group missing from here?</h6>
-	Since moderation is done on a board-by-board basis, and the moderator membergroup is another virtual membergroup, you have to make members moderators from the <a href="javascript:window.open(\'%1$s?action=admin;area=manageboards\'); self.close();">board management interface</a>.';
+	Since moderation is done on a board-by-board basis, and the moderator membergroup is another virtual membergroup, you have to make members moderators from the <a href="<URL>?action=admin;area=manageboards">board management interface</a>.';
 
 $helptxt['permissions'] = 'Permissions are how you either allow groups to, or deny groups from, doing specific things.<br><br>You can modify multiple boards at once with the checkboxes, or look at the permissions for a specific group by clicking \'Modify.\'';
 $helptxt['permissions_board'] = 'If a board is set to \'Global,\' it means that the board will not have any special permissions. \'Local\' means it will have its own permissions - separate from the global ones. This allows you to have a board that has more or less permissions than another, without requiring you to set them for each and every board.';
