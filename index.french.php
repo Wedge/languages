@@ -478,7 +478,7 @@ $txt['quickmod_confirm'] = 'Êtes-vous sûr de vouloir faire cela ?';
 $txt['spell_check'] = 'Vérification orthographique';
 
 $txt['quick_reply'] = 'Réponse Rapide';
-$txt['quick_reply_desc'] = 'Dans la <em>Réponse Rapide</em>, vous pouvez utiliser du BBCode et des smileys comme sur un message normal, mais à partir d\'une interface plus rapide d\'accès.';
+$txt['quick_reply_desc'] = 'En mode <em>Réponse Rapide</em>, vous pouvez utiliser du BBCode et des smileys comme sur un message normal, mais à partir d\'une interface plus rapide d\'accès.';
 $txt['quick_reply_warning'] = 'Attention, ce sujet est actuellement bloqué ! Seuls les administrateurs et les modérateurs peuvent y répondre.';
 $txt['quick_reply_verification'] = 'Après avoir soumis votre message, vous serez redirigé vers la page habituelle d\'écriture pour vérifier votre message %1$s.';
 $txt['quick_reply_verification_guests'] = '(requis pour tous les invités)';
