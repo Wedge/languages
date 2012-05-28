@@ -398,7 +398,6 @@ $helptxt['db_persist'] = 'Conserve une connexion permanente avec la base de donn
 $helptxt['ssi_db_user'] = 'Réglage optionnel pour utiliser un nom d\'utilisateur et un mot de passe de base de données différents quand vous utilisez SSI.php.';
 
 $helptxt['countChildPosts'] = 'Sélectionner cette option signifie que les messages et les sujets dans une section parente seront comptés dans leur totalité sur la page d\'index.<br><br>Cela rendra les choses notablement plus lentes, mais signifiera qu\'une section parente avec aucun message ne montrera plus forcément \'0\'.';
-$helptxt['fixLongWords'] = 'Cette option coupe les mots plus longs qu\'un certain nombre de lettres en plusieurs parties, pour ne pas (trop) déformer la charte graphique de votre forum. Évitez les valeurs inférieures à 40.';
 $helptxt['allow_ignore_boards'] = 'Cocher cette option permettra aux utilisateurs de sélectionner les sites qu\'ils veulent ignorer.';
 $helptxt['allow_ignore_topics'] = 'Cocher cette option permettra aux utilisateurs de sélectionner les sujets qu\'ils veulent ignorer dans les fonctions <em>Réponses non lues</em> et <em>Messages non lus</em>.';
 
