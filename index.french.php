@@ -583,7 +583,7 @@ $txt['mark_unread'] = 'Marquer non lu';
 $txt['preview_title'] = 'Prévisualiser le message';
 $txt['preview_fetch'] = 'Chargement de la prévisualisation&hellip;';
 $txt['error_while_submitting'] = 'L\'erreur ou les erreurs suivantes sont apparues durant la soumission de ce message&nbsp;:';
-$txt['error_old_topic'] = 'Attention, il n\'y a pas eu de réponse à ce sujet depuis au moins %1$d jours.<br>À moins que vous ne soyez sûr de vouloir répondre, pensez éventuellement à créer un nouveau sujet.';
+$txt['error_old_topic'] = 'Veuillez noter qu\'il n\'y a pas eu de réponse à ce sujet depuis au moins %1$d jours.<br>À moins que vous ne soyez sûr de vouloir y répondre, créez plutôt un nouveau sujet.';
 
 $txt['mark_read_short'] = 'Marquer lu';
 
