@@ -13,7 +13,7 @@ $txt['new_to_wedge_mod_filters_answer'] = 'You can add that in <a href="%1$s">Mo
 $txt['new_to_wedge_censored'] = 'Want to mark some words as \'censored\', like profanity?';
 $txt['new_to_wedge_censored_answer'] = 'Add them in <a href="%1$s">Posts and Topics &raquo; Censored Words</a>.';
 $txt['new_to_wedge_antispam'] = 'Add some anti-spam questions to beat spammers?';
-$txt['new_to_wedge_antispam_answer'] = 'Check out the <a href="%1$s">Anti-Spam</a> section</a>.';
+$txt['new_to_wedge_antispam_answer'] = 'Check out the <a href="%1$s">Anti-Spam</a> section.';
 
 $txt['admin_center'] = 'Administration Center';
 $txt['admin_boards'] = 'Boards and Categories';
