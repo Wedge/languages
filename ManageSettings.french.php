@@ -173,7 +173,7 @@ $txt['use_captcha_images'] = 'Autoriser l\'emploi d\'images CAPTCHA&nbsp;?';
 $txt['use_animated_captcha'] = 'Utiliser des images animées pour les CAPTCHA&nbsp;?';
 $txt['use_animated_captcha_desc'] = 'Les tests CAPTCHA animés sont beaucoup plus difficiles à passer pour les robots, mais peuvent aussi gêner les humains...';
 
-$txt['setting_qa_verification_number'] = 'Nombre de questions de vérification auquel un utilisateur doit répondre';
+$txt['setting_qa_verification_number'] = 'Nombre de questions de vérification auxquelles un utilisateur doit répondre';
 $txt['setting_qa_verification_number_desc'] = '(0 pour désactiver; les questions sont réglées ci-dessous)';
 $txt['setup_verification_questions'] = 'Questions de Vérification';
 $txt['setup_verification_questions_desc'] = '<span class="smalltext">Si vous voulez que les utilisateurs répondent à des questions de vérification dans le but de stopper les robots spammeurs, vous pouvez mettre en place des questions dans la table ci-dessous. Choisissez des questions relativement simples; les réponses ne sont pas sensibles à la casse. Vous pouvez utiliser du BBCode dans les questions pour le formatage. Pour supprimer une question, effacez simplement le contenu de cette ligne.</span>';
@@ -181,7 +181,7 @@ $txt['setup_verification_question'] = 'Question';
 $txt['setup_verification_answer'] = 'Réponse';
 $txt['setup_verification_add'] = 'Ajouter une autre question';
 $txt['setup_verification_add_answer'] = 'Ajouter une réponse';
- 
+
 $txt['moderation_settings'] = 'Réglages de Modération';
 $txt['setting_warning_watch'] = 'Niveau de sanction pour la mise sous surveillance';
 $txt['setting_warning_watch_subtext'] = 'Le niveau de sanction après lequel une surveillance de l\'utilisateur est mise en place - 0 pour désactiver.';
