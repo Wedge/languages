@@ -83,6 +83,8 @@ $txt['permissionname_who_view'] = 'Voir la page <em>Qui est en ligne&nbsp;?</em>
 $txt['permissionhelp_who_view'] = '<em>Qui est en ligne&nbsp;?</em> affiche tous les membres qui sont actuellement connectés et ce qu\'ils font en ce moment. Cette permission ne fonctionnera que si vous l\'avez aussi validée dans \'Options des Membres - Qui est en ligne\'. Vous pouvez accéder à la page <em>Qui est en ligne&nbsp;?</em> en cliquant sur le lien dans la section <em>Membres en ligne</em> sur l\'accueil du forum. Même si ce n\'est pas permis, les membres pourront tout de même voir qui est en ligne, mais ne pourront pas voir où ils sont.';
 $txt['permissionname_search_posts'] = 'Rechercher des messages ou des sujets';
 $txt['permissionhelp_search_posts'] = 'La permission de recherche autorise l\'utilisateur à rechercher dans toutes les sections auxquels il peut accéder. Quand la permission de recherche est activée, un bouton \'Recherche\' sera ajouté à la barre de menu principal du forum.';
+$txt['permissionname_post_thought'] = 'Poster des pensées';
+$txt['permissionhelp_post_thought'] = 'Permet aux membres de poster une pensée, de définir son niveau de confidentialité, et de répondre aux pensées des autres membres.';
 
 $txt['permissiongroup_pm'] = 'Messagerie personnelle';
 $txt['permissionname_pm_read'] = 'Lire les messages personnels';

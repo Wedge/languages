@@ -71,6 +71,12 @@ $txt['membergroups_members_deadmin_confirm'] = 'Êtes-vous sûr de vouloir vous 
 $txt['membergroups_postgroups'] = 'Groupes Posteurs';
 $txt['membergroups_settings'] = 'Réglages des groupes de membres';
 $txt['groups_manage_membergroups'] = 'Groupes autorisés à modifier les groupes de membres';
+$txt['group_text_show'] = 'Montrer les noms de groupes sous les utilisateurs&nbsp;?';
+$txt['group_show_none'] = 'Aucun';
+$txt['group_show_all'] = 'Tous les groupes';
+$txt['group_show_normal'] = 'Groupes normaux';
+$txt['group_show_post'] = 'Groupes posteurs|(Groupes basés sur le nombre de messages)';
+$txt['group_show_cond'] = 'Groupes posteurs, sous condition|Montrer les groupes normaux. Si aucun groupe n\'est assigné, montrer le groupe posteur.';
 
 $txt['membergroups_select_permission_type'] = 'Sélectionner un profil de permissions';
 $txt['membergroups_images_url'] = '{URL du thème}/images/';

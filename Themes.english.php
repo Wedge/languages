@@ -78,8 +78,6 @@ $txt['member_list_bar'] = 'Show members list bar on board index';
 $txt['show_view_profile_button'] = 'Show view profile button under post';
 $txt['header_logo_url'] = 'Logo image URL';
 $txt['header_logo_url_desc'] = 'Leave blank to show forum name or default logo.';
-$txt['hide_post_group'] = 'Hide post group titles for grouped members';
-$txt['hide_post_group_desc'] = 'Enabling this will not display a member\'s post group title on the message view if they are assigned to a non-post based group.';
 
 $txt['themeadmin_title'] = 'Themes and Layout Settings';
 $txt['themeadmin_description'] = 'Here you can modify the settings for your themes, update theme selections, reset member options, and the like.';

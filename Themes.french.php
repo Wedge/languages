@@ -78,8 +78,6 @@ $txt['member_list_bar'] = 'Afficher la liste des membres sur l\'accueil du forum
 $txt['show_view_profile_button'] = 'Afficher le bouton de profil dans les messages';
 $txt['header_logo_url'] = 'URL vers l\'image de logo';
 $txt['header_logo_url_desc'] = 'Laissez vide pour afficher le nom du forum ou le logo par défaut.';
-$txt['hide_post_group'] = 'Cacher le <abbr title="Groupe basé sur le nombre de messages">groupe posteur</abbr> pour les membres classés dans des <abbr title="Groupes ne variant pas avec le nombre d\'interventions dans le forum">groupes permanents</abbr>';
-$txt['hide_post_group_desc'] = 'Si vous activez cette option, le nom du groupe posteur <em>(groupe automatique basé sur le nombre de messages postés)</em> ne sera pas indiqué pour les membres appartenant à un groupe permanent <em>(groupes spéciaux, indépendants du nombre de messages, comme \'Modérateur\' ou \'Administrateur\', etc.)</em>';
 
 $txt['themeadmin_title'] = 'Options de thèmes et disposition';
 $txt['themeadmin_description'] = 'Ici vous pouvez modifier les paramètres de vos thèmes, mettre à jour la liste des thèmes, réinitialiser les options des membres et autres réglages du genre.';

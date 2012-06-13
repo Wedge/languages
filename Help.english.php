@@ -508,6 +508,8 @@ $helptxt['membergroups'] = 'In Wedge, there are two types of groups that your me
 		<li><strong>Post Groups:</strong> Unlike regular groups post based groups cannot be assigned. Instead, members are automatically assigned to a post based group when they reach the minimum number of posts required to be in that group.</li>
 	</ul>';
 
+$helptxt['group_text_show'] = 'Choose which group titles are to be shown on the message view and in profile pages, right under the user name. Wedge can only show up to two group names: primary and post-based group. By default, it will only show the primary group name, or the post-based group name if no primary group was set for the user.<br><br>You may also set up images that represent a group (either a defined number of stars, or a badge), from within the individual membergroup setting pages. Badge visibility can also be set up over there.';
+
 $helptxt['maintenance_backup'] = 'This area allows you to save a copy of all the posts, settings, members, and other information in your forum to a very large file.<br><br>It is recommended that you do this often, perhaps weekly, for safety and security.';
 $helptxt['maintenance_rot'] = 'This allows you to <strong>completely</strong> and <strong>irrevocably</strong> remove old topics. It is recommended that you try to make a backup first, just in case you remove something you didn\'t mean to.<br><br>Use this option with care.';
 $helptxt['maintenance_members'] = 'This allows you to <strong>completely</strong> and <strong>irrevocably</strong> remove member accounts from your forum. It is <strong>highly</strong> recommended that you try to make a backup first, just in case you remove something you didn\'t mean to.<br><br>Use this option with care.';
