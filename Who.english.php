@@ -119,7 +119,7 @@ $txt['who_poll'] = 'Posting a new poll in <a href="<URL>?board=%1$d.0">%2$s</a>.
 // Media area actions
 $txt['media_wo_home'] = 'Viewing the <a href="<URL>?action=media">gallery home</a>';
 $txt['media_wo_admin'] = 'Administrating the gallery';
-$txt['media_wo_unseen'] = 'Viewing an <i>unseen</i> item in the gallery';
+$txt['media_wo_unseen'] = 'Viewing unseen gallery items';
 $txt['media_wo_search'] = 'Searching the gallery';
 $txt['media_wo_item'] = 'Viewing &quot;<a href="<URL>?action=media;sa=item;in=%s">%s</a>&quot; in the gallery';
 $txt['media_wo_album'] = 'Viewing the album &quot;<a href="<URL>?action=media;sa=album;in=%s">%s</a>&quot; in the gallery';

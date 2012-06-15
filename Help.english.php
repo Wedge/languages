@@ -637,10 +637,10 @@ $helptxt['mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>
 	<br>Shows the latest items in your first two albums, using the box type (see below.)
 	<br><br>
 	<b>Possible values:</b>
-	<br>- type=<i>normal, box, link, preview, full, album</i>
-	<br>- align=<i>none, left, center, right</i>
-	<br>- width=<i>123</i> (in pixels)
-	<br>- caption=<i>"Caption text"</i> or caption=<i>SingleWordText</i>
+	<br>- type=<em>normal, box, link, preview, full, album</em>
+	<br>- align=<em>none, left, center, right</em>
+	<br>- width=<em>123</em> (in pixels)
+	<br>- caption=<em>"Caption text"</em> or caption=<em>SingleWordText</em>
 	<br><br>
 	<h2>Available parameters</h2>
 	<b>id</b>
@@ -665,7 +665,7 @@ $helptxt['mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>
 		<li><b>none</b> (default) - normal alignment. Will not allow thumbnails to its right or left.</li>
 		<li><b>left</b> - left-align the thumbnail. Use several left-aligned [media] tags to show thumbnails next to each other.</li>
 		<li><b>center</b> - center-align the thumbnail. Will not allow thumbnails to its right or left, except if showing them in this order: [media align=left][media align=right][media align=center]</li>
-		<li><b>right</b> - same as <i>left</i>, but right-aligned. You got it.</li>
+		<li><b>right</b> - same as <em>left</em>, but right-aligned. You got it.</li>
 	</ul>
 	<br>
 	<b>width</b>

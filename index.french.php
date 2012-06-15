@@ -475,7 +475,7 @@ $txt['quick_mod_markread'] = 'Marquer la sélection comme lue';
 $txt['quick_mod_go'] = 'OK';
 $txt['quickmod_confirm'] = 'Êtes-vous sûr de vouloir faire cela ?';
 
-$txt['spell_check'] = 'Vérification orthographique';
+$txt['spell_check'] = 'Orthographe';
 
 $txt['quick_reply'] = 'Réponse Rapide';
 $txt['quick_reply_desc'] = 'En mode <em>Réponse Rapide</em>, vous pouvez utiliser du BBCode et des smileys comme sur un message normal, mais à partir d\'une interface plus rapide d\'accès.';

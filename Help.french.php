@@ -620,10 +620,10 @@ $helptxt['mediatag'] = '<h2>Le tag [media] et autres joyeusetés.</h2>
 	<br>Ce code montrera une série de vignettes de type box (voir plus bas) appartenant à l\'album numéro 1, reproduisant plus ou moins le visuel de la page web de l\'album en question.
 	<br><br>
 	<b>Valeurs possibles :</b>
-	<br>- type=<i>normal, box, link, preview, full, album</i>
-	<br>- align=<i>none, left, center, right</i>
-	<br>- width=<i>123</i> (en pixels)
-	<br>- caption=<i>"Texte descriptif"</i> ou caption=<i>EnUnMot</i>
+	<br>- type=<em>normal, box, link, preview, full, album</em>
+	<br>- align=<em>none, left, center, right</em>
+	<br>- width=<em>123</em> (en pixels)
+	<br>- caption=<em>"Texte descriptif"</em> ou caption=<em>EnUnMot</em>
 	<br><br>
 	<h2>Paramètres disponibles</h2>
 	<b>id</b>
@@ -648,18 +648,18 @@ $helptxt['mediatag'] = '<h2>Le tag [media] et autres joyeusetés.</h2>
 		<li><b>none</b> (défaut) - alignement normal. Les vignettes environnantes sont repoussées à la ligne suivante ou précédente.</li>
 		<li><b>left</b> - aligner la vignette à gauche. Utilisez plusieurs tags [media] alignés ainsi pour montrer les vignettes côte-à-côte.</li>
 		<li><b>center</b> - aligner la vignette au centre. Pour afficher une vignette à gauche, une au milieu et une à droite, insérez-les dans cet ordre : [media align=left][media align=right][media align=center]</li>
-		<li><b>right</b> - aligner la vignette à droite. Même remarque que pour <i>left</i>. Rompez.</li>
+		<li><b>right</b> - aligner la vignette à droite. Même remarque que pour <em>left</em>. Rompez.</li>
 	</ul>
 	<br>
 	<b>width</b>
 	<ul class="normallist">
 		<li>Utilisez ce paramètre pour forcer la largeur d\'une vignette à la dimension désirée. Indiquez un nombre supérieur à zéro.</li>
-		<li>Réglez le paramètre <i>type</i> selon vos besoins. Ainsi, si vos vignettes ont pour largeur par défaut 120 pixels, et vos aperçus 500 pixels, utilisez [media type=preview] si vous forcez une largeur supérieure à 300 pixels, pour éviter un effet de flou trop visible.</li>
+		<li>Réglez le paramètre <em>type</em> selon vos besoins. Ainsi, si vos vignettes ont pour largeur par défaut 120 pixels, et vos aperçus 500 pixels, utilisez [media type=preview] si vous forcez une largeur supérieure à 300 pixels, pour éviter un effet de flou trop visible.</li>
 	</ul>
 	<br>
 	<b>caption</b>
 	<ul class="normallist">
-		<li>Affiche un texte descriptif sous la vignette. Si le type est défini à <i>link</i>, le texte sera cliquable et vous mènera à la page consacrée à l\'élément.</li>
+		<li>Affiche un texte descriptif sous la vignette. Si le type est défini à <em>link</em>, le texte sera cliquable et vous mènera à la page consacrée à l\'élément.</li>
 		<li>Entrez ce que vous voulez. Si votre texte contient des espaces ou des crochets, assurez-vous de l\'entourer de "guillemets". Sinon, ça fait tout n\'importe quoi, et c\'est encore Bibi qui doit s\'y coller pour faire le ménage.</li>
 	</ul>';
 
