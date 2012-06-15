@@ -74,7 +74,6 @@ $txt['toggle_view'] = 'Toggle View';
 $txt['unformat_text'] = 'Remove Formatting';
 
 $txt['rich_edit_wont_work'] = 'Your browser does not support Rich Text editing.';
-$txt['rich_edit_function_disabled'] = 'Your browser does not support this function.';
 
 // Use numeric entities in the below five strings.
 $txt['notifyUnsubscribe'] = 'Unsubscribe to this topic by clicking here';

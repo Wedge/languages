@@ -74,7 +74,6 @@ $txt['toggle_view'] = 'Changer d\'Affichage';
 $txt['unformat_text'] = 'Enlever le Formatage';
 
 $txt['rich_edit_wont_work'] = 'Votre navigateur ne supporte pas l\'édition en Texte Enrichi.';
-$txt['rich_edit_function_disabled'] = 'Votre navigateur ne supporte pas cette fonction.';
 
 // Use numeric entities in this string.
 $txt['notifyUnsubscribe'] = 'Cliquez ici pour vous d&#233;sabonner de ce sujet';
