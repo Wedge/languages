@@ -145,7 +145,7 @@ $txt['spellcheck_change_all'] = 'Changer tout';
 $txt['spellcheck_ignore'] = 'Ignorer';
 $txt['spellcheck_ignore_all'] = 'Ignorer Tout';
 
-$txt['cannot_attach_ext'] = 'Le type de fichier que vous avez tenté de jondre ({ext}) n\'est pas autorisé ici. Vous pouvez envoyer les types de fichier suivants&nbsp;: {attach_exts}';
+$txt['cannot_attach_ext'] = 'Le type de fichier que vous avez tenté de joindre ({ext}) n\'est pas autorisé ici. Vous pouvez envoyer les types de fichier suivants : {attach_exts}';
 
 // Don't use entities in the below string.
 $txt['more_attachments_error'] = 'Vous ne pouvez plus ajouter d\'autres fichiers joints.';
