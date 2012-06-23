@@ -3,6 +3,17 @@
 
 $txt['close_window'] = 'Close window';
 
+$txt['cannot_change_voter_visibility'] = '
+	Members may change what they vote for depending on who might be able to see
+	the results of a poll. Because of this, once the visibility is set on a poll,
+	it cannot be changed, thus allowing members to make votes knowing who will
+	be able to see them.';
+
+$txt['admins_see_votes'] = '
+	Administrators can always see who voted for what in polls. Since they have
+	access to the forum database, they would always be able to examine that to
+	see who voted what anyway.';
+
 $helptxt['manage_boards'] = '
 	In this menu you can create/reorder/remove boards, and the categories
 	above them. For example, if you had a wide-ranging

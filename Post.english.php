@@ -137,6 +137,14 @@ $txt['poll_too_many_votes'] = 'You selected too many options.  For this poll, yo
 $txt['poll_add_option'] = 'Add Option';
 $txt['poll_guest_vote'] = 'Allow guests to vote';
 
+$txt['poll_voters_visibility'] = 'Voter visibility';
+$txt['poll_voters_visibility_admin'] = 'Only forum administrators can see who voted for what';
+$txt['poll_voters_visibility_creator'] = 'The forum administrators, and the poll creator, can see who voted for what';
+$txt['poll_voters_visibility_members'] = 'Any signed-in member of the forum can see who voted for what';
+$txt['poll_voters_visibility_anyone'] = 'Anyone, even guests, can see who voted for what';
+$txt['poll_voters_no_change_future'] = 'You will not be able to change this later.';
+$txt['poll_voters_no_change_now'] = 'You cannot change this.';
+
 $txt['spellcheck_done'] = 'Spell checking complete.';
 $txt['spellcheck_change_to'] = 'Change To:';
 $txt['spellcheck_suggest'] = 'Suggestions:';

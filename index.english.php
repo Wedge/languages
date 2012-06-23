@@ -96,6 +96,9 @@ $txt['n_like_this'] = array(1 => '{name1}, {name2} and 1 other likes this.', 'n'
 $txt['like'] = 'Like';
 $txt['unlike'] = 'Unlike';
 
+$txt['nobody_likes_this'] = 'Nobody likes this.';
+$txt['likes_header'] = array(1 => '1 person likes this.', 'n' => '%s people like this.');
+
 $txt['choose_pass'] = 'Choose password';
 $txt['verify_pass'] = 'Verify password';
 $txt['position'] = 'Position';
@@ -381,6 +384,18 @@ $txt['poll_lock'] = 'Lock Voting';
 $txt['poll_unlock'] = 'Unlock Voting';
 $txt['poll_edit'] = 'Edit Poll';
 $txt['poll'] = 'Poll';
+$txt['poll_voters_guests_only'] = array(
+	1 => '1 guest',
+	'n' => '%1$s guests',
+);
+$txt['poll_voters'] = array(
+	1 => 'and 1 guest',
+	'n' => 'and %1$s guests',
+);
+$txt['poll_visibility_admin'] = 'Only forum administrators will be able to see what you voted for.';
+$txt['poll_visibility_creator'] = 'The forum administrators, and the poll creator, will be able to see what you voted for.';
+$txt['poll_visibility_members'] = 'Any signed-in member of the forum will be able to see what you voted for.';
+$txt['poll_visibility_anyone'] = 'Anyone, even guests, will be able to see what you voted for.';
 $txt['one_day'] = '1 Day';
 $txt['one_week'] = '1 Week';
 $txt['one_month'] = '1 Month';
