@@ -3,6 +3,15 @@
 
 $txt['close_window'] = 'Fermer la fenêtre';
 
+$txt['cannot_change_voter_visibility'] = '
+	Les membres peuvent parfois voter différemment s\'ils savent que leur vote sera public.
+	Pour cette raison, une fois que ce paramètre est déterminé, il ne peut être modifié, ce qui
+	permet aux votants de savoir à l\'avance qui pourra consulter ces informations.';
+
+$txt['admins_see_votes'] = '
+	Les administrateurs peuvent systématiquement voir qui a voté pour quoi. De toute manière,
+	ils ont généralement accès à la base de données et pourraient la consulter pour avoir ces informations.';
+
 $helptxt['manage_boards'] = '
 	Dans ce menu, vous pouvez créer/réorganiser/supprimer des sections et les catégories
 	les concernant. Par exemple, si vous avez un gros site offrant des informations variées

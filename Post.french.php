@@ -137,6 +137,14 @@ $txt['poll_too_many_votes'] = 'vous avez choisi trop d\'options. Pour ce sondage
 $txt['poll_add_option'] = 'Ajouter une option';
 $txt['poll_guest_vote'] = 'Permettre aux invités de voter';
 
+$txt['poll_voters_visibility'] = 'Affichage des votants';
+$txt['poll_voters_visibility_admin'] = 'Seuls les administrateurs du forum pourront voir ce pour quoi vous avez voté';
+$txt['poll_voters_visibility_creator'] = 'Les administrateurs du forum, et l\'auteur du sondage, pourront voir ce pour quoi vous avez voté';
+$txt['poll_voters_visibility_members'] = 'Tous les membres connectés pourront voir ce pour quoi vous avez voté';
+$txt['poll_voters_visibility_anyone'] = 'Tout le monde pourra voir ce pour quoi vous avez voté';
+$txt['poll_voters_no_change_future'] = 'Vous ne pourrez pas changer ce paramètre par la suite.';
+$txt['poll_voters_no_change_now'] = 'Vous ne pouvez pas changer ce paramètre.';
+
 $txt['spellcheck_done'] = 'Correction d\'orthographe terminée.';
 $txt['spellcheck_change_to'] = 'Changer par&nbsp;:';
 $txt['spellcheck_suggest'] = 'Suggestions&nbsp;:';

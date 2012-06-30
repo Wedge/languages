@@ -90,6 +90,9 @@ $txt['n_like_this'] = array(1 => '{name1}, {name2} et 1 autre aiment cela.', 'n'
 $txt['like'] = 'J\'aime';
 $txt['unlike'] = 'Je n\'aime plus';
 
+$txt['nobody_likes_this'] = 'Personne n\'aime ceci.';
+$txt['likes_header'] = array(1 => '1 personne aime ceci.', 'n' => '%s personnes aiment ceci.');
+
 $txt['choose_pass'] = 'Choisir un mot de passe';
 $txt['verify_pass'] = 'Vérifier le mot de passe';
 $txt['position'] = 'Rang';
@@ -375,6 +378,18 @@ $txt['poll_lock'] = 'Bloquer les votes';
 $txt['poll_unlock'] = 'Débloquer les votes';
 $txt['poll_edit'] = 'Modifier le sondage';
 $txt['poll'] = 'Sondage';
+$txt['poll_voters_guests_only'] = array(
+	1 => '1 invité',
+	'n' => '%1$s invités',
+);
+$txt['poll_voters'] = array(
+	1 => 'et 1 invité',
+	'n' => 'et %1$s invités',
+);
+$txt['poll_visibility_admin'] = 'Seuls les administrateurs du forum pourront voir ce pour quoi vous avez voté.';
+$txt['poll_visibility_creator'] = 'Les administrateurs du forum, et l\'auteur du sondage, pourront voir ce pour quoi vous avez voté.';
+$txt['poll_visibility_members'] = 'Tous les membres connectés pourront voir ce pour quoi vous avez voté.';
+$txt['poll_visibility_anyone'] = 'Tout le monde pourra voir ce pour quoi vous avez voté.';
 $txt['one_day'] = '1 jour';
 $txt['one_week'] = '1 semaine';
 $txt['one_month'] = '1 mois';
