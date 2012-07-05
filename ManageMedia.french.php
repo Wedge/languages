@@ -262,6 +262,7 @@ $txt['media_denied_members_desc'] = 'Entrez un par un les noms des membres à qu
 $txt['media_denied_write'] = 'Membres bannis (écriture)';
 $txt['media_denied_write_desc'] = 'Entrez un par un les noms des membres à qui vous souhaitez refuser d\'envoyer des éléments dans l\'album, même si leurs groupes y sont autorisés.';
 $txt['media_admin_wselected'] = 'Avec la sélection';
+$txt['media_admin_select_or'] = 'Ou...';
 $txt['media_admin_apply_perm'] = 'Ajouter permission';
 $txt['media_admin_clear_perm'] = 'Effacer permission';
 $txt['media_admin_set_mg_perms'] = 'Utiliser les permissions de ce groupe';

@@ -262,6 +262,7 @@ $txt['media_denied_members_desc'] = 'Enter one or more names for members that yo
 $txt['media_denied_write'] = 'Denied members (write access)';
 $txt['media_denied_write_desc'] = 'Enter one or more names for members that you do NOT wish to allow posting rights for this album, regardless of their membergroup permissions.';
 $txt['media_admin_wselected'] = 'With selected';
+$txt['media_admin_select_or'] = 'Or...';
 $txt['media_admin_apply_perm'] = 'Add permission';
 $txt['media_admin_clear_perm'] = 'Clear permission';
 $txt['media_admin_set_mg_perms'] = 'Set permissions like this group';
