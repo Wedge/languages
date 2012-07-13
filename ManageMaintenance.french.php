@@ -108,6 +108,7 @@ $txt['request_method'] = 'Méthode de la requête';
 $txt['request_protocol'] = 'Protocole de la requête';
 $txt['user_agent'] = 'User-Agent';
 $txt['http_headers'] = 'Autres entêtes HTTP&nbsp;:';
+$txt['file_out_of_bounds'] = 'Cette ligne est hors des limites du fichier. Peut-être l\'avez vous modifié&nbsp;?';
 
 $txt['errortype_all'] = 'Toutes les erreurs';
 $txt['errortype_general'] = 'Générale';

@@ -108,6 +108,7 @@ $txt['request_method'] = 'Request method';
 $txt['request_protocol'] = 'Request protocol';
 $txt['user_agent'] = 'User agent';
 $txt['http_headers'] = 'Other HTTP headers:';
+$txt['file_out_of_bounds'] = 'This file is shorter than the specified line number, thus it can\'t be shown. Maybe you modified it?';
 
 $txt['errortype_all'] = 'All errors';
 $txt['errortype_general'] = 'General';
