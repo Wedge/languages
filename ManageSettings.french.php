@@ -38,6 +38,7 @@ $txt['databaseSession_enable'] = 'Faire gérer les sessions par la base de donn�
 $txt['databaseSession_loose'] = 'Permettre aux navigateurs de revenir sur les pages en cache';
 $txt['databaseSession_lifetime'] = 'Secondes avant la fin d\'une session pour inutilisation';
 $txt['enableErrorLogging'] = 'Enregistrer les erreurs dans le journal';
+$txt['enableErrorPasswordLogging'] = 'Enregistrer les erreurs de mot de passe oublié';
 $txt['enableError404Logging'] = 'Enregistrer les erreurs 404 (fichier non trouvé) dans le journal d\'erreurs';
 $txt['enableErrorQueryLogging'] = 'Inclure la requête de base de données dans le journal d\'erreurs';
 $txt['logPruning'] = 'Délestage des journaux';
@@ -144,6 +145,7 @@ $txt['news_settings_submit'] = 'Enregistrer';
 $txt['xmlnews_enable'] = 'Activer les flux Atom';
 $txt['xmlnews_maxlen'] = 'Longueur maximale d\'un message&nbsp;:';
 $txt['xmlnews_maxlen_subtext'] = '(0 pour désactiver, mauvaise idée.)';
+$txt['xmlnews_sidebar'] = 'Montrer le bloc "Flux de messages" dans la sidebar';
 $txt['show_newsfader'] = 'Activer la rotation des nouvelles sur la page d\'accueil';
 $txt['newsfader_time'] = 'Délai d\'enchaînement entre les nouvelles rotatives';
 
