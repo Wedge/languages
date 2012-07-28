@@ -43,7 +43,7 @@ $txt['password_strength'] = 'For best security, you should use eight or more cha
 $txt['include_website_url'] = 'This must be included if you specify a URL below.';
 $txt['complete_url'] = 'This must be a complete URL.';
 $txt['sig_info'] = 'Signatures are displayed at the bottom of each post or personal message. BBCode and smileys may be used in your signature.';
-$txt['signature_minposts'] = array(
+$txt['signature_needs_posts'] = array(
 	1 => 'Your signature will not be shown to other members until you have made at least 1 post.',
 	'n' => 'Your signature will not be shown to other members until you have made at least %s posts.',
 );

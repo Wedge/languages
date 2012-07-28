@@ -43,7 +43,7 @@ $txt['password_strength'] = 'Pour plus de sécurité, vous devriez choisir au mo
 $txt['include_website_url'] = 'Indispensable si vous mettez une URL ci-dessous.';
 $txt['complete_url'] = 'Ceci doit être une URL complète. (http://www. ...)';
 $txt['sig_info'] = 'Les signatures sont affichées en bas de chaque message ou message personnel. Vous pouvez y inclure du BBCode et des smileys.';
-$txt['signature_minposts'] = array(
+$txt['signature_needs_posts'] = array(
 	1 => 'Votre signature ne sera pas visible aux autres utilisateurs tant que vous n\'aurez pas posté au moins un message.',
 	'n' => 'Votre signature ne sera pas visible aux autres utilisateurs tant que vous n\'aurez pas posté au moins %s messages.',
 );
