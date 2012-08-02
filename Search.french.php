@@ -22,7 +22,6 @@ $txt['search_orderby_large_first'] = 'Les plus longs sujets en premier';
 $txt['search_orderby_small_first'] = 'Les plus courts sujets en premier';
 $txt['search_orderby_recent_first'] = 'Les plus récents sujets en premier';
 $txt['search_orderby_old_first'] = 'Les plus anciens sujets en premier';
-$txt['search_visual_verification_label'] = 'Vérification';
 $txt['search_visual_verification_desc'] = 'Veuillez entrer le code contenu dans l\'image ci-dessus pour utiliser la recherche.';
 
 $txt['search_specific_topic'] = 'Chercher les messages seulement dans le sujet';
@@ -131,7 +130,7 @@ $txt['spider_ip_info'] = 'Adresses IP';
 $txt['spiders_add'] = 'Ajouter un nouveau Robot';
 $txt['spiders_edit'] = 'Modifier';
 $txt['spiders_remove_selected'] = 'Supprimer les robots sélectionnés';
-$txt['spider_remove_selected_confirm'] = 'Êtes-vous sûr de vouloir supprimer ces robots ?\\n\\nToutes les statistiques associées seront aussi effacées !';
+$txt['spider_remove_selected_confirm'] = 'Êtes-vous sûr de vouloir supprimer ces robots&nbsp;?<br><br>Toutes les statistiques associées seront aussi effacées&nbsp;!';
 $txt['spiders_no_entries'] = 'Aucun robot configuré pour le moment.';
 
 $txt['add_spider_desc'] = 'D\'ici, vous pouvez modifier les paramètres permettant de reconnaître un robot. Si le User-Agent ou l\'adresse IP d\'un invité correspond à ce qui est entré ci-dessous, il sera considéré comme un robot de moteur de recherche et surveillé comme demandé dans les préférences du forum.';

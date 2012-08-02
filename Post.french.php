@@ -41,7 +41,6 @@ $txt['lime_green'] = 'Vert de chaux';
 $txt['white'] = 'Blanc';
 $txt['disable_smileys'] = 'Désactiver les smileys';
 $txt['dont_use_smileys'] = 'Ne pas utiliser de smiley';
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['posted_on'] = 'Posté le';
 $txt['standard'] = 'Standard';
 $txt['thumbs_up'] = 'Pouce en haut';

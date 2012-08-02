@@ -153,7 +153,7 @@ $txt['maintain_old_are_not_pinned'] = 'Mais ne pas compter les sujets épinglés
 $txt['maintain_old_all'] = 'Toutes les sections (cliquez pour choisir des sections spécifiques)';
 $txt['maintain_old_choose'] = 'Choisir une section spécifique (cliquez pour les sélectionner toutes)';
 $txt['maintain_old_remove'] = 'Enlever maintenant';
-$txt['maintain_old_confirm'] = 'Êtes-vous sûr de vouloir supprimer maintenant les anciens messages ?\\n\\nLe processus ne peut être inversé !';
+$txt['maintain_old_confirm'] = 'Êtes-vous sûr de vouloir supprimer maintenant les anciens messages&nbsp;?<br><br>Le processus ne peut être inversé&nbsp;!';
 
 $txt['maintain_members'] = 'Effacer les comptes inactifs';
 $txt['maintain_members_ungrouped'] = 'Membres non groupés <span class="smalltext">(qui ne font partie d\'aucun groupe)</span>';
@@ -164,7 +164,7 @@ $txt['maintain_members_activated'] = 'activé leur compte';
 $txt['maintain_members_logged_in'] = 'cherché à se connecter';
 $txt['maintain_members_all'] = 'Tous les groupes de membres';
 $txt['maintain_members_choose'] = 'Groupes sélectionnés';
-$txt['maintain_members_confirm'] = 'Êtes-vous sûr de vouloir supprimer ces comptes ?\\n\\nVous ne pourrez pas annuler cette opération !';
+$txt['maintain_members_confirm'] = 'Êtes-vous sûr de vouloir supprimer ces comptes&nbsp;?<br><br>Vous ne pourrez pas annuler cette opération&nbsp;!';
 
 $txt['maintain_recountposts'] = 'Recompter les Messages par Membre';
 $txt['maintain_recountposts_desc'] = 'Recalcule le nombre de messages de chaque membre du forum, et s\'assure qu\'il correspond au nombre mis en cache (il peut changer en fonction des changements de permissions).';

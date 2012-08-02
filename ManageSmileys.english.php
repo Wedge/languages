@@ -4,7 +4,7 @@
 $txt['smiley_sets_save'] = 'Save Changes';
 $txt['smiley_sets_add'] = 'New smiley Set';
 $txt['smiley_sets_delete'] = 'Delete selected';
-$txt['smiley_sets_confirm'] = 'Are you sure you want to remove these smiley sets?\\n\\nNote: This won\'t remove the images, just the choices.';
+$txt['smiley_sets_confirm'] = 'Are you sure you want to remove these smiley sets?<br><br>Note: This won\'t remove the images, just the choices.';
 
 $txt['setting_smiley_sets_default'] = 'Default Smiley Set';
 $txt['setting_smiley_sets_enable'] = 'Enable smiley set selection by members';
@@ -71,7 +71,7 @@ $txt['smiley_new'] = 'Add new smiley';
 $txt['smiley_modify_existing'] = 'Modify smiley';
 $txt['smiley_preview'] = 'Preview';
 $txt['smiley_preview_using'] = 'using smiley set';
-$txt['smileys_confirm'] = 'Are you sure you want to remove these smileys?\\n\\nNote: This won\'t remove the images, just the choices.';
+$txt['smileys_confirm'] = 'Are you sure you want to remove these smileys?<br><br>Note: This won\'t remove the images, just the choices.';
 $txt['smileys_location_form_description'] = 'These smileys will appear above the text area, when posting a new forum message or Personal Message.';
 $txt['smileys_location_popup_description'] = 'These smileys will be shown in a popup, that is shown after a user has clicked \'[more]\'';
 $txt['smileys_move_select_destination'] = 'Select smiley destination';
@@ -82,7 +82,7 @@ $txt['smileys_no_entries'] = 'There are currently no smileys configured.';
 $txt['icons_edit_icons_explain'] = 'From here you can change which message icons are available throughout your board. You can add, edit and remove icons, as well as limit their use to certain boards.';
 $txt['icons_edit_icons_all_boards'] = 'Available In All Boards';
 $txt['icons_board'] = 'Board';
-$txt['icons_confirm'] = 'Are you sure you wish to remove these icons?\\n\\nNote this will only stop new posters from using the icons, the images will remain.';
+$txt['icons_confirm'] = 'Are you sure you wish to remove these icons?<br><br>Note this will only stop new posters from using the icons, the images will remain.';
 $txt['icons_add_new'] = 'Add New Icon';
 
 $txt['icons_edit_icon'] = 'Edit Message Icon';

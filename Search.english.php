@@ -22,7 +22,6 @@ $txt['search_orderby_large_first'] = 'Largest topics first';
 $txt['search_orderby_small_first'] = 'Smallest topics first';
 $txt['search_orderby_recent_first'] = 'Most recent topics first';
 $txt['search_orderby_old_first'] = 'Oldest topics first';
-$txt['search_visual_verification_label'] = 'Verification';
 $txt['search_visual_verification_desc'] = 'Please enter the code in the image above to use search.';
 
 $txt['search_specific_topic'] = 'Searching only posts in the topic';
@@ -131,7 +130,7 @@ $txt['spider_ip_info'] = 'IP Addresses';
 $txt['spiders_add'] = 'Add New Spider';
 $txt['spiders_edit'] = 'Edit Spider';
 $txt['spiders_remove_selected'] = 'Remove Selected Spiders';
-$txt['spider_remove_selected_confirm'] = 'Are you sure you wish to remove these spiders?\\n\\nAll associated statistics will also be deleted!';
+$txt['spider_remove_selected_confirm'] = 'Are you sure you wish to remove these spiders?<br><br>All associated statistics will also be deleted!';
 $txt['spiders_no_entries'] = 'There are currently no spiders configured.';
 
 $txt['add_spider_desc'] = 'From this page you can edit the parameters against which a spider is categorised. If a guest\'s user agent/IP address matches those entered below it will be detected as a search engine spider and tracked as per the forum preferences.';

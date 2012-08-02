@@ -208,8 +208,10 @@ $txt['remove_message_confirm'] = 'Effacer ce message ?';
 $txt['online_users'] = 'Membres en ligne';
 $txt['personal_message'] = 'Message personnel';
 $txt['jump_to'] = 'Accès rapide';
-$txt['go'] = 'OK';
 $txt['are_sure_remove_topic'] = 'Êtes-vous sûr de vouloir effacer ce sujet ?';
+
+$txt['go'] = 'OK';
+$txt['ok'] = 'OK';
 $txt['yes'] = 'Oui';
 $txt['no'] = 'Non';
 
@@ -248,7 +250,6 @@ $txt['hello_member'] = 'Coucou,';
 $txt['hello_guest'] = 'Bienvenue,';
 $txt['select_destination'] = 'Destination ?';
 
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['posted_by'] = 'Posté par';
 
 $txt['icon_smiley'] = 'Sourire';
@@ -584,8 +585,7 @@ $txt['change_color'] = 'Changer de couleur';
 
 $txt['quickmod_delete_selected'] = 'Effacer la sélection';
 
-// In this string, don't use entities. (&amp;, etc.)
-$txt['show_personal_messages'] = 'Vous avez reçu un ou plusieurs nouveaux messages personnels.\\nVoulez-vous ouvrir une nouvelle fenêtre pour les consulter ?';
+$txt['show_personal_messages'] = 'Vous avez reçu un ou plusieurs nouveaux messages personnels.<br><br>Voulez-vous ouvrir une nouvelle fenêtre pour les consulter&nbsp;?';
 
 $txt['previous_next_back'] = '&laquo; précédente';
 $txt['previous_next_forward'] = 'suivante &raquo;';
@@ -594,9 +594,6 @@ $txt['upshrink_description'] = 'Cacher ou afficher l\'entête.';
 
 $txt['mark_unread'] = 'Marquer non lu';
 
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
-$txt['preview_title'] = 'Prévisualiser le message';
-$txt['preview_fetch'] = 'Chargement de la prévisualisation&hellip;';
 $txt['error_while_submitting'] = 'L\'erreur ou les erreurs suivantes sont apparues durant la soumission de ce message&nbsp;:';
 $txt['error_old_topic'] = 'Veuillez noter qu\'il n\'y a pas eu de réponse à ce sujet depuis au moins %1$d jours.<br>À moins que vous ne soyez sûr de vouloir y répondre, créez plutôt un nouveau sujet.';
 

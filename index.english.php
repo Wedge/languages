@@ -214,8 +214,10 @@ $txt['remove_message_confirm'] = 'Remove this message?';
 $txt['online_users'] = 'Users Online';
 $txt['personal_message'] = 'Personal Message';
 $txt['jump_to'] = 'Quick access';
-$txt['go'] = 'Go';
 $txt['are_sure_remove_topic'] = 'Are you sure you want to remove this topic?';
+
+$txt['go'] = 'Go';
+$txt['ok'] = 'OK';
 $txt['yes'] = 'Yes';
 $txt['no'] = 'No';
 
@@ -250,11 +252,9 @@ $txt['login_or_register'] = 'Please <a href="<URL>?action=login">login</a> or <a
 $txt['please_login'] = 'Please <a href="<URL>?action=login">login</a>.';
 $txt['welcome_guest_activate'] = '<br>Did you miss your <a href="<URL>?action=activate">activation email</a>?';
 $txt['hello_member'] = 'Hey,';
-// Use numeric entities in the below string.
 $txt['hello_guest'] = 'Welcome,';
 $txt['select_destination'] = 'Select destination';
 
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['posted_by'] = 'Posted by';
 
 $txt['icon_smiley'] = 'Smile';
@@ -295,7 +295,6 @@ $txt['of_total_members'] = 'of %1$s total members';
 $txt['forgot_your_password'] = 'Forgot your password?';
 
 $txt['date'] = 'Date';
-// Use numeric entities in the below string.
 $txt['from'] = 'From';
 $txt['to'] = 'To';
 
@@ -340,7 +339,6 @@ $txt['pm_draft_saved'] = 'Your message has been saved as a draft. You can access
 $txt['remove_draft'] = 'Remove draft';
 $txt['last_saved_on'] = 'Last saved';
 
-// Use numeric entities in the below string.
 $txt['ip'] = 'IP';
 
 $txt['by'] = 'by';
@@ -590,8 +588,7 @@ $txt['change_color'] = 'Change Color';
 
 $txt['quickmod_delete_selected'] = 'Remove Selected';
 
-// In this string, don't use entities. (&amp;, etc.)
-$txt['show_personal_messages'] = 'You have received one or more new personal messages.\\nWould you like to open a new window to view them?';
+$txt['show_personal_messages'] = 'You have received one or more new personal messages.<br><br>Would you like to open a new window to view them?';
 
 $txt['previous_next_back'] = '&laquo; previous';
 $txt['previous_next_forward'] = 'next &raquo;';
@@ -600,9 +597,6 @@ $txt['upshrink_description'] = 'Shrink or expand the header.';
 
 $txt['mark_unread'] = 'Mark unread';
 
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
-$txt['preview_title'] = 'Preview post';
-$txt['preview_fetch'] = 'Fetching preview...';
 $txt['error_while_submitting'] = 'The following error or errors occurred while posting this message:';
 $txt['error_old_topic'] = 'Warning: this topic has not been posted in for at least %1$d days.<br>Unless you\'re sure you want to reply, please consider starting a new topic.';
 

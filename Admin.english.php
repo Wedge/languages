@@ -95,7 +95,7 @@ $txt['attachment_integrity_check_desc'] = 'This function will check the integrit
 $txt['attachment_check_now'] = 'Run check now';
 $txt['attachment_pruning'] = 'Attachment Pruning';
 $txt['attachment_pruning_message'] = 'Message to add to post';
-$txt['attachment_pruning_warning'] = 'Are you sure you want to delete these attachments?\\nThis cannot be undone!';
+$txt['attachment_pruning_warning'] = 'Are you sure you want to delete these attachments?<br>This cannot be undone!';
 $txt['attachment_total'] = 'Total Attachments';
 $txt['attachmentdir_size'] = 'Total Size of Attachment Directory';
 $txt['attachmentdir_size_current'] = 'Total Size of Current Attachment Directory';
@@ -580,7 +580,7 @@ $txt['admin_news_select_excluded_groups_desc'] = 'Select groups who should defin
 $txt['admin_news_select_email'] = 'Email Addresses';
 $txt['admin_news_select_email_desc'] = 'A semi-colon separated list of email addresses which should be sent newsletter. (i.e. address1; address2)';
 $txt['admin_news_select_override_notify'] = 'Override Notification Settings';
-$txt['admin_news_cannot_pm_emails_js'] = 'You cannot send a personal message to an email address. If you continue all entered email addresses will be ignored.\\n\\nAre you sure you wish to do this?';
+$txt['admin_news_cannot_pm_emails_js'] = 'You cannot send a personal message to an email address. If you continue, all entered email addresses will be ignored.<br><br>Are you sure you wish to do this?';
 
 $txt['mailqueue_browse'] = 'Browse Queue';
 $txt['mailqueue_settings'] = 'Settings';

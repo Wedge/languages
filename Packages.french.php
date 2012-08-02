@@ -145,8 +145,7 @@ $txt['package_ftp_test_connection'] = 'Test de Connexion';
 $txt['package_ftp_test_success'] = 'Connexion FTP établie.';
 $txt['package_ftp_test_failed'] = 'La connexion au serveur FTP a échoué.';
 
-// For a break, use \\n instead of <br>... and don't use entities.
-$txt['package_delete_bad'] = 'L\'extension que vous tentez de supprimer est actuellement installée ! Si vous la supprimez maintenant, vous pourriez ne plus être capable de la désinstaller plus tard.\\n\\nVoulez-vous continuer ?';
+$txt['package_delete_bad'] = 'L\'extension que vous tentez de supprimer est actuellement installée&nbsp;! Si vous la supprimez maintenant, vous pourriez ne plus être capable de la désinstaller plus tard.<br><br>Voulez-vous continuer&nbsp;?';
 
 $txt['package_examine_file'] = 'Voir un fichier de l\'extension';
 $txt['package_file_contents'] = 'Contenu du fichier';

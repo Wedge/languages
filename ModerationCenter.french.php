@@ -42,7 +42,7 @@ $txt['mc_reportedp_close'] = 'Fermer';
 $txt['mc_reportedp_open'] = 'Ouvrir';
 $txt['mc_reportedp_ignore'] = 'Ignorer';
 $txt['mc_reportedp_unignore'] = 'Dé-Ignorer';
-$txt['mc_reportedp_ignore_confirm'] = 'Êtes-vous sûr de vouloir ignorer d\'autres rapports sur ce message?\\n\\nCela entraînera la désactivation de nouveaux rapports pour tous les modérateurs de ce forum.';
+$txt['mc_reportedp_ignore_confirm'] = 'Êtes-vous sûr de vouloir ignorer d\'autres rapports sur ce message&nbsp;?<br><br>Cela entraînera la désactivation de nouveaux rapports pour tous les modérateurs de ce forum.';
 $txt['mc_reportedp_close_selected'] = 'Fermer la sélection';
 
 $txt['mc_groupr_group'] = 'Groupe de membres';

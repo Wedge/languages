@@ -95,7 +95,7 @@ $txt['attachment_integrity_check_desc'] = 'Cette opération vérifiera l\'intég
 $txt['attachment_check_now'] = 'Vérifier maintenant';
 $txt['attachment_pruning'] = 'Suppression de fichiers joints';
 $txt['attachment_pruning_message'] = 'Messages à ajouter';
-$txt['attachment_pruning_warning'] = 'Êtes-vous sûr de vouloir supprimer ces fichiers joints ?\\nL\'opération est irréversible !';
+$txt['attachment_pruning_warning'] = 'Êtes-vous sûr de vouloir supprimer ces fichiers joints ?<br><br>L\'opération est irréversible !';
 $txt['attachment_total'] = 'Fichiers joints au total';
 $txt['attachmentdir_size'] = 'Taille totale du répertoire des fichiers joints';
 $txt['attachmentdir_size_current'] = 'Taille totale du répertoire des fichiers joints actuel';
@@ -580,7 +580,7 @@ $txt['admin_news_select_excluded_groups_desc'] = 'Sélectionnez les groupes ne d
 $txt['admin_news_select_email'] = 'Adresses e-mail';
 $txt['admin_news_select_email_desc'] = 'Une liste d\'adresses e-mail séparées par des points-virgules, à laquelle sera envoyée l\'infolettre. (Par ex: adresse1; adresse2)';
 $txt['admin_news_select_override_notify'] = 'Outrepasser les Paramètres de Notification existants';
-$txt['admin_news_cannot_pm_emails_js'] = 'Vous ne pouvez pas envoyer de message personnel à une adresse e-mail. Si vous continuez, toutes les adresses e-mail seront ignorées.\\n\\nÊtes-vous sûr de vouloir faire cela ?';
+$txt['admin_news_cannot_pm_emails_js'] = 'Vous ne pouvez pas envoyer de message personnel à une adresse e-mail. Si vous continuez, toutes les adresses e-mail seront ignorées.<br><br>Êtes-vous sûr de vouloir faire cela&nbsp;?';
 
 $txt['mailqueue_browse'] = 'Parcourir la file d\'attente';
 $txt['mailqueue_settings'] = 'Paramètres';

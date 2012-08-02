@@ -451,7 +451,7 @@ $txt['pm_display_mode'] = 'Display personal messages';
 $txt['pm_display_mode_all'] = 'All at once';
 $txt['pm_display_mode_one'] = 'One at a time';
 $txt['pm_display_mode_linked'] = 'As a conversation';
-$txt['pm_recommend_enable_outbox'] = 'To make the most of this setting we suggest you enable &quot;Save a copy of each Personal Message in my sent items by default.&quot;\\n\\nThis will help ensure that the conversations flow better as you can see both sides of the conversation.';
+$txt['pm_recommend_enable_outbox'] = 'To make the most of this setting we suggest you enable &quot;Save a copy of each Personal Message in my sent items by default.&quot;<br><br>This will help ensure that the conversations flow better as you can see both sides of the conversation.';
 
 $txt['tracking'] = 'Tracking';
 $txt['tracking_description'] = 'This section allows you to review certain profile actions performed on this member\'s profile as well as track their IP address.';

@@ -4,7 +4,7 @@
 $txt['smiley_sets_save'] = 'Sauvegarder les changements';
 $txt['smiley_sets_add'] = 'Nouveau jeu de smileys';
 $txt['smiley_sets_delete'] = 'Effacer la sélection';
-$txt['smiley_sets_confirm'] = 'Êtes-vous sûr de vouloir effacer ce jeu de smileys ?\\n\\nNotez que cela n\'effacera pas les fichiers d\'images, mais seulement les choix possibles.';
+$txt['smiley_sets_confirm'] = 'Êtes-vous sûr de vouloir effacer ce jeu de smileys&nbsp;?<br><br>Notez que cela n\'effacera pas les fichiers d\'images, mais seulement les choix possibles.';
 
 $txt['setting_smiley_sets_default'] = 'Jeu de smileys par défaut';
 $txt['setting_smiley_sets_enable'] = 'Autoriser les utilisateurs à choisir un jeu de smileys';
@@ -71,7 +71,7 @@ $txt['smiley_new'] = 'Ajouter un nouveau smiley';
 $txt['smiley_modify_existing'] = 'Modifier un smiley';
 $txt['smiley_preview'] = 'Prévisualiser';
 $txt['smiley_preview_using'] = 'en utilisant ce jeu de smileys';
-$txt['smileys_confirm'] = 'Voulez-vous vraiment enlever ces smileys ?\\n\\nNote : ceci n\'effacera pas les images, mais seulement les choix possibles.';
+$txt['smileys_confirm'] = 'Voulez-vous vraiment enlever ces smileys&nbsp;?<br><br>Note&nbsp;: ceci n\'effacera pas les images, mais seulement les choix possibles.';
 $txt['smileys_location_form_description'] = 'Ces smileys apparaîtront sous la zone de texte, lors de la rédaction d\'un nouveau message dans une discussion ou un message personnel.';
 $txt['smileys_location_popup_description'] = 'Ceux-ci seront affichés dans une popup, affichée lorsqu\'un utilisateur a cliqué sur le lien \'[plus]\'';
 $txt['smileys_move_select_destination'] = 'Sélectionnez la destination des smileys';
@@ -82,7 +82,7 @@ $txt['smileys_no_entries'] = 'Aucun smiley configuré pour le moment.';
 $txt['icons_edit_icons_explain'] = 'Ici vous pouvez changer quels icônes de messages seront disponibles dans votre forum. Vous pouvez ajouter, modifier et supprimer des icônes, de même que limiter leur usage à certaines sections.';
 $txt['icons_edit_icons_all_boards'] = 'Disponible dans toutes les sections';
 $txt['icons_board'] = 'Section';
-$txt['icons_confirm'] = 'Êtes-vous sûr de vouloir enlever ces icônes ?\\n\\nNotez que cela n\'empêchera que leur utilisation dans les futurs messages ; les images resteront visibles pour les messages existants.';
+$txt['icons_confirm'] = 'Êtes-vous sûr de vouloir enlever ces icônes&nbsp;?<br><br>Notez que cela n\'empêchera que leur utilisation dans les futurs messages. Les images resteront visibles pour les messages existants.';
 $txt['icons_add_new'] = 'Ajouter une nouvelle icône';
 
 $txt['icons_edit_icon'] = 'Modifier l\'icône';

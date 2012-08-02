@@ -41,7 +41,6 @@ $txt['lime_green'] = 'Lime Green';
 $txt['white'] = 'White';
 $txt['disable_smileys'] = 'Disable Smileys';
 $txt['dont_use_smileys'] = 'Don\'t use smileys.';
-// Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['posted_on'] = 'Posted on';
 $txt['standard'] = 'Standard';
 $txt['thumbs_up'] = 'Thumb Up';

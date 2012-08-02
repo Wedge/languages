@@ -153,7 +153,7 @@ $txt['maintain_old_are_not_pinned'] = 'But don\'t count pinned topics.';
 $txt['maintain_old_all'] = 'All Boards (click to select specific boards)';
 $txt['maintain_old_choose'] = 'Specific Boards (click to select all)';
 $txt['maintain_old_remove'] = 'Remove now';
-$txt['maintain_old_confirm'] = 'Are you really sure you want to delete old posts now?\\n\\nThis cannot be undone!';
+$txt['maintain_old_confirm'] = 'Are you really sure you want to delete old posts now?<br><br>This cannot be undone!';
 
 $txt['maintain_members'] = 'Remove Inactive Members';
 $txt['maintain_members_ungrouped'] = 'Ungrouped Members <span class="smalltext">(Members with no assigned groups)</span>';
@@ -164,7 +164,7 @@ $txt['maintain_members_activated'] = 'activated their account';
 $txt['maintain_members_logged_in'] = 'logged in';
 $txt['maintain_members_all'] = 'All Membergroups';
 $txt['maintain_members_choose'] = 'Selected Groups';
-$txt['maintain_members_confirm'] = 'Are you sure you really want to delete these member accounts?\\n\\nThis cannot be undone!';
+$txt['maintain_members_confirm'] = 'Are you sure you really want to delete these member accounts?<br><br>This cannot be undone!';
 
 $txt['maintain_recountposts'] = 'Recount Member Posts';
 $txt['maintain_recountposts_desc'] = 'This will recalculate the post counts of all members within the forum, and ensure that the current count is the correct one, as well as ensuring post-count permissions are reapplied.';
