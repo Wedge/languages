@@ -608,6 +608,7 @@ $txt['signature_settings_short'] = 'Signatures';
 $txt['custom_profile_shorttitle'] = 'Profile Fields';
 $txt['admin_member_prefs'] = 'Preferences';
 $txt['admin_whos_online'] = 'Who\'s Online';
+$txt['admin_likes'] = 'Likes';
 $txt['admin_personal_messages'] = 'Personal Messages';
 
 $txt['boardsEdit'] = 'Modify Boards';

@@ -98,6 +98,9 @@ $txt['save_pm_draft'] = 'Groups allowed to save drafts';
 $txt['auto_save_pm_draft'] = 'Groups whose drafts will automatically save';
 $txt['pm_draft_other_settings'] = 'You can also set how often drafts are saved and whether old drafts are removed from the <a href="<URL>?action=admin;area=postsettings;sa=drafts">Draft Settings</a> page.';
 
+$txt['likes_enabled'] = 'Enable likes system';
+$txt['likes_own_posts'] = 'Users can like their own posts';
+
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important! Read this first before enabling these features.</div><br>
 	Wedge supports caching through the use of accelerators. The currently supported accelerators include:<br>
 	<ul class="normallist">
