@@ -352,6 +352,7 @@ $txt['custom_edit_registration'] = 'Afficher à l\'inscription';
 $txt['custom_edit_registration_disable'] = 'Non';
 $txt['custom_edit_registration_allow'] = 'Oui';
 $txt['custom_edit_registration_require'] = 'Oui, et réponse obligatoire';
+$txt['custom_edit_mlist'] = 'Montrer sur la Liste des Membres';
 $txt['custom_edit_display'] = 'Montrer dans les sujets';
 $txt['custom_edit_picktype'] = 'Type de champ';
 
