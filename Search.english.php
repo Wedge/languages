@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; Search
 
-$txt['set_parameters'] = 'Set Search Parameters';
+$txt['set_parameters'] = 'Advanced parameters';
 $txt['choose_board'] = 'Search in specific boards';
 $txt['all_boards'] = 'Search in all boards';
 $txt['all_words'] = 'Match all words';

@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; Search
 
-$txt['set_parameters'] = 'Régler les paramètres de recherche';
+$txt['set_parameters'] = 'Paramètres avancés';
 $txt['choose_board'] = 'Chercher dans des sections spécifiques';
 $txt['all_boards'] = 'Chercher dans toutes les sections';
 $txt['all_words'] = 'contenant tous ces mots';
