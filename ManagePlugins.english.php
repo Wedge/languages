@@ -21,6 +21,7 @@ $txt['fatal_install_error_missinghook'] = 'This plugin makes use of features not
 $txt['fatal_install_enable_missing'] =  'This plugin specifies that a certain file contains instructions to be carried out when enabling it, %1$s, but the file cannot be found where the plugin said it should be.';
 $txt['fatal_install_disable_missing'] = 'This plugin specifies that a certain file contains instructions to be carried out when disabling it, %1$s, but the file cannot be found where the plugin said it should be.';
 $txt['fatal_install_remove_missing'] =  'This plugin specifies that a certain file contains instructions to be carried out when removing it, %1$s, but the file cannot be found where the plugin said it should be.';
+$txt['fatal_conflicted_plugins'] = 'This plugin provides features to other plugins. You cannot disable it without disabling the following plugin(s): %1$s';
 $txt['no_plugins_found'] = 'No plugins found.';
 
 $txt['plugin_written_by'] = 'Written by';
