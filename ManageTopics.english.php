@@ -32,10 +32,10 @@ $txt['moveTopic_redirection_perm'] = 'Permanently';
 $txt['move_topic_unapproved_js'] = 'Warning! This topic has not yet been approved.<br><br>It is not recommended that you create a redirection topic unless you intend to approve the post immediately following the move.';
 $txt['movetopic_auto_board'] = '[BOARD]';
 $txt['movetopic_auto_topic'] = '[TOPIC LINK]';
-$txt['movetopic_default'] = 'This topic has been moved to ' . $txt['movetopic_auto_board'] . ".\n\n" . $txt['movetopic_auto_topic'];
+$txt['movetopic_default'] = 'This topic has been moved to {auto_board}' . "\n\n" . '{auto_topic}';
 $txt['movetopic_sendpm'] = 'Send the topic starter a message, to let them know the topic has been moved.';
 $txt['movetopic_sendpm_desc'] = 'The personal message to send';
-$txt['movetopic_default_pm'] = 'Your topic - ' . $txt['movetopic_auto_topic'] . ' - has been moved to ' . $txt['movetopic_auto_board'] . ', just thought you should know.';
+$txt['movetopic_default_pm'] = 'Your topic - {auto_topic} - has been moved to {auto_board}, just thought you should know.';
 
 $txt['sendtopic_send'] = 'Send';
 $txt['sendtopic_title'] = 'Send the topic &quot;%1$s&quot; to a friend.';

@@ -89,8 +89,6 @@ $txt['admin_browse_approve'] = 'Membres dont le compte est en attente d\'approba
 $txt['admin_browse_approve_desc'] = 'Ici vous pouvez gérer tous les membres en attente d\'approbation de leur compte.';
 $txt['admin_browse_activate'] = 'Membres dont le compte est en attente d\'activation';
 $txt['admin_browse_activate_desc'] = 'Cette interface liste tous les membres qui n\'ont pas encore activé leur compte sur votre forum.';
-$txt['admin_browse_awaiting_approval'] = 'En attente d\'approbation (%1$d)';
-$txt['admin_browse_awaiting_activate'] = 'En attente d\'activation (%1$d)';
 
 $txt['admin_browse_username'] = 'Identifiant';
 $txt['admin_browse_email'] = 'Adresse e-mail';
