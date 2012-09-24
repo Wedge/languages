@@ -45,7 +45,6 @@ $txt['unknown_package'] = 'Unknown Plugins';
 $txt['use_avatars'] = 'Use Avatars';
 $txt['add_languages'] = 'Add Language';
 $txt['list_files'] = 'List Files';
-$txt['remove'] = 'Remove';
 $txt['package_type'] = 'Plugin Type';
 $txt['archiving'] = 'Archiving';
 $txt['extracting'] = 'Extracting';
@@ -54,7 +53,6 @@ $txt['language_extracted'] = 'The language pack has been extracted, you can now 
 
 $txt['mod_name'] = 'Mod Name';
 $txt['mod_version'] = 'Version';
-$txt['mod_author'] = 'Author';
 $txt['author_website'] = 'Author\'s Homepage';
 $txt['package_no_description'] = 'No Description Given';
 $txt['package_description'] = 'Description';

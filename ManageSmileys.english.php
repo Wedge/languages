@@ -35,7 +35,6 @@ $txt['smileys_enable_subtext'] = '(otherwise, the default smileys will be used.)
 $txt['smileys_code'] = 'Code';
 $txt['smileys_filename'] = 'Filename';
 $txt['smileys_description'] = 'Tooltip or description';
-$txt['smileys_remove'] = 'Remove';
 $txt['smileys_save'] = 'Save Changes';
 $txt['smileys_delete'] = 'Delete Smiley';
 $txt['smileys_delete_confirm'] = 'Are you sure you wish to delete this smiley?';

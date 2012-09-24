@@ -52,8 +52,6 @@ $txt['mboards_groups_desc'] = 'Groupes autorisés à voir et à accéder à cett
 $txt['mboards_groups_regular_members'] = 'Ce groupe contient tous les membres à qui aucun groupe principal n\'a été attribué.';
 $txt['mboards_groups_post_group'] = 'Ce groupe est attribué en fonction du nombre de messages postés.';
 
-$txt['mboards_yes'] = 'Oui';
-$txt['mboards_no'] = 'Non';
 $txt['mboards_never'] = 'Jamais';
 $txt['mboards_view_board'] = 'Qui peut voir cette section';
 $txt['mboards_enter_board'] = 'Qui peut y accéder';
@@ -94,7 +92,6 @@ $txt['mboards_recycle_disabled_delete'] = 'Note&nbsp;: vous devez choisir une no
 
 $txt['mboards_settings_desc'] = 'Modifier les paramètres généraux des catégories et des sections.';
 $txt['groups_manage_boards'] = 'Groupes de membres autorisés à gérer les sections et catégories';
-$txt['mboards_settings_submit'] = 'Sauvegarder';
 $txt['recycle_enable'] = 'Activer le recyclage des sujets effacés';
 $txt['recycle_board'] = 'Section pour les sujets recyclés';
 $txt['recycle_board_unselected_notice'] = 'Vous avez activé le recyclage de sujets sans spécifier où les placer. Cette fonction ne sera active qu\'après avoir indiqué la section.';

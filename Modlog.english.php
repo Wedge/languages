@@ -30,7 +30,6 @@ $txt['modlog_enter_comment'] = 'Enter Moderation Comment';
 $txt['modlog_moderation_log'] = 'Moderation Log';
 $txt['modlog_moderation_log_desc'] = 'Below is a list of all the moderation actions that have been carried out by moderators of the forum.<br><strong>Please note:</strong> Entries cannot be removed from this log until they are at least twenty-four hours old.';
 $txt['modlog_no_entries_found'] = 'There are currently no moderation log entries.';
-$txt['modlog_remove'] = 'Remove';
 $txt['modlog_removeall'] = 'Remove All';
 $txt['modlog_go'] = 'Go';
 $txt['modlog_add'] = 'Add';

@@ -30,7 +30,6 @@ $txt['modlog_enter_comment'] = 'Entrer un commentaire de modération';
 $txt['modlog_moderation_log'] = 'Journal de Modération';
 $txt['modlog_moderation_log_desc'] = 'Voici la liste des actions de modération faites par les modérateurs du forum.<br><strong>Veuillez noter</strong> que les entrées ne peuvent être supprimées de ce journal avant un délai de 24h.';
 $txt['modlog_no_entries_found'] = 'Aucune entrée pour le moment dans le journal de modération.';
-$txt['modlog_remove'] = 'Supprimer';
 $txt['modlog_removeall'] = 'Tout supprimer';
 $txt['modlog_go'] = 'Allons-y';
 $txt['modlog_add'] = 'Ajouter';

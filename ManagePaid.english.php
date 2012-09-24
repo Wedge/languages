@@ -16,7 +16,6 @@ $txt['paid_username'] = 'Username';
 $txt['paid_subscriptions_desc'] = 'From this section you can add, remove and edit paid subscription methods to your forum.';
 $txt['paid_subs_settings'] = 'Settings';
 $txt['paid_subs_settings_desc'] = 'From here you can edit the payment methods available to your users.';
-$txt['paid_subs_view'] = 'View Subscriptions';
 $txt['paid_subs_view_desc'] = 'From this section you can view all the subscriptions you have available.';
 
 // Setting type strings.
@@ -77,9 +76,6 @@ $txt['paid_is_active'] = 'Activated';
 $txt['paid_none_yet'] = 'You haven\'t set up any subscriptions yet.';
 $txt['paid_payments_pending'] = 'Payments Pending';
 $txt['paid_order'] = 'Order';
-
-$txt['yes'] = 'Yes';
-$txt['no'] = 'No';
 
 // Add/Edit/Delete subscription.
 $txt['paid_add_subscription'] = 'Add Subscription';
@@ -209,6 +205,5 @@ $txt['pending_payments'] = 'Pending Payments';
 $txt['pending_payments_desc'] = 'This member has attempted to make the following payments for this subscription but the confirmation has not been received by the forum. If you are sure the payment has been received click &quot;accept&quot; to action to subscription. Alternatively you can click &quot;Remove&quot; to remove all reference to the payment.';
 $txt['pending_payments_value'] = 'Value';
 $txt['pending_payments_accept'] = 'Accept';
-$txt['pending_payments_remove'] = 'Remove';
 
 ?>

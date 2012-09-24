@@ -16,7 +16,6 @@ $txt['paid_username'] = 'Identifiant';
 $txt['paid_subscriptions_desc'] = 'Dans cette section, vous pourrez ajouter, supprimer et modifier les méthodes d\'abonnement payant de votre forum.';
 $txt['paid_subs_settings'] = 'Réglages';
 $txt['paid_subs_settings_desc'] = 'Ici vous pouvez modifier les méthodes de paiement disponibles pour vos utilisateurs.';
-$txt['paid_subs_view'] = 'Voir les Abonnements';
 $txt['paid_subs_view_desc'] = 'Dans cette section, vous pouvez voir tous les abonnements que vous proposez.';
 
 // Setting type strings.
@@ -77,9 +76,6 @@ $txt['paid_is_active'] = 'Disponible';
 $txt['paid_none_yet'] = 'Pas d\'abonnement pour le moment.';
 $txt['paid_payments_pending'] = 'Paiements en attente';
 $txt['paid_order'] = 'Commander';
-
-$txt['yes'] = 'Oui';
-$txt['no'] = 'Non';
 
 // Add/Edit/Delete subscription.
 $txt['paid_add_subscription'] = 'Ajouter un Abonnement';
@@ -209,6 +205,5 @@ $txt['pending_payments'] = 'Paiements en attente';
 $txt['pending_payments_desc'] = 'Ce membre a tenté d\'effectuer les paiements suivants pour cet abonnement, mais la confirmation n\'a pas été reçue par le forum. Si vous êtes sûr que le paiement a bien été reçu, cliquez sur &quot;Accepter&quot; pour confirmer l\'abonnement. Sinon vous pouvez aussi cliquer sur &quot;Supprimer&quot; pour effacer toute référence au paiement.';
 $txt['pending_payments_value'] = 'Valeur';
 $txt['pending_payments_accept'] = 'Accepter';
-$txt['pending_payments_remove'] = 'Supprimer';
 
 ?>

@@ -52,8 +52,6 @@ $txt['mboards_groups_desc'] = 'Groups allowed to access this board.<br><em>Note:
 $txt['mboards_groups_regular_members'] = 'This group contains all members that have no primary group set.';
 $txt['mboards_groups_post_group'] = 'This group is a post count based group.';
 
-$txt['mboards_yes'] = 'Yes';
-$txt['mboards_no'] = 'No';
 $txt['mboards_never'] = 'Never';
 $txt['mboards_view_board'] = 'Who can see this board';
 $txt['mboards_enter_board'] = 'Who can enter this board';
@@ -94,7 +92,6 @@ $txt['mboards_recycle_disabled_delete'] = 'Note: You must select an alternative 
 
 $txt['mboards_settings_desc'] = 'Edit general board and category settings.';
 $txt['groups_manage_boards'] = 'Membergroups allowed to manage boards and categories';
-$txt['mboards_settings_submit'] = 'Save';
 $txt['recycle_enable'] = 'Enable recycling of deleted topics';
 $txt['recycle_board'] = 'Board for recycled topics';
 $txt['recycle_board_unselected_notice'] = 'You have enabled the recycling of topics without specifying a board to place them in.  This feature will not be enabled until you specify a board to place recycled topics into.';

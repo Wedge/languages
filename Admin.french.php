@@ -377,7 +377,6 @@ $txt['attach_dir_does_not_exist'] = 'N\'existe pas';
 $txt['attach_dir_not_writable'] = 'Non Inscriptible';
 $txt['attach_dir_files_missing'] = 'Fichiers Manquants (<a href="%1$s?action=admin;area=manageattachments;sa=repair;%2$s">Réparer</a>)';
 $txt['attach_dir_unused'] = 'Inutilisé';
-$txt['attach_dir_ok'] = 'OK';
 
 $txt['attach_path_manage'] = 'Gérer les Chemins des Fichiers joints';
 $txt['attach_paths'] = 'Chemins des Fichiers joints';

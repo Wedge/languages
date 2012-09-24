@@ -69,7 +69,6 @@ $txt['secret_desc2'] = 'Choisissez-la prudemment et évitez que l\'on puisse dev
 $txt['secret_answer'] = 'Réponse';
 $txt['secret_ask'] = 'Posez-moi ma question secrète';
 $txt['cant_retrieve'] = 'Il est impossible de récupérer votre mot de passe, mais vous pouvez en spécifier un nouveau en suivant le lien envoyé à votre adresse e-mail. Vous avez aussi la possibilité de spécifier un nouveau mot de passe en répondant à votre question secrète.';
-$txt['incorrect_answer'] = 'Désolé, mais vous n\'avez pas défini de question secrète/réponse dans votre profil. Merci de cliquer le bouton Retour, et utilisez la méthode par défaut pour obtenir votre mot de passe.';
 $txt['enter_new_password'] = 'Merci d\'entrer la réponse à votre question, et le mot de passe que vous souhaitez utiliser. Votre mot de passe sera remplacé par celui fourni en répondant correctement à votre question.';
 $txt['secret_why_blank'] = 'Pourquoi est-ce vide&nbsp;? ';
 

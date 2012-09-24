@@ -45,7 +45,6 @@ $txt['unknown_package'] = 'Extensions inconnues';
 $txt['use_avatars'] = 'Utiliser les avatars';
 $txt['add_languages'] = 'Ajouter une langue';
 $txt['list_files'] = 'Lister les fichiers';
-$txt['remove'] = 'Retirer';
 $txt['package_type'] = 'Type d\'extension';
 $txt['archiving'] = 'Archivage';
 $txt['extracting'] = 'Extraction';
@@ -54,7 +53,6 @@ $txt['language_extracted'] = 'L\'extension de langue a été extraite, vous pouv
 
 $txt['mod_name'] = 'Nom de l\'extension';
 $txt['mod_version'] = 'Version';
-$txt['mod_author'] = 'Auteur';
 $txt['author_website'] = 'Page web de l\'auteur';
 $txt['package_no_description'] = 'Aucune description donnée';
 $txt['package_description'] = 'Description';
