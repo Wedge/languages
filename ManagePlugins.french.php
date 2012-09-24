@@ -21,6 +21,7 @@ $txt['fatal_install_error_missinghook'] = 'Cette extension fait appel à des fon
 $txt['fatal_install_enable_missing'] =  'Cette extension spécifie qu\'un fichier en particulier contient des instructions à exécuter au moment de son activation, %1$s, mais le fichier est introuvable à l\'endroit indiqué par l\'extension.';
 $txt['fatal_install_disable_missing'] = 'Cette extension spécifie qu\'un fichier en particulier contient des instructions à exécuter au moment de sa désactivation, %1$s, mais le fichier est introuvable à l\'endroit indiqué par l\'extension.';
 $txt['fatal_install_remove_missing'] =  'Cette extension spécifie qu\'un fichier en particulier contient des instructions à exécuter au moment de sa suppression, %1$s, mais le fichier est introuvable à l\'endroit indiqué par l\'extension.';
+$txt['fatal_conflicted_plugins'] = 'Cette extension ajoute des fonctionnalités à d\'autres extensions. Vous ne pourrez la désactiver qu\'après avoir désactivé la ou les extensions suivantes&nbsp;: %1$s';
 $txt['no_plugins_found'] = 'Aucune extension.';
 
 $txt['plugin_written_by'] = 'Écrit par';
