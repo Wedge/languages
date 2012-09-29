@@ -143,7 +143,7 @@ $txt['pm_search_order'] = 'Ordre de recherche';
 $txt['pm_search_choose_label'] = 'Choisir les labels à rechercher, ou rechercher partout';
 
 $txt['pm_search_results'] = 'Résultats des Recherches';
-$txt['pm_search_none_found'] = 'Aucun Message Trouvé';
+$txt['pm_search_none_found'] = 'Aucun message trouvé.';
 
 $txt['pm_search_orderby_relevant_first'] = 'Plus significatif en premier';
 $txt['pm_search_orderby_recent_first'] = 'Plus récent en premier';
