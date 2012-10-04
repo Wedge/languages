@@ -90,8 +90,8 @@ $txt['install_settings_url'] = 'Forum URL';
 $txt['install_settings_url_info'] = 'This is the URL to your forum, <strong>without the trailing slash! (/)</strong><br>In most cases, you can leave the default value in this box alone - it is usually right.';
 $txt['install_settings_compress'] = 'Gzip Output';
 $txt['install_settings_compress_title'] = 'Compress output to save bandwidth.';
-// In this string, you can translate the word "PASS" to change what it says when the test passes.
-$txt['install_settings_compress_info'] = 'This function does not work properly on all servers, but can save you a lot of bandwidth.<br>Click <a href="install.php?obgz=1&amp;pass_string=PASS" onclick="return reqWin(this, 200);" target="_blank">here</a> to test it. If it says "PASS", you\'re good to go.';
+// In this string, you can translate 'pass_string' to change what it says when the test passes. Ensure that the sentence is URL-encoded like below.
+$txt['install_settings_compress_info'] = 'This feature does not work properly on all servers, but can save you a lot of bandwidth.<br>Click <a href="install.php?obgz=1&amp;pass_string=This%20feature%20is%20available!" onclick="return reqWin(this, 200);" target="_blank">here</a> to test it. If it says "<strong>This feature is available</strong>", you\'re good to go.';
 $txt['install_settings_dbsession'] = 'Database Sessions';
 $txt['install_settings_dbsession_title'] = 'Use the database for sessions instead of using files.';
 $txt['install_settings_dbsession_info1'] = 'This feature is almost always for the best, as it makes sessions more dependable.';
