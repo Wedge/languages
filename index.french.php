@@ -121,6 +121,10 @@ $txt['usermenu_addbuddy'] = '+ Contacts';
 $txt['usermenu_addbuddy_desc'] = 'Ajouter à mes contacts';
 $txt['usermenu_removebuddy'] = '- Contacts';
 $txt['usermenu_removebuddy_desc'] = 'Retirer de mes contacts';
+$txt['usermenu_seeip'] = '<span style="color: #aaa">IP : %special%</span>';
+$txt['usermenu_seeip_desc'] = 'Posté à partir de cette adresse IP';
+$txt['usermenu_trackip'] = '<span style="color: #aaa">IP : %special%</span>';
+$txt['usermenu_trackip_desc'] = 'Analyser cette adresse IP';
 
 // Action menu strings (per post)
 $txt['acme_like'] = 'J\'aime';
@@ -537,6 +541,8 @@ $txt['users'] = 'Membres';
 $txt['hidden'] = 'Caché';
 $txt['buddy'] = 'Contact';
 $txt['buddies'] = 'Contacts';
+$txt['is_buddy'] = 'Fait partie de mes contacts';
+$txt['is_not_buddy'] = 'Ne fait pas partie de mes contacts';
 $txt['most_online_ever'] = 'Record de connexions absolu';
 $txt['most_online_today'] = 'Record de connexions aujourd\'hui';
 
