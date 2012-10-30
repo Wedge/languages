@@ -58,7 +58,7 @@ $txt['merge_no_poll'] = 'Pas de sondage';
 $txt['report_to_mod_func'] = 'Utilisez cette fonction pour informer les modérateurs et administrateurs d\'un message abusif ou erroné.<br><em>Veuillez noter que votre adresse e-mail sera révélée aux modérateurs si vous utilisez cette fonction.</em>';
 
 $txt['send_email'] = 'Envoyer un e-mail';
-$txt['send_email_disclosed'] = 'Notez que ce sera visible pour le destinataire.';
+$txt['send_email_disclosed'] = 'Notez qu\'elle sera visible pour le destinataire.';
 $txt['send_email_subject'] = 'Sujet de l\'e-mail';
 
 ?>
