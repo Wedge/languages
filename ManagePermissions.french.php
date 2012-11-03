@@ -57,7 +57,7 @@ $txt['permissions_select_permission'] = 'Choisir une permission';
 
 $txt['permissions_only_one_option'] = 'Vous ne pouvez choisir qu\'une seule action pour modifier les permissions';
 $txt['permissions_no_action'] = 'Aucune action choisie';
-$txt['permissions_deny_dangerous'] = 'Vous êtes sur le point d\'interdire une ou plusieurs permissions.<br>Ceci peut être dangereux et causer des résultats inattendus si vous ne vous êtes pas assuré que personne n\'est &quot;accidentellement&quot; dans le ou les groupes auxquels vous interdisez les permissions.<br><br>Êtes-vous sûr de vouloir continuer&nbsp;?';
+$txt['permissions_deny_dangerous'] = 'Vous êtes sur le point d\'interdire une ou plusieurs permissions.<br>Ceci peut être dangereux et causer des résultats inattendus si vous ne vous êtes pas assuré que personne n\'est "accidentellement" dans le ou les groupes auxquels vous interdisez les permissions.<br><br>Êtes-vous sûr de vouloir continuer&nbsp;?';
 
 $txt['permissions_modify_group'] = 'Modifier un Groupe';
 $txt['permissions_general'] = 'Permissions Générales';

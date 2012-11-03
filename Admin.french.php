@@ -3,6 +3,13 @@
 
 $txt['changes_saved'] = 'Vos changements ont été pris en compte.';
 
+$txt['minutes_remaining_message'] = 'Vous devrez re-rentrer votre mot de passe dans&nbsp;: %s';
+$txt['minutes_remaining'] = array(
+	'0' => 'moins d\'1 minute',
+	'1' => '1 minute',
+	'n' => '%s minutes',
+);
+
 $txt['new_to_wedge'] = 'Vous découvrez Wedge&nbsp;?';
 $txt['hide_new_to_wedge'] = 'Merci, ça ira maintenant.';
 $txt['new_to_wedge_intro'] = 'Si vous n\'êtes pas familier avec Wedge, voici quelques tâches que vous pourriez avoir envie de réaliser.';
