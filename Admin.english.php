@@ -3,6 +3,13 @@
 
 $txt['changes_saved'] = 'Your changes have been saved.';
 
+$txt['minutes_remaining_message'] = 'You will need to re-enter your password in: %s';
+$txt['minutes_remaining'] = array(
+	'0' => 'less than 1 minute',
+	'1' => '1 minute',
+	'n' => '%s minutes',
+);
+
 $txt['new_to_wedge'] = 'New to Wedge?';
 $txt['hide_new_to_wedge'] = 'Don\'t show this again';
 $txt['new_to_wedge_intro'] = 'As you seem to be new to Wedge, there may be some tasks you\'re interesting in performing right now.';
