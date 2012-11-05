@@ -15,13 +15,17 @@ $txt['membergroups_post'] = 'Post count based groups';
 
 $txt['membergroups_group_name'] = 'Membergroup name';
 $txt['membergroups_new_board'] = 'Visible Boards';
-$txt['membergroups_new_board_desc'] = 'Boards the membergroup can see';
+$txt['membergroups_board_see'] = 'This group can see...';
+$txt['membergroups_board_enter'] = 'This group can access...';
 $txt['membergroups_new_board_post_groups'] = '<em>Note: normally, post groups don\'t need access because the group the member is in will give them access.</em>';
 $txt['membergroups_new_as_inherit'] = 'inherit from';
 $txt['membergroups_new_as_type'] = 'by type';
 $txt['membergroups_new_as_copy'] = 'based off of';
 $txt['membergroups_new_copy_none'] = '(none)';
 $txt['membergroups_can_edit_later'] = 'You can edit them later.';
+$txt['membergroups_view_enter_same'] = 'Boards this group can see, they can enter as well';
+$txt['membergroups_need_deny_perm'] = 'I need to deny this group from some boards';
+$txt['group_boards_never'] = 'Never';
 
 $txt['membergroups_edit_group'] = 'Edit Membergroup';
 $txt['membergroups_edit_name'] = 'Group name';
