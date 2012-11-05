@@ -172,6 +172,7 @@ $txt['logout'] = 'Logout';
 $txt['started_by'] = 'Started by';
 $txt['last_post_author_link_time'] = '<strong>Last post</strong> by {author}<br>in {link}<br>{time}';
 $txt['last_post_time_author'] = '{time}<br>by {author}';
+$txt['board_off_limits'] = 'This board is off-limits to you.';
 
 $txt['last_post'] = 'Last post';
 // Use numeric entities in the below string.
