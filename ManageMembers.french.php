@@ -15,13 +15,17 @@ $txt['membergroups_post'] = 'Groupes posteurs';
 
 $txt['membergroups_group_name'] = 'Nom du groupe';
 $txt['membergroups_new_board'] = 'Sections visibles';
-$txt['membergroups_new_board_desc'] = 'Les sections que le groupe de membres peut voir';
+$txt['membergroups_board_see'] = 'Ce groupe de membres peut voir...';
+$txt['membergroups_board_enter'] = 'Ce groupe de membres peut accéder à...';
 $txt['membergroups_new_board_post_groups'] = '<em>Note&nbsp;: normalement, les groupes posteurs n\'ont pas besoin d\'un accés parce que le groupe dans lequel le membre est inclus lui donnera les autorisations nécessaires.</em>';
 $txt['membergroups_new_as_inherit'] = 'hérité de';
 $txt['membergroups_new_as_type'] = 'par type';
 $txt['membergroups_new_as_copy'] = 'basé sur';
 $txt['membergroups_new_copy_none'] = '(aucun)';
 $txt['membergroups_can_edit_later'] = 'Vous pourrez les modifier plus tard.';
+$txt['membergroups_view_enter_same'] = 'Les sections que ce groupe peut voir lui sont aussi accessibles';
+$txt['membergroups_need_deny_perm'] = 'J\'ai besoin d\'empêcher à ce groupe l\'accès à des sections';
+$txt['group_boards_never'] = 'Jamais';
 
 $txt['membergroups_edit_group'] = 'Modifier le groupe de membres';
 $txt['membergroups_edit_name'] = 'Nom du groupe';

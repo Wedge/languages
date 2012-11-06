@@ -166,6 +166,7 @@ $txt['logout'] = 'Déconnexion';
 $txt['started_by'] = 'Démarré par';
 $txt['last_post_author_link_time'] = '<strong>Dernier message</strong> par {author}<br>dans {link}<br>{time}';
 $txt['last_post_time_author'] = '{time}<br>par {author}';
+$txt['board_off_limits'] = 'Cette section ne vous est pas accessible.';
 
 $txt['last_post'] = 'Dernier message';
 // Use numeric entities in the below string.
