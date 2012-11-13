@@ -286,7 +286,6 @@ $txt['show_no_censored'] = 'Leave words uncensored.';
 $txt['topics_per_page'] = 'Topics to display per page:';
 $txt['messages_per_page'] = 'Messages to display per page:';
 $txt['per_page_default'] = 'forum default';
-$txt['calendar_start_day'] = 'First day of the week on the calendar';
 $txt['display_quick_reply'] = 'Use quick reply on topic display: ';
 $txt['display_quick_reply1'] = 'don\'t show at all';
 $txt['display_quick_reply2'] = 'show, off by default';

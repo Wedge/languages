@@ -286,7 +286,6 @@ $txt['show_no_censored'] = 'Ne pas censurer les mots.';
 $txt['topics_per_page'] = 'Sujets affichés par page:';
 $txt['messages_per_page'] = 'Messages affichés par page:';
 $txt['per_page_default'] = 'Option par défaut';
-$txt['calendar_start_day'] = 'Premier jour de la semaine pour le calendrier';
 $txt['display_quick_reply'] = 'Utiliser la Réponse Rapide dans l\'affichage du sujet';
 $txt['display_quick_reply1'] = 'ne pas montrer du tout';
 $txt['display_quick_reply2'] = 'montrer, rétracté par défaut';
