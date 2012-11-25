@@ -57,7 +57,7 @@ $txt['membergroups_max_messages'] = 'Nombre de MP maximum';
 $txt['membergroups_max_messages_note'] = '0 = illimité';
 $txt['membergroups_edit_save'] = 'Sauvegarder';
 $txt['membergroups_delete'] = 'Effacer';
-$txt['membergroups_confirm_delete'] = 'Êtes-vous sûr de vouloir effacer ce groupe ?';
+$txt['membergroups_confirm_delete'] = 'Êtes-vous sûr de vouloir effacer ce groupe&nbsp;?';
 
 $txt['membergroups_members_title'] = 'Montrer tous les membres du groupe';
 $txt['membergroups_members_group_members'] = 'Membres du Groupe';
@@ -70,7 +70,7 @@ $txt['membergroups_members_last_active'] = 'Dernière Connexion';
 $txt['membergroups_members_additional_only'] = 'Ajouter comme groupe additionnel seulement.';
 $txt['membergroups_members_group_moderators'] = 'Modérateurs du Groupe';
 $txt['membergroups_members_description'] = 'Description';
-$txt['membergroups_members_deadmin_confirm'] = 'Êtes-vous sûr de vouloir vous retirer du groupe administrateur ?';
+$txt['membergroups_members_deadmin_confirm'] = 'Êtes-vous sûr de vouloir vous retirer du groupe administrateur&nbsp;?';
 
 $txt['membergroups_postgroups'] = 'Groupes Posteurs';
 $txt['membergroups_settings'] = 'Réglages des groupes de membres';
@@ -104,8 +104,8 @@ $txt['admin_browse_with_selected'] = 'Avec la sélection';
 $txt['admin_browse_no_members_approval'] = 'Aucun compte n\'est actuellement en attente d\'approbation.';
 $txt['admin_browse_no_members_activate'] = 'Aucun compte n\'est actuellement en attente d\'activation.';
 
-$txt['admin_browse_warn'] = 'tous les membres sélectionnés ?';
-$txt['admin_browse_outstanding_warn'] = 'tous les membres affectés ?';
+$txt['admin_browse_warn'] = 'tous les membres sélectionnés&nbsp;?';
+$txt['admin_browse_outstanding_warn'] = 'tous les membres affectés&nbsp;?';
 $txt['admin_browse_w_approve'] = 'Approuver';
 $txt['admin_browse_w_activate'] = 'Activer';
 $txt['admin_browse_w_delete'] = 'Supprimer';

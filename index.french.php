@@ -174,7 +174,7 @@ $txt['topic'] = 'Sujet';
 $txt['help'] = 'Aide';
 $txt['notify'] = 'Notifier';
 $txt['unnotify'] = 'Se désinscrire';
-$txt['notify_request'] = 'Voulez-vous recevoir un e-mail de notification si quelqu\'un répond à ce sujet ?';
+$txt['notify_request'] = 'Voulez-vous recevoir un e-mail de notification si quelqu\'un répond à ce sujet&nbsp;?';
 // Use numeric entities in the below string.
 $txt['regards_team'] = 'Cordialement,' . "\n" . 'L\'&#233;quipe {forum_name}';
 $txt['notify_replies'] = 'Notification de réponse';
@@ -206,12 +206,12 @@ $txt['you_have_msg'] = array(
 $txt['unread_pms'] = array(0 => '(pas de nouveau)', 1 => '(1 nouveau)', 'n' => '(%s nouveaux)');
 
 $txt['remove_message'] = 'Effacer ce message';
-$txt['remove_message_confirm'] = 'Effacer ce message ?';
+$txt['remove_message_confirm'] = 'Effacer ce message&nbsp;?';
 
 $txt['online_users'] = 'Membres en ligne';
 $txt['personal_message'] = 'Message personnel';
 $txt['jump_to'] = 'Accès rapide';
-$txt['are_sure_remove_topic'] = 'Êtes-vous sûr de vouloir effacer ce sujet ?';
+$txt['are_sure_remove_topic'] = 'Êtes-vous sûr de vouloir effacer ce sujet&nbsp;?';
 
 $txt['go'] = 'OK';
 $txt['ok'] = 'OK';
@@ -226,7 +226,7 @@ $txt['topic_started'] = 'Discussion démarrée par';
 $txt['title'] = 'Titre';
 $txt['post_by'] = 'Posté par';
 $txt['welcome_member'] = 'Bienvenue à %1$s, notre dernier membre.';
-$txt['notify_deactivate'] = 'Voulez-vous désactiver la notification pour ce sujet ?';
+$txt['notify_deactivate'] = 'Voulez-vous désactiver la notification pour ce sujet&nbsp;?';
 
 $txt['last_edit'] = 'Modifié {date} par {name}';
 $txt['last_edit_mine'] = 'Modifié {date}';
@@ -247,7 +247,7 @@ $txt['welcome_guest'] = 'Bienvenue, <strong>%1$s</strong>. Merci de vous <a href
 $txt['welcome_guest_noregister'] = 'Bienvenue, <strong>%1$s</strong>. Merci de vous <a href="<URL>?action=login">connecter</a>.';
 $txt['login_or_register'] = 'Merci de vous <a href="<URL>?action=login">connecter</a> ou de vous <a href="<URL>?action=register">inscrire</a>.';
 $txt['please_login'] = 'Merci de vous <a href="<URL>?action=login">connecter</a>.';
-$txt['welcome_guest_activate'] = '<br>Perdu votre <a href="<URL>?action=activate">e-mail d\'activation</a> ?';
+$txt['welcome_guest_activate'] = '<br>Perdu votre <a href="<URL>?action=activate">e-mail d\'activation</a>&nbsp;?';
 $txt['hello_member'] = 'Coucou,';
 // Use numeric entities in the below string.
 $txt['hello_guest'] = 'Bienvenue,';
@@ -332,7 +332,7 @@ $txt['switch_mode'] = 'Passer à l\'éditeur complet';
 $txt['preview'] = 'Prévisualiser';
 
 $txt['save_draft'] = 'Brouillon';
-$txt['save_draft_warning'] = 'Sauvegarder en tant que brouillon conservera uniquement les détails de base du message (titre, texte, icône), et donc ni ses fichiers joints, ni les options de sondage, etc. Êtes-vous sûr de vouloir continuer ?';
+$txt['save_draft_warning'] = 'Sauvegarder en tant que brouillon conservera uniquement les détails de base du message (titre, texte, icône), et donc ni ses fichiers joints, ni les options de sondage, etc. Êtes-vous sûr de vouloir continuer&nbsp;?';
 $txt['draft_saved'] = 'Votre brouillon a été sauvegardé. Vous pouvez y accéder depuis <a href="{draft_link}">votre profil</a>.';
 $txt['pm_draft_saved'] = 'Votre brouillon a été sauvegardé. Vous pouvez y accéder depuis <a href="{draft_link}">votre profil</a>.';
 $txt['remove_draft'] = 'Supprimer brouillon';
@@ -476,7 +476,7 @@ $txt['ban_reason'] = 'Raison';
 $txt['add_poll'] = 'Ajouter un sondage';
 $txt['poll_options6'] = 'Vous ne pouvez pas choisir plus de %1$s options.';
 $txt['poll_remove'] = 'Retirer le sondage';
-$txt['poll_remove_warn'] = 'Êtes-vous sûr de vouloir retirer ce sondage du sujet ?';
+$txt['poll_remove_warn'] = 'Êtes-vous sûr de vouloir retirer ce sondage du sujet&nbsp;?';
 $txt['poll_results_expire'] = 'Les résultats seront affichés à la clôture du vote';
 $txt['poll_expires_on'] = 'Clôture du vote';
 $txt['poll_expired_on'] = 'Vote clôturé';
@@ -493,7 +493,7 @@ $txt['quick_mod_merge'] = 'Fusionner la sélection';
 $txt['quick_mod_markread'] = 'Marquer la sélection comme lue';
 $txt['quick_mod_go'] = 'OK';
 
-$txt['generic_confirm_request'] = 'Êtes-vous sûr de vouloir faire cela ?';
+$txt['generic_confirm_request'] = 'Êtes-vous sûr de vouloir faire cela&nbsp;?';
 
 $txt['spell_check'] = 'Orthographe';
 
@@ -505,10 +505,10 @@ $txt['quick_reply_verification_guests'] = '(requis pour tous les invités)';
 $txt['quick_reply_verification_posts'] = '(requis pour tous les utilisateurs ayant moins de %1$d messages)';
 $txt['wait_for_approval'] = 'Note&nbsp;: ce message ne s\'affichera qu\'après avoir été approuvé par un modérateur.';
 
-$txt['notification_enable_board'] = 'Êtes-vous sûr de vouloir activer la notification des nouveaux sujets pour cette section ?';
-$txt['notification_disable_board'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouveaux sujets pour cette section ?';
-$txt['notification_enable_topic'] = 'Êtes-vous sûr de vouloir activer la notification des nouvelles réponses pour ce sujet ?';
-$txt['notification_disable_topic'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouvelles réponses pour ce sujet ?';
+$txt['notification_enable_board'] = 'Êtes-vous sûr de vouloir activer la notification des nouveaux sujets pour cette section&nbsp;?';
+$txt['notification_disable_board'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouveaux sujets pour cette section&nbsp;?';
+$txt['notification_enable_topic'] = 'Êtes-vous sûr de vouloir activer la notification des nouvelles réponses pour ce sujet&nbsp;?';
+$txt['notification_disable_topic'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouvelles réponses pour ce sujet&nbsp;?';
 
 $txt['report_to_mod'] = 'Avertir un modérateur à propos de ce message';
 
@@ -571,8 +571,8 @@ $txt['approve_members_waiting'] = array(
 	'n' => 'Il y a <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">%s membres</a> en attente d\'approbation.',
 );
 
-$txt['notifyboard_turnon'] = 'Voulez-vous recevoir un e-mail de notification quand quelqu\'un poste un nouveau sujet dans cette section ?';
-$txt['notifyboard_turnoff'] = 'Êtes-vous sûr de vouloir désactiver les e-mails de notification des nouveaux sujet pour cette section ?';
+$txt['notifyboard_turnon'] = 'Voulez-vous recevoir un e-mail de notification quand quelqu\'un poste un nouveau sujet dans cette section&nbsp;?';
+$txt['notifyboard_turnoff'] = 'Êtes-vous sûr de vouloir désactiver les e-mails de notification des nouveaux sujet pour cette section&nbsp;?';
 
 $txt['activate_code'] = 'Votre code d\'activation est';
 
