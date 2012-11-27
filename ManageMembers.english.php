@@ -26,6 +26,8 @@ $txt['membergroups_can_edit_later'] = 'You can edit them later.';
 $txt['membergroups_view_enter_same'] = 'Boards this group can see, they can enter as well';
 $txt['membergroups_need_deny_perm'] = 'I need to deny this group from some boards';
 $txt['group_boards_never'] = 'Never';
+$txt['group_boards_everything'] = 'Everything';
+$txt['group_boards_everything_desc'] = 'Use this option to quickly select all the boards below.';
 
 $txt['membergroups_edit_group'] = 'Edit Membergroup';
 $txt['membergroups_edit_name'] = 'Group name';
