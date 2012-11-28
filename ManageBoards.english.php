@@ -59,6 +59,7 @@ $txt['mboards_groups_view_enter_same'] = 'All groups who can see a board can ent
 $txt['mboards_groups_need_deny_perm'] = 'I want to deny a group from this board';
 $txt['mboards_groups_everyone'] = 'Everyone';
 $txt['mboards_groups_everyone_desc'] = 'Use this option to quickly select all the groups below.';
+$txt['mboards_offlimits_msg'] = 'Message to those who can see this board but not enter it:';
 
 $txt['mboards_moderators'] = 'Moderators';
 $txt['mboards_moderators_desc'] = 'Additional members to have moderation privileges on this board.  Note that administrators don\'t have to be listed here.';
