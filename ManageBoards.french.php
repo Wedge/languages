@@ -57,6 +57,9 @@ $txt['mboards_view_board'] = 'Qui peut voir cette section';
 $txt['mboards_enter_board'] = 'Qui peut y accéder';
 $txt['mboards_groups_view_enter_same'] = 'Tous les groupes pouvant voir une section peuvent aussi y accéder';
 $txt['mboards_groups_need_deny_perm'] = 'Activer la possibilité d\'interdire l\'accès à un groupe particulier';
+$txt['mboards_groups_everyone'] = 'Tout le monde';
+$txt['mboards_groups_everyone_desc'] = 'Utilisez cette option pour sélectionner rapidement tous les groupes ci-dessous.';
+$txt['mboards_offlimits_msg'] = 'Message à afficher à ceux qui peuvent voir cette section mais pas y accéder&nbsp;:';
 
 $txt['mboards_moderators'] = 'Modérateurs';
 $txt['mboards_moderators_desc'] = 'Membres ayant des privilèges de modérateur local sur cette section seulement. Les administrateurs et les modérateurs globaux n\'ont pas à être listés ici.';

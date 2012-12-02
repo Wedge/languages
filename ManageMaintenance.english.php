@@ -113,7 +113,7 @@ $txt['file_out_of_bounds'] = 'This file is shorter than the specified line numbe
 $txt['errortype_all'] = 'All errors';
 $txt['errortype_general'] = 'General';
 $txt['errortype_general_desc'] = 'General errors that have not been categorized into another type';
-$txt['errortype_critical'] = '<span style="color:red;">Critical</span>';
+$txt['errortype_critical'] = '<span style="color: red">Critical</span>';
 $txt['errortype_critical_desc'] = 'Critical errors. These should be taken care of as quickly as possible. Ignoring these errors can result in your forum failing and possibly security issues';
 $txt['errortype_database'] = 'Database';
 $txt['errortype_database_desc'] = 'Errors caused by faulty queries. These should be looked at and reported to the Wedge team.';

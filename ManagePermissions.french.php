@@ -69,7 +69,7 @@ $txt['permissions_local_for'] = 'Permissions pour le groupe';
 $txt['permissions_option_on'] = 'A';
 $txt['permissions_option_off'] = 'R';
 $txt['permissions_option_deny'] = 'I';
-$txt['permissions_option_desc'] = 'Pour chaque groupe, vous pouvez choisir soit \'Autoriser\' (A), \'Refuser\' (R), ou <span style="color: red;">\'Interdire\' (I)</span>.<br><br>Rappelez-vous que si vous interdisez une permission, tous les membres - qu\'ils soient modérateurs ou autres - présents dans ce groupe se verront refuser la permission aussi.<br>Pour cette raison, vous devriez interdire avec précaution, et seulement lorsque <strong>nécessaire</strong>. \'Refuser\', de son côté, n\'interdit l\'accès que si rien d\'autre ne vient le contredire.';
+$txt['permissions_option_desc'] = 'Pour chaque groupe, vous pouvez choisir soit \'Autoriser\' (A), \'Refuser\' (R), ou <span style="color: red">\'Interdire\' (I)</span>.<br><br>Rappelez-vous que si vous interdisez une permission, tous les membres - qu\'ils soient modérateurs ou autres - présents dans ce groupe se verront refuser la permission aussi.<br>Pour cette raison, vous devriez interdire avec précaution, et seulement lorsque <strong>nécessaire</strong>. \'Refuser\', de son côté, n\'interdit l\'accès que si rien d\'autre ne vient le contredire.';
 $txt['permissions_change_view'] = 'Changer l\'affichage&nbsp;';
 $txt['permissions_view_simple'] = 'Simple';
 $txt['permissions_view_classic'] = 'Classique';

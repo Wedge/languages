@@ -363,7 +363,7 @@ $helptxt['default_timezone'] = 'The server timezone tells PHP where your server 
 $helptxt['spamWaitTime'] = 'Here you can select the amount of time that must pass between postings. This can be used to stop people from "spamming" your forum by limiting how often they can post.';
 
 $helptxt['enablePostHTML'] = 'This will allow the posting of some basic HTML tags:
-	<ul class="normallist" style="margin-bottom: 0;">
+	<ul class="normallist" style="margin-bottom: 0">
 		<li>&lt;b&gt;, &lt;u&gt;, &lt;i&gt;, &lt;s&gt;, &lt;em&gt;, &lt;ins&gt;, &lt;del&gt;</li>
 		<li>&lt;a href=""&gt;</li>
 		<li>&lt;img src="" alt="" /&gt;</li>

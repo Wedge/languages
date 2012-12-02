@@ -26,6 +26,8 @@ $txt['membergroups_can_edit_later'] = 'Vous pourrez les modifier plus tard.';
 $txt['membergroups_view_enter_same'] = 'Les sections que ce groupe peut voir lui sont aussi accessibles';
 $txt['membergroups_need_deny_perm'] = 'J\'ai besoin d\'empêcher à ce groupe l\'accès à des sections';
 $txt['group_boards_never'] = 'Jamais';
+$txt['group_boards_everything'] = 'Tout';
+$txt['group_boards_everything_desc'] = 'Utilisez cette option pour sélectionner rapidement toutes les sections ci-dessous.';
 
 $txt['membergroups_edit_group'] = 'Modifier le groupe de membres';
 $txt['membergroups_edit_name'] = 'Nom du groupe';

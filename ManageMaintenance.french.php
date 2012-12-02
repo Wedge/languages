@@ -113,7 +113,7 @@ $txt['file_out_of_bounds'] = 'Cette ligne est hors des limites du fichier. Peut-
 $txt['errortype_all'] = 'Toutes les erreurs';
 $txt['errortype_general'] = 'Générale';
 $txt['errortype_general_desc'] = 'Erreurs générales inclassables.';
-$txt['errortype_critical'] = '<span style="color:red;">Critiques</span>';
+$txt['errortype_critical'] = '<span style="color: red">Critiques</span>';
 $txt['errortype_critical_desc'] = 'Erreurs critiques. Elles nécessitent votre attention immédiate. Si vous ignorez ces erreurs, il se peut que votre forum soit en danger.';
 $txt['errortype_database'] = 'Base de données';
 $txt['errortype_database_desc'] = 'Erreurs causées par des reqêtes malformées. Notez-les et rapportez-les à l\'équipe de développement de Wedge.';

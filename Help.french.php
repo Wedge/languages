@@ -347,7 +347,7 @@ $helptxt['default_timezone'] = 'La zone horaire du serveur indique à PHP où il
 $helptxt['spamWaitTime'] = 'Ici vous pouvez spécifier le temps minimal requis entre deux envois de messages en provenance d\'un même utilisateur. Cette option peut être utilisée afin de contrer le pollupostage ("spamming").';
 
 $helptxt['enablePostHTML'] = 'Permet l\'utilisation de quelques balises HTML basiques&nbsp;:
-	<ul class="normallist" style="margin-bottom: 0;">
+	<ul class="normallist" style="margin-bottom: 0">
 		<li>&lt;b&gt;, &lt;u&gt;, &lt;i&gt;, &lt;s&gt;, &lt;em&gt;, &lt;ins&gt;, &lt;del&gt;</li>
 		<li>&lt;a href=""&gt;</li>
 		<li>&lt;img src="" alt="" /&gt;</li>

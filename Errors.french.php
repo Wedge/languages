@@ -387,7 +387,7 @@ $txt['search_api_not_compatible'] = 'L\'API de recherche sélectionnée n\'est p
 $txt['cannot_restore_first_post'] = 'Vous ne pouvez restaurer le premier message d\'un sujet.';
 $txt['parent_topic_missing'] = 'Le sujet auquel appartenait le message que vous essayez de restaurer a été supprimé entretemps.';
 $txt['restored_disabled'] = 'La restauration de sujets a été désactivée.';
-$txt['restore_not_found'] = 'Les messages suivants n\'ont pas pu être restaurés; le sujet original a peut-être été supprimé entretemps&nbsp;:<ul style="margin-top: 0px;">%1$s</ul>Vous devrez les déplacer manuellement.';
+$txt['restore_not_found'] = 'Les messages suivants n\'ont pas pu être restaurés; le sujet original a peut-être été supprimé entretemps&nbsp;:<ul style="margin-top: 0">%1$s</ul>Vous devrez les déplacer manuellement.';
 
 $txt['error_invalid_dir'] = 'Le répertoire que vous avez spécifié est invalide.';
 
