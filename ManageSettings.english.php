@@ -298,6 +298,11 @@ $txt['modfilter_save_this_rule'] = 'Save this rule';
 $txt['modfilter_remove_this_rule'] = 'Remove this rule';
 $txt['modfilter_error_saving'] = 'This rule could not be saved, there was something wrong in sending the data. Please go back and try again.';
 $txt['modfilter_rule_not_found'] = 'The rule you are trying to edit does not exist.';
+$txt['modfilter_msg'] = 'and shows a custom message';
+$txt['modfilter_msg_popup_title'] = 'Informing the user...';
+$txt['modfilter_msg_no_lang'] = 'No custom messages were set up for this rule.';
+$txt['modfilter_msg_popup'] = 'When this rule is activated, the user will be shown the following message. (Where possible, the forum will try to use the language selected by the user.)';
+$txt['modfilter_lang_msg'] = 'While it will be clear to the user that their post has had work done to it, it will not always be clear why that is the case. Here you can add a message for your users to explain why action has been taken. You do not have to fill one in, or indeed fill in any specific language - it will just try to use the most appropriate for the user out of the ones you have provided. You can also use HTML, for example to link to a rules post that you have.';
 
 $txt['member_options_desc'] = 'From this page you can configure general options that apply to all members of your community.';
 $txt['allow_editDisplayName'] = 'Allow members to edit their displayed name';
