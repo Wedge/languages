@@ -298,6 +298,11 @@ $txt['modfilter_save_this_rule'] = 'Sauvegarder cette règle';
 $txt['modfilter_remove_this_rule'] = 'Supprimer cette règle';
 $txt['modfilter_error_saving'] = 'Une erreur s\'est produit lors de l\'envoi des données, la règle n\'a pas pu être sauvegardée. Retournez en arrière et réessayez.';
 $txt['modfilter_rule_not_found'] = 'La règle que vous essayez de modifier est introuvable.';
+$txt['modfilter_msg'] = 'et montre un message personnalisé';
+$txt['modfilter_msg_popup_title'] = 'Informer l\'utilisateur en cas de rejet';
+$txt['modfilter_msg_no_lang'] = 'Aucun message personnalisé n\'a été ajouté pour cette règle.';
+$txt['modfilter_msg_popup'] = 'Si cette règle est vérifiée, l\'utilisateur verra le message suivant. Dans la mesure du possible, le forum essaiera d\'utiliser la langue sélectionnée par l\'utilisateur.';
+$txt['modfilter_lang_msg'] = 'Même si Wedge indique à l\'utilisateur que son message doit être retravaillé, la raison exacte ne sera pas toujours évidente. Vous pouvez donc ajouter ici un message expliquant pourquoi leur contribution a été rejetée. Vous n\'êtes pas obligé de mettre un message, et encore moins dans plusieurs langues - Wedge déterminera la langue la plus appropriée pour l\'utilisateur. Vous pouvez aussi utiliser du HTML, par exemple pour mettre un lien vers une page indiquant la liste des règles du forum.';
 
 $txt['member_options_desc'] = 'Cette section vous permet de configurer les options générales qui s\'appliquent aux membres de votre communauté.';
 $txt['allow_editDisplayName'] = 'Permettre aux membres de modifier leur pseudonyme';
