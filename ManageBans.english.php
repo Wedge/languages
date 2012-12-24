@@ -39,7 +39,7 @@ $txt['ban_entire_hostname'] = 'Any users from %1$s';
 $txt['ban_remove_selected'] = 'Remove selected';
 $txt['ban_remove_selected_confirm'] = 'Are you sure you want to remove the selected bans?';
 
-$txt['ban_hardness_header'] = 'The type of ban';
+$txt['ban_hardness_header'] = 'Type of ban';
 $txt['ban_hardness_title'] = 'What type of ban?';
 $txt['ban_hardness_soft'] = 'Soft ban';
 $txt['ban_hardness_hard'] = 'Hard ban';
@@ -76,7 +76,7 @@ $txt['ban_type_ip_address'] = 'What type of IP address do you want to ban?';
 $txt['ban_type_ip_range'] = 'Banning a range of IP addresses?';
 $txt['ban_type_range_start'] = 'Start:';
 $txt['ban_type_range_end'] = 'End:';
-$txt['ban_type_ip_address_details'] = 'The IP address(es) to ban:';
+$txt['ban_type_ip_address_details'] = 'IP address(es) to ban:';
 
 $txt['ban_type_hostname'] = 'What hostname do you want to ban?';
 $txt['ban_type_hostname_wildcard'] = 'You can use * to indicate anything will be accepted in its place, for example all *.net hostnames, or more selectively something like *.comcast.net, or even *.somebranch.example.com.';
@@ -97,6 +97,6 @@ $txt['ban_invalid_hostname'] = 'You did not specify a valid hostname to ban.';
 
 $txt['softban_blankpage'] = 'Chance of a soft-banned user receiving a blank page';
 $txt['softban_percent_subtext'] = 'In percentage, from 0 to 100%.';
-$txt['softban_nosearch'] = 'Change of a soft-banned user not being able to use search';
+$txt['softban_nosearch'] = 'Chance of a soft-banned user not being able to use search';
 
 ?>
