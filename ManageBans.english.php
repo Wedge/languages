@@ -62,6 +62,8 @@ $txt['ban_member_names_select_ending'] = 'Names ending with:';
 $txt['ban_member_names_select_containing'] = 'Names containing:';
 $txt['ban_member_names_select_matching'] = 'Names matching:';
 
+$txt['ban_member_note'] = 'Note: this will not actually ban anyone from using the forum if they happen to have a matching name; it is intended to prevent people using the name in the future.';
+
 $txt['ban_member_case_sensitive'] = 'Case matters in this?';
 $txt['ban_member_case_sensitive_desc'] = 'If case matters, "Admin" is not the same as "admin". Normally you want case not to matter (leave it unticked)';
 
@@ -72,6 +74,7 @@ $txt['ban_type_email_type_tld'] = 'An entire range of domains';
 $txt['ban_type_email_content'] = 'Address(es) to ban';
 $txt['ban_email_gmail_style'] = 'GMail style domain?';
 
+$txt['ban_use_htaccess'] = 'If possible, you should use the Allow/Deny rules in your server (e.g. in Apache .htaccess files or from your host\'s control panel) than use bans for this, because it will be more efficient to block them before they get to Wedge, rather than after.';
 $txt['ban_type_ip_address'] = 'What type of IP address do you want to ban?';
 $txt['ban_type_ip_range'] = 'Banning a range of IP addresses?';
 $txt['ban_type_range_start'] = 'Start:';
@@ -94,6 +97,11 @@ $txt['ban_invalid_member'] = 'You did not specify a valid member to ban.';
 $txt['ban_invalid_membername'] = 'You did not specify a valid name to ban.';
 $txt['ban_invalid_ip_address'] = 'You did not specify a valid IP address or range to ban.';
 $txt['ban_invalid_hostname'] = 'You did not specify a valid hostname to ban.';
+
+$txt['ban_membername_style'] = 'When applying a member name ban, what should it be applied to?';
+$txt['ban_membername_style_username'] = 'User names only';
+$txt['ban_membername_style_display'] = 'Display names only';
+$txt['ban_membername_style_both'] = 'Both user names and display names';
 
 $txt['softban_blankpage'] = 'Chance of a soft-banned user receiving a blank page';
 $txt['softban_percent_subtext'] = 'In percentage, from 0 to 100%.';
