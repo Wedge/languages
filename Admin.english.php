@@ -531,6 +531,8 @@ $txt['bbcTagsToUse_select'] = 'Select the tags allowed to be used';
 $txt['bbcTagsToUse_select_all'] = 'Select all tags';
 
 $txt['enableParticipation'] = 'Enable participation icons';
+$txt['correctExclamations'] = 'Correct too many exclamations in the subject';
+$txt['correctShouting'] = 'Maximum % of capital letters in the subject';
 $txt['oldTopicDays'] = 'Time before topic is warned as old on reply';
 $txt['oldTopicDays_zero'] = '0 to disable';
 $txt['defaultMaxTopics'] = 'Number of topics per page in the message index';

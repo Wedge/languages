@@ -433,6 +433,8 @@ $helptxt['autoOptDatabase'] = 'This option optimizes the database every so many 
 $helptxt['autoFixDatabase'] = 'This will automatically fix broken tables and resume like nothing happened. This can be useful, because the only way to fix it is to REPAIR the table, and this way your forum won\'t be down until you notice. It does email you when this happens.';
 
 $helptxt['enableParticipation'] = 'This shows a little icon on the topics the user has posted in.';
+$helptxt['correctExclamations'] = 'If selected, this option prevents users from putting too many ? and ! symbols in the titles of their topics, and automatically cuts them back to just the one. For example a topic of "HELP!!!!!!" would become "HELP!"';
+$helptxt['correctShouting'] = 'If set to a percentage above 0, topic titles are examined. If there are at least 10 characters and over this percentage of them are capitals, they will be capital-cased, e.g. "HELP SOMEONE QUICK" will be corrected to "Help Someone Quick". Set to 0% to disable.';
 
 $helptxt['db_persist'] = 'Keeps the connection active to increase performance. If you aren\'t on a dedicated server, this may cause you problems with your host.';
 $helptxt['ssi_db_user'] = 'Optional setting to use a different database user and password when you are using SSI.php.';
