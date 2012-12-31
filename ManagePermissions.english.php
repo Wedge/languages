@@ -122,15 +122,11 @@ $txt['permissionhelp_manage_membergroups'] = 'This permission allows a user to e
 $txt['permissionname_manage_permissions'] = 'Manage permissions';
 $txt['permissionhelp_manage_permissions'] = 'This permission allows a user to edit all permissions of a membergroup, globally or for individual boards.';
 $txt['permissionname_manage_bans'] = 'Manage ban list';
-$txt['permissionhelp_manage_bans'] = 'This permission allows a user to add or remove usernames, IP addresses, hostnames and email addresses to a list of banned users. It also allows a user to view and remove log entries of banned users that attempted to login.';
+$txt['permissionhelp_manage_bans'] = 'This permission allows a user to add or remove usernames, IP addresses, hostnames and email addresses to a list of banned users. It also allows a user to view and remove log entries of banned users that attempted to login. It also controls who can see IP addresses - people with permission to ban can see IP addresses, people who cannot issue bans also cannot see IP addresses.';
 $txt['permissionname_send_mail'] = 'Send a forum email to members';
 $txt['permissionhelp_send_mail'] = 'Mass mail all forum members, or just a few membergroups by email or personal message (the latter requires \'Send Personal Message\' permission).';
 $txt['permissionname_issue_warning'] = 'Issue warnings to members';
 $txt['permissionhelp_issue_warning'] = 'Issue a warning to members of the forum and change that members\' warning level. Requires the warning system to be enabled.';
-$txt['permissionname_view_ip_address'] = 'View users\' IP addresses';
-$txt['permissionhelp_view_ip_address'] = 'Allows this usergroup to see IP addresses, independently of other options.';
-$txt['permissionname_view_ip_address_own'] = 'Own IP address';
-$txt['permissionname_view_ip_address_any'] = 'Any IP address';
 
 $txt['permissiongroup_profile'] = 'Member Profiles';
 $txt['permissionname_profile_view'] = 'View profile summary and stats';
@@ -281,8 +277,6 @@ $txt['permissiongroup_simple_use_avatar'] = 'Select or upload an avatar';
 $txt['permissiongroup_simple_moderate_general'] = 'Moderate the entire forum';
 $txt['permissiongroup_simple_administrate'] = 'Carry out administrative duties';
 
-$txt['permissionname_simple_view_ip_address_own'] = 'Allow a user to see their own IP address';
-$txt['permissionname_simple_view_ip_address_any'] = 'Allow a user to see any IP address';
 $txt['permissionname_simple_profile_view_own'] = 'View their own profile';
 $txt['permissionname_simple_profile_view_any'] = 'View anyone\'s profile';
 $txt['permissionname_simple_profile_identity_own'] = 'Edit their account settings';

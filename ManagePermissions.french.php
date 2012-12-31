@@ -127,10 +127,6 @@ $txt['permissionname_send_mail'] = 'Envoyer un e-mail du forum aux membres';
 $txt['permissionhelp_send_mail'] = 'Envoi massif d\'un e-mail à tous les membres du forum ou juste quelques groupes de membres par e-mail ou message personnel (ce dernier nécessite la permission \'Envoyer un message personnel\'.)';
 $txt['permissionname_issue_warning'] = 'Sanctionner les membres';
 $txt['permissionhelp_issue_warning'] = 'Donner un avertissement (ou sanction) aux membres du forum et changer leur niveau de sanction. Nécessite que le système de sanction soit activé.';
-$txt['permissionname_view_ip_address'] = 'Voir les adresses IP des utilisateurs';
-$txt['permissionhelp_view_ip_address'] = 'Autorise ce groupe à voir les adresses IP, indépendamment des autres options.';
-$txt['permissionname_view_ip_address_own'] = 'Sa propre adresse IP';
-$txt['permissionname_view_ip_address_any'] = 'Toutes les adresses IP';
 
 $txt['permissiongroup_profile'] = 'Profils des membres';
 $txt['permissionname_profile_view'] = 'Voir le sommaire du profil et les stats';
@@ -281,8 +277,6 @@ $txt['permissiongroup_simple_use_avatar'] = 'Sélectionner ou uploader un avatar
 $txt['permissiongroup_simple_moderate_general'] = 'Modérer le forum entier';
 $txt['permissiongroup_simple_administrate'] = 'Accomplir des tâches administratives';
 
-$txt['permissionname_simple_view_ip_address_own'] = 'Permettre à un utilisateur de voir sa propre adresse IP';
-$txt['permissionname_simple_view_ip_address_any'] = 'Permettre à un utilisateur de voir toutes les adresses IP';
 $txt['permissionname_simple_profile_view_own'] = 'Voir son propre profil';
 $txt['permissionname_simple_profile_view_any'] = 'Voir les profils de tous les utilisateurs';
 $txt['permissionname_simple_profile_identity_own'] = 'Modifier les paramètres de son compte';
