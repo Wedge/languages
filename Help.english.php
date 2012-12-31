@@ -115,12 +115,26 @@ $helptxt['view_members'] = '
 		</li>
 	</ul>';
 
-$helptxt['ban_members'] = '
-	Wedge provides the ability to "ban" users, to prevent people who have violated the trust of the board
-	by spamming, trolling, etc. This allows you to those users who are detrimental to your forum. As an admin,
-	when you view messages, you can see each user\'s IP address used to post at that time. In the ban list,
-	you simply type that IP address in, save, and they can no longer post from that location.<br>You can also
-	ban people through their email address.';
+$helptxt['ban_gmail_style'] = 'Google Mail, or GMail, offers features for convenience to its members for organising email, which can confuse
+	typical ban filtering systems:
+	<ul class="normallist">
+		<li>Periods in the username are ignored - joe.bloggs@gmail.com is exactly the same as j.o.e.b.l.o.g.g.s@gmail.com and also joebloggs@gmail.com.</li>
+		<li>Users can add +label to the "user" part of the address for filtering email, for example joebloggs+work@gmail.com will still deliver to
+			joebloggs@gmail.com and that +work part can be used to organise mail.</li>
+	</ul>
+	By selecting a given ban as being on a "GMail style domain", these factors can be ignored. It is also not enough to apply these to googlemail.com and
+		gmail.com type emails either, as Google Apps can run GMail with these features for all different domains.';
+
+$helptxt['no_hostname_ban'] = 'Hostname lookups have been disabled, so all hostname bans have also been disabled.';
+
+$helptxt['ban_email_types'] = 'Emails can be banned in multiple ways.
+	<ul class="normallist">
+		<li>One or more specific addresses - used to ban individual email addresses, or very selective types of email, for example troublemaker@example.com or if the troublemaker makes troublemaker1@example.com and troublemaker2@example.com, you could ban troublemaker*@example.com to ban all of them.</li>
+		<li>An entire domain - if you have a troublemaker who owns their own domain name, they can usually make any email address on it they care to, this allows you to indicate a ban against the entire domain, e.g. anything coming from example.com, regardless of the bit before the @. You do not need to type anything other than the domain name for the ban.</li>
+		<li>An entire range of domains - some users have noted that there is a prevalance of spam postings coming from users with .ru email addresses, but not a specific domain. This would let you ban everything from .ru as an example, or all .com addresses.</li>
+	</ul>';
+
+$helptxt['ban_membername_style'] = 'When applying a ban - or, really, a restriction on valid member names, you can apply it only to the usernames or to display names or both. User names are the names users will create and log in with, while display names are those used throughout the forum. Most of the time these will be the same, but users can usually change their display name while only admins can change the usernames of an account.';
 
 $helptxt['featuresettings'] = '
 	There are several features in this section that can be changed to your preference.';
@@ -172,10 +186,6 @@ $helptxt['registrations'] = '
 			<strong>Edit Registration Agreement</strong><br>
 			This allows you to set the text for the registration agreement displayed when members sign up for your forum.
 			You can add or remove anything from the default registration agreement, which is included in Wedge.<br><br>
-		</li>
-		<li>
-			<strong>Set Reserved Names</strong><br>
-			Using this interface you can specify words or names which may not be used by your users.<br><br>
 		</li>
 		<li>
 			<strong>Settings</strong><br>

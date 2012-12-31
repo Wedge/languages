@@ -103,7 +103,6 @@ $txt['whoallow_repairboards'] = 'Répare la base de données.';
 $txt['whoallow_search'] = 'Effectue une <a href="<URL>?action=search">Recherche</a>.';
 $txt['whoallow_search2'] = 'Consulte les résultats d\'une recherche.';
 $txt['whoallow_setcensor'] = 'Modifie les mots à censurer.';
-$txt['whoallow_setreserve'] = 'Modifie les noms réservés.';
 $txt['whoallow_stats'] = 'Consulte les <a href="<URL>?action=stats">statistiques</a> du forum.';
 $txt['whoallow_viewErrorLog'] = 'Consulte le Journal d\'Erreurs.';
 $txt['whoallow_viewmembers'] = 'Consulte la liste des membres dans le Centre d\'Administration.';

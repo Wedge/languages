@@ -110,13 +110,6 @@ $helptxt['view_members'] = '
 		</li>
 	</ul>';
 
-$helptxt['ban_members'] = '
-	Wedge offre la possibilité de "bannir" des utilisateurs, afin d\'empêcher le retour de personnes ayant dérangé
-	l\'atmosphère de votre forum par du pollupostage (spamming), des déviations de sujets (trolling), etc. En tant qu\'administrateur,
-	lorsque vous voyez un message, vous pouvez voir l\'adresse IP du posteur au moment de l\'envoi du message incriminé. Dans la liste de bannissement,
-	vous entrez simplement cette adresse IP, sauvegardez, et l\'utilisateur banni ne pourra plus poster depuis son ordinateur. <br>Vous pouvez aussi
-	bannir des gens par leur adresse e-mail.';
-
 $helptxt['featuresettings'] = '
 	Il y a plusieurs fonctionnalités dans cette section qui peuvent être changées à votre goût.';
 
@@ -165,10 +158,6 @@ $helptxt['registrations'] = '
 			<strong>Modifier l\'accord d\'inscription</strong><br>
 			Vous permet de spécifier le texte de l\'accord d\'inscription affiché lors de l\'inscription d\'un membre sur votre forum.
 			Vous pouvez ajouter ou enlever ce que vous souhaitez au texte d\'accord inclus par défaut avec Wedge.<br><br>
-		</li>
-		<li>
-			<strong>Choisir les noms réservés</strong><br>
-			En utilisant cette interface, vous pouvez spécifier des mots ou des noms qui ne pourront pas être utilisés librement par vos membres dans leurs identifiants et pseudonymes.<br><br>
 		</li>
 		<li>
 			<strong>Paramètres</strong><br>
