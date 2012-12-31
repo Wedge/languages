@@ -87,6 +87,9 @@ $txt['setting_registration_approval'] = 'Admin Approval';
 $txt['setting_registration_both'] = 'Email Activation, then Admin Approval';
 $txt['setting_notify_new_registration'] = 'Notify administrators when a new member joins';
 $txt['setting_send_welcomeEmail'] = 'Send welcome email to new members';
+$txt['purge_unactivated_days'] = 'Purge unactivated accounts after how many days?';
+$txt['purge_unactivated_days_subtext'] = 'If set to 0, no purge will occur.';
+$txt['purge_unactivated_days_postinput'] = 'days';
 
 $txt['setting_coppaAge'] = 'Age below which to apply registration restrictions';
 $txt['setting_coppaAge_desc'] = '(Set to 0 to disable)';
