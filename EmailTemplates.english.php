@@ -531,6 +531,31 @@ Should you have any problems with activation, please visit {ACTIVATIONLINKWITHOU
 
 {REGARDS}',
 	),
+	'register_activate_approve' => array(
+		/*
+			@additional_params: register_activate
+				REALNAME: The display name for the member receiving the email.
+				USERNAME: The user name for the member receiving the email.
+				PASSWORD: The password for the member.
+				ACTIVATIONLINK: The url link to reactivate the member's account.
+				ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
+				ACTIVATIONCODE: The code needed to reactivate the member's account.
+				FORGOTPASSWORDLINK: The url to the "forgot password" page.
+			@description:
+		*/
+		'subject' => 'Welcome to {FORUMNAME}',
+		'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME}. If you forget your password, you can reset it by visiting {FORGOTPASSWORDLINK}.
+
+Before you can login, you must first activate your account by selecting the following link:
+
+{ACTIVATIONLINK}
+
+Should you have any problems with the activation, please visit {ACTIVATIONLINKWITHOUTCODE} and enter the code "{ACTIVATIONCODE}".
+
+Once that has taken place, the administrator will review your application and decide whether to approve or reject it. Once a decision is made, a further email will be sent to you.
+
+{REGARDS}',
+	),
 	'register_coppa' => array(
 		/*
 			@additional_params: register_coppa

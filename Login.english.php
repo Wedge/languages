@@ -84,6 +84,7 @@ $txt['setting_registration_disabled'] = 'Registration Disabled';
 $txt['setting_registration_standard'] = 'Immediate Registration';
 $txt['setting_registration_activate'] = 'Email Activation';
 $txt['setting_registration_approval'] = 'Admin Approval';
+$txt['setting_registration_both'] = 'Email Activation, then Admin Approval';
 $txt['setting_notify_new_registration'] = 'Notify administrators when a new member joins';
 $txt['setting_send_welcomeEmail'] = 'Send welcome email to new members';
 
