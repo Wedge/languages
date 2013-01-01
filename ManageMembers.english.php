@@ -84,6 +84,20 @@ $txt['group_show_normal'] = 'Normal membergroups';
 $txt['group_show_post'] = 'Post-based membergroups';
 $txt['group_show_cond'] = 'Conditional Post-based|Show normal groups. If no group is assigned, show post-based membergroup instead.';
 
+$txt['membergroup_badges'] = 'Membergroup Badges';
+$txt['membergroup_badges_desc'] = 'Here you can configure which membergroups will have badges shown and in what order they will be shown, by dragging them up and down.';
+$txt['membergroup_badges_nobadge'] = '(no badge listed)';
+
+$txt['membergroup_badge_postcount'] = '(post count group)';
+$txt['membergroup_show_when_never'] = 'Never show this badge';
+$txt['membergroup_show_when_always'] = 'Always show this badge';
+$txt['membergroup_show_when_primary'] = 'Only when the user\'s primary badge';
+$txt['membergroup_show_when_cond'] = 'Show if there are no other badges';
+$txt['membergroup_show_when_desc_never'] = 'Even if a user is in this group, don\'t show the badge.';
+$txt['membergroup_show_when_desc_always'] = 'If a user is in this group, show this badge.';
+$txt['membergroup_show_when_desc_primary'] = 'Only show this badge if this group is the user\'s primary group.';
+$txt['membergroup_show_when_desc_cond'] = 'Only show this badge if the user is in this group and they have no other badges to show.';
+
 $txt['membergroups_select_permission_type'] = 'Select permission profile';
 $txt['membergroups_images_url'] = '{theme URL}/images/';
 $txt['membergroups_select_visible_boards'] = 'Show boards';
