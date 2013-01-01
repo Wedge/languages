@@ -80,9 +80,9 @@ $txt['groups_manage_membergroups'] = 'Groups allowed to change membergroups';
 $txt['group_text_show'] = 'Show group titles under user names?';
 $txt['group_show_none'] = 'Nothing';
 $txt['group_show_all'] = 'All groups';
-$txt['group_show_normal_groups'] = 'Normal membergroups';
-$txt['group_show_post_groups'] = 'Post-based membergroups';
-$txt['group_show_post_groups_if'] = 'Conditional Post-based|Show normal groups. If no group is assigned, show post-based membergroup instead.';
+$txt['group_show_normal'] = 'Normal membergroups';
+$txt['group_show_post'] = 'Post-based membergroups';
+$txt['group_show_cond'] = 'Conditional Post-based|Show normal groups. If no group is assigned, show post-based membergroup instead.';
 
 $txt['membergroups_select_permission_type'] = 'Select permission profile';
 $txt['membergroups_images_url'] = '{theme URL}/images/';
