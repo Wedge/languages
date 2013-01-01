@@ -97,6 +97,7 @@ $txt['membergroup_show_when_desc_never'] = 'Even if a user is in this group, don
 $txt['membergroup_show_when_desc_always'] = 'If a user is in this group, show this badge.';
 $txt['membergroup_show_when_desc_primary'] = 'Only show this badge if this group is the user\'s primary group.';
 $txt['membergroup_show_when_desc_cond'] = 'Only show this badge if the user is in this group and they have no other badges to show.';
+$txt['show_group_key'] = 'Show the group legend on the Info Center';
 
 $txt['membergroups_select_permission_type'] = 'Select permission profile';
 $txt['membergroups_images_url'] = '{theme URL}/images/';

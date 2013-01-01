@@ -64,7 +64,6 @@ $txt['forum_width'] = 'Forum width';
 $txt['forum_width_desc'] = 'Set the forum width. Examples: 950px, 80%, 1240px.';
 
 $txt['enable_random_news'] = 'Enable random news line in the forum header';
-$txt['show_group_key'] = 'Show group key on board index';
 $txt['enable_single_post'] = 'Enable single post';
 $txt['enable_multiple_posts'] = 'Enable multiple posts';
 $txt['inline_desc'] = 'Enabling this will cause your current location to be drawn in a single line, as opposed to in a tree-like manner.';

@@ -64,7 +64,6 @@ $txt['forum_width'] = 'Largeur du forum';
 $txt['forum_width_desc'] = 'Spécifiez la largeur du forum. Exemples&nbsp;: 950px, 80%, 1240px.';
 
 $txt['enable_random_news'] = 'Afficher les nouvelles dans l\'entête du forum';
-$txt['show_group_key'] = 'Montrer la liste des groupes sur l\'accueil du forum';
 $txt['enable_single_post'] = 'Activer un seul message';
 $txt['enable_multiple_posts'] = 'Activer plusieurs messages';
 $txt['inline_desc'] = 'Activer ceci affichera l\'arborescence de votre position actuelle en une seule ligne, et non pas en branches.';
