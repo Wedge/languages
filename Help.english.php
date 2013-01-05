@@ -120,7 +120,7 @@ $helptxt['ban_gmail_style'] = 'Google Mail, or GMail, offers features for conven
 	<ul class="normallist">
 		<li>Periods in the username are ignored - joe.bloggs@gmail.com is exactly the same as j.o.e.b.l.o.g.g.s@gmail.com and also joebloggs@gmail.com.</li>
 		<li>Users can add +label to the "user" part of the address for filtering email, for example joebloggs+work@gmail.com will still deliver to
-			joebloggs@gmail.com and that +work part can be used to organise mail.</li>
+			joebloggs@gmail.com and that +work part can be used to organize mail.</li>
 	</ul>
 	By selecting a given ban as being on a "GMail style domain", these factors can be ignored. It is also not enough to apply these to googlemail.com and
 		gmail.com type emails either, as Google Apps can run GMail with these features for all different domains.';

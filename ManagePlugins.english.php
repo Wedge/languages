@@ -99,4 +99,21 @@ $txt['plugins_repo_invalid_url'] = 'The address provided for the repository was 
 $txt['plugins_auth_pwd_nouser'] = 'You provided a password for a repository but no username - if you wish to provide account details for a repository, both username and password are required.';
 $txt['plugins_auth_diffuser'] = 'You have provided a username but no password (or, you\'ve tried to change the username attached to this repository, and not re-supplied the password), both must be given if details are to be used.';
 
+$txt['plugins_invalid_upload'] = 'You appear to have attempted an upload of a plugin, but the file could not be saved. Perhaps it was too large for the server, or some other hosting limit. Remember: the plugin can always be extracted on your own computer and uploaded via FTP or SFTP to your forum\'s Plugins/ folder instead.';
+$txt['plugins_unable_read'] = 'The plugin was uploaded but for some reason, Wedge was not able to read the plugin. This may be caused by unusual host configuration, and may mean that you will need to upload plugins to the forum\'s Plugins/ folder via FTP or SFTP rather than through the web interface.';
+$txt['plugins_invalid_zip'] = 'The plugin was uploaded but for some reason, the ZIP file appears to be invalid and cannot be unpacked into a usable plugin. You might want to try re-downloading the plugin from wherever you acquired it, or alternatively you can unpack it manually onto your computer and then upload it to the forum\'s Plugins/ folder through FTP or SFTP.';
+$txt['plugins_generic_error'] = 'The plugin was uploaded but unfortunately something went unexpectedly wrong. Please contact Wedge support and use the reference: %1$s:%2$s when describing your problem.';
+$txt['plugins_invalid_plugin_no_info'] = 'Your plugin was uploaded, but it does not contain a valid plugin-info.xml file that Wedge needs to understand it. Contact the plugin\'s author for support.';
+$txt['plugins_invalid_plugin_overinfo'] = 'Your plugin was uploaded, but it contains multiple files called plugin-info.xml, and Wedge does not know which of those it should refer to. Contact the plugin\'s author for support.';
+
+$txt['plugin_duplicate_detected_title'] = 'Duplicate Plugin Detected';
+$txt['plugin_duplicate_detected'] = 'The plugin you have uploaded ($1$s) appears to be a duplicate of an existing plugin already active in your site (%2$s). What would you like to do about this?';
+$txt['plugin_duplicate_cancel'] = 'I don\'t want to do anything right now';
+$txt['plugin_duplicate_cancel_desc'] = 'The existing plugin will be left alone and remain installed, and the file you have just uploaded will be cleaned up.';
+$txt['plugin_duplicate_proceed'] = 'I want to replace my old plugin with the new one';
+$txt['plugin_duplicate_proceed_desc'] = 'The existing plugin will be disabled and its files (but not its data) removed, and the new one will be unpacked ready for you to re-enable it.';
+
+$txt['plugin_upload_successful_title'] = 'Upload Successful';
+$txt['plugin_upload_successful'] = 'Your plugin file was successfully uploaded and so far appears to be valid. Next, Wedge will begin the process of unpacking the plugin. This may be done in several steps to limit server load.';
+
 ?>
