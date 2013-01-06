@@ -1,102 +1,102 @@
 <?php
 // Version: 0.1; ManageBans
 
-$txt['ban_general_description'] = 'Cette section vous permet de gérer les bannissements (bans) des utilisateurs pénibles, spammeurs ou généralement empêcheurs de poster en rond.';
-$txt['ban_description_hard'] = 'Cette section vous permet de gérer les bannissements (bans) "sévères", qui empêchent aux utilisateurs toute action, et immédiatement.';
-$txt['ban_description_soft'] = 'Cette section vous permet de gérer les bannissements (bans) "légers", qui n\'empêchent pas aux utilisateurs d\'utiliser le forum, mais les décourage progressivement de causer des problèmes, en simulant des problèmes techniques sur le forum.';
-$txt['ban_description_add'] = 'Cette section vous permet d\'ajouter de nouveaux bannissements (bans) à votre forum.';
-$txt['ban_description_settings'] = 'Cette section vous permet de changer les paramètres s\'appliquant aux bannissements (bans), principalement à ceux de type "léger".';
+$txt['ban_general_description'] = 'Cette section vous permet de gÃ©rer les bannissements (bans) des utilisateurs pÃ©nibles, spammeurs ou gÃ©nÃ©ralement empÃªcheurs de poster en rond.';
+$txt['ban_description_hard'] = 'Cette section vous permet de gÃ©rer les bannissements (bans) "sÃ©vÃ¨res", qui empÃªchent aux utilisateurs toute action, et immÃ©diatement.';
+$txt['ban_description_soft'] = 'Cette section vous permet de gÃ©rer les bannissements (bans) "lÃ©gers", qui n\'empÃªchent pas aux utilisateurs d\'utiliser le forum, mais les dÃ©courage progressivement de causer des problÃ¨mes, en simulant des problÃ¨mes techniques sur le forum.';
+$txt['ban_description_add'] = 'Cette section vous permet d\'ajouter de nouveaux bannissements (bans) Ã  votre forum.';
+$txt['ban_description_settings'] = 'Cette section vous permet de changer les paramÃ¨tres s\'appliquant aux bannissements (bans), principalement Ã  ceux de type "lÃ©ger".';
 
 $txt['ban_type'] = 'Type';
 $txt['ban_type_id_member'] = 'Membre';
 $txt['ban_type_member_name'] = 'Noms des membres';
 $txt['ban_type_email'] = 'E-mail';
 $txt['ban_type_ip_address'] = 'IP';
-$txt['ban_type_hostname'] = 'Nom d\'hôte';
+$txt['ban_type_hostname'] = 'Nom d\'hÃ´te';
 
 $txt['ban_edit'] = 'Modifier ban';
 
 $txt['ban_content'] = 'Banni';
 $txt['ban_reason'] = 'Raison du ban';
-$txt['ban_added'] = 'Ajouté le';
-$txt['ban_added_by'] = 'Ajouté par';
-$txt['ban_invalid_member'] = 'Le membre numéro #%1$s a été banni mais n\'existe pas.';
+$txt['ban_added'] = 'AjoutÃ© le';
+$txt['ban_added_by'] = 'AjoutÃ© par';
+$txt['ban_invalid_member'] = 'Le membre numÃ©ro #%1$s a Ã©tÃ© banni mais n\'existe pas.';
 
 $txt['ban_id_member_is'] = 'Le membre&nbsp;: <a href="%1$s">%2$s</a>';
 
-$txt['ban_member_names_beginning'] = 'Les noms de membre commençant par %1$s %2$s';
+$txt['ban_member_names_beginning'] = 'Les noms de membre commenÃ§ant par %1$s %2$s';
 $txt['ban_member_names_ending'] = 'Les noms de membre se terminant par %1$s %2$s';
 $txt['ban_member_names_containing'] = 'Les noms de membre contenant %1$s %2$s';
 $txt['ban_member_names_matching'] = 'Le nom de membre de&nbsp;: %1$s %2$s';
-$txt['ban_member_names_case_matters'] = '(sensible à la casse)';
+$txt['ban_member_names_case_matters'] = '(sensible Ã  la casse)';
 
 $txt['ban_entire_domain'] = 'Toute adresse e-mail sur le domaine %1$s';
 $txt['ban_entire_tld'] = 'Toute adresse e-mail dont le suffixe de domaine est %1$s';
 $txt['ban_gmail_style_email'] = 'Toute variation de %1$s@%2$s';
 
-$txt['ban_entire_hostname'] = 'Tous les utilisateurs du nom d\'hôte %1$s';
+$txt['ban_entire_hostname'] = 'Tous les utilisateurs du nom d\'hÃ´te %1$s';
 
-$txt['ban_remove_selected'] = 'Supprimer la sélection';
-$txt['ban_remove_selected_confirm'] = 'Êtes-vous sûr de vouloir supprimer les bannissements sélectionnés&nbsp;?';
+$txt['ban_remove_selected'] = 'Supprimer la sÃ©lection';
+$txt['ban_remove_selected_confirm'] = 'ÃŠtes-vous sÃ»r de vouloir supprimer les bannissements sÃ©lectionnÃ©s&nbsp;?';
 
 $txt['ban_hardness_header'] = 'Type de ban';
 $txt['ban_hardness_title'] = 'Quel type de ban&nbsp;?';
-$txt['ban_hardness_soft'] = 'Ban léger';
-$txt['ban_hardness_hard'] = 'Ban sévère';
-$txt['ban_hardnesses'] = 'Les bans légers n\'empêchent pas à un utilisateur d\'utiliser le forum, ils se contentent de le gêner. On peut aussi empêcher aux adresses IP à ban léger de s\'inscrire. A contrario, les bans sévères mettent un terme immédiat aux activités de l\'utilisateur.';
+$txt['ban_hardness_soft'] = 'Ban lÃ©ger';
+$txt['ban_hardness_hard'] = 'Ban sÃ©vÃ¨re';
+$txt['ban_hardnesses'] = 'Les bans lÃ©gers n\'empÃªchent pas Ã  un utilisateur d\'utiliser le forum, ils se contentent de le gÃªner. On peut aussi empÃªcher aux adresses IP Ã  ban lÃ©ger de s\'inscrire. A contrario, les bans sÃ©vÃ¨res mettent un terme immÃ©diat aux activitÃ©s de l\'utilisateur.';
 
-$txt['ban_type_header'] = 'Critères de ban';
+$txt['ban_type_header'] = 'CritÃ¨res de ban';
 $txt['ban_type_title'] = 'Sur quoi doit se baser le ban&nbsp;?';
-$txt['ban_type_description'] = 'Plusieurs options sont disponibles suivant le type de ban à implémenter.';
-$txt['ban_type_title_id_member'] = 'Un membre spécifique de la communauté';
+$txt['ban_type_description'] = 'Plusieurs options sont disponibles suivant le type de ban Ã  implÃ©menter.';
+$txt['ban_type_title_id_member'] = 'Un membre spÃ©cifique de la communautÃ©';
 $txt['ban_type_title_member_name'] = 'Un ou plusieurs noms de membre';
 $txt['ban_type_title_email'] = 'Une adresse e-mail ou des domaines';
 $txt['ban_type_title_ip_address'] = 'Une adresse IP ou une plage d\'IP';
-$txt['ban_type_title_hostname'] = 'Un nom d\'hôte ou une plage d\'hôtes';
+$txt['ban_type_title_hostname'] = 'Un nom d\'hÃ´te ou une plage d\'hÃ´tes';
 
 $txt['ban_type_id_member_type'] = 'Qui voulez-vous bannir&nbsp;?';
 
 $txt['ban_type_member_name'] = 'Quel type de noms de membre bannir&nbsp;?';
-$txt['ban_member_names_select_beginning'] = 'Les noms commençant par...';
+$txt['ban_member_names_select_beginning'] = 'Les noms commenÃ§ant par...';
 $txt['ban_member_names_select_ending'] = 'Les noms se terminant par...';
 $txt['ban_member_names_select_containing'] = 'Les noms contenant...';
-$txt['ban_member_names_select_matching'] = 'Les noms correspondant à...';
+$txt['ban_member_names_select_matching'] = 'Les noms correspondant Ã ...';
 
-$txt['ban_member_case_sensitive'] = 'Sensible à la casse&nbsp;?';
-$txt['ban_member_case_sensitive_desc'] = 'Si oui, <em>Admin</em> ne sera pas vu de la même manière qu\'<em>admin</em>. En temps normal, le nom doit être insensible à la casse, donc laissez décoché.';
+$txt['ban_member_case_sensitive'] = 'Sensible Ã  la casse&nbsp;?';
+$txt['ban_member_case_sensitive_desc'] = 'Si oui, <em>Admin</em> ne sera pas vu de la mÃªme maniÃ¨re qu\'<em>admin</em>. En temps normal, le nom doit Ãªtre insensible Ã  la casse, donc laissez dÃ©cochÃ©.';
 
 $txt['ban_type_email_type'] = 'Quelle sorte d\'adresse e-mail bannir&nbsp;?';
-$txt['ban_type_email_type_specific'] = 'Une ou plusieurs adresses spécifiques';
+$txt['ban_type_email_type_specific'] = 'Une ou plusieurs adresses spÃ©cifiques';
 $txt['ban_type_email_type_domain'] = 'Un domaine entier';
-$txt['ban_type_email_type_tld'] = 'Une plage entière de domaines';
-$txt['ban_type_email_content'] = 'Adresse(s) à bannir';
+$txt['ban_type_email_type_tld'] = 'Une plage entiÃ¨re de domaines';
+$txt['ban_type_email_content'] = 'Adresse(s) Ã  bannir';
 $txt['ban_email_gmail_style'] = 'Domaine de type Gmail&nbsp;?';
 
 $txt['ban_type_ip_address'] = 'Quel type d\'adresse IP bannir&nbsp;?';
 $txt['ban_type_ip_range'] = 'Bannir une plage d\'adresses IP&nbsp;?';
-$txt['ban_type_range_start'] = 'Début&nbsp;:';
+$txt['ban_type_range_start'] = 'DÃ©but&nbsp;:';
 $txt['ban_type_range_end'] = 'Fin&nbsp;:';
-$txt['ban_type_ip_address_details'] = 'Adresse(s) IP à bannir&nbsp;:';
+$txt['ban_type_ip_address_details'] = 'Adresse(s) IP Ã  bannir&nbsp;:';
 
-$txt['ban_type_hostname'] = 'Quel nom d\'hôte voulez-vous bannir&nbsp;?';
+$txt['ban_type_hostname'] = 'Quel nom d\'hÃ´te voulez-vous bannir&nbsp;?';
 $txt['ban_type_hostname_wildcard'] = 'Vous pouvez utiliser * comme joker, par exemple *.net (tous les domaines en .net), ou *.comcast.net (tous les sous-domaines ayant comcast.net comme domaine).';
 
-$txt['ban_information'] = 'Notes à propos du ban';
+$txt['ban_information'] = 'Notes Ã  propos du ban';
 $txt['ban_reason'] = 'Raison du ban';
-$txt['ban_reason_subtext'] = 'Requis pour vous rafraîchir la mémoire sur ce ban à l\'avenir, à vous ou à un autre administrateur.';
-$txt['ban_message'] = 'Message à montrer à l\'utilisateur';
-$txt['ban_message_subtext'] = 'Facultatif. Si vous remplissez ce champ, il sera montré aux utilisateurs bannis pour leur expliquer la raison du ban.';
+$txt['ban_reason_subtext'] = 'Requis pour vous rafraÃ®chir la mÃ©moire sur ce ban Ã  l\'avenir, Ã  vous ou Ã  un autre administrateur.';
+$txt['ban_message'] = 'Message Ã  montrer Ã  l\'utilisateur';
+$txt['ban_message_subtext'] = 'Facultatif. Si vous remplissez ce champ, il sera montrÃ© aux utilisateurs bannis pour leur expliquer la raison du ban.';
 
-$txt['ban_no_modify'] = 'Vous ne pouvez pas modifier un ban de nom d\'hôte si les lookups (recherches) de nom d\'hôte sont désactivés.';
+$txt['ban_no_modify'] = 'Vous ne pouvez pas modifier un ban de nom d\'hÃ´te si les lookups (recherches) de nom d\'hÃ´te sont dÃ©sactivÃ©s.';
 
-$txt['ban_invalid_type'] = 'Vous n\'avez pas spécifié un type de ban valide.';
-$txt['ban_invalid_member'] = 'Vous n\'avez pas spécifié de membre valide à bannir.';
-$txt['ban_invalid_membername'] = 'Vous n\'avez pas spécifié de nom valide à bannir.';
-$txt['ban_invalid_ip_address'] = 'Vous n\'avez pas spécifié d\'adresse IP ou plage IP valide à bannir.';
-$txt['ban_invalid_hostname'] = 'Vous n\'avez pas spécifié un nom d\'hôte valide à bannir.';
+$txt['ban_invalid_type'] = 'Vous n\'avez pas spÃ©cifiÃ© un type de ban valide.';
+$txt['ban_invalid_member'] = 'Vous n\'avez pas spÃ©cifiÃ© de membre valide Ã  bannir.';
+$txt['ban_invalid_membername'] = 'Vous n\'avez pas spÃ©cifiÃ© de nom valide Ã  bannir.';
+$txt['ban_invalid_ip_address'] = 'Vous n\'avez pas spÃ©cifiÃ© d\'adresse IP ou plage IP valide Ã  bannir.';
+$txt['ban_invalid_hostname'] = 'Vous n\'avez pas spÃ©cifiÃ© un nom d\'hÃ´te valide Ã  bannir.';
 
-$txt['softban_blankpage'] = 'Chances qu\'un banni léger reçoive une page blanche';
-$txt['softban_percent_subtext'] = 'En pourcentage, de 0 à 100.';
-$txt['softban_nosearch'] = 'Chances qu\'un banni léger ne puisse pas lancer une recherche';
+$txt['softban_blankpage'] = 'Chances qu\'un banni lÃ©ger reÃ§oive une page blanche';
+$txt['softban_percent_subtext'] = 'En pourcentage, de 0 Ã  100.';
+$txt['softban_nosearch'] = 'Chances qu\'un banni lÃ©ger ne puisse pas lancer une recherche';
 
 ?>

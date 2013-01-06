@@ -115,7 +115,7 @@ $helptxt['view_members'] = '
 		</li>
 	</ul>';
 
-$helptxt['ban_gmail_style'] = 'Google Mail, or GMail, offers features for convenience to its members for organising email, which can confuse
+$helptxt['ban_gmail_style'] = 'Google Mail, or GMail, offers features for convenience to its members for organizing email, which can confuse
 	typical ban filtering systems:
 	<ul class="normallist">
 		<li>Periods in the username are ignored - joe.bloggs@gmail.com is exactly the same as j.o.e.b.l.o.g.g.s@gmail.com and also joebloggs@gmail.com.</li>
