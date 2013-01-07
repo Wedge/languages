@@ -123,7 +123,7 @@ $helptxt['ban_gmail_style'] = 'Google Mail, or GMail, offers features for conven
 			joebloggs@gmail.com and that +work part can be used to organize mail.</li>
 	</ul>
 	By selecting a given ban as being on a "GMail style domain", these factors can be ignored. It is also not enough to apply these to googlemail.com and
-		gmail.com type emails either, as Google Apps can run GMail with these features for all different domains.';
+		gmail.com type emails either, as Google Apps can run GMail with at least the +label feature for all different domains.';
 
 $helptxt['no_hostname_ban'] = 'Hostname lookups have been disabled, so all hostname bans have also been disabled.';
 
