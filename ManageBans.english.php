@@ -107,4 +107,7 @@ $txt['softban_blankpage'] = 'Chance of a soft-banned user receiving a blank page
 $txt['softban_percent_subtext'] = 'In percentage, from 0 to 100%.';
 $txt['softban_nosearch'] = 'Chance of a soft-banned user not being able to use search';
 
+$txt['softban_disableregistration'] = 'Should registration be disabled for soft-bans?';
+$txt['softban_disableregistration_desc'] = 'Soft bans can include IP addresses, if you wanted to limit registration that way.';
+
 ?>
