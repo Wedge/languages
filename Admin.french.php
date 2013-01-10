@@ -730,5 +730,3 @@ $txt['media_admin_banning'] = 'Membre à bannir';
 $txt['media_admin_bans_add'] = 'Ajouter un bannissement';
 $txt['media_cf'] = 'Champs personnels';
 $txt['media_cf_add'] = 'Créer un champ';
-
-?>

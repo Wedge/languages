@@ -207,5 +207,3 @@ $txt['reattribute_confirm'] = 'Êtes-vous sûr de vouloir attribuer tous les mes
 $txt['reattribute_confirm_username'] = 'pour nom d\'utilisateur';
 $txt['reattribute_confirm_email'] = 'pour adresse e-mail';
 $txt['reattribute_cannot_find_member'] = 'Impossible de trouver le membre à qui réattribuer les messages.';
-
-?>

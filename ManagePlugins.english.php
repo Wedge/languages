@@ -115,5 +115,3 @@ $txt['plugin_duplicate_proceed_desc'] = 'The existing plugin will be disabled an
 
 $txt['plugin_upload_successful_title'] = 'Upload Successful';
 $txt['plugin_upload_successful'] = 'Your plugin file was successfully uploaded and so far appears to be valid. Next, Wedge will begin the process of unpacking the plugin. This may be done in several steps to limit server load.';
-
-?>

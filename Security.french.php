@@ -97,5 +97,3 @@ $txt['behav_not_googlebot_log'] = 'L\'entête User-agent se définissait comme G
 
 $txt['behav_offsite_form_desc'] = 'Des données en provenance d\'un autre site ont été soumises ici. Ce n\'est pas autorisé.';
 $txt['behav_offsite_form_log'] = 'Un formulaire semble avoir été envoyé de l\'extérieur du site.';
-
-?>

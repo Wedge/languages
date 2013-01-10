@@ -207,5 +207,3 @@ $txt['upgrade_paused_overload'] = 'La mise à jour a été mise en pause afin d\
 $txt['upgrade_ready_proceed'] = 'Merci d\'avoir choisi de mettre à jour Wedge en version %1$s. Tous les fichiers semblent être où il faut, on commence quand vous voulez.';
 $txt['upgrade_error_script_js'] = 'Le script de mise à jour n\'a pas trouvé script.js, ou il n\'est pas à jour. Assurez-vous que les chemins vers les thèmes sont correctement renseignés. Vous pouvez vous procurer sur le <a href="http://wedge.org/">site web de Wedge</a> un outil de vérification des paramètres';
 $txt['upgrade_warning_out_of_date'] = 'Ce script de mise à jour n\'est pas... à jour ! La version actuelle de Wedge est <em id="wedgeVersion" class="nowrap">??</em> mais ce script est pour la version <em id="yourVersion" style="white-space: nowrap">%1$s</em>.<br><br>Nous vous recommandons de vous rendre sur le site de <a href="http://wedge.org/">Wedge</a> pour vous assurer que vous mettez à jour vers la dernière version en date.';
-
-?>

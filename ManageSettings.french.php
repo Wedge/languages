@@ -492,5 +492,3 @@ $txt['languages_download_illegal_paths'] = 'L\'extension contient des chemins il
 $txt['languages_download_complete'] = 'Installation terminée';
 $txt['languages_download_complete_desc'] = 'Le pack de Langue a été installé avec succès. Veuillez cliquer <a href="%1$s">ici</a> pour retourner à la page de gestion des langues';
 $txt['languages_delete_confirm'] = 'Êtes-vous sûr de vouloir supprimer cette langue ?';
-
-?>

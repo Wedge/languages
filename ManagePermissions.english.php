@@ -349,5 +349,3 @@ $txt['permissionname_media_add_playlists'] = 'Add User Playlists';
 $txt['permissionname_media_auto_approve_albums'] = 'Auto-approve Own Albums';
 $txt['permissionname_media_moderate_own_albums'] = '<abbr title="Delete any comments/items on own albums, and delete own albums.">Moderate own Albums</abbr>';
 $txt['permissionname_media_viewprofile'] = 'View anyone\'s Gallery profile';
-
-?>

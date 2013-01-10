@@ -205,5 +205,3 @@ $txt['pending_payments'] = 'Paiements en attente';
 $txt['pending_payments_desc'] = 'Ce membre a tenté d\'effectuer les paiements suivants pour cet abonnement, mais la confirmation n\'a pas été reçue par le forum. Si vous êtes sûr que le paiement a bien été reçu, cliquez sur &quot;Accepter&quot; pour confirmer l\'abonnement. Sinon vous pouvez aussi cliquer sur &quot;Supprimer&quot; pour effacer toute référence au paiement.';
 $txt['pending_payments_value'] = 'Valeur';
 $txt['pending_payments_accept'] = 'Accepter';
-
-?>

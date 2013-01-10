@@ -205,5 +205,3 @@ $txt['pending_payments'] = 'Pending Payments';
 $txt['pending_payments_desc'] = 'This member has attempted to make the following payments for this subscription but the confirmation has not been received by the forum. If you are sure the payment has been received click &quot;accept&quot; to action to subscription. Alternatively you can click &quot;Remove&quot; to remove all reference to the payment.';
 $txt['pending_payments_value'] = 'Value';
 $txt['pending_payments_accept'] = 'Accept';
-
-?>

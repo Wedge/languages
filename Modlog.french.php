@@ -81,5 +81,3 @@ $txt['modlog_ac_restore_topic'] = 'Sujet &quot;{topic}&quot; restauré à partir
 $txt['modlog_ac_restore_posts'] = 'Messages restaurés à partir de &quot;{subject}&quot; vers le sujet &quot;{topic}&quot; dans la section &quot;{board}&quot;';
 
 $txt['modlog_parameter_guest'] = '<em>Invité</em>';
-
-?>

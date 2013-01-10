@@ -256,5 +256,3 @@ $txt['package_confirm_go_back'] = 'Retour';
 
 $txt['package_readme_default'] = 'Défaut';
 $txt['package_available_readme_language'] = 'Langues disponibles pour le Lisez-moi&nbsp;:';
-
-?>

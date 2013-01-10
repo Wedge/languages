@@ -136,5 +136,3 @@ $txt['dont_check_for_duplicate'] = 'Ne pas afficher les doublons';
 $txt['duplicates'] = 'Doublons';
 
 $txt['not_activated'] = 'Pas activé';
-
-?>

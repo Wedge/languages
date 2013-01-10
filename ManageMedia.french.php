@@ -372,5 +372,3 @@ $txt['media_cf_textbox'] = 'Champ texte';
 $txt['media_cf_select'] = 'Liste déroulante';
 $txt['media_cf_options'] = 'Options du champ';
 $txt['media_cf_options_desc'] = 'Ajouter des options pour les champs - valable uniquement pour les types Cases à cocher, Liste déroulante ou Boutons radio. Séparez les choix par des virgules (,)';
-
-?>

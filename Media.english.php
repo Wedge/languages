@@ -423,5 +423,3 @@ $txt['media_meta_exifVersion'] = 'Exif version';
 $txt['media_modcp'] = 'Moderation';
 $txt['media_modcp_desc'] = 'This is the moderation center of the gallery, here you can manage submissions and reports sent by the users of gallery as well as see the moderation log';
 $txt['media_permissions_undeletable'] = 'You cannot delete this profile, as it is a default profile';
-
-?>

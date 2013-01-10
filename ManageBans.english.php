@@ -109,5 +109,3 @@ $txt['softban_nosearch'] = 'Chance of a soft-banned user not being able to use s
 
 $txt['softban_disableregistration'] = 'Should registration be disabled for soft-bans?';
 $txt['softban_disableregistration_desc'] = 'Soft bans can include IP addresses, if you wanted to limit registration that way.';
-
-?>

@@ -704,5 +704,3 @@ $helptxt['mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>
 		<li>Show a caption below the thumbnail (if type is set to link, the caption will be clickable and lead you to the item page.)</li>
 		<li>Any string will do. If it contains spaces or brackets, be sure to enclose it between "double quotes".</li>
 	</ul>';
-
-?>

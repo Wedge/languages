@@ -98,5 +98,3 @@ $txt['plugins_repo_no_url'] = 'Vous n\'avez pas entré d\'adresse nom pour le d�
 $txt['plugins_repo_invalid_url'] = 'L\'adresse fournie pour le dépôt est invalide. Merci de la vérifier et de réessayer.';
 $txt['plugins_auth_pwd_nouser'] = 'Vous avez entré un mot de passe pour le dépôt, mais pas d\'identifiant - les deux sont nécessaires, ou laissez vide si le dépôt ne demande pas d\'authentification.';
 $txt['plugins_auth_diffuser'] = 'Vous avez entré un identifiant pour le dépôt, mais pas de mot de passe - les deux sont nécessaires, ou laissez vide si le dépôt ne demande pas d\'authentification.';
-
-?>

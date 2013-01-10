@@ -195,5 +195,3 @@ $txt['digest_mod_act_split'] = '"%1$s" a été séparé en deux sujets';
 
 $txt['mail_send_unable'] = 'Impossible d\'envoyer un e-mail à l\'adresse \'%1$s\'.';
 $txt['topic_summary'] = 'Résumé de la discussion';
-
-?>

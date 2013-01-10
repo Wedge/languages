@@ -735,5 +735,3 @@ $txt['media_admin_banning'] = 'Member to ban';
 $txt['media_admin_bans_add'] = 'Add ban';
 $txt['media_cf'] = 'Custom fields';
 $txt['media_cf_add'] = 'Create a new field';
-
-?>

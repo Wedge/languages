@@ -110,5 +110,3 @@ $txt['mboards_cancel_moving'] = 'Annuler le déplacement';
 $txt['mboards_move'] = 'déplacer';
 
 $txt['mboards_no_cats'] = 'Il n\'y a actuellement aucune section ou catégorie configurée.';
-
-?>

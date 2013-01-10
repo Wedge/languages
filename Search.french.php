@@ -154,5 +154,3 @@ $txt['spider_log_delete_confirm'] = 'Êtes-vous sûr de vouloir effacer les entr
 $txt['spider_stats_select_month'] = 'Aller au mois de';
 $txt['spider_stats_page_hits'] = 'Pages visitées';
 $txt['spider_stats_no_entries'] = 'Pas de statistiques disponibles sur les robots pour le moment.';
-
-?>

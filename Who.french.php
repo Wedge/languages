@@ -138,7 +138,7 @@ $txt['credits_site'] = 'Crédits de ce site web';
 $txt['credits_admins'] = array(1 => 'Administrateur', 'n' => 'Administrateurs');
 $txt['credits_moderators'] = array(1 => 'Modérateur', 'n' => 'Modérateurs');
 $txt['credits_software'] = 'Crédits du logiciel';
-$txt['credits_wedge'] = 'Wedge est copyright © 2010-2012 Wedgeward (René-Gilles Deberdt et Peter Spicer), tous droits réservés. Distribué sous <a href="http://wedge.org/license/">licence propre</a>.';
+$txt['credits_wedge'] = 'Wedge est copyright © 2010-2013 Wedgeward (René-Gilles Deberdt et Peter Spicer), tous droits réservés. Distribué sous <a href="http://wedge.org/license/">licence propre</a>.';
 $txt['credits_team'] = 'L\'équipe de Wedge';
 $txt['credits_smf2'] = 'Utilise des portions tirées du logiciel <a href="http://www.simplemachines.org/">SMF 2.0</a>, copyright © Simple Machines 2011, tous droits réservés. SMF est distribué sous license <a href="http://www.simplemachines.org/about/smf/license.php">BSD</a>, et développé par %1$s et %2$s.';
 $txt['credits_aeme'] = 'Utilise des portions tirées d\'<a href="http://aeva.noisen.com/">Aeva Media</a>, copyright © 2007-2011 %1$s et %2$s.';
@@ -165,5 +165,3 @@ $txt['translation_credits'] = array(
 	'La traduction de Wedge et SMF 2.0 est créditée à <a href="http://nao.noisen.com/">Nao &#23578; (Ren&eacute;-Gilles Deberdt)</a>.',
 	'La traduction originale de SMF 1.x est créditée à Alexandre P., Sparcool et Lunatic.',
 );
-
-?>

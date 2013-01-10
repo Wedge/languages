@@ -468,5 +468,3 @@ $txt['trackEdit_action_member_name'] = 'Identifiant';
 $txt['trackEdit_action_email_address'] = 'Adresse e-mail';
 $txt['trackEdit_action_id_group'] = 'Groupe de membres principal';
 $txt['trackEdit_action_additional_groups'] = 'Groupes de membres additionnels';
-
-?>

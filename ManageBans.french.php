@@ -98,5 +98,3 @@ $txt['ban_invalid_hostname'] = 'Vous n\'avez pas spécifié un nom d\'hôte vali
 $txt['softban_blankpage'] = 'Chances qu\'un banni léger reçoive une page blanche';
 $txt['softban_percent_subtext'] = 'En pourcentage, de 0 à 100.';
 $txt['softban_nosearch'] = 'Chances qu\'un banni léger ne puisse pas lancer une recherche';
-
-?>

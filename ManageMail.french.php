@@ -45,5 +45,3 @@ $txt['mq_mpriority_4'] = 'Basse';
 $txt['mq_mpriority_3'] = 'Normale';
 $txt['mq_mpriority_2'] = 'Haute';
 $txt['mq_mpriority_1'] = 'Très haute';
-
-?>

@@ -206,5 +206,3 @@ $txt['pm_readable_buddy'] = 'l\'expéditeur est un contact';
 $txt['pm_readable_label'] = 'appliquer le label &quot;{LABEL}&quot;';
 $txt['pm_readable_delete'] = 'effacer le message';
 $txt['pm_readable_then'] = '<strong>puis</strong>';
-
-?>

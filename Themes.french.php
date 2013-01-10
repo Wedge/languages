@@ -114,5 +114,3 @@ $txt['themeadmin_edit_on_line'] = 'Commence à la ligne';
 $txt['themeadmin_edit_preview'] = 'Prévisualiser';
 $txt['themeadmin_selectable'] = 'Thèmes sélectionnables par l\'utilisateur&nbsp;';
 $txt['themeadmin_themelist_link'] = 'Montrer la liste des thèmes';
-
-?>

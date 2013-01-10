@@ -729,5 +729,3 @@ $txt['media_view_coms'] = 'View comments';
 $txt['media_view_votes'] = 'View votes';
 $txt['media_gotolink'] = 'Details';
 $txt['media_zoom'] = 'Zoom';
-
-?>

@@ -143,5 +143,3 @@ $txt['registration_password_no_match'] = 'Les mots de passe ne correspondent pas
 $txt['registration_password_valid'] = 'Le mot de passe est valide';
 
 $txt['registration_errors_occurred'] = 'Les erreurs suivantes ont été détectées lors de votre inscription. Merci de les corriger pour pouvoir continuer&nbsp;:';
-
-?>

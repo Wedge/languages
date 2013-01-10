@@ -401,5 +401,3 @@ $txt['cannot_media_viewprofile'] = 'Vous n\'avez pas l\'autorisation de consulte
 $txt['default_layer_missing'] = 'Wedge ne peut pas afficher le contenu de cette page. En effet, sa structure a été corrompue, sans doute par un style, un thème ou une extension.<br><br>L\'administrateur en a été informé.';
 $txt['error_mismatched_tags'] = 'Une balise mal placée a été trouvée. Vous devrez corriger cette erreur manuellement. L\'erreur se situe ici :<div class="bread">%1$s.</div>';
 $txt['error_missing_tags'] = 'Vous avez oublié de fermer une balise BBCode. Ajoutez la balise fermante manuellement comme montré ci-dessous :<div class="bread">%1$s</div>';
-
-?>

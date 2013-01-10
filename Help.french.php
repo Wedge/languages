@@ -661,5 +661,3 @@ $helptxt['mediatag'] = '<h2>Le tag [media] et autres joyeusetés.</h2>
 		<li>Affiche un texte descriptif sous la vignette. Si le type est défini à <em>link</em>, le texte sera cliquable et vous mènera à la page consacrée à l\'élément.</li>
 		<li>Entrez ce que vous voulez. Si votre texte contient des espaces ou des crochets, assurez-vous de l\'entourer de "guillemets". Sinon, ça fait tout n\'importe quoi, et c\'est encore Bibi qui doit s\'y coller pour faire le ménage.</li>
 	</ul>';
-
-?>

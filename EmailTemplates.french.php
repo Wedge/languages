@@ -904,5 +904,3 @@ L\'erreur suivante est survenue lors de cette souscription
 {REGARDS}',
 	),
 );
-
-?>

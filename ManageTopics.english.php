@@ -60,5 +60,3 @@ $txt['report_to_mod_func'] = 'Use this function to inform the moderators and adm
 $txt['send_email'] = 'Send an email';
 $txt['send_email_disclosed'] = 'Note this will be visible to the recipient.';
 $txt['send_email_subject'] = 'Email Subject';
-
-?>

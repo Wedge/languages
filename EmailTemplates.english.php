@@ -900,5 +900,3 @@ The following error occurred when processing a paid subscription
 {REGARDS}',
 	),
 );
-
-?>

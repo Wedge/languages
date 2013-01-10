@@ -96,5 +96,3 @@ $txt['behav_not_googlebot_log'] = 'User-agent identified itself as Google, canno
 
 $txt['behav_offsite_form_desc'] = 'Data was submitted to this site from outside the site; this is not permitted.';
 $txt['behav_offsite_form_log'] = 'Form appeared to be sent from outside the site.';
-
-?>

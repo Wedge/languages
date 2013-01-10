@@ -130,5 +130,3 @@ $txt['report_staff_posts'] = 'Messages&nbsp;';
 $txt['report_staff_last_login'] = 'Dernière connexion&nbsp;';
 $txt['report_staff_all_boards'] = 'Toutes les sections';
 $txt['report_staff_no_boards'] = 'Aucune section';
-
-?>

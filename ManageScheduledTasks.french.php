@@ -51,5 +51,3 @@ $txt['scheduled_log_time_run'] = 'Date du lancement';
 $txt['scheduled_log_time_taken'] = 'Temps d\'exécution';
 $txt['scheduled_log_time_taken_seconds'] = '%1$d secondes';
 $txt['scheduled_log_empty_log'] = 'Vider les journaux';
-
-?>

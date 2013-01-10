@@ -372,5 +372,3 @@ $txt['media_cf_textbox'] = 'Text box';
 $txt['media_cf_select'] = 'Select dropdown';
 $txt['media_cf_options'] = 'Field options';
 $txt['media_cf_options_desc'] = 'Add options for the fields, only valid if the field types are checkbox, select or radio. Use comma (,) as a separator';
-
-?>

@@ -138,7 +138,7 @@ $txt['credits_site'] = 'Website Credits';
 $txt['credits_admins'] = array(1 => 'Administrator', 'n' => 'Administrators');
 $txt['credits_moderators'] = array(1 => 'Moderator', 'n' => 'Moderators');
 $txt['credits_software'] = 'Software Credits';
-$txt['credits_wedge'] = 'Wedge is copyright © 2010-2012 by Wedgeward (René-Gilles Deberdt and Peter Spicer), and distributed under the <a href="http://wedge.org/license/">Wedge license</a>.';
+$txt['credits_wedge'] = 'Wedge is copyright © 2010-2013 by Wedgeward (René-Gilles Deberdt and Peter Spicer), and distributed under the <a href="http://wedge.org/license/">Wedge license</a>.';
 $txt['credits_team'] = 'The Wedge Team';
 $txt['credits_smf2'] = 'Uses portions from <a href="http://www.simplemachines.org/">SMF 2.0</a>, copyright © Simple Machines 2011, all rights reserved. SMF is covered by the <a href="http://www.simplemachines.org/about/smf/license.php">BSD</a> license, and developed by %1$s and %2$s.';
 $txt['credits_aeme'] = 'Uses portions from <a href="http://aeva.noisen.com/">Aeva Media</a>, copyright © 2007-2011 %1$s and %2$s.';
@@ -163,5 +163,3 @@ $txt['credits_groups_language'] = 'English version';
 // List of people who have made more than a token contribution to this translation. (See Who.french.php for an example.)
 $txt['translation_credits'] = array(
 );
-
-?>

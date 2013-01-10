@@ -401,5 +401,3 @@ $txt['cannot_media_viewprofile'] = 'You cannot view Gallery profiles';
 $txt['default_layer_missing'] = 'Wedge won\'t show you the contents of this page, as its layout was detected to be corrupted &ndash; possibly by a skin, a theme or a plugin.<br><br>This has been reported to the administrator.';
 $txt['error_mismatched_tags'] = 'A mismatched BBCode tag was found as shown below; please fix it manually.<div class="bread">%1$s</div>';
 $txt['error_missing_tags'] = 'You forgot to close a BBCode tag; please add the missing tag manually as shown below.<div class="bread">%1$s</div>';
-
-?>
