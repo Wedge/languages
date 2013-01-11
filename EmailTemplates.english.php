@@ -170,6 +170,7 @@ Your account on {FORUMNAME} has been deleted. This may be because you never acti
 		*/
 		'subject' => 'Registration Reminder',
 		'body' => '{USERNAME},
+
 You still have not activated your account at {FORUMNAME}.
 
 Please use the link below to activate your account:
@@ -444,6 +445,7 @@ Thanks,
 		*/
 		'subject' => 'Topic: {TOPICSUBJECT} (From: {SENDERNAME})',
 		'body' => 'Dear {RECPNAME},
+
 I want you to check out "{TOPICSUBJECT}" on {FORUMNAME}. To view it, please click this link:
 
 {TOPICLINK}
@@ -504,6 +506,7 @@ Your login details at {FORUMNAME} have been changed and your password reset. Bel
 Your username is "{USERNAME}" and your password is "{PASSWORD}".
 
 You may change it after you login by going to the profile page, or by visiting this page after you login:
+
 {SCRIPTURL}?action=profile
 
 {REGARDS}',
@@ -585,7 +588,13 @@ Before you can login, the admin requires consent from your parent/guardian for y
 			@description:
 		*/
 		'subject' => 'Welcome to {FORUMNAME}',
-		'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME}. If you forget your password, you may change it at {FORGOTPASSWORDLINK}.
+		'body' => 'Thank you for registering at {FORUMNAME}.
+		
+Your username is {USERNAME}.
+
+If you forget your password, you may change it at:
+
+{FORGOTPASSWORDLINK}
 
 {REGARDS}',
 	),
@@ -619,9 +628,11 @@ Before you can login and start using the forum, your request will be reviewed an
 		'subject' => 'Topic reply: {TOPICSUBJECT}',
 		'body' => 'A reply has been posted to a topic you are watching by {POSTERNAME}.
 
-View the reply at: {TOPICLINK}
+View the reply at:
+{TOPICLINK}
 
-Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
+Unsubscribe to this topic by using this link:
+{UNSUBSCRIBELINK}
 
 {REGARDS}',
 	),
@@ -638,9 +649,11 @@ Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
 		'subject' => 'Topic reply: {TOPICSUBJECT}',
 		'body' => 'A reply has been posted to a topic you are watching by {POSTERNAME}.
 
-View the reply at: {TOPICLINK}
+View the reply at:
+{TOPICLINK}
 
-Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
+Unsubscribe to this topic by using this link:
+{UNSUBSCRIBELINK}
 
 The text of the reply is shown below:
 {MESSAGE}
@@ -659,9 +672,11 @@ The text of the reply is shown below:
 		'subject' => 'Topic reply: {TOPICSUBJECT}',
 		'body' => 'A reply has been posted to a topic you are watching by {POSTERNAME}.
 
-View the reply at: {TOPICLINK}
+View the reply at:
+{TOPICLINK}
 
-Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
+Unsubscribe to this topic by using this link:
+{UNSUBSCRIBELINK}
 
 More replies may be posted, but you won\'t receive any more notifications until you read the topic.
 
@@ -680,9 +695,11 @@ More replies may be posted, but you won\'t receive any more notifications until 
 		'subject' => 'Topic reply: {TOPICSUBJECT}',
 		'body' => 'A reply has been posted to a topic you are watching by {POSTERNAME}.
 
-View the reply at: {TOPICLINK}
+View the reply at:
+{TOPICLINK}
 
-Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
+Unsubscribe to this topic by using this link:
+{UNSUBSCRIBELINK}
 
 The text of the reply is shown below:
 {MESSAGE}
@@ -699,9 +716,11 @@ More replies may be posted, but you won\'t receive any more notifications until 
 		'subject' => 'Topic pinned: {TOPICSUBJECT}',
 		'body' => 'A topic you are watching has been pinned or unpinned by {POSTERNAME}.
 
-View the topic at: {TOPICLINK}
+View the topic at:
+{TOPICLINK}
 
-Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
+Unsubscribe to this topic by using this link:
+{UNSUBSCRIBELINK}
 
 {REGARDS}',
 	),
@@ -713,9 +732,11 @@ Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
 		'subject' => 'Topic locked: {TOPICSUBJECT}',
 		'body' => 'A topic you are watching has been locked by {POSTERNAME}.
 
-View the topic at: {TOPICLINK}
+View the topic at:
+{TOPICLINK}
 
-Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
+Unsubscribe to this topic by using this link:
+{UNSUBSCRIBELINK}
 
 {REGARDS}',
 	),
@@ -727,9 +748,11 @@ Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
 		'subject' => 'Topic unlocked: {TOPICSUBJECT}',
 		'body' => 'A topic you are watching has been unlocked by {POSTERNAME}.
 
-View the topic at: {TOPICLINK}
+View the topic at:
+{TOPICLINK}
 
-Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
+Unsubscribe to this topic by using this link:
+{UNSUBSCRIBELINK}
 
 {REGARDS}',
 	),
@@ -751,9 +774,11 @@ Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
 		'subject' => 'Topic moved: {TOPICSUBJECT}',
 		'body' => 'A topic you are watching has been moved to another board by {POSTERNAME}.
 
-View the topic at: {TOPICLINK}
+View the topic at:
+{TOPICLINK}
 
-Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
+Unsubscribe to this topic by using this link:
+{UNSUBSCRIBELINK}
 
 {REGARDS}',
 	),
@@ -765,9 +790,11 @@ Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
 		'subject' => 'Topic merged: {TOPICSUBJECT}',
 		'body' => 'A topic you are watching has been merged with another topic by {POSTERNAME}.
 
-View the new merged topic at: {TOPICLINK}
+View the new merged topic at:
+{TOPICLINK}
 
-Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
+Unsubscribe to this topic by using this link:
+{UNSUBSCRIBELINK}
 
 {REGARDS}',
 	),
@@ -779,9 +806,11 @@ Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
 		'subject' => 'Topic split: {TOPICSUBJECT}',
 		'body' => 'A topic you are watching has been split into two or more topics by {POSTERNAME}.
 
-View what remains of this topic at: {TOPICLINK}
+View what remains of this topic at:
+{TOPICLINK}
 
-Unsubscribe to this topic by using this link: {UNSUBSCRIBELINK}
+Unsubscribe to this topic by using this link:
+{UNSUBSCRIBELINK}
 
 {REGARDS}',
 	),
@@ -894,7 +923,7 @@ You can view this members profile by clicking the link below:
 		'body' => '{REALNAME},
 
 The following error occurred when processing a paid subscription
----------------------------------------------------------------
+----------------------------------------------------------------
 {ERROR}
 
 {REGARDS}',

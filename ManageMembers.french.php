@@ -84,6 +84,21 @@ $txt['group_show_normal'] = 'Groupes normaux';
 $txt['group_show_post'] = 'Groupes posteurs|(Groupes basés sur le nombre de messages)';
 $txt['group_show_cond'] = 'Groupes posteurs, sous condition|Montrer les groupes normaux. Si aucun groupe n\'est assigné, montrer le groupe posteur.';
 
+$txt['membergroup_badges'] = 'Badges de groupe';
+$txt['membergroup_badges_desc'] = 'Ici, vous pouvez configurer quels groupes verront un badge s\'afficher sous les noms de leurs membres, et dans quel ordre les montrer, en les déplaçant par glisser-déposer.';
+$txt['membergroup_badges_nobadge'] = '(pas de badge listé)';
+
+$txt['membergroup_badge_postcount'] = '(groupe posteur)';
+$txt['membergroup_show_when_never'] = 'Ne jamais montrer ce badge';
+$txt['membergroup_show_when_always'] = 'Toujours montrer ce badge';
+$txt['membergroup_show_when_primary'] = 'Seulement quand c\'est le groupe principal';
+$txt['membergroup_show_when_cond'] = 'Seulement si c\'est le seul badge disponible';
+$txt['membergroup_show_when_desc_never'] = 'Ne jamais montrer ce badge, même si un membre appartient à ce groupe.';
+$txt['membergroup_show_when_desc_always'] = 'Montrer ce badge si un membre appartient à ce groupe.';
+$txt['membergroup_show_when_desc_primary'] = 'Ne montrer ce badge que si ce groupe est le groupe principal du membre.';
+$txt['membergroup_show_when_desc_cond'] = 'Ne montrer ce badge que si le membre appartient à ce groupe et qu\'il n\'a pas d\'autres badges à montrer.';
+$txt['show_group_key'] = 'Montrer la légende des groupes dans le centre d\'informations';
+
 $txt['membergroups_select_permission_type'] = 'Sélectionner un profil de permissions';
 $txt['membergroups_images_url'] = '{URL du thème}/images/';
 $txt['membergroups_select_visible_boards'] = 'Montrer les sections';

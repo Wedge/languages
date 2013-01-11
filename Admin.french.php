@@ -153,6 +153,11 @@ $txt['email_continue'] = 'Continuer';
 $txt['email_done'] = 'terminé.';
 
 $txt['ban_title'] = 'Bannissements';
+$txt['ban_hard'] = 'Bans sévères';
+$txt['ban_soft'] = 'Bans légers';
+$txt['ban_add'] = 'Ajouter';
+$txt['ban_settings'] = 'Paramètres';
+
 $txt['ban_ip'] = 'Bannissement d\'IP&nbsp;: (ex. 192.168.12.213 or 128.0.*.*) - une entrée par ligne';
 $txt['ban_email'] = 'Bannissement d\'e-mails&nbsp;: (ex. pasbeau@pasgentil.com) - une entrée par ligne';
 $txt['ban_username'] = 'Bannissement de membres&nbsp;: (ex. pasbeau_du_75) - une entrée par ligne';
@@ -171,7 +176,6 @@ $txt['ban_partial_ban'] = 'Ban. partiel';
 $txt['ban_cannot_post'] = 'Ne peut pas poster';
 $txt['ban_cannot_register'] = 'Ne peut pas s\'inscrire';
 $txt['ban_cannot_login'] = 'Ne peut pas se connecter';
-$txt['ban_add'] = 'Ajouter';
 $txt['ban_edit_list'] = 'Liste des Bannissements';
 $txt['ban_type'] = 'Type';
 $txt['ban_days'] = 'jour(s)';
@@ -183,8 +187,7 @@ $txt['ban_actions'] = 'Actions';
 $txt['ban_expiration'] = 'Expiration';
 $txt['ban_reason_desc'] = 'Raison du bannissement, à afficher au membre banni.';
 $txt['ban_notes_desc'] = 'Notes pouvant informer les autres membres du staff.';
-$txt['ban_remove_selected'] = 'Supprimer la sélection';
-$txt['ban_remove_selected_confirm'] = 'Voulez-vous vraiment supprimer les bannissements sélectionnés ?';
+
 $txt['ban_modify'] = 'Modifier';
 $txt['ban_name'] = 'Nom du bannissement';
 $txt['ban_edit'] = 'Modifier les bannissements';
@@ -528,6 +531,8 @@ $txt['bbcTagsToUse_select'] = 'Sélectionnez toutes les balises pouvant être ut
 $txt['bbcTagsToUse_select_all'] = 'Sélectionner toutes les balises';
 
 $txt['enableParticipation'] = 'Activer l\'icône de participation';
+$txt['correctExclamations'] = 'Corriger le sujet s\'il a trop de points d\'exclamation';
+$txt['correctShouting'] = 'Limiter le nombre de majuscules dans le sujet à ce pourcentage (x%)';
 $txt['oldTopicDays'] = 'Délai avant qu\'un sujet ne soit mentionné comme ancien lors de l\'écriture d\'une réponse';
 $txt['oldTopicDays_zero'] = '0 pour désactiver';
 $txt['defaultMaxTopics'] = 'Nombre de sujets par page lors du visionnage d\'un site';
@@ -603,8 +608,8 @@ $txt['admin_search_section_tasks'] = 'Tâche';
 
 $txt['mods_cat_features'] = 'Paramètres';
 $txt['antispam_title'] = 'Anti-Spam';
-$txt['member_options_title'] = 'Options des Membres';
 $txt['warning_title'] = 'Avertissements';
+$txt['member_options_title'] = 'Options des Membres';
 $txt['signature_settings_short'] = 'Signatures';
 $txt['custom_profile_shorttitle'] = 'Champs de Profil';
 $txt['admin_member_prefs'] = 'Préférences';

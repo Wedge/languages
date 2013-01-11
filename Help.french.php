@@ -110,6 +110,27 @@ $helptxt['view_members'] = '
 		</li>
 	</ul>';
 
+$helptxt['ban_gmail_style'] = 'Google Mail, ou GMail, offre des fonctionnalités pratiques pour aider ses utilisateurs à organiser leurs comptes, qui peuvent aussi troubler
+	les systèmes de filtrage de bans classiques&nbsp;:
+	<ul class="normallist">
+		<li>Les points dans le nom d\'utilisateur sont ignorés. Ainsi, jean.dupont@gmail.com renvoie au même compte que j.ean.d.u.pond@gmail.com ou même jeandupont@gmail.com.</li>
+		<li>Les utilisateurs peuvent ajouter un label "+" à leur nom d\'utilisateur pour aider à filtrer les mails. Par exemple, un mail envoyé à jeandupond+boulot@gmail.com
+			sera livré à jeandupond@gmail.com et le label +boulot peut être utilisé dans un filtre personnalisé.</li>
+	</ul>
+	Si vous choisissez un ban de type "Domaine façon GMail", ces facteurs seront ignorés. Il ne suffit pas juste d\'appliquer un filtre à googlemail.com et gmail.com,
+	car Google Apps peut permettre à tout domaine d\'utiliser GMail avec au moins la fonctionnalité +label activée.';
+
+$helptxt['no_hostname_ban'] = 'Les lookups de nom d\'hôte étant désactivés, tous les bans associés à un lookup sont également désactivés.';
+
+$helptxt['ban_email_types'] = 'Les e-mails peuvent être bannis de plusieurs façons.
+	<ul class="normallist">
+		<li>Une adresse ou plus - bannir des adresses individuelles, ou des types très précis d\'e-mail, comme trolleur@exemple.com. Ou, si le trolleur se crée des e-mails comme trolleur1@exemple.com et trolleur2@exemple.com, vous pouvez bannir trolleur*@exemple.com pour être tranquille.</li>
+		<li>Un domaine entier - si un indésirable possède son propre nom de domaine, il peut souvent utiliser l\'adresse de son choix. Vous pouvez donc bannir leur domaine entier, par exemple tout ce qui provient de @exemple.com, quel que soit ce qui le précède. Vous n\'avez qu\'à entrer le nom de domaine, et rien d\'autre.</li>
+		<li>Un TLD (ensemble de domaines) - certains ont noté une prédominance de spams provenant d\'adresses e-mail en .ru, mais sans domaine spécifique. Vous pouvez bannir tout ce qui provient de .ru par exemple, ou même toutes les adresses en .com.</li>
+	</ul>';
+
+$helptxt['ban_membername_style'] = 'En appliquant un ban - ou plutôt une restriction - sur les noms de membre valides, vous pouvez choisir de l\'appliquer aux identifiants (ce que l\'utilisateur utilise pour se connecter), aux noms d\'utilisateur (ceux affichés dans les messages), ou aux deux. La plupart du temps, identifiant et nom d\'utilisateur correspondent, mais souvent les utilisateurs peuvent changer leur nom affiché dans le profil.';
+
 $helptxt['featuresettings'] = '
 	Il y a plusieurs fonctionnalités dans cette section qui peuvent être changées à votre goût.';
 
@@ -351,7 +372,6 @@ $helptxt['enableEmbeddedFlash'] = 'Cette option permettra à vos visiteurs d\'in
 $helptxt['xmlnews_enable'] = 'Les flux Atom sont comme des flux RSS, mais en mieux.<br>
 	Ils permettent à vos utilisateurs de récupérer les nouveautés de votre forum sans devoir s\'y rendre en permanence, grâce à un logiciel client Atom/RSS ou à des services web comme Google Reader.
 	Il est recommandé de limiter la taille des messages. En effet, certains clients tels que Trillian préfèrent afficher des messages tronqués.';
-
 $helptxt['globalCookies'] = 'Permet l\'utilisation de cookies (« témoins ») indépendants du sous-domaine. Par exemple, si...<br>
 	Votre site est situé sur http://www.chezmoi.org/,<br>
 	Et votre forum est situé sur http://forum.chezmoi.org/,<br>
@@ -392,6 +412,8 @@ $helptxt['autoOptDatabase'] = 'Cette fonction optimise votre base de données to
 $helptxt['autoFixDatabase'] = 'Ceci réparera automatiquement les tables présentant des erreurs. Ainsi, le forum continuera de fonctionner comme si rien ne s\'était produit. La seule façon de régler le problème étant de lancer un REPAIR sur la table en question, cette option évite que le forum ne soit hors service en attendant que vous preniez les mesures nécessaires. Un e-mail vous est envoyé si tel problème se présente.';
 
 $helptxt['enableParticipation'] = 'Cette fonction affiche une icône spéciale sur les sujets dans lesquels un utilisateur est précédemment intervenu.';
+$helptxt['correctExclamations'] = 'Cette option permet d\'empêcher les utilisateurs de mettre trop de ???? et de !!!! dans les titres de leurs sujets. SI !!!!!!!!!!1 -- ils seront automatiquement réduits à un seul ? ou !. SI !1';
+$helptxt['correctShouting'] = 'Mettez une valeur de pourcentage supérieure à 0 pour que Wedge examine les titres des sujets. S\'il y a plus de 10 caractères et qu\'au moins X% de ceux-ci sont en MAJUSCULES, ils seront réduits à des capitales, Comme Par Exemple Ceci. Mettez à 0 pour désactiver.';
 
 $helptxt['db_persist'] = 'Conserve une connexion permanente avec la base de données afin d\'accroître les performances du forum. Si vous êtes sur un serveur mutualisé (Free, OVH, 1&amp;1...), l\'activation de cette fonction peut occasionner des problèmes avec votre hébergeur, car cela consomme beaucoup de ressources système.';
 $helptxt['ssi_db_user'] = 'Réglage optionnel pour utiliser un nom d\'utilisateur et un mot de passe de base de données différents quand vous utilisez SSI.php.';
@@ -490,6 +512,7 @@ $helptxt['membergroups'] = 'Dans Wedge, il y a deux types de groupes auquels vos
 	</ul>';
 
 $helptxt['group_text_show'] = 'Choisissez les noms à montrer dans les messages, sous le nom de l\'auteur du message, et dans les profils. Wedge ne peut afficher que deux noms de groupe&nbsp;: le groupe principal, et le groupe posteur. Par défaut, il affiche uniquement le groupe principal s\'il existe, sinon le groupe posteur.<br><br>Vous pouvez aussi définir des badges pour chaque groupe, y compris les groupes additionnels, et définir leurs règles d\'affichage dans les pages d\'options individuelles des groupes de membres.';
+$helptxt['show_group_key'] = 'Dans la section Qui est en ligne du centre d\'informations, les membres en ligne sont listés, avec leur nom dans la couleur de leur groupe, ainsi qu\'indiqué dans la page de configuration des groupes. Il peut s\'avérer utile d\'inclure également sous cette liste les groupes existants avec les couleurs correspondantes, pour guider les néophytes avant tout. Cette option active cette liste. Les groupes sont listés dans le même ordre que leurs badges correspondants, à configurer ci-dessous.';
 
 $helptxt['maintenance_backup'] = 'Cette section vous permettra de faire une copie de sauvegarde des messages, des réglages, des membres et autres informations utiles de votre forum dans un gros fichier.<br><br>Il est recommandé d\'effectuer cette opération souvent, par exemple hebdomadairement, pour plus de sécurité et de protection.';
 $helptxt['maintenance_rot'] = 'Vous permet de supprimer <strong>complètement</strong> et <strong>irrévocablement</strong> les vieux sujets. Vous devriez effectuer une copie de sauvegarde de votre base de données avant de procéder à cette action, au cas où vous enleveriez quelque chose que vous ne vouliez pas supprimer.<br><br>À utiliser avec précaution.';

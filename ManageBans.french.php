@@ -62,6 +62,8 @@ $txt['ban_member_names_select_ending'] = 'Les noms se terminant par...';
 $txt['ban_member_names_select_containing'] = 'Les noms contenant...';
 $txt['ban_member_names_select_matching'] = 'Les noms correspondant à...';
 
+$txt['ban_member_note'] = 'Note&nbsp;: ne bannit pas un utilisateur du forum si son nom correspond à ce critère. Le seul effet est d\'empêcher les futurs membres d\'utiliser un nom.';
+
 $txt['ban_member_case_sensitive'] = 'Sensible à la casse&nbsp;?';
 $txt['ban_member_case_sensitive_desc'] = 'Si oui, <em>Admin</em> ne sera pas vu de la même manière qu\'<em>admin</em>. En temps normal, le nom doit être insensible à la casse, donc laissez décoché.';
 
@@ -72,6 +74,7 @@ $txt['ban_type_email_type_tld'] = 'Une plage entière de domaines';
 $txt['ban_type_email_content'] = 'Adresse(s) à bannir';
 $txt['ban_email_gmail_style'] = 'Domaine de type Gmail&nbsp;?';
 
+$txt['ban_use_htaccess'] = 'Si possible, utilisez plutôt les règles Allow/Deny de votre serveur (par exemple dans un fichier .htaccess, httpd.conf ou via le panneau de contrôle de votre hébergeur). Il est plus rapide et efficace pour le serveur de traiter directement ces blocages plutôt que de passer par Wedge.';
 $txt['ban_type_ip_address'] = 'Quel type d\'adresse IP bannir&nbsp;?';
 $txt['ban_type_ip_range'] = 'Bannir une plage d\'adresses IP&nbsp;?';
 $txt['ban_type_range_start'] = 'Début&nbsp;:';
@@ -95,6 +98,14 @@ $txt['ban_invalid_membername'] = 'Vous n\'avez pas spécifié de nom valide à b
 $txt['ban_invalid_ip_address'] = 'Vous n\'avez pas spécifié d\'adresse IP ou plage IP valide à bannir.';
 $txt['ban_invalid_hostname'] = 'Vous n\'avez pas spécifié un nom d\'hôte valide à bannir.';
 
+$txt['ban_membername_style'] = 'Ä quoi appliquer les bans de nom de membre&nbsp;?';
+$txt['ban_membername_style_username'] = 'Identifiants uniquement';
+$txt['ban_membername_style_display'] = 'Noms affichés uniquement';
+$txt['ban_membername_style_both'] = 'Les deux';
+
 $txt['softban_blankpage'] = 'Chances qu\'un banni léger reçoive une page blanche';
 $txt['softban_percent_subtext'] = 'En pourcentage, de 0 à 100.';
 $txt['softban_nosearch'] = 'Chances qu\'un banni léger ne puisse pas lancer une recherche';
+
+$txt['softban_disableregistration'] = 'L\'enregistrement doit-il être désactivé pour les bannis légers&nbsp;?';
+$txt['softban_disableregistration_desc'] = 'Les bans légers peuvent inclure des adresses IP, si vous voulez empêcher les enregistrements de certaines zones géographiques.';

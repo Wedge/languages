@@ -4,7 +4,7 @@
 // Since all of these strings are being used in emails, numeric entities should be used.
 
 // Do not translate anything that is between {}, they are used as replacement variables and MUST remain exactly how they are.
-// Additionally do not translate the @additional_params: line or the variable names in the lines that follow it. You may
+// Additionally, do not translate the @additional_params: line or the variable names in the lines that follow it. You may
 // translate the description of the variable. Do not translate @description:, however you may translate the rest of that line.
 
 // Do not use block comments in this file, they will have special meaning.
@@ -129,6 +129,7 @@ Vous pouvez aussi consulter votre profil sur {PROFILELINK}.
 		'body' => 'Bienvenue, {USERNAME} !
 
 Votre compte sur {FORUMNAME} a &#233;t&#233; approuv&#233; par l\'administrateur du forum, et doit &#234;tre maintenant activ&#233; avant de pouvoir commencer &#224; poster. Veuillez utiliser le lien ci-dessous pour activer votre compte :
+
 {ACTIVATIONLINK}
 
 En cas de souci avec l\'activation, merci d\'aller sur {ACTIVATIONLINKWITHOUTCODE} et d\'y entrer le code "{ACTIVATIONCODE}".
@@ -367,6 +368,7 @@ Pour &#233;diter vos souscriptions, veuillez visiter l\'URL suivante :
 			@additional_params: activate_reactivate
 				ACTIVATIONLINK: The url link to reactivate the member's account.
 				ACTIVATIONCODE: The code needed to reactivate the member's account.
+				ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
 			@description:
 		*/
 		'subject' => 'Bon retour sur {FORUMNAME}',
@@ -448,6 +450,7 @@ Cordialement,
 		'body' => '{RECPNAME},
 
 Je me permets de vous recommander le sujet intitul&#233; "{TOPICSUBJECT}" sur le forum {FORUMNAME}. Pour l\'afficher, veuillez cliquer sur le lien suivant :
+
 {TOPICLINK}
 
 Voici mon commentaire &#224; ce sujet :
@@ -536,6 +539,31 @@ Si vous avez un probl&#232;me quelconque avec l\'activation, veuillez utiliser l
 
 {REGARDS}',
 	),
+	'register_activate_approve' => array(
+		/*
+			@additional_params: register_activate
+				REALNAME: The display name for the member receiving the email.
+				USERNAME: The user name for the member receiving the email.
+				PASSWORD: The password for the member.
+				ACTIVATIONLINK: The url link to reactivate the member's account.
+				ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
+				ACTIVATIONCODE: The code needed to reactivate the member's account.
+				FORGOTPASSWORDLINK: The url to the "forgot password" page.
+			@description:
+		*/
+		'subject' => 'Bienvenue sur {FORUMNAME}',
+		'body' => 'Merci de vous &#234;tre inscrit &#224; {FORUMNAME}. Votre nom d\'utilisateur est {USERNAME}. Si vous oubliez votre mot de passe, vous pouvez le changer en allant sur {FORGOTPASSWORDLINK}.
+
+Avant de vous connecter, vous devrez d\'abord activer votre compte en cliquant sur ce lien :
+
+{ACTIVATIONLINK}
+
+Si vous avez des probl&#232;mes avec l'activation, allez sur {ACTIVATIONLINKWITHOUTCODE} et entrez le code "{ACTIVATIONCODE}".
+
+Une fois ce processus termin&#233;, l\'administrateur v&#233;rifiera votre inscription et l\'activera d&#233;finitivement le cas &#233;ch&#233;ant. Vous recevrez alors un nouvel e-mail pour vous pr&#233;venir.
+
+{REGARDS}',
+	),
 	'register_coppa' => array(
 		/*
 			@additional_params: register_coppa
@@ -551,6 +579,7 @@ Si vous avez un probl&#232;me quelconque avec l\'activation, veuillez utiliser l
 L\'identifiant de votre compte est {USERNAME} et son mot de passe est {PASSWORD} (que vous pourrez changer ensuite.)
 
 Avant de pouvoir vous connecter, l\'administrateur de ce forum souhaite obtenir l\'approbation de votre parent/tuteur pour votre adh&#233;sion &#224; cette communaut&#233;. Pour plus d\'informations, veuillez consulter le lien ci-dessous :
+
 {COPPALINK}
 
 {REGARDS}',
@@ -561,6 +590,7 @@ Avant de pouvoir vous connecter, l\'administrateur de ce forum souhaite obtenir 
 				REALNAME: The display name for the member receiving the email.
 				USERNAME: The user name for the member receiving the email.
 				PASSWORD: The password for the member.
+				FORGOTPASSWORDLINK: The url to the "forgot password" page.
 			@description:
 		*/
 		'subject' => 'Bienvenue sur {FORUMNAME}',
@@ -570,7 +600,7 @@ L\'identifiant de votre compte est {USERNAME} et son mot de passe est {PASSWORD}
 
 Une fois connect&#233;, vous pouvez changer votre mot de passe en allant sur la page de votre profil :
 
-{SCRIPTURL}?action=profile
+{FORGOTPASSWORDLINK}
 
 {REGARDS}',
 	),
@@ -580,6 +610,7 @@ Une fois connect&#233;, vous pouvez changer votre mot de passe en allant sur la 
 				REALNAME: The display name for the member receiving the email.
 				USERNAME: The user name for the member receiving the email.
 				PASSWORD: The password for the member.
+				FORGOTPASSWORDLINK: The url to the "forgot password" page.
 			@description:
 		*/
 		'subject' => 'Bienvenue sur {FORUMNAME}',
@@ -627,11 +658,11 @@ Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
 Voir la r&#233;ponse :
 {TOPICLINK}
 
-Le texte de cette r&#233;ponse est affich&#233; ci-dessous :
-{MESSAGE}
-
 Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
 {UNSUBSCRIBELINK}
+
+Le texte de cette r&#233;ponse est affich&#233; ci-dessous :
+{MESSAGE}
 
 {REGARDS}',
 	),
@@ -650,10 +681,10 @@ Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
 Voir la r&#233;ponse :
 {TOPICLINK}
 
-D\'autres r&#233;ponses ont pu &#234;tre post&#233;es, mais vous ne recevrez pas d\'autres e-mails de notification tant que vous n\'aurez pas lu le sujet.
-
 Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
 {UNSUBSCRIBELINK}
+
+D\'autres r&#233;ponses ont pu &#234;tre post&#233;es, mais vous ne recevrez pas d\'autres e-mails de notification tant que vous n\'aurez pas lu le sujet.
 
 {REGARDS}',
 	),
@@ -673,13 +704,13 @@ Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
 Voir la r&#233;ponse :
 {TOPICLINK}
 
+Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
+{UNSUBSCRIBELINK}
+
 Le texte du sujet est affich&#233; ci-dessous :
 {MESSAGE}
 
 D\'autres r&#233;ponses ont pu &#234;tre post&#233;es, mais vous ne recevrez pas d\'autres e-mails de notification tant que vous n\'aurez pas lu le sujet.
-
-Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
-{UNSUBSCRIBELINK}
 
 {REGARDS}',
 	),
@@ -898,7 +929,7 @@ Vous pouvez afficher le profil de cet utilisateur via le lien ci-dessous :
 		'body' => '{REALNAME},
 
 L\'erreur suivante est survenue lors de cette souscription
----------------------------------------------------------
+----------------------------------------------------------
 {ERROR}
 
 {REGARDS}',

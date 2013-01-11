@@ -84,8 +84,12 @@ $txt['setting_registration_disabled'] = 'Inscription désactivée';
 $txt['setting_registration_standard'] = 'Inscription immédiate';
 $txt['setting_registration_activate'] = 'Activation par e-mail';
 $txt['setting_registration_approval'] = 'Approbation par un admin';
+$txt['setting_registration_both'] = 'Activation par e-mail, puis approbation par un admin';
 $txt['setting_notify_new_registration'] = 'Notifier les administrateurs de l\'inscription d\'un nouveau membre';
 $txt['setting_send_welcomeEmail'] = 'Envoyer un e-mail de bienvenue aux nouveaux membres';
+$txt['purge_unactivated_days'] = 'Purger les comptes non activés depuis plus de...';
+$txt['purge_unactivated_days_subtext'] = 'Mettez 0 pour éviter les purges.';
+$txt['purge_unactivated_days_postinput'] = 'jours';
 
 $txt['setting_coppaAge'] = 'Âge en dessous duquel appliquer des restrictions à l\'inscription';
 $txt['setting_coppaAge_desc'] = '(Mettez à 0 pour désactiver)';

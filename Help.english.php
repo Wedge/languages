@@ -131,7 +131,7 @@ $helptxt['ban_email_types'] = 'Emails can be banned in multiple ways.
 	<ul class="normallist">
 		<li>One or more specific addresses - used to ban individual email addresses, or very selective types of email, for example troublemaker@example.com or if the troublemaker makes troublemaker1@example.com and troublemaker2@example.com, you could ban troublemaker*@example.com to ban all of them.</li>
 		<li>An entire domain - if you have a troublemaker who owns their own domain name, they can usually make any email address on it they care to, this allows you to indicate a ban against the entire domain, e.g. anything coming from example.com, regardless of the bit before the @. You do not need to type anything other than the domain name for the ban.</li>
-		<li>An entire range of domains - some users have noted that there is a prevalance of spam postings coming from users with .ru email addresses, but not a specific domain. This would let you ban everything from .ru as an example, or all .com addresses.</li>
+		<li>An entire range of domains - some users have noted that there is a prevalence of spam postings coming from users with .ru email addresses, but not a specific domain. This would let you ban everything from .ru as an example, or all .com addresses.</li>
 	</ul>';
 
 $helptxt['ban_membername_style'] = 'When applying a ban - or, really, a restriction on valid member names, you can apply it only to the usernames or to display names or both. User names are the names users will create and log in with, while display names are those used throughout the forum. Most of the time these will be the same, but users can usually change their display name while only admins can change the usernames of an account.';
