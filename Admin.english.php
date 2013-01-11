@@ -41,7 +41,6 @@ $txt['admin_template_edit'] = 'Edit Your Forum Template';
 $txt['admin_plugin_settings'] = 'Plugin Settings';
 $txt['admin_mod_filters'] = 'Moderation Filters';
 $txt['admin_server_settings'] = 'Server Settings';
-$txt['admin_reserved_line'] = 'One reserved word per line.';
 $txt['admin_basic_settings'] = 'This page allows you to change the basic settings for your forum. Be very careful with these settings, as they may render the forum dysfunctional.';
 $txt['maintenance'] = 'Enable Maintenance Mode';
 $txt['setting_mbname'] = 'Forum Title';

@@ -41,7 +41,6 @@ $txt['admin_template_edit'] = 'Modifier le modèle (template) de votre forum';
 $txt['admin_plugin_settings'] = 'Options';
 $txt['admin_mod_filters'] = 'Filtres de Modération';
 $txt['admin_server_settings'] = 'Paramètres du Serveur';
-$txt['admin_reserved_line'] = 'Un seul mot réservé par ligne.';
 $txt['admin_basic_settings'] = 'Cette page vous permet de modifier les paramètres de base de votre forum. Soyez très vigilant avec ces réglages, puisqu\'ils peuvent rendre votre forum inopérant.';
 $txt['maintenance'] = 'Activer le Mode Maintenance';
 $txt['setting_mbname'] = 'Nom du forum';
