@@ -113,3 +113,7 @@ $txt['softban_disableregistration_desc'] = 'Soft bans can include IP addresses, 
 $txt['softban_redirect'] = 'Chance of redirecting to another page';
 $txt['softban_redirect_subtext'] = 'This is only active if a URL is set below.';
 $txt['softban_redirect_url'] = 'URL to redirect users to';
+
+$txt['softban_delay_min'] = 'Loading delay in seconds - minimum';
+$txt['softban_delay_max'] = 'Loading delay in seconds - maximum';
+$txt['softban_delay_max_subtext'] = 'A random time in between the two will be selected, and soft-banned users will have to wait for that period of time before their page loads. This is limited to 15 seconds to prevent server load issues.';
