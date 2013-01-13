@@ -109,3 +109,7 @@ $txt['softban_nosearch'] = 'Chance of a soft-banned user not being able to use s
 
 $txt['softban_disableregistration'] = 'Should registration be disabled for soft-bans?';
 $txt['softban_disableregistration_desc'] = 'Soft bans can include IP addresses, if you wanted to limit registration that way.';
+
+$txt['softban_redirect'] = 'Chance of redirecting to another page';
+$txt['softban_redirect_subtext'] = 'This is only active if a URL is set below.';
+$txt['softban_redirect_url'] = 'URL to redirect users to';

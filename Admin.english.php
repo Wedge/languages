@@ -654,9 +654,6 @@ $txt['spider_stats'] = 'Stats';
 $txt['paid_subscriptions'] = 'Paid Subscriptions';
 $txt['paid_subs_view'] = 'View Subscriptions';
 
-$txt['max_urlLength'] = 'In posts, shorten URLs longer than...';
-$txt['max_urlLength_subtext'] = 'Default is 50 characters. Set to 0 to disable.';
-
 $txt['allow_ignore_topics'] = 'Enable members to ignore topics';
 
 // Merge double posts
