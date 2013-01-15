@@ -109,3 +109,11 @@ $txt['softban_nosearch'] = 'Chances qu\'un banni léger ne puisse pas lancer une
 
 $txt['softban_disableregistration'] = 'L\'enregistrement doit-il être désactivé pour les bannis légers&nbsp;?';
 $txt['softban_disableregistration_desc'] = 'Les bans légers peuvent inclure des adresses IP, si vous voulez empêcher les enregistrements de certaines zones géographiques.';
+
+$txt['softban_redirect'] = 'Chances d\'être redirigé vers une autre page';
+$txt['softban_redirect_subtext'] = 'Actif uniquement si vous entrez une URL ci-dessous.';
+$txt['softban_redirect_url'] = 'Adresse vers laquelle rediriger';
+
+$txt['softban_delay_min'] = 'Délai de chargement en secondes - minimal';
+$txt['softban_delay_max'] = 'Délai de chargement en secondes - maximal';
+$txt['softban_delay_max_subtext'] = 'Un délai aléatoire entre ces deux valeurs sera choisi, et les bannis légers devront patienter pendant ce temps supplémentaire avant le chargement de la page. Le délai maximal est de 15 secondes. Au-delà, la surchage du serveur devient importante.';
