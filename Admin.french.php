@@ -459,8 +459,6 @@ $txt['news_settings_desc'] = 'Ici vous pouvez changer les options et permissions
 $txt['news_mailing_desc'] = 'Depuis ce menu vous pouvez envoyer des messages à tous les membres qui se sont inscrits et ont spécifié leur adresse e-mail. Vous pouvez modifier la liste de distribution, ou envoyer un message à tous. Utile pour informer des mises à jour et nouvelles importantes.';
 $txt['groups_edit_news'] = 'Groupes autorisés à modifier les nouvelles';
 $txt['groups_send_mail'] = 'Groupes autorisés à envoyer les infolettres du forum';
-$txt['editnews_clickadd'] = 'Cliquez ici pour ajouter un item.';
-$txt['editnews_remove_selected'] = 'Supprimer la sélection';
 $txt['editnews_remove_confirm'] = 'Voulez-vous vraiment supprimer les nouvelles sélectionnées ?';
 $txt['censor_clickadd'] = 'Cliquez ici pour ajouter un autre mot.';
 

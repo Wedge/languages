@@ -68,7 +68,7 @@ $txt['admin_agreement_select_language'] = 'Language to edit';
 $txt['admin_agreement_select_language_change'] = 'Change';
 $txt['admin_delete_members'] = 'Delete Selected Members';
 $txt['admin_repair'] = 'Repair All Boards and Topics';
-$txt['admin_news_desc'] = 'Please place one news item per box. Some BBC tags, such as <span title="Are you bold?">[b]</span>, <span title="I tall icks!!">[i]</span> and <span title="Brackets are great, no?">[u]</span> are allowed in your news, as well as smileys. Clear a news item\'s text box to remove it.';
+$txt['admin_news_desc'] = 'From this area, you can configure the news banner that appears in the forum header and additionally the news-fader.';
 $txt['administrators'] = 'Forum Administrators';
 $txt['admin_activation_email'] = 'Send activation email to new members upon registration';
 $txt['admin_newsletter_send'] = 'You can email anyone from this page. The email addresses of the selected membergroups should appear below, but you may remove or add any email addresses you wish. Be sure that each address is separated in this fashion: \'address1; address2\'.';
@@ -459,9 +459,16 @@ $txt['news_settings_desc'] = 'Here you can change the settings and permissions r
 $txt['news_mailing_desc'] = 'From this menu you can send messages to all members who\'ve registered and entered their email addresses. You may edit the distribution list, or send messages to all. Useful for important update/news information.';
 $txt['groups_edit_news'] = 'Groups allowed to edit news items';
 $txt['groups_send_mail'] = 'Groups allowed to send out forum newsletters';
-$txt['editnews_clickadd'] = 'Click here to add another item.';
-$txt['editnews_remove_selected'] = 'Remove selected';
-$txt['editnews_remove_confirm'] = 'Are you sure you want to delete the selected news items?';
+$txt['editnews_remove_confirm'] = 'Are you sure you want to delete the selected news item?';
+$txt['editnews_add'] = 'Add a news item';
+$txt['editnews_edit'] = 'Edit a news item';
+$txt['editnews_saveorder'] = 'Save the new order';
+$txt['editnews_privacy_a'] = 'Admins only';
+$txt['editnews_privacy_s'] = 'Staff/moderators only';
+$txt['editnews_privacy_m'] = 'Members only';
+$txt['editnews_privacy_e'] = 'Everyone';
+$txt['editnews_visible'] = 'This news item is:';
+
 $txt['censor_clickadd'] = 'Click here to add another word.';
 
 $txt['layout_controls'] = 'Forum';
