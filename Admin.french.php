@@ -68,7 +68,7 @@ $txt['admin_agreement_select_language'] = 'Langue à modifier';
 $txt['admin_agreement_select_language_change'] = 'Changer';
 $txt['admin_delete_members'] = 'Supprimer les membres sélectionnés';
 $txt['admin_repair'] = 'Réparer tous les sites et sujets';
-$txt['admin_news_desc'] = 'SVP, ne placez qu\'une seule nouvelle par zone de texte. Quelques balises BBC, comme <span title="Le gras, c\'est la vie">[b]</span>, <span title="Italiques">[i]</span> et <span title="C\'est bien de le souligner">[u]</span> sont autorisées dans vos nouvelles, ainsi que les smileys. Enlevez tout le texte d\'une zone de texte pour la désactiver.';
+$txt['admin_news_desc'] = 'Cette page vous permet de créer les news qui apparaissent en haut du forum, ainsi que dans la bannière tournante.';
 $txt['administrators'] = 'Administrateurs du forum';
 $txt['admin_activation_email'] = 'Envoyer un e-mail d\'activation aux nouveaux membres lors de l\'inscription';
 $txt['admin_newsletter_send'] = 'Vous pouvez envoyer un e-mail à n\'importe qui à partir de cette page. Les adresses e-mail des groupes de membres sélectionnés devraient apparaîre ci-dessous, mais vous pouvez enlever ou ajouter n\'importe quelle adresse de votre choix. Veillez à vérifiez de séparer chaque adresse selon ce format&nbsp;: \'adresse1@qqch.com; adresse2@qqch.com\'.';
@@ -459,7 +459,15 @@ $txt['news_settings_desc'] = 'Ici vous pouvez changer les options et permissions
 $txt['news_mailing_desc'] = 'Depuis ce menu vous pouvez envoyer des messages à tous les membres qui se sont inscrits et ont spécifié leur adresse e-mail. Vous pouvez modifier la liste de distribution, ou envoyer un message à tous. Utile pour informer des mises à jour et nouvelles importantes.';
 $txt['groups_edit_news'] = 'Groupes autorisés à modifier les nouvelles';
 $txt['groups_send_mail'] = 'Groupes autorisés à envoyer les infolettres du forum';
-$txt['editnews_remove_confirm'] = 'Voulez-vous vraiment supprimer les nouvelles sélectionnées ?';
+$txt['editnews_remove_confirm'] = 'Voulez-vous vraiment supprimer les nouvelles sélectionnées&nbsp;?';
+$txt['editnews_add'] = 'Ajouter une news';
+$txt['editnews_edit'] = 'Modifier une news';
+$txt['editnews_saveorder'] = 'Enregistrer le nouvel ordre';
+$txt['editnews_privacy_a'] = 'Admins uniquement';
+$txt['editnews_privacy_s'] = 'Équipe/modérateurrs uniquement';
+$txt['editnews_privacy_m'] = 'Membres uniquement';
+$txt['editnews_privacy_e'] = 'Tout le monde';
+$txt['editnews_visible'] = 'Cette news est&nbsp;:';
 $txt['censor_clickadd'] = 'Cliquez ici pour ajouter un autre mot.';
 
 $txt['layout_controls'] = 'Forum';
