@@ -80,9 +80,7 @@ $txt['database_optimize'] = 'Optimiser la base de données';
 $txt['database_numb_tables'] = 'Votre base de données contient %1$d tables.';
 $txt['database_optimize_attempt'] = 'Tente d\'optimiser votre base de données&hellip;';
 $txt['database_optimizing'] = 'Optimise %1$s&hellip; %2$01.2f Ko optimisés.';
-$txt['database_already_optimized'] = 'Toutes les tables étaient déjà optimisées.';
-$txt['database_opimize_unneeded'] = 'Il n\'était pas nécessaire d\'optimiser les tables.';
-$txt['database_optimized'] = ' table(s) optimisée(s).';
+$txt['database_optimized'] = array(0 => 'Toutes les tables étaient déjà optimisées.', 1 => '%1$d table optimisée.', 'n' => '%1$d tables optimisées.');
 $txt['database_no_id'] = 'a un ID de membre inexistant';
 
 // Error and intrusion logs.
