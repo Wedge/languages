@@ -48,7 +48,7 @@ $txt['pm_successfully_sent'] = 'PM successfully sent to \'%1$s\'.';
 $txt['pm_send_report'] = 'Send report';
 $txt['pm_save_outbox'] = 'Save a copy in my outbox';
 $txt['pm_undisclosed_recipients'] = 'Undisclosed recipients';
-$txt['pm_too_many_recipients'] = 'You may not send personal messages to more than %1$d recipient(s) at once.';
+$txt['pm_too_many_recipients'] = array(1 => 'You may not send personal messages to more than %1$s recipient at once.', 'n' => 'You may not send personal messages to more than %1$s recipients at once.');
 
 $txt['pm_read'] = 'Read';
 $txt['pm_replied'] = 'Replied To';
@@ -117,7 +117,7 @@ $txt['pm_report_pm_subject'] = '[REPORT] ';
 // In the below string, do not translate "{REPORTER}" or "{SENDER}".
 $txt['pm_report_pm_user_sent'] = '{REPORTER} has reported the below personal message, sent by {SENDER}, for the following reason:';
 $txt['pm_report_pm_other_recipients'] = 'Other recipients of the message include:';
-$txt['pm_report_pm_hidden'] = '%1$d hidden recipient(s)';
+$txt['pm_report_pm_hidden'] = array(1 => '%1$s hidden recipient', 'n' => '%1$s hidden recipients');
 $txt['pm_report_pm_unedited_below'] = 'Below are the original contents of the personal message which was reported:';
 $txt['pm_report_pm_sent'] = 'Sent:';
 
