@@ -195,3 +195,7 @@ $txt['digest_mod_act_split'] = '"%1$s" was split';
 
 $txt['mail_send_unable'] = 'Unable to send mail to the email address \'%1$s\'';
 $txt['topic_summary'] = 'Topic Summary';
+
+$txt['order_pinned_topics'] = 'Order Pinned Topics';
+$txt['order_pinned_topics_desc'] = 'This area allows you to reorganize the pinned topics in this board. Just drag them into their new position and press the save button.';
+$txt['order_last_post_by'] = 'Last post by %1$s<br>%2$s';

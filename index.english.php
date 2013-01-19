@@ -423,6 +423,7 @@ $txt['set_pin'] = 'Pin topic';
 $txt['set_unpin'] = 'Unpin topic';
 $txt['set_lock'] = 'Lock topic';
 $txt['set_unlock'] = 'Unlock topic';
+$txt['order_pinned_topic'] = 'Reorder Pinned';
 
 $txt['search_advanced'] = 'Advanced search';
 $txt['search_simple'] = 'Simple search';
