@@ -72,7 +72,12 @@ $txt['font_face'] = 'Police du texte';
 $txt['toggle_view'] = 'Changer d\'Affichage';
 $txt['unformat_text'] = 'Enlever le Formatage';
 
-$txt['rich_edit_wont_work'] = 'Votre navigateur ne supporte pas l\'édition en Texte Enrichi.';
+// Editor prompt.
+$txt['prompt_text_email'] = 'Indiquez l\'adresse e-mail.';
+$txt['prompt_text_ftp'] = 'Indiquez l\'adresse FTP.';
+$txt['prompt_text_url'] = 'Indiquez l\'adresse Web du lien.';
+$txt['prompt_text_img'] = 'Indiquez l\'adresse Web de l\'image';
+$txt['prompt_text_desc'] = 'Entrez le texte du lien, laissez vide pour afficher l\'adresse.';
 
 // Use numeric entities in this string.
 $txt['notifyUnsubscribe'] = 'Cliquez ici pour vous d&#233;sabonner de ce sujet';
@@ -195,3 +200,7 @@ $txt['digest_mod_act_split'] = '"%1$s" a été séparé en deux sujets';
 
 $txt['mail_send_unable'] = 'Impossible d\'envoyer un e-mail à l\'adresse \'%1$s\'.';
 $txt['topic_summary'] = 'Résumé de la discussion';
+
+$txt['order_pinned_topics'] = 'Trier les sujets épinglés';
+$txt['order_pinned_topics_desc'] = 'Cette page vous permet de réorganiser les sujets épinglés. Déplacez-les vers leur nouvelle position puis appuyez sur le bouton Sauvegarder.';
+$txt['order_last_post_by'] = 'Dernier message par %1$s<br>%2$s';

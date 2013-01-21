@@ -21,6 +21,7 @@ $txt['not_a_user'] = 'L\'utilisateur dont vous essayez de consulter le profil n\
 $txt['not_a_topic'] = 'Ce sujet n\'existe pas dans ce forum.';
 $txt['not_approved_topic'] = 'Ce sujet n\'a pas encore été approuvé.';
 $txt['email_in_use'] = 'Cette adresse e-mail (%1$s) est déjà utilisée par un membre inscrit. Si vous pensez que c\'est une erreur, allez sur la page de connexion et demandez le rappel de votre mot de passe en indiquant cette adresse.';
+$txt['no_pinned_order'] = 'Il n\'y a pas de sujets épinglés à réorganiser dans cette section...';
 
 $txt['didnt_select_vote'] = 'Vous n\'avez pas choisi d\'option de vote.';
 $txt['poll_error'] = 'Soit ce sondage n\'existe pas, soit il est bloqué, soit vous avez essayé de voter 2 fois.';

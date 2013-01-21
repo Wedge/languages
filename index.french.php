@@ -420,6 +420,7 @@ $txt['set_pin'] = 'Épingler';
 $txt['set_unpin'] = 'Dépingler';
 $txt['set_lock'] = 'Bloquer';
 $txt['set_unlock'] = 'Débloquer';
+$txt['order_pinned_topic'] = 'Trier sujets épinglés';
 
 $txt['search_advanced'] = 'Recherche avancée';
 $txt['search_simple'] = 'Recherche simple';
@@ -651,13 +652,6 @@ $txt['footnote'] = 'Note de bas de page';
 // Restore topic
 $txt['restore_topic'] = 'Restaurer ce sujet';
 $txt['quick_mod_restore'] = 'Restaurer les messages sélectionnés';
-
-// Editor prompt.
-$txt['prompt_text_email'] = 'Indiquez l\'adresse e-mail.';
-$txt['prompt_text_ftp'] = 'Indiquez l\'adresse FTP.';
-$txt['prompt_text_url'] = 'Indiquez l\'adresse Web du lien.';
-$txt['prompt_text_img'] = 'Indiquez l\'adresse Web de l\'image';
-$txt['prompt_text_desc'] = 'Entrez le texte du lien, laissez vide pour afficher l\'adresse.';
 
 $txt['autosuggest_delete_item'] = 'Supprimer cet élément';
 

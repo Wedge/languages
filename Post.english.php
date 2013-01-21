@@ -72,9 +72,14 @@ $txt['font_face'] = 'Font Face';
 $txt['toggle_view'] = 'Toggle View';
 $txt['unformat_text'] = 'Remove Formatting';
 
-$txt['rich_edit_wont_work'] = 'Your browser does not support Rich Text editing.';
+// Editor prompt.
+$txt['prompt_text_email'] = 'Please enter the email address.';
+$txt['prompt_text_ftp'] = 'Please enter the ftp address.';
+$txt['prompt_text_url'] = 'Please enter the URL you wish to link to.';
+$txt['prompt_text_img'] = 'Enter image location';
+$txt['prompt_text_desc'] = 'Please enter what text the link should say. Leave blank to show the URL.';
 
-// Use numeric entities in the below five strings.
+// Use numeric entities in this string.
 $txt['notifyUnsubscribe'] = 'Unsubscribe to this topic by clicking here';
 
 $txt['lock_after_post'] = 'Lock after Post';

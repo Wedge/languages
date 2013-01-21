@@ -656,13 +656,6 @@ $txt['footnote'] = 'Footnote';
 $txt['restore_topic'] = 'Restore Topic';
 $txt['quick_mod_restore'] = 'Restore Selected';
 
-// Editor prompt.
-$txt['prompt_text_email'] = 'Please enter the email address.';
-$txt['prompt_text_ftp'] = 'Please enter the ftp address.';
-$txt['prompt_text_url'] = 'Please enter the URL you wish to link to.';
-$txt['prompt_text_img'] = 'Enter image location';
-$txt['prompt_text_desc'] = 'Please enter what text the link should say. Leave blank to show the URL.';
-
 $txt['autosuggest_delete_item'] = 'Delete Item';
 
 // Debug related - when $db_show_debug is true.
