@@ -89,8 +89,8 @@ $txt['plugins_repo_delete_confirm'] = 'Are you sure you wish to remove this repo
 
 $txt['plugins_repo_auth'] = 'Authorization Details';
 $txt['plugins_repo_auth_desc'] = 'If this repository needs a username and password, it should be entered here. If no authorization details should be used, leave both boxes blank.';
-$txt['plugins_repo_username'] = 'Username';
-$txt['plugins_repo_password'] = 'Password';
+$txt['plugins_repo_username'] = 'Repository username';
+$txt['plugins_repo_password'] = 'Repository password';
 $txt['plugins_repo_password_blank'] = 'Why is it blank?';
 
 $txt['plugins_repo_no_name'] = 'No repository name was provided; one is required.';
@@ -105,6 +105,8 @@ $txt['plugins_invalid_zip'] = 'The plugin was uploaded but for some reason, the 
 $txt['plugins_generic_error'] = 'The plugin was uploaded but unfortunately something went unexpectedly wrong. Please contact Wedge support and use the reference: %1$s:%2$s when describing your problem.';
 $txt['plugins_invalid_plugin_no_info'] = 'Your plugin was uploaded, but it does not contain a valid plugin-info.xml file that Wedge needs to understand it. Contact the plugin\'s author for support.';
 $txt['plugins_invalid_plugin_overinfo'] = 'Your plugin was uploaded, but it contains multiple files called plugin-info.xml, and Wedge does not know which of those it should refer to. Contact the plugin\'s author for support.';
+$txt['plugins_uploaded_error'] = 'There was a problem with the plugin since you uploaded it. Please try uploading it again.';
+$txt['plugins_uploaded_tampering'] = 'There was a problem with the plugin since you uploaded it; there are some signs that it may have been tampered with and has been removed for your protection.';
 
 $txt['plugin_duplicate_detected_title'] = 'Duplicate Plugin Detected';
 $txt['plugin_duplicate_detected'] = 'The plugin you have uploaded ($1$s) appears to be a duplicate of an existing plugin already active in your site (%2$s). What would you like to do about this?';
@@ -115,3 +117,28 @@ $txt['plugin_duplicate_proceed_desc'] = 'The existing plugin will be disabled an
 
 $txt['plugin_upload_successful_title'] = 'Upload Successful';
 $txt['plugin_upload_successful'] = 'Your plugin file was successfully uploaded and so far appears to be valid. Next, Wedge will begin the process of unpacking the plugin. This may be done in several steps to limit server load.';
+
+$txt['plugin_connection_successful_title'] = 'Connection Successful';
+$txt['plugin_connection_successful'] = 'The provided details for your server seem to be correct, so we can now proceed to the next stage of the upload.';
+
+$txt['plugin_connection_details_title'] = 'Connection Details';
+$txt['plugin_connection_details'] = 'In order to proceed, Wedge requires FTP or SFTP credentials so that your plugin can be properly installed on the server.';
+$txt['plugin_connection_cancel_oops'] = 'Um...';
+$txt['plugin_connection_cancel'] = 'In the event that your host has not given you FTP or SFTP access details, you will not be able to use the web uploader and will need to contact your host about other ways to upload files; in these cases you may need to manually unpack and upload plugins to the Plugins folder.';
+$txt['plugin_connection_button'] = 'I haven\'t got these';
+$txt['plugin_connection_required'] = 'Assuming you have got such details, here is what Wedge needs to know from you.';
+
+$txt['plugin_connection'] = 'These are my details';
+$txt['plugin_ftp_server'] = 'Server:';
+$txt['plugin_ftp_port'] = 'Port:';
+$txt['plugin_ftp_username'] = 'Username:';
+$txt['plugin_ftp_password'] = 'Password:';
+$txt['plugin_ftp_type'] = 'Type of connection:';
+$txt['plugin_ftp_path'] = 'Path to the Plugins folder:';
+$txt['plugin_ftp_save'] = 'Save these details for later';
+$txt['plugin_ftp_error'] = 'The details provided were not correct:';
+$txt['plugin_ftp_error_bad_server'] = 'The server provided appears to be incorrect.';
+$txt['plugin_ftp_error_bad_response'] = 'After contacting the FTP server, there was a strange response from it; perhaps try again later.';
+$txt['plugin_ftp_error_bad_username'] = 'The username details provided were incorrect.';
+$txt['plugin_ftp_error_bad_password'] = 'The password provided was incorrect.';
+$txt['plugin_ftp_error_wrong_folder'] = 'The folder provided was incorrect, and all attempts to find the correct folder all failed.';
