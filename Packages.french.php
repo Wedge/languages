@@ -8,26 +8,19 @@ $txt['package_read'] = 'Lire';
 $txt['script_output'] = 'Sortie du script&nbsp;:';
 $txt['additional_notes'] = 'Notes additionnelles';
 $txt['notes_file'] = 'Fichier d\'instructions/notes additionnelles';
-$txt['list_file'] = 'Lister les fichiers de l\'extension';
-$txt['files_archive'] = 'Fichiers dans l\'archive';
 $txt['package_get'] = 'Récupérer des extensions';
 $txt['package_servers'] = 'Serveurs d\'extensions';
 $txt['package_browse'] = 'Parcourir';
 $txt['add_server'] = 'Ajouter un serveur';
 $txt['server_name'] = 'Nom du serveur';
 $txt['serverurl'] = 'URL';
-$txt['no_packages'] = 'Pas encore d\'extension.';
 $txt['download'] = 'Télécharger';
-$txt['download_success'] = 'Extension téléchargée avec succès';
 $txt['package_downloaded_successfully'] = 'L\'extension a été téléchargée avec succès';
 $txt['package_manager'] = 'Gestionnaire d\'Extensions';
-$txt['install_mod'] = 'Installer extension';
-$txt['uninstall_mod'] = 'Désinstaller extension';
 $txt['sql_file'] = 'Le fichier d\'extension a été extrait, il est accompagné d\'un fichier SQL afin de modifier votre base de données. Il serait judicieux de l\'exécuter.';
 $txt['sql_queries'] = 'Requêtes SQL';
 $txt['no_mods_installed'] = 'Aucune extension installée actuellement';
 $txt['browse_installed'] = 'Parcourir les extensions installées';
-$txt['uninstall'] = 'Désinstaller';
 $txt['delete_list'] = 'Effacer la liste des modifications';
 $txt['php_safe_mode'] = 'Votre serveur PHP est réglé en SAFE MODE.  Cette fonction est incompatible avec le SAFE MODE.  Désolé.';
 $txt['lets_try_anyway'] = 'Essayons quand même.';
@@ -38,96 +31,18 @@ $txt['download_packages_desc'] = 'Depuis cette rubrique, vous pouvez choisir de 
 $txt['create_package'] = 'Créer une nouvelle extension';
 $txt['download_new_package'] = 'Récupérer de nouvelles extensions';
 $txt['view_and_remove'] = 'Voir et retirer des extensions installées';
-$txt['modification_package'] = 'Extensions de code';
-$txt['avatar_package'] = 'Extensions d\'avatars';
-$txt['language_package'] = 'Extensions de langues';
-$txt['unknown_package'] = 'Extensions inconnues';
-$txt['use_avatars'] = 'Utiliser les avatars';
-$txt['add_languages'] = 'Ajouter une langue';
-$txt['list_files'] = 'Lister les fichiers';
+
 $txt['package_type'] = 'Type d\'extension';
 $txt['archiving'] = 'Archivage';
-$txt['extracting'] = 'Extraction';
-$txt['avatars_extracted'] = 'Les avatars ont été extraits, vous pouvez maintenant les utiliser.';
-$txt['language_extracted'] = 'L\'extension de langue a été extraite, vous pouvez maintenant l\'utiliser (en la choisissant dans vos paramètres).';
 
-$txt['mod_name'] = 'Nom de l\'extension';
-$txt['mod_version'] = 'Version';
 $txt['author_website'] = 'Page web de l\'auteur';
 $txt['package_no_description'] = 'Aucune description donnée';
 $txt['package_description'] = 'Description';
 $txt['file_location'] = 'Localisation du fichier';
 
-$txt['package_installed_key'] = 'Extensions installées&nbsp;:';
-$txt['package_installed_current'] = 'version actuelle';
-$txt['package_installed_old'] = 'version plus ancienne';
-$txt['package_installed_warning1'] = 'Cette extension est déjà installée, aucune mise à jour n\'a été trouvée&nbsp;!';
-$txt['package_installed_warning2'] = 'Vous devriez d\'abord désinstaller l\'ancienne version pour éviter des problèmes, ou demander à l\'auteur de créer une mise à jour de votre vieille version.';
-$txt['package_installed_warning3'] = 'Attention, souvenez-vous de toujours sauvegarder vos fichiers sources et votre base de données avant d\'installer des extensions, surtout pour celles en version bêta.';
-$txt['package_installed_extract'] = 'Extraction de l\'extension';
-$txt['package_installed_done'] = 'L\'extension a été installée avec succès. Vous devriez maintenant pouvoir utiliser toutes les fonctionnalités qu\'elle ajoute ou modifie, ou au contraire ne plus pouvoir utiliser celles qu\'elle retire.';
-$txt['package_installed_redirecting'] = 'Redirection...';
-$txt['package_installed_redirect_go_now'] = 'Redirection immédiate';
-$txt['package_installed_redirect_cancel'] = 'Revenir au gestionnaire d\'extensions';
-
-$txt['packages_latest'] = 'Dernières Extensions';
-$txt['packages_latest_fetch'] = 'Tentative de récupération des extensions les plus récentes et populaires depuis wedge.org...';
-
 $txt['package_upgrade'] = 'Mettre à jour';
-$txt['package_uninstall_readme'] = 'Instructions de désinstallation';
-$txt['package_install_readme'] = 'Instructions d\'installation';
-$txt['package_install_type'] = 'Type';
-$txt['package_install_action'] = 'Action';
-$txt['package_install_desc'] = 'Description';
-$txt['install_actions'] = 'Actions d\'installation';
-$txt['perform_actions'] = 'L\'installation de cette extension effectuera les actions suivantes&nbsp;:';
-$txt['corrupt_compatible'] = 'Aucune action d\'installation ou de désinstallation n\'a été définie pour cette version de Wedge&nbsp;!';
-$txt['package_create'] = 'Créer';
-$txt['package_move'] = 'Déplacer';
-$txt['package_delete'] = 'Effacer';
-$txt['package_extract'] = 'Extraire';
-$txt['package_file'] = 'Fichier';
-$txt['package_tree'] = 'Arbre';
-$txt['execute_modification'] = 'Appliquer la modification';
-$txt['execute_code'] = 'Exécuter le code';
-$txt['execute_database_changes'] = 'Adapter la Base de Données';
-$txt['package_add_hook'] = 'Inscription d\'un <em>hook</em>';
-$txt['package_remove_hook'] = 'Désinscription d\'un <em>hook</em>';
-$txt['hook_nofile'] = 'Hook %1$s, fonction %2$s()';
-$txt['hook_file'] = 'Hook %1$s, fonction %2$s() (dans le fichier %3$s)';
-
-$txt['package_install_actions'] = 'Actions d\'installation pour';
-$txt['package_will_fail_title'] = 'Erreur lors de l\'installation de l\'extension';
-$txt['package_will_fail_warning'] = 'Au moins une erreur a été rencontrée lors d\'un test d\'installation de cette extension.
-	Il est <strong>vivement</strong> recommandé que vous ne continuiez pas son installation à moins d\'être sûr de ce que vous faites et que vous avez fait très récemment une copie de sauvegarde de votre forum et de votre base de données.
-	Cette erreur peut être causée entre autre par un conflit avec l\'extension que vous tentez d\'installer et une autre extension que vous avez précédemment installée, une erreur dans l\'extension elle-même, une extension qui requiert une autre extension que vous n\'avez pas encore installée, ou une extension écrite pour une autre version de Wedge.';
-$txt['package_will_fail_popup'] = 'Êtes-vous sûr de vouloir continuer l\'installation de cette extension, même si elle ne s\'installera pas avec succès ?';
-$txt['package_will_fail_popup_uninstall'] = 'Êtes-vous sûr de vouloir continuer la désinstallation de cette extension, même si elle ne se désinstallera pas avec succès ?';
-$txt['package_install_now'] = 'Installer maintenant';
-$txt['package_uninstall_now'] = 'Désinstaller maintenant';
-$txt['package_other_themes'] = 'Installer dans d\'Autres Thèmes';
-$txt['package_other_themes_uninstall'] = 'Désinstaller dans d\'Autres Thèmes';
-$txt['package_other_themes_desc'] = 'Pour utiliser cette extension dans d\'autres thèmes que celui par défaut, le gestionnaire d\'extensions a besoin de faire des changements supplémentaires dans les autres thèmes. Si vous désirez installer cette extension dans d\'autres thèmes, veuillez sélectionner ces derniers ci-dessous.';
-$txt['package_theme_failure_warning'] = 'Au moins une erreur a été rencontrée durant un test d\'installation de ce thème. Êtes-vous sûr de vouloir tenter l\'installation ?';
-
-$txt['package_bytes'] = 'octets';
 
 $txt['package_action_missing'] = '<strong class="error">Fichier introuvable</strong>';
-$txt['package_action_error'] = '<strong class="error">Erreur de syntaxe lors de l\'installation</strong>';
-$txt['package_action_failure'] = '<strong class="error">Échec du test</strong>';
-$txt['package_action_success'] = '<strong style="color: green">Réussite du test</strong>';
-$txt['package_action_skipping'] = '<strong>Passer le fichier</strong>';
-
-$txt['package_uninstall_actions'] = 'Actions de désinstallation';
-$txt['package_uninstall_done'] = 'L\'extension a été désinstallée, elle ne devrait plus avoir d\'effet.';
-$txt['package_uninstall_cannot'] = 'Cette extension ne peut pas être désinstallée parce qu\'elle n\'a pas de désinstallateur&nbsp;!<br><br>Veuillez contacter son auteur pour plus d\'informations.';
-
-$txt['package_install_options'] = 'Options d\'installation';
-$txt['package_install_options_ftp_why'] = 'Utiliser la fonction de transfert FTP du gestionnaire d\'extensions est la façon la plus simple d\'installer une extension. Vous devrez désigner manuellement les fichiers inscriptibles afin que le gestionnaire d\'extensions fonctionne.<br>Ici vous pouvez paramétrer les valeurs par défaut pour certains champs.';
-$txt['package_install_options_ftp_server'] = 'Serveur FTP';
-$txt['package_install_options_ftp_port'] = 'Port';
-$txt['package_install_options_ftp_user'] = 'Identifiant';
-$txt['package_install_options_make_backups'] = 'Créer une copie de sauvegarde des fichiers modifiés avec un tilde (~) à la fin de leurs noms.';
 
 $txt['package_ftp_necessary'] = 'Informations FTP nécessaires';
 $txt['package_ftp_why'] = 'Certains fichiers que le gestionnaire d\'extensions doit modifier ne sont pas accessibles en écriture. Cela doit être changé en vous connectant par FTP pour changer les droits d\'accès aux fichiers ou créer des dossiers. Vos informations de connexion FTP peuvent être temporairement conservées en cache du gestionnaire d\'extensions pour effectuer proprement les opérations. Notez que vous pouvez également faire ceci manuellement en utilisant un client FTP (pour voir une liste des fichiers concernés, veuillez cliquer <a href="#" onclick="%1$s">ici</a>)';
@@ -143,15 +58,11 @@ $txt['package_ftp_test_connection'] = 'Test de Connexion';
 $txt['package_ftp_test_success'] = 'Connexion FTP établie.';
 $txt['package_ftp_test_failed'] = 'La connexion au serveur FTP a échoué.';
 
-$txt['package_delete_bad'] = 'L\'extension que vous tentez de supprimer est actuellement installée&nbsp;! Si vous la supprimez maintenant, vous pourriez ne plus être capable de la désinstaller plus tard.<br><br>Voulez-vous continuer&nbsp;?';
-
-$txt['package_examine_file'] = 'Voir un fichier de l\'extension';
 $txt['package_file_contents'] = 'Contenu du fichier';
 
 $txt['package_upload_title'] = 'Uploader une extension';
 $txt['package_upload_select'] = 'Extension à transférer';
 $txt['package_upload'] = 'Transférer';
-$txt['package_uploaded_success'] = 'Transfert de l\'extension réussi';
 $txt['package_uploaded_successfully'] = 'L\'extension a été transférée avec succès';
 
 $txt['package_modification_malformed'] = 'Fichier d\'extension erroné ou invalide.';
@@ -169,29 +80,6 @@ $txt['package_cleanperms_go'] = 'Procéder au changement des droits sur les fich
 $txt['package_download_by_url'] = 'Télécharger une extension par son URL';
 $txt['package_download_filename'] = 'Nom du fichier';
 $txt['package_download_filename_info'] = 'Valeur facultative. Doit être utilisé lorsque l\'URL ne se finit pas par le nom du fichier. Par exemple&nbsp;: index.php?mod=5';
-
-$txt['package_db_uninstall'] = 'Supprimer toutes les données associées à cette extension.';
-$txt['package_db_uninstall_details'] = 'Détails';
-$txt['package_db_uninstall_actions'] = 'Cocher cette option appliquera les changements suivants dans la base de données';
-$txt['package_db_remove_table'] = 'Supprimer la table &quot;%1$s&quot;';
-$txt['package_db_remove_column'] = 'Supprimer la colonne &quot;%1$s&quot; de &quot;%2$s&quot;';
-$txt['package_db_remove_index'] = 'Supprimer l\'index &quot;%1$s&quot; de &quot;%2$s&quot;';
-
-$txt['package_advanced_button'] = 'Avancé';
-$txt['package_advanced_options'] = 'Options Avancées';
-$txt['package_apply'] = 'Appliquer';
-$txt['package_emulate'] = 'Emuler la Version';
-$txt['package_emulate_revert'] = 'Rétablir';
-$txt['package_emulate_desc'] = 'Quelquefois, les extensions sont verrouillées à l\'utilisation pour des versions antérieures de Wedge mais restent compatibles avec une nouvelle version. Ici vous pouvez choisir d\' &quot;émuler&quot; une version différente de Wedge dans le gestionnaire d\'extensions.';
-
-// Operations.
-$txt['operation_find'] = 'Chercher';
-$txt['operation_replace'] = 'Remplacer';
-$txt['operation_after'] = 'Ajouter Après';
-$txt['operation_before'] = 'Ajouter Avant';
-$txt['operation_title'] = 'Opérations';
-$txt['operation_ignore'] = 'Ignorer les Erreurs';
-$txt['operation_invalid'] = 'L\'opération sélectionnée est invalide.';
 
 $txt['package_file_perms_desc'] = 'Vous pouvez utiliser cette section pour vérifier si les dossiers et fichiers critiques de votre forum sont inscriptibles. Notez que seuls sont pris en compte les répertoires et fichiers-clé du forum - utilisez un client FTP pour plus d\'options.';
 $txt['package_file_perms_name'] = 'Nom de Fichier/Dossier';
@@ -253,6 +141,3 @@ $txt['package_file_perms_warning_desc'] = '
 $txt['package_confirm_view_package_content'] = 'Êtes-vous sûr de vouloir visionner le contenu de l\'extension située à cet endroit&nbsp;?<br><br>%1$s';
 $txt['package_confirm_proceed'] = 'Oui';
 $txt['package_confirm_go_back'] = 'Retour';
-
-$txt['package_readme_default'] = 'Défaut';
-$txt['package_available_readme_language'] = 'Langues disponibles pour le Lisez-moi&nbsp;:';

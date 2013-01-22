@@ -243,10 +243,8 @@ $txt['smileys_upload_error_illegal'] = 'Illegal Type.';
 $txt['search_invalid_weights'] = 'Search weights are not properly configured. At least one weight should be configure to be non-zero. Please report this error to an administrator.';
 $txt['unable_to_create_temporary'] = 'The search function was unable to create temporary tables. Please try again.';
 
-$txt['package_no_file'] = 'Unable to find plugin package file!';
 $txt['packageget_unable'] = 'Unable to connect to the server. Please try using <a href="%1$s" target="_blank" class="new_win">this URL</a> instead.';
 $txt['package_not_on_wedge'] = 'Sorry, plugins can only be downloaded like this from the wedge.org server.';
-$txt['package_cant_uninstall'] = 'This plugin was either never installed or was already uninstalled - you can\'t uninstall it now.';
 $txt['package_cant_download'] = 'You cannot download or install new plugins because the Packages directory or one of the files in it are not writable!';
 $txt['package_upload_error_nofile'] = 'You did not select a plugin to upload.';
 $txt['package_upload_error_failed'] = 'Could not upload plugin, please check directory permissions!';

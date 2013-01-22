@@ -640,7 +640,6 @@ $txt['permissions_boards'] = 'Permissions par Site';
 $txt['permissions_profiles'] = 'Modifier les Profils';
 
 // These are the old ones, which will be going
-$txt['browse_packages'] = 'Parcourir les Extensions';
 $txt['download_packages'] = 'Télécharger des Extensions';
 $txt['package_file_perms'] = 'Permissions des Fichiers';
 $txt['package_settings'] = 'Paramètres';

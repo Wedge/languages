@@ -641,7 +641,6 @@ $txt['permissions_boards'] = 'Board Permissions';
 $txt['permissions_profiles'] = 'Edit Profiles';
 
 // These are the old ones, which will be going
-$txt['browse_packages'] = 'Browse Plugins';
 $txt['download_packages'] = 'Download Plugins';
 $txt['package_file_perms'] = 'File Permissions';
 $txt['package_settings'] = 'Options';
