@@ -101,6 +101,7 @@ $txt['plugins_auth_diffuser'] = 'You have provided a username but no password (o
 
 $txt['plugins_invalid_upload'] = 'You appear to have attempted an upload of a plugin, but the file could not be saved. Perhaps it was too large for the server, or some other hosting limit. Remember: the plugin can always be extracted on your own computer and uploaded via FTP or SFTP to your forum\'s Plugins/ folder instead.';
 $txt['plugins_unable_read'] = 'The plugin was uploaded but for some reason, Wedge was not able to read the plugin. This may be caused by unusual host configuration, and may mean that you will need to upload plugins to the forum\'s Plugins/ folder via FTP or SFTP rather than through the web interface.';
+$txt['plugins_unable_write'] = 'The plugin was uploaded but for some reason, Wedge was not able to unpack the plugin\'s files to your server. This may be caused by unusual host configuration, and may mean that you will need to upload plugins to the forum\'s Plugins/ folder via FTP or SFTP rather than through the web interface.';
 $txt['plugins_invalid_zip'] = 'The plugin was uploaded but for some reason, the ZIP file appears to be invalid and cannot be unpacked into a usable plugin. You might want to try re-downloading the plugin from wherever you acquired it, or alternatively you can unpack it manually onto your computer and then upload it to the forum\'s Plugins/ folder through FTP or SFTP.';
 $txt['plugins_generic_error'] = 'The plugin was uploaded but unfortunately something went unexpectedly wrong. Please contact Wedge support and use the reference: %1$s:%2$s when describing your problem.';
 $txt['plugins_invalid_plugin_no_info'] = 'Your plugin was uploaded, but it does not contain a valid plugin-info.xml file that Wedge needs to understand it. Contact the plugin\'s author for support.';
@@ -142,3 +143,9 @@ $txt['plugin_ftp_error_bad_response'] = 'After contacting the FTP server, there 
 $txt['plugin_ftp_error_bad_username'] = 'The username details provided were incorrect.';
 $txt['plugin_ftp_error_bad_password'] = 'The password provided was incorrect.';
 $txt['plugin_ftp_error_wrong_folder'] = 'The folder provided was incorrect, and all attempts to find the correct folder all failed.';
+
+$txt['plugin_files_pruned_title'] = 'Old plugin removed';
+$txt['plugin_files_pruned'] = 'The old plugin was successfully removed. Wedge will now begin to install the new plugin.';
+
+$txt['plugin_folders_created_title'] = 'Folders created';
+$txt['plugin_folders_created'] = 'Before unpacking the files, Wedge had to add all the relevant folders for the files in your plugin. This has now been done, so all that remains is to upload the files.';
