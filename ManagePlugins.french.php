@@ -100,11 +100,14 @@ $txt['plugins_auth_pwd_nouser'] = 'Vous avez entré un mot de passe pour le dép
 $txt['plugins_auth_diffuser'] = 'Vous avez entré un identifiant pour le dépôt, mais pas de mot de passe - les deux sont nécessaires, ou laissez vide si le dépôt ne demande pas d\'authentification.';
 
 $txt['plugins_invalid_upload'] = 'Il semblerait que vous ayez tenté d\'uploader une extension, mais le fichier n\'a pas pu être sauvé. Peut-être était-il trop gros pour votre serveur, ou que votre hébergeur a imposé une autre limite. Pour rappel, les extensions peuvent être extraites sur votre ordinateur et uploadées par FTP ou SFTP directement dans le dossier Plugins à la racine de votre forum.';
-$txt['plugins_unable_read'] = 'L\'extension a été uploadée mais Wedge n\'a pas pu la lire. Cela peut être dû à une configuration inhabituelle de votre hébergement. Vous aurez peut-être besoin d\'uploader les extensions manuellement vers le dossier Plugins par FTP ou SFTP plutôt que via cette interface web.';
+$txt['plugins_unable_read'] = 'L\'extension a été uploadée mais Wedge n\'a pas pu la lire. Cela peut être dû à une configuration inhabituelle de votre hébergement. Vous aurez peut-être besoin d\'uploader vos extensions manuellement vers le dossier Plugins par FTP ou SFTP plutôt que via cette interface web.';
+$txt['plugins_unable_write'] = 'L\'extension a été uploadée mais Wedge n\'a pas pu décompresser ses fichiers sur votre serveur. C\'est peut-être dû à une configuration inhabituelle. Vous devrez probablement uploader vos extensions manuellement vers le dossier Plugins par FTP ou SFTP plutôt que via cette interface web.';
 $txt['plugins_invalid_zip'] = 'L\'extension a été uploadée mais le fichier Zip semble être corrompu et n\'a pas pu être lu. Essayez de le re-télécharger là où vous l\'avez récupéré, ou décompressez-le manuellement sur votre ordinateur et envoyez-le par FTP ou SFTP dans le dossier Plugins à la racine de votre forum.';
 $txt['plugins_generic_error'] = 'L\'extension a été uploadée mais l\'opération ne s\'est pas déroulée correctement. Merci de contacter le support de Wedge (en anglais de préférence), en indiquant la référence %1$s:%2$s quand vous décrirez votre problème.';
 $txt['plugins_invalid_plugin_no_info'] = 'Votre extension a été uploadée, mais elle ne contient pas de fichier plugin-info.xml valid. Wedge en a besoin pour installer l\'extension. Contactez l\'auteur de l\'extension pour plus d\'aide.';
 $txt['plugins_invalid_plugin_overinfo'] = 'Votre extension a été uploadée, mais elle contient plusieurs fichiers plugin-info.xml, et Wedge ne sait pas lequel utiliser. Contactez l\'auteur de l\'extension pour plus d\'aide.';
+$txt['plugins_uploaded_error'] = 'Un problème a été détecté avec cette extension après l\'upload. Merci de réessayer l\'envoi.';
+$txt['plugins_uploaded_tampering'] = 'Un problème a été détecté avec cette extension après l\'upload. Il semblerait qu\'elle ait été trafiquée, et a été supprimée pour votre propre protection.';
 
 $txt['plugin_duplicate_detected_title'] = 'Extension en double détectée';
 $txt['plugin_duplicate_detected'] = 'L\'extension que vous avez uploadée ($1$s) semble être identique à une extension déjà installée et active sur votre site (%2$s). Que faire&nbsp;?';
@@ -115,3 +118,33 @@ $txt['plugin_duplicate_proceed_desc'] = 'L\'extension déjà active sera désact
 
 $txt['plugin_upload_successful_title'] = 'Envoi réussi';
 $txt['plugin_upload_successful'] = 'L\'extension a été correctement uploadée, et tout semble être en ordre. Wedge va maintenant décompresser le fichier, ce qui peut nécessiter plusieurs étapes pour éviter de surcharger le serveur.';
+
+$txt['plugin_connection_successful_title'] = 'Connexion réussie';
+$txt['plugin_connection_successful'] = 'Les identifiants indiqués semblent être corrects, Wedge va maintenant passer à la prochaine étape de l\'installation.';
+
+$txt['plugin_connection_details_title'] = 'Détails de la connexion';
+$txt['plugin_connection_details'] = 'Pour pouvoir continuer à installer l\'extension sur votre serveur, Wedge a besoin de ses identifiants FTP ou SFTP.';
+$txt['plugin_connection_cancel_oops'] = 'Hum...';
+$txt['plugin_connection_cancel'] = 'Si votre hébergeur ne vous a pas fourni d\'identifiants FTP ou SFTP, vous ne pourrez pas utiliser l\'interface web, contactez alors votre hébergeur pour savoir commencer mettre vos fichiers en ligne. Vous aurez sans doute besoin de décompresser manuellement les extensions et de les uploader dans le dossier Plugins.';
+$txt['plugin_connection_button'] = 'Je ne les ai pas';
+$txt['plugin_connection_required'] = 'Si vous connaissez ces éléments, voici ce que Wedge a besoin de savoir.';
+
+$txt['plugin_connection'] = 'Voici mes identifiants';
+$txt['plugin_ftp_server'] = 'Serveur&nbsp;:';
+$txt['plugin_ftp_port'] = 'Port&nbsp;:';
+$txt['plugin_ftp_username'] = 'Nom d\'utilisateur&nbsp;:';
+$txt['plugin_ftp_password'] = 'Mot de passe&nbsp;:';
+$txt['plugin_ftp_type'] = 'Type de connexion&nbsp;:';
+$txt['plugin_ftp_path'] = 'Chemin vers le dossier Plugins&nbsp;:';
+$txt['plugin_ftp_save'] = 'Se souvenir de mes identifiants';
+$txt['plugin_ftp_error'] = 'Les éléments suivants sont à vérifier&nbsp;:';
+$txt['plugin_ftp_error_bad_server'] = 'Le serveur ne semble pas être le bon.';
+$txt['plugin_ftp_error_bad_response'] = 'Après avoir contacté le serveur FTP, une réponse inconnue a été reçue. Réessayez peut-être plus tard.';
+$txt['plugin_ftp_error_bad_username'] = 'Le nom d\'utilisateur est incorrect.';
+$txt['plugin_ftp_error_bad_password'] = 'Le mot de passe est incorrect.';
+$txt['plugin_ftp_error_wrong_folder'] = 'Le dossier indiqué est incorrect, et les tentatives de trouver le bon dossier ont échoué.';
+
+$txt['plugin_files_pruned_title'] = 'Ancienne extension supprimée';
+$txt['plugin_files_pruned'] = 'L\'ancienne extension a été supprimée. Wedge va maintenant installer la nouvelle.';
+
+$txt['plugin_folders_created_title'] = 'Dossiers créés';
