@@ -2,12 +2,12 @@
 // Version: 2.0; Home
 // This is a sample file.
 
-$txt['wedge_home_title'] = 'Wedge ~ conception de communautés assistée par ordinateur.';
+$txt['wedge_home_title'] = 'Wedge ~ conception de communautÃ©s assistÃ©e par ordinateur.';
 $txt['wedge_home_intro'] = '
-			Conçu en PHP 5 depuis des années par des développeurs réputés du logiciel SMF (voir la <a href="http://wedge.org/pub/faq/">FAQ</a>),
-			Wedge vous permet de créer et maintenir vos <b>forums</b>, avec un doigt de <em>French touch</em>. Blogs, HTML5, CSS3, jQuery, programmation object,
-			support UTF8, pré-compilation CSS, sécurité améliorée, brouillons, gestion et création simplifiée des thèmes et plugins&nbsp;? Il peut le faire&nbsp;!
-			Nous pensons qu\'une fois sorti, il ne tardera pas à vous convaincre que c\'est le <strong>meilleur logiciel de forums gratuit</strong>.
-			Jetez donc un &oelig;il à la <a href="http://wedge.org/pub/feats/">liste des fonctionnalités</a>, qui inclut notamment Aeva Media, système de galerie media exclusif.
-			Wedge remet le contrôle entre vos mains. Sa date de sortie&nbsp;? Dès qu\'il sera prêt.
-			<a href="http://wedge.org/blog/">Restez connectés</a> et souscrivez au <a href="http://wedge.org/blog/?action=feed;sa=news">flux RSS</a> de notre blog pour ne rien manquer&nbsp;!';
+			ConÃ§u en PHP 5 depuis des annÃ©es par des dÃ©veloppeurs rÃ©putÃ©s du logiciel SMF (voir la <a href="http://wedge.org/pub/faq/">FAQ</a>),
+			Wedge vous permet de crÃ©er et maintenir vos <b>forums</b>, avec un doigt de <em>French touch</em>. Blogs, HTML5, CSS3, jQuery, programmation object,
+			support UTF8, prÃ©-compilation CSS, sÃ©curitÃ© amÃ©liorÃ©e, brouillons, gestion et crÃ©ation simplifiÃ©e des thÃ¨mes et plugins&nbsp;? Il peut le faire&nbsp;!
+			Nous pensons qu\'une fois sorti, il ne tardera pas Ã  vous convaincre que c\'est le <strong>meilleur logiciel de forums gratuit</strong>.
+			Jetez donc un &oelig;il Ã  la <a href="http://wedge.org/pub/feats/">liste des fonctionnalitÃ©s</a>, qui inclut notamment Aeva Media, systÃ¨me de galerie media exclusif.
+			Wedge remet le contrÃ´le entre vos mains. Sa date de sortie&nbsp;? DÃ¨s qu\'il sera prÃªt.
+			<a href="http://wedge.org/blog/">Restez connectÃ©s</a> et souscrivez au <a href="http://wedge.org/blog/?action=feed;sa=news">flux RSS</a> de notre blog pour ne rien manquer&nbsp;!';
