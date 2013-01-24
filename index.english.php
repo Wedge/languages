@@ -109,6 +109,7 @@ $txt['warning_status'] = 'Warning Status';
 $txt['user_warn_watch'] = 'User is on moderator watch list';
 $txt['user_warn_moderate'] = 'User posts join approval queue';
 $txt['user_warn_mute'] = 'User is banned from posting';
+$txt['user_warn_ban'] = 'User is currently banned';
 $txt['warn_watch'] = 'Watched';
 $txt['warn_moderate'] = 'Moderated';
 $txt['warn_mute'] = 'Muted';
