@@ -103,6 +103,7 @@ $txt['warning_status'] = 'Niveau de sanction';
 $txt['user_warn_watch'] = 'L\'utilisateur est sur la liste de surveillance des modérateurs';
 $txt['user_warn_moderate'] = 'Les messages de l\'utilisateur doivent être approuvés avant publication';
 $txt['user_warn_mute'] = 'Suite à un bannissement, l\'utilisateur ne peut plus poster';
+$txt['user_warn_ban'] = 'L\'utilisateur est actuellement banni';
 $txt['warn_watch'] = 'Surveillé';
 $txt['warn_moderate'] = 'Modéré';
 $txt['warn_mute'] = 'Mis au silence';
