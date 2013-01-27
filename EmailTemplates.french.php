@@ -558,7 +558,7 @@ Avant de vous connecter, vous devrez d\'abord activer votre compte en cliquant s
 
 {ACTIVATIONLINK}
 
-Si vous avez des probl&#232;mes avec l'activation, allez sur {ACTIVATIONLINKWITHOUTCODE} et entrez le code "{ACTIVATIONCODE}".
+Si vous avez des probl&#232;mes avec l\'activation, allez sur {ACTIVATIONLINKWITHOUTCODE} et entrez le code "{ACTIVATIONCODE}".
 
 Une fois ce processus termin&#233;, l\'administrateur v&#233;rifiera votre inscription et l\'activera d&#233;finitivement le cas &#233;ch&#233;ant. Vous recevrez alors un nouvel e-mail pour vous pr&#233;venir.
 
