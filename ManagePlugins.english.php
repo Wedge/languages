@@ -16,6 +16,9 @@ $txt['install_error_missinghook'] = 'One or more features required by this plugi
 $txt['install_error_reqfunc'] = 'This function requires the following PHP functions to be accessible: %1$s';
 $txt['install_error_duplicate_id'] = 'Another plugin with the same identification is already enabled.';
 $txt['fatal_duplicate_id'] = 'Another plugin with the same plugin identification is already enabled, perhaps a different version of the same plugin. It needs to be disabled before this plugin can be enabled.';
+$txt['install_error_maint_mode'] = 'You need to be in maintenance mode before you can install this plugin.';
+$txt['fatal_install_error_maint_mode'] = 'This plugin will make large scale database changes on your forum. To make that process easier, and faster, the plugin will not allow itself to be installed until the forum is put into maintenance mode. This is a safety feature and should not be ignored.';
+$txt['fatal_remove_error_maint_mode'] = 'This plugin made large scale database changes on your forum when installing. To make it easier to process, and faster, the plugin requires that the forum be put into maintenance mode before it is removed. This is a safety feature and should not be ignored.';
 $txt['fatal_install_error_reqfunc'] = 'This plugin makes use of features not currently supported by your PHP installation, that have the following function names: %1$s. You should contact your web-host for more information.';
 $txt['fatal_install_error_missinghook'] = 'This plugin makes use of features not currently available in this install, that have the references: %1$s. You should probably contact the plugin\'s author for support.';
 $txt['fatal_install_enable_missing'] =  'This plugin specifies that a certain file contains instructions to be carried out when enabling it, %1$s, but the file cannot be found where the plugin said it should be.';
@@ -45,6 +48,7 @@ $txt['remove_plugin_unsure'] = 'If you are not sure whether you want to keep the
 $txt['remove_plugin_already_enabled'] = 'This plugin is currently enabled. You must disable it before attempting to remove it.';
 $txt['remove_plugin_files_still_there'] = 'The files for your plugin could not be deleted. You may have to log into your server with FTP to remove the %1$s folder.';
 $txt['remove_plugin_files_pre_still_there'] = 'Your plugin has not yet been removed; the files that make it up cannot be deleted without logging into FTP to change the permissions to make them deletable.';
+$txt['remove_plugin_maint'] = 'This plugin states that it requires the forum to be in maintenance mode before it can be removed due to large scale database changes.';
 
 $txt['plugin_filter'] = 'Filter plugins:';
 $txt['plugin_filter_all'] = 'All (%1$d)';
