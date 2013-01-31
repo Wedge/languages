@@ -305,8 +305,12 @@ $helptxt['obfuscate_filenames'] = 'This option will modify the filenames for Jav
 $helptxt['minify'] = 'This option will minify JavaScript files when they\'re being cached. If you allow Wedge to minify files, it will remove all comments and useless whitespace,
 		speeding up your site\'s loading speed. Only cached files will be minified, the original files are of course left untouched.<br><br>
 		Using Packer for minification is more efficient, with one caveat: if your scripts aren\'t tightly programmed, they will crash (use <a href="http://www.jslint.com/" target="_blank">JSLint</a>
-		to fix them). Also, if gzip compression isn\'t available on your server (the agony!), Packer will compress the files as best at it can, but it will introduce
-		a small delay at execution time because. Otherwise, use JSMin, which is a good compromise if your scripts won\'t run.<br><br>
+		to fix them). Also, if gzip compression isn\'t available on your server (the agony!), Packer will compress the files as well at it can, but it will introduce
+		a small delay at execution time because it has to do some extra unpacking. Otherwise, use JSMin, which is a good compromise if your scripts won\'t run.<br><br>
+		A note on Google Closure. Instead of running a local PHP script to minify your JavaScript, this option will instead send your script to Google\'s servers and
+		request a minified version of it. Closure is a bit more efficient than Packer, but the process is much, much longer (several seconds per file), so we would
+		recommend choosing Packer if you update your forum files very often. Finally, there is a set limit on how many files you can minify per hour.
+		Wedge will detect any such issues and will fall back to using Packer if Google Closure was unable or unwilling to compress your file.<br><br>
 		Disable the setting if you\'re currently working on your scripts, it will make it easier to debug them. Really, we don\'t want to make your life miserable.
 		Well, I do, but I\'m not doing it. I just think of it so I can secretly practice my evil laugh, then I get a life and I add these silly settings everywhere.';
 $helptxt['jquery_origin'] = 'This option allows you to choose which server to serve the jQuery script from. If you\'re trying to save bandwidth, you may want to use

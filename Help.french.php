@@ -294,6 +294,10 @@ $helptxt['minify'] = 'Cette option permet de minifier les fichiers JavaScript av
 		La compression avec Packer est plus efficace, mais si vos scripts sont mal fichus, ils planteront (utilisez <a href="http://www.jslint.com/" target="_blank">JSLint</a> pour les
 		corriger). De plus, si la compression gzip n\'est pas disponible sur votre serveur, Packer se chargera de compresser encore plus les fichiers, au prix d\'un léger
 		ralentissement pour les utilisateurs. Sinon, utilisez JSMin, qui est un bon compromis si vos scripts plantent.<br><br>
+		Quelques informations sur Google Closure. Si vous choisissez cette option, au lieu de lancer un script PHP local pour minifier vos fichiers, Wedge va envoyer
+		ceux-ci aux serveurs de Google et demander une version minifiée. Closure est un poil plus efficace que Packer, mais le processus est beaucoup, BEAUCOUP plus long
+		(plusieurs secondes par fichier !), il est donc déconseillé de l\'utiliser si vous mettez à jour vos fichiers très souvent. Enfin, Google impose une limite sur le nombre
+		de fichiers compressables par ses soins tous les jours. Wedge détecte ce type d\'erreur et fait appel à Packer pour générer le fichier dans ces conditions.<br><br>
 		Désactivez l\'option pour pouvoir débugger plus facilement vos scripts. Non, parce que sinon c\'est même pas la peine d\'y penser. On veut pas vous pourrir la vie,
 		hein. Enfin, moi si, mais ça dure juste une minute, je sors mon rire démoniaque et puis je prends un calmant et j\'ajoute ces fichues options qui simplifient tout.';
 $helptxt['jquery_origin'] = 'Cette option permet de choisir l\'adresse à partir de laquelle sera chargé le script jQuery. Pour économiser en bande passante, vous pouvez
