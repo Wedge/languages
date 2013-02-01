@@ -5,6 +5,7 @@ $txt['ban_general_description'] = 'In this area you can manage bans against user
 $txt['ban_description_hard'] = 'This area allows you to manage "hard" bans, which stop users straight away and prevent them going further.';
 $txt['ban_description_soft'] = 'This area allows you to manage "soft" bans to users, which will not prevent them from using the forum, but it does slow them down and gently discourages them from being troublemakers, with the forum appearing to have technical difficulties occasionally.';
 $txt['ban_description_add'] = 'This area allows you to add a new ban to your forum.';
+$txt['ban_description_edit'] = 'This area allows you to edit a ban in your forum.';
 $txt['ban_description_settings'] = 'This area allows you to change the settings that apply to bans, predominantly that affect "soft" bans.';
 
 $txt['ban_type'] = 'Type';
@@ -95,8 +96,10 @@ $txt['ban_no_modify'] = 'You cannot modify a hostname ban when hostname lookups 
 $txt['ban_invalid_type'] = 'You did not specify a valid type of ban.';
 $txt['ban_invalid_member'] = 'You did not specify a valid member to ban.';
 $txt['ban_invalid_membername'] = 'You did not specify a valid name to ban.';
+$txt['ban_invalid_email'] = 'You did not specify a valid email to ban.';
 $txt['ban_invalid_ip_address'] = 'You did not specify a valid IP address or range to ban.';
 $txt['ban_invalid_hostname'] = 'You did not specify a valid hostname to ban.';
+$txt['ban_invalid_reason'] = 'You did not specify a reason for the ban.';
 
 $txt['ban_membername_style'] = 'When applying a member name ban, what should it be applied to?';
 $txt['ban_membername_style_username'] = 'User names only';
