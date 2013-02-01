@@ -14,8 +14,6 @@ $txt['ban_type_email'] = 'E-mail';
 $txt['ban_type_ip_address'] = 'IP';
 $txt['ban_type_hostname'] = 'Nom d\'hôte';
 
-$txt['ban_edit'] = 'Modifier ban';
-
 $txt['ban_content'] = 'Banni';
 $txt['ban_reason'] = 'Raison du ban';
 $txt['ban_added'] = 'Ajouté le';

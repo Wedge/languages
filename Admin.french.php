@@ -155,6 +155,7 @@ $txt['ban_title'] = 'Bannissements';
 $txt['ban_hard'] = 'Bans sévères';
 $txt['ban_soft'] = 'Bans légers';
 $txt['ban_add'] = 'Ajouter';
+$txt['ban_edit'] = 'Modifier ban';
 $txt['ban_settings'] = 'Paramètres';
 
 $txt['ban_ip'] = 'Bannissement d\'IP&nbsp;: (ex. 192.168.12.213 or 128.0.*.*) - une entrée par ligne';
@@ -189,7 +190,6 @@ $txt['ban_notes_desc'] = 'Notes pouvant informer les autres membres du staff.';
 
 $txt['ban_modify'] = 'Modifier';
 $txt['ban_name'] = 'Nom du bannissement';
-$txt['ban_edit'] = 'Modifier les bannissements';
 $txt['ban_add_notes'] = '<strong>Note</strong>&nbsp;: après la création du bannissement ci-dessus, vous pourrez ajouter des entrées additionnelles qui déclenchent le bannissement, comme les adresses IP, les noms d\'hôtes et les adresses e-mail.';
 $txt['ban_expired'] = 'Expiré / désactivé';
 $txt['ban_restriction_empty'] = 'Aucune restriction sélectionnée.';

@@ -155,6 +155,7 @@ $txt['ban_title'] = 'Bans';
 $txt['ban_hard'] = 'Hard Bans';
 $txt['ban_soft'] = 'Soft Bans';
 $txt['ban_add'] = 'Add Ban';
+$txt['ban_edit'] = 'Edit Ban';
 $txt['ban_settings'] = 'Ban Settings';
 
 $txt['ban_ip'] = 'IP banning: (e.g. 192.168.12.213 or 128.0.*.*) - one entry per line';
@@ -189,7 +190,6 @@ $txt['ban_notes_desc'] = 'Notes that may assist other staff members.';
 
 $txt['ban_modify'] = 'Modify';
 $txt['ban_name'] = 'Ban name';
-$txt['ban_edit'] = 'Edit ban';
 $txt['ban_add_notes'] = '<strong>Note</strong>: after creating the above ban, you can add additional entries that trigger the ban, like IP addresses, hostnames and email addresses.';
 $txt['ban_expired'] = 'Expired / disabled';
 $txt['ban_restriction_empty'] = 'No restriction selected.';
