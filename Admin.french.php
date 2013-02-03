@@ -144,7 +144,7 @@ $txt['unknown'] = 'inconnu';
 $txt['security_wrong'] = 'Tentative de connexion à l\'administration&nbsp;!' . "\n" . 'Référant : %1$s' . "\n" . 'User-Agent : %2$s' . "\n" . 'IP : %3$s';
 
 $txt['email_as_html'] = 'Envoyer au format HTML. (Vous pouvez utiliser du HTML normal dans cet e-mail.)';
-$txt['email_parsed_html'] = 'Ajouter les balises &lt;br /&gt; et &amp;nbsp; au message.';
+$txt['email_parsed_html'] = 'Ajouter les balises &lt;br&gt; et &amp;nbsp; au message.';
 $txt['email_variables'] = 'Dans ce message, vous pouvez utiliser quelques &quot;variables&quot;. Cliquez <a href="<URL>?action=help;in=emailmembers" onclick="return reqWin(this);">ici</a> pour plus d\'informations.';
 $txt['email_force'] = 'Envoyer ce message aux membres même s\'ils ont choisi de ne pas recevoir d\'annonces.';
 $txt['email_as_pms'] = 'Envoyer ceci à ces groupes par la messagerie personnelle.';

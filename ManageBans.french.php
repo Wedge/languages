@@ -5,7 +5,7 @@ $txt['ban_general_description'] = 'Cette section vous permet de gérer les banni
 $txt['ban_description_hard'] = 'Cette section vous permet de gérer les bannissements (bans) "sévères", qui empêchent aux utilisateurs toute action, et immédiatement.';
 $txt['ban_description_soft'] = 'Cette section vous permet de gérer les bannissements (bans) "légers", qui n\'empêchent pas aux utilisateurs d\'utiliser le forum, mais les décourage progressivement de causer des problèmes, en simulant des problèmes techniques sur le forum.';
 $txt['ban_description_add'] = 'Cette section vous permet d\'ajouter de nouveaux bannissements (bans) à votre forum.';
-
+$txt['ban_description_edit'] = 'Cette section vous permet de modifier un bannissement de votre forum.';
 $txt['ban_description_settings'] = 'Cette section vous permet de changer les paramètres s\'appliquant aux bannissements (bans), principalement à ceux de type "léger".';
 
 $txt['ban_type'] = 'Type';
@@ -95,8 +95,10 @@ $txt['ban_no_modify'] = 'Vous ne pouvez pas modifier un ban de nom d\'hôte si l
 $txt['ban_invalid_type'] = 'Vous n\'avez pas spécifié un type de ban valide.';
 $txt['ban_invalid_member'] = 'Vous n\'avez pas spécifié de membre valide à bannir.';
 $txt['ban_invalid_membername'] = 'Vous n\'avez pas spécifié de nom valide à bannir.';
+$txt['ban_invalid_email'] = 'Vous n\'avez pas spécifié d\'e-mail valide à bannir.';
 $txt['ban_invalid_ip_address'] = 'Vous n\'avez pas spécifié d\'adresse IP ou plage IP valide à bannir.';
 $txt['ban_invalid_hostname'] = 'Vous n\'avez pas spécifié un nom d\'hôte valide à bannir.';
+$txt['ban_invalid_reason'] = 'Vous n\'avez pas spécifié de raison pour le bannissement.';
 
 $txt['ban_membername_style'] = 'Ä quoi appliquer les bans de nom de membre&nbsp;?';
 $txt['ban_membername_style_username'] = 'Identifiants uniquement';

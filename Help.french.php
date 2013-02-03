@@ -364,8 +364,8 @@ $helptxt['enablePostHTML'] = 'Permet l\'utilisation de quelques balises HTML bas
 	<ul class="normallist" style="margin-bottom: 0">
 		<li>&lt;b&gt;, &lt;u&gt;, &lt;i&gt;, &lt;s&gt;, &lt;em&gt;, &lt;ins&gt;, &lt;del&gt;</li>
 		<li>&lt;a href=""&gt;</li>
-		<li>&lt;img src="" alt="" /&gt;</li>
-		<li>&lt;br /&gt;, &lt;hr /&gt;</li>
+		<li>&lt;img src="" alt=""&gt;</li>
+		<li>&lt;br&gt;, &lt;hr&gt;</li>
 		<li>&lt;pre&gt;, &lt;blockquote&gt;</li>
 	</ul>';
 
@@ -592,7 +592,7 @@ $helptxt['chmod_flags'] = 'Vous pouvez choisir manuellement les permissions que 
 $helptxt['postmod'] = 'Cette section permet aux membres de l\'équipe de modération disposant des permissions nécessaires, d\'approuver les messages et sujets avant leur apparition en ligne.';
 
 $helptxt['field_show_enclosed'] = 'Entoure le texte entré par l\'utilisateur par du texte ou du HTML, vous permettant d\'ajouter des fournisseurs de messagerie instantanée supplémentaires, des images ou intégrations multimédia, etc. Par exemple&nbsp;:<br><br>
-		&lt;a href="http://website.com/{INPUT}"&gt;&lt;img src="{DEFAULT_IMAGES_URL}/icon.gif" alt="{INPUT}" /&gt;&lt;/a&gt;<br><br>
+		&lt;a href="http://website.com/{INPUT}"&gt;&lt;img src="{DEFAULT_IMAGES_URL}/icon.gif" alt="{INPUT}"&gt;&lt;/a&gt;<br><br>
 		À noter que vous pouvez utiliser les variables suivantes&nbsp;:<br>
 		<ul class="normallist">
 			<li>{INPUT} - Le texte entré par l\'utilisateur.</li>

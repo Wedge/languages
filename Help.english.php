@@ -380,8 +380,8 @@ $helptxt['enablePostHTML'] = 'This will allow the posting of some basic HTML tag
 	<ul class="normallist" style="margin-bottom: 0">
 		<li>&lt;b&gt;, &lt;u&gt;, &lt;i&gt;, &lt;s&gt;, &lt;em&gt;, &lt;ins&gt;, &lt;del&gt;</li>
 		<li>&lt;a href=""&gt;</li>
-		<li>&lt;img src="" alt="" /&gt;</li>
-		<li>&lt;br /&gt;, &lt;hr /&gt;</li>
+		<li>&lt;img src="" alt=""&gt;</li>
+		<li>&lt;br&gt;, &lt;hr&gt;</li>
 		<li>&lt;pre&gt;, &lt;blockquote&gt;</li>
 	</ul>';
 
@@ -613,7 +613,7 @@ $helptxt['chmod_flags'] = 'You can manually set the permissions you wish to set 
 $helptxt['postmod'] = 'This section allows members of the moderation team (with sufficient permissions) to approve any posts and topics before they are shown.';
 
 $helptxt['field_show_enclosed'] = 'Encloses the user input between some text or html. This will allow you to add more instant message providers, images or an embed etc. For example:<br><br>
-		&lt;a href="http://website.com/{INPUT}"&gt;&lt;img src="{DEFAULT_IMAGES_URL}/icon.gif" alt="{INPUT}" /&gt;&lt;/a&gt;<br><br>
+		&lt;a href="http://website.com/{INPUT}"&gt;&lt;img src="{DEFAULT_IMAGES_URL}/icon.gif" alt="{INPUT}"&gt;&lt;/a&gt;<br><br>
 		Note that you can use the following variables:<br>
 		<ul class="normallist">
 			<li>{INPUT} - The input specified by the user.</li>
