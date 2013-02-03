@@ -158,55 +158,6 @@ $txt['ban_add'] = 'Ajouter';
 $txt['ban_edit'] = 'Modifier ban';
 $txt['ban_settings'] = 'Paramètres';
 
-$txt['ban_ip'] = 'Bannissement d\'IP&nbsp;: (ex. 192.168.12.213 or 128.0.*.*) - une entrée par ligne';
-$txt['ban_email'] = 'Bannissement d\'e-mails&nbsp;: (ex. pasbeau@pasgentil.com) - une entrée par ligne';
-$txt['ban_username'] = 'Bannissement de membres&nbsp;: (ex. pasbeau_du_75) - une entrée par ligne';
-
-$txt['ban_description'] = 'Ici vous pouvez bannir les personnes problématiques par IP, par domaine, par membre ou par adresse e-mail.';
-$txt['ban_add_new'] = 'Bannir un Membre';
-$txt['ban_banned_entity'] = 'Type de bannissement';
-$txt['ban_on_ip'] = 'Ban. par IP (ex. 192.168.10-20.*)';
-$txt['ban_on_hostname'] = 'Ban. Par domaine (ex. *.mil)';
-$txt['ban_on_email'] = 'Ban. par adresse e-mail (ex. *@sitepasbien.com)';
-$txt['ban_on_username'] = 'Ban. par membre';
-$txt['ban_notes'] = 'Notes';
-$txt['ban_restriction'] = 'Restriction';
-$txt['ban_full_ban'] = 'Ban. complet';
-$txt['ban_partial_ban'] = 'Ban. partiel';
-$txt['ban_cannot_post'] = 'Ne peut pas poster';
-$txt['ban_cannot_register'] = 'Ne peut pas s\'inscrire';
-$txt['ban_cannot_login'] = 'Ne peut pas se connecter';
-$txt['ban_edit_list'] = 'Liste des Bannissements';
-$txt['ban_type'] = 'Type';
-$txt['ban_days'] = 'jour(s)';
-$txt['ban_will_expire_within'] = 'Le bannissement se terminera après';
-$txt['ban_added'] = 'Ajouté';
-$txt['ban_expires'] = 'Expiration';
-$txt['ban_hits'] = 'Hits';
-$txt['ban_actions'] = 'Actions';
-$txt['ban_expiration'] = 'Expiration';
-$txt['ban_reason_desc'] = 'Raison du bannissement, à afficher au membre banni.';
-$txt['ban_notes_desc'] = 'Notes pouvant informer les autres membres du staff.';
-
-$txt['ban_modify'] = 'Modifier';
-$txt['ban_name'] = 'Nom du bannissement';
-$txt['ban_add_notes'] = '<strong>Note</strong>&nbsp;: après la création du bannissement ci-dessus, vous pourrez ajouter des entrées additionnelles qui déclenchent le bannissement, comme les adresses IP, les noms d\'hôtes et les adresses e-mail.';
-$txt['ban_expired'] = 'Expiré / désactivé';
-$txt['ban_restriction_empty'] = 'Aucune restriction sélectionnée.';
-
-$txt['ban_triggers'] = 'Déclencheurs';
-$txt['ban_add_trigger'] = 'Ajouter un déclencheur de bannissement';
-$txt['ban_add_trigger_submit'] = 'Ajouter';
-$txt['ban_edit_trigger'] = 'Modifier';
-$txt['ban_edit_trigger_title'] = 'Modifier les déclencheurs de bannissement';
-$txt['ban_edit_trigger_submit'] = 'Modifier';
-$txt['ban_remove_selected_triggers'] = 'Supprimer les déclencheurs sélectionnés';
-$txt['ban_no_entries'] = 'Aucun bannissement n\'est actuellement actif.';
-$txt['ban_remove_selected_triggers_confirm'] = 'Êtes-vous sûr de vouloir supprimer les déclencheurs de bannissement sélectionnés ?';
-$txt['ban_trigger_browse'] = 'Liste des Déclencheurs';
-$txt['ban_trigger_browse_description'] = 'Cette interface montre toutes les entrées de bannissements groupées selon l\'adresse IP, nom hôte, adresse e-mail et nom d\'utilisateur.';
-$txt['ban_no_triggers'] = 'Aucun déclencheur de bannissement pour le moment.';
-
 $txt['settings_not_writable'] = 'Ces paramètres ne peuvent pas être changés car Settings.php est accessible en lecture seulement.';
 
 $txt['maintain_title'] = 'Maintenance Forum';

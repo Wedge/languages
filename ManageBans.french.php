@@ -5,6 +5,7 @@ $txt['ban_general_description'] = 'Cette section vous permet de gérer les banni
 $txt['ban_description_hard'] = 'Cette section vous permet de gérer les bannissements (bans) "sévères", qui empêchent aux utilisateurs toute action, et immédiatement.';
 $txt['ban_description_soft'] = 'Cette section vous permet de gérer les bannissements (bans) "légers", qui n\'empêchent pas aux utilisateurs d\'utiliser le forum, mais les décourage progressivement de causer des problèmes, en simulant des problèmes techniques sur le forum.';
 $txt['ban_description_add'] = 'Cette section vous permet d\'ajouter de nouveaux bannissements (bans) à votre forum.';
+
 $txt['ban_description_settings'] = 'Cette section vous permet de changer les paramètres s\'appliquant aux bannissements (bans), principalement à ceux de type "léger".';
 
 $txt['ban_type'] = 'Type';
@@ -15,7 +16,6 @@ $txt['ban_type_ip_address'] = 'IP';
 $txt['ban_type_hostname'] = 'Nom d\'hôte';
 
 $txt['ban_content'] = 'Banni';
-$txt['ban_reason'] = 'Raison du ban';
 $txt['ban_added'] = 'Ajouté le';
 $txt['ban_added_by'] = 'Ajouté par';
 $txt['ban_invalid_member'] = 'Le membre numéro #%1$s a été banni mais n\'existe pas.';
@@ -33,6 +33,8 @@ $txt['ban_entire_tld'] = 'Toute adresse e-mail dont le suffixe de domaine est %1
 $txt['ban_gmail_style_email'] = 'Toute variation de %1$s@%2$s';
 
 $txt['ban_entire_hostname'] = 'Tous les utilisateurs du nom d\'hôte %1$s';
+
+$txt['ban_no_entries'] = 'Aucun bannissement n\'est actuellement actif.';
 
 $txt['ban_remove_selected'] = 'Supprimer la sélection';
 $txt['ban_remove_selected_confirm'] = 'Êtes-vous sûr de vouloir supprimer les bannissements sélectionnés&nbsp;?';

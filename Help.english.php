@@ -570,8 +570,6 @@ $helptxt['search_why_use_index'] = 'A search index can greatly improve the perfo
 $helptxt['see_member_ip'] = 'Your IP address is shown only to you and those who have been given permission to do so by the administrator. Remember that this information is not identifying, and that most IPs change periodically.<br><br>You cannot see other members\' IP addresses, and they cannot see yours.';
 $helptxt['whytwoip'] = 'Wedge uses various methods to detect user IP addresses. Usually these two methods result in the same address but in some cases more than one address may be detected. In this case Wedge logs both addresses, and uses them both for ban checks (etc). You can click on either address to track that IP and ban if necessary.';
 
-$helptxt['ban_cannot_post'] = 'The \'cannot post\' restriction turns the forum into read-only mode for the banned user. The user cannot create new topics, or reply to existing ones, send personal messages or vote in polls. The banned user can however still read personal messages and topics.<br><br>A warning message is shown to the users that are banned this way.';
-
 $helptxt['posts_and_topics'] = '
 	<ul class="normallist">
 		<li>

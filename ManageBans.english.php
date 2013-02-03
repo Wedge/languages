@@ -16,7 +16,6 @@ $txt['ban_type_ip_address'] = 'IP';
 $txt['ban_type_hostname'] = 'Hostname';
 
 $txt['ban_content'] = 'Banned';
-$txt['ban_reason'] = 'Reason for ban';
 $txt['ban_added'] = 'Added on';
 $txt['ban_added_by'] = 'Added by';
 $txt['ban_invalid_member'] = 'User id %1$s was banned but does not exist.';
@@ -34,6 +33,8 @@ $txt['ban_entire_tld'] = 'Any email from any %1$s domain';
 $txt['ban_gmail_style_email'] = 'Any variation of %1$s@%2$s';
 
 $txt['ban_entire_hostname'] = 'Any users from %1$s';
+
+$txt['ban_no_entries'] = 'There are currently no bans in effect.';
 
 $txt['ban_remove_selected'] = 'Remove selected';
 $txt['ban_remove_selected_confirm'] = 'Are you sure you want to remove the selected bans?';

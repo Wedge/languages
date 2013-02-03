@@ -158,55 +158,6 @@ $txt['ban_add'] = 'Add Ban';
 $txt['ban_edit'] = 'Edit Ban';
 $txt['ban_settings'] = 'Ban Settings';
 
-$txt['ban_ip'] = 'IP banning: (e.g. 192.168.12.213 or 128.0.*.*) - one entry per line';
-$txt['ban_email'] = 'Email banning: (e.g. badguy@somewhere.com) - one entry per line';
-$txt['ban_username'] = 'User name banning: (e.g. l33tuser) - one entry per line';
-
-$txt['ban_description'] = 'Here you can ban troublesome people either by IP, hostname, username, or email.';
-$txt['ban_add_new'] = 'Add New Ban';
-$txt['ban_banned_entity'] = 'Banned entity';
-$txt['ban_on_ip'] = 'Ban on IP (e.g. 192.168.10-20.*)';
-$txt['ban_on_hostname'] = 'Ban on Hostname (e.g. *.mil)';
-$txt['ban_on_email'] = 'Ban on Email Address (e.g. *@badsite.com)';
-$txt['ban_on_username'] = 'Ban on Username';
-$txt['ban_notes'] = 'Notes';
-$txt['ban_restriction'] = 'Restriction';
-$txt['ban_full_ban'] = 'Full ban';
-$txt['ban_partial_ban'] = 'Partial ban';
-$txt['ban_cannot_post'] = 'Cannot post';
-$txt['ban_cannot_register'] = 'Cannot register';
-$txt['ban_cannot_login'] = 'Cannot login';
-$txt['ban_edit_list'] = 'Ban List';
-$txt['ban_type'] = 'Ban Type';
-$txt['ban_days'] = 'day(s)';
-$txt['ban_will_expire_within'] = 'Ban will expire after';
-$txt['ban_added'] = 'Added';
-$txt['ban_expires'] = 'Expires';
-$txt['ban_hits'] = 'Hits';
-$txt['ban_actions'] = 'Actions';
-$txt['ban_expiration'] = 'Expiration';
-$txt['ban_reason_desc'] = 'Reason for ban, to be displayed to banned member.';
-$txt['ban_notes_desc'] = 'Notes that may assist other staff members.';
-
-$txt['ban_modify'] = 'Modify';
-$txt['ban_name'] = 'Ban name';
-$txt['ban_add_notes'] = '<strong>Note</strong>: after creating the above ban, you can add additional entries that trigger the ban, like IP addresses, hostnames and email addresses.';
-$txt['ban_expired'] = 'Expired / disabled';
-$txt['ban_restriction_empty'] = 'No restriction selected.';
-
-$txt['ban_triggers'] = 'Triggers';
-$txt['ban_add_trigger'] = 'Add ban trigger';
-$txt['ban_add_trigger_submit'] = 'Add';
-$txt['ban_edit_trigger'] = 'Modify';
-$txt['ban_edit_trigger_title'] = 'Edit ban trigger';
-$txt['ban_edit_trigger_submit'] = 'Modify';
-$txt['ban_remove_selected_triggers'] = 'Remove selected ban triggers';
-$txt['ban_no_entries'] = 'There are currently no bans in effect.';
-$txt['ban_remove_selected_triggers_confirm'] = 'Are you sure you want to remove the selected ban triggers?';
-$txt['ban_trigger_browse'] = 'Browse Ban Triggers';
-$txt['ban_trigger_browse_description'] = 'This screen shows all banned entities grouped by IP address, hostname, email address and username.';
-$txt['ban_no_triggers'] = 'There are currently no ban triggers.';
-
 $txt['settings_not_writable'] = 'These settings cannot be changed because Settings.php is read only.';
 
 $txt['maintain_title'] = 'Forum Maintenance';

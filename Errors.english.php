@@ -150,19 +150,7 @@ $txt['moveto_noboards'] = 'There are no boards to move this topic to!';
 $txt['already_activated'] = 'Your account has already been activated.';
 $txt['still_awaiting_approval'] = 'Your account is still awaiting admin approval.';
 
-$txt['invalid_email'] = 'Invalid email address / email address range.<br>Example of a valid email address: evil.user@badsite.com.<br>Example of a valid email address range: *@*.badsite.com';
-$txt['invalid_expiration_date'] = 'Expiration date is not valid';
-$txt['invalid_hostname'] = 'Invalid host name / host name range.<br>Example of a valid host name: proxy4.badhost.com<br>Example of a valid host name range: *.badhost.com';
-$txt['invalid_ip'] = 'Invalid IP / IP range.<br>Example of a valid IP address: 127.0.0.1<br>Example of a valid IP range: 127.0.0-20.*';
 $txt['invalid_tracking_ip'] = 'Invalid IP / IP range.<br>Example of a valid IP address: 127.0.0.1<br>Example of a valid IP range: 127.0.0.*';
-$txt['invalid_username'] = 'Member name not found';
-$txt['no_ban_admin'] = 'You may not ban an admin - You must demote them first!';
-$txt['no_bantype_selected'] = 'No ban type was selected';
-$txt['ban_not_found'] = 'Ban not found';
-$txt['ban_unknown_restriction_type'] = 'Restriction type unknown';
-$txt['ban_name_empty'] = 'The name of the ban was left empty!';
-$txt['ban_name_exists'] = 'The name of this ban (%1$s) already exists. Please choose a different name.';
-$txt['ban_trigger_already_exists'] = 'This ban trigger (%1$s) already exists in %2$s.';
 
 $txt['recycle_no_valid_board'] = 'No valid board selected for recycled topics';
 

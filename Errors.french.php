@@ -150,19 +150,7 @@ $txt['moveto_noboards'] = 'Il n\'y a pas de forum où déplacer ce sujet';
 $txt['already_activated'] = 'Votre compte a déjà été activé.';
 $txt['still_awaiting_approval'] = 'Votre compte est encore en attente d\'approbation par un administrateur.';
 
-$txt['invalid_email'] = 'Adresse e-mail invalide.<br>Exemple d\'une adresse e-mail valide&nbsp;: votreemail@votrefai.com.<br>Exemple d\'une plage d\'adresses e-mail valide : *@*.votrefai.com';
-$txt['invalid_expiration_date'] = 'Date d\'expiration non valide';
-$txt['invalid_hostname'] = 'Nom/plage de domaine invalide.<br>Exemple de domaine valide : proxy4.grosmechantloup.com<br>Exemple de plage de domaine valide&nbsp;: *.grosmechantloup.com';
-$txt['invalid_ip'] = 'IP ou plage d\'IP non valide.<br>Exemple d\'une adresse IP valide : 127.0.0.1<br>Exemple d\'une plage d\'adresses IP valide : 127.0.0-20.*';
 $txt['invalid_tracking_ip'] = 'Adresse IP ou bloc d\'adresses IP invalide.<br>Exemple d\'adresse IP valide&nbsp;: 127.0.0.1<br>Exemple de bloc valide&nbsp;: 127.0.0.*';
-$txt['invalid_username'] = 'Identifiant du membre introuvable';
-$txt['no_ban_admin'] = 'Vous ne pouvez pas bannir un administrateur - vous devez d\'abord le rétrograder&nbsp;!';
-$txt['no_bantype_selected'] = 'Type de bannissement non sélectionné';
-$txt['ban_not_found'] = 'Bannissement introuvable';
-$txt['ban_unknown_restriction_type'] = 'Type de restriction inconnu';
-$txt['ban_name_empty'] = 'Le nom du bannissement a été laissé vide !';
-$txt['ban_name_exists'] = 'Le nom de ce bannissement (%1$s) existe déjà. Veuillez choisir un autre nom.';
-$txt['ban_trigger_already_exists'] = 'Le déclencheur de bannissement %1$s existe déjà dans %2$s.';
 
 $txt['recycle_no_valid_board'] = 'Aucune section valide n\'a été choisie pour stocker les sujets recyclés';
 

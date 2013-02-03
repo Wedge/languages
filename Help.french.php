@@ -549,8 +549,6 @@ $helptxt['search_why_use_index'] = 'Un index de recherche peut considérablement
 $helptxt['see_member_ip'] = 'Votre adresse IP est affichée seulement à vous et à ceux auxquels l\'administrateur en a donné le droit. Rappelez-vous que cette information ne permet pas d\'identifier un individu précisément, la plupart des adresses changeant périodiquement.<br><br>Vous ne pouvez pas voir l\'adresse IP des autres, et les autres ne peuvent pas voir la vôtre.';
 $helptxt['whytwoip'] = 'Wedge utilise plusieurs méthodes pour détecter les adresses IP d\'un utilisateur. Habituellement ces deux méthodes donnent la même adresse mais dans certains cas plus d\'une adresse peut être détectée. Dans ce cas Wedge conserve les adresses, et les utilise par exemple lors des contrôles de bannissement. Vous pouvez cliquer sur chaque adresse pour traquer cette IP et la bannir si nécessaire.';
 
-$helptxt['ban_cannot_post'] = 'La restriction \'Ne peut pas poster\' a pour conséquence que le forum n\'est accessible qu\'en lecture seule pour l\'utilisateur banni. L\'utilisateur ne peut pas créer de nouveaux sujets ou répondre à ceux existants, envoyer des messages personnels ou voter dans les sondages. L\'utilisateur banni peut toutefois encore lire ses messages personnels et les sujets.<br><br>Un message explicatif est affiché aux utilisateurs qui sont bannis avec cette restriction.';
-
 $helptxt['posts_and_topics'] = '
 	<ul>
 		<li>
