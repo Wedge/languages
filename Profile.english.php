@@ -253,11 +253,6 @@ $txt['account_approve'] = 'approve';
 $txt['user_is_banned'] = 'User is currently banned';
 $txt['view_ban'] = 'View';
 $txt['user_banned_by_following'] = 'This user is currently affected by the following bans';
-$txt['user_cannot_due_to'] = 'User cannot %1$s as a result of ban: &quot;%2$s&quot;';
-$txt['ban_type_post'] = 'post';
-$txt['ban_type_register'] = 'register';
-$txt['ban_type_login'] = 'login';
-$txt['ban_type_access'] = 'access forum';
 
 $txt['show_online'] = 'Show others my online status';
 

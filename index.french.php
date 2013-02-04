@@ -473,7 +473,6 @@ $txt['more'] = 'plus';
 
 $txt['hostname'] = 'Nom d\'hôte';
 $txt['you_are_post_banned'] = 'Desolé %1$s, vous n\'avez plus le droit de poster ni d\'envoyer des messages personnels sur ce forum.';
-$txt['ban_reason'] = 'Raison';
 
 $txt['add_poll'] = 'Ajouter un sondage';
 $txt['poll_options6'] = 'Vous ne pouvez pas choisir plus de %1$s options.';

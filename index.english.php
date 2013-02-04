@@ -476,7 +476,6 @@ $txt['more'] = 'more';
 
 $txt['hostname'] = 'Hostname';
 $txt['you_are_post_banned'] = 'Sorry %1$s, you are banned from posting and sending personal messages on this forum.';
-$txt['ban_reason'] = 'Reason';
 
 $txt['add_poll'] = 'Add poll';
 $txt['poll_options6'] = 'You may only select up to %1$s options.';
