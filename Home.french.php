@@ -2,9 +2,9 @@
 // Version: 2.0; Home
 // This is a sample file.
 
-$txt['wedge_home_title'] = 'Wedge ~ conception de communautés assistée par ordinateur.';
+$txt['wedge_home_title'] = 'Création de communautés assistée par ordinateur.';
 $txt['wedge_home_intro'] = '
-			Conçu en PHP 5 depuis des années par des développeurs réputés du logiciel SMF (voir la <a href="http://wedge.org/pub/faq/">FAQ</a>),
+			Conçu en PHP 5 depuis des années par d\'anciens développeurs du logiciel SMF (voir la <a href="http://wedge.org/pub/faq/">FAQ</a>),
 			Wedge vous permet de créer et maintenir vos <b>forums</b>, avec un doigt de <em>French touch</em>. Blogs, HTML5, CSS3, jQuery, programmation object,
 			support UTF8, pré-compilation CSS, sécurité améliorée, brouillons, gestion et création simplifiée des thèmes et plugins&nbsp;? Il peut le faire&nbsp;!
 			Nous pensons qu\'une fois sorti, il ne tardera pas à vous convaincre que c\'est le <strong>meilleur logiciel de forums gratuit</strong>.
