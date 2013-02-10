@@ -597,7 +597,7 @@ $txt['show_personal_messages'] = 'Vous avez reçu un ou plusieurs nouveaux messa
 $txt['previous_next_back'] = '&laquo; précédente';
 $txt['previous_next_forward'] = 'suivante &raquo;';
 
-$txt['upshrink_description'] = 'Cacher ou afficher l\'entête.';
+$txt['upshrink_description'] = 'Cacher ou afficher cette zone.';
 
 $txt['mark_unread'] = 'Marquer non lu';
 

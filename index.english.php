@@ -600,7 +600,7 @@ $txt['show_personal_messages'] = 'You have received one or more new personal mes
 $txt['previous_next_back'] = '&laquo; previous';
 $txt['previous_next_forward'] = 'next &raquo;';
 
-$txt['upshrink_description'] = 'Shrink or expand the header.';
+$txt['upshrink_description'] = 'Shrink or expand this.';
 
 $txt['mark_unread'] = 'Mark unread';
 
