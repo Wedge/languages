@@ -26,6 +26,7 @@ $txt['choose_username'] = 'Choose username';
 $txt['choose_timezone'] = 'What time zone are you in?';
 $txt['registration_successful'] = 'Registration Successful';
 $txt['now_a_member'] = 'Success! You are now a member of the forum.';
+$txt['email_placeholder'] = 'email@address.com';
 // Use numeric entities in the below string.
 $txt['your_password'] = 'and your password is';
 $txt['valid_email_needed'] = 'Please enter a valid email address, %1$s.';
@@ -134,7 +135,6 @@ $txt['coppa_form_date'] = 'Date';
 $txt['coppa_form_body'] = 'I {PARENT_NAME},<br><br>Give permission for {CHILD_NAME} (child name) to become a fully registered member of the forum: {forum_name_safe}, with the username: {USER_NAME}.<br><br>I understand that certain personal information entered by {USER_NAME} may be shown to other users of the forum.<br><br>Signed:<br>{PARENT_NAME} (Parent/Guardian).';
 
 $txt['visual_verification_sound_again'] = 'Play again';
-$txt['visual_verification_sound_close'] = 'Close window';
 $txt['visual_verification_sound_direct'] = 'Having problems hearing this? Try a direct link to it.';
 
 $txt['registration_username_available'] = 'Username is available';

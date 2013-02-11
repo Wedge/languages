@@ -26,6 +26,7 @@ $txt['choose_username'] = 'Choisissez un identifiant';
 $txt['choose_timezone'] = 'Choisissez votre fuseau horaire';
 $txt['registration_successful'] = 'Inscription réussie';
 $txt['now_a_member'] = 'Vous êtes maintenant un membre du forum.';
+$txt['email_placeholder'] = 'adresse@email.com';
 // Use numeric entities in the below string.
 $txt['your_password'] = 'et votre mot de passe est';
 $txt['valid_email_needed'] = 'Merci d\'entrer une adresse e-mail valide, %1$s.';
@@ -134,8 +135,7 @@ $txt['coppa_form_date'] = 'Date';
 $txt['coppa_form_body'] = 'Je soussigné, {PARENT_NAME},<br><br>Donne la permission à {CHILD_NAME} (nom de l\'enfant) de devenir un membre à part entière du forum : {forum_name_safe}, sous l\'identifiant : {USER_NAME}.<br><br>Je comprends que certaines informations personnelles entrées par {USER_NAME} peuvent êtres affichées à d\'autres visiteurs du forum.<br><br>Signé&nbsp;:<br>{PARENT_NAME} (Parent/Tuteur légal).';
 
 $txt['visual_verification_sound_again'] = 'Recommencer';
-$txt['visual_verification_sound_close'] = 'Fermer la fenêtre';
-$txt['visual_verification_sound_direct'] = 'Pas de son ? Essayez avec ce lien direct.';
+$txt['visual_verification_sound_direct'] = 'Pas de son&nbsp;? Essayez avec ce lien direct.';
 
 $txt['registration_username_available'] = 'Ce nom d\'utilisateur est disponible';
 $txt['registration_username_unavailable'] = 'Ce nom d\'utilisateur n\'est pas disponible';

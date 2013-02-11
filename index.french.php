@@ -665,7 +665,7 @@ $txt['debug_report'] = '
 	Mémoire max. utilisée&nbsp;: %13$dko.<br>';
 $txt['debug_cache_hits'] = '
 	Appels au cache (%1$d)&nbsp;: %2$ss pour %3$s octets (<a href="#" onclick="%4$s">voir</a><span class="hide"><em>%5$s</em></span>).<br>';
-$txt['debug_cache_seconds_bytes'] = '%1$ss - %2$s octets';
+$txt['debug_cache_seconds_bytes'] = '%1$s %2$ss - %3$s octets';
 $txt['debug_queries_used'] = 'Requêtes utilisées&nbsp;: %1$d.';
 $txt['debug_queries_used_and_warnings'] = 'Requêtes utilisées&nbsp;: %1$d, %2$d avertissements.';
 $txt['debug_query_in_line'] = 'Appelée dans <em>%1$s</em>, à la ligne <em>%2$s</em>, ';
