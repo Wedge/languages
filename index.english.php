@@ -555,20 +555,8 @@ $txt['response_prefix'] = 'Re: ';
 $txt['current_icon'] = 'Current Icon';
 $txt['message_icon'] = 'Message Icon';
 
-$txt['smileys_current'] = 'Current Smiley Set';
-$txt['smileys_none'] = 'No Smileys';
-$txt['smileys_forum_board_default'] = 'Forum/Board Default';
-
 $txt['search_results'] = 'Search Results';
 $txt['search_no_results'] = 'Sorry, no matches were found';
-
-$txt['totalTimeLogged1'] = 'Total time logged in: ';
-$txt['totalTimeLogged2'] = ' days, ';
-$txt['totalTimeLogged3'] = ' hours and ';
-$txt['totalTimeLogged4'] = ' minutes.';
-$txt['totalTimeLogged5'] = 'd ';
-$txt['totalTimeLogged6'] = 'h ';
-$txt['totalTimeLogged7'] = 'm';
 
 $txt['approve_members_waiting'] = array(
 	1 => 'There is <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">one member</a> awaiting approval.',
@@ -578,20 +566,8 @@ $txt['approve_members_waiting'] = array(
 $txt['notifyboard_turnon'] = 'Do you want a notification email when someone posts a new topic in this board?';
 $txt['notifyboard_turnoff'] = 'Are you sure you do not want to receive new topic notifications for this board?';
 
-$txt['activate_code'] = 'Your activation code is';
-
-$txt['find_members'] = 'Find Members';
-$txt['find_username'] = 'Name, username, or email address';
-$txt['find_buddies'] = 'Show contacts only?';
-$txt['find_wildcards'] = 'Allowed Wildcards: *, ?';
-$txt['find_no_results'] = 'No results found';
-$txt['find_results'] = 'Results';
-$txt['find_close'] = 'Close';
-
 $txt['show_unread'] = 'Unread posts';
 $txt['show_unread_replies'] = 'Unread replies';
-
-$txt['change_color'] = 'Change Color';
 
 $txt['quickmod_delete_selected'] = 'Remove Selected';
 
@@ -634,6 +610,9 @@ $txt['forumprofile'] = 'Forum Profile';
 $txt['change_skin'] = 'Skin Selector';
 $txt['draft_posts'] = 'Draft Posts';
 
+$txt['skin_default'] = 'Default';
+$txt['skin_default_mobile'] = 'Mobile default';
+
 $txt['settings_title'] = 'General Options';
 $txt['plugin_manager'] = 'Plugins';
 $txt['errlog'] = 'Error Log';
@@ -657,25 +636,6 @@ $txt['restore_topic'] = 'Restore Topic';
 $txt['quick_mod_restore'] = 'Restore Selected';
 
 $txt['autosuggest_delete_item'] = 'Delete Item';
-
-// Debug related - when $db_show_debug is true.
-$txt['debug_report'] = '
-	Templates (%1$d): <em>%2$s</em>.<br>
-	Blocks (%3$d): <em>%4$s</em>.<br>
-	Language files (%5$d): <em>%6$s</em>.<br>
-	Style sheets (%7$d): <em>%8$s</em>.<br>
-	Files included (%9$d): %10$sKB (<a href="#" onclick="%11$s">list</a><span class="hide"><em>%12$s</em></span>).<br>
-	Peak memory use: %13$dKB.<br>';
-$txt['debug_cache_hits'] = '
-	Cache hits (%1$d): %2$ss for %3$s bytes (<a href="#" onclick="%4$s">list</a><span class="hide"><em>%5$s</em></span>).<br>';
-$txt['debug_cache_seconds_bytes'] = '%1$s %2$ss - %3$s bytes';
-$txt['debug_queries_used'] = 'Queries used: %1$d.';
-$txt['debug_queries_used_and_warnings'] = 'Queries used: %1$d, %2$d warnings.';
-$txt['debug_query_in_line'] = 'in <em>%1$s</em> line <em>%2$s</em>, ';
-$txt['debug_query_which_took'] = 'which took %1$s seconds.';
-$txt['debug_query_which_took_at'] = 'which took %1$s seconds at %2$s into request.';
-$txt['debug_show_queries'] = '[Show Queries]';
-$txt['debug_hide_queries'] = '[Hide Queries]';
 
 // Ignoring topics
 $txt['ignoring_topic'] = 'You\'re currently ignoring this topic.';

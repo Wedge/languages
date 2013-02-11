@@ -250,7 +250,6 @@ $txt['login_or_register'] = 'Merci de vous <a href="<URL>?action=login">connecte
 $txt['please_login'] = 'Merci de vous <a href="<URL>?action=login">connecter</a>.';
 $txt['welcome_guest_activate'] = '<br>Perdu votre <a href="<URL>?action=activate">e-mail d\'activation</a>&nbsp;?';
 $txt['hello_member'] = 'Coucou,';
-// Use numeric entities in the below string.
 $txt['hello_guest'] = 'Bienvenue,';
 $txt['select_destination'] = 'Destination ?';
 
@@ -294,7 +293,6 @@ $txt['of_total_members'] = 'sur %1$s au total';
 $txt['forgot_your_password'] = 'Mot de passe oublié&nbsp;?';
 
 $txt['date'] = 'Date';
-// Use numeric entities in the below string.
 $txt['from'] = 'De';
 $txt['to'] = 'à';
 
@@ -339,7 +337,6 @@ $txt['pm_draft_saved'] = 'Votre brouillon a été sauvegardé. Vous pouvez y acc
 $txt['remove_draft'] = 'Supprimer brouillon';
 $txt['last_saved_on'] = 'Dernière sauvegarde';
 
-// Use numeric entities in the below string.
 $txt['ip'] = 'IP';
 
 $txt['by'] = 'par';
@@ -552,20 +549,8 @@ $txt['response_prefix'] = 'Re : ';
 $txt['current_icon'] = 'Icône actuelle';
 $txt['message_icon'] = 'Icône du message';
 
-$txt['smileys_current'] = 'Jeu de smileys actuel';
-$txt['smileys_none'] = 'Pas de smileys';
-$txt['smileys_forum_board_default'] = 'Défaut du forum / de la section';
-
 $txt['search_results'] = 'Résultats de la recherche';
 $txt['search_no_results'] = 'Désolé, aucune correspondance trouvée';
-
-$txt['totalTimeLogged1'] = 'Temps de connexion total&nbsp;: ';
-$txt['totalTimeLogged2'] = ' jours, ';
-$txt['totalTimeLogged3'] = ' heures et ';
-$txt['totalTimeLogged4'] = ' minutes.';
-$txt['totalTimeLogged5'] = 'j ';
-$txt['totalTimeLogged6'] = 'h ';
-$txt['totalTimeLogged7'] = 'm';
 
 $txt['approve_members_waiting'] = array(
 	1 => 'Il y a <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">un membre</a> en attente d\'approbation.',
@@ -575,20 +560,8 @@ $txt['approve_members_waiting'] = array(
 $txt['notifyboard_turnon'] = 'Voulez-vous recevoir un e-mail de notification quand quelqu\'un poste un nouveau sujet dans cette section&nbsp;?';
 $txt['notifyboard_turnoff'] = 'Êtes-vous sûr de vouloir désactiver les e-mails de notification des nouveaux sujet pour cette section&nbsp;?';
 
-$txt['activate_code'] = 'Votre code d\'activation est';
-
-$txt['find_members'] = 'Trouver des membres';
-$txt['find_username'] = 'Identifiant, pseudonyme ou adresse e-mail';
-$txt['find_buddies'] = 'Ne montrer que mes contacts';
-$txt['find_wildcards'] = 'Jokers autorisés&nbsp;: *, ?';
-$txt['find_no_results'] = 'Pas de résultat';
-$txt['find_results'] = 'Résultats';
-$txt['find_close'] = 'Fermer';
-
 $txt['show_unread'] = 'Messages non lus';
 $txt['show_unread_replies'] = 'Réponses non lues';
-
-$txt['change_color'] = 'Changer de couleur';
 
 $txt['quickmod_delete_selected'] = 'Effacer la sélection';
 
@@ -609,7 +582,7 @@ $txt['mark_read_short'] = 'Marquer lu';
 $txt['pm_short'] = 'Messagerie';
 $txt['pm_menu_read'] = 'Lire mes messages';
 $txt['pm_menu_send'] = 'Envoyer un message';
-$txt['pm_menu_drafts'] = 'Mes brouillons';
+$txt['pm_menu_drafts'] = 'Brouillons';
 
 $txt['hello_member_ndt'] = 'Bonjour, <span>%1$s</span>&nbsp;!';
 
@@ -630,6 +603,9 @@ $txt['account'] = 'Paramètres du Compte';
 $txt['forumprofile'] = 'Profil de base et avatar';
 $txt['change_skin'] = 'Changer de style';
 $txt['draft_posts'] = 'Brouillons';
+
+$txt['skin_default'] = 'Par défaut';
+$txt['skin_default_mobile'] = 'Par défaut (mobile)';
 
 $txt['settings_title'] = 'Options Générales';
 $txt['plugin_manager'] = 'Extensions';
@@ -654,25 +630,6 @@ $txt['restore_topic'] = 'Restaurer ce sujet';
 $txt['quick_mod_restore'] = 'Restaurer les messages sélectionnés';
 
 $txt['autosuggest_delete_item'] = 'Supprimer cet élément';
-
-// Debug related - when $db_show_debug is true.
-$txt['debug_report'] = '
-	Modèles (%1$d)&nbsp;: <em>%2$s</em>.<br>
-	Blocs (%3$d)&nbsp;: <em>%4$s</em>.<br>
-	Fichiers de langue (%5$d)&nbsp;: <em>%6$s</em>.<br>
-	Feuilles de style (%7$d)&nbsp;: <em>%8$s</em>.<br>
-	Fichiers inclus (%9$d)&nbsp;: %10$sko (<a href="#" onclick="%11$s">voir</a><span class="hide"><em>%12$s</em></span>).<br>
-	Mémoire max. utilisée&nbsp;: %13$dko.<br>';
-$txt['debug_cache_hits'] = '
-	Appels au cache (%1$d)&nbsp;: %2$ss pour %3$s octets (<a href="#" onclick="%4$s">voir</a><span class="hide"><em>%5$s</em></span>).<br>';
-$txt['debug_cache_seconds_bytes'] = '%1$s %2$ss - %3$s octets';
-$txt['debug_queries_used'] = 'Requêtes utilisées&nbsp;: %1$d.';
-$txt['debug_queries_used_and_warnings'] = 'Requêtes utilisées&nbsp;: %1$d, %2$d avertissements.';
-$txt['debug_query_in_line'] = 'Appelée dans <em>%1$s</em>, à la ligne <em>%2$s</em>, ';
-$txt['debug_query_which_took'] = 'et exécutée en %1$s secondes.';
-$txt['debug_query_which_took_at'] = 'et exécutée en %1$s secondes, à %2$s secondes du lancement du script.';
-$txt['debug_show_queries'] = '[Montrer les Requêtes]';
-$txt['debug_hide_queries'] = '[Cacher les Requêtes]';
 
 // Ignoring topics
 $txt['ignoring_topic'] = 'Vous ignorez actuellement ce sujet.';

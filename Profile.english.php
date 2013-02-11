@@ -463,3 +463,11 @@ $txt['trackEdit_action_member_name'] = 'Username';
 $txt['trackEdit_action_email_address'] = 'Email Address';
 $txt['trackEdit_action_id_group'] = 'Primary Membergroup';
 $txt['trackEdit_action_additional_groups'] = 'Additional Membergroups';
+
+$txt['smileys_current'] = 'Current Smiley Set';
+$txt['smileys_none'] = 'No Smileys';
+$txt['smileys_forum_board_default'] = 'Forum/Board Default';
+
+$txt['totalTimeLogged_d'] = ' days, ';
+$txt['totalTimeLogged_h'] = ' hours and ';
+$txt['totalTimeLogged_m'] = ' minutes.';
