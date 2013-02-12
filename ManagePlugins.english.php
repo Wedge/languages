@@ -153,3 +153,6 @@ $txt['plugin_files_pruned'] = 'The old plugin was successfully removed. Wedge wi
 
 $txt['plugin_folders_created_title'] = 'Folders created';
 $txt['plugin_folders_created'] = 'Before unpacking the files, Wedge had to add all the relevant folders for the files in your plugin. This has now been done, so all that remains is to upload the files.';
+
+$txt['plugin_files_unpacked_title'] = 'Files unpacked';
+$txt['plugin_files_unpacked'] = 'All the files have been unpacked. You should now be able to enable your plugin!';
