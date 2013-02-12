@@ -37,6 +37,11 @@ $txt['ssi_write_comment'] = 'Écrire un commentaire';
 $txt['ssi_no_guests'] = 'Vous ne pouvez pas spécifier une section interdite d\'accès aux invités. Merci de vérifier l\'ID de la section avant de réessayer.';
 $txt['xml_feed_desc'] = 'Informations en direct de {forum_name}';
 
+$txt['total_members'] = 'Total des membres';
+$txt['total_posts'] = 'Total des messages';
+$txt['total_topics'] = 'Total des sujets';
+$txt['total_boards'] = 'Total des sections';
+
 $txt['totalTimeLogged_d_short'] = 'j ';
 $txt['totalTimeLogged_h_short'] = 'h ';
 $txt['totalTimeLogged_m_short'] = 'm';

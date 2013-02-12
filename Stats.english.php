@@ -37,6 +37,11 @@ $txt['ssi_write_comment'] = 'Write Comment';
 $txt['ssi_no_guests'] = 'You cannot specify a board that doesn\'t allow guests.  Please check the board ID before trying again.';
 $txt['xml_feed_desc'] = 'Live information from {forum_name}';
 
+$txt['total_members'] = 'Total Members';
+$txt['total_posts'] = 'Total Posts';
+$txt['total_topics'] = 'Total Topics';
+$txt['total_boards'] = 'Total Boards';
+
 $txt['totalTimeLogged_d_short'] = 'd ';
 $txt['totalTimeLogged_h_short'] = 'h ';
 $txt['totalTimeLogged_m_short'] = 'm';

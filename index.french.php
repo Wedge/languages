@@ -322,11 +322,6 @@ $txt['print'] = 'Imprimer';
 $txt['profile'] = 'Profil';
 $txt['not_applicable'] = 'N/A';
 
-$txt['total_members'] = 'Total des membres';
-$txt['total_posts'] = 'Total des messages';
-$txt['total_topics'] = 'Total des sujets';
-$txt['total_boards'] = 'Total des sections';
-
 $txt['switch_mode'] = 'Passer à l\'éditeur complet';
 $txt['preview'] = 'Prévisualiser';
 

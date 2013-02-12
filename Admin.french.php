@@ -13,13 +13,15 @@ $txt['minutes_remaining'] = array(
 $txt['new_to_wedge'] = 'Vous découvrez Wedge&nbsp;?';
 $txt['hide_new_to_wedge'] = 'Merci, ça ira maintenant.';
 $txt['new_to_wedge_intro'] = 'Si vous n\'êtes pas familier avec Wedge, voici quelques tâches que vous pourriez avoir envie de réaliser.';
-$txt['new_to_wedge_add_boards'] = 'Voulez-vous ajouter une nouvelle section au forum&nbsp;?';
+$txt['new_to_wedge_add_boards'] = 'Voulez-vous ajouter une <strong>nouvelle section</strong> au forum&nbsp;?';
 $txt['new_to_wedge_add_boards_answer'] = 'Allez voir dans <a href="%1$s">Sites et catégories</a>.';
-$txt['new_to_wedge_mod_filters'] = 'Ou peut-être modérer les messages des nouveaux utilisateurs&nbsp;?';
+$txt['new_to_wedge_mod_filters'] = 'Ou peut-être <strong>modérer</strong> les messages des nouveaux utilisateurs&nbsp;?';
 $txt['new_to_wedge_mod_filters_answer'] = 'Vous pouvez ajouter des <a href="%1$s">filtres de modération</a> via un assistant.';
-$txt['new_to_wedge_censored'] = 'Ou bien encore cacher ces mots que vous ne sauriez voir&nbsp;?';
+$txt['new_to_wedge_default_skin'] = 'Choisir le <strong>style visuel</strong> par défaut du site&nbsp;?';
+$txt['new_to_wedge_default_skin_answer'] = 'C\'est par ici&nbsp;: <a href="%1$s">Gérer et Installer des thèmes</a>.';
+$txt['new_to_wedge_censored'] = 'Ou bien encore <strong>cacher</strong> ces mots que vous ne sauriez voir&nbsp;?';
 $txt['new_to_wedge_censored_answer'] = 'Direction <a href="%1$s">Messages et sujets &raquo; Mots censurés</a>.';
-$txt['new_to_wedge_antispam'] = 'Et que diriez-vous d\'ajouter des questions personnalisées, pour repousser à coup sûr les spammeurs&nbsp;?';
+$txt['new_to_wedge_antispam'] = 'Et que diriez-vous d\'ajouter des questions personnalisées, pour repousser à coup sûr les <strong>spammeurs</strong>&nbsp;?';
 $txt['new_to_wedge_antispam_answer'] = 'Bonne idée ! Allons dans la section <a href="%1$s">Anti-Spam</a>.';
 
 $txt['admin_center'] = 'Centre d\'administration';

@@ -328,11 +328,6 @@ $txt['print'] = 'Print';
 $txt['profile'] = 'Profile';
 $txt['not_applicable'] = 'N/A';
 
-$txt['total_members'] = 'Total Members';
-$txt['total_posts'] = 'Total Posts';
-$txt['total_topics'] = 'Total Topics';
-$txt['total_boards'] = 'Total Boards';
-
 $txt['switch_mode'] = 'Switch to full editor';
 $txt['preview'] = 'Preview';
 
