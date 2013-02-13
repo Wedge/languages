@@ -129,7 +129,7 @@ $txt['plugin_connection_successful'] = 'Les identifiants indiqués semblent êtr
 $txt['plugin_connection_details_title'] = 'Détails de la connexion';
 $txt['plugin_connection_details'] = 'Pour pouvoir continuer à installer l\'extension sur votre serveur, Wedge a besoin de ses identifiants FTP ou SFTP.';
 $txt['plugin_connection_cancel_oops'] = 'Hum...';
-$txt['plugin_connection_cancel'] = 'Si votre hébergeur ne vous a pas fourni d\'identifiants FTP ou SFTP, vous ne pourrez pas utiliser l\'interface web, contactez alors votre hébergeur pour savoir commencer mettre vos fichiers en ligne. Vous aurez sans doute besoin de décompresser manuellement les extensions et de les uploader dans le dossier Plugins.';
+$txt['plugin_connection_cancel'] = 'Si votre hébergeur ne vous a pas fourni d\'identifiants FTP ou SFTP, vous ne pourrez pas utiliser l\'interface web, contactez alors votre hébergeur pour savoir comment gérer vos fichiers. Vous aurez sans doute besoin de passer par un panneau de contrôle de l\'hébergeur.';
 $txt['plugin_connection_button'] = 'Je ne les ai pas';
 $txt['plugin_connection_required'] = 'Si vous connaissez ces éléments, voici ce que Wedge a besoin de savoir.';
 
@@ -152,3 +152,6 @@ $txt['plugin_files_pruned_title'] = 'Ancienne extension supprimée';
 $txt['plugin_files_pruned'] = 'L\'ancienne extension a été supprimée. Wedge va maintenant installer la nouvelle.';
 
 $txt['plugin_folders_created_title'] = 'Dossiers créés';
+
+$txt['plugin_files_unpacked_title'] = 'Fichiers décompressés';
+$txt['plugin_files_unpacked'] = 'Tous les fichiers ont pu être décompressés. Vous devriez maintenant pouvoir activer cette extension&nbsp;!';
