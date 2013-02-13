@@ -129,7 +129,7 @@ $txt['plugin_connection_successful'] = 'The provided details for your server see
 $txt['plugin_connection_details_title'] = 'Connection Details';
 $txt['plugin_connection_details'] = 'In order to proceed, Wedge requires FTP or SFTP credentials so that your plugin can be properly installed on the server.';
 $txt['plugin_connection_cancel_oops'] = 'Um...';
-$txt['plugin_connection_cancel'] = 'In the event that your host has not given you FTP or SFTP access details, you will not be able to use the web uploader and will need to contact your host about other ways to upload files; in these cases you may need to manually unpack and upload plugins to the Plugins folder.';
+$txt['plugin_connection_cancel'] = 'In the event that your host has not given you FTP or SFTP access details, you will not be able to use the web interface and will need to contact your host about other ways to manage files; in these cases you may need to manually use your hosting control panel.';
 $txt['plugin_connection_button'] = 'I haven\'t got these';
 $txt['plugin_connection_required'] = 'Assuming you have got such details, here is what Wedge needs to know from you.';
 
