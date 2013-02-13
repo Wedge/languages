@@ -131,6 +131,7 @@ $txt['theme_admin_info'] = 'Setup and manage your themes and set or reset theme 
 $txt['registration_center'] = 'Registration and Login';
 $txt['member_center_info'] = 'View the member list, search for members and manage not-yet-approved members and members who haven\'t activated their account yet.';
 
+$txt['view_all_members'] = 'View All Members';
 $txt['viewmembers_name'] = 'Username (display name)';
 $txt['viewmembers_online'] = 'Last Online';
 $txt['viewmembers_today'] = 'Today';
@@ -240,7 +241,6 @@ $txt['not_activated'] = 'Not activated';
 $txt['primary'] = 'Primary';
 $txt['additional'] = 'Additional';
 $txt['wild_cards_allowed'] = 'wildcard characters * and ? are allowed';
-$txt['search_for'] = 'Search for';
 $txt['member_part_of_these_membergroups'] = 'Member is part of these membergroups';
 $txt['membergroups'] = 'Membergroups';
 $txt['confirm_delete_members'] = 'Are you sure you want to delete the selected members?';

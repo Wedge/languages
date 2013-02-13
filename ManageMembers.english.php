@@ -2,8 +2,12 @@
 // Version: 2.0; ManageMembers
 
 $txt['groups'] = 'Groups';
+$txt['members_list'] = 'Members List';
 $txt['viewing_groups'] = 'Viewing Membergroups';
 $txt['visible_to_all'] = '(already viewable by all)';
+$txt['viewing_members'] = 'Viewing Members %1$s to %2$s';
+$txt['of_total_members'] = 'of %1$s total members';
+$txt['view_all_members'] = 'View All Members';
 
 $txt['membergroups_title'] = 'Manage Membergroups';
 $txt['membergroups_description'] = 'Membergroups are groups of members that have similar permission settings, appearance, or access rights. Some membergroups are based on the amount of posts a user has made. You can assign someone to a membergroup by selecting their profile and changing their account settings.';

@@ -248,8 +248,6 @@ $txt['recent_view'] = 'View the most recent posts on the forum.';
 $txt['male'] = 'Male';
 $txt['female'] = 'Female';
 
-$txt['error_invalid_characters_username'] = 'Invalid character used in Username.';
-
 $txt['welcome_guest'] = 'Welcome, <strong>%1$s</strong>. Please <a href="<URL>?action=login">login</a> or <a href="<URL>?action=register">register</a>.';
 $txt['welcome_guest_noregister'] = 'Welcome, <strong>%1$s</strong>. Please <a href="<URL>?action=login">login</a>.';
 $txt['login_or_register'] = 'Please <a href="<URL>?action=login">login</a> or <a href="<URL>?action=register">register</a>.';
@@ -260,24 +258,6 @@ $txt['hello_guest'] = 'Welcome,';
 $txt['select_destination'] = 'Select destination';
 
 $txt['posted_by'] = 'Posted by';
-
-$txt['icon_smiley'] = 'Smile';
-$txt['icon_angry'] = 'Angry';
-$txt['icon_cheesy'] = 'Cheesy';
-$txt['icon_sad'] = 'Sad';
-$txt['icon_wink'] = 'Wink';
-$txt['icon_grin'] = 'Grin';
-$txt['icon_shocked'] = 'Shocked';
-$txt['icon_cool'] = 'Cool!';
-$txt['icon_huh'] = 'Huh?';
-$txt['icon_rolleyes'] = 'Roll eyes';
-$txt['icon_tongue'] = 'Tongue';
-$txt['icon_embarrassed'] = 'Embarrassed';
-$txt['icon_lips'] = 'Lips sealed';
-$txt['icon_undecided'] = 'Undecided';
-$txt['icon_kiss'] = 'Kiss';
-$txt['icon_cry'] = 'Cry';
-$txt['icon_edit'] = 'Edited';
 
 $txt['moderator'] = 'Moderator';
 $txt['moderators'] = 'Moderators';
@@ -290,12 +270,6 @@ $txt['new_short'] = 'New';
 $txt['new_posts'] = 'New Posts';
 $txt['old_posts'] = 'No New Posts';
 
-$txt['view_all_members'] = 'View All Members';
-$txt['view'] = 'View';
-
-$txt['viewing_members'] = 'Viewing Members %1$s to %2$s';
-$txt['of_total_members'] = 'of %1$s total members';
-
 $txt['forgot_your_password'] = 'Forgot your password?';
 
 $txt['date'] = 'Date';
@@ -303,11 +277,8 @@ $txt['from'] = 'From';
 $txt['to'] = 'To';
 
 $txt['members_title'] = 'Members';
-$txt['members_list'] = 'Members List';
 
 $txt['redirect_board'] = 'Redirect Board';
-
-$txt['report_sent'] = 'Your report has been sent successfully.';
 
 $txt['notification'] = 'Notification';
 
@@ -327,25 +298,12 @@ $txt['participation_caption'] = 'Topic you have posted in';
 $txt['print'] = 'Print';
 $txt['profile'] = 'Profile';
 $txt['not_applicable'] = 'N/A';
-
-$txt['switch_mode'] = 'Switch to full editor';
 $txt['preview'] = 'Preview';
-
-$txt['save_draft'] = 'Save as Draft';
-$txt['save_draft_warning'] = 'Saving a draft will retain the basic post details (title, text, icon), but not attachments, poll options or anything else. Are you happy to proceed with saving this draft?';
-$txt['draft_saved'] = 'Your post has been saved as a draft. You can access it from <a href="{draft_link}">your profile</a>.';
-$txt['pm_draft_saved'] = 'Your message has been saved as a draft. You can access it from <a href="{draft_link}">your drafts area</a>.';
 $txt['remove_draft'] = 'Remove draft';
-$txt['last_saved_on'] = 'Last saved';
-
 $txt['ip'] = 'IP';
-
 $txt['by'] = 'by';
-
 $txt['days_word'] = 'days';
-
 $txt['search_for'] = 'Search for';
-
 $txt['maintain_mode_on'] = 'Remember, this forum is in \'Maintenance Mode\'.';
 
 $txt['forum_stats'] = 'Forum statistics';
@@ -354,7 +312,6 @@ $txt['blog_stats'] = 'Blog statistics';
 $txt['topic_stats'] = 'Topic statistics';
 
 $txt['latest_member'] = 'Latest Member';
-$txt['total_cats'] = 'Total Categories';
 $txt['latest_post'] = 'Latest Post';
 
 $txt['youve_got_pms'] = array(0 => 'You have no messages...', 1 => 'You have 1 message...', 'n' => 'You have %s messages...');
@@ -373,7 +330,6 @@ $txt['file'] = 'File';
 $txt['today'] = '<strong>Today</strong> at ';
 $txt['yesterday'] = '<strong>Yesterday</strong> at ';
 $txt['new_poll'] = 'New poll';
-$txt['poll_question'] = 'Question';
 $txt['poll_vote'] = 'Submit Vote';
 $txt['poll_total_voters'] = 'Total Members Voted';
 $txt['poll_results'] = 'View results';

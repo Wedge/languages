@@ -41,6 +41,7 @@ $txt['total_members'] = 'Total Members';
 $txt['total_posts'] = 'Total Posts';
 $txt['total_topics'] = 'Total Topics';
 $txt['total_boards'] = 'Total Boards';
+$txt['total_cats'] = 'Total Categories';
 
 $txt['totalTimeLogged_d_short'] = 'd ';
 $txt['totalTimeLogged_h_short'] = 'h ';

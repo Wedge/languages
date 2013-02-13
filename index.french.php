@@ -242,8 +242,6 @@ $txt['recent_view'] = 'Voir les messages les plus récents du forum.';
 $txt['male'] = 'Homme';
 $txt['female'] = 'Femme';
 
-$txt['error_invalid_characters_username'] = 'Caractère invalide dans l\'identifiant/pseudonyme.';
-
 $txt['welcome_guest'] = 'Bienvenue, <strong>%1$s</strong>. Merci de vous <a href="<URL>?action=login">connecter</a> ou de vous <a href="<URL>?action=register">inscrire</a>.';
 $txt['welcome_guest_noregister'] = 'Bienvenue, <strong>%1$s</strong>. Merci de vous <a href="<URL>?action=login">connecter</a>.';
 $txt['login_or_register'] = 'Merci de vous <a href="<URL>?action=login">connecter</a> ou de vous <a href="<URL>?action=register">inscrire</a>.';
@@ -254,24 +252,6 @@ $txt['hello_guest'] = 'Bienvenue,';
 $txt['select_destination'] = 'Destination ?';
 
 $txt['posted_by'] = 'Posté par';
-
-$txt['icon_smiley'] = 'Sourire';
-$txt['icon_angry'] = 'Fâché';
-$txt['icon_cheesy'] = 'Grand sourire';
-$txt['icon_sad'] = 'Triste';
-$txt['icon_wink'] = 'Clin d\'oeil';
-$txt['icon_grin'] = 'Gnéhé';
-$txt['icon_shocked'] = 'Choqué';
-$txt['icon_cool'] = 'Cool !';
-$txt['icon_huh'] = 'Hein ?';
-$txt['icon_rolleyes'] = 'Tss...';
-$txt['icon_tongue'] = 'Hihi';
-$txt['icon_embarrassed'] = 'Embarrassé';
-$txt['icon_lips'] = 'Bouche cousue';
-$txt['icon_undecided'] = 'Indécis';
-$txt['icon_kiss'] = 'Bises';
-$txt['icon_cry'] = 'Snif';
-$txt['icon_edit'] = 'Modifié';
 
 $txt['moderator'] = 'Modérateur';
 $txt['moderators'] = 'Modérateurs';
@@ -284,12 +264,6 @@ $txt['new_short'] = 'Nouv';
 $txt['new_posts'] = 'Nouveaux messages';
 $txt['old_posts'] = 'Pas de nouveau message';
 
-$txt['view_all_members'] = 'Voir tous les membres';
-$txt['view'] = 'Voir';
-
-$txt['viewing_members'] = 'Voir les membres de %1$s à %2$s';
-$txt['of_total_members'] = 'sur %1$s au total';
-
 $txt['forgot_your_password'] = 'Mot de passe oublié&nbsp;?';
 
 $txt['date'] = 'Date';
@@ -297,11 +271,8 @@ $txt['from'] = 'De';
 $txt['to'] = 'à';
 
 $txt['members_title'] = 'Membres';
-$txt['members_list'] = 'Liste des membres';
 
 $txt['redirect_board'] = 'Redirection';
-
-$txt['report_sent'] = 'Votre rapport a été envoyé avec succès.';
 
 $txt['notification'] = 'Notification';
 
@@ -321,25 +292,12 @@ $txt['participation_caption'] = 'Sujet dans lequel vous êtes intervenu';
 $txt['print'] = 'Imprimer';
 $txt['profile'] = 'Profil';
 $txt['not_applicable'] = 'N/A';
-
-$txt['switch_mode'] = 'Passer à l\'éditeur complet';
 $txt['preview'] = 'Prévisualiser';
-
-$txt['save_draft'] = 'Brouillon';
-$txt['save_draft_warning'] = 'Sauvegarder en tant que brouillon conservera uniquement les détails de base du message (titre, texte, icône), et donc ni ses fichiers joints, ni les options de sondage, etc. Êtes-vous sûr de vouloir continuer&nbsp;?';
-$txt['draft_saved'] = 'Votre brouillon a été sauvegardé. Vous pouvez y accéder depuis <a href="{draft_link}">votre profil</a>.';
-$txt['pm_draft_saved'] = 'Votre brouillon a été sauvegardé. Vous pouvez y accéder depuis <a href="{draft_link}">votre profil</a>.';
 $txt['remove_draft'] = 'Supprimer brouillon';
-$txt['last_saved_on'] = 'Dernière sauvegarde';
-
 $txt['ip'] = 'IP';
-
 $txt['by'] = 'par';
-
 $txt['days_word'] = 'jours';
-
 $txt['search_for'] = 'Rechercher';
-
 $txt['maintain_mode_on'] = 'Attention, ce forum est en \'Mode Maintenance\'.';
 
 $txt['forum_stats'] = 'Statistiques du site';
@@ -348,7 +306,6 @@ $txt['blog_stats'] = 'Statistiques du blog';
 $txt['topic_stats'] = 'Statistiques du sujet';
 
 $txt['latest_member'] = 'Dernier membre';
-$txt['total_cats'] = 'Total des catégories';
 $txt['latest_post'] = 'Dernier message';
 
 $txt['youve_got_pms'] = array(0 => 'Pas de messages.', 1 => 'Vous avez un message.', 'n' => 'Vous avez %s messages.');
@@ -367,7 +324,6 @@ $txt['file'] = 'Fichier';
 $txt['today'] = '<strong>Aujourd\'hui</strong> à ';
 $txt['yesterday'] = '<strong>Hier</strong> à ';
 $txt['new_poll'] = 'Nouveau sondage';
-$txt['poll_question'] = 'Question';
 $txt['poll_vote'] = 'Soumettre ma voix';
 $txt['poll_total_voters'] = 'Total des votants';
 $txt['poll_results'] = 'Voir les résultats';

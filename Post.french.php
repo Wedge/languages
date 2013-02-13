@@ -72,15 +72,30 @@ $txt['font_face'] = 'Police du texte';
 $txt['toggle_view'] = 'Changer d\'Affichage';
 $txt['unformat_text'] = 'Enlever le Formatage';
 
+$txt['icon_smiley'] = 'Sourire';
+$txt['icon_angry'] = 'Fâché';
+$txt['icon_cheesy'] = 'Grand sourire';
+$txt['icon_sad'] = 'Triste';
+$txt['icon_wink'] = 'Clin d\'oeil';
+$txt['icon_grin'] = 'Gnéhé';
+$txt['icon_shocked'] = 'Choqué';
+$txt['icon_cool'] = 'Cool !';
+$txt['icon_huh'] = 'Hein ?';
+$txt['icon_rolleyes'] = 'Tss...';
+$txt['icon_tongue'] = 'Hihi';
+$txt['icon_embarrassed'] = 'Embarrassé';
+$txt['icon_lips'] = 'Bouche cousue';
+$txt['icon_undecided'] = 'Indécis';
+$txt['icon_kiss'] = 'Bises';
+$txt['icon_cry'] = 'Snif';
+$txt['icon_edit'] = 'Modifié';
+
 // Editor prompt.
 $txt['prompt_text_email'] = 'Indiquez l\'adresse e-mail.';
 $txt['prompt_text_ftp'] = 'Indiquez l\'adresse FTP.';
 $txt['prompt_text_url'] = 'Indiquez l\'adresse Web du lien.';
 $txt['prompt_text_img'] = 'Indiquez l\'adresse Web de l\'image';
 $txt['prompt_text_desc'] = 'Entrez le texte du lien, laissez vide pour afficher l\'adresse.';
-
-// Use numeric entities in this string.
-$txt['notifyUnsubscribe'] = 'Cliquez ici pour vous d&#233;sabonner de ce sujet';
 
 $txt['lock_after_post'] = 'Bloquer après ce message.';
 $txt['notify_replies'] = 'Suivre les réponses de ce sujet';
@@ -101,16 +116,8 @@ $txt['awaiting_approval'] = 'En attente d\'approbation';
 $txt['error_temp_attachments'] = 'Des fichiers ont été joints à ce message, mais jamais publiés. Ce problème a été corrigé. Si vous ne souhaitez pas les mettre en ligne, vous pouvez les supprimer <a href="#postAttachment">ici</a>.';
 $txt['js_post_will_require_approval'] = 'Attention, ce sujet n\'apparaîtra qu\'après avoir été approuvé par un modérateur.';
 
+$txt['switch_mode'] = 'Passer à l\'éditeur complet';
 $txt['enter_comment'] = 'Entrez un commentaire';
-// Use numeric entities in the below two strings.
-$txt['reported_post'] = 'Message signal&#233;';
-$txt['reported_to_mod_by'] = 'par';
-$txt['rtm10'] = 'Envoyer';
-// Use numeric entities in the below four strings.
-$txt['report_following_post'] = 'Le message \'%1$s\', par';
-$txt['reported_by'] = ', a &#233;t&#233; signal&#233; par';
-$txt['board_moderate'] = 'sur un forum que vous mod&#233;rez';
-$txt['report_comment'] = 'Le rapporteur a fait la remarque suivante';
 
 $txt['attach_restrict_attachmentPostLimit'] = 'taille totale maximale %1$dKo';
 $txt['attach_restrict_attachmentSizeLimit'] = 'taille individuelle maximale %1$dKo';
@@ -126,6 +133,7 @@ $txt['approve_this_post'] = 'Approuver ce message';
 $txt['post_visual_verification_label'] = 'Vérification';
 $txt['post_visual_verification_desc'] = 'Veuillez entrer le code contenu dans l\'image ci-dessus pour valider ce message.';
 
+$txt['poll_question'] = 'Question';
 $txt['poll_options'] = 'Options de sondage';
 $txt['poll_run'] = 'Lancer le sondage pour';
 $txt['poll_run_limit'] = '(Laissez vide si pas de limite.)';
@@ -163,7 +171,15 @@ $txt['more_attachments_error'] = 'Vous ne pouvez plus ajouter d\'autres fichiers
 $txt['more_smileys'] = 'plus';
 $txt['more_smileys_pick'] = 'Afficher les smileys disponibles';
 
+$txt['save_draft'] = 'Brouillon';
+$txt['last_saved_on'] = 'Dernière sauvegarde';
+$txt['draft_saved'] = 'Votre brouillon a été sauvegardé. Vous pouvez y accéder depuis <a href="{draft_link}">votre profil</a>.';
+$txt['pm_draft_saved'] = 'Votre brouillon a été sauvegardé. Vous pouvez y accéder depuis <a href="{draft_link}">votre profil</a>.';
+$txt['save_draft_warning'] = 'Sauvegarder en tant que brouillon conservera uniquement les détails de base du message (titre, texte, icône), et donc ni ses fichiers joints, ni les options de sondage, etc. Êtes-vous sûr de vouloir continuer&nbsp;?';
 $txt['empty_draft'] = 'Impossible de sauvegarder un brouillon vide.';
+
+$txt['report_sent'] = 'Votre rapport a été envoyé avec succès.';
+
 $txt['deleted_thought'] = '(Supprimée)';
 
 $txt['error_new_reply'] = 'Attention &#151; une nouvelle réponse a été postée pendant que vous rédigiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.';

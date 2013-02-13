@@ -72,15 +72,30 @@ $txt['font_face'] = 'Font Face';
 $txt['toggle_view'] = 'Toggle View';
 $txt['unformat_text'] = 'Remove Formatting';
 
+$txt['icon_smiley'] = 'Smile';
+$txt['icon_angry'] = 'Angry';
+$txt['icon_cheesy'] = 'Cheesy';
+$txt['icon_sad'] = 'Sad';
+$txt['icon_wink'] = 'Wink';
+$txt['icon_grin'] = 'Grin';
+$txt['icon_shocked'] = 'Shocked';
+$txt['icon_cool'] = 'Cool!';
+$txt['icon_huh'] = 'Huh?';
+$txt['icon_rolleyes'] = 'Roll eyes';
+$txt['icon_tongue'] = 'Tongue';
+$txt['icon_embarrassed'] = 'Embarrassed';
+$txt['icon_lips'] = 'Lips sealed';
+$txt['icon_undecided'] = 'Undecided';
+$txt['icon_kiss'] = 'Kiss';
+$txt['icon_cry'] = 'Cry';
+$txt['icon_edit'] = 'Edited';
+
 // Editor prompt.
 $txt['prompt_text_email'] = 'Please enter the email address.';
 $txt['prompt_text_ftp'] = 'Please enter the ftp address.';
 $txt['prompt_text_url'] = 'Please enter the URL you wish to link to.';
 $txt['prompt_text_img'] = 'Enter image location';
 $txt['prompt_text_desc'] = 'Please enter what text the link should say. Leave blank to show the URL.';
-
-// Use numeric entities in this string.
-$txt['notifyUnsubscribe'] = 'Unsubscribe to this topic by clicking here';
 
 $txt['lock_after_post'] = 'Lock after Post';
 $txt['notify_replies'] = 'Notify me of replies.';
@@ -101,16 +116,8 @@ $txt['awaiting_approval'] = 'Awaiting approval';
 $txt['error_temp_attachments'] = 'There are attachments found, which you have attached before but not posted. These attachments are now attached to this post. If you do not want to include them in this post, you can remove them <a href="#postAttachment">here</a>.';
 $txt['js_post_will_require_approval'] = 'Reminder: This post will not appear until approved by a moderator.';
 
+$txt['switch_mode'] = 'Switch to full editor';
 $txt['enter_comment'] = 'Enter comment';
-// Use numeric entities in the below two strings.
-$txt['reported_post'] = 'Reported post';
-$txt['reported_to_mod_by'] = 'by';
-$txt['rtm10'] = 'Submit';
-// Use numeric entities in the below four strings.
-$txt['report_following_post'] = 'The following post, "%1$s" by';
-$txt['reported_by'] = 'has been reported by';
-$txt['board_moderate'] = 'on a board you moderate';
-$txt['report_comment'] = 'The reporter has made the following comment';
 
 $txt['attach_restrict_attachmentPostLimit'] = 'maximum total size %1$dKB';
 $txt['attach_restrict_attachmentSizeLimit'] = 'maximum individual size %1$dKB';
@@ -126,6 +133,7 @@ $txt['approve_this_post'] = 'Approve this Post';
 $txt['post_visual_verification_label'] = 'Verification';
 $txt['post_visual_verification_desc'] = 'Please enter the code in the image above to make this post.';
 
+$txt['poll_question'] = 'Question';
 $txt['poll_options'] = 'Poll Options';
 $txt['poll_run'] = 'Run the poll for';
 $txt['poll_run_limit'] = '(Leave blank for no limit.)';
@@ -163,7 +171,15 @@ $txt['more_attachments_error'] = 'Sorry, you aren\'t allowed to post any more at
 $txt['more_smileys'] = 'more';
 $txt['more_smileys_pick'] = 'Show available smileys';
 
+$txt['save_draft'] = 'Save as Draft';
+$txt['last_saved_on'] = 'Last saved';
+$txt['draft_saved'] = 'Your post has been saved as a draft. You can access it from <a href="{draft_link}">your profile</a>.';
+$txt['pm_draft_saved'] = 'Your message has been saved as a draft. You can access it from <a href="{draft_link}">your drafts area</a>.';
+$txt['save_draft_warning'] = 'Saving a draft will retain the basic post details (title, text, icon), but not attachments, poll options or anything else. Are you happy to proceed with saving this draft?';
 $txt['empty_draft'] = 'You cannot have a draft that is completely empty.';
+
+$txt['report_sent'] = 'Your report has been sent successfully.';
+
 $txt['deleted_thought'] = '(Deleted)';
 
 $txt['error_new_reply'] = 'Warning - while you were typing a new reply has been posted. You may wish to review your post.';

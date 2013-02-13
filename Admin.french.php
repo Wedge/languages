@@ -131,6 +131,7 @@ $txt['theme_admin_info'] = 'Créer, gérer et paramétrer vos thèmes.';
 $txt['registration_center'] = 'Inscriptions';
 $txt['member_center_info'] = 'Voir la liste des membres, rechercher des utilisateurs et gérer les inscrits en cours d\'approbation ou d\'activation.';
 
+$txt['view_all_members'] = 'Voir tous les membres';
 $txt['viewmembers_name'] = 'Pseudonyme';
 $txt['viewmembers_online'] = 'Dernière connexion';
 $txt['viewmembers_today'] = 'Aujourd\'hui';
@@ -240,7 +241,6 @@ $txt['not_activated'] = 'Désactivé';
 $txt['primary'] = 'En Primaire';
 $txt['additional'] = 'En Additionnel';
 $txt['wild_cards_allowed'] = 'Les jokers * et ? sont permis';
-$txt['search_for'] = 'Rechercher';
 $txt['member_part_of_these_membergroups'] = 'Le membre fait partie de ces groupes de membres';
 $txt['membergroups'] = 'Groupes de membres';
 $txt['confirm_delete_members'] = 'Êtes-vous sûr de vouloir supprimer les membres sélectionnés ?';

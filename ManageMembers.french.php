@@ -2,8 +2,12 @@
 // Version: 2.0; ManageMembers
 
 $txt['groups'] = 'Groupes';
+$txt['members_list'] = 'Liste des membres';
 $txt['viewing_groups'] = 'Affichage des groupes de membres';
 $txt['visible_to_all'] = '(déjà visible à tous les membres)';
+$txt['viewing_members'] = 'Voir les membres de %1$s à %2$s';
+$txt['of_total_members'] = 'sur %1$s au total';
+$txt['view_all_members'] = 'Voir tous les membres';
 
 $txt['membergroups_title'] = 'Gestion des Groupes de Membres';
 $txt['membergroups_description'] = 'Ce sont des ensembles de membres qui ont les mêmes paramètres de permissions, apparence et droits d\'accès. Certains groupes sont basés sur le nombre de messages postés par le membre. Vous pouvez assigner quelqu\'un à un groupe en sélectionnant son profil et en modifiant le paramètre correspondant de son compte.';
