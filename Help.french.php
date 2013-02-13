@@ -45,7 +45,7 @@ $helptxt['manage_boards'] = '
 	de rapidement trouver ce qui les intéresse&nbsp;: au lieu d\'un "Magasin", vous avez
 	un "Magasin d\'informatique" et un "Magasin de chaussures" où vous pouvez aller. Cela simplifie
 	votre recherche d\'un "disque dur", parce que vous pouvez aller directement au "Magasin d\'informatique"
-	plutôt qu\'au "Magasin de chaussures" (où vous ne trouverez sans doute pas votre disque dur ;) ).
+	plutôt qu\'au "Magasin de chaussures"... Où vous ne trouverez sans doute pas votre disque dur. ;-)
 	<br>
 	Comme précisé plus haut, une section est un sujet clé sous une catégorie mère.
 	Si vous voulez discuter de "Twingo", vous irez à la catégorie "Voitures" et
