@@ -332,8 +332,7 @@ $txt['signature_bbc'] = 'Enabled BBC tags';
 $txt['custom_profile_title'] = 'Custom Profile Fields';
 $txt['custom_profile_desc'] = 'From this page you can create your own custom profile fields that fit in with your own forum\'s requirements.';
 $txt['custom_profile_active'] = 'Active';
-$txt['custom_profile_fieldname'] = 'Field Name';
-$txt['custom_profile_fieldtype'] = 'Field Type';
+$txt['custom_profile_inactive'] = 'Inactive';
 $txt['custom_profile_make_new'] = 'New Field';
 $txt['custom_profile_none'] = 'You have not created any custom profile fields yet!';
 $txt['custom_profile_icon'] = 'Icon';
@@ -427,10 +426,7 @@ $txt['custom_edit_placement'] = 'Choose Placement';
 $txt['custom_edit_placement_standard'] = 'Standard (with title)';
 $txt['custom_edit_placement_withicons'] = 'With Icons';
 $txt['custom_edit_placement_abovesignature'] = 'Above Signature';
-$txt['custom_profile_placement'] = 'Placement';
-$txt['custom_profile_placement_standard'] = 'Standard';
-$txt['custom_profile_placement_withicons'] = 'With Icons';
-$txt['custom_profile_placement_abovesignature'] = 'Above Signature';
+$txt['custom_profile_placement'] = 'Placement: %1$s';
 
 $txt['custom_edit_delete_sure'] = 'Are you sure you wish to delete this field - all related user data will be lost!';
 

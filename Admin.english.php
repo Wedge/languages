@@ -413,6 +413,7 @@ $txt['news_mailing_desc'] = 'From this menu you can send messages to all members
 $txt['groups_edit_news'] = 'Groups allowed to edit news items';
 $txt['groups_send_mail'] = 'Groups allowed to send out forum newsletters';
 $txt['editnews_remove_confirm'] = 'Are you sure you want to delete the selected news item?';
+$txt['editnews_no_news'] = 'There are no current news items. You can add one using the button below.';
 $txt['editnews_add'] = 'Add a news item';
 $txt['editnews_edit'] = 'Edit a news item';
 $txt['editnews_saveorder'] = 'Save the new order';
