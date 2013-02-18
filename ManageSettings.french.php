@@ -332,6 +332,7 @@ $txt['signature_bbc'] = 'Balises BBCode autorisées';
 $txt['custom_profile_title'] = 'Champs de profil personnalisés';
 $txt['custom_profile_desc'] = 'Sur cette page, vous pouvez créer vos propres champs de profil correspondant aux besoins de votre forum.';
 $txt['custom_profile_active'] = 'Actif';
+$txt['custom_profile_inactive'] = 'Inactif';
 $txt['custom_profile_make_new'] = 'Nouveau champ';
 $txt['custom_profile_none'] = 'Vous n\'avez pas encore créé de champ de profil personnalisé&nbsp;!';
 $txt['custom_profile_icon'] = 'Icône';
@@ -425,10 +426,7 @@ $txt['custom_edit_placement'] = 'Choisir la position';
 $txt['custom_edit_placement_standard'] = 'Standard (à côté du titre)';
 $txt['custom_edit_placement_withicons'] = 'À côté des icônes';
 $txt['custom_edit_placement_abovesignature'] = 'Au-dessus de la signature';
-$txt['custom_profile_placement'] = 'Position';
-$txt['custom_profile_placement_standard'] = 'Standard';
-$txt['custom_profile_placement_withicons'] = 'À côté des icônes';
-$txt['custom_profile_placement_abovesignature'] = 'Au-dessus de la signature';
+$txt['custom_profile_placement'] = 'Position&nbsp;: %1$s';
 
 $txt['custom_edit_delete_sure'] = 'Êtes-vous sûr de vouloir supprimer ce champ ? Toutes les données utilisateur liées seront perdues !';
 

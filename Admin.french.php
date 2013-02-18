@@ -412,6 +412,7 @@ $txt['news_mailing_desc'] = 'Depuis ce menu vous pouvez envoyer des messages à 
 $txt['groups_edit_news'] = 'Groupes autorisés à modifier les nouvelles';
 $txt['groups_send_mail'] = 'Groupes autorisés à envoyer les infolettres du forum';
 $txt['editnews_remove_confirm'] = 'Voulez-vous vraiment supprimer les nouvelles sélectionnées&nbsp;?';
+$txt['editnews_no_news'] = 'Aucune nouvelle en place. Appuyez sur le bouton ci-dessous pour en ajouter une.';
 $txt['editnews_add'] = 'Ajouter une news';
 $txt['editnews_edit'] = 'Modifier une news';
 $txt['editnews_saveorder'] = 'Enregistrer le nouvel ordre';
