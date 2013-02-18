@@ -114,7 +114,6 @@ $txt['attachment_delete_admin'] = '[Fichier joint supprimé par l\'administrateu
 $txt['live'] = 'À la une de Wedge&hellip;';
 $txt['remove_all'] = 'Supprimer tout';
 $txt['approve_new_members'] = 'Les admins doivent approuver tous les nouveaux membres';
-$txt['agreement_not_writable'] = 'Attention - agreement.txt n\'est PAS accessible en écriture. Les changements effectués ne seront PAS sauvegardés';
 
 $txt['version_check_desc'] = 'Cette section vous montre les versions des logiciels de votre serveur, et compare les versions de vos fichiers aux dernières en date. Si l\'un de ceux-ci n\'est pas à jour, vous devriez télécharger et installer la dernière version de Wedge sur <a href="http://wedge.org/" target="_blank" class="new_win">wedge.org</a>.';
 $txt['version_check_more'] = '(plus de détails)';
