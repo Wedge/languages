@@ -11,7 +11,6 @@ $txt['theme_reset'] = 'Reset everyone to';
 $txt['theme_nochange'] = 'No change';
 $txt['theme_forum_default'] = 'Forum Default';
 
-$txt['theme_remove'] = 'remove';
 $txt['theme_remove_confirm'] = 'Are you sure you want to permanently remove this theme?';
 
 $txt['theme_install'] = 'Install a New Theme';
