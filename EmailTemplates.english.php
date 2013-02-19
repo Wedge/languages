@@ -4,25 +4,12 @@
 // Since all of these strings are being used in emails, numeric entities should be used.
 
 // Do not translate anything that is between {}, they are used as replacement variables and MUST remain exactly how they are.
-// Additionally, do not translate the @additional_params: line or the variable names in the lines that follow it. You may
-// translate the description of the variable. Do not translate @description:, however you may translate the rest of that line.
-
-// Do not use block comments in this file, they will have special meaning.
 
 $txt['scheduled_approval_email_topic'] = 'The following topics are awaiting approval:';
 $txt['scheduled_approval_email_msg'] = 'The following posts are awaiting approval:';
 
 $txt['emailtemplate_resend_activate_message'] = array(
-	/*
-		@additional_params: resend_activate_message
-			REALNAME: The display name for the member receiving the email.
-			USERNAME: The user name for the member receiving the email.
-			ACTIVATIONLINK: The url link to activate the member's account.
-			ACTIVATIONCODE: The code needed to activate the member's account.
-			ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
-			FORGOTPASSWORDLINK: The url to the "forgot password" page.
-		@description:
-	*/
+	'desc' => 'The email sent to a user when they have registered and their account needs activating through email (as the second or later email)',
 	'subject' => 'Welcome to {FORUMNAME}',
 	'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME}. If you forget your password, you can reset it by visiting {FORGOTPASSWORDLINK}.
 
@@ -35,32 +22,10 @@ Should you have any problems with the activation, please visit {ACTIVATIONLINKWI
 {REGARDS}',
 );
 
-$txt['emailtemplate_resend_pending_message'] = array(
-	/*
-		@additional_params: resend_pending_message
-			REALNAME: The display name for the member receiving the email.
-			USERNAME: The user name for the member receiving the email.
-		@description:
-	*/
-	'subject' => 'Welcome to {FORUMNAME}',
-	'body' => 'Your registration request at {FORUMNAME} has been received, {REALNAME}.
-
-The username you registered with was {USERNAME}.
-
-Before you can login and start using the forum, your request will be reviewed and approved. When this happens, you will receive another email from this address.
-
-{REGARDS}',
-);
-
 $txt['emailtemplate_mc_group_approve'] = array(
-	/*
-		@additional_params: mc_group_approve
-			USERNAME: The user name for the member receiving the email.
-			GROUPNAME: The name of the membergroup that the user was accepted into.
-		@description: The request to join a particular membergroup has been accepted.
-	*/
+	'desc' => 'The email sent to a user when they requested to join a group and the request was approved.',
 	'subject' => 'Group Membership Approval',
-	'body' => '{USERNAME},
+	'body' => '{REALNAME},
 
 We\'re pleased to notify you that your application to join the "{GROUPNAME}" group at {FORUMNAME} has been accepted, and your account has been updated to include this new membergroup.
 
@@ -68,14 +33,9 @@ We\'re pleased to notify you that your application to join the "{GROUPNAME}" gro
 );
 
 $txt['emailtemplate_mc_group_reject'] = array(
-	/*
-		@additional_params: mc_group_reject
-			USERNAME: The user name for the member receiving the email.
-			GROUPNAME: The name of the membergroup that the user was rejected from.
-		@description: The request to join a particular membergroup has been rejected.
-	*/
+	'desc' => 'The email sent to a user when they requested to join a group and the request was not approved.',
 	'subject' => 'Group Membership Rejection',
-	'body' => '{USERNAME},
+	'body' => '{REALNAME},
 
 We\'re sorry to notify you that your application to join the "{GROUPNAME}" group at {FORUMNAME} has been rejected.
 
@@ -83,34 +43,21 @@ We\'re sorry to notify you that your application to join the "{GROUPNAME}" group
 );
 
 $txt['emailtemplate_mc_group_reject_reason'] = array(
-	/*
-		@additional_params: mc_group_reject_reason
-			USERNAME: The user name for the member receiving the email.
-			GROUPNAME: The name of the membergroup that the user was rejected from.
-			REASON: Reason for the rejection.
-		@description: The request to join a particular membergroup has been rejected with a reason given.
-	*/
+	'desc' => 'The email sent to a user when they requested to join a group and the request was not approved, including a reason why.',
 	'subject' => 'Group Membership Rejection',
-	'body' => '{USERNAME},
+	'body' => '{REALNAME},
 
 We\'re sorry to notify you that your application to join the "{GROUPNAME}" group at {FORUMNAME} has been rejected.
 
-This is due to the following reason: {REASON}
+This is due to the following reason: {REFUSEREASON}
 
 {REGARDS}',
 );
 
 $txt['emailtemplate_admin_approve_accept'] = array(
-	/*
-		@additional_params: admin_approve_accept
-			NAME: The display name of the member.
-			USERNAME: The user name for the member receiving the email.
-			PROFILELINK: The URL of the profile page.
-			FORGOTPASSWORDLINK: The URL of the "forgot password" page.
-		@description:
-	*/
+	'desc' => 'The email sent to a user when their account was manually activated (e.g. not through email) by the administrator.',
 	'subject' => 'Welcome to {FORUMNAME}',
-	'body' => 'Welcome, {NAME}!
+	'body' => 'Welcome, {REALNAME}!
 
 Your account has been activated manually by the admin and you can now login and post. Your username is: {USERNAME}. If you forget your password, you can change it at {FORGOTPASSWORDLINK}.
 
@@ -118,16 +65,9 @@ Your account has been activated manually by the admin and you can now login and 
 );
 
 $txt['emailtemplate_admin_approve_activation'] = array(
-	/*
-		@additional_params: admin_approve_activation
-			USERNAME: The user name for the member receiving the email.
-			ACTIVATIONLINK: The url link to activate the member's account.
-			ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
-			ACTIVATIONCODE: The activation code.
-		@description:
-	*/
+	'desc' => 'The email sent to a user when their account was approved by the administrator (e.g. through admin approval)',
 	'subject' => 'Welcome to {FORUMNAME}',
-	'body' => 'Welcome, {USERNAME}!
+	'body' => 'Welcome, {REALNAME}!
 
 Your account on {FORUMNAME} has been approved by the forum administrator. Before you can login, you must first activate your account by selecting the following link:
 
@@ -139,11 +79,7 @@ Should you have any problems with the activation, please visit {ACTIVATIONLINKWI
 );
 
 $txt['emailtemplate_admin_approve_reject'] = array(
-	/*
-		@additional_params: admin_approve_reject
-			USERNAME: The user name for the member receiving the email.
-		@description:
-	*/
+	'desc' => 'The email sent to a user when they registered, sat in admin approval and was subsequently rejected.',
 	'subject' => 'Registration Rejected',
 	'body' => '{USERNAME},
 
@@ -153,11 +89,7 @@ Regrettably, your application to join {FORUMNAME} has been rejected.
 );
 
 $txt['emailtemplate_admin_approve_delete'] = array(
-	/*
-		@additional_params: admin_approve_delete
-			USERNAME: The user name for the member receiving the email.
-		@description:
-	*/
+	'desc' => 'The email sent to a user when their account is deleted.',
 	'subject' => 'Account Deleted',
 	'body' => '{USERNAME},
 
@@ -167,16 +99,9 @@ Your account on {FORUMNAME} has been deleted. This may be because you never acti
 );
 
 $txt['emailtemplate_admin_approve_remind'] = array(
-	/*
-		@additional_params: admin_approve_remind
-			USERNAME: The user name for the member receiving the email.
-			ACTIVATIONLINK: The url link to activate the member's account.
-			ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
-			ACTIVATIONCODE: The activation code.
-		@description:
-	*/
+	'desc' => 'The email sent to a user when their account is pending email registration but has not been completed.',
 	'subject' => 'Registration Reminder',
-	'body' => '{USERNAME},
+	'body' => '{REALNAME},
 
 You still have not activated your account at {FORUMNAME}.
 
@@ -189,14 +114,7 @@ Should you have any problems with the activation, please visit {ACTIVATIONLINKWI
 );
 
 $txt['emailtemplate_admin_register_activate'] = array(
-	/*
-		@additional_params:
-			USERNAME: The user name for the member receiving the email.
-			ACTIVATIONLINK: The url link to activate the member's account.
-			ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
-			ACTIVATIONCODE: The activation code.
-		@description:
-	*/
+	'desc' => 'The email sent to users who have been registered in the administration panel, and it requires email validation.',
 	'subject' => 'Welcome to {FORUMNAME}',
 	'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME} and your password is {PASSWORD}.
 
@@ -210,6 +128,7 @@ Should you have any problems with the activation, please visit {ACTIVATIONLINKWI
 );
 
 $txt['emailtemplate_admin_register_immediate'] = array(
+	'desc' => 'The email sent to users who have been registered in the administration panel and no further action is required.',
 	'subject' => 'Welcome to {FORUMNAME}',
 	'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME} and your password is {PASSWORD}.
 
@@ -219,14 +138,7 @@ You can reach {FORUMNAME} by visiting {SCRIPTURL} in your browser.
 );
 
 $txt['emailtemplate_new_announcement'] = array(
-	/*
-		@additional_params: new_announcement
-			TOPICSUBJECT: The subject of the topic being announced.
-			MESSAGE: The message body of the first post of the announced topic.
-			TOPICLINK: A link to the topic being announced.
-		@description:
-
-	*/
+	'desc' => 'The email used when an administrator or moderator makes a forum announcement.',
 	'subject' => 'New announcement: {TOPICSUBJECT}',
 	'body' => '{MESSAGE}
 
@@ -239,14 +151,7 @@ You can view the full announcement by following this link:
 );
 
 $txt['emailtemplate_notify_boards_once_body'] = array(
-	/*
-		@additional_params: notify_boards_once_body
-			TOPICSUBJECT: The subject of the topic causing the notification
-			TOPICLINK: A link to the topic.
-			MESSAGE: This is the body of the message.
-			UNSUBSCRIBELINK: Link to unsubscribe from notifications.
-		@description:
-	*/
+	'desc' => 'The email sent to users who have requested notifications on a given board, including the body, for the first new topic in that board (until they log in and read).',
 	'subject' => 'New Topic: {TOPICSUBJECT}',
 	'body' => 'A new topic, \'{TOPICSUBJECT}\', has been made on a board you are watching.
 
@@ -265,13 +170,7 @@ Unsubscribe to new topics from this board by using this link:
 );
 
 $txt['emailtemplate_notify_boards_once'] = array(
-	/*
-		@additional_params: notify_boards_once
-			TOPICSUBJECT: The subject of the topic causing the notification
-			TOPICLINK: A link to the topic.
-			UNSUBSCRIBELINK: Link to unsubscribe from notifications.
-		@description:
-	*/
+	'desc' => 'The email sent to users who have requested notifications on a given board, for the first new topic in that board (until they log in and read).',
 	'subject' => 'New Topic: {TOPICSUBJECT}',
 	'body' => 'A new topic, \'{TOPICSUBJECT}\', has been made on a board you are watching.
 
@@ -287,14 +186,7 @@ Unsubscribe to new topics from this board by using this link:
 );
 
 $txt['emailtemplate_notify_boards_body'] = array(
-	/*
-		@additional_params: notify_boards_body
-			TOPICSUBJECT: The subject of the topic causing the notification
-			TOPICLINK: A link to the topic.
-			MESSAGE: This is the body of the message.
-			UNSUBSCRIBELINK: Link to unsubscribe from notifications.
-		@description:
-	*/
+	'desc' => 'The email sent to users who have requested notifications on a given board, including the body.',
 	'subject' => 'New Topic: {TOPICSUBJECT}',
 	'body' => 'A new topic, \'{TOPICSUBJECT}\', has been made on a board you are watching.
 
@@ -311,13 +203,7 @@ Unsubscribe to new topics from this board by using this link:
 );
 
 $txt['emailtemplate_notify_boards'] = array(
-	/*
-		@additional_params: notify_boards
-			TOPICSUBJECT: The subject of the topic causing the notification
-			TOPICLINK: A link to the topic.
-			UNSUBSCRIBELINK: Link to unsubscribe from notifications.
-		@description:
-	*/
+	'desc' => 'The email sent to users who have requested notifications on a given board.',
 	'subject' => 'New Topic: {TOPICSUBJECT}',
 	'body' => 'A new topic, \'{TOPICSUBJECT}\', has been made on a board you are watching.
 
@@ -331,15 +217,7 @@ Unsubscribe to new topics from this board by using this link:
 );
 
 $txt['emailtemplate_request_membership'] = array(
-	/*
-		@additional_params: request_membership
-			RECPNAME: The name of the person recieving the email
-			APPYNAME: The name of the person applying for group membership
-			GROUPNAME: The name of the group being applied to.
-			REASON: The reason given by the applicant for wanting to join the group.
-			MODLINK: Link to the group moderation page.
-		@description:
-	*/
+	'desc' => 'The email sent to moderators when a user applies to join another membergroup.',
 	'subject' => 'New Group Application',
 	'body' => '{RECPNAME},
 
@@ -355,36 +233,23 @@ You can approve or reject this application by clicking the link below:
 );
 
 $txt['emailtemplate_paid_subscription_reminder'] = array(
-	/*
-		@additional_params: scheduled_approval
-			REALNAME: The real (display) name of the person receiving the email.
-			PROFILE_LINK: Link to profile of member receiving email where can renew.
-			SUBSCRIPTION: Name of the subscription.
-			END_DATE: Date it expires.
-		@description:
-	*/
+	'desc' => 'The email sent to a user when a paid subscription is due to expire.',
 	'subject' => 'Subscription about to expire at {FORUMNAME}',
 	'body' => '{REALNAME},
 
 A subscription you are subscribed to at {FORUMNAME} is about to expire. If when you took out the subscription you selected to auto-renew you need take no action - otherwise you may wish to consider subscribing once more. Details are below:
 
-Subscription Name: {SUBSCRIPTION}
+Subscription Name: {SUBSCRNAME}
 Expires: {END_DATE}
 
 To edit your subscriptions visit the following URL:
-{PROFILE_LINK}
+{PROFILELINKSUBS}
 
 {REGARDS}',
 );
 
 $txt['emailtemplate_activate_reactivate'] = array(
-	/*
-		@additional_params: activate_reactivate
-			ACTIVATIONLINK: The url link to reactivate the member's account.
-			ACTIVATIONCODE: The code needed to reactivate the member's account.
-			ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
-		@description:
-	*/
+	'desc' => 'The email sent to a user that has changed their email address and requires it be re-validated.',
 	'subject' => 'Welcome back to {FORUMNAME}',
 	'body' => 'In order to re-validate your email address, your account has been deactivated. Click the following link to activate it again:
 {ACTIVATIONLINK}
@@ -395,38 +260,26 @@ Should you have any problems with activation, please visit {ACTIVATIONLINKWITHOU
 );
 
 $txt['emailtemplate_forgot_password'] = array(
-	/*
-		@additional_params: forgot_password
-			REALNAME: The real (display) name of the person receiving the reminder.
-			REMINDLINK: The link to reset the password.
-			IP: The IP address of the requester.
-			MEMBERNAME:
-		@description:
-	*/
+	'desc' => 'The email sent to a user when "forgot password" was used on their account.',
 	'subject' => 'New password for {FORUMNAME}',
 	'body' => 'Dear {REALNAME},
 This mail was sent because the \'forgot password\' function has been applied to your account. To set a new password, click the following link:
 {REMINDLINK}
 
 IP: {IP}
-Username: {MEMBERNAME}
+Username: {USERNAME}
 
 {REGARDS}',
 );
 
 $txt['emailtemplate_scheduled_approval'] = array(
-	/*
-		@additional_params: scheduled_approval
-			REALNAME: The real (display) name of the person receiving the email.
-			BODY: The generated body of the mail.
-		@description:
-	*/
+	'desc' => 'The email sent to moderators, listing all items awaiting approval that they can approve.',
 	'subject' => 'Summary of posts awaiting approval at {FORUMNAME}',
 	'body' => '{REALNAME},
 
 This email contains a summary of all items awaiting approval at {FORUMNAME}.
 
-{BODY}
+{MESSAGE}
 
 Please log in to the forum to review these items.
 {SCRIPTURL}
@@ -435,37 +288,22 @@ Please log in to the forum to review these items.
 );
 
 $txt['emailtemplate_send_topic'] = array(
-	/*
-		@additional_params: send_topic
-			TOPICSUBJECT: The subject of the topic being sent.
-			SENDERNAME: The name of the member sending the topic.
-			RECPNAME: The name of the person receiving the email.
-			TOPICLINK: A link to the topic being sent.
-		@description:
-	*/
-	'subject' => 'Topic: {TOPICSUBJECT} (From: {SENDERNAME})',
-	'body' => 'Dear {RECPNAME},
+	'desc' => 'The email sent out when a user uses "Send This Topic" to encourage sharing links.',
+	'subject' => 'Topic: {TOPICSUBJECT} (From: {SENDERNAMEMANUAL})',
+	'body' => 'Dear {RECPNAMEMANUAL},
 I want you to check out "{TOPICSUBJECT}" on {FORUMNAME}. To view it, please click this link:
 
 {TOPICLINK}
 
 Thanks,
 
-{SENDERNAME}',
+{SENDERNAMEMANUAL}',
 );
 
 $txt['emailtemplate_send_topic_comment'] = array(
-	/*
-		@additional_params: send_topic_comment
-			TOPICSUBJECT: The subject of the topic being sent.
-			SENDERNAME: The name of the member sending the topic.
-			RECPNAME: The name of the person receiving the email.
-			TOPICLINK: A link to the topic being sent.
-			COMMENT: A comment left by the sender.
-		@description:
-	*/
-	'subject' => 'Topic: {TOPICSUBJECT} (From: {SENDERNAME})',
-	'body' => 'Dear {RECPNAME},
+	'desc' => 'The email sent out when a user uses "Send This Topic" and a comment was added.',
+	'subject' => 'Topic: {TOPICSUBJECT} (From: {SENDERNAMEMANUAL})',
+	'body' => 'Dear {RECPNAMEMANUAL},
 
 I want you to check out "{TOPICSUBJECT}" on {FORUMNAME}. To view it, please click this link:
 
@@ -476,33 +314,17 @@ A comment has also been added regarding this topic:
 
 Thanks,
 
-{SENDERNAME}',
+{SENDERNAMEMANUAL}',
 );
 
 $txt['emailtemplate_send_email'] = array(
-	/*
-		@additional_params: send_email
-			EMAILSUBJECT: The subject the user wants to email.
-			EMAILBODY: The body the user wants to email.
-			SENDERNAME: The name of the member sending the email.
-			RECPNAME: The name of the person receiving the email.
-		@description:
-	*/
+	'desc' => 'A placeholder for the "Email User" function.',
 	'subject' => '{EMAILSUBJECT}',
 	'body' => '{EMAILBODY}',
 );
 
 $txt['emailtemplate_report_to_moderator'] = array(
-	/*
-		@additional_params: report_to_moderator
-			TOPICSUBJECT: The subject of the reported post.
-			POSTERNAME: The report post's author's name.
-			REPORTERNAME: The name of the person reporting the post.
-			TOPICLINK: The url of the post that is being reported.
-			REPORTLINK: The url of the moderation center report.
-			COMMENT: The comment left by the reporter, hopefully to explain why they are reporting the post.
-		@description: When a user reports a post this email is sent out to moderators and admins of that board.
-	*/
+	'desc' => 'The email notification sent to moderators when a post is reported.',
 	'subject' => 'Reported post: {TOPICSUBJECT} by {POSTERNAME}',
 	'body' => 'The following post, "{TOPICSUBJECT}" by {POSTERNAME} has been reported by {REPORTERNAME} on a board you moderate:
 
@@ -516,14 +338,9 @@ The reporter has made the following comment:
 );
 
 $txt['emailtemplate_change_password'] = array(
-	/*
-		@additional_params: change_password
-			USERNAME: The user name for the member receiving the email.
-			PASSWORD: The password for the member.
-		@description:
-	*/
+	'desc' => 'The email sent to users when their password has been changed, including their new password.',
 	'subject' => 'New Password Details',
-	'body' => 'Hey, {USERNAME}!
+	'body' => 'Hey, {REALNAME}!
 
 Your login details at {FORUMNAME} have been changed and your password reset. Below are your new login details.
 
@@ -537,17 +354,7 @@ You may change it after you login by going to the profile page, or by visiting t
 );
 
 $txt['emailtemplate_register_activate'] = array(
-	/*
-		@additional_params: register_activate
-			REALNAME: The display name for the member receiving the email.
-			USERNAME: The user name for the member receiving the email.
-			PASSWORD: The password for the member.
-			ACTIVATIONLINK: The url link to reactivate the member's account.
-			ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
-			ACTIVATIONCODE: The code needed to reactivate the member's account.
-			FORGOTPASSWORDLINK: The url to the "forgot password" page.
-		@description:
-	*/
+	'desc' => 'The email sent to users when registering and need to activate their email address.',
 	'subject' => 'Welcome to {FORUMNAME}',
 	'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME}. If you forget your password, you can reset it by visiting {FORGOTPASSWORDLINK}.
 
@@ -561,17 +368,7 @@ Should you have any problems with activation, please visit {ACTIVATIONLINKWITHOU
 );
 
 $txt['emailtemplate_register_activate_approve'] = array(
-	/*
-		@additional_params: register_activate
-			REALNAME: The display name for the member receiving the email.
-			USERNAME: The user name for the member receiving the email.
-			PASSWORD: The password for the member.
-			ACTIVATIONLINK: The url link to reactivate the member's account.
-			ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
-			ACTIVATIONCODE: The code needed to reactivate the member's account.
-			FORGOTPASSWORDLINK: The url to the "forgot password" page.
-		@description:
-	*/
+	'desc' => 'The email sent to users to activate their email account, but when the administrator then has to approve their account.',
 	'subject' => 'Welcome to {FORUMNAME}',
 	'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME}. If you forget your password, you can reset it by visiting {FORGOTPASSWORDLINK}.
 
@@ -587,15 +384,7 @@ Once that has taken place, the administrator will review your application and de
 );
 
 $txt['emailtemplate_register_coppa'] = array(
-	/*
-		@additional_params: register_coppa
-			REALNAME: The display name for the member receiving the email.
-			USERNAME: The user name for the member receiving the email.
-			PASSWORD: The password for the member.
-			COPPALINK: The url link to the coppa form.
-			FORGOTPASSWORDLINK: The url to the "forgot password" page.
-		@description:
-	*/
+	'desc' => 'The email sent to users when registering but then need to fill out the COPPA form for parental consent.',
 	'subject' => 'Welcome to {FORUMNAME}',
 	'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME}. If you forget your password, you can change it at {FORGOTPASSWORDLINK}
 
@@ -607,14 +396,7 @@ Before you can login, the admin requires consent from your parent/guardian for y
 );
 
 $txt['emailtemplate_register_immediate'] = array(
-	/*
-		@additional_params: register_immediate
-			REALNAME: The display name for the member receiving the email.
-			USERNAME: The user name for the member receiving the email.
-			PASSWORD: The password for the member.
-			FORGOTPASSWORDLINK: The url to the "forgot password" page.
-		@description:
-	*/
+	'desc' => 'The email sent to users when registering and their account is immediately active.',
 	'subject' => 'Welcome to {FORUMNAME}',
 	'body' => 'Thank you for registering at {FORUMNAME}.
 		
@@ -628,14 +410,7 @@ If you forget your password, you may change it at:
 );
 
 $txt['emailtemplate_register_pending'] = array(
-	/*
-		@additional_params: register_pending
-			REALNAME: The display name for the member receiving the email.
-			USERNAME: The user name for the member receiving the email.
-			PASSWORD: The password for the member.
-			FORGOTPASSWORDLINK: The url to the "forgot password" page.
-		@description:
-	*/
+	'desc' => 'The email sent to users when they have registered and their account is awaiting administrator approval.',
 	'subject' => 'Welcome to {FORUMNAME}',
 	'body' => 'Your registration request at {FORUMNAME} has been received, {REALNAME}.
 
@@ -647,14 +422,7 @@ Before you can login and start using the forum, your request will be reviewed an
 );
 
 $txt['emailtemplate_notification_reply'] = array(
-	/*
-		@additional_params: notification_reply
-			TOPICSUBJECT:
-			POSTERNAME:
-			TOPICLINK:
-			UNSUBSCRIBELINK:
-		@description:
-	*/
+	'desc' => 'The email sent when a user is following a topic and it has been replied to.',
 	'subject' => 'Topic reply: {TOPICSUBJECT}',
 	'body' => 'A reply has been posted to a topic you are watching by {POSTERNAME}.
 
@@ -668,15 +436,7 @@ Unsubscribe to this topic by using this link:
 );
 
 $txt['emailtemplate_notification_reply_body'] = array(
-	/*
-		@additional_params: notification_reply_body
-			TOPICSUBJECT:
-			POSTERNAME:
-			TOPICLINK:
-			UNSUBSCRIBELINK:
-			MESSAGE:
-		@description:
-	*/
+	'desc' => 'The email sent when a user is following a topic, it has been replied to, and the content of the post is included.',
 	'subject' => 'Topic reply: {TOPICSUBJECT}',
 	'body' => 'A reply has been posted to a topic you are watching by {POSTERNAME}.
 
@@ -693,14 +453,7 @@ The text of the reply is shown below:
 );
 
 $txt['emailtemplate_notification_reply_once'] = array(
-	/*
-		@additional_params: notification_reply_once
-			TOPICSUBJECT:
-			POSTERNAME:
-			TOPICLINK:
-			UNSUBSCRIBELINK:
-		@description:
-	*/
+	'desc' => 'The email sent when a user is following a topic, and will only receive it on the first new post.',
 	'subject' => 'Topic reply: {TOPICSUBJECT}',
 	'body' => 'A reply has been posted to a topic you are watching by {POSTERNAME}.
 
@@ -716,15 +469,7 @@ More replies may be posted, but you won\'t receive any more notifications until 
 );
 
 $txt['emailtemplate_notification_reply_body_once'] = array(
-	/*
-		@additional_params: notification_reply_body_once
-			TOPICSUBJECT:
-			POSTERNAME:
-			TOPICLINK:
-			UNSUBSCRIBELINK:
-			MESSAGE:
-		@description:
-	*/
+	'desc' => 'The email sent when a user is following a topic, and will only receive it on the first new post, including the post\'s content.',
 	'subject' => 'Topic reply: {TOPICSUBJECT}',
 	'body' => 'A reply has been posted to a topic you are watching by {POSTERNAME}.
 
@@ -743,10 +488,7 @@ More replies may be posted, but you won\'t receive any more notifications until 
 );
 
 $txt['emailtemplate_notification_pin'] = array(
-	/*
-		@additional_params: notification_pin
-		@description:
-	*/
+	'desc' => 'The email sent when a user is following a topic, and the topic is subsequently pinned.',
 	'subject' => 'Topic pinned: {TOPICSUBJECT}',
 	'body' => 'A topic you are watching has been pinned or unpinned by {POSTERNAME}.
 
@@ -760,10 +502,7 @@ Unsubscribe to this topic by using this link:
 );
 
 $txt['emailtemplate_notification_lock'] = array(
-	/*
-		@additional_params: notification_lock
-		@description:
-	*/
+	'desc' => 'The email sent when a user is following a topic, and the topic is subsequently locked.',
 	'subject' => 'Topic locked: {TOPICSUBJECT}',
 	'body' => 'A topic you are watching has been locked by {POSTERNAME}.
 
@@ -777,10 +516,7 @@ Unsubscribe to this topic by using this link:
 );
 
 $txt['emailtemplate_notification_unlock'] = array(
-	/*
-		@additional_params: notification_unlock
-		@description:
-	*/
+	'desc' => 'The email sent when a user is following a topic, and the topic is subsequently unlocked.',
 	'subject' => 'Topic unlocked: {TOPICSUBJECT}',
 	'body' => 'A topic you are watching has been unlocked by {POSTERNAME}.
 
@@ -794,10 +530,7 @@ Unsubscribe to this topic by using this link:
 );
 
 $txt['emailtemplate_notification_remove'] = array(
-	/*
-		@additional_params: notification_remove
-		@description:
-	*/
+	'desc' => 'The email sent when a user is following a topic, and the topic is subsequently removed.',
 	'subject' => 'Topic removed: {TOPICSUBJECT}',
 	'body' => 'A topic you are watching has been removed by {POSTERNAME}.
 
@@ -805,10 +538,7 @@ $txt['emailtemplate_notification_remove'] = array(
 );
 
 $txt['emailtemplate_notification_move'] = array(
-	/*
-		@additional_params: notification_move
-		@description:
-	*/
+	'desc' => 'The email sent when a user is following a topic, and the topic is subsequently moved elsewhere.',
 	'subject' => 'Topic moved: {TOPICSUBJECT}',
 	'body' => 'A topic you are watching has been moved to another board by {POSTERNAME}.
 
@@ -822,10 +552,7 @@ Unsubscribe to this topic by using this link:
 );
 
 $txt['emailtemplate_notification_merge'] = array(
-	/*
-		@additional_params: notification_merged
-		@description:
-	*/
+	'desc' => 'The email sent when a user is following a topic, and the topic is subsequently merged with another.',
 	'subject' => 'Topic merged: {TOPICSUBJECT}',
 	'body' => 'A topic you are watching has been merged with another topic by {POSTERNAME}.
 
@@ -839,10 +566,7 @@ Unsubscribe to this topic by using this link:
 );
 
 $txt['emailtemplate_notification_split'] = array(
-	/*
-		@additional_params: notification_split
-		@description:
-	*/
+	'desc' => 'The email sent when a user is following a topic, and the topic is subsequently split into more than one.',
 	'subject' => 'Topic split: {TOPICSUBJECT}',
 	'body' => 'A topic you are watching has been split into two or more topics by {POSTERNAME}.
 
@@ -856,12 +580,7 @@ Unsubscribe to this topic by using this link:
 );
 
 $txt['emailtemplate_admin_notify'] = array(
-	/*
-		@additional_params: admin_notify
-			USERNAME:
-			PROFILELINK:
-		@description:
-	*/
+	'desc' => 'The email sent to administrators when a new member registers.',
 	'subject' => 'A new member has joined',
 	'body' => '{USERNAME} has just signed up as a new member of your forum. Click the link below to view their profile.
 {PROFILELINK}
@@ -870,13 +589,7 @@ $txt['emailtemplate_admin_notify'] = array(
 );
 
 $txt['emailtemplate_admin_notify_approval'] = array(
-	/*
-		@additional_params: admin_notify_approval
-			USERNAME:
-			PROFILELINK:
-			APPROVALLINK:
-		@description:
-	*/
+	'desc' => 'The email sent to administrators when a new member registers and they need to approve the account.',
 	'subject' => 'A new member has joined',
 	'body' => '{USERNAME} has just signed up as a new member of your forum. Click the link below to view their profile.
 {PROFILELINK}
@@ -888,11 +601,7 @@ Before this member can begin posting they must first have their account approved
 );
 
 $txt['emailtemplate_admin_attachments_full'] = array(
-	/*
-		@additional_params: admin_attachments_full
-			REALNAME:
-		@description:
-	*/
+	'desc' => 'The email sent to warn administrators when the size of the attachments folder is close to the limit set in the admin panel.',
 	'subject' => 'Urgent! Attachments folder almost full',
 	'body' => '{REALNAME},
 
@@ -904,22 +613,13 @@ Once the attachments folder reaches it\'s maximum permitted size users will not 
 );
 
 $txt['emailtemplate_paid_subscription_refund'] = array(
-	/*
-		@additional_params: paid_subscription_refund
-			NAME: Subscription title.
-			REALNAME: Recipients name
-			REFUNDUSER: Username who took out the subscription.
-			REFUNDNAME: User's display name who took out the subscription.
-			DATE: Today's date.
-			PROFILELINK: Link to members profile.
-		@description:
-	*/
+	'desc' => 'The email sent to administrators to advise them of a refund on a paid subscription.',
 	'subject' => 'Refunded Paid Subscription',
 	'body' => '{REALNAME},
 
 A member has received a refund on a paid subscription. Below are the details of this subscription:
 
-	Subscription: {NAME}
+	Subscription: {SUBSCRNAME}
 	User Name: {REFUNDNAME} ({REFUNDUSER})
 	Date: {DATE}
 
@@ -930,23 +630,13 @@ You can view this members profile by clicking the link below:
 );
 
 $txt['emailtemplate_paid_subscription_new'] = array(
-	/*
-		@additional_params: paid_subscription_new
-			NAME: Subscription title.
-			REALNAME: Recipients name
-			SUBEMAIL: Email address of the user who took out the subscription
-			SUBUSER: Username who took out the subscription.
-			SUBNAME: User's display name who took out the subscription.
-			DATE: Today's date.
-			PROFILELINK: Link to members profile.
-		@description:
-	*/
+	'desc' => 'The email sent to administrators to advise them a new paid subscription has been taken out.',
 	'subject' => 'New Paid Subscription',
 	'body' => '{REALNAME},
 
 A member has taken out a new paid subscription. Below are the details of this subscription:
 
-	Subscription: {NAME}
+	Subscription: {SUBSCRNAME}
 	User Name: {SUBNAME} ({SUBUSER})
 	User Email: {SUBEMAIL}
 	Price: {PRICE}
@@ -959,18 +649,13 @@ You can view this members profile by clicking the link below:
 );
 
 $txt['emailtemplate_paid_subscription_error'] = array(
-	/*
-		@additional_params: paid_subscription_error
-			ERROR: Error message.
-			REALNAME: Recipients name
-		@description:
-	*/
+	'desc' => 'The email sent to administrators to advise them of an error in processing a paid subscription.',
 	'subject' => 'Paid Subscription Error Occurred',
 	'body' => '{REALNAME},
 
 The following error occurred when processing a paid subscription
 ----------------------------------------------------------------
-{ERROR}
+{SUBERROR}
 
 {REGARDS}',
 );

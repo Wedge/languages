@@ -199,6 +199,9 @@ $txt['log_settings'] = 'Log Settings';
 $txt['log_settings_desc'] = 'Use these tools to configure how logs work, and to remove older entries in the various logs.';
 
 $txt['mailqueue_title'] = 'Email Settings';
+$txt['mailqueue_browse'] = 'Browse Queue';
+$txt['mailqueue_settings'] = 'Settings';
+$txt['mailqueue_templates'] = 'Email Templates';
 
 $txt['db_error_send'] = 'Send emails on database connection error';
 $txt['db_persist'] = 'Use a persistent connection';
@@ -546,9 +549,6 @@ $txt['admin_news_select_email'] = 'Email Addresses';
 $txt['admin_news_select_email_desc'] = 'A semi-colon separated list of email addresses which should be sent newsletter. (i.e. address1; address2)';
 $txt['admin_news_select_override_notify'] = 'Override Notification Settings';
 $txt['admin_news_cannot_pm_emails_js'] = 'You cannot send a personal message to an email address. If you continue, all entered email addresses will be ignored.<br><br>Are you sure you wish to do this?';
-
-$txt['mailqueue_browse'] = 'Browse Queue';
-$txt['mailqueue_settings'] = 'Settings';
 
 $txt['admin_search'] = 'Quick Search';
 $txt['admin_search_type_internal'] = 'Task/Setting';
