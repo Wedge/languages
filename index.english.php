@@ -128,9 +128,9 @@ $txt['usermenu_addbuddy'] = '+ Contacts';
 $txt['usermenu_addbuddy_desc'] = 'Add user to my contacts';
 $txt['usermenu_removebuddy'] = '- Contacts';
 $txt['usermenu_removebuddy_desc'] = 'Remove user from my contacts';
-$txt['usermenu_seeip'] = '<span style="color: #aaa">IP: %special%</span>';
+$txt['usermenu_seeip'] = '<span style="color: #aaa">IP: %2%</span>';
 $txt['usermenu_seeip_desc'] = 'Posted from this IP address';
-$txt['usermenu_trackip'] = '<span style="color: #aaa">IP: %special%</span>';
+$txt['usermenu_trackip'] = '<span style="color: #aaa">IP: %2%</span>';
 $txt['usermenu_trackip_desc'] = 'Track this IP address';
 
 // Action menu strings (per post)
@@ -608,8 +608,11 @@ $txt['readmore'] = '(%1$d more chars)';
 $txt['thought'] = 'Thought';
 $txt['thoughts'] = 'Thoughts';
 $txt['no_thought_yet'] = '<em>(Click here to set your first thought)</em>';
-$txt['edit_thought'] = 'Edit';
 $txt['add_thought'] = 'New thought';
+$txt['thome_edit'] = 'Edit';
+$txt['thome_remove'] = 'Delete';
+$txt['thome_reply'] = 'Reply';
+$txt['thome_context'] = 'In context';
 
 // Do not use double quotes in the following strings.
 $txt['privacy_public'] = 'Public';
