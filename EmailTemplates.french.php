@@ -12,6 +12,7 @@ $txt['scheduled_approval_email_topic'] = 'Les sujets suivants sont en attente d\
 $txt['scheduled_approval_email_msg'] = 'Les messages suivants sont en attente d\'approbation :';
 
 $txt['emailtemplate_resend_activate_message'] = array(
+	'desc' => 'Le mail envoyé à l\'utilisateur après qu\'il s\'est enregistré, si son compte nécessite une activation par e-mail (e-mail qui viendra ensuite).',
 	'subject' => 'Bienvenue sur {FORUMNAME}',
 	'body' => 'Merci d\'avoir rejoint {FORUMNAME}. Votre nom d\'utilisateur est {USERNAME}. En cas d\'oubli de mot de passe, remettez-le &#224; z&#233;ro en allant sur {FORGOTPASSWORDLINK}.
 
@@ -25,6 +26,7 @@ Si vous avez un probl&#232;me quelconque avec l\'activation, allez sur {ACTIVATI
 );
 
 $txt['emailtemplate_mc_group_approve'] = array(
+	'desc' => 'Le mail envoyé à l\'utilisateur après une demande si sa demande pour rejoindre un groupe a été approuvée.',
 	'subject' => 'Approbation de l\'adh&#233;sion &#224; un groupe',
 	'body' => '{REALNAME},
 
@@ -34,6 +36,7 @@ Nous sommes heureux de vous annoncer que votre demande pour rejoindre le groupe 
 );
 
 $txt['emailtemplate_mc_group_reject'] = array(
+	'desc' => 'Le mail envoyé à l'\utilisateur si sa demande pour rejoindre un groupe a été rejetée.',
 	'subject' => 'Rejet d\'adh&#233;sion &#224; un groupe',
 	'body' => '{REALNAME},
 
@@ -43,6 +46,7 @@ Nous sommes d&#233;sol&#233;s de vous annoncer que votre demande de rejoindre le
 );
 
 $txt['emailtemplate_mc_group_reject_reason'] = array(
+	'desc' => 'Le mail envoyé à l'\utilisateur si sa demande pour rejoindre un groupe a été rejetée, et expliquant les raisons du rejet.',
 	'subject' => 'Rejet d\'adh&#233;sion &#224; un groupe',
 	'body' => '{REALNAME},
 
@@ -55,6 +59,7 @@ En voici la raison :
 );
 
 $txt['emailtemplate_admin_approve_accept'] = array(
+	'desc' => 'Le mail envoyé à l'\utilisateur si son compte vient d\'être activé par un administrateur ou autre sans qu\'il ne soit intervenu.',
 	'subject' => 'Bienvenue sur {FORUMNAME}',
 	'body' => 'Bienvenue, {REALNAME} !
 
@@ -66,6 +71,7 @@ Vous pouvez aussi consulter votre profil sur {PROFILELINK}.
 );
 
 $txt['emailtemplate_admin_approve_activation'] = array(
+	'desc' => 'Le mail envoyé à l'\utilisateur quand son compte a été approuvé par l\'administrateur.',
 	'subject' => 'Bienvenue sur {FORUMNAME}',
 	'body' => 'Bienvenue, {REALNAME} !
 
@@ -79,6 +85,7 @@ En cas de souci avec l\'activation, merci d\'aller sur {ACTIVATIONLINKWITHOUTCOD
 );
 
 $txt['emailtemplate_admin_approve_reject'] = array(
+	'desc' => 'Le mail envoyé à l'\utilisateur si son compte, après enregistrement et mise en attente d\'approbation, a été rejeté par l\'administrateur.',
 	'subject' => 'Inscription rejet&#233;e',
 	'body' => '{USERNAME},
 
@@ -88,6 +95,7 @@ Malheureusement, votre demande pour rejoindre {FORUMNAME} a &#233;t&#233; rejet&
 );
 
 $txt['emailtemplate_admin_approve_delete'] = array(
+	'desc' => 'Le mail envoyé à l'\utilisateur quand son compte est supprimé.',
 	'subject' => 'Compte supprim&#233;',
 	'body' => '{USERNAME},
 
@@ -97,6 +105,7 @@ Votre compte sur {FORUMNAME} a &#233;t&#233; supprim&#233;. L\'une des raisons p
 );
 
 $txt['emailtemplate_admin_approve_remind'] = array(
+	'desc' => 'Le mail envoyé à l'\utilisateur quand son compte est en attente de confirmation e-mail et qu\'aucune action n\'a été entreprise.',
 	'subject' => 'Rappel d\'inscription',
 	'body' => '{REALNAME},
 
@@ -111,8 +120,9 @@ En cas de souci avec l\'activation, merci d\'aller sur {ACTIVATIONLINKWITHOUTCOD
 );
 
 $txt['emailtemplate_admin_register_activate'] = array(
+	'desc' => 'Le mail envoyé à l'\utilisateur si son compte a été créé par l\'administrateur mais nécessite une confirmation par e-mail.',
 	'subject' => 'Bienvenue sur {FORUMNAME}',
-	'body' => 'Merci pour votre inscription sur {FORUMNAME}. Votre identifiant est {USERNAME} et votre mot de passe est {PASSWORD}.
+	'body' => 'L\'administrateur de {FORUMNAME} vous a inscrit sur son forum. Votre identifiant est {USERNAME} et votre mot de passe est {PASSWORD}.
 
 Avant de pouvoir vous connecter, vous devez d\'abord activer votre compte en suivant ce lien :
 
@@ -124,8 +134,9 @@ En cas de souci avec l\'activation, rendez-vous sur {ACTIVATIONLINKWITHOUTCODE} 
 );
 
 $txt['emailtemplate_admin_register_immediate'] = array(
+	'desc' => 'Le mail envoyé à l'\utilisateur si son compte a été créé par l\'administrateur et qu\'aucune action n\'est requise.',
 	'subject' => 'Bienvenue sur {FORUMNAME}',
-	'body' => 'Merci d\'avoir rejoint {FORUMNAME}. Votre identifiant est {USERNAME} et votre mot de passe est {PASSWORD}.
+	'body' => 'L\'administrateur de {FORUMNAME} vous a inscrit sur son forum. Votre identifiant est {USERNAME} et votre mot de passe est {PASSWORD}.
 
 Vous pouvez visiter {FORUMNAME} en vous rendant sur {SCRIPTURL} dans votre navigateur web.
 
@@ -133,6 +144,7 @@ Vous pouvez visiter {FORUMNAME} en vous rendant sur {SCRIPTURL} dans votre navig
 );
 
 $txt['emailtemplate_new_announcement'] = array(
+	'desc' => 'Le mail envoyé aux utilisateurs quand l\'administrateur ou un modérateur envoie une annonce au forum.',
 	'subject' => 'Nouvelle annonce : {TOPICSUBJECT}',
 	'body' => '{MESSAGE}
 
