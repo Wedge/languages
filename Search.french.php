@@ -51,15 +51,10 @@ $txt['search_method_save'] = 'Enregistrer';
 $txt['search_method_messages_table_space'] = 'Espace utilisé par les messages du forum dans la base de données';
 $txt['search_method_messages_index_space'] = 'Espace utilisé pour l\'indexation des messages dans la base de données';
 $txt['search_method_kilobytes'] = 'Ko';
-$txt['search_method_fulltext_index'] = 'Indexation du texte';
 $txt['search_method_no_index_exists'] = 'n\'existe pas actuellement';
-$txt['search_method_fulltext_create'] = 'créer un index en texte complet';
-$txt['search_method_fulltext_cannot_create'] = 'ne peut être créé car le message dépasse la taille de 65,535 caractères ou la table n\'est pas du type MyISAM';
 $txt['search_method_index_already_exists'] = 'existe déjà';
-$txt['search_method_fulltext_remove'] = 'enlever l\'index de texte';
 $txt['search_method_index_partial'] = 'partiellement créé';
 $txt['search_index_custom_resume'] = 'reprendre';
-$txt['search_method_fulltext_warning'] = 'Afin de pouvoir utiliser la recherche en texte, vous devrez d\'abord créer un index !';
 
 $txt['search_index'] = 'Index de recherche';
 $txt['search_index_none'] = 'Aucun index';
@@ -91,7 +86,6 @@ $txt['search_create_index_not_ready'] = 'Wedge est en train de créer un index d
 $txt['search_create_index_progress'] = 'Progression';
 $txt['search_create_index_done'] = 'Index de recherche personnalisé créé&nbsp;!';
 $txt['search_create_index_done_link'] = 'Poursuivre';
-$txt['search_double_index'] = 'Vous avez créé deux index pour la table des messages. Pour de meilleures performances, il est conseillé de supprimer l\'un de ces deux index.';
 
 $txt['search_error_indexed_chars'] = 'Nombre invalide de caractères indéxés. Pour un index performant, au moins 3 caractères sont nécessaires.';
 $txt['search_error_max_percentage'] = 'Pourcentage invalide de termes à ignorer. Veuillez utiliser une valeur d\'au moins 5%.';

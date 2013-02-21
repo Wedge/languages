@@ -51,15 +51,10 @@ $txt['search_method_save'] = 'Save';
 $txt['search_method_messages_table_space'] = 'Space used by forum messages in the database';
 $txt['search_method_messages_index_space'] = 'Space used to index messages in the database';
 $txt['search_method_kilobytes'] = 'KB';
-$txt['search_method_fulltext_index'] = 'Fulltext index';
 $txt['search_method_no_index_exists'] = 'doesn\'t currently exist';
-$txt['search_method_fulltext_create'] = 'create a fulltext index';
-$txt['search_method_fulltext_cannot_create'] = 'cannot be created because the max message length is above 65,535 or table type is not MyISAM';
 $txt['search_method_index_already_exists'] = 'already created';
-$txt['search_method_fulltext_remove'] = 'remove fulltext index';
 $txt['search_method_index_partial'] = 'partially created';
 $txt['search_index_custom_resume'] = 'resume';
-$txt['search_method_fulltext_warning'] = 'In order to be able to use fulltext search, you\'ll have to create a fulltext index first!';
 
 $txt['search_index'] = 'Search index';
 $txt['search_index_none'] = 'No index';
@@ -91,7 +86,6 @@ $txt['search_create_index_not_ready'] = 'Wedge is currently creating a search in
 $txt['search_create_index_progress'] = 'Progress';
 $txt['search_create_index_done'] = 'Custom search index created!';
 $txt['search_create_index_done_link'] = 'Continue';
-$txt['search_double_index'] = 'You have currently created two indexes on the messages table. For best performance it is advisable to remove one of the two indexes.';
 
 $txt['search_error_indexed_chars'] = 'Invalid number of indexed characters. At least 3 characters are needed for a useful index.';
 $txt['search_error_max_percentage'] = 'Invalid percentage of words to be skipped. Use a value of at least 5%.';

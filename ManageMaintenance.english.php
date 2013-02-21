@@ -184,7 +184,6 @@ $txt['utf8_proceed'] = 'Proceed';
 $txt['utf8_database_charset'] = 'Database character set';
 $txt['utf8_target_charset'] = 'Convert data and database to';
 $txt['utf8_utf8'] = 'UTF-8';
-$txt['utf8_cannot_convert_fulltext'] = 'Your messages table is using a fulltext index for use when searching. You cannot proceed in converting to UTF-8 until that index is removed. You can re-create it after the conversion has been completed.';
 
 // Move topics out.
 $txt['move_topics_maintenance'] = 'Move Topics';
