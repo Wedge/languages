@@ -6,8 +6,7 @@ $txt['enter_verification_details'] = 'Remplissez les détails de vérification';
 $txt['message_icon'] = 'Icône du message';
 $txt['subject_not_filled'] = 'Le titre n\'a pas été renseigné. Il est requis.';
 $txt['message_body_not_filled'] = 'Le corps du message n\'a pas été rempli. Il est requis.';
-// Use numeric entities in the below string.
-$txt['regards_team'] = "Cordialement,\nL'&#233;quipe {forum_name}.";
+
 $txt['add_bbc'] = 'Ajouter des tags BBC';
 $txt['bold'] = 'Gras';
 $txt['italic'] = 'Italique';

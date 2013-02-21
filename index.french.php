@@ -176,8 +176,7 @@ $txt['help'] = 'Aide';
 $txt['notify'] = 'Notifier';
 $txt['unnotify'] = 'Se désinscrire';
 $txt['notify_request'] = 'Voulez-vous recevoir un e-mail de notification si quelqu\'un répond à ce sujet&nbsp;?';
-// Use numeric entities in the below string.
-$txt['regards_team'] = 'Cordialement,' . "\n" . 'L\'&#233;quipe {forum_name}';
+
 $txt['notify_replies'] = 'Notification de réponse';
 $txt['move_topic'] = 'Déplacer';
 $txt['move_to'] = 'Déplacer vers';

@@ -5,6 +5,9 @@
 
 // Do not translate anything that is between {}, they are used as replacement variables and MUST remain exactly how they are.
 
+$txt['regards_team'] = 'Regards,
+The {FORUMNAME} Team.';
+
 $txt['scheduled_approval_email_topic'] = 'The following topics are awaiting approval:';
 $txt['scheduled_approval_email_msg'] = 'The following posts are awaiting approval:';
 
