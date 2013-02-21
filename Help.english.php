@@ -624,11 +624,11 @@ $helptxt['field_show_enclosed'] = 'Encloses the user input between some text or 
 
 $helptxt['custom_mask'] = 'The input mask is important for your forum\'s security. Validating the input from a user can help ensure that data is not used in a way you do not expect. We have provided some simple regular expressions as hints.<br><br>
 	<div style="margin: 0 2em">
-		<span class="bbc_tt">[A-Za-z]+</span> - Match all upper and lower case alphabet characters.<br>
-		<span class="bbc_tt">[0-9]+</span> - Match all numeric characters.<br>
-		<span class="bbc_tt">[A-Za-z0-9]{7}</span> - Match all upper and lower case alphabet and numeric characters seven times.<br>
-		<span class="bbc_tt">[^0-9]*</span> - Forbid any number from being matched.<br>
-		<span class="bbc_tt">^([A-Fa-f0-9]{3}|[A-Fa-f0-9]{6})$</span> - Only allow 3 or 6-character hex codes.<br>
+		<span class="bbc_tt">/[A-Za-z]+/</span> - Match all upper and lower case alphabet characters.<br>
+		<span class="bbc_tt">/[0-9]+/</span> - Match all numeric characters.<br>
+		<span class="bbc_tt">/[A-Za-z0-9]{7}/</span> - Match all upper and lower case alphabet and numeric characters seven times.<br>
+		<span class="bbc_tt">/[^0-9]*/</span> - Forbid any number from being matched.<br>
+		<span class="bbc_tt">/^([A-Fa-f0-9]{3}|[A-Fa-f0-9]{6})$/</span> - Only allow 3 or 6-character hex codes.<br>
 	</div><br><br>
 	Additionally, special metacharacters ? + * ^ $ \\ and {xx} can be defined.
 	<div style="margin: 0 2em">
