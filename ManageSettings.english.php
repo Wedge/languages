@@ -460,6 +460,9 @@ $txt['languages_dictionary'] = 'Dictionary';
 $txt['languages_spelling'] = 'Spelling';
 $txt['languages_for_pspell'] = 'This is for <a href="http://www.php.net/function.pspell-new" target="_blank" class="new_win">pSpell</a> - if installed';
 $txt['languages_rtl'] = 'Enable &quot;Right to Left&quot; Mode';
+$txt['languages_orientation'] = 'Orientation';
+$txt['languages_orients_ltr'] = 'Left-to-Right';
+$txt['languages_orients_rtl'] = 'Right-to-Left';
 
 $txt['lang_file_desc_index'] = 'General Strings';
 $txt['lang_file_desc_EmailTemplates'] = 'Email Templates';
