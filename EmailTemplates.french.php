@@ -633,3 +633,18 @@ L\'erreur suivante est survenue lors de cette souscription
 
 {REGARDS}',
 );
+
+$txt['emailtemplate_pm_email'] = array(
+	'desc' => '',
+	'subject' => 'Nouveau message personnel : {SUBJECT}',
+	'body' => '
+Vous venez tout juste de recevoir un message personnel de la part de {SENDERNAME} sur {FORUMNAME}.
+
+IMPORTANT : Rappelez-vous que ceci n\'est qu\'une notification. Ne r&#233;pondez pas &#224; cet e-mail.
+
+Le message qui vous a &#233;t&#233; envoy&#233; est le suivant :
+
+{MESSAGE}
+
+R&#233;pondez &#224; ce message personnel ici : {REPLYLINK}',
+);

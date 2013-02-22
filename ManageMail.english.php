@@ -116,3 +116,5 @@ $txt['template_repl_reportername'] = 'the display name of the user who reported 
 $txt['template_repl_reportlink'] = 'the link to the moderation center where the report can be reviewed in full';
 $txt['template_repl_approvallink'] = 'the link to the members approval area';
 $txt['template_repl_coppalink'] = 'the link to the COPPA (parental consent) form for users to download and complete';
+$txt['template_repl_subject'] = 'the subject of the messaage';
+$txt['template_repl_replylink'] = 'the link to the reply-to-PM page';

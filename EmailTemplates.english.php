@@ -662,3 +662,17 @@ The following error occurred when processing a paid subscription
 
 {REGARDS}',
 );
+
+$txt['emailtemplate_pm_email'] = array(
+	'desc' => 'The template used when sending notification of personal messages.',
+	'subject' => 'New Personal Message: {SUBJECT}',
+	'body' => 'You have just been sent a personal message by {SENDERNAME} on {FORUMNAME}.
+
+IMPORTANT: Remember, this is just a notification. Please do not reply to this email.
+
+The message they sent you was:
+
+{MESSAGE}
+
+Reply to this message here: {REPLYLINK}',
+);
