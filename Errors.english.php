@@ -76,6 +76,7 @@ $txt['cannot_manage_smileys'] = 'You\'re not allowed to manage smileys and messa
 $txt['cannot_mark_any_notify'] = 'You don\'t have the permissions necessary to get notifications from this topic.';
 $txt['cannot_mark_notify'] = 'Sorry, but you are not permitted to request notifications from this board.';
 $txt['cannot_merge_any'] = 'You aren\'t allowed to merge topics on one of the selected board(s).';
+$txt['cannot_merge_moved'] = 'You cannot merge "moved topic" notices.';
 $txt['cannot_moderate_forum'] = 'You are not allowed to moderate this forum.';
 $txt['cannot_moderate_board'] = 'You are not allowed to moderate this board.';
 $txt['cannot_modify_any'] = 'You aren\'t allowed to modify just any post.';
