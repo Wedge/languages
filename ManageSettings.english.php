@@ -465,7 +465,7 @@ $txt['languages_orients_ltr'] = 'Left-to-Right';
 $txt['languages_orients_rtl'] = 'Right-to-Left';
 
 $txt['lang_file_desc_index'] = 'General Strings';
-$txt['lang_file_desc_EmailTemplates'] = 'Email Templates';
+$txt['lang_file_desc_Modlog'] = 'Moderation Log entries';
 
 $txt['languages_download'] = 'Download Language Pack';
 $txt['languages_download_note'] = 'This page lists all the files that are contained within the language pack and some useful information about each one. All files that have their associated check box marked will be copied.';
@@ -487,7 +487,6 @@ $txt['languages_download_exists'] = 'Already Exists';
 $txt['languages_download_exists_same'] = 'Identical';
 $txt['languages_download_exists_different'] = 'Different';
 $txt['languages_download_copy'] = 'Copy';
-$txt['languages_download_not_chmod'] = 'You cannot proceed with the installation until all files selected to be copied are writable.';
 $txt['languages_download_illegal_paths'] = 'Plugin contains illegal paths - please contact Wedge';
 $txt['languages_download_complete'] = 'Installation Complete';
 $txt['languages_download_complete_desc'] = 'Language pack installed successfully. Please click <a href="%1$s">here</a> to return to the languages page';

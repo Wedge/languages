@@ -235,11 +235,7 @@ $txt['unable_to_create_temporary'] = 'The search function was unable to create t
 $txt['packageget_unable'] = 'Unable to connect to the server. Please try using <a href="%1$s" target="_blank" class="new_win">this URL</a> instead.';
 $txt['package_not_on_wedge'] = 'Sorry, plugins can only be downloaded like this from the wedge.org server.';
 $txt['package_cant_download'] = 'You cannot download or install new plugins because the Packages directory or one of the files in it are not writable!';
-$txt['package_upload_error_nofile'] = 'You did not select a plugin to upload.';
 $txt['package_upload_error_failed'] = 'Could not upload plugin, please check directory permissions!';
-$txt['package_upload_error_exists'] = 'The file you are uploading already exists on the server. Please delete it first then try again.';
-$txt['package_upload_error_supports'] = 'The plugin manager currently allows only these file types: %1$s.';
-$txt['package_upload_error_broken'] = 'Plugin upload failed due to the following error:<br>&quot;%1$s&quot;';
 
 $txt['package_get_error_not_found'] = 'The plugin you are trying to install cannot be located. You may want to manually upload the plugin to your Packages directory.';
 $txt['package_get_error_missing_xml'] = 'The plugin you are attempting to install is missing the plugin-info.xml that must be in the plugin\'s root folder.';

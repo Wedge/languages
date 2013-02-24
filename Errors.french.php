@@ -234,11 +234,7 @@ $txt['unable_to_create_temporary'] = 'L\'outil de recherche a été incapable de
 $txt['packageget_unable'] = 'Impossible de se connecter au serveur. Veuillez réessayer en utilisant plutôt <a href="%1$s" target="_blank" class="new_win">cette URL</a>.';
 $txt['package_not_on_wedge'] = 'Désolé, les extensions ne peuvent être téléchargées de cette façon que depuis le serveur wedge.org.';
 $txt['package_cant_download'] = 'Vous ne pouvez pas installer ou télécharger d\'extensions parce que le répertoire /Packages ou un de ses fichiers est bloqué en écriture&nbsp;!';
-$txt['package_upload_error_nofile'] = 'Vous n\'avez pas choisi d\'extension à envoyer.';
 $txt['package_upload_error_failed'] = 'Échec d\'envoi de l\'extension. Veuillez vérifier les droits d\'accès du répertoire&nbsp;!';
-$txt['package_upload_error_exists'] = 'Le fichier que vous transférez existe déjà sur le serveur. Veuillez tout d\'abord le supprimer, puis réessayer.';
-$txt['package_upload_error_supports'] = 'Le gestionnaire d\'extensions permet actuellement uniquement ces types de fichier&nbsp;: %1$s.';
-$txt['package_upload_error_broken'] = 'L\'extension n\'a pas pu être téléchargée pour la raison suivante&nbsp;:<br>&quot;%1$s&quot;';
 
 $txt['package_get_error_not_found'] = 'Impossible de trouver l\'extension que vous essayez d\'installer. Essayez d\'uploader l\'extension manuellement dans votre répertoire Packages.';
 $txt['package_get_error_missing_xml'] = 'Le fichier plugin-info.xml est introuvable dans l\'extension que vous essayez d\'installer. Il doit se trouver à la racine du répertoire de l\'extension.';

@@ -594,7 +594,6 @@ $txt['permissions_profiles'] = 'Modifier les Profils';
 
 // These are the old ones, which will be going
 $txt['download_packages'] = 'Télécharger des Extensions';
-$txt['package_file_perms'] = 'Permissions des Fichiers';
 $txt['package_settings'] = 'Paramètres';
 // These will be replacing them
 $txt['plugins_add_plugins'] = 'Ajouter des Extensions';

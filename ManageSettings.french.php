@@ -462,7 +462,6 @@ $txt['languages_for_pspell'] = 'Nécessite l\'emploi de <a href="http://www.php.
 $txt['languages_rtl'] = 'Activer le mode &quot;De gauche à droite&quot;';
 
 $txt['lang_file_desc_index'] = 'Termes généraux';
-$txt['lang_file_desc_EmailTemplates'] = 'Modèles d\'e-mail';
 
 $txt['languages_download'] = 'Téléchargement de packs de Langue';
 $txt['languages_download_note'] = 'Cette page recense tous les fichiers contenus dans le pack de Langue et des informations utiles à propos de chacun d\'entre eux. Tous les fichiers qui ont leur case associée cochée seront copiés.';
@@ -484,7 +483,6 @@ $txt['languages_download_exists'] = 'Existe déjà';
 $txt['languages_download_exists_same'] = 'Identique';
 $txt['languages_download_exists_different'] = 'Différent';
 $txt['languages_download_copy'] = 'Copier';
-$txt['languages_download_not_chmod'] = 'Vous ne pouvez pas effectuer l\'installation tant que tous les fichiers à copier sélectionnés ne sont pas inscriptibles.';
 $txt['languages_download_illegal_paths'] = 'L\'extension contient des chemins illégaux - veuillez contacter Wedge';
 $txt['languages_download_complete'] = 'Installation terminée';
 $txt['languages_download_complete_desc'] = 'Le pack de Langue a été installé avec succès. Veuillez cliquer <a href="%1$s">ici</a> pour retourner à la page de gestion des langues';
