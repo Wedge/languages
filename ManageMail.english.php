@@ -65,7 +65,7 @@ $txt['template_email_desc'] = 'Description:';
 $txt['template_email_subject'] = 'Email subject:';
 $txt['template_email_body'] = 'Email body:';
 
-// Don't translate the {} bits, they're used as placeholders. These are the standard ones.
+// Don't translate the (%1$s) bits, they're used as placeholders. These are the standard ones.
 $txt['template_repl_forumname'] = 'name of the forum (%1$s)';
 $txt['template_repl_scripturl'] = 'the link to the front page of the site (%1$s)';
 $txt['template_repl_themeurl'] = 'the URL of the theme currently in use (%1$s)';
@@ -87,7 +87,7 @@ $txt['template_repl_groupname'] = 'the name of the group whose membership is bei
 $txt['template_repl_reason'] = 'the reason for wanting to join the group';
 $txt['template_repl_modlink'] = 'the link to the relevant area of the moderation center';
 $txt['template_repl_sendernamemanual'] = 'the name of the sender, user can enter it manually';
-$txt['template_repl_recpnamemanual'] = 'the name of the recipient of the email, send can enter it manually';
+$txt['template_repl_recpnamemanual'] = 'the name of the recipient of the email, sender can enter it manually';
 $txt['template_repl_topicsubject'] = 'the topic being discussed in the email';
 $txt['template_repl_topiclink'] = 'the link to the topic discussed in the email';
 $txt['template_repl_comment'] = 'a comment added by the sender of the email';
@@ -116,5 +116,5 @@ $txt['template_repl_reportername'] = 'the display name of the user who reported 
 $txt['template_repl_reportlink'] = 'the link to the moderation center where the report can be reviewed in full';
 $txt['template_repl_approvallink'] = 'the link to the members approval area';
 $txt['template_repl_coppalink'] = 'the link to the COPPA (parental consent) form for users to download and complete';
-$txt['template_repl_subject'] = 'the subject of the messaage';
+$txt['template_repl_subject'] = 'the subject of the message';
 $txt['template_repl_replylink'] = 'the link to the reply-to-PM page';
