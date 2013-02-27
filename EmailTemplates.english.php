@@ -119,7 +119,7 @@ Should you have any problems with the activation, please visit {ACTIVATIONLINKWI
 $txt['emailtemplate_admin_register_activate'] = array(
 	'desc' => 'The email sent to users who have been registered in the administration panel, and it requires email validation.',
 	'subject' => 'Welcome to {FORUMNAME}',
-	'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME} and your password is {PASSWORD}.
+	'body' => 'A member account was created for you at {FORUMNAME}. Your username is {USERNAME} and your password is {PASSWORD}.
 
 Before you can login, you must first activate your account by selecting the following link:
 
@@ -133,7 +133,7 @@ Should you have any problems with the activation, please visit {ACTIVATIONLINKWI
 $txt['emailtemplate_admin_register_immediate'] = array(
 	'desc' => 'The email sent to users who have been registered in the administration panel and no further action is required.',
 	'subject' => 'Welcome to {FORUMNAME}',
-	'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME} and your password is {PASSWORD}.
+	'body' => 'A member account was created for you at {FORUMNAME}. Your username is {USERNAME} and your password is {PASSWORD}.
 
 You can reach {FORUMNAME} by visiting {SCRIPTURL} in your browser.
 
