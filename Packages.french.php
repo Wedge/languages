@@ -45,7 +45,6 @@ $txt['package_upgrade'] = 'Mettre à jour';
 $txt['package_action_missing'] = '<strong class="error">Fichier introuvable</strong>';
 
 $txt['package_ftp_necessary'] = 'Informations FTP nécessaires';
-$txt['package_ftp_why'] = 'Certains fichiers que le gestionnaire d\'extensions doit modifier ne sont pas accessibles en écriture. Cela doit être changé en vous connectant par FTP pour changer les droits d\'accès aux fichiers ou créer des dossiers. Vos informations de connexion FTP peuvent être temporairement conservées en cache du gestionnaire d\'extensions pour effectuer proprement les opérations. Notez que vous pouvez également faire ceci manuellement en utilisant un client FTP (pour voir une liste des fichiers concernés, veuillez cliquer <a href="#" onclick="%1$s">ici</a>)';
 $txt['package_ftp_why_download'] = 'Pour transférer des extensions, le répertoire <tt>/Packages</tt> et les fichiers qu\'elles contiennent doivent être inscriptibles (et ils ne le sont pas actuellement). Le gestionnaire d\'extensions peut utiliser vos informations FTP pour rectifier cela.';
 $txt['package_ftp_server'] = 'Serveur FTP';
 $txt['package_ftp_port'] = 'Port';
@@ -53,19 +52,7 @@ $txt['package_ftp_username'] = 'Identifiant';
 $txt['package_ftp_password'] = 'Mot de passe';
 $txt['package_ftp_path'] = 'Chemin local vers Wedge';
 
-$txt['package_file_contents'] = 'Contenu du fichier';
-
-$txt['package_modification_malformed'] = 'Fichier d\'extension erroné ou invalide.';
-$txt['package_modification_missing'] = 'Le fichier ne peut pas être trouvé.';
 $txt['package_no_zlib'] = 'Désolé, votre configuration de PHP n\'inclut pas le support pour <strong>zlib</strong>.  Sans cela, le gestionnaire d\'extensions ne peut pas fonctionner.  Veuillez contacter votre hébergeur pour plus d\'informations.';
-
-$txt['package_cleanperms_title'] = 'Réinitialiser les droits d\'accès';
-$txt['package_cleanperms_desc'] = 'Cette interface vous permet de réinitialiser les droits d\'accès des fichiers et répertoires de l\'installation de votre forum, afin d\'accroître la sécurité et de résoudre des éventuels problèmes liés aux droits d\'accès lors de l\'installation d\'extensions.';
-$txt['package_cleanperms_type'] = 'Changer les droits d\'accès à travers le forum de façon à ce que';
-$txt['package_cleanperms_standard'] = 'seuls les fichiers standards soient inscriptibles.';
-$txt['package_cleanperms_free'] = 'tous les fichiers soient inscriptibles.';
-$txt['package_cleanperms_restrictive'] = 'le moins de fichiers soient inscriptibles.';
-$txt['package_cleanperms_go'] = 'Procéder au changement des droits sur les fichiers';
 
 $txt['package_download_by_url'] = 'Télécharger une extension par son URL';
 $txt['package_download_filename'] = 'Nom du fichier';

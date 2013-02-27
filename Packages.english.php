@@ -45,8 +45,6 @@ $txt['package_upgrade'] = 'Upgrade';
 $txt['package_action_missing'] = '<strong class="error">File not found</strong>';
 
 $txt['package_ftp_necessary'] = 'FTP Information Required';
-$txt['package_ftp_why'] = 'Some of the files the plugin manager needs to modify are not writable. This needs to be changed by logging into FTP and using it to chmod or create the files and folders. Your FTP information may be temporarily cached for proper operation of the plugin manager. Note you can also do this manually using an FTP client - to view a list of the affected files please click <a href="#" onclick="%1$s">here</a>.';
-$txt['package_ftp_why_file_list'] = 'The following files need to made writable to continue installation:';
 $txt['package_ftp_why_download'] = 'To download plugins, the Packages directory and files in it need to be writable - and they are not currently. The plugin manager can use your FTP information to fix this.';
 $txt['package_ftp_server'] = 'FTP Server';
 $txt['package_ftp_port'] = 'Port';
@@ -54,19 +52,7 @@ $txt['package_ftp_username'] = 'Username';
 $txt['package_ftp_password'] = 'Password';
 $txt['package_ftp_path'] = 'Local path to Wedge';
 
-$txt['package_file_contents'] = 'Contents of file';
-
-$txt['package_modification_malformed'] = 'Malformed or invalid plugin file.';
-$txt['package_modification_missing'] = 'The file could not be found.';
 $txt['package_no_zlib'] = 'Sorry, your PHP configuration doesn\'t have support for <strong>zlib</strong>. Without this, the plugin manager cannot function. Please contact your host about this for more information.';
-
-$txt['package_cleanperms_title'] = 'Cleanup Permissions';
-$txt['package_cleanperms_desc'] = 'This interface allows you to reset the permissions for files throughout your installation, so as to increase security or solve any permission problems you may encounter while installing plugins.';
-$txt['package_cleanperms_type'] = 'Change all file permissions throughout the forum such that';
-$txt['package_cleanperms_standard'] = 'Only the standard files are writable.';
-$txt['package_cleanperms_free'] = 'All files are writable.';
-$txt['package_cleanperms_restrictive'] = 'The minimum files are writable.';
-$txt['package_cleanperms_go'] = 'Change file permissions';
 
 $txt['package_download_by_url'] = 'Download a plugin by URL';
 $txt['package_download_filename'] = 'Name of the file';
