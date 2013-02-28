@@ -439,9 +439,6 @@ $txt['languages_default'] = 'Par défaut';
 $txt['languages_users'] = 'Utilisateurs';
 $txt['language_settings_writable'] = 'Attention&nbsp;: Settings.php n\'est pas inscriptible. Par conséquent, le réglage de la langue par défaut ne peut être sauvegardé.';
 $txt['edit_languages'] = 'Modifier les Langues';
-$txt['lang_file_not_writable'] = '<strong>Attention</strong>&nbsp;: le fichier de langue de base (%1$s) est protégé en écriture. Vous devez le rendre inscriptible avant de pouvoir faire des changements.';
-$txt['lang_entries_not_writable'] = '<strong>Attention</strong>&nbsp;: le fichier langue que vous souhaitez modifier (%1$s) est protégé en écriture. Vous devez le rendre inscriptible avant de pouvoir faire des changements.';
-$txt['languages_ltr'] = 'De droite à gauche';
 
 $txt['add_language'] = 'Ajouter une Langue';
 $txt['add_language_wedge'] = 'Télécharger à partir de Wedge';
@@ -453,13 +450,9 @@ $txt['add_language_error_no_files'] = 'Aucun fichier n\'a été trouvé.';
 $txt['add_language_wedge_desc'] = 'Description';
 $txt['add_language_wedge_version'] = 'Version';
 
-$txt['edit_language_entries_primary'] = 'Ci-dessous se trouvent les paramètres de base de langue pour ce pack de Langue.';
 $txt['edit_language_entries'] = 'Modifier les entrées de langue';
-$txt['edit_language_entries_file'] = 'Sélectionnez le fichier à modifier';
 $txt['languages_dictionary'] = 'Dictionnaire';
-$txt['languages_spelling'] = 'Orthographe';
 $txt['languages_for_pspell'] = 'Nécessite l\'emploi de <a href="http://www.php.net/function.pspell-new" target="_blank" class="new_win">pSpell</a> - s\'il est installé';
-$txt['languages_rtl'] = 'Activer le mode &quot;De gauche à droite&quot;';
 
 $txt['lang_file_desc_index'] = 'Termes généraux';
 
@@ -486,4 +479,3 @@ $txt['languages_download_copy'] = 'Copier';
 $txt['languages_download_illegal_paths'] = 'L\'extension contient des chemins illégaux - veuillez contacter Wedge';
 $txt['languages_download_complete'] = 'Installation terminée';
 $txt['languages_download_complete_desc'] = 'Le pack de Langue a été installé avec succès. Veuillez cliquer <a href="%1$s">ici</a> pour retourner à la page de gestion des langues';
-$txt['languages_delete_confirm'] = 'Êtes-vous sûr de vouloir supprimer cette langue ?';
