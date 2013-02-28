@@ -199,6 +199,9 @@ $txt['log_settings'] = 'Paramètres';
 $txt['log_settings_desc'] = 'Cette section vous permet de paramétrer les divers journaux, et de supprimer leurs entrées les plus anciennes.';
 
 $txt['mailqueue_title'] = 'Paramètres E-mail';
+$txt['mailqueue_browse'] = 'Parcourir la file d\'attente';
+$txt['mailqueue_settings'] = 'Paramètres';
+$txt['mailqueue_templates'] = 'Modèles d\'e-mail';
 
 $txt['db_error_send'] = 'Envoyer un e-mail lors d\'une erreur de connexion à la base de données';
 $txt['db_persist'] = 'Utiliser une connexion permanente';
@@ -421,6 +424,7 @@ $txt['editnews_privacy_s'] = 'Équipe/modérateurrs uniquement';
 $txt['editnews_privacy_m'] = 'Membres uniquement';
 $txt['editnews_privacy_e'] = 'Tout le monde';
 $txt['editnews_visible'] = 'Cette news est&nbsp;:';
+
 $txt['censor_clickadd'] = 'Cliquez ici pour ajouter un autre mot.';
 
 $txt['layout_controls'] = 'Forum';
@@ -545,9 +549,6 @@ $txt['admin_news_select_email'] = 'Adresses e-mail';
 $txt['admin_news_select_email_desc'] = 'Une liste d\'adresses e-mail séparées par des points-virgules, à laquelle sera envoyée l\'infolettre. (Par ex: adresse1; adresse2)';
 $txt['admin_news_select_override_notify'] = 'Outrepasser les Paramètres de Notification existants';
 $txt['admin_news_cannot_pm_emails_js'] = 'Vous ne pouvez pas envoyer de message personnel à une adresse e-mail. Si vous continuez, toutes les adresses e-mail seront ignorées.<br><br>Êtes-vous sûr de vouloir faire cela&nbsp;?';
-
-$txt['mailqueue_browse'] = 'Parcourir la file d\'attente';
-$txt['mailqueue_settings'] = 'Paramètres';
 
 $txt['admin_search'] = 'Recherche Rapide';
 $txt['admin_search_type_internal'] = 'Tâche/Option';

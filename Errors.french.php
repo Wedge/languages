@@ -76,6 +76,7 @@ $txt['cannot_manage_smileys'] = 'Vous n\'avez pas les autorisations requises pou
 $txt['cannot_mark_any_notify'] = 'Vous n\'avez pas les permissions nécessaires pour recevoir les notifications pour ce sujet.';
 $txt['cannot_mark_notify'] = 'Désolé, vous n\'êtes pas autorisé à demander des notifications de ce forum.';
 $txt['cannot_merge_any'] = 'Vous n\'êtes pas autorisé à fusionner des sujets sur une des sections sélectionnées.';
+$txt['cannot_merge_moved'] = 'Vous ne pouvez pas fusionner des notifications de sujet déplacé.';
 $txt['cannot_moderate_forum'] = 'Vous n\'êtes pas autorisé à modérer le forum.';
 $txt['cannot_moderate_board'] = 'Vous n\'êtes pas autorisé à modérer cette section.';
 $txt['cannot_modify_any'] = 'Vous n\'êtes autorisé à modifier un message.';

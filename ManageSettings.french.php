@@ -433,12 +433,18 @@ $txt['custom_edit_delete_sure'] = 'Êtes-vous sûr de vouloir supprimer ce champ
 $txt['standard_profile_title'] = 'Champs de profil standards';
 $txt['standard_profile_field'] = 'Champ';
 
+$txt['languages_area_edit_desc'] = 'Cette page vous permet de visionner et modifier les fichiers de langue utilisés par Wedge. Elle n\'est pas faite pour les traductions, contactez plutôt l\'équipe de Wedge si vous désirez vous lancer dans une traduction.';
 $txt['languages_lang_name'] = 'Langue (cliquez pour modifier la langue)';
 $txt['languages_locale'] = 'Paramètres régionaux';
 $txt['languages_default'] = 'Par défaut';
 $txt['languages_users'] = 'Utilisateurs';
 $txt['language_settings_writable'] = 'Attention&nbsp;: Settings.php n\'est pas inscriptible. Par conséquent, le réglage de la langue par défaut ne peut être sauvegardé.';
 $txt['edit_languages'] = 'Modifier les Langues';
+$txt['edit_languages_specific'] = 'Modifier langues - %1$s';
+$txt['language_edit_master_value'] = 'Valeur maître&nbsp;: %1$s';
+$txt['language_edit_master_value_array'] = 'Valeurs maîtres&nbsp;:';
+$txt['language_edit_current_value'] = 'Valeur actuelle&nbsp;: %1$s';
+$txt['language_edit_current_value_array'] = 'Valeurs actuelles&nbsp;:';
 
 $txt['add_language'] = 'Ajouter une Langue';
 $txt['add_language_wedge'] = 'Télécharger à partir de Wedge';
@@ -450,11 +456,35 @@ $txt['add_language_error_no_files'] = 'Aucun fichier n\'a été trouvé.';
 $txt['add_language_wedge_desc'] = 'Description';
 $txt['add_language_wedge_version'] = 'Version';
 
+$txt['language_edit_main'] = 'Fichiers principaux';
+$txt['language_edit_admin'] = 'Panneau d\'administration';
+$txt['language_edit_default'] = 'Fichiers de langue par défaut';
+$txt['language_edit_other'] = 'Autres fichiers de langue';
+$txt['language_edit_search'] = 'Chercher dans fichiers de langue';
+$txt['language_edit_search_plugins'] = 'Inclure les extensions&nbsp;?';
+$txt['language_edit_search_themes'] = 'Inclure les thèmes&nbsp;?';
+$txt['language_edit_search_keys'] = 'Chercher dans les clés';
+$txt['language_edit_search_values'] = 'Chercher dans les valeurs';
+$txt['language_edit_search_both'] = 'Chercher dans les deux';
+$txt['language_edit_no_plugins'] = 'Extensions';
+$txt['language_edit_no_plugins_desc'] = 'Aucune extension ne comporte de fichier de langue modifiable.';
+$txt['language_edit_no_themes'] = 'Thèmes';
+$txt['language_edit_no_themes_desc'] = 'Aucun thème ne comporte de fichier de langue modifiable.';
+$txt['language_edit_plugins_title'] = 'Extension&nbsp;: %1$s';
+$txt['language_edit_themes_title'] = 'Thème&nbsp;: %1$s';
+$txt['language_edit_elsewhere'] = 'Configuré ailleurs';
+$txt['language_edit_email_templates'] = 'Modèles d\'e-mail';
+$txt['language_edit_reg_agreement'] = 'Accord d\'enregistrement';
+
 $txt['edit_language_entries'] = 'Modifier les entrées de langue';
 $txt['languages_dictionary'] = 'Dictionnaire';
 $txt['languages_for_pspell'] = 'Nécessite l\'emploi de <a href="http://www.php.net/function.pspell-new" target="_blank" class="new_win">pSpell</a> - s\'il est installé';
+$txt['languages_orientation'] = 'Orientation';
+$txt['languages_orients_ltr'] = 'Gauche à droite';
+$txt['languages_orients_rtl'] = 'Droite à gauche';
 
 $txt['lang_file_desc_index'] = 'Termes généraux';
+$txt['lang_file_desc_Modlog'] = 'Entrées du journal de modération';
 
 $txt['languages_download'] = 'Téléchargement de packs de Langue';
 $txt['languages_download_note'] = 'Cette page recense tous les fichiers contenus dans le pack de Langue et des informations utiles à propos de chacun d\'entre eux. Tous les fichiers qui ont leur case associée cochée seront copiés.';
