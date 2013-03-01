@@ -28,7 +28,6 @@ $txt['search_specific_topic'] = 'Chercher les messages seulement dans le sujet';
 
 $txt['mods_cat_search'] = 'Rechercher';
 $txt['groups_search_posts'] = 'Groupes de membres ayant accès à la fonction de recherche';
-$txt['simpleSearch'] = 'Activer la recherche simple';
 $txt['search_results_per_page'] = 'Nombre de résultats par page';
 $txt['search_weight_frequency'] = 'Résultats affichés selon un facteur de fréquence de correspondance';
 $txt['search_weight_age'] = 'Résultats affichés selon un facteur d\'ancienneté du dernier message corespondant dans un sujet';

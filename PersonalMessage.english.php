@@ -120,28 +120,18 @@ $txt['pm_report_return'] = 'Return to the inbox';
 
 $txt['pm_search_title'] = 'Search Personal Messages';
 $txt['pm_search_bar_title'] = 'Search Messages';
-$txt['pm_search_text'] = 'Search for';
 $txt['pm_search_go'] = 'Search';
-$txt['pm_search_advanced'] = 'Advanced search';
-$txt['pm_search_user'] = 'By user';
-$txt['pm_search_match_all'] = 'Match all words';
-$txt['pm_search_match_any'] = 'Match any words';
-$txt['pm_search_options'] = 'Options';
+
 $txt['pm_search_post_age'] = 'Message age';
 $txt['pm_search_show_complete'] = 'Show full message in results.';
 $txt['pm_search_subject_only'] = 'Search by subject and author only.';
 $txt['pm_search_between'] = 'between';
 $txt['pm_search_between_and'] = 'and';
 $txt['pm_search_between_days'] = 'days';
-$txt['pm_search_order'] = 'Search order';
 $txt['pm_search_choose_label'] = 'Choose labels to search by, or search all';
 
 $txt['pm_search_results'] = 'Search Results';
 $txt['pm_search_none_found'] = 'No messages found.';
-
-$txt['pm_search_orderby_relevant_first'] = 'Most relevant first';
-$txt['pm_search_orderby_recent_first'] = 'Most recent first';
-$txt['pm_search_orderby_old_first'] = 'Oldest first';
 
 $txt['pm_visual_verification_label'] = 'Verification';
 $txt['pm_visual_verification_desc'] = 'Please enter the code in the image above to send this pm.';

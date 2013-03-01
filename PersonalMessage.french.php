@@ -120,28 +120,18 @@ $txt['pm_report_return'] = 'Retourner à la boîte de réception';
 
 $txt['pm_search_title'] = 'Rechercher dans ma messagerie';
 $txt['pm_search_bar_title'] = 'Rechercher des messages';
-$txt['pm_search_text'] = 'Entrez le texte à rechercher&nbsp;';
 $txt['pm_search_go'] = 'Rechercher';
-$txt['pm_search_advanced'] = 'Recherche avancée';
-$txt['pm_search_user'] = 'Par utilisateur';
-$txt['pm_search_match_all'] = 'Correspondre tous les mots';
-$txt['pm_search_match_any'] = 'Correspondre n\'importe quel mot';
-$txt['pm_search_options'] = 'Options';
+
 $txt['pm_search_post_age'] = 'Âge du message';
 $txt['pm_search_show_complete'] = 'Montrer tout le message dans les résultats.';
 $txt['pm_search_subject_only'] = 'Chercher par titre et auteur seulement.';
 $txt['pm_search_between'] = 'entre';
 $txt['pm_search_between_and'] = 'et';
 $txt['pm_search_between_days'] = 'jours';
-$txt['pm_search_order'] = 'Ordre de recherche';
 $txt['pm_search_choose_label'] = 'Choisir les labels à rechercher, ou rechercher partout';
 
 $txt['pm_search_results'] = 'Résultats des Recherches';
 $txt['pm_search_none_found'] = 'Aucun message trouvé.';
-
-$txt['pm_search_orderby_relevant_first'] = 'Plus significatif en premier';
-$txt['pm_search_orderby_recent_first'] = 'Plus récent en premier';
-$txt['pm_search_orderby_old_first'] = 'Plus ancien en premier';
 
 $txt['pm_visual_verification_label'] = 'Vérification';
 $txt['pm_visual_verification_desc'] = 'Veuillez saisir le code contenu dans l\'image ci-dessus pour envoyer ce message privé.';

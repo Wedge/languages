@@ -346,7 +346,6 @@ $helptxt['allow_disableAnnounce'] = 'This will allow users to opt out of notific
 $helptxt['disallow_sendBody'] = 'This option removes the option to receive the text of replies and posts in notification emails.<br><br>Often, members will reply to the notification email, which in most cases means the webmaster receives the reply.';
 $helptxt['timeLoadPageEnable'] = 'This will show the time in seconds Wedge took to create that page at the bottom of the board.';
 $helptxt['removeNestedQuotes'] = 'This will strip nested quotes from a post when citing the post in question via a quote link.';
-$helptxt['simpleSearch'] = 'This will show a simple search form and a link to a more advanced form.';
 $helptxt['max_image_width'] = 'This allows you to set a maximum size for posted pictures. Pictures smaller than the maximum will not be affected.';
 $helptxt['mail_type'] = 'This setting allows you to choose either PHP\'s default settings, or to override those settings with SMTP. PHP doesn\'t support using authentication with SMTP (which many hosts require, now) so if you want that you should select SMTP. Please note that SMTP can be slower, and some servers will not take usernames and passwords.<br><br>You don\'t need to fill in the SMTP settings if this is set to PHP\'s default.';
 $helptxt['attachment_manager_settings'] = 'Attachments are files that members can upload, and attach to a post.<br><br>

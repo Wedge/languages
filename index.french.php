@@ -372,7 +372,6 @@ $txt['set_unlock'] = 'Débloquer';
 $txt['order_pinned_topic'] = 'Trier sujets épinglés';
 
 $txt['search_advanced'] = 'Recherche avancée';
-$txt['search_simple'] = 'Recherche simple';
 
 $txt['page_created'] = 'Page générée en ';
 $txt['seconds_with_query'] = '%1$.2f secondes avec 1 requête.';

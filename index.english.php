@@ -378,7 +378,6 @@ $txt['set_unlock'] = 'Unlock topic';
 $txt['order_pinned_topic'] = 'Reorder Pinned';
 
 $txt['search_advanced'] = 'Advanced search';
-$txt['search_simple'] = 'Simple search';
 
 $txt['page_created'] = 'Page created in ';
 $txt['seconds_with_query'] = '%1$.2f seconds with 1 query.';
