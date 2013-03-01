@@ -36,7 +36,7 @@ Nous sommes heureux de vous annoncer que votre demande pour rejoindre le groupe 
 );
 
 $txt['emailtemplate_mc_group_reject'] = array(
-	'desc' => 'Le mail envoyé à l'\utilisateur si sa demande pour rejoindre un groupe a été rejetée.',
+	'desc' => 'Le mail envoyé à l\'utilisateur si sa demande pour rejoindre un groupe a été rejetée.',
 	'subject' => 'Rejet d\'adh&#233;sion &#224; un groupe',
 	'body' => '{REALNAME},
 
@@ -46,7 +46,7 @@ Nous sommes d&#233;sol&#233;s de vous annoncer que votre demande de rejoindre le
 );
 
 $txt['emailtemplate_mc_group_reject_reason'] = array(
-	'desc' => 'Le mail envoyé à l'\utilisateur si sa demande pour rejoindre un groupe a été rejetée, et expliquant les raisons du rejet.',
+	'desc' => 'Le mail envoyé à l\'utilisateur si sa demande pour rejoindre un groupe a été rejetée, et expliquant les raisons du rejet.',
 	'subject' => 'Rejet d\'adh&#233;sion &#224; un groupe',
 	'body' => '{REALNAME},
 
@@ -59,7 +59,7 @@ En voici la raison :
 );
 
 $txt['emailtemplate_admin_approve_accept'] = array(
-	'desc' => 'Le mail envoyé à l'\utilisateur si son compte vient d\'être activé par un administrateur ou autre sans qu\'il ne soit intervenu.',
+	'desc' => 'Le mail envoyé à l\'utilisateur si son compte vient d\'être activé par un administrateur ou autre sans qu\'il ne soit intervenu.',
 	'subject' => 'Bienvenue sur {FORUMNAME}',
 	'body' => 'Bienvenue, {REALNAME} !
 
@@ -71,7 +71,7 @@ Vous pouvez aussi consulter votre profil sur {PROFILELINK}.
 );
 
 $txt['emailtemplate_admin_approve_activation'] = array(
-	'desc' => 'Le mail envoyé à l'\utilisateur quand son compte a été approuvé par l\'administrateur.',
+	'desc' => 'Le mail envoyé à l\'utilisateur quand son compte a été approuvé par l\'administrateur.',
 	'subject' => 'Bienvenue sur {FORUMNAME}',
 	'body' => 'Bienvenue, {REALNAME} !
 
@@ -85,7 +85,7 @@ En cas de souci avec l\'activation, merci d\'aller sur {ACTIVATIONLINKWITHOUTCOD
 );
 
 $txt['emailtemplate_admin_approve_reject'] = array(
-	'desc' => 'Le mail envoyé à l'\utilisateur si son compte, après enregistrement et mise en attente d\'approbation, a été rejeté par l\'administrateur.',
+	'desc' => 'Le mail envoyé à l\'utilisateur si son compte, après enregistrement et mise en attente d\'approbation, a été rejeté par l\'administrateur.',
 	'subject' => 'Inscription rejet&#233;e',
 	'body' => '{USERNAME},
 
@@ -95,7 +95,7 @@ Malheureusement, votre demande pour rejoindre {FORUMNAME} a &#233;t&#233; rejet&
 );
 
 $txt['emailtemplate_admin_approve_delete'] = array(
-	'desc' => 'Le mail envoyé à l'\utilisateur quand son compte est supprimé.',
+	'desc' => 'Le mail envoyé à l\'utilisateur quand son compte est supprimé.',
 	'subject' => 'Compte supprim&#233;',
 	'body' => '{USERNAME},
 
@@ -105,7 +105,7 @@ Votre compte sur {FORUMNAME} a &#233;t&#233; supprim&#233;. L\'une des raisons p
 );
 
 $txt['emailtemplate_admin_approve_remind'] = array(
-	'desc' => 'Le mail envoyé à l'\utilisateur quand son compte est en attente de confirmation e-mail et qu\'aucune action n\'a été entreprise.',
+	'desc' => 'Le mail envoyé à l\'utilisateur quand son compte est en attente de confirmation e-mail et qu\'aucune action n\'a été entreprise.',
 	'subject' => 'Rappel d\'inscription',
 	'body' => '{REALNAME},
 
@@ -120,7 +120,7 @@ En cas de souci avec l\'activation, merci d\'aller sur {ACTIVATIONLINKWITHOUTCOD
 );
 
 $txt['emailtemplate_admin_register_activate'] = array(
-	'desc' => 'Le mail envoyé à l'\utilisateur si son compte a été créé par l\'administrateur mais nécessite une confirmation par e-mail.',
+	'desc' => 'Le mail envoyé à l\'utilisateur si son compte a été créé par l\'administrateur mais nécessite une confirmation par e-mail.',
 	'subject' => 'Bienvenue sur {FORUMNAME}',
 	'body' => 'L\'administrateur de {FORUMNAME} vous a inscrit sur son forum. Votre identifiant est {USERNAME} et votre mot de passe est {PASSWORD}.
 
@@ -134,7 +134,7 @@ En cas de souci avec l\'activation, rendez-vous sur {ACTIVATIONLINKWITHOUTCODE} 
 );
 
 $txt['emailtemplate_admin_register_immediate'] = array(
-	'desc' => 'Le mail envoyé à l'\utilisateur si son compte a été créé par l\'administrateur et qu\'aucune action n\'est requise.',
+	'desc' => 'Le mail envoyé à l\'utilisateur si son compte a été créé par l\'administrateur et qu\'aucune action n\'est requise.',
 	'subject' => 'Bienvenue sur {FORUMNAME}',
 	'body' => 'L\'administrateur de {FORUMNAME} vous a inscrit sur son forum. Votre identifiant est {USERNAME} et votre mot de passe est {PASSWORD}.
 
