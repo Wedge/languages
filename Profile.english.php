@@ -247,6 +247,7 @@ $txt['account_activate_method_2'] = 'Account requires reactivation after email c
 $txt['account_activate_method_3'] = 'Account is not approved';
 $txt['account_activate_method_4'] = 'Account is awaiting approval for deletion';
 $txt['account_activate_method_5'] = 'Account is an &quot;under age&quot; account awaiting approval';
+$txt['account_activate_method_6'] = 'Account requires re-accepting the user agreement';
 $txt['account_not_activated'] = 'Account is currently not activated';
 $txt['account_activate'] = 'activate';
 $txt['account_approve'] = 'approve';

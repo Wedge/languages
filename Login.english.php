@@ -11,11 +11,15 @@ $txt['always_logged_in'] = 'Always stay logged in';
 
 // Registration agreement page.
 $txt['registration_agreement'] = 'Registration Agreement';
+$txt['registration_reagreement_force'] = 'The terms of the agreement have changed since you last agreed to it. In order to continue using this site, you will need to agree to the new terms.';
+$txt['registration_reagreement_postonly'] = 'The terms of the agreement have changed since you last agreed to it. You may continue to browse this site but in order to post messages you will need to agree to the new terms.';
 $txt['agreement_agree'] = 'I accept the terms of the agreement.';
 $txt['agreement_agree_coppa_above'] = 'I accept the terms of the agreement and I am at least %1$d years old.';
 $txt['agreement_agree_coppa_below'] = 'I accept the terms of the agreement and I am younger than %1$d years old.';
 $txt['noagreement_coppa_above'] = 'I am at least %1$d years old.';
 $txt['noagreement_coppa_below'] = 'I am younger than %1$d years old.';
+$txt['agreement_reagreed'] = 'Thank you for accepting the updated terms of agreement.';
+$txt['agreement_return_to'] = 'Return to what I was looking at';
 
 // Registration form.
 $txt['registration_form'] = 'Registration Form';
