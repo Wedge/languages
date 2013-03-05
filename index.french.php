@@ -371,8 +371,6 @@ $txt['set_lock'] = 'Bloquer';
 $txt['set_unlock'] = 'Débloquer';
 $txt['order_pinned_topic'] = 'Trier sujets épinglés';
 
-$txt['search_advanced'] = 'Recherche avancée';
-
 $txt['page_created'] = 'Page générée en ';
 $txt['seconds_with_query'] = '%1$.2f secondes avec 1 requête.';
 $txt['seconds_with_queries'] = '%1$.2f secondes avec %2$d requêtes.';
@@ -498,9 +496,6 @@ $txt['most_online_today'] = 'Record de connexions aujourd\'hui';
 $txt['response_prefix'] = 'Re : ';
 $txt['current_icon'] = 'Icône actuelle';
 $txt['message_icon'] = 'Icône du message';
-
-$txt['search_results'] = 'Résultats de la recherche';
-$txt['search_no_results'] = 'Désolé, aucune correspondance trouvée';
 
 $txt['approve_members_waiting'] = array(
 	1 => 'Il y a <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">un membre</a> en attente d\'approbation.',

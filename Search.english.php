@@ -1,6 +1,14 @@
 <?php
 // Version: 2.0; Search
 
+$txt['search_scope'] = 'Where?';
+$txt['search_this_topic'] = 'On this topic';
+$txt['search_this_board'] = 'On this board';
+$txt['search_everywhere'] = 'Everywhere';
+$txt['search_advanced'] = 'Advanced search';
+$txt['search_results'] = 'Search Results';
+$txt['search_no_results'] = 'Sorry, no matches were found';
+
 $txt['set_parameters'] = 'Advanced parameters';
 $txt['choose_board'] = 'Search in specific boards';
 $txt['all_boards'] = 'Search in all boards';

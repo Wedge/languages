@@ -1,6 +1,14 @@
 <?php
 // Version: 2.0; Search
 
+$txt['search_scope'] = 'Où&nbsp;?';
+$txt['search_this_topic'] = 'Dans ce sujet';
+$txt['search_this_board'] = 'Dans cette section';
+$txt['search_everywhere'] = 'Partout';
+$txt['search_advanced'] = 'Recherche avancée';
+$txt['search_results'] = 'Résultats de la recherche';
+$txt['search_no_results'] = 'Désolé, aucune correspondance trouvée';
+
 $txt['set_parameters'] = 'Paramètres avancés';
 $txt['choose_board'] = 'Chercher dans des sections spécifiques';
 $txt['all_boards'] = 'Chercher dans toutes les sections';

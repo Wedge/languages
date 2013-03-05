@@ -377,8 +377,6 @@ $txt['set_lock'] = 'Lock topic';
 $txt['set_unlock'] = 'Unlock topic';
 $txt['order_pinned_topic'] = 'Reorder Pinned';
 
-$txt['search_advanced'] = 'Advanced search';
-
 $txt['page_created'] = 'Page created in ';
 $txt['seconds_with_query'] = '%1$.2f seconds with 1 query.';
 $txt['seconds_with_queries'] = '%1$.2f seconds with %2$d queries.';
@@ -505,9 +503,6 @@ $txt['most_online_today'] = 'Most Online Today';
 $txt['response_prefix'] = 'Re: ';
 $txt['current_icon'] = 'Current Icon';
 $txt['message_icon'] = 'Message Icon';
-
-$txt['search_results'] = 'Search Results';
-$txt['search_no_results'] = 'Sorry, no matches were found';
 
 $txt['approve_members_waiting'] = array(
 	1 => 'There is <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">one member</a> awaiting approval.',
