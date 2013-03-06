@@ -443,6 +443,7 @@ $txt['generic_confirm_request'] = 'Êtes-vous sûr de vouloir faire cela&nbsp;?'
 
 $txt['spell_check'] = 'Orthographe';
 
+$txt['reagree_reply'] = 'Les conditions d\'utilisation du site ont été modifiées. Il est nécessaire de les accepter avant de pouvoir y poster de nouveau. Vous pouvez le faire en allant sur <a href="%1$s">cette page</a>.';
 $txt['quick_reply'] = 'Réponse Rapide';
 $txt['quick_reply_desc'] = 'En mode <em>Réponse Rapide</em>, vous pouvez utiliser du BBCode et des smileys comme sur un message normal, mais à partir d\'une interface plus rapide d\'accès.';
 $txt['quick_reply_warning'] = 'Attention, ce sujet est actuellement bloqué ! Seuls les administrateurs et les modérateurs peuvent y répondre.';
@@ -601,6 +602,8 @@ $txt['thome_edit'] = 'Modifier';
 $txt['thome_remove'] = 'Supprimer';
 $txt['thome_reply'] = 'Répondre';
 $txt['thome_context'] = 'Voir contexte';
+$txt['thome_personal'] = 'Postérité ?';
+$txt['thome_personal_desc'] = 'Utiliser cette pensée comme citation sous mon nom dans les messages.';
 
 // Do not use double quotes in the following strings.
 $txt['privacy_public'] = 'Public';

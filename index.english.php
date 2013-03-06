@@ -1,4 +1,4 @@
-<?php
+F<?php
 // Version: 2.0; Index
 
 // Locale (strftime, pspell_new) and spelling. (pspell_new, can be left as '' normally.)
@@ -608,6 +608,8 @@ $txt['thome_edit'] = 'Edit';
 $txt['thome_remove'] = 'Delete';
 $txt['thome_reply'] = 'Reply';
 $txt['thome_context'] = 'In context';
+$txt['thome_personal'] = 'Posterity?';
+$txt['thome_personal_desc'] = 'Show this thought under my name in topics, for posterity.';
 
 // Do not use double quotes in the following strings.
 $txt['privacy_public'] = 'Public';
