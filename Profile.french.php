@@ -247,6 +247,7 @@ $txt['account_activate_method_2'] = 'Le compte requiert une réactivation après
 $txt['account_activate_method_3'] = 'Le compte n\'est pas approuvé';
 $txt['account_activate_method_4'] = 'Le compte est en attente d\'approbation de suppression';
 $txt['account_activate_method_5'] = 'Le compte est un un compte &quot;sous l\'âge minimum&quot; en attente d\'approbation';
+$txt['account_activate_method_6'] = 'Le compte requiert l\'acceptation des nouvelles conditions d\'utilisation';
 $txt['account_not_activated'] = 'Ce compte n\'est pas activé actuellement';
 $txt['account_activate'] = 'activer';
 $txt['account_approve'] = 'approuver';

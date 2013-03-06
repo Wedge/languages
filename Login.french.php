@@ -10,12 +10,16 @@ $txt['mins_logged_in'] = 'Durée de connexion (en minutes)&nbsp;';
 $txt['always_logged_in'] = 'Toujours connecté';
 
 // Registration agreement page.
-$txt['registration_agreement'] = 'Accord d\'inscription';
+$txt['registration_agreement'] = 'Conditions d\'utilisation';
+$txt['registration_reagreement_force'] = 'Les conditions d\'utilisation ont été modifiées depuis la dernière fois que vous les avez acceptées. Pour pouvoir continuer à utiliser ce site, vous devrez d\'abord accepter ces nouvelles conditions.';
+$txt['registration_reagreement_postonly'] = 'Les conditions d\'utilisation ont été modifiées depuis la dernière fois que vous les avez acceptées. Vous pouvez continuer à utiliser le site, mais ne pourrez plus y envoyer de messages avant d\'avoir accepté ces nouvelles conditions.';
 $txt['agreement_agree'] = 'J\'accepte les conditions de ce document.';
 $txt['agreement_agree_coppa_above'] = 'J\'accepte les conditions de ce document et j\'ai au moins %1$d ans.';
 $txt['agreement_agree_coppa_below'] = 'J\'accepte les conditions de ce document et j\'ai moins de %1$d ans.';
 $txt['noagreement_coppa_above'] = 'J\'ai au moins %1$d ans.';
 $txt['noagreement_coppa_below'] = 'J\'ai moins de %1$d ans.';
+$txt['agreement_reagreed'] = 'Merci d\'avoir accepté les nouvelles conditions d\'utilisation.';
+$txt['agreement_return_to'] = 'Retourner à ce que je faisais';
 
 // Registration form.
 $txt['registration_form'] = 'Formulaire d\'inscription';
@@ -73,7 +77,7 @@ $txt['change_password_new'] = 'ont &#233;t&#233; chang&#233;es et votre mot de p
 
 $txt['in_maintain_mode'] = 'Ce forum est en Mode Maintenance.';
 
-$txt['register_agree'] = 'Merci de lire et accepter les termes de l\'accord avant de soumettre ce formulaire.';
+$txt['register_agree'] = 'Merci de lire et accepter les conditions d\'utilisation avant de soumettre ce formulaire.';
 $txt['register_passwords_differ_js'] = 'Les deux mots de passe entrés sont différents !';
 
 $txt['approval_after_registration'] = 'Merci de vous être inscrit. L\'administrateur doit approuver votre inscription avant que vous puissiez commencer à utiliser votre compte. Vous allez bientôt recevoir un e-mail vous informant de la décision de l\'administrateur.';
