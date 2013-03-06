@@ -420,8 +420,6 @@ $helptxt['oldTopicDays'] = 'If this option is enabled a warning will be displaye
 $helptxt['edit_wait_time'] = 'Number of seconds allowed for a post to be edited before logging the last edit date.';
 $helptxt['edit_disable_time'] = 'Number of minutes allowed to pass before a user can no longer edit a post they have made. Set to 0 disable. <br><br><em>Note: This will not affect any user who has permission to edit other people\'s posts.</em>';
 $helptxt['posts_require_captcha'] = 'This setting will force users to pass anti-spam bot verification each time they make a post to a board. Only users with a post count below the number set will need to enter the code - this should help combat automated spamming scripts.';
-$helptxt['enableSpellChecking_capable'] = 'Enable spell checking. You MUST have the pspell library installed on your server and your PHP configuration set up to use the pspell library. Your server <span style="color: green">does</span> appear to have this set up.';
-$helptxt['enableSpellChecking_notcapable'] = 'Enable spell checking. You MUST have the pspell library installed on your server and your PHP configuration set up to use the pspell library. Your server <span style="color: red">DOES NOT</span> appear to have this set up.';
 $helptxt['disable_wysiwyg'] = 'This setting disallows all users from using the WYSIWYG ("What You See Is What You Get") editor on the post page.';
 $helptxt['lastActive'] = 'Set the number of minutes to show people are active in X number of minutes on the board index. Default is 15 minutes, maximum is one day.<br><br>Setting this too high is not recommended, not only because making it too high slows your forum down, but also it artificially inflates how busy your forum appears to be, and may put people off visiting.';
 
@@ -573,7 +571,7 @@ $helptxt['posts_and_topics'] = '
 	<ul class="normallist">
 		<li>
 			<strong>Post Settings</strong><br>
-			Modify the settings related to the posting of messages and the way messages are shown. You can also enable the spell check here.
+			Modify the settings related to the posting of messages and the way messages are shown.
 		</li><li>
 			<strong>Bulletin Board Code</strong><br>
 			Enable the code that shows forum messages in the right layout. Also adjust which codes are allowed and which aren\'t.

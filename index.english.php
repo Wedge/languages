@@ -447,8 +447,6 @@ $txt['quick_mod_go'] = 'Go!';
 
 $txt['generic_confirm_request'] = 'Are you sure you want to do this?';
 
-$txt['spell_check'] = 'Spell Check';
-
 $txt['reagree_reply'] = 'The site terms and conditions have changed. Before you can post on the site, you will need to re-accept the user agreement. You can do so by visiting <a href="%1$s">this page</a>.';
 $txt['quick_reply'] = 'Quick Reply';
 $txt['quick_reply_desc'] = 'With <em>Quick-Reply</em> you can write a post when viewing a topic without loading a new page. You can still use bulletin board code and smileys as you would in a normal post.';

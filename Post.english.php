@@ -154,14 +154,6 @@ $txt['poll_voters_visibility_anyone'] = 'Anyone, even guests, can see who voted 
 $txt['poll_voters_no_change_future'] = 'You will not be able to change this later.';
 $txt['poll_voters_no_change_now'] = 'You cannot change this.';
 
-$txt['spellcheck_done'] = 'Spell checking complete.';
-$txt['spellcheck_change_to'] = 'Change To:';
-$txt['spellcheck_suggest'] = 'Suggestions:';
-$txt['spellcheck_change'] = 'Change';
-$txt['spellcheck_change_all'] = 'Change All';
-$txt['spellcheck_ignore'] = 'Ignore';
-$txt['spellcheck_ignore_all'] = 'Ignore All';
-
 $txt['cannot_attach_ext'] = 'The type of file you have tried to attach ({ext}) is not allowed here. The allowed types of file are: {attach_exts}';
 
 // Don't use entities in the below string.

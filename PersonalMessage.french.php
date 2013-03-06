@@ -40,7 +40,6 @@ $txt['pm_error_data_limit_reached'] = 'Le message n\'a pas pu être envoyé à \
 $txt['pm_error_user_cannot_read'] = 'L\'utilisateur \'%1$s\' ne peut pas recevoir de messages personnels.';
 $txt['pm_successfully_sent'] = 'Le message a été envoyé à \'%1$s\'.';
 $txt['pm_send_report'] = 'Rapport d\'envoi';
-$txt['pm_save_outbox'] = 'Sauvegarder une copie dans ma boîte d\'envoi';
 $txt['pm_undisclosed_recipients'] = 'Destinataires non révélés';
 $txt['pm_too_many_recipients'] = array(1 => 'Vous ne pouvez pas envoyer de messages personnels à plus d\'un destinataire à la fois.', 'n' => 'Vous ne pouvez pas envoyer de messages personnels à plus de %1$d destinataires à la fois.');
 

@@ -438,14 +438,12 @@ $txt['pm_receive_from_ignore'] = 'Tous les membres, sauf ceux que j\'ignore';
 $txt['pm_receive_from_admins'] = 'Les administrateurs seulement';
 $txt['pm_receive_from_buddies'] = 'Mes contacts et les administrateurs seulement';
 
-$txt['copy_to_outbox'] = 'Sauvegarder par défaut une copie de tous les messages personnels que j\'envoie.';
 $txt['popup_messages'] = 'Afficher une fenêtre pop-up lorsque je reçois de nouveaux messages';
 $txt['pm_remove_inbox_label'] = 'Supprimer le label &quot;Boîte de réception&quot; lors de l\'ajout d\'un autre label';
 $txt['pm_display_mode'] = 'Afficher les messages personnels';
 $txt['pm_display_mode_all'] = 'Tous à la fois';
 $txt['pm_display_mode_one'] = 'Un à la fois';
 $txt['pm_display_mode_linked'] = 'Triés par conversations';
-$txt['pm_recommend_enable_outbox'] = 'Nous vous suggérons d\'activer &quot;Sauvegarder par défaut une copie de tous les messages personnels que j\'envoie.&quot;<br><br>Cela vous aidera à suivre plus facilement les conversations puisque vous verrez les deux moitiés de chaque conversation.';
 
 $txt['tracking'] = 'Suivi';
 $txt['tracking_description'] = 'Cette section vous permet de vérifier certaines actions faites sur le profil de ce membre, mais aussi de suivre de son adresse IP.';

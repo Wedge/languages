@@ -41,7 +41,6 @@ $txt['whoall_register'] = 'S\'inscrit sur le forum.';
 $txt['whoall_register2'] = 'S\'inscrit sur le forum.';
 $txt['whoall_reminder'] = 'Demande un rappel de mot de passe.';
 $txt['whoall_report'] = 'Signale un sujet à un modérateur.';
-$txt['whoall_spellcheck'] = 'Utilise le vérificateur d\'orthographe';
 $txt['whoall_unread'] = 'Consulte la liste des discussions non lues depuis sa dernière visite.';
 $txt['whoall_unreadreplies'] = 'Consulte la liste des réponses non lues depuis sa dernière visite.';
 $txt['whoall_who'] = 'Regarde <a href="<URL>?action=who">Qui est en ligne</a>.';

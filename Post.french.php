@@ -154,14 +154,6 @@ $txt['poll_voters_visibility_anyone'] = 'Tout le monde pourra voir ce pour quoi 
 $txt['poll_voters_no_change_future'] = 'Vous ne pourrez pas changer ce paramètre par la suite.';
 $txt['poll_voters_no_change_now'] = 'Vous ne pouvez pas changer ce paramètre.';
 
-$txt['spellcheck_done'] = 'Correction d\'orthographe terminée.';
-$txt['spellcheck_change_to'] = 'Changer par&nbsp;:';
-$txt['spellcheck_suggest'] = 'Suggestions&nbsp;:';
-$txt['spellcheck_change'] = 'Changer';
-$txt['spellcheck_change_all'] = 'Changer tout';
-$txt['spellcheck_ignore'] = 'Ignorer';
-$txt['spellcheck_ignore_all'] = 'Ignorer Tout';
-
 $txt['cannot_attach_ext'] = 'Le type de fichier que vous avez tenté de joindre ({ext}) n\'est pas autorisé ici. Vous pouvez envoyer les types de fichier suivants : {attach_exts}';
 
 // Don't use entities in the below string.

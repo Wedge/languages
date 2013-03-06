@@ -478,7 +478,6 @@ $txt['language_edit_reg_agreement'] = 'Registration agreement';
 
 $txt['edit_language_entries'] = 'Edit Language Entries';
 $txt['languages_dictionary'] = 'Dictionary';
-$txt['languages_for_pspell'] = 'This is for <a href="http://www.php.net/function.pspell-new" target="_blank" class="new_win">pSpell</a> - if installed';
 $txt['languages_orientation'] = 'Orientation';
 $txt['languages_orients_ltr'] = 'Left-to-Right';
 $txt['languages_orients_rtl'] = 'Right-to-Left';

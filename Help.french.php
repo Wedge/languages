@@ -399,8 +399,6 @@ $helptxt['oldTopicDays'] = 'Si cette option est activée, un avertissement sera 
 $helptxt['edit_wait_time'] = 'Temps en secondes permis pour la modification d\'un message avant que la mention "Modifié..." n\'apparaisse.';
 $helptxt['edit_disable_time'] = 'Nombre de minutes accordées à un utilisateur pour qu\'il puisse modifier ses messages. Mettre sur 0 pour désactiver. <br><br><em>Note: Cela n\'affectera pas l\'utilisateur qui a la permission de modifier les messages des autres.</em>';
 $helptxt['posts_require_captcha'] = 'Ce réglage forcera les utilisateurs à rentrer un code affiché sur une image de vérification à chaque fois qu\'ils posteront un message. Seul les utilisateurs avec un compteur de messages en dessous du nombre choisi auront à entrer le code - Cela devrait aider à combattre les scripts automatiques de spam.';
-$helptxt['enableSpellChecking_capable'] = 'Active la vérification orthographique. Vous DEVEZ avoir la librairie pspell installée sur votre serveur et PHP doit être configuré de telle sorte qu\'il utilise cette librairie. Votre serveur <span style="color: green">semble</span> avoir la librairie pspell.';
-$helptxt['enableSpellChecking_notcapable'] = 'Active la vérification orthographique. Vous DEVEZ avoir la librairie pspell installée sur votre serveur et PHP doit être configuré de telle sorte qu\'il utilise cette librairie. Votre serveur <span style="color: red">NE SEMBLE PAS</span> avoir la librairie pspell.';
 $helptxt['disable_wysiwyg'] = 'Ce réglage désactivera l\'utilisation du WYSIWYG (acronyme de la locution anglaise "What you see is what you get", signifiant littéralement en français "vous aurez ce que vous voyez") sur la page de rédaction des messages chez tous les utilisateurs.';
 $helptxt['lastActive'] = 'Sélectionnez le nombre de minutes à afficher dans "Membres actifs dans les X dernières minutes", sur l\'accueil du forum. La valeur par défaut est de 15 minutes, et le maximum est d\'une journée.<br><br>Il est recommandé d\'éviter les valeurs trop élevées, qui pourraient ralentir votre forum mais peut aussi être perçues comme une tentative de faire croire que le forum est plus visité qu\'il ne l\'est réellement. Certains visiteurs le remarqueront et pourraient s\'en offusquer.';
 
@@ -552,7 +550,7 @@ $helptxt['posts_and_topics'] = '
 	<ul>
 		<li>
 			<strong>Paramètres des messages</strong><br>
-			Modifie les paramètres relatifs au postage des messages et la façon dont ceux-ci sont affichés. Vous pouvez aussi activer le correcteur orthographique ici.
+			Modifie les paramètres relatifs au postage des messages et la façon dont ceux-ci sont affichés.
 		</li><li>
 			<strong>Code d\'affichage</strong><br>
 			Active le code montrant les messages dans un rendu correct. Ajuste aussi quels codes sont permis et ceux qui sont désactivés.
