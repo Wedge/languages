@@ -402,7 +402,7 @@ $txt['emailtemplate_register_immediate'] = array(
 	'desc' => 'The email sent to users when registering and their account is immediately active.',
 	'subject' => 'Welcome to {FORUMNAME}',
 	'body' => 'Thank you for registering at {FORUMNAME}.
-		
+
 Your username is {USERNAME}.
 
 If you forget your password, you may change it at:
