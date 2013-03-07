@@ -1,4 +1,4 @@
-F<?php
+<?php
 // Version: 2.0; Index
 
 // Locale (strftime, pspell_new) and spelling. (pspell_new, can be left as '' normally.)
