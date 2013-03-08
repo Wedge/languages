@@ -157,6 +157,7 @@ Vous pouvez voir l\'annonce compl&#232;te en suivant ce lien :
 );
 
 $txt['emailtemplate_notify_boards_once_body'] = array(
+	'desc' => 'Le mail envoyé aux utilisateurs lorsqu\'un sujet est envoyé sur une section dont ils demandent notification, avec une prévisualisation du contenu. Les autres nouveaux sujets seront ignorés jusqu\'à ce qu\'ils se reconnectent et consultent la section.',
 	'subject' => 'Nouveau sujet : {TOPICSUBJECT}',
 	'body' => 'Un nouveau sujet, \'{TOPICSUBJECT}\', a &#233;t&#233; cr&#233;&#233; sur une section que vous surveillez.
 
@@ -165,7 +166,7 @@ Vous pouvez le voir ici :
 
 D\'autres sujets ont pu &#234;tre post&#233;s, mais vous ne recevrez pas d\'autres e-mails de notification tant que vous ne serez pas retourn&#233; sur cette section et que vous n\'en aurez pas lus quelques-uns.
 
-Le texte du sujet est affich&#233; ci-dessous :
+Le contenu du sujet est affich&#233; ci-dessous :
 {MESSAGE}
 
 Pour vous d&#233;sabonner des nouveaux sujets de cette section, utilisez ce lien :
@@ -175,13 +176,14 @@ Pour vous d&#233;sabonner des nouveaux sujets de cette section, utilisez ce lien
 );
 
 $txt['emailtemplate_notify_boards_once'] = array(
+	'desc' => 'Le mail envoyé aux utilisateurs lorsqu\'un sujet est envoyé sur une section dont ils demandent notification. Les autres nouveaux sujets seront ignorés jusqu\'à ce qu\'ils se reconnectent et consultent la section.',
 	'subject' => 'Nouveau sujet : {TOPICSUBJECT}',
 	'body' => 'Un nouveau sujet, \'{TOPICSUBJECT}\', a &#233;t&#233; cr&#233;&#233; sur une section que vous surveillez.
 
 Vous pouvez le voir ici :
 {TOPICLINK}
 
-D\'autres sujets ont pu &#234;tre post&#233;s, mais vous ne recevrez pas d\'autres e-mails de notification tant que vous ne serez pas retourn&#233; sur cette section et que vous n\'en aurez pas lu quelques uns.
+D\'autres sujets ont pu &#234;tre post&#233;s, mais vous ne recevrez pas d\'autres e-mails de notification tant que vous ne serez pas retourn&#233; sur cette section et que vous n\'en aurez pas lu quelques-uns.
 
 Pour vous d&#233;sabonner des nouveaux sujets de cette section, utilisez ce lien :
 {UNSUBSCRIBELINK}
@@ -190,13 +192,14 @@ Pour vous d&#233;sabonner des nouveaux sujets de cette section, utilisez ce lien
 );
 
 $txt['emailtemplate_notify_boards_body'] = array(
+	'desc' => 'Le mail envoyé aux utilisateurs lorsqu\'un sujet est envoyé sur une section dont ils demandent notification, avec une prévisualisation du contenu.',
 	'subject' => 'Nouveau sujet : {TOPICSUBJECT}',
 	'body' => 'Un nouveau sujet \'{TOPICSUBJECT}\', a &#233;t&#233; cr&#233;&#233; sur une section que vous surveillez.
 
 Vous pouvez le voir ici
 {TOPICLINK}
 
-Le texte du sujet est affich&#233; ci-dessous :
+Le contenu du sujet est affich&#233; ci-dessous :
 {MESSAGE}
 
 Pour vous d&#233;sabonner des nouveaux sujets de cette section, utilisez ce lien :
@@ -206,6 +209,7 @@ Pour vous d&#233;sabonner des nouveaux sujets de cette section, utilisez ce lien
 );
 
 $txt['emailtemplate_notify_boards'] = array(
+	'desc' => 'Le mail envoyé aux utilisateurs lorsqu\'un sujet est envoyé sur une section dont ils demandent notification.',
 	'subject' => 'Nouveau sujet : {TOPICSUBJECT}',
 	'body' => 'Un nouveau sujet, \'{TOPICSUBJECT}\', a &#233;t&#233; cr&#233;&#233; sur une section que vous surveillez.
 
@@ -219,6 +223,7 @@ Pour vous d&#233;sabonner des nouveaux sujets de cette section, utilisez ce lien
 );
 
 $txt['emailtemplate_request_membership'] = array(
+	'desc' => 'Le mail envoyé aux modérateurs quand quelqu\'un fait une demande d\'adhésion à un autre groupe.',
 	'subject' => 'Demande de nouveau groupe',
 	'body' => '{RECPNAME},
 
@@ -234,21 +239,23 @@ Vous pouvez approuver ou rejeter cette demande en cliquant sur le lien ci-dessou
 );
 
 $txt['emailtemplate_paid_subscription_reminder'] = array(
-	'subject' => 'Souscription sur le point d\'expirer {FORUMNAME}',
+	'desc' => 'Le mail envoyé à un utilisateur quand un de ses abonnements arrive à expiration.',
+	'subject' => 'Abonnement sur le point d\'expirer {FORUMNAME}',
 	'body' => '{REALNAME},
 
-L\'une de vos souscriptions sur {FORUMNAME} est sur le point d\'expirer. Si vous aviez choisi un renouvellement automatique lors de votre souscription initiale, vous n\'avez pas besoin de faire quoique ce soit - sinon, vous souhaitez peut-&#234;tre renouveller votre souscription une fois de plus. Voici un peu plus de d&#233;tails :
+L\'une de vos abonnements sur {FORUMNAME} est sur le point d\'expirer. Si vous aviez choisi un renouvellement automatique lors de votre abonnement initial, vous n\'avez pas besoin de faire quoique ce soit - sinon, vous souhaitez peut-&#234;tre renouveller votre abonnement une fois de plus. Voici un peu plus de d&#233;tails :
 
-Nom de la souscription : {SUBSCRNAME}
+Nom de l\'abonnement : {SUBSCRNAME}
 Date d\'expiration : {END_DATE}
 
-Pour &#233;diter vos souscriptions, veuillez visiter l\'URL suivante :
+Pour &#233;diter vos abonnements, veuillez visiter l\'URL suivante :
 {PROFILELINKSUBS}
 
 {REGARDS}',
 );
 
 $txt['emailtemplate_activate_reactivate'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur quand leur adresse e-mail nécessite d\'être revalidée après avoir été changée.',
 	'subject' => 'Bon retour sur {FORUMNAME}',
 	'body' => 'Pour pouvoir valider &#224; nouveau votre adresse e-mail, votre compte a &#233;t&#233; d&#233;sactiv&#233;. Cliquez sur le lien suivant pour le r&#233;activer :
 {ACTIVATIONLINK}
@@ -259,6 +266,7 @@ Si vous avez un probl&#232;me quelconque avec l\'activation, veuillez aller sur 
 );
 
 $txt['emailtemplate_forgot_password'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur après avoir cliqué sur le lien "Oublié mon mot de passe".',
 	'subject' => 'Nouveau mot de passe pour {FORUMNAME}',
 	'body' => 'Cher {REALNAME},
 Cet e-mail a &#233;t&#233; envoy&#233; car la fonction \'mot de passe oubli&#233;\' a &#233;t&#233; utilis&#233;e pour votre compte. Pour &#233;tablir un nouveau mot de passe, cliquez sur le lien suivant :
@@ -271,6 +279,7 @@ Username : {USERNAME}
 );
 
 $txt['emailtemplate_scheduled_approval'] = array(
+	'desc' => 'Le mail envoyé aux modérateurs avec les messages en attente d\'approbation qu\'ils peuvent modérer.',
 	'subject' => 'R&#233;sum&#233; des messages en attente d\'approbation sur {FORUMNAME}',
 	'body' => '{REALNAME},
 
@@ -285,6 +294,7 @@ Veuillez vous connecter au forum pour passer en revue ces items.
 );
 
 $txt['emailtemplate_send_topic'] = array(
+	'desc' => 'Le mail envoyé quand un utilisateur utilise la fonction "Partager (ce sujet)".',
 	'subject' => 'Sujet : {TOPICSUBJECT} (par {SENDERNAMEMANUAL})',
 	'body' => '{RECPNAMEMANUAL},
 
@@ -297,6 +307,7 @@ Cordialement,
 );
 
 $txt['emailtemplate_send_topic_comment'] = array(
+	'desc' => 'Le mail envoyé quand un utilisateur utilise la fonction "Partager (ce sujet)" et y ajoute un commentaire.',
 	'subject' => 'Sujet : {TOPICSUBJECT} (par {SENDERNAMEMANUAL})',
 	'body' => '{RECPNAMEMANUAL},
 
@@ -313,11 +324,13 @@ Cordialement,
 );
 
 $txt['emailtemplate_send_email'] = array(
+	'desc' => 'Un substitut par défaut pour la fonction "Envoyer un e-mail au membre".',
 	'subject' => '{EMAILSUBJECT}',
 	'body' => '{EMAILBODY}',
 );
 
 $txt['emailtemplate_report_to_moderator'] = array(
+	'desc' => 'Le mail envoyé aux modérateurs pour les notifier d\'un rapport d\'avertissement.',
 	'subject' => 'Message rapport&#233; : {TOPICSUBJECT} par {POSTERNAME}',
 	'body' => 'Le message suivant, "{TOPICSUBJECT}" par {POSTERNAME} a &#233;t&#233; rapport&#233; par {REPORTERNAME} sur une section que vous mod&#233;rez :
 
@@ -331,6 +344,7 @@ Le rapporteur a fait le commentaire suivant :
 );
 
 $txt['emailtemplate_change_password'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur quand son mot de passe a été changé. Inclut son nouveau mot de passe.',
 	'subject' => 'D&#233;tails du nouveau mot de passe',
 	'body' => 'Bonjour, {REALNAME} !
 
@@ -346,6 +360,7 @@ Une fois connect&#233;, vous pouvez changer votre mot de passe en allant sur la 
 );
 
 $txt['emailtemplate_register_activate'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur au moment de son inscription, s\'il doit la confirmer par mail.',
 	'subject' => 'Bienvenue sur {FORUMNAME}',
 	'body' => 'Vous &#234;tes maintenant inscrit sur {FORUMNAME}, {REALNAME} !
 
@@ -361,6 +376,7 @@ Si vous avez un probl&#232;me quelconque avec l\'activation, veuillez utiliser l
 );
 
 $txt['emailtemplate_register_activate_approve'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur au moment de son inscription, s\'il doit la confirmer par mail, mais qu\'un administrateur doit également approuver l\'inscription.',
 	'subject' => 'Bienvenue sur {FORUMNAME}',
 	'body' => 'Merci de vous &#234;tre inscrit &#224; {FORUMNAME}. Votre nom d\'utilisateur est {USERNAME}. Si vous oubliez votre mot de passe, vous pouvez le changer en allant sur {FORGOTPASSWORDLINK}.
 
@@ -376,6 +392,7 @@ Une fois ce processus termin&#233;, l\'administrateur v&#233;rifiera votre inscr
 );
 
 $txt['emailtemplate_register_coppa'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur au moment de son inscription, s\'il doit d\'abord remplir le formulaire COPPA de consentement parental.',
 	'subject' => 'Bienvenue sur {FORUMNAME}',
 	'body' => 'Vous &#234;tes maintenant inscrit sur {FORUMNAME}, {REALNAME} !
 
@@ -389,6 +406,7 @@ Avant de pouvoir vous connecter, l\'administrateur de ce forum souhaite obtenir 
 );
 
 $txt['emailtemplate_register_immediate'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur après son inscription, si elle ne demande pas d\'action supplémentaire de sa part.',
 	'subject' => 'Bienvenue sur {FORUMNAME}',
 	'body' => 'Vous &#234;tes maintenant inscrit sur {FORUMNAME}, {REALNAME} !
 
@@ -402,6 +420,7 @@ Une fois connect&#233;, vous pouvez changer votre mot de passe en allant sur la 
 );
 
 $txt['emailtemplate_register_pending'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur au moment de son inscription, pour lui indiquer que son compte devra d\'abord être approuvé par un administrateur.',
 	'subject' => 'Bienvenue sur {FORUMNAME}',
 	'body' => 'Votre demande d\'inscription sur {FORUMNAME} a &#233;t&#233; re&#231;ue, {REALNAME}.
 
@@ -413,6 +432,7 @@ Avant de pouvoir vous connecter, votre demande sera d\'abord &#233;tudi&#233;e e
 );
 
 $txt['emailtemplate_notification_reply'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur s\'il est inscrit à un sujet, et qu\'une réponse vient d\'y être postée.',
 	'subject' => 'R&#233;ponse &#224; un sujet : {TOPICSUBJECT}',
 	'body' => 'Une r&#233;ponse a &#233;t&#233; post&#233;e sur un sujet que vous surveillez par {POSTERNAME}.
 
@@ -426,6 +446,7 @@ Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
 );
 
 $txt['emailtemplate_notification_reply_body'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur s\'il est inscrit à un sujet, et qu\'une réponse vient d\'y être postée. Inclut le contenu du message.',
 	'subject' => 'R&#233;ponse &#224; un sujet : {TOPICSUBJECT}',
 	'body' => 'Une r&#233;ponse a &#233;t&#233; post&#233;e par {POSTERNAME} sur un sujet que vous surveillez.
 
@@ -442,6 +463,7 @@ Le texte de cette r&#233;ponse est affich&#233; ci-dessous :
 );
 
 $txt['emailtemplate_notification_reply_once'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur s\'il est inscrit à un sujet, et qu\'une réponse vient d\'y être postée. Seul le premier message est rapporté, jusqu\'à la prochaine visite.',
 	'subject' => 'R&#233;ponse &#224; un sujet : {TOPICSUBJECT}',
 	'body' => 'Une r&#233;ponse a &#233;t&#233; post&#233;e par {POSTERNAME} sur un sujet que vous surveillez.
 
@@ -457,6 +479,7 @@ D\'autres r&#233;ponses ont pu &#234;tre post&#233;es, mais vous ne recevrez pas
 );
 
 $txt['emailtemplate_notification_reply_body_once'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur s\'il est inscrit à un sujet, et qu\'une réponse vient d\'y être postée. Seul le premier message est rapporté, jusqu\'à la prochaine visite. Inclut le contenu du message.',
 	'subject' => 'R&#233;ponse &#224; un sujet : {TOPICSUBJECT}',
 	'body' => 'Une r&#233;ponse a &#233;t&#233; post&#233;e par {POSTERNAME} &#224; un sujet que vous surveillez.
 
@@ -466,7 +489,7 @@ Voir la r&#233;ponse :
 Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
 {UNSUBSCRIBELINK}
 
-Le texte du sujet est affich&#233; ci-dessous :
+Le contenu du sujet est affich&#233; ci-dessous :
 {MESSAGE}
 
 D\'autres r&#233;ponses ont pu &#234;tre post&#233;es, mais vous ne recevrez pas d\'autres e-mails de notification tant que vous n\'aurez pas lu le sujet.
@@ -475,6 +498,7 @@ D\'autres r&#233;ponses ont pu &#234;tre post&#233;es, mais vous ne recevrez pas
 );
 
 $txt['emailtemplate_notification_pin'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur s\'il est inscrit à un sujet, et que celui-ci vient d\'être épinglé ou dépinglé.',
 	'subject' => 'Sujet &#233;pingl&#233; : {TOPICSUBJECT}',
 	'body' => 'Un sujet que vous surveillez a &#233;t&#233; &#233;pingl&#233; ou d&#233;pingl&#233; par {POSTERNAME}.
 
@@ -488,6 +512,7 @@ Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
 );
 
 $txt['emailtemplate_notification_lock'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur s\'il est inscrit à un sujet, et que celui-ci vient d\'être bloqué.',
 	'subject' => 'Sujet bloqu&#233; : {TOPICSUBJECT}',
 	'body' => 'Un sujet que vous surveillez a &#233;t&#233; bloqu&#233; par {POSTERNAME}.
 
@@ -501,6 +526,7 @@ Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
 );
 
 $txt['emailtemplate_notification_unlock'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur s\'il est inscrit à un sujet, et que celui-ci vient d\'être débloqué.',
 	'subject' => 'Sujet d&#233;bloqu&#233; : {TOPICSUBJECT}',
 	'body' => 'Un sujet que vous surveillez a &#233;t&#233; d&#233;bloqu&#233; par {POSTERNAME}.
 
@@ -514,13 +540,15 @@ Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
 );
 
 $txt['emailtemplate_notification_remove'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur s\'il est inscrit à un sujet, et que celui-ci vient d\'être supprimé.',
 	'subject' => 'Sujet supprim&#233; : {TOPICSUBJECT}',
-	'body' => 'Un sujet que vous surveillez a &#233;t&#233; supprim&#233; par {POSTERNAME}.
+	'body' => 'Un sujet que vous surveilliez a &#233;t&#233; supprim&#233; par {POSTERNAME}.
 
 {REGARDS}',
 );
 
 $txt['emailtemplate_notification_move'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur s\'il est inscrit à un sujet, et que celui-ci vient d\'être déplacé.',
 	'subject' => 'Sujet d&#233;plac&#233; : {TOPICSUBJECT}',
 	'body' => 'Un sujet que vous surveillez a &#233;t&#233; d&#233;plac&#233; dans une autre section par {POSTERNAME}.
 
@@ -534,6 +562,7 @@ Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
 );
 
 $txt['emailtemplate_notification_merge'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur s\'il est inscrit à un sujet, et que celui-ci vient d\'être fusionné avec un autre.',
 	'subject' => 'Sujet fusionn&#233; : {TOPICSUBJECT}',
 	'body' => 'Un sujet que vous surveillez a &#233;t&#233; fusionn&#233; avec un autre sujet par {POSTERNAME}.
 
@@ -547,6 +576,7 @@ Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
 );
 
 $txt['emailtemplate_notification_split'] = array(
+	'desc' => 'Le mail envoyé à un utilisateur s\'il est inscrit à un sujet, et que celui-ci vient d\'être séparé en deux sujets.',
 	'subject' => 'Sujet s&#233;par&#233; : {TOPICSUBJECT}',
 	'body' => 'Un sujet que vous surveillez a &#233;t&#233; divis&#233; en deux sujets par {POSTERNAME}.
 
@@ -560,6 +590,7 @@ Pour vous d&#233;sabonner de ce sujet, utilisez ce lien :
 );
 
 $txt['emailtemplate_admin_notify'] = array(
+	'desc' => 'Le mail envoyé aux administrateurs quand un nouveau membre s\'est inscrit.',
 	'subject' => 'Un nouveau membre s\'est inscrit',
 	'body' => '{USERNAME} vient juste de s\'inscrire comme nouveau membre sur votre forum. Cliquez sur le lien ci-dessous pour voir son profil.
 {PROFILELINK}
@@ -568,6 +599,7 @@ $txt['emailtemplate_admin_notify'] = array(
 );
 
 $txt['emailtemplate_admin_notify_approval'] = array(
+	'desc' => 'Le mail envoyé aux administrateurs quand un nouveau membre s\'est inscrit, et nécessite une approbation.',
 	'subject' => 'Un nouveau membre s\'est inscrit',
 	'body' => '{USERNAME} vient juste de s\'inscrire comme nouveau membre sur votre forum. Cliquez sur le lien ci-dessous pour voir son profil.
 {PROFILELINK}
@@ -579,6 +611,7 @@ Avant que ce membre puisse commencer &#224; poster, son compte doit d\'abord &#2
 );
 
 $txt['emailtemplate_admin_attachments_full'] = array(
+	'desc' => 'Le mail envoyé aux administrateurs quand le dossier de fichiers joints a presque atteint la taille limite fixée dans le panneau d\'administration.',
 	'subject' => 'Urgent ! Le dossier des fichiers joints est presque plein',
 	'body' => '{REALNAME},
 
@@ -590,6 +623,7 @@ Notez que, si le dossier des fichiers joints est plein, les utilisateurs de ce f
 );
 
 $txt['emailtemplate_paid_subscription_refund'] = array(
+	'desc' => 'Le mail envoyé aux administrateurs pour les informer d\'un remboursement effectué sur un abonnement.',
 	'subject' => 'Abonnement rembours&#233;',
 	'body' => '{REALNAME},
 
@@ -606,7 +640,8 @@ Vous pouvez afficher le profil de cet utilisateur via le lien ci-dessous :
 );
 
 $txt['emailtemplate_paid_subscription_new'] = array(
-	'subject' => 'Nouvelle souscription',
+	'desc' => 'Le mail envoyé aux administrateurs pour les informer qu\'un abonnement vient d\'être souscrit.',
+	'subject' => 'Nouvel abonnement',
 	'body' => '{REALNAME},
 
 Un membre s\'est abonn&#233; &#224; votre forum. Voici les d&#233;tails de cet abonnement :
@@ -624,18 +659,19 @@ Vous pouvez afficher le profil de cet utilisateur via le lien ci-dessous :
 );
 
 $txt['emailtemplate_paid_subscription_error'] = array(
-	'subject' => 'Une erreur est survenue lors de la souscription',
+	'desc' => 'Le mail envoyé aux administrateurs pour les informer qu\'une erreur est survenue pendant la souscription d\'un abonnement.',
+	'subject' => 'Une erreur est survenue lors de l\'abonnement',
 	'body' => '{REALNAME},
 
-L\'erreur suivante est survenue lors de cette souscription
-----------------------------------------------------------
+L\'erreur suivante est survenue lors de la souscription de cet abonnement
+-------------------------------------------------------------------------
 {SUBERROR}
 
 {REGARDS}',
 );
 
 $txt['emailtemplate_pm_email'] = array(
-	'desc' => '',
+	'desc' => 'Le mail envoyé à un utilisateur quand un message personnel lui est envoyé.',
 	'subject' => 'Nouveau message personnel : {SUBJECT}',
 	'body' => '
 Vous venez tout juste de recevoir un message personnel de la part de {SENDERNAME} sur {FORUMNAME}.

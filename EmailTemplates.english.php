@@ -371,7 +371,7 @@ Should you have any problems with activation, please visit {ACTIVATIONLINKWITHOU
 );
 
 $txt['emailtemplate_register_activate_approve'] = array(
-	'desc' => 'The email sent to users to activate their email account, but when the administrator then has to approve their account.',
+	'desc' => 'The email sent to users to activate their account, but when the administrator then has to approve their account.',
 	'subject' => 'Welcome to {FORUMNAME}',
 	'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME}. If you forget your password, you can reset it by visiting {FORGOTPASSWORDLINK}.
 
@@ -439,7 +439,7 @@ Unsubscribe to this topic by using this link:
 );
 
 $txt['emailtemplate_notification_reply_body'] = array(
-	'desc' => 'The email sent when a user is following a topic, it has been replied to, and the content of the post is included.',
+	'desc' => 'The email sent when a user is following a topic and it has been replied to. The content of the post is included.',
 	'subject' => 'Topic reply: {TOPICSUBJECT}',
 	'body' => 'A reply has been posted to a topic you are watching by {POSTERNAME}.
 
@@ -472,7 +472,7 @@ More replies may be posted, but you won\'t receive any more notifications until 
 );
 
 $txt['emailtemplate_notification_reply_body_once'] = array(
-	'desc' => 'The email sent when a user is following a topic, and will only receive it on the first new post, including the post\'s content.',
+	'desc' => 'The email sent when a user is following a topic, and will only receive it on the first new post. The content of the post is included.',
 	'subject' => 'Topic reply: {TOPICSUBJECT}',
 	'body' => 'A reply has been posted to a topic you are watching by {POSTERNAME}.
 
@@ -491,7 +491,7 @@ More replies may be posted, but you won\'t receive any more notifications until 
 );
 
 $txt['emailtemplate_notification_pin'] = array(
-	'desc' => 'The email sent when a user is following a topic, and the topic is subsequently pinned.',
+	'desc' => 'The email sent when a user is following a topic, and the topic is subsequently pinned or unpinned.',
 	'subject' => 'Topic pinned: {TOPICSUBJECT}',
 	'body' => 'A topic you are watching has been pinned or unpinned by {POSTERNAME}.
 
@@ -535,7 +535,7 @@ Unsubscribe to this topic by using this link:
 $txt['emailtemplate_notification_remove'] = array(
 	'desc' => 'The email sent when a user is following a topic, and the topic is subsequently removed.',
 	'subject' => 'Topic removed: {TOPICSUBJECT}',
-	'body' => 'A topic you are watching has been removed by {POSTERNAME}.
+	'body' => 'A topic you were watching has been removed by {POSTERNAME}.
 
 {REGARDS}',
 );
