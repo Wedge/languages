@@ -441,10 +441,10 @@ $txt['languages_users'] = 'Users';
 $txt['language_settings_writable'] = 'Warning: Settings.php is not writable so the default language setting cannot be saved.';
 $txt['edit_languages'] = 'Edit Languages';
 $txt['edit_languages_specific'] = 'Edit Languages - %1$s';
-$txt['language_edit_master_value'] = 'Master value: %1$s';
-$txt['language_edit_master_value_array'] = 'Master values:';
-$txt['language_edit_current_value'] = 'Current value: %1$s';
-$txt['language_edit_current_value_array'] = 'Current values:';
+$txt['language_edit_master_value'] = '<em>Master value:</em> %1$s';
+$txt['language_edit_master_value_array'] = '<em>Master values:</em>';
+$txt['language_edit_current_value'] = '<em>Current value:</em> %1$s';
+$txt['language_edit_current_value_array'] = '<em>Current values:</em>';
 
 $txt['add_language'] = 'Add Language';
 $txt['add_language_wedge'] = 'Download from Wedge';
