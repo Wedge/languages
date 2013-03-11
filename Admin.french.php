@@ -532,7 +532,6 @@ $txt['language_add'] = 'Ajouter Langue';
 $txt['language_settings'] = 'Paramètres';
 
 $txt['advanced'] = 'Avancé';
-$txt['simple'] = 'Simple';
 
 $txt['admin_news_select_recipients'] = 'Veuillez sélectionner qui doit recevoir une copie de l\'infolettre.';
 $txt['admin_news_select_group'] = 'Groupes de Membres';

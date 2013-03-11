@@ -23,7 +23,6 @@ $txt['search_options'] = 'Options&nbsp;';
 $txt['search_show_complete_messages'] = 'Afficher les résultats comme des messages';
 $txt['search_subject_only'] = 'Titres des sujets seulement';
 $txt['search_relevance'] = 'Pertinence';
-$txt['search_date_posted'] = 'Date d\'écriture';
 $txt['search_order'] = 'Ordre de recherche&nbsp;';
 $txt['search_orderby_relevant_first'] = 'Les résultats les plus pertinents en premier';
 $txt['search_orderby_large_first'] = 'Les plus longs sujets en premier';

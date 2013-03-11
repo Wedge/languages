@@ -23,7 +23,6 @@ $txt['search_options'] = 'Options';
 $txt['search_show_complete_messages'] = 'Show results as messages';
 $txt['search_subject_only'] = 'Search in topic subjects only';
 $txt['search_relevance'] = 'Relevance';
-$txt['search_date_posted'] = 'Date Posted';
 $txt['search_order'] = 'Search order';
 $txt['search_orderby_relevant_first'] = 'Most relevant results first';
 $txt['search_orderby_large_first'] = 'Largest topics first';
