@@ -582,7 +582,7 @@ $txt['smiley_sets'] = 'Smiley Sets';
 $txt['smileys_add'] = 'Add Smiley';
 $txt['smileys_edit'] = 'Edit Smileys';
 $txt['smileys_set_order'] = 'Set Smiley Order';
-$txt['icons_edit_message_icons'] = 'Edit Message Icons';
+$txt['icons_edit_message_icons'] = 'Message Icons';
 
 $txt['membergroups_new_group'] = 'Add Membergroup';
 $txt['membergroups_edit_groups'] = 'Edit Membergroups';

@@ -11,8 +11,6 @@ $txt['setting_smiley_sets_enable'] = 'Autoriser les utilisateurs à choisir un j
 $txt['setting_smiley_enable'] = 'Organiser, ajouter et modifier les smileys manuellement';
 $txt['setting_smileys_url'] = 'URL de base de tous les jeux de smileys';
 $txt['setting_smileys_dir'] = 'Chemin absolu vers tous les jeux de smileys';
-$txt['setting_messageIcons_enable'] = 'Activer les icônes de messages personnalisées';
-$txt['setting_messageIcons_enable_subtext'] = '(autrement, les icônes par défaut seront utilisées.)';
 $txt['groups_manage_smileys'] = 'Groupes autorisés à gérer les smileys et icônes de messages';
 
 $txt['smiley_sets_name'] = 'Nom';

@@ -582,7 +582,7 @@ $txt['smiley_sets'] = 'Jeux de smileys';
 $txt['smileys_add'] = 'Ajouter un smiley';
 $txt['smileys_edit'] = 'Modifier les smileys';
 $txt['smileys_set_order'] = 'Choisir l\'ordre des smileys';
-$txt['icons_edit_message_icons'] = 'Modifier les Icônes de Message';
+$txt['icons_edit_message_icons'] = 'Icônes de Message';
 
 $txt['membergroups_new_group'] = 'Ajouter un Groupe de membres';
 $txt['membergroups_edit_groups'] = 'Modifier les Groupes de membres';
