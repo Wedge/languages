@@ -438,7 +438,6 @@ $txt['languages_lang_name'] = 'Language Name (click to edit the language)';
 $txt['languages_locale'] = 'Locale';
 $txt['languages_default'] = 'Default';
 $txt['languages_users'] = 'Users';
-$txt['language_settings_writable'] = 'Warning: Settings.php is not writable so the default language setting cannot be saved.';
 $txt['edit_languages'] = 'Edit Languages';
 $txt['edit_languages_specific'] = 'Edit Languages - %1$s';
 $txt['language_edit_master_value'] = '<em>Master value:</em> %1$s';

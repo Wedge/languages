@@ -438,7 +438,6 @@ $txt['languages_lang_name'] = 'Langue (cliquez pour modifier la langue)';
 $txt['languages_locale'] = 'Paramètres régionaux';
 $txt['languages_default'] = 'Par défaut';
 $txt['languages_users'] = 'Utilisateurs';
-$txt['language_settings_writable'] = 'Attention&nbsp;: Settings.php n\'est pas inscriptible. Par conséquent, le réglage de la langue par défaut ne peut être sauvegardé.';
 $txt['edit_languages'] = 'Modifier les Langues';
 $txt['edit_languages_specific'] = 'Modifier langues - %1$s';
 $txt['language_edit_master_value'] = 'Valeur de base&nbsp;: %1$s';
