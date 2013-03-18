@@ -62,7 +62,7 @@ $txt['mboards_groups_everyone_desc'] = 'Use this option to quickly select all th
 $txt['mboards_offlimits_msg'] = 'Message to those who can see this board but not enter it:';
 
 $txt['mboards_moderators'] = 'Moderators';
-$txt['mboards_moderators_desc'] = 'Additional members to have moderation privileges on this board.  Note that administrators don\'t have to be listed here.';
+$txt['mboards_moderators_desc'] = 'Additional members to have moderation privileges on this board. Note that administrators don\'t have to be listed here.';
 $txt['mboards_count_posts'] = 'Count Posts';
 $txt['mboards_count_posts_desc'] = 'Makes new replies and topics raise members\' post counts.';
 $txt['mboards_unchanged'] = 'Unchanged';
@@ -97,7 +97,7 @@ $txt['mboards_settings_desc'] = 'Edit general board and category settings.';
 $txt['groups_manage_boards'] = 'Membergroups allowed to manage boards and categories';
 $txt['recycle_enable'] = 'Enable recycling of deleted topics';
 $txt['recycle_board'] = 'Board for recycled topics';
-$txt['recycle_board_unselected_notice'] = 'You have enabled the recycling of topics without specifying a board to place them in.  This feature will not be enabled until you specify a board to place recycled topics into.';
+$txt['recycle_board_unselected_notice'] = 'You have enabled the recycling of topics without specifying a board to place them in. This feature will not be enabled until you specify a board to place recycled topics into.';
 $txt['countChildPosts'] = 'Count sub-board\'s posts in parent\'s totals';
 $txt['allow_ignore_boards'] = 'Allow boards to be ignored';
 $txt['display_flags'] = 'Display flags on the board index?';

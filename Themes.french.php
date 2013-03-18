@@ -44,7 +44,7 @@ $txt['theme_skin_set'] = 'Utiliser ce style';
 $txt['theme_edit'] = 'Modifier un Thème';
 $txt['theme_edit_style'] = 'Modifier les feuilles de style (couleurs, polices, etc.)';
 $txt['theme_edit_index'] = 'Modifier index.template.php (le modèle principal)';
-$txt['theme_edit_no_save'] = 'Ce fichier ne peut pas être sauveradé parce qu\'il n\'est pas inscriptible&nbsp;!  Veuillez vous assurer que le fichier suivant est en chmod 777 ou possède les permissions suffisantes.';
+$txt['theme_edit_no_save'] = 'Ce fichier ne peut pas être sauveradé parce qu\'il n\'est pas inscriptible&nbsp;! Veuillez vous assurer que le fichier suivant est en chmod 777 ou possède les permissions suffisantes.';
 $txt['theme_edit_save'] = 'Sauvegarder les changements';
 
 $txt['theme_global_description'] = 'Ceci est le thème par défaut, ce qui signifie que votre thème changera suivant les réglages de l\'administrateur et/ou la section que vous consultez.';
@@ -79,12 +79,12 @@ $txt['header_logo_url_desc'] = 'Laissez vide pour afficher le nom du forum ou le
 
 $txt['themeadmin_title'] = 'Options de thèmes et disposition';
 $txt['themeadmin_description'] = 'Ici vous pouvez modifier les paramètres de vos thèmes, mettre à jour la liste des thèmes, réinitialiser les options des membres et autres réglages du genre.';
-$txt['themeadmin_admin_desc'] = 'Cette page vous permet de changer le thème par défaut de votre forum, réinitialiser les membres pour utiliser un certain thème et choisir d\'autres réglages relatifs à la sélection des thèmes.  Vous pouvez aussi installer des nouveaux thèmes depuis cette interface.<br><br>N\'oubliez pas de jeter un oeil aux réglages du thème pour votre thème pour des personnalisations de disposition.';
+$txt['themeadmin_admin_desc'] = 'Cette page vous permet de changer le thème par défaut de votre forum, réinitialiser les membres pour utiliser un certain thème et choisir d\'autres réglages relatifs à la sélection des thèmes. Vous pouvez aussi installer des nouveaux thèmes depuis cette interface.<br><br>N\'oubliez pas de jeter un oeil aux réglages du thème pour votre thème pour des personnalisations de disposition.';
 $txt['themeadmin_list_desc'] = 'Ici vous pouvez voir la liste des thèmes actuellement installés, changer leur chemin et réglages, de même que les désinstaller.';
-$txt['themeadmin_edit_desc'] = 'Modifiez la feuille de style et le code-source de vos thèmes installés.  Veuillez consulter la documentation pour plus d\'informations.';
+$txt['themeadmin_edit_desc'] = 'Modifiez la feuille de style et le code-source de vos thèmes installés. Veuillez consulter la documentation pour plus d\'informations.';
 
 $txt['themeadmin_list_heading'] = 'Aperçu des paramètres du thème';
-$txt['themeadmin_list_tip'] = 'Rappelez-vous, les paramètres de disposition peuvent différer d\'un thème à l\'autre.  Cliquez sur le nom du thème ci-dessous pour paramétrer ses options, changer son répertoire ou son URL, ou trouvez d\'autres options.';
+$txt['themeadmin_list_tip'] = 'Rappelez-vous, les paramètres de disposition peuvent différer d\'un thème à l\'autre. Cliquez sur le nom du thème ci-dessous pour paramétrer ses options, changer son répertoire ou son URL, ou trouvez d\'autres options.';
 $txt['themeadmin_list_theme_dir'] = 'Répertoire des thèmes graphiques';
 $txt['themeadmin_list_invalid'] = '(attention, ce chemin est incorrect&nbsp;!)';
 $txt['themeadmin_list_theme_url'] = 'URL vers le répertoire ci-dessus';

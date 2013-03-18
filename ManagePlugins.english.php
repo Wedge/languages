@@ -21,9 +21,9 @@ $txt['fatal_install_error_maint_mode'] = 'This plugin will make large scale data
 $txt['fatal_remove_error_maint_mode'] = 'This plugin made large scale database changes on your forum when installing. To make it easier to process, and faster, the plugin requires that the forum be put into maintenance mode before it is removed. This is a safety feature and should not be ignored.';
 $txt['fatal_install_error_reqfunc'] = 'This plugin makes use of features not currently supported by your PHP installation, that have the following function names: %1$s. You should contact your web-host for more information.';
 $txt['fatal_install_error_missinghook'] = 'This plugin makes use of features not currently available in this install, that have the references: %1$s. You should probably contact the plugin\'s author for support.';
-$txt['fatal_install_enable_missing'] =  'This plugin specifies that a certain file contains instructions to be carried out when enabling it, %1$s, but the file cannot be found where the plugin said it should be.';
+$txt['fatal_install_enable_missing'] = 'This plugin specifies that a certain file contains instructions to be carried out when enabling it, %1$s, but the file cannot be found where the plugin said it should be.';
 $txt['fatal_install_disable_missing'] = 'This plugin specifies that a certain file contains instructions to be carried out when disabling it, %1$s, but the file cannot be found where the plugin said it should be.';
-$txt['fatal_install_remove_missing'] =  'This plugin specifies that a certain file contains instructions to be carried out when removing it, %1$s, but the file cannot be found where the plugin said it should be.';
+$txt['fatal_install_remove_missing'] = 'This plugin specifies that a certain file contains instructions to be carried out when removing it, %1$s, but the file cannot be found where the plugin said it should be.';
 $txt['fatal_conflicted_plugins'] = 'This plugin provides features to other plugins. You cannot disable it without disabling the following plugin(s): %1$s';
 $txt['no_plugins_found'] = 'No plugins found.';
 

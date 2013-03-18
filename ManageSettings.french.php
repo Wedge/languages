@@ -444,6 +444,10 @@ $txt['language_edit_master_value'] = 'Valeur de base&nbsp;: %1$s';
 $txt['language_edit_master_value_array'] = 'Valeurs de base&nbsp;:';
 $txt['language_edit_current_value'] = 'Valeur actuelle&nbsp;: %1$s';
 $txt['language_edit_current_value_array'] = 'Valeurs actuelles&nbsp;:';
+$txt['language_clear_cache'] = 'Vider le cache de langues';
+$txt['language_clear_cache_desc'] = 'Les données de traduction des langues sont gérées via des fichiers spéciaux et peuvent être modifiées via la base de données. Elles sont ensuite mises en cache. Si vous mettez les fichiers à jour, assurez-vous de vider le cache en utilisant cette option.';
+$txt['language_clear_cache_btn'] = 'Vider';
+$txt['language_cache_cleared'] = 'Le cache de langues a été remis à zéro.';
 
 $txt['add_language'] = 'Ajouter une Langue';
 $txt['add_language_wedge'] = 'Télécharger à partir de Wedge';

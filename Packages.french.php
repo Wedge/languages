@@ -22,7 +22,7 @@ $txt['sql_queries'] = 'Requêtes SQL';
 $txt['no_mods_installed'] = 'Aucune extension installée actuellement';
 $txt['browse_installed'] = 'Parcourir les extensions installées';
 $txt['delete_list'] = 'Effacer la liste des modifications';
-$txt['php_safe_mode'] = 'Votre serveur PHP est réglé en SAFE MODE.  Cette fonction est incompatible avec le SAFE MODE.  Désolé.';
+$txt['php_safe_mode'] = 'Votre serveur PHP est réglé en SAFE MODE. Cette fonction est incompatible avec le SAFE MODE. Désolé.';
 $txt['lets_try_anyway'] = 'Essayons quand même.';
 
 $txt['package_manager_desc'] = 'Depuis le gestionnaire d\'extensions, vous pouvez télécharger et installer des extensions pour votre forum à travers une interface facile à utiliser.';
@@ -52,7 +52,7 @@ $txt['package_ftp_username'] = 'Identifiant';
 $txt['package_ftp_password'] = 'Mot de passe';
 $txt['package_ftp_path'] = 'Chemin local vers Wedge';
 
-$txt['package_no_zlib'] = 'Désolé, votre configuration de PHP n\'inclut pas le support pour <strong>zlib</strong>.  Sans cela, le gestionnaire d\'extensions ne peut pas fonctionner.  Veuillez contacter votre hébergeur pour plus d\'informations.';
+$txt['package_no_zlib'] = 'Désolé, votre configuration de PHP n\'inclut pas le support pour <strong>zlib</strong>. Sans cela, le gestionnaire d\'extensions ne peut pas fonctionner. Veuillez contacter votre hébergeur pour plus d\'informations.';
 
 $txt['package_download_by_url'] = 'Télécharger une extension par son URL';
 $txt['package_download_filename'] = 'Nom du fichier';

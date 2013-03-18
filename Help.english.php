@@ -319,7 +319,7 @@ $helptxt['jquery_origin'] = 'This option allows you to choose which server to se
 		that jQuery is always available, as long as your website is up. Make sure to use a CDN if your server doesn\'t have the zlib library up and running (which most
 		servers will have anyway), otherwise you\'ll be serving a really big file...';
 $helptxt['disableTemplateEval'] = 'By default, templates are evaluated instead of just included. This helps with showing more useful debug information in case a template contains an error.<br><br>
-		On large forums however, this customised inclusion process may be significantly slower. Therefore, advanced users may wish to disable it.';
+		On large forums however, this customized inclusion process may be significantly slower. Therefore, advanced users may wish to disable it.';
 $helptxt['db_show_debug'] = 'Enables query debugging features. This is very useful for debugging purposes, and the debug query information is shown at the bottom of each
 		page when this setting is enabled.<br><br>
 		The following items are displayed:

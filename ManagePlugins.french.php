@@ -21,9 +21,9 @@ $txt['fatal_install_error_maint_mode'] = 'Cette extension effectue des changemen
 $txt['fatal_remove_error_maint_mode'] = 'Cette extension a effectué des changements conséquents sur la base de données de votre forum. Pour faciliter et accélérer sa suppression, elle demande l\'activation du mode Maintenance. C\'est une procédure de précaution qu\'il est préférable de ne pas ignorer.';
 $txt['fatal_install_error_reqfunc'] = 'Cette extension fait appel à des fonctionnalités non disponibles sur votre version de PHP, dont voici le nom des fonctions&nbsp;: %1$s. Contactez votre hébergeur pour plus d\'informations.';
 $txt['fatal_install_error_missinghook'] = 'Cette extension fait appel à des fonctionnalités non disponibles sur votre serveur, sous les références suivantes&nbsp:: %1$s. Contactez l\'auteur de l\'extension pour plus d\'informations.';
-$txt['fatal_install_enable_missing'] =  'Cette extension spécifie qu\'un fichier en particulier contient des instructions à exécuter au moment de son activation, %1$s, mais le fichier est introuvable à l\'endroit indiqué par l\'extension.';
+$txt['fatal_install_enable_missing'] = 'Cette extension spécifie qu\'un fichier en particulier contient des instructions à exécuter au moment de son activation, %1$s, mais le fichier est introuvable à l\'endroit indiqué par l\'extension.';
 $txt['fatal_install_disable_missing'] = 'Cette extension spécifie qu\'un fichier en particulier contient des instructions à exécuter au moment de sa désactivation, %1$s, mais le fichier est introuvable à l\'endroit indiqué par l\'extension.';
-$txt['fatal_install_remove_missing'] =  'Cette extension spécifie qu\'un fichier en particulier contient des instructions à exécuter au moment de sa suppression, %1$s, mais le fichier est introuvable à l\'endroit indiqué par l\'extension.';
+$txt['fatal_install_remove_missing'] = 'Cette extension spécifie qu\'un fichier en particulier contient des instructions à exécuter au moment de sa suppression, %1$s, mais le fichier est introuvable à l\'endroit indiqué par l\'extension.';
 $txt['fatal_conflicted_plugins'] = 'Cette extension ajoute des fonctionnalités à d\'autres extensions. Vous ne pourrez la désactiver qu\'après avoir désactivé la ou les extensions suivantes&nbsp;: %1$s';
 $txt['no_plugins_found'] = 'Aucune extension.';
 

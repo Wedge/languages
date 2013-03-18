@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; Themes
 
-$txt['themeadmin_explain'] = 'Themes are the different looks and feels of your forum.  These settings affect the selection of themes, and which themes guests and other members use.';
+$txt['themeadmin_explain'] = 'Themes are the different looks and feels of your forum. These settings affect the selection of themes, and which themes guests and other members use.';
 
 $txt['theme_allow'] = 'Allow members to select their own themes?';
 $txt['theme_guests'] = 'Overall forum default for guests';
@@ -79,12 +79,12 @@ $txt['header_logo_url_desc'] = 'Leave blank to show forum name or default logo.'
 
 $txt['themeadmin_title'] = 'Themes and Layout Settings';
 $txt['themeadmin_description'] = 'Here you can modify the settings for your themes, update theme selections, reset member options, and the like.';
-$txt['themeadmin_admin_desc'] = 'This page allows you to change the default theme, reset members to all use a certain theme, and choose other settings related to theme selection.  You are also able to install themes from here.<br><br>Don\'t forget to look at the theme settings for your themes for layout options.';
+$txt['themeadmin_admin_desc'] = 'This page allows you to change the default theme, reset members to all use a certain theme, and choose other settings related to theme selection. You are also able to install themes from here.<br><br>Don\'t forget to look at the theme settings for your themes for layout options.';
 $txt['themeadmin_list_desc'] = 'From here, you can view the list of themes you currently have installed, change their paths and settings, and uninstall them.';
-$txt['themeadmin_edit_desc'] = 'Modify the stylesheet and source code of your installed themes.  Please consult the documentation for more information.';
+$txt['themeadmin_edit_desc'] = 'Modify the stylesheet and source code of your installed themes. Please consult the documentation for more information.';
 
 $txt['themeadmin_list_heading'] = 'Theme Settings Overview';
-$txt['themeadmin_list_tip'] = 'Remember, the layout settings may be different between one theme and another.  Click on the theme\'s names below to set their options, change their directory or URL settings, or to find other options.';
+$txt['themeadmin_list_tip'] = 'Remember, the layout settings may be different between one theme and another. Click on the theme\'s names below to set their options, change their directory or URL settings, or to find other options.';
 $txt['themeadmin_list_theme_dir'] = 'Theme directory (templates)';
 $txt['themeadmin_list_invalid'] = '(warning, this path is not correct!)';
 $txt['themeadmin_list_theme_url'] = 'URL to above directory';
