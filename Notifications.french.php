@@ -12,11 +12,11 @@
  */
 
 $txt['notifications'] = 'Notifications';
-$txt['notification_unread_title'] = 'Unread Notifications';
-$txt['notification_disable'] = 'Disable notifications?';
-$txt['notification_profile_desc'] = 'You can disable notifications from specific notifiers here, please note that disabling notifications will only prevent new notifications but will keep the existing ones';
-$txt['scheduled_task_notification_prune'] = 'Prune read notifications';
-$txt['scheduled_task_desc_notification_prune'] = 'Prune read notifications which are older than the specified days in Admin > Notifications';
+$txt['notification_unread_title'] = 'Notifications non lues';
+$txt['notification_disable'] = 'Désactiver les notifications&nbsp;?';
+$txt['notification_profile_desc'] = 'Vous pouvez désactiver les notifications de sources spécifiques ici. La désactivation ne s\'applique pas aux notifications souscrites actuellement.';
+$txt['scheduled_task_notification_prune'] = 'Nettoyer les notifications lues';
+$txt['scheduled_task_desc_notification_prune'] = 'Nettoyer les notifications lues plus anciennes que le nombre de jours spécifié dans Admin > Notifications';
 $txt['notification_admin_desc'] = 'Settings for the notifications core';
 $txt['notifications_prune_days'] = 'Prune notifications older than (days)';
 $txt['notifications_prune_days_subtext'] = 'Any read notification older than the specified number of days will be deleted from the database. If you want to disable this feature, disable the scheduled task found under Admin > Server & Maintenance > Scheduled Tasks';
