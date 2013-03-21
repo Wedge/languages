@@ -41,7 +41,7 @@ $helptxt['manage_boards'] = '
 	Les catégories vous permettent de séparer votre forum en différents sujets ("Voitures,
 	Sports"), et les "sections" en dessous sont les sujets dans lesquels
 	vos membres peuvent poster. Un utilisateur intéressé par les Twingo
-	voudra poster un message dans "Voitures->Twingo". Les catégories permettent aux gens
+	voudra poster un message dans "Voitures-&gt;Twingo". Les catégories permettent aux gens
 	de rapidement trouver ce qui les intéresse&nbsp;: au lieu d\'un "Magasin", vous avez
 	un "Magasin d\'informatique" et un "Magasin de chaussures" où vous pouvez aller. Cela simplifie
 	votre recherche d\'un "disque dur", parce que vous pouvez aller directement au "Magasin d\'informatique"
@@ -72,7 +72,7 @@ $helptxt['edit_news'] = '
 		<li>
 			<strong>Nouvelles</strong><br>
 			Cette partie vous permet de définir du contenu pour les news de la page d\'accueil.
-			Mettez-y ce que vous voulez (par ex., "Ne manquez pas la conférence de mardi prochain"). Les news sont affichées de manière aléatoire et doivent être placées dans des boîtes séparées.
+			Mettez-y ce que vous voulez (par ex., "Ne manquez pas la conférence de mardi prochain"). Les news sont affichées de manière aléatoire.
 		</li>
 		<li>
 			<strong>Infolettres</strong><br>
@@ -166,7 +166,7 @@ $helptxt['live_news'] = '
 	Vous devriez y surveiller les annonces concernant les mises à jour, nouvelles versions de Wedge et informations importantes de l\'équipe.';
 
 $helptxt['registrations'] = '
-	Cette section contient toutes les fonctions nécessaires pour la gestion des nouvelles inscriptions sur votre forum. Elle peut contenir jusqu\'à quatre
+	Cette section contient toutes les fonctions nécessaires pour la gestion des nouvelles inscriptions sur votre forum. Elle peut contenir jusqu\'à trois
 	rubriques, visibles selon vos paramètres de forum. Celles-ci sont détaillés ci-dessous&nbsp;:<br><br>
 	<ul class="normallist">
 		<li>
@@ -373,7 +373,7 @@ $helptxt['theme_install'] = 'Ceci vous permet d\'installer des nouveaux thèmes.
 $helptxt['enableEmbeddedFlash'] = 'Cette option permettra à vos visiteurs d\'insérer des animations Flash directement dans leurs messages, comme des images. Ceci peut présenter un sérieux risque de sécurité, bien que peu nombreux soient ceux qui ont réussi l\'exploitation de ce risque.<br><br>UTILISEZ CETTE OPTION À VOS PROPRES RISQUES&nbsp;!';
 // !!! Add more information about how to use them here.
 $helptxt['xmlnews_enable'] = 'Les flux Atom sont comme des flux RSS, mais en mieux.<br>
-	Ils permettent à vos utilisateurs de récupérer les nouveautés de votre forum sans devoir s\'y rendre en permanence, grâce à un logiciel client Atom/RSS ou à des services web comme Google Reader.
+	Ils permettent à vos utilisateurs de récupérer les nouveautés de votre forum sans devoir s\'y rendre en permanence, grâce à un logiciel client Atom/RSS ou à des services web comme Feedly.
 	Il est recommandé de limiter la taille des messages. En effet, certains clients tels que Trillian préfèrent afficher des messages tronqués.';
 $helptxt['globalCookies'] = 'Permet l\'utilisation de cookies (« témoins ») indépendants du sous-domaine. Par exemple, si...<br>
 	Votre site est situé sur http://www.chezmoi.org/,<br>
@@ -409,7 +409,6 @@ $helptxt['customoptions'] = 'Cette section définit les options qu\'un utilisate
 		<li><strong>Réordonner les Options:</strong> Vous pouvez modifier l\'ordre des options en les déplacant. Remarque importante - Assurez-vous de ne <strong>pas</strong> modifier le texte de ces options lorsque vous en modifiez l\'ordre, sinon vous perdrez les données prélablement enregistrées par vos utilisateurs pour ces options.</li>
 	</ul>';
 
-$helptxt['autoOptDatabase'] = 'Cette fonction optimise votre base de données tous les X jours. Spécifiez 1 pour effectuer une optimisation quotidienne. Vous pouvez aussi spécifier un nombre maximum d\'utilisateurs en ligne lors de l\'optimisation, donc vous ne surchargerez pas votre serveur et importunerez un minimum de gens.';
 $helptxt['autoFixDatabase'] = 'Ceci réparera automatiquement les tables présentant des erreurs. Ainsi, le forum continuera de fonctionner comme si rien ne s\'était produit. La seule façon de régler le problème étant de lancer un REPAIR sur la table en question, cette option évite que le forum ne soit hors service en attendant que vous preniez les mesures nécessaires. Un e-mail vous est envoyé si tel problème se présente.';
 
 $helptxt['enableParticipation'] = 'Cette fonction affiche une icône spéciale sur les sujets dans lesquels un utilisateur est précédemment intervenu.';
@@ -515,7 +514,6 @@ $helptxt['membergroups'] = 'Dans Wedge, il y a deux types de groupes auquels vos
 $helptxt['group_text_show'] = 'Choisissez les noms à montrer dans les messages, sous le nom de l\'auteur du message, et dans les profils. Wedge ne peut afficher que deux noms de groupe&nbsp;: le groupe principal, et le groupe posteur. Par défaut, il affiche uniquement le groupe principal s\'il existe, sinon le groupe posteur.<br><br>Vous pouvez aussi définir des badges pour chaque groupe, y compris les groupes additionnels, et définir leurs règles d\'affichage dans les pages d\'options individuelles des groupes de membres.';
 $helptxt['show_group_key'] = 'Dans la section Qui est en ligne du centre d\'informations, les membres en ligne sont listés, avec leur nom dans la couleur de leur groupe, ainsi qu\'indiqué dans la page de configuration des groupes. Il peut s\'avérer utile d\'inclure également sous cette liste les groupes existants avec les couleurs correspondantes, pour guider les néophytes avant tout. Cette option active cette liste. Les groupes sont listés dans le même ordre que leurs badges correspondants, à configurer ci-dessous.';
 
-$helptxt['maintenance_backup'] = 'Cette section vous permettra de faire une copie de sauvegarde des messages, des réglages, des membres et autres informations utiles de votre forum dans un gros fichier.<br><br>Il est recommandé d\'effectuer cette opération souvent, par exemple hebdomadairement, pour plus de sécurité et de protection.';
 $helptxt['maintenance_rot'] = 'Vous permet de supprimer <strong>complètement</strong> et <strong>irrévocablement</strong> les vieux sujets. Vous devriez effectuer une copie de sauvegarde de votre base de données avant de procéder à cette action, au cas où vous enleveriez quelque chose que vous ne vouliez pas supprimer.<br><br>À utiliser avec précaution.';
 $helptxt['maintenance_members'] = 'Vous permet d\'effacer <strong>complètement</strong> et <strong>irrévocablement</strong> des comptes de membres de votre forum. Vous devriez <strong>absolument</strong> faire une sauvegarde avant, juste au cas où vous effaceriez quelque chose que vous ne vouliez pas effacer.<br><br>Utilisez cette option avec précaution.';
 

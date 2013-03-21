@@ -44,7 +44,7 @@ $helptxt['manage_boards'] = '
 	Categories allow you to break down the board into broad topics ("Cars,
 	Sports"), and the "Boards" under them are the actual topics under which
 	members can post. A user interested in Pintos
-	would post a message under "Cars->Pinto". Categories allow people to
+	would post a message under "Cars-&gt;Pinto". Categories allow people to
 	quickly find what their interests are: Instead of a "Store" you have
 	"Hardware" and "Clothing" stores you can go to. This simplifies your
 	search for "pipe joint compound" because you can go to the Hardware
@@ -77,7 +77,7 @@ $helptxt['edit_news'] = '
 		<li>
 			<strong>News</strong><br>
 			This section allows you to set the text for news items displayed on the Board Index page.
-			Add any item you want (e.g., "Don\'t miss the conference this Tuesday"). Each news item is displayed randomly and should be placed in a separate box.
+			Add any item you want (e.g., "Don\'t miss the conference this Tuesday"). Each news item is displayed randomly.
 		</li>
 		<li>
 			<strong>Newsletters</strong><br>
@@ -172,7 +172,7 @@ $helptxt['live_news'] = '
 	You should check here every now and then for updates, new releases, and important information from Wedge.';
 
 $helptxt['registrations'] = '
-	This section contains all the functions that could be necessary to manage new registrations on the forum. It contains up to four
+	This section contains all the functions that could be necessary to manage new registrations on the forum. It contains up to three
 	sections which are visible depending on your forum settings. These are:<br><br>
 	<ul class="normallist">
 		<li>
@@ -372,7 +372,7 @@ $helptxt['localCookies'] = 'Wedge uses cookies to store login information on the
 	Especially when using SSI.php, global cookies are recommended.';
 $helptxt['enableBBC'] = 'Selecting this option will allow your members to use Bulletin Board Code (BBC) throughout the forum, allowing users to format their posts with images, type formatting and more.';
 $helptxt['time_offset'] = 'Not all forum administrators want their forum to use the same time zone as the server upon which it is hosted. Use this option to specify a time difference (in hours) from which the forum should operate from the server time. Negative and decimal values are permitted.';
-$helptxt['default_timezone'] = 'The server timezone tells PHP where your server is located. You should ensure this is set correctly, preferably to the country/city in which the city is located. You can find out more information on the <a href="http://www.php.net/manual/en/timezones.php" target="_blank">PHP Site</a>.';
+$helptxt['default_timezone'] = 'The server timezone tells PHP where your server is located. You should ensure this is set correctly, preferably to the country/city in which the server is located. You can find out more information on the <a href="http://www.php.net/manual/en/timezones.php" target="_blank">PHP Site</a>.';
 $helptxt['spamWaitTime'] = 'Here you can select the amount of time that must pass between postings. This can be used to stop people from "spamming" your forum by limiting how often they can post.';
 
 $helptxt['enablePostHTML'] = 'This will allow the posting of some basic HTML tags:
@@ -392,7 +392,7 @@ $helptxt['enableEmbeddedFlash'] = 'This option will allow your users to use Flas
 	USE AT YOUR OWN RISK!';
 // !!! Add more information about how to use them here.
 $helptxt['xmlnews_enable'] = 'Atom feeds are like RSS feeds, but better.<br>
-	This option allows users to get your forum news without having to visit it all the time, through RSS/Atom client software or web services like Google Reader.
+	This option allows users to get your forum news without having to visit it all the time, through RSS/Atom client software or web services like Feedly.
 	It is recommended that you limit the size of recent posts/news, because some clients such as Trillian expect the data they\'re displaying to be truncated.';
 $helptxt['globalCookies'] = 'Makes log in cookies available across subdomains. For example, if...<br>
 	Your site is at http://www.mysite.org/,<br>
@@ -430,7 +430,6 @@ $helptxt['customoptions'] = 'This section defines the options that a user may ch
 		<li><strong>Reordering Options:</strong> You can reorder the options by moving text around between the boxes. However - an important note - you must make sure you do <strong>not</strong> change the text when reordering options as otherwise user data will be lost.</li>
 	</ul>';
 
-$helptxt['autoOptDatabase'] = 'This option optimizes the database every so many days. Set it to 1 to make a daily optimization. You can also specify a maximum number of online users, so that you won\'t overload your server or inconvenience too many users.';
 $helptxt['autoFixDatabase'] = 'This will automatically fix broken tables and resume like nothing happened. This can be useful, because the only way to fix it is to REPAIR the table, and this way your forum won\'t be down until you notice. It does email you when this happens.';
 
 $helptxt['enableParticipation'] = 'This shows a little icon on the topics the user has posted in.';
@@ -470,6 +469,9 @@ $helptxt['registration_method'] = 'This option determines what method of registr
 		</li><li>
 			<strong>Email Activation</strong><br>
 				When this option is enabled any members registering with the forum will have an activation link emailed to them which they must click before they can become full members.<br>
+		</li><li>
+			<strong>Email Activation, then Admin Approval</strong><br>
+				When this option is enabled, any members registering with the forum will have an activation link emailed to them. Once they open that link, the administrator will then need to approve the account before they can become a member.
 		</li><li>
 			<strong>Admin Approval</strong><br>
 				This option will make it so all new members registering to your forum will need to be approved by the admin before they become members.
@@ -536,7 +538,6 @@ $helptxt['membergroups'] = 'In Wedge, there are two types of groups that your me
 $helptxt['group_text_show'] = 'Choose which group titles are to be shown on the message view and in profile pages, right under the user name. Wedge can only show up to two group names: primary and post-based group. By default, it will only show the primary group name, or the post-based group name if no primary group was set for the user.<br><br>You may also set up images that represent a group (either a defined number of stars, or a badge), from within the individual membergroup setting pages. Badge visibility can also be set up over there.';
 $helptxt['show_group_key'] = 'In the Who\'s Online area of the Info Center, online users are shown and their name is shown in the color of their group, as set in the group\'s own configuration. It can be useful to include a list of groups with their colors next to the list of names, to guide users as to whether more senior users are online - and this option enables that list. The order that names will be displayed in is the same as the order of badges as configured lower on this screen.';
 
-$helptxt['maintenance_backup'] = 'This area allows you to save a copy of all the posts, settings, members, and other information in your forum to a very large file.<br><br>It is recommended that you do this often, perhaps weekly, for safety and security.';
 $helptxt['maintenance_rot'] = 'This allows you to <strong>completely</strong> and <strong>irrevocably</strong> remove old topics. It is recommended that you try to make a backup first, just in case you remove something you didn\'t mean to.<br><br>Use this option with care.';
 $helptxt['maintenance_members'] = 'This allows you to <strong>completely</strong> and <strong>irrevocably</strong> remove member accounts from your forum. It is <strong>highly</strong> recommended that you try to make a backup first, just in case you remove something you didn\'t mean to.<br><br>Use this option with care.';
 
