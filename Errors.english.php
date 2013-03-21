@@ -3,7 +3,6 @@
 
 $txt['no_access'] = 'You are not allowed to access this section.';
 
-$txt['mods_only'] = 'Only Moderators can use the direct remove function, please remove this message through the modify feature.';
 $txt['no_name'] = 'You didn\'t fill the name field out. It is required.';
 $txt['no_email'] = 'You didn\'t fill the email field out. It is required.';
 $txt['topic_locked'] = 'This topic is locked, you are not allowed to post or modify messages...';

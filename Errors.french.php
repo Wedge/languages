@@ -3,7 +3,6 @@
 
 $txt['no_access'] = 'Vous n\'êtes pas autorisé à accéder à cette section.';
 
-$txt['mods_only'] = 'Seuls les modérateurs peuvent utiliser la fonction d\'effacement direct, vous pouvez effacer ce message par la fonction Modifier.';
 $txt['no_name'] = 'Vous n\'avez pas rempli le champ IDENTIFIANT. Il est requis.';
 $txt['no_email'] = 'Vous n\'avez pas rempli le champ e-mail. Il est requis.';
 $txt['topic_locked'] = 'Ce sujet est bloqué, vous n\'êtes pas autorisé à poster ou modifier un message ici...';

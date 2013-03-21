@@ -173,10 +173,14 @@ $txt['report_sent'] = 'Votre rapport a été envoyé avec succès.';
 
 $txt['deleted_thought'] = '(Supprimée)';
 
-$txt['error_new_reply'] = 'Attention &#151; une nouvelle réponse a été postée pendant que vous rédigiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.';
-$txt['error_new_replies'] = 'Attention &#151; %1$d nouvelles réponses ont été postées pendant que vous rédigiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.';
-$txt['error_new_reply_reading'] = 'Attention &#151; une nouvelle réponse a été postée pendant que vous lisiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.';
-$txt['error_new_replies_reading'] = 'Attention &#151; %1$d nouvelles réponses ont été postées pendant que vous lisiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.';
+$txt['error_new_reply'] = array(
+	1 => 'Attention &#151; une nouvelle réponse a été postée pendant que vous rédigiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.',
+	'n' => 'Attention &#151; %1$d nouvelles réponses ont été postées pendant que vous rédigiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.',
+);
+$txt['error_new_reply_reading'] = array(
+	1 => 'Attention &#151; une nouvelle réponse a été postée pendant que vous lisiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.',
+	'n' => 'Attention &#151; %1$d nouvelles réponses ont été postées pendant que vous lisiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.',
+);
 
 $txt['announce_this_topic'] = 'Envoyer une annonce à propos de ce sujet aux membres&nbsp;:';
 $txt['announce_title'] = 'Envoyer une annonce';

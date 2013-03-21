@@ -31,8 +31,6 @@ $txt['choose_timezone'] = 'Choisissez votre fuseau horaire';
 $txt['registration_successful'] = 'Inscription réussie';
 $txt['now_a_member'] = 'Vous êtes maintenant un membre du forum.';
 $txt['email_placeholder'] = 'adresse@email.com';
-// Use numeric entities in the below string.
-$txt['your_password'] = 'et votre mot de passe est';
 $txt['valid_email_needed'] = 'Merci d\'entrer une adresse e-mail valide, %1$s.';
 $txt['required_info'] = 'Informations requises';
 $txt['additional_information'] = 'Informations supplémentaires';
@@ -40,9 +38,6 @@ $txt['warning'] = 'Attention&nbsp;!';
 $txt['only_members_can_access'] = 'Seuls les membres inscrits sont autorisés à accéder à cette section.';
 $txt['login_below'] = 'Connectez-vous à %1$s ci-dessous.';
 $txt['login_below_register'] = 'Connectez-vous à %1$s ci-dessous, ou <a href="%1$s">créez un compte</a>.';
-// Use numeric entities in the below two strings.
-$txt['may_change_in_profile'] = 'Vous pouvez le changer apr&#232;s vous &#234;tre connect&#233; en allant sur votre page de profil, ou en visitant cette page apr&#232;s identification&#160;:';
-$txt['your_username_is'] = 'Votre identifiant est';
 
 $txt['login_hash_error'] = 'La sécurité des mots de passe a récemment été accrue. Veuillez entrer de nouveau votre mot de passe.';
 

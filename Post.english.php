@@ -173,10 +173,14 @@ $txt['report_sent'] = 'Your report has been sent successfully.';
 
 $txt['deleted_thought'] = '(Deleted)';
 
-$txt['error_new_reply'] = 'Warning - while you were typing a new reply has been posted. You may wish to review your post.';
-$txt['error_new_replies'] = 'Warning - while you were typing %1$d new replies have been posted. You may wish to review your post.';
-$txt['error_new_reply_reading'] = 'Warning - while you were reading a new reply has been posted. You may wish to review your post.';
-$txt['error_new_replies_reading'] = 'Warning - while you were reading %1$d new replies have been posted. You may wish to review your post.';
+$txt['error_new_reply'] = array(
+	1 => 'Warning - while you were typing a new reply has been posted. You may wish to review your post.',
+	'n' => 'Warning - while you were typing %1$d new replies have been posted. You may wish to review your post.',
+);
+$txt['error_new_reply_reading'] = array(
+	1 => 'Warning - while you were reading a new reply has been posted. You may wish to review your post.',
+	'n' => 'Warning - while you were reading %1$d new replies have been posted. You may wish to review your post.',
+);
 
 $txt['announce_this_topic'] = 'Send an announcement about this topic to the members:';
 $txt['announce_title'] = 'Send an announcement';

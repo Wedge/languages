@@ -122,7 +122,7 @@ $txt['db_populate_table_dups'] = '%1$d tables superflues ignorées.';
 $txt['user_settings'] = 'Créer votre Compte Administrateur';
 $txt['user_settings_info'] = 'L\'installateur créera maintenant un nouveau compte administrateur pour vous.';
 $txt['user_settings_username'] = 'Votre identifiant';
-$txt['user_settings_username_info'] = 'Choisissez le nom d\'utilisateur avec lequel vous désirez vous connecter.<br>L\'identifiant ne pourra être changé plus tard, mais le pseudonyme <span style="font-style: italic">(le nom qui est affiché sur le forum et que vos visiteurs peuvent voir)</span> pourra l\'être.';
+$txt['user_settings_username_info'] = 'Choisissez le nom d\'utilisateur avec lequel vous désirez vous connecter.';
 $txt['user_settings_password'] = 'Mot de passe';
 $txt['user_settings_password_info'] = 'Choisissez votre mot de passe ici, et souvenez-vous-en bien&nbsp;!';
 $txt['user_settings_again'] = 'Mot de passe';
