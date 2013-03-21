@@ -71,7 +71,7 @@ $txt['plugins_add_repo'] = 'Ajouter un dépôt';
 $txt['plugins_repo_auth'] = 'Des identifiants seront transmis à ce dépôt pour s\'y connecter.';
 $txt['plugins_repo_error'] = 'Erreur';
 $txt['plugins_add_upload'] = 'Transférer une Extension à partir de votre Ordinateur';
-$txt['plugins_add_upload_desc'] = 'Vous pouvez utiliser cette fonctionnalité pour transférer une extension au format .zip ou .tar.gz vers votre forum.';
+$txt['plugins_add_upload_desc'] = 'Vous pouvez utiliser cette fonctionnalité pour transférer une extension au format .zip vers votre forum.';
 $txt['plugins_add_upload_file'] = 'Fichier à transférer&nbsp;:';
 $txt['plugins_upload_plugin'] = 'Transmettre';
 

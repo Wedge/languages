@@ -71,7 +71,7 @@ $txt['plugins_add_repo'] = 'Add repository';
 $txt['plugins_repo_auth'] = 'When contacting this repository, login details for it will be supplied.';
 $txt['plugins_repo_error'] = 'Error';
 $txt['plugins_add_upload'] = 'Upload a Plugin from your computer';
-$txt['plugins_add_upload_desc'] = 'You can use this facility to upload a plugin in .zip or .tar.gz format to your forum.';
+$txt['plugins_add_upload_desc'] = 'You can use this facility to upload a plugin in .zip format to your forum.';
 $txt['plugins_add_upload_file'] = 'The plugin file to upload:';
 $txt['plugins_upload_plugin'] = 'Upload Plugin';
 
