@@ -8,6 +8,7 @@
 // Again, SPELLING SHOULD BE '' 99% OF THE TIME!! Please read this!
 $txt['lang_name'] = 'English (UK)';
 $txt['lang_locale'] = 'en_UK';
+$txt['lang_paypal'] = 'GB';
 $txt['lang_dictionary'] = 'en';
 $txt['lang_spelling'] = 'british';
 

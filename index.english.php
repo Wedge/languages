@@ -8,6 +8,7 @@
 // Again, SPELLING SHOULD BE '' 99% OF THE TIME!! Please read this!
 $txt['lang_name'] = 'English (US)';
 $txt['lang_locale'] = 'en_US';
+$txt['lang_paypal'] = 'US';
 $txt['lang_dictionary'] = 'en';
 $txt['lang_spelling'] = 'american';
 
