@@ -70,9 +70,6 @@ $txt['permissions_option_on'] = 'A';
 $txt['permissions_option_off'] = 'R';
 $txt['permissions_option_deny'] = 'I';
 $txt['permissions_option_desc'] = 'Pour chaque groupe, vous pouvez choisir soit \'Autoriser\' (A), \'Refuser\' (R), ou <span style="color: red">\'Interdire\' (I)</span>.<br><br>Rappelez-vous que si vous interdisez une permission, tous les membres - qu\'ils soient modérateurs ou autres - présents dans ce groupe se verront refuser la permission aussi.<br>Pour cette raison, vous devriez interdire avec précaution, et seulement lorsque <strong>nécessaire</strong>. \'Refuser\', de son côté, n\'interdit l\'accès que si rien d\'autre ne vient le contredire.';
-$txt['permissions_change_view'] = 'Changer l\'affichage&nbsp;';
-$txt['permissions_view_simple'] = 'Simple';
-$txt['permissions_view_classic'] = 'Classique';
 
 $txt['permissiongroup_general'] = 'Général';
 $txt['permissionname_view_stats'] = 'Voir les stats du forum';
@@ -92,13 +89,9 @@ $txt['permissionhelp_pm_read'] = 'Cette permission autorise les membres à accé
 $txt['permissionname_pm_send'] = 'Envoyer des messages personnels';
 $txt['permissionhelp_pm_send'] = 'Envoyer des messages personnels à d\'autres membres inscrits. Nécessite la permission \'Lire des messages personnels\'.';
 $txt['permissionname_save_pm_draft'] = 'Sauver des brouillons dans la messagerie';
-$txt['permissionname_simple_save_pm_draft'] = 'Sauver des brouillons dans la messagerie';
 $txt['permissionhelp_save_pm_draft'] = 'Cette permission autorise les utilisateurs à sauvegarder des brouillons de leurs nouveaux messages personnels, avant leur envoi.';
-$txt['permissionhelp_simple_save_pm_draft'] = 'Cette permission autorise les utilisateurs à sauvegarder des brouillons de leurs nouveaux messages personnels, avant leur envoi.';
 $txt['permissionname_auto_save_pm_draft'] = 'Sauver des brouillons de messagerie automatiquement';
-$txt['permissionname_simple_auto_save_pm_draft'] = 'Sauver des brouillons de messagerie automatiquement';
 $txt['permissionhelp_auto_save_pm_draft'] = 'Cette permission, si elle est combinée avec la précédente, permet la sauvegarde automatique, en tâche de fond, des messages personnels en cours d\'écriture, toutes les 30 secondes à peu près (configurable dans le panneau d\'administration).';
-$txt['permissionhelp_simple_auto_save_pm_draft'] = 'Cette permission, si elle est combinée avec la précédente, permet la sauvegarde automatique, en tâche de fond, des messages personnels en cours d\'écriture, toutes les 30 secondes à peu près (configurable dans le panneau d\'administration).';
 
 $txt['permissiongroup_maintenance'] = 'Administration du forum';
 $txt['permissionname_admin_forum'] = 'Administrer le forum et la base de données';
@@ -215,13 +208,9 @@ $txt['permissionname_report_any'] = 'Signaler les messages aux modérateurs';
 $txt['permissionhelp_report_any'] = 'Cette permission ajoute un lien à chaque message, autorisant à rapporter un message suspect à un modérateur. Tous les modérateurs de cette recevront un e-mail avec un lien vers le message rapporté et une description du problème (comme indiqué par l\'utilisateur rapportant).';
 
 $txt['permissionname_save_post_draft'] = 'Sauver des brouillons';
-$txt['permissionname_simple_save_post_draft'] = 'Sauver des brouillons';
 $txt['permissionhelp_save_post_draft'] = 'Cette permission permet à l\'utilisateur de sauver leurs nouveaux messages en tant que brouillons, avant leur publication. Les fichiers joints et sondages ne sont PAS sauvegardés.';
-$txt['permissionhelp_simple_save_post_draft'] = 'Cette permission permet à l\'utilisateur de sauver leurs nouveaux messages en tant que brouillons, avant leur publication. Les fichiers joints et sondages ne sont PAS sauvegardés.';
 $txt['permissionname_auto_save_post_draft'] = 'Sauver automatiquement des brouillons';
-$txt['permissionname_simple_auto_save_post_draft'] = 'Sauver automatiquement des brouillons';
 $txt['permissionhelp_auto_save_post_draft'] = 'Cette permission, si elle est combinée avec la précédente, permet de sauvegarder automatiquement des brouillons des nouveaux messages et sujets, par défaut toutes les 30 secondes environ (configurable dans le panneau d\'administration).';
-$txt['permissionhelp_simple_auto_save_post_draft'] = 'Cette permission, si elle est combinée avec la précédente, permet de sauvegarder automatiquement des brouillons des nouveaux messages et sujets, par défaut toutes les 30 secondes environ (configurable dans le panneau d\'administration).';
 
 $txt['permissiongroup_poll'] = 'Sondages';
 $txt['permissionname_poll_view'] = 'Voir les sondages';
@@ -269,61 +258,6 @@ $txt['permissionhelp_view_attachments'] = 'Les fichiers joints sont des pièces 
 $txt['permissionname_post_attachment'] = 'Poster des fichiers joints';
 $txt['permissionhelp_post_attachment'] = 'Les fichiers joints sont des pièces attachées aux messages postés. Un message peut en contenir plusieurs.';
 
-$txt['permissiongroup_simple_view_basic_info'] = 'Utiliser les fonctionnalités de base du forum';
-$txt['permissiongroup_simple_use_pm_system'] = 'Contacter les membres via la Messagerie Personnelle';
-$txt['permissiongroup_simple_edit_profile'] = 'Personnaliser son profil';
-$txt['permissiongroup_simple_delete_account'] = 'Supprimer son compte';
-$txt['permissiongroup_simple_use_avatar'] = 'Sélectionner ou uploader un avatar';
-$txt['permissiongroup_simple_moderate_general'] = 'Modérer le forum entier';
-$txt['permissiongroup_simple_administrate'] = 'Accomplir des tâches administratives';
-
-$txt['permissionname_simple_profile_view_own'] = 'Voir son propre profil';
-$txt['permissionname_simple_profile_view_any'] = 'Voir les profils de tous les utilisateurs';
-$txt['permissionname_simple_profile_identity_own'] = 'Modifier les paramètres de son compte';
-$txt['permissionname_simple_profile_identity_any'] = 'Modifier les paramètres des comptes de tous les utilisateurs';
-$txt['permissionname_simple_profile_extra_own'] = 'Modifier les options additionnelles de son profil';
-$txt['permissionname_simple_profile_extra_any'] = 'Modifier les options des profils de tous les utilisateurs';
-$txt['permissionname_simple_profile_title_own'] = 'Choisir son propre titre personnalisé';
-$txt['permissionname_simple_profile_title_any'] = 'Modifier les titres personnalisés de tous les utilisateurs';
-$txt['permissionname_simple_profile_remove_own'] = 'Supprimer son propre compte';
-$txt['permissionname_simple_profile_remove_any'] = 'Supprimer les comptes de tous les utilisateurs';
-$txt['permissionname_simple_profile_signature_own'] = 'Modifier sa signature';
-$txt['permissionname_simple_profile_signature_any'] = 'Modifier les signatures de tous les utilisateurs';
-$txt['permissionname_simple_profile_website_own'] = 'Modifier l\'adresse de son site web';
-$txt['permissionname_simple_profile_website_any'] = 'Modifier l\'adresse du site web de tous les utilisateurs';
-
-$txt['permissiongroup_simple_make_unapproved_posts'] = 'Poster des sujets et réponses sur le forum <span style="text-decoration: underline">après</span> approbation par un modérateur';
-$txt['permissiongroup_simple_make_posts'] = 'Poster des sujets et réponses sur le forum';
-$txt['permissiongroup_simple_post_polls'] = 'Publier des sondages';
-$txt['permissiongroup_simple_participate'] = 'Voir les contenus supplémentaires dans les sections';
-$txt['permissiongroup_simple_modify'] = 'Modifier ses propres messages';
-$txt['permissiongroup_simple_notification'] = 'Demander des notifications';
-$txt['permissiongroup_simple_attach'] = 'Poster des fichiers joints';
-$txt['permissiongroup_simple_moderate'] = 'Modérer la section';
-
-$txt['permissionname_simple_post_unapproved_replies_own'] = 'Poster des réponses dans ses propres sujets - après approbation par un modérateur';
-$txt['permissionname_simple_post_unapproved_replies_any'] = 'Poster des réponses sur tout sujet - après approbation par un modérateur';
-$txt['permissionname_simple_post_reply_own'] = 'Poster des réponses sur ses propres sujets';
-$txt['permissionname_simple_post_reply_any'] = 'Poster des réponses sur tout sujet';
-$txt['permissionname_simple_move_own'] = 'Déplacer ses propres sujets';
-$txt['permissionname_simple_move_any'] = 'Déplacer tout sujet';
-$txt['permissionname_simple_lock_own'] = 'Fermer ses propres sujets';
-$txt['permissionname_simple_lock_any'] = 'Fermer tout sujet';
-$txt['permissionname_simple_remove_own'] = 'Supprimer ses propres sujets';
-$txt['permissionname_simple_remove_any'] = 'Supprimer tout sujet';
-$txt['permissionname_simple_delete_own'] = 'Supprimer ses propres messages';
-$txt['permissionname_simple_delete_any'] = 'Supprimer tout message';
-$txt['permissionname_simple_modify_own'] = 'Modifier ses propres messages';
-$txt['permissionname_simple_modify_any'] = 'Modifier tout message';
-$txt['permissionname_simple_poll_add_own'] = 'Ajouter un sondage à ses propres sujets';
-$txt['permissionname_simple_poll_add_any'] = 'Ajouter un sondage à tout sujet';
-$txt['permissionname_simple_poll_edit_own'] = 'Modifier ses propres sondages';
-$txt['permissionname_simple_poll_edit_any'] = 'Modifier tout sondage';
-$txt['permissionname_simple_poll_lock_own'] = 'Fermer ses propres sondages';
-$txt['permissionname_simple_poll_lock_any'] = 'Fermer tout sondage';
-$txt['permissionname_simple_poll_remove_own'] = 'Supprimer ses propres sondages';
-$txt['permissionname_simple_poll_remove_any'] = 'Supprimer tout sondage';
-
 $txt['permissionicon'] = '';
 
 $txt['permission_settings_title'] = 'Paramètres des permissions';
@@ -339,7 +273,6 @@ $txt['auto_approve_replies'] = 'Poster des réponses auto-approuvées aux sujets
 $txt['auto_approve_attachments'] = 'Poster des fichiers joints auto-approuvés';
 
 $txt['permissiongroup_media'] = 'Media';
-$txt['permissiongroup_simple_media'] = 'Media';
 $txt['permissionname_media_access'] = 'Consulter la Galerie';
 $txt['permissionname_media_moderate'] = 'Modérer la Galerie';
 $txt['permissionname_media_manage'] = 'Administrer la Galerie';

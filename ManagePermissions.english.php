@@ -70,9 +70,6 @@ $txt['permissions_option_on'] = 'A';
 $txt['permissions_option_off'] = 'X';
 $txt['permissions_option_deny'] = 'D';
 $txt['permissions_option_desc'] = 'For each permission you can pick either \'Allow\' (A), \'Disallow\' (X), or <span style="color: red">\'Deny\' (D)</span>.<br><br>Remember that if you deny a permission, any member - whether moderator or otherwise - that is in that group will be denied that as well.<br>For this reason, you should use deny carefully, only when <strong>necessary</strong>. Disallow, on the other hand, denies unless otherwise granted.';
-$txt['permissions_change_view'] = 'Change View';
-$txt['permissions_view_simple'] = 'Simple';
-$txt['permissions_view_classic'] = 'Classic';
 
 $txt['permissiongroup_general'] = 'General';
 $txt['permissionname_view_stats'] = 'View forum statistics';
@@ -92,13 +89,9 @@ $txt['permissionhelp_pm_read'] = 'This permission allows users to access the Per
 $txt['permissionname_pm_send'] = 'Send personal messages';
 $txt['permissionhelp_pm_send'] = 'Send personal messages to other registered members. Requires the \'Read personal messages\' permission.';
 $txt['permissionname_save_pm_draft'] = 'Save drafts of new personal messages';
-$txt['permissionname_simple_save_pm_draft'] = 'Save drafts of new personal messages';
 $txt['permissionhelp_save_pm_draft'] = 'This permission allows users to save drafts of new personal messages, before they are sent.';
-$txt['permissionhelp_simple_save_pm_draft'] = 'This permission allows users to save drafts of new posts, before they are sent.';
 $txt['permissionname_auto_save_pm_draft'] = 'Automatically save draft personal messages';
-$txt['permissionname_simple_auto_save_pm_draft'] = 'Automatically save drafts of new personal messages';
 $txt['permissionhelp_auto_save_pm_draft'] = 'This permission, when combined with the above permission, enables automatic saving of message drafts - by default approximately once every 30 seconds, though this is configurable from the Topic Settings area in the Administration Panel.';
-$txt['permissionhelp_simple_auto_save_pm_draft'] = 'This permission, when combined with the above permission, enables automatic saving of message drafts approximately once every 30 seconds, though this is configurable from the Topic Settings area in the Administration Panel.';
 
 $txt['permissiongroup_maintenance'] = 'Forum administration';
 $txt['permissionname_admin_forum'] = 'Administrate forum and database';
@@ -215,13 +208,9 @@ $txt['permissionname_report_any'] = 'Report posts to the moderators';
 $txt['permissionhelp_report_any'] = 'This permission adds a link to each message, allowing a user to report a post to a moderator. On reporting, all moderators on that board will receive an email with a link to the reported post and a description of the problem (as given by the reporting user).';
 
 $txt['permissionname_save_post_draft'] = 'Save drafts of new posts';
-$txt['permissionname_simple_save_post_draft'] = 'Save drafts of new posts';
 $txt['permissionhelp_save_post_draft'] = 'This permission allows users to save drafts of new posts, before they are posted. Attachments and polls are NOT saved.';
-$txt['permissionhelp_simple_save_post_draft'] = 'This permission allows users to save drafts of new posts, before they are posted. Attachments and polls are NOT saved.';
 $txt['permissionname_auto_save_post_draft'] = 'Automatically save draft posts';
-$txt['permissionname_simple_auto_save_post_draft'] = 'Automatically save drafts of new posts';
 $txt['permissionhelp_auto_save_post_draft'] = 'This permission, when combined with the above permission, enables automatic saving of post drafts - by default approximately once every 30 seconds, though this is configurable from the Topic Settings area in the Administration Panel - both for new topics and replies.';
-$txt['permissionhelp_simple_auto_save_post_draft'] = 'This permission, when combined with the above permission, enables automatic saving of post drafts - by default approximately once every 30 seconds, though this is configurable from the Topic Settings area in the Administration Panel - both for new topics and replies.';
 
 $txt['permissiongroup_poll'] = 'Polls';
 $txt['permissionname_poll_view'] = 'View polls';
@@ -269,61 +258,6 @@ $txt['permissionhelp_view_attachments'] = 'Attachments are files that are attach
 $txt['permissionname_post_attachment'] = 'Post attachments';
 $txt['permissionhelp_post_attachment'] = 'Attachments are files that are attached to posted messages. One message can contain multiple attachments.';
 
-$txt['permissiongroup_simple_view_basic_info'] = 'Use basic forum functionality';
-$txt['permissiongroup_simple_use_pm_system'] = 'Contact members using the personal messaging system';
-$txt['permissiongroup_simple_edit_profile'] = 'Personalize their profile';
-$txt['permissiongroup_simple_delete_account'] = 'Delete their account';
-$txt['permissiongroup_simple_use_avatar'] = 'Select or upload an avatar';
-$txt['permissiongroup_simple_moderate_general'] = 'Moderate the entire forum';
-$txt['permissiongroup_simple_administrate'] = 'Carry out administrative duties';
-
-$txt['permissionname_simple_profile_view_own'] = 'View their own profile';
-$txt['permissionname_simple_profile_view_any'] = 'View anyone\'s profile';
-$txt['permissionname_simple_profile_identity_own'] = 'Edit their account settings';
-$txt['permissionname_simple_profile_identity_any'] = 'Edit anyone\'s account settings';
-$txt['permissionname_simple_profile_extra_own'] = 'Edit their additional profile options';
-$txt['permissionname_simple_profile_extra_any'] = 'Edit anyone\'s profile options';
-$txt['permissionname_simple_profile_title_own'] = 'Choose a custom title for themselves';
-$txt['permissionname_simple_profile_title_any'] = 'Edit anyone\'s custom title';
-$txt['permissionname_simple_profile_remove_own'] = 'Delete their own account';
-$txt['permissionname_simple_profile_remove_any'] = 'Delete anyone\'s account';
-$txt['permissionname_simple_profile_signature_own'] = 'Edit their signature';
-$txt['permissionname_simple_profile_signature_any'] = 'Edit anyone\'s signature';
-$txt['permissionname_simple_profile_website_own'] = 'Edit their website details';
-$txt['permissionname_simple_profile_website_any'] = 'Edit anyone\'s website details';
-
-$txt['permissiongroup_simple_make_unapproved_posts'] = 'Post topics and replies to the board <span style="text-decoration: underline">only</span> after they have been approved';
-$txt['permissiongroup_simple_make_posts'] = 'Post topics and replies to the board';
-$txt['permissiongroup_simple_post_polls'] = 'Make new polls';
-$txt['permissiongroup_simple_participate'] = 'View additional board content';
-$txt['permissiongroup_simple_modify'] = 'Modify their posts';
-$txt['permissiongroup_simple_notification'] = 'Request notifications';
-$txt['permissiongroup_simple_attach'] = 'Post attachments';
-$txt['permissiongroup_simple_moderate'] = 'Moderate the board';
-
-$txt['permissionname_simple_post_unapproved_replies_own'] = 'Post replies to their own topic - but require approval';
-$txt['permissionname_simple_post_unapproved_replies_any'] = 'Post replies to any topic - but require approval';
-$txt['permissionname_simple_post_reply_own'] = 'Post replies to a topic they started';
-$txt['permissionname_simple_post_reply_any'] = 'Post replies to any topic';
-$txt['permissionname_simple_move_own'] = 'Move their own topics';
-$txt['permissionname_simple_move_any'] = 'Move any topic';
-$txt['permissionname_simple_lock_own'] = 'Lock their own topic';
-$txt['permissionname_simple_lock_any'] = 'Lock any topic';
-$txt['permissionname_simple_remove_own'] = 'Remove their own topic';
-$txt['permissionname_simple_remove_any'] = 'Remove any topic';
-$txt['permissionname_simple_delete_own'] = 'Delete a post that they made';
-$txt['permissionname_simple_delete_any'] = 'Delete any post';
-$txt['permissionname_simple_modify_own'] = 'Modify their own post';
-$txt['permissionname_simple_modify_any'] = 'Modify anyone\'s post';
-$txt['permissionname_simple_poll_add_own'] = 'Add a poll to a topic they created';
-$txt['permissionname_simple_poll_add_any'] = 'Add a poll to any topic';
-$txt['permissionname_simple_poll_edit_own'] = 'Edit a poll they created';
-$txt['permissionname_simple_poll_edit_any'] = 'Edit any poll';
-$txt['permissionname_simple_poll_lock_own'] = 'Lock their own poll';
-$txt['permissionname_simple_poll_lock_any'] = 'Lock any poll';
-$txt['permissionname_simple_poll_remove_own'] = 'Remove a poll they created';
-$txt['permissionname_simple_poll_remove_any'] = 'Remove any poll';
-
 $txt['permissionicon'] = '';
 
 $txt['permission_settings_title'] = 'Permission Settings';
@@ -338,7 +272,6 @@ $txt['auto_approve_topics'] = 'Post new topics, without requiring approval';
 $txt['auto_approve_replies'] = 'Post replies to topics, without requiring approval';
 
 $txt['permissiongroup_media'] = 'Media';
-$txt['permissiongroup_simple_media'] = 'Media';
 $txt['permissionname_media_access'] = 'Access Gallery';
 $txt['permissionname_media_moderate'] = 'Moderate Gallery';
 $txt['permissionname_media_manage'] = 'Administrate Gallery';
