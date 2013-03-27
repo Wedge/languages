@@ -72,6 +72,9 @@ $txt['modlog_ac_remind_member'] = 'Sent out a reminder to &quot;{member}&quot; t
 $txt['modlog_ac_approve_member'] = 'Approved/Activated the account of &quot;{member}&quot;';
 $txt['modlog_ac_newsletter'] = 'Sent Newsletter';
 
+$txt['modlog_ac_enable_plugin'] = 'Enabled plugin: &quot;{plugin}&quot;, version {version}';
+$txt['modlog_ac_disable_plugin'] = 'Disabled plugin: &quot;{plugin}&quot;, version {version}';
+
 // Restore topic.
 $txt['modlog_ac_restore_topic'] = 'Restored topic &quot;{topic}&quot; from &quot;{board}&quot; to &quot;{board_to}&quot;';
 $txt['modlog_ac_restore_posts'] = 'Restored posts from &quot;{subject}&quot; to the topic &quot;{topic}&quot; in the &quot;{board}&quot; board.';
