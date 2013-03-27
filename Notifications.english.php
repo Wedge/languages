@@ -33,3 +33,8 @@ $txt['scheduled_task_desc_notification_periodical'] = 'Sends all the periodical 
 $txt['notification_email_periodical_subject'] = '%s, you have %d unread notification(s)!';
 $txt['notification_email_periodical_body'] = 'It looks like you have gathered a bunch of unread notifications over the past few days, here is the gist of them. Head over to the forums to check them out!';
 $txt['view_all'] = 'view all';
+
+$txt['welikes_title'] = 'Member Likes';
+$txt['welikes_desc'] = 'Notify you when one of your posts has been liked.';
+$txt['welikes_subject'] = 'Your post has been liked!';
+$txt['welikes_notification'] = '%s liked your post "%s"';
