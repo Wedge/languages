@@ -33,3 +33,8 @@ $txt['scheduled_task_desc_notification_periodical'] = 'Envoyer tous les e-mails 
 $txt['notification_email_periodical_subject'] = '%s, vous avez %d notification(s) non lues !';
 $txt['notification_email_periodical_body'] = 'Il semble que vous ayez reçu des notifications ces derniers jours, en voici une liste. Passez sur le forum pour les consulter !';
 $txt['view_all'] = 'tout voir';
+
+$txt['welikes_title'] = 'J\'aime';
+$txt['welikes_desc'] = 'Me notifier quand quelqu\'un a cliqué J\'aime sur une de mes contributions.';
+$txt['welikes_subject'] = 'Votre message a été aimé&nbsp;!';
+$txt['welikes_notification'] = '%s a aimé votre message, "%s"';
