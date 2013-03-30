@@ -34,7 +34,6 @@ $txt['whoall_login2'] = 'Logging into the forum.';
 $txt['whoall_logout'] = 'Logging out of the forum.';
 $txt['whoall_markasread'] = 'Marking topics read or unread.';
 $txt['whoall_news'] = 'Viewing the news.';
-$txt['whoall_notification'] = 'Viewing their notifications.';
 $txt['whoall_notify'] = 'Changing their notification settings.';
 $txt['whoall_notifyboard'] = 'Changing their notification settings.';
 $txt['whoall_quickmod'] = 'Moderating a board.';
