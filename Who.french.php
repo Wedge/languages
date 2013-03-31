@@ -21,6 +21,7 @@ $txt['whospider_register'] = 'Consulte la page d\'inscription.';
 $txt['whospider_reminder'] = 'Consulte la page de rappel du mot de passe.';
 
 $txt['whoall_activate'] = 'Active son compte.';
+$txt['whoall_boards'] = 'Consulte la liste des sections de <a href="<URL>">{forum_name}</a>.';
 $txt['whoall_buddy'] = 'Modifie sa liste de contacts.';
 $txt['whoall_coppa'] = 'Remplit le formulaire d\'accord parental.';
 $txt['whoall_credits'] = 'Consulte la page des crédits.';
@@ -41,6 +42,8 @@ $txt['whoall_register'] = 'S\'inscrit sur le forum.';
 $txt['whoall_register2'] = 'S\'inscrit sur le forum.';
 $txt['whoall_reminder'] = 'Demande un rappel de mot de passe.';
 $txt['whoall_report'] = 'Signale un sujet à un modérateur.';
+$txt['whoall_skin'] = 'Change de style.';
+$txt['whoall_thoughts'] = 'Se plonge dans les pensées.';
 $txt['whoall_unread'] = 'Consulte la liste des discussions non lues depuis sa dernière visite.';
 $txt['whoall_unreadreplies'] = 'Consulte la liste des réponses non lues depuis sa dernière visite.';
 $txt['whoall_who'] = 'Regarde <a href="<URL>?action=who">Qui est en ligne</a>.';

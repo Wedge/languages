@@ -174,12 +174,12 @@ $txt['report_sent'] = 'Votre rapport a été envoyé avec succès.';
 $txt['deleted_thought'] = '(Supprimée)';
 
 $txt['error_new_reply'] = array(
-	1 => 'Attention &#151; une nouvelle réponse a été postée pendant que vous rédigiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.',
-	'n' => 'Attention &#151; %1$d nouvelles réponses ont été postées pendant que vous rédigiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.',
+	1 => 'Attention, une nouvelle réponse a été postée pendant que vous rédigiez votre message. Vous devriez peut-être la lire avant de l\'envoyer, pour éviter toute redondance.',
+	'n' => 'Attention, %1$d nouvelles réponses ont été postées pendant que vous rédigiez votre message. Vous devriez peut-être les lire avant de l\'envoyer, pour éviter toute redondance.',
 );
 $txt['error_new_reply_reading'] = array(
-	1 => 'Attention &#151; une nouvelle réponse a été postée pendant que vous lisiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.',
-	'n' => 'Attention &#151; %1$d nouvelles réponses ont été postées pendant que vous lisiez votre message. Vous devriez peut-être relire votre message avant de l\'envoyer, pour éviter toute redondance.',
+	1 => 'Attention, une nouvelle réponse a été postée entretemps. Vous devriez peut-être la lire avant d\'écrire votre message, pour éviter toute redondance.',
+	'n' => 'Attention, %1$d nouvelles réponses ont été postées entretemps. Vous devriez peut-être les lire avant d\'écrire votre message, pour éviter toute redondance.',
 );
 
 $txt['announce_this_topic'] = 'Envoyer une annonce à propos de ce sujet aux membres&nbsp;:';
