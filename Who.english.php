@@ -131,7 +131,6 @@ $txt['media_wo_reporting'] = 'Reporting &quot;<a href="<URL>?action=media;sa=ite
 $txt['media_wo_stats'] = 'Viewing gallery\'s statistics';
 $txt['media_wo_vua'] = 'Viewing an album\'s control panel in the gallery';
 $txt['media_wo_ua'] = 'Viewing an album\'s index in the gallery';
-$txt['media_wo_feed'] = 'Viewing a gallery feed';
 $txt['media_wo_unknown'] = 'Doing some unknown action in the gallery';
 $txt['media_wo_hidden'] = 'Somewhere in the gallery, in a place you can\'t see... Scary huh?';
 
