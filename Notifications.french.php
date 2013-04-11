@@ -12,7 +12,12 @@
  */
 
 $txt['notifications'] = 'Notifications';
+$txt['notifications_short_unread'] = 'Non lues';
+$txt['notifications_short_latest'] = 'Récentes';
+$txt['notifications_short_all'] = 'Tout voir';
 $txt['notification_unread_title'] = 'Notifications non lues';
+$txt['notification_unread_none'] = 'Pas de notifications non lues.';
+$txt['notification_none'] = 'Pas de notifications.';
 $txt['notification_disable'] = 'Désactiver les notifications&nbsp;?';
 $txt['notification_profile_desc'] = 'Vous pouvez désactiver les notifications de sources spécifiques ici. La désactivation ne s\'applique pas aux notifications souscrites actuellement.';
 $txt['scheduled_task_notification_prune'] = 'Nettoyer les notifications lues';
@@ -32,7 +37,6 @@ $txt['scheduled_task_notification_periodical'] = 'Envoyer les e-mails de notific
 $txt['scheduled_task_desc_notification_periodical'] = 'Envoyer tous les e-mails de notification aux membres ayant des notifications non lues';
 $txt['notification_email_periodical_subject'] = '%s, vous avez %d notification(s) non lues !';
 $txt['notification_email_periodical_body'] = 'Il semble que vous ayez reçu des notifications ces derniers jours, en voici une liste. Passez sur le forum pour les consulter !';
-$txt['view_all'] = 'tout voir';
 
 $txt['welikes_title'] = 'J\'aime';
 $txt['welikes_desc'] = 'Me notifier quand quelqu\'un a cliqué J\'aime sur une de mes contributions.';

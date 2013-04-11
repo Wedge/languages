@@ -12,7 +12,12 @@
  */
 
 $txt['notifications'] = 'Notifications';
+$txt['notifications_short_unread'] = 'Unread';
+$txt['notifications_short_latest'] = 'Latest';
+$txt['notifications_short_all'] = 'View all';
 $txt['notification_unread_title'] = 'Unread Notifications';
+$txt['notification_unread_none'] = 'No unread notifications.';
+$txt['notification_none'] = 'No notifications.';
 $txt['notification_disable'] = 'Disable notifications?';
 $txt['notification_profile_desc'] = 'You can disable notifications from specific notifiers here, please note that disabling notifications will only prevent new notifications but will keep the existing ones';
 $txt['scheduled_task_notification_prune'] = 'Prune read notifications';
