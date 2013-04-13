@@ -75,7 +75,7 @@ $txt['ban_type_email_content'] = 'Address(es) to ban';
 $txt['ban_email_gmail_style'] = 'GMail style domain?';
 
 $txt['ban_use_htaccess'] = 'If possible, you should use the Allow/Deny rules in your server (e.g. in Apache .htaccess files or from your host\'s control panel) than use bans for this, because it will be more efficient to block them before they get to Wedge, rather than after.';
-$txt['ban_type_ip_address'] = 'What type of IP address do you want to ban?';
+$txt['ban_type_ip_address_type'] = 'What type of IP address do you want to ban?';
 $txt['ban_type_ip_range'] = 'Banning a range of IP addresses?';
 $txt['ban_type_range_start'] = 'Start:';
 $txt['ban_type_range_end'] = 'End:';

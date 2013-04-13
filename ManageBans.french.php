@@ -75,7 +75,7 @@ $txt['ban_type_email_content'] = 'Adresse(s) à bannir';
 $txt['ban_email_gmail_style'] = 'Domaine de type Gmail&nbsp;?';
 
 $txt['ban_use_htaccess'] = 'Si possible, utilisez plutôt les règles Allow/Deny de votre serveur (par exemple dans un fichier .htaccess, httpd.conf ou via le panneau de contrôle de votre hébergeur). Il est plus rapide et efficace pour le serveur de traiter directement ces blocages plutôt que de passer par Wedge.';
-$txt['ban_type_ip_address'] = 'Quel type d\'adresse IP bannir&nbsp;?';
+$txt['ban_type_ip_address_type'] = 'Quel type d\'adresse IP bannir&nbsp;?';
 $txt['ban_type_ip_range'] = 'Bannir une plage d\'adresses IP&nbsp;?';
 $txt['ban_type_range_start'] = 'Début';
 $txt['ban_type_range_end'] = 'Fin';
