@@ -15,6 +15,7 @@ $txt['notifications'] = 'Notifications';
 $txt['notifications_short_unread'] = 'Non lues';
 $txt['notifications_short_latest'] = 'Récentes';
 $txt['notifications_short_all'] = 'Tout voir';
+$txt['notifications_short_settings'] = 'Paramètres';
 $txt['notification_unread_title'] = 'Notifications non lues';
 $txt['notification_unread_none'] = 'Pas de notifications non lues.';
 $txt['notification_none'] = 'Pas de notifications.';
