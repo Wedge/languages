@@ -239,12 +239,6 @@ $txt['permissionname_poll_remove_any'] = 'Tous les sondages';
 $txt['permissiongroup_approval'] = 'Modération des messages';
 $txt['permissionname_approve_posts'] = 'Approuver les éléments en attente de modération';
 $txt['permissionhelp_approve_posts'] = 'Cette permission permet à un utilisateur d\'approuver tous les éléments non approuvés sur une section.';
-$txt['permissionname_post_unapproved_replies'] = 'Poster des réponses à faire approuver';
-$txt['permissionhelp_post_unapproved_replies'] = 'Cette permission permet à un utilisateur de poster des réponses sur un sujet, mais qui ne seront pas affichées avant l\'approbation d\'un modérateur si la prémodération est activée.';
-$txt['permissionname_post_unapproved_replies_own'] = 'Sujets personnels';
-$txt['permissionname_post_unapproved_replies_any'] = 'Tous les sujets';
-$txt['permissionname_post_unapproved_topics'] = 'Poster des sujets à faire approuver';
-$txt['permissionhelp_post_unapproved_topics'] = 'Cette permission permet à un utilisateur de poster de nouveaux sujets, mais qui ne seront pas affichés avant l\'approbation d\'un modérateur si la prémodération est activée.';
 
 $txt['permissiongroup_notification'] = 'Notifications';
 $txt['permissionname_mark_any_notify'] = 'Notification des réponses';

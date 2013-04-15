@@ -239,12 +239,6 @@ $txt['permissionname_poll_remove_any'] = 'Any poll';
 $txt['permissiongroup_approval'] = 'Post Moderation';
 $txt['permissionname_approve_posts'] = 'Approve items awaiting moderation';
 $txt['permissionhelp_approve_posts'] = 'This permission allows a user to approve all unapproved items on a board.';
-$txt['permissionname_post_unapproved_replies'] = 'Post replies to topics, but hide until approved';
-$txt['permissionhelp_post_unapproved_replies'] = 'This permission allows a user to post replies to a topic. The replies will not be shown until approved by a moderator.';
-$txt['permissionname_post_unapproved_replies_own'] = 'Own topic';
-$txt['permissionname_post_unapproved_replies_any'] = 'Any topic';
-$txt['permissionname_post_unapproved_topics'] = 'Post new topics, but hide until approved';
-$txt['permissionhelp_post_unapproved_topics'] = 'This permission allows a user to post a new topic which will require approval before being shown.';
 
 $txt['permissiongroup_notification'] = 'Notifications';
 $txt['permissionname_mark_any_notify'] = 'Request notification on replies';
