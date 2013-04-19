@@ -10,6 +10,7 @@ $txt['lang_name'] = 'English (UK)';
 $txt['lang_locale'] = 'en_GB';
 $txt['lang_paypal'] = 'GB';
 $txt['lang_dictionary'] = 'en';
+$txt['lang_hreflang'] = 'en-gb';
 $txt['lang_spelling'] = 'british';
 
 // Character set and right to left?
