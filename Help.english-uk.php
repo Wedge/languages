@@ -74,7 +74,7 @@ $helptxt['emailmembers'] = 'In this message you can use a few "variables". These
 	{$latest_member.id} - The most recently registered member\'s id.<br>
 	{$latest_member.name} - The most recently registered member\'s name.';
 
-$helptxt['show_group_key'] = 'In the Who\'s Online area of the Info Centre, online users are shown and their name is shown in the color of their group, as set in the group\'s own configuration. It can be useful to include a list of groups with their colors next to the list of names, to guide users as to whether more senior users are online - and this option enables that list. The order that names will be displayed in is the same as the order of badges as configured lower on this screen.';
+$helptxt['show_group_key'] = 'In the Who\'s Online area of the Info Centre, online users are shown and their name is shown in the colour of their group, as set in the group\'s own configuration. It can be useful to include a list of groups with their colours next to the list of names, to guide users as to whether more senior users are online - and this option enables that list. The order that names will be displayed in is the same as the order of badges as configured lower on this screen.';
 
 $helptxt['reverse_proxy'] = 'If you are using Bad Behaviour behind a reverse proxy, load balancer, HTTP accelerator, content cache or similar technology, enable this option.';
 

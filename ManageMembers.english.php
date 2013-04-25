@@ -55,6 +55,12 @@ $txt['membergroups_group_type_post'] = 'Post Based <span class="smalltext">(Memb
 $txt['membergroups_min_posts'] = 'Required posts';
 $txt['membergroups_online_color'] = 'Color for profile links';
 $txt['membergroups_online_color_desc'] = 'e.g. #ffcc99';
+$txt['membergroups_additional_formatting'] = 'Additional formatting for profile links';
+$txt['membergroups_add_format_bold'] = 'Bold';
+$txt['membergroups_add_format_italic'] = 'Italic';
+$txt['membergroups_add_format_underline'] = 'Underline';
+$txt['membergroups_add_format_strike'] = 'Strikethrough';
+$txt['membergroups_add_format_free'] = 'Free format';
 $txt['membergroups_star_count'] = 'Number of rank images';
 $txt['membergroups_star_count_note'] = 'Or set to 1 to use a badge instead of stars, for instance.';
 $txt['membergroups_star_image'] = 'Rank image filename';
@@ -102,6 +108,9 @@ $txt['membergroup_show_when_desc_always'] = 'If a user is in this group, show th
 $txt['membergroup_show_when_desc_primary'] = 'Only show this badge if this group is the user\'s primary group.';
 $txt['membergroup_show_when_desc_cond'] = 'Only show this badge if the user is in this group and they have no other badges to show.';
 $txt['show_group_key'] = 'Show the group legend on the Info Center';
+$txt['ban_group'] = 'Add banned users to a group';
+$txt['ban_group_subtext'] = 'This only applies to hard-banned users, and only for display purposes.';
+$txt['ban_group_none'] = 'Do not add banned users to any group';
 
 $txt['membergroups_select_permission_type'] = 'Select permission profile';
 $txt['membergroups_images_url'] = '{theme URL}/images/';

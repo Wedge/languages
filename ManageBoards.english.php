@@ -104,6 +104,9 @@ $txt['display_flags'] = 'Display flags on the board index?';
 $txt['flags_none'] = 'No flags';
 $txt['flags_specified'] = 'Flags for boards that have a language set';
 $txt['flags_all'] = 'Flags for all boards';
+$txt['modcenter_category'] = 'Position of the Moderation category';
+$txt['modcenter_category_first'] = 'As the first category';
+$txt['modcenter_category_after'] = 'After the "%1$s" category';
 
 $txt['mboards_select_destination'] = 'Select destination for board \'<strong>%1$s</strong>\'';
 $txt['mboards_cancel_moving'] = 'Cancel moving';
