@@ -55,6 +55,12 @@ $txt['membergroups_group_type_post'] = 'Basé sur les messages <span class="smal
 $txt['membergroups_min_posts'] = 'Nombre de messages requis';
 $txt['membergroups_online_color'] = 'Couleur des liens vers les profils';
 $txt['membergroups_online_color_desc'] = 'Par exemple #ffcc99';
+$txt['membergroups_additional_formatting'] = 'Mise en forme supplémentaire pour les liens de profil';
+$txt['membergroups_add_format_bold'] = 'Gras';
+$txt['membergroups_add_format_italic'] = 'Italiques';
+$txt['membergroups_add_format_underline'] = 'Souligné';
+$txt['membergroups_add_format_strike'] = 'Surligné';
+$txt['membergroups_add_format_free'] = 'Libre';
 $txt['membergroups_star_count'] = 'Nombre d\'images de grade';
 $txt['membergroups_star_count_note'] = 'Ou mettez à 1 pour créer facilement un badge, par exemple.';
 $txt['membergroups_star_image'] = 'Nom du fichier image';
@@ -102,6 +108,9 @@ $txt['membergroup_show_when_desc_always'] = 'Montrer ce badge si un membre appar
 $txt['membergroup_show_when_desc_primary'] = 'Ne montrer ce badge que si ce groupe est le groupe principal du membre.';
 $txt['membergroup_show_when_desc_cond'] = 'Ne montrer ce badge que si le membre appartient à ce groupe et qu\'il n\'a pas d\'autres badges à montrer.';
 $txt['show_group_key'] = 'Montrer la légende des groupes dans le centre d\'informations';
+$txt['ban_group'] = 'Ajouter les bannis à un groupe';
+$txt['ban_group_subtext'] = 'Ne s\'applique qu\'aux bannis "durs", et seulement pour des questions d\'affichage.';
+$txt['ban_group_none'] = 'Ne pas les ajouter à un groupe';
 
 $txt['membergroups_select_permission_type'] = 'Sélectionner un profil de permissions';
 $txt['membergroups_images_url'] = '{URL du thème}/images/';

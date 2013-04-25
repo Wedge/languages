@@ -104,6 +104,9 @@ $txt['display_flags'] = 'Montrer les drapeaux sur la page d\'accueil&nbsp;?';
 $txt['flags_none'] = 'Non';
 $txt['flags_specified'] = 'Uniquement pour les sections qui ont une langue par défaut';
 $txt['flags_all'] = 'Oui, pour toutes les sections';
+$txt['modcenter_category'] = 'Position de la catégorie de modération';
+$txt['modcenter_category_first'] = 'Première de la liste';
+$txt['modcenter_category_after'] = 'Après la catégorie "%1$s"';
 
 $txt['mboards_select_destination'] = 'Sélectionner la destination pour la section \'<strong>%1$s</strong>\'';
 $txt['mboards_cancel_moving'] = 'Annuler le déplacement';
