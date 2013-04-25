@@ -603,10 +603,8 @@ $txt['spoiler'] = 'Spoiler';
 $txt['click_for_spoiler'] = '(click to show/hide)';
 
 $txt['readmore'] = '(%1$d more chars)';
-$txt['thought'] = 'Thought';
 $txt['thoughts'] = 'Thoughts';
-$txt['no_thought_yet'] = '<em>(Click here to set your first thought)</em>';
-$txt['add_thought'] = 'New thought';
+$txt['add_thought'] = '(Click here to send a thought)';
 $txt['thome_edit'] = 'Edit';
 $txt['thome_remove'] = 'Delete';
 $txt['thome_reply'] = 'Reply';
