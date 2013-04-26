@@ -19,7 +19,7 @@ $txt['spamWaitTime'] = 'Temps d\'attente requis entre deux envois en provenance 
 $txt['edit_wait_time'] = 'Période de révision';
 $txt['edit_disable_time'] = 'Temps maximum après l\'envoi pour modifier un message';
 $txt['edit_disable_time_zero'] = '0 pour désactiver';
-$txt['allow_non_mod_edit'] = 'Allow non-moderators to edit moderator edits?'; // !!!
+$txt['allow_non_mod_edit'] = 'Permettre aux non-modérateurs de modifier des modifications de modérateurs&nbsp;?';
 
 // Topic Settings
 $txt['enableParticipation'] = 'Activer l\'icône de participation';
