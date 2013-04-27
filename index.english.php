@@ -181,6 +181,37 @@ $txt['last_post_author_link_time'] = '<strong>Last post</strong> by {author}<br>
 $txt['last_post_time_author'] = '{time}<br>by {author}';
 $txt['board_off_limits'] = 'This board is off-limits to you.';
 
+// And now for the moderation 'boards'
+$txt['moderation_cat'] = 'Moderation';
+$txt['reported_posts'] = 'Reported Posts';
+$txt['reported_board_desc'] = '<strong>Reported</strong> by {author}<br>in {link}<br>{time}';
+$txt['reported_open'] = array(
+	1 => '1 open report',
+	'n' => '%1$s open reports',
+);
+$txt['reported_closed'] = array(
+	1 => '1 closed report',
+	'n' => '%1$s closed reports',
+);
+$txt['group_requests'] = 'Group Requests';
+$txt['group_request_desc'] = 'Joining <strong>{groupname}</strong><br>by {author}<br>{time}';
+$txt['group_req_open'] = array(
+	1 => '1 open request',
+	'n' => '%1$s open requests',
+);
+$txt['group_req_closed'] = array(
+	1 => '1 closed request',
+	'n' => '%1$s closed requests',
+);
+$txt['logs_board'] = 'Logs';
+$txt['logs_moderation'] = 'Moderation Log';
+$txt['logs_infractions'] = 'Infraction Log';
+$txt['error_log_count'] = array(
+	0 => 'No errors',
+	1 => '1 error',
+	'n' => '%1$s errors',
+);
+
 $txt['last_post'] = 'Last post';
 // Use numeric entities in the below string.
 $txt['topic'] = 'Topic';

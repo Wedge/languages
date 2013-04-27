@@ -379,9 +379,9 @@ $txt['your_aim'] = 'This is your AOL Instant Messenger nickname.';
 $txt['your_yim'] = 'This is your Yahoo! Instant Messenger nickname.';
 // In this string, please use +'s for spaces.
 $txt['aim_default_message'] = 'Hello!+Are+you+there?';
-$txt['msn_email_address'] = 'Your Live Messenger email address';
 $txt['your_twitter'] = 'This is your Twitter username, without the @ at the front';
 $txt['your_facebook'] = 'This is your Facebook account number, or vanity name (e.g. "wedgebook" in "facebook.com/wedgebook")';
+$txt['your_skype'] = 'This is your Skype username';
 $txt['your_steam'] = 'This is your id from the Steam Community';
 $txt['custom_edit_tplgrp_social'] = 'Social Networking';
 $txt['custom_edit_tplgrp_im'] = 'Instant Messaging';

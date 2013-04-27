@@ -94,5 +94,8 @@ $txt['behav_not_yahoobot_log'] = 'User-agent identified itself as Yahoo, cannot 
 $txt['behav_not_googlebot_desc'] = 'Your request was invalid; it claimed that you are associated with a major search engine but this claim could not be verified.';
 $txt['behav_not_googlebot_log'] = 'User-agent identified itself as Google, cannot substantiate claim.';
 
+$txt['behav_not_baidu_desc'] = 'Your request was invalid; it claimed that you are associated with a major search engine but this claim could not be verified.';
+$txt['behav_not_baidu_log'] = 'User-agent identified itself as Baidu, cannot substantiate claim.';
+
 $txt['behav_offsite_form_desc'] = 'Data was submitted to this site from outside the site; this is not permitted.';
 $txt['behav_offsite_form_log'] = 'Form appeared to be sent from outside the site.';
