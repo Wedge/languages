@@ -5,7 +5,7 @@ $txt['package_proceed'] = 'Procéder';
 $txt['php_script'] = 'Le fichier d\'extension a été extrait, mais il est accompagné d\'un script PHP qui devrait être exécuté pour que tout fonctionne';
 $txt['package_run'] = 'Exécuter';
 $txt['package_read'] = 'Lire';
-$txt['script_output'] = 'Sortie du script&nbsp;:';
+$txt['script_output'] = 'Sortie du script&#8239;:';
 $txt['additional_notes'] = 'Notes additionnelles';
 $txt['notes_file'] = 'Fichier d\'instructions/notes additionnelles';
 $txt['package_get'] = 'Récupérer des extensions';
@@ -56,12 +56,12 @@ $txt['package_no_zlib'] = 'Désolé, votre configuration de PHP n\'inclut pas le
 
 $txt['package_download_by_url'] = 'Télécharger une extension par son URL';
 $txt['package_download_filename'] = 'Nom du fichier';
-$txt['package_download_filename_info'] = 'Valeur facultative. Doit être utilisé lorsque l\'URL ne se finit pas par le nom du fichier. Par exemple&nbsp;: index.php?mod=5';
+$txt['package_download_filename_info'] = 'Valeur facultative. Doit être utilisé lorsque l\'URL ne se finit pas par le nom du fichier. Par exemple&#8239;: index.php?mod=5';
 
 $txt['package_file_perms_desc'] = 'Vous pouvez utiliser cette section pour vérifier si les dossiers et fichiers critiques de votre forum sont inscriptibles. Notez que seuls sont pris en compte les répertoires et fichiers-clé du forum - utilisez un client FTP pour plus d\'options.';
 
 $txt['chmod_value_invalid'] = 'Vous avez essayé d\'entrer une valeur de chmod invalide. Le chmod doit être entre les valeurs 0444 et 0777';
 
-$txt['package_confirm_view_package_content'] = 'Êtes-vous sûr de vouloir visionner le contenu de l\'extension située à cet endroit&nbsp;?<br><br>%1$s';
+$txt['package_confirm_view_package_content'] = 'Êtes-vous sûr de vouloir visionner le contenu de l\'extension située à cet endroit&#8239;?<br><br>%1$s';
 $txt['package_confirm_proceed'] = 'Oui';
 $txt['package_confirm_go_back'] = 'Retour';

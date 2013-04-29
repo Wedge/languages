@@ -6,9 +6,9 @@ $txt['permissions_modify'] = 'Modifier';
 $txt['permissions_view'] = 'Voir';
 $txt['permissions_allowed'] = 'Autorisées';
 $txt['permissions_denied'] = 'Refusées';
-$txt['permission_cannot_edit'] = '<strong>Note</strong>&nbsp;: vous ne pouvez pas modifier ce profil de permission car c\'est un profil-type prédéfini par Wedge. Si vous voulez changer les permissions de ce profil, vous devez d\'abord créer une copie du profil en cliquant <a href="%1$s">ici</a>.';
+$txt['permission_cannot_edit'] = '<strong>Note</strong>&#8239;: vous ne pouvez pas modifier ce profil de permission car c\'est un profil-type prédéfini par Wedge. Si vous voulez changer les permissions de ce profil, vous devez d\'abord créer une copie du profil en cliquant <a href="%1$s">ici</a>.';
 
-$txt['permissions_for_profile'] = 'Permissions pour le Profil&nbsp;';
+$txt['permissions_for_profile'] = 'Permissions pour le Profil&#8239;';
 $txt['permissions_boards_desc'] = 'La liste ci-dessous montre le jeu de permissions qui a été assigné à chaque section de votre forum. Vous pouvez modifier les permissions de profil assignées en cliquant sur le nom de la section, ou en sélectionnant &quot;Tout modifier&quot; en bas de la page. Pour modifier le profil lui-même, cliquez simplement sur le nom du profil.';
 $txt['permissions_board_all'] = 'Tout modifier';
 $txt['permission_profile'] = 'Profil de Permission';
@@ -17,7 +17,7 @@ $txt['permission_profile_inherit'] = 'Hériter de la section parente';
 
 $txt['permissions_profile'] = 'Profil';
 $txt['permissions_profiles_desc'] = 'Les profils de permissions sont assignés à des sections individuelles pour vous permettre de gérer facilement vos paramètres de sécurité. D\'ici, vous pouvez créer, modifier et supprimer des profils de permissions.';
-$txt['permissions_profiles_change_for_board'] = 'Modifier le profil de permissions pour&nbsp;: &quot;%1$s&quot;';
+$txt['permissions_profiles_change_for_board'] = 'Modifier le profil de permissions pour&#8239;: &quot;%1$s&quot;';
 $txt['permissions_profile_default'] = 'Par défaut';
 $txt['permissions_profile_no_polls'] = 'Pas de Sondages';
 $txt['permissions_profile_reply_only'] = 'Réponses uniquement';
@@ -57,12 +57,12 @@ $txt['permissions_select_permission'] = 'Choisir une permission';
 
 $txt['permissions_only_one_option'] = 'Vous ne pouvez choisir qu\'une seule action pour modifier les permissions';
 $txt['permissions_no_action'] = 'Aucune action choisie';
-$txt['permissions_deny_dangerous'] = 'Vous êtes sur le point d\'interdire une ou plusieurs permissions.<br>Ceci peut être dangereux et causer des résultats inattendus si vous ne vous êtes pas assuré que personne n\'est "accidentellement" dans le ou les groupes auxquels vous interdisez les permissions.<br><br>Êtes-vous sûr de vouloir continuer&nbsp;?';
+$txt['permissions_deny_dangerous'] = 'Vous êtes sur le point d\'interdire une ou plusieurs permissions.<br>Ceci peut être dangereux et causer des résultats inattendus si vous ne vous êtes pas assuré que personne n\'est "accidentellement" dans le ou les groupes auxquels vous interdisez les permissions.<br><br>Êtes-vous sûr de vouloir continuer&#8239;?';
 
 $txt['permissions_modify_group'] = 'Modifier un Groupe';
 $txt['permissions_general'] = 'Permissions Générales';
 $txt['permissions_board'] = 'Permissions par Défaut pour les Sections';
-$txt['permissions_board_desc'] = '<strong>Note</strong>&nbsp;: changer ces permissions affectera toutes les sections utilisant actuellement le profil de permissions &quot;par défaut&quot;. Les sections n\'utilisant pas le profil &quot;par défaut&quot; ne seront pas affectées par les changements de cette page.';
+$txt['permissions_board_desc'] = '<strong>Note</strong>&#8239;: changer ces permissions affectera toutes les sections utilisant actuellement le profil de permissions &quot;par défaut&quot;. Les sections n\'utilisant pas le profil &quot;par défaut&quot; ne seront pas affectées par les changements de cette page.';
 $txt['permissions_commit'] = 'Sauver les Changements';
 $txt['permissions_on'] = 'du profil';
 $txt['permissions_local_for'] = 'Permissions pour le groupe';
@@ -73,11 +73,11 @@ $txt['permissions_option_desc'] = 'Pour chaque groupe, vous pouvez choisir soit 
 
 $txt['permissiongroup_general'] = 'Général';
 $txt['permissionname_view_stats'] = 'Voir les stats du forum';
-$txt['permissionhelp_view_stats'] = 'Les stats du forum sont une page résumant toutes les statistiques du forum&nbsp;: nombre de membres, nombre de messages par jour et plusieurs Top 10. Autoriser cette permission ajoute un lien en bas de l\'accueil du forum (\'[+ de Stats]\').';
+$txt['permissionhelp_view_stats'] = 'Les stats du forum sont une page résumant toutes les statistiques du forum&#8239;: nombre de membres, nombre de messages par jour et plusieurs Top 10. Autoriser cette permission ajoute un lien en bas de l\'accueil du forum (\'[+ de Stats]\').';
 $txt['permissionname_view_mlist'] = 'Voir la liste des membres et groupes';
 $txt['permissionhelp_view_mlist'] = 'La liste des membres affiche tous les membres qui se sont inscrits sur votre forum. La liste peut être classée et scrutée. La liste des membres est accessible depuis l\'accueil du forum et la page de stats, en cliquant sur le nombre de membres. Cela s\'applique également à la page des groupes, une mini-liste des membres présents dans un groupe spécifique.';
-$txt['permissionname_who_view'] = 'Voir la page <em>Qui est en ligne&nbsp;?</em>';
-$txt['permissionhelp_who_view'] = '<em>Qui est en ligne&nbsp;?</em> affiche tous les membres qui sont actuellement connectés et ce qu\'ils font en ce moment. Cette permission ne fonctionnera que si vous l\'avez aussi validée dans \'Options des Membres - Qui est en ligne\'. Vous pouvez accéder à la page <em>Qui est en ligne&nbsp;?</em> en cliquant sur le lien dans la section <em>Membres en ligne</em> sur l\'accueil du forum. Même si ce n\'est pas permis, les membres pourront tout de même voir qui est en ligne, mais ne pourront pas voir où ils sont.';
+$txt['permissionname_who_view'] = 'Voir la page <em>Qui est en ligne&#8239;?</em>';
+$txt['permissionhelp_who_view'] = '<em>Qui est en ligne&#8239;?</em> affiche tous les membres qui sont actuellement connectés et ce qu\'ils font en ce moment. Cette permission ne fonctionnera que si vous l\'avez aussi validée dans \'Options des Membres - Qui est en ligne\'. Vous pouvez accéder à la page <em>Qui est en ligne&#8239;?</em> en cliquant sur le lien dans la section <em>Membres en ligne</em> sur l\'accueil du forum. Même si ce n\'est pas permis, les membres pourront tout de même voir qui est en ligne, mais ne pourront pas voir où ils sont.';
 $txt['permissionname_search_posts'] = 'Rechercher des messages ou des sujets';
 $txt['permissionhelp_search_posts'] = 'La permission de recherche autorise l\'utilisateur à rechercher dans toutes les sections auxquels il peut accéder. Quand la permission de recherche est activée, un bouton \'Recherche\' sera ajouté à la barre de menu principal du forum.';
 $txt['permissionname_post_thought'] = 'Poster des pensées';
@@ -95,7 +95,7 @@ $txt['permissionhelp_auto_save_pm_draft'] = 'Cette permission, si elle est combi
 
 $txt['permissiongroup_maintenance'] = 'Administration du forum';
 $txt['permissionname_admin_forum'] = 'Administrer le forum et la base de données';
-$txt['permissionhelp_admin_forum'] = 'Cette permission autorise un utilisateur à&nbsp;:<ul class="normallist"><li>modifier les paramètres du forum, de la base de données et du thème</li><li>gérer les extensions</li><li>utiliser les outils de maintenance du forum et de la base de données</li><li>voir le Journal de Modération et d\'Erreurs.</li></ul> Utilisez cette permission avec précaution, elle est très puissante.';
+$txt['permissionhelp_admin_forum'] = 'Cette permission autorise un utilisateur à&#8239;:<ul class="normallist"><li>modifier les paramètres du forum, de la base de données et du thème</li><li>gérer les extensions</li><li>utiliser les outils de maintenance du forum et de la base de données</li><li>voir le Journal de Modération et d\'Erreurs.</li></ul> Utilisez cette permission avec précaution, elle est très puissante.';
 $txt['permissionname_manage_boards'] = 'Gestion des sites et catégories';
 $txt['permissionhelp_manage_boards'] = 'Cette permission autorise la création, la modification et la suppression des sites et catégories.';
 $txt['permissionname_manage_attachments'] = 'Gestion des fichiers joints et avatars';
@@ -109,7 +109,7 @@ $txt['permissionhelp_access_mod_center'] = 'Avec cette permission, tous les memb
 
 $txt['permissiongroup_member_admin'] = 'Administration des membres';
 $txt['permissionname_moderate_forum'] = 'Gestion des membres du forum';
-$txt['permissionhelp_moderate_forum'] = 'Cette permission inclut toutes les fonctions importantes de modération des membres&nbsp;:<ul class="normallist"><li>accès aux inscriptions</li><li>accès au panneau de gestion des membres</li><li>accès aux informations de profil étendu, ainsi qu\'à la traque des adresses IP et utilisateurs et au statut invisible</li><li>activation de comptes</li><li>réception des notifications d\'inscription et approbation des inscriptions</li><li>immunité contre le rejet des MP</li><li>plusieurs autres caractéristiques.</li></ul>';
+$txt['permissionhelp_moderate_forum'] = 'Cette permission inclut toutes les fonctions importantes de modération des membres&#8239;:<ul class="normallist"><li>accès aux inscriptions</li><li>accès au panneau de gestion des membres</li><li>accès aux informations de profil étendu, ainsi qu\'à la traque des adresses IP et utilisateurs et au statut invisible</li><li>activation de comptes</li><li>réception des notifications d\'inscription et approbation des inscriptions</li><li>immunité contre le rejet des MP</li><li>plusieurs autres caractéristiques.</li></ul>';
 $txt['permissionname_manage_membergroups'] = 'Gestion et assignation des groupes de membres';
 $txt['permissionhelp_manage_membergroups'] = 'Cette permission permet à l\'utilisateur de modifier les groupes de membres et d\'assigner des membres à certains groupes.';
 $txt['permissionname_manage_permissions'] = 'Gestion des permissions';
@@ -135,11 +135,11 @@ $txt['permissionhelp_profile_extra'] = 'Les paramètre additionnels incluent les
 $txt['permissionname_profile_extra_own'] = 'Son propre profil';
 $txt['permissionname_profile_extra_any'] = 'Tous les profils';
 $txt['permissionname_profile_signature'] = 'Modifier la signature';
-$txt['permissionhelp_profile_signature'] = 'Autorise à restreindre les groupes pouvant ajouter une signature à leurs messages ; permet d\'éviter les utilisateurs s\'inscrivant juste pour spammer par leur signature, sans pénaliser les utilisateurs réguliers.';
+$txt['permissionhelp_profile_signature'] = 'Autorise à restreindre les groupes pouvant ajouter une signature à leurs messages&#8239;; permet d\'éviter les utilisateurs s\'inscrivant juste pour spammer par leur signature, sans pénaliser les utilisateurs réguliers.';
 $txt['permissionname_profile_signature_own'] = 'Sa propre signature';
 $txt['permissionname_profile_signature_any'] = 'Toutes les signatures';
 $txt['permissionname_profile_website'] = 'Modifier l\'adresse du site web';
-$txt['permissionhelp_profile_website'] = 'Autorise à restreindre les groupes qui pourront indiquer un site web dans leur profil ; permet d\'éviter les utilisateurs ; permet d\'éviter les utilisateurs s\'inscrivant juste pour spammer par leur adresse web, sans pénaliser les utilisateurs réguliers.';
+$txt['permissionhelp_profile_website'] = 'Autorise à restreindre les groupes qui pourront indiquer un site web dans leur profil&#8239;; permet d\'éviter les utilisateurs&#8239;; permet d\'éviter les utilisateurs s\'inscrivant juste pour spammer par leur adresse web, sans pénaliser les utilisateurs réguliers.';
 $txt['permissionname_profile_website_own'] = 'Sur son propre profil';
 $txt['permissionname_profile_website_any'] = 'Sur tous les profils';
 $txt['permissionname_profile_title'] = 'Modifier le texte personnel';
@@ -181,7 +181,7 @@ $txt['permissionhelp_lock'] = 'Cette permission autorise un utilisateur à bloqu
 $txt['permissionname_lock_own'] = 'Sujets personnels';
 $txt['permissionname_lock_any'] = 'Tous les sujets';
 $txt['permissionname_remove'] = 'Effacer des sujets';
-$txt['permissionhelp_remove'] = 'Efface les sujets. Notez que cette permission ne permet pas d\'effacer des messages spécifiques dans le sujet&nbsp;!';
+$txt['permissionhelp_remove'] = 'Efface les sujets. Notez que cette permission ne permet pas d\'effacer des messages spécifiques dans le sujet&#8239;!';
 $txt['permissionname_remove_own'] = 'Sujets personnels';
 $txt['permissionname_remove_any'] = 'Tous les sujets';
 $txt['permissionname_post_reply'] = 'Répondre aux sujets';

@@ -8,7 +8,7 @@ $txt['signature'] = 'Signature';
 $txt['profile_posts'] = 'Messages';
 $txt['change_profile'] = 'Changer le profil';
 $txt['delete_user'] = 'Effacer le membre';
-$txt['current_status'] = 'Statut actuel&nbsp;:';
+$txt['current_status'] = 'Statut actuel&#8239;:';
 $txt['personal_text'] = 'Pensée du jour';
 $txt['personal_picture'] = 'Avatar personnalisé';
 $txt['no_avatar'] = 'Pas d\'avatar';
@@ -18,9 +18,9 @@ $txt['reset_form'] = 'Réinitialiser le formulaire';
 $txt['preferred_language'] = 'Langue préférée';
 $txt['age'] = 'Âge';
 $txt['no_pic'] = '(pas d\'image)';
-$txt['latest_posts'] = 'Derniers messages de&nbsp;: ';
+$txt['latest_posts'] = 'Derniers messages de&#8239;: ';
 $txt['additional_info'] = 'Informations supplémentaires';
-$txt['avatar_by_url'] = 'Spécifiez votre propre avatar par URL. (ex&nbsp;: <em>http://www.mapage.com/monimage.gif</em>)';
+$txt['avatar_by_url'] = 'Spécifiez votre propre avatar par URL. (ex&#8239;: <em>http://www.mapage.com/monimage.gif</em>)';
 $txt['my_own_pic'] = 'Spécifier un avatar par son URL';
 $txt['use_gravatar'] = 'Utiliser mon Gravatar';
 $txt['gravatar_alternateEmail'] = 'Normalement, le Gravatar utilisé sera basé sur l\'adresse e-mail que vous avez renseignée pour le forum, mais vous pouvez souhaiter utiliser le Gravatar d\'un autre compte e-mail, par exemple gravatar@monsite.com au lieu de monadresse@monsite.com. Vous pouvez entrer cette adresse ici.';
@@ -47,7 +47,7 @@ $txt['signature_needs_posts'] = array(
 	1 => 'Votre signature ne sera pas visible aux autres utilisateurs tant que vous n\'aurez pas posté au moins un message.',
 	'n' => 'Votre signature ne sera pas visible aux autres utilisateurs tant que vous n\'aurez pas posté au moins %s messages.',
 );
-$txt['max_sig_characters'] = '%1$s caractères sont autorisés au maximum. Il en reste&nbsp;: ';
+$txt['max_sig_characters'] = '%1$s caractères sont autorisés au maximum. Il en reste&#8239;: ';
 $txt['send_member_pm'] = 'Envoyer un message personnel à ce membre';
 $txt['hidden'] = 'caché';
 $txt['current_time'] = 'Heure actuelle du forum';
@@ -55,7 +55,7 @@ $txt['digits_only'] = 'La case \'nombre de messages\' ne peut contenir que des c
 
 $txt['language'] = 'Langue';
 $txt['avatar_too_big'] = 'Cet Avatar est trop gros, merci de le redimensionner avant de réessayer (max';
-$txt['invalid_registration'] = 'Date d\'inscription invalide, exemple&nbsp;: ';
+$txt['invalid_registration'] = 'Date d\'inscription invalide, exemple&#8239;: ';
 $txt['current_password'] = 'Mot de passe actuel';
 $txt['required_security_reasons'] = 'Pour des raisons évidentes de sécurité, votre mot de passe actuel est nécessaire pour modifier votre compte.';
 
@@ -65,12 +65,12 @@ $txt['timeoffset_autodetect'] = '(auto-détecter)';
 
 $txt['secret_question'] = 'Question secrète';
 $txt['secret_desc'] = 'Pour vous aider à retrouver votre mot de passe, vous pouvez entrer ici une question et sa réponse dont <strong>vous seul</strong> connaissez la teneur.';
-$txt['secret_desc2'] = 'Choisissez-la prudemment et évitez que l\'on puisse deviner facilement la réponse&nbsp;! ';
+$txt['secret_desc2'] = 'Choisissez-la prudemment et évitez que l\'on puisse deviner facilement la réponse&#8239;! ';
 $txt['secret_answer'] = 'Réponse';
 $txt['secret_ask'] = 'Posez-moi ma question secrète';
 $txt['cant_retrieve'] = 'Il est impossible de récupérer votre mot de passe, mais vous pouvez en spécifier un nouveau en suivant le lien envoyé à votre adresse e-mail. Vous avez aussi la possibilité de spécifier un nouveau mot de passe en répondant à votre question secrète.';
 $txt['enter_new_password'] = 'Merci d\'entrer la réponse à votre question, et le mot de passe que vous souhaitez utiliser. Votre mot de passe sera remplacé par celui fourni en répondant correctement à votre question.';
-$txt['secret_why_blank'] = 'Pourquoi est-ce vide&nbsp;? ';
+$txt['secret_why_blank'] = 'Pourquoi est-ce vide&#8239;? ';
 
 $txt['authentication_reminder'] = 'Rappel d\'authentification';
 $txt['password_reminder_desc'] = 'Si vous avez oublié vos détails de connexion, pas de souci, on peut vous aider. Pour commencer, veuillez entrer votre identifiant ou adresse e-mail ci-dessous.';
@@ -87,37 +87,37 @@ $txt['current_action'] = 'Dernière action';
 
 $txt['lastLoggedIn'] = 'Dernière visite';
 
-$txt['notify_settings'] = 'Paramètres de notification&nbsp;:';
+$txt['notify_settings'] = 'Paramètres de notification&#8239;:';
 $txt['notify_save'] = 'Sauvegarder les paramètres';
 $txt['notify_important_email'] = 'Recevoir les lettres d\'information, les annonces du forum et les notifications importantes par e-mail.';
-$txt['notify_regularity'] = 'Pour les sujets et les sites pour lesquels j\'ai demandé la notification, notifiez-moi&nbsp;';
+$txt['notify_regularity'] = 'Pour les sujets et les sites pour lesquels j\'ai demandé la notification, notifiez-moi&#8239;';
 $txt['notify_regularity_instant'] = 'Instantanément';
 $txt['notify_regularity_first_only'] = 'Instantanément - mais seulement pour la première réponse non lue';
 $txt['notify_regularity_daily'] = 'Une fois par jour';
 $txt['notify_regularity_weekly'] = 'Une fois par semaine';
 $txt['auto_notify'] = 'Me notifier automatiquement les réponses quand je commence ou réponds à un sujet.';
-$txt['notify_send_types'] = 'Pour les sujets et sections que j\'ai demandé à suivre, notifiez-moi&nbsp;';
+$txt['notify_send_types'] = 'Pour les sujets et sections que j\'ai demandé à suivre, notifiez-moi&#8239;';
 $txt['notify_send_type_everything'] = 'De tout ce qui s\'y produit';
 $txt['notify_send_type_everything_own'] = 'Des actions de modération, seulement si j\'ai démarré le sujet';
 $txt['notify_send_type_only_replies'] = 'Seulement des réponses';
 $txt['notify_send_type_nothing'] = 'Ne me notifiez pas';
-$txt['notify_send_body'] = 'Lors de l\'envoi des notifications de réponses à un sujet, inclure le message complet dans l\'e-mail <em>(mais veuillez ne pas répondre à l\'e-mail envoyé&nbsp;!)</em>';
+$txt['notify_send_body'] = 'Lors de l\'envoi des notifications de réponses à un sujet, inclure le message complet dans l\'e-mail <em>(mais veuillez ne pas répondre à l\'e-mail envoyé&#8239;!)</em>';
 
 $txt['notifications_topics'] = 'Notifications actuelles pour le sujet';
 $txt['notifications_topics_list'] = 'Vous êtes avisé pour les réponses aux sujets suivants';
 $txt['notifications_topics_none'] = 'Actuellement, vous ne recevez aucune notification.';
 $txt['notifications_topics_howto'] = 'Pour recevoir des notifications d\'un sujet, cliquez le bouton &quot;Notifier&quot; dans celui-ci.';
 $txt['notifications_boards'] = 'Notifications actuelles de sections';
-$txt['notifications_boards_list'] = 'Vous êtes notifié des nouveaux sujets démarrés dans les sections suivantes&nbsp;:';
+$txt['notifications_boards_list'] = 'Vous êtes notifié des nouveaux sujets démarrés dans les sections suivantes&#8239;:';
 $txt['notifications_boards_none'] = 'Actuellement, vous ne recevez aucune notification de section.';
 $txt['notifications_boards_howto'] = 'Pour demander des notifications pour une section spécifique, cliquez le bouton &quot;Suivre&quot; à l\'index de cette section.';
 $txt['notifications_update'] = 'Désinscription';
 
-$txt['statPanel_showStats'] = 'Statistiques utilisateur pour&nbsp;: ';
+$txt['statPanel_showStats'] = 'Statistiques utilisateur pour&#8239;: ';
 $txt['statPanel_users_votes'] = 'Nombre de votants';
 $txt['statPanel_users_polls'] = 'Nombre de sondages créés';
 $txt['statPanel_total_time_online'] = 'Temps total passé en ligne';
-$txt['statPanel_noPosts'] = 'Vous n\'avez posté aucun message&nbsp;!';
+$txt['statPanel_noPosts'] = 'Vous n\'avez posté aucun message&#8239;!';
 $txt['statPanel_generalStats'] = 'Statistiques générales';
 $txt['statPanel_posts'] = 'messages';
 $txt['statPanel_topics'] = 'Sujets';
@@ -133,7 +133,7 @@ $txt['statPanel_activityTime'] = 'Activité de postage par heure';
 $txt['statPanel_activityTime_posts'] = '%1$d messages (%2$d%%)';
 $txt['statPanel_timeOfDay'] = 'Heure de la journée';
 
-$txt['deleteAccount_warning'] = 'Attention - Ces actions sont irréversibles&nbsp;!';
+$txt['deleteAccount_warning'] = 'Attention - Ces actions sont irréversibles&#8239;!';
 $txt['deleteAccount_desc'] = 'À partir de cette page vous pouvez supprimer le compte et les messages d\'un membre.';
 $txt['deleteAccount_member'] = 'Supprimer le compte de ce membre';
 $txt['deleteAccount_posts'] = 'Supprimer les messages postés par ce membre';
@@ -209,13 +209,13 @@ $txt['members_in_range'] = 'Membres possibles dans la même plage';
 $txt['messages_from_ip'] = 'Messages envoyés depuis l\'IP ou plage d\'IP %1$s';
 $txt['messages_from_ip_desc'] = 'Ci-dessous est affichée la liste de tous les messages postés depuis cette IP ou plage d\'IP.';
 $txt['most_recent_ip'] = 'Adresse IP la plus récente';
-$txt['why_two_ip_address'] = 'Pourquoi y-a-t\'il deux adresses IP listées&nbsp;?';
+$txt['why_two_ip_address'] = 'Pourquoi y-a-t\'il deux adresses IP listées&#8239;?';
 $txt['no_errors_from_ip'] = 'Aucun message d\'erreur depuis cette adresse IP ou plage d\'IP';
 $txt['no_errors_from_user'] = 'Aucun message d\'erreur de ce membre';
 $txt['no_members_from_ip'] = 'Aucun membre ayant l\'IP (ou une IP faisant partie de la plage IP) spécifiée n\'a été trouvé';
 $txt['no_messages_from_ip'] = 'Aucun message depuis l\'IP (ou une IP faisant partie de la plage IP) spécifiée n\'a été trouvé';
 $txt['none'] = 'Aucun';
-$txt['own_profile_confirm'] = 'Voulez-vous réellement effacer votre compte&nbsp;?';
+$txt['own_profile_confirm'] = 'Voulez-vous réellement effacer votre compte&#8239;?';
 $txt['view_ips_by'] = 'Voir les IPs utilisées par';
 
 $txt['avatar_will_upload'] = 'Transférer un avatar';
@@ -352,7 +352,7 @@ $txt['approval_pending'] = 'Approbations en attente';
 $txt['make_primary'] = 'Définir en tant que groupe principal';
 
 $txt['request_group_membership'] = 'Demande d\'adhésion à un groupe';
-$txt['request_group_membership_desc'] = 'Avant de pouvoir rejoindre ce groupe, votre adhésion doit être approuvée par le modérateur. Merci de donner la raison pour laquelle vous voulez le rejoindre&nbsp;';
+$txt['request_group_membership_desc'] = 'Avant de pouvoir rejoindre ce groupe, votre adhésion doit être approuvée par le modérateur. Merci de donner la raison pour laquelle vous voulez le rejoindre&#8239;';
 $txt['submit_request'] = 'Envoyer la demande';
 
 $txt['profile_updated_own'] = 'Votre profil a été mis à jour avec succès';
@@ -367,15 +367,15 @@ $txt['profile_error_signature_max_image_count'] = 'Vous ne pouvez pas avoir plus
 $txt['profile_error_signature_max_font_size'] = 'La taille de la police du texte de votre signature ne doit pas dépasser %1$d';
 $txt['profile_error_signature_allow_smileys'] = 'Vous n\'avez pas l\'autorisation d\'utiliser des smileys dans votre signature';
 $txt['profile_error_signature_max_smileys'] = 'Vous n\'êtes pas autorisé à utiliser plus de %1$d smileys dans votre signature';
-$txt['profile_error_signature_disabled_bbc'] = 'Le code BBC suivant n\'est pas autorisé dans votre signature&nbsp;: %1$s';
+$txt['profile_error_signature_disabled_bbc'] = 'Le code BBC suivant n\'est pas autorisé dans votre signature&#8239;: %1$s';
 
 $txt['profile_view_warnings'] = 'Voir les Sanctions';
 $txt['profile_issue_warning'] = 'Sanctionner';
-$txt['profile_warning_level'] = 'Niveau de Sanction&nbsp;';
+$txt['profile_warning_level'] = 'Niveau de Sanction&#8239;';
 $txt['profile_warning_desc'] = 'D\'ici, vous pouvez ajuster le niveau de sanction d\'un utilisateur et lui donner une explication si nécessaire. Vous pouvez aussi suivre son historique des sanctions et voir les effets de son niveau de sanction actuel, tels que définis par l\'administrateur.';
-$txt['profile_warning_name'] = 'Nom du Membre&nbsp;';
-$txt['profile_warning_impact'] = 'Résultat&nbsp;';
-$txt['profile_warning_reason'] = 'Raison de la Sanction&nbsp;';
+$txt['profile_warning_name'] = 'Nom du Membre&#8239;';
+$txt['profile_warning_impact'] = 'Résultat&#8239;';
+$txt['profile_warning_reason'] = 'Raison de la Sanction&#8239;';
 $txt['profile_warning_reason_desc'] = 'Elle est obligatoire, et sera archivée.';
 $txt['profile_warning_effect_none'] = 'Aucun.';
 $txt['profile_warning_effect_watch'] = 'L\'utilisateur sera ajouté à la liste de surveillance des modérateurs.';
@@ -388,10 +388,10 @@ $txt['profile_warning_effect_mute'] = 'L\'utilisateur n\'aura plus la possibilit
 $txt['profile_warning_effect_own_muted'] = 'Vous ne pouvez plus poster.';
 $txt['profile_warning_is_muted'] = 'ne peut pas poster';
 $txt['profile_warning_effect_text'] = 'Niveau >= %1$d: %2$s';
-$txt['profile_warning_notify'] = 'Envoyer une Notification&nbsp;';
-$txt['profile_warning_notify_template'] = 'Sélectionner un modèle&nbsp;:';
-$txt['profile_warning_notify_subject'] = 'Titre de la Notification&nbsp;';
-$txt['profile_warning_notify_body'] = 'Message de Notification&nbsp;';
+$txt['profile_warning_notify'] = 'Envoyer une Notification&#8239;';
+$txt['profile_warning_notify_template'] = 'Sélectionner un modèle&#8239;:';
+$txt['profile_warning_notify_subject'] = 'Titre de la Notification&#8239;';
+$txt['profile_warning_notify_body'] = 'Message de Notification&#8239;';
 $txt['profile_warning_notify_template_subject'] = 'Vous avez reçu une sanction';
 // Use numeric entities in below string.
 $txt['profile_warning_notify_template_outline'] = '{MEMBER},' . "\n\n" . 'Vous avez re&#231;u une sanction pour %1$s. Merci de respecter dor&#233;navant les r&#232;gles du forum, sans quoi nous devrons prendre d\'autres mesures.' . "\n\n" . '{REGARDS}';
@@ -405,7 +405,7 @@ $txt['profile_warning_notify_title_insulting'] = 'Insultes Utilisateurs/Equipe';
 $txt['profile_warning_issue'] = 'Appliquer la sanction';
 $txt['profile_warning_max'] = '(Max. 100)';
 $txt['profile_warning_limit_attribute'] = 'Notez que vous ne pouvez pas ajuster ce niveau d\'utilisateur plus de %1$d%% fois par période de 24 heures.';
-$txt['profile_warning_errors_occured'] = 'La sanction n\'a pas pu être appliquée pour les raisons suivantes&nbsp;';
+$txt['profile_warning_errors_occured'] = 'La sanction n\'a pas pu être appliquée pour les raisons suivantes&#8239;';
 $txt['profile_warning_success'] = 'Sanction appliquée avec succès';
 $txt['profile_warning_new_template'] = 'Nouveau Modèle';
 
@@ -427,12 +427,12 @@ $txt['profile_viewwarning_impact'] = 'Impact de la sanction';
 $txt['subscriptions'] = 'Abonnements payants';
 
 $txt['pm_settings_desc'] = 'D\'ici, vous pouvez modifier les options pour vos messages personnels, comme leur affichage et qui peut vous en envoyer.';
-$txt['email_notify'] = 'M\'envoyer un e-mail à chaque fois que je reçois un message personnel&nbsp;:';
+$txt['email_notify'] = 'M\'envoyer un e-mail à chaque fois que je reçois un message personnel&#8239;:';
 $txt['email_notify_never'] = 'Jamais';
 $txt['email_notify_buddies'] = 'De mes contacts uniquement';
 $txt['email_notify_always'] = 'Toujours';
 
-$txt['pm_receive_from'] = 'Recevoir des messages personnels de&nbsp;:';
+$txt['pm_receive_from'] = 'Recevoir des messages personnels de&#8239;:';
 $txt['pm_receive_from_everyone'] = 'Tous les membres';
 $txt['pm_receive_from_ignore'] = 'Tous les membres, sauf ceux que j\'ignore';
 $txt['pm_receive_from_admins'] = 'Les administrateurs seulement';

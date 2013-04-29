@@ -27,10 +27,10 @@ $txt['poll_error'] = 'Soit ce sondage n\'existe pas, soit il est bloqué, soit v
 $txt['members_only'] = 'Cette option est réservée aux membres...';
 $txt['locked_by_admin'] = 'Bloqué par un administrateur. Vous ne pouvez pas le débloquer.';
 $txt['feature_disabled'] = 'Désolé, cette fonction est désactivée.';
-$txt['cant_access_upload_path'] = 'Impossible d\'accéder au chemin des fichiers joints&nbsp;!';
+$txt['cant_access_upload_path'] = 'Impossible d\'accéder au chemin des fichiers joints&#8239;!';
 $txt['file_too_big'] = 'Votre fichier est trop gros. La taille maximale autorisée pour les fichiers joints est de %1$d Ko.';
 $txt['attach_timeout'] = 'Votre fichier joint n\'a pu être transféré. Il est possible que son transfert ait été trop long, ou que le fichier soit plus gros que la limite imposée par le serveur.<br><br>Veuillez contacter l\'administrateur pour plus d\'informations.';
-$txt['filename_exists'] = 'Désolé&nbsp;! Ce nom de fichier joint est déjà pris. Merci de renommer votre fichier avant de réessayer.';
+$txt['filename_exists'] = 'Désolé&#8239;! Ce nom de fichier joint est déjà pris. Merci de renommer votre fichier avant de réessayer.';
 $txt['bad_attachment'] = 'Votre fichier joint a échoué aux tests de sécurité, et ne peut pas être mis en ligne. Merci de contacter l\'administrateur.';
 $txt['ran_out_of_space'] = 'Le répertoire de destination est plein. Essayez avec un fichier moins volumineux et/ou contactez un administrateur.';
 $txt['couldnt_connect'] = 'Échec de la connexion au serveur, ou fichier non trouvé';
@@ -99,7 +99,7 @@ $txt['cannot_post_new'] = 'Désolé, vous ne pouvez pas poster de nouveau sujet 
 $txt['cannot_post_reply_any'] = 'Vous n\'êtes pas autorisé à poster des réponses aux sujets de cette section.';
 $txt['cannot_post_reply_own'] = 'Vous n\'êtes pas autorisé à poster des réponses, même à vos propres sujets, dans cette section.';
 $txt['cannot_profile_remove_own'] = 'Désolé, mais vous n\'avez pas l\'autorisation d\'effacer votre profil.';
-$txt['cannot_profile_remove_any'] = 'Vous n\'avez pas l\'autorisation de supprimer les profils des membres&nbsp;!';
+$txt['cannot_profile_remove_any'] = 'Vous n\'avez pas l\'autorisation de supprimer les profils des membres&#8239;!';
 $txt['cannot_profile_extra_any'] = 'Vous n\'êtes autorisé à modifier un paramètre du profil.';
 $txt['cannot_profile_identity_any'] = 'Vous n\'êtes pas autorisé à modifier les paramètres relatifs au compte.';
 $txt['cannot_profile_title_any'] = 'Vous ne pouvez pas modifier les pseudonymes des membres.';
@@ -117,7 +117,15 @@ $txt['cannot_delete_any'] = 'Effacer n\'importe quel message sur ce forum n\'est
 $txt['cannot_report_any'] = 'Vous n\'êtes pas autorisé à rapporter des messages de cette section.';
 $txt['cannot_search_posts'] = 'Vous n\'êtes pas autorisé à rechercher des messages dans cette section.';
 $txt['cannot_send_mail'] = 'Vous n\'avez pas le privilège d\'envoyer des e-mails à quiconque.';
+$txt['cannot_issue_warning_self'] = 'Désolé, vous ne pouvez pas vous auto-sanctionner...';
+$txt['cannot_issue_warning_these_groups'] = 'Désolé, vous ne pouvez pas sanctionner cet utilisateur.';
+$txt['cannot_issue_warning_too_many'] = 'Désolé, vous ne pouvez pas sanctionner cet utilisateur, vous l\'avez déjà trop sanctionné aujourd\'hui.';
 $txt['cannot_issue_warning'] = 'Désolé, vous n\'avez pas la permission de sanctionner les utilisateurs.';
+$txt['warning_not_found'] = 'Désolé, l\'infraction demandée est introuvable.';
+$txt['cannot_revoke_warning'] = 'Malheureusement, vous ne pouvez pas supprimer cette infraction.';
+$txt['cannot_revoke_warning_self'] = 'Malheureusement, vous ne pouvez pas supprimer les infractions dont vous faites l\'object.';
+$txt['cannot_revoke_already_revoked'] = 'Malheureusement, vous ne pouvez pas supprimer cette infraction, elle l\'a déjà été.';
+$txt['cannot_revoke_already_expired'] = 'Malheureusement, vous ne pouvez pas supprimer cette infraction, elle a déjà expiré.';
 $txt['cannot_send_topic'] = 'Désolé, mais l\'administrateur a interdit l\'envoi de sujets de cette section.';
 $txt['cannot_split_any'] = 'Séparer un sujet n\'est pas autorisé dans cette section.';
 $txt['cannot_view_attachments'] = 'Il semble que vous n\'êtes pas autorisé à télécharger ou voir les fichiers joints de cette section.';
@@ -132,11 +140,11 @@ $txt['registration_disabled'] = 'Désolé, l\'inscription est désactivée actue
 $txt['registration_no_secret_question'] = 'Désolé, il n\'y a aucune question secrète programmée par ce membre.';
 $txt['poll_range_error'] = 'Désolé, le sondage doit être validé pour plus de 0 jour.';
 $txt['delFirstPost'] = 'Vous n\'êtes pas autorisé à effacer le premier message d\'un sujet.<p>Si vous voulez effacer ce sujet, cliquez sur le lien Effacer le sujet, ou demandez à un modérateur/administrateur de le faire pour vous.</p>';
-$txt['parent_error'] = 'Impossible de créer une section&nbsp;!';
+$txt['parent_error'] = 'Impossible de créer une section&#8239;!';
 $txt['login_cookie_error'] = 'Erreur de connexion. Veuillez vérifier vos réglages pour l\'utilisation du cookie.';
 $txt['incorrect_answer'] = 'Désolé, mais vous n\'avez pas répondu correctement à votre question. Veuillez cliquer sur \'Retour\' et réessayer, ou cliquez Retour 2 fois afin d\'utiliser la méthode par défaut pour retrouver votre mot de passe.';
-$txt['no_mods'] = 'Aucun modérateur trouvé&nbsp;!';
-$txt['parent_not_found'] = 'La structure de la section est corrompue&nbsp;: impossible de trouver la section parente';
+$txt['no_mods'] = 'Aucun modérateur trouvé&#8239;!';
+$txt['parent_not_found'] = 'La structure de la section est corrompue&#8239;: impossible de trouver la section parente';
 $txt['modify_post_time_passed'] = 'Vous ne pouvez pas modifier ce message puisque le temps limite pour les modifications est dépassé.';
 
 $txt['missing_board_id'] = 'ID de section manquant.';
@@ -150,7 +158,7 @@ $txt['moveto_noboards'] = 'Il n\'y a pas de forum où déplacer ce sujet';
 $txt['already_activated'] = 'Votre compte a déjà été activé.';
 $txt['still_awaiting_approval'] = 'Votre compte est encore en attente d\'approbation par un administrateur.';
 
-$txt['invalid_tracking_ip'] = 'Adresse IP ou bloc d\'adresses IP invalide.<br>Exemple d\'adresse IP valide&nbsp;: 127.0.0.1<br>Exemple de bloc valide&nbsp;: 127.0.0.*';
+$txt['invalid_tracking_ip'] = 'Adresse IP ou bloc d\'adresses IP invalide.<br>Exemple d\'adresse IP valide&#8239;: 127.0.0.1<br>Exemple de bloc valide&#8239;: 127.0.0.*';
 
 $txt['recycle_no_valid_board'] = 'Aucune section valide n\'a été choisie pour stocker les sujets recyclés';
 
@@ -164,7 +172,7 @@ $txt['merge_create_topic_failed'] = 'Erreur pendant la création du nouveau suje
 $txt['merge_need_more_topics'] = 'Fusionner des sujets nécessite au moins 2 sujets...';
 
 $txt['postWaitTime_broken'] = 'Le dernier message posté depuis votre adresse IP date d\'il y a moins de %1$d secondes. Veuillez réessayer plus tard.';
-$txt['registerWaitTime_broken'] = 'Vous vous êtes déjà inscrit il y a %1$d secondes&nbsp;!';
+$txt['registerWaitTime_broken'] = 'Vous vous êtes déjà inscrit il y a %1$d secondes&#8239;!';
 $txt['loginWaitTime_broken'] = 'Vous devez attendre environ %1$d secondes avant de vous reconnecter, désolé.';
 $txt['pmWaitTime_broken'] = 'Le dernier message principal posté depuis votre adresse IP date d\'il y a moins de %1$d secondes. Veuillez réessayer plus tard.';
 $txt['reportWaitTime_broken'] = 'Le dernier sujet rapporté depuis votre adresse IP date d\'il y a moins de %1$d secondes. Veuillez réessayer plus tard.';
@@ -175,7 +183,7 @@ $txt['searchWaitTime_broken'] = 'Votre dernière recherche date d\'il y a moins 
 $txt['email_missing_data'] = 'Vous devez entrer quelque chose à la fois dans le champ &quot;titre&quot; et la boîte de texte.';
 
 $txt['topic_gone'] = 'Le sujet ou la section que vous recherchez à l\'air d\'être manquant ou inaccessible pour vous.';
-$txt['theme_edit_missing'] = 'Le fichier que vous essayez de modifier... est introuvable&nbsp;!';
+$txt['theme_edit_missing'] = 'Le fichier que vous essayez de modifier... est introuvable&#8239;!';
 
 $txt['attachments_no_write'] = 'Le dossier de destination des fichiers joints est en lecture seule. Votre fichier joint ou avatar ne peut pas être sauvegardé.';
 $txt['attachments_limit_per_post'] = 'Vous ne pouvez pas transférer plus de %1$d fichiers joints par message';
@@ -184,7 +192,7 @@ $txt['pm_not_yours'] = 'Le message personnel que vous tentez de citer n\'est pas
 $txt['mangled_post'] = 'Données du formulaire erronées - veuillez retourner à la page précédente et réessayer.';
 $txt['quoted_post_deleted'] = 'Le message que vous essayez de citer, soit n\'existe pas, soit à été supprimé, ou n\'est plus accessible pour vous.';
 $txt['pm_too_many_per_hour'] = 'Vous avez dépassé la limite de %1$d messages personnels par heure.';
-$txt['labels_too_many'] = 'Désolé, %1$s messages ont déjà le montant maximal de labels permis&nbsp;!';
+$txt['labels_too_many'] = 'Désolé, %1$s messages ont déjà le montant maximal de labels permis&#8239;!';
 
 $txt['register_only_once'] = 'Désolé, mais vous ne pouvez pas inscrire plus d\'un compte en même temps depuis le même ordinateur.';
 $txt['admin_setting_coppa_require_contact'] = 'Si l\'approbation d\'un parent/tuteur est requise, vous devez entrer un moyen de contact soit postal, soit par fax.';
@@ -204,13 +212,13 @@ $txt['error_not_permitted_content'] = 'Le contenu de votre message n\'est pas co
 $txt['error_no_to'] = 'Aucun destinataire spécifié.';
 $txt['error_bad_to'] = 'Un ou plusieurs destinataires \'À\' n\'ont pu être trouvés.';
 $txt['error_bad_bcc'] = 'Un ou plusieurs destinataires \'Bcc\' n\'ont pu être trouvés.';
-$txt['error_form_already_submitted'] = 'Vous avez déjà soumis ce message&nbsp;! Vous avez sans doute accidentellement double-cliqué sur le bouton de soumission, ou vous avez rafraîchi la page.';
-$txt['error_poll_few'] = 'Vous devez avoir au moins deux (2) choix&nbsp;!';
+$txt['error_form_already_submitted'] = 'Vous avez déjà soumis ce message&#8239;! Vous avez sans doute accidentellement double-cliqué sur le bouton de soumission, ou vous avez rafraîchi la page.';
+$txt['error_poll_few'] = 'Vous devez avoir au moins deux (2) choix&#8239;!';
 $txt['error_need_qr_verification'] = 'Merci de remplir le formulaire de vérification ci-dessous avant d\'envoyer votre message.';
 $txt['error_wrong_verification_code'] = 'Les lettres que vous avez tapées ne correspondent pas aux lettres montrées sur l\'image.';
 $txt['error_wrong_verification_answer'] = 'Vous n\'avez pas répondu aux questions de vérification correctement.';
 $txt['error_need_verification_code'] = 'Veuillez entrer le code de vérification ci-dessous pour passer aux résultats.';
-$txt['error_bad_file'] = 'Désolé mais le fichier spécifié n\'a pas pu être ouvert&nbsp;: %1$s';
+$txt['error_bad_file'] = 'Désolé mais le fichier spécifié n\'a pas pu être ouvert&#8239;: %1$s';
 $txt['error_bad_line'] = 'La ligne indiquée est invalide.';
 $txt['error_too_quickly'] = 'Vous avez rempli le formulaire d\'enregistrement plus vite qu\'humainement possible.<br><br><div class="smalltext">(Eh, on n\'aime pas trop les robots dans vot\' genre par chez nous.)</div>';
 
@@ -224,8 +232,8 @@ $txt['smiley_set_path_already_used'] = 'L\'URL de ce jeu de smileys est déjà u
 $txt['smiley_set_unable_to_import'] = 'Impossible d\'importer le jeu de smileys. Le répertoire est soit invalide, soit interdit d\'accès.';
 
 $txt['smileys_upload_error'] = 'Échec lors du chargement du fichier.';
-$txt['smileys_upload_error_blank'] = 'Tous les jeux de smileys doivent avoir une image&nbsp;!';
-$txt['smileys_upload_error_name'] = 'Tous les smileys doivent avoir les mêmes noms de fichier&nbsp;!';
+$txt['smileys_upload_error_blank'] = 'Tous les jeux de smileys doivent avoir une image&#8239;!';
+$txt['smileys_upload_error_name'] = 'Tous les smileys doivent avoir les mêmes noms de fichier&#8239;!';
 $txt['smileys_upload_error_illegal'] = 'Format d\'image interdit.';
 
 $txt['search_invalid_weights'] = 'La pertinence des recherches n\'est pas bien configurée. Au moins un dispositif devrait être configuré afin d\'être différent de zéro. Veuillez rapporter cette erreur à l\'administrateur.';
@@ -233,31 +241,31 @@ $txt['unable_to_create_temporary'] = 'L\'outil de recherche a été incapable de
 
 $txt['packageget_unable'] = 'Impossible de se connecter au serveur. Veuillez réessayer en utilisant plutôt <a href="%1$s" target="_blank" class="new_win">cette URL</a>.';
 $txt['package_not_on_wedge'] = 'Désolé, les extensions ne peuvent être téléchargées de cette façon que depuis le serveur wedge.org.';
-$txt['package_cant_download'] = 'Vous ne pouvez pas installer ou télécharger d\'extensions parce que le répertoire /Packages ou un de ses fichiers est bloqué en écriture&nbsp;!';
-$txt['package_upload_error_failed'] = 'Échec d\'envoi de l\'extension. Veuillez vérifier les droits d\'accès du répertoire&nbsp;!';
+$txt['package_cant_download'] = 'Vous ne pouvez pas installer ou télécharger d\'extensions parce que le répertoire /Packages ou un de ses fichiers est bloqué en écriture&#8239;!';
+$txt['package_upload_error_failed'] = 'Échec d\'envoi de l\'extension. Veuillez vérifier les droits d\'accès du répertoire&#8239;!';
 
 $txt['package_get_error_not_found'] = 'Impossible de trouver l\'extension que vous essayez d\'installer. Essayez d\'uploader l\'extension manuellement dans votre répertoire Packages.';
 $txt['package_get_error_missing_xml'] = 'Le fichier plugin-info.xml est introuvable dans l\'extension que vous essayez d\'installer. Il doit se trouver à la racine du répertoire de l\'extension.';
-$txt['package_get_error_is_zero'] = 'L\'extension a été téléchargée avec succès, mais semble être vide. Vérifiez que le répertoire Packages et son sous-répertoire &quot;temp&quot; sont inscriptibles. Si le problème persiste, essayez d\'extraire l\'extension sur votre PC et d\'uploader les fichiers extraits manuellement vers un sous-répertoire de Packages. Par exemple, si l\'extension s\'appelle shout.tar.gz, vous devriez&nbsp;:<br>1) Télécharger le fichier sur votre machine et le décompresser.<br>2) Utiliser un client FTP pour créer un nouveau répertoire dans le répertoire &quot;Packages&quot;, par exemple ici &quot;shout&quot;.<br>3) Y placer tous les fichiers de l\'extension extraite.<br>4) Revenir sur la page du gestionnaire d\'extensions, et l\'extension devrait s\'y trouver automatiquement.';
+$txt['package_get_error_is_zero'] = 'L\'extension a été téléchargée avec succès, mais semble être vide. Vérifiez que le répertoire Packages et son sous-répertoire &quot;temp&quot; sont inscriptibles. Si le problème persiste, essayez d\'extraire l\'extension sur votre PC et d\'uploader les fichiers extraits manuellement vers un sous-répertoire de Packages. Par exemple, si l\'extension s\'appelle shout.tar.gz, vous devriez&#8239;:<br>1) Télécharger le fichier sur votre machine et le décompresser.<br>2) Utiliser un client FTP pour créer un nouveau répertoire dans le répertoire &quot;Packages&quot;, par exemple ici &quot;shout&quot;.<br>3) Y placer tous les fichiers de l\'extension extraite.<br>4) Revenir sur la page du gestionnaire d\'extensions, et l\'extension devrait s\'y trouver automatiquement.';
 $txt['package_get_error_packageinfo_corrupt'] = 'Wedge n\'a pas trouvé d\'informations valables dans le fichier plugin-info.xml inclus dans l\'extension. L\'extension comporte peut-être une erreur, ou elle est corrompue.';
 
 $txt['no_membergroup_selected'] = 'Aucun groupe de membre sélectionné';
 $txt['membergroup_does_not_exist'] = 'Le groupe de membres n\'existe pas ou est invalide.';
 
-$txt['at_least_one_admin'] = 'Il doit y avoir au moins un administrateur sur ce forum&nbsp;!';
+$txt['at_least_one_admin'] = 'Il doit y avoir au moins un administrateur sur ce forum&#8239;!';
 
 $txt['error_functionality_not_windows'] = 'Désolé, cette fonctionnalité n\'est actuellement pas disponible pour les serveurs tournant sous Windows.';
 
 // Don't use entities in the below string.
 $txt['attachment_not_found'] = 'Fichier joint introuvable';
 
-$txt['error_no_boards_selected'] = 'Aucune section valide n\'a été sélectionnée&nbsp;!';
-$txt['error_invalid_search_string'] = 'Avez-vous oublié de spécifier quelque chose à rechercher&nbsp;?';
+$txt['error_no_boards_selected'] = 'Aucune section valide n\'a été sélectionnée&#8239;!';
+$txt['error_invalid_search_string'] = 'Avez-vous oublié de spécifier quelque chose à rechercher&#8239;?';
 $txt['error_invalid_search_string_blacklist'] = 'Votre requête comporte des mots trop communs. Réessayez en modifiant votre requête.';
 $txt['error_search_string_small_words'] = 'Chaque mot doit faire au moins deux caractères de long.';
 $txt['error_query_not_specific_enough'] = 'Votre requête n\'est pas assez précise. Essayez de nouveau avec des mots ou des phrases moins vagues.';
 $txt['error_no_messages_in_time_frame'] = 'Aucun message trouvé dans cet intervalle de temps.';
-$txt['error_no_labels_selected'] = 'Aucune étiquette n\'a été sélectionnée&nbsp;!';
+$txt['error_no_labels_selected'] = 'Aucune étiquette n\'a été sélectionnée&#8239;!';
 $txt['error_no_search_daemon'] = 'Impossible d\'accéder au daemon (processus) de recherche';
 
 $txt['profile_errors_occurred'] = 'Les erreurs suivantes sont survenues lorsque vous tentiez de sauvegarder votre profil';
@@ -275,7 +283,7 @@ $txt['profile_error_bad_avatar'] = 'L\'avatar que vous avez choisi est trop gran
 $txt['profile_error_password_short'] = 'Votre mot de passe doit contenir au moins %1$d caractères.';
 $txt['profile_error_password_restricted_words'] = 'Votre mot de passe de doit pas contenir votre identifiant, adresse e-mail ou autre mot couramment utilisé.';
 $txt['profile_error_password_chars'] = 'Votre mot de passe doit contenir un mélange de lettres majuscules et minuscules, de même que des numéros.';
-$txt['profile_error_already_requested_group'] = 'Vous avez déjà une demande en instance pour ce groupe&nbsp;!';
+$txt['profile_error_already_requested_group'] = 'Vous avez déjà une demande en instance pour ce groupe&#8239;!';
 
 // Use numeric entities in the below string, as it's to be used in emails.
 $txt['database_error'] = 'Erreur de base de donn&#233;es';
@@ -285,39 +293,39 @@ $txt['tried_to_repair'] = 'Wedge a d&#233;tect&#233; et a automatiquement essay&
 // Database errors (Class-DB.php)
 $txt['mysql_error_space'] = ' - vérifiez la taille de votre base de données ou contactez un administrateur du serveur.';
 $txt['try_again'] = 'Merci de réessayer. Si l\'erreur se reproduit, signalez cette erreur à un administrateur.';
-$txt['database_error_versions'] = '<strong>Note</strong>&nbsp;: Il est <em>possible</em> que votre base de données nécessite une mise à jour. Actuellement, la version des fichiers du forum est %1$s, alors que votre base de données est en version %2$s. L\'erreur signalée ci-dessus pourrait peut-être corrigée en exécutant la dernière version de upgrade.php.';
+$txt['database_error_versions'] = '<strong>Note</strong>&#8239;: Il est <em>possible</em> que votre base de données nécessite une mise à jour. Actuellement, la version des fichiers du forum est %1$s, alors que votre base de données est en version %2$s. L\'erreur signalée ci-dessus pourrait peut-être corrigée en exécutant la dernière version de upgrade.php.';
 // Line number in a file.
 $txt['line'] = 'Ligne';
 
 // Skin parsing errors
-$txt['template_parse_error'] = 'Erreur de traitement du modèle&nbsp;!';
+$txt['template_parse_error'] = 'Erreur de traitement du modèle&#8239;!';
 $txt['template_parse_error_message'] = 'Il semble que le forum rencontre actuellement quelques difficultés avec un de ses modèles graphiques. Le problème pourrait n\'être que temporaire, essayez de revenir plus tard. Si vous continuez à voir ce message, contactez l\'administrateur.<br><br>Vous pouvez aussi essayer de <a href="javascript:location.reload();">recharger la page</a>.';
 $txt['template_parse_error_details'] = 'Un problème s\'est produit durant le chargement du modèle ou du fichier de langue <tt><strong>%1$s</strong></tt>. Vérifiez la syntaxe et réessayez. Rappelez-vous que les apostrophes (<tt>\'</tt>) doivent souvent être échappées via une barre oblique (<tt>\\</tt>). Pour obtenir plus de détails sur ces erreurs par PHP, essayez d\'<a href="{board_url}%1$s">accéder directement au fichier</a>.<br><br>Vous pouvez aussi <a href="javascript:location.reload();">recharger la page</a> ou <a href="<URL>?theme=1">utiliser le thème par défaut</a>.';
 
 $txt['security_risk'] = 'RISQUE DE SÉCURITÉ MAJEUR';
 $txt['cache_writable_head'] = 'Avertissement sur la performance';
 $txt['cache_writable'] = 'Le répertoire cache est protégé en écriture - cela affectera grandement la performance de votre forum.';
-$txt['not_removed'] = 'Vous n\'avez pas supprimé <strong>%1$s</strong>&nbsp;!';
+$txt['not_removed'] = 'Vous n\'avez pas supprimé <strong>%1$s</strong>&#8239;!';
 $txt['not_removed_extra'] = '%1$s est une copie de %2$s qui n\'a pas été générée par Wedge. Il est accessible directement et peut être exploité pour obtenir un accès non autorisé à votre forum. Vous devriez le supprimer immédiatement.';
 
 $txt['ssi_not_direct'] = 'Veuillez ne pas accéder directement à SSI.php par l\'URL; utilisez plutôt le chemin (%1$s) ou ajoutez ?ssi_function=quelquechose.';
-$txt['ssi_session_broken'] = 'SSI.php n\'a pas pu charger une session&nbsp;! Cela peut causer des problèmes pour la déconnexion et d\'autres fonctions - veuillez vous assurer que SSI.php est inclus avant *tout* le reste de votre code dans vos scripts&nbsp;!';
+$txt['ssi_session_broken'] = 'SSI.php n\'a pas pu charger une session&#8239;! Cela peut causer des problèmes pour la déconnexion et d\'autres fonctions - veuillez vous assurer que SSI.php est inclus avant *tout* le reste de votre code dans vos scripts&#8239;!';
 
 $txt['icon_not_found'] = 'L\'icône de message n\'a pu être trouvée pour le thème par défaut - veuillez vous assurer que l\'image a bien été transférée et essayez de nouveau.';
-$txt['icon_after_itself'] = 'L\'icône ne peut pas être positionnée après elle-même&nbsp;!';
+$txt['icon_after_itself'] = 'L\'icône ne peut pas être positionnée après elle-même&#8239;!';
 $txt['icon_name_too_long'] = 'Les noms de fichier des icônes ne peuvent dépasser 16 caractès de long';
 
 $txt['name_censored'] = 'Désolé, le nom que vous tentez d\'utiliser, %1$s, contient des mots qui ont été censurés. Veuillez en choisir un autre.';
 
-$txt['poll_already_exists'] = 'Un sujet ne peut avoir qu\'un seul sondage associé&nbsp;!';
-$txt['poll_not_found'] = 'Il n\'y a aucun sondage associé à ce sujet&nbsp;!';
+$txt['poll_already_exists'] = 'Un sujet ne peut avoir qu\'un seul sondage associé&#8239;!';
+$txt['poll_not_found'] = 'Il n\'y a aucun sondage associé à ce sujet&#8239;!';
 
 $txt['error_while_adding_poll'] = 'L\'erreur ou les erreurs suivantes sont apparues lorsque vous ajoutiez ce sondage';
 $txt['error_while_editing_poll'] = 'L\'erreur ou les erreurs suivantes sont apparues lorsque vous modifiez ce sondage';
 
 $txt['loadavg_search_disabled'] = 'Dû à une charge élevée sur le serveur, la fonction de recherche a été automatiquement et temporairement désactivée. Réessayez un peu plus tard.';
 $txt['loadavg_generic_disabled'] = 'Dé dû à une charge élevée sur le serveur, cette fonction est actuellement indisponible.';
-$txt['loadavg_allunread_disabled'] = 'Les ressources du serveur sont temporairement surchargées&nbsp;; impossible de trouver tous les sujets que vous n\'avez pas lus.';
+$txt['loadavg_allunread_disabled'] = 'Les ressources du serveur sont temporairement surchargées&#8239;; impossible de trouver tous les sujets que vous n\'avez pas lus.';
 $txt['loadavg_unreadreplies_disabled'] = 'Le serveur est actuellement sous une charge élevée. Veuillez essayer de nouveau dans quelques instants.';
 $txt['loadavg_show_posts_disabled'] = 'Réessayer à nouveau plus tard. Les messages de ce membre ce sont pas disponibles actuellement du fait d\'une surcharge du serveur.';
 $txt['loadavg_unread_disabled'] = 'Le serveur est temporairement trop stressé pour permettre d\'afficher les sujets non lus.';
@@ -328,26 +336,26 @@ $txt['mc_no_modreport_specified'] = 'Vous devez spécifier quel rapport vous vou
 $txt['mc_no_modreport_found'] = 'Le rapport spécifié n\'existe pas, ou il est hors de portée pour vous';
 
 $txt['st_cannot_retrieve_file'] = 'Impossible de récupérer le fichier %1$s.';
-$txt['admin_file_not_found'] = 'Impossible de charger le fichier demandé&nbsp;: %1$s.';
+$txt['admin_file_not_found'] = 'Impossible de charger le fichier demandé&#8239;: %1$s.';
 
 $txt['themes_none_selectable'] = 'Au moins un thème doit pouvoir être sélectionné.';
 $txt['themes_default_selectable'] = 'Le thème par défaut global du forum doit être un thème sélectionnable.';
 $txt['ignoreboards_disallowed'] = 'L\'option pour ignorer les sections n\'a pas été activée.';
 $txt['ignoretopics_disallowed'] = 'L\'option pour ignorer les sujets n\'a pas été activée.';
 
-$txt['mboards_delete_error'] = 'Pas de catégorie sélectionnée&nbsp;!';
-$txt['mboards_delete_board_error'] = 'Pas de section sélectionnée&nbsp;!';
+$txt['mboards_delete_error'] = 'Pas de catégorie sélectionnée&#8239;!';
+$txt['mboards_delete_board_error'] = 'Pas de section sélectionnée&#8239;!';
 $txt['mboards_parent_own_child_error'] = 'Impossible de faire d\'un parent son propre enfant !';
 $txt['mboards_board_own_child_error'] = 'Impossible de faire d\'une section son propre enfant !';
 
-$txt['smileys_upload_error_notwritable'] = 'Les répertoires de smileys suivants ne sont pas inscriptibles&nbsp;: %1$s';
-$txt['smileys_upload_error_types'] = 'Les fichiers des smileys sont limités à ces extensions&nbsp;: %1$s.';
+$txt['smileys_upload_error_notwritable'] = 'Les répertoires de smileys suivants ne sont pas inscriptibles&#8239;: %1$s';
+$txt['smileys_upload_error_types'] = 'Les fichiers des smileys sont limités à ces extensions&#8239;: %1$s.';
 
 $txt['change_email_success'] = 'Votre adresse e-mail a été changée, et un nouvel e-mail d\'activation a été envoyé.';
 $txt['resend_email_success'] = 'L\'e-mail d\'activation a été renvoyé avec succès.';
 
-$txt['custom_option_need_name'] = 'L\'option du profil doit avoir un nom&nbsp;!';
-$txt['custom_option_not_unique'] = 'Le nom du champ n\'est pas unique&nbsp;!';
+$txt['custom_option_need_name'] = 'L\'option du profil doit avoir un nom&#8239;!';
+$txt['custom_option_not_unique'] = 'Le nom du champ n\'est pas unique&#8239;!';
 
 $txt['warning_no_reason'] = 'Vous devez entrer une raison pour sanctionner un membre';
 $txt['warning_notify_blank'] = 'Vous avez choisi de notifier l\'utilisateur, mais vous n\'avez pas rempli les champs de titre/message.';
@@ -363,14 +371,14 @@ $txt['error_custom_field_empty'] = 'Le champ &quot;%1$s&quot; ne peut être lais
 
 $txt['email_no_template'] = 'Le modèle d\'e-mail &quot;%1$s&quot; est introuvable.';
 
-$txt['search_api_missing'] = 'L\'API de recherche est introuvable&nbsp;! Veuillez contacter l\'administrateur pour vérifier s\'ils ont mis les bons fichiers sur le serveur.';
+$txt['search_api_missing'] = 'L\'API de recherche est introuvable&#8239;! Veuillez contacter l\'administrateur pour vérifier s\'ils ont mis les bons fichiers sur le serveur.';
 $txt['search_api_not_compatible'] = 'L\'API de recherche sélectionnée n\'est pas à jour - Wedge utilisera la recherche standard à la place. Veuillez vérifier le fichier %1$s.';
 
 // Restore topic/posts
 $txt['cannot_restore_first_post'] = 'Vous ne pouvez restaurer le premier message d\'un sujet.';
 $txt['parent_topic_missing'] = 'Le sujet auquel appartenait le message que vous essayez de restaurer a été supprimé entretemps.';
 $txt['restored_disabled'] = 'La restauration de sujets a été désactivée.';
-$txt['restore_not_found'] = 'Les messages suivants n\'ont pas pu être restaurés; le sujet original a peut-être été supprimé entretemps&nbsp;:<ul style="margin-top: 0">%1$s</ul>Vous devrez les déplacer manuellement.';
+$txt['restore_not_found'] = 'Les messages suivants n\'ont pas pu être restaurés; le sujet original a peut-être été supprimé entretemps&#8239;:<ul style="margin-top: 0">%1$s</ul>Vous devrez les déplacer manuellement.';
 
 $txt['error_invalid_dir'] = 'Le répertoire que vous avez spécifié est invalide.';
 

@@ -3,25 +3,25 @@
 
 $txt['changes_saved'] = 'Vos changements ont été pris en compte.';
 
-$txt['minutes_remaining_message'] = 'Vous devrez re-rentrer votre mot de passe dans&nbsp;: %s';
+$txt['minutes_remaining_message'] = 'Vous devrez re-rentrer votre mot de passe dans&#8239;: %s';
 $txt['minutes_remaining'] = array(
 	'0' => 'moins d\'1 minute',
 	'1' => '1 minute',
 	'n' => '%s minutes',
 );
 
-$txt['new_to_wedge'] = 'Vous découvrez Wedge&nbsp;?';
+$txt['new_to_wedge'] = 'Vous découvrez Wedge&#8239;?';
 $txt['hide_new_to_wedge'] = 'Merci, ça ira maintenant.';
 $txt['new_to_wedge_intro'] = 'Si vous n\'êtes pas familier avec Wedge, voici quelques tâches que vous pourriez avoir envie de réaliser.';
-$txt['new_to_wedge_add_boards'] = 'Voulez-vous ajouter une <strong>nouvelle section</strong> au forum&nbsp;?';
+$txt['new_to_wedge_add_boards'] = 'Voulez-vous ajouter une <strong>nouvelle section</strong> au forum&#8239;?';
 $txt['new_to_wedge_add_boards_answer'] = 'Allez voir dans <a href="%1$s">Sites et catégories</a>.';
-$txt['new_to_wedge_mod_filters'] = 'Ou peut-être <strong>modérer</strong> les messages des nouveaux utilisateurs&nbsp;?';
+$txt['new_to_wedge_mod_filters'] = 'Ou peut-être <strong>modérer</strong> les messages des nouveaux utilisateurs&#8239;?';
 $txt['new_to_wedge_mod_filters_answer'] = 'Vous pouvez ajouter des <a href="%1$s">filtres de modération</a> via un assistant.';
-$txt['new_to_wedge_default_skin'] = 'Choisir le <strong>style visuel</strong> par défaut du site&nbsp;?';
-$txt['new_to_wedge_default_skin_answer'] = 'C\'est par ici&nbsp;: <a href="%1$s">Gérer et Installer des thèmes</a>.';
-$txt['new_to_wedge_censored'] = 'Ou bien encore <strong>cacher</strong> ces mots que vous ne sauriez voir&nbsp;?';
+$txt['new_to_wedge_default_skin'] = 'Choisir le <strong>style visuel</strong> par défaut du site&#8239;?';
+$txt['new_to_wedge_default_skin_answer'] = 'C\'est par ici&#8239;: <a href="%1$s">Gérer et Installer des thèmes</a>.';
+$txt['new_to_wedge_censored'] = 'Ou bien encore <strong>cacher</strong> ces mots que vous ne sauriez voir&#8239;?';
 $txt['new_to_wedge_censored_answer'] = 'Direction <a href="%1$s">Messages et sujets &raquo; Mots censurés</a>.';
-$txt['new_to_wedge_antispam'] = 'Et que diriez-vous d\'ajouter des questions personnalisées, pour repousser à coup sûr les <strong>spammeurs</strong>&nbsp;?';
+$txt['new_to_wedge_antispam'] = 'Et que diriez-vous d\'ajouter des questions personnalisées, pour repousser à coup sûr les <strong>spammeurs</strong>&#8239;?';
 $txt['new_to_wedge_antispam_answer'] = 'Bonne idée ! Allons dans la section <a href="%1$s">Anti-Spam</a>.';
 
 $txt['admin_center'] = 'Centre d\'administration';
@@ -64,7 +64,7 @@ $txt['admin_wedgepackage'] = 'Wedge';
 $txt['admin_maintenance'] = 'Serveur et Maintenance';
 $txt['admin_image_text'] = 'Montrer les boutons en tant qu\'images plutôt qu\'en textes';
 $txt['admin_credits'] = 'Crédits';
-$txt['admin_agreement'] = 'Afficher et exiger l\'accord des conditions lors de l\'inscription&nbsp;?';
+$txt['admin_agreement'] = 'Afficher et exiger l\'accord des conditions lors de l\'inscription&#8239;?';
 $txt['admin_agreement_default'] = 'Défaut';
 $txt['admin_agreement_select_language'] = 'Langue à modifier';
 $txt['admin_agreement_select_language_change'] = 'Changer';
@@ -73,7 +73,7 @@ $txt['admin_repair'] = 'Réparer tous les sites et sujets';
 $txt['admin_news_desc'] = 'Cette page vous permet de créer les news qui apparaissent en haut du forum, ainsi que dans la bannière tournante.';
 $txt['administrators'] = 'Administrateurs du forum';
 $txt['admin_activation_email'] = 'Envoyer un e-mail d\'activation aux nouveaux membres lors de l\'inscription';
-$txt['admin_newsletter_send'] = 'Vous pouvez envoyer un e-mail à n\'importe qui à partir de cette page. Les adresses e-mail des groupes de membres sélectionnés devraient apparaîre ci-dessous, mais vous pouvez enlever ou ajouter n\'importe quelle adresse de votre choix. Veillez à vérifiez de séparer chaque adresse selon ce format&nbsp;: \'adresse1@qqch.com; adresse2@qqch.com\'.';
+$txt['admin_newsletter_send'] = 'Vous pouvez envoyer un e-mail à n\'importe qui à partir de cette page. Les adresses e-mail des groupes de membres sélectionnés devraient apparaîre ci-dessous, mais vous pouvez enlever ou ajouter n\'importe quelle adresse de votre choix. Veillez à vérifiez de séparer chaque adresse selon ce format&#8239;: \'adresse1@qqch.com; adresse2@qqch.com\'.';
 
 $txt['admin_backup_fail'] = 'Impossible de créer une copie de secours (backup) de Settings.php. Assurez-vous que Settings_bak.php existe et possède les bons droits d\'accès.';
 $txt['database_server'] = 'Serveur de base de données';
@@ -85,11 +85,11 @@ $txt['registration_agreement_desc'] = 'L\'accord d\'inscription est affiché lor
 $txt['database_prefix'] = 'Préfixe des tables';
 $txt['errors_list'] = 'Liste des erreurs du forum';
 $txt['errors_found'] = 'Les erreurs suivantes affectent votre forum (vide si aucune)';
-$txt['errors_fix'] = 'Voulez-vous essayer de corriger ces erreurs&nbsp;?';
-$txt['errors_do_recount'] = 'Toutes les erreurs ont été corrigées. Une section de sauvetage a été créée&nbsp;! Cliquez sur le bouton ci-dessous pour recalculer quelques statistiques importantes.';
+$txt['errors_fix'] = 'Voulez-vous essayer de corriger ces erreurs&#8239;?';
+$txt['errors_do_recount'] = 'Toutes les erreurs ont été corrigées. Une section de sauvetage a été créée&#8239;! Cliquez sur le bouton ci-dessous pour recalculer quelques statistiques importantes.';
 $txt['errors_recount_now'] = 'Recalculer les Statistiques';
 $txt['errors_fixing'] = 'Règle les erreurs du forum';
-$txt['errors_fixed'] = 'Toutes les erreurs sont réglées&nbsp;! Regardez toutes les catégories, les sites et sujets existants et choisissez ce que vous voulez en faire.';
+$txt['errors_fixed'] = 'Toutes les erreurs sont réglées&#8239;! Regardez toutes les catégories, les sites et sujets existants et choisissez ce que vous voulez en faire.';
 $txt['attachments_avatars'] = 'Fichiers joints et avatars';
 $txt['attachments_desc'] = 'À partir d\'ici, vous pouvez administrer les fichiers joints à votre forum par vos utilisateurs. Vous pouvez supprimer les fichiers joints par taille et par date de votre système. Les statistiques concernant les fichiers attachés sont présentées ci-dessous.';
 $txt['attachment_stats'] = 'Statistiques des fichiers joints';
@@ -143,7 +143,7 @@ $txt['ip_address'] = 'Adresse IP';
 $txt['member_id'] = 'ID';
 
 $txt['unknown'] = 'inconnu';
-$txt['security_wrong'] = 'Tentative de connexion à l\'administration&nbsp;!' . "\n" . 'Référant : %1$s' . "\n" . 'User-Agent : %2$s' . "\n" . 'IP : %3$s';
+$txt['security_wrong'] = 'Tentative de connexion à l\'administration&#8239;!' . "\n" . 'Référant : %1$s' . "\n" . 'User-Agent : %2$s' . "\n" . 'IP : %3$s';
 
 $txt['email_as_html'] = 'Envoyer au format HTML. (Vous pouvez utiliser du HTML normal dans cet e-mail.)';
 $txt['email_parsed_html'] = 'Ajouter les balises &lt;br&gt; et &amp;nbsp; au message.';
@@ -169,7 +169,7 @@ $txt['maintain_sub_routine'] = 'Routinière';
 $txt['maintain_sub_members'] = 'Membres';
 $txt['maintain_sub_topics'] = 'Sujets';
 $txt['maintain_done'] = 'La tâche de maintenance \'%1$s\' a été accomplie avec succès.';
-$txt['maintain_no_errors'] = 'Félicitations, aucune erreur n\'a été trouvée&nbsp;! Merci d\'avoir effectué une vérification.';
+$txt['maintain_no_errors'] = 'Félicitations, aucune erreur n\'a été trouvée&#8239;! Merci d\'avoir effectué une vérification.';
 
 $txt['maintain_tasks'] = 'Tâches planifiées';
 $txt['maintain_tasks_desc'] = 'Organiser les tâches planifiées par Wedge.';
@@ -367,10 +367,10 @@ $txt['avatar_server_stored_groups'] = 'Les Groupes de membres sont autorisés à
 $txt['avatar_upload_groups'] = 'Les Groupes de membres sont autorisés à transférer leur propre avatar sur le serveur';
 $txt['avatar_external_url_groups'] = 'Groupes de membres autorisés à sélectionner des avatars externes';
 $txt['gravatar_settings'] = 'Gravatars (Avatars multi-sites, gravatar.com)';
-$txt['gravatarEnabled'] = 'Autoriser les utilisateurs à utiliser des Gravatars&nbsp;?';
-$txt['gravatarOverride'] = 'Forcer l\'utilisation des Gravatars à la place des avatars&nbsp;?';
-$txt['gravatarAllowExtraEmail'] = 'Permettre de fournir une autre adresse e-mail pour son Gravatar&nbsp;?';
-$txt['gravatarMaxRating'] = 'Classification maximale autorisée&nbsp;?';
+$txt['gravatarEnabled'] = 'Autoriser les utilisateurs à utiliser des Gravatars&#8239;?';
+$txt['gravatarOverride'] = 'Forcer l\'utilisation des Gravatars à la place des avatars&#8239;?';
+$txt['gravatarAllowExtraEmail'] = 'Permettre de fournir une autre adresse e-mail pour son Gravatar&#8239;?';
+$txt['gravatarMaxRating'] = 'Classification maximale autorisée&#8239;?';
 $txt['gravatar_maxG'] = 'G (Tous publics)';
 $txt['gravatar_maxPG'] = 'PG (À la discrétion des parents)';
 $txt['gravatar_maxR'] = 'R (Public mature)';
@@ -396,7 +396,7 @@ $txt['click_to_see_more'] = 'Cliquez pour voir la liste complète';
 $txt['repair_attachments'] = 'Maintenance des Fichiers joints';
 $txt['repair_attachments_complete'] = 'Maintenance complétée';
 $txt['repair_attachments_complete_desc'] = 'Toutes les erreurs sélectionnées ont maintenant été corrigées';
-$txt['repair_attachments_no_errors'] = 'Aucune erreur n\'a été trouvée&nbsp;!';
+$txt['repair_attachments_no_errors'] = 'Aucune erreur n\'a été trouvée&#8239;!';
 $txt['repair_attachments_error_desc'] = 'Les erreurs suivantes ont été rencontrées durant la maintenance. Cochez la boîte accompagnant les erreurs que vous souhaitez corriger et cliquez sur Continuer.';
 $txt['repair_attachments_continue'] = 'Continuer';
 $txt['repair_attachments_cancel'] = 'Annuler';
@@ -414,7 +414,7 @@ $txt['news_settings_desc'] = 'Ici vous pouvez changer les options et permissions
 $txt['news_mailing_desc'] = 'Depuis ce menu vous pouvez envoyer des messages à tous les membres qui se sont inscrits et ont spécifié leur adresse e-mail. Vous pouvez modifier la liste de distribution, ou envoyer un message à tous. Utile pour informer des mises à jour et nouvelles importantes.';
 $txt['groups_edit_news'] = 'Groupes autorisés à modifier les nouvelles';
 $txt['groups_send_mail'] = 'Groupes autorisés à envoyer les infolettres du forum';
-$txt['editnews_remove_confirm'] = 'Voulez-vous vraiment supprimer les nouvelles sélectionnées&nbsp;?';
+$txt['editnews_remove_confirm'] = 'Voulez-vous vraiment supprimer les nouvelles sélectionnées&#8239;?';
 $txt['editnews_no_news'] = 'Aucune nouvelle en place. Appuyez sur le bouton ci-dessous pour en ajouter une.';
 $txt['editnews_add'] = 'Ajouter une news';
 $txt['editnews_edit'] = 'Modifier une news';
@@ -423,7 +423,7 @@ $txt['editnews_privacy_a'] = 'Admins uniquement';
 $txt['editnews_privacy_s'] = 'Équipe/modérateurrs uniquement';
 $txt['editnews_privacy_m'] = 'Membres uniquement';
 $txt['editnews_privacy_e'] = 'Tout le monde';
-$txt['editnews_visible'] = 'Cette news est&nbsp;:';
+$txt['editnews_visible'] = 'Cette news est&#8239;:';
 
 $txt['censor_clickadd'] = 'Cliquez ici pour ajouter un autre mot.';
 
@@ -431,9 +431,9 @@ $txt['layout_controls'] = 'Forum';
 $txt['logs'] = 'Journaux';
 $txt['generate_reports'] = 'Rapports Détaillés';
 
-$txt['update_available'] = 'Mise à jour disponible&nbsp;!';
+$txt['update_available'] = 'Mise à jour disponible&#8239;!';
 $txt['update_message'] = 'Vous utilisez une version périmée de Wedge, qui contient quelques bugs qui ont pu être corrigés depuis la dernière révision.
-	Il est très fortement conseillé de <a href="" id="update-link">mettre à jour votre forum</a> à la dernière révision stable le plus rapidement possible. Cela ne prendra qu\'une minute&nbsp;!';
+	Il est très fortement conseillé de <a href="" id="update-link">mettre à jour votre forum</a> à la dernière révision stable le plus rapidement possible. Cela ne prendra qu\'une minute&#8239;!';
 
 $txt['manageposts'] = 'Messages et sujets';
 $txt['manageposts_title'] = 'Gérer les messages et les sujets';
@@ -467,7 +467,7 @@ $txt['manageposts_merge'] = 'Doublons';
 
 $txt['removeNestedQuotes'] = 'Supprimer les citations imbriquées en citant un message';
 $txt['enableEmbeddedFlash'] = 'Autoriser l\'intégration d\'animations Flash dans les messages';
-$txt['enableEmbeddedFlash_warning'] = 'Peut constituer un risque de sécurité&nbsp;!';
+$txt['enableEmbeddedFlash_warning'] = 'Peut constituer un risque de sécurité&#8239;!';
 $txt['additional_options_collapsable'] = 'Activer les Options Supplémentaires (à l\'écriture des messages)';
 $txt['disable_wysiwyg'] = 'Désactiver l\'éditeur WYSIWYG';
 $txt['max_messageLength'] = 'Longueur maximale des messages';
@@ -510,10 +510,10 @@ $txt['masterSavePmDrafts'] = 'Activer les brouillons dans la messagerie';
 $txt['masterAutoSavePmDrafts'] = 'Activer la sauvegarde automatique des brouillons de messagerie';
 $txt['draftsave_subnote'] = 'Veuillez noter que l\'utilisateur aura en plus besoin d\'avoir la permission correspondante activée pour son groupe.';
 $txt['draftautosave_subnote'] = 'Cela ne remplace pas l\'option ci-dessus mais étend simplement son champ. De plus, l\'utilisateur doit avoir la permission associée.';
-$txt['masterAutoSaveDraftsDelay'] = 'À quelle fréquence sauvegarder les brouillons automatiquement&nbsp;?';
-$txt['pruneSaveDrafts'] = 'Purger les brouillons après combien de jours&nbsp;?';
+$txt['masterAutoSaveDraftsDelay'] = 'À quelle fréquence sauvegarder les brouillons automatiquement&#8239;?';
+$txt['pruneSaveDrafts'] = 'Purger les brouillons après combien de jours&#8239;?';
 
-$txt['not_done_title'] = 'Pas encore effectué&nbsp;!';
+$txt['not_done_title'] = 'Pas encore effectué&#8239;!';
 $txt['not_done_reason'] = 'Afin d\'éviter la surcharge de votre serveur, le processus a été interrompu temporairement. Il devrait reprendre automatiquement dans quelques secondes. S\'il ne reprend pas, veuillez cliquer sur le lien &quot;Continuer&quot; ci-dessous.';
 $txt['not_done_continue'] = 'Continuer';
 
@@ -547,16 +547,16 @@ $txt['admin_news_select_excluded_groups_desc'] = 'Sélectionnez les groupes ne d
 $txt['admin_news_select_email'] = 'Adresses e-mail';
 $txt['admin_news_select_email_desc'] = 'Une liste d\'adresses e-mail séparées par des points-virgules, à laquelle sera envoyée l\'infolettre. (Par ex: adresse1; adresse2)';
 $txt['admin_news_select_override_notify'] = 'Outrepasser les Paramètres de Notification existants';
-$txt['admin_news_cannot_pm_emails_js'] = 'Vous ne pouvez pas envoyer de message personnel à une adresse e-mail. Si vous continuez, toutes les adresses e-mail seront ignorées.<br><br>Êtes-vous sûr de vouloir faire cela&nbsp;?';
+$txt['admin_news_cannot_pm_emails_js'] = 'Vous ne pouvez pas envoyer de message personnel à une adresse e-mail. Si vous continuez, toutes les adresses e-mail seront ignorées.<br><br>Êtes-vous sûr de vouloir faire cela&#8239;?';
 
 $txt['admin_search'] = 'Recherche Rapide';
 $txt['admin_search_type_internal'] = 'Tâche/Option';
 $txt['admin_search_type_member'] = 'Membre';
 $txt['admin_search_go'] = 'Aller';
 $txt['admin_search_results'] = 'Résultats Recherche';
-$txt['admin_search_results_desc'] = 'Résultats de la recherche&nbsp;: &quot;%1$s&quot;';
+$txt['admin_search_results_desc'] = 'Résultats de la recherche&#8239;: &quot;%1$s&quot;';
 $txt['admin_search_results_again'] = 'Rechercher à nouveau';
-$txt['admin_search_results_none'] = 'Aucun résultat&nbsp;!';
+$txt['admin_search_results_none'] = 'Aucun résultat&#8239;!';
 $txt['admin_search_welcome'] = 'Bienvenue dans le panneau d\'administration de Wedge. Vous pouvez accéder aux pages d\'options via le menu ci-dessus, ou par les raccourcis ci-dessous. Si vous vous perdez, essayez de taper à droite un mot ou deux de la fonctionnalité que vous cherchez.';
 
 $txt['admin_search_section_sections'] = 'Section';
@@ -617,7 +617,7 @@ $txt['allow_ignore_topics'] = 'Permettre aux membres d\'ignorer des sujets';
 $txt['merge_post_header'] = 'Fusion des doublons';
 $txt['merge_post_auto'] = 'Fusionner les doublons automatiquement<dfn>Dans un sujet, deux messages successifs d\'un même auteur sont considérés comme des doublons.</dfn>';
 $txt['merge_post_auto_time'] = 'Temps maximum entre deux messages pour qu\'ils soient fusionnés automatiquement.';
-$txt['merge_post_auto_time_subtext'] = '(en secondes&nbsp;; mettez 0 pour toujours fusionner)';
+$txt['merge_post_auto_time_subtext'] = '(en secondes&#8239;; mettez 0 pour toujours fusionner)';
 $txt['merge_post_admin_double_post'] = 'Fusionner les doublons des admins';
 $txt['merge_post_no_time'] = 'Ne pas indiquer l\'ancienne date avant le séparateur';
 $txt['merge_post_no_sep'] = 'Ne montrer ni le séparateur ni l\'ancienne date';

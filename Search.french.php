@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; Search
 
-$txt['search_scope'] = 'Où&nbsp;?';
+$txt['search_scope'] = 'Où&#8239;?';
 $txt['search_this_topic'] = 'Dans ce sujet';
 $txt['search_this_board'] = 'Dans cette section';
 $txt['search_everywhere'] = 'Partout';
@@ -14,16 +14,16 @@ $txt['choose_board'] = 'Chercher dans des sections spécifiques';
 $txt['all_boards'] = 'Chercher dans toutes les sections';
 $txt['all_words'] = 'contenant tous ces mots';
 $txt['any_words'] = 'contenant n\'importe lequel de ces mots';
-$txt['by_user'] = 'Par l\'utilisateur&nbsp;';
+$txt['by_user'] = 'Par l\'utilisateur&#8239;';
 
-$txt['search_post_age'] = 'Âge du message&nbsp;';
+$txt['search_post_age'] = 'Âge du message&#8239;';
 $txt['search_between'] = 'entre';
 $txt['search_and'] = 'et';
-$txt['search_options'] = 'Options&nbsp;';
+$txt['search_options'] = 'Options&#8239;';
 $txt['search_show_complete_messages'] = 'Afficher les résultats comme des messages';
 $txt['search_subject_only'] = 'Titres des sujets seulement';
 $txt['search_relevance'] = 'Pertinence';
-$txt['search_order'] = 'Ordre de recherche&nbsp;';
+$txt['search_order'] = 'Ordre de recherche&#8239;';
 $txt['search_orderby_relevant_first'] = 'Les résultats les plus pertinents en premier';
 $txt['search_orderby_large_first'] = 'Les plus longs sujets en premier';
 $txt['search_orderby_small_first'] = 'Les plus courts sujets en premier';
@@ -76,12 +76,12 @@ $txt['search_index_custom_warning'] = 'Pour pouvoir utiliser un index de recherc
 $txt['search_force_index'] = 'Forcer l\'utilisation d\'un index personnalisé';
 $txt['search_match_words'] = 'Ne chercher que sur des mots complets';
 $txt['search_max_results'] = 'Nombre maximal de résultats à afficher';
-$txt['search_max_results_disable'] = '(0&nbsp;: aucune limite)';
+$txt['search_max_results_disable'] = '(0&#8239;: aucune limite)';
 $txt['search_floodcontrol_time'] = 'Délai nécessaire entre les recherches d\'un même membre';
 $txt['search_floodcontrol_time_desc'] = '(en secondes, 0 pour pas de limite)';
 
 $txt['search_create_index'] = 'Créer un index';
-$txt['search_create_index_why'] = 'Pourquoi créer un index de recherche&nbsp;?';
+$txt['search_create_index_why'] = 'Pourquoi créer un index de recherche&#8239;?';
 $txt['search_create_index_start'] = 'Créer';
 $txt['search_predefined'] = 'Profil pré-défini';
 $txt['search_predefined_small'] = 'Index de petite taille';
@@ -90,7 +90,7 @@ $txt['search_predefined_large'] = 'Index de taille importante';
 $txt['search_create_index_continue'] = 'Poursuivre';
 $txt['search_create_index_not_ready'] = 'Wedge est en train de créer un index de recherche de vos messages. Afin d\'éviter une surcharge du serveur, le processus a été temporairement interrompu. Il devrait reprendre automatiquement dans quelques secondes. Si ce n\'est pas le cas, veuillez cliquer sur &quot;Poursuivre&quot;.';
 $txt['search_create_index_progress'] = 'Progression';
-$txt['search_create_index_done'] = 'Index de recherche personnalisé créé&nbsp;!';
+$txt['search_create_index_done'] = 'Index de recherche personnalisé créé&#8239;!';
 $txt['search_create_index_done_link'] = 'Poursuivre';
 
 $txt['search_error_indexed_chars'] = 'Nombre invalide de caractères indéxés. Pour un index performant, au moins 3 caractères sont nécessaires.';
@@ -101,11 +101,11 @@ $txt['search_adjust_query'] = 'Ajuster les paramètres de recherche';
 $txt['search_adjust_submit'] = 'Réviser la recherche';
 $txt['search_did_you_mean'] = 'Vous avez peut-être voulu chercher';
 
-$txt['search_example'] = '<em>ex&nbsp;:</em> Orwell "La Ferme des animaux" -film';
+$txt['search_example'] = '<em>ex&#8239;:</em> Orwell "La Ferme des animaux" -film';
 
 $txt['search_engines_description'] = 'D\'ici, vous pouvez décider dans quelle mesure vous voulez surveiller les moteurs de recherche lors de leur indexation du forum, ainsi que consulter le journal des visites de ces moteurs.';
 $txt['spider_mode'] = 'Surveillance des Moteurs de recherche';
-$txt['spider_mode_subtext'] = 'Note&nbsp;: une surveillance plus élevée augmente les ressources serveur nécessaires.';
+$txt['spider_mode_subtext'] = 'Note&#8239;: une surveillance plus élevée augmente les ressources serveur nécessaires.';
 $txt['spider_mode_off'] = 'Désactivée';
 $txt['spider_mode_standard'] = 'Standard - Le journal note l\'activité de base du robot.';
 $txt['spider_mode_high'] = 'Haute - Fournit des statistiques plus précises.';
@@ -130,7 +130,7 @@ $txt['spider_ip_info'] = 'Adresses IP';
 $txt['spiders_add'] = 'Ajouter un nouveau Robot';
 $txt['spiders_edit'] = 'Modifier';
 $txt['spiders_remove_selected'] = 'Supprimer les robots sélectionnés';
-$txt['spider_remove_selected_confirm'] = 'Êtes-vous sûr de vouloir supprimer ces robots&nbsp;?<br><br>Toutes les statistiques associées seront aussi effacées&nbsp;!';
+$txt['spider_remove_selected_confirm'] = 'Êtes-vous sûr de vouloir supprimer ces robots&#8239;?<br><br>Toutes les statistiques associées seront aussi effacées&#8239;!';
 $txt['spiders_no_entries'] = 'Aucun robot configuré pour le moment.';
 
 $txt['add_spider_desc'] = 'D\'ici, vous pouvez modifier les paramètres permettant de reconnaître un robot. Si le User-Agent ou l\'adresse IP d\'un invité correspond à ce qui est entré ci-dessous, il sera considéré comme un robot de moteur de recherche et surveillé comme demandé dans les préférences du forum.';

@@ -28,8 +28,8 @@ $txt['jquery_google'] = 'Par le réseau de Google';
 $txt['jquery_microsoft'] = 'Par le réseau de Microsoft';
 $txt['disableTemplateEval'] = 'Désactiver l\'évaluation des modèles (templates)';
 $txt['db_show_debug'] = 'Montrer les informations de débogage';
-$txt['db_show_debug_who'] = 'Montrer les informations de débogage à ces utilisateurs&nbsp;:';
-$txt['db_show_debug_who_log'] = 'Montrer la liste des requêtes SQL exécutées à ces utilisateurs&nbsp;:';
+$txt['db_show_debug_who'] = 'Montrer les informations de débogage à ces utilisateurs&#8239;:';
+$txt['db_show_debug_who_log'] = 'Montrer la liste des requêtes SQL exécutées à ces utilisateurs&#8239;:';
 $txt['db_show_debug_admin'] = 'Administrateurs uniquement';
 $txt['db_show_debug_admin_mod'] = 'Administrateurs et modérateurs';
 $txt['db_show_debug_regular'] = 'Tous les membres connectés';
@@ -60,9 +60,9 @@ $txt['cookieTime'] = 'Durée par défaut des cookies (<em>témoins</em>) - en mi
 $txt['localCookies'] = 'Activer l\'archivage local des cookies';
 $txt['localCookies_subtext'] = '(SSI ne fonctionnera pas bien si ceci est activé.)';
 $txt['globalCookies'] = 'Utiliser des cookies valides pour tous les sous-domaines';
-$txt['globalCookies_subtext'] = '(désactivez d\'abord l\'archivage local des cookies&nbsp;!)';
+$txt['globalCookies_subtext'] = '(désactivez d\'abord l\'archivage local des cookies&#8239;!)';
 $txt['secureCookies'] = 'Forcer la sécurisation des cookies';
-$txt['secureCookies_subtext'] = '(Attention, à n\'utiliser que si votre site est en HTTPS&nbsp;!)';
+$txt['secureCookies_subtext'] = '(Attention, à n\'utiliser que si votre site est en HTTPS&#8239;!)';
 $txt['send_validation_onChange'] = 'Demander une réactivation après un changement d\'adresse e-mail';
 $txt['approveAccountDeletion'] = 'Nécessiter l\'approbation d\'un admin quand un membre supprime son compte';
 $txt['autoOptMaxOnline'] = 'Attendre pour l\'optimisation que le nombre d\'utilisateurs en ligne ne dépasse pas';
@@ -86,7 +86,7 @@ $txt['today_only'] = 'Seulement Aujourd\'hui';
 $txt['yesterday_today'] = 'Aujourd\'hui &amp; Hier';
 $txt['timeLoadPageEnable'] = 'Afficher le temps pris pour générer la page';
 $txt['disableHostnameLookup'] = 'Désactiver la recherche du nom d\'hôte';
-$txt['who_enabled'] = 'Activer &quot;Qui est en ligne&nbsp;?&quot;';
+$txt['who_enabled'] = 'Activer &quot;Qui est en ligne&#8239;?&quot;';
 $txt['display_who_viewing'] = 'Montrer qui visualise l\'accueil du forum et les messages';
 $txt['who_display_viewing_off'] = 'Ne pas montrer';
 $txt['who_display_viewing_numbers'] = 'Ne montrer que les nombres';
@@ -102,8 +102,8 @@ $txt['pm_draft_other_settings'] = 'Vous pouvez également choisir la fréquence 
 $txt['likes_enabled'] = 'Activer les J\'aime';
 $txt['likes_own_posts'] = 'Les utilisateurs peuvent aimer leurs propres messages';
 
-$txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important&nbsp;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br>
-	Wedge peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&nbsp;:<br>
+$txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important&#8239;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br>
+	Wedge peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&#8239;:<br>
 	<ul class="normallist">
 		<li>APC</li>
 		<li>Memcached</li>
@@ -116,7 +116,7 @@ $txt['caching_information'] = '<div class="center" style="font-weight: bold; tex
 	pour récupérer les informations. Si un système de cache est disponible sur votre serveur, il est recommandé de le tester au niveau 1 avant tout.
 	<br><br>
 	Veuillez noter que l\'utilisation de memcache nécessite que vous donniez quelques indications sur votre serveur dans les réglages à effectuer ci-dessous. Elles doivent être entrées sous forme de liste, dont les éléments sont séparés par une virgule,
-	comme dans l\'exemple suivant&nbsp;:<br>
+	comme dans l\'exemple suivant&#8239;:<br>
 	&quot;serveur1,serveur2,serveur3:port,serveur4&quot;<br>
 	Si aucun port n\'est spécifié, Wedge utilisera le port 11211 par défaut, et équilibrera de manière aléatoire la charge sur les serveurs.
 	<br><br>
@@ -135,7 +135,7 @@ $txt['cache_level2'] = 'Cache de niveau 2';
 $txt['cache_level3'] = 'Cache de niveau 3 (Non recommandé)';
 $txt['cache_memcached'] = 'Réglages de Memcache';
 
-$txt['loadavg_warning'] = '<span class="error">Attention, les paramètres ci-dessous doivent être modifiés avec prudence. Un paramètre trop bas pourrait rendre votre forum <strong>inutilisable</strong>&nbsp;! La charge moyenne actuelle est de <strong>%01.2f</strong></span>';
+$txt['loadavg_warning'] = '<span class="error">Attention, les paramètres ci-dessous doivent être modifiés avec prudence. Un paramètre trop bas pourrait rendre votre forum <strong>inutilisable</strong>&#8239;! La charge moyenne actuelle est de <strong>%01.2f</strong></span>';
 $txt['loadavg_enable'] = 'Activer la répartition de charge par moyennes';
 $txt['loadavg_auto_opt'] = 'Limite pour désactiver l\'optimisation automatique de la base de données';
 $txt['loadavg_search'] = 'Limite pour désactiver la recherche';
@@ -147,7 +147,7 @@ $txt['loadavg_disabled_conf'] = '<span class="error">La configuration de votre s
 
 $txt['news_settings_submit'] = 'Enregistrer';
 $txt['xmlnews_enable'] = 'Activer les flux Atom';
-$txt['xmlnews_maxlen'] = 'Longueur maximale d\'un message&nbsp;:';
+$txt['xmlnews_maxlen'] = 'Longueur maximale d\'un message&#8239;:';
 $txt['xmlnews_maxlen_subtext'] = '(0 pour désactiver, mauvaise idée.)';
 $txt['xmlnews_sidebar'] = 'Montrer le bloc "Flux de messages" dans la sidebar';
 $txt['show_newsfader'] = 'Activer la rotation des nouvelles sur la page d\'accueil';
@@ -175,8 +175,8 @@ $txt['guests_report_require_captcha'] = 'Les invités doivent passer la vérific
 
 $txt['configure_captcha'] = 'Configurer les images CAPTCHA';
 $txt['configure_captcha_desc'] = '<span class="smalltext">Un CAPTCHA est une forme de protection contre les robots spammeurs.</span>';
-$txt['use_captcha_images'] = 'Autoriser l\'emploi d\'images CAPTCHA&nbsp;?';
-$txt['use_animated_captcha'] = 'Utiliser des images animées pour les CAPTCHA&nbsp;?';
+$txt['use_captcha_images'] = 'Autoriser l\'emploi d\'images CAPTCHA&#8239;?';
+$txt['use_animated_captcha'] = 'Utiliser des images animées pour les CAPTCHA&#8239;?';
 $txt['use_animated_captcha_desc'] = 'Les tests CAPTCHA animés sont beaucoup plus difficiles à passer pour les robots, mais peuvent aussi gêner les humains...';
 
 $txt['setting_qa_verification_number'] = 'Nombre de questions de vérification auxquelles un utilisateur doit répondre';
@@ -208,56 +208,56 @@ $txt['setting_warning_show_all'] = 'Tout le monde';
 $txt['modfilter_norules'] = 'Aucune règle de filtrage pour le moment.';
 $txt['modfilter_addrule'] = 'Ajouter une règle de filtrage';
 $txt['modfilter_editrule'] = 'Modifier la règle de filtrage';
-$txt['modfilter_rule_posts'] = 'En soumettant un message&nbsp;:';
-$txt['modfilter_rule_topics'] = 'En démarrant un nouveau sujet&nbsp;:';
+$txt['modfilter_rule_posts'] = 'En soumettant un message&#8239;:';
+$txt['modfilter_rule_topics'] = 'En démarrant un nouveau sujet&#8239;:';
 $txt['modfilter_action_prevent'] = 'Empêcher le message d\'être sauvegardé';
 $txt['modfilter_action_moderate'] = 'Le modérateur doit approuver le message (avant qu\'il ne devienne public)';
 $txt['modfilter_action_pin'] = 'Épingler le sujet actuel';
 $txt['modfilter_action_unpin'] = 'Dépingler le sujet actuel';
 $txt['modfilter_action_lock'] = 'Fermer le sujet';
 $txt['modfilter_action_unlock'] = 'Rouvrir le sujet';
-$txt['modfilter_conditions'] = 'Si ces règles sont confirmées&nbsp;:';
-$txt['modfilter_cond_boards_in'] = 'Posté dans ces sections&nbsp;:';
-$txt['modfilter_cond_boards_ex'] = 'Posté partout sauf dans&nbsp;:';
-$txt['modfilter_cond_groups_in'] = 'Membre d\'un de ces groupes&nbsp;:';
-$txt['modfilter_cond_groups_ex'] = 'Pas membre d\'un de ces groupes&nbsp;:';
-$txt['modfilter_cond_permissions_in'] = 'A au moins une de ces permissions&nbsp;:';
-$txt['modfilter_cond_permissions_ex'] = 'N\'a aucune de ces permissions&nbsp;:';
-$txt['modfilter_cond_userid_in'] = 'L\'utilisateur est parmi&nbsp;:';
-$txt['modfilter_cond_userid_ex'] = 'L\'utilisateur n\'est pas parmi&nbsp;:';
-$txt['modfilter_cond_subject_begins'] = 'Le titre du message commence par&nbsp;:';
-$txt['modfilter_cond_subject_ends'] = 'Le titre du message se termine par&nbsp;:';
-$txt['modfilter_cond_subject_contains'] = 'Le titre du message contient&nbsp;:';
-$txt['modfilter_cond_subject_matches'] = 'Le titre du message correspond à cette expression régulière&nbsp;:';
-$txt['modfilter_cond_subject_regex'] = 'Le titre du message contient cette expression régulière&nbsp;:';
-$txt['modfilter_cond_body_begins'] = 'Le contenu du message commence par&nbsp;:';
-$txt['modfilter_cond_body_ends'] = 'Le contenu du message se termine par&nbsp;:';
-$txt['modfilter_cond_body_contains'] = 'Le contenu du message contient&nbsp;:';
-$txt['modfilter_cond_body_matches'] = 'Le contenu du message commence par cette expression régulière&nbsp;:';
-$txt['modfilter_cond_body_regex'] = 'Le contenu du message contient cette expression régulière&nbsp;:';
+$txt['modfilter_conditions'] = 'Si ces règles sont confirmées&#8239;:';
+$txt['modfilter_cond_boards_in'] = 'Posté dans ces sections&#8239;:';
+$txt['modfilter_cond_boards_ex'] = 'Posté partout sauf dans&#8239;:';
+$txt['modfilter_cond_groups_in'] = 'Membre d\'un de ces groupes&#8239;:';
+$txt['modfilter_cond_groups_ex'] = 'Pas membre d\'un de ces groupes&#8239;:';
+$txt['modfilter_cond_permissions_in'] = 'A au moins une de ces permissions&#8239;:';
+$txt['modfilter_cond_permissions_ex'] = 'N\'a aucune de ces permissions&#8239;:';
+$txt['modfilter_cond_userid_in'] = 'L\'utilisateur est parmi&#8239;:';
+$txt['modfilter_cond_userid_ex'] = 'L\'utilisateur n\'est pas parmi&#8239;:';
+$txt['modfilter_cond_subject_begins'] = 'Le titre du message commence par&#8239;:';
+$txt['modfilter_cond_subject_ends'] = 'Le titre du message se termine par&#8239;:';
+$txt['modfilter_cond_subject_contains'] = 'Le titre du message contient&#8239;:';
+$txt['modfilter_cond_subject_matches'] = 'Le titre du message correspond à cette expression régulière&#8239;:';
+$txt['modfilter_cond_subject_regex'] = 'Le titre du message contient cette expression régulière&#8239;:';
+$txt['modfilter_cond_body_begins'] = 'Le contenu du message commence par&#8239;:';
+$txt['modfilter_cond_body_ends'] = 'Le contenu du message se termine par&#8239;:';
+$txt['modfilter_cond_body_contains'] = 'Le contenu du message contient&#8239;:';
+$txt['modfilter_cond_body_matches'] = 'Le contenu du message commence par cette expression régulière&#8239;:';
+$txt['modfilter_cond_body_regex'] = 'Le contenu du message contient cette expression régulière&#8239;:';
 $txt['modfilter_case_sensitive'] = '(respecter la casse)';
 $txt['modfilter_case_insensitive'] = '(casse sans importance)';
-$txt['modfilter_cond_postcount'] = 'Nombre de messages&nbsp;:';
-$txt['modfilter_cond_warning'] = 'Niveau d\'avertissement (%)&nbsp;:';
-$txt['modfilter_cond_links'] = 'Nombre de liens dans le message&nbsp;:';
+$txt['modfilter_cond_postcount'] = 'Nombre de messages&#8239;:';
+$txt['modfilter_cond_warning'] = 'Niveau d\'avertissement (%)&#8239;:';
+$txt['modfilter_cond_links'] = 'Nombre de liens dans le message&#8239;:';
 $txt['modfilter_range_lt'] = 'inférieur à';
 $txt['modfilter_range_lte'] = 'inférieur ou égal à';
 $txt['modfilter_range_eq'] = 'égal à';
 $txt['modfilter_range_gt'] = 'supérieur à';
 $txt['modfilter_range_gte'] = 'supérieur ou égal à';
-$txt['modfilter_cond_unknownrule'] = 'Type de règle inconnu&nbsp;:';
+$txt['modfilter_cond_unknownrule'] = 'Type de règle inconnu&#8239;:';
 $txt['modfilter_approve_title'] = 'Approuver les éléments en attente';
 $txt['modfilter_approve_desc'] = 'S\'il y a des éléments en attente d\'approbation, ou si vous envisagez de désactiver les filtres de modération, vous devriez gérer tous les éléments en attente pour éviter de les perdre. Assurez-vous de vérifier les éléments modérés avant d\'utiliser cette option, pour éviter d\'approuver ce qui ne devrait pas l\'être.';
 $txt['modfilter_all_approved'] = 'Tous les éléments en attente de modération ont été approuvés.';
-$txt['modfilter_applies_legend'] = 'Quand cette règle doit-elle être appliquée&nbsp;?';
+$txt['modfilter_applies_legend'] = 'Quand cette règle doit-elle être appliquée&#8239;?';
 $txt['modfilter_applies_desc'] = 'Parfois, une règle de filtrage doit être appliquée à tous les messages, et d\'autres fois juste aux nouveaux sujets.';
-$txt['modfilter_applies_rule'] = 'À quoi cette règle doit-elle être appliquée&nbsp;?';
+$txt['modfilter_applies_rule'] = 'À quoi cette règle doit-elle être appliquée&#8239;?';
 $txt['modfilter_applies_posts'] = 'À tout nouveau message';
 $txt['modfilter_applies_topics'] = 'Quand un nouveau sujet est démarré';
-$txt['modfilter_action_legend'] = 'Que doit faire cette règle&nbsp;?';
-$txt['modfilter_action_desc'] = 'Chaque règle réalise au moins une action quand toutes les conditions sont remplies&nbsp;; "empêcher l\'envoi" et "modérer le message" excluent toute autre action possible.';
+$txt['modfilter_action_legend'] = 'Que doit faire cette règle&#8239;?';
+$txt['modfilter_action_desc'] = 'Chaque règle réalise au moins une action quand toutes les conditions sont remplies&#8239;; "empêcher l\'envoi" et "modérer le message" excluent toute autre action possible.';
 $txt['modfilter_action_selectone'] = '--- choisissez ---';
-$txt['modfilter_action_rule'] = 'Que doit-il se passer quand les conditions sont remplies&nbsp;?';
+$txt['modfilter_action_rule'] = 'Que doit-il se passer quand les conditions sont remplies&#8239;?';
 $txt['modfilter_actionlist_prevent'] = 'Empêcher l\'envoi du message';
 $txt['modfilter_actionlist_moderate'] = 'Modérer le message';
 $txt['modfilter_actionlist_pin'] = 'Épingler le sujet dans sa section';
@@ -268,8 +268,8 @@ $txt['modfilter_conds_legend'] = 'Conditions à remplir pour cette règle';
 $txt['modfilter_conds_desc'] = 'Les règles de filtrage nécessitent des conditions à remplir, pour déterminer si la règle doit s\'appliquer. Vous pouvez mettre en place ces conditions ici - elles doivent toutes être remplies pour que la règle soit activée.';
 $txt['modfilter_conds_item'] = 'Élément';
 $txt['modfilter_conds_criteria'] = 'Critère';
-$txt['modfilter_conds_no_conditions'] = 'Aucune condition mise en place. Ajoutez-en une&nbsp;!';
-$txt['modfilter_conds_new'] = 'Type de condition&nbsp;:';
+$txt['modfilter_conds_no_conditions'] = 'Aucune condition mise en place. Ajoutez-en une&#8239;!';
+$txt['modfilter_conds_new'] = 'Type de condition&#8239;:';
 $txt['modfilter_conds_add'] = 'Ajouter une condition';
 $txt['modfilter_conds_select'] = '--- choisissez un type de condition ---';
 $txt['modfilter_condtype_boards'] = 'S\'applique à des sections';
@@ -281,12 +281,12 @@ $txt['modfilter_condtype_permission'] = 'S\'applique en fonction des permissions
 $txt['modfilter_condtype_subject'] = 'Dépend du titre du message';
 $txt['modfilter_condtype_body'] = 'Dépend du contenu du message';
 $txt['modfilter_condtype_links'] = 'Dépend du nombre de liens placés dans le message';
-$txt['modfilter_applies_all'] = 'S\'applique aux éléments sélectionnés&nbsp;:';
-$txt['modfilter_applies_allexcept'] = 'S\'applique à <strong>tout sauf</strong> les éléments sélectionnés&nbsp;:';
+$txt['modfilter_applies_all'] = 'S\'applique aux éléments sélectionnés&#8239;:';
+$txt['modfilter_applies_allexcept'] = 'S\'applique à <strong>tout sauf</strong> les éléments sélectionnés&#8239;:';
 $txt['modfilter_condition_done'] = 'Ajouter cette condition';
-$txt['modfilter_postcount_is'] = 'Le nombre de messages de l\'utilisateur est&nbsp;:';
-$txt['modfilter_warning_is'] = 'Le niveau d\'avertissement du membre est&nbsp;:';
-$txt['modfilter_links_is'] = 'Le nombre de liens dans le message est&nbsp;:';
+$txt['modfilter_postcount_is'] = 'Le nombre de messages de l\'utilisateur est&#8239;:';
+$txt['modfilter_warning_is'] = 'Le niveau d\'avertissement du membre est&#8239;:';
+$txt['modfilter_links_is'] = 'Le nombre de liens dans le message est&#8239;:';
 $txt['modfilter_the_post_subject'] = 'Le titre du message';
 $txt['modfilter_the_post_body'] = 'Le contenu du message';
 $txt['modfilter_regex_begins'] = 'commence par';
@@ -334,7 +334,7 @@ $txt['custom_profile_desc'] = 'Sur cette page, vous pouvez créer vos propres ch
 $txt['custom_profile_active'] = 'Actif';
 $txt['custom_profile_inactive'] = 'Inactif';
 $txt['custom_profile_make_new'] = 'Nouveau champ';
-$txt['custom_profile_none'] = 'Vous n\'avez pas encore créé de champ de profil personnalisé&nbsp;!';
+$txt['custom_profile_none'] = 'Vous n\'avez pas encore créé de champ de profil personnalisé&#8239;!';
 $txt['custom_profile_icon'] = 'Icône';
 
 $txt['custom_profile_type_text'] = 'Texte';
@@ -364,13 +364,13 @@ $txt['custom_edit_picktype'] = 'Type de champ';
 $txt['whos_online_desc'] = 'Cette page vous permet de gérer la façon dont les utilisateurs voient qui est en ligne ou pas.';
 $txt['lastActive'] = 'Seuil de temps de connexion en ligne';
 $txt['who_view'] = 'Groupes de membres pouvant voir la page "Qui est en ligne"';
-$txt['member_prefs_desc'] = 'Cette page vous permet de régler certaines options également configurables par les utilisateurs&nbsp;; vous pouvez choisir l\'option à activer par défaut, et remettre à zéro les options de tout le monde si nécessaire.';
-$txt['member_prefs_default'] = 'Valeur par défaut&nbsp;:';
+$txt['member_prefs_desc'] = 'Cette page vous permet de régler certaines options également configurables par les utilisateurs&#8239;; vous pouvez choisir l\'option à activer par défaut, et remettre à zéro les options de tout le monde si nécessaire.';
+$txt['member_prefs_default'] = 'Valeur par défaut&#8239;:';
 $txt['member_prefs_change'] = 'Changer';
 $txt['no_change'] = '%s (pas de changement)';
 $txt['leave_alone'] = 'Ne pas toucher à leurs choix actuels';
-$txt['member_prefs_guest'] = 'Pour les invités et nouveaux membres&nbsp;:';
-$txt['member_prefs_members'] = 'Pour les membres existants&nbsp;:';
+$txt['member_prefs_guest'] = 'Pour les invités et nouveaux membres&#8239;:';
+$txt['member_prefs_members'] = 'Pour les membres existants&#8239;:';
 $txt['member_prefs_override'] = 'Mettre tout à monde à "%s"';
 
 // Strings for the templates
@@ -379,9 +379,9 @@ $txt['your_aim'] = 'Votre nom d\'utilisateur AOL Instant Messenger.';
 $txt['your_yim'] = 'Votre nom d\'utilisateur Yahoo! Instant Messenger.';
 // In this string, please use +'s for spaces.
 $txt['aim_default_message'] = 'Bonjour,+on+peut+se+parler+?';
-$txt['msn_email_address'] = 'Votre adresse e-mail Live Messenger';
-$txt['your_twitter'] = 'Votre nom d\'utilisateur Twitter, sans le @ qui le précède';
+$txt['your_twitter'] = 'Votre identifiant Twitter, sans le @ qui le précède';
 $txt['your_facebook'] = 'Votre numéro de compte Facebook, ou son raccourci (par exemple "wedgebook" dans "facebook.com/wedgebook")';
+$txt['your_skype'] = 'Votre identifiant Skype';
 $txt['your_steam'] = 'Votre ID sur la communauté Steam';
 $txt['custom_edit_tplgrp_social'] = 'Réseaux sociaux';
 $txt['custom_edit_tplgrp_im'] = 'Messagerie instantanée';
@@ -412,7 +412,7 @@ $txt['custom_edit_privacy_none'] = 'Ce champ n\'est visible qu\'aux admins.';
 $txt['custom_edit_guest_access'] = 'Montrer ce champ aux invités';
 $txt['custom_edit_guest_access_desc'] = 'Cette option vous permet cette fois de restreindre ou non la visibilité d\'un champ aux invités.';
 $txt['custom_edit_can_search'] = 'Cherchable';
-$txt['custom_edit_can_search_desc'] = 'Ce champ peut-il être utilisé dans les recherches sur la liste des membres&nbsp;?';
+$txt['custom_edit_can_search_desc'] = 'Ce champ peut-il être utilisé dans les recherches sur la liste des membres&#8239;?';
 $txt['custom_edit_mask'] = 'Masque d\'entrée';
 $txt['custom_edit_mask_desc'] = 'Pour les champs de texte, un masque d\'entrée peut être sélectionné pour valider les données.';
 $txt['custom_edit_mask_email'] = 'Adresse e-mail valide';
@@ -426,7 +426,7 @@ $txt['custom_edit_placement'] = 'Choisir la position';
 $txt['custom_edit_placement_standard'] = 'Standard (à côté du titre)';
 $txt['custom_edit_placement_withicons'] = 'À côté des icônes';
 $txt['custom_edit_placement_abovesignature'] = 'Au-dessus de la signature';
-$txt['custom_profile_placement'] = 'Position&nbsp;: %1$s';
+$txt['custom_profile_placement'] = 'Position&#8239;: %1$s';
 
 $txt['custom_edit_delete_sure'] = 'Êtes-vous sûr de vouloir supprimer ce champ ? Toutes les données utilisateur liées seront perdues !';
 
@@ -440,12 +440,12 @@ $txt['languages_default'] = 'Par défaut';
 $txt['languages_users'] = 'Utilisateurs';
 $txt['edit_languages'] = 'Modifier les Langues';
 $txt['edit_languages_specific'] = 'Modifier langues - %1$s';
-$txt['language_edit_master_value'] = 'Valeur de base&nbsp;: %1$s';
-$txt['language_edit_master_value_array'] = 'Valeurs de base&nbsp;:';
-$txt['language_edit_current_value'] = 'Valeur actuelle&nbsp;: %1$s';
-$txt['language_edit_current_value_array'] = 'Valeurs actuelles&nbsp;:';
-$txt['language_edit_new_value'] = '<em>Nouvelle valeur&nbsp;:</em>';
-$txt['language_edit_new_value_array'] = '<em>Nouvelles valeurs&nbsp;:</em>';
+$txt['language_edit_master_value'] = 'Valeur de base&#8239;: %1$s';
+$txt['language_edit_master_value_array'] = 'Valeurs de base&#8239;:';
+$txt['language_edit_current_value'] = 'Valeur actuelle&#8239;: %1$s';
+$txt['language_edit_current_value_array'] = 'Valeurs actuelles&#8239;:';
+$txt['language_edit_new_value'] = '<em>Nouvelle valeur&#8239;:</em>';
+$txt['language_edit_new_value_array'] = '<em>Nouvelles valeurs&#8239;:</em>';
 $txt['language_edit_add_entry'] = 'Ajouter une entrée';
 $txt['language_delete_value'] = 'Supprimer cet élément';
 $txt['language_revert_value'] = 'Remettre à la valeur par défaut';
@@ -469,8 +469,8 @@ $txt['language_edit_admin'] = 'Panneau d\'administration';
 $txt['language_edit_default'] = 'Fichiers de langue par défaut';
 $txt['language_edit_other'] = 'Autres fichiers de langue';
 $txt['language_edit_search'] = 'Chercher dans les fichiers de langue';
-$txt['language_edit_search_plugins'] = 'Inclure les extensions&nbsp;?';
-$txt['language_edit_search_themes'] = 'Inclure les thèmes&nbsp;?';
+$txt['language_edit_search_plugins'] = 'Inclure les extensions&#8239;?';
+$txt['language_edit_search_themes'] = 'Inclure les thèmes&#8239;?';
 $txt['language_edit_search_keys'] = 'Chercher dans les clés';
 $txt['language_edit_search_values'] = 'Chercher dans les valeurs';
 $txt['language_edit_search_both'] = 'Chercher partout';
@@ -478,8 +478,8 @@ $txt['language_edit_no_plugins'] = 'Extensions';
 $txt['language_edit_no_plugins_desc'] = 'Aucune extension ne propose de fichier de langue modifiable.';
 $txt['language_edit_no_themes'] = 'Thèmes';
 $txt['language_edit_no_themes_desc'] = 'Aucun thème ne propose de fichier de langue modifiable.';
-$txt['language_edit_plugins_title'] = 'Extension&nbsp;: %1$s';
-$txt['language_edit_themes_title'] = 'Thème&nbsp;: %1$s';
+$txt['language_edit_plugins_title'] = 'Extension&#8239;: %1$s';
+$txt['language_edit_themes_title'] = 'Thème&#8239;: %1$s';
 $txt['language_edit_elsewhere'] = 'Configurés ailleurs';
 $txt['language_edit_email_templates'] = 'Modèles d\'e-mail';
 $txt['language_edit_reg_agreement'] = 'Accord d\'enregistrement';

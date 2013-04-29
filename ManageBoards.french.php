@@ -34,13 +34,13 @@ $txt['mboards_permissions_confirm'] = 'Êtes-vous sûr de vouloir changer le fon
 $txt['mboards_delete_cat'] = 'Effacer cette catégorie';
 $txt['mboards_delete_board'] = 'Effacer cette section';
 
-$txt['mboards_delete_cat_contains'] = 'Supprimer cette catégorie effacera aussi les sections suivantes, ainsi que leurs sujets, messages et fichiers joints&nbsp;';
+$txt['mboards_delete_cat_contains'] = 'Supprimer cette catégorie effacera aussi les sections suivantes, ainsi que leurs sujets, messages et fichiers joints&#8239;';
 $txt['mboards_delete_option1'] = 'Supprimer la catégorie et toutes les sections qu\'elle contient.';
-$txt['mboards_delete_option2'] = 'Supprimer la catégorie et transférer toutes ses sections vers&nbsp;';
-$txt['mboards_delete_board_contains'] = 'Supprimer cette section déplacera les sous-sections suivantes, ainsi que tous les sujets, messages et fichiers joints qu\'elles contiennent&nbsp;';
+$txt['mboards_delete_option2'] = 'Supprimer la catégorie et transférer toutes ses sections vers&#8239;';
+$txt['mboards_delete_board_contains'] = 'Supprimer cette section déplacera les sous-sections suivantes, ainsi que tous les sujets, messages et fichiers joints qu\'elles contiennent&#8239;';
 $txt['mboards_delete_board_option1'] = 'Supprimer la section et déplacer les sous-sections au niveau de la catégorie.';
-$txt['mboards_delete_board_option2'] = 'Supprimer la section et déplacer les sous-sections dans&nbsp;';
-$txt['mboards_delete_what_do'] = 'Veuillez sélectionner ce que vous désirez faire avec ces sections&nbsp;';
+$txt['mboards_delete_board_option2'] = 'Supprimer la section et déplacer les sous-sections dans&#8239;';
+$txt['mboards_delete_what_do'] = 'Veuillez sélectionner ce que vous désirez faire avec ces sections&#8239;';
 $txt['mboards_delete_confirm'] = 'Confirmer';
 $txt['mboards_delete_cancel'] = 'Annuler';
 
@@ -59,7 +59,7 @@ $txt['mboards_groups_view_enter_same'] = 'Tous les groupes pouvant voir une sect
 $txt['mboards_groups_need_deny_perm'] = 'Activer la possibilité d\'interdire l\'accès à un groupe particulier';
 $txt['mboards_groups_everyone'] = 'Tout le monde';
 $txt['mboards_groups_everyone_desc'] = 'Utilisez cette option pour sélectionner rapidement tous les groupes ci-dessous.';
-$txt['mboards_offlimits_msg'] = 'Message à afficher à ceux qui peuvent voir cette section mais pas y accéder&nbsp;:';
+$txt['mboards_offlimits_msg'] = 'Message à afficher à ceux qui peuvent voir cette section mais pas y accéder&#8239;:';
 
 $txt['mboards_moderators'] = 'Modérateurs';
 $txt['mboards_moderators_desc'] = 'Membres ayant des privilèges de modérateur local sur cette section seulement. Les administrateurs et les modérateurs globaux n\'ont pas à être listés ici.';
@@ -77,13 +77,13 @@ $txt['mboards_language_desc'] = 'Vous permet d\'outrepasser la langue par défau
 $txt['mboards_redirect'] = 'Rediriger vers une adresse web';
 $txt['mboards_redirect_desc'] = 'Activer cette option pour rediriger la section vers une autre adresse web.';
 $txt['mboards_redirect_url'] = 'Adresse de redirection';
-$txt['mboards_redirect_url_desc'] = 'Exemple&nbsp;: &quot;http://wedge.org&quot;.';
+$txt['mboards_redirect_url_desc'] = 'Exemple&#8239;: &quot;http://wedge.org&quot;.';
 $txt['mboards_redirect_newtab'] = 'Ouvrir l\'adresse de redirection dans un nouvel onglet';
 $txt['mboards_redirect_reset'] = 'Remettre à zéro le compteur de redirections';
 $txt['mboards_redirect_reset_desc'] = 'Sélectionner ceci remettra à zéro le compteur de redirections de cette section.';
-$txt['mboards_current_redirects'] = 'Actuellement&nbsp;: %1$s';
-$txt['mboards_redirect_disabled'] = 'Note&nbsp;: la section doit être vide de sujets pour activer cette option.';
-$txt['mboards_redirect_disabled_recycle'] = 'Note&nbsp;: la section de recyclage ne peut pas être définie comme section de redirection.';
+$txt['mboards_current_redirects'] = 'Actuellement&#8239;: %1$s';
+$txt['mboards_redirect_disabled'] = 'Note&#8239;: la section doit être vide de sujets pour activer cette option.';
+$txt['mboards_redirect_disabled_recycle'] = 'Note&#8239;: la section de recyclage ne peut pas être définie comme section de redirection.';
 
 $txt['mboards_order_before'] = 'Avant ';
 $txt['mboards_order_child_of'] = 'Sous-section de ';
@@ -91,7 +91,7 @@ $txt['mboards_order_in_category'] = 'Dans la catégorie';
 $txt['mboards_current_position'] = 'Position actuelle';
 $txt['no_valid_parent'] = 'La section %1$s n\'a pas de section parente valide. Demandez à l\'administrateur d\'utiliser la fonction \'Chercher et réparer les erreurs\' du panneau <em>Maintenance du forum</em> pour corriger cela.';
 
-$txt['mboards_recycle_disabled_delete'] = 'Note&nbsp;: vous devez choisir une nouvelle section de recyclage, ou désactiver le recyclage avant de supprimer cette section.';
+$txt['mboards_recycle_disabled_delete'] = 'Note&#8239;: vous devez choisir une nouvelle section de recyclage, ou désactiver le recyclage avant de supprimer cette section.';
 
 $txt['mboards_settings_desc'] = 'Modifier les paramètres généraux des catégories et des sections.';
 $txt['groups_manage_boards'] = 'Groupes de membres autorisés à gérer les sections et catégories';
@@ -100,7 +100,7 @@ $txt['recycle_board'] = 'Section pour les sujets recyclés';
 $txt['recycle_board_unselected_notice'] = 'Vous avez activé le recyclage de sujets sans spécifier où les placer. Cette fonction ne sera active qu\'après avoir indiqué la section.';
 $txt['countChildPosts'] = 'Compter les messages des sous-sections dans le total des messages de leur section parente';
 $txt['allow_ignore_boards'] = 'Permettre aux membres d\'ignorer des sections';
-$txt['display_flags'] = 'Montrer les drapeaux sur la page d\'accueil&nbsp;?';
+$txt['display_flags'] = 'Montrer les drapeaux sur la page d\'accueil&#8239;?';
 $txt['flags_none'] = 'Non';
 $txt['flags_specified'] = 'Uniquement pour les sections qui ont une langue par défaut';
 $txt['flags_all'] = 'Oui, pour toutes les sections';

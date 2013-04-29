@@ -168,12 +168,43 @@ $txt['community'] = 'Communauté';
 
 $txt['lock_unlock'] = '(Dé)bloquer le sujet';
 $txt['post'] = 'Soumettre';
-$txt['error_occured'] = 'Une erreur s\'est produite&nbsp;!';
+$txt['error_occured'] = 'Une erreur s\'est produite&#8239;!';
 $txt['logout'] = 'Déconnexion';
 $txt['started_by'] = 'Démarré par';
 $txt['last_post_author_link_time'] = '<strong>Dernier message</strong> par {author}<br>dans {link}<br>{time}';
 $txt['last_post_time_author'] = '{time}<br>par {author}';
 $txt['board_off_limits'] = 'Cette section ne vous est pas accessible.';
+
+// And now for the moderation 'boards'
+$txt['moderation_cat'] = 'Modération';
+$txt['reported_posts'] = 'Messages rapportés';
+$txt['reported_board_desc'] = '<strong>Signalé</strong> par {author}<br>dans {link}<br>{time}';
+$txt['reported_open'] = array(
+	1 => '1 rapport ouvert',
+	'n' => '%1$s rapports ouverts',
+);
+$txt['reported_closed'] = array(
+	1 => '1 rapport fermé',
+	'n' => '%1$s rapports fermés',
+);
+$txt['group_requests'] = 'Demandes d\'adhésion';
+$txt['group_request_desc'] = 'Adhésion à <strong>{groupname}</strong><br>par {author}<br>{time}';
+$txt['group_req_open'] = array(
+	1 => '1 requête ouverte',
+	'n' => '%1$s requêtes ouvertes',
+);
+$txt['group_req_closed'] = array(
+	1 => '1 requête fermée',
+	'n' => '%1$s requêtes fermées',
+);
+$txt['logs_board'] = 'Journaux';
+$txt['logs_moderation'] = 'Journal de Modération';
+$txt['logs_infractions'] = 'Journal d\'Infractions';
+$txt['error_log_count'] = array(
+	0 => 'Pas d\'erreurs',
+	1 => '1 erreur',
+	'n' => '%1$s erreurs',
+);
 
 $txt['last_post'] = 'Dernier message';
 // Use numeric entities in the below string.
@@ -181,7 +212,7 @@ $txt['topic'] = 'Sujet';
 $txt['help'] = 'Aide';
 $txt['notify'] = 'Notifier';
 $txt['unnotify'] = 'Se désinscrire';
-$txt['notify_request'] = 'Voulez-vous recevoir un e-mail de notification si quelqu\'un répond à ce sujet&nbsp;?';
+$txt['notify_request'] = 'Voulez-vous recevoir un e-mail de notification si quelqu\'un répond à ce sujet&#8239;?';
 
 $txt['notify_replies'] = 'Notification de réponse';
 $txt['move_topic'] = 'Déplacer';
@@ -212,12 +243,12 @@ $txt['you_have_msg'] = array(
 $txt['unread_pms'] = array(0 => '(pas de nouveau)', 1 => '(1 nouveau)', 'n' => '(%s nouveaux)');
 
 $txt['remove_message'] = 'Effacer ce message';
-$txt['remove_message_confirm'] = 'Effacer ce message&nbsp;?';
+$txt['remove_message_confirm'] = 'Effacer ce message&#8239;?';
 
 $txt['online_users'] = 'Membres en ligne';
 $txt['personal_message'] = 'Message personnel';
 $txt['jump_to'] = 'Accès rapide';
-$txt['are_sure_remove_topic'] = 'Êtes-vous sûr de vouloir effacer ce sujet&nbsp;?';
+$txt['are_sure_remove_topic'] = 'Êtes-vous sûr de vouloir effacer ce sujet&#8239;?';
 
 $txt['go'] = 'OK';
 $txt['ok'] = 'OK';
@@ -232,7 +263,7 @@ $txt['topic_started'] = 'Discussion démarrée par';
 $txt['title'] = 'Titre';
 $txt['post_by'] = 'Posté par';
 $txt['welcome_member'] = 'Bienvenue à %1$s, notre dernier membre.';
-$txt['notify_deactivate'] = 'Voulez-vous désactiver la notification pour ce sujet&nbsp;?';
+$txt['notify_deactivate'] = 'Voulez-vous désactiver la notification pour ce sujet&#8239;?';
 
 $txt['last_edit'] = 'Modifié {date} par {name}';
 $txt['last_edit_mine'] = 'Modifié {date}';
@@ -251,7 +282,7 @@ $txt['welcome_guest'] = 'Bienvenue, <strong>%1$s</strong>. Merci de vous <a href
 $txt['welcome_guest_noregister'] = 'Bienvenue, <strong>%1$s</strong>. Merci de vous <a href="<URL>?action=login">connecter</a>.';
 $txt['login_or_register'] = 'Merci de vous <a href="<URL>?action=login">connecter</a> ou de vous <a href="<URL>?action=register">inscrire</a>.';
 $txt['please_login'] = 'Merci de vous <a href="<URL>?action=login">connecter</a>.';
-$txt['welcome_guest_activate'] = '<br>Perdu votre <a href="<URL>?action=activate">e-mail d\'activation</a>&nbsp;?';
+$txt['welcome_guest_activate'] = '<br>Perdu votre <a href="<URL>?action=activate">e-mail d\'activation</a>&#8239;?';
 $txt['hello_member'] = 'Coucou,';
 $txt['hello_guest'] = 'Bienvenue,';
 $txt['select_destination'] = 'Destination ?';
@@ -269,7 +300,7 @@ $txt['new_short'] = 'Nouv';
 $txt['new_posts'] = 'Nouveaux messages';
 $txt['old_posts'] = 'Pas de nouveau message';
 
-$txt['forgot_your_password'] = 'Mot de passe oublié&nbsp;?';
+$txt['forgot_your_password'] = 'Mot de passe oublié&#8239;?';
 
 $txt['date'] = 'Date';
 $txt['from'] = 'De';
@@ -281,7 +312,7 @@ $txt['redirect_board'] = 'Redirection';
 
 $txt['notification'] = 'Notification';
 
-$txt['your_ban'] = 'Désolé %1$s, vous êtes banni de ce forum&nbsp;!<br>%2$s';
+$txt['your_ban'] = 'Désolé %1$s, vous êtes banni de ce forum&#8239;!<br>%2$s';
 $txt['your_ban_expires'] = 'Ce bannissement devrait expirer le %1$s';
 $txt['your_ban_expires_never'] = 'Ce bannissement n\'a pas de date d\'expiration prévue.';
 $txt['ban_continue_browse'] = 'Vous pouvez cependant continuer à naviguer sur le forum en mode invité.';
@@ -402,7 +433,7 @@ $txt['sub_boards'] = 'Sous-sections';
 $txt['smtp_no_connect'] = 'Échec de connexion au serveur SMTP';
 $txt['smtp_port_ssl'] = 'Le port SMTP est incorrect. Il doit être mis à 465 pour un serveur SSL.';
 $txt['smtp_bad_response'] = 'Erreur en réception des codes de réponse du serveur mail';
-$txt['smtp_error'] = 'Incident survenu lors de l\'envoi d\'e-mail. Erreur&nbsp;: ';
+$txt['smtp_error'] = 'Incident survenu lors de l\'envoi d\'e-mail. Erreur&#8239;: ';
 
 $txt['mlist_search'] = 'Rechercher des membres';
 $txt['mlist_search_again'] = 'Chercher à nouveau';
@@ -427,7 +458,7 @@ $txt['you_are_post_banned'] = 'Desolé %1$s, vous n\'avez plus le droit de poste
 $txt['add_poll'] = 'Ajouter un sondage';
 $txt['poll_options6'] = 'Vous ne pouvez pas choisir plus de %1$s options.';
 $txt['poll_remove'] = 'Retirer le sondage';
-$txt['poll_remove_warn'] = 'Êtes-vous sûr de vouloir retirer ce sondage du sujet&nbsp;?';
+$txt['poll_remove_warn'] = 'Êtes-vous sûr de vouloir retirer ce sondage du sujet&#8239;?';
 $txt['poll_results_expire'] = 'Les résultats seront affichés à la clôture du vote';
 $txt['poll_expires_on'] = 'Clôture du vote';
 $txt['poll_expired_on'] = 'Vote clôturé';
@@ -444,7 +475,7 @@ $txt['quick_mod_merge'] = 'Fusionner la sélection';
 $txt['quick_mod_markread'] = 'Marquer la sélection comme lue';
 $txt['quick_mod_go'] = 'OK';
 
-$txt['generic_confirm_request'] = 'Êtes-vous sûr de vouloir faire cela&nbsp;?';
+$txt['generic_confirm_request'] = 'Êtes-vous sûr de vouloir faire cela&#8239;?';
 
 $txt['reagree_reply'] = 'Les conditions d\'utilisation du site ont été modifiées. Il est nécessaire de les accepter avant de pouvoir y poster de nouveau. Vous pouvez le faire en allant sur <a href="%1$s">cette page</a>.';
 $txt['quick_reply'] = 'Réponse Rapide';
@@ -453,12 +484,12 @@ $txt['quick_reply_warning'] = 'Attention, ce sujet est actuellement bloqué ! Se
 $txt['quick_reply_verification'] = 'Après avoir soumis votre message, vous serez redirigé vers la page habituelle d\'écriture pour vérifier votre message %1$s.';
 $txt['quick_reply_verification_guests'] = '(requis pour tous les invités)';
 $txt['quick_reply_verification_posts'] = '(requis pour tous les utilisateurs ayant moins de %1$d messages)';
-$txt['wait_for_approval'] = 'Note&nbsp;: ce message ne s\'affichera qu\'après avoir été approuvé par un modérateur.';
+$txt['wait_for_approval'] = 'Note&#8239;: ce message ne s\'affichera qu\'après avoir été approuvé par un modérateur.';
 
-$txt['notification_enable_board'] = 'Êtes-vous sûr de vouloir activer la notification des nouveaux sujets pour cette section&nbsp;?';
-$txt['notification_disable_board'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouveaux sujets pour cette section&nbsp;?';
-$txt['notification_enable_topic'] = 'Êtes-vous sûr de vouloir activer la notification des nouvelles réponses pour ce sujet&nbsp;?';
-$txt['notification_disable_topic'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouvelles réponses pour ce sujet&nbsp;?';
+$txt['notification_enable_board'] = 'Êtes-vous sûr de vouloir activer la notification des nouveaux sujets pour cette section&#8239;?';
+$txt['notification_disable_board'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouveaux sujets pour cette section&#8239;?';
+$txt['notification_enable_topic'] = 'Êtes-vous sûr de vouloir activer la notification des nouvelles réponses pour ce sujet&#8239;?';
+$txt['notification_disable_topic'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouvelles réponses pour ce sujet&#8239;?';
 
 $txt['report_to_mod'] = 'Avertir un modérateur à propos de ce message';
 
@@ -473,15 +504,15 @@ $txt['who_member'] = 'Membre';
 
 // Feed block
 $txt['feed'] = 'Flux de messages';
-$txt['feed_current_topic'] = 'Ce sujet&nbsp;:';
-$txt['feed_current_board'] = 'Ce forum&nbsp;:';
-$txt['feed_current_blog'] = 'Ce blog&nbsp;:';
-$txt['feed_everywhere'] = 'Tout le site&nbsp;:';
+$txt['feed_current_topic'] = 'Ce sujet&#8239;:';
+$txt['feed_current_board'] = 'Ce forum&#8239;:';
+$txt['feed_current_blog'] = 'Ce blog&#8239;:';
+$txt['feed_everywhere'] = 'Tout le site&#8239;:';
 $txt['feed_posts'] = '<a href="%1$s">messages</a>';
 $txt['feed_topics'] = '<a href="%1$s">sujets</a>';
 
 // Footer strings
-$txt['valid_html5'] = 'HTML5 valide&nbsp;!';
+$txt['valid_html5'] = 'HTML5 valide&#8239;!';
 $txt['html5'] = 'HTML5';
 $txt['html'] = 'HTML';
 
@@ -506,15 +537,15 @@ $txt['approve_members_waiting'] = array(
 	'n' => 'Il y a <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">%s membres</a> en attente d\'approbation.',
 );
 
-$txt['notifyboard_turnon'] = 'Voulez-vous recevoir un e-mail de notification quand quelqu\'un poste un nouveau sujet dans cette section&nbsp;?';
-$txt['notifyboard_turnoff'] = 'Êtes-vous sûr de vouloir désactiver les e-mails de notification des nouveaux sujet pour cette section&nbsp;?';
+$txt['notifyboard_turnon'] = 'Voulez-vous recevoir un e-mail de notification quand quelqu\'un poste un nouveau sujet dans cette section&#8239;?';
+$txt['notifyboard_turnoff'] = 'Êtes-vous sûr de vouloir désactiver les e-mails de notification des nouveaux sujet pour cette section&#8239;?';
 
 $txt['show_unread'] = 'Messages non lus';
 $txt['show_unread_replies'] = 'Réponses non lues';
 
 $txt['quickmod_delete_selected'] = 'Effacer la sélection';
 
-$txt['show_personal_messages'] = 'Vous avez reçu un ou plusieurs nouveaux messages personnels.<br><br>Voulez-vous ouvrir une nouvelle fenêtre pour les consulter&nbsp;?';
+$txt['show_personal_messages'] = 'Vous avez reçu un ou plusieurs nouveaux messages personnels.<br><br>Voulez-vous ouvrir une nouvelle fenêtre pour les consulter&#8239;?';
 
 $txt['previous_next_back'] = '&laquo; précédente';
 $txt['previous_next_forward'] = 'suivante &raquo;';
@@ -523,7 +554,7 @@ $txt['upshrink_description'] = 'Cacher ou afficher cette zone.';
 
 $txt['mark_unread'] = 'Marquer non lu';
 
-$txt['error_while_submitting'] = 'L\'erreur ou les erreurs suivantes sont apparues durant la soumission de ce message&nbsp;:';
+$txt['error_while_submitting'] = 'L\'erreur ou les erreurs suivantes sont apparues durant la soumission de ce message&#8239;:';
 $txt['error_old_topic'] = 'Veuillez noter qu\'il n\'y a pas eu de réponse à ce sujet depuis au moins %1$d jours.<br>À moins que vous ne soyez sûr de vouloir y répondre, créez plutôt un nouveau sujet.';
 
 $txt['mark_read_short'] = 'Marquer lu';
@@ -533,7 +564,7 @@ $txt['pm_menu_read'] = 'Lire mes messages';
 $txt['pm_menu_send'] = 'Envoyer un message';
 $txt['pm_menu_drafts'] = 'Brouillons';
 
-$txt['hello_member_ndt'] = 'Bonjour, <span>%1$s</span>&nbsp;!';
+$txt['hello_member_ndt'] = 'Bonjour, <span>%1$s</span>&#8239;!';
 
 $txt['unapproved_posts'] = 'Messages à approuver (Sujets: %1$d, Messages: %2$d)';
 
@@ -590,7 +621,7 @@ $txt['b_type'] = array('blog' => 'blog', 'forum' => 'forum', 'media' => 'media',
 $txt['b_item'] = array('blog' => 'billet', 'forum' => 'sujet', 'media' => 'élément', 'site' => 'article');
 
 // Indicates the date of the first post when merging two posts.
-$txt['search_date_posted'] = 'Posté&nbsp;:';
+$txt['search_date_posted'] = 'Posté&#8239;:';
 
 // Spoiler tags. But you're smart, so you don't need me telling.
 $txt['spoiler'] = 'Spoiler';

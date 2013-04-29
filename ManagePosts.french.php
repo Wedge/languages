@@ -4,7 +4,7 @@
 // Post Settings
 $txt['removeNestedQuotes'] = 'Supprimer les citations imbriquées en citant un message';
 $txt['enableEmbeddedFlash'] = 'Autoriser l\'intégration d\'animations Flash dans les messages';
-$txt['enableEmbeddedFlash_warning'] = 'Peut constituer un risque de sécurité&nbsp;!';
+$txt['enableEmbeddedFlash_warning'] = 'Peut constituer un risque de sécurité&#8239;!';
 $txt['additional_options_collapsable'] = 'Activer les Options Supplémentaires (à l\'écriture des messages)';
 $txt['disable_wysiwyg'] = 'Désactiver l\'éditeur WYSIWYG';
 
@@ -19,7 +19,7 @@ $txt['spamWaitTime'] = 'Temps d\'attente requis entre deux envois en provenance 
 $txt['edit_wait_time'] = 'Période de révision';
 $txt['edit_disable_time'] = 'Temps maximum après l\'envoi pour modifier un message';
 $txt['edit_disable_time_zero'] = '0 pour désactiver';
-$txt['allow_non_mod_edit'] = 'Permettre aux non-modérateurs de modifier des modifications de modérateurs&nbsp;?';
+$txt['allow_non_mod_edit'] = 'Permettre aux non-modérateurs de modifier des modifications de modérateurs&#8239;?';
 
 // Topic Settings
 $txt['enableParticipation'] = 'Activer l\'icône de participation';
@@ -65,14 +65,14 @@ $txt['masterSavePostDrafts'] = 'Activer les brouillons';
 $txt['draftsave_subnote'] = 'Veuillez noter que l\'utilisateur aura en plus besoin d\'avoir la permission correspondante activée pour son groupe.';
 $txt['masterAutoSavePostDrafts'] = 'Activer la sauvegarde automatique des brouillons';
 $txt['draftautosave_subnote'] = 'Cela ne remplace pas l\'option ci-dessus mais étend simplement son champ. De plus, l\'utilisateur doit avoir la permission associée.';
-$txt['masterAutoSaveDraftsDelay'] = 'À quelle fréquence sauvegarder les brouillons automatiquement&nbsp;?';
-$txt['pruneSaveDrafts'] = 'Purger les brouillons après combien de jours&nbsp;?';
+$txt['masterAutoSaveDraftsDelay'] = 'À quelle fréquence sauvegarder les brouillons automatiquement&#8239;?';
+$txt['pruneSaveDrafts'] = 'Purger les brouillons après combien de jours&#8239;?';
 
 // Merging
 $txt['merge_post_header'] = 'Fusion des doublons';
 $txt['merge_post_auto'] = 'Fusionner les doublons automatiquement<dfn>Dans un sujet, deux messages successifs d\'un même auteur sont considérés comme des doublons.</dfn>';
 $txt['merge_post_auto_time'] = 'Temps maximum entre deux messages pour qu\'ils soient fusionnés automatiquement.';
-$txt['merge_post_auto_time_subtext'] = '(en secondes&nbsp;; mettez 0 pour toujours fusionner)';
+$txt['merge_post_auto_time_subtext'] = '(en secondes&#8239;; mettez 0 pour toujours fusionner)';
 
 $txt['merge_post_admin_double_post'] = 'Fusionner les doublons des admins';
 

@@ -37,15 +37,15 @@ $txt['modlog_search'] = 'Recherche Rapide';
 $txt['modlog_by'] = 'Par';
 $txt['modlog_id'] = '<em>Supprimé - (ID:%1$d)</em>';
 
-$txt['modlog_ac_add_warn_template'] = 'Ajouté un modèle de lettre de sanction&nbsp;: &quot;{template}&quot;';
+$txt['modlog_ac_add_warn_template'] = 'Ajouté un modèle de lettre de sanction&#8239;: &quot;{template}&quot;';
 $txt['modlog_ac_modify_warn_template'] = 'Modifié le modèle de lettre de sanction &quot;{template}&quot;';
 $txt['modlog_ac_delete_warn_template'] = 'Supprimé le modèle de lettre de sanction &quot;{template}&quot;';
 
-$txt['modlog_ac_ban'] = 'Critères de bannissement ajoutés&nbsp;:';
-$txt['modlog_ac_ban_trigger_member'] = ' <em>Membre</em>&nbsp;: {member}';
-$txt['modlog_ac_ban_trigger_email'] = ' <em>E-mail</em>&nbsp;: {email}';
-$txt['modlog_ac_ban_trigger_ip_range'] = ' <em>IP</em>&nbsp;: {ip_range}';
-$txt['modlog_ac_ban_trigger_hostname'] = ' <em>Nom d\'Hôte</em>&nbsp;: {hostname}';
+$txt['modlog_ac_ban'] = 'Critères de bannissement ajoutés&#8239;:';
+$txt['modlog_ac_ban_trigger_member'] = ' <em>Membre</em>&#8239;: {member}';
+$txt['modlog_ac_ban_trigger_email'] = ' <em>E-mail</em>&#8239;: {email}';
+$txt['modlog_ac_ban_trigger_ip_range'] = ' <em>IP</em>&#8239;: {ip_range}';
+$txt['modlog_ac_ban_trigger_hostname'] = ' <em>Nom d\'Hôte</em>&#8239;: {hostname}';
 
 $txt['modlog_admin_log'] = 'Journal d\'Administration';
 $txt['modlog_admin_log_desc'] = 'Voici la liste des actions d\'administration effectuées sur votre forum.<br><strong>Veuillez noter</strong> que les entrées ne peuvent être supprimées de ce journal avant un délai de 24h.';
@@ -72,8 +72,8 @@ $txt['modlog_ac_remind_member'] = 'Rappel envoyé à &quot;{member}&quot; pour l
 $txt['modlog_ac_approve_member'] = 'Compte de &quot;{member}&quot; approuvé/activé';
 $txt['modlog_ac_newsletter'] = 'Newsletter envoyée';
 
-$txt['modlog_ac_enable_plugin'] = 'Extension activée&nbsp;: &quot;{plugin}&quot;, version {version}';
-$txt['modlog_ac_disable_plugin'] = 'Extension désactivée&nbsp;: &quot;{plugin}&quot;, version {version}';
+$txt['modlog_ac_enable_plugin'] = 'Extension activée&#8239;: &quot;{plugin}&quot;, version {version}';
+$txt['modlog_ac_disable_plugin'] = 'Extension désactivée&#8239;: &quot;{plugin}&quot;, version {version}';
 
 // Restore topic.
 $txt['modlog_ac_restore_topic'] = 'Sujet &quot;{topic}&quot; restauré à partir de &quot;{board}&quot; et vers la section &quot;{board_to}&quot;';

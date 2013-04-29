@@ -99,18 +99,18 @@ $txt['prompt_text_desc'] = 'Entrez le texte du lien, laissez vide pour afficher 
 $txt['lock_after_post'] = 'Bloquer après ce message.';
 $txt['notify_replies'] = 'Suivre les réponses de ce sujet';
 $txt['lock_topic'] = 'Bloquer ce sujet';
-$txt['shortcuts'] = 'Raccourcis clavier&nbsp;: <kbd>Shift + Enter</kbd> pour fermer intelligemment les tags, <kbd>Ctrl + B</kbd> (gras), <kbd>Ctrl + I</kbd> (italiques), <kbd>Ctrl + U</kbd> (souligner), <kbd>Alt + D</kbd> (brouillon), <kbd>Alt + P</kbd> (prévisualiser) et <kbd>Alt + S</kbd> (soumettre).';
+$txt['shortcuts'] = 'Raccourcis clavier&#8239;: <kbd>Shift + Enter</kbd> pour fermer intelligemment les tags, <kbd>Ctrl + B</kbd> (gras), <kbd>Ctrl + I</kbd> (italiques), <kbd>Ctrl + U</kbd> (souligner), <kbd>Alt + D</kbd> (brouillon), <kbd>Alt + P</kbd> (prévisualiser) et <kbd>Alt + S</kbd> (soumettre).';
 $txt['option'] = 'Option';
 $txt['reset_votes'] = 'Décompte des votes à 0';
 $txt['reset_votes_check'] = 'Cochez ici pour mettre tous les décomptes de votes à 0.';
 $txt['votes'] = 'votes';
-$txt['attach'] = 'Ajouter un fichier joint&nbsp;';
-$txt['attached'] = 'Fichiers joints&nbsp;';
+$txt['attach'] = 'Ajouter un fichier joint&#8239;';
+$txt['attached'] = 'Fichiers joints&#8239;';
 $txt['allowed_types'] = 'Types de fichier autorisés';
 $txt['cant_upload_type'] = 'Vous ne pouvez pas envoyer ce type de fichier. Les extensions autorisées sont';
 $txt['uncheck_unwatchd_attach'] = 'Décochez les fichiers joints que vous voulez supprimer';
 $txt['restricted_filename'] = 'Votre fichier s\'appelle "%1$s", mais ce nom est réservé. Merci de le renommer.';
-$txt['topic_locked_no_reply'] = 'Attention&nbsp;: ce sujet est actuellement/sera bloqué&nbsp;!<br>Seuls les administrateurs et les modérateurs peuvent y répondre.';
+$txt['topic_locked_no_reply'] = 'Attention&#8239;: ce sujet est actuellement/sera bloqué&#8239;!<br>Seuls les administrateurs et les modérateurs peuvent y répondre.';
 $txt['awaiting_approval'] = 'En attente d\'approbation';
 $txt['error_temp_attachments'] = 'Des fichiers ont été joints à ce message, mais jamais publiés. Ce problème a été corrigé. Si vous ne souhaitez pas les mettre en ligne, vous pouvez les supprimer <a href="#postAttachment">ici</a>.';
 $txt['js_post_will_require_approval'] = 'Attention, ce sujet n\'apparaîtra qu\'après avoir été approuvé par un modérateur.';
@@ -121,7 +121,7 @@ $txt['enter_comment'] = 'Entrez un commentaire';
 $txt['attach_restrict_attachmentPostLimit'] = 'taille totale maximale %1$dKo';
 $txt['attach_restrict_attachmentSizeLimit'] = 'taille individuelle maximale %1$dKo';
 $txt['attach_restrict_attachmentNumPerPostLimit'] = '%1$d par message';
-$txt['attach_restrictions'] = 'Restrictions&nbsp;:';
+$txt['attach_restrictions'] = 'Restrictions&#8239;:';
 
 $txt['post_additionalopt'] = 'Fichiers joints et autres options&hellip;';
 $txt['pin_after'] = 'Épingler ce sujet';
@@ -166,7 +166,7 @@ $txt['save_draft'] = 'Brouillon';
 $txt['last_saved_on'] = 'Dernière sauvegarde';
 $txt['draft_saved'] = 'Votre brouillon a été sauvegardé. Vous pouvez y accéder depuis <a href="{draft_link}">votre profil</a>.';
 $txt['pm_draft_saved'] = 'Votre brouillon a été sauvegardé. Vous pouvez y accéder depuis <a href="{draft_link}">votre profil</a>.';
-$txt['save_draft_warning'] = 'Sauvegarder en tant que brouillon conservera uniquement les détails de base du message (titre, texte, icône), et donc ni ses fichiers joints, ni les options de sondage, etc. Êtes-vous sûr de vouloir continuer&nbsp;?';
+$txt['save_draft_warning'] = 'Sauvegarder en tant que brouillon conservera uniquement les détails de base du message (titre, texte, icône), et donc ni ses fichiers joints, ni les options de sondage, etc. Êtes-vous sûr de vouloir continuer&#8239;?';
 $txt['empty_draft'] = 'Impossible de sauvegarder un brouillon vide.';
 
 $txt['report_sent'] = 'Votre rapport a été envoyé avec succès.';
@@ -182,7 +182,7 @@ $txt['error_new_reply_reading'] = array(
 	'n' => 'Attention, %1$d nouvelles réponses ont été postées entretemps. Vous devriez peut-être les lire avant d\'écrire votre message, pour éviter toute redondance.',
 );
 
-$txt['announce_this_topic'] = 'Envoyer une annonce à propos de ce sujet aux membres&nbsp;:';
+$txt['announce_this_topic'] = 'Envoyer une annonce à propos de ce sujet aux membres&#8239;:';
 $txt['announce_title'] = 'Envoyer une annonce';
 $txt['announce_desc'] = 'Ce formulaire vous permet d\'envoyer une annonce aux groupes de membres sélectionnés à propos de ce sujet.';
 $txt['announce_sending'] = 'Envoi de l\'annonce de ce sujet';

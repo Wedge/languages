@@ -6,7 +6,7 @@ $txt['admin_login'] = 'Connexion Admin';
 $txt['username_no_exist'] = 'Cet identifiant n\'existe pas.';
 $txt['no_user_with_email'] = 'Il n\'y a pas d\'identifiants associés à cette adresse e-mail.';
 $txt['name_in_use'] = 'Ce nom est déjà utilisé par un autre membre.';
-$txt['mins_logged_in'] = 'Durée de connexion (en minutes)&nbsp;';
+$txt['mins_logged_in'] = 'Durée de connexion (en minutes)&#8239;';
 $txt['always_logged_in'] = 'Toujours connecté';
 
 // Registration agreement page.
@@ -34,7 +34,7 @@ $txt['email_placeholder'] = 'adresse@email.com';
 $txt['valid_email_needed'] = 'Merci d\'entrer une adresse e-mail valide, %1$s.';
 $txt['required_info'] = 'Informations requises';
 $txt['additional_information'] = 'Informations supplémentaires';
-$txt['warning'] = 'Attention&nbsp;!';
+$txt['warning'] = 'Attention&#8239;!';
 $txt['only_members_can_access'] = 'Seuls les membres inscrits sont autorisés à accéder à cette section.';
 $txt['login_below'] = 'Connectez-vous à %1$s ci-dessous.';
 $txt['login_below_register'] = 'Connectez-vous à %1$s ci-dessous, ou <a href="%1$s">créez un compte</a>.';
@@ -46,7 +46,7 @@ $txt['ban_register_prohibited'] = 'Désolé, vous n\'êtes pas autorisé à vous
 $txt['activate_account'] = 'Activation de Compte';
 $txt['activate_success'] = 'Votre compte a été activé avec succès. Vous pouvez maintenant vous connecter.';
 $txt['activate_not_completed1'] = 'Votre adresse e-mail doit être validée avant que vous puissiez vous connecter.';
-$txt['activate_not_completed2'] = 'Un autre e-mail d\'activation&nbsp;?';
+$txt['activate_not_completed2'] = 'Un autre e-mail d\'activation&#8239;?';
 $txt['activate_after_registration'] = 'Merci de vous être inscrit. Vous recevrez rapidement un e-mail contenant un lien pour activer votre compte. Si vous ne recevez rien après un certain temps, vérifiez votre boîte à spams.';
 $txt['invalid_userid'] = 'L\'utilisateur n\'existe pas';
 $txt['invalid_activation_code'] = 'Code d\'activation invalide';
@@ -60,9 +60,9 @@ $txt['invalid_activation_retry'] = 'Code d\'activation';
 $txt['invalid_activation_submit'] = 'Activer';
 
 $txt['coppa_no_concent'] = 'L\'administrateur n\'a toujours reçu aucune autorisation parentale pour votre compte.';
-$txt['coppa_need_more_details'] = 'Plus de détails&nbsp;?';
+$txt['coppa_need_more_details'] = 'Plus de détails&#8239;?';
 
-$txt['awaiting_delete_account'] = 'Votre compte a été marqué pour une suppression&nbsp;!<br>Si vous voulez restaurer votre compte, veuillez lire la boîte &quot;Réactiver mon compte&quot;, et connectez-vous à nouveau.';
+$txt['awaiting_delete_account'] = 'Votre compte a été marqué pour une suppression&#8239;!<br>Si vous voulez restaurer votre compte, veuillez lire la boîte &quot;Réactiver mon compte&quot;, et connectez-vous à nouveau.';
 $txt['undelete_account'] = 'Réactiver mon compte';
 
 // Use numeric entities in the below three strings.
@@ -115,26 +115,26 @@ $txt['admin_register_email_activate'] = 'Nécessite l\'activation du compte par 
 $txt['admin_register_group'] = 'Groupe principal';
 $txt['admin_register_group_desc'] = 'Groupe de membre principal auquel le nouveau membre appartiendra';
 $txt['admin_register_group_none'] = '(pas de groupe principal)';
-$txt['admin_register_done'] = 'Le membre %1$s s\'est inscrit avec succès&nbsp;!';
+$txt['admin_register_done'] = 'Le membre %1$s s\'est inscrit avec succès&#8239;!';
 
 $txt['coppa_title'] = 'Forum avec restriction d\'âge';
 $txt['coppa_after_registration'] = 'Merci de vous être inscrit sur {forum_name_safe}.<br><br>Parce que vous êtes âgé de moins de {MINIMUM_AGE} ans, il est légalement requis
-	que vous obteniez une autorisation de vos parents ou tuteurs légaux avant que vous puissiez utiliser votre compte. Pour arranger l\'activation de votre compte, veuillez imprimer le formulaire ci-dessous&nbsp;:';
+	que vous obteniez une autorisation de vos parents ou tuteurs légaux avant que vous puissiez utiliser votre compte. Pour arranger l\'activation de votre compte, veuillez imprimer le formulaire ci-dessous&#8239;:';
 $txt['coppa_form_link_popup'] = 'Charger le formulaire dans une nouvelle fenêtre';
 $txt['coppa_form_link_download'] = 'Télécharger le formulaire en tant que fichier texte';
-$txt['coppa_send_to_one_option'] = 'Ensuite, demandez à vos parents ou tuteurs de l\'envoyer complété par&nbsp;:';
-$txt['coppa_send_to_two_options'] = 'Puis arrangez-vous pour que votre parent ou tuteur envoie le formulaire rempli par&nbsp;:';
-$txt['coppa_send_by_post'] = 'Voie postale à l\'adresse suivante&nbsp;:';
-$txt['coppa_send_by_fax'] = 'Fax au numéro suivant&nbsp;:';
+$txt['coppa_send_to_one_option'] = 'Ensuite, demandez à vos parents ou tuteurs de l\'envoyer complété par&#8239;:';
+$txt['coppa_send_to_two_options'] = 'Puis arrangez-vous pour que votre parent ou tuteur envoie le formulaire rempli par&#8239;:';
+$txt['coppa_send_by_post'] = 'Voie postale à l\'adresse suivante&#8239;:';
+$txt['coppa_send_by_fax'] = 'Fax au numéro suivant&#8239;:';
 $txt['coppa_send_by_phone'] = 'Alternativement, demandez-leur de contacter l\'administrateur par téléphone au numéro {PHONE_NUMBER}.';
 
 $txt['coppa_form_title'] = 'Formulaire d\'autorisation d\'inscription au forum {forum_name_safe}';
 $txt['coppa_form_address'] = 'Adresse';
 $txt['coppa_form_date'] = 'Date';
-$txt['coppa_form_body'] = 'Je soussigné, {PARENT_NAME},<br><br>Donne la permission à {CHILD_NAME} (nom de l\'enfant) de devenir un membre à part entière du forum : {forum_name_safe}, sous l\'identifiant : {USER_NAME}.<br><br>Je comprends que certaines informations personnelles entrées par {USER_NAME} peuvent êtres affichées à d\'autres visiteurs du forum.<br><br>Signé&nbsp;:<br>{PARENT_NAME} (Parent/Tuteur légal).';
+$txt['coppa_form_body'] = 'Je soussigné, {PARENT_NAME},<br><br>Donne la permission à {CHILD_NAME} (nom de l\'enfant) de devenir un membre à part entière du forum : {forum_name_safe}, sous l\'identifiant : {USER_NAME}.<br><br>Je comprends que certaines informations personnelles entrées par {USER_NAME} peuvent êtres affichées à d\'autres visiteurs du forum.<br><br>Signé&#8239;:<br>{PARENT_NAME} (Parent/Tuteur légal).';
 
 $txt['visual_verification_sound_again'] = 'Recommencer';
-$txt['visual_verification_sound_direct'] = 'Pas de son&nbsp;? Essayez avec ce lien direct.';
+$txt['visual_verification_sound_direct'] = 'Pas de son&#8239;? Essayez avec ce lien direct.';
 
 $txt['registration_username_available'] = 'Ce nom d\'utilisateur est disponible';
 $txt['registration_username_unavailable'] = 'Ce nom d\'utilisateur n\'est pas disponible';
@@ -145,5 +145,5 @@ $txt['registration_password_numbercase'] = 'Le mot de passe doit contenir à la 
 $txt['registration_password_no_match'] = 'Les mots de passe ne correspondent pas';
 $txt['registration_password_valid'] = 'Le mot de passe est valide';
 
-$txt['registration_errors_occurred'] = 'Les erreurs suivantes ont été détectées lors de votre inscription. Merci de les corriger pour pouvoir continuer&nbsp;:';
+$txt['registration_errors_occurred'] = 'Les erreurs suivantes ont été détectées lors de votre inscription. Merci de les corriger pour pouvoir continuer&#8239;:';
 $txt['error_invalid_characters_username'] = 'Caractère invalide dans l\'identifiant/pseudonyme.';

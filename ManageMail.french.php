@@ -61,9 +61,9 @@ $txt['template_edit_template'] = 'Modifier le modèle';
 $txt['template_replacements'] = 'Remplacements';
 $txt['template_replacement_desc'] = 'Les e-mails ayant un contenu variable suivant la situation, des paramètres de substitution peuvent être utilisés pour vous simplifier la vie. Ceux disponibles pour cet e-mail sont montrés ci-dessous.';
 
-$txt['template_email_desc'] = 'Description&nbsp;:';
-$txt['template_email_subject'] = 'Sujet du mail&nbsp;:';
-$txt['template_email_body'] = 'Contenu du mail&nbsp;:';
+$txt['template_email_desc'] = 'Description&#8239;:';
+$txt['template_email_subject'] = 'Sujet du mail&#8239;:';
+$txt['template_email_body'] = 'Contenu du mail&#8239;:';
 
 // Don't translate the (%1$s) bits, they're used as placeholders. These are the standard ones.
 $txt['template_repl_forumname'] = 'nom du forum (%1$s)';

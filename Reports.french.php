@@ -3,7 +3,7 @@
 
 $txt['generate_reports_desc'] = 'Dans cette rubrique vous pouvez générer une variété de rapports pour assister à l\'administration de votre forum. Suivez simplement les étapes ci-dessous pour sélectionner les options de votre choix.';
 $txt['generate_reports_continue'] = 'Continuer';
-$txt['generate_reports_type'] = 'Sélectionnez le type de rapport&nbsp;';
+$txt['generate_reports_type'] = 'Sélectionnez le type de rapport&#8239;';
 $txt['gr_type_boards'] = 'Sections';
 $txt['gr_type_desc_boards'] = 'Rapports montrant les paramètres actuels et permissions d\'accès pour chaque section de votre forum.';
 $txt['gr_type_board_perms'] = 'Permissions des sections';
@@ -118,12 +118,12 @@ $txt['group_perms_name_search_posts'] = 'Rechercher des messages';
 $txt['group_perms_name_send_mail'] = 'Envoyer un e-mail aux membres du forum';
 $txt['group_perms_name_view_mlist'] = 'Voir la liste des membres';
 $txt['group_perms_name_view_stats'] = 'Voir les stats du forum';
-$txt['group_perms_name_who_view'] = 'Voir &quot;Qui est en ligne&nbsp;?&quot;';
+$txt['group_perms_name_who_view'] = 'Voir &quot;Qui est en ligne&#8239;?&quot;';
 
-$txt['report_error_too_many_staff'] = 'Vous avez trop de membres dans votre équipe. Le rapport ne fonctionnera pas avec plus de 300 membres dans votre équipe&nbsp;!';
-$txt['report_staff_position'] = 'Grade&nbsp;';
-$txt['report_staff_moderates'] = 'Modère sur&nbsp;';
-$txt['report_staff_posts'] = 'Messages&nbsp;';
-$txt['report_staff_last_login'] = 'Dernière connexion&nbsp;';
+$txt['report_error_too_many_staff'] = 'Vous avez trop de membres dans votre équipe. Le rapport ne fonctionnera pas avec plus de 300 membres dans votre équipe&#8239;!';
+$txt['report_staff_position'] = 'Grade&#8239;';
+$txt['report_staff_moderates'] = 'Modère sur&#8239;';
+$txt['report_staff_posts'] = 'Messages&#8239;';
+$txt['report_staff_last_login'] = 'Dernière connexion&#8239;';
 $txt['report_staff_all_boards'] = 'Toutes les sections';
 $txt['report_staff_no_boards'] = 'Aucune section';

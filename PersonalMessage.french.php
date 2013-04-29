@@ -5,8 +5,8 @@ $txt['pm_inbox'] = 'Messagerie - Boîte de réception';
 $txt['send_message'] = 'Envoyer le message';
 $txt['pm_add'] = 'Ajouter';
 $txt['make_bcc'] = 'Ajouter un BCC';
-$txt['pm_to'] = 'À&nbsp;';
-$txt['pm_bcc'] = 'Bcc&nbsp;';
+$txt['pm_to'] = 'À&#8239;';
+$txt['pm_bcc'] = 'Bcc&#8239;';
 $txt['inbox'] = 'Boîte de réception';
 $txt['conversation'] = 'Conversation';
 $txt['messages'] = 'Messages';
@@ -15,9 +15,9 @@ $txt['new_message'] = 'Nouveau message';
 $txt['delete_message'] = 'Effacer des messages';
 // Don't translate "PMBOX" in this string.
 $txt['delete_all'] = 'Effacer tous les messages dans votre PMBOX';
-$txt['delete_all_confirm'] = 'Êtes vous sûr de vouloir effacer tous les messages&nbsp;?';
+$txt['delete_all_confirm'] = 'Êtes vous sûr de vouloir effacer tous les messages&#8239;?';
 $txt['recipient'] = 'Destinataire';
-$txt['pm_multiple'] = '(destinataires multiples&nbsp;: \'nom1, nom2\')';
+$txt['pm_multiple'] = '(destinataires multiples&#8239;: \'nom1, nom2\')';
 
 $txt['delete_selected_confirm'] = 'Êtes-vous sûr de vouloir effacer tous les messages personnels sélectionnés ?';
 
@@ -36,7 +36,7 @@ $txt['pm_sent'] = 'Votre message a été envoyé.';
 
 $txt['pm_error_user_not_found'] = 'Impossible de trouver le membre \'%1$s\'.';
 $txt['pm_error_ignored_by_user'] = 'Le membre \'%1$s\' a bloqué votre message personnel.';
-$txt['pm_error_data_limit_reached'] = 'Le message n\'a pas pu être envoyé à \'%1$s\' car sa boîte de réception est pleine&nbsp;!';
+$txt['pm_error_data_limit_reached'] = 'Le message n\'a pas pu être envoyé à \'%1$s\' car sa boîte de réception est pleine&#8239;!';
 $txt['pm_error_user_cannot_read'] = 'L\'utilisateur \'%1$s\' ne peut pas recevoir de messages personnels.';
 $txt['pm_successfully_sent'] = 'Le message a été envoyé à \'%1$s\'.';
 $txt['pm_send_report'] = 'Rapport d\'envoi';
@@ -77,7 +77,7 @@ $txt['pm_labels_delete'] = 'Êtes-vous sûr de vouloir effacer les labels sélec
 $txt['pm_labels_desc'] = 'Ici vous pouvez ajouter, modifier et supprimer les labels utilisés dans votre centre de messagerie personnelle.';
 $txt['pm_label_add_new'] = 'Ajouter un nouveau label';
 $txt['pm_label_name'] = 'Nom du label';
-$txt['pm_labels_no_exist'] = 'Vous n\'avez actuellement aucun label paramétré&nbsp;!';
+$txt['pm_labels_no_exist'] = 'Vous n\'avez actuellement aucun label paramétré&#8239;!';
 
 // Labeling Drop Down. ("Label Selected" means "Apply a label to the selection", in case it's unclear.)
 $txt['pm_current_label'] = 'Label';
@@ -164,7 +164,7 @@ $txt['pm_rule_sub'] = 'Le titre du message contient';
 $txt['pm_rule_msg'] = 'Le corps du message contient';
 $txt['pm_rule_bud'] = 'L\'expéditeur est un contact';
 $txt['pm_rule_sel_group'] = 'Sélectionner un groupe';
-$txt['pm_rule_logic'] = 'Lors de la vérification des critères&nbsp;';
+$txt['pm_rule_logic'] = 'Lors de la vérification des critères&#8239;';
 $txt['pm_rule_logic_and'] = 'Tous les critères doivent être satisfaits';
 $txt['pm_rule_logic_or'] = 'Au moins un critère doit être satisfait';
 $txt['pm_rule_actions'] = 'Actions';

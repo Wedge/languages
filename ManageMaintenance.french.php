@@ -69,10 +69,10 @@ $txt['repair_operation_group_request_missing_member'] = 'Demandes d\'adhésion s
 $txt['repair_operation_group_request_missing_group'] = 'Demandes d\'adhésion à un groupe inexistant';
 
 $txt['salvaged_category_name'] = 'Zone de Récupération';
-$txt['salvaged_category_error'] = 'Impossible de créer la catégorie Zone de Récupération&nbsp;!';
+$txt['salvaged_category_error'] = 'Impossible de créer la catégorie Zone de Récupération&#8239;!';
 $txt['salvaged_board_name'] = 'Sujets récupérés';
 $txt['salvaged_board_description'] = 'Sujets créés pour les messages sans sujet (fil de discussion)';
-$txt['salvaged_board_error'] = 'Impossible de créer le sujet récupéré&nbsp;!';
+$txt['salvaged_board_error'] = 'Impossible de créer le sujet récupéré&#8239;!';
 $txt['salvaged_poll_topic_name'] = 'Sondage récupéré';
 $txt['salvaged_poll_message_body'] = 'Ce sondage a perdu son sujet associé.';
 
@@ -96,17 +96,17 @@ $txt['error_message'] = 'Message d\'erreur';
 $txt['clear_filter'] = 'Vider le filtre';
 $txt['remove_selection'] = 'Enlever la sélection';
 $txt['remove_filtered_results'] = 'Enlever tous les résultats filtrés';
-$txt['sure_about_errorlog_remove'] = 'Êtes-vous sûr de vouloir enlever tous les messages d\'erreur&nbsp;?';
+$txt['sure_about_errorlog_remove'] = 'Êtes-vous sûr de vouloir enlever tous les messages d\'erreur&#8239;?';
 $txt['reverse_direction'] = 'Inverser l\'ordre chronologique de la liste';
 $txt['error_type'] = 'Type d\'erreur';
 $txt['filter_only_type'] = 'Ne montrer que les erreurs de ce type';
 $txt['filter_only_file'] = 'Ne montrer que les erreurs provenant de ce fichier';
-$txt['apply_filter_of_type'] = 'Appliquer le filtre de type&nbsp;';
+$txt['apply_filter_of_type'] = 'Appliquer le filtre de type&#8239;';
 $txt['request_method'] = 'Méthode de la requête';
 $txt['request_protocol'] = 'Protocole de la requête';
 $txt['user_agent'] = 'User-Agent';
-$txt['http_headers'] = 'Autres entêtes HTTP&nbsp;:';
-$txt['file_out_of_bounds'] = 'Cette ligne est hors des limites du fichier. Peut-être l\'avez vous modifié&nbsp;?';
+$txt['http_headers'] = 'Autres entêtes HTTP&#8239;:';
+$txt['file_out_of_bounds'] = 'Cette ligne est hors des limites du fichier. Peut-être l\'avez vous modifié&#8239;?';
 
 $txt['errortype_all'] = 'Toutes les erreurs';
 $txt['errortype_general'] = 'Générale';
@@ -145,7 +145,7 @@ $txt['maintain_return'] = 'Retourner à la maintenance du forum';
 
 $txt['maintain_old'] = 'Enlever les anciens messages';
 $txt['maintain_old_since_days1'] = 'Supprimer les sujets sans nouveaux messages depuis ';
-$txt['maintain_old_since_days2'] = ' jours, qui sont&nbsp;:';
+$txt['maintain_old_since_days2'] = ' jours, qui sont&#8239;:';
 $txt['maintain_old_nothing_else'] = 'De n\'importe quel type.';
 $txt['maintain_old_are_moved'] = 'Uniquement des notifications de déplacement.';
 $txt['maintain_old_are_locked'] = 'Bloqués.';
@@ -153,7 +153,7 @@ $txt['maintain_old_are_not_pinned'] = 'Mais ne pas compter les sujets épinglés
 $txt['maintain_old_all'] = 'Toutes les sections (cliquez pour choisir des sections spécifiques)';
 $txt['maintain_old_choose'] = 'Choisir une section spécifique (cliquez pour les sélectionner toutes)';
 $txt['maintain_old_remove'] = 'Enlever maintenant';
-$txt['maintain_old_confirm'] = 'Êtes-vous sûr de vouloir supprimer maintenant les anciens messages&nbsp;?<br><br>Le processus ne peut être inversé&nbsp;!';
+$txt['maintain_old_confirm'] = 'Êtes-vous sûr de vouloir supprimer maintenant les anciens messages&#8239;?<br><br>Le processus ne peut être inversé&#8239;!';
 
 $txt['maintain_members'] = 'Effacer les comptes inactifs';
 $txt['maintain_members_ungrouped'] = 'Membres non groupés <span class="smalltext">(qui ne font partie d\'aucun groupe)</span>';
@@ -164,7 +164,7 @@ $txt['maintain_members_activated'] = 'activé leur compte';
 $txt['maintain_members_logged_in'] = 'cherché à se connecter';
 $txt['maintain_members_all'] = 'Tous les groupes de membres';
 $txt['maintain_members_choose'] = 'Groupes sélectionnés';
-$txt['maintain_members_confirm'] = 'Êtes-vous sûr de vouloir supprimer ces comptes&nbsp;?<br><br>Vous ne pourrez pas annuler cette opération&nbsp;!';
+$txt['maintain_members_confirm'] = 'Êtes-vous sûr de vouloir supprimer ces comptes&#8239;?<br><br>Vous ne pourrez pas annuler cette opération&#8239;!';
 
 $txt['maintain_recountposts'] = 'Recompter les Messages par Membre';
 $txt['maintain_recountposts_desc'] = 'Recalcule le nombre de messages de chaque membre du forum, et s\'assure qu\'il correspond au nombre mis en cache (il peut changer en fonction des changements de permissions).';
@@ -172,9 +172,9 @@ $txt['maintain_recountposts_desc'] = 'Recalcule le nombre de messages de chaque 
 // !!! This little lot can go once the converter is done.
 $txt['utf8_title'] = 'Convertir la base de données et les données en UTF-8';
 $txt['utf8_introduction'] = 'L\'UTF-8 est un jeu de caractères international couvrant presque toutes les langues du monde. Convertir votre base de données et vos données en UTF-8 peut vous permettre un support plus facile de langues multiples sur le même forum. Cela peut aussi améliorer la recherche avec des langues basées sur des caractères non latins.';
-$txt['utf8_warning'] = 'Si vous voulez convertir vos données et votre base en UTF-8, veuillez faire attention à ce qui suit&nbsp;:
+$txt['utf8_warning'] = 'Si vous voulez convertir vos données et votre base en UTF-8, veuillez faire attention à ce qui suit&#8239;:
 <ul class="normallist">
-	<li>Convertir des jeux de caractères peut être <em>nocif</em> pour vos données&nbsp;! Soyez sûr d\'avoir fait une sauvegarde de votre base de données <em>avant</em> de convertir.</li>
+	<li>Convertir des jeux de caractères peut être <em>nocif</em> pour vos données&#8239;! Soyez sûr d\'avoir fait une sauvegarde de votre base de données <em>avant</em> de convertir.</li>
 	<li>Comme l\'UTF-8 est un jeu de caractères plus riche que les autres, il est impossible de revenir en arrière. à part restaurer la sauvegarde de votre base de données faite avant la conversion.</li>
 	<li>Après avoir converti votre base de données et vos données en UTF-8, vous devrez utiliser des fichiers de langue compatibles UTF-8.</li>
 </ul>';
@@ -193,16 +193,16 @@ $txt['move_topics_select_board'] = 'Choisir la section';
 $txt['move_topics_from'] = 'Déplacer les fils de';
 $txt['move_topics_to'] = 'vers';
 $txt['move_topics_now'] = 'Déplacer maintenant';
-$txt['move_topics_confirm'] = 'Êtes-vous sûr de vouloir déplacer TOUS les sujets de &quot;%board_from%&quot; vers &quot;%board_to%&quot;&nbsp;?';
+$txt['move_topics_confirm'] = 'Êtes-vous sûr de vouloir déplacer TOUS les sujets de &quot;%board_from%&quot; vers &quot;%board_to%&quot;&#8239;?';
 
 $txt['maintain_reattribute_posts'] = 'Réattribuer des messages aux utilisateurs';
 $txt['reattribute_guest_posts'] = 'Trouver les messages des invités utilisant...';
 $txt['reattribute_email'] = 'comme adresse e-mail';
 $txt['reattribute_username'] = 'comme pseudonyme';
-$txt['reattribute_current_member'] = '...Et les attribuer à ce membre&nbsp;';
+$txt['reattribute_current_member'] = '...Et les attribuer à ce membre&#8239;';
 $txt['reattribute_increase_posts'] = 'Les compter dans le nombre de messages envoyés par le membre';
 $txt['reattribute'] = 'Réattribuer';
-$txt['reattribute_confirm'] = 'Êtes-vous sûr de vouloir attribuer tous les messages d\'invités utilisant %type% "%find%" au membre "%member_to%"&nbsp;?';
+$txt['reattribute_confirm'] = 'Êtes-vous sûr de vouloir attribuer tous les messages d\'invités utilisant %type% "%find%" au membre "%member_to%"&#8239;?';
 $txt['reattribute_confirm_username'] = 'pour nom d\'utilisateur';
 $txt['reattribute_confirm_email'] = 'pour adresse e-mail';
 $txt['reattribute_cannot_find_member'] = 'Impossible de trouver le membre à qui réattribuer les messages.';

@@ -9,7 +9,7 @@ $txt['scheduled_tasks_regularity'] = 'Fréquence';
 $txt['scheduled_tasks_enabled'] = 'Activée';
 $txt['scheduled_tasks_run_now'] = 'Lancer maintenant';
 $txt['scheduled_tasks_save_changes'] = 'Sauvegarder les changements';
-$txt['scheduled_tasks_time_offset'] = '<strong>NB&nbsp;:</strong> Toutes les heures données ci-dessous sont <em>à l\'heure du serveur</em> et ne tiennent pas compte des décalages de temps intégrés à Wedge.';
+$txt['scheduled_tasks_time_offset'] = '<strong>NB&#8239;:</strong> Toutes les heures données ci-dessous sont <em>à l\'heure du serveur</em> et ne tiennent pas compte des décalages de temps intégrés à Wedge.';
 $txt['scheduled_tasks_were_run'] = 'Toutes les tâches sélectionnées sont terminées.';
 
 $txt['scheduled_tasks_na'] = 'N/A';
@@ -43,7 +43,7 @@ $txt['scheduled_task_edit_pick_unit'] = 'Choisir l\'unité';
 $txt['scheduled_task_edit_interval'] = 'Intervalle';
 $txt['scheduled_task_edit_start_time'] = 'Heure de départ';
 $txt['scheduled_task_edit_start_time_desc'] = 'Heure à laquelle doit s\'effectuer le premier lancement de la journée (heures:minutes)';
-$txt['scheduled_task_time_offset'] = 'Veuillez noter que l\'heure de départ doit être adaptée par rapport à la date locale du serveur, qui est actuellement&nbsp;: %1$s';
+$txt['scheduled_task_time_offset'] = 'Veuillez noter que l\'heure de départ doit être adaptée par rapport à la date locale du serveur, qui est actuellement&#8239;: %1$s';
 
 $txt['scheduled_view_log'] = 'Voir les journaux';
 $txt['scheduled_log_empty'] = 'Aucune entrée actuellement dans le journal des tâches.';

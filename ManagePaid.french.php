@@ -26,7 +26,7 @@ $txt['paid_email_desc'] = 'Informer l\'admin lorsqu\'un abonnement change automa
 $txt['paid_email_to'] = 'Adresse e-mail pour la correspondance';
 $txt['paid_email_to_desc'] = 'Liste d\'adresses e-mail, séparées par des virgules, auxquelles envoyer des notifications en plus des administrateurs du forum.';
 $txt['paidsubs_test'] = 'Activer le mode test';
-$txt['paidsubs_test_desc'] = 'Place les abonnements payants en mode &quot;test&quot;, qui utilisera, si elles existent, les méthodes test (&quot;bac à sable&quot;) de paiement de PayPal et autres. Ne l\'activez pas à moins de savoir ce que vous faites&nbsp;!';
+$txt['paidsubs_test_desc'] = 'Place les abonnements payants en mode &quot;test&quot;, qui utilisera, si elles existent, les méthodes test (&quot;bac à sable&quot;) de paiement de PayPal et autres. Ne l\'activez pas à moins de savoir ce que vous faites&#8239;!';
 $txt['paidsubs_test_confirm'] = 'Êtes-vous sûr de vouloir activer le mode test ?';
 $txt['paid_email_no'] = 'Ne pas envoyer de notification';
 $txt['paid_email_error'] = 'Informer lorsqu\'un abonnement échoue';
@@ -45,7 +45,7 @@ $txt['paypal_email_desc'] = 'Laissez vide si vous ne souhaitez pas utiliser PayP
 $txt['worldpay_id'] = 'ID d\'installation WorldPay';
 $txt['worldpay_id_desc'] = 'L\'identifiant d\'installation généré par WorldPay. Laissez vide si vous n\'utilisez pas WorldPay.';
 $txt['worldpay_password'] = 'Mot de passe de rappel WorldPay';
-$txt['worldpay_password_desc'] = 'Assurez-vous, lorsque vous mettez ce mot de passe WorldPay, qu\'il est unique et non le même que le mot de passe de votre compte WorldPay/admin&nbsp;!';
+$txt['worldpay_password_desc'] = 'Assurez-vous, lorsque vous mettez ce mot de passe WorldPay, qu\'il est unique et non le même que le mot de passe de votre compte WorldPay/admin&#8239;!';
 $txt['authorize_id'] = 'ID d\'installation Authorize.Net';
 $txt['authorize_id_desc'] = 'L\'identifiant d\'installation généré par Authorize.Net. Laissez vide si vous n\'utilisez pas Authorize.Net.';
 $txt['authorize_transid'] = 'ID de transaction Authorize.Net';
@@ -57,17 +57,17 @@ $txt['nochex_email'] = 'Adresse e-mail Nochex';
 $txt['nochex_email_desc'] = 'Adresse e-mail du compte marchant chez Nochex. Laissez vide si vous n\'utilisez pas Nochex.';
 $txt['paid_settings_save'] = 'Sauvegarder';
 
-$txt['paid_note'] = '<strong class="alert">Note</strong>&nbsp;:<br>Pour que les abonnements soient mis à jour automatiquement pour vos utilisateurs, vous
+$txt['paid_note'] = '<strong class="alert">Note</strong>&#8239;:<br>Pour que les abonnements soient mis à jour automatiquement pour vos utilisateurs, vous
 	aurez besoin de mettre en place une URL de retour pour chacune de vos méthodes de paiement. Pour tous les types de paiement, cette URL de retour doit
-	être équivalente à&nbsp;:<br><br>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<strong>{board_url}/subscriptions.php</strong><br><br>
+	être équivalente à&#8239;:<br><br>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<strong>{board_url}/subscriptions.php</strong><br><br>
 	Vous pouvez modifier le lien pour PayPal directement, en cliquant <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-ipn-notify" target="_blank">ici</a>.<br>
 	Pour les autres passerelles (si installées), vous pouvez normalement les trouver dans votre panneau client, habituellement sous le terme &quot;URL de Retour&quot; (<em>Return URL</em>) ou &quot;URL de Rappel&quot; (<em>Callback URL</em>).';
 
 // View subscription strings.
 $txt['paid_name'] = 'Nom';
 $txt['paid_status'] = 'État';
-$txt['paid_cost'] = 'Prix&nbsp;';
-$txt['paid_duration'] = 'Durée&nbsp;';
+$txt['paid_cost'] = 'Prix&#8239;';
+$txt['paid_duration'] = 'Durée&#8239;';
 $txt['paid_active'] = 'Actif';
 $txt['paid_pending'] = 'Paiement en attente';
 $txt['paid_finished'] = 'Expiré';
@@ -106,7 +106,7 @@ $txt['paid_mod_prim_group_desc'] = 'Groupe de base dans lequel l\'utilisateur se
 $txt['paid_mod_add_groups'] = 'Groupes additionnels de l\'Abonnement';
 $txt['paid_mod_add_groups_desc'] = 'Groupes additionnels dans lesquels l\'utilisateur sera placé pendant la durée de son abonnement.';
 $txt['paid_mod_no_group'] = 'Ne rien changer';
-$txt['paid_mod_edit_note'] = 'Notez que ce groupe étant lié à des abonnements existants, certains réglages ne peuvent être changés&nbsp;!';
+$txt['paid_mod_edit_note'] = 'Notez que ce groupe étant lié à des abonnements existants, certains réglages ne peuvent être changés&#8239;!';
 $txt['paid_mod_delete_warning'] = '<strong>ATTENTION</strong><br><br>Si vous supprimez cet abonnement, tous les utilisateurs y souscrivant actuellement perdront leurs droits d\'accès garantis par l\'abonnement en question. Sauf si vous êtes sûr de vouloir faire cela, il est recommandé de simplement désactiver un abonnement plutôt que de le supprimer.<br>';
 $txt['paid_mod_repeatable'] = 'Permettre à l\'utilisateur de renouveler automatiquement son abonnement';
 $txt['paid_mod_allow_partial'] = 'Permettre un abonnement partiel';
@@ -131,8 +131,8 @@ $txt['minute'] = 'Minute';
 
 // View subscribed users.
 $txt['viewing_users_subscribed'] = 'Liste des Abonnés';
-$txt['view_users_subscribed'] = 'Voir les utilisateurs abonnés à&nbsp;: &quot;%1$s&quot;';
-$txt['no_subscribers'] = 'Actuellement, personne n\'a souscrit à cet abonnement&nbsp;!';
+$txt['view_users_subscribed'] = 'Voir les utilisateurs abonnés à&#8239;: &quot;%1$s&quot;';
+$txt['no_subscribers'] = 'Actuellement, personne n\'a souscrit à cet abonnement&#8239;!';
 $txt['add_subscriber'] = 'Ajouter un Nouveau Souscripteur';
 $txt['edit_subscriber'] = 'Modifier le Souscripteur';
 $txt['delete_selected'] = 'Effacer la Sélection';
@@ -183,21 +183,21 @@ $txt['paid_all_freq_blank'] = 'Vous devez entrer un prix pour au moins l\'une de
 $txt['paid_no_data'] = 'Aucune donnée valide n\'a été envoyée au script.';
 
 $txt['paypal_could_not_connect'] = 'Impossible de se connecter au serveur PayPal';
-$txt['paid_sub_not_active'] = 'Cet abonnement n\'accepte plus de nouveaux souscripteurs&nbsp;!';
-$txt['paid_disabled'] = 'Les abonnements payants sont actuellement désactivés&nbsp;!';
+$txt['paid_sub_not_active'] = 'Cet abonnement n\'accepte plus de nouveaux souscripteurs&#8239;!';
+$txt['paid_disabled'] = 'Les abonnements payants sont actuellement désactivés&#8239;!';
 $txt['paid_unknown_transaction_type'] = 'Type de transaction inconnu pour les abonnements payants.';
 $txt['paid_empty_member'] = 'Le formulaire d\'abonnement payant n\'a pas pu retrouver l\'identifiant du membre';
-$txt['paid_could_not_find_member'] = 'Le formulaire d\'abonnement payant n\'a pas pu retrouver le membre ayant l\'identifiant&nbsp;: %1$d';
-$txt['paid_count_not_find_subscription'] = 'Le formulaire d\'abonnement payant n\'a pas trouvé d\'abonnement pour l\'ID membre&nbsp;: %1$s, ID d\'abonnement&nbsp;: %2$s';
-$txt['paid_count_not_find_subscription_log'] = 'Le formulaire d\'abonnement payant n\'a pas pu trouver d\'entrée du journal des abonnements pour l\'ID membre&nbsp;: %1$s, ID d\'abonnement&nbsp;: %2$s';
-$txt['paid_count_not_find_outstanding_payment'] = 'Impossible de trouver un paiement en attente pour l\'ID membre&nbsp;: %1$s, ID d\'abonnement&nbsp;: %2$s, donc à ignorer';
+$txt['paid_could_not_find_member'] = 'Le formulaire d\'abonnement payant n\'a pas pu retrouver le membre ayant l\'identifiant&#8239;: %1$d';
+$txt['paid_count_not_find_subscription'] = 'Le formulaire d\'abonnement payant n\'a pas trouvé d\'abonnement pour l\'ID membre&#8239;: %1$s, ID d\'abonnement&#8239;: %2$s';
+$txt['paid_count_not_find_subscription_log'] = 'Le formulaire d\'abonnement payant n\'a pas pu trouver d\'entrée du journal des abonnements pour l\'ID membre&#8239;: %1$s, ID d\'abonnement&#8239;: %2$s';
+$txt['paid_count_not_find_outstanding_payment'] = 'Impossible de trouver un paiement en attente pour l\'ID membre&#8239;: %1$s, ID d\'abonnement&#8239;: %2$s, donc à ignorer';
 $txt['paid_admin_not_setup_gateway'] = 'Désolé, mais l\'administrateur n\'a pas encore mis d\'abonnement payant en place - veuillez réessayer plus tard.';
 $txt['paid_make_recurring'] = 'Rendre le paiement récurrent';
 
 $txt['subscriptions'] = 'Abonnements';
 $txt['subscription'] = 'Abonnement';
 $txt['paid_subs_desc'] = 'Vous trouverez ci-dessous la liste des abonnements disponibles pour ce site.';
-$txt['paid_subs_none'] = 'Il n\'y a actuellement aucun abonnement payant en place&nbsp;!';
+$txt['paid_subs_none'] = 'Il n\'y a actuellement aucun abonnement payant en place&#8239;!';
 $txt['paid_subs_admin_override'] = 'L\'utilisateur n\'est dans aucun des groupes autorisés à prendre cet abonnement.';
 
 $txt['paid_current'] = 'Abonnements existants';

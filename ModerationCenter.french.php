@@ -42,7 +42,7 @@ $txt['mc_reportedp_close'] = 'Fermer';
 $txt['mc_reportedp_open'] = 'Ouvrir';
 $txt['mc_reportedp_ignore'] = 'Ignorer';
 $txt['mc_reportedp_unignore'] = 'Dé-Ignorer';
-$txt['mc_reportedp_ignore_confirm'] = 'Êtes-vous sûr de vouloir ignorer d\'autres rapports sur ce message&nbsp;?<br><br>Cela entraînera la désactivation de nouveaux rapports pour tous les modérateurs de ce forum.';
+$txt['mc_reportedp_ignore_confirm'] = 'Êtes-vous sûr de vouloir ignorer d\'autres rapports sur ce message&#8239;?<br><br>Cela entraînera la désactivation de nouveaux rapports pour tous les modérateurs de ce forum.';
 $txt['mc_reportedp_close_selected'] = 'Fermer la sélection';
 
 $txt['mc_groupr_group'] = 'Groupe de membres';
@@ -68,7 +68,7 @@ $txt['mc_unapproved_sure'] = 'Etes vous sûr de vouloir faire cela?';
 $txt['mc_viewmodreport'] = 'Rapport de Modération pour %1$s par %2$s';
 $txt['mc_modreport_summary'] = 'Il y a eu %1$d rapport(s) concernant ce message. Date du dernier rapport&nbsp: %2$s.';
 $txt['mc_modreport_whoreported_title'] = 'Membres ayant rapporté ce message';
-$txt['mc_modreport_whoreported_data'] = 'Rapporté par %1$s le %2$s, en laissant ce commentaire&nbsp;:';
+$txt['mc_modreport_whoreported_data'] = 'Rapporté par %1$s le %2$s, en laissant ce commentaire&#8239;:';
 $txt['mc_modreport_modactions'] = 'Actions faites par d\'autres modérateurs';
 $txt['mc_modreport_mod_comments'] = 'Commentaires de Modérateur';
 $txt['mc_modreport_no_mod_comment'] = 'Il n\'y a actuellement aucun commentaire de modérateur.';
@@ -95,7 +95,7 @@ $txt['mc_warning_templates'] = 'Modèles Personnalisés';
 $txt['mc_warning_log_title'] = 'Consultation du journal de sanctions';
 $txt['mc_warning_templates_title'] = 'Modèles de Sanction Personnalisés';
 
-$txt['mc_warnings_none'] = 'Aucune sanction n\'a encore été donnée&nbsp;!';
+$txt['mc_warnings_none'] = 'Aucune sanction n\'a encore été donnée&#8239;!';
 $txt['mc_warnings_recipient'] = 'Destinataire';
 
 $txt['mc_warning_templates_none'] = 'Aucun modèle de notification de sanction n\'a encore été créé';
