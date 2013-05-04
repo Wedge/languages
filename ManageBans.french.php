@@ -38,6 +38,8 @@ $txt['ban_no_entries'] = 'Aucun bannissement n\'est actuellement actif.';
 
 $txt['ban_remove_selected'] = 'Supprimer la sélection';
 $txt['ban_remove_selected_confirm'] = 'Êtes-vous sûr de vouloir supprimer les bannissements sélectionnés&#8239;?';
+$txt['ban_remove_single'] = 'Supprimer ce ban';
+$txt['ban_remove_single_confirm'] = 'Êtes-vous sûr de vouloir supprimer ce ban&#8239;?';
 
 $txt['ban_hardness_header'] = 'Type de ban';
 $txt['ban_hardness_title'] = 'Quel type de ban&#8239;?';

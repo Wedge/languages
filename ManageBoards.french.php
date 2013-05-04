@@ -99,6 +99,7 @@ $txt['recycle_enable'] = 'Activer le recyclage des sujets effacés';
 $txt['recycle_board'] = 'Section pour les sujets recyclés';
 $txt['recycle_board_unselected_notice'] = 'Vous avez activé le recyclage de sujets sans spécifier où les placer. Cette fonction ne sera active qu\'après avoir indiqué la section.';
 $txt['countChildPosts'] = 'Compter les messages des sous-sections dans le total des messages de leur section parente';
+$txt['ignorable_boards'] = 'Quelles sections les membres peuvent-ils ignorer&#8239;?';
 $txt['display_flags'] = 'Montrer les drapeaux sur la page d\'accueil&#8239;?';
 $txt['flags_none'] = 'Non';
 $txt['flags_specified'] = 'Uniquement pour les sections qui ont une langue par défaut';
