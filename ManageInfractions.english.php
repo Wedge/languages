@@ -168,9 +168,10 @@ $txt['pun_infraction_pm_ban'] = 'You are not allowed to send personal messages';
 $txt['pun_infraction_soft_ban'] = 'Some aspects of the forum will be unavailable to you';
 $txt['pun_infraction_hard_ban'] = 'You are banned from the forum';
 $txt['pun_points'] = array(
-	1 => 'You have accumulated another infraction point, bringing your total to {POINTS}. This may lead to further punishments in future.',
-	'n' => 'You have accumulated another %1$s infraction points, bringing your total to {POINTS}. This may lead to further punishments in future.',
+	1 => 'You have accumulated an infraction point, bringing your total to {POINTS}. This may lead to further punishments in future.',
+	'n' => 'You have accumulated %1$s infraction points, bringing your total to {POINTS}. This may lead to further punishments in future.',
 );
+$txt['pun_because_message'] = 'You received this infraction because of your post: {LINK}';
 
 $txt['error_no_name_given'] = 'Each infraction must have a name for reference purposes.';
 $txt['error_no_text'] = 'You selected to add a custom warning notification but did not fill any text in.';
