@@ -108,14 +108,16 @@ $txt['posts_made'] = 'Posts';
 $txt['website'] = 'Website';
 $txt['register'] = 'Register';
 $txt['warning_status'] = 'Warning Status';
-$txt['user_warn_watch'] = 'User is on moderator watch list';
+$txt['user_warn_warned'] = 'User has been warned';
 $txt['user_warn_moderate'] = 'User posts join approval queue';
 $txt['user_warn_mute'] = 'User is banned from posting';
-$txt['user_warn_ban'] = 'User is currently banned';
-$txt['warn_watch'] = 'Watched';
+$txt['user_warn_soft_ban'] = 'User is soft-banned';
+$txt['user_warn_hard_ban'] = 'User is hard-banned';
+$txt['warn_warned'] = 'Warned';
 $txt['warn_moderate'] = 'Moderated';
 $txt['warn_mute'] = 'Muted';
-$txt['warn_ban'] = 'Banned';
+$txt['warn_soft_ban'] = '(Soft) Banned';
+$txt['warn_hard_ban'] = '(Hard) Banned';
 
 // User menu strings
 $txt['usermenu_profile'] = 'Profile';

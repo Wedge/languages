@@ -200,32 +200,6 @@ $helptxt['modlog'] = '
 $helptxt['adminlog'] = '
 	This section allows members of the admin team to track some of the administrative actions that have occurred on the forum. To ensure that
 	admins cannot remove references to the actions they have performed, entries may not be deleted until 24 hours after the action was taken.';
-$helptxt['warning_enable'] = '
-	This feature enables members of the admin and moderation team to issue warnings to members - and to use a members warning level to determine the
-	actions available to them on the forum. Upon enabling this feature a permission will be available within the permissions section to define
-	which groups may assign warnings to members. Warning levels can be adjusted from a members profile. Here are some of the options available:
-	<ul class="normallist">
-		<li>
-			<strong>Warning Level for Member Watch</strong><br>
-			This setting defines the percentage warning level a member must reach to automatically assign a "watch" to the member.
-			Any member who is being "watched" will appear in the relevant area of the moderation center.
-		</li>
-		<li>
-			<strong>Warning Level for Post Moderation</strong><br>
-			Any member passing the value of this setting will find all their posts require moderator approval before they appear to the forum
-			community. This will override any local board permissions which may exist related to post moderation.
-		</li>
-		<li>
-			<strong>Warning Level for Member Muting</strong><br>
-			If this warning level is passed by a member they will find themselves under a post ban. The member will lose all posting rights.
-		</li>
-		<li>
-			<strong>Maximum Member Warning Point per Day</strong><br>
-			This setting limits the amount of points a moderator may add/remove to any particular member in a 24-hour period. This will
-			can be used to limit what a moderator can do in a small period of time. This setting can be disabled by setting to a value of zero.
-			Note that any member with administrator permissions are not affected by this value.
-		</li>
-	</ul>';
 $helptxt['error_log'] = '
 	The error log tracks logs every serious error encountered by users using your forum. It lists all of these errors by date which can be sorted
 	by clicking the black arrow next to each date. Additionally you can filter the errors by clicking the picture next to each error statistic. This
@@ -370,6 +344,7 @@ $helptxt['localCookies'] = 'Wedge uses cookies to store login information on the
 	Globally stored cookies are less secure when used on a shared webserver (like Tripod).<hr>
 	Local cookies don\'t work outside the forum folder so, if your forum is stored at www.myserver.com/forum, pages like www.myserver.com/index.php cannot access the account information.
 	Especially when using SSI.php, global cookies are recommended.';
+$helptxt['allow_non_mod_edit'] = 'Under normal circumstances, a normal user can edit their own posts - but this can include cases where a moderator has also edited their post to remove offensive content. By default, users are not permitted to edit their own post if a moderator already edited it. This would remove the restriction, and generally should be left unticked.';
 $helptxt['enableBBC'] = 'Selecting this option will allow your members to use Bulletin Board Code (BBC) throughout the forum, allowing users to format their posts with images, type formatting and more.';
 $helptxt['time_offset'] = 'Not all forum administrators want their forum to use the same time zone as the server upon which it is hosted. Use this option to specify a time difference (in hours) from which the forum should operate from the server time. Negative and decimal values are permitted.';
 $helptxt['default_timezone'] = 'The server timezone tells PHP where your server is located. You should ensure this is set correctly, preferably to the country/city in which the server is located. You can find out more information on the <a href="http://www.php.net/manual/en/timezones.php" target="_blank">PHP Site</a>.';
@@ -440,7 +415,7 @@ $helptxt['db_persist'] = 'Keeps the connection active to increase performance. I
 $helptxt['ssi_db_user'] = 'Optional setting to use a different database user and password when you are using SSI.php.';
 
 $helptxt['countChildPosts'] = 'Checking this option will mean that posts and topics in a board\'s sub-board will count toward its totals on the index page.<br><br>This will make things notably slower, but means that a parent with no posts in it won\'t show \'0\'.';
-$helptxt['allow_ignore_boards'] = 'Checking this option will allow users to select boards they wish to ignore.';
+$helptxt['ignorable_boards'] = 'This options allows users to mark certain boards ignored - the board will always appear to be "read" when looking on the board index, and topics from "ignored" boards will not appear in the Recent Posts or Unread Topics pages.';
 $helptxt['allow_ignore_topics'] = 'Checking this option will allow users to select topics they wish to ignore in <em>Unread replies</em> and <em>Unread posts</em>.';
 
 $helptxt['display_flags'] = 'In addition to the general language for the forum, you can set a language for each individual board, which is used by default. This option controls whether or not a flag for that language is displayed on the list of boards:

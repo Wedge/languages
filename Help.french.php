@@ -193,27 +193,6 @@ $helptxt['modlog'] = '
 	La colonne \'Objet\' liste les variables associées à l\'action.';
 $helptxt['adminlog'] = '
 	Cette section permet aux membres de l\'équipe d\'administration de pister les actions effectuées par tout administrateur sur le forum. Afin que les administrateurs ne puissent enlever les références aux actions entreprises, les entrées ne pourront être supprimées que 24 heures après leur application.';
-$helptxt['warning_enable'] = '
-	Cette fonctionnalité permet aux membres des équipes d\'administration et de modération de sanctionner les utilisateurs, et d\'utiliser un niveau de sanction pour déterminer les actions possibles pour leur cas au niveau du forum. Après avoir activé cette fonctionnalité, un nouveau paramètre sera disponible dans les permissions par section pour définir quels groupes pourront assigner des sanctions aux utilisateurs. Les niveaux de sanction pourront être ajustés à partir du profil des utilisateurs. Parmi les options disponibles&#8239;:
-	<ul class="normallist">
-		<li>
-			<strong>Niveau de sanction pour la mise sous surveillance</strong><br>
-			Ce réglage définit le pourcentage de niveau de sanction qu\'un utilisateur doit atteindre pour recevoir automatiquement une "mise en garde".
-			Tous les utilisateurs qui sont "mis en garde" apparaitront dans l\'endroit adéquat du centre de modération.
-		</li>
-		<li>
-			<strong>Niveau de sanction pour la prémodération des messages</strong><br>
-			Si ce niveau de sanction est atteint par un utilisateur, ses messages devront être validés par un modérateur pour apparaître sur le forum. Cela outrepassera toutes les permissions par section qui peuvent exister en rapport avec la modération des messages.
-		</li>
-		<li>
-			<strong>Niveau de sanction pour réduire au silence l\'utilisateur</strong><br>
-			Si ce niveau de sanction est atteint par un utilisateur, il lui sera impossible d\'envoyer des messages. L\'utilisateur perdra ainsi tous ses droits de postage.
-		</li>
-		<li>
-			<strong>Points de sanction maximum par jour</strong><br>
-			Ce réglage limite le nombre de points qu\'un modérateur peut ajouter ou retirer à un utilisateur particulier sur une période de 24 heures. Cela peut être utile pour limiter ce qu\'un modérateur un peu échaudé peut faire sur une courte période de temps. Ce réglage peut être désactivé en mettant la valeur à zéro. Notez que les utilisateurs avec des permissions d\'administration ne sont pas affectés par cette limite.
-		</li>
-	</ul>';
 $helptxt['error_log'] = '
 	Le journal d\'erreurs conserve des traces de toutes les erreurs sérieuses rencontrées lors de l\'utilisation de votre forum. Il liste toutes les erreurs par date, qui peuvent être récupérées
 	en cliquant sur la flèche noire accompagnant chaque date. De plus, vous pouvez filtrer les erreurs en sélectionnant l\'image accompagnant les statistiques des erreurs. Ceci
@@ -419,7 +398,6 @@ $helptxt['db_persist'] = 'Conserve une connexion permanente avec la base de donn
 $helptxt['ssi_db_user'] = 'Réglage optionnel pour utiliser un nom d\'utilisateur et un mot de passe de base de données différents quand vous utilisez SSI.php.';
 
 $helptxt['countChildPosts'] = 'Sélectionner cette option signifie que les messages et les sujets dans une section parente seront comptés dans leur totalité sur la page d\'index.<br><br>Cela rendra les choses notablement plus lentes, mais signifiera qu\'une section parente avec aucun message ne montrera plus forcément \'0\'.';
-$helptxt['allow_ignore_boards'] = 'Cocher cette option permettra aux utilisateurs de sélectionner les sites qu\'ils veulent ignorer.';
 $helptxt['allow_ignore_topics'] = 'Cocher cette option permettra aux utilisateurs de sélectionner les sujets qu\'ils veulent ignorer dans les fonctions <em>Réponses non lues</em> et <em>Messages non lus</em>.';
 
 $helptxt['display_flags'] = 'En plus de la langue par défaut du forum, vous pouvez choisir une langue par défaut pour chaque section individuelle. Cette option vous permet de montrer ou non un drapeau représentant la langue par défaut sur la liste des sections&#8239;:

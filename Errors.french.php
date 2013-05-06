@@ -55,9 +55,6 @@ $txt['cannot_access_mod_center'] = 'Vous n\'avez pas la permission d\'accéder a
 $txt['cannot_admin_forum'] = 'Vous n\'êtes pas autorisé à administrer ce forum.';
 $txt['cannot_announce_topic'] = 'Vous n\'êtes pas autorisé à annoncer vos sujets dans cette section.';
 $txt['cannot_approve_posts'] = 'Vous n\'avez pas la permission d\'approuver quoi que ce soit.';
-$txt['cannot_post_unapproved_topics'] = 'Vous n\'avez pas la permission de poster des sujets non approuvés.';
-$txt['cannot_post_unapproved_replies_own'] = 'Vous n\'avez pas la permission de poster des réponses non approuvées dans vos sujets.';
-$txt['cannot_post_unapproved_replies_any'] = 'Vous n\'avez pas la permission de poster des réponses non approuvées dans les sujets des autres utilisateurs.';
 $txt['cannot_remove_any'] = 'Désolé, mais vous n\'avez pas les privilèges requis pour supprimer un sujet.';
 $txt['cannot_remove_own'] = 'Vous ne pouvez pas effacer vos propres sujets dans ce forum.';
 $txt['cannot_edit_news'] = 'Vous n\'êtes pas autorisé à modifier les nouvelles de ce forum.';
@@ -356,9 +353,6 @@ $txt['resend_email_success'] = 'L\'e-mail d\'activation a été renvoyé avec su
 
 $txt['custom_option_need_name'] = 'L\'option du profil doit avoir un nom&#8239;!';
 $txt['custom_option_not_unique'] = 'Le nom du champ n\'est pas unique&#8239;!';
-
-$txt['warning_no_reason'] = 'Vous devez entrer une raison pour sanctionner un membre';
-$txt['warning_notify_blank'] = 'Vous avez choisi de notifier l\'utilisateur, mais vous n\'avez pas rempli les champs de titre/message.';
 
 $txt['movetopic_no_reason'] = 'Vous devez préciser une raison pour le déplacement du sujet, ou désactiver l\'option \'Poster un message de redirection\'.';
 $txt['movetopic_no_pm'] = 'Vous devez taper un message personnel pour signaler à l\'auteur le déplacement de son sujet, ou décocher l\'option correspondante.';

@@ -55,9 +55,6 @@ $txt['cannot_access_mod_center'] = 'You do not have permission to access the mod
 $txt['cannot_admin_forum'] = 'You are not allowed to administrate this forum.';
 $txt['cannot_announce_topic'] = 'You are not allowed to announce topics on this board.';
 $txt['cannot_approve_posts'] = 'You do not have permission to approve items.';
-$txt['cannot_post_unapproved_topics'] = 'You do not have permission to post unapproved topics.';
-$txt['cannot_post_unapproved_replies_own'] = 'You do not have permission to post unapproved replies to your topics.';
-$txt['cannot_post_unapproved_replies_any'] = 'You do not have permission to post unapproved replies to other users\' topics.';
 $txt['cannot_remove_any'] = 'Sorry, but you don\'t have the privilege to remove just any topic. Check to make sure this topic wasn\'t just moved to another board.';
 $txt['cannot_remove_own'] = 'You cannot delete your own topics in this board. Check to make sure this topic wasn\'t just moved to another board.';
 $txt['cannot_edit_news'] = 'You are not allowed to edit news items on this forum.';
@@ -81,6 +78,7 @@ $txt['cannot_moderate_board'] = 'You are not allowed to moderate this board.';
 $txt['cannot_modify_any'] = 'You aren\'t allowed to modify just any post.';
 $txt['cannot_modify_own'] = 'Sorry, but you aren\'t allowed to edit your own posts.';
 $txt['cannot_modify_replies'] = 'Even though this post is a reply to your topic, you cannot edit it.';
+$txt['cannot_modify_mod_post'] = 'Sorry, but you aren\'t allowed to edit a post previously edited by a moderator.';
 $txt['cannot_move_own'] = 'You are not allowed to move your own topics in this board.';
 $txt['cannot_move_any'] = 'You are not allowed to move topics in this board.';
 $txt['cannot_poll_add_own'] = 'Sorry, you aren\'t allowed to add polls to your own topics in this board.';
@@ -356,9 +354,6 @@ $txt['resend_email_success'] = 'A new activation email has successfully been sen
 
 $txt['custom_option_need_name'] = 'The profile option must have a name!';
 $txt['custom_option_not_unique'] = 'Field name is not unique!';
-
-$txt['warning_no_reason'] = 'You must enter a reason for altering the warning state of a member';
-$txt['warning_notify_blank'] = 'You selected to notify the user but did not fill in the subject/message fields';
 
 $txt['movetopic_no_reason'] = 'You must enter a reason for moving the topic, or uncheck the option to \'post a redirection topic\'.';
 $txt['movetopic_no_pm'] = 'You must enter a personal message to send when moving this topic, or uncheck the option to \'send the topic starter a message\'.';

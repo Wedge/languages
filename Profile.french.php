@@ -188,7 +188,6 @@ $txt['ignoreboards_info'] = 'Cette page vous permet d\'ignorer certains sites. L
 // $txt['ignoretopics'] = 'Ignorer des Sujets';
 // $txt['ignoretopics_info'] = 'Cette page vous permet d\'ignorer certains sujets. Lorsqu\'un sujet est ignoré, il n\'apparaîtra pas dans les fonctions <em>Messages non lus</em> et <em>Réponses non lues</em>. Malgré tout, les sujets ignorés apparaîtront toujours sur la liste des sections, et le dernier message non lu restera en mémoire.';
 
-$txt['profileAction'] = 'Actions';
 $txt['deleteAccount'] = 'Effacer ce compte';
 $txt['profileSendIm'] = 'Envoyer un message personnel';
 $txt['profile_sendpm_short'] = 'Envoyer un MP';
@@ -368,61 +367,6 @@ $txt['profile_error_signature_max_font_size'] = 'La taille de la police du texte
 $txt['profile_error_signature_allow_smileys'] = 'Vous n\'avez pas l\'autorisation d\'utiliser des smileys dans votre signature';
 $txt['profile_error_signature_max_smileys'] = 'Vous n\'êtes pas autorisé à utiliser plus de %1$d smileys dans votre signature';
 $txt['profile_error_signature_disabled_bbc'] = 'Le code BBC suivant n\'est pas autorisé dans votre signature&#8239;: %1$s';
-
-$txt['profile_view_warnings'] = 'Voir les Sanctions';
-$txt['profile_issue_warning'] = 'Sanctionner';
-$txt['profile_warning_level'] = 'Niveau de Sanction&#8239;';
-$txt['profile_warning_desc'] = 'D\'ici, vous pouvez ajuster le niveau de sanction d\'un utilisateur et lui donner une explication si nécessaire. Vous pouvez aussi suivre son historique des sanctions et voir les effets de son niveau de sanction actuel, tels que définis par l\'administrateur.';
-$txt['profile_warning_name'] = 'Nom du Membre&#8239;';
-$txt['profile_warning_impact'] = 'Résultat&#8239;';
-$txt['profile_warning_reason'] = 'Raison de la Sanction&#8239;';
-$txt['profile_warning_reason_desc'] = 'Elle est obligatoire, et sera archivée.';
-$txt['profile_warning_effect_none'] = 'Aucun.';
-$txt['profile_warning_effect_watch'] = 'L\'utilisateur sera ajouté à la liste de surveillance des modérateurs.';
-$txt['profile_warning_effect_own_watched'] = 'Vous êtes sur la liste de surveillance des modérateurs.';
-$txt['profile_warning_is_watch'] = 'sous surveillance';
-$txt['profile_warning_effect_moderation'] = 'Les messages de l\'utilisateur seront modérés avant publication.';
-$txt['profile_warning_effect_own_moderated'] = 'Tous vos messages seront modérés.';
-$txt['profile_warning_is_moderation'] = 'voit ses messages modérés avant publication';
-$txt['profile_warning_effect_mute'] = 'L\'utilisateur n\'aura plus la possibilité de poster.';
-$txt['profile_warning_effect_own_muted'] = 'Vous ne pouvez plus poster.';
-$txt['profile_warning_is_muted'] = 'ne peut pas poster';
-$txt['profile_warning_effect_text'] = 'Niveau >= %1$d: %2$s';
-$txt['profile_warning_notify'] = 'Envoyer une Notification&#8239;';
-$txt['profile_warning_notify_template'] = 'Sélectionner un modèle&#8239;:';
-$txt['profile_warning_notify_subject'] = 'Titre de la Notification&#8239;';
-$txt['profile_warning_notify_body'] = 'Message de Notification&#8239;';
-$txt['profile_warning_notify_template_subject'] = 'Vous avez reçu une sanction';
-// Use numeric entities in below string.
-$txt['profile_warning_notify_template_outline'] = '{MEMBER},' . "\n\n" . 'Vous avez re&#231;u une sanction pour %1$s. Merci de respecter dor&#233;navant les r&#232;gles du forum, sans quoi nous devrons prendre d\'autres mesures.' . "\n\n" . '{REGARDS}';
-$txt['profile_warning_notify_template_outline_post'] = '{MEMBER},' . "\n\n" . 'Vous avez re&#231;u une sanction pour %1$s en rapport avec ce message :' . "\n" . '{MESSAGE}.' . "\n\n" . 'Merci de respecter dor&#233;navant les r&#232;gles du forum, sans quoi nous devrons prendre d\'autres mesures.' . "\n\n" . '{REGARDS}';
-$txt['profile_warning_notify_for_spamming'] = 'spam';
-$txt['profile_warning_notify_title_spamming'] = 'Spam';
-$txt['profile_warning_notify_for_offence'] = 'messages au contenu inapproprié';
-$txt['profile_warning_notify_title_offence'] = 'Messages au contenu inapproprié';
-$txt['profile_warning_notify_for_insulting'] = 'insultes envers d\'autres utilisateurs ou membres de l\'équipe';
-$txt['profile_warning_notify_title_insulting'] = 'Insultes Utilisateurs/Equipe';
-$txt['profile_warning_issue'] = 'Appliquer la sanction';
-$txt['profile_warning_max'] = '(Max. 100)';
-$txt['profile_warning_limit_attribute'] = 'Notez que vous ne pouvez pas ajuster ce niveau d\'utilisateur plus de %1$d%% fois par période de 24 heures.';
-$txt['profile_warning_errors_occured'] = 'La sanction n\'a pas pu être appliquée pour les raisons suivantes&#8239;';
-$txt['profile_warning_success'] = 'Sanction appliquée avec succès';
-$txt['profile_warning_new_template'] = 'Nouveau Modèle';
-
-$txt['profile_warning_previous'] = 'Sanctions précédentes';
-$txt['profile_warning_previous_none'] = 'Cet utilisateur n\'a jamais été sanctionné à ce jour.';
-$txt['profile_warning_previous_issued'] = 'Donnée par';
-$txt['profile_warning_previous_time'] = 'Date';
-$txt['profile_warning_previous_level'] = 'Points';
-$txt['profile_warning_previous_reason'] = 'Raison';
-$txt['profile_warning_previous_notice'] = 'Voir les remarques envoyées au membre';
-
-$txt['viewwarning'] = 'Voir les Sanctions';
-$txt['profile_viewwarning_for_user'] = 'Sanctions pour %1$s';
-$txt['profile_viewwarning_no_warnings'] = 'Aucune sanction n\'a été donnée.';
-$txt['profile_viewwarning_desc'] = 'Vous trouverez ci-dessous la liste des sanctions qui ont été données par l\'équipe de modération du forum.';
-$txt['profile_viewwarning_previous_warnings'] = 'Sanctions antérieures';
-$txt['profile_viewwarning_impact'] = 'Impact de la sanction';
 
 $txt['subscriptions'] = 'Abonnements payants';
 

@@ -37,10 +37,6 @@ $txt['modlog_search'] = 'Quick Search';
 $txt['modlog_by'] = 'By';
 $txt['modlog_id'] = '<em>Deleted - ID:%1$d</em>';
 
-$txt['modlog_ac_add_warn_template'] = 'Added warning template: &quot;{template}&quot;';
-$txt['modlog_ac_modify_warn_template'] = 'Edited the warning template: &quot;{template}&quot;';
-$txt['modlog_ac_delete_warn_template'] = 'Deleted the warning template: &quot;{template}&quot;';
-
 $txt['modlog_ac_ban'] = 'Added ban triggers:';
 $txt['modlog_ac_ban_trigger_member'] = ' <em>Member:</em> {member}';
 $txt['modlog_ac_ban_trigger_email'] = ' <em>Email:</em> {email}';

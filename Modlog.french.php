@@ -37,10 +37,6 @@ $txt['modlog_search'] = 'Recherche Rapide';
 $txt['modlog_by'] = 'Par';
 $txt['modlog_id'] = '<em>Supprimé - (ID:%1$d)</em>';
 
-$txt['modlog_ac_add_warn_template'] = 'Ajouté un modèle de lettre de sanction&#8239;: &quot;{template}&quot;';
-$txt['modlog_ac_modify_warn_template'] = 'Modifié le modèle de lettre de sanction &quot;{template}&quot;';
-$txt['modlog_ac_delete_warn_template'] = 'Supprimé le modèle de lettre de sanction &quot;{template}&quot;';
-
 $txt['modlog_ac_ban'] = 'Critères de bannissement ajoutés&#8239;:';
 $txt['modlog_ac_ban_trigger_member'] = ' <em>Membre</em>&#8239;: {member}';
 $txt['modlog_ac_ban_trigger_email'] = ' <em>E-mail</em>&#8239;: {email}';

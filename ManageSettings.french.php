@@ -188,23 +188,6 @@ $txt['setup_verification_answer'] = 'Réponse';
 $txt['setup_verification_add'] = 'Ajouter une autre question';
 $txt['setup_verification_add_answer'] = 'Ajouter une réponse';
 
-$txt['moderation_settings'] = 'Réglages de Modération';
-$txt['setting_warning_watch'] = 'Niveau de sanction pour la mise sous surveillance';
-$txt['setting_warning_watch_subtext'] = 'Le niveau de sanction après lequel une surveillance de l\'utilisateur est mise en place - 0 pour désactiver.';
-$txt['setting_warning_moderate'] = 'Niveau de sanction pour la prémodération des messages';
-$txt['setting_warning_moderate_subtext'] = 'Le niveau de sanction après lequel un utilisateur voit tous ses messages modérés avant publication - 0 pour désactiver.';
-$txt['setting_warning_mute'] = 'Niveau de sanction pour réduire au silence l\'utilisateur';
-$txt['setting_warning_mute_subtext'] = 'Le niveau de sanction après lequel un utilisateur ne peut plus rien poster - 0 pour désactiver.';
-$txt['setting_user_limit'] = 'Points de sanction maximum par jour';
-$txt['setting_user_limit_subtext'] = 'Cette valeur est le quota maximal de points de sanction qu\'un seul modérateur peut assigner à un utilisateur particulier en 24 heures - 0 pour pas de limite.';
-$txt['setting_warning_decrement'] = 'Points de sanction à enlever automatiquement par jour';
-$txt['setting_warning_decrement_subtext'] = 'Ne s\'applique qu\'aux utilisateurs non sanctionnés depuis au moins 24 heures - mettre à 0 pour désactiver.';
-$txt['setting_warning_show'] = 'Qui peut voir l\'état de sanction';
-$txt['setting_warning_show_subtext'] = 'Détermine qui peut voir le niveau de sanction d\'un utilisateur sous le coup d\'une, euh... sanction.';
-$txt['setting_warning_show_mods'] = 'Modérateurs seulement';
-$txt['setting_warning_show_user'] = 'Modérateurs et l\'utilisateur concerné';
-$txt['setting_warning_show_all'] = 'Tout le monde';
-
 $txt['modfilter_norules'] = 'Aucune règle de filtrage pour le moment.';
 $txt['modfilter_addrule'] = 'Ajouter une règle de filtrage';
 $txt['modfilter_editrule'] = 'Modifier la règle de filtrage';
