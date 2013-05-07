@@ -11,13 +11,13 @@ $txt['mc_view_groups'] = 'Voir les Groupes de membres';
 $txt['mc_description'] = 'Bienvenue dans votre Centre de Modération. À partir d\'ici, vous pouvez accomplir toutes les actions de modération qui vous ont été assignées par l\'administrateur. Cette page d\'accueil contient un résumé de tout ce qui s\'est passé dernièrement dans votre communauté. Vous pouvez en personnaliser l\'affichage en cliquant <a href="<URL>?action=moderate;area=settings">ici</a>.';
 $txt['mc_group_requests'] = 'Demandes d\'adhésion';
 $txt['mc_unapproved_posts'] = 'Messages non approuvés';
-$txt['mc_warned_users'] = 'Membres surveillés récemment';
+$txt['mc_warned_users'] = 'Membres avertis récemment';
 $txt['mc_scratch_board'] = 'Section modérateur improvisée';
 $txt['mc_recent_reports'] = 'Rapports de sujets récents';
 $txt['mc_notes'] = 'Notes de Modération';
 
 $txt['mc_recent_reports_none'] = 'Aucun rapport en suspens pour le moment.';
-$txt['mc_warned_users_none'] = 'Aucune surveillance n\'est actuellement en place.';
+$txt['mc_warned_users_none'] = 'Aucun utilisateur n\'est sous le coup d\'un avertissement pour le moment.';
 $txt['mc_group_requests_none'] = 'Aucune demande d\'adhésion pour le moment.';
 
 $txt['mc_seen'] = '%1$s vu pour la dernière fois %2$s';
@@ -70,13 +70,13 @@ $txt['mc_modreport_no_mod_comment'] = 'Il n\'y a actuellement aucun commentaire 
 $txt['mc_modreport_add_mod_comment'] = 'Ajouter un Commentaire';
 
 $txt['mc_warned_users_title'] = 'Membres surveillés';
-$txt['mc_warned_users_desc'] = 'Ici vous pouvez garder une trace de tous les membres qui ont été assignés à &quot;surveillance&quot; par l\'équipe de modération.';
+$txt['mc_warned_users_desc'] = 'Ici vous pouvez garder une trace de tous les membres qui ont reçu un avertissement de l\'équipe de modération.';
 $txt['mc_warned_users_post'] = 'Voir par Message';
 $txt['mc_warned_users_warning'] = 'Niveau de sanction';
 $txt['mc_warned_users_last_login'] = 'Dernière connexion';
 $txt['mc_warned_users_last_post'] = 'Dernier message';
 $txt['mc_warned_users_no_posts'] = 'Il n\'y a aucun message de membres surveillés.';
-$txt['mc_warned_users_delete_post'] = 'Êtes-vous sûr de vouloir effacer ce message ?';
+$txt['mc_warned_users_delete_post'] = 'Êtes-vous sûr de vouloir effacer ce message&#8239;?';
 $txt['mc_warned_users_posted'] = 'Posté';
 $txt['mc_warned_users_member'] = 'Voir par Membre';
 

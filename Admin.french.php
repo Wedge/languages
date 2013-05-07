@@ -515,6 +515,9 @@ $txt['admin_search_section_tasks'] = 'Tâche';
 
 $txt['mods_cat_features'] = 'Paramètres';
 $txt['antispam_title'] = 'Anti-Spam';
+$txt['infractions_title'] = 'Sanctions';
+$txt['preset_infractions'] = 'Sanctions standards';
+$txt['infraction_levels'] = 'Niveaux d\'infraction';
 $txt['member_options_title'] = 'Options des Membres';
 $txt['signature_settings_short'] = 'Signatures';
 $txt['custom_profile_shorttitle'] = 'Champs de Profil';

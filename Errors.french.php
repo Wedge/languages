@@ -78,6 +78,7 @@ $txt['cannot_moderate_board'] = 'Vous n\'êtes pas autorisé à modérer cette s
 $txt['cannot_modify_any'] = 'Vous n\'êtes autorisé à modifier un message.';
 $txt['cannot_modify_own'] = 'Désolé, mais vous n\'êtes pas autorisé à modifier vos propres messages.';
 $txt['cannot_modify_replies'] = 'Bien que ce message soit une réponse à votre sujet, vous ne pouvez pas le modifier.';
+$txt['cannot_modify_mod_post'] = 'Désolé, mais vous n\'êtes pas autorisé à modifier un message qui a été modifié entretemps par un modérateur.';
 $txt['cannot_move_own'] = 'Vous n\'êtes pas autorisé à déplacer vos propres sujets dans cette section.';
 $txt['cannot_move_any'] = 'Vous n\'êtes pas autorisé à déplacer les sujets de cette section.';
 $txt['cannot_poll_add_own'] = 'Désolé, vous n\'êtes pas autorisé à ajouter des sondages à vos propres sujets dans cette section.';

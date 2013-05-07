@@ -65,12 +65,12 @@ $txt['timeoffset_autodetect'] = '(auto-détecter)';
 
 $txt['secret_question'] = 'Question secrète';
 $txt['secret_desc'] = 'Pour vous aider à retrouver votre mot de passe, vous pouvez entrer ici une question et sa réponse dont <strong>vous seul</strong> connaissez la teneur.';
-$txt['secret_desc2'] = 'Choisissez-la prudemment et évitez que l\'on puisse deviner facilement la réponse&#8239;! ';
+$txt['secret_desc2'] = 'Choisissez-la prudemment et évitez que l\'on puisse deviner facilement la réponse&#8239;!';
 $txt['secret_answer'] = 'Réponse';
 $txt['secret_ask'] = 'Posez-moi ma question secrète';
 $txt['cant_retrieve'] = 'Il est impossible de récupérer votre mot de passe, mais vous pouvez en spécifier un nouveau en suivant le lien envoyé à votre adresse e-mail. Vous avez aussi la possibilité de spécifier un nouveau mot de passe en répondant à votre question secrète.';
 $txt['enter_new_password'] = 'Merci d\'entrer la réponse à votre question, et le mot de passe que vous souhaitez utiliser. Votre mot de passe sera remplacé par celui fourni en répondant correctement à votre question.';
-$txt['secret_why_blank'] = 'Pourquoi est-ce vide&#8239;? ';
+$txt['secret_why_blank'] = 'Pourquoi est-ce vide&#8239;?';
 
 $txt['authentication_reminder'] = 'Rappel d\'authentification';
 $txt['password_reminder_desc'] = 'Si vous avez oublié vos détails de connexion, pas de souci, on peut vous aider. Pour commencer, veuillez entrer votre identifiant ou adresse e-mail ci-dessous.';
@@ -79,7 +79,7 @@ $txt['authentication_password_email'] = 'Envoyez-moi par e-mail un nouveau mot d
 $txt['authentication_password_secret'] = 'Je veux répondre à ma &quot;question secrète&quot; pour changer de mot de passe';
 $txt['reminder_continue'] = 'Continuer';
 
-$txt['profileConfirm'] = 'Êtes-vous sûr de vouloir effacer ce membre ?';
+$txt['profileConfirm'] = 'Êtes-vous sûr de vouloir effacer ce membre&#8239;?';
 
 $txt['custom_title'] = 'Titre personnel';
 
@@ -140,7 +140,7 @@ $txt['deleteAccount_posts'] = 'Supprimer les messages postés par ce membre';
 $txt['deleteAccount_none'] = 'Aucun';
 $txt['deleteAccount_all_posts'] = 'Tous les messages';
 $txt['deleteAccount_topics'] = 'Sujets et messages';
-$txt['deleteAccount_confirm'] = 'Êtes-vous absolument sûr de vouloir supprimer ce compte ?';
+$txt['deleteAccount_confirm'] = 'Êtes-vous absolument sûr de vouloir supprimer ce compte&#8239;?';
 $txt['deleteAccount_approval'] = 'Veuillez noter que les modérateurs du forum devront approuver cette suppression avant qu\'elle soit effective.';
 
 $txt['profile_of_username'] = 'Profil de %1$s';
@@ -171,7 +171,7 @@ $txt['draftAutoPurge'] = array(
 	'n' => 'Les brouillons sont stockés sur le serveur pendant %s jours. Si vous ne les postez ni ne les modifiez durant ce délai, ils seront supprimés.',
 );
 $txt['remove_all_drafts'] = 'Supprimer tous mes brouillons';
-$txt['remove_all_drafts_confirm'] = 'Êtes-vous sûr de vouloir supprimer tous vos brouillons ? Cette opération est irréversible !';
+$txt['remove_all_drafts_confirm'] = 'Êtes-vous sûr de vouloir supprimer tous vos brouillons&#8239;? Cette opération est irréversible&#8239;!';
 
 $txt['profileEdit'] = 'Modifier le Profil';
 $txt['account_info'] = 'Cette page contient vos préférences de compte et recense toutes les informations critiques qui peuvent vous identifier sur le forum. Pour des raisons de sécurité, vous devrez entrer votre mot de passe (actuel) pour modifier ces informations.';
@@ -188,11 +188,21 @@ $txt['ignoreboards_info'] = 'Cette page vous permet d\'ignorer certains sites. L
 // $txt['ignoretopics'] = 'Ignorer des Sujets';
 // $txt['ignoretopics_info'] = 'Cette page vous permet d\'ignorer certains sujets. Lorsqu\'un sujet est ignoré, il n\'apparaîtra pas dans les fonctions <em>Messages non lus</em> et <em>Réponses non lues</em>. Malgré tout, les sujets ignorés apparaîtront toujours sur la liste des sections, et le dernier message non lu restera en mémoire.';
 
+$txt['manage_account'] = 'Gérer le compte';
 $txt['deleteAccount'] = 'Effacer ce compte';
 $txt['profileSendIm'] = 'Envoyer un message personnel';
 $txt['profile_sendpm_short'] = 'Envoyer un MP';
 
 $txt['profileBanUser'] = 'Bannir ce membre';
+$txt['profileBanUser_title'] = 'Bannir';
+$txt['profileBanUser_desc'] = 'Cette page vous permet d\'empêcher cet utilisateur d\'utiliser ce forum pour une période indéfinie. Les bans (bannissements) créés ici, comme ceux de la section admin, <strong>n\'ont pas de date d\'expiration</strong>. Pour un ban temporaire, ou une punition moindre qu\'un ban, consultez la section Sanctions.';
+$txt['profileBanUser_issue'] = 'Bannir ce membre';
+$txt['profileBanUser_acct_title'] = 'Bannir le compte';
+$txt['profileBanUser_acct'] = 'Appliquer le ban à ce compte utilisateur&#8239;?';
+$txt['profileBanUser_email_title'] = 'Bannir l\'adresse e-mail';
+$txt['profileBanUser_email'] = 'Appliquer le ban à cette adresse e-mail&#8239;?';
+$txt['profileBanUser_ip_title'] = 'Bannir par adresse IP connue';
+$txt['ban_nothing_to_ban'] = 'Vous n\'avez rien choisi à bannir.';
 
 $txt['display_name'] = 'Pseudonyme';
 $txt['enter_ip'] = 'Entrer une IP (ou plage IP)';
@@ -240,7 +250,7 @@ $txt['primary_membergroup'] = 'Groupe principal';
 $txt['additional_membergroups'] = 'Groupes additionnels';
 $txt['additional_membergroups_show'] = '[montrer les groupes additionnels]';
 $txt['no_primary_membergroup'] = '(pas de groupe principal)';
-$txt['deadmin_confirm'] = 'Êtes-vous sûr de vouloir quitter irrémédiablement votre statut d\'administrateur ?';
+$txt['deadmin_confirm'] = 'Êtes-vous sûr de vouloir quitter irrémédiablement votre statut d\'administrateur&#8239;?';
 
 $txt['account_activate_method_2'] = 'Le compte requiert une réactivation après un changement d\'adresse e-mail';
 $txt['account_activate_method_3'] = 'Le compte n\'est pas approuvé';
@@ -367,6 +377,61 @@ $txt['profile_error_signature_max_font_size'] = 'La taille de la police du texte
 $txt['profile_error_signature_allow_smileys'] = 'Vous n\'avez pas l\'autorisation d\'utiliser des smileys dans votre signature';
 $txt['profile_error_signature_max_smileys'] = 'Vous n\'êtes pas autorisé à utiliser plus de %1$d smileys dans votre signature';
 $txt['profile_error_signature_disabled_bbc'] = 'Le code BBC suivant n\'est pas autorisé dans votre signature&#8239;: %1$s';
+
+$txt['profile_infractions'] = 'Sanctions';
+$txt['profile_infractions_desc'] = 'D\'ici, vous pouvez consulter toutes les sanctions appliquées à ce membre.';
+$txt['issue_infraction'] = 'Sanctionner';
+$txt['issue_infraction_desc'] = 'Cette page vous permet de sanctionner cet utilisateur, et si vous en avez l\'autorisation, de personnaliser la sanction en question.';
+$txt['infraction_state_active'] = 'Active';
+$txt['infraction_state_expired'] = 'Expirée';
+$txt['infraction_state_revoked'] = 'Révoquée';
+$txt['current_points'] = 'Points actuels&#8239;:';
+$txt['punishments_due_to_points'] = 'Sanctions impliquées par ces points&#8239;:';
+$txt['current_sanctions'] = 'Sanctions actuelles&#8239;:';
+$txt['profile_has_infractions'] = 'L\'utilisateur est sous le coup de sanction(s)';
+$txt['cannot_view_warning'] = 'Malheureusement, l\'avertissement demandé est introuvable.';
+$txt['infraction_history'] = 'Historique des sanctions';
+$txt['no_infraction_history'] = 'Cette personne n\'a jamais reçu de sanctions jusqu\'ici.';
+$txt['infraction_issued_by'] = 'Donnée par&#8239;:';
+$txt['infraction_issued_on'] = 'Date&#8239;:';
+$txt['infraction_points'] = 'Points';
+$txt['infraction_expires_on'] = 'Expiration&#8239;:';
+$txt['infraction_has_expired'] = 'Expirée&#8239;:';
+$txt['current_state'] = 'Statut&#8239;:';
+$txt['expires_dfn'] = '(expire le&#8239;: %1$s)';
+$txt['expires_never'] = '(pas d\'expiration programmée)';
+$txt['revoke'] = 'Révoquer';
+$txt['infraction_revoked_by'] = 'Révoquée par&#8239;:';
+$txt['infraction_revoked_on'] = 'Date&#8239;:';
+$txt['infraction_reason_given'] = 'Raison donnée&#8239;:';
+$txt['this_points'] = 'Points dûs à cette infraction&#8239;:';
+$txt['this_sanctions'] = 'Sanctions liées à infraction&#8239;:';
+$txt['no_points'] = 'Aucun point n\'a été donné';
+$txt['no_sanctions'] = 'Aucune sanction n\'a été donnée';
+$txt['infraction_notification'] = 'L\'utilisateur a été notifié de cette sanction&#8239;:';
+$txt['revoke_infraction'] = 'Révoquer la sanction';
+$txt['revoke_infraction_desc'] = 'Cette page vous permet de révoquer, voire de supprimer, une sanction reçue par un membre. Elle restera dans leur historique, mais les pénalités associées seront annulées.';
+$txt['revoke_commmit'] = 'Oui, supprimer cette sanction';
+$txt['view_full_details'] = 'Voir les détails';
+$txt['why_revoke'] = 'Pourquoi voulez-vous supprimer cette sanction&#8239;?';
+$txt['why_revoke_required'] = 'Vous devez donner une raison.';
+$txt['error_no_revoke_reason'] = 'Vous devez donner la raison pour laquelle vous souhaitez supprimer cette sanction.';
+$txt['current_active_infractions'] = 'L\'utilisateur est actuellement sous le coup des sanctions suivantes&#8239;:';
+$txt['issue_infraction_title'] = 'Choisir le type de sanction';
+$txt['issue_noadhoc_infraction_desc'] = 'Vous pouvez donner une sanction parmi les types suivants.';
+$txt['issue_noadhoc_which'] = 'Quelle sanction donner&#8239;?';
+$txt['issue_adhoc'] = 'Personnalisée';
+$txt['issue_adhoc_infraction_desc'] = 'Vous pouvez donner l\'une des sanctions standards ci-après, ou en utiliser une comme modèle à personnaliser.';
+$txt['issue_adhoc_nopreset_desc'] = 'Vous pouvez personnaliser ici la sanction à donner.';
+$txt['send_notification'] = 'Envoyer une notification de sanction&#8239;?';
+$txt['no_notification'] = 'Aucune notification ne sera envoyée';
+$txt['issuing_for_message'] = 'Pour le message suivant&#8239;:';
+$txt['infraction_why'] = 'Pourquoi donnez-vous cette sanction&#8239;?';
+$txt['infraction_why_note'] = 'Cela apparaîtra dans le journal de sanctions, même la personne recevant la sanction pourra le voir.';
+$txt['error_infraction_not_selected'] = 'Vous n\'avez pas choisir de sanction à donner.';
+$txt['error_infraction_no_issue_reason'] = 'Vous n\'avez pas donné de raison à la sanction.';
+$txt['notification_wording'] = 'Si vous le désirez, vous pouvez choisir la description d\'une sanction standard, puis la personnaliser.';
+$txt['notification_select'] = '(pas de modèle)';
 
 $txt['subscriptions'] = 'Abonnements payants';
 

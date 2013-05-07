@@ -415,7 +415,7 @@ $helptxt['db_persist'] = 'Keeps the connection active to increase performance. I
 $helptxt['ssi_db_user'] = 'Optional setting to use a different database user and password when you are using SSI.php.';
 
 $helptxt['countChildPosts'] = 'Checking this option will mean that posts and topics in a board\'s sub-board will count toward its totals on the index page.<br><br>This will make things notably slower, but means that a parent with no posts in it won\'t show \'0\'.';
-$helptxt['ignorable_boards'] = 'This options allows users to mark certain boards ignored - the board will always appear to be "read" when looking on the board index, and topics from "ignored" boards will not appear in the Recent Posts or Unread Topics pages.';
+$helptxt['ignorable_boards'] = 'This option allows users to mark certain boards ignored - the board will always appear to be "read" when looking on the board index, and topics from "ignored" boards will not appear in the Recent Posts or Unread Topics pages.';
 $helptxt['allow_ignore_topics'] = 'Checking this option will allow users to select topics they wish to ignore in <em>Unread replies</em> and <em>Unread posts</em>.';
 
 $helptxt['display_flags'] = 'In addition to the general language for the forum, you can set a language for each individual board, which is used by default. This option controls whether or not a flag for that language is displayed on the list of boards:

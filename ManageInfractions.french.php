@@ -1,20 +1,20 @@
 <?php
 // Version: 2.0; ManageInfractions
 
-$txt['infractions_desc'] = 'From here you can manage the infractions that your staff members can issue.';
-$txt['infractionlevels_desc'] = 'From here you can manage pre-set levels of infraction points and punishments for them.';
-$txt['infractionsettings_desc'] = 'From here you can change key settings for how infractions behave.';
+$txt['infractions_desc'] = 'D\'ici, vous pouvez gérer les infractions que les modérateurs et administrateurs peuvent donner.';
+$txt['infractionlevels_desc'] = 'D\'ici, vous pouvez gérer les niveaux d\'infraction, ainsi que leurs punitions associées.';
+$txt['infractionsettings_desc'] = 'D\'ici, vous pouvez changer la façon dont le système d\'infractions se comporte.';
 
-$txt['revoke_own_issued'] = 'Staff can remove infractions they issued';
-$txt['revoke_any_issued'] = 'Staff groups who can remove any infractions issued';
-$txt['no_warn_groups'] = 'Groups who cannot receive a warning';
+$txt['revoke_own_issued'] = 'L\'équipe peut annuler les infractions qu\'elle a envoyées';
+$txt['revoke_any_issued'] = 'Groupes de membres pouvant annuler n\'importe quelle infraction';
+$txt['no_warn_groups'] = 'Groupes de membres immunisés contre les infractions';
 
-$txt['setting_warning_show'] = 'Users who can see warning status';
-$txt['setting_warning_show_subtext'] = 'Determines who can see the warning level of users on the forum.';
-$txt['setting_warning_show_none'] = 'No one';
-$txt['setting_warning_show_mods'] = 'Moderators only';
-$txt['setting_warning_show_user'] = 'Moderators and warned users';
-$txt['setting_warning_show_all'] = 'All users';
+$txt['setting_warning_show'] = 'Utilisateurs pouvant voir le statut d\'avertissement';
+$txt['setting_warning_show_subtext'] = 'Détermine qui peut voir le niveau d\'avertissement des utilisateurs du forum.';
+$txt['setting_warning_show_none'] = 'Personne';
+$txt['setting_warning_show_mods'] = 'Modérateurs';
+$txt['setting_warning_show_user'] = 'Modérateurs et utilisateurs avertis';
+$txt['setting_warning_show_all'] = 'Tout le monde';
 
 $txt['infractionlevels_extra'] = 'The following are the different punishments that can be applied to user accounts. As users accumulate infractions, they will receive points - as they do so, you can use the following to set automatic penalties that apply just based on total points. The idea is that a given infraction may carry a given punishment, but users who consistently receive small punishments can also earn themselves a larger one.';
 $txt['infraction_no_avatar'] = 'User\'s avatar is hidden';
@@ -27,8 +27,8 @@ $txt['infraction_pm_ban'] = 'User will not be permitted to send personal message
 $txt['infraction_soft_ban'] = 'The user will be soft-banned';
 $txt['infraction_hard_ban'] = 'The user will be hard-banned';
 
-$txt['enact_infraction'] = 'Infraction to be applied:';
-$txt['points_infraction'] = 'When the user has accumulated:';
+$txt['enact_infraction'] = 'Infraction to be applied&#8239;:';
+$txt['points_infraction'] = 'When the user has accumulated&#8239;:';
 
 $txt['enabled_infraction'] = 'Enabled?';
 
@@ -49,47 +49,49 @@ $txt['infraction_no_punishments'] = 'None';
 $txt['no_infractions'] = 'There aren\'t any infractions set up right now.';
 
 $txt['infraction_d'] = array(
-	1 => '%1$s day',
-	'n' => '%1$s days',
+	0 => '0 jour',
+	1 => '1 jour',
+	'n' => '%1$s jours',
 );
 $txt['infraction_w'] = array(
-	1 => '%1$s week',
-	'n' => '%1$s weeks',
+	0 => '0 semaine',
+	1 => '1 semaine',
+	'n' => '%1$s semaines',
 );
 $txt['infraction_m'] = array(
-	1 => '%1$s month',
-	'n' => '%1$s months',
+	'n' => '%1$s mois',
 );
 $txt['infraction_y'] = array(
-	1 => '%1$s year',
-	'n' => '%1$s years',
+	1 => '0 an',
+	1 => '1 an',
+	'n' => '%1$s ans',
 );
-$txt['infraction_i'] = 'Indefinitely';
+$txt['infraction_i'] = 'Pour toujours';
 
 $txt['infraction_duration_types'] = array(
-	'd' => 'Day(s)',
-	'w' => 'Week(s)',
-	'm' => 'Month(s)',
-	'y' => 'Year(s)',
-	'i' => 'Indefinitely',
+	'd' => 'Jour(s)',
+	'w' => 'Semaine(s)',
+	'm' => 'Mois',
+	'y' => 'An(s)',
+	'i' => 'Pour toujours',
 );
 
-$txt['can_issue_adhoc'] = 'Can issue ad-hoc infractions';
-$txt['max_points'] = 'Maximum points per infraction:';
-$txt['max_infractions_day'] = 'Maximum infractions to a single member per day:';
-$txt['punishments_issuable'] = 'Punishments that can be issued:';
+$txt['can_issue_adhoc'] = 'Peut émettre des infractions adaptées';
+$txt['max_points'] = 'Maximum de points par infraction&#8239;:';
+$txt['max_infractions_day'] = 'Maximum infractions to a single member per day&#8239;:';
+$txt['punishments_issuable'] = 'Punishments that can be issued&#8239;:';
 
 $txt['add_preset_infraction'] = 'Add Pre-set Infraction';
 $txt['edit_preset_infraction'] = 'Edit Pre-set Infraction';
 $txt['infraction_name_desc'] = 'This is an internal name for the infraction for your reference.';
 $txt['for_the_duration'] = 'For the duration of the infraction';
-$txt['issued_by_adhoc'] = 'Remember: groups who can issue ad-hoc warnings will be able to customize what is set in this infraction. Groups who cannot issue ad-hoc warnings will only have the options you give them here.';
+$txt['issued_by_adhoc'] = 'Remember&#8239;: groups who can issue ad-hoc warnings will be able to customize what is set in this infraction. Groups who cannot issue ad-hoc warnings will only have the options you give them here.';
 $txt['notification_text'] = 'Notification text to use';
 $txt['notification_text_desc'] = 'If a staff member is not empowered to send ad-hoc infractions, any notification will use the wording set here.';
 $txt['notification_use_none'] = 'Don\'t send a message';
 $txt['notification_use_custom'] = 'Use custom wording (below)';
-$txt['notification_subject'] = 'Subject:';
-$txt['notification_body'] = 'Message:';
+$txt['notification_subject'] = 'Subject&#8239;:';
+$txt['notification_body'] = 'Message&#8239;:';
 $txt['notification_body_note'] = '{PUNISHMENTS} will be automatically replaced with wording to describe the points and punishments given to the user from this infraction.';
 $txt['notification_body_message'] = '{MESSAGE} will be automatically replaced with a link to the message someone is being warned for.';
 
@@ -147,8 +149,8 @@ Any future incidents may cause further infractions on your acconut.',
 
 $txt['no_punishment'] = 'No action has been taken on this occasion but this has has been logged on your account.';
 $txt['received_punishments'] = array(
-	1 => 'On this occasion, you have received the following punishment:',
-	'n' => 'On this occasion, you have received the following punishments:',
+	1 => 'On this occasion, you have received the following punishment&#8239;:',
+	'n' => 'On this occasion, you have received the following punishments&#8239;:',
 );
 $txt['punishments_will_expire'] = array(
 	1 => 'This punishment will last on your account until {EXPIRY}.',
@@ -171,7 +173,7 @@ $txt['pun_points'] = array(
 	1 => 'You have accumulated an infraction point, bringing your total to {POINTS}. This may lead to further punishments in future.',
 	'n' => 'You have accumulated %1$s infraction points, bringing your total to {POINTS}. This may lead to further punishments in future.',
 );
-$txt['pun_because_message'] = 'You received this infraction because of your post: {LINK}';
+$txt['pun_because_message'] = 'You received this infraction because of your post&#8239;: {LINK}';
 
 $txt['error_no_name_given'] = 'Each infraction must have a name for reference purposes.';
 $txt['error_no_text'] = 'You selected to add a custom warning notification but did not fill any text in.';

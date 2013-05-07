@@ -102,14 +102,16 @@ $txt['posts_made'] = 'Messages';
 $txt['website'] = 'Site Web';
 $txt['register'] = 'Inscrivez-vous';
 $txt['warning_status'] = 'Niveau de sanction';
-$txt['user_warn_watch'] = 'L\'utilisateur est sur la liste de surveillance des modérateurs';
+$txt['user_warn_warned'] = 'L\'utilisateur a reçu un avertissement';
 $txt['user_warn_moderate'] = 'Les messages de l\'utilisateur doivent être approuvés avant publication';
 $txt['user_warn_mute'] = 'Suite à un bannissement, l\'utilisateur ne peut plus poster';
-$txt['user_warn_ban'] = 'L\'utilisateur est actuellement banni';
-$txt['warn_watch'] = 'Surveillé';
+$txt['user_warn_soft_ban'] = 'L\'utilisateur a un ban léger';
+$txt['user_warn_hard_ban'] = 'L\'utilisateur a un ban complet';
+$txt['warn_warned'] = 'A reçu un avertissement';
 $txt['warn_moderate'] = 'Modéré';
 $txt['warn_mute'] = 'Mis au silence';
-$txt['warn_ban'] = 'Banni';
+$txt['warn_soft_ban'] = 'Banni (léger)';
+$txt['warn_hard_ban'] = 'Banni (complet)';
 
 // User menu strings
 $txt['usermenu_profile'] = 'Profil';
@@ -180,20 +182,23 @@ $txt['moderation_cat'] = 'Modération';
 $txt['reported_posts'] = 'Messages rapportés';
 $txt['reported_board_desc'] = '<strong>Signalé</strong> par {author}<br>dans {link}<br>{time}';
 $txt['reported_open'] = array(
+	0 => '0 rapport ouvert',
 	1 => '1 rapport ouvert',
 	'n' => '%1$s rapports ouverts',
 );
 $txt['reported_closed'] = array(
+	0 => '0 rapport fermé',
 	1 => '1 rapport fermé',
 	'n' => '%1$s rapports fermés',
 );
 $txt['group_requests'] = 'Demandes d\'adhésion';
 $txt['group_request_desc'] = 'Adhésion à <strong>{groupname}</strong><br>par {author}<br>{time}';
 $txt['group_req_open'] = array(
-	1 => '1 requête ouverte',
+	0 => '0 requête ouverte',
 	'n' => '%1$s requêtes ouvertes',
 );
 $txt['group_req_closed'] = array(
+	0 => '0 requête fermée',
 	1 => '1 requête fermée',
 	'n' => '%1$s requêtes fermées',
 );
