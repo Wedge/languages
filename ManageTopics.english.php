@@ -8,6 +8,7 @@ $txt['subject_new_topic'] = 'Subject For New Topic';
 $txt['split_this_post'] = 'Only split this post.';
 $txt['split_after_and_this_post'] = 'Split topic after and including this post.';
 $txt['select_split_posts'] = 'Select posts to split.';
+$txt['board_for_new_topic'] = 'Which board should the new topic go in?';
 $txt['please_select_split'] = 'Please select which posts you wish to split.';
 $txt['merge_successful'] = 'Topics successfully merged.';
 $txt['split_successful'] = 'Topic successfully split into two topics.';
