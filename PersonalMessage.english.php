@@ -7,6 +7,7 @@ $txt['pm_add'] = 'Add';
 $txt['make_bcc'] = 'Add BCC';
 $txt['pm_to'] = 'To';
 $txt['pm_bcc'] = 'Bcc';
+$txt['pm_contact_list'] = 'Contact List';
 $txt['inbox'] = 'Inbox';
 $txt['conversation'] = 'Conversation';
 $txt['messages'] = 'Messages';
