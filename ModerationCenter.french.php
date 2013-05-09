@@ -31,6 +31,11 @@ $txt['mc_reportedp_by'] = 'par';
 $txt['mc_reportedp_reported_by'] = 'Rapporté par';
 $txt['mc_reportedp_last_reported'] = 'Dernier Rapport';
 $txt['mc_reportedp_none_found'] = 'Aucun rapport trouvé';
+$txt['mc_reportedp_count'] = array(
+	0 => '0 rapport',
+	1 => '1 rapport',
+	'n' => '%1$s rapports',
+);
 
 $txt['mc_reportedp_details'] = 'Détails';
 $txt['mc_reportedp_close'] = 'Fermer';
@@ -65,7 +70,7 @@ $txt['mc_modreport_summary'] = array(
 	1 => 'Il y a eu 1 rapport concernant ce message.',
 	'n' => 'Il y a eu %1$s rapports concernant ce message.',
 );
-$txt['mc_modreport_lastreport'] = 'Date du dernier rapport&nbsp: %1$s.';
+$txt['mc_modreport_lastreport'] = 'Date du dernier rapport&#8239;: %1$s.';
 $txt['mc_modreport_whoreported_title'] = 'Membres ayant rapporté ce message';
 $txt['mc_modreport_whoreported_data'] = 'Rapporté par %1$s le %2$s, en laissant ce commentaire&#8239;:';
 $txt['mc_modreport_modactions'] = 'Actions faites par d\'autres modérateurs';

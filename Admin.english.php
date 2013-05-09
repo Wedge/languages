@@ -17,7 +17,7 @@ $txt['new_to_wedge_add_boards'] = 'Want to add a <strong>new area</strong> to yo
 $txt['new_to_wedge_add_boards_answer'] = 'Check out <a href="%1$s">Boards and Categories</a>.';
 $txt['new_to_wedge_mod_filters'] = 'Want to <strong>moderate</strong> posts of new users?';
 $txt['new_to_wedge_mod_filters_answer'] = 'You can add that in <a href="%1$s">Moderation Filters</a>.';
-$txt['new_to_wedge_default_skin'] = 'Choose a default <strong>style</strong> for your website&nbsp;?';
+$txt['new_to_wedge_default_skin'] = 'Choose a default <strong>style</strong> for your website?';
 $txt['new_to_wedge_default_skin_answer'] = 'Just click this link: <a href="%1$s">Themes &raquo; Manage and Install</a>.';
 $txt['new_to_wedge_censored'] = 'Want to mark some words as \'censored\', like <strong>profanity</strong>?';
 $txt['new_to_wedge_censored_answer'] = 'Add them in <a href="%1$s">Posts and Topics &raquo; Censored Words</a>.';
