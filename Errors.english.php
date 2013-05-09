@@ -2,6 +2,7 @@
 // Version: 2.0; Errors
 
 $txt['no_access'] = 'You are not allowed to access this section.';
+$txt['moved_no_access'] = 'This topic has been moved to a board that you cannot access.';
 
 $txt['no_name'] = 'You didn\'t fill the name field out. It is required.';
 $txt['no_email'] = 'You didn\'t fill the email field out. It is required.';

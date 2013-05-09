@@ -30,6 +30,7 @@ $txt['moveTopic4'] = 'Change every message\'s subject.';
 $txt['moveTopic_redirection_period'] = 'How long should the redirection topic<br>be left in place for?';
 $txt['moveTopic_redirection_day'] = array(1 => '1 day', 'n' => '%s days');
 $txt['moveTopic_redirection_perm'] = 'Permanently';
+$txt['moveTopic_redirection_auto'] = 'Should users be automatically redirected to the new topic?';
 $txt['move_topic_unapproved_js'] = 'Warning! This topic has not yet been approved.<br><br>It is not recommended that you create a redirection topic unless you intend to approve the post immediately following the move.';
 $txt['movetopic_auto_board'] = '[BOARD]';
 $txt['movetopic_auto_topic'] = '[TOPIC LINK]';
