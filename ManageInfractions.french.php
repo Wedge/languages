@@ -16,37 +16,37 @@ $txt['setting_warning_show_mods'] = 'Modérateurs';
 $txt['setting_warning_show_user'] = 'Modérateurs et utilisateurs avertis';
 $txt['setting_warning_show_all'] = 'Tout le monde';
 
-$txt['infractionlevels_extra'] = 'The following are the different punishments that can be applied to user accounts. As users accumulate infractions, they will receive points - as they do so, you can use the following to set automatic penalties that apply just based on total points. The idea is that a given infraction may carry a given punishment, but users who consistently receive small punishments can also earn themselves a larger one.';
-$txt['infraction_no_avatar'] = 'User\'s avatar is hidden';
-$txt['infraction_no_sig'] = 'User\'s signature is hidden';
-$txt['infraction_disemvowel'] = 'User\'s posts are disemvowelled';
-$txt['infraction_disemvowel_help'] = 'The user\'s posts are shown, but missing vowels. The effect is that posts are still readable with effort, but that most users will simply ignore the posts.';
-$txt['infraction_moderate'] = 'User\'s posts will require moderator approval';
-$txt['infraction_post_ban'] = 'User will not be permitted to post';
-$txt['infraction_pm_ban'] = 'User will not be permitted to send personal messages';
-$txt['infraction_soft_ban'] = 'The user will be soft-banned';
-$txt['infraction_hard_ban'] = 'The user will be hard-banned';
+$txt['infractionlevels_extra'] = 'Voici les différentes sanctions qui peuvent être appliquées aux comptes utilisateurs. Le cumul d\'infractions d\'un membre est matérialisé par un nombre de points. Vous pouvez mettre en place des pénalités automatiques basées sur le nombre de points (d\'infractions, donc). L\'idée est qu\'une infraction donnée peut amener à une sanction donnée, mais que les utilisateurs accumulant les petites sanctions peuvent s\'en voir attribuer de plus grosses.';
+$txt['infraction_no_avatar'] = 'L\'avatar de l\'utilisateur est caché';
+$txt['infraction_no_sig'] = 'La signature de l\'utilisateur est caché';
+$txt['infraction_disemvowel'] = 'Les voyelles des messages de l\'utilisateurs sont cachées';
+$txt['infraction_disemvowel_help'] = 'Les messages de l\'utilisateur sont visibles, mais sans leurs voyelles. De fait, ils sont encore lisibles, mais demandent un gros effort pour ce faire, et la plupart des gens ignoreront simplement leurs messages.';
+$txt['infraction_moderate'] = 'Les messages de l\'utilisateur nécessitent l\'approbation d\'un modérateur';
+$txt['infraction_post_ban'] = 'L\'utilisateur n\'a plus le droit de poster';
+$txt['infraction_pm_ban'] = 'L\'utilisateur n\'a plus le droit d\'envoyer des MP';
+$txt['infraction_soft_ban'] = 'L\'utilisateur est banni (léger)';
+$txt['infraction_hard_ban'] = 'L\'utilisateur est caché (complet)';
 
-$txt['enact_infraction'] = 'Infraction to be applied&#8239;:';
-$txt['points_infraction'] = 'When the user has accumulated&#8239;:';
+$txt['enact_infraction'] = 'Sanction à appliquer&#8239;:';
+$txt['points_infraction'] = 'Quand le membre a accumulé&#8239;:';
 
-$txt['enabled_infraction'] = 'Enabled?';
+$txt['enabled_infraction'] = 'Activé&#8239;?';
 
-$txt['preset_infractions'] = 'Pre-Set Infractions';
-$txt['preset_infractions_desc'] = 'Pre-set infractions are those defined by the administrator to be issued quickly and easily, sort of like defaults or templates. You may decide to let certain moderator groups only issue from this list, or you can give them additional power below.';
-$txt['adhoc_infractions'] = 'Ad-Hoc Infractions';
-$txt['adhoc_infractions_desc'] = 'You may be able to plan for the types of incident that might occur and give pre-set infractions for your moderators to issue but there are going to be times that moderators may just have to go "off-script". You can configure what the rules for those are here.';
+$txt['preset_infractions'] = 'Sanctions prédéfinies';
+$txt['preset_infractions_desc'] = 'Les sanctions prédéfinies sont celles définies par l\'administrateur pour faciliter leur application, un peu comme des modèles. Vous pouvez décider d\'autoriser certains groupes de modérateurs à n\'appliquer que des sanctions issues de cette liste, ou vous pouvez leur donner plus de pouvoir ci-après.';
+$txt['adhoc_infractions'] = 'Infractions personnalisées';
+$txt['adhoc_infractions_desc'] = 'En dehors des sanctions prédéfinies, vos modérateurs auront peut-être parfois besoin de faire preuve d\'originalité pour un cas particulier. Vous pouvez configurer ces options ici.';
 
-$txt['add_infraction'] = 'Add New Infraction';
-$txt['delete_infraction_confirm'] = 'Are you sure you wish to remove this infraction?';
+$txt['add_infraction'] = 'Ajouter une sanction';
+$txt['delete_infraction_confirm'] = 'Êtes-vous sûr de vouloir supprimer cette sanction&#8239;?';
 
-$txt['infraction_name'] = 'Infraction Name';
+$txt['infraction_name'] = 'Nom de l\'infraction';
 $txt['infraction_points'] = 'Points';
-$txt['infraction_duration'] = 'Duration';
-$txt['infraction_sanctions'] = 'Punishments';
-$txt['infraction_issuers'] = 'Can be issued by';
-$txt['infraction_no_punishments'] = 'None';
-$txt['no_infractions'] = 'There aren\'t any infractions set up right now.';
+$txt['infraction_duration'] = 'Durée';
+$txt['infraction_sanctions'] = 'Sanctions';
+$txt['infraction_issuers'] = 'Applicables par';
+$txt['infraction_no_punishments'] = 'Personne';
+$txt['no_infractions'] = 'Aucun type d\'infraction n\'a été mis en place.';
 
 $txt['infraction_d'] = array(
 	0 => '0 jour',
@@ -76,10 +76,10 @@ $txt['infraction_duration_types'] = array(
 	'i' => 'Pour toujours',
 );
 
-$txt['can_issue_adhoc'] = 'Peut émettre des infractions adaptées';
+$txt['can_issue_adhoc'] = 'Peut émettre des infractions personnalisées';
 $txt['max_points'] = 'Maximum de points par infraction&#8239;:';
-$txt['max_infractions_day'] = 'Maximum infractions to a single member per day&#8239;:';
-$txt['punishments_issuable'] = 'Punishments that can be issued&#8239;:';
+$txt['max_infractions_day'] = 'Nombre maximal de sanctions sur un membre par jour&#8239;:';
+$txt['punishments_issuable'] = 'Sanctions applicables&#8239;:';
 
 $txt['add_preset_infraction'] = 'Add Pre-set Infraction';
 $txt['edit_preset_infraction'] = 'Edit Pre-set Infraction';
