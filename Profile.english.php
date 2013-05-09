@@ -392,6 +392,7 @@ $txt['profile_has_infractions'] = 'User currently has some infractions';
 $txt['cannot_view_warning'] = 'Unfortunately we could not find the warning you requested.';
 $txt['infraction_history'] = 'Infraction History';
 $txt['no_infraction_history'] = 'This person has not received any infractions before now.';
+$txt['no_infraction_history_you'] = 'You have not received any infractions.';
 $txt['infraction_issued_by'] = 'Issued by:';
 $txt['infraction_issued_on'] = 'Issued on:';
 $txt['infraction_points'] = 'Points';
