@@ -2,6 +2,7 @@
 // Version: 2.0; Errors
 
 $txt['no_access'] = 'Vous n\'êtes pas autorisé à accéder à cette section.';
+$txt['moved_no_access'] = 'Ce sujet a été déplacé vers une section à laquelle vous n\'avez pas accès.';
 
 $txt['no_name'] = 'Vous n\'avez pas rempli le champ IDENTIFIANT. Il est requis.';
 $txt['no_email'] = 'Vous n\'avez pas rempli le champ e-mail. Il est requis.';

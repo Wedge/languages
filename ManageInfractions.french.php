@@ -81,33 +81,33 @@ $txt['max_points'] = 'Maximum de points par infraction&#8239;:';
 $txt['max_infractions_day'] = 'Nombre maximal de sanctions sur un membre par jour&#8239;:';
 $txt['punishments_issuable'] = 'Sanctions applicables&#8239;:';
 
-$txt['add_preset_infraction'] = 'Add Pre-set Infraction';
-$txt['edit_preset_infraction'] = 'Edit Pre-set Infraction';
-$txt['infraction_name_desc'] = 'This is an internal name for the infraction for your reference.';
-$txt['for_the_duration'] = 'For the duration of the infraction';
-$txt['issued_by_adhoc'] = 'Remember&#8239;: groups who can issue ad-hoc warnings will be able to customize what is set in this infraction. Groups who cannot issue ad-hoc warnings will only have the options you give them here.';
-$txt['notification_text'] = 'Notification text to use';
-$txt['notification_text_desc'] = 'If a staff member is not empowered to send ad-hoc infractions, any notification will use the wording set here.';
-$txt['notification_use_none'] = 'Don\'t send a message';
-$txt['notification_use_custom'] = 'Use custom wording (below)';
-$txt['notification_subject'] = 'Subject&#8239;:';
+$txt['add_preset_infraction'] = 'Ajouter une sanction prédéfinie';
+$txt['edit_preset_infraction'] = 'Modifier une sanction prédéfinie';
+$txt['infraction_name_desc'] = 'Le nom interne de la sanction, pour référence.';
+$txt['for_the_duration'] = 'Pendant la durée de la sanction';
+$txt['issued_by_adhoc'] = 'N\'oubliez pas&#8239;: les groupes qui peuvent émettre une sanction personnalisée pourront modifier toute la teneur de la sanction. Les groupes qui ne peuvent pas le faire, n\'auront accès qu\'aux sanctions prédéfinies établies ici.';
+$txt['notification_text'] = 'Texte de notification à utiliser';
+$txt['notification_text_desc'] = 'Si un membre de l\'équipe ne peut pas émettre une sanction personnalisée, les notifications de ses sanctions utiliseront ce texte.';
+$txt['notification_use_none'] = 'Ne pas envoyer de message';
+$txt['notification_use_custom'] = 'Personnaliser le texte (ci-dessous)';
+$txt['notification_subject'] = 'Sujet&#8239;:';
 $txt['notification_body'] = 'Message&#8239;:';
-$txt['notification_body_note'] = '{PUNISHMENTS} will be automatically replaced with wording to describe the points and punishments given to the user from this infraction.';
-$txt['notification_body_message'] = '{MESSAGE} will be automatically replaced with a link to the message someone is being warned for.';
+$txt['notification_body_note'] = '{PUNISHMENTS} sera automatiquement remplacé par une description des points et sanctions attribués à un utilisateur pour cette infraction.';
+$txt['notification_body_message'] = '{MESSAGE} sera automatiquement remplacé par un lien vers le message incriminé.';
 
 $txt['tpl_infraction_bad_avatar'] = array(
-	'desc' => 'Bad Avatar',
-	'subject' => 'You have received an infraction about your avatar',
-	'body' => 'You have received an infraction about your avatar being inappropriate for this forum.
+	'desc' => 'Avatar indésirable',
+	'subject' => 'Votre avatar est en infraction',
+	'body' => 'Vous avez reçu une sanction liée à un avatar inapproprié utilisé sur ce forum.
 
-It may be appropriate because:
-* it contains rapidly moving or flashing images
-* it contains inappropriate text
-* it contains inappropriate pictures
+Il peut être indésirable pour les raisons suivantes :
+* il contient des images clignotantes ou à l\'animation trop rapide
+* il contient du texte inapproprié
+* il contient une image inappropriée
 
 {PUNISHMENTS}
 
-Please note, any incidents in future may cause further infractions on your account and may limit what you may do on this site.',
+Veuillez noter que tout futur incident pourra se cumuler à cette sanction, et limiter votre interaction avec le forum.',
 );
 $txt['tpl_infraction_bad_sig'] = array(
 	'desc' => 'Bad Signature',
