@@ -62,7 +62,6 @@ $txt['admin_wedgefile'] = 'Wedge File';
 $txt['admin_wedgepackage'] = 'Wedge';
 $txt['admin_maintenance'] = 'Server &amp; Maintenance';
 $txt['admin_image_text'] = 'Show buttons as images instead of text';
-$txt['admin_credits'] = 'Credits';
 $txt['admin_agreement'] = 'Show and require agreement letter when registering';
 $txt['admin_agreement_default'] = 'Default';
 $txt['admin_agreement_select_language'] = 'Language to edit';
@@ -260,9 +259,6 @@ $txt['support_ffmpeg'] = 'FFMPEG';
 $txt['support_imagemagick'] = 'ImageMagick';
 $txt['support_MW'] = 'MagickWand';
 $txt['support_imagick'] = 'IMagick';
-
-$txt['support_latest'] = 'Common Support &amp; Issues';
-$txt['support_latest_fetch'] = 'Retrieving support information...';
 
 $txt['edit_permissions_info'] = 'Change restrictions and available features globally or to specific boards.';
 $txt['membergroups_members'] = 'Regular Members';

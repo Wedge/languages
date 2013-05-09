@@ -62,7 +62,6 @@ $txt['admin_wedgefile'] = 'Fichiers Wedge';
 $txt['admin_wedgepackage'] = 'Wedge';
 $txt['admin_maintenance'] = 'Serveur et Maintenance';
 $txt['admin_image_text'] = 'Montrer les boutons en tant qu\'images plutôt qu\'en textes';
-$txt['admin_credits'] = 'Crédits';
 $txt['admin_agreement'] = 'Afficher et exiger l\'accord des conditions lors de l\'inscription&#8239;?';
 $txt['admin_agreement_default'] = 'Défaut';
 $txt['admin_agreement_select_language'] = 'Langue à modifier';
@@ -260,9 +259,6 @@ $txt['support_ffmpeg'] = 'FFMPEG';
 $txt['support_imagemagick'] = 'ImageMagick';
 $txt['support_MW'] = 'MagickWand';
 $txt['support_imagick'] = 'IMagick';
-
-$txt['support_latest'] = 'Questions fréquentes &amp; réponses';
-$txt['support_latest_fetch'] = 'Recherche les informations de support&hellip;';
 
 $txt['edit_permissions_info'] = 'Changer les restrictions et les options disponibles globalement ou sur certains sites spécifiques.';
 $txt['membergroups_members'] = 'Membres inscrits';

@@ -481,8 +481,6 @@ $helptxt['coppaPost'] = 'The contact boxes are required so that forms granting p
 
 $helptxt['allow_hideOnline'] = 'With this option enabled all members will be able to hide their online status from other users (except administrators). If disabled only users who can moderate the forum can hide their presence. Note that disabling this option will not change any existing member\'s status - it just stops them from hiding themselves in the future.';
 
-$helptxt['latest_support'] = 'This panel shows you some of the most common problems and questions on your server configuration. Don\'t worry, this information isn\'t logged or anything.<br><br>If this stays as "Retrieving support information...", your computer probably cannot connect to <a href="http://wedge.org/" target="_blank" class="new_win">wedge.org</a>.';
-
 $helptxt['latest_themes'] = 'This area shows a few of the latest and most popular themes from <a href="http://wedge.org/" target="_blank" class="new_win">wedge.org</a>. It may not show up properly if your computer can\'t find <a href="http://wedge.org/" target="_blank" class="new_win">wedge.org</a>, though.';
 
 $helptxt['error_plugin_repo'] = 'The last time this repository was called, to see if it had any updated plugins for your forum, it could not be contacted properly, and you should probably check the URL of the repository to make sure it still exists. Also, if it requires a username and password, you may wish to re-enter the details to check them.';

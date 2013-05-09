@@ -61,7 +61,11 @@ $txt['mc_unapproved_topics'] = 'Sujets';
 $txt['mc_unapproved_by'] = 'par';
 $txt['mc_unapproved_sure'] = 'Etes vous sûr de vouloir faire cela?';
 $txt['mc_viewmodreport'] = 'Rapport de Modération pour %1$s par %2$s';
-$txt['mc_modreport_summary'] = 'Il y a eu %1$d rapport(s) concernant ce message. Date du dernier rapport&nbsp: %2$s.';
+$txt['mc_modreport_summary'] = array(
+	1 => 'Il y a eu 1 rapport concernant ce message.',
+	'n' => 'Il y a eu %1$s rapports concernant ce message.',
+);
+$txt['mc_modreport_lastreport'] = 'Date du dernier rapport&nbsp: %1$s.';
 $txt['mc_modreport_whoreported_title'] = 'Membres ayant rapporté ce message';
 $txt['mc_modreport_whoreported_data'] = 'Rapporté par %1$s le %2$s, en laissant ce commentaire&#8239;:';
 $txt['mc_modreport_modactions'] = 'Actions faites par d\'autres modérateurs';

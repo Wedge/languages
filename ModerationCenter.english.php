@@ -31,6 +31,10 @@ $txt['mc_reportedp_by'] = 'by';
 $txt['mc_reportedp_reported_by'] = 'Reported By';
 $txt['mc_reportedp_last_reported'] = 'Last Reported';
 $txt['mc_reportedp_none_found'] = 'No Reports Found';
+$txt['mc_reportedp_count'] = array(
+	1 => '1 report',
+	'n' => '%1$s reports',
+);
 
 $txt['mc_reportedp_details'] = 'Details';
 $txt['mc_reportedp_close'] = 'Close';
@@ -61,7 +65,11 @@ $txt['mc_unapproved_topics'] = 'Topics';
 $txt['mc_unapproved_by'] = 'by';
 $txt['mc_unapproved_sure'] = 'Are you sure you want to do this?';
 $txt['mc_viewmodreport'] = 'Moderation Report for %1$s by %2$s';
-$txt['mc_modreport_summary'] = 'There have been %1$d report(s) concerning this post. The last report was %2$s.';
+$txt['mc_modreport_summary'] = array(
+	1 => 'There has been 1 report concerning this post.',
+	'n' => 'There have been %1$s reports concerning this post.',
+);
+$txt['mc_modreport_lastreport'] = 'The last report was %1$s.';
 $txt['mc_modreport_whoreported_title'] = 'Members who have reported this post';
 $txt['mc_modreport_whoreported_data'] = 'Reported by %1$s on %2$s. They left the following message:';
 $txt['mc_modreport_modactions'] = 'Actions taken by other moderators';
