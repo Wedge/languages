@@ -19,6 +19,8 @@ $txt['setting_warning_show_all'] = 'All users';
 $txt['infractionlevels_extra'] = 'The following are the different punishments that can be applied to user accounts. As users accumulate infractions, they will receive points - as they do so, you can use the following to set automatic penalties that apply just based on total points. The idea is that a given infraction may carry a given punishment, but users who consistently receive small punishments can also earn themselves a larger one.';
 $txt['infraction_no_avatar'] = 'User\'s avatar is hidden';
 $txt['infraction_no_sig'] = 'User\'s signature is hidden';
+$txt['infraction_scramble'] = 'User\'s posts are scrambled';
+$txt['infraction_scramble_help'] = 'The user\'s posts are shown but all the words are scrambled: the first and last letters are left in place but all the other letters are in the wrong order. It\'s generally still readable but likely to be ignored by users.';
 $txt['infraction_disemvowel'] = 'User\'s posts are disemvowelled';
 $txt['infraction_disemvowel_help'] = 'The user\'s posts are shown, but missing vowels. The effect is that posts are still readable with effort, but that most users will simply ignore the posts.';
 $txt['infraction_moderate'] = 'User\'s posts will require moderator approval';
@@ -161,6 +163,7 @@ $txt['punishments_no_expire'] = array(
 
 $txt['pun_infraction_no_avatar'] = 'Your avatar will be hidden';
 $txt['pun_infraction_no_sig'] = 'Your signature will be hidden';
+$txt['pun_infraction_scramble'] = 'Your posts will be scrambled';
 $txt['pun_infraction_disemvowel'] = 'Your posts will be disemvowelled';
 $txt['pun_infraction_moderate'] = 'Your posts will require moderator approval';
 $txt['pun_infraction_post_ban'] = 'You are not allowed to post';

@@ -6,7 +6,6 @@ $txt['removeNestedQuotes'] = 'Remove nested quotes when quoting';
 $txt['enableEmbeddedFlash'] = 'Allow Flash embedding in posts';
 $txt['enableEmbeddedFlash_warning'] = 'May be a security risk!';
 $txt['additional_options_collapsable'] = 'Enable collapsible additional post options';
-$txt['disable_wysiwyg'] = 'Disable WYSIWYG editor';
 
 $txt['max_messageLength'] = 'Maximum allowed post size';
 $txt['max_messageLength_zero'] = '0 for no max.';
@@ -42,14 +41,19 @@ $txt['ignoreMoveVsNew'] = 'When moving topics, allow moving to any board by defa
 // Bulletin Board Code
 $txt['enableBBC'] = 'Enable bulletin board code (BBC)';
 $txt['enablePostHTML'] = 'Enable <em>basic</em> HTML in posts';
-$txt['editorFonts'] = 'Fonts to list in the editor';
-$txt['editorFonts_subtext'] = 'While you can list any font here, and it will be shown in the main editor in the "Font Face" dropdown, it will only work if the font is installed on your users\' computers.';
 $txt['autoLinkUrls'] = 'Automatically link posted URLs';
 
 $txt['disabledBBC'] = 'Enabled BBC tags';
 $txt['bbcTagsToUse'] = 'Enabled BBC tags';
 $txt['bbcTagsToUse_select'] = 'Select the tags allowed to be used';
 $txt['bbcTagsToUse_select_all'] = 'Select all tags';
+
+// Post Editor
+$txt['disable_wysiwyg'] = 'Disable WYSIWYG editor';
+$txt['editorSizes'] = 'Font sizes to list in the editor';
+$txt['editorSizes_subtext'] = 'One per line';
+$txt['editorFonts'] = 'Fonts to list in the editor';
+$txt['editorFonts_subtext'] = 'While you can list any font here, and it will be shown in the main editor in the "Font Face" dropdown, it will only work if the font is installed on your users\' computers.';
 
 // Censored Words
 $txt['admin_censored_where'] = 'Put the word to be censored on the left, and what to change it to on the right.';

@@ -6,7 +6,6 @@ $txt['removeNestedQuotes'] = 'Supprimer les citations imbriquées en citant un m
 $txt['enableEmbeddedFlash'] = 'Autoriser l\'intégration d\'animations Flash dans les messages';
 $txt['enableEmbeddedFlash_warning'] = 'Peut constituer un risque de sécurité&#8239;!';
 $txt['additional_options_collapsable'] = 'Activer les Options Supplémentaires (à l\'écriture des messages)';
-$txt['disable_wysiwyg'] = 'Désactiver l\'éditeur WYSIWYG';
 
 $txt['max_messageLength'] = 'Longueur maximale des messages';
 $txt['max_messageLength_zero'] = '0 pour aucun max.';
@@ -42,14 +41,17 @@ $txt['ignoreMoveVsNew'] = 'Par défaut, permettre n\'importe quelle section de d
 // Bulletin Board Code
 $txt['enableBBC'] = 'Activer les BBCodes';
 $txt['enablePostHTML'] = 'Permettre l\'utilisation de balises HTML <em>basiques</em> dans les messages';
-$txt['editorFonts'] = 'Polices à proposer dans l\'éditeur';
-$txt['editorFonts_subtext'] = 'Vous pouvez indiquer n\'importe quelle fonte ici, elle sera listée dans la boîte déroulante "Police du texte" de l\'éditeur de messages. Assurez-vous que la fonte est installée sur l\'ordinateur de vos utilisateurs.';
 $txt['autoLinkUrls'] = 'Reconnaissance automatique des URLs';
 
 $txt['disabledBBC'] = 'Balises BBCode autorisées';
 $txt['bbcTagsToUse'] = 'Balises BBCodes activées';
 $txt['bbcTagsToUse_select'] = 'Sélectionnez toutes les balises pouvant être utilisées';
 $txt['bbcTagsToUse_select_all'] = 'Sélectionner toutes les balises';
+
+// Post Editor
+$txt['disable_wysiwyg'] = 'Désactiver l\'éditeur WYSIWYG';
+$txt['editorFonts'] = 'Polices à proposer dans l\'éditeur';
+$txt['editorFonts_subtext'] = 'Vous pouvez indiquer n\'importe quelle fonte ici, elle sera listée dans la boîte déroulante "Police du texte" de l\'éditeur de messages. Assurez-vous que la fonte est installée sur l\'ordinateur de vos utilisateurs.';
 
 // Censored Words
 $txt['admin_censored_where'] = 'Écrivez le mot à censurer à gauche, et ce par quoi il est remplacé à droite.';

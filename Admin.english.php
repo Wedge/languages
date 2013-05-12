@@ -445,6 +445,11 @@ $txt['manageposts_bbc_settings_description'] = 'Bulletin board code can be used 
 $txt['manageposts_bbc_settings_title'] = 'Bulletin Board Code Settings';
 $txt['manageposts_bbc_settings_submit'] = 'Save';
 
+$txt['manageposts_editor_settings'] = 'Post Editor';
+$txt['manageposts_editor_settings_description'] = 'This page allows you to configure how the editor works for users.';
+$txt['manageposts_editor_settings_title'] = 'Post Editor Settings';
+$txt['manageposts_editor_settings_save'] = 'Save';
+
 $txt['manageposts_topic_settings'] = 'Topic Settings';
 $txt['manageposts_topic_settings_description'] = 'Here you can set all settings involving topics.';
 $txt['manageposts_topic_settings_submit'] = 'Save';
