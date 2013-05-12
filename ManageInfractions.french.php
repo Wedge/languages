@@ -96,7 +96,7 @@ $txt['notification_body_note'] = '{PUNISHMENTS} sera automatiquement remplacé p
 $txt['notification_body_message'] = '{MESSAGE} sera automatiquement remplacé par un lien vers le message incriminé.';
 
 $txt['tpl_infraction_bad_avatar'] = array(
-	'desc' => 'Avatar indésirable',
+	'desc' => 'Avatar inapproprié',
 	'subject' => 'Votre avatar est en infraction',
 	'body' => 'Vous avez reçu une sanction liée à un avatar inapproprié utilisé sur ce forum.
 
@@ -110,71 +110,71 @@ Il peut être indésirable pour les raisons suivantes :
 Veuillez noter que tout futur incident pourra se cumuler à cette sanction, et limiter votre interaction avec le forum.',
 );
 $txt['tpl_infraction_bad_sig'] = array(
-	'desc' => 'Bad Signature',
-	'subject' => 'You have received an infraction about your signature',
-	'body' => 'You have received an infraction about your signature being inappropriate for this forum.
+	'desc' => 'Signature inappropriée',
+	'subject' => 'Votre signature est en infraction',
+	'body' => 'Vous avez reçu une sanction liée à une signature inappropriée utilisé sur ce forum.
 
-It may be inappropriate because:
-* it is very large and distracting for other members
-* it contains too many links to external sites
-* it contains content that is considered inappropriate here
+Elle peut être indésirable pour les raisons suivantes :
+* elle est trop grande et peut déconcentrer les autres utilisateurs
+* elle contient trop de liens vers des sites externes
+* son contenu est considéré comme inapproprié sur ce forum
 
 {PUNISHMENTS}
 
-Please note, any incidents in future may cause further infractions on your account and may limit what you may do on this site.',
+Veuillez noter que tout futur incident pourra se cumuler à cette sanction, et limiter votre interaction avec le forum.',
 );
 $txt['tpl_infraction_bad_language'] = array(
-	'desc' => 'Bad Language',
-	'subject' => 'You have receive an infraction about your language',
-	'body' => 'You have received an infraction about your language on this forum.
+	'desc' => 'Un peu de tenue !',
+	'subject' => 'Vous avez reçu une sanction pour indélicatesse',
+	'body' => 'Vous avez reçu une sanction pour indélicatesse sur le forum.
 
-We do not permit use of profanity or back-attitude to staff or other members.
+Nous n\'autorisons pas l\'usage de grossièretés, ni les comportements désagréables envers l\'équipe ou les autres membres du forum.
 
 {PUNISHMENTS}
 
-Please note, any incidents in future may cause further infractions on your account and may limit what you may do on this site.',
+Veuillez noter que tout futur incident pourra se cumuler à cette sanction, et limiter votre interaction avec le forum.',
 );
 $txt['tpl_infraction_spam'] = array(
-	'desc' => 'Spam',
-	'subject' => 'You have received an infraction for spamming',
-	'body' => 'You have received an infraction for spam messages on this forum.
+	'desc' => 'Flagrant déli de spam',
+	'subject' => 'Vous avez reçu une sanction pour spamming',
+	'body' => 'Vous avez reçu une sanction pour avoir spammé le forum.
 
-Spam is a very widespread problem, it regularly requires a lot of effort to keep it at bay.
-As such we do not appreciate you spamming this site.
+Les publicités intrusives, ou spam, sont un souci constant pour nous, et ne sont pas autorisées sur le forum.
+Votre comportement, similaire à celui d\'un spammeur, est donc sanctionné.
 
 {PUNISHMENTS}
 
-Any future incidents may cause further infractions on your acconut.',
+Veuillez noter que tout futur incident pourra se cumuler à cette sanction, et limiter votre interaction avec le forum.',
 );
 
-$txt['no_punishment'] = 'No action has been taken on this occasion but this has has been logged on your account.';
+$txt['no_punishment'] = 'Aucune sanction effective n\'a été prise à votre encontre. Toutefois, l\'infraction a été enregistrée, et pourra être retenue contre vous en cas de récidive.';
 $txt['received_punishments'] = array(
-	1 => 'On this occasion, you have received the following punishment&#8239;:',
-	'n' => 'On this occasion, you have received the following punishments&#8239;:',
+	1 => 'Pour cette raison, vous avez reçu la sanction suivante :',
+	'n' => 'Pour cette raison, vous avez reçu les sanctions suivantes :',
 );
 $txt['punishments_will_expire'] = array(
-	1 => 'This punishment will last on your account until {EXPIRY}.',
-	'n' => 'These punishments will last on your account until {EXPIRY}.',
+	1 => 'Cette sanction restera appliquée à votre compte jusqu\'à cette date : {EXPIRY}.',
+	'n' => 'Ces sanctions resteront appliquées à votre compte jusqu\'à cette date : {EXPIRY}.',
 );
 $txt['punishments_no_expire'] = array(
-	1 => 'This punishment is not set to expire.',
-	'n' => 'These punishments are not set to expire.',
+	1 => 'Cette sanction n\'a pas de date d\'expiration prévue.',
+	'n' => 'Ces sanctions n\'ont pas de date d\'expiration prévues.',
 );
 
-$txt['pun_infraction_no_avatar'] = 'Your avatar will be hidden';
-$txt['pun_infraction_no_sig'] = 'Your signature will be hidden';
-$txt['pun_infraction_disemvowel'] = 'Your posts will be disemvowelled';
-$txt['pun_infraction_moderate'] = 'Your posts will require moderator approval';
-$txt['pun_infraction_post_ban'] = 'You are not allowed to post';
-$txt['pun_infraction_pm_ban'] = 'You are not allowed to send personal messages';
-$txt['pun_infraction_soft_ban'] = 'Some aspects of the forum will be unavailable to you';
-$txt['pun_infraction_hard_ban'] = 'You are banned from the forum';
+$txt['pun_infraction_no_avatar'] = 'Votre avatar sera caché';
+$txt['pun_infraction_no_sig'] = 'Votre signature sera cachée';
+$txt['pun_infraction_disemvowel'] = 'Les voyelles dans vos messages seront cachées';
+$txt['pun_infraction_moderate'] = 'Vos messages requerront l\'approbation d\'un modérateur avant publication';
+$txt['pun_infraction_post_ban'] = 'Vous n\'avez plus l\'autorisation d\'envoyer de nouveaux messages';
+$txt['pun_infraction_pm_ban'] = 'Vous n\'avez plus l\'autorisation d\'envoyer des messages personnels';
+$txt['pun_infraction_soft_ban'] = 'Certaines fonctionnalités du forum seront désactivées pour vous';
+$txt['pun_infraction_hard_ban'] = 'Vous êtes banni(e) du forum';
 $txt['pun_points'] = array(
-	1 => 'You have accumulated an infraction point, bringing your total to {POINTS}. This may lead to further punishments in future.',
-	'n' => 'You have accumulated %1$s infraction points, bringing your total to {POINTS}. This may lead to further punishments in future.',
+	1 => 'Vous avez reçu un point d\'infraction, votre cumul est de {POINTS} points. Cela pourrait amener d\'autres sanctions à l\'avenir.',
+	'n' => 'Vous avez reçu %1$s points d\'infraction, votre cumul est de {POINTS} points. Cela pourrait amener d\'autres sanctions à l\'avenir.',
 );
-$txt['pun_because_message'] = 'You received this infraction because of your post&#8239;: {LINK}';
+$txt['pun_because_message'] = 'Vous avez reçu une sanction liée à ce message : {LINK}';
 
-$txt['error_no_name_given'] = 'Each infraction must have a name for reference purposes.';
-$txt['error_no_text'] = 'You selected to add a custom warning notification but did not fill any text in.';
-$txt['error_invalid_duration'] = 'You did not specify how long the warning should last for.';
+$txt['error_no_name_given'] = 'Toutes les sanctions doivent avoir un nom pour référence ultérieure.';
+$txt['error_no_text'] = 'Vous avez choisir d\'ajouter une notification d\'avertissement personnalisée, mais vous n\'avez pas rempli ce champ.';
+$txt['error_invalid_duration'] = 'Vous n\'avez pas spécifié la durée désirée de la sanction.';

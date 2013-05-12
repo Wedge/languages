@@ -123,7 +123,7 @@ Please note, any incidents in future may cause further infractions on your accou
 );
 $txt['tpl_infraction_bad_language'] = array(
 	'desc' => 'Bad Language',
-	'subject' => 'You have receive an infraction about your language',
+	'subject' => 'You have received an infraction about your language',
 	'body' => 'You have received an infraction about your language on this forum.
 
 We do not permit use of profanity or back-attitude to staff or other members.
