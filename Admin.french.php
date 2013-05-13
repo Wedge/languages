@@ -445,6 +445,11 @@ $txt['manageposts_bbc_settings_description'] = 'Les balises BBCodes (Bulletin Bo
 $txt['manageposts_bbc_settings_title'] = 'Paramètres des BBCodes';
 $txt['manageposts_bbc_settings_submit'] = 'Enregistrer';
 
+$txt['manageposts_editor_settings'] = 'Éditeur de messages';
+$txt['manageposts_editor_settings_description'] = 'Ici vous pouvez paramétrer la façon dont l\'éditeur fonctionne pour les utilisateurs.';
+$txt['manageposts_editor_settings_title'] = 'Paramètres de l\'Éditeur de messages';
+$txt['manageposts_editor_settings_save'] = 'Enregistrer';
+
 $txt['manageposts_topic_settings'] = 'Paramètres des Sujets';
 $txt['manageposts_topic_settings_description'] = 'Ici vous pouvez paramétrer toutes les options en rapport avec les sujets.';
 $txt['manageposts_topic_settings_submit'] = 'Enregistrer';
