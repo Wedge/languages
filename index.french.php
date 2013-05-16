@@ -643,13 +643,11 @@ $txt['thome_personal'] = 'Postérité ?';
 $txt['thome_personal_desc'] = 'Utiliser cette pensée comme citation sous mon nom dans les messages.';
 
 // Do not use double quotes in the following strings.
+$txt['privacy_default'] = 'Par défaut';
 $txt['privacy_public'] = 'Public';
 $txt['privacy_members'] = 'Membres';
-$txt['privacy_self'] = 'Juste moi';
-
-// These aren't currently in use.
-// $txt['privacy_everywhere'] = 'Diffusion';
-// $txt['privacy_contacts'] = 'Mes contacts';
+$txt['privacy_contacts'] = 'Mes contacts';
+$txt['privacy_author'] = 'Juste moi';
 
 // Do not use double quotes in the form_* text strings. (Why would you?)
 $txt['form_submit'] = 'Envoyer';
