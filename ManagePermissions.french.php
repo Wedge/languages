@@ -257,7 +257,6 @@ $txt['permissionicon'] = '';
 $txt['permission_settings_title'] = 'Paramètres des permissions';
 $txt['groups_manage_permissions'] = 'Groupes de membres autorisés à gérer les permissions';
 $txt['permission_settings_submit'] = 'Enregistrer';
-$txt['permission_settings_enable_deny'] = 'Activer l\'option pour interdire des permissions';
 $txt['permission_by_board_desc'] = 'Ici pous pouvez attribuer un profil de permissions à une section. Vous pouvez créer de nouveaux profils de permissions dans le menu &quot;Modifier les Profils&quot;.';
 $txt['permission_settings_desc'] = 'Ici vous pouvez régler qui a la permission de changer les permissions, de même que la complexité que devrait avoir le système de permissions.';
 $txt['permission_settings_enable_postgroups'] = 'Activer les permissions pour les groupes posteurs';
