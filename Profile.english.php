@@ -284,7 +284,6 @@ $txt['poster'] = 'Poster';
 
 $txt['show_board_desc'] = 'Show board descriptions inside boards.';
 $txt['show_children'] = 'Show sub-boards on every page inside boards, not just the first.';
-$txt['use_sidebar_menu'] = 'Use sidebar menus instead of dropdown menus when possible.';
 $txt['show_avatars'] = 'Show users\' avatars.';
 $txt['show_signatures'] = 'Show users\' signatures.';
 $txt['show_no_censored'] = 'Leave words uncensored.';

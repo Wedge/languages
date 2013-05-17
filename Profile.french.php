@@ -284,7 +284,6 @@ $txt['poster'] = 'Auteur';
 
 $txt['show_board_desc'] = 'Montrer les descriptions des sections dans les sections.';
 $txt['show_children'] = 'Montrer les sous-sections sur chaque page des sections, pas seulement la première.';
-$txt['use_sidebar_menu'] = 'Montrer si possible les menus dans l\'encadré (sidebar) plutôt qu\'en menu déroulant.';
 $txt['show_avatars'] = 'Montrer les avatars des autres membres.';
 $txt['show_signatures'] = 'Montrer les signatures des autres membres.';
 $txt['show_no_censored'] = 'Ne pas censurer les mots.';
