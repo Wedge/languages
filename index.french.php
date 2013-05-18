@@ -643,6 +643,7 @@ $txt['thome_personal'] = 'Postérité ?';
 $txt['thome_personal_desc'] = 'Utiliser cette pensée comme citation sous mon nom dans les messages.';
 
 // Do not use double quotes in the following strings.
+$txt['privacy'] = 'Confidentialité';
 $txt['privacy_default'] = 'Par défaut';
 $txt['privacy_public'] = 'Public';
 $txt['privacy_members'] = 'Membres';

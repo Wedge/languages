@@ -646,6 +646,7 @@ $txt['thome_personal'] = 'Posterity?';
 $txt['thome_personal_desc'] = 'Show this thought under my name in topics, for posterity.';
 
 // Do not use double quotes in the following strings.
+$txt['privacy'] = 'Privacy';
 $txt['privacy_default'] = 'Default';
 $txt['privacy_public'] = 'Public';
 $txt['privacy_members'] = 'Members';
