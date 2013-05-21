@@ -5,7 +5,7 @@ $txt['changes_saved'] = 'Vos changements ont été pris en compte.';
 
 $txt['minutes_remaining_message'] = 'Vous devrez re-rentrer votre mot de passe dans&#8239;: %s';
 $txt['minutes_remaining'] = array(
-	'0' => 'moins d\'1 minute',
+	'0' => 'moins d\'une minute',
 	'1' => '1 minute',
 	'n' => '%s minutes',
 );
