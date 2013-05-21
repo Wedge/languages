@@ -389,7 +389,7 @@ $txt['custom_edit_active'] = 'Active';
 $txt['custom_edit_active_desc'] = 'If not selected this field will not be shown to anyone.';
 $txt['custom_edit_privacy'] = 'Privacy';
 $txt['custom_edit_privacy_desc'] = 'Who can see and edit this field.';
-$txt['custom_see_edit_owner'] = 'The owner (subject to the following groups)';
+$txt['custom_edit_see_owner'] = 'The owner (subject to the following groups)';
 $txt['custom_edit_can_search'] = 'Searchable';
 $txt['custom_edit_can_search_desc'] = 'Can this field be searched from the members list.';
 $txt['custom_edit_mask'] = 'Input Mask';
@@ -400,6 +400,8 @@ $txt['custom_edit_mask_nohtml'] = 'No HTML';
 $txt['custom_edit_mask_regex'] = 'Regex (Advanced)';
 $txt['custom_edit_enclose'] = 'Show Enclosed Within Text (Optional)';
 $txt['custom_edit_enclose_desc'] = 'We <strong>strongly</strong> recommend to use an input mask to validate the input supplied by the user.';
+$txt['custom_edit_can_see'] = 'Can see';
+$txt['custom_edit_can_edit'] = 'Can edit';
 
 $txt['custom_edit_placement'] = 'Choose Placement';
 $txt['custom_edit_placement_standard'] = 'Standard (with title)';
