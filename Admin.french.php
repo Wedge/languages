@@ -544,10 +544,6 @@ $txt['permissions_groups'] = 'Permissions par Groupe de membres';
 $txt['permissions_boards'] = 'Permissions par Site';
 $txt['permissions_profiles'] = 'Modifier les Profils';
 
-// These are the old ones, which will be going
-$txt['download_packages'] = 'Télécharger des Extensions';
-$txt['package_settings'] = 'Paramètres';
-// These will be replacing them
 $txt['plugins_add_plugins'] = 'Ajouter des Extensions';
 
 $txt['themeadmin_admin_title'] = 'Gérer et Installer';

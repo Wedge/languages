@@ -83,10 +83,7 @@ $txt['whoadmin_editagreement'] = 'Editing the registration agreement.';
 $txt['whoadmin_featuresettings'] = 'Editing forum features and options.';
 $txt['whoadmin_modlog'] = 'Viewing the moderator log.';
 $txt['whoadmin_serversettings'] = 'Editing the forum settings.';
-$txt['whoadmin_packageget'] = 'Getting plugins.';
-$txt['whoadmin_packages'] = 'Viewing the plugin manager.';
 $txt['whoadmin_permissions'] = 'Editing the forum permissions.';
-$txt['whoadmin_pgdownload'] = 'Downloading an plugin.';
 $txt['whoadmin_theme'] = 'Editing the theme settings.';
 $txt['whoadmin_trackip'] = 'Tracking an IP address.';
 

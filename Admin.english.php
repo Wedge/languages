@@ -544,10 +544,6 @@ $txt['permissions_groups'] = 'General Permissions';
 $txt['permissions_boards'] = 'Board Permissions';
 $txt['permissions_profiles'] = 'Edit Profiles';
 
-// These are the old ones, which will be going
-$txt['download_packages'] = 'Download Plugins';
-$txt['package_settings'] = 'Options';
-// These will be replacing them
 $txt['plugins_add_plugins'] = 'Add Plugins';
 
 $txt['themeadmin_admin_title'] = 'Manage and Install';

@@ -34,7 +34,6 @@ $txt['attach_timeout'] = 'Votre fichier joint n\'a pu être transféré. Il est 
 $txt['filename_exists'] = 'Désolé&#8239;! Ce nom de fichier joint est déjà pris. Merci de renommer votre fichier avant de réessayer.';
 $txt['bad_attachment'] = 'Votre fichier joint a échoué aux tests de sécurité, et ne peut pas être mis en ligne. Merci de contacter l\'administrateur.';
 $txt['ran_out_of_space'] = 'Le répertoire de destination est plein. Essayez avec un fichier moins volumineux et/ou contactez un administrateur.';
-$txt['couldnt_connect'] = 'Échec de la connexion au serveur, ou fichier non trouvé';
 $txt['no_board'] = 'La section spécifiée est introuvable';
 $txt['cant_split'] = 'Vous n\'êtes pas autorisé à séparer des sujets';
 $txt['cant_merge'] = 'Vous n\'êtes pas autorisé à fusionner des sujets';
@@ -238,9 +237,7 @@ $txt['smileys_upload_error_illegal'] = 'Format d\'image interdit.';
 $txt['search_invalid_weights'] = 'La pertinence des recherches n\'est pas bien configurée. Au moins un dispositif devrait être configuré afin d\'être différent de zéro. Veuillez rapporter cette erreur à l\'administrateur.';
 $txt['unable_to_create_temporary'] = 'L\'outil de recherche a été incapable de créer des tables temporaires. Veuillez réessayer.';
 
-$txt['packageget_unable'] = 'Impossible de se connecter au serveur. Veuillez réessayer en utilisant plutôt <a href="%1$s" target="_blank" class="new_win">cette URL</a>.';
 $txt['package_not_on_wedge'] = 'Désolé, les extensions ne peuvent être téléchargées de cette façon que depuis le serveur wedge.org.';
-$txt['package_cant_download'] = 'Vous ne pouvez pas installer ou télécharger d\'extensions parce que le répertoire /Packages ou un de ses fichiers est bloqué en écriture&#8239;!';
 $txt['package_upload_error_failed'] = 'Échec d\'envoi de l\'extension. Veuillez vérifier les droits d\'accès du répertoire&#8239;!';
 
 $txt['package_get_error_not_found'] = 'Impossible de trouver l\'extension que vous essayez d\'installer. Essayez d\'uploader l\'extension manuellement dans votre répertoire Packages.';

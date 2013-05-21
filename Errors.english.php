@@ -34,7 +34,6 @@ $txt['attach_timeout'] = 'Your attachment couldn\'t be saved. This might happen 
 $txt['filename_exists'] = 'Sorry! There is already an attachment with the same filename as the one you tried to upload. Please rename the file and try again.';
 $txt['bad_attachment'] = 'Your attachment has failed security checks and cannot be uploaded. Please consult the forum administrator.';
 $txt['ran_out_of_space'] = 'The upload folder is full. Please try a smaller file and/or contact an administrator.';
-$txt['couldnt_connect'] = 'Could not connect to server or could not find file';
 $txt['no_board'] = 'The board you specified doesn\'t exist';
 $txt['cant_split'] = 'You are not allowed to split topics';
 $txt['cant_merge'] = 'You are not allowed to merge topics';
@@ -238,9 +237,7 @@ $txt['smileys_upload_error_illegal'] = 'Illegal Type.';
 $txt['search_invalid_weights'] = 'Search weights are not properly configured. At least one weight should be configured to be non-zero. Please report this error to an administrator.';
 $txt['unable_to_create_temporary'] = 'The search function was unable to create temporary tables. Please try again.';
 
-$txt['packageget_unable'] = 'Unable to connect to the server. Please try using <a href="%1$s" target="_blank" class="new_win">this URL</a> instead.';
 $txt['package_not_on_wedge'] = 'Sorry, plugins can only be downloaded like this from the wedge.org server.';
-$txt['package_cant_download'] = 'You cannot download or install new plugins because the Packages directory or one of the files in it are not writable!';
 $txt['package_upload_error_failed'] = 'Could not upload plugin, please check directory permissions!';
 
 $txt['package_get_error_not_found'] = 'The plugin you are trying to install cannot be located. You may want to manually upload the plugin to your Packages directory.';
