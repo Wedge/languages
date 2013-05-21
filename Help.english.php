@@ -241,6 +241,7 @@ $helptxt['pruneSavedDrafts'] = 'Drafts saved on the server do not have any norma
 $helptxt['allow_guestAccess'] = 'Unchecking this box will stop guests from doing anything but very basic actions - login, register, password reminder, etc. - on your forum. This is not the same as disallowing guest access to boards.';
 $helptxt['userLanguage'] = 'Turning this option on will allow users to select which language file they use. It will not affect the
 		default selection.';
+$helptxt['availableLanguage'] = 'This option controls whether languages are given as choices to users; they may be installed but not available as options.';
 $helptxt['trackStats'] = 'Stats:<br>This will allow users to see the latest posts and the most popular topics on your forum.
 		It will also show several statistics, like the most members online, new members and new topics.<hr>
 		Page views:<br>Adds another column to the stats page with the number of pageviews on your forum.';

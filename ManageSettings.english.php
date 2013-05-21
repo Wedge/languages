@@ -417,6 +417,7 @@ $txt['standard_profile_field'] = 'Field';
 $txt['languages_area_edit_desc'] = 'This area allows you to browse and edit the language data used by Wedge. It is not designed for translations, and if you wish to translate Wedge into a new language, please contact the Wedge Team instead.';
 $txt['languages_lang_name'] = 'Language Name (click to edit the language)';
 $txt['languages_locale'] = 'Locale';
+$txt['languages_available'] = 'Available';
 $txt['languages_default'] = 'Default';
 $txt['languages_users'] = 'Users';
 $txt['edit_languages'] = 'Edit Languages';
@@ -434,16 +435,6 @@ $txt['language_clear_cache'] = 'Empty Language Cache';
 $txt['language_clear_cache_desc'] = 'The data used to make language items appear in the forum are managed between special files and the database, so that you can modify them without having to modify files. Generally you should use the language editor facilities from the administration area to change language items, but sometimes you may need to force the system to rebuild its cache. This allows you to do so.';
 $txt['language_clear_cache_btn'] = 'Clear the cache';
 $txt['language_cache_cleared'] = 'The language cache has been cleared.';
-
-$txt['add_language'] = 'Add Language';
-$txt['add_language_wedge'] = 'Download from Wedge';
-$txt['add_language_wedge_browse'] = 'Type name of language to search for or leave blank to search for all.';
-$txt['add_language_wedge_install'] = 'Install';
-$txt['add_language_wedge_found'] = 'The following languages were found. Click the install link next to the language you wish to install, you will then be taken to the plugin manager to install.';
-$txt['add_language_error_no_response'] = 'The Wedge website is not responding. Please try again later.';
-$txt['add_language_error_no_files'] = 'No files could be found.';
-$txt['add_language_wedge_desc'] = 'Description';
-$txt['add_language_wedge_version'] = 'Version';
 
 $txt['language_edit_main'] = 'Main Files';
 $txt['language_edit_admin'] = 'Admin Panel';
@@ -473,27 +464,3 @@ $txt['languages_orients_rtl'] = 'Right-to-Left';
 
 $txt['lang_file_desc_index'] = 'General Strings';
 $txt['lang_file_desc_Modlog'] = 'Moderation Log entries';
-
-$txt['languages_download'] = 'Download Language Pack';
-$txt['languages_download_note'] = 'This page lists all the files that are contained within the language pack and some useful information about each one. All files that have their associated check box marked will be copied.';
-$txt['languages_download_info'] = '<strong>Note:</strong>
-	<ul class="normallist">
-		<li>Files which have the status &quot;Not Writable&quot; means Wedge will not be able to copy this file to the directory at the present and you must make the destination writable either using an FTP client or by filling in your details at the bottom of the page.</li>
-		<li>The Version information for a file displays the last Wedge version which it was updated for. If it is indicated in green then this is a newer version than you have at current. If amber this indicates it\'s the same version number as at current, red indicates you have a newer version installed than contained in the pack.</li>
-		<li>Where a file already exists on your forum the &quot;Already Exists&quot; column will have one of two values. &quot;Identical&quot; indicates that the file already exists in an identical form and need not be overwritten. &quot;Different&quot; means that the contents vary in some way and overwriting is probably the optimum solution.</li>
-	</ul>';
-
-$txt['languages_download_main_files'] = 'Primary Files';
-$txt['languages_download_theme_files'] = 'Theme-related Files';
-$txt['languages_download_filename'] = 'File Name';
-$txt['languages_download_dest'] = 'Destination';
-$txt['languages_download_writable'] = 'Writable';
-$txt['languages_download_version'] = 'Version';
-$txt['languages_download_older'] = 'You have a newer version of this file installed, overwriting is not recommended.';
-$txt['languages_download_exists'] = 'Already Exists';
-$txt['languages_download_exists_same'] = 'Identical';
-$txt['languages_download_exists_different'] = 'Different';
-$txt['languages_download_copy'] = 'Copy';
-$txt['languages_download_illegal_paths'] = 'Plugin contains illegal paths - please contact Wedge';
-$txt['languages_download_complete'] = 'Installation Complete';
-$txt['languages_download_complete_desc'] = 'Language pack installed successfully. Please click <a href="%1$s">here</a> to return to the languages page';

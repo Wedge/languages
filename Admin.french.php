@@ -480,8 +480,6 @@ $txt['phpinfo_desc'] = 'Cette page vous permet de consulter de nombreuses inform
 $txt['language_configuration'] = 'Langues';
 $txt['language_description'] = 'Cette section vous permet de modifier les langues installées sur votre forum, et d\'en télécharger de nouvelles sur le site web de Wedge. Vous pouvez également modifier les paramètres liés aux langues ici.';
 $txt['language_edit'] = 'Modifier Langues';
-$txt['language_add'] = 'Ajouter Langue';
-$txt['language_settings'] = 'Paramètres';
 
 $txt['advanced'] = 'Avancé';
 

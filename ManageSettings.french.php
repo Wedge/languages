@@ -417,6 +417,7 @@ $txt['standard_profile_field'] = 'Champ';
 $txt['languages_area_edit_desc'] = 'Cette page vous permet de visionner et modifier les fichiers de langue utilisés par Wedge. Elle n\'est pas faite pour les traductions, contactez plutôt l\'équipe de Wedge si vous désirez vous lancer dans une traduction.';
 $txt['languages_lang_name'] = 'Langue (cliquez pour modifier la langue)';
 $txt['languages_locale'] = 'Paramètres régionaux';
+
 $txt['languages_default'] = 'Par défaut';
 $txt['languages_users'] = 'Utilisateurs';
 $txt['edit_languages'] = 'Modifier les Langues';
@@ -434,16 +435,6 @@ $txt['language_clear_cache'] = 'Vider le cache de langues';
 $txt['language_clear_cache_desc'] = 'Les données de traduction des langues sont gérées via des fichiers spéciaux et peuvent être modifiées via la base de données. Elles sont ensuite mises en cache. Si vous mettez les fichiers à jour, assurez-vous de vider le cache en utilisant cette option.';
 $txt['language_clear_cache_btn'] = 'Vider';
 $txt['language_cache_cleared'] = 'Le cache de langues a été remis à zéro.';
-
-$txt['add_language'] = 'Ajouter une Langue';
-$txt['add_language_wedge'] = 'Télécharger à partir de Wedge';
-$txt['add_language_wedge_browse'] = 'Nom de la langue à rechercher, ou laisser vide pour rechercher tout.';
-$txt['add_language_wedge_install'] = 'Installer';
-$txt['add_language_wedge_found'] = 'Les langues suivantes ont été trouvées. Cliquez sur le lien d\'installation à côté de la langue que vous souhaitez installer, vous serez redirigé vers le gestionnaire d\'extensions pour l\'installer.';
-$txt['add_language_error_no_response'] = 'Le site web de Wedge ne répond pas. Veuillez réessayer plus tard.';
-$txt['add_language_error_no_files'] = 'Aucun fichier n\'a été trouvé.';
-$txt['add_language_wedge_desc'] = 'Description';
-$txt['add_language_wedge_version'] = 'Version';
 
 $txt['language_edit_main'] = 'Fichiers principaux';
 $txt['language_edit_admin'] = 'Panneau d\'administration';
@@ -473,27 +464,3 @@ $txt['languages_orients_rtl'] = 'Droite à gauche';
 
 $txt['lang_file_desc_index'] = 'Termes généraux';
 $txt['lang_file_desc_Modlog'] = 'Entrées du journal de modération';
-
-$txt['languages_download'] = 'Téléchargement de packs de Langue';
-$txt['languages_download_note'] = 'Cette page recense tous les fichiers contenus dans le pack de Langue et des informations utiles à propos de chacun d\'entre eux. Tous les fichiers qui ont leur case associée cochée seront copiés.';
-$txt['languages_download_info'] = '<strong>Note</strong>
-	<ul class="normallist">
-		<li>Si des fichiers ont le statut &quot;Non inscriptible&quot;, Wedge ne sera pas capable de les copier dans le répertoire actuel et vous devrez rendre la destination inscriptible en utilisant un client FTP ou en remplissant les renseignements en bas de page.</li>
-		<li>L\'information de version pour un fichier indique la version de Wedge pour laquelle il a été mis à jour. Si elle est indiquée en vert, c\'est qu\'il existe une version plus récente que celle que vous avez actuellement. La couleur ambrée indique que c\'est le même numéro de version que l\'actuelle, et la couleur rouge signifie que vous avez déjà une version plus récente que celle contenue dans le pack.</li>
-		<li>Si un fichier existe déjà sur votre forum, la colonne &quot;Existe déjà&quot; aura une de ces deux valeurs. &quot;Identique&quot; indique que le fichier existe déjà sous une forme identique et n\'a pas besoin d\'être écrasé. &quot;Différent&quot; veut dire que le contenu varie un peu et que l\'écrasement est probablement la meilleure solution.</li>
-	</ul>';
-
-$txt['languages_download_main_files'] = 'Fichiers de base';
-$txt['languages_download_theme_files'] = 'Fichiers liés aux thèmes';
-$txt['languages_download_filename'] = 'Nom du fichier';
-$txt['languages_download_dest'] = 'Destination';
-$txt['languages_download_writable'] = 'Inscriptible';
-$txt['languages_download_version'] = 'Version';
-$txt['languages_download_older'] = 'Vous avez une nouvelle version de ce fichier en place, l\'écrasement n\'est pas recommandé.';
-$txt['languages_download_exists'] = 'Existe déjà';
-$txt['languages_download_exists_same'] = 'Identique';
-$txt['languages_download_exists_different'] = 'Différent';
-$txt['languages_download_copy'] = 'Copier';
-$txt['languages_download_illegal_paths'] = 'L\'extension contient des chemins illégaux - veuillez contacter Wedge';
-$txt['languages_download_complete'] = 'Installation terminée';
-$txt['languages_download_complete_desc'] = 'Le pack de Langue a été installé avec succès. Veuillez cliquer <a href="%1$s">ici</a> pour retourner à la page de gestion des langues';
