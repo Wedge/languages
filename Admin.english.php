@@ -491,15 +491,15 @@ $txt['language_edit'] = 'Edit Languages';
 $txt['advanced'] = 'Advanced';
 
 $txt['admin_news_select_recipients'] = 'Please select who should receive a copy of the newsletter.';
-$txt['admin_news_select_group'] = 'Membergroups';
 $txt['admin_news_select_postgroup'] = 'Post-Count Membergroups';
+$txt['admin_news_select_group'] = 'Membergroups';
 $txt['admin_news_select_group_desc'] = 'Select the groups to receive this newsletter.';
 $txt['admin_news_select_members'] = 'Members';
 $txt['admin_news_select_members_desc'] = 'Additional members to receive newsletter.';
 $txt['admin_news_select_excluded_members'] = 'Excluded Members';
 $txt['admin_news_select_excluded_members_desc'] = 'Members who should not receive newsletter.';
-$txt['admin_news_select_excluded_groups'] = 'Excluded Groups';
 $txt['admin_news_select_excluded_postgroups'] = 'Excluded Post-Count Groups';
+$txt['admin_news_select_excluded_groups'] = 'Excluded Groups';
 $txt['admin_news_select_excluded_groups_desc'] = 'Select groups who should definitely not receive the newsletter.';
 $txt['admin_news_select_email'] = 'Email Addresses';
 $txt['admin_news_select_email_desc'] = 'A semi-colon separated list of email addresses which should be sent newsletter. (i.e. address1; address2)';

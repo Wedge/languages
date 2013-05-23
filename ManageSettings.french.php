@@ -417,7 +417,7 @@ $txt['standard_profile_field'] = 'Champ';
 $txt['languages_area_edit_desc'] = 'Cette page vous permet de visionner et modifier les fichiers de langue utilisés par Wedge. Elle n\'est pas faite pour les traductions, contactez plutôt l\'équipe de Wedge si vous désirez vous lancer dans une traduction.';
 $txt['languages_lang_name'] = 'Langue (cliquez pour modifier la langue)';
 $txt['languages_locale'] = 'Paramètres régionaux';
-
+$txt['languages_available'] = 'Disponible';
 $txt['languages_default'] = 'Par défaut';
 $txt['languages_users'] = 'Utilisateurs';
 $txt['edit_languages'] = 'Modifier les Langues';

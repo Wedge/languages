@@ -234,6 +234,7 @@ $helptxt['pruneSavedDrafts'] = 'Les brouillons sauvegardés sur le serveur n\'on
 $helptxt['allow_guestAccess'] = 'Décocher cette option limitera les actions possibles des invités aux seules opérations de base - connexion, inscription, rappel du mot de passe, etc. - sur votre forum. Ce n\'est pas comme désactiver l\'accès aux sections pour les invités.';
 $helptxt['userLanguage'] = 'Activer cette option permettra aux utilisateurs de sélectionner la langue dans laquelle le forum leur sera affiché.
 	Cela n\'affectera pas la langue par défaut.';
+$helptxt['availableLanguage'] = 'Cette option contrôle les langues sélectionnables par les utilisateurs pour leur interface. Inutile, donc, de désinstaller un pack de langue pour empêcher son utilisation future.';
 $helptxt['trackStats'] = 'Stats&#8239;:<br>Permet aux visiteurs de voir les derniers messages postés et les sujets les plus populaires sur votre forum.
 	Cela affichera aussi plusieurs autres statistiques, comme le record d\'utilisateurs en ligne au même moment, les nouveaux membres et les nouveaux sujets.<hr>
 	Pages vues&#8239;:<br>Ajoute une autre colonne à la page des statistiques contenant le nombre de pages vues sur votre forum.';
