@@ -144,8 +144,8 @@ $txt['maintain_run_now'] = 'Run task now';
 $txt['maintain_return'] = 'Back to Forum Maintenance';
 
 $txt['maintain_old'] = 'Remove Old Posts';
-$txt['maintain_old_since_days1'] = 'Remove all topics not posted in for ';
-$txt['maintain_old_since_days2'] = ' days, which are:';
+$txt['maintain_old_since'] = 'Remove all topics not posted in for %1$s days, which are:';
+$txt['maintain_old_move_since'] = 'Move all topics not posted in for %1$s days, which are:';
 $txt['maintain_old_nothing_else'] = 'Any sort of topic.';
 $txt['maintain_old_are_moved'] = 'Moved topic notices.';
 $txt['maintain_old_are_locked'] = 'Locked.';

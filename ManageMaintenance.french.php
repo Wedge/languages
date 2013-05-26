@@ -144,8 +144,8 @@ $txt['maintain_run_now'] = 'Lancer maintenant';
 $txt['maintain_return'] = 'Retourner à la maintenance du forum';
 
 $txt['maintain_old'] = 'Enlever les anciens messages';
-$txt['maintain_old_since_days1'] = 'Supprimer les sujets sans nouveaux messages depuis ';
-$txt['maintain_old_since_days2'] = ' jours, qui sont&#8239;:';
+$txt['maintain_old_since'] = 'Supprimer les sujets sans nouveaux messages depuis %1$s jours, qui sont&#8239;:';
+$txt['maintain_old_move_since'] = 'Déplacer les sujets sans nouveaux messages depuis %1$s jours, qui sont&#8239;:';
 $txt['maintain_old_nothing_else'] = 'De n\'importe quel type.';
 $txt['maintain_old_are_moved'] = 'Uniquement des notifications de déplacement.';
 $txt['maintain_old_are_locked'] = 'Bloqués.';
