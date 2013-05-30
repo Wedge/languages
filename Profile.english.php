@@ -457,6 +457,11 @@ $txt['pm_display_mode_linked'] = 'As a conversation';
 $txt['tracking'] = 'Tracking';
 $txt['tracking_description'] = 'This section allows you to review certain profile actions performed on this member\'s profile as well as track their IP address.';
 
+$txt['trackReported'] = 'Reported Posts';
+$txt['reported_in_mc'] = 'View in Moderation Center';
+$txt['trackReported_view_active'] = 'Active Reports (<a href="%1$s">switch to Old Reports</a>)';
+$txt['trackReported_view_closed'] = 'Old Reports (<a href="%1$s">switch to Active Reports</a>)';
+
 $txt['trackEdits'] = 'Profile Edits';
 $txt['trackEdit_deleted_member'] = 'Deleted Member';
 $txt['trackEdit_no_edits'] = 'No edits have so far been recorded for this member.';
