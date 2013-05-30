@@ -457,6 +457,11 @@ $txt['pm_display_mode_linked'] = 'Triés par conversations';
 $txt['tracking'] = 'Suivi';
 $txt['tracking_description'] = 'Cette section vous permet de vérifier certaines actions faites sur le profil de ce membre, mais aussi de suivre de son adresse IP.';
 
+$txt['trackReported'] = 'Messages signalés';
+$txt['reported_in_mc'] = 'Voir dans le Centre de Modération';
+$txt['trackReported_view_active'] = 'Rapports actifs (<a href="%1$s">voir les rapports archivés</a>)';
+$txt['trackReported_view_closed'] = 'Rapports archivés (<a href="%1$s">voir les rapports actifs</a>)';
+
 $txt['trackEdits'] = 'Modifications du Profil';
 $txt['trackEdit_deleted_member'] = 'Membre supprimé';
 $txt['trackEdit_no_edits'] = 'Aucune modification n\'a été enregistrée pour ce membre.';

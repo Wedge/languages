@@ -18,6 +18,7 @@ $txt['modlog_ac_pin'] = '&quot;{topic}&quot; épinglé';
 $txt['modlog_ac_unpin'] = '&quot;{topic}&quot; dépinglé';
 $txt['modlog_ac_delete'] = '&quot;{subject}&quot; effacé de &quot;{topic}&quot; par &quot;{member}&quot;';
 $txt['modlog_ac_delete_member'] = 'Membre &quot;{name}&quot; effacé';
+$txt['modlog_ac_merge_member'] = 'Membre &quot;{name}&quot; fusionné avec &quot;{member}&quot;';
 $txt['modlog_ac_remove'] = 'Sujet &quot;{topic}&quot; effacé de &quot;{board}&quot;';
 $txt['modlog_ac_modify'] = '&quot;{message}&quot; modifié par &quot;{member}&quot;';
 $txt['modlog_ac_merge'] = 'Sujets fusionnés pour créer &quot;{topic}&quot;';
