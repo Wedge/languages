@@ -18,6 +18,7 @@ $txt['modlog_ac_pin'] = 'Pinned &quot;{topic}&quot;';
 $txt['modlog_ac_unpin'] = 'Unpinned &quot;{topic}&quot;';
 $txt['modlog_ac_delete'] = 'Deleted &quot;{subject}&quot; by &quot;{member}&quot; from &quot;{topic}&quot;';
 $txt['modlog_ac_delete_member'] = 'Deleted member &quot;{name}&quot;';
+$txt['modlog_ac_merge_member'] = 'Merged member &quot;{name}&quot; with &quot;{member}&quot;';
 $txt['modlog_ac_remove'] = 'Removed topic &quot;{topic}&quot; from &quot;{board}&quot;';
 $txt['modlog_ac_modify'] = 'Edited &quot;{message}&quot; by &quot;{member}&quot;';
 $txt['modlog_ac_merge'] = 'Merged topics to create &quot;{topic}&quot;';
