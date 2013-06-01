@@ -177,40 +177,6 @@ $txt['last_post_author_link_time'] = '<strong>Dernier message</strong> par {auth
 $txt['last_post_time_author'] = '{time}<br>par {author}';
 $txt['board_off_limits'] = 'Cette section ne vous est pas accessible.';
 
-// And now for the moderation 'boards'
-$txt['moderation_cat'] = 'Modération';
-$txt['reported_posts'] = 'Messages rapportés';
-$txt['reported_board_desc'] = '<strong>Signalé</strong> par {author}<br>dans {link}<br>{time}';
-$txt['reported_open'] = array(
-	0 => '0 rapport ouvert',
-	1 => '1 rapport ouvert',
-	'n' => '%1$s rapports ouverts',
-);
-$txt['reported_closed'] = array(
-	0 => '0 rapport fermé',
-	1 => '1 rapport fermé',
-	'n' => '%1$s rapports fermés',
-);
-$txt['group_requests'] = 'Demandes d\'adhésion';
-$txt['group_request_desc'] = 'Adhésion à <strong>{groupname}</strong><br>par {author}<br>{time}';
-$txt['group_req_open'] = array(
-	0 => '0 requête ouverte',
-	'n' => '%1$s requêtes ouvertes',
-);
-$txt['group_req_closed'] = array(
-	0 => '0 requête fermée',
-	1 => '1 requête fermée',
-	'n' => '%1$s requêtes fermées',
-);
-$txt['logs_board'] = 'Journaux';
-$txt['logs_moderation'] = 'Journal de Modération';
-$txt['logs_infractions'] = 'Journal d\'Infractions';
-$txt['error_log_count'] = array(
-	0 => 'Pas d\'erreurs',
-	1 => '1 erreur',
-	'n' => '%1$s erreurs',
-);
-
 $txt['last_post'] = 'Dernier message';
 // Use numeric entities in the below string.
 $txt['topic'] = 'Sujet';
@@ -521,7 +487,6 @@ $txt['feed_topics'] = '<a href="%1$s">sujets</a>';
 // Footer strings
 $txt['valid_html5'] = 'HTML5 valide&#8239;!';
 $txt['html5'] = 'HTML5';
-$txt['html'] = 'HTML';
 
 $txt['guest'] = 'Invité';
 $txt['guests'] = 'Invités';
@@ -577,7 +542,6 @@ $txt['unapproved_posts'] = 'Messages à approuver (Sujets: %1$d, Messages: %2$d)
 
 $txt['ajax_in_progress'] = 'Chargement...';
 
-$txt['view_unread_category'] = 'Messages non lus';
 $txt['verification'] = 'Vérification';
 $txt['visual_verification_description'] = 'Taper les lettres montrées dans l\'image';
 $txt['visual_verification_sound'] = 'Écouter les lettres';
@@ -610,7 +574,6 @@ $txt['spiders'] = 'Robots';
 
 $txt['downloads'] = 'Téléchargements';
 $txt['filesize'] = 'Taille de fichier';
-$txt['footnote'] = 'Note de bas de page';
 
 // Restore topic
 $txt['restore_topic'] = 'Restaurer ce sujet';

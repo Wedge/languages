@@ -21,6 +21,7 @@ $txt['bbc_quote'] = 'Insert Quote';
 $txt['list'] = 'Insert List';
 $txt['list_unordered'] = 'Insert Unordered List';
 $txt['list_ordered'] = 'Insert Ordered List';
+$txt['footnote'] = 'Footnote';
 
 $txt['change_color'] = 'Change Color';
 $txt['black'] = 'Black';

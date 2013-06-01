@@ -21,6 +21,7 @@ $txt['bbc_quote'] = 'Citer ce message';
 $txt['list'] = 'Insérer une liste';
 $txt['list_unordered'] = 'Insérer une liste non ordonnée';
 $txt['list_ordered'] = 'Insérer une liste ordonnée';
+$txt['footnote'] = 'Note de bas de page';
 
 $txt['change_color'] = 'Changer la couleur';
 $txt['black'] = 'Noir';
