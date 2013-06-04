@@ -35,9 +35,6 @@ $txt['move_topic_unapproved_js'] = 'Attention ! Ce sujet n\'a pas encore été a
 $txt['movetopic_auto_board'] = '[SECTION]';
 $txt['movetopic_auto_topic'] = '[LIEN DE LA DISCUSSION]';
 $txt['movetopic_default'] = 'Ce sujet a été déplacé vers {auto_board}' . ".\n\n" . '{auto_topic}';
-$txt['movetopic_sendpm'] = 'Envoyer un message personnel à l\'auteur du sujet, pour lui faire savoir qu\'il a été déplacé.';
-$txt['movetopic_sendpm_desc'] = 'Tapez ici le message à envoyer';
-$txt['movetopic_default_pm'] = 'Juste pour information, votre sujet - {auto_topic} - a été déplacé vers {auto_board}.';
 
 $txt['sendtopic_send'] = 'Envoyer';
 $txt['sendtopic_title'] = 'Signaler le sujet &quot;%1$s&quot; à un ami.';
