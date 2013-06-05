@@ -435,6 +435,12 @@ $txt['language_clear_cache'] = 'Empty Language Cache';
 $txt['language_clear_cache_desc'] = 'The data used to make language items appear in the forum are managed between special files and the database, so that you can modify them without having to modify files. Generally you should use the language editor facilities from the administration area to change language items, but sometimes you may need to force the system to rebuild its cache. This allows you to do so.';
 $txt['language_clear_cache_btn'] = 'Clear the cache';
 $txt['language_cache_cleared'] = 'The language cache has been cleared.';
+$txt['language_no_entries'] = 'This particular language file has no entries, it is likely a placeholder and you really want the <a href="%1$s">parent language file</a>.';
+$txt['language_search_results'] = 'Search Results - %1$s';
+$txt['language_no_result_results'] = 'Unfortunately, no results were found.';
+$txt['language_search_default'] = 'Matches within the standard files';
+$txt['language_search_plugins'] = 'Matches within plugins';
+$txt['language_search_themes'] = 'Matched within themes';
 
 $txt['language_edit_main'] = 'Main Files';
 $txt['language_edit_admin'] = 'Admin Panel';
