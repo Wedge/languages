@@ -435,6 +435,12 @@ $txt['language_clear_cache'] = 'Vider le cache de langues';
 $txt['language_clear_cache_desc'] = 'Les données de traduction des langues sont gérées via des fichiers spéciaux et peuvent être modifiées via la base de données. Elles sont ensuite mises en cache. Si vous mettez les fichiers à jour, assurez-vous de vider le cache en utilisant cette option.';
 $txt['language_clear_cache_btn'] = 'Vider';
 $txt['language_cache_cleared'] = 'Le cache de langues a été remis à zéro.';
+$txt['language_no_entries'] = 'Ce fichier de langue n\'a pas de contenu, c\'est probablement une base de départ à retravailler. Vous devriez plutôt utiliser le <a href="%1$s">fichier de langue parent</a>.';
+$txt['language_search_results'] = 'Résultats de recherche - %1$s';
+$txt['language_no_result_results'] = 'Malheureusement, aucun résultat n\'a été trouvé.';
+$txt['language_search_default'] = 'Résultats dans les fichiers standard';
+$txt['language_search_plugins'] = 'Résultats dans les extensions';
+$txt['language_search_themes'] = 'Résultats dans les thèmes';
 
 $txt['language_edit_main'] = 'Fichiers principaux';
 $txt['language_edit_admin'] = 'Panneau d\'administration';

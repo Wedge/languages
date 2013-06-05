@@ -46,7 +46,7 @@ $txt['welikes_subject'] = 'Your post has been liked!';
 $txt['welikes_notification'] = '%s liked your post "%s"';
 
 $txt['notification_move'] = '{MEMBER} moved {SUBJECT} to {BOARD}';
-$txt['motification_move_noaccess'] = '{MEMBER} moved your topic {SUBJECT} to a board you cannot access.';
+$txt['notification_move_noaccess'] = '{MEMBER} moved your topic {SUBJECT} to a board you cannot access.';
 $txt['notification_move_profile'] = 'Moved Topics';
 $txt['notification_move_profile_desc'] = 'Receive notifications when anyone moves topics you started';
 $txt['notification_move_email_subject'] = 'Someone moved your topic!';

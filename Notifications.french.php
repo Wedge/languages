@@ -43,3 +43,9 @@ $txt['welikes_title'] = 'J\'aime';
 $txt['welikes_desc'] = 'Me notifier quand quelqu\'un a cliqué J\'aime sur une de mes contributions.';
 $txt['welikes_subject'] = 'Votre message a été aimé&#8239;!';
 $txt['welikes_notification'] = '%s a aimé votre message, "%s"';
+
+$txt['notification_move'] = '{MEMBER} a déplacé {SUBJECT} vers {BOARD}';
+$txt['motification_move_noaccess'] = '{MEMBER} a déplacé votre sujet {SUBJECT} vers une section à laquelle vous n\'avez pas accès.';
+$txt['notification_move_profile'] = 'Sujets déplacés';
+$txt['notification_move_profile_desc'] = 'Recevoir des notifications quand quelqu\'un déplace un sujet que j\'ai créé';
+$txt['notification_move_email_subject'] = 'Quelqu\'un a déplacé votre sujet !';

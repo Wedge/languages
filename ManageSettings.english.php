@@ -440,7 +440,7 @@ $txt['language_search_results'] = 'Search Results - %1$s';
 $txt['language_no_result_results'] = 'Unfortunately, no results were found.';
 $txt['language_search_default'] = 'Matches within the standard files';
 $txt['language_search_plugins'] = 'Matches within plugins';
-$txt['language_search_themes'] = 'Matched within themes';
+$txt['language_search_themes'] = 'Matches within themes';
 
 $txt['language_edit_main'] = 'Main Files';
 $txt['language_edit_admin'] = 'Admin Panel';
