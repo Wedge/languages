@@ -29,6 +29,7 @@ $txt['mailqueue_priority'] = 'Priority';
 $txt['mailqueue_recipient'] = 'Recipient';
 $txt['mailqueue_subject'] = 'Subject';
 $txt['mailqueue_clear_list'] = 'Send Mail Queue Now';
+$txt['mailqueue_send_these_items'] = 'Send these items';
 $txt['mailqueue_no_items'] = 'The mail queue is currently empty';
 $txt['mailqueue_clear_list_warning'] = 'Are you sure you wish to send the whole mail queue now? This will override any limits you have set.';
 
