@@ -193,6 +193,7 @@ $helptxt['registrations'] = '
 			is use on your forum, as well as other registration related settings.
 		</li>
 	</ul>';
+$helptxt['login_type'] = 'This setting enables you to configure whether users have to use their username, their email address or either to log into the forum. It is important to note that when using usernames, the password is generally encrypted in the browser before sending, while it is never done if an email address is supplied instead.';
 
 $helptxt['modlog'] = '
 	This section allows members of the moderation team to track all the moderation actions that the forum moderators have performed. To ensure that

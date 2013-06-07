@@ -63,6 +63,7 @@ $txt['login'] = 'Login';
 // Use numeric entities in the below string.
 $txt['username'] = 'Username';
 $txt['password'] = 'Password';
+$txt['username_or_email'] = 'Username or Email';
 
 $txt['board_moderator'] = 'Board Moderator';
 $txt['remove_topic'] = 'Remove Topic';
