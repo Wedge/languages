@@ -29,6 +29,7 @@ $txt['mailqueue_priority'] = 'Priorité';
 $txt['mailqueue_recipient'] = 'Destinataire';
 $txt['mailqueue_subject'] = 'Sujet';
 $txt['mailqueue_clear_list'] = 'Envoyer la File d\'attente maintenant';
+$txt['mailqueue_send_these_items'] = 'Envoyer ces e-mails';
 $txt['mailqueue_no_items'] = 'La File d\'attente est actuellement vide';
 $txt['mailqueue_clear_list_warning'] = 'Êtes-vous sûr de vouloir envoyer la file d\'attente entière maintenant, en ignorant les limites établies ?';
 
