@@ -186,6 +186,7 @@ $helptxt['registrations'] = '
 			en vigueur sur votre forum et configurer quelques autres réglages relatifs à l\'inscription.
 		</li>
 	</ul>';
+$helptxt['login_type'] = 'Ce paramètre permet de configurer si les utilisateurs doivent entrer leur identifiant (nom du compte), leur adresse e-mail ou l\'un des deux au choix, pour se connecter au forum. Veuillez noter, que dans le cas d\'une connexion avec identifiant, le mot de passe est généralement crypté par le navigateur avant son envoi, ce qui n\'est jamais le cas si c\'est une adresse e-mail qui est utilisée...';
 
 $helptxt['modlog'] = '
 	Cette section permet à l\'équipe des administrateurs de conserver des traces de chaque action de modération effectuée sur le forum par un modérateur ou un administrateur (voire même par un membre). Afin que

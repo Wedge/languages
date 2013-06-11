@@ -158,6 +158,11 @@ $txt['reverse_proxy_header'] = 'Entête HTTP Proxy avec adresse IP';
 $txt['reverse_proxy_ips'] = 'IP ou bloc d\'adresses CIDR de serveurs proxy';
 $txt['reverse_proxy_one_per_line'] = 'N\'entrez qu\'une adresse par ligne';
 
+$txt['login_type'] = 'Avec quoi l\'utilisateur peut-il s\'identifier&#8239;?';
+$txt['login_username_or_email'] = 'Au choix, leur identifiant ou e-mail';
+$txt['login_username_only'] = 'Juste leur identifiant';
+$txt['login_email_only'] = 'Juste leur adresse e-mail';
+
 $txt['setting_password_strength'] = 'Protection requise pour les mots de passe utilisateur';
 $txt['setting_password_strength_low'] = 'Basse - 4 caractères minimum';
 $txt['setting_password_strength_medium'] = 'Moyenne - Ne doit pas contenir l\'identifiant';

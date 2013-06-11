@@ -57,6 +57,7 @@ $txt['login'] = 'Identifiez-vous';
 // Use numeric entities in the below string.
 $txt['username'] = 'Identifiant';
 $txt['password'] = 'Mot de passe';
+$txt['username_or_email'] = 'Identifiant ou e-mail';
 
 $txt['board_moderator'] = 'Modérateur';
 $txt['remove_topic'] = 'Effacer';

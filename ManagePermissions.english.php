@@ -66,10 +66,13 @@ $txt['permissions_board_desc'] = '<strong>Note</strong>: changing these board pe
 $txt['permissions_commit'] = 'Save changes';
 $txt['permissions_on'] = 'in profile';
 $txt['permissions_local_for'] = 'Permissions for group';
-$txt['permissions_option_on'] = 'A';
-$txt['permissions_option_off'] = 'X';
-$txt['permissions_option_deny'] = 'D';
-$txt['permissions_option_desc'] = 'For each permission you can pick either \'Allow\' (A), \'Disallow\' (X), or <span style="color: red">\'Deny\' (D)</span>.<br><br>Remember that if you deny a permission, any member - whether moderator or otherwise - that is in that group will be denied that as well.<br>For this reason, you should use deny carefully, only when <strong>necessary</strong>. Disallow, on the other hand, denies unless otherwise granted.';
+$txt['permissions_option_on'] = '<span title="Allow" style="color: #0a0">A</span>';
+$txt['permissions_option_off'] = '<span title="Disallow">X</span>';
+$txt['permissions_option_deny'] = '<span title="Deny" style="color: red">D</span>';
+$txt['permissions_option_on_title'] = 'Allow';
+$txt['permissions_option_off_title'] = 'Disallow';
+$txt['permissions_option_deny_title'] = 'Deny';
+$txt['permissions_option_desc'] = 'For each permission you can pick either <span style="color: #0a0">Allow (<strong>A</strong>)</span>, Disallow (<strong>X</strong>), or <span style="color: red">Deny (<strong>D</strong>)</span>.<br><br>Remember that if you deny a permission, any member - whether moderator or otherwise - that is in that group will be denied that as well. For this reason, you should use deny carefully, only when <strong>necessary</strong>. Disallow, on the other hand, denies unless otherwise granted.';
 
 $txt['permissiongroup_general'] = 'General';
 $txt['permissionname_view_stats'] = 'View forum statistics';
