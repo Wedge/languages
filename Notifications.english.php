@@ -50,3 +50,9 @@ $txt['notification_move_noaccess'] = '{MEMBER} moved your topic {SUBJECT} to a b
 $txt['notification_move_profile'] = 'Moved Topics';
 $txt['notification_move_profile_desc'] = 'Receive notifications when anyone moves topics you started';
 $txt['notification_move_email_subject'] = 'Someone moved your topic!';
+
+$txt['notif_subs'] = 'Subscriptions';
+$txt['notif_subs_start_time'] = 'Start time';
+$txt['notif_unsubscribe'] = 'Unsubscribe';
+$txt['notif_subscribe'] = 'Subscribe';
+$txt['notif_subs_desc'] = 'You can manage your existing subscriptions to various notifiers here, note that if you have subscriptions from disabled notifiers then they will not be displayed.';

@@ -49,3 +49,9 @@ $txt['motification_move_noaccess'] = '{MEMBER} a déplacé votre sujet {SUBJECT}
 $txt['notification_move_profile'] = 'Sujets déplacés';
 $txt['notification_move_profile_desc'] = 'Recevoir des notifications quand quelqu\'un déplace un sujet que j\'ai créé';
 $txt['notification_move_email_subject'] = 'Quelqu\'un a déplacé votre sujet !';
+
+$txt['notif_subs'] = 'Souscriptions';
+$txt['notif_subs_start_time'] = 'Date';
+$txt['notif_unsubscribe'] = 'Arrêter';
+$txt['notif_subscribe'] = 'Souscrire';
+$txt['notif_subs_desc'] = 'Vous pouvez gérer vos inscriptions aux diverses notifications ici. Notez que si vous avez souscrit à des notifications actuellement désactivées, elles ne seront pas listées.';
