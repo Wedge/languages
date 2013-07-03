@@ -39,16 +39,23 @@ $txt['scheduled_task_desc_weNotif::scheduled_periodical'] = 'Envoyer tous les e-
 $txt['notification_email_periodical_subject'] = '%s, vous avez %d notification(s) non lues !';
 $txt['notification_email_periodical_body'] = 'Il semble que vous ayez reçu des notifications ces derniers jours, en voici une liste. Passez sur le forum pour les consulter !';
 
-$txt['welikes_title'] = 'J\'aime';
-$txt['welikes_desc'] = 'Me notifier quand quelqu\'un a cliqué J\'aime sur une de mes contributions.';
-$txt['welikes_subject'] = 'Votre message a été aimé&#8239;!';
-$txt['welikes_notification'] = '%s a aimé votre message, "%s"';
+$txt['notifier_likes_title'] = 'J\'aime';
+$txt['notifier_likes_desc'] = 'Me notifier quand quelqu\'un a cliqué J\'aime sur une de mes contributions.';
+$txt['notifier_likes_subject'] = 'Votre message a été aimé !';
+$txt['notifier_likes_html'] = '{MEMBER_LINK} a aimé votre message, "{OBJECT_LINK}".';
+$txt['notifier_likes_text'] = '{MEMBER_NAME} a aimé votre message, "{OBJECT_NAME}", lisible ici :
 
-$txt['notification_move'] = '{MEMBER} a déplacé {SUBJECT} vers {BOARD}';
-$txt['motification_move_noaccess'] = '{MEMBER} a déplacé votre sujet {SUBJECT} vers une section à laquelle vous n\'avez pas accès.';
-$txt['notification_move_profile'] = 'Sujets déplacés';
-$txt['notification_move_profile_desc'] = 'Recevoir des notifications quand quelqu\'un déplace un sujet que j\'ai créé';
-$txt['notification_move_email_subject'] = 'Quelqu\'un a déplacé votre sujet !';
+{OBJECT_URL}';
+
+$txt['notifier_move_title'] = 'Sujets déplacés';
+$txt['notifier_move_desc'] = 'Recevoir des notifications quand quelqu\'un déplace un sujet que j\'ai créé';
+$txt['notifier_move_subject'] = 'Quelqu\'un a déplacé votre sujet !';
+$txt['notifier_move_noaccess_html'] = '{MEMBER_LINK} a déplacé votre sujet {TOPIC_LINK} vers une section à laquelle vous n\'avez pas accès.';
+$txt['notifier_move_noaccess_text'] = '{MEMBER_NAME} a déplacé votre sujet {TOPIC_NAME} vers une section à laquelle vous n\'avez pas accès.';
+$txt['notifier_move_html'] = '{MEMBER_LINK} a déplacé {TOPIC_LINK} vers {BOARD_LINK}.';
+$txt['notifier_move_text'] = '{MEMBER_NAME} a déplacé {TOPIC_NAME} vers {BOARD_NAME}, consultable ici :
+
+{BOARD_URL}';
 
 $txt['notif_subs'] = 'Souscriptions';
 $txt['notif_subs_start_time'] = 'Date';

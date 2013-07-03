@@ -38,18 +38,24 @@ $txt['scheduled_task_weNotif::scheduled_periodical'] = 'Send periodical notifica
 $txt['scheduled_task_desc_weNotif::scheduled_periodical'] = 'Sends all the periodical notification e-mails for the members who have unread notifications';
 $txt['notification_email_periodical_subject'] = '%s, you have %d unread notification(s)!';
 $txt['notification_email_periodical_body'] = 'It looks like you have gathered a bunch of unread notifications over the past few days, here is the gist of them. Head over to the forums to check them out!';
-$txt['view_all'] = 'view all';
 
-$txt['welikes_title'] = 'Member Likes';
-$txt['welikes_desc'] = 'Notify you when one of your posts has been liked.';
-$txt['welikes_subject'] = 'Your post has been liked!';
-$txt['welikes_notification'] = '%s liked your post "%s"';
+$txt['notifier_likes_title'] = 'Member Likes';
+$txt['notifier_likes_desc'] = 'Notify you when one of your posts has been liked.';
+$txt['notifier_likes_subject'] = 'Your post has been liked!';
+$txt['notifier_likes_html'] = '{MEMBER_LINK} liked your post, "{OBJECT_LINK}"';
+$txt['notifier_likes_text'] = '{MEMBER_NAME} liked your post, "{OBJECT_NAME}", which is located here:
 
-$txt['notification_move'] = '{MEMBER} moved {SUBJECT} to {BOARD}';
-$txt['notification_move_noaccess'] = '{MEMBER} moved your topic {SUBJECT} to a board you cannot access.';
-$txt['notification_move_profile'] = 'Moved Topics';
-$txt['notification_move_profile_desc'] = 'Receive notifications when anyone moves topics you started';
-$txt['notification_move_email_subject'] = 'Someone moved your topic!';
+{OBJECT_URL}';
+
+$txt['notifier_move_title'] = 'Moved Topics';
+$txt['notifier_move_desc'] = 'Receive notifications when anyone moves topics you started';
+$txt['notifier_move_subject'] = 'Someone moved your topic!';
+$txt['notifier_move_noaccess_html']  = '{MEMBER_LINK} moved your topic {TOPIC_LINK} to a board you cannot access.';
+$txt['notifier_move_noaccess_email'] = '{MEMBER_NAME} moved your topic {TOPIC_NAME} to a board you cannot access.';
+$txt['notifier_move_html'] = '{MEMBER_LINK} moved {TOPIC_LINK} to {BOARD_LINK}.';
+$txt['notifier_move_text'] = '{MEMBER_NAME} moved {TOPIC_NAME} to {BOARD_NAME}. You can access the board here:
+
+{BOARD_URL}';
 
 $txt['notif_subs'] = 'Subscriptions';
 $txt['notif_subs_start_time'] = 'Start time';
