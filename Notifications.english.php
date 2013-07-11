@@ -42,7 +42,7 @@ $txt['notification_email_periodical_body'] = 'It looks like you have gathered a 
 $txt['notifier_likes_title'] = 'Member Likes';
 $txt['notifier_likes_desc'] = 'Notify you when one of your posts has been liked.';
 $txt['notifier_likes_subject'] = 'Your post has been liked!';
-$txt['notifier_likes_html'] = '{MEMBER_LINK} liked your post, "{OBJECT_LINK}"';
+$txt['notifier_likes_html'] = '<span class="like_button"></span>{MEMBER_LINK} liked your post, "{OBJECT_LINK}"';
 $txt['notifier_likes_text'] = '{MEMBER_NAME} liked your post, "{OBJECT_NAME}", which is located here:
 
 {OBJECT_URL}';
