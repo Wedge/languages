@@ -576,6 +576,8 @@ $txt['spiders'] = 'Robots';
 $txt['downloads'] = 'Téléchargements';
 $txt['filesize'] = 'Taille de fichier';
 
+$txt['sideshow'] = 'Cliquez ici, ou cliquez sur la molette de la souris n\'importe où sur la page, pour ouvrir la barre de menu.';
+
 // Restore topic
 $txt['restore_topic'] = 'Restaurer ce sujet';
 $txt['quick_mod_restore'] = 'Restaurer les messages sélectionnés';

@@ -582,6 +582,8 @@ $txt['spiders'] = 'Spiders';
 $txt['downloads'] = 'Downloads';
 $txt['filesize'] = 'Filesize';
 
+$txt['sideshow'] = 'Click here, or middle-click anywhere on the page, to toggle the sidebar.';
+
 // Restore topic
 $txt['restore_topic'] = 'Restore Topic';
 $txt['quick_mod_restore'] = 'Restore Selected';
