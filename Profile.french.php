@@ -262,7 +262,7 @@ $txt['account_activate'] = 'activer';
 $txt['account_approve'] = 'approuver';
 $txt['user_is_banned'] = 'L\'utilisateur est actuellement banni';
 $txt['view_ban'] = 'Voir';
-$txt['user_banned_by_following'] = 'Cet utilisateur est actuellement affecté par les bannissementts suivants';
+$txt['user_banned_by_following'] = 'Cet utilisateur est actuellement affecté par les bannissements suivants';
 
 $txt['show_online'] = 'Autoriser l\'affichage de ma présence en ligne';
 
@@ -455,7 +455,7 @@ $txt['pm_display_mode_one'] = 'Un à la fois';
 $txt['pm_display_mode_linked'] = 'Triés par conversations';
 
 $txt['tracking'] = 'Suivi';
-$txt['tracking_description'] = 'Cette section vous permet de vérifier certaines actions faites sur le profil de ce membre, mais aussi de suivre de son adresse IP.';
+$txt['tracking_description'] = 'Cette section vous permet de vérifier certaines actions faites sur le profil de ce membre, mais aussi de suivre son adresse IP.';
 
 $txt['trackReported'] = 'Messages signalés';
 $txt['reported_in_mc'] = 'Voir dans le Centre de Modération';
