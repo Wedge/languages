@@ -4,6 +4,7 @@
 $txt['search_scope'] = 'Where?';
 $txt['search_this_topic'] = 'On this topic';
 $txt['search_this_board'] = 'On this board';
+$txt['search_this_tree'] = 'On this board (and sub-boards)';
 $txt['search_everywhere'] = 'Everywhere';
 $txt['search_advanced'] = 'Advanced search';
 $txt['search_results'] = 'Search Results';
