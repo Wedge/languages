@@ -27,7 +27,7 @@ $txt['mboards_new_board_name'] = 'New Board';
 
 $txt['mboards_name'] = 'Name';
 $txt['mboards_modify'] = 'modify';
-$txt['mboards_permissions'] = 'permissions';
+$txt['mboards_permissions'] = 'Permissions';
 // Don't use entities in the below string.
 $txt['mboards_permissions_confirm'] = 'Are you sure you want to switch this board to use local permissions?';
 

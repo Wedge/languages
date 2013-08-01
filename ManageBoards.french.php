@@ -27,7 +27,7 @@ $txt['mboards_new_board_name'] = 'Nouvelle section';
 
 $txt['mboards_name'] = 'Nom';
 $txt['mboards_modify'] = 'modifier';
-$txt['mboards_permissions'] = 'permissions';
+$txt['mboards_permissions'] = 'Permissions';
 // Don't use entities in the below string.
 $txt['mboards_permissions_confirm'] = 'Êtes-vous sûr de vouloir changer le fonctionnement de cette section pour utiliser des permissions locales ?';
 
