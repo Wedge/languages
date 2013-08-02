@@ -4,6 +4,7 @@
 $txt['search_scope'] = 'Où&#8239;?';
 $txt['search_this_topic'] = 'Dans ce sujet';
 $txt['search_this_board'] = 'Dans cette section';
+$txt['search_this_tree'] = 'Dans cette section, et ses sous-sections';
 $txt['search_everywhere'] = 'Partout';
 $txt['search_advanced'] = 'Recherche avancée';
 $txt['search_results'] = 'Résultats de la recherche';
