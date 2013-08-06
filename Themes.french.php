@@ -57,8 +57,6 @@ $txt['actual_theme_url'] = 'URL de ce thème&#8239;: ';
 $txt['actual_images_url'] = 'URL des images de ce thème&#8239;: ';
 $txt['current_theme_style'] = 'Le style de ce thème&#8239;: ';
 
-$txt['site_slogan'] = 'Slogan du site';
-$txt['site_slogan_desc'] = 'Ajoutez votre propre slogan ici. Il remplacera le logo de Wedge.';
 $txt['forum_width'] = 'Largeur du forum';
 $txt['forum_width_desc'] = 'Spécifiez la largeur du forum. Exemples&#8239;: 950px, 80%, 1240px.';
 
