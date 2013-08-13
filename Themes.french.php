@@ -72,8 +72,6 @@ $txt['user_text'] = 'Afficher le texte personnel dans les messages';
 $txt['gender_images'] = 'Afficher les images du sexe (h/f) dans les messages';
 $txt['member_list_bar'] = 'Afficher la liste des membres sur l\'accueil du forum';
 $txt['show_view_profile_button'] = 'Afficher le bouton de profil dans les messages';
-$txt['header_logo_url'] = 'URL vers l\'image de logo';
-$txt['header_logo_url_desc'] = 'Laissez vide pour afficher le nom du forum ou le logo par défaut.';
 
 $txt['themeadmin_title'] = 'Options de thèmes et disposition';
 $txt['themeadmin_description'] = 'Ici vous pouvez modifier les paramètres de vos thèmes, mettre à jour la liste des thèmes, réinitialiser les options des membres et autres réglages du genre.';

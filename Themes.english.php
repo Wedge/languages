@@ -72,8 +72,6 @@ $txt['user_text'] = 'Show personal text in message view';
 $txt['gender_images'] = 'Show gender images in message view';
 $txt['member_list_bar'] = 'Show members list bar on board index';
 $txt['show_view_profile_button'] = 'Show view profile button under post';
-$txt['header_logo_url'] = 'Logo image URL';
-$txt['header_logo_url_desc'] = 'Leave blank to show forum name or default logo.';
 
 $txt['themeadmin_title'] = 'Themes and Layout Settings';
 $txt['themeadmin_description'] = 'Here you can modify the settings for your themes, update theme selections, reset member options, and the like.';
