@@ -80,14 +80,16 @@ $txt['num_redirects'] = array(0 => 'Aucune redirection', 1 => '1 redirection', '
 $txt['num_replies'] = array(0 => 'Aucune réponse', 1 => '1 réponse', 'n' => '%s réponses');
 $txt['num_views'] = array(0 => 'Jamais lu', 1 => '1 lecture', 'n' => '%s lectures');
 
-// Likes. It's pretty complicated.
-$txt['you_like_this'] = 'Vous aimez cela.';
-$txt['you_1_like_this'] = 'Vous et {name1} aimez cela.';
-$txt['you_2_like_this'] = 'Vous, {name1} et {name2} aimez cela.';
-$txt['you_n_like_this'] = array(1 => 'Vous, {name1}, {name2} et 1 autre aimez cela.', 'n' => 'Vous, {name1}, {name2} et %s autres aimez cela.');
-$txt['1_like_this'] = '{name1} aime cela.';
-$txt['2_like_this'] = '{name1} et {name2} aiment cela.';
-$txt['n_like_this'] = array(1 => '{name1}, {name2} et 1 autre aiment cela.', 'n' => '{name1}, {name2} et %s autres aiment cela.');
+// Likes. What you've done implied past tense, while when you haven't liked it thus far, implies a present tense for everyone else.
+$txt['you_like_this'] = array(
+	0 => 'Vous aimez cela.',
+	1 => 'Vous et une autre personne aimez cela.',
+	'n' => 'Vous et %1$s autres personnes aimez cela.',
+);
+$txt['like_this'] = array(
+	1 => 'Une personne a aimé cela.',
+	'n' => '%1$s personnes ont aimé cela.',
+);
 $txt['like'] = 'J\'aime';
 $txt['unlike'] = 'Je n\'aime plus';
 
