@@ -56,7 +56,7 @@ $helptxt['ban_gmail_style'] = 'Google Mail, or GMail, offers features for conven
 
 $helptxt['disableCustomPerPage'] = 'Check this option to stop users from customising the amount of messages and topics to display per page on the Message Index and Topic Display page respectively.';
 
-$helptxt['disableTemplateEval'] = 'By default, templates are evaluated instead of just included. This helps with showing more useful debug information in case a template contains an error.<br><br>
+$helptxt['disableTemplateEval'] = 'By default, templates are included directly, rather than evaluated. Evaluating helps with showing more useful debug information in case a template contains an error.<br><br>
 		On large forums however, this customised inclusion process may be significantly slower. Therefore, advanced users may wish to disable it.';
 
 $helptxt['attachment_image_paranoid'] = 'Selecting this option will enable very strict security checks on image attachments. Warning! These extensive checks can fail on valid images too. It is strongly recommended to only use this option together with image re-encoding, in order to have Wedge try to resample the images which fail the security checks: if successful, they will be sanitised and uploaded. Otherwise, if image re-encoding is not enabled, all attachments failing checks will be rejected.';
