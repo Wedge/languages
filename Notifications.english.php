@@ -16,6 +16,12 @@ $txt['notifications_short_unread'] = 'Unread';
 $txt['notifications_short_latest'] = 'Latest';
 $txt['notifications_short_all'] = 'View all';
 $txt['notifications_short_settings'] = 'Settings';
+$txt['notifications_short_unread_pms'] = 'Unread';
+$txt['notifications_short_inbox'] = 'Inbox';
+$txt['notifications_short_sent'] = 'Outbox';
+$txt['notifications_short_drafts'] = 'Drafts';
+$txt['notifications_short_write_pm'] = 'Compose';
+
 $txt['notification_unread_title'] = 'Unread Notifications';
 $txt['notification_unread_none'] = 'No unread notifications.';
 $txt['notification_none'] = 'No notifications.';
@@ -62,3 +68,7 @@ $txt['notif_subs_start_time'] = 'Start time';
 $txt['notif_unsubscribe'] = 'Unsubscribe';
 $txt['notif_subscribe'] = 'Subscribe';
 $txt['notif_subs_desc'] = 'You can manage your existing subscriptions to various notifiers here, note that if you have subscriptions from disabled notifiers then they will not be displayed.';
+
+$txt['no_pms'] = 'You have no unread messages.';
+$txt['pm_sent_to_you'] = '%1$s sent you a message, "%2$s".';
+$txt['pm_replied_to_pm'] = '%1$s replied to your message, "%2$s".';

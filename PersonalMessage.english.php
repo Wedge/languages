@@ -19,11 +19,6 @@ $txt['delete_all'] = 'Delete all messages in your PMBOX';
 $txt['delete_all_confirm'] = 'Are you sure you want to delete all messages?';
 $txt['recipient'] = 'Recipient';
 $txt['pm_multiple'] = '(multiple recipients: \'name1, name2\')';
-$txt['no_pms'] = 'You have no unread messages.';
-$txt['compose'] = 'Compose';
-$txt['drafts'] = 'Drafts';
-$txt['pm_sent_to_you'] = '%1$s sent you a message, "%2$s"';
-$txt['pm_replied_to_pm'] = '%1$s replied to your message, "%2$s"';
 
 $txt['delete_selected_confirm'] = 'Are you sure you want to delete all selected personal messages?';
 

@@ -16,6 +16,12 @@ $txt['notifications_short_unread'] = 'Non lues';
 $txt['notifications_short_latest'] = 'Récentes';
 $txt['notifications_short_all'] = 'Tout voir';
 $txt['notifications_short_settings'] = 'Paramètres';
+$txt['notifications_short_unread_pms'] = 'Non lus';
+$txt['notifications_short_inbox'] = 'Reçus';
+$txt['notifications_short_sent'] = 'Envoyés';
+$txt['notifications_short_drafts'] = 'Brouillons';
+$txt['notifications_short_write_pm'] = 'Écrire';
+
 $txt['notification_unread_title'] = 'Notifications non lues';
 $txt['notification_unread_none'] = 'Pas de notifications non lues.';
 $txt['notification_none'] = 'Pas de notifications.';
@@ -62,3 +68,7 @@ $txt['notif_subs_start_time'] = 'Date';
 $txt['notif_unsubscribe'] = 'Arrêter';
 $txt['notif_subscribe'] = 'Souscrire';
 $txt['notif_subs_desc'] = 'Vous pouvez gérer vos inscriptions aux diverses notifications ici. Notez que si vous avez souscrit à des notifications actuellement désactivées, elles ne seront pas listées.';
+
+$txt['no_pms'] = 'Vous n\'avez pas de messages non lus.';
+$txt['pm_sent_to_you'] = '%1$s vous a envoyé un message, "%2$s".';
+$txt['pm_replied_to_pm'] = '%1$s a répondu à votre message, "%2$s".';
