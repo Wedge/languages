@@ -48,6 +48,7 @@ $txt['pm_read'] = 'Read';
 $txt['pm_replied'] = 'Replied To';
 
 // Drafts.
+$txt['pm_menu_drafts'] = 'Draft messages';
 $txt['showDrafts'] = 'Show Drafts';
 $txt['showDrafts_desc'] = 'This section shows you all the draft messages you have saved, or were saved on your behalf.';
 $txt['show_drafts_none'] = 'You have no draft messages saved at this time.';

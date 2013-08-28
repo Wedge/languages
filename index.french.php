@@ -535,9 +535,6 @@ $txt['error_old_topic'] = 'Veuillez noter qu\'il n\'y a pas eu de réponse à ce
 $txt['mark_read_short'] = 'Marquer lu';
 
 $txt['pm_short'] = 'Messagerie';
-$txt['pm_menu_read'] = 'Lire mes messages';
-$txt['pm_menu_send'] = 'Envoyer un message';
-$txt['pm_menu_drafts'] = 'Brouillons';
 
 $txt['hello_member_ndt'] = 'Bonjour, <span>%1$s</span>&#8239;!';
 

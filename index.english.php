@@ -541,9 +541,6 @@ $txt['error_old_topic'] = 'Warning: this topic has not been posted in for at lea
 $txt['mark_read_short'] = 'Mark Read';
 
 $txt['pm_short'] = 'My Messages';
-$txt['pm_menu_read'] = 'Read your messages';
-$txt['pm_menu_send'] = 'Send a message';
-$txt['pm_menu_drafts'] = 'Draft messages';
 
 $txt['hello_member_ndt'] = 'Hello, <span>%1$s</span>!';
 

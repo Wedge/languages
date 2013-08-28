@@ -48,6 +48,7 @@ $txt['pm_read'] = 'Lu';
 $txt['pm_replied'] = 'Répondu à';
 
 // Drafts.
+$txt['pm_menu_drafts'] = 'Brouillons';
 $txt['showDrafts'] = 'Voir les Brouillons';
 $txt['showDrafts_desc'] = 'Cette section vous permet de consulter les brouillons que vous avez sauvegardés, ou qui ont été sauvegardés automatiquement pour vous.';
 $txt['show_drafts_none'] = 'Pas de brouillons pour le moment.';
