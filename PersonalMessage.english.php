@@ -23,6 +23,7 @@ $txt['pm_multiple'] = '(multiple recipients: \'name1, name2\')';
 $txt['delete_selected_confirm'] = 'Are you sure you want to delete all selected personal messages?';
 
 $txt['pm_view'] = 'View';
+$txt['pm_display_mode'] = 'Display personal messages';
 $txt['pm_display_mode_all'] = 'All at once';
 $txt['pm_display_mode_one'] = 'One at a time';
 $txt['pm_display_mode_linked'] = 'As a conversation';
@@ -34,6 +35,13 @@ $txt['delete_conversation'] = 'Delete Conversation';
 $txt['pm_capacity'] = 'Capacity';
 $txt['pm_currently_using'] = '%1$s messages, %2$s%% full.';
 $txt['pm_sent'] = 'Your message has been sent successfully.';
+
+$txt['pm_receive_from'] = 'Receive personal messages from:';
+$txt['pm_receive_from_everyone'] = 'All members';
+$txt['pm_receive_from_ignore'] = 'All members, except those on my ignore list';
+$txt['pm_receive_from_admins'] = 'Administrators only';
+$txt['pm_receive_from_buddies'] = 'Contacts and Administrators only';
+$txt['pm_remove_inbox_label'] = 'Remove the inbox label when applying another label';
 
 $txt['pm_error_user_not_found'] = 'Unable to find member \'%1$s\'.';
 $txt['pm_error_ignored_by_user'] = 'User \'%1$s\' has blocked your personal message.';

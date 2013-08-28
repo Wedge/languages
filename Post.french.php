@@ -4,6 +4,7 @@
 $txt['post_reply'] = 'Répondre';
 $txt['enter_verification_details'] = 'Remplissez les détails de vérification';
 $txt['message_icon'] = 'Icône du message';
+$txt['current_icon'] = 'Icône actuelle';
 $txt['subject_not_filled'] = 'Le titre n\'a pas été renseigné. Il est requis.';
 $txt['message_body_not_filled'] = 'Le corps du message n\'a pas été rempli. Il est requis.';
 
@@ -112,7 +113,6 @@ $txt['cant_upload_type'] = 'Vous ne pouvez pas envoyer ce type de fichier. Les e
 $txt['uncheck_unwatchd_attach'] = 'Décochez les fichiers joints que vous voulez supprimer';
 $txt['restricted_filename'] = 'Votre fichier s\'appelle "%1$s", mais ce nom est réservé. Merci de le renommer.';
 $txt['topic_locked_no_reply'] = 'Attention&#8239;: ce sujet est actuellement/sera bloqué&#8239;!<br>Seuls les administrateurs et les modérateurs peuvent y répondre.';
-$txt['awaiting_approval'] = 'En attente d\'approbation';
 $txt['error_temp_attachments'] = 'Des fichiers ont été joints à ce message, mais jamais publiés. Ce problème a été corrigé. Si vous ne souhaitez pas les mettre en ligne, vous pouvez les supprimer <a href="#postAttachment">ici</a>.';
 $txt['js_post_will_require_approval'] = 'Attention, ce sujet n\'apparaîtra qu\'après avoir été approuvé par un modérateur.';
 

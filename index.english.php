@@ -194,7 +194,6 @@ $txt['notify'] = 'Notify';
 $txt['unnotify'] = 'Unnotify';
 $txt['notify_request'] = 'Do you want a notification email if someone replies to this topic?';
 
-$txt['notify_replies'] = 'Notify of replies';
 $txt['move_topic'] = 'Move Topic';
 $txt['move_to'] = 'Move to';
 $txt['pages'] = 'Pages';
@@ -510,8 +509,6 @@ $txt['most_online_ever'] = 'Most Online Ever';
 $txt['most_online_today'] = 'Most Online Today';
 
 $txt['response_prefix'] = 'Re: ';
-$txt['current_icon'] = 'Current Icon';
-$txt['message_icon'] = 'Message Icon';
 
 $txt['approve_members_waiting'] = array(
 	1 => 'There is <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">one member</a> awaiting approval.',

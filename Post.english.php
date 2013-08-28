@@ -4,6 +4,7 @@
 $txt['post_reply'] = 'Post reply';
 $txt['enter_verification_details'] = 'Complete verification details';
 $txt['message_icon'] = 'Message icon';
+$txt['current_icon'] = 'Current Icon';
 $txt['subject_not_filled'] = 'The Subject field was not filled out. It is required.';
 $txt['message_body_not_filled'] = 'The Message Body was not filled out. It is required.';
 
@@ -112,7 +113,6 @@ $txt['cant_upload_type'] = 'You cannot upload that type of file. The only allowe
 $txt['uncheck_unwatchd_attach'] = 'Uncheck the attachments you no longer want attached';
 $txt['restricted_filename'] = 'Your file was called "%1$s" - this is a restricted filename. Please try a different filename.';
 $txt['topic_locked_no_reply'] = 'Warning: topic is currently/will be locked!<br>Only admins and moderators can reply.';
-$txt['awaiting_approval'] = 'Awaiting approval';
 $txt['error_temp_attachments'] = 'There are attachments found, which you have attached before but not posted. These attachments are now attached to this post. If you do not want to include them in this post, you can remove them <a href="#postAttachment">here</a>.';
 $txt['js_post_will_require_approval'] = 'Reminder: This post will not appear until approved by a moderator.';
 

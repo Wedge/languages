@@ -334,6 +334,8 @@ $txt['showPermissions_restricted_boards_desc'] = 'The following boards are not a
 $txt['local_time'] = 'Local Time';
 $txt['posts_per_day'] = 'per day';
 
+$txt['pm_settings_desc'] = 'From this page you can change a variety of personal messaging options, including how messages are displayed and who may send them to you.';
+
 $txt['buddy_ignore_desc'] = 'This area allows you to maintain your contacts and ignore list for this forum. Adding members to these lists will, amongst other things, help control mail and PM traffic, depending on your preferences.';
 
 $txt['buddy_add'] = 'Add to my Contacts';
@@ -435,24 +437,12 @@ $txt['notification_select'] = '(no template)';
 
 $txt['subscriptions'] = 'Paid Subscriptions';
 
-$txt['pm_settings_desc'] = 'From this page you can change a variety of personal messaging options, including how messages are displayed and who may send them to you.';
 $txt['email_notify'] = 'Notify by email every time you receive a personal message:';
 $txt['email_notify_never'] = 'Never';
 $txt['email_notify_buddies'] = 'From Contacts Only';
 $txt['email_notify_always'] = 'Always';
 
-$txt['pm_receive_from'] = 'Receive personal messages from:';
-$txt['pm_receive_from_everyone'] = 'All members';
-$txt['pm_receive_from_ignore'] = 'All members, except those on my ignore list';
-$txt['pm_receive_from_admins'] = 'Administrators only';
-$txt['pm_receive_from_buddies'] = 'Contacts and Administrators only';
-
 $txt['popup_messages'] = 'Show a popup when I receive new messages.';
-$txt['pm_remove_inbox_label'] = 'Remove the inbox label when applying another label';
-$txt['pm_display_mode'] = 'Display personal messages';
-$txt['pm_display_mode_all'] = 'All at once';
-$txt['pm_display_mode_one'] = 'One at a time';
-$txt['pm_display_mode_linked'] = 'As a conversation';
 
 $txt['tracking'] = 'Tracking';
 $txt['tracking_description'] = 'This section allows you to review certain profile actions performed on this member\'s profile as well as track their IP address.';

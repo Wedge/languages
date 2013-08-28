@@ -23,9 +23,10 @@ $txt['pm_multiple'] = '(destinataires multiples&#8239;: \'nom1, nom2\')';
 $txt['delete_selected_confirm'] = 'Êtes-vous sûr de vouloir effacer tous les messages personnels sélectionnés ?';
 
 $txt['pm_view'] = 'Affichage';
+$txt['pm_display_mode'] = 'Afficher les messages personnels';
 $txt['pm_display_mode_all'] = 'Tous en même temps';
 $txt['pm_display_mode_one'] = 'Un à la fois';
-$txt['pm_display_mode_linked'] = 'Par conversation';
+$txt['pm_display_mode_linked'] = 'Triés par conversation';
 
 $txt['sent_to'] = 'Envoyé à';
 $txt['reply_to_all'] = 'Répondre à tous';
@@ -34,6 +35,13 @@ $txt['delete_conversation'] = 'Supprimer Conversation';
 $txt['pm_capacity'] = 'Capacité';
 $txt['pm_currently_using'] = '%1$s messages, %2$s%% pleine.';
 $txt['pm_sent'] = 'Votre message a été envoyé.';
+
+$txt['pm_receive_from'] = 'Recevoir des messages personnels de&#8239;:';
+$txt['pm_receive_from_everyone'] = 'Tous les membres';
+$txt['pm_receive_from_ignore'] = 'Tous les membres, sauf ceux que j\'ignore';
+$txt['pm_receive_from_admins'] = 'Les administrateurs seulement';
+$txt['pm_receive_from_buddies'] = 'Mes contacts et les administrateurs seulement';
+$txt['pm_remove_inbox_label'] = 'Supprimer le label &quot;Boîte de réception&quot; lors de l\'ajout d\'un autre label';
 
 $txt['pm_error_user_not_found'] = 'Impossible de trouver le membre \'%1$s\'.';
 $txt['pm_error_ignored_by_user'] = 'Le membre \'%1$s\' a bloqué votre message personnel.';

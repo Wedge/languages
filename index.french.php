@@ -188,7 +188,6 @@ $txt['notify'] = 'Notifier';
 $txt['unnotify'] = 'Se désinscrire';
 $txt['notify_request'] = 'Voulez-vous recevoir un e-mail de notification si quelqu\'un répond à ce sujet&#8239;?';
 
-$txt['notify_replies'] = 'Notification de réponse';
 $txt['move_topic'] = 'Déplacer';
 $txt['move_to'] = 'Déplacer vers';
 $txt['pages'] = 'Pages';
@@ -504,8 +503,6 @@ $txt['most_online_ever'] = 'Record de connexions absolu';
 $txt['most_online_today'] = 'Record de connexions aujourd\'hui';
 
 $txt['response_prefix'] = 'Re : ';
-$txt['current_icon'] = 'Icône actuelle';
-$txt['message_icon'] = 'Icône du message';
 
 $txt['approve_members_waiting'] = array(
 	1 => 'Il y a <a href="<URL>?action=admin;area=viewmembers;sa=browse;type=approve">un membre</a> en attente d\'approbation.',
