@@ -303,10 +303,8 @@ $txt['media_zoom_fadeinout'] = 'Fade in/out';
 $txt['media_zoom_fadeinout_info'] = 'Add a fading effect to the animation.';
 
 // Zoomedia JavaScript strings
-// Escape single quotes twice (\\\' instead of \') otherwise it won't work.
 $txt['media_zoom_close_title'] = 'Close';
 $txt['media_zoom_move'] = 'Move';
-$txt['media_zoom_loading'] = 'Loading...';
 $txt['media_zoom_clicktocancel'] = 'Click to cancel';
 $txt['media_zoom_clicktoclose'] = 'Click to close image, drag to move';
 $txt['media_zoom_expandtoactual'] = 'Expand to actual size';

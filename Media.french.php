@@ -295,10 +295,8 @@ $txt['media_zoom_fadeinout'] = 'Fondu enchaîné';
 $txt['media_zoom_fadeinout_info'] = 'Ajoute un effet de fondu enchaîné à l\'animation.';
 
 // Zoomedia JavaScript strings
-// Escape single quotes twice (\\\' instead of \') otherwise it won't work.
 $txt['media_zoom_close_title'] = 'Fermer';
 $txt['media_zoom_move'] = 'Déplacer';
-$txt['media_zoom_loading'] = 'Chargement...';
 $txt['media_zoom_clicktocancel'] = 'Cliquez pour annuler';
 $txt['media_zoom_clicktoclose'] = 'Cliquez pour fermer, glissez pour déplacer';
 $txt['media_zoom_expandtoactual'] = 'Afficher en taille réelle';
