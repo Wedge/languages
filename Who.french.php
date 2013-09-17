@@ -136,24 +136,17 @@ $txt['credits_site'] = 'Crédits de ce site web';
 $txt['credits_admins'] = array(1 => 'Administrateur', 'n' => 'Administrateurs');
 $txt['credits_moderators'] = array(1 => 'Modérateur', 'n' => 'Modérateurs');
 $txt['credits_software'] = 'Crédits du logiciel';
+$txt['credits_others'] = 'Autres crédits';
 $txt['credits_wedge'] = 'Wedge est copyright © 2010 René-Gilles Deberdt, tous droits réservés. Distribué sous <a href="http://wedge.org/license/">licence propre</a>.';
 $txt['credits_team'] = 'L\'équipe de Wedge';
 $txt['credits_smf2'] = 'Utilise des portions tirées du logiciel <a href="http://www.simplemachines.org/">SMF 2.0</a>, copyright © Simple Machines 2011, tous droits réservés. SMF est distribué sous license <a href="http://www.simplemachines.org/about/smf/license.php">BSD</a>, et développé par %1$s et %2$s.';
 $txt['credits_aeme'] = 'Utilise des portions tirées d\'<a href="http://aeva.noisen.com/">Aeva Media</a>, copyright © 2007-2011 %1$s et %2$s.';
 $txt['credits_special'] = 'Remerciements spéciaux';
 $txt['credits_copyright'] = 'Copyrights';
-$txt['credits_forum'] = 'Forum';
-$txt['credits_images'] = 'Images';
-$txt['credits_modifications'] = 'Spécialiste Extensions/Thèmes';
+$txt['credits_modifications'] = 'Extensions';
 $txt['credits_groups_ps'] = 'Fondateurs';
 $txt['credits_groups_dev'] = 'Développeurs';
-$txt['credits_groups_consultants'] = 'Consultants Techniques';
-$txt['credits_groups_translation'] = 'Traduction';
-$txt['credits_tools'] = 'Outils';
-$txt['credits_tools_idtags'] = 'Analyseur/extracteur de données vidéo/audio.';
-$txt['credits_tools_exif'] = 'Bibliothèque d\'extraction de métadonnées Exif.';
-$txt['credits_tools_uploader'] = 'Uploader en masse basé sur Flash et Ajax. Barres de progression tirées de <a href="http://digitarald.de/project/fancyupload/">FancyUpload</a>.';
-$txt['credits_tools_player'] = 'Lecteur vidéo/audio en Flash, gratuit pour utilisation non commerciale.';
+$txt['credits_groups_contributors'] = 'Contributeurs';
 
 // Replace the following string with the name of this language pack.
 $txt['credits_groups_language'] = 'Version française';
