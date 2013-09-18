@@ -394,7 +394,7 @@ $txt['go_up'] = 'En haut';
 $txt['go_down'] = 'En bas';
 
 $txt['site_credits'] = 'Crédits du site';
-$txt['copyright'] = 'Propulsé par <a href="http://wedge.org/" target="_blank" class="new_win">Wedge</a>, logiciel en construction. &copy; René-Gilles Deberdt.';
+$txt['copyright'] = 'Propulsé par <a href="http://wedge.org/" target="_blank" class="new_win">Wedge</a>.';
 $txt['dynamic_replacements'] = '<abbr title="Remplacements Dynamiques">RD</abbr>';
 
 $txt['template_block_error'] = 'Impossible de trouver le bloc visuel "%1$s".';

@@ -49,17 +49,17 @@ $txt['totalTimeLogged_m_short'] = 'm';
 
 // Debug related stats - when $db_show_debug is true.
 $txt['debug_report'] = '
-	<strong>Modèles</strong> (%1$d)&#8239;: <em>%2$s</em>.
-	<strong>Blocs</strong> (%3$d)&#8239;: <a href="#" onclick="%11$s">voir</a><span class="hide"><em>%4$s</em></span>.
-	<strong>Fichiers de langue</strong> (%5$d)&#8239;: <a href="#" onclick="%11$s">voir</a><span class="hide"><em>%6$s</em></span>.
-	<strong>Feuilles de style</strong> (%7$d)&#8239;: <a href="#" onclick="%11$s">voir</a><span class="hide"><em>%6$s</em></span>.
-	<strong>Fichiers inclus</strong> (%9$d)&#8239;: %10$sko - <a href="#" onclick="%11$s">voir</a><span class="hide"><em>%12$s</em></span>.
-	<strong>Mémoire max. utilisée</strong>&#8239;: %13$dko.';
+	<strong>Modèles</strong> (%1$d): <em>%2$s</em>.
+	<strong>Blocs</strong> (%3$d): <a href="#" onclick="%11$s">voir</a><span class="hide"><em>%4$s</em></span>.
+	<strong>Fichiers de langue</strong> (%5$d): <a href="#" onclick="%11$s">voir</a><span class="hide"><em>%6$s</em></span>.
+	<strong>Feuilles de style</strong> (%7$d): <a href="#" onclick="%11$s">voir</a><span class="hide"><em>%6$s</em></span>.
+	<strong>Fichiers inclus</strong> (%9$d): %10$sko - <a href="#" onclick="%11$s">voir</a><span class="hide"><em>%12$s</em></span>.
+	<strong>Mémoire max. utilisée</strong>: %13$dko.';
 $txt['debug_cache_hits'] = '
-	<strong>Appels au cache</strong> (%1$d)&#8239;: %2$ss pour %3$s octets - <a href="#" onclick="%4$s">voir</a><span class="hide"><em>%5$s</em></span>.';
+	<strong>Appels au cache</strong> (%1$d): %2$ss pour %3$s octets - <a href="#" onclick="%4$s">voir</a><span class="hide"><em>%5$s</em></span>.';
 $txt['debug_cache_seconds_bytes'] = '%1$s %2$ss - %3$s octets';
-$txt['debug_queries_used'] = '<strong>Requêtes utilisées</strong>&#8239;: %1$d';
-$txt['debug_queries_used_and_warnings'] = '<strong>Requêtes utilisées</strong>&#8239;: %1$d, %2$d avertissements';
+$txt['debug_queries_used'] = '<strong>Requêtes utilisées</strong>: %1$d';
+$txt['debug_queries_used_and_warnings'] = '<strong>Requêtes utilisées</strong>: %1$d, %2$d avertissements';
 $txt['debug_query_in_line'] = 'Appelée dans <em>%1$s</em>, à la ligne <em>%2$s</em>, ';
 $txt['debug_query_which_took'] = 'et exécutée en %1$s secondes.';
 $txt['debug_query_which_took_at'] = 'et exécutée en %1$s secondes, à %2$s secondes du lancement du script.';
