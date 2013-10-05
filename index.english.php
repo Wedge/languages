@@ -182,8 +182,8 @@ $txt['post'] = 'Post';
 $txt['error_occured'] = 'An Error Has Occurred!';
 $txt['logout'] = 'Logout';
 $txt['started_by'] = 'Started by';
-$txt['last_post_author_link_time'] = '<strong>Last post</strong> by {author}<br>in {link}<br>{time}';
-$txt['last_post_time_author'] = '{time}<br>by {author}';
+$txt['last_post_author_link_time'] = '<strong>Last post</strong> by {author} in {link} {time}';
+$txt['last_post_time_author'] = '{time} by {author}';
 $txt['board_off_limits'] = 'This board is off-limits to you.';
 
 $txt['last_post'] = 'Last post';
@@ -274,6 +274,8 @@ $txt['moderators'] = 'Moderators';
 // For the Short form, use '!' in case your language's 'New' is too long.
 $txt['new'] = 'New';
 $txt['new_short'] = 'New';
+
+$txt['edited'] = 'Edited';
 
 // Can be used in a title parameter, so stick to alphanumeric characters.
 $txt['new_posts'] = 'New Posts';

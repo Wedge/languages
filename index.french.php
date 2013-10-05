@@ -176,8 +176,8 @@ $txt['post'] = 'Soumettre';
 $txt['error_occured'] = 'Une erreur s\'est produite&#8239;!';
 $txt['logout'] = 'Déconnexion';
 $txt['started_by'] = 'Démarré par';
-$txt['last_post_author_link_time'] = '<strong>Dernier message</strong> par {author}<br>dans {link}<br>{time}';
-$txt['last_post_time_author'] = '{time}<br>par {author}';
+$txt['last_post_author_link_time'] = '<strong>Dernier message</strong> par {author} dans {link} {time}';
+$txt['last_post_time_author'] = '{time} par {author}';
 $txt['board_off_limits'] = 'Cette section ne vous est pas accessible.';
 
 $txt['last_post'] = 'Dernier message';
@@ -268,6 +268,8 @@ $txt['moderators'] = 'Modérateurs';
 // For the Short form, use '!' in case your language's 'New' is too long.
 $txt['new'] = 'Nouveau';
 $txt['new_short'] = 'Nouv';
+
+$txt['edited'] = 'Modifié';
 
 // Can be used in a title parameter, so stick to alphanumeric characters.
 $txt['new_posts'] = 'Nouveaux messages';
