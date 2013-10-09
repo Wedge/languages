@@ -510,8 +510,8 @@ $txt['admin_search'] = 'Recherche Rapide';
 $txt['admin_search_type_internal'] = 'Tâche/Option';
 $txt['admin_search_type_member'] = 'Membre';
 $txt['admin_search_go'] = 'Aller';
-$txt['admin_search_results'] = 'Résultats Recherche';
-$txt['admin_search_results_desc'] = 'Résultats de la recherche&#8239;: &quot;%1$s&quot;';
+$txt['admin_search_results'] = 'Résultats de la Recherche';
+$txt['admin_search_results_desc'] = 'Résultats de la recherche sur&#8239;: &quot;%1$s&quot;';
 $txt['admin_search_results_again'] = 'Rechercher à nouveau';
 $txt['admin_search_results_none'] = 'Aucun résultat&#8239;!';
 $txt['admin_search_welcome'] = 'Bienvenue dans le panneau d\'administration de Wedge. Vous pouvez accéder aux pages d\'options via le menu ci-dessus, ou par les raccourcis ci-dessous. Si vous vous perdez, essayez de taper à droite un mot ou deux de la fonctionnalité que vous cherchez.';
@@ -570,7 +570,7 @@ $txt['allow_ignore_topics'] = 'Permettre aux membres d\'ignorer des sujets';
 
 // Pretty URLs
 $txt['pretty_urls'] = 'Adresses embellies';
-$txt['pretty_urls_desc'] = 'Les Adresses embellies (Pretty URLs) vous permettent de remplacer les longues adresses toutes moches, par de longues adresses toutes jolies, et optimisées pour les moteurs de recherche. Vous pouvez les activer ici, filtre par filtre, mais aussi vider le cache.';
+$txt['pretty_urls_desc'] = 'Les Adresses embellies (Pretty URLs) vous permettent de remplacer les longues adresses compliquées, par de longues adresses plus esthétiques, et optimisées pour les moteurs de recherche. Vous pouvez les activer ici, filtre par filtre, mais aussi vider le cache.';
 
 $txt['pretty'] = array(
 	'url' => 'Adresse embellie',
