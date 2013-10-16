@@ -34,6 +34,7 @@ $txt['db_show_debug_admin'] = 'Administrators only';
 $txt['db_show_debug_admin_mod'] = 'Administrators and moderators';
 $txt['db_show_debug_regular'] = 'All logged-in users';
 $txt['db_show_debug_any'] = 'All users, including guests';
+$txt['db_show_debug_none'] = 'No one';
 
 $txt['databaseSession_enable'] = 'Use database driven sessions';
 $txt['databaseSession_loose'] = 'Allow browsers to go back to cached pages';

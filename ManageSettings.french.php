@@ -34,6 +34,7 @@ $txt['db_show_debug_admin'] = 'Administrateurs uniquement';
 $txt['db_show_debug_admin_mod'] = 'Administrateurs et modérateurs';
 $txt['db_show_debug_regular'] = 'Tous les membres connectés';
 $txt['db_show_debug_any'] = 'Tous les utilisateurs, y compris les invités';
+$txt['db_show_debug_none'] = 'Personne';
 
 $txt['databaseSession_enable'] = 'Faire gérer les sessions par la base de données';
 $txt['databaseSession_loose'] = 'Permettre aux navigateurs de revenir sur les pages en cache';
