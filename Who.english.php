@@ -132,13 +132,11 @@ $txt['media_wo_unknown'] = 'Doing some unknown action in the gallery';
 $txt['media_wo_hidden'] = 'Somewhere in the gallery, in a place you can\'t see... Scary huh?';
 
 // Credits text
-$txt['credits_site'] = 'Website Credits';
+$txt['credits_site'] = 'The Team';
 $txt['credits_admins'] = array(1 => 'Administrator', 'n' => 'Administrators');
 $txt['credits_moderators'] = array(1 => 'Moderator', 'n' => 'Moderators');
-$txt['credits_software'] = 'Software Credits';
-$txt['credits_others'] = 'Other Credits';
+$txt['credits_software'] = 'The Wedge Team (forum engine)';
 $txt['credits_wedge'] = 'Wedge is copyright © %3$d by %1$s, all rights reserved. It is distributed under the <a href="%2$s">Wedge license</a>.';
-$txt['credits_team'] = 'The Wedge Team';
 $txt['credits_smf2'] = 'Uses portions from <a href="http://www.simplemachines.org/">SMF 2.0</a>, copyright © Simple Machines 2011, all rights reserved. SMF is covered by the <a href="http://www.simplemachines.org/about/smf/license.php">BSD</a> license.';
 $txt['credits_aeme'] = 'Uses portions from <a href="%4$s">Aeva Media</a>, copyright © 2007-2011 %1$s, %2$s and %3$s.';
 $txt['credits_special'] = 'Special Thanks';
