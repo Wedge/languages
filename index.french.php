@@ -497,10 +497,19 @@ $txt['guests'] = 'Invités';
 $txt['user'] = 'Membre';
 $txt['users'] = 'Membres';
 $txt['hidden'] = 'Caché';
+
 $txt['buddy'] = 'Contact';
 $txt['buddies'] = 'Contacts';
+$txt['contacts_friends'] = 'Amis';
+$txt['contacts_known'] = 'Connaissances';
+$txt['contacts_work'] = 'Collègues';
+$txt['contacts_family'] = 'Famille';
+$txt['contacts_follow'] = 'À suivre';
+$txt['contacts_restrict'] = 'Restreints';
+$txt['contacts_custom'] = '<em>Nouvelle liste</em>';
 $txt['is_buddy'] = 'Fait partie de mes contacts';
 $txt['is_not_buddy'] = 'Ne fait pas partie de mes contacts';
+
 $txt['most_online_ever'] = 'Record de connexions absolu';
 $txt['most_online_today'] = 'Record de connexions aujourd\'hui';
 
@@ -613,6 +622,7 @@ $txt['privacy'] = 'Confidentialité';
 $txt['privacy_default'] = 'Par défaut';
 $txt['privacy_public'] = 'Public';
 $txt['privacy_members'] = 'Membres';
+$txt['privacy_group'] = 'Groupe';
 $txt['privacy_contacts'] = 'Mes contacts';
 $txt['privacy_author'] = 'Juste moi';
 

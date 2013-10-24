@@ -338,9 +338,8 @@ $txt['pm_settings_desc'] = 'From this page you can change a variety of personal 
 
 $txt['buddy_ignore_desc'] = 'This area allows you to maintain your contacts and ignore list for this forum. Adding members to these lists will, amongst other things, help control mail and PM traffic, depending on your preferences.';
 
-$txt['buddy_add'] = 'Add to my Contacts';
-$txt['buddy_remove'] = 'Remove from my Contacts';
-$txt['buddy_add_button'] = 'Add';
+$txt['buddy_add'] = 'Add to...';
+$txt['buddy_remove'] = 'Remove from...';
 $txt['no_buddies'] = 'You currently have no contacts';
 
 $txt['ignore_add'] = 'Add To Ignore List';

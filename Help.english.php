@@ -679,3 +679,14 @@ $helptxt['mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>
 		<li>Show a caption below the thumbnail (if type is set to link, the caption will be clickable and lead you to the item page.)</li>
 		<li>Any string will do. If it contains spaces or brackets, be sure to enclose it between "double quotes".</li>
 	</ul>';
+
+$helptxt['contacts'] = 'Contacts are an easy way to sort your friends into categorized lists. You can use these lists as particular privacy settings, allowing you to determine very precisely who can see what you\'re sharing.
+	<br>Of course, you may put anyone into multiple lists.
+	<br><br>
+	There are several generic list types for you to choose from; you can also create new lists, or rename an existing one: it\'s all up to you.
+	<br>- Friends: usually, the people closest to you.
+	<br>- Acquaintances: people you have a connection with, but are unsure you want to share everything with.
+	<br>- Colleagues: people you know from work, or from a project you\'re working on.
+	<br>- Family: your parents, siblings, cousins, etc.
+	<br>- Follow: anyone you may not know personally, but may wish to follow, or find easily.
+	<br>- Restricted: this special list will actually consider a contact as undesirable; they won\'t be able to access your protected content, even if they\'re also in an authorized list. Only you can see who\s part of this list, too.';

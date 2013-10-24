@@ -664,3 +664,14 @@ $helptxt['mediatag'] = '<h2>Le tag [media] et autres joyeusetés.</h2>
 		<li>Affiche un texte descriptif sous la vignette. Si le type est défini à <em>link</em>, le texte sera cliquable et vous mènera à la page consacrée à l\'élément.</li>
 		<li>Entrez ce que vous voulez. Si votre texte contient des espaces ou des crochets, assurez-vous de l\'entourer de "guillemets". Sinon, ça fait tout n\'importe quoi, et c\'est encore Bibi qui doit s\'y coller pour faire le ménage.</li>
 	</ul>';
+
+$helptxt['contacts'] = 'Les listes de contacts vous facilitent la vie pour gérer vos contacts. Vous pouvez leur attribuer des paramètres de confidentialité spécifiques, pratique quand vous ne voulez pas tout partager avec tout le monde.
+	<br>Bien entendu, vous pouvez mettre vos amis dans plusieurs listes à la fois.
+	<br><br>
+	Il y a plusieurs types de listes génériques parmi lesquelles choisir. Vous pouvez aussi créer de nouvelles listes, ou en renommer. À vous de voir&#8239;!
+	<br>- Amis&#8239;: généralement, les membres les plus proches de vous.
+	<br>- Connaissances&#8239;: membres avec qui vous êtes en contact, mais avec qui vous ne voulez pas forcément tout partager.
+	<br>- Collègues&#8239;: membres qui travaillent, ou ont travaillé à vos côtés.
+	<br>- Famille&#8239;: vos parents, frères et soeurs, cousins, etc.
+	<br>- À suivre&#8239;: membres que vous ne connaissez pas personnellement, mais que vous désirez suivre, ou retrouver facilement.
+	<br>- Restreints&#8239;: cette liste spéciale vous permet de considérer un contact comme indésirable. Il ne pourra pas accéder aux contenus protégés, même s\'il est également situé dans une liste autorisée. Le contenu de cette liste n\'est jamais visible qu\'à vous.';
