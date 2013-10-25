@@ -610,6 +610,7 @@ $txt['click_for_spoiler'] = '(cliquez pour montrer/cacher)';
 $txt['readmore'] = '(Reste %1$d caractères)';
 $txt['thoughts'] = 'Pensées';
 $txt['add_thought'] = '(Cliquez ici pour écrire une pensée)';
+$txt['no_thoughts'] = 'Pas de pensées pour le moment.';
 $txt['thome_edit'] = 'Modifier';
 $txt['thome_remove'] = 'Supprimer';
 $txt['thome_reply'] = 'Répondre';

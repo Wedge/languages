@@ -616,6 +616,7 @@ $txt['click_for_spoiler'] = '(click to show/hide)';
 $txt['readmore'] = '(%1$d more chars)';
 $txt['thoughts'] = 'Thoughts';
 $txt['add_thought'] = '(Click here to send a thought)';
+$txt['no_thoughts'] = 'No thoughts for now.';
 $txt['thome_edit'] = 'Edit';
 $txt['thome_remove'] = 'Delete';
 $txt['thome_reply'] = 'Reply';
