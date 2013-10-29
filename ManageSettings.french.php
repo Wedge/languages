@@ -115,30 +115,30 @@ $txt['caching_information'] = '<div class="center" style="font-weight: bold; tex
 		<li>Zend Platform/Performance Suite (pas Zend Optimizer)</li>
 		<li>XCache</li>
 	</ul>
-	Le système de cache fonctionnera mieux si PHP est compilé avec l\'un des accélérateurs susmentionnés, ou si memcache est disponible.
+	Le système de cache fonctionnera mieux si PHP est compilé avec l\'un des accélérateurs susmentionnés (Memcached nécessite également l\'activation du serveur associé).
 	<strong>Si aucun accélérateur n\'est installé, Wedge fera du cache fichier.</strong><br><br>
 	Wedge gère plusieurs niveaux de cache. Plus le niveau est haut, plus le processeur de votre serveur sera utilisé
 	pour récupérer les informations. Si un système de cache est disponible sur votre serveur, il est recommandé de le tester au niveau 1 avant tout.
 	<br><br>
-	Veuillez noter que l\'utilisation de memcache nécessite que vous donniez quelques indications sur votre serveur dans les réglages à effectuer ci-dessous. Elles doivent être entrées sous forme de liste, dont les éléments sont séparés par une virgule,
+	Veuillez noter que si le support de Memcached est détecté, vous devrez renseigner l\'adresse du ou des serveurs associés dans les paramètres ci-dessous. Elles doivent être entrées sous forme de liste, dont les éléments sont séparés par une virgule,
 	comme dans l\'exemple suivant&#8239;:<br>
-	&quot;serveur1,serveur2,serveur3:port,serveur4&quot;<br>
-	Si aucun port n\'est spécifié, Wedge utilisera le port 11211 par défaut, et équilibrera de manière aléatoire la charge sur les serveurs.
+	&quot;localhost,serveur2,serveur3:port,127.0.0.1&quot;<br><br>
+	Si vous ne spécifiez pas de port, Wedge utilisera le port par défaut de Memcached (11211), et équilibrera de manière aléatoire la charge sur les serveurs.
 	<br><br>
 	%1$s';
 
-$txt['detected_no_caching'] = '<strong class="alert">Wedge n\'a pas pu détecter d\'accélérateur compatible sur votre serveur.</strong>';
-$txt['detected_APC'] = '<strong style="color: green">Wedge a détecté qu\'APC est installé sur votre serveur.</strong>';
-$txt['detected_Zend'] = '<strong style="color: green">Wedge a détecté que Zend est installé sur votre serveur.</strong>';
-$txt['detected_Memcached'] = '<strong style="color: green">Wedge a détecté que Memcached est installé sur votre serveur.</strong>';
-$txt['detected_XCache'] = '<strong style="color: green">Wedge a détecté que XCache est installé sur votre serveur.</strong>';
+$txt['detected_no_caching'] = '<strong class="alert">Wedge n\'a pas pu détecter d\'accélérateur compatible sur votre serveur PHP.</strong>';
+$txt['detected_APC'] = '<strong style="color: green">Wedge a détecté qu\'APC est installé sur votre serveur PHP.</strong>';
+$txt['detected_Zend'] = '<strong style="color: green">Wedge a détecté que Zend est installé sur votre serveur PHP.</strong>';
+$txt['detected_Memcached'] = '<strong style="color: green">Wedge a détecté que Memcached est installé sur votre serveur PHP.</strong>';
+$txt['detected_XCache'] = '<strong style="color: green">Wedge a détecté que XCache est installé sur votre serveur PHP.</strong>';
 
 $txt['cache_enable'] = 'Niveau de cache';
 $txt['cache_off'] = 'Aucun cache';
 $txt['cache_level1'] = 'Cache de niveau 1 (Recommandé)';
 $txt['cache_level2'] = 'Cache de niveau 2';
 $txt['cache_level3'] = 'Cache de niveau 3 (Non recommandé)';
-$txt['cache_memcached'] = 'Réglages de Memcache';
+$txt['cache_memcached'] = 'Adresse(s) du ou des serveurs Memcached<dfn>Laissez vide pour désactiver Memcached</dfn>';
 
 $txt['loadavg_warning'] = '<span class="error">Attention, les paramètres ci-dessous doivent être modifiés avec prudence. Un paramètre trop bas pourrait rendre votre forum <strong>inutilisable</strong>&#8239;! La charge moyenne actuelle est de <strong>%01.2f</strong></span>';
 $txt['loadavg_enable'] = 'Activer la répartition de charge par moyennes';
