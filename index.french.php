@@ -624,7 +624,7 @@ $txt['privacy_default'] = 'Par défaut';
 $txt['privacy_public'] = 'Public';
 $txt['privacy_members'] = 'Membres';
 $txt['privacy_group'] = 'Groupe';
-$txt['privacy_contacts'] = 'Mes contacts';
+$txt['privacy_list'] = 'Mes contacts';
 $txt['privacy_author'] = 'Juste moi';
 
 // Do not use double quotes in the form_* text strings. (Why would you?)
