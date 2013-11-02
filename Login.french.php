@@ -37,7 +37,7 @@ $txt['additional_information'] = 'Informations supplémentaires';
 $txt['warning'] = 'Attention&#8239;!';
 $txt['only_members_can_access'] = 'Seuls les membres inscrits sont autorisés à accéder à cette section.';
 $txt['login_below'] = 'Connectez-vous à %1$s ci-dessous.';
-$txt['login_below_register'] = 'Connectez-vous à %1$s ci-dessous, ou <a href="%1$s">créez un compte</a>.';
+$txt['login_below_register'] = 'Connectez-vous ci-dessous, ou <a href="%1$s">créez un compte</a> sur %2$s.';
 
 $txt['login_hash_error'] = 'La sécurité des mots de passe a récemment été accrue. Veuillez entrer de nouveau votre mot de passe.';
 
