@@ -420,7 +420,7 @@ $txt['editnews_privacy_a'] = 'Admins only';
 $txt['editnews_privacy_s'] = 'Staff/moderators only';
 $txt['editnews_privacy_m'] = 'Members only';
 $txt['editnews_privacy_e'] = 'Everyone';
-$txt['editnews_visible'] = 'This news item is:';
+$txt['editnews_visible'] = 'This news item is for:';
 
 $txt['censor_clickadd'] = 'Click here to add another word.';
 
