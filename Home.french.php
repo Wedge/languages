@@ -2,12 +2,16 @@
 // Version: 2.0; Home
 // This is a sample file.
 
-$txt['wedge_home_title'] = 'Création de communautés assistée par ordinateur.';
-$txt['wedge_home_intro'] = '
-			Conçu en PHP 5 depuis des années par d\'anciens développeurs du logiciel SMF (voir la <a href="http://wedge.org/pub/faq/">FAQ</a>),
-			Wedge vous permet de créer et maintenir vos <b>forums</b>, avec un doigt de <em>French touch</em>. Blogs, HTML5, CSS3, jQuery, programmation object,
-			support UTF8, pré-compilation CSS, sécurité améliorée, brouillons, gestion et création simplifiée des thèmes et plugins&#8239;? Il peut le faire&#8239;!
-			Nous pensons qu\'une fois sorti, il ne tardera pas à vous convaincre que c\'est le <strong>meilleur logiciel de forums gratuit</strong>.
-			Jetez donc un &oelig;il à la <a href="http://wedge.org/pub/feats/">liste des fonctionnalités</a>, qui inclut notamment Aeva Media, système de galerie media exclusif.
-			Wedge remet le contrôle entre vos mains. Sa date de sortie&#8239;? Dès qu\'il sera prêt.
-			<a href="http://wedge.org/blog/">Restez connectés</a> et souscrivez au <a href="http://wedge.org/blog/?action=feed;sa=news">flux RSS</a> de notre blog pour ne rien manquer&#8239;!';
+$txt['home_title'] = 'Nous y voilà.';
+$txt['home_intro'] = '
+			Ce forum tourne sous Wedge, une plateforme en PHP 5 aidant à la création de forums.
+			<br><br>
+			<em>Vous pouvez (et devriez !) modifier ce texte d\'introduction en clonant les fichiers
+			suivants : Sources\\Home.php, Templates\\Home.template.php, languages\Home.*.php.
+			Puis donnez-leur un préfixe différent (par exemple MyHome), appliquez vos modifications
+			aux fichiers, envoyez-les sur votre site par FTP, et indiquez à Wedge de pointer sa page
+			d\'accueil sur MyHome (default_index dans la table settings).
+			<br>
+			Ce processus peut paraître complexe, mais il vous permet de traduire l\'introduction,
+			et tout autre texte, mais aussi de modifier la page d\'accueil sans risque de la voir
+			écrasée par une mise à jour de Wedge.</em>';
