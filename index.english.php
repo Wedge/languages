@@ -33,6 +33,14 @@ $txt['day_suffix'] = array(
 	31 => '31st',
 );
 
+$txt['just_now'] = 'just now';
+$txt['seconds_ago'] = '{time} seconds ago';
+$txt['minutes_ago'] = '{time} minutes ago';
+$txt['hours_ago'] = '{time} hours ago';
+$txt['days_ago'] = '{time} days ago';
+$txt['months_ago'] = '{time} months ago';
+$txt['years_ago'] = '{time} years ago';
+
 $txt['page_indicator'] = ' - page %s'; // can be turned into an array as needed (1 => '', 'n' => ...)
 
 $txt['days'] = array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');

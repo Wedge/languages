@@ -27,6 +27,14 @@ $txt['day_suffix'] = array(
 	1 => '1er',
 );
 
+$txt['just_now'] = 'à l\'instant';
+$txt['seconds_ago'] = 'il y a {time} secondes';
+$txt['minutes_ago'] = 'il y a {time} minutes';
+$txt['hours_ago'] = 'il y a {time} heures';
+$txt['days_ago'] = 'il y a {time} jours';
+$txt['months_ago'] = 'il y a {time} mois';
+$txt['years_ago'] = 'il y a {time} ans';
+
 $txt['page_indicator'] = ' - page %s'; // can be turned into an array as needed (1 => '', 'n' => ...)
 
 $txt['days'] = array('Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi');
