@@ -57,21 +57,12 @@ $txt['actual_theme_url'] = 'URL de ce thème&#8239;: ';
 $txt['actual_images_url'] = 'URL des images de ce thème&#8239;: ';
 $txt['current_theme_style'] = 'Le style de ce thème&#8239;: ';
 
-$txt['forum_width'] = 'Largeur du forum';
-$txt['forum_width_desc'] = 'Spécifiez la largeur du forum. Exemples&#8239;: 950px, 80%, 1240px.';
-
 $txt['enable_random_news'] = 'Afficher les nouvelles dans l\'entête du forum';
-$txt['enable_single_post'] = 'Activer un seul message';
-$txt['enable_multiple_posts'] = 'Activer plusieurs messages';
-$txt['inline_desc'] = 'Activer ceci affichera l\'arborescence de votre position actuelle en une seule ligne, et non pas en branches.';
 $txt['show_stats_index'] = 'Montrer les statistiques sur l\'accueil du forum';
 $txt['latest_members'] = 'Afficher le dernier membre sur l\'accueil du forum';
-$txt['last_modification'] = 'Afficher la dernière date de modification dans les messages modifiés';
 $txt['user_avatars'] = 'Afficher les avatars des membres dans les messages';
 $txt['user_text'] = 'Afficher le texte personnel dans les messages';
 $txt['gender_images'] = 'Afficher les images du sexe (h/f) dans les messages';
-$txt['member_list_bar'] = 'Afficher la liste des membres sur l\'accueil du forum';
-$txt['show_view_profile_button'] = 'Afficher le bouton de profil dans les messages';
 
 $txt['themeadmin_title'] = 'Options de thèmes et disposition';
 $txt['themeadmin_description'] = 'Ici vous pouvez modifier les paramètres de vos thèmes, mettre à jour la liste des thèmes, réinitialiser les options des membres et autres réglages du genre.';

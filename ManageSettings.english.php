@@ -85,6 +85,8 @@ $txt['site_slogan'] = 'Site slogan';
 $txt['site_slogan_desc'] = 'Add your own text for a slogan here. Leave empty to show an empty #logo, which you can customize via CSS.';
 $txt['header_logo_url'] = 'Logo image URL';
 $txt['header_logo_url_desc'] = 'Leave blank to show forum name or default logo.';
+$txt['forum_width'] = 'Forum width';
+$txt['forum_width_desc'] = 'Set the maximum forum width. Examples: 950px, 80%, 1240px.';
 $txt['todayMod'] = 'Enable shorthand date display';
 $txt['today_disabled'] = 'Disabled';
 $txt['today_only'] = 'Only Today';
@@ -155,6 +157,7 @@ $txt['xmlnews_enable'] = 'Enable Atom feeds';
 $txt['xmlnews_maxlen'] = 'Maximum message length:';
 $txt['xmlnews_maxlen_subtext'] = '(0 to disable, bad idea.)';
 $txt['xmlnews_sidebar'] = 'Show the "Latest Posts Feed" block in the sidebar';
+$txt['enable_news'] = 'Show a random news line on all pages';
 $txt['show_newsfader'] = 'Show news fader on board index';
 $txt['newsfader_time'] = 'Fading delay between items for the news fader';
 

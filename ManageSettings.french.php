@@ -85,6 +85,8 @@ $txt['site_slogan'] = 'Slogan du site';
 $txt['site_slogan_desc'] = 'Ajoutez votre propre slogan ici. Laissez vide pour afficher un #logo vide, personnalisable en CSS.';
 $txt['header_logo_url'] = 'URL vers l\'image de logo';
 $txt['header_logo_url_desc'] = 'Laissez vide pour afficher le nom du forum ou le logo par défaut.';
+$txt['forum_width'] = 'Largeur du forum';
+$txt['forum_width_desc'] = 'Spécifiez la largeur maximale du forum. Exemples&#8239;: 950px, 80%, 1240px.';
 $txt['todayMod'] = 'Activer les dates abrégées';
 $txt['today_disabled'] = 'Désactivé';
 $txt['today_only'] = 'Seulement Aujourd\'hui';
@@ -155,6 +157,7 @@ $txt['xmlnews_enable'] = 'Activer les flux Atom';
 $txt['xmlnews_maxlen'] = 'Longueur maximale d\'un message&#8239;:';
 $txt['xmlnews_maxlen_subtext'] = '(0 pour désactiver, mauvaise idée.)';
 $txt['xmlnews_sidebar'] = 'Montrer le bloc "Flux de messages" dans la sidebar';
+$txt['enable_news'] = 'Afficher une nouvelle au hasard sur toutes les pages';
 $txt['show_newsfader'] = 'Activer la rotation des nouvelles sur la page d\'accueil';
 $txt['newsfader_time'] = 'Délai d\'enchaînement entre les nouvelles rotatives';
 

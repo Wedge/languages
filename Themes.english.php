@@ -57,21 +57,11 @@ $txt['actual_theme_url'] = 'This theme\'s URL: ';
 $txt['actual_images_url'] = 'This theme\'s images URL: ';
 $txt['current_theme_style'] = 'This theme\'s style: ';
 
-$txt['forum_width'] = 'Forum width';
-$txt['forum_width_desc'] = 'Set the forum width. Examples: 950px, 80%, 1240px.';
-
-$txt['enable_random_news'] = 'Enable random news line in the forum header';
-$txt['enable_single_post'] = 'Enable single post';
-$txt['enable_multiple_posts'] = 'Enable multiple posts';
-$txt['inline_desc'] = 'Enabling this will cause your current location to be drawn in a single line, as opposed to in a tree-like manner.';
 $txt['show_stats_index'] = 'Show statistics on board index';
 $txt['latest_members'] = 'Show latest member on board index';
-$txt['last_modification'] = 'Show last modification date on modified posts';
 $txt['user_avatars'] = 'Show user avatars in message view';
 $txt['user_text'] = 'Show personal text in message view';
 $txt['gender_images'] = 'Show gender images in message view';
-$txt['member_list_bar'] = 'Show members list bar on board index';
-$txt['show_view_profile_button'] = 'Show view profile button under post';
 
 $txt['themeadmin_title'] = 'Themes and Layout Settings';
 $txt['themeadmin_description'] = 'Here you can modify the settings for your themes, update theme selections, reset member options, and the like.';
