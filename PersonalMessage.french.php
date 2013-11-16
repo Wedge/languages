@@ -139,7 +139,7 @@ $txt['pm_search_between_and'] = 'et';
 $txt['pm_search_between_days'] = 'jours';
 $txt['pm_search_choose_label'] = 'Choisir les labels à rechercher, ou rechercher partout';
 
-$txt['pm_search_results'] = 'Résultats des Recherches';
+$txt['pm_search_results'] = 'Résultat de la recherche';
 $txt['pm_search_none_found'] = 'Aucun message trouvé.';
 
 $txt['pm_visual_verification_label'] = 'Vérification';
