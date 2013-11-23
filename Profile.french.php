@@ -60,7 +60,7 @@ $txt['current_password'] = 'Mot de passe actuel';
 $txt['required_security_reasons'] = 'Pour des raisons évidentes de sécurité, votre mot de passe actuel est nécessaire pour modifier votre compte.';
 
 $txt['time_zone'] = 'Fuseau horaire';
-$txt['time_offset'] = 'Décalage horaire';
+$txt['my_time_offset'] = 'Décalage horaire';
 $txt['timeoffset_autodetect'] = '(auto-détecter)';
 
 $txt['secret_question'] = 'Question secrète';
@@ -285,7 +285,7 @@ $txt['poster'] = 'Auteur';
 $txt['show_board_desc'] = 'Montrer les descriptions des sections dans les sections.';
 $txt['show_children'] = 'Montrer les sous-sections sur chaque page des sections, pas seulement la première.';
 $txt['show_avatars'] = 'Montrer les avatars des autres membres.';
-$txt['show_signatures'] = 'Montrer les signatures des autres membres.';
+$txt['show_signatures'] = 'Montrer les signatures des membres dans les sujets.';
 $txt['show_no_censored'] = 'Ne pas censurer les mots.';
 $txt['topics_per_page'] = 'Sujets affichés par page:';
 $txt['messages_per_page'] = 'Messages affichés par page:';

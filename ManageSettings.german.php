@@ -5,9 +5,9 @@ $txt['settings_desc'] = 'Diese Seite erlaubt es dir Grundeinstellungen und Funkt
 
 $txt['allow_guestAccess'] = 'Gästen das betrachten des Forums erlauben';
 $txt['userLanguage'] = 'Sprachauswahl für Benutzer aktivieren';
-$txt['setting_time_offset'] = 'Globale Zeitverschiebung';
-$txt['setting_time_offset_subtext'] = '(wird zu den Mitgliederoptionen hinzugefügt.)';
-$txt['setting_default_timezone'] = 'Zeitzone des Servers';
+$txt['time_offset'] = 'Globale Zeitverschiebung';
+$txt['time_offset_subtext'] = '(wird zu den Mitgliederoptionen hinzugefügt.)';
+$txt['default_timezone'] = 'Zeitzone des Servers';
 $txt['failed_login_threshold'] = 'Schwellenwert für fehlgeschlagene Loginversuche';
 $txt['enable_quick_login'] = 'Schnell-Login auf jeder Seite anzeigen';
 $txt['age_restrictions'] = 'Mindestalter für die Altersbeschränkung';
@@ -298,7 +298,6 @@ $txt['modfilter_msg_no_lang'] = 'Es wurden keine eigenen Nachrichten für die Re
 $txt['modfilter_msg_popup'] = 'Wenn diese Regel aktiviert ist, wird der user folgende Nachricht sehen. (Wenn möglich versucht das Forum die Sprache des Mitglieds zu verwenden.)';
 $txt['modfilter_lang_msg'] = 'Auch wenn dem User bekannt ist, dass sein Beitrag noch bearbeitet werden muss, ist nicht immer klar warum dies der Fall ist. Hier kannst du eine Nachricht für die User eingeben, warum diese Aktion durchgeführt wird. Du kannst HTML verwenden, um einen Link zu Regeln, etc. einzufügen';
 
-$txt['member_options_desc'] = 'Auf dieser Seite kannst du allgemeine Optionen einstellen, die alle Mitglieder deiner Community betreffen.';
 $txt['allow_editDisplayName'] = 'Mitgliedern erlauben den angezeigten Namen zu ändern';
 $txt['allow_hideOnline'] = 'Mitgliedern erlauben ihren Onlinestatus zu verstecken';
 $txt['titlesEnable'] = 'Persönliche Titel aktivieren';
@@ -357,14 +356,14 @@ $txt['custom_edit_picktype'] = 'Feldtyp';
 $txt['whos_online_desc'] = 'Auf dieser Seite kann verwaltet werden, wie User andere User online sehen oder nicht.';
 $txt['lastActive'] = 'Vorhaltezeit User Online ';
 $txt['who_view'] = 'Mitgliedergruppen, denen es gestattet ist zu sehen wer online ist';
-$txt['member_prefs_desc'] = 'Von dieser Seite aus können verschiedene Optionen festgelegt werden, die Mitglieder auch selber verändern können.';
-$txt['member_prefs_default'] = 'Standard:';
-$txt['member_prefs_change'] = 'Ändern';
+$txt['member_options_desc'] = 'Von dieser Seite aus können verschiedene Optionen festgelegt werden, die Mitglieder auch selber verändern können.';
+$txt['member_options_default'] = 'Standard:';
+$txt['member_options_change'] = 'Ändern';
 $txt['no_change'] = '%s (aktuell)';
 $txt['leave_alone'] = 'Behalte die Auswahl der Mitglieder bei';
-$txt['member_prefs_guest'] = 'Für Gäste/Neue Mitglieder:';
-$txt['member_prefs_members'] = 'Für existierende Mitglieder:';
-$txt['member_prefs_override'] = 'Setze auf "%s" für alle';
+$txt['member_options_guest'] = 'Für Gäste/Neue Mitglieder:';
+$txt['member_options_members'] = 'Für existierende Mitglieder:';
+$txt['member_options_override'] = 'Setze auf "%s" für alle';
 
 // Strings for the templates
 $txt['your_icq'] = 'Deine ICQ-Nummer.';

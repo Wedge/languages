@@ -60,7 +60,7 @@ $txt['current_password'] = 'Aktuelles Passwort';
 $txt['required_security_reasons'] = 'Aus Sicherheitsgründen wird dein aktuelles Passwort benötigt um die Accountdaten zu ändern.';
 
 $txt['time_zone'] = 'Zeitzone';
-$txt['time_offset'] = 'Zeitversatz';
+$txt['my_time_offset'] = 'Zeitversatz';
 $txt['timeoffset_autodetect'] = '(Automatische Erkennung)';
 
 $txt['secret_question'] = 'Geheime Frage';

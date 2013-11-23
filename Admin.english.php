@@ -44,11 +44,12 @@ $txt['admin_mod_filters'] = 'Moderation Filters';
 $txt['admin_server_settings'] = 'Server Settings';
 $txt['admin_basic_settings'] = 'This page allows you to change the basic settings for your forum. Be very careful with these settings, as they may render the forum dysfunctional.';
 $txt['maintenance'] = 'Enable Maintenance Mode';
-$txt['setting_mbname'] = 'Forum Title';
-$txt['admin_url'] = 'Forum URL';
-$txt['cookie_name'] = 'Cookie Name';
+
+$txt['mbname'] = 'Forum Title';
+$txt['boardurl'] = 'Forum URL';
+$txt['cookiename'] = 'Cookie Name';
 $txt['boarddir'] = 'Wedge Directory';
-$txt['sourcesdir'] = 'Sources Directory';
+$txt['sourcedir'] = 'Sources Directory';
 $txt['cachedir'] = 'Cache Directory';
 $txt['pluginsdir'] = 'Plugins Directory';
 $txt['pluginsurl'] = 'Plugins URL';
@@ -81,13 +82,13 @@ $txt['admin_activation_email'] = 'Send activation email to new members upon regi
 $txt['admin_newsletter_send'] = 'You can email anyone from this page. The email addresses of the selected membergroups should appear below, but you may remove or add any email addresses you wish. Be sure that each address is separated in this fashion: \'address1; address2\'.';
 
 $txt['admin_backup_fail'] = 'Failed to make backup of Settings.php - make sure Settings_bak.php exists and is writable.';
-$txt['database_server'] = 'Database Server';
-$txt['database_user'] = 'Database Username';
-$txt['database_password'] = 'Database Password';
-$txt['database_name'] = 'Database Name';
+$txt['db_server'] = 'Database Server';
+$txt['db_user'] = 'Database Username';
+$txt['db_password'] = 'Database Password';
+$txt['db_name'] = 'Database Name';
 $txt['registration_agreement'] = 'Registration Agreement';
 $txt['registration_agreement_desc'] = 'This agreement is shown when a user registers an account on this forum and has to be accepted before users can continue registration.';
-$txt['database_prefix'] = 'Database Tables Prefix';
+$txt['db_prefix'] = 'Database Tables Prefix';
 $txt['errors_list'] = 'Listing of forum errors';
 $txt['errors_found'] = 'The following errors are fouling up your forum';
 $txt['errors_fix'] = 'Would you like to attempt to fix these errors?';
@@ -215,8 +216,8 @@ $txt['ssi_db_passwd'] = 'Database password to use in SSI mode';
 
 $txt['setting_language'] = 'Default Forum Language';
 
-$txt['setting_mtitle'] = 'Subject for display';
-$txt['setting_mmessage'] = 'Message for display';
+$txt['mtitle'] = 'Subject for display';
+$txt['mmessage'] = 'Message for display';
 
 $txt['theme_settings'] = 'Theme Settings';
 $txt['theme_current_settings'] = 'Current Theme';
@@ -529,7 +530,7 @@ $txt['infraction_levels'] = 'Infraction Levels';
 $txt['member_options_title'] = 'Member Options';
 $txt['signature_settings_short'] = 'Signatures';
 $txt['custom_profile_shorttitle'] = 'Profile Fields';
-$txt['admin_member_prefs'] = 'Preferences';
+$txt['admin_member_defaults'] = 'Default options';
 $txt['admin_whos_online'] = 'Who\'s Online';
 $txt['admin_likes'] = 'Likes';
 $txt['admin_personal_messages'] = 'Personal Messages';

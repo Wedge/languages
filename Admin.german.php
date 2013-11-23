@@ -44,11 +44,12 @@ $txt['admin_mod_filters'] = 'Moderations-Filter';
 $txt['admin_server_settings'] = 'Server-Einstellungen';
 $txt['admin_basic_settings'] = 'Diese Seite erlaubt dir die Grundeinstellungen deines Forums zu verändern. Sei bitte vorsichtig in diesem Bereich. Diese Einstellungen können dein Forum unzugänglich machen.';
 $txt['maintenance'] = 'Wartungsmodus einschalten';
-$txt['setting_mbname'] = 'Forum-Titel';
-$txt['admin_url'] = 'Forum URL';
-$txt['cookie_name'] = 'Name des Cookies';
+
+$txt['mbname'] = 'Forum-Titel';
+$txt['boardurl'] = 'Forum URL';
+$txt['cookiename'] = 'Name des Cookies';
 $txt['boarddir'] = 'Wedge Stammordner';
-$txt['sourcesdir'] = 'Sources Ordner';
+$txt['sourcedir'] = 'Sources Ordner';
 $txt['cachedir'] = 'Cache Ordner';
 $txt['pluginsdir'] = 'Plugins Ordner';
 $txt['pluginsurl'] = 'Plugins URL';
@@ -81,13 +82,13 @@ $txt['admin_activation_email'] = 'Aktivierungs-Mail an neue Mitglieder bei der R
 $txt['admin_newsletter_send'] = 'Hier kannst du eine Mail an alle Mitglieder des Forums schreiben. Die Mailadresse der ausgewählten Mitgliedergruppe erscheint unterhalb. Du kannst jederzeit Mailadressen löschen oder hinzufügen. Stelle bitte sicher, dass jede Mailadresse wie folgt separiert wird: \'Addresse1; Addresse2\'.';
 
 $txt['admin_backup_fail'] = 'Sicherung der Settings.php Datei fehlgeschlagen - Stelle sicher, dass die Datei Settings.bak.php existiert und nicht schreibgeschützt ist.';
-$txt['database_server'] = 'Datenbank Server';
-$txt['database_user'] = 'Datenbank Benutzername';
-$txt['database_password'] = 'Datenbank Passwort';
-$txt['database_name'] = 'Datenbank Name';
+$txt['db_server'] = 'Datenbank Server';
+$txt['db_user'] = 'Datenbank Benutzername';
+$txt['db_password'] = 'Datenbank Passwort';
+$txt['db_name'] = 'Datenbank Name';
 $txt['registration_agreement'] = 'Nutzungsbedingungen';
 $txt['registration_agreement_desc'] = 'Diese Nutzungsbedingungen werden einem neuen User bei Registrierung angezeigt und müssen akzeptiert werden, bevor mit der Registrierung fortgefahren werden kann.';
-$txt['database_prefix'] = 'Datenbank Tabellen-Prefix';
+$txt['db_prefix'] = 'Datenbank Tabellen-Prefix';
 $txt['errors_list'] = 'Anzeige der Forum-Fehler';
 $txt['errors_found'] = 'Folgende Fehler verhindern einen reibungslosen Betrieb des Forums';
 $txt['errors_fix'] = 'Möchtest du versuchen die Fehler zu beheben?';
@@ -215,8 +216,8 @@ $txt['ssi_db_passwd'] = 'Datenbank Passwort zur Verwendung im SSI-Modus';
 
 $txt['setting_language'] = 'Voreingestellte Sprache des Forums';
 
-$txt['setting_mtitle'] = 'Betreff für die Anzeige';
-$txt['setting_mmessage'] = 'Nachricht für die Anzeige';
+$txt['mtitle'] = 'Betreff für die Anzeige';
+$txt['mmessage'] = 'Nachricht für die Anzeige';
 
 $txt['theme_settings'] = 'Theme/Skin Einstellungen';
 $txt['theme_current_settings'] = 'Aktuelles Theme/Skin';
@@ -529,7 +530,7 @@ $txt['infraction_levels'] = 'Verstoß-Level';
 $txt['member_options_title'] = 'Mitglieder-Optionen';
 $txt['signature_settings_short'] = 'Signaturen';
 $txt['custom_profile_shorttitle'] = 'Profilfelder';
-$txt['admin_member_prefs'] = 'Voreinstellungen';
+$txt['admin_member_defaults'] = 'Voreinstellungen';
 $txt['admin_whos_online'] = 'Wer ist Online';
 $txt['admin_likes'] = 'Gefällt mir (Likes)';
 $txt['admin_personal_messages'] = 'Private Nachrichten';

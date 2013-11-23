@@ -60,7 +60,7 @@ $txt['current_password'] = 'Current Password';
 $txt['required_security_reasons'] = 'For security reasons, your current password is required to make changes to your account.';
 
 $txt['time_zone'] = 'Time Zone';
-$txt['time_offset'] = 'Time Offset';
+$txt['my_time_offset'] = 'Time Offset';
 $txt['timeoffset_autodetect'] = '(auto detect)';
 
 $txt['secret_question'] = 'Secret Question';
