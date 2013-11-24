@@ -229,9 +229,6 @@ $txt['dvc_default'] = 'Voreingestellte Vorlagen';
 $txt['dvc_templates'] = 'Aktuelle Vorlagen';
 $txt['dvc_languages'] = 'Sprachdateien';
 
-$txt['smileys_default_set_for_theme'] = 'Wähle das voreingestellte Smiley-Set für das Theme/Skin aus';
-$txt['smileys_no_default'] = '(verwende das globale Smiley-Set)';
-
 $txt['admin_confirm_password'] = '(Bestätigen)';
 $txt['admin_incorrect_password'] = 'Falsches Passwort';
 

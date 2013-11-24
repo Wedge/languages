@@ -229,9 +229,6 @@ $txt['dvc_default'] = 'Default Templates';
 $txt['dvc_templates'] = 'Current Templates';
 $txt['dvc_languages'] = 'Language Files';
 
-$txt['smileys_default_set_for_theme'] = 'Select default smiley set for this theme';
-$txt['smileys_no_default'] = '(use global default smiley set)';
-
 $txt['admin_confirm_password'] = '(confirm)';
 $txt['admin_incorrect_password'] = 'Incorrect Password';
 
