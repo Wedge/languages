@@ -25,7 +25,7 @@ $txt['group_daily'] = 'Tägliche Statistiken';
 $txt['last_decade'] = 'Letzte Dekade';
 $txt['last_month'] = 'Letzte 31 Tage';
 $txt['last_year'] = 'Letzte 12 Monate';
-$txt['stat_sum'] = 'Zusammenfassung:';
+$txt['stat_sum'] = 'Gesamt:';
 $txt['stat_average'] = 'Durchschnittlich:';
 
 $txt['date_format'] = '%B %@, %Y';
