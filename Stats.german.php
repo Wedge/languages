@@ -3,28 +3,50 @@
 
 $txt['stats_center'] = 'Statistik-Center';
 $txt['general_stats'] = 'Allgemeine Statistiken';
+
+// This is where we list all possible filter permutations for statistics. An empty line means a separator.
+$txt['charts'] = array(
+	'posts,topics,registers,most_on' => 'Alles|Außer Seitenansichten',
+	'topics,registers,most_on' => 'Alles|Außer Seitenansichten &amp; Beiträge',
+	'',
+	'posts,hits' => 'Beiträge &amp; Seitenansichten',
+	'posts,topics' => 'Beiträge &amp; Themen',
+	'',
+	'topics' => 'Neue Themen',
+	'posts' => 'Neue Beiträge',
+	'registers' => 'Neue Mitglieder',
+	'most_on' => 'Online-Rekord',
+	'hits' => 'Seitenansichten',
+);
+
+$txt['group_recent'] = 'Recent stats';
+$txt['group_monthly'] = 'Monthly stats';
+$txt['group_daily'] = 'Daily stats';
+$txt['last_decade'] = 'Last decade';
+$txt['last_month'] = 'Last 31 days';
+$txt['last_year'] = 'Last 12 months';
+$txt['stat_sum'] = 'Sum:';
+$txt['stat_average'] = 'Average:';
+
+$txt['date_format'] = '%B %@, %Y';
+$txt['date_format_this_year'] = '%B %@';
+
 $txt['top_posters'] = 'Top 10 Autoren';
 $txt['top_boards'] = 'Top 10 Foren';
 $txt['forum_history'] = 'Forum History (Lokale Zeit)';
 $txt['stats_date'] = 'Datum (JJJJ/MM/TT)';
-$txt['stats_new_topics'] = 'Neue Themen';
-$txt['stats_new_posts'] = 'Neue Beiträge';
-$txt['stats_new_members'] = 'Neue Mitglieder';
-$txt['page_views'] = 'Seitenansichten';
 $txt['top_topics_replies'] = 'Top 10 Themen (nach Antworten)';
 $txt['top_topics_views'] = 'Top 10 Themen (nach Aufrufen)';
-$txt['yearly_summary'] = 'Jahreszusammenfassung';
-$txt['most_online'] = 'Online-Rekord';
 $txt['top_liked'] = 'Top Liked Beiträge';
 $txt['top_liked_posters'] = 'Top Liked Autoren';
 $txt['top_starters'] = 'Top Themen Starter';
 $txt['most_time_online'] = 'Meiste Zeit online';
 $txt['stats_more_detailed'] = 'mehr Details &raquo;';
 
-$txt['average_members'] = 'Durchschnittliche Registrierungen pro Tag';
+$txt['average_registers'] = 'Durchschnittliche Registrierungen pro Tag';
 $txt['average_posts'] = 'Durchschnittliche Beiträge pro Tag';
 $txt['average_topics'] = 'Durchschnittliche Themen pro Tag';
-$txt['average_online'] = 'Durchschnittlich Online pro Tag';
+$txt['average_most_on'] = 'Durchschnittlich Online pro Tag';
 $txt['users_online'] = 'User Online';
 $txt['gender_ratio'] = 'Männlich zu Weiblich Rate';
 $txt['users_online_today'] = 'Online heute';
@@ -37,7 +59,7 @@ $txt['ssi_write_comment'] = 'Schreibe einen Kommentar';
 $txt['ssi_no_guests'] = 'Du kannst kein Forum auswählen, welches keine Gäste erlaubt. Bitte überprüfe die Board-ID vorher und versuche es nochmal.';
 $txt['xml_feed_desc'] = 'Live Ticker von {forum_name}';
 
-$txt['total_members'] = 'Mitglieder insgesamt';
+$txt['total_registers'] = 'Mitglieder insgesamt';
 $txt['total_posts'] = 'Beiträge insgesamt';
 $txt['total_topics'] = 'Themen insgesamt';
 $txt['total_boards'] = 'Foren insgesamt';
