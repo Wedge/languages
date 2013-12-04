@@ -19,14 +19,14 @@ $txt['charts'] = array(
 	'hits' => 'Seitenansichten',
 );
 
-$txt['group_recent'] = 'Recent stats';
-$txt['group_monthly'] = 'Monthly stats';
-$txt['group_daily'] = 'Daily stats';
-$txt['last_decade'] = 'Last decade';
-$txt['last_month'] = 'Last 31 days';
-$txt['last_year'] = 'Last 12 months';
-$txt['stat_sum'] = 'Sum:';
-$txt['stat_average'] = 'Average:';
+$txt['group_recent'] = 'Aktuelle Statistiken';
+$txt['group_monthly'] = 'Monatliche Statistiken';
+$txt['group_daily'] = 'Tägliche Statistiken';
+$txt['last_decade'] = 'Letzte Dekade';
+$txt['last_month'] = 'Letzte 31 Tage';
+$txt['last_year'] = 'Letzte 12 Monate';
+$txt['stat_sum'] = 'Zusammenfassung:';
+$txt['stat_average'] = 'Durchschnittlich:';
 
 $txt['date_format'] = '%B %@, %Y';
 $txt['date_format_this_year'] = '%B %@';
