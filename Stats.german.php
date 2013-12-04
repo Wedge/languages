@@ -6,8 +6,8 @@ $txt['general_stats'] = 'Allgemeine Statistiken';
 
 // This is where we list all possible filter permutations for statistics. An empty line means a separator.
 $txt['charts'] = array(
-	'posts,topics,registers,most_on' => 'Alles|Außer Seitenansichten',
-	'topics,registers,most_on' => 'Alles|Außer Seitenansichten &amp; Beiträge',
+	'posts,topics,registers,most_on' => 'Alles|außer Seitenansichten',
+	'topics,registers,most_on' => 'Alles|außer Seitenansichten &amp; Beiträge',
 	'',
 	'posts,hits' => 'Beiträge &amp; Seitenansichten',
 	'posts,topics' => 'Beiträge &amp; Themen',
