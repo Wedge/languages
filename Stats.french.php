@@ -19,10 +19,9 @@ $txt['charts'] = array(
 	'hits' => 'Visites',
 );
 
-$txt['group_recent'] = 'Récentes';
 $txt['group_monthly'] = 'Mensuelles';
 $txt['group_daily'] = 'Quotidiennes';
-$txt['last_decade'] = '10 dernières années';
+$txt['lifetime'] = 'Depuis le début';
 $txt['last_month'] = '31 derniers jours';
 $txt['last_year'] = '12 derniers mois';
 $txt['stat_sum'] = 'Total :';

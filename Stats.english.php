@@ -19,10 +19,9 @@ $txt['charts'] = array(
 	'hits' => 'Page Hits',
 );
 
-$txt['group_recent'] = 'Recent stats';
 $txt['group_monthly'] = 'Monthly stats';
 $txt['group_daily'] = 'Daily stats';
-$txt['last_decade'] = 'Last decade';
+$txt['lifetime'] = 'Everything';
 $txt['last_month'] = 'Last 31 days';
 $txt['last_year'] = 'Last 12 months';
 $txt['stat_sum'] = 'Sum:';
