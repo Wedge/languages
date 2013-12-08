@@ -525,6 +525,7 @@ $txt['infractions_title'] = 'Sanctions';
 $txt['preset_infractions'] = 'Sanctions prédéfinies';
 $txt['infraction_levels'] = 'Niveaux d\'infraction';
 $txt['member_options_title'] = 'Options des membres';
+$txt['look_layout_title'] = 'Apparence';
 $txt['signature_settings_short'] = 'Signatures';
 $txt['custom_profile_shorttitle'] = 'Champs de profil';
 $txt['admin_member_defaults'] = 'Options par défaut';

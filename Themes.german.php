@@ -57,22 +57,6 @@ $txt['actual_theme_url'] = 'Die URL dieses Themes: ';
 $txt['actual_images_url'] = 'Die Bild-URL dieses Themes: ';
 $txt['current_theme_style'] = 'Der Style dieses Themes: ';
 
-$txt['forum_width'] = 'Breite des Forums';
-$txt['forum_width_desc'] = 'Lege die Breite des Forums fest. Beispiel: 950px, 80%, 1240px.';
-
-$txt['enable_random_news'] = 'Aktiviere die Wiedergabe von zufälligen News im Headerbereich';
-$txt['enable_single_post'] = 'Aktiviere Einzelbeiträge';
-$txt['enable_multiple_posts'] = 'Aktiviere Sammelbeiträge';
-$txt['inline_desc'] = 'Nach der Aktivierung werden Beiträge in einer Linie angezeigt. Quasi in Baumstruktur.';
-$txt['show_stats_index'] = 'Statistiken auf der Forenhauptseite anzeigen';
-$txt['latest_members'] = 'Neuestes Mitglied auf der Forenhauptseite anzeigen';
-$txt['last_modification'] = 'Änderungsdatum im Beitrag anzeigen';
-$txt['user_avatars'] = 'Benutzerbild im Beitrag anzeigen';
-$txt['user_text'] = 'Individuellen Text im Beitrag anzeigen';
-$txt['gender_images'] = 'Geschlecht im Beitrag anzeigen';
-$txt['member_list_bar'] = 'Mitgliederliste auf der Forenhauptseite anzeigen';
-$txt['show_view_profile_button'] = 'Profil-Button unter dem Beitrag anzeigen';
-
 $txt['themeadmin_title'] = 'Theme und Layout Einstellungen';
 $txt['themeadmin_description'] = 'Hier kannst du die Einstellungen für deine Themes ändern.';
 $txt['themeadmin_admin_desc'] = 'Diese Seite erlaubt dir das Standard-Theme auszuwählen, Mitglieder auf das Standard-Theme zurückzusetzen und andere Optionen zu verwalten. Zusätzlich besteht die Möglichkeit von dieser Seite aus neue Themes zu installieren.<br><br>.';

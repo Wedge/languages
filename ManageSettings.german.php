@@ -96,6 +96,13 @@ $txt['display_who_viewing'] = 'Anzeigen, wer gerade das Forum oder den Beitrag b
 $txt['who_display_viewing_off'] = 'Nicht anzeigen';
 $txt['who_display_viewing_numbers'] = 'Nur Nummern anzeigen';
 $txt['who_display_viewing_names'] = 'Benutzernamen anzeigen';
+$txt['show_stats_index'] = 'Statistiken auf der Forenhauptseite anzeigen';
+$txt['show_latest_member'] = 'Neuestes Mitglied auf der Forenhauptseite anzeigen';
+$txt['show_avatars'] = 'Benutzerbild im Beitrag anzeigen';
+$txt['show_blurb'] = 'Individuellen Text im Beitrag anzeigen';
+$txt['show_gender'] = 'Geschlecht im Beitrag anzeigen';
+$txt['show_board_desc'] = 'Forenbeschreibung innerhalb der Foren anzeigen.';
+$txt['show_children'] = 'Alle untergeordneten Foren in den Hauptforen anzeigen';
 
 $txt['pm_enabled'] = 'Private Nachrichten zwischen Mitgliedern aktivieren';
 $txt['pm_read'] = 'Gruppen, die ihre Privaten Nachrichten lesen dürfen';

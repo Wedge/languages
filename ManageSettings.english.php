@@ -96,6 +96,13 @@ $txt['display_who_viewing'] = 'Show current viewers on board index and topics';
 $txt['who_display_viewing_off'] = 'Don\'t show';
 $txt['who_display_viewing_numbers'] = 'Show only numbers';
 $txt['who_display_viewing_names'] = 'Show member names';
+$txt['show_stats_index'] = 'Show statistics on board index';
+$txt['show_latest_member'] = 'Show latest member on board index';
+$txt['show_avatars'] = 'Show user avatars in posts';
+$txt['show_blurb'] = 'Show personal texts in posts';
+$txt['show_gender'] = 'Show gender indicator in posts';
+$txt['show_board_desc'] = 'Show board descriptions inside boards.';
+$txt['show_children'] = 'Show sub-boards on every page inside boards, not just the first.';
 
 $txt['pm_enabled'] = 'Enable personal messages between members';
 $txt['pm_read'] = 'Groups allowed to read their messages';

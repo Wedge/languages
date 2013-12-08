@@ -6,7 +6,7 @@
 //		http://www.php.net/function.pspell-new
 //		http://www.php.net/function.setlocale
 // Again, SPELLING SHOULD BE '' 99% OF THE TIME!! Please read this!
-$txt['lang_name'] = 'Deutsch (DE)';
+$txt['lang_name'] = 'Deutsch';
 $txt['lang_locale'] = 'de_DE';
 $txt['lang_paypal'] = 'DE';
 $txt['lang_dictionary'] = 'de';

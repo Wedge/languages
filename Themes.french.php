@@ -57,13 +57,6 @@ $txt['actual_theme_url'] = 'URL de ce thème&#8239;: ';
 $txt['actual_images_url'] = 'URL des images de ce thème&#8239;: ';
 $txt['current_theme_style'] = 'Le style de ce thème&#8239;: ';
 
-$txt['enable_random_news'] = 'Afficher les nouvelles dans l\'entête du forum';
-$txt['show_stats_index'] = 'Montrer les statistiques sur l\'accueil du forum';
-$txt['latest_members'] = 'Afficher le dernier membre sur l\'accueil du forum';
-$txt['user_avatars'] = 'Afficher les avatars des membres dans les messages';
-$txt['user_text'] = 'Afficher le texte personnel dans les messages';
-$txt['gender_images'] = 'Afficher les images du sexe (h/f) dans les messages';
-
 $txt['themeadmin_title'] = 'Options de thèmes et disposition';
 $txt['themeadmin_description'] = 'Ici vous pouvez modifier les paramètres de vos thèmes, mettre à jour la liste des thèmes, réinitialiser les options des membres et autres réglages du genre.';
 $txt['themeadmin_admin_desc'] = 'Cette page vous permet de changer le thème par défaut de votre forum, réinitialiser les membres pour utiliser un certain thème et choisir d\'autres réglages relatifs à la sélection des thèmes. Vous pouvez aussi installer des nouveaux thèmes depuis cette interface.<br><br>N\'oubliez pas de jeter un oeil aux réglages du thème pour votre thème pour des personnalisations de disposition.';

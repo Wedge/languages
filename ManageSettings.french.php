@@ -96,6 +96,13 @@ $txt['display_who_viewing'] = 'Montrer les visiteurs sur l\'accueil et dans les 
 $txt['who_display_viewing_off'] = 'Ne pas montrer';
 $txt['who_display_viewing_numbers'] = 'Ne montrer que le nombre de visiteurs';
 $txt['who_display_viewing_names'] = 'Montrer les pseudonymes des membres';
+$txt['show_stats_index'] = 'Montrer les statistiques sur l\'accueil du forum';
+$txt['show_latest_member'] = 'Afficher le dernier membre sur l\'accueil du forum';
+$txt['show_avatars'] = 'Afficher les avatars des membres dans les messages';
+$txt['show_blurb'] = 'Afficher les textes personnels dans les messages';
+$txt['show_gender'] = 'Afficher l\'indicateur du sexe (H/F) dans les messages';
+$txt['show_board_desc'] = 'Montrer les descriptions des sections dans les sections.';
+$txt['show_children'] = 'Montrer les sous-sections sur chaque page des sections, pas seulement la première.';
 
 $txt['pm_enabled'] = 'Activer la messagerie entre membres';
 $txt['pm_read'] = 'Groupes autorisés à lire leurs messages';

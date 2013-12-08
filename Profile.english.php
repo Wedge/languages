@@ -267,7 +267,6 @@ $txt['user_banned_by_following'] = 'This user is currently affected by the follo
 $txt['show_online'] = 'Show others my online status';
 
 $txt['return_to_post'] = 'Return to topics after posting by default.';
-$txt['new_reply_warning'] = 'Warn on new replies made while posting.';
 $txt['posts_apply_ignore_list'] = 'Hide messages posted by members on my ignore list.';
 $txt['view_newest_first'] = 'Show most recent posts at the top.';
 $txt['view_newest_pm_first'] = 'Show most recent personal messages at top.';
@@ -282,9 +281,6 @@ $txt['timeformat_easy5'] = 'DD-MM-YYYY, HH:MM:SS';
 
 $txt['poster'] = 'Poster';
 
-$txt['show_board_desc'] = 'Show board descriptions inside boards.';
-$txt['show_children'] = 'Show sub-boards on every page inside boards, not just the first.';
-$txt['show_avatars'] = 'Show users\' avatars.';
 $txt['show_signatures'] = 'Show users\' signatures.';
 $txt['show_no_censored'] = 'Leave words uncensored.';
 $txt['topics_per_page'] = 'Topics to display per page:';

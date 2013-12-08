@@ -57,12 +57,6 @@ $txt['actual_theme_url'] = 'This theme\'s URL: ';
 $txt['actual_images_url'] = 'This theme\'s images URL: ';
 $txt['current_theme_style'] = 'This theme\'s style: ';
 
-$txt['show_stats_index'] = 'Show statistics on board index';
-$txt['latest_members'] = 'Show latest member on board index';
-$txt['user_avatars'] = 'Show user avatars in message view';
-$txt['user_text'] = 'Show personal text in message view';
-$txt['gender_images'] = 'Show gender images in message view';
-
 $txt['themeadmin_title'] = 'Themes and Layout Settings';
 $txt['themeadmin_description'] = 'Here you can modify the settings for your themes, update theme selections, reset member options, and the like.';
 $txt['themeadmin_admin_desc'] = 'This page allows you to change the default theme, reset members to all use a certain theme, and choose other settings related to theme selection. You are also able to install themes from here.<br><br>Don\'t forget to look at the theme settings for your themes for layout options.';

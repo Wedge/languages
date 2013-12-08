@@ -267,7 +267,6 @@ $txt['user_banned_by_following'] = 'Cet utilisateur est actuellement affecté pa
 $txt['show_online'] = 'Autoriser l\'affichage de ma présence en ligne';
 
 $txt['return_to_post'] = 'Par défaut, retourner dans les sujets après avoir posté.';
-$txt['new_reply_warning'] = 'Aviser des nouvelles réponses postées lors de la rédaction d\'un message.';
 $txt['posts_apply_ignore_list'] = 'Cacher les messages postés par les membres que j\'ignore.';
 $txt['view_newest_first'] = 'Voir les messages récents en premier.';
 $txt['view_newest_pm_first'] = 'Voir les messages personnels récents en premier.';
@@ -282,9 +281,6 @@ $txt['timeformat_easy5'] = 'JJ-MM-AAAA, hh:mm:ss';
 
 $txt['poster'] = 'Auteur';
 
-$txt['show_board_desc'] = 'Montrer les descriptions des sections dans les sections.';
-$txt['show_children'] = 'Montrer les sous-sections sur chaque page des sections, pas seulement la première.';
-$txt['show_avatars'] = 'Montrer les avatars des autres membres.';
 $txt['show_signatures'] = 'Montrer les signatures des membres dans les sujets.';
 $txt['show_no_censored'] = 'Ne pas censurer les mots.';
 $txt['topics_per_page'] = 'Sujets affichés par page:';

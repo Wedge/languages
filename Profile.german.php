@@ -265,7 +265,6 @@ $txt['user_banned_by_following'] = 'Das Benutzerkonto unterliegt folgenden Sperr
 $txt['show_online'] = 'Anderen Mitgliedern meinen Online-Status anzeigen';
 
 $txt['return_to_post'] = 'Nach dem Schreiben zum Thema zurückkehren.';
-$txt['new_reply_warning'] = 'Beim Schreiben bezüglich neuer Antworten warnen.';
 $txt['posts_apply_ignore_list'] = 'Beiträge von Benutzern auf meiner Ignorierliste nicht anzeigen.';
 $txt['view_newest_first'] = 'Die neuesten Beiträge oben anzeigen.';
 $txt['view_newest_pm_first'] = 'Die neuesten Privaten Nachrichten oben anzeigen.';
@@ -280,9 +279,6 @@ $txt['timeformat_easy5'] = 'TT-MM-JJJJ, HH:MM:SS';
 
 $txt['poster'] = 'Autor';
 
-$txt['show_board_desc'] = 'Forenbeschreibung innerhalb der Foren anzeigen.';
-$txt['show_children'] = 'Alle untergeordneten Foren in den Hauptforen anzeigen';
-$txt['show_avatars'] = 'Benutzerbilder anderer Mitglieder anzeigen.';
 $txt['show_signatures'] = 'Signaturen anderer Mitglieder anzeigen.';
 $txt['show_no_censored'] = 'Wörter nicht zensieren.';
 $txt['topics_per_page'] = 'Anzahl der Themen pro Seite:';
