@@ -194,10 +194,6 @@ $helptxt['error_log'] = '
 	zuerst anzuzeigen, einfach auf den schwarzen Pfeil neben dem Datum klicken. Die Fehlermeldungen können nach der Art des Fehlers gefiltert werden,
 	wenn auf die Grafik neben der entsprechenden Angabe geklickt wird (z.B. filtern nach Benutzernamen).
 	Wenn ein Filter aktiv ist, werden nur die übereinstimmenden Fehler angezeigt.';
-$helptxt['theme_settings'] = '
-	Hier können die Einstellungen jedes einzelnen Themes verändert werden. Die Einstellungen betreffen u.a. das Theme-Verzeichnis
-	und die URL Informationen, wie auch viele Einstellungen zum Layout. Die meisten Themes enthalten eine Vielzahl von konfigurierbaren Optionen,
-	welche es erlauben, das Theme den persönlichen Wünschen anzupassen';
 $helptxt['smileys'] = '
 	Hier können Smileys oder Smiley-Sets hinzugefügt, gelöscht und verwaltet werden. Jeder Smiley in einem Set ist auch in anderen sichtbar, da es sonst bei Verwendung verschiedener Sets zu Verwirrungen kommen könnte.<br /><br />
 	Es können hier ebenfalls die Beitragssymbole verändert werden, wenn diese in den Einstellungen aktiviert wurden.<br><br>';

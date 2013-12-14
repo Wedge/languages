@@ -69,9 +69,8 @@ $txt['template_email_body'] = 'Contenu du mail&#8239;:';
 // Don't translate the (%1$s) bits, they're used as placeholders. These are the standard ones.
 $txt['template_repl_forumname'] = 'nom du forum (%1$s)';
 $txt['template_repl_scripturl'] = 'lien vers la page d\'accueil du site (%1$s)';
-$txt['template_repl_themeurl'] = 'URL du thème actuel (%1$s)';
-$txt['template_repl_imagesurl'] = 'URL du dossier d\'images du thème actuel (%1$s)';
-$txt['template_repl_default_themeurl'] = 'URL du thème par défaut du site (%1$s)';
+$txt['template_repl_themeurl'] = 'URL du thème du site (%1$s)';
+$txt['template_repl_imagesurl'] = 'URL du dossier d\'images (%1$s)';
 $txt['template_repl_regards'] = 'salutation de base (%1$s)';
 // And these are the not so standard ones.
 $txt['template_repl_username'] = 'nom d\'utilisateur (identifiant de connexion) du destinataire du mail';

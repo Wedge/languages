@@ -49,14 +49,6 @@ $txt['theme_edit_save'] = 'Sauvegarder les changements';
 
 $txt['theme_global_description'] = 'Ceci est le thème par défaut, ce qui signifie que votre thème changera suivant les réglages de l\'administrateur et/ou la section que vous consultez.';
 
-$txt['theme_url_config'] = 'URLs et Configuration des Thèmes';
-$txt['theme_options'] = 'Options et Préférences des Thèmes';
-$txt['actual_theme_name'] = 'Nom de ce thème&#8239;: ';
-$txt['actual_theme_dir'] = 'Dossier de ce thème&#8239;: ';
-$txt['actual_theme_url'] = 'URL de ce thème&#8239;: ';
-$txt['actual_images_url'] = 'URL des images de ce thème&#8239;: ';
-$txt['current_theme_style'] = 'Le style de ce thème&#8239;: ';
-
 $txt['themeadmin_title'] = 'Options de thèmes et disposition';
 $txt['themeadmin_description'] = 'Ici vous pouvez modifier les paramètres de vos thèmes, mettre à jour la liste des thèmes, réinitialiser les options des membres et autres réglages du genre.';
 $txt['themeadmin_admin_desc'] = 'Cette page vous permet de changer le thème par défaut de votre forum, réinitialiser les membres pour utiliser un certain thème et choisir d\'autres réglages relatifs à la sélection des thèmes. Vous pouvez aussi installer des nouveaux thèmes depuis cette interface.<br><br>N\'oubliez pas de jeter un oeil aux réglages du thème pour votre thème pour des personnalisations de disposition.';

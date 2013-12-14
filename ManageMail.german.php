@@ -71,7 +71,6 @@ $txt['template_repl_forumname'] = 'Name des Forums (%1$s)';
 $txt['template_repl_scripturl'] = 'Der Link zur Homepge der Seite (%1$s)';
 $txt['template_repl_themeurl'] = 'Der Link zum Theme, welches gerade verwendet wird (%1$s)';
 $txt['template_repl_imagesurl'] = 'Der Link zum Ordner der Dateianhänge, den dieses Theme verwendet (%1$s)';
-$txt['template_repl_default_themeurl'] = 'Der Link zum Standard Theme dieser Seite (%1$s)';
 $txt['template_repl_regards'] = 'Die Standardbegrüßung (%1$s)';
 // And these are the not so standard ones.
 $txt['template_repl_username'] = 'Der Benutzername (für Anmeldezwecke) der Person, die diese Mail empfängt';

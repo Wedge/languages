@@ -132,7 +132,6 @@ $txt['cannot_view_stats'] = 'Dir fehlt die Berechtigung um Statistiken anzuschau
 $txt['cannot_who_view'] = 'Sorry - dir fehlt die Berechtigung die Online-Liste anzuschauen.';
 $txt['stats_not_available'] = 'Die Forenstatistiken sind zur Zeit nicht verfügbar.';
 
-$txt['no_theme'] = 'Das Theme existiert nicht.';
 $txt['theme_dir_wrong'] = 'Das Standard-Theme Verzeichnis ist verkehrt. Bitte durch Klick auf diesem Text korrigieren.';
 $txt['registration_disabled'] = 'Sorry, Registrierungen sind zur Zeit leider nicht möglich.';
 $txt['registration_no_secret_question'] = 'Sorry, es gibt keine geheime Frage für dieses Mitglied.';

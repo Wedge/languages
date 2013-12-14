@@ -46,13 +46,7 @@ $txt['admin_basic_settings'] = 'Cette page vous permet de modifier les paramètr
 $txt['maintenance'] = 'Activer le Mode Maintenance';
 
 $txt['mbname'] = 'Nom du forum';
-$txt['boardurl'] = 'URL du forum';
 $txt['cookiename'] = 'Nom du cookie';
-$txt['boarddir'] = 'Répertoire de Wedge';
-$txt['sourcedir'] = 'Répertoire des fichiers sources';
-$txt['cachedir'] = 'Répertoire du cache';
-$txt['pluginsdir'] = 'Répertoire des extensions';
-$txt['pluginsurl'] = 'Adresse des extensions';
 $txt['admin_news'] = 'Afficher la barre de nouvelles';
 $txt['admin_guest_post'] = 'Permettre aux invités de poster';
 $txt['admin_manage_members'] = 'Membres';
@@ -218,9 +212,6 @@ $txt['setting_language'] = 'Langue par défaut du forum';
 
 $txt['mtitle'] = 'Sujet à afficher';
 $txt['mmessage'] = 'Message à afficher';
-
-$txt['theme_settings'] = 'Paramètres du thème';
-$txt['theme_current_settings'] = 'Thème en cours';
 
 $txt['dvc_your'] = 'Votre version';
 $txt['dvc_current'] = 'Version courante';
@@ -473,7 +464,8 @@ $txt['not_done_reason'] = 'Afin d\'éviter la surcharge de votre serveur, le pro
 $txt['not_done_continue'] = 'Continuer';
 
 $txt['general_settings'] = 'Paramètres';
-$txt['database_paths_settings'] = 'Base de données et Chemins';
+$txt['database_settings'] = 'Base de données';
+$txt['path_settings'] = 'Chemins';
 $txt['cookies_sessions_settings'] = 'Cookies et Sessions';
 $txt['caching_settings'] = 'Configuration du Cache';
 $txt['load_balancing_settings'] = 'Répartition de Charge';

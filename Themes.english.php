@@ -49,14 +49,6 @@ $txt['theme_edit_save'] = 'Save Changes';
 
 $txt['theme_global_description'] = 'This is the default theme, which means your theme will change along with the administrators\' settings and the board you are viewing.';
 
-$txt['theme_url_config'] = 'Theme URLs and Configuration';
-$txt['theme_options'] = 'Theme Options and Preferences';
-$txt['actual_theme_name'] = 'This theme\'s name: ';
-$txt['actual_theme_dir'] = 'This theme\'s directory: ';
-$txt['actual_theme_url'] = 'This theme\'s URL: ';
-$txt['actual_images_url'] = 'This theme\'s images URL: ';
-$txt['current_theme_style'] = 'This theme\'s style: ';
-
 $txt['themeadmin_title'] = 'Themes and Layout Settings';
 $txt['themeadmin_description'] = 'Here you can modify the settings for your themes, update theme selections, reset member options, and the like.';
 $txt['themeadmin_admin_desc'] = 'This page allows you to change the default theme, reset members to all use a certain theme, and choose other settings related to theme selection. You are also able to install themes from here.<br><br>Don\'t forget to look at the theme settings for your themes for layout options.';

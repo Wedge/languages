@@ -49,14 +49,6 @@ $txt['theme_edit_save'] = 'Änderungen speichern';
 
 $txt['theme_global_description'] = 'Dies ist das Standard-Theme. Die Darstellung kann durch Einstellungen des Administrators, oder von Forum zu Forum variieren.';
 
-$txt['theme_url_config'] = 'Theme-URLs und Konfiguration';
-$txt['theme_options'] = 'Theme-Optionen and Grundeinstellungen';
-$txt['actual_theme_name'] = 'Der Name dieses Themes: ';
-$txt['actual_theme_dir'] = 'Das Verzeichnis dieses Themes: ';
-$txt['actual_theme_url'] = 'Die URL dieses Themes: ';
-$txt['actual_images_url'] = 'Die Bild-URL dieses Themes: ';
-$txt['current_theme_style'] = 'Der Style dieses Themes: ';
-
 $txt['themeadmin_title'] = 'Theme und Layout Einstellungen';
 $txt['themeadmin_description'] = 'Hier kannst du die Einstellungen für deine Themes ändern.';
 $txt['themeadmin_admin_desc'] = 'Diese Seite erlaubt dir das Standard-Theme auszuwählen, Mitglieder auf das Standard-Theme zurückzusetzen und andere Optionen zu verwalten. Zusätzlich besteht die Möglichkeit von dieser Seite aus neue Themes zu installieren.<br><br>.';

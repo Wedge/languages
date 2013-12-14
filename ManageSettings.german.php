@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; ManageSettings
 
-$txt['settings_desc'] = 'Diese Seite erlaubt es dir Grundeinstellungen und Funktionen in diesem Forum zu verwalten. Besuche bitte auch die <a href="%3$s?action=admin;area=theme;sa=settings;th=%1$s;%2$s">Theme Einstellungen</a> um weitere Anpassungen vorzunehmen. Verwende die Hilfebuttons um Informationen über die jeweilige Einstellung zu bekommen.';
+$txt['settings_desc'] = 'Diese Seite erlaubt es dir Grundeinstellungen und Funktionen in diesem Forum zu verwalten. Verwende die Hilfebuttons um Informationen über die jeweilige Einstellung zu bekommen.';
 
 $txt['allow_guestAccess'] = 'Gästen das betrachten des Forums erlauben';
 $txt['userLanguage'] = 'Sprachauswahl für Benutzer aktivieren';
@@ -99,6 +99,7 @@ $txt['who_display_viewing_names'] = 'Benutzernamen anzeigen';
 $txt['show_stats_index'] = 'Statistiken auf der Forenhauptseite anzeigen';
 $txt['show_latest_member'] = 'Neuestes Mitglied auf der Forenhauptseite anzeigen';
 $txt['show_avatars'] = 'Benutzerbild im Beitrag anzeigen';
+$txt['show_signatures'] = 'Signaturen im Beitrag anzeigen.';
 $txt['show_blurb'] = 'Individuellen Text im Beitrag anzeigen';
 $txt['show_gender'] = 'Geschlecht im Beitrag anzeigen';
 $txt['show_board_desc'] = 'Forenbeschreibung innerhalb der Foren anzeigen.';
@@ -113,6 +114,16 @@ $txt['pm_draft_other_settings'] = 'Es kann auch eingestellt werden, wie oft Entw
 
 $txt['likes_enabled'] = 'Gefällt mir System aktivieren (Likes)';
 $txt['likes_own_posts'] = 'Mitglieder dürfen ihre eigenen Beiträge liken';
+
+$txt['boardurl'] = 'Forum URL';
+$txt['boarddir'] = 'Wedge Stammordner';
+$txt['sourcedir'] = 'Sources Ordner';
+$txt['cachedir'] = 'Cache Ordner';
+$txt['pluginsdir'] = 'Plugins Ordner';
+$txt['pluginsurl'] = 'Plugins URL';
+$txt['theme_dir'] = 'Das Verzeichnis dieses Themes';
+$txt['theme_url'] = 'Die URL dieses Themes';
+$txt['images_url'] = 'Die Bild-URL dieses Themes';
 
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Wichtig! Vor der Aktivierung dieser Funktionen bitte gründlich lesen.</div><br>
 	Wedge unterstützt das Caching durch verschiedene Beschleuniger (OPC). Die zur Zeit unterstützen Beschleuniger:<br>

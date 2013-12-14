@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; ManageSettings
 
-$txt['settings_desc'] = 'Cette page vous permet de paramétrer les caractéristiques et options de base de votre forum. Veuillez voir les <a href="%3$s?action=admin;area=theme;sa=settings;th=%1$s;%2$s">Réglages du thème</a> pour plus d\'options. Cliquez sur l\'icône d\'aide pour plus d\'informations à propos d\'un paramètre.';
+$txt['settings_desc'] = 'Cette page vous permet de paramétrer les caractéristiques et options de base de votre forum. Cliquez sur l\'icône d\'aide pour plus d\'informations à propos d\'un paramètre.';
 
 $txt['allow_guestAccess'] = 'Permettre aux invités de parcourir le forum';
 $txt['userLanguage'] = 'Permettre aux utilisateurs de choisir la langue';
@@ -99,6 +99,7 @@ $txt['who_display_viewing_names'] = 'Montrer les pseudonymes des membres';
 $txt['show_stats_index'] = 'Montrer les statistiques sur l\'accueil du forum';
 $txt['show_latest_member'] = 'Afficher le dernier membre sur l\'accueil du forum';
 $txt['show_avatars'] = 'Afficher les avatars des membres dans les messages';
+$txt['show_signatures'] = 'Afficher les signatures des membres dans les messages';
 $txt['show_blurb'] = 'Afficher les textes personnels dans les messages';
 $txt['show_gender'] = 'Afficher l\'indicateur du sexe (H/F) dans les messages';
 $txt['show_board_desc'] = 'Montrer les descriptions des sections dans les sections.';
@@ -113,6 +114,16 @@ $txt['pm_draft_other_settings'] = 'Vous pouvez également choisir la fréquence 
 
 $txt['likes_enabled'] = 'Activer les J\'aime';
 $txt['likes_own_posts'] = 'Les utilisateurs peuvent aimer leurs propres messages';
+
+$txt['boardurl'] = 'URL (adresse web) du forum';
+$txt['boarddir'] = 'Chemin vers le dossier Wedge';
+$txt['sourcedir'] = 'Chemin vers le dossier Sources';
+$txt['cachedir'] = 'Chemin vers le dossier Cache';
+$txt['pluginsdir'] = 'Chemin vers le dossier Plugins';
+$txt['pluginsurl'] = 'URL du dossier Plugins';
+$txt['theme_dir'] = 'Chemin vers le dossier Themes';
+$txt['theme_url'] = 'URL du dossier Themes';
+$txt['images_url'] = 'URL du dossier Images';
 
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important&#8239;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br>
 	Wedge peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&#8239;:<br>

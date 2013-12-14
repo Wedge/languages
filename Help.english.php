@@ -205,10 +205,6 @@ $helptxt['error_log'] = '
 	The error log tracks logs every serious error encountered by users using your forum. It lists all of these errors by date which can be sorted
 	by clicking the black arrow next to each date. Additionally you can filter the errors by clicking the picture next to each error statistic. This
 	allows you to filter, for example, by member. When a filter is active the only results that will be displayed will be those that match that filter.';
-$helptxt['theme_settings'] = '
-	The settings screen allows you to change settings specific to a theme. These settings include options such as the themes directory and URL information but
-	also options that affect the layout of a theme on your forum. Most themes will have a variety of user configurable options, allowing you to adapt a theme
-	to suit your individual forum needs.';
 $helptxt['smileys'] = '
 	Here you can add and remove smileys, and smiley sets. Note importantly that if a smiley is in one set, it\'s in all sets - otherwise, it might
 	get confusing for your users using different sets.<br><br>

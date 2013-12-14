@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; ManageSettings
 
-$txt['settings_desc'] = 'This page allows you to change the settings of features and basic options in your forum. Please see the <a href="%3$s?action=admin;area=theme;sa=settings;th=%1$s;%2$s">theme settings</a> for more options. Click the help icons for more information about a setting.';
+$txt['settings_desc'] = 'This page allows you to change the settings of features and basic options in your forum. Click the help icons for more information about a setting.';
 
 $txt['allow_guestAccess'] = 'Allow guests to browse the forum';
 $txt['userLanguage'] = 'Enable user-selectable language support';
@@ -99,6 +99,7 @@ $txt['who_display_viewing_names'] = 'Show member names';
 $txt['show_stats_index'] = 'Show statistics on board index';
 $txt['show_latest_member'] = 'Show latest member on board index';
 $txt['show_avatars'] = 'Show user avatars in posts';
+$txt['show_signatures'] = 'Show user signatures in posts';
 $txt['show_blurb'] = 'Show personal texts in posts';
 $txt['show_gender'] = 'Show gender indicator in posts';
 $txt['show_board_desc'] = 'Show board descriptions inside boards.';
@@ -113,6 +114,16 @@ $txt['pm_draft_other_settings'] = 'You can also set how often drafts are saved a
 
 $txt['likes_enabled'] = 'Enable likes system';
 $txt['likes_own_posts'] = 'Users can like their own posts';
+
+$txt['boardurl'] = 'Forum URL';
+$txt['boarddir'] = 'Path to Wedge folder';
+$txt['sourcedir'] = 'Path to Sources folder';
+$txt['cachedir'] = 'Path to Cache folder';
+$txt['pluginsdir'] = 'Path to Plugins folder';
+$txt['pluginsurl'] = 'URL to Plugins folder';
+$txt['theme_dir'] = 'Path to Theme folder';
+$txt['theme_url'] = 'URL to Theme folder';
+$txt['images_url'] = 'URL to Images folder';
 
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important! Read this first before enabling these features.</div><br>
 	Wedge supports caching through the use of accelerators. The currently supported accelerators include:<br>

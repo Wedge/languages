@@ -281,7 +281,8 @@ $txt['timeformat_easy5'] = 'JJ-MM-AAAA, hh:mm:ss';
 
 $txt['poster'] = 'Auteur';
 
-$txt['show_signatures'] = 'Montrer les signatures des membres dans les sujets.';
+$txt['hide_avatars'] = 'Cacher les avatars des membres dans les sujets.';
+$txt['hide_signatures'] = 'Cacher les signatures des membres dans les sujets.';
 $txt['show_no_censored'] = 'Ne pas censurer les mots.';
 $txt['topics_per_page'] = 'Sujets affichés par page:';
 $txt['messages_per_page'] = 'Messages affichés par page:';

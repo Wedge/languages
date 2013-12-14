@@ -46,13 +46,7 @@ $txt['admin_basic_settings'] = 'Diese Seite erlaubt dir die Grundeinstellungen d
 $txt['maintenance'] = 'Wartungsmodus einschalten';
 
 $txt['mbname'] = 'Forum-Titel';
-$txt['boardurl'] = 'Forum URL';
 $txt['cookiename'] = 'Name des Cookies';
-$txt['boarddir'] = 'Wedge Stammordner';
-$txt['sourcedir'] = 'Sources Ordner';
-$txt['cachedir'] = 'Cache Ordner';
-$txt['pluginsdir'] = 'Plugins Ordner';
-$txt['pluginsurl'] = 'Plugins URL';
 $txt['admin_news'] = 'News aktivieren';
 $txt['admin_guest_post'] = 'Beiträge von Gästen erlauben';
 $txt['admin_manage_members'] = 'Mitglieder';
@@ -218,9 +212,6 @@ $txt['setting_language'] = 'Voreingestellte Sprache des Forums';
 
 $txt['mtitle'] = 'Betreff für die Anzeige';
 $txt['mmessage'] = 'Nachricht für die Anzeige';
-
-$txt['theme_settings'] = 'Theme/Skin Einstellungen';
-$txt['theme_current_settings'] = 'Aktuelles Theme/Skin';
 
 $txt['dvc_your'] = 'Deine Version';
 $txt['dvc_current'] = 'Aktuelle Version';
@@ -473,7 +464,8 @@ $txt['not_done_reason'] = 'Um eine Überladung des Servers zu vermeiden, wurde d
 $txt['not_done_continue'] = 'Fortsetzen';
 
 $txt['general_settings'] = 'Grundeinstellungen';
-$txt['database_paths_settings'] = 'Datenbank und Pfade';
+$txt['database_settings'] = 'Datenbank';
+$txt['path_settings'] = 'Pfade';
 $txt['cookies_sessions_settings'] = 'Cookies und Sitzungen';
 $txt['caching_settings'] = 'Caching';
 $txt['load_balancing_settings'] = 'Load-Balancing';

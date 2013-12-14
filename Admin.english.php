@@ -46,13 +46,7 @@ $txt['admin_basic_settings'] = 'This page allows you to change the basic setting
 $txt['maintenance'] = 'Enable Maintenance Mode';
 
 $txt['mbname'] = 'Forum Title';
-$txt['boardurl'] = 'Forum URL';
 $txt['cookiename'] = 'Cookie Name';
-$txt['boarddir'] = 'Wedge Directory';
-$txt['sourcedir'] = 'Sources Directory';
-$txt['cachedir'] = 'Cache Directory';
-$txt['pluginsdir'] = 'Plugins Directory';
-$txt['pluginsurl'] = 'Plugins URL';
 $txt['admin_news'] = 'Enable News';
 $txt['admin_guest_post'] = 'Enable Guest Posting';
 $txt['admin_manage_members'] = 'Members';
@@ -218,9 +212,6 @@ $txt['setting_language'] = 'Default Forum Language';
 
 $txt['mtitle'] = 'Subject for display';
 $txt['mmessage'] = 'Message for display';
-
-$txt['theme_settings'] = 'Theme Settings';
-$txt['theme_current_settings'] = 'Current Theme';
 
 $txt['dvc_your'] = 'Your Version';
 $txt['dvc_current'] = 'Current Version';
@@ -473,7 +464,8 @@ $txt['not_done_reason'] = 'To avoid overloading your server, the process has bee
 $txt['not_done_continue'] = 'Continue';
 
 $txt['general_settings'] = 'General';
-$txt['database_paths_settings'] = 'Database and Paths';
+$txt['database_settings'] = 'Database';
+$txt['path_settings'] = 'Paths';
 $txt['cookies_sessions_settings'] = 'Cookies and Sessions';
 $txt['caching_settings'] = 'Caching';
 $txt['load_balancing_settings'] = 'Load Balancing';

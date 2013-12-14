@@ -279,7 +279,8 @@ $txt['timeformat_easy5'] = 'TT-MM-JJJJ, HH:MM:SS';
 
 $txt['poster'] = 'Autor';
 
-$txt['show_signatures'] = 'Signaturen anderer Mitglieder anzeigen.';
+$txt['hide_avatars'] = 'Benutzerbild im Beitrag verstecken.';
+$txt['hide_signatures'] = 'Signaturen anderer Mitglieder verstecken.';
 $txt['show_no_censored'] = 'Wörter nicht zensieren.';
 $txt['topics_per_page'] = 'Anzahl der Themen pro Seite:';
 $txt['messages_per_page'] = 'Anzahl der Beiträge pro Seite:';
