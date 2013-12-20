@@ -288,7 +288,6 @@ $txt['tried_to_repair'] = 'Wedge hat Fehler entdeckt und versucht die Datenbank 
 // Database errors (Class-DB.php)
 $txt['mysql_error_space'] = ' - Überprüfe den verfügbaren Speicherplatz in der Datenbank oder kontaktiere den Server-Administrator.';
 $txt['try_again'] = 'Bitte versuche es nochmals. Falls du wieder auf diese Fehlerseite geleitet wirst, kontaktiere den Administrator.';
-$txt['database_error_versions'] = '<strong>Achtung:</strong> Es scheint, als ob deine Datenbank ein Update benötigt. Deine Dateien haben die Version %1$s, aber deine Datenbank gibt die Version %2$s zurück. Der obige Fehler verschwindet, wenn du die aktuellste Version von upgrade.php ausführst.';
 // Line number in a file.
 $txt['line'] = 'Zeile';
 

@@ -288,7 +288,6 @@ $txt['tried_to_repair'] = 'Wedge a d&#233;tect&#233; et a automatiquement essay&
 // Database errors (Class-DB.php)
 $txt['mysql_error_space'] = ' - vérifiez la taille de votre base de données ou contactez un administrateur du serveur.';
 $txt['try_again'] = 'Merci de réessayer. Si l\'erreur se reproduit, signalez cette erreur à un administrateur.';
-$txt['database_error_versions'] = '<strong>Note</strong>&#8239;: Il est <em>possible</em> que votre base de données nécessite une mise à jour. Actuellement, la version des fichiers du forum est %1$s, alors que votre base de données est en version %2$s. L\'erreur signalée ci-dessus pourrait peut-être corrigée en exécutant la dernière version de upgrade.php.';
 // Line number in a file.
 $txt['line'] = 'Ligne';
 

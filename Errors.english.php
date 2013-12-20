@@ -288,7 +288,6 @@ $txt['tried_to_repair'] = 'Wedge has detected and automatically tried to repair 
 // Database errors (Class-DB.php)
 $txt['mysql_error_space'] = ' - check database storage space or contact the server administrator.';
 $txt['try_again'] = 'Please try again. If you come back to this error screen, report the error to an administrator.';
-$txt['database_error_versions'] = '<strong>Note:</strong> It appears that your database <em>may</em> require an upgrade. Your forum\'s files are currently at version %1$s, while your database is at version %2$s. The above error might possibly go away if you execute the latest version of upgrade.php.';
 // Line number in a file.
 $txt['line'] = 'Line';
 
