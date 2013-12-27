@@ -181,7 +181,7 @@ $txt['error_invalid_characters_username'] = 'Üngültiges Zeichen im Benutzernam
 $txt['error_username_too_long'] = 'Benutzername muss weniger als 25 Zeichen lang sein.';
 $txt['error_username_left_empty'] = 'Benutzername wurde nicht angegeben.';
 $txt['error_db_filename_exists'] = 'Die angegebene Datenbank existiert bereits. Bitte lösche die vorhandene Datenbankdatei, oder gebe einen anderen Namen ein.';
-$txt['error_db_prefix_reserved'] = 'der verwendete Präfix ist ein reservierter Präfix und kann nicht verwendet werden. Bitte einen anderen Präfix wählen.';
+$txt['error_db_prefix_invalid'] = 'der verwendete Präfix ist ein reservierter Präfix und kann nicht verwendet werden. Bitte einen anderen Präfix wählen.'; // @todo translation, please!
 
 $txt['upgrade_upgrade_utility'] = 'Wedge Aktualisierungs-Werkzeug';
 $txt['upgrade_warning'] = 'Warnung!';

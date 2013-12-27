@@ -182,7 +182,7 @@ $txt['error_invalid_characters_username'] = 'Invalid character used in Username.
 $txt['error_username_too_long'] = 'Username must be less than 25 characters long.';
 $txt['error_username_left_empty'] = 'Username field was left empty.';
 $txt['error_db_filename_exists'] = 'The database that you are trying to create exists. Please delete the current database file or enter another name.';
-$txt['error_db_prefix_reserved'] = 'The prefix that you entered is a reserved prefix. Please enter another prefix.';
+$txt['error_db_prefix_invalid'] = 'The prefix that you entered is invalid. Please stick to alphanumeric characters.';
 
 $txt['upgrade_upgrade_utility'] = 'Wedge Upgrade Utility';
 $txt['upgrade_warning'] = 'Warning!';

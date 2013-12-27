@@ -182,7 +182,7 @@ $txt['error_invalid_characters_username'] = 'Un caractère invalide a été util
 $txt['error_username_too_long'] = 'Le Nom d\'utilisateur doit faire moins de 25 caractères.';
 $txt['error_username_left_empty'] = 'Vous n\'avez pas rempli le champ Nom d\'utilisateur.';
 $txt['error_db_filename_exists'] = 'La base de données que vous essayez de créer existe déjà. Effacez la base de données actuelle ou choisissez un autre nom.';
-$txt['error_db_prefix_reserved'] = 'Le préfixe que vous avez indiqué est un préfixe réservé. Merci d\'en choisir un nouveau.';
+$txt['error_db_prefix_invalid'] = 'Le préfixe que vous avez indiqué est invalide. Merci de n\'utiliser que des caractères alphanumériques.';
 
 $txt['upgrade_upgrade_utility'] = 'Utilitaire de mise à jour de Wedge';
 $txt['upgrade_warning'] = 'Attention&#8239;!';
