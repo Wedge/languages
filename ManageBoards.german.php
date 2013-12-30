@@ -26,7 +26,7 @@ $txt['mboards_add_cat_button'] = 'Kategorie hinzufügen';
 $txt['mboards_new_board_name'] = 'Neues Forum';
 
 $txt['mboards_name'] = 'Name';
-$txt['mboards_modify'] = 'ändern';
+$txt['mboards_modify'] = 'Ändern';
 $txt['mboards_permissions'] = 'Berechtigungen';
 // Don't use entities in the below string.
 $txt['mboards_permissions_confirm'] = 'Bist du sicher, dass dieses Forum lokale Berechtigungen verwenden soll?';
@@ -66,11 +66,11 @@ $txt['mboards_moderators_desc'] = 'Weitere Mitglieder, die Moderatorenrechte in 
 $txt['mboards_count_posts'] = 'Beiträge zählen';
 $txt['mboards_count_posts_desc'] = 'Neue Themen und Beiträge erhöhen den Beitragszähler.';
 $txt['mboards_unchanged'] = 'Unverändert';
-$txt['mboards_theme'] = 'Forum-Theme';
-$txt['mboards_theme_desc'] = 'Hier kannst du das Aussehen innerhalb dieses Forums ändern. Das Untermenü stellt die Hierarchie der verfügbaren Skins für ein Theme dar. Wähle den Namen des Themes und verknüpfe es mit einem Skin als Standard Layout. Andernfalls wähle nur den Skin.';
-$txt['mboards_theme_default'] = '(überall Forum Standard.)';
-$txt['mboards_override_theme'] = 'Mitglieder Themes überschreiben';
-$txt['mboards_override_theme_desc'] = 'Verwende dieses Theme, auch wenn der User ein eigenes Layout als das Standard-Layout ausgewählt hat.';
+$txt['mboards_skin'] = 'Forum-Skin';
+$txt['mboards_skin_desc'] = 'Hier kannst du das Aussehen innerhalb dieses Forums ändern.';
+$txt['mboards_skin_default'] = '(Überall Forum Standard)';
+$txt['mboards_override_theme'] = 'Mitglieder Skins Überschreiben';
+$txt['mboards_override_theme_desc'] = 'Verwende dieses Skin, auch wenn der User ein eigenes Layout als das Standard-Layout ausgewählt hat.';
 $txt['mboards_language'] = 'Foren-Sprache';
 $txt['mboards_language_desc'] = 'Hier kannst du eine Standardsprache für dieses Forum festlegen (z.B. Text auf Buttons). Beachte, dass es sich hier um eine Standardeinstellung handelt. Ein Benutzer kann auch eine andere Sprache auswählen, die dann diese Einstellung überschreibt.';
 

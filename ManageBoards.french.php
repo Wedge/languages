@@ -66,11 +66,11 @@ $txt['mboards_moderators_desc'] = 'Membres ayant des privilèges de modérateur 
 $txt['mboards_count_posts'] = 'Comptabiliser les messages';
 $txt['mboards_count_posts_desc'] = 'Les nouveaux messages et sujets font augmenter le compteur de messages des membres.';
 $txt['mboards_unchanged'] = 'Inchangé';
-$txt['mboards_theme'] = 'Thème de la section';
-$txt['mboards_theme_desc'] = 'Permet de donner un aspect visuel différent à cette section. Les sous-sections correspondent à la hiérarchie des styles disponibles. Choisissez la racine d\'un thème pour appliquer son style de base.';
-$txt['mboards_theme_default'] = '(Réglage par défaut)';
-$txt['mboards_override_theme'] = 'Outrepasser le thème choisi par le membre';
-$txt['mboards_override_theme_desc'] = 'Force le changement du thème de cette section pour celui spécifié précédemment, même si le membre a choisi de ne pas utiliser les réglages par défaut du forum.';
+$txt['mboards_skin'] = 'Style de la section';
+$txt['mboards_skin_desc'] = 'Permet de donner un aspect visuel différent à cette section.';
+$txt['mboards_skin_default'] = '(Réglage par défaut)';
+$txt['mboards_override_theme'] = 'Outrepasser le style choisi par le membre';
+$txt['mboards_override_theme_desc'] = 'Force le changement du style de cette section pour celui spécifié précédemment, même si le membre a choisi de ne pas utiliser les réglages par défaut du forum.';
 $txt['mboards_language'] = 'Langue de la section';
 $txt['mboards_language_desc'] = 'Vous permet d\'outrepasser la langue par défaut du forum (par exemple les boutons et menus) à l\'intérieur d\'une section. Veuillez noter que les préférences de langue de l\'utilisateur garderont la priorité.';
 

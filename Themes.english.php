@@ -28,12 +28,11 @@ $txt['theme_installed_message'] = 'was installed successfully.';
 $txt['theme_latest'] = 'Latest and Greatest Themes';
 $txt['theme_latest_fetch'] = 'Fetching latest themes from wedge.org...';
 
-$txt['theme_preview'] = 'Preview theme';
-$txt['theme_set'] = 'Use this theme and its default style';
-$txt['theme_users'] = array(
-	0 => 'No one is using this theme.',
-	1 => '1 person is using this theme.',
-	'n' => '%s people are using this theme.',
+$txt['theme_set'] = 'Use the default style';
+$txt['skin_users'] = array(
+	0 => 'No one is using this skin.',
+	1 => '1 person is using this skin.',
+	'n' => '%s people are using this skin.',
 );
 $txt['current_theme'] = 'Current theme';
 

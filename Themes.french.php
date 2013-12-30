@@ -28,9 +28,8 @@ $txt['theme_installed_message'] = 'a été installé avec succès.';
 $txt['theme_latest'] = 'Les Thèmes - les Derniers et les Plus Réussis';
 $txt['theme_latest_fetch'] = 'Recherche des derniers thèmes depuis wedge.org...';
 
-$txt['theme_preview'] = 'Prévisualiser ce thème';
-$txt['theme_set'] = 'Utiliser ce thème et son style par défaut';
-$txt['theme_users'] = array(
+$txt['theme_set'] = 'Utiliser le thème par défaut';
+$txt['skin_users'] = array(
 	0 => 'Personne n\'utilise ce thème.',
 	1 => '1 personne utilise ce thème.',
 	'n' => '%s personnes utilisent ce thème.',

@@ -28,9 +28,8 @@ $txt['theme_installed_message'] = 'wurde erfolgreich installiert.';
 $txt['theme_latest'] = 'Aktuellste und beste Themes';
 $txt['theme_latest_fetch'] = 'Hole die neuesten Themes von wedge.org...';
 
-$txt['theme_preview'] = 'Vorschau';
 $txt['theme_set'] = 'Dieses Theme verwenden';
-$txt['theme_users'] = array(
+$txt['skin_users'] = array(
 	0 => 'Niemand verwendet dieses Theme.',
 	1 => '1 Mitglied verwendet dieses Theme.',
 	'n' => '%s Mitglieder verwenden dieses Theme.',
