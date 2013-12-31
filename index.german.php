@@ -188,7 +188,7 @@ $txt['community'] = 'Community';
 
 $txt['lock_unlock'] = 'Schließe/Öffne das Thema';
 $txt['post'] = 'Schreiben';
-$txt['error_occured'] = 'Ein Fehler ist aufgetreten!';
+$txt['error_occurred'] = 'Ein Fehler ist aufgetreten!';
 $txt['logout'] = 'Logout';
 $txt['started_by'] = 'Gestartet von';
 $txt['last_post_author_link_time'] = '<strong>Letzter Beitrag</strong> von {author} in {link} {time}';

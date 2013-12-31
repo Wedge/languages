@@ -187,7 +187,7 @@ $txt['community'] = 'Community';
 
 $txt['lock_unlock'] = 'Lock/Unlock Topic';
 $txt['post'] = 'Post';
-$txt['error_occured'] = 'An Error Has Occurred!';
+$txt['error_occurred'] = 'An Error Has Occurred!';
 $txt['logout'] = 'Logout';
 $txt['started_by'] = 'Started by';
 $txt['last_post_author_link_time'] = '<strong>Last post</strong> by {author} in {link} {time}';

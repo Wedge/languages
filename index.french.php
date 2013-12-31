@@ -181,7 +181,7 @@ $txt['community'] = 'Communauté';
 
 $txt['lock_unlock'] = '(Dé)bloquer le sujet';
 $txt['post'] = 'Soumettre';
-$txt['error_occured'] = 'Une erreur s\'est produite&#8239;!';
+$txt['error_occurred'] = 'Une erreur s\'est produite&#8239;!';
 $txt['logout'] = 'Déconnexion';
 $txt['started_by'] = 'Démarré par';
 $txt['last_post_author_link_time'] = '<strong>Dernier message</strong> par {author} dans {link} {time}';
