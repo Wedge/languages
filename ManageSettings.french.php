@@ -496,5 +496,5 @@ $txt['languages_orientation'] = 'Orientation';
 $txt['languages_orients_ltr'] = 'Gauche à droite';
 $txt['languages_orients_rtl'] = 'Droite à gauche';
 
-$txt['lang_file_desc_index'] = 'Termes généraux';
+$txt['lang_file_desc_index'] = 'Fichier de langue principal';
 $txt['lang_file_desc_Modlog'] = 'Entrées du journal de modération';
