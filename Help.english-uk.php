@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; Help
 
-$helptxt['manage_boards'] = '
+$txt['help_manage_boards'] = '
 	In this menu you can create/reorder/remove boards, and the categories
 	above them. For example, if you had a wide-ranging
 	site that offered information on "Sports" and "Cars" and "Music", these
@@ -44,7 +44,7 @@ $helptxt['manage_boards'] = '
 	under each category, to reorder them (put "Pinto" behind "Chevy"), or
 	to delete the board entirely.';
 
-$helptxt['ban_gmail_style'] = 'Google Mail, or GMail, offers features for convenience to its members for organising email, which can confuse
+$txt['help_ban_gmail_style'] = 'Google Mail, or GMail, offers features for convenience to its members for organising email, which can confuse
 	typical ban filtering systems:
 	<ul class="normallist">
 		<li>Periods in the username are ignored - joe.bloggs@gmail.com is exactly the same as j.o.e.b.l.o.g.g.s@gmail.com and also joebloggs@gmail.com.</li>
@@ -54,16 +54,16 @@ $helptxt['ban_gmail_style'] = 'Google Mail, or GMail, offers features for conven
 	By selecting a given ban as being on a "GMail style domain", these factors can be ignored. It is also not enough to apply these to googlemail.com and
 		gmail.com type emails either, as Google Apps can run GMail with at least the +label feature for all different domains.';
 
-$helptxt['disableCustomPerPage'] = 'Check this option to stop users from customising the amount of messages and topics to display per page on the Message Index and Topic Display page respectively.';
+$txt['help_disableCustomPerPage'] = 'Check this option to stop users from customising the amount of messages and topics to display per page on the Message Index and Topic Display page respectively.';
 
-$helptxt['disableTemplateEval'] = 'By default, templates are included directly, rather than evaluated. Evaluating helps with showing more useful debug information in case a template contains an error.<br><br>
+$txt['help_disableTemplateEval'] = 'By default, templates are included directly, rather than evaluated. Evaluating helps with showing more useful debug information in case a template contains an error.<br><br>
 		On large forums however, this customised inclusion process may be significantly slower. Therefore, advanced users may wish to disable it.';
 
-$helptxt['attachment_image_paranoid'] = 'Selecting this option will enable very strict security checks on image attachments. Warning! These extensive checks can fail on valid images too. It is strongly recommended to only use this option together with image re-encoding, in order to have Wedge try to resample the images which fail the security checks: if successful, they will be sanitised and uploaded. Otherwise, if image re-encoding is not enabled, all attachments failing checks will be rejected.';
+$txt['help_attachment_image_paranoid'] = 'Selecting this option will enable very strict security checks on image attachments. Warning! These extensive checks can fail on valid images too. It is strongly recommended to only use this option together with image re-encoding, in order to have Wedge try to resample the images which fail the security checks: if successful, they will be sanitised and uploaded. Otherwise, if image re-encoding is not enabled, all attachments failing checks will be rejected.';
 
-$helptxt['avatar_paranoid'] = 'Selecting this option will enable very strict security checks on avatars. Warning! These extensive checks can fail on valid images too. It is strongly recommended to only use this option together with avatars re-encoding, in order to have Wedge try to resample the images which fail the security checks: if successful, they will be sanitised and uploaded. Otherwise, if re-encoding of avatars is not enabled, all avatars failing checks will be rejected.';
+$txt['help_avatar_paranoid'] = 'Selecting this option will enable very strict security checks on avatars. Warning! These extensive checks can fail on valid images too. It is strongly recommended to only use this option together with avatars re-encoding, in order to have Wedge try to resample the images which fail the security checks: if successful, they will be sanitised and uploaded. Otherwise, if re-encoding of avatars is not enabled, all avatars failing checks will be rejected.';
 
-$helptxt['emailmembers'] = 'In this message you can use a few "variables". These are:<br>
+$txt['help_emailmembers'] = 'In this message you can use a few "variables". These are:<br>
 	{$board_url} - The URL to your forum.<br>
 	{$current_time} - The current time.<br>
 	{$member.email} - The current member\'s email.<br>
@@ -74,12 +74,12 @@ $helptxt['emailmembers'] = 'In this message you can use a few "variables". These
 	{$latest_member.id} - The most recently registered member\'s id.<br>
 	{$latest_member.name} - The most recently registered member\'s name.';
 
-$helptxt['show_group_key'] = 'In the Who\'s Online area of the Info Centre, online users are shown and their name is shown in the colour of their group, as set in the group\'s own configuration. It can be useful to include a list of groups with their colours next to the list of names, to guide users as to whether more senior users are online - and this option enables that list. The order that names will be displayed in is the same as the order of badges as configured lower on this screen.';
+$txt['help_show_group_key'] = 'In the Who\'s Online area of the Info Centre, online users are shown and their name is shown in the colour of their group, as set in the group\'s own configuration. It can be useful to include a list of groups with their colours next to the list of names, to guide users as to whether more senior users are online - and this option enables that list. The order that names will be displayed in is the same as the order of badges as configured lower on this screen.';
 
-$helptxt['reverse_proxy'] = 'If you are using Bad Behaviour behind a reverse proxy, load balancer, HTTP accelerator, content cache or similar technology, enable this option.';
+$txt['help_reverse_proxy'] = 'If you are using Bad Behaviour behind a reverse proxy, load balancer, HTTP accelerator, content cache or similar technology, enable this option.';
 
 // Help popup for the Media tag...
-$helptxt['mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>
+$txt['help_mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>
 	It\'s here to make it easy for users to embed items into any place that accepts BBC tags, such as forum posts.
 	Here are a couple of quick examples:
 	<br><br><b>[media id=123 type=preview align=center width=400 caption="Hello, world!"]</b>
