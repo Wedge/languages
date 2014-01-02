@@ -59,7 +59,6 @@ $txt['themeadmin_list_tip'] = 'Rappelez-vous, les paramètres de disposition peu
 $txt['themeadmin_list_theme_dir'] = 'Répertoire des thèmes graphiques';
 $txt['themeadmin_list_invalid'] = '(attention, ce chemin est incorrect&#8239;!)';
 $txt['themeadmin_list_theme_url'] = 'URL vers le répertoire ci-dessus';
-$txt['themeadmin_list_images_url'] = 'URL vers le répertoire des images';
 $txt['themeadmin_list_reset'] = 'Réinitialiser l\'URL des thèmes et leur répertoire';
 $txt['themeadmin_list_reset_dir'] = 'Chemin absolu vers le répertoire des thèmes';
 $txt['themeadmin_list_reset_url'] = 'URL vers le répertoire de base commun';

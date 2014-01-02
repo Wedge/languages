@@ -59,7 +59,6 @@ $txt['themeadmin_list_tip'] = 'Beachte: die Layouteinstellungen können von Them
 $txt['themeadmin_list_theme_dir'] = 'Theme-Verzeichnis (Vorlagen)';
 $txt['themeadmin_list_invalid'] = '(Warnung: dieser Pfad ist ungültig!)';
 $txt['themeadmin_list_theme_url'] = 'URL zum oberen Verzeichnis';
-$txt['themeadmin_list_images_url'] = 'Bilder URL des Themes';
 $txt['themeadmin_list_reset'] = 'Theme-URLs und Verzeichnisse zurücksetzen';
 $txt['themeadmin_list_reset_dir'] = 'Basispfad zum Theme-Verzeichnis';
 $txt['themeadmin_list_reset_url'] = 'Basis URL zu diesem Verzeichnis';

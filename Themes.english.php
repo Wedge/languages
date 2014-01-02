@@ -59,7 +59,6 @@ $txt['themeadmin_list_tip'] = 'Remember, the layout settings may be different be
 $txt['themeadmin_list_theme_dir'] = 'Theme directory (templates)';
 $txt['themeadmin_list_invalid'] = '(warning, this path is not correct!)';
 $txt['themeadmin_list_theme_url'] = 'URL to above directory';
-$txt['themeadmin_list_images_url'] = 'URL to images directory';
 $txt['themeadmin_list_reset'] = 'Reset Theme URLs and Directories';
 $txt['themeadmin_list_reset_dir'] = 'Base path to Themes directory';
 $txt['themeadmin_list_reset_url'] = 'Base URL to the same directory';
