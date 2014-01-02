@@ -332,7 +332,7 @@ $txt['attach_add_path'] = 'Add Path';
 $txt['attach_path_current_bad'] = 'Invalid current attachment path.';
 
 $txt['mods_cat_avatars'] = 'Avatars';
-$txt['avatar_directory'] = 'Avatars directory';
+$txt['avatar_dir'] = 'Avatars directory';
 $txt['avatar_url'] = 'Avatars URL';
 $txt['avatar_dimension_note'] = '(0 = no limit)';
 $txt['avatar_max_width_external'] = 'Maximum width of external avatar';

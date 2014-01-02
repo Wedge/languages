@@ -332,7 +332,7 @@ $txt['attach_add_path'] = 'Pfad hinzufügen';
 $txt['attach_path_current_bad'] = 'Ungültiger aktueller Verzeichnispfad.';
 
 $txt['mods_cat_avatars'] = 'Avatare';
-$txt['avatar_directory'] = 'Avatar Verzeichnis';
+$txt['avatar_dir'] = 'Avatar Verzeichnis';
 $txt['avatar_url'] = 'Avatar URL';
 $txt['avatar_dimension_note'] = '(0 = Keine Beschränkung)';
 $txt['avatar_max_width_external'] = 'Maximale Breite von externen Avataren';
