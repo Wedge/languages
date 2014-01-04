@@ -118,12 +118,12 @@ $txt['likes_own_posts'] = 'Les utilisateurs peuvent aimer leurs propres messages
 $txt['boardurl'] = 'URL (adresse web) du forum';
 $txt['boarddir'] = 'Chemin vers le dossier Wedge';
 $txt['sourcedir'] = 'Chemin vers le dossier Sources';
-$txt['cachedir'] = 'Chemin vers le dossier Cache';
+$txt['cachedir'] = 'Chemin vers le dossier cache';
 $txt['pluginsdir'] = 'Chemin vers le dossier Plugins';
 $txt['pluginsurl'] = 'URL du dossier Plugins';
-$txt['theme_dir'] = 'Chemin vers le dossier Themes';
-$txt['theme_url'] = 'URL du dossier Themes';
-$txt['images_url'] = 'URL du dossier Images';
+$txt['theme_dir'] = 'Chemin vers le dossier du thème';
+$txt['theme_url'] = 'URL du dossier du thème';
+$txt['images_url'] = 'URL du dossier assets (images)';
 
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important&#8239;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br>
 	Wedge peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&#8239;:<br>

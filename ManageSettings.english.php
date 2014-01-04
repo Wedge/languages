@@ -118,12 +118,12 @@ $txt['likes_own_posts'] = 'Users can like their own posts';
 $txt['boardurl'] = 'Forum URL';
 $txt['boarddir'] = 'Path to Wedge folder';
 $txt['sourcedir'] = 'Path to Sources folder';
-$txt['cachedir'] = 'Path to Cache folder';
+$txt['cachedir'] = 'Path to cache folder';
 $txt['pluginsdir'] = 'Path to Plugins folder';
 $txt['pluginsurl'] = 'URL to Plugins folder';
-$txt['theme_dir'] = 'Path to Theme folder';
-$txt['theme_url'] = 'URL to Theme folder';
-$txt['images_url'] = 'URL to Images folder';
+$txt['theme_dir'] = 'Path to theme folder';
+$txt['theme_url'] = 'URL to theme folder';
+$txt['images_url'] = 'URL to assets folder';
 
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important! Read this first before enabling these features.</div><br>
 	Wedge supports caching through the use of accelerators. The currently supported accelerators include:<br>
