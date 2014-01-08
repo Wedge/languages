@@ -127,7 +127,7 @@ $txt['images_url'] = 'URL du dossier assets (images)';
 
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important&#8239;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br>
 	Wedge peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&#8239;:<br>
-	<ul class="normallist">
+	<ul class="list">
 		<li>APC</li>
 		<li>Memcached</li>
 		<li>Zend Platform/Performance Suite (pas Zend Optimizer)</li>

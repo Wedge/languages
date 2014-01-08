@@ -173,7 +173,7 @@ $txt['maintain_recountposts_desc'] = 'This will recalculate the post counts of a
 $txt['utf8_title'] = 'Convert the database and data to UTF-8';
 $txt['utf8_introduction'] = 'UTF-8 is an international character set covering nearly all languages around the world. Converting your database and data to UTF-8 can make it easier to support multiple languages on the same board. It also can enhance search and sorting capabilities for languages with non-latin characters.';
 $txt['utf8_warning'] = 'If you want to convert your data and database to UTF-8, be aware of the following:
-<ul class="normallist">
+<ul class="list">
 	<li>Converting character sets might be <em>harmful</em> for your data! Make sure you have backed up your database <em>before</em> converting.</li>
 	<li>Because UTF-8 is a richer character set than most other character sets, there\'s no way back, unless by restoring your database to before the conversion.</li>
 	<li>After converting your data and database to UTF-8, you will need UTF-8 compatible language files.</li>

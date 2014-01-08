@@ -18,17 +18,17 @@ $txt['help_manage_boards'] = '
 	sur plusieurs sujets tels que "Sports" et "Voitures" et "Musique", ces
 	titres seraient ceux des catégories que vous créeriez. Sous chacune de ces catégories vous voudriez assurément insérer, de manière hiérarchique, des <em>sous-catégories</em>,
 	ou "sections", pour des sujets les concernant. C\'est une simple hiérarchie, avec cette structure&#8239;: <br>
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Sports</strong>
 			&nbsp;- Une "catégorie"
 		</li>
-		<ul class="normallist">
+		<ul class="list">
 			<li>
 				<strong>Baseball</strong>
 				&nbsp;- Une section de la catégorie "Sports"
 			</li>
-			<ul class="normallist">
+			<ul class="list">
 				<li>
 					<strong>Stats</strong>
 					&nbsp;- Une sous-section de la section "Baseball"
@@ -68,7 +68,7 @@ $txt['help_need_deny_perm'] = '
 	sont exempts de toute interdiction.';
 
 $txt['help_edit_news'] = '
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Nouvelles</strong><br>
 			Cette partie vous permet de définir du contenu pour les news de la page d\'accueil.
@@ -85,7 +85,7 @@ $txt['help_edit_news'] = '
 	</ul>';
 
 $txt['help_view_members'] = '
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Voir tous les membres</strong><br>
 			Voir tous les membres dans votre forum. Il vous est présenté une liste d\'hyperliens avec les pseudos des membres. Vous pouvez cliquer
@@ -112,7 +112,7 @@ $txt['help_view_members'] = '
 
 $txt['help_ban_gmail_style'] = 'Google Mail, ou GMail, offre des fonctionnalités pratiques pour aider ses utilisateurs à organiser leurs comptes, qui peuvent aussi troubler
 	les systèmes de filtrage de bans classiques&#8239;:
-	<ul class="normallist">
+	<ul class="list">
 		<li>Les points dans le nom d\'utilisateur sont ignorés. Ainsi, jean.dupont@gmail.com renvoie au même compte que j.ean.d.u.pond@gmail.com ou même jeandupont@gmail.com.</li>
 		<li>Les utilisateurs peuvent ajouter un label "+" à leur nom d\'utilisateur pour aider à filtrer les mails. Par exemple, un mail envoyé à jeandupond+boulot@gmail.com
 			sera livré à jeandupond@gmail.com et le label +boulot peut être utilisé dans un filtre personnalisé.</li>
@@ -123,7 +123,7 @@ $txt['help_ban_gmail_style'] = 'Google Mail, ou GMail, offre des fonctionnalité
 $txt['help_no_hostname_ban'] = 'Les lookups de nom d\'hôte étant désactivés, tous les bans associés à un lookup sont également désactivés.';
 
 $txt['help_ban_email_types'] = 'Les e-mails peuvent être bannis de plusieurs façons.
-	<ul class="normallist">
+	<ul class="list">
 		<li>Une adresse ou plus - bannir des adresses individuelles, ou des types très précis d\'e-mail, comme trolleur@exemple.com. Ou, si le trolleur se crée des e-mails comme trolleur1@exemple.com et trolleur2@exemple.com, vous pouvez bannir trolleur*@exemple.com pour être tranquille.</li>
 		<li>Un domaine entier - si un indésirable possède son propre nom de domaine, il peut souvent utiliser l\'adresse de son choix. Vous pouvez donc bannir leur domaine entier, par exemple tout ce qui provient de @exemple.com, quel que soit ce qui le précède. Vous n\'avez qu\'à entrer le nom de domaine, et rien d\'autre.</li>
 		<li>Un TLD (ensemble de domaines) - certains ont noté une prédominance de spams provenant d\'adresses e-mail en .ru, mais sans domaine spécifique. Vous pouvez bannir tout ce qui provient de .ru par exemple, ou même toutes les adresses en .com.</li>
@@ -168,7 +168,7 @@ $txt['help_live_news'] = '
 $txt['help_registrations'] = '
 	Cette section contient toutes les fonctions nécessaires pour la gestion des nouvelles inscriptions sur votre forum. Elle peut contenir jusqu\'à trois
 	rubriques, visibles selon vos paramètres de forum. Celles-ci sont détaillés ci-dessous&#8239;:<br><br>
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Inscrire un nouveau membre</strong><br>
 			À partir de cet écran, vous pouvez inscrire un nouveau membre à sa place. Cette option peut être utile lorsque les nouvelles inscriptions sur le forum sont désactivées,
@@ -209,7 +209,7 @@ $txt['help_serversettings'] = '
 	options de configuration importantes tels que les paramètres d\'e-mail et de cache. Faites attention lors de la modification de ces paramètres,
 	ils pourraient rendre le forum inaccessible';
 $txt['help_manage_files'] = '
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Parcourir les Fichiers</strong><br>
 			Parcourir à travers tous les fichiers joints, avatars et vignettes stockés par Wedge.<br><br>
@@ -339,7 +339,7 @@ $txt['help_default_timezone'] = 'La zone horaire indique à PHP où se trouve le
 $txt['help_spamWaitTime'] = 'Ici vous pouvez spécifier le temps minimal requis entre deux envois de messages en provenance d\'un même utilisateur. Cette option peut être utilisée afin de contrer le pollupostage ("spamming").';
 
 $txt['help_enablePostHTML'] = 'Permet l\'utilisation de quelques balises HTML basiques&#8239;:
-	<ul class="normallist" style="margin-bottom: 0">
+	<ul class="list" style="margin-bottom: 0">
 		<li>&lt;b&gt;, &lt;u&gt;, &lt;i&gt;, &lt;s&gt;, &lt;em&gt;, &lt;ins&gt;, &lt;del&gt;</li>
 		<li>&lt;a href=""&gt;</li>
 		<li>&lt;img src="" alt=""&gt;</li>
@@ -382,7 +382,7 @@ $txt['help_disable_wysiwyg'] = 'Ce réglage désactivera l\'utilisation du WYSIW
 $txt['help_lastActive'] = 'Sélectionnez le nombre de minutes à afficher dans "Membres actifs dans les X dernières minutes", sur l\'accueil du forum. La valeur par défaut est de 15 minutes, et le maximum est d\'une journée.<br><br>Il est recommandé d\'éviter les valeurs trop élevées, qui pourraient ralentir votre forum mais peut aussi être perçues comme une tentative de faire croire que le forum est plus visité qu\'il ne l\'est réellement. Certains visiteurs le remarqueront et pourraient s\'en offusquer.';
 
 $txt['help_customoptions'] = 'Cette section définit les options qu\'un utilisateur peut choisir à partir d\'une liste déroulante. Il y a quelques points clés à noter pour cette section:
-	<ul class="normallist">
+	<ul class="list">
 		<li><strong>Option par défaut:</strong> L\'option que vous aurez choisie ici sera celle définie par défaut pour l\'utilisateur lorsqu\'il enregistrera son profil.</li>
 		<li><strong>Options à retirer:</strong> Pour retirer une option, laisser simplement vide la boite de texte de cette option - celle-ci sera automatiquement supprimée pour tous les utilisateurs l\'ayant précédemment sélectionnée.</li>
 		<li><strong>Réordonner les Options:</strong> Vous pouvez modifier l\'ordre des options en les déplacant. Remarque importante - Assurez-vous de ne <strong>pas</strong> modifier le texte de ces options lorsque vous en modifiez l\'ordre, sinon vous perdrez les données prélablement enregistrées par vos utilisateurs pour ces options.</li>
@@ -402,7 +402,7 @@ $txt['help_ignorable_boards'] = 'Cette option permet aux utilisateurs de marquer
 $txt['help_allow_ignore_topics'] = 'Cocher cette option permettra aux utilisateurs de sélectionner les sujets qu\'ils veulent ignorer dans les fonctions <em>Réponses non lues</em> et <em>Messages non lus</em>.';
 
 $txt['help_display_flags'] = 'En plus de la langue par défaut du forum, vous pouvez choisir une langue par défaut pour chaque section individuelle. Cette option vous permet de montrer ou non un drapeau représentant la langue par défaut sur la liste des sections&#8239;:
-	<ul class="normallist">
+	<ul class="list">
 		<li><strong>Non</strong> - ne montrer aucun drapeau.</li>
 		<li><strong>Uniquement pour les sections qui ont une langue par défaut</strong> - si une section a une langue par défaut spécifique, montrer le drapeau de cette langue à côté du nom de la section.</li>
 		<li><strong>Oui, pour toutes les sections</strong> - montrer le drapeau de la langue de chaque section à côté du nom de celle-ci, indiquant la langue qui sera utilisée (sauf bien sûr si l\'utilisateur a, lui-même, choisi une langue par défaut&#8239;; on est très conciliants, chez Wedge).</li>
@@ -417,7 +417,7 @@ $txt['help_pm_posts_verification'] = 'Cette option forcera les utilisateurs à e
 $txt['help_pm_posts_per_hour'] = 'Cette option limitera le nombre de messages personnels qui pourront être envoyés par un utilisateur en une heure de temps. Cela n\'affecte pas les admins ou modérateurs.';
 
 $txt['help_registration_method'] = 'Cette fonction détermine quelle méthode d\'inscription doit être adoptée pour les gens désirant rejoindre votre forum. Vous pouvez sélectionner un de ces choix&#8239;:<br><br>
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Inscription désactivée</strong><br>
 				Désactive les procédures d\'inscription, ce qui signifie que personne ne peut plus s\'inscrire sur votre forum.<br>
@@ -450,7 +450,7 @@ $txt['help_coppaAge'] = 'La valeur spécifiée dans ce champ détermine l\'àge 
 	À l\'inscription, il sera demandé aux membres de confirmer s\'ils ont plus que cet âge. Si ce n\'est pas le cas, leur inscription sera rejetée ou suspendue en attente d\'une autorisation parentale - en fonction des restrictions que vous spécifiez.
 	Si la valeur est 0 pour cette option toutes les restrictions d\'âge pour les prochaines inscriptions seront ignorées.';
 $txt['help_coppaType'] = 'Si la restriction d\'âge est active, ce paramètre définira ce qui se produit lorsqu\'un membre n\'ayant pas l\'âge minimum requis tente de s\'inscrire sur votre forum. Il existe deux choix possibles&#8239;:
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Rejeter son inscription&#8239;:</strong><br>
 				N\'importe quel nouvel adhérent n\'ayant pas l\'âge requis verra son inscription rejetée immédiatement.<br>
@@ -486,7 +486,7 @@ $txt['help_membergroup_regular_members'] = 'Les membres inscrits correspondent �
 $txt['help_membergroup_administrator'] = 'L\'administrateur peut, par définition, faire tout ce qu\'il veut et voir toutes les sections. Il n\'y a aucun réglage de permissions pour les administrateurs.';
 $txt['help_membergroup_moderator'] = 'Le groupe Modérateur est un groupe spécial. Les permissions et réglages pour ce groupe s\'appliquent aux modérateurs mais uniquement <em>dans la (ou les) section(s) qu\'ils modèrent</em>. Au dehors de ces sections, ils sont considérés comme n\'importe quel autre membre régulier.';
 $txt['help_membergroups'] = 'Dans Wedge, il y a deux types de groupes auquels vos membres peuvent appartenir. Ce sont&#8239;:
-	<ul class="normallist">
+	<ul class="list">
 		<li><strong>Groupes permanents&#8239;:</strong> Un groupe permanent est un groupe dans lequel un membre n\'est pas assigné automatiquement. Pour assigner un membre dans un groupe permanent, allez simplement dans son profil et cliquez sur "Paramètres relatifs au compte". Ici vous pouvez paramétrer les différents groupes permanents auxquels les membres peuvent appartenir.</li>
 		<li><strong>Groupes posteurs&#8239;:</strong> Au contraire des groupes permanents, un membre ne peut être manuellement assigné à un groupe posteur, basé sur le nombre de message. Les membres sont plutôt assignés automatiqement à un groupe posteur lorsqu\'ils ont atteint le nombre minimum de messages requis pour faire partie de ce groupe.</li>
 	</ul>';
@@ -542,7 +542,7 @@ $txt['help_posts_and_topics'] = '
 	</ul>';
 $txt['help_spider_group'] = 'En sélectionnant un groupe restrictif, lorsqu\'un invité est identifié comme moteur de recherche, certaines permissions lui seront niées (autrement dit "Interdites"), par rapport aux permissions normales d\'un invité. Vous pouvez utiliser ceci pour donner moins d\'accès à un moteur de recherche par rapport à un invité normal. Vous pouvez par exemple vouloir créer un nouveau groupe appelé "Robots" et le sélectionner ici. Vous pourriez donc interdire à ce groupe la permission de voir les profils pour empêcher l\'indexation par les robots des profils de vos membres.<br>Note: La détection des robots n\'est pas parfaite et peut être simulée par les utilisateurs, donc cette fonctionnalité n\'est pas garantie pour restreindre le contenu aux seuls moteurs de recherche que vous avez ajoutés.';
 $txt['help_show_spider_online'] = 'Ce paramètre vous permet de choisir si les robots seront montrés ou pas sur la liste des utilisateurs en ligne et la page "Qui est en ligne". Les options&#8239;:
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Pas du tout</strong><br>
 			Les robots seront montrés en tant qu\'invités aux autres utilisateurs.
@@ -569,7 +569,7 @@ $txt['help_postmod'] = 'Cette section permet aux membres de l\'équipe de modér
 $txt['help_field_show_enclosed'] = 'Entoure le texte entré par l\'utilisateur par du texte ou du HTML, vous permettant d\'ajouter des fournisseurs de messagerie instantanée supplémentaires, des images ou intégrations multimédia, etc. Par exemple&#8239;:<br><br>
 		&lt;a href="http://website.com/{INPUT}"&gt;&lt;img src="{DEFAULT_IMAGES_URL}/icon.gif" alt="{INPUT}"&gt;&lt;/a&gt;<br><br>
 		À noter que vous pouvez utiliser les variables suivantes&#8239;:<br>
-		<ul class="normallist">
+		<ul class="list">
 			<li>{INPUT} - Le texte entré par l\'utilisateur.</li>
 			<li>{SCRIPTURL} - Adresse web (URL) du forum.</li>
 			<li>{IMAGES_URL} - URL du dossier images dans le thème actuel de l\'utilisateur.</li>
@@ -626,13 +626,13 @@ $txt['help_mediatag'] = '<h2>Le tag [media] et autres joyeusetés.</h2>
 	<br><br>
 	<h2>Paramètres disponibles</h2>
 	<b>id</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li>Tous les éléments sont identifiés par un numéro dédié que vous pouvez voir dans leur adresse. Indiquez-le ici. C\'est le seul paramètre obligatoire. Je sais, c\'est moche. C\'est la vie.
 		Mais faites pas cette tête, vous pouvez quand même spécifier plusieurs éléments en les séparant par une virgule, comme dans "[media id=1,2,3 type=album]".</li>
 	</ul>
 	<br>
 	<b>type</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li><b>normal</b> (défaut, sauf si configuré différemment) - afficher la vignette. Cliquez dessus pour voir son aperçu.</li>
 		<li><b>av</b> - afficher la vidéo ou le fichier audio dans le lecteur adéquat. Si vous ne précisez pas ce paramètre, la vignette habituelle sera affichée, mais en cliquant dessus, c\'est le fichier complet qui sera chargé, brut. Pas classe, pas classe du tout.</li>
 		<li><b>box</b> - afficher la vignette complète, avec tous ses détails, comme sur les pages de galerie. Cliquez sur la vignette pour aller vers la page consacrée à l\'élément.</li>
@@ -643,7 +643,7 @@ $txt['help_mediatag'] = '<h2>Le tag [media] et autres joyeusetés.</h2>
 	</ul>
 	<br>
 	<b>align</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li><b>none</b> (défaut) - alignement normal. Les vignettes environnantes sont repoussées à la ligne suivante ou précédente.</li>
 		<li><b>left</b> - aligner la vignette à gauche. Utilisez plusieurs tags [media] alignés ainsi pour montrer les vignettes côte-à-côte.</li>
 		<li><b>center</b> - aligner la vignette au centre. Pour afficher une vignette à gauche, une au milieu et une à droite, insérez-les dans cet ordre : [media align=left][media align=right][media align=center]</li>
@@ -651,13 +651,13 @@ $txt['help_mediatag'] = '<h2>Le tag [media] et autres joyeusetés.</h2>
 	</ul>
 	<br>
 	<b>width</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li>Utilisez ce paramètre pour forcer la largeur d\'une vignette à la dimension désirée. Indiquez un nombre supérieur à zéro.</li>
 		<li>Réglez le paramètre <em>type</em> selon vos besoins. Ainsi, si vos vignettes ont pour largeur par défaut 120 pixels, et vos aperçus 500 pixels, utilisez [media type=preview] si vous forcez une largeur supérieure à 300 pixels, pour éviter un effet de flou trop visible.</li>
 	</ul>
 	<br>
 	<b>caption</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li>Affiche un texte descriptif sous la vignette. Si le type est défini à <em>link</em>, le texte sera cliquable et vous mènera à la page consacrée à l\'élément.</li>
 		<li>Entrez ce que vous voulez. Si votre texte contient des espaces ou des crochets, assurez-vous de l\'entourer de "guillemets". Sinon, ça fait tout n\'importe quoi, et c\'est encore Bibi qui doit s\'y coller pour faire le ménage.</li>
 	</ul>';

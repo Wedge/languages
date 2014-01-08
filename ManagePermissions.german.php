@@ -98,7 +98,7 @@ $txt['permissionhelp_auto_save_pm_draft'] = 'Diese Berechtigung, kombiniert mit 
 
 $txt['permissiongroup_maintenance'] = 'Forum-Administration';
 $txt['permissionname_admin_forum'] = 'Forum und Datenbank administrieren';
-$txt['permissionhelp_admin_forum'] = 'Diese Berechtigung erlaubt es den Usern :<ul class="normallist"><li>Forum-, Datenbank- und Themeeinstellungen zu verändern</li><li>verwalten von Plugins</li><li>Verwendung der Wartungs-Tools</li><li>Ansicht der Fehler- und Moderationsprotokolle</li></ul> Verwende diese Berechtigung mit größter Sorgfalt, denn diese Berechtigung verleiht einem User weitreichende Berechtigungen.';
+$txt['permissionhelp_admin_forum'] = 'Diese Berechtigung erlaubt es den Usern :<ul class="list"><li>Forum-, Datenbank- und Themeeinstellungen zu verändern</li><li>verwalten von Plugins</li><li>Verwendung der Wartungs-Tools</li><li>Ansicht der Fehler- und Moderationsprotokolle</li></ul> Verwende diese Berechtigung mit größter Sorgfalt, denn diese Berechtigung verleiht einem User weitreichende Berechtigungen.';
 $txt['permissionname_manage_boards'] = 'Foren und Kategorien verwalten';
 $txt['permissionhelp_manage_boards'] = 'Diese Berechtigung erlaubt das Erstellen, ändern und löschen von Foren und Kategorien.';
 $txt['permissionname_manage_attachments'] = 'Dateianhänge und Avatare verwalten';
@@ -112,7 +112,7 @@ $txt['permissionhelp_access_mod_center'] = 'Mit dieser Berechtigung können alle
 
 $txt['permissiongroup_member_admin'] = 'Mitglieder-Administration';
 $txt['permissionname_moderate_forum'] = 'Moderation von Mitgliedern';
-$txt['permissionhelp_moderate_forum'] = 'Diese Berechtigung verleiht alle wichtigen Funktionen um Mitglieder moderieren zu können:<ul class="normallist"><li>Zugang zum Registrationsmanagement</li><li>Zugang zum löschen von Benutzerprofilen</li><li>Weitreichende Profilinformationen, inklusive der IP-Adressverfolgung und der Ausheblung der versteckt Funktion für Mitglieder:</li><li>Benutzerkonten aktivieren</li><li>Benachrichtigungen über zu bestätigende Benutzerkonten empfangen</li><li>Können keine Privaten Nachrichten ignorieren</li><li>einige weitere Funktionen</li></ul>';
+$txt['permissionhelp_moderate_forum'] = 'Diese Berechtigung verleiht alle wichtigen Funktionen um Mitglieder moderieren zu können:<ul class="list"><li>Zugang zum Registrationsmanagement</li><li>Zugang zum löschen von Benutzerprofilen</li><li>Weitreichende Profilinformationen, inklusive der IP-Adressverfolgung und der Ausheblung der versteckt Funktion für Mitglieder:</li><li>Benutzerkonten aktivieren</li><li>Benachrichtigungen über zu bestätigende Benutzerkonten empfangen</li><li>Können keine Privaten Nachrichten ignorieren</li><li>einige weitere Funktionen</li></ul>';
 $txt['permissionname_manage_membergroups'] = 'Mitgliedergruppen verwalten und zuweisen';
 $txt['permissionhelp_manage_membergroups'] = 'Diese Berechtigung erlaubt dem User Mitgliedergruppen zu bearbeiten und Mitglieder zu einer Gruppe hinzuzufügen.';
 $txt['permissionname_manage_permissions'] = 'Berechtigungen verwalten';

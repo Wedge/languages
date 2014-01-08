@@ -8,17 +8,17 @@ $txt['help_manage_boards'] = '
 	would be the top-level Categories you\'d create. Under each of these
 	categories you\'d likely want to create hierarchical "sub-categories",
 	or "Boards" for topics within each. It\'s a simple hierarchy, with this structure: <br>
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Sports</strong>
 			&nbsp;- A "category"
 		</li>
-		<ul class="normallist">
+		<ul class="list">
 			<li>
 				<strong>Cricket</strong>
 				&nbsp;- A board under the category of "Sports"
 			</li>
-			<ul class="normallist">
+			<ul class="list">
 				<li>
 					<strong>Stats</strong>
 					&nbsp;- A sub-board under the board of "Cricket"
@@ -46,7 +46,7 @@ $txt['help_manage_boards'] = '
 
 $txt['help_ban_gmail_style'] = 'Google Mail, or GMail, offers features for convenience to its members for organising email, which can confuse
 	typical ban filtering systems:
-	<ul class="normallist">
+	<ul class="list">
 		<li>Periods in the username are ignored - joe.bloggs@gmail.com is exactly the same as j.o.e.b.l.o.g.g.s@gmail.com and also joebloggs@gmail.com.</li>
 		<li>Users can add +label to the "user" part of the address for filtering email, for example joebloggs+work@gmail.com will still deliver to
 			joebloggs@gmail.com and that +work part can be used to organise mail.</li>
@@ -96,13 +96,13 @@ $txt['help_mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>
 	<br><br>
 	<h2>Available parameters</h2>
 	<b>id</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li>All items are identified by a specific number which you can see in its URL. Just use it here. This is the only parameter that is <b>NOT</b> optional.
 		You may specify several items by separating them with commas, as in "[media id=1,2,3 type=album]".</li>
 	</ul>
 	<br>
 	<b>type</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li><b>normal</b> (default, except if set up differently) - show the thumbnail. Click on it to show a preview.</li>
 		<li><b>av</b> - embed an audio or video item within a player. If you do not use this parameter, the item\'s thumbnail will show up as expected, but clicking on it will load the file directly. You don\'t want that to happen. Really.</li>
 		<li><b>box</b> - show the thumbnail box, with full details, as in the Media Gallery pages. Clicking on the thumbnail will lead you to the item page.</li>
@@ -113,7 +113,7 @@ $txt['help_mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>
 	</ul>
 	<br>
 	<b>align</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li><b>none</b> (default) - normal alignment. Will not allow thumbnails to its right or left.</li>
 		<li><b>left</b> - left-align the thumbnail. Use several left-aligned [media] tags to show thumbnails next to each other.</li>
 		<li><b>center</b> - centre-align the thumbnail. Will not allow thumbnails to its right or left, except if showing them in this order: [media align=left][media align=right][media align=center]</li>
@@ -121,13 +121,13 @@ $txt['help_mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>
 	</ul>
 	<br>
 	<b>width</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li>Any number higher than zero will do. This parameter is only needed if you want to force a specific width.</li>
 		<li>Set the tag type according to the desired size. For instance, if your thumbnails have a default width of 120, and previews are 500 pixels wide, use [media type=preview] if you\'re forcing a width of 300 to 500 pixels, otherwise the resulting thumbnail will be very blurry.</li>
 	</ul>
 	<br>
 	<b>caption</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li>Show a caption below the thumbnail (if type is set to link, the caption will be clickable and lead you to the item page.)</li>
 		<li>Any string will do. If it contains spaces or brackets, be sure to enclose it between "double quotes".</li>
 	</ul>';

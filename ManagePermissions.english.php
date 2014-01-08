@@ -98,7 +98,7 @@ $txt['permissionhelp_auto_save_pm_draft'] = 'This permission, when combined with
 
 $txt['permissiongroup_maintenance'] = 'Forum administration';
 $txt['permissionname_admin_forum'] = 'Administrate forum and database';
-$txt['permissionhelp_admin_forum'] = 'This permission allows a user to:<ul class="normallist"><li>change forum, database and theme settings</li><li>manage plugins</li><li>use the forum and database maintenance tools</li><li>view the error and mod logs</li></ul> Use this permission with caution, as it is very powerful.';
+$txt['permissionhelp_admin_forum'] = 'This permission allows a user to:<ul class="list"><li>change forum, database and theme settings</li><li>manage plugins</li><li>use the forum and database maintenance tools</li><li>view the error and mod logs</li></ul> Use this permission with caution, as it is very powerful.';
 $txt['permissionname_manage_boards'] = 'Manage boards and categories';
 $txt['permissionhelp_manage_boards'] = 'This permission allows creation, editing and removal of boards and categories.';
 $txt['permissionname_manage_attachments'] = 'Manage attachments and avatars';
@@ -112,7 +112,7 @@ $txt['permissionhelp_access_mod_center'] = 'With this permission any members of 
 
 $txt['permissiongroup_member_admin'] = 'Member administration';
 $txt['permissionname_moderate_forum'] = 'Moderate forum members';
-$txt['permissionhelp_moderate_forum'] = 'This permission includes all important member moderation functions:<ul class="normallist"><li>access to registration management</li><li>access to the view/delete members screen</li><li>extensive profile info, including track IP/user and (hidden) online status</li><li>activate accounts</li><li>get approval notifications and approve accounts</li><li>immune to ignore PM</li><li>several small things</li></ul>';
+$txt['permissionhelp_moderate_forum'] = 'This permission includes all important member moderation functions:<ul class="list"><li>access to registration management</li><li>access to the view/delete members screen</li><li>extensive profile info, including track IP/user and (hidden) online status</li><li>activate accounts</li><li>get approval notifications and approve accounts</li><li>immune to ignore PM</li><li>several small things</li></ul>';
 $txt['permissionname_manage_membergroups'] = 'Manage and assign membergroups';
 $txt['permissionhelp_manage_membergroups'] = 'This permission allows a user to edit membergroups and assign membergroups to other members.';
 $txt['permissionname_manage_permissions'] = 'Manage permissions';

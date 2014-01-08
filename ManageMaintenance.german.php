@@ -173,7 +173,7 @@ $txt['maintain_recountposts_desc'] = 'Diese Funktion berechnet die Beiträge all
 $txt['utf8_title'] = 'Datenbank nach UTF-8 konvertieren';
 $txt['utf8_introduction'] = 'UTF-8 ist ein internationaler Zeichensatz der eigentlich alle Sprachen auf der Welt abdeckt. Die Konvetierung zu UTF-8 ermöglicht die Unterstützung verschiedener Sprachen in einem Forum. Zusätzlich kann es die Suchfunktion für andere Sprachen als Latin erweitern.';
 $txt['utf8_warning'] = 'Falls due deine Datenbank nach UTF-8 konvertieren möchtest, beachte bitte folgede Hinweise:
-<ul class="normallist">
+<ul class="list">
 	<li>Das Konvertieren von Zeichensätzen kann <em>gefährlich</em> für deine Daten sein! Erstelle eine Datensicherung der Datenbank <em>for</em> der Konvertierung.</li>
 	<li>Da UTF-8 einen weitreichenderen Zeichensatz enthält als andere Sprachen, ist eine Umkehrung des Prozesses nicht mehr möglich. Mit Ausnahme der Wiederherstellung deiner Daten durch die zuvor erstellte Datensicherung.</li>
 	<li>Nach der Konvertierung auf UTF-8 benötigst du UTF-8 kompatible Sprachdateien.</li>

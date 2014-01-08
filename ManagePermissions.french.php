@@ -98,7 +98,7 @@ $txt['permissionhelp_auto_save_pm_draft'] = 'Cette permission, si elle est combi
 
 $txt['permissiongroup_maintenance'] = 'Administration du forum';
 $txt['permissionname_admin_forum'] = 'Administrer le forum et la base de données';
-$txt['permissionhelp_admin_forum'] = 'Cette permission autorise un utilisateur à&#8239;:<ul class="normallist"><li>modifier les paramètres du forum, de la base de données et du thème</li><li>gérer les extensions</li><li>utiliser les outils de maintenance du forum et de la base de données</li><li>voir le Journal de Modération et d\'Erreurs.</li></ul> Utilisez cette permission avec précaution, elle est très puissante.';
+$txt['permissionhelp_admin_forum'] = 'Cette permission autorise un utilisateur à&#8239;:<ul class="list"><li>modifier les paramètres du forum, de la base de données et du thème</li><li>gérer les extensions</li><li>utiliser les outils de maintenance du forum et de la base de données</li><li>voir le Journal de Modération et d\'Erreurs.</li></ul> Utilisez cette permission avec précaution, elle est très puissante.';
 $txt['permissionname_manage_boards'] = 'Gestion des sites et catégories';
 $txt['permissionhelp_manage_boards'] = 'Cette permission autorise la création, la modification et la suppression des sites et catégories.';
 $txt['permissionname_manage_attachments'] = 'Gestion des fichiers joints et avatars';
@@ -112,7 +112,7 @@ $txt['permissionhelp_access_mod_center'] = 'Avec cette permission, tous les memb
 
 $txt['permissiongroup_member_admin'] = 'Administration des membres';
 $txt['permissionname_moderate_forum'] = 'Gestion des membres du forum';
-$txt['permissionhelp_moderate_forum'] = 'Cette permission inclut toutes les fonctions importantes de modération des membres&#8239;:<ul class="normallist"><li>accès aux inscriptions</li><li>accès au panneau de gestion des membres</li><li>accès aux informations de profil étendu, ainsi qu\'à la traque des adresses IP et utilisateurs et au statut invisible</li><li>activation de comptes</li><li>réception des notifications d\'inscription et approbation des inscriptions</li><li>immunité contre le rejet des MP</li><li>plusieurs autres caractéristiques.</li></ul>';
+$txt['permissionhelp_moderate_forum'] = 'Cette permission inclut toutes les fonctions importantes de modération des membres&#8239;:<ul class="list"><li>accès aux inscriptions</li><li>accès au panneau de gestion des membres</li><li>accès aux informations de profil étendu, ainsi qu\'à la traque des adresses IP et utilisateurs et au statut invisible</li><li>activation de comptes</li><li>réception des notifications d\'inscription et approbation des inscriptions</li><li>immunité contre le rejet des MP</li><li>plusieurs autres caractéristiques.</li></ul>';
 $txt['permissionname_manage_membergroups'] = 'Gestion et assignation des groupes de membres';
 $txt['permissionhelp_manage_membergroups'] = 'Cette permission permet à l\'utilisateur de modifier les groupes de membres et d\'assigner des membres à certains groupes.';
 $txt['permissionname_manage_permissions'] = 'Gestion des permissions';

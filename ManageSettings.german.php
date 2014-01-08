@@ -127,7 +127,7 @@ $txt['images_url'] = 'Die Bild-URL dieses Themes';
 
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Wichtig! Vor der Aktivierung dieser Funktionen bitte gründlich lesen.</div><br>
 	Wedge unterstützt das Caching durch verschiedene Beschleuniger (OPC). Die zur Zeit unterstützen Beschleuniger:<br>
-	<ul class="normallist">
+	<ul class="list">
 		<li>APC</li>
 		<li>Memcached</li>
 		<li>Zend Platform/Performance Suite (Nicht mehr den Zend Optimizer)</li>

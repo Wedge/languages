@@ -16,17 +16,17 @@ $txt['help_manage_boards'] = '
 	Diese Themen sind die Hauptkategorien, die du für dein Forum erstellen möchtest.
 	Für jede Hauptkategorie können Unterkategorien und Foren erstellt werden.
 	Es handelt sich um eine simple Hierarchie:<br>
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Sport</strong>
 			&nbsp;- Eine "Kategorie"
 		</li>
-		<ul class="normallist">
+		<ul class="list">
 			<li>
 				<strong>Fußball</strong>
 				&nbsp;- Ein Forum in der Kategorie "Sport"
 			</li>
-			<ul class="normallist">
+			<ul class="list">
 				<li>
 					<strong>Spielergebnisse</strong>
 					&nbsp;- Ein Unterforum von "Fußball"
@@ -55,7 +55,7 @@ $txt['help_need_deny_perm'] = '
 	Mit Ausnahme von Administratoren.';
 
 $txt['help_edit_news'] = '
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 	<strong>News</strong><br>
 	Dieser Bereich erlaubt dir den Inhalt der News auf der Hauptseite des Forums festzulegen.
@@ -73,7 +73,7 @@ $txt['help_edit_news'] = '
 	</ul>';
 
 $txt['help_view_members'] = '
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Alle Mitglieder anzeigen</strong><br>
 			Hier kannst du alle Mitglieder sehen, welche im Forum registriert sind. Durch den Klick auf 
@@ -101,7 +101,7 @@ $txt['help_view_members'] = '
 
 $txt['help_ban_gmail_style'] = 'Google Mail, oder GMail, bieten ihren Mitgliedern einige Bequemlichkeiten, ihre Mailkonten zu verwalten.
 	Dies kann das sperren (Bannen) kompliziert machen:
-	<ul class="normallist">
+	<ul class="list">
 		<li>Punkte in Benutzernamen werden ignoriert - joe.bloggs@gmail.com ist exakt identisch mit j.o.e.b.l.o.g.g.s@gmail.com und ebenfalls joebloggs@gmail.com.</li>
 		<li>Benutzer können ein "+" Label zu ihren Mailadressen hinzufügen, um Mails zu filtern. Zum Beispiel:  joebloggs+work@gmail.com 
 			wird weiterhin nach joebloggs@gmail.com ausgeliefert und das +work Label kann dazu verwendet werden, eingehende Mails zu sortieren.</li>
@@ -112,7 +112,7 @@ $txt['help_ban_gmail_style'] = 'Google Mail, oder GMail, bieten ihren Mitglieder
 $txt['help_no_hostname_ban'] = 'Die Suche nach Hostnamen wurde deaktiviert. Damit werden auch alle Sperren auf Hostnamen deaktiviert.';
 
 $txt['help_ban_email_types'] = 'Emails können auf unterschiedliche Art und Weise gesperrt werden.
-	<ul class="normallist">
+	<ul class="list">
 		<li>Die Angabe von einer oder mehrerer Adressen - kann verwendet werden, um bestimmte Emailadressen zu sperren. Zum Beispiel: troublemaker@example. Auch die Verwendung von Wildcards sind möglich. Wenn die zu sperrende Emailadresse
 		zum Beispiel: troublemaker1@example.com und troublemaker2@example.com enthält, können durch troublemaker*@example.com alle Emailadresse dieses Typs gesperrt werden.</li>
 		<li>Eine komplette Domain - Sollte ein Störenfried einen eigenen Domainnamen verwenden, ist die Sperre relativ einfach anzuwenden. Sollte die Domain z.B. example.com sein, wird unabhängig vom vorangestellten @ alles von dieser Domain blockiert.
@@ -162,7 +162,7 @@ $txt['help_live_news'] = '
 $txt['help_registrations'] = '
 	Hier findest du alle Funktionen, die zur Verwaltung neuer Mitglieder benötigt werden. Es gibt verschiedene Bereiche,
 	die je nach Einstellungen des Forums sichtbar sind::<br><br>
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Neues Mitglied registrieren</strong><br>
 			Über diesen Bereich kannst du neue Mitglieder registrieren. Diese Funktion ist nützlich bei deaktivierter
@@ -203,7 +203,7 @@ $txt['help_serversettings'] = '
 	die Verzeichnispfade, wie auch andere wichtige Einstellungen zu Email-Servern und dem Cache. Bitte diese Einstellungen nur mit äußerster Vorsicht vornehmen,
 	da sonst das Forum unter Umständen nicht mehr funktionieren kann.';
 $txt['help_manage_files'] = '
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Dateien durchsuchen</strong><br>
 			Dateien und Bildanhänge durchsuchen, die auf diesem Server gespeichert wurden.<br><br>
@@ -377,7 +377,7 @@ $txt['help_ignorable_boards'] = 'Diese Option erlaubt den Benutzern bestimmte Fo
 $txt['help_allow_ignore_topics'] = 'Diese Option erlaubt den Benutzern bestimmte Themen zu ignorieren, die nicht mehr in den <em>Ungelesenen Antworten</em> und <em>Ungelesenen Beiträgen</em> erscheinen.';
 
 $txt['help_display_flags'] = 'Als Zusatz zur Standardsprache des Forums, können auch die verschiedenen Foren einer Sprache mit Anzeige einer Flagge zugeordnet werden:
-	<ul class="normallist">
+	<ul class="list">
 		<li><strong>Keine Flaggen</strong> - Es wird keine Flagge auf der Foren-Hauptseite angezeigt.</li>
 		<li><strong>Flaggen für Foren, die einer Sprache zugeordnet sind</strong> - Wenn ein Forum eine vordefinierte Sprache eingestellt hat, wird eine Flagge auf der Foren-Hauptseite neben dem Namen des entsprechenden Forums angezeigt.</li>
 		<li><strong>Flaggen für alle Foren</strong> - Zeigt Flaggen für alle Foren neben ihren Namen an. Abhängig von der Sprachauswahl der User</li>
@@ -392,7 +392,7 @@ $txt['help_pm_posts_verification'] = 'Diese Option zwingt den Benutzer, einen Co
 $txt['help_pm_posts_per_hour'] = 'Diese Einstellung limitiert die Anzahl der Privaten Mitteilungen, die von einem Benutzer in einer Stunde versendet werden können. Sie betrifft nicht Administratoren oder Moderatoren.';
 
 $txt['help_registration_method'] = 'Diese Option stellt verschiedene Möglichkeiten der Registrierung zur Verfügung. Die Auswahl sieht wie folgt aus:<br /><br />
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<b>Sofortige Registrierung</b><br />
 				Neue Mitglieder können sich sofort anmelden und Beiträge schreiben, nachdem Sie sich registriert haben.<br />
@@ -514,7 +514,7 @@ $txt['help_posts_and_topics'] = '
 $txt['help_spider_group'] = 'Wenn ein Gast als Suchmaschine erkannt wird und einer Gruppe zugeordnet wird, kannst du den Umfang des Zugriffs bequem über die Berechtigungen steuern. So können Suchmaschinen einen erweiterten Zugriff ermöglicht werden, wie z.B. normalen Gästen. Du kannst z.B. eine neue Gruppe mit dem Namen "Bots" erstellen und diese hier auswählen. Danach entziehst du dieser Gruppe die Berechtigung um Profile anzuschauen, um die Benutzerdaten zu schützen.<br />Achtung: Das Erkennen der Suchmaschinen arbeitet nie perfekt und kann von anderen Benutzern simuliert werden, um trotzdem einen erweiterten Zugriff (wenn eingestellt) wie normale Gäste zu bekommen.';
 $txt['help_show_spider_online'] = 'Diese Einstellung erlaubt dir zu wählen, ob "Spiders" (Bots, die z.B. deine Seiten für Suchmaschinen indexieren) in der Wer ist online Liste auf der Forums Hauptseite und "Wer ist online" Seite angezeigt werden.
 Die Optionen sind:
-<ul class="normallist">
+<ul class="list">
 <li>
 <b>Überhaupt nicht</b><br />
 Spider erscheinen als Gäste.</li>
@@ -537,7 +537,7 @@ $txt['help_postmod'] = 'Diese Sektion erlaubt es Mitgliedern des Moderatoren-Tea
 $txt['help_field_show_enclosed'] = 'Umschließt die Benutzereingaben mit Text oder HTML. Dies erlaubt es weitere Sofortnachrichtenquellen, Bilder, Einbettungen oder Ähnliches hinzuzufügen. Beispielsweise:<br/><br/>
 		&lt;a href="http://www.wedge.org/{INPUT}"&gt;&lt;img src="{DEFAULT_IMAGES_URL}/icon.gif" alt="{INPUT}" /&gt;&lt;/a&gt;<br /><br />
 		Beachte, dass folgende Variablen verwendet werden können:<br />
-		<ul class="normallist">
+		<ul class="list">
 			<li>{INPUT} - Die Eingabe des Benutzers.</li>
 			<li>{SCRIPTURL} - Web-Adresse des Forums.</li>
 			<li>{IMAGES_URL} - URL zum Bilder-Verzeichnis des vom Benutzer aktuell verwendeten Themes.</li>
@@ -590,13 +590,13 @@ $txt['help_mediatag'] = '<h2>Was hat es mit dem [media] tag auf sich?</h2>
 	<br><br>
 	<h2>Verfügbare Parameter</h2>
 	<b>id</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li>Alle Dateien werden durch eine bestimmte Nummer identifiziert, die in der URL sichtbar ist. Die ID ist der einzige Parameter, der <b>NICHT</b> optional ist.
 		Du kannst verschiedene Dateien auf diese Art und Weise spezifizieren. Diese werden durch ein Komma als Trennzeichen voneinander getrennt: "[media id=1,2,3 type=album]".</li>
 	</ul>
 	<br>
 	<b>Typ</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li><b>normal</b> (Standard, außer bei entsprechender Einrichtung) - Schaue auf das Thumbnail. Klicke auf das Thumbnail um ein Vorschaubild zu erhalten.</li>
 		<li><b>av</b> - Bettet eine Video- oder Audiodatei in einen Player ein. Wenn du diesen Parameter nicht verwenden solltest, wird das Thumbnail angezeigt (wie erwartet). Allerdings wird beim Klick auf das Thumbnail die komplette Datei heruntergeladen. Ist nicht wirklich schön...</li>
 		<li><b>box</b> - Zeige die Thumbnail-Box. Mit allen Details wie in der Media-Galerie. Der Klick auf das Thumbnail leitet dich zu der entsprechenden Seite der Datei.</li>
@@ -607,7 +607,7 @@ $txt['help_mediatag'] = '<h2>Was hat es mit dem [media] tag auf sich?</h2>
 	</ul>
 	<br>
 	<b>align</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li><b>none</b> (Standard) - Normale Ausrichtung. Erlaubt keine Thumbnails rechts oder links daneben.</li>
 		<li><b>left</b> - Richtet das Thumbnail links aus. Verwende mehrere left-aligned [media] Tags um Thumbnails nebeneinander anzuzeigen.</li>
 		<li><b>center</b> - Zentriert das Thumbnail. Erlaubt keine Thumbnails rechts oder links daneben. Eine Ausnahme bildet die folgende Anordnung: [media align=left][media align=right][media align=center]</li>
@@ -615,13 +615,13 @@ $txt['help_mediatag'] = '<h2>Was hat es mit dem [media] tag auf sich?</h2>
 	</ul>
 	<br>
 	<b>width</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li>Eine beliebige Zahl die größer als 0 ist. Dieser Parameter wird nur dann benötigt, wenn eine bestimmte Breite festgelegt werden soll.</li>
 		<li>In den dementsprechenden Tag-Typ die gewünschte Größe eingeben. Zum Beispiel: wenn deine Thumbnails eine Breite von 120 Px haben und die Vorschaudateien sind 500 Px breit, verwende [media type=preview] wenn du eine Breite zwischen 300 bis 500 Px festkegen möchtest. Andernfalls sieht das Thumbnail sehr unscharf und verpixelt aus.</li>
 	</ul>
 	<br>
 	<b>caption</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li>Zeigt einen Titel unter dem Thumbnail (Wenn der Typ auf Link gesetzt wurde, wird der Titel anklickbar und leitet dich zur Seite der Datei.)</li>
 		<li>Eine beliebige Zeichenfolge ist hier möglich. Wenn die Zeichenfolge Leerzeichen oder Klammern enthalten sollte, achte darauf sie in "doppelte Anführungszeichen" zu setzen.</li>
 	</ul>';

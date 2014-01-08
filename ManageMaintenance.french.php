@@ -173,7 +173,7 @@ $txt['maintain_recountposts_desc'] = 'Recalcule le nombre de messages de chaque 
 $txt['utf8_title'] = 'Convertir la base de données et les données en UTF-8';
 $txt['utf8_introduction'] = 'L\'UTF-8 est un jeu de caractères international couvrant presque toutes les langues du monde. Convertir votre base de données et vos données en UTF-8 peut vous permettre un support plus facile de langues multiples sur le même forum. Cela peut aussi améliorer la recherche avec des langues basées sur des caractères non latins.';
 $txt['utf8_warning'] = 'Si vous voulez convertir vos données et votre base en UTF-8, veuillez faire attention à ce qui suit&#8239;:
-<ul class="normallist">
+<ul class="list">
 	<li>Convertir des jeux de caractères peut être <em>nocif</em> pour vos données&#8239;! Soyez sûr d\'avoir fait une sauvegarde de votre base de données <em>avant</em> de convertir.</li>
 	<li>Comme l\'UTF-8 est un jeu de caractères plus riche que les autres, il est impossible de revenir en arrière. à part restaurer la sauvegarde de votre base de données faite avant la conversion.</li>
 	<li>Après avoir converti votre base de données et vos données en UTF-8, vous devrez utiliser des fichiers de langue compatibles UTF-8.</li>

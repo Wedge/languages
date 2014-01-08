@@ -127,7 +127,7 @@ $txt['images_url'] = 'URL to assets folder';
 
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important! Read this first before enabling these features.</div><br>
 	Wedge supports caching through the use of accelerators. The currently supported accelerators include:<br>
-	<ul class="normallist">
+	<ul class="list">
 		<li>APC</li>
 		<li>Memcached</li>
 		<li>Zend Platform/Performance Suite (not Zend Optimizer)</li>

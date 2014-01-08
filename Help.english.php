@@ -21,17 +21,17 @@ $txt['help_manage_boards'] = '
 	would be the top-level Categories you\'d create. Under each of these
 	categories you\'d likely want to create hierarchical "sub-categories",
 	or "Boards" for topics within each. It\'s a simple hierarchy, with this structure: <br>
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Sports</strong>
 			&nbsp;- A "category"
 		</li>
-		<ul class="normallist">
+		<ul class="list">
 			<li>
 				<strong>Baseball</strong>
 				&nbsp;- A board under the category of "Sports"
 			</li>
-			<ul class="normallist">
+			<ul class="list">
 				<li>
 					<strong>Stats</strong>
 					&nbsp;- A sub-board under the board of "Baseball"
@@ -73,7 +73,7 @@ $txt['help_need_deny_perm'] = '
 	members of, with the exception of administrators.';
 
 $txt['help_edit_news'] = '
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>News</strong><br>
 			This section allows you to set the text for news items displayed on the Board Index page.
@@ -90,7 +90,7 @@ $txt['help_edit_news'] = '
 	</ul>';
 
 $txt['help_view_members'] = '
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>View all Members</strong><br>
 			View all members in the board. You are presented with a hyperlinked list of member names. You may click
@@ -117,7 +117,7 @@ $txt['help_view_members'] = '
 
 $txt['help_ban_gmail_style'] = 'Google Mail, or GMail, offers features for convenience to its members for organizing email, which can confuse
 	typical ban filtering systems:
-	<ul class="normallist">
+	<ul class="list">
 		<li>Periods in the username are ignored - joe.bloggs@gmail.com is exactly the same as j.o.e.b.l.o.g.g.s@gmail.com and also joebloggs@gmail.com.</li>
 		<li>Users can add +label to the "user" part of the address for filtering email, for example joebloggs+work@gmail.com will still deliver to
 			joebloggs@gmail.com and that +work part can be used to organize mail.</li>
@@ -128,7 +128,7 @@ $txt['help_ban_gmail_style'] = 'Google Mail, or GMail, offers features for conve
 $txt['help_no_hostname_ban'] = 'Hostname lookups have been disabled, so all hostname bans have also been disabled.';
 
 $txt['help_ban_email_types'] = 'Emails can be banned in multiple ways.
-	<ul class="normallist">
+	<ul class="list">
 		<li>One or more specific addresses - used to ban individual email addresses, or very selective types of email, for example troublemaker@example.com or if the troublemaker makes troublemaker1@example.com and troublemaker2@example.com, you could ban troublemaker*@example.com to ban all of them.</li>
 		<li>An entire domain - if you have a troublemaker who owns their own domain name, they can usually make any email address on it they care to, this allows you to indicate a ban against the entire domain, e.g. anything coming from example.com, regardless of the bit before the @. You do not need to type anything other than the domain name for the ban.</li>
 		<li>An entire range of domains - some users have noted that there is a prevalence of spam postings coming from users with .ru email addresses, but not a specific domain. This would let you ban everything from .ru as an example, or all .com addresses.</li>
@@ -174,7 +174,7 @@ $txt['help_live_news'] = '
 $txt['help_registrations'] = '
 	This section contains all the functions that could be necessary to manage new registrations on the forum. It contains up to three
 	sections which are visible depending on your forum settings. These are:<br><br>
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Register new member</strong><br>
 			From this screen you can choose to register accounts for new members on their behalf. This can be useful in forums where registration is closed
@@ -216,7 +216,7 @@ $txt['help_serversettings'] = '
 	important configuration items such as mail settings and caching. Think carefully whenever editing these settings as an error may
 	render the forum inaccessible';
 $txt['help_manage_files'] = '
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Browse Files</strong><br>
 			Browse through all the attachments, avatars and thumbnails stored by Wedge.<br><br>
@@ -349,7 +349,7 @@ $txt['help_default_timezone'] = 'The server timezone tells PHP where your server
 $txt['help_spamWaitTime'] = 'Here you can select the amount of time that must pass between postings. This can be used to stop people from "spamming" your forum by limiting how often they can post.';
 
 $txt['help_enablePostHTML'] = 'This will allow the posting of some basic HTML tags:
-	<ul class="normallist" style="margin-bottom: 0">
+	<ul class="list" style="margin-bottom: 0">
 		<li>&lt;b&gt;, &lt;u&gt;, &lt;i&gt;, &lt;s&gt;, &lt;em&gt;, &lt;ins&gt;, &lt;del&gt;</li>
 		<li>&lt;a href=""&gt;</li>
 		<li>&lt;img src="" alt=""&gt;</li>
@@ -397,7 +397,7 @@ $txt['help_disable_wysiwyg'] = 'This setting disallows all users from using the 
 $txt['help_lastActive'] = 'Set the number of minutes to show people are active in X number of minutes on the board index. Default is 15 minutes, maximum is one day.<br><br>Setting this too high is not recommended, not only because making it too high slows your forum down, but also it artificially inflates how busy your forum appears to be, and may put people off visiting.';
 
 $txt['help_customoptions'] = 'This section defines the options that a user may choose from a drop down list. There are a few key points to note in this section:
-	<ul class="normallist">
+	<ul class="list">
 		<li><strong>Default Option:</strong> Whichever option box has the "radio button" next to it selected will be the default selection for the user when they enter their profile.</li>
 		<li><strong>Removing Options:</strong> To remove an option simply empty the text box for that option - all users with that selected will have their option cleared.</li>
 		<li><strong>Reordering Options:</strong> You can reorder the options by moving text around between the boxes. However - an important note - you must make sure you do <strong>not</strong> change the text when reordering options as otherwise user data will be lost.</li>
@@ -417,7 +417,7 @@ $txt['help_ignorable_boards'] = 'This option allows users to mark certain boards
 $txt['help_allow_ignore_topics'] = 'Checking this option will allow users to select topics they wish to ignore in <em>Unread replies</em> and <em>Unread posts</em>.';
 
 $txt['help_display_flags'] = 'In addition to the general language for the forum, you can set a language for each individual board, which is used by default. This option controls whether or not a flag for that language is displayed on the list of boards:
-	<ul class="normallist">
+	<ul class="list">
 		<li><strong>No flags</strong> - do not display any of the language-based flags on the main forum.</li>
 		<li><strong>Flags for boards that have a language set</strong> - if a given board has a language default set for it, display a flag for that language next to the board\'s name.</li>
 		<li><strong>Flags for all boards</strong> - display a flag next to the name of every board, denoting what language will be shown to the user (unless they have chosen their own)</li>
@@ -432,7 +432,7 @@ $txt['help_pm_posts_verification'] = 'This setting will force users to enter a c
 $txt['help_pm_posts_per_hour'] = 'This will limit the number of personal messages which may be sent by a user in a one hour period. This does not affect admins or moderators.';
 
 $txt['help_registration_method'] = 'This option determines what method of registration is used for people wishing to join your forum. You can select from:<br><br>
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Registration Disabled</strong><br>
 				Disables the registration process, which means that no new members can register to join your forum.<br>
@@ -455,7 +455,7 @@ $txt['help_send_validation_onChange'] = 'When this option is checked all members
 $txt['help_send_welcomeEmail'] = 'When this option is enabled all new members will be sent an email welcoming them to your community';
 $txt['help_password_strength'] = 'This setting determines the strength required for passwords selected by your forum users. The stronger the password, the harder it should be to compromise member\'s accounts.
 	Its possible options are:
-	<ul class="normallist">
+	<ul class="list">
 		<li><strong>Low</strong>: The password must be at least 4 characters long.</li>
 		<li><strong>Medium</strong>: The password must be at least 8 characters long, and can not be part of a user\'s name or email address.</li>
 		<li><strong>High</strong>: As for medium, except the password must also contain a mixture of upper and lower-case letters, and at least one number.</li>
@@ -465,7 +465,7 @@ $txt['help_coppaAge'] = 'The value specified in this box will determine the mini
 	On registration they will be prompted to confirm whether they are over this age, and if not will either have their application rejected or suspended awaiting parental approval - depending on the type of restriction chosen.
 	If a value of 0 is chosen for this setting then all other age restriction settings shall be ignored.';
 $txt['help_coppaType'] = 'If age restrictions are enabled, then this setting will define that happens when a user below the minimum age attempts to register with your forum. There are two possible choices:
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Reject Their Registration:</strong><br>
 				Any new member below the minimum age will have their registration rejected immediately.<br>
@@ -501,7 +501,7 @@ $txt['help_membergroup_regular_members'] = 'The Regular Members are all members 
 $txt['help_membergroup_administrator'] = 'The administrator can, per definition, do anything and see any board. There are no permission settings for the administrator.';
 $txt['help_membergroup_moderator'] = 'The Moderator membergroup is a special membergroup. Permissions and settings assigned to this group apply to moderators but only <em>on the boards they moderate</em>. Outside these boards they\'re just like any other member.';
 $txt['help_membergroups'] = 'In Wedge, there are two types of groups that your members can be part of. These are:
-	<ul class="normallist">
+	<ul class="list">
 		<li><strong>Regular Groups:</strong> A regular group is a group to which members are not automatically put into. To assign a member to be in a group simply go to their profile and click "Account Settings". From here you can assign them any number of regular groups to which they will be part.</li>
 		<li><strong>Post Groups:</strong> Unlike regular groups post based groups cannot be assigned. Instead, members are automatically assigned to a post based group when they reach the minimum number of posts required to be in that group.</li>
 	</ul>';
@@ -540,7 +540,7 @@ $txt['help_see_member_ip'] = 'Your IP address is shown only to you and those who
 $txt['help_whytwoip'] = 'Wedge uses various methods to detect user IP addresses. Usually these two methods result in the same address but in some cases more than one address may be detected. In this case Wedge logs both addresses, and uses them both for ban checks (etc). You can click on either address to track that IP and ban if necessary.';
 
 $txt['help_posts_and_topics'] = '
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Post Settings</strong><br>
 			Modify the settings related to the posting of messages and the way messages are shown.
@@ -557,7 +557,7 @@ $txt['help_posts_and_topics'] = '
 	</ul>';
 $txt['help_spider_group'] = 'By selecting a restrictive group, when a guest is detected as a search crawler it will automatically be assigned any "deny" deny permissions of this group in addition to the normal permissions of a guest. You can use this to provide lesser access to a search engine than you would a normal guest. You might for example wish to create a new group called "Spiders" and select that here. You could then deny permission for that group to view profiles to stop spiders indexing your members profiles.<br>Note: Spider detection is not perfect and can be simulated by users so this feature is not guaranteed to restrict content only to those search engines you have added.';
 $txt['help_show_spider_online'] = 'This setting allows you to select whether spiders should be listed in the who\'s online list on the board index and "Who\'s Online" page. Options are:
-	<ul class="normallist">
+	<ul class="list">
 		<li>
 			<strong>Not at All</strong><br>
 			Spiders will simply appear as guests to all users.
@@ -584,7 +584,7 @@ $txt['help_postmod'] = 'This section allows members of the moderation team (with
 $txt['help_field_show_enclosed'] = 'Encloses the user input between some text or html. This will allow you to add more instant message providers, images or an embed etc. For example:<br><br>
 		&lt;a href="http://website.com/{INPUT}"&gt;&lt;img src="{DEFAULT_IMAGES_URL}/icon.gif" alt="{INPUT}"&gt;&lt;/a&gt;<br><br>
 		Note that you can use the following variables:<br>
-		<ul class="normallist">
+		<ul class="list">
 			<li>{INPUT} - The input specified by the user.</li>
 			<li>{SCRIPTURL} - Web address of forum.</li>
 			<li>{IMAGES_URL} - URL to the images folder in the user\'s current theme.</li>
@@ -640,13 +640,13 @@ $txt['help_mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>
 	<br><br>
 	<h2>Available parameters</h2>
 	<b>id</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li>All items are identified by a specific number which you can see in its URL. Just use it here. This is the only parameter that is <b>NOT</b> optional.
 		You may specify several items by separating them with commas, as in "[media id=1,2,3 type=album]".</li>
 	</ul>
 	<br>
 	<b>type</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li><b>normal</b> (default, except if set up differently) - show the thumbnail. Click on it to show a preview.</li>
 		<li><b>av</b> - embed an audio or video item within a player. If you do not use this parameter, the item\'s thumbnail will show up as expected, but clicking on it will load the file directly. You don\'t want that to happen. Really.</li>
 		<li><b>box</b> - show the thumbnail box, with full details, as in the Media Gallery pages. Clicking on the thumbnail will lead you to the item page.</li>
@@ -657,7 +657,7 @@ $txt['help_mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>
 	</ul>
 	<br>
 	<b>align</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li><b>none</b> (default) - normal alignment. Will not allow thumbnails to its right or left.</li>
 		<li><b>left</b> - left-align the thumbnail. Use several left-aligned [media] tags to show thumbnails next to each other.</li>
 		<li><b>center</b> - center-align the thumbnail. Will not allow thumbnails to its right or left, except if showing them in this order: [media align=left][media align=right][media align=center]</li>
@@ -665,13 +665,13 @@ $txt['help_mediatag'] = '<h2>What\'s this [media] tag about anyway?</h2>
 	</ul>
 	<br>
 	<b>width</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li>Any number higher than zero will do. This parameter is only needed if you want to force a specific width.</li>
 		<li>Set the tag type according to the desired size. For instance, if your thumbnails have a default width of 120, and previews are 500 pixels wide, use [media type=preview] if you\'re forcing a width of 300 to 500 pixels, otherwise the resulting thumbnail will be very blurry.</li>
 	</ul>
 	<br>
 	<b>caption</b>
-	<ul class="normallist">
+	<ul class="list">
 		<li>Show a caption below the thumbnail (if type is set to link, the caption will be clickable and lead you to the item page.)</li>
 		<li>Any string will do. If it contains spaces or brackets, be sure to enclose it between "double quotes".</li>
 	</ul>';
