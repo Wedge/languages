@@ -159,6 +159,7 @@ $txt['cache_level3'] = 'Cache de niveau 3 (Non recommandé)';
 
 $txt['cache_type'] = 'Type de cache';
 $txt['cache_type_file'] = 'Cache fichier';
+$txt['cache_type_session'] = 'Cache session';
 $txt['cache_memcached'] = 'Adresse(s) du ou des serveurs Memcached<dfn>Laissez vide pour désactiver Memcached</dfn>';
 
 $txt['loadavg_warning'] = '<span class="error">Attention, les paramètres ci-dessous doivent être modifiés avec prudence. Un paramètre trop bas pourrait rendre votre forum <strong>inutilisable</strong>&#8239;! La charge moyenne actuelle est de <strong>%01.2f</strong></span>';
