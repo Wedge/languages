@@ -117,12 +117,12 @@ $txt['likes_own_posts'] = 'Les utilisateurs peuvent aimer leurs propres messages
 
 $txt['boardurl'] = 'URL (adresse web) du forum';
 $txt['boarddir'] = 'Chemin vers le dossier Wedge';
-$txt['sourcedir'] = 'Chemin vers le dossier Sources';
+$txt['sourcedir'] = 'Chemin vers le dossier app';
 $txt['cachedir'] = 'Chemin vers le dossier cache';
-$txt['pluginsdir'] = 'Chemin vers le dossier Plugins';
-$txt['pluginsurl'] = 'URL du dossier Plugins';
-$txt['theme_dir'] = 'Chemin vers le dossier du thème';
-$txt['theme_url'] = 'URL du dossier du thème';
+$txt['pluginsdir'] = 'Chemin vers le dossier plugins';
+$txt['pluginsurl'] = 'URL du dossier plugins';
+$txt['theme_dir'] = 'Chemin vers le dossier des modèles HTML';
+$txt['theme_url'] = 'URL du dossier des modèles HTML';
 $txt['images_url'] = 'URL du dossier assets (images)';
 
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important&#8239;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br>
