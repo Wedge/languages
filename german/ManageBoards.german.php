@@ -69,8 +69,8 @@ $txt['mboards_unchanged'] = 'Unverändert';
 $txt['mboards_skin'] = 'Forum-Skin';
 $txt['mboards_skin_desc'] = 'Hier kannst du das Aussehen innerhalb dieses Forums ändern.';
 $txt['mboards_skin_default'] = '(Überall Forum Standard)';
-$txt['mboards_override_theme'] = 'Mitglieder Skins Überschreiben';
-$txt['mboards_override_theme_desc'] = 'Verwende dieses Skin, auch wenn der User ein eigenes Layout als das Standard-Layout ausgewählt hat.';
+$txt['mboards_override_skin'] = 'Mitglieder Skins Überschreiben';
+$txt['mboards_override_skin_desc'] = 'Verwende dieses Skin, auch wenn der User ein eigenes Layout als das Standard-Layout ausgewählt hat.';
 $txt['mboards_language'] = 'Foren-Sprache';
 $txt['mboards_language_desc'] = 'Hier kannst du eine Standardsprache für dieses Forum festlegen (z.B. Text auf Buttons). Beachte, dass es sich hier um eine Standardeinstellung handelt. Ein Benutzer kann auch eine andere Sprache auswählen, die dann diese Einstellung überschreibt.';
 
