@@ -582,6 +582,7 @@ $txt['mc_unapproved_poststopics'] = 'Messages à approuver';
 $txt['mc_reported_posts'] = 'Messages rapportés';
 $txt['modlog_view'] = 'Journal de Modération';
 $txt['unapproved_members'] = 'Membres à approuver';
+$txt['admin_uncache'] = 'Effacer le cache';
 
 $txt['ignoring_user'] = 'Vous ignorez cet utilisateur. Cliquez ici pour voir ou cacher son message.';
 
