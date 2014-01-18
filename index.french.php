@@ -319,8 +319,8 @@ $txt['days_word'] = 'jours';
 $txt['search_for'] = 'Rechercher';
 $txt['maintain_mode_on'] = 'Attention, ce forum est en \'Mode Maintenance\'.';
 
-$txt['forum_stats'] = 'Statistiques du site';
-$txt['board_stats'] = 'Statistiques du forum';
+$txt['global_stats'] = 'Statistiques globales';
+$txt['forum_stats'] = 'Statistiques du forum';
 $txt['blog_stats'] = 'Statistiques du blog';
 $txt['topic_stats'] = 'Statistiques du sujet';
 
@@ -490,7 +490,7 @@ $txt['who_member'] = 'Membre';
 // Feed block
 $txt['feed'] = 'Flux de messages';
 $txt['feed_current_topic'] = 'Ce sujet&#8239;:';
-$txt['feed_current_board'] = 'Ce forum&#8239;:';
+$txt['feed_current_forum'] = 'Ce forum&#8239;:';
 $txt['feed_current_blog'] = 'Ce blog&#8239;:';
 $txt['feed_everywhere'] = 'Tout le site&#8239;:';
 $txt['feed_posts'] = '<a href="%1$s">messages</a>';

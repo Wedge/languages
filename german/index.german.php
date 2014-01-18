@@ -326,8 +326,8 @@ $txt['days_word'] = 'Tage';
 $txt['search_for'] = 'Suche nach';
 $txt['maintain_mode_on'] = 'Erinnerung: dieses Forum läuft im Wartungs-Modus.';
 
-$txt['forum_stats'] = 'Forum-Statistik';
-$txt['board_stats'] = 'Foren-Statistik';
+$txt['global_stats'] = 'Forum-Statistik';
+$txt['forum_stats'] = 'Foren-Statistik';
 $txt['blog_stats'] = 'Blog-Statistik';
 $txt['topic_stats'] = 'Themen-Statistik';
 
@@ -497,7 +497,7 @@ $txt['who_member'] = 'Mitglied';
 // Feed block
 $txt['feed'] = 'Feed neuer Beiträge';
 $txt['feed_current_topic'] = 'Thema:';
-$txt['feed_current_board'] = 'Forum:';
+$txt['feed_current_forum'] = 'Forum:';
 $txt['feed_current_blog'] = 'Blog:';
 $txt['feed_everywhere'] = 'Seite:';
 $txt['feed_posts'] = '<a href="%1$s">Beiträge</a>';
