@@ -73,6 +73,8 @@ $txt['mboards_override_skin'] = 'Mitglieder Skins Überschreiben';
 $txt['mboards_override_skin_desc'] = 'Verwende dieses Skin, auch wenn der User ein eigenes Layout als das Standard-Layout ausgewählt hat.';
 $txt['mboards_language'] = 'Foren-Sprache';
 $txt['mboards_language_desc'] = 'Hier kannst du eine Standardsprache für dieses Forum festlegen (z.B. Text auf Buttons). Beachte, dass es sich hier um eine Standardeinstellung handelt. Ein Benutzer kann auch eine andere Sprache auswählen, die dann diese Einstellung überschreibt.';
+$txt['mboards_type'] = 'Foren-Typ';
+$txt['mboards_type_desc'] = 'Diese Änderungen haben Auswirkung auf die ANzeige der Homepage. Forum zeigt eine tabellarische Auflistung von Themen an, sortiert nach Aktualität. Blog zeigt eine Liste von Foreneinträgen nach Datum sortiert an.';
 
 $txt['mboards_redirect'] = 'Umleitung zu einer Webadresse';
 $txt['mboards_redirect_desc'] = 'Aktiviere diese Option um jeden, der auf dieses Forum klickt auf eine andere Adresse umzuleiten.';

@@ -326,7 +326,7 @@ $txt['days_word'] = 'Tage';
 $txt['search_for'] = 'Suche nach';
 $txt['maintain_mode_on'] = 'Erinnerung: dieses Forum läuft im Wartungs-Modus.';
 
-$txt['global_stats'] = 'Forum-Statistik';
+$txt['global_stats'] = 'Allgemeine Statistiken';
 $txt['forum_stats'] = 'Foren-Statistik';
 $txt['blog_stats'] = 'Blog-Statistik';
 $txt['topic_stats'] = 'Themen-Statistik';
@@ -497,8 +497,8 @@ $txt['who_member'] = 'Mitglied';
 // Feed block
 $txt['feed'] = 'Feed neuer Beiträge';
 $txt['feed_current_topic'] = 'Thema:';
-$txt['feed_current_forum'] = 'Forum:';
-$txt['feed_current_blog'] = 'Blog:';
+$txt['feed_current_forum'] = 'Dieses Forum:';
+$txt['feed_current_blog'] = 'Diesen Blog:';
 $txt['feed_everywhere'] = 'Seite:';
 $txt['feed_posts'] = '<a href="%1$s">Beiträge</a>';
 $txt['feed_topics'] = '<a href="%1$s">Themen</a>';
@@ -611,7 +611,7 @@ $txt['ignore_topic'] = 'Ignorieren';
 $txt['unignore_topic'] = 'Nicht mehr ignorieren';
 
 // Site type. (Not used for now. Probably not ever.)
-$txt['b_type'] = array('blog' => 'Blog', 'forum' => 'Forum', 'media' => 'Media', 'site' => 'Seite');
+$txt['b_type'] = array('blog' => 'Blog', 'forum' => 'Forum', 'media' => 'Galerie', 'site' => 'Seite');
 $txt['b_item'] = array('blog' => 'Beitrag', 'forum' => 'Thema', 'media' => 'Datei', 'site' => 'Artikel');
 
 // Indicates the date of the first post when merging two posts.
