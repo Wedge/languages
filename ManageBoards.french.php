@@ -76,6 +76,9 @@ $txt['mboards_override_skin_desc'] = 'Force le changement du style de cette sect
 $txt['mboards_language'] = 'Langue de la section';
 $txt['mboards_language_desc'] = 'Vous permet d\'outrepasser la langue par défaut du forum (par exemple les boutons et menus) à l\'intérieur d\'une section. Veuillez noter que les préférences de langue de l\'utilisateur garderont la priorité.';
 
+$txt['mboards_type'] = 'Type de section';
+$txt['mboards_type_desc'] = 'Ce paramètre modifie l\'affichage de la page d\'accueil de la section. "Forum" montre une table avec la liste de sujets triée par date. "Blog" montre directement le premier message de chaque sujet, trié par la date du message en question, et non la date du dernier commentaire.';
+
 $txt['mboards_redirect'] = 'Rediriger vers une adresse web';
 $txt['mboards_redirect_desc'] = 'Activer cette option pour rediriger la section vers une autre adresse web.';
 $txt['mboards_redirect_url'] = 'Adresse de redirection';
