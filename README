@@ -7,7 +7,8 @@ They are also (in part) originally based on SMF, which is released under the sim
 Read the license_smf.txt file for more details.
 
 So:
-- Feel free to redistribute the language files in the repo.
+- Feel free to redistribute the language files in the repo, as long as you also
+  redistribute the LICENSE, README and license_smf.txt files along with them.
 - This doesn't concern the Wedge forum software itself (github.com/Wedge/wedge).
   Wedge is still governed by the more restrictive Wedge license.
 
