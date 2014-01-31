@@ -8,7 +8,7 @@ $txt['smiley_sets_confirm'] = 'Are you sure you want to remove these smiley sets
 
 $txt['setting_smiley_sets_default'] = 'Default Smiley Set';
 $txt['setting_smiley_sets_enable'] = 'Enable smiley set selection by members';
-$txt['setting_smiley_enable'] = 'Organize, add and edit smileys manually';
+$txt['setting_smiley_enable'] = 'Organise, add and edit smileys manually';
 $txt['setting_smileys_url'] = 'Base URL to all smiley sets';
 $txt['setting_smileys_dir'] = 'Absolute path to all smiley sets';
 $txt['groups_manage_smileys'] = 'Groups allowed to manage smileys and message icons';
@@ -43,7 +43,7 @@ $txt['smileys_show_on_popup'] = 'Show on Popup';
 
 $txt['smiley_settings_explain'] = 'These settings allow you to change the default smiley set, allow people to select their own smileys, and set paths and configuration data.';
 $txt['smiley_editsets_explain'] = 'Smiley Sets are groups of smileys your users can choose between. For example, you might have yellow and red smileys.<br>Here you can change the name and location of each smiley set - remember, however, that all sets share the same smileys.';
-$txt['smiley_editsmileys_explain'] = 'Change your smileys here by clicking on the smiley you want to modify. Remember that these smileys all have to exist in all the sets or some smileys won\'t show up! Don\'t forget to save after you are done editing!';
+$txt['smiley_editsmileys_explain'] = 'Change your smileys here by clicking on the smiley you want to modify. Remember that these smileys all have to exist in all the sets or some smileys won\'t show up! Don\'t forget to save after you have finished editing!';
 $txt['smiley_setorder_explain'] = 'Change the order of the smileys here.';
 $txt['smiley_addsmiley_explain'] = 'Here you can add a new smiley - either from an existing file or by uploading new ones.';
 
