@@ -164,7 +164,6 @@ $txt['settings_not_writable'] = 'Diese Einstellungen können nicht geändert wer
 
 $txt['maintain_title'] = 'Forum Wartung';
 $txt['maintain_info'] = 'Optimiere die Datenbank, Tabellen, suche nach Fehlern und bereinige Foren mit diesem Tool.';
-$txt['maintain_sub_database'] = 'Datenbank';
 $txt['maintain_sub_routine'] = 'Routine';
 $txt['maintain_sub_members'] = 'Mitglieder';
 $txt['maintain_sub_topics'] = 'Themen';

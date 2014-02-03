@@ -181,7 +181,7 @@ $txt['enable_news'] = 'Afficher une nouvelle au hasard sur toutes les pages';
 $txt['show_newsfader'] = 'Activer la rotation des nouvelles sur la page d\'accueil';
 $txt['newsfader_time'] = 'Délai d\'enchaînement entre les nouvelles rotatives';
 
-$txt['reverse_proxy'] = 'Ajouter le support des serveurs proxy inverses';
+$txt['reverse_proxy'] = 'Activer le support des serveurs proxy inverses';
 $txt['reverse_proxy_header'] = 'Entête HTTP Proxy avec adresse IP';
 $txt['reverse_proxy_ips'] = 'IP ou bloc d\'adresses CIDR de serveurs proxy';
 $txt['reverse_proxy_one_per_line'] = 'N\'entrez qu\'une adresse par ligne';

@@ -169,24 +169,6 @@ $txt['maintain_members_confirm'] = 'Möchtest du wrklich diese Benutzerkonten l�
 $txt['maintain_recountposts'] = 'Aktualisierung der Beitragszahlen';
 $txt['maintain_recountposts_desc'] = 'Diese Funktion berechnet die Beiträge aller Mitglieder neu.';
 
-// !!! This little lot can go once the converter is done.
-$txt['utf8_title'] = 'Datenbank nach UTF-8 konvertieren';
-$txt['utf8_introduction'] = 'UTF-8 ist ein internationaler Zeichensatz der eigentlich alle Sprachen auf der Welt abdeckt. Die Konvetierung zu UTF-8 ermöglicht die Unterstützung verschiedener Sprachen in einem Forum. Zusätzlich kann es die Suchfunktion für andere Sprachen als Latin erweitern.';
-$txt['utf8_warning'] = 'Falls due deine Datenbank nach UTF-8 konvertieren möchtest, beachte bitte folgede Hinweise:
-<ul class="list">
-	<li>Das Konvertieren von Zeichensätzen kann <em>gefährlich</em> für deine Daten sein! Erstelle eine Datensicherung der Datenbank <em>for</em> der Konvertierung.</li>
-	<li>Da UTF-8 einen weitreichenderen Zeichensatz enthält als andere Sprachen, ist eine Umkehrung des Prozesses nicht mehr möglich. Mit Ausnahme der Wiederherstellung deiner Daten durch die zuvor erstellte Datensicherung.</li>
-	<li>Nach der Konvertierung auf UTF-8 benötigst du UTF-8 kompatible Sprachdateien.</li>
-</ul>';
-$txt['utf8_charset_not_supported'] = 'Konvertierung von %1$s zu UTF-8 wird nicht unterstützt.';
-$txt['utf8_detected_charset'] = 'Basierend auf deinen Standard-Sprachdateien (\'%1$s\'), der Zeichensatz deiner Daten wird voraussichtlich \'%2$s\' sein.';
-$txt['utf8_already_utf8'] = 'Deine Datenbank und die Daten scheinen bereits als UTF-8 konfiguriert zu sein. Eine Konvertierung ist nicht erforderlich.';
-$txt['utf8_source_charset'] = 'Zeichensatz der Daten';
-$txt['utf8_proceed'] = 'Fortsetzen';
-$txt['utf8_database_charset'] = 'Zeichensatz der Datenbank';
-$txt['utf8_target_charset'] = 'Konvertiere Daten und Datenbank zu';
-$txt['utf8_utf8'] = 'UTF-8';
-
 // Move topics out.
 $txt['move_topics_maintenance'] = 'Themen verschieben';
 $txt['move_topics_select_board'] = 'Forum auswählen';
