@@ -158,7 +158,6 @@ $txt['cache_level3'] = 'Level 3 Caching (Nicht zu empfehlen)';
 
 $txt['cache_type'] = 'Caching Type';
 $txt['cache_type_file'] = 'File-based caching';
-$txt['cache_type_session'] = 'Session-based caching';
 $txt['cache_memcached'] = 'Memcached Einstellungen';
 
 $txt['loadavg_warning'] = '<span class="error">Bitte beachten: Die Einstellungen sollten mit größter Sorgfalt vorgenommen werden. Sollten einige Punkte zu niedrig eingestellt sein, kann dein Forum evtl. <strong>nicht mehr angezeigt werden</strong>! Der aktuelle Serverload liegt bei <strong>%01.2f</strong></span>';
