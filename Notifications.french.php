@@ -44,11 +44,15 @@ $txt['notification_email_periodical_body'] = 'Il semble que vous ayez reçu des 
 
 $txt['notifier_likes_title'] = 'J\'aime';
 $txt['notifier_likes_desc'] = 'Me notifier quand quelqu\'un a cliqué J\'aime sur une de mes contributions.';
-$txt['notifier_likes_subject'] = 'Votre message a été aimé !';
+$txt['notifier_likes_subject'] = 'Quelqu\'un a aimé votre message !';
 $txt['notifier_likes_html'] = '<span class="like_button"></span>{MEMBER_LINK} a aimé votre message, "{OBJECT_LINK}".';
 $txt['notifier_likes_text'] = '{MEMBER_NAME} a aimé votre message, "{OBJECT_NAME}", lisible ici :
 
 {OBJECT_URL}';
+
+$txt['notifier_likes_thought_subject'] = 'Quelqu\'un a aimé votre pensée !';
+$txt['notifier_likes_thought_html'] = '<span class="like_button"></span>{MEMBER_LINK} a aimé votre pensée&#8239;: "{OBJECT_NAME}"';
+$txt['notifier_likes_thought_text'] = '{MEMBER_NAME} a aimé votre pensée : "{OBJECT_NAME}"';
 
 $txt['notifier_move_title'] = 'Sujets déplacés';
 $txt['notifier_move_desc'] = 'Recevoir des notifications quand quelqu\'un déplace un sujet que j\'ai créé';
