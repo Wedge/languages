@@ -124,9 +124,8 @@ $txt['manage_search'] = 'Suche';
 
 $txt['smileys_manage'] = 'Smileys und Nachrichtensymbole';
 $txt['smileys_manage_info'] = 'Installiere neue Smiley-Sets, füge Smileys hinzu, oder verwalte deine Nachrichtensymbole.';
-$txt['package_info'] = 'Installiere oder modifiziere funktionen über dieses Schnittstelle.';
-$txt['theme_admin'] = 'Themes und Layout';
-$txt['theme_admin_info'] = 'Installiere und verwalte Deine Themes/Skins und verändere deren Optionen.';
+$txt['theme_admin'] = 'Themes';
+$txt['theme_admin_info'] = 'Verwalte Deine Skins.';
 $txt['registration_center'] = 'Registrierung und Anmeldung';
 $txt['member_center_info'] = 'Wirf einen Blick auf die Mitgliederliste suche nach Mitgliedern und verwalte noch nicht bestätigte Benutzer und Benutzer, die ihren Account noch nicht aktiviert haben.';
 

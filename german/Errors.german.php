@@ -236,13 +236,7 @@ $txt['smileys_upload_error_illegal'] = 'Typ nicht unterstützt.';
 $txt['search_invalid_weights'] = 'Suchgewichtungen sind nicht korrekt konfiguriert. Zumindest eine Gewichtung sollte als nicht 0 konfiguriert sein. Bitte melde diesen Fehler einen Administrator.';
 $txt['unable_to_create_temporary'] = 'Die Suchfunktion konnte keine temporären Tabellen erzeugen. Bitte versuche es nochmal..';
 
-$txt['package_not_on_wedge'] = 'Sorry, Plugins können nur vom Download-Server auf wedge.org heruntergeladen werden.';
-$txt['package_upload_error_failed'] = 'Kann das Plugin nicht installieren. Bitte die Dateirechte überprüfen.!';
-
-$txt['package_get_error_not_found'] = 'Das zu installierende Plugin wurde nicht gefunden. Sicher möchtest du das Plugin manuell in das Paket-Verzeichnis hochladen.';
-$txt['package_get_error_missing_xml'] = 'Das zu installierende Plugin besitzt keine plugin-info.xml. Diese Datei muss sich im Hauptverzeichnis des Plugins befinden.';
-$txt['package_get_error_is_zero'] = 'Das heraufgeladene Plugin scheint leer zu sein. Bitte überprüfe die Rechte der Verzeichnisse!';
-$txt['package_get_error_packageinfo_corrupt'] = 'Wedge konnte keine gültige information in der plugin-info.xml Datei finden. Möglicherweise liegt ein Fehler beim Plugin vor.';
+$txt['only_on_wedge'] = 'Sorry, Plugins können nur vom Download-Server auf wedge.org heruntergeladen werden.';
 
 $txt['no_membergroup_selected'] = 'Keine Mitgliedergruppe ausgewählt';
 $txt['membergroup_does_not_exist'] = 'Die Mitgliedergruppe existiert nicht, oder ist ungültig.';

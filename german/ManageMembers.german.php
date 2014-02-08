@@ -113,7 +113,6 @@ $txt['ban_group_subtext'] = 'Betrifft nur komplett gesperte Mitglieder.';
 $txt['ban_group_none'] = 'Gesperrte Mitglieder zu keiner Gruppe zuordnen';
 
 $txt['membergroups_select_permission_type'] = 'Wähle das Berechtigungsprofil';
-$txt['membergroups_images_url'] = '{theme URL}/images/';
 $txt['membergroups_select_visible_boards'] = 'Foren anzeigen';
 $txt['membergroups_members_top'] = 'Mitglieder';
 $txt['membergroups_name'] = 'Name';

@@ -236,13 +236,7 @@ $txt['smileys_upload_error_illegal'] = 'Format d\'image interdit.';
 $txt['search_invalid_weights'] = 'La pertinence des recherches n\'est pas bien configurée. Au moins un dispositif devrait être configuré afin d\'être différent de zéro. Veuillez rapporter cette erreur à l\'administrateur.';
 $txt['unable_to_create_temporary'] = 'L\'outil de recherche a été incapable de créer des tables temporaires. Veuillez réessayer.';
 
-$txt['package_not_on_wedge'] = 'Désolé, les extensions ne peuvent être téléchargées de cette façon que depuis le serveur wedge.org.';
-$txt['package_upload_error_failed'] = 'Échec d\'envoi de l\'extension. Veuillez vérifier les droits d\'accès du répertoire&#8239;!';
-
-$txt['package_get_error_not_found'] = 'Impossible de trouver l\'extension que vous essayez d\'installer. Essayez d\'uploader l\'extension manuellement dans votre répertoire Packages.';
-$txt['package_get_error_missing_xml'] = 'Le fichier plugin-info.xml est introuvable dans l\'extension que vous essayez d\'installer. Il doit se trouver à la racine du répertoire de l\'extension.';
-$txt['package_get_error_is_zero'] = 'L\'extension a été téléchargée avec succès, mais semble être vide. Vérifiez que le répertoire Packages et son sous-répertoire &quot;temp&quot; sont inscriptibles. Si le problème persiste, essayez d\'extraire l\'extension sur votre PC et d\'uploader les fichiers extraits manuellement vers un sous-répertoire de Packages. Par exemple, si l\'extension s\'appelle shout.tar.gz, vous devriez&#8239;:<br>1) Télécharger le fichier sur votre machine et le décompresser.<br>2) Utiliser un client FTP pour créer un nouveau répertoire dans le répertoire &quot;Packages&quot;, par exemple ici &quot;shout&quot;.<br>3) Y placer tous les fichiers de l\'extension extraite.<br>4) Revenir sur la page du gestionnaire d\'extensions, et l\'extension devrait s\'y trouver automatiquement.';
-$txt['package_get_error_packageinfo_corrupt'] = 'Wedge n\'a pas trouvé d\'informations valables dans le fichier plugin-info.xml inclus dans l\'extension. L\'extension comporte peut-être une erreur, ou elle est corrompue.';
+$txt['only_on_wedge'] = 'Désolé, ce type d\'object ne peut être téléchargé que depuis un serveur officiel Wedge.';
 
 $txt['no_membergroup_selected'] = 'Aucun groupe de membre sélectionné';
 $txt['membergroup_does_not_exist'] = 'Le groupe de membres n\'existe pas ou est invalide.';

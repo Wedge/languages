@@ -124,9 +124,8 @@ $txt['manage_search'] = 'Recherche';
 
 $txt['smileys_manage'] = 'Smileys et icônes';
 $txt['smileys_manage_info'] = 'Installer des nouveaux jeux de smileys, ajouter des nouveaux smileys à des jeux existants ou gérez vos icônes de messages.';
-$txt['package_info'] = 'Installer des nouvelles fonctionnalités ou en modifier certaines à l\'aide de cette interface.';
-$txt['theme_admin'] = 'Thèmes et disposition';
-$txt['theme_admin_info'] = 'Créer, gérer et paramétrer vos thèmes.';
+$txt['theme_admin'] = 'Thèmes';
+$txt['theme_admin_info'] = 'Gérer et paramétrer vos thèmes.';
 $txt['registration_center'] = 'Inscriptions';
 $txt['member_center_info'] = 'Voir la liste des membres, rechercher des utilisateurs et gérer les inscrits en cours d\'approbation ou d\'activation.';
 

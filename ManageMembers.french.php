@@ -113,7 +113,6 @@ $txt['ban_group_subtext'] = 'Ne s\'applique qu\'aux bannis "durs", et seulement 
 $txt['ban_group_none'] = 'Ne pas les ajouter à un groupe';
 
 $txt['membergroups_select_permission_type'] = 'Sélectionner un profil de permissions';
-$txt['membergroups_images_url'] = '{URL du thème}/images/';
 $txt['membergroups_select_visible_boards'] = 'Montrer les sections';
 $txt['membergroups_members_top'] = 'Membres';
 $txt['membergroups_name'] = 'Nom';
