@@ -12,6 +12,7 @@ $txt['view_all_members'] = 'Alle Mitglieder anschauen';
 $txt['membergroups_title'] = 'Mitgliedergruppen verwalten';
 $txt['membergroups_description'] = 'Mitgliedergruppen sind Gruppen von Mitgliedern, die die gleichen Rechte haben.Einige Mitgliedergruppen sind abhängig von der Beitragszahl. Du kannst einem Benutzer eine Mitgliedergruppe zuweisen, durch ein Klick auf sein Profil und dann die Gruppenmitgliedschaft im Benutzerkonto vergibst.';
 $txt['membergroups_modify'] = 'Ändern';
+$txt['membergroups'] = 'Gruppen';
 
 $txt['membergroups_add_group'] = '';
 $txt['membergroups_regular'] = 'Reguläre Gruppen';

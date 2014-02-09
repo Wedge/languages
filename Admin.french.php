@@ -18,7 +18,7 @@ $txt['new_to_wedge_add_boards_answer'] = 'Allez voir dans <a href="%1$s">Sites e
 $txt['new_to_wedge_mod_filters'] = 'Ou peut-être <strong>modérer</strong> les messages des nouveaux utilisateurs&#8239;?';
 $txt['new_to_wedge_mod_filters_answer'] = 'Vous pouvez ajouter des <a href="%1$s">filtres de modération</a> via un assistant.';
 $txt['new_to_wedge_default_skin'] = 'Choisir le <strong>style visuel</strong> par défaut du site&#8239;?';
-$txt['new_to_wedge_default_skin_answer'] = 'C\'est par ici&#8239;: <a href="%1$s">Gérer et Installer des thèmes</a>.';
+$txt['new_to_wedge_default_skin_answer'] = 'C\'est par ici&#8239;: <a href="%1$s">Gérer les thèmes</a>.';
 $txt['new_to_wedge_censored'] = 'Ou bien encore <strong>cacher</strong> ces mots que vous ne sauriez voir&#8239;?';
 $txt['new_to_wedge_censored_answer'] = 'Direction <a href="%1$s">Messages et sujets &raquo; Mots censurés</a>.';
 $txt['new_to_wedge_antispam'] = 'Et que diriez-vous d\'ajouter des questions personnalisées, pour repousser à coup sûr les <strong>spammeurs</strong>&#8239;?';
@@ -30,6 +30,7 @@ $txt['admin_users'] = 'Membres';
 $txt['admin_newsletters'] = 'Infolettres';
 $txt['admin_edit_news'] = 'Nouvelles';
 $txt['admin_groups'] = 'Groupes de membres';
+$txt['admin_groups_settings'] = 'Paramètres Groupes & Badges';
 $txt['admin_members'] = 'Gestion des membres';
 $txt['admin_members_approve'] = 'En attente d\'approbation';
 $txt['admin_members_activate'] = 'En attente d\'activation';
@@ -231,7 +232,6 @@ $txt['primary'] = 'En Primaire';
 $txt['additional'] = 'En Additionnel';
 $txt['wild_cards_allowed'] = 'Les jokers * et ? sont permis';
 $txt['member_part_of_these_membergroups'] = 'Le membre fait partie de ces groupes de membres';
-$txt['membergroups'] = 'Groupes de membres';
 $txt['confirm_delete_members'] = 'Êtes-vous sûr de vouloir supprimer les membres sélectionnés ?';
 
 $txt['support_credits_title'] = 'Support et crédits';
@@ -245,7 +245,7 @@ $txt['support_versions_server'] = 'Version du serveur';
 $txt['support_versions_gd'] = 'Version de GD';
 $txt['support_versions'] = 'Infos sur la version';
 $txt['support_safe_mode'] = '<a href="http://php.net/manual/features.safe-mode.php">Safe Mode</a>';
-$txt['support_safe_mode_enabled'] = 'actif. (It can cause conflicts with Wedge. Please <span class="alert">disable it</span> if possible!)';
+$txt['support_safe_mode_enabled'] = 'actif. (Peut causer des conflits avec Wedge. <span class="alert">Désactivez-le</span> si possible&#8239;!)';
 $txt['support_safe_mode_disabled'] = 'inactif';
 $txt['support_available'] = 'disponible';
 $txt['support_not_available'] = 'non disponible';
@@ -542,7 +542,7 @@ $txt['permissions_profiles'] = 'Modifier les Profils';
 
 $txt['plugins_add_plugins'] = 'Ajouter des Extensions';
 
-$txt['themeadmin_admin_title'] = 'Gérer et Installer';
+$txt['themeadmin_admin_title'] = 'Gestion des Thèmes';
 $txt['themeadmin_list_title'] = 'Paramètres des Thèmes';
 $txt['themeadmin_edit_title'] = 'Modifier les Thèmes';
 $txt['admin_browse_register_new'] = 'Inscrire un nouveau membre';

@@ -12,6 +12,7 @@ $txt['view_all_members'] = 'Voir tous les membres';
 $txt['membergroups_title'] = 'Gestion des Groupes de Membres';
 $txt['membergroups_description'] = 'Ce sont des ensembles de membres qui ont les mêmes paramètres de permissions, apparence et droits d\'accès. Certains groupes sont basés sur le nombre de messages postés par le membre. Vous pouvez assigner quelqu\'un à un groupe en sélectionnant son profil et en modifiant le paramètre correspondant de son compte.';
 $txt['membergroups_modify'] = 'Modifier';
+$txt['membergroups'] = 'Groupes';
 
 $txt['membergroups_add_group'] = 'Ajouter un groupe de membres';
 $txt['membergroups_regular'] = 'Groupes permanents';

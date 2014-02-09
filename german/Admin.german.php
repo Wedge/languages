@@ -30,6 +30,7 @@ $txt['admin_users'] = 'Mitglieder';
 $txt['admin_newsletters'] = 'Newsletter';
 $txt['admin_edit_news'] = 'News';
 $txt['admin_groups'] = 'Mitgliedergruppen';
+$txt['admin_groups_settings'] = 'Gruppen-Einstellungen';
 $txt['admin_members'] = 'Mitglieder verwalten';
 $txt['admin_members_approve'] = 'Warten auf Bestätigung';
 $txt['admin_members_activate'] = 'Warten auf Aktivierung';
