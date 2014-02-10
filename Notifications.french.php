@@ -35,14 +35,16 @@ $txt['scheduled_task_desc_weNotif::scheduled_periodical'] = 'Envoyer tous les e-
 $txt['notification_email_periodical_subject'] = '%s, vous avez %d notification(s) non lues !';
 $txt['notification_email_periodical_body'] = 'Il semble que vous ayez reçu des notifications ces derniers jours, en voici une liste. Passez sur le forum pour les consulter !';
 
-$txt['notifier_likes_title'] = 'J\'aime';
-$txt['notifier_likes_desc'] = 'Me notifier quand quelqu\'un a cliqué J\'aime sur une de mes contributions.';
+$txt['notifier_likes_title'] = 'J\'aime ce message';
+$txt['notifier_likes_desc'] = 'Me notifier quand quelqu\'un a cliqué J\'aime sur un de mes messages.';
 $txt['notifier_likes_subject'] = 'Quelqu\'un a aimé votre message !';
 $txt['notifier_likes_html'] = '<span class="like_button"></span>{MEMBER_LINK} a aimé votre message, "{OBJECT_LINK}".';
 $txt['notifier_likes_text'] = '{MEMBER_NAME} a aimé votre message, "{OBJECT_NAME}", lisible ici :
 
 {OBJECT_URL}';
 
+$txt['notifier_likes_thought_title'] = 'J\'aime cette pensée';
+$txt['notifier_likes_thought_desc'] = 'Me notifier quand quelqu\'un a cliqué J\'aime sur une de mes pensées.';
 $txt['notifier_likes_thought_subject'] = 'Quelqu\'un a aimé votre pensée !';
 $txt['notifier_likes_thought_html'] = '<span class="like_button"></span>{MEMBER_LINK} a aimé votre pensée&#8239;: "{OBJECT_NAME}"';
 $txt['notifier_likes_thought_text'] = '{MEMBER_NAME} a aimé votre pensée : "{OBJECT_NAME}"';

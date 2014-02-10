@@ -43,9 +43,12 @@ $txt['notifier_likes_text'] = '{MEMBER_NAME} gefällt dein Beitrag, "{OBJECT_NAM
 
 {OBJECT_URL}';
 
+$txt['notifier_likes_thought_title'] = 'Gefällt mir von Gedanken';
+$txt['notifier_likes_thought_desc'] = 'Benachrichtigt dich, wenn ein Gedanke von dir mit gefällt mir markiert wird.';
 $txt['notifier_likes_thought_subject'] = 'Jemand gefällt einer deiner Gedanken!';
 $txt['notifier_likes_thought_html'] = '<span class="like_button"></span>{MEMBER_LINK} gefällt dein Gedanke: "{OBJECT_NAME}"';
 $txt['notifier_likes_thought_text'] = '{MEMBER_NAME} gefällt dein Gedanke: "{OBJECT_NAME}"';
+
 $txt['notifier_move_title'] = 'Verschobene Themen';
 $txt['notifier_move_desc'] = 'Erhalte Benachrichtigungen wenn jemand ein Thema verschiebt, dass du gestartet hast';
 $txt['notifier_move_subject'] = 'Jemand hat dein Thema verschoben!';
