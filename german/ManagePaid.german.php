@@ -183,6 +183,11 @@ $txt['paid_all_freq_blank'] = 'Du musst den Preis für eine der vier Laufzeiten 
 $txt['paid_no_data'] = 'Es wurden keine gültigen Daten an das Script übergeben.';
 
 $txt['paypal_could_not_connect'] = 'Kann keine Verbindung zum PayPal-Server aufbauen';
+$txt['paypal_unverified'] = 'PayPal: unbestätigte Transaktion.';
+$txt['paypal_incorrect_email'] = 'PayPal: ungültüge paypal_email Auswahl.';
+$txt['paypal_invalid_currency'] = 'PayPal: ungültige Währung.';
+$txt['paypal_no_item'] = 'PayPal: es wurden keine Artikel ausgegeben.';
+
 $txt['paid_sub_not_active'] = 'Dieses Abonnement lässt keine neuen Abonnenten zu!';
 $txt['paid_disabled'] = 'Abonnements sind zur Zeit deaktiviert!';
 $txt['paid_unknown_transaction_type'] = 'Unbekannter Transaktionstyp.';
