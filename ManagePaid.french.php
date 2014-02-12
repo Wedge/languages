@@ -59,7 +59,7 @@ $txt['paid_settings_save'] = 'Sauvegarder';
 
 $txt['paid_note'] = '<strong class="alert">Note</strong>&#8239;:<br>Pour que les abonnements soient mis à jour automatiquement pour vos utilisateurs, vous
 	aurez besoin de mettre en place une URL de retour pour chacune de vos méthodes de paiement. Pour tous les types de paiement, cette URL de retour doit
-	être équivalente à&#8239;:<br><br>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<strong>{board_url}/subscriptions.php</strong><br><br>
+	être équivalente à&#8239;:<br><br>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<strong>{board_url}/core/subscriptions.php</strong><br><br>
 	Vous pouvez modifier le lien pour PayPal directement, en cliquant <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-ipn-notify" target="_blank">ici</a>.<br>
 	Pour les autres passerelles (si installées), vous pouvez normalement les trouver dans votre panneau client, habituellement sous le terme &quot;URL de Retour&quot; (<em>Return URL</em>) ou &quot;URL de Rappel&quot; (<em>Callback URL</em>).';
 
@@ -183,6 +183,11 @@ $txt['paid_all_freq_blank'] = 'Vous devez entrer un prix pour au moins l\'une de
 $txt['paid_no_data'] = 'Aucune donnée valide n\'a été envoyée au script.';
 
 $txt['paypal_could_not_connect'] = 'Impossible de se connecter au serveur PayPal';
+$txt['paypal_unverified'] = 'PayPal - transaction non vérifiée.';
+$txt['paypal_incorrect_email'] = 'PayPal - valeur paypal_email incorrecte.';
+$txt['paypal_invalid_currency'] = 'PayPal - monnaie invalide.';
+$txt['paypal_no_item'] = 'PayPal - aucun abonnement n\'a été indiqué.';
+
 $txt['paid_sub_not_active'] = 'Cet abonnement n\'accepte plus de nouveaux souscripteurs&#8239;!';
 $txt['paid_disabled'] = 'Les abonnements payants sont actuellement désactivés&#8239;!';
 $txt['paid_unknown_transaction_type'] = 'Type de transaction inconnu pour les abonnements payants.';
