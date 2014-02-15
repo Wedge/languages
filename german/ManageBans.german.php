@@ -1,5 +1,4 @@
 <?php
-// Version: 0.1; ManageBans
 
 $txt['ban_general_description'] = 'In diesem Bereich können Sperren gegen unliebsame User verwaltet werden.';
 $txt['ban_description_hard'] = 'Dieser Bereich verwaltet die  "harten Sperren" und stoppt User bereits frühzeitig.';

@@ -1,5 +1,4 @@
 <?php
-// Version: 0.1; Media
 
 // Auto-embedder strings
 $txt['media'] = 'Media';

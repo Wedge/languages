@@ -1,5 +1,4 @@
 <?php
-// Version: 0.1; Security
 
 $txt['http_error'] = 'Erreur HTTP';
 

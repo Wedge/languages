@@ -1,5 +1,4 @@
 <?php
-// Version: 0.1; ManageBans
 
 $txt['ban_general_description'] = 'Cette section vous permet de gérer les bannissements (bans) des utilisateurs pénibles, spammeurs ou généralement empêcheurs de poster en rond.';
 $txt['ban_description_hard'] = 'Cette section vous permet de gérer les bannissements (bans) "sévères", qui empêchent aux utilisateurs toute action, et immédiatement.';
