@@ -328,7 +328,7 @@ $txt['help_themes'] = 'Hier kann das Standard- bzw. Gästelayout ausgewählt wer
 $txt['help_theme_install'] = 'Hier können neue Themes installiert werden, indem ein schon vorhandenes Verzeichnis benutzt, ein Zip-Paket hochladen, oder das vorhandene Theme kopiert wird.<br /><br />Beachte: das Verzeichnis bzw. das Zip-Paket muss die Datei <tt>theme_info.xml</tt> enthalten.';
 $txt['help_enableEmbeddedFlash'] = 'Diese Option erlaubt den Benutzern, Flash-Filme in ihren Beiträgen zu nutzen. Das kann ein Sicherheitsrisiko darstellen! DIE BENUTZUNG ERFOLGT AUF EIGENE GEFAHR!';
 // !!! Add more information about how to use them here.
-$txt['help_xmlnews_enable'] = 'Diese Option erlaubt den Benutzern, zu den <a href="%s?action=.xml;sa=news">Letzten Neuigkeiten</a> zu verlinken. Es wird empfohlen, die Größe der Neuesten Beiträge/News zu begrenzen, da es zu falschen Darstellungen in manchen Programmen wie Trillian kommen kann.';
+$txt['help_xmlnews_enable'] = 'Diese Option erlaubt den Benutzern, zu den <a href="<URL>?action=feed;sa=news">Letzten Neuigkeiten</a> zu verlinken. Es wird empfohlen, die Größe der Neuesten Beiträge/News zu begrenzen, da es zu falschen Darstellungen in manchen Programmen wie Trillian kommen kann.';
 $txt['help_globalCookies'] = 'Ermöglicht die Nutzung von Subdomain unabhängigen Cookies. Ein Beispiel:<br />
 	Deine Seite besitzt die Domain http://www.wedge.org,<br />
 	Dein Forum besitzt die Domain http://forum.wedge.org,<br />
