@@ -464,7 +464,6 @@ $txt['generic_confirm_request'] = 'Êtes-vous sûr de vouloir faire cela&#8239;?
 
 $txt['reagree_reply'] = 'Les conditions d\'utilisation du site ont été modifiées. Il est nécessaire de les accepter avant de pouvoir y poster de nouveau. Vous pouvez le faire en allant sur <a href="%1$s">cette page</a>.';
 $txt['quick_reply'] = 'Réponse Rapide';
-$txt['quick_reply_desc'] = 'En mode <em>Réponse Rapide</em>, vous pouvez utiliser du BBCode et des smileys comme sur un message normal, mais à partir d\'une interface plus rapide d\'accès.';
 $txt['quick_reply_warning'] = 'Attention, ce sujet est actuellement bloqué ! Seuls les administrateurs et les modérateurs peuvent y répondre.';
 $txt['quick_reply_verification'] = 'Après avoir soumis votre message, vous serez redirigé vers la page habituelle d\'écriture pour vérifier votre message %1$s.';
 $txt['quick_reply_verification_guests'] = '(requis pour tous les invités)';

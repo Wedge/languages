@@ -471,7 +471,6 @@ $txt['generic_confirm_request'] = 'Bist Du sicher?';
 
 $txt['reagree_reply'] = 'Die Nutzungsbedingungen haben sich geändert. Bevor du neue Beiträge erstellen kannst, musst du den neuen Nutzungsbedingungen zustimmen: <a href="%1$s">Nutzungsbedingungen</a>.';
 $txt['quick_reply'] = 'Schnellantwort';
-$txt['quick_reply_desc'] = 'Mit der Funktion <em>Schnellantwort</em> kannst du eine Antwort verfassen, ohne eine andere Seite neu laden zu müssen. Selbstverständlich können BBCodes und Smileys verwendet werden.';
 $txt['quick_reply_warning'] = 'Warnung: Das Thema ist momentan geschlossen. Nur Administratoren und Moderatoren können hier antworten.';
 $txt['quick_reply_verification'] = 'Nach dem abschicken wirst du automatisch auf die Beitrags-Seite umgeleitet,  um deinen Beitrag: %1$s zu kontrollieren.';
 $txt['quick_reply_verification_guests'] = '(Benötigt für alle Gäste)';
