@@ -165,6 +165,8 @@ $txt['under_age_registration_prohibited'] = 'Désolé, mais les utilisateurs de 
 
 $txt['who_off'] = 'La liste des membres en ligne est indisponible pour le moment.';
 
+$txt['unsupported_browser'] = 'Le navigateur que vous utilisez en ce moment pour visiter ce site, %s, est très ancien, lent et non sécurisé. Nous vous encourageons à le mettre à jour au plus vite, ou mieux, à passer à un navigateur plus fiable et plus moderne, tel que Google Chrome, Opera ou Mozilla Firefox.';
+
 $txt['merge_create_topic_failed'] = 'Erreur pendant la création du nouveau sujet.';
 $txt['merge_need_more_topics'] = 'Fusionner des sujets nécessite au moins 2 sujets...';
 
