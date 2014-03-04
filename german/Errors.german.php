@@ -165,6 +165,8 @@ $txt['under_age_registration_prohibited'] = 'Sorry, aber Benutzer mit einem Alte
 
 $txt['who_off'] = 'Du kannst die Online-Liste nicht einsehen. Sie ist zur Zeit deaktiviert..';
 
+$txt['unsupported_browser'] = 'Der Browser, mit dem du gerade die Seite %s besuchst, ist sehr alt, langsam und unsicher. Wir möchten dich bitten, den Browser auf eine neuere Version upzudaten, oder einen anderen, besseren Browser, wie zum Beispiel Google Chrome, Opera oder Mozilla Firefox zu verwenden.';
+
 $txt['merge_create_topic_failed'] = 'Fehler bei der Erstellung des neuen Themas..';
 $txt['merge_need_more_topics'] = 'Das Zusammenführen von Themen benötigt mindestens zwei Themen.';
 
