@@ -8,7 +8,7 @@ $txt['behav_403'] = 'Accès interdit.';
 $txt['behav_417'] = 'Erreur inattendue.';
 
 $txt['behavior_admin'] = 'Erreur de Sécurité';
-$txt['behavior_header'] = 'Nous nous excusons pour le désagrément, mais votre requête n\'a pas pu aboutir&#8239;; le mécanisme de défense du site contre le spam et les malwares a détecté un comportement suspicieux similaire à celui d\'un spammeur ou d\'un malware connu. Heureusement, ce problème est facile à régler.<br><br>Les règles de détection sont basées sur celles de <a href="http://www.bad-behavior.ioerror.us/">Bad Behavior</a>.';
+$txt['behavior_header'] = 'Nous nous excusons pour le désagrément, mais votre requête n\'a pas pu aboutir&#8239;; le mécanisme de défense du site contre le spam et les malwares a détecté un comportement suspicieux similaire à celui d\'un spammeur ou d\'un malware connu. Heureusement, ce problème est facile à régler.<br><br>Les règles de détection sont basées sur celles de <a href="http://bad-behavior.ioerror.us/">Bad Behavior</a>.';
 
 $txt['behavior_false_ua'] = 'À chaque requête envoyée par le navigateur devrait être associée une entête User-Agent, qui l\'identifie auprès du serveur. L\'agent utilisateur fourni dans cette requête est mensonger. Vous devriez pouvoir accéder au site après avoir rétabli le paramètre par défaut dans votre logiciel.';
 $txt['behavior_misconfigured_proxy'] = 'Ce problème est souvent dû à des serveurs proxy et autres systèmes mal configurés. En temps normal, vous devriez désinstaller le logiciel, le désactiver n\'étant pas suffisant. Si vous ne le pouvez pas, contactez l\'administrateur du serveur.';

@@ -8,7 +8,7 @@ $txt['behav_403'] = 'Dir fehlt die Berechtigung diesen Server zu betreten.';
 $txt['behav_417'] = 'Erwarteter Wert fehlgeschlagen.';
 
 $txt['behavior_admin'] = 'Sicherheits-Fehler';
-$txt['behavior_header'] = 'Es tut uns leid, aber wir können die Anfrage aus Sicherheitsgründen nicht verarbeiten. Zum Schutz vor schädlicher Software und Spamaktivitäten wurde der Zugriff verwehrt, da einige Kriterien dafür sprechen, dass die Aktivitäten von einer bekannte Spamadresse, oder einem Malware-Verteiler kommen. Zum Glück ist dieses Problem leicht zu beheben.<br><br>Die Information wird bereitgestellt von <a href="http://www.bad-behavior.ioerror.us/">Bad Behavior</a>.';
+$txt['behavior_header'] = 'Es tut uns leid, aber wir können die Anfrage aus Sicherheitsgründen nicht verarbeiten. Zum Schutz vor schädlicher Software und Spamaktivitäten wurde der Zugriff verwehrt, da einige Kriterien dafür sprechen, dass die Aktivitäten von einer bekannte Spamadresse, oder einem Malware-Verteiler kommen. Zum Glück ist dieses Problem leicht zu beheben.<br><br>Die Information wird bereitgestellt von <a href="http://bad-behavior.ioerror.us/">Bad Behavior</a>.';
 
 $txt['behavior_false_ua'] = 'Bei jedem Seitenaufruf wird vom Browser eine Identifizierung (User-Agent) mitgesendet. Der User-Agent in in dieser Anfrage war falsch. Wenn du die Einstellungen des Browsers auf Normalwerte zurücksetzt, sollte die Seite wieder erreichbar sein.';
 $txt['behavior_misconfigured_proxy'] = 'Dieses Problem tritt oft bei Proxy-Servern, oder Systemen auf, deren Einstellungen nicht korrekt sind. Du musst diese Software deinstallieren, oder deinen Serveradministrator um Hilfe bitten.';

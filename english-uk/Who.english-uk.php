@@ -13,5 +13,5 @@ $txt['credits_groups_language'] = 'English (British) version';
 
 // List of people who have made more than a token contribution to this translation. (See Who.french.php for an example.)
 $txt['translation_credits'] = array(
-	'Arantor (Peter Spicer)',
+	'Peter Spicer (Arantor)',
 );

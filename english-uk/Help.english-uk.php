@@ -47,14 +47,14 @@ $txt['help_manage_boards'] = '
 $txt['help_ban_gmail_style'] = 'Google Mail, or GMail, offers features for convenience to its members for organising email, which can confuse
 	typical ban filtering systems:
 	<ul class="list">
-		<li>Periods in the username are ignored - joe.bloggs@gmail.com is exactly the same as j.o.e.b.l.o.g.g.s@gmail.com and also joebloggs@gmail.com.</li>
+		<li>Dots in the username are ignored - joe.bloggs@gmail.com is exactly the same as j.o.e.b.l.o.g.g.s@gmail.com and also joebloggs@gmail.com.</li>
 		<li>Users can add +label to the "user" part of the address for filtering email, for example joebloggs+work@gmail.com will still deliver to
 			joebloggs@gmail.com and that +work part can be used to organise mail.</li>
 	</ul>
 	By selecting a given ban as being on a "GMail style domain", these factors can be ignored. It is also not enough to apply these to googlemail.com and
 		gmail.com type emails either, as Google Apps can run GMail with at least the +label feature for all different domains.';
 
-$txt['help_disableCustomPerPage'] = 'Check this option to stop users from customising the amount of messages and topics to display per page on the Message Index and Topic Display page respectively.';
+$txt['help_disableCustomPerPage'] = 'Tick this option to stop users from customising the amount of messages and topics to display per page on the Message Index and Topic Display page respectively.';
 
 $txt['help_disableTemplateEval'] = 'By default, templates are included directly, rather than evaluated. Evaluating helps with showing more useful debug information in case a template contains an error.<br><br>
 		On large forums however, this customised inclusion process may be significantly slower. Therefore, advanced users may wish to disable it.';
