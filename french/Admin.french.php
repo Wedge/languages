@@ -508,6 +508,7 @@ $txt['admin_search_section_sections'] = 'Section';
 $txt['admin_search_section_settings'] = 'Option';
 $txt['admin_search_section_preferences'] = 'Préférence';
 $txt['admin_search_section_tasks'] = 'Tâche';
+$txt['admin_search_section_plugins'] = 'Extension';
 
 $txt['mods_cat_features'] = 'Paramètres';
 $txt['antispam_title'] = 'Anti-Spam';

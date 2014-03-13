@@ -509,6 +509,7 @@ $txt['admin_search_section_sections'] = 'Bereich';
 $txt['admin_search_section_settings'] = 'Einstellung';
 $txt['admin_search_section_preferences'] = 'Voreinstellungen';
 $txt['admin_search_section_tasks'] = 'Aufgabe';
+$txt['admin_search_section_plugins'] = 'Plugin';
 
 $txt['mods_cat_features'] = 'Grundeinstellungen';
 $txt['antispam_title'] = 'Anti-Spam';
