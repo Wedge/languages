@@ -9,8 +9,6 @@ $txt['smiley_sets_confirm'] = 'Bist du sicher, dass du die Smiley-Alben löschen
 $txt['setting_smiley_sets_default'] = 'Standard Smiley Album';
 $txt['setting_smiley_sets_enable'] = 'Smiley-Album Auswahl für Mitglieder aktivieren';
 $txt['setting_smiley_enable'] = 'Manuell Smileys hinzufügen, bearbeiten und organisieren';
-$txt['setting_smileys_url'] = 'Basis URL zu allen Smiley-Alben';
-$txt['setting_smileys_dir'] = 'Absoluter Pfad zu allen Smiley-Alben';
 $txt['groups_manage_smileys'] = 'Gruppen, die berechtigt sind Smileys und Symbole zu verwalten';
 
 $txt['smiley_sets_name'] = 'Name';

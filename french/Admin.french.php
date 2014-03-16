@@ -330,8 +330,6 @@ $txt['attach_add_path'] = 'Ajouter un Chemin';
 $txt['attach_path_current_bad'] = 'Chemin actuel des fichiers joints invalide.';
 
 $txt['mods_cat_avatars'] = 'Avatars';
-$txt['avatar_dir'] = 'Répertoire des avatars';
-$txt['avatar_url'] = 'URL des avatars';
 $txt['avatar_dimension_note'] = '(0 = aucune limite)';
 $txt['avatar_max_width_external'] = 'Largeur maximale d\'un avatar externe';
 $txt['avatar_max_height_external'] = 'Hauteur maximale d\'un avatar externe';
