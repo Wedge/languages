@@ -116,9 +116,6 @@ $txt['likes_enabled'] = 'Gefällt mir System aktivieren (Likes)';
 $txt['likes_own_posts'] = 'Mitglieder dürfen ihre eigenen Beiträge liken';
 
 $txt['boardurl'] = 'Forum URL';
-$txt['theme_dir'] = 'Das Verzeichnis dieses Themes';
-$txt['theme_url'] = 'Die URL dieses Themes';
-$txt['images_url'] = 'Die Bild-URL dieses Themes';
 
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Wichtig! Vor der Aktivierung dieser Funktionen bitte gründlich lesen.</div><br>
 	Wedge unterstützt das Caching durch verschiedene Beschleuniger (OPC). Die zur Zeit unterstützen Beschleuniger:<br>

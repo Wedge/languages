@@ -116,9 +116,6 @@ $txt['likes_enabled'] = 'Activer les J\'aime';
 $txt['likes_own_posts'] = 'Les utilisateurs peuvent aimer leurs propres messages';
 
 $txt['boardurl'] = 'URL (adresse web) du forum';
-$txt['theme_dir'] = 'Chemin vers le dossier des modèles HTML';
-$txt['theme_url'] = 'URL du dossier des modèles HTML';
-$txt['images_url'] = 'URL du dossier assets (images)';
 
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important&#8239;! Veuillez lire ce qui suit avant d\'activer ces options.</div><br>
 	Wedge peut mettre des données en cache en utilisant des accélérateurs. Les accélérateurs actuellement supportés sont les suivants&#8239;:<br>
