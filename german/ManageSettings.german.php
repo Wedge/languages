@@ -116,11 +116,6 @@ $txt['likes_enabled'] = 'Gefällt mir System aktivieren (Likes)';
 $txt['likes_own_posts'] = 'Mitglieder dürfen ihre eigenen Beiträge liken';
 
 $txt['boardurl'] = 'Forum URL';
-$txt['boarddir'] = 'Wedge Stammordner';
-$txt['sourcedir'] = 'Sources Ordner';
-$txt['cachedir'] = 'Cache Ordner';
-$txt['pluginsdir'] = 'Plugins Ordner';
-$txt['pluginsurl'] = 'Plugins URL';
 $txt['theme_dir'] = 'Das Verzeichnis dieses Themes';
 $txt['theme_url'] = 'Die URL dieses Themes';
 $txt['images_url'] = 'Die Bild-URL dieses Themes';
