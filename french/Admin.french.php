@@ -38,7 +38,7 @@ $txt['admin_members_list'] = 'Ci-dessous une liste de tous les membres actuellem
 $txt['admin_next'] = 'Suivant';
 $txt['admin_censored_words'] = 'Mots censurés';
 
-$txt['admin_censored_desc'] = 'Etant donné la nature publique des forums, vous souhaitez peut-être censurer certains mots. Ci-dessous, vous pouvez entrer n\'importe quel mot que vous voudriez voir censuré à chaque fois qu\'un membre l\'utilise.<br>Videz une boîte du mot qu\'elle contient pour enlever celui-ci.';
+$txt['admin_censored_desc'] = 'Si votre forum est destiné à tous les publics, vous souhaiterez peut-être cacher certains mots automatiquement. Ci-dessous, vous pouvez entrer n\'importe quel mot que vous voudriez voir censuré (ou caché) à chaque fois qu\'un membre l\'utilise.<br>Videz une boîte pour enlever le mot qu\'elle contient de la liste.';
 $txt['admin_template_edit'] = 'Modifier le modèle (template) de votre forum';
 $txt['admin_plugin_settings'] = 'Options';
 $txt['admin_mod_filters'] = 'Filtres de Modération';
@@ -119,7 +119,7 @@ $txt['approve_new_members'] = 'Les admins doivent approuver tous les nouveaux me
 $txt['version_check_desc'] = 'Cette section vous montre les versions des logiciels de votre serveur, et compare les versions de vos fichiers aux dernières en date. Si l\'un de ceux-ci n\'est pas à jour, vous devriez télécharger et installer la dernière version de Wedge sur <a href="http://wedge.org/" target="_blank" class="new_win">wedge.org</a>.';
 $txt['version_check_more'] = '(plus de détails)';
 
-$txt['lfyi'] = 'Impossible de récupérer les news de Wedge.org.';
+$txt['lfyi'] = 'Impossible de récupérer les news sur Wedge.org.';
 
 $txt['manage_search'] = 'Recherche';
 
@@ -143,7 +143,7 @@ $txt['ip_address'] = 'Adresse IP';
 $txt['member_id'] = 'ID';
 
 $txt['unknown'] = 'inconnu';
-$txt['security_wrong'] = 'Tentative de connexion à l\'administration&#8239;!' . "\n" . 'Référant : %1$s' . "\n" . 'User-Agent : %2$s' . "\n" . 'IP : %3$s';
+$txt['security_wrong'] = 'Tentative de connexion à l\'administration&#8239;!' . "\n" . 'Référant: %1$s' . "\n" . 'User-Agent: %2$s' . "\n" . 'Adresse IP: %3$s';
 
 $txt['email_as_html'] = 'Envoyer au format HTML. (Vous pouvez utiliser du HTML normal dans cet e-mail.)';
 $txt['email_parsed_html'] = 'Ajouter les balises &lt;br&gt; et &amp;nbsp; au message.';
