@@ -199,3 +199,4 @@ $txt['pm_readable_buddy'] = 'Absender ist in meiner Kontaktliste';
 $txt['pm_readable_label'] = 'Zuordnen nach &quot;{LABEL}&quot;';
 $txt['pm_readable_delete'] = 'Nachricht löschen';
 $txt['pm_readable_then'] = '<strong>dann</strong>';
+$txt['pm_not_found'] = 'Sorry, die angeforderte Nachricht wurde nicht gefunden.';
