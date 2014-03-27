@@ -213,7 +213,7 @@ $txt['quote_from'] = 'Zitat von';
 $txt['quote'] = 'Zitat';
 $txt['quote_noun'] = 'Zitieren';
 $txt['reply'] = 'Antworten';
-$txt['reply_number'] = 'Antworten #<strong>%1$d</strong>';
+$txt['reply_number'] = 'Antworten #<strong>%1$d</strong>,';
 
 $txt['approve'] = 'Genehmigen';
 $txt['approve_all'] = 'Alle genehmigen';
