@@ -209,6 +209,8 @@ $txt['permissionname_modify_own'] = 'Eigener Beitrag';
 $txt['permissionname_modify_any'] = 'Jeder Beitrag';
 $txt['permissionname_report_any'] = 'Beiträge an den Moderator melden';
 $txt['permissionhelp_report_any'] = 'Fügt einen Link zu jedem Beitrag hinzu der es ermöglicht, den Beitrag an einen Moderator zu melden.';
+$txt['permissionname_bypass_edit_disable'] = 'Einstellung der Bearbeitungszeit ignorieren';
+$txt['permissionhelp_bypass_edit_disable'] = 'Diese EInstellung erlaubt es den Usern ihre Beiträge auch nach Ablauf der Zeitvorgabe zu bearbeiten.';
 
 $txt['permissionname_save_post_draft'] = 'Entwürfe neuer Beiträge speichern';
 $txt['permissionhelp_save_post_draft'] = 'Erlaubt das Speichern von neuen Beiträgen als Entwurf, bevor sie veröffentlicht werden. Dateianhänge und Umfragen werden NICHT gespeichert.';
