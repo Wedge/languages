@@ -50,6 +50,8 @@ $txt['bbcTagsToUse_select_all'] = 'Sélectionner toutes les balises';
 
 // Post Editor
 $txt['disable_wysiwyg'] = 'Désactiver l\'éditeur WYSIWYG';
+$txt['editorSizes'] = 'Tailles de police à lister dans l\'éditeur';
+$txt['editorSizes_subtext'] = 'Une par ligne';
 $txt['editorFonts'] = 'Polices à proposer dans l\'éditeur';
 $txt['editorFonts_subtext'] = 'Vous pouvez indiquer n\'importe quelle fonte ici, elle sera listée dans la boîte déroulante "Police du texte" de l\'éditeur de messages. Assurez-vous que la fonte est installée sur l\'ordinateur de vos utilisateurs.';
 

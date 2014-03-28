@@ -209,6 +209,8 @@ $txt['permissionname_modify_own'] = 'Ses propres messages';
 $txt['permissionname_modify_any'] = 'Tous les messages';
 $txt['permissionname_report_any'] = 'Signaler les messages aux modérateurs';
 $txt['permissionhelp_report_any'] = 'Cette permission ajoute un lien à chaque message, autorisant à rapporter un message suspect à un modérateur. Tous les modérateurs de cette recevront un e-mail avec un lien vers le message rapporté et une description du problème (comme indiqué par l\'utilisateur rapportant).';
+$txt['permissionname_bypass_edit_disable'] = 'Ignorer l\'expiration de modification';
+$txt['permissionhelp_bypass_edit_disable'] = 'Cette permission permet à un utilisateur de continuer à modifier ses propres messages même après expiration du délai autorisé pour toute modification.';
 
 $txt['permissionname_save_post_draft'] = 'Sauver des brouillons';
 $txt['permissionhelp_save_post_draft'] = 'Cette permission permet à l\'utilisateur de sauver leurs nouveaux messages en tant que brouillons, avant leur publication. Les fichiers joints et sondages ne sont PAS sauvegardés.';
