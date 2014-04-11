@@ -315,7 +315,7 @@ $txt['media_zoom_pause'] = 'Diashow pausieren';
 
 // Help strings
 $txt['media_add_keywords_desc'] = 'Verwende ein Komma (,) als Trennzeichen';
-$txt['media_add_embed_desc'] = 'URL um Video (z.B von Youtube) einzubinden.  Nur eingeben, wenn keine Datei hochgeladen wird.';
+$txt['media_add_embed_desc'] = 'URL um Video (z.B von Youtube) einzubinden. Nur eingeben, wenn keine Datei hochgeladen wird.';
 $txt['media_will_be_approved'] = 'Deine Einsendung wird durch einen Moderator geprüft, bevor sie veröffentlicht wird.';
 $txt['media_com_will_be_approved'] = 'Dein Kommentar wird zuerst durch einen Moderator geprüft, bevor er veröffentlich wird.';
 $txt['media_album_will_be_approved'] = 'Dein Album wird erst durch einen Moderator geprüft, bevor es aktiviert wird.';

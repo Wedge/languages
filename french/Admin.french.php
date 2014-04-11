@@ -583,6 +583,12 @@ $txt['pretty_filter_actions_example'] = 'http://votresite.com/index.php?action=h
 $txt['pretty_filter_profiles'] = 'Réécrire les Adresses des Profils';
 $txt['pretty_filter_profiles_example'] = 'http://votresite.com/index.php?action=profile;u=1 &rarr; http://votresite.com/profile/nom-du-membre/<br>L\'adresse utilisera l\'identifiant de connexion de l\'utilisateur et non pas son nom affiché. Assurez-vous que cela ne dérange pas vos utilisateurs.';
 
+$txt['pretty_pr_title'] = 'Remplacements de texte';
+$txt['pretty_pr_desc'] = 'Avez-vous déjà eu besoin de remplacer une adresse par une autre d\'une manière ne pouvant être gérée par les options ci-dessus&#8239;? Cette section vous permet, par exemple, de remplacer <span class="bbc_tt">mon-domaine.com/assets/</span> par <span class="bbc_tt">assets.mon-domaine-statique.com/</span>, ce qui peut aider à améliorer les performances. Mais ces remplacements s\'appliquent à ce que vous voulez dans une page, pas seulement les adresses, vous pouvez ainsi contrôler efficacement le contenu envoyé à vos visiteurs&#8239;!';
+$txt['pretty_pr_from'] = 'De...';
+$txt['pretty_pr_to'] = 'Vers...';
+$txt['pretty_pr_add'] = 'Ajouter une paire';
+
 // Media Gallery
 $txt['media_title'] = 'Media';
 $txt['media_admin_labels_index'] = 'Accueil';
