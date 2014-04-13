@@ -584,6 +584,12 @@ $txt['pretty_filter_actions_example'] = 'http://yoursite.com/index.php?action=he
 $txt['pretty_filter_profiles'] = 'Profil URLs umschreiben';
 $txt['pretty_filter_profiles_example'] = 'http://yoursite.com/index.php?action=profile;u=1 &rarr; http://yoursite.com/profile/user-name/<br>Verwendet den Benutzernamen, nicht den Anzeigenamen.';
 
+$txt['pretty_pr_title'] = 'Seiten Austausch';
+$txt['pretty_pr_desc'] = 'Für den Fall, dass du eine URL gegen eine andere URL austauschen musst, welche nicht den Regeln der Pretty URLs folgen. Dieser Bereich ermöglicht dir zum Beispiel: <span class="bbc_tt">my-domain.com/assets/</span> mit <span class="bbc_tt">assets.my-static-domain.com/</span> zu ersetzen, um die Ladezeit von Seiten zu verbessern. Diese Ersetzungen sind nicht nur auf URLs beschränkt. Du kannst alles ändern, bevor es deinen Besuchern angezeigt wird.';
+$txt['pretty_pr_from'] = 'Von...';
+$txt['pretty_pr_to'] = 'Nach...';
+$txt['pretty_pr_add'] = 'Eine Austausch URL hinzufügen';
+
 // Media Gallery
 $txt['media_title'] = 'Medien';
 $txt['media_admin_labels_index'] = 'Index';
