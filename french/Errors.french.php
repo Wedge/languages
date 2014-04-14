@@ -180,7 +180,7 @@ $txt['searchWaitTime_broken'] = 'Votre dernière recherche date d\'il y a moins 
 
 $txt['email_missing_data'] = 'Vous devez entrer quelque chose à la fois dans le champ &quot;titre&quot; et la boîte de texte.';
 
-$txt['topic_gone'] = 'Le sujet ou la section que vous recherchez à l\'air d\'être manquant ou inaccessible pour vous.';
+$txt['topic_gone'] = 'Le sujet ou la section que vous recherchez n\'existe pas, ou est inaccessible pour vous.';
 $txt['theme_edit_missing'] = 'Le fichier que vous essayez de modifier... est introuvable&#8239;!';
 
 $txt['attachments_no_write'] = 'Le dossier de destination des fichiers joints est en lecture seule. Votre fichier joint ou avatar ne peut pas être sauvegardé.';
