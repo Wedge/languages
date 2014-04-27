@@ -220,7 +220,7 @@ $txt['dvc_templates'] = 'Modèles actuels';
 $txt['dvc_languages'] = 'Fichiers de langue';
 
 $txt['admin_confirm_password'] = '(confirmer)';
-$txt['admin_incorrect_password'] = 'Mot de passe Incorrect';
+$txt['admin_incorrect_password'] = 'Mot de passe incorrect&#8239;!';
 
 $txt['date_format'] = '(AAAA-MM-JJ)';
 $txt['undefined_gender'] = 'Non défini';

@@ -478,8 +478,6 @@ $txt['notification_disable_board'] = 'Möchtest du die Benachrichtigung über ne
 $txt['notification_enable_topic'] = 'Möchtest du die Benachrichtigung über neue Antworten in diesem Beitrag aktivieren?';
 $txt['notification_disable_topic'] = 'Möchtest du die Benachrichtigung über neue Antworten in diesem Beitrag deaktivieren?';
 
-$txt['report_to_mod'] = 'Beitrag dem Moderator melden ';
-
 $txt['unread_topics'] = 'Ungelesene Themen';
 $txt['unread_replies'] = 'Aktualisierte Themen';
 

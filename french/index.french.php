@@ -184,7 +184,7 @@ $txt['post'] = 'Soumettre';
 $txt['error_occurred'] = 'Une erreur s\'est produite&#8239;!';
 $txt['logout'] = 'Déconnexion';
 $txt['started_by'] = 'Démarré par';
-$txt['last_post_author_link_time'] = '<strong>Dernier message</strong> par {author} dans {link} {time}';
+$txt['last_post_author_link_time'] = '<strong>Dernier message</strong> par {author} dans {link}, {time}';
 $txt['last_post_time_author'] = '{time} par {author}';
 $txt['board_off_limits'] = 'Cette section ne vous est pas accessible.';
 
@@ -470,8 +470,6 @@ $txt['notification_enable_board'] = 'Êtes-vous sûr de vouloir activer la notif
 $txt['notification_disable_board'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouveaux sujets pour cette section&#8239;?';
 $txt['notification_enable_topic'] = 'Êtes-vous sûr de vouloir activer la notification des nouvelles réponses pour ce sujet&#8239;?';
 $txt['notification_disable_topic'] = 'Êtes-vous sûr de vouloir désactiver la notification des nouvelles réponses pour ce sujet&#8239;?';
-
-$txt['report_to_mod'] = 'Avertir un modérateur à propos de ce message';
 
 $txt['unread_topics'] = 'Sujets non lus';
 $txt['unread_replies'] = 'Sujets mis à jour';

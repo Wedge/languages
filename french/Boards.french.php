@@ -6,7 +6,7 @@ $txt['view_unread_category'] = 'Messages non lus';
 // And now for the moderation 'boards'
 $txt['moderation_cat'] = 'Modération';
 $txt['reported_posts'] = 'Messages rapportés';
-$txt['reported_board_desc'] = '<strong>Signalé</strong> par {author}<br>dans {link}<br>{time}';
+$txt['reported_board_desc'] = '<strong>Signalé</strong> par {author} dans {link}, {time}';
 $txt['reported_open'] = array(
 	0 => '0 rapport ouvert',
 	1 => '1 rapport ouvert',
@@ -18,7 +18,7 @@ $txt['reported_closed'] = array(
 	'n' => '%1$s rapports fermés',
 );
 $txt['group_requests'] = 'Demandes d\'adhésion';
-$txt['group_request_desc'] = 'Adhésion à <strong>{groupname}</strong><br>par {author}<br>{time}';
+$txt['group_request_desc'] = 'Adhésion à <strong>{groupname}</strong> par {author}, {time}';
 $txt['group_req_open'] = array(
 	0 => '0 requête ouverte',
 	'n' => '%1$s requêtes ouvertes',
