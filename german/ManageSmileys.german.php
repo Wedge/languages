@@ -15,9 +15,6 @@ $txt['smiley_sets_name'] = 'Name';
 $txt['smiley_sets_url'] = 'URL';
 $txt['smiley_sets_default'] = 'Standard';
 
-$txt['smiley_sets_latest'] = 'Aktuellste Smileys';
-$txt['smiley_sets_latest_fetch'] = 'Lade Smiley-Informationen von wedge.org...';
-
 $txt['smileys_add_method'] = 'Bilderquelle';
 $txt['smileys_add_existing'] = 'Verwende existierende Datei';
 $txt['smileys_add_upload'] = 'Neue Smileys hochladen';

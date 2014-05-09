@@ -638,7 +638,7 @@ $txt['form_submit'] = 'Abschicken';
 $txt['form_cancel'] = 'Verwerfen';
 
 // Media Gallery
-$txt['media_gallery'] = 'Media';
+$txt['media_gallery'] = 'Media Galerie';
 $txt['media_home'] = 'Home';
 $txt['media_unseen'] = 'Neu';
 $txt['media_profile_sum'] = 'Zusammenfassung';
