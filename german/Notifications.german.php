@@ -53,7 +53,7 @@ $txt['notifier_move_title'] = 'Verschobene Themen';
 $txt['notifier_move_desc'] = 'Erhalte Benachrichtigungen wenn jemand ein Thema verschiebt, dass du gestartet hast';
 $txt['notifier_move_subject'] = 'Jemand hat dein Thema verschoben!';
 $txt['notifier_move_noaccess_html']  = '{MEMBER_LINK} hat dein Thema {TOPIC_LINK} in ein Forum verschoben, auf das du keinen Zugriff hast.';
-$txt['notifier_move_noaccess_email'] = '{MEMBER_NAME} hat dein Thema {TOPIC_NAME} in ein Forum verschoben, auf das du keinen Zugriff hast.';
+$txt['notifier_move_noaccess_text'] = '{MEMBER_NAME} hat dein Thema {TOPIC_NAME} in ein Forum verschoben, auf das du keinen Zugriff hast.';
 $txt['notifier_move_html'] = '{MEMBER_LINK} hat {TOPIC_LINK} nach {BOARD_LINK} verschoben.';
 $txt['notifier_move_text'] = '{MEMBER_NAME} hat {TOPIC_NAME} nach {BOARD_NAME} verschoben. Du findest das Forum hier:
 
