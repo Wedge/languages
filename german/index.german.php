@@ -33,14 +33,6 @@ $txt['day_suffix'] = array(
 	31 => '31.',
 );
 
-$txt['page_indicator'] = ' - Seite %s'; // can be turned into an array as needed (1 => '', 'n' => ...)
-
-$txt['days'] = array('Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag');
-$txt['days_short'] = array('So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa');
-// Months must start with 1 => 'January'. (or translated, of course.)
-$txt['months'] = array(1 => 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember');
-$txt['months_short'] = array(1 => 'Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez');
-
 $txt['just_now'] = 'jetzt';
 $txt['seconds_ago'] = 'vor {time} Sekunden ';
 $txt['minutes_ago'] = 'vor {time} Minuten';
@@ -49,6 +41,13 @@ $txt['days_ago'] = 'vor {time} Tagen';
 $txt['months_ago'] = 'vor {time} Monaten';
 $txt['years_ago'] = 'vor {time} Jahren';
 
+$txt['page_indicator'] = ' - Seite %s'; // can be turned into an array as needed (1 => '', 'n' => ...)
+
+$txt['days'] = array('Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag');
+$txt['days_short'] = array('So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa');
+// Months must start with 1 => 'January'. (or translated, of course.)
+$txt['months'] = array(1 => 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember');
+$txt['months_short'] = array(1 => 'Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez');
 
 $txt['admin'] = 'Admin';
 $txt['moderate'] = 'Moderation';
@@ -581,6 +580,7 @@ $txt['mc_unapproved_poststopics'] = 'Noch nicht bestätigte Beiträge';
 $txt['mc_reported_posts'] = 'Gemeldete Beiträge';
 $txt['modlog_view'] = 'Moderatorenprotokoll';
 $txt['unapproved_members'] = 'Noch nicht bestätigte Mitglieder';
+$txt['admin_uncache'] = 'Cache leeren';
 
 $txt['ignoring_user'] = 'Du ignorierst diesen Benutzer. Klicke hier um den Beitrag anzuzeigen oder zu verstecken.';
 
@@ -603,7 +603,7 @@ $txt['ignoring_topic'] = 'Du ignorierst dieses Thema zur Zeit.';
 $txt['ignore_topic'] = 'Ignorieren';
 $txt['unignore_topic'] = 'Nicht mehr ignorieren';
 
-// Site type. (Not used for now. Probably not ever.)
+// Site type.
 $txt['b_type'] = array('blog' => 'Blog', 'forum' => 'Forum', 'media' => 'Galerie', 'site' => 'Seite');
 $txt['b_item'] = array('blog' => 'Beitrag', 'forum' => 'Thema', 'media' => 'Datei', 'site' => 'Artikel');
 
@@ -630,6 +630,7 @@ $txt['privacy'] = 'Privatsphäre';
 $txt['privacy_default'] = 'Standard';
 $txt['privacy_public'] = 'Öffentlich';
 $txt['privacy_members'] = 'Mitglieder';
+$txt['privacy_group'] = 'Gruppe';
 $txt['privacy_list'] = 'Kontakte';
 $txt['privacy_author'] = 'Nur ich';
 
