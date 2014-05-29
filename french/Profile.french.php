@@ -187,8 +187,6 @@ $txt['groupMembership_info'] = 'Dans cette section de votre profil, vous pouvez 
 $txt['pmprefs'] = 'Messagerie Personnelle';
 $txt['ignoreboards'] = 'Ignorer des Sections';
 $txt['ignoreboards_info'] = 'Cette page vous permet d\'ignorer certains sites. Lorsqu\'un site est ignoré, l\'indicateur de nouveaux messages ne s\'affichera pas sur la liste des sites. Les nouveaux messages ne seront pas affichés lors de l\'utilisation de la fonction "messages non lus" (la recherche des messages ignorera ces sites). Malgré tout, les sites ignorés apparaîtront toujours sur la liste des sites, et les sujets mis à jour y seront signalés si vous y pénétrez. Enfin, la fonction "réponses non lues" prend en compte tous les sites, y compris ceux qui sont ignorés.';
-// $txt['ignoretopics'] = 'Ignorer des Sujets';
-// $txt['ignoretopics_info'] = 'Cette page vous permet d\'ignorer certains sujets. Lorsqu\'un sujet est ignoré, il n\'apparaîtra pas dans les fonctions <em>Messages non lus</em> et <em>Réponses non lues</em>. Malgré tout, les sujets ignorés apparaîtront toujours sur la liste des sections, et le dernier message non lu restera en mémoire.';
 
 $txt['manage_account'] = 'Gérer le compte';
 $txt['deleteAccount'] = 'Effacer ce compte';
