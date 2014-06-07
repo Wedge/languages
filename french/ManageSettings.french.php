@@ -493,3 +493,25 @@ $txt['languages_orients_rtl'] = 'Droite à gauche';
 
 $txt['lang_file_desc_index'] = 'Fichier de langue principal';
 $txt['lang_file_desc_Modlog'] = 'Entrées du journal de modération';
+
+// Homepage
+$txt['homepage_desc'] = 'Cette section vous permet de déterminer ce que vous voulez montrer à vos visiteurs quand ils accèdent à la racine de votre forum.';
+
+$txt['homepage_type'] = 'Que montrer en guise de page d\'accueil&#8239;?';
+$txt['homepage_boardlist'] = 'Liste des sections';
+$txt['homepage_board'] = 'Section spécifique';
+$txt['homepage_action'] = 'Action spécifique';
+$txt['homepage_custom'] = 'Contenu personnalisé';
+$txt['homepage_blurb_title'] = 'Titre du texte (%s)';
+$txt['homepage_blurb'] = 'Texte personnalisé (%s)';
+$txt['homepage_message'] = 'Choisissez "Liste des sections" pour afficher la liste complète des sections ; "Section spécifique" pour rediriger les utilisateurs vers
+	une section en particulière ; "Action spécifique" pour leur montrer une page personnalisée (par exemple, créez des fichiers /app/MaPage.php et /html/MaPage.template.php,
+	puis entrez "MaPage" dans la boîte). Et finalement, "Contenu personnalisé" vous permet de montrer plusieurs éléments à la fois. Entrez simplement un élément par ligne
+	(ils seront montrés par ordre d\'apparition), à choisir dans la liste suivante&#8239;:<br>
+
+		<br><strong>blurb</strong>: un texte personnalisé. Une introduction, par exemple.
+		<br><strong>topics</strong>: une liste des derniers sujets mis à jour.
+		<br><strong>thoughts</strong>: une liste des dernières pensées mises à jour.
+		<br><strong>boards</strong>: la liste complète des sections.
+		<br><strong>info</strong>: le centre de statistiques. Les navigateurs de bureau la montreront dans la sidebar.
+	';
