@@ -502,13 +502,14 @@ $txt['homepage_action'] = 'Bestimmte Aktion';
 $txt['homepage_custom'] = 'Eigene Inhalte';
 $txt['homepage_blurb_title'] = 'Name der Willkommensblase auf der Homepage (%s)';
 $txt['homepage_blurb'] = 'Inhalt der Willkommensblase auf der Homepage (%s)';
+// !! Keine Inhalte übersetzen, die zwischen den <strong> Tags stehen!
 $txt['homepage_message'] = 'Wähle  "Foren-Liste" um die komplette Auflistung aller Foren anzuzeigen; "Bestimmte Foren" um die User auf ein bestimmtes Forum umzuleiten (wähle die einzelenen Foren aus!); "Bestimmte Aktion" um die User auf eine bestimmte Seite des Forums zu leiten (zum Beispiel: erstelle die Dateien /app/Mine.php und /html/Mine.template.php,
 	dann "Mine" in der "Bestimmte Aktion-Box" auswählen); und dann auf, "Eigene Inhalte", um dir eine Auswahl verschiedenener Komponenten anzeigen zu lassen. Die Auswahl erfolgt durch jeweils ein Element pro Zeile.
 	(die Anzeige ist nach folgendem Schema aufgebaut:<br>
 
-		<br><strong>Blase</strong>: ein eigener Text. Zum Beispiel eine Einleitung.
-		<br><strong>Themen</strong>: Eine Liste der aktuellsten Themen.
-		<br><strong>Gedanken</strong>: Eine Liste der aktuellsten Gedanken.
+		<br><strong>blurb</strong>: ein eigener Text. Zum Beispiel eine Einleitung.
+		<br><strong>topics</strong>: Eine Liste der aktuellsten Themen. Füge \':x\' hinzu, um mit x Themen, statt nur mit 5 Themen zu starten. Zum Beispiel: \'topics:10\'.
+		<br><strong>thoughts</strong>: Eine Liste der aktuellsten Gedanken. Füge \':x\' hinzu, um mit x Gedanken, statt nur mit 5 Gedanken zu starten. Zum Beispiel: \'thoughts:10\'.
 		<br><strong>boards</strong>: Die komplette Liste aller Foren.
 		<br><strong>info</strong>: Das Informations-Center (Statistiken). Desktop Browser werden in der Sidebar angezeigt.
 	';
