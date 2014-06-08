@@ -623,3 +623,6 @@ $txt['media_admin_banning'] = 'zu sperrendes Mitglied';
 $txt['media_admin_bans_add'] = 'Sperre hinzufügen';
 $txt['media_cf'] = 'Eigene Felder';
 $txt['media_cf_add'] = 'Neues Feld erstellen';
+
+// Homepage
+$txt['homepage'] = 'Startseite';
