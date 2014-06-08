@@ -491,3 +491,24 @@ $txt['languages_orients_rtl'] = 'Rechts nach links';
 
 $txt['lang_file_desc_index'] = 'Allgemeine Zeichenketten';
 $txt['lang_file_desc_Modlog'] = 'Einträge im Moderatorenprotokoll';
+
+// Homepage
+$txt['homepage_desc'] = 'Diese Seite ermöglicht die Auswahl von Einträgen, die Besucher auf der Startseite sehen werden.';
+
+$txt['homepage_type'] = 'Was soll die Startseite alles beinhalten?';
+$txt['homepage_boardlist'] = 'Foren-Liste';
+$txt['homepage_board'] = 'Bestimmte Foren';
+$txt['homepage_action'] = 'Bestimmte Aktion';
+$txt['homepage_custom'] = 'Eigene Inhalte';
+$txt['homepage_blurb_title'] = 'Name der Willkommensblase auf der Homepage (%s)';
+$txt['homepage_blurb'] = 'Inhalt der Willkommensblase auf der Homepage (%s)';
+$txt['homepage_message'] = 'Wähle  "Foren-Liste" um die komplette Auflistung aller Foren anzuzeigen; "Bestimmte Foren" um die User auf ein bestimmtes Forum umzuleiten (wähle die einzelenen Foren aus!); "Bestimmte Aktion" um die User auf eine bestimmte Seite des Forums zu leiten (zum Beispiel: erstelle die Dateien /app/Mine.php und /html/Mine.template.php,
+	dann "Mine" in der "Bestimmte Aktion-Box" auswählen); und dann auf, "Eigene Inhalte", um dir eine Auswahl verschiedenener Komponenten anzeigen zu lassen. Die Auswahl erfolgt durch jeweils ein Element pro Zeile.
+	(die Anzeige ist nach folgendem Schema aufgebaut:<br>
+
+		<br><strong>Blase</strong>: ein eigener Text. Zum Beispiel eine Einleitung.
+		<br><strong>Themen</strong>: Eine Liste der aktuellsten Themen.
+		<br><strong>Gedanken</strong>: Eine Liste der aktuellsten Gedanken.
+		<br><strong>boards</strong>: Die komplette Liste aller Foren.
+		<br><strong>info</strong>: Das Informations-Center (Statistiken). Desktop Browser werden in der Sidebar angezeigt.
+	';
