@@ -361,8 +361,8 @@ $txt['request_group_membership'] = 'Demande d\'adhésion à un groupe';
 $txt['request_group_membership_desc'] = 'Avant de pouvoir rejoindre ce groupe, votre adhésion doit être approuvée par le modérateur. Merci de donner la raison pour laquelle vous voulez le rejoindre&#8239;';
 $txt['submit_request'] = 'Envoyer la demande';
 
-$txt['profile_updated_own'] = 'Votre profil a été mis à jour avec succès';
-$txt['profile_updated_else'] = 'Le profil de %1$s a été mis à jour avec succès';
+$txt['profile_updated_own'] = 'Votre profil a été mis à jour avec succès.';
+$txt['profile_updated_else'] = 'Le profil de %1$s a été mis à jour avec succès.';
 
 $txt['profile_error_signature_max_length'] = 'Votre signature ne doit pas dépasser %1$d caractères';
 $txt['profile_error_signature_max_lines'] = 'Votre signature ne doit pas dépasser %1$d lignes';
