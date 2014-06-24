@@ -489,10 +489,6 @@ $txt['feed_everywhere'] = 'Tout le site&#8239;:';
 $txt['feed_posts'] = '<a href="%1$s">messages</a>';
 $txt['feed_topics'] = '<a href="%1$s">sujets</a>';
 
-// Footer strings
-$txt['valid_html5'] = 'HTML5 valide&#8239;!';
-$txt['html5'] = 'HTML5';
-
 $txt['guest'] = 'Invité';
 $txt['guests'] = 'Invités';
 $txt['user'] = 'Membre';

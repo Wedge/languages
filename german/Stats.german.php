@@ -86,3 +86,4 @@ $txt['debug_query_which_took'] = 'beträgt %1$s Sekunden.';
 $txt['debug_query_which_took_at'] = 'beträgt %1$s Sekunden bei %2$s der Abfrage.';
 $txt['debug_show_queries'] = '<strong>Datenbankabfragen ausklappen</strong>';
 $txt['debug_hide_queries'] = '<strong>Datenbankabfragen verstecken</strong>';
+$txt['html5_validation'] = '<strong>HTML5-Validierung</strong>';

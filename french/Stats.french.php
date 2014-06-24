@@ -86,3 +86,4 @@ $txt['debug_query_which_took'] = 'et exécutée en %1$s secondes.';
 $txt['debug_query_which_took_at'] = 'et exécutée en %1$s secondes, à %2$s secondes du lancement du script.';
 $txt['debug_show_queries'] = '<strong>Développer la liste</strong>';
 $txt['debug_hide_queries'] = '<strong>Cacher la liste</strong>';
+$txt['html5_validation'] = '<strong>Validation HTML5</strong>';
