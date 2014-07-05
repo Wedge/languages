@@ -333,11 +333,20 @@ $txt['posts_per_day'] = 'par jour';
 
 $txt['pm_settings_desc'] = 'D\'ici, vous pouvez modifier les options pour vos messages personnels, comme leur affichage et qui peut vous en envoyer.';
 
-$txt['buddy_ignore_desc'] = 'Cette section vous permet de tenir à jour vos listes de contacts et d\'utilisateurs à ignorer sur ce forum. En ajoutant des membres à ces listes, vous pourrez contrôler votre trafic d\'e-mails et de messages personnels selon vos préférences.';
+$txt['edit_contacts_desc'] = 'Cette section vous permet de tenir à jour vos listes de contacts. En ajoutant des membres à ces listes, vous pourrez contrôler la façon dont vous partagez vos contributions avec eux.';
 
 $txt['buddy_add'] = 'Ajouter à...';
 $txt['buddy_remove'] = 'Enlever de...';
 $txt['no_buddies'] = 'Votre liste actuelle de contacts est vide';
+
+$txt['list_type'] = 'Type';
+$txt['list_name'] = 'Nom';
+$txt['list_visibility'] = 'Qui peut voir ça&#8239;?';
+$txt['list_everyone'] = 'Tout le monde|Tout le monde pourra voir cette liste et ses membres.';
+$txt['list_all_contacts'] = 'Tous mes contacts|Mes contacts pourront voir cette liste et ses membres, même s\'ils n\'y sont pas.';
+$txt['list_just_this_group'] = 'Contacts de ce groupe|Mes contacts de cette liste pourront s\'y voir, ainsi que les autres membres de la liste.';
+$txt['list_just_this_member'] = 'Contacts individuels|Les contacts de cette liste pourront s\'y voir, mais ne pourront pas en voir les autres membres.';
+$txt['list_just_me'] = 'Seulement moi|Personne ne saura que cette liste existe.';
 
 $txt['ignore_add'] = 'Ajouter aux Ignorés';
 $txt['ignore_remove'] = 'Retirer des Ignorés';

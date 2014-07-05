@@ -503,7 +503,8 @@ $txt['contacts_work'] = 'Collègues';
 $txt['contacts_family'] = 'Famille';
 $txt['contacts_follow'] = 'À suivre';
 $txt['contacts_restrict'] = 'Restreints';
-$txt['contacts_custom'] = '<em>Nouvelle liste</em>';
+$txt['contacts_custom'] = 'Autre';
+$txt['contacts_new'] = 'Nouvelle liste';
 $txt['is_buddy'] = 'Fait partie de mes contacts';
 $txt['is_not_buddy'] = 'Ne fait pas partie de mes contacts';
 

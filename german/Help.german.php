@@ -630,10 +630,10 @@ $txt['help_mediatag'] = '<h2>Was hat es mit dem [media] tag auf sich?</h2>
 	<br>Natürlich kannst du auch alle Personen in multiple Listen einsortieren.
 	<br><br>
 	Es gibt mehrere generelle Listentypen aus denen du auswählen kannst. Zusätzlich kannst du neue Listen erstellen, oder eine bereits existierende Liste umbenennen: es bleibt komplett dir überlassen.
-	<br>- Freunde: normalerweise die dir nahestehenden Personen.
-	<br>- Bekannte: Leute die du kennst, bei denen du aber unsicher bist, ob sie alles sehen sollen.
-	<br>- Kollegen: Arbeitskolegen, Leute mit denen du an einem Projekt arbeitest, etc.
-	<br>- Familie: Eltern, Geschwister, usw.
-	<br>- Gefolgt: jeder den du nicht persönlich kennst, aber denen du folgen möchtest.
-	<br>- Eingeschränkt: diese spezielle Liste beinhaltet Kontakte, denen du den Zugriff auf deine persönlichen Daten verweigern möchtest. Auch wenn diese Personen in einer anderen Liste stehen. Du kannst natürlich sehen, wer Teil dieser Liste ist.';
+	<br>- <strong>Freunde</strong>: normalerweise die dir nahestehenden Personen.
+	<br>- <strong>Bekannte</strong>: Leute die du kennst, bei denen du aber unsicher bist, ob sie alles sehen sollen.
+	<br>- <strong>Kollegen</strong>: Arbeitskolegen, Leute mit denen du an einem Projekt arbeitest, etc.
+	<br>- <strong>Familie</strong>: Eltern, Geschwister, usw.
+	<br>- <strong>Gefolgt</strong>: jeder den du nicht persönlich kennst, aber denen du folgen möchtest.
+	<br>- <strong>Eingeschränkt</strong>: diese spezielle Liste beinhaltet Kontakte, denen du den Zugriff auf deine persönlichen Daten verweigern möchtest. Auch wenn diese Personen in einer anderen Liste stehen. Du kannst natürlich sehen, wer Teil dieser Liste ist.';
 

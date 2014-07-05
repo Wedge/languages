@@ -666,9 +666,9 @@ $txt['help_contacts'] = 'Les listes de contacts vous facilitent la vie pour gér
 	<br>Bien entendu, vous pouvez mettre vos amis dans plusieurs listes à la fois.
 	<br><br>
 	Il y a plusieurs types de listes génériques parmi lesquelles choisir. Vous pouvez aussi créer de nouvelles listes, ou en renommer. À vous de voir&#8239;!
-	<br>- Amis&#8239;: généralement, les membres les plus proches de vous.
-	<br>- Connaissances&#8239;: membres avec qui vous êtes en contact, mais avec qui vous ne voulez pas forcément tout partager.
-	<br>- Collègues&#8239;: membres qui travaillent, ou ont travaillé à vos côtés.
-	<br>- Famille&#8239;: vos parents, frères et soeurs, cousins, etc.
-	<br>- À suivre&#8239;: membres que vous ne connaissez pas personnellement, mais que vous désirez suivre, ou retrouver facilement.
-	<br>- Restreints&#8239;: cette liste spéciale vous permet de considérer un contact comme indésirable. Il ne pourra pas accéder aux contenus protégés, même s\'il est également situé dans une liste autorisée. Le contenu de cette liste n\'est jamais visible qu\'à vous.';
+	<br>- <strong>Amis&#8239;</strong>: généralement, les membres les plus proches de vous.
+	<br>- <strong>Connaissances&#8239;</strong>: membres avec qui vous êtes en contact, mais avec qui vous ne voulez pas forcément tout partager.
+	<br>- <strong>Collègues&#8239;</strong>: membres qui travaillent, ou ont travaillé à vos côtés.
+	<br>- <strong>Famille&#8239;</strong>: vos parents, frères et soeurs, cousins, etc.
+	<br>- <strong>À suivre&#8239;</strong>: membres que vous ne connaissez pas personnellement, mais que vous désirez suivre, ou retrouver facilement.
+	<br>- <strong>Restreints&#8239;</strong>: cette liste spéciale vous permet de considérer un contact comme indésirable. Il ne pourra pas accéder aux contenus protégés, même s\'il est également situé dans une liste autorisée. Le contenu de cette liste n\'est jamais visible qu\'à vous.';
