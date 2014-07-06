@@ -333,11 +333,20 @@ $txt['posts_per_day'] = 'pro Tag';
 
 $txt['pm_settings_desc'] = 'Auf dieser Seite kannst du viele Optionen für die Privaten Nachrichten einstellen. Inklusive der Darstellung und Empfängeroptionen.';
 
-$txt['buddy_ignore_desc'] = 'Dieser Bereich erlaubt dir die Pflege deiner Ignorierliste.';
+$txt['edit_contacts_desc'] = 'Dieser Bereich erlaubt dir die Pflege deiner Kontakte. Füge Mitglieder zu Listen hinzu um zu kontrollieren, was sie sehen dürfen.';
 
 $txt['buddy_add'] = 'Hinzufügen zu...';
 $txt['buddy_remove'] = 'Entfernen aus...';
 $txt['no_buddies'] = 'Du hast noch keine Kontakte';
+
+$txt['list_type'] = 'Typ';
+$txt['list_name'] = 'Name';
+$txt['list_visibility'] = 'Wer darf es sehen?';
+$txt['list_everyone'] = 'Jeder|Jeder hat die Möglichkeit diese Kontaktliste und deren Mitglieder zu betrachten.';
+$txt['list_all_contacts'] = 'Alle meine Kontakte|Meine Kontakte haben die Möglichkeit zu sehen, wer Mitglied dieser Liste ist. Auch wenn diese nicht in der Liste enthalten sind';
+$txt['list_just_this_group'] = 'Kontakte in dieser Liste|Kontakte in dieser Liste können sich und alle enthaltenen Mitglieder dieser Liste sehen.';
+$txt['list_just_this_member'] = 'Individuelle Kontakte| Kontakte in dieser Liste sehen, dass sie ein Teil der LIste sind, aber niemanden sonst.';
+$txt['list_just_me'] = 'Nur ich|Niemand kann diese Liste einsehen.';
 
 $txt['ignore_add'] = 'Auf die Ignorierliste setzen';
 $txt['ignore_remove'] = 'Aus der Ignorierliste entfernen';
