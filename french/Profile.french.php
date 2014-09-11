@@ -328,7 +328,7 @@ $txt['showPermissions_global'] = 'Toutes les sections';
 $txt['showPermissions_restricted_boards'] = 'Sites à accès restreint';
 $txt['showPermissions_restricted_boards_desc'] = 'Les sites suivants ne sont pas accessibles pour cet utilisateur';
 
-$txt['local_time'] = 'Temps local';
+$txt['local_time'] = 'Heure locale';
 $txt['posts_per_day'] = 'par jour';
 
 $txt['pm_settings_desc'] = 'D\'ici, vous pouvez modifier les options pour vos messages personnels, comme leur affichage et qui peut vous en envoyer.';
