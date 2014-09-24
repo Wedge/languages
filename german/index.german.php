@@ -194,6 +194,7 @@ $txt['error_occurred'] = 'Ein Fehler ist aufgetreten!';
 $txt['logout'] = 'Logout';
 $txt['started_by'] = 'Gestartet von';
 $txt['last_post_author_link_time'] = '<strong>Letzter Beitrag</strong> von {author} in {link} {time}';
+$txt['last_post_time_link'] = '{time} in {link}';
 $txt['last_post_time_author'] = '{time} von {author}';
 $txt['board_off_limits'] = 'Dieses Forum überschreitet Deine Berechtigungen.';
 

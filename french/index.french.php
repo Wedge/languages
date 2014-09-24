@@ -188,6 +188,7 @@ $txt['error_occurred'] = 'Une erreur s\'est produite&#8239;!';
 $txt['logout'] = 'Déconnexion';
 $txt['started_by'] = 'Démarré par';
 $txt['last_post_author_link_time'] = '<strong>Dernier message</strong> par {author} dans {link}, {time}';
+$txt['last_post_time_link'] = '{time} dans {link}';
 $txt['last_post_time_author'] = '{time} par {author}';
 $txt['board_off_limits'] = 'Cette section ne vous est pas accessible.';
 
