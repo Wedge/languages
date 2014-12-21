@@ -267,9 +267,6 @@ $txt['help_jquery_origin'] = 'Diese Einstellung ermöglicht die Auswahl der Serv
 		<br><br>Sollte Bandbreite keine Rolle spielen, kann die Datei von deinem eigenen Server ausgeliefert werden, wo es zusätzlich noch mit anderen Dateien komprimiert wird.
 		Dies stellt sicher, dass jQuery immer verfügbar ist, sofern deine Webseite online ist. Verwende unbedingt ein CDN, wenn dein Server nicht auf die zlib Bibliothek zurückgreifen kann.
 		Andernfalls wirst du eine sehr große Datei ausliefern...';
-$txt['help_disableTemplateEval'] = 'Standardmäßig werden Vorlagen (Templates) verarbeitet statt nur inkludiert. Dieses hilft dabei, Debug Informationen anzuzeigen, wenn das Template einen Fehler enthält.<br/>
-<br/>
-Bei großen Foren kann dieser Inkludierungs-Prozess wesentlich mehr Zeit in Anspruch nehmen. Deshalb sollten erfahrene Benutzer diese Funktion eventuell deaktivieren.';
 $txt['help_db_show_debug'] = 'Aktiviert das Debugging für Abfragen. Sehr nützlich, wenn man Fehler finden möchte. Die Ausgabe erscheint unterhalb der Seite, wenn diese FUnktion aktiviert ist<br><br>
 		Die folgenden Punkte werden angezeigt:
 		<ul>

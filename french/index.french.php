@@ -64,7 +64,7 @@ $txt['on_date'] = 'le %1$s';
 $txt['remove'] = 'Enlever';
 $txt['start_new_topic'] = 'Nouveau sujet';
 
-$txt['login'] = 'Identifiez-vous';
+$txt['login'] = 'Connexion';
 // Use numeric entities in the below string.
 $txt['username'] = 'Identifiant';
 $txt['password'] = 'Mot de passe';
@@ -114,7 +114,7 @@ $txt['position'] = 'Rang';
 $txt['total'] = 'Total';
 $txt['posts_made'] = 'Messages';
 $txt['website'] = 'Site Web';
-$txt['register'] = 'Inscrivez-vous';
+$txt['register'] = 'Inscription';
 $txt['warning_status'] = 'Niveau de sanction';
 $txt['user_warn_warned'] = 'L\'utilisateur a reçu un avertissement';
 $txt['user_warn_moderate'] = 'Les messages de l\'utilisateur doivent être approuvés avant publication';

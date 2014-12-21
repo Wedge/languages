@@ -26,7 +26,6 @@ $txt['jquery_local'] = 'Dieser Server (zusammengeführt mit script.js)';
 $txt['jquery_jquery'] = 'jQuery CDN';
 $txt['jquery_google'] = 'Google CDN';
 $txt['jquery_microsoft'] = 'Microsoft CDN';
-$txt['disableTemplateEval'] = 'Analyse von Templates deaktivieren (template eval)';
 $txt['db_show_debug'] = 'Informationen für die Fehlersuche anzeigen';
 $txt['db_show_debug_who'] = 'Fehlerinformationen nur folgenden Benutzern anzeigen:';
 $txt['db_show_debug_who_log'] = 'Fehlerprotokoll nur folgenden Benutzern anzeigen:';

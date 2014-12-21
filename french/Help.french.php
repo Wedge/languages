@@ -282,8 +282,6 @@ $txt['help_jquery_origin'] = 'Cette option permet de choisir l\'adresse à parti
 		<br><br>Si la bande passante n\'est pas un problème, vous pouvez aussi charger jQuery à partir de votre site, ce qui permet de vous assurer que le script sera
 		toujours disponible, et en passant de le compresser en même temps que script.js. Attention, si votre serveur ne dispose pas de la librairie zlib (ce qui est peu
 		probable heureusement), passez impérativement par un CDN pour éviter de servir un jQuery non compressé !';
-$txt['help_disableTemplateEval'] = 'Par défaut, les modèles de thème sont simplement inclus au lieu d\'être évalués. L\'évaluation permet d\'afficher plus d\'informations en cas d\'erreur du traitement.<br><br>
-		Toutefois, sur des forums de grande taille, ce processus peut ralentir sensiblement le traitement. Il leur est donc recommandé de le laisser désactivé.';
 $txt['help_db_show_debug'] = 'Active les fonctionnalités de débogage des requêtes, très utiles pour repérer les erreurs. Les informations sont montrées à la fin de chaque
 		page quand cette option est activée.<br><br>
 		Les éléments suivants sont affichés&#8239;:

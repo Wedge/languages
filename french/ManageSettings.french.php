@@ -26,7 +26,6 @@ $txt['jquery_local'] = 'Par mon site (fusionné avec script.js)';
 $txt['jquery_jquery'] = 'Par le réseau de jQuery';
 $txt['jquery_google'] = 'Par le réseau de Google';
 $txt['jquery_microsoft'] = 'Par le réseau de Microsoft';
-$txt['disableTemplateEval'] = 'Désactiver l\'évaluation des modèles (templates)';
 $txt['db_show_debug'] = 'Montrer les informations de débogage';
 $txt['db_show_debug_who'] = 'Montrer les informations de débogage à ces utilisateurs&#8239;:';
 $txt['db_show_debug_who_log'] = 'Montrer la liste des requêtes SQL exécutées à ces utilisateurs&#8239;:';
