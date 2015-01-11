@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--
+	Parameter list:
+	- from: replace this exact string with the one supplied
+	- regex: replace this regular expression with the one supplied (beware the power!)
+	- file: limit replacement to this or these files (use a comma-separated list of suffixes)
+
+	Regex example: (?<=\b[Cc])olor
+	(?<=XXX) means "preceded by XXX". \b means "not preceded by a letter or number".
+	[Cc] means "the C letter, either c or C."
+	So, this will match both "colored" and "Colorful", for instance,
+	but not "Technicolor", which isn't used in Wedge. Phew.
+-->
+<replacements>
+
+<replace from="Behavior">Behaviour</replace>
+<replace from="Baseball">Cricket</replace>
+<replace regex="(?<=[Aa])pologiz">pologis</replace>
+<replace regex="(?<=[Aa])uthoriz">uthoris</replace>
+<replace regex="(?<=[Cc])ategoriz">ategoris</replace>
+<replace regex="(?<=[Oo])ptimiz">ptimis</replace>
+<replace regex="(?<=[Oo])rganiz">rganis</replace>
+<replace regex="(?<=\b[Cc])entered\b">entred</replace>
+<replace regex="(?<=\b[Cc])entering\b">entring</replace>
+<replace regex="(?<=\b[Cc])enter">entre</replace>
+<replace regex="(?<=\b[Cc])olor">olour</replace>
+<replace regex="(?<=\b[Cc])ustomiz">ustomis</replace>
+<replace regex="(?<=\b[Ii])taliciz">talicis</replace>
+<replace regex="(?<=\b[Ll])icens">icenc</replace>
+<replace regex="(?<=\b[Pp])ersonaliz">ersonalis</replace>
+<replace regex="(?<=\b[Rr])ealiz">ealis</replace>
+<replace regex="(?<=\b[Rr])ecogniz">ecognis</replace>
+<replace regex="(?<=\b[Ss])anitiz">anitis</replace>
+<replace regex="(?<=\b[Ss])ummariz">ummaris</replace>
+<replace from="Dots" file="Help">Periods</replace>
+<replace from="International or United States Federal law" file="Agreement">United Kingdom, European or International law</replace>
+
+</replacements>
