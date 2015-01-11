@@ -20,5 +20,3 @@ $txt['lang_rtl'] = false;
 $txt['number_format'] = '1,234.00';
 $txt['time_format'] = '%B %@, %Y, %I:%M %p';
 $txt['time_format_this_year'] = '%B %@, %I:%M %p';
-
-$txt['info_center_title'] = 'Info Centre';
