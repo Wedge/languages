@@ -136,13 +136,11 @@ $txt['credits_site'] = 'L\'équipe du site';
 $txt['credits_admins'] = array(1 => 'Administrateur', 'n' => 'Administrateurs');
 $txt['credits_moderators'] = array(1 => 'Modérateur', 'n' => 'Modérateurs');
 $txt['credits_software'] = 'L\'équipe de Wedge (moteur de forum)';
-$txt['credits_wedge'] = 'Wedge est copyright © %3$d %1$s, tous droits réservés. Distribué sous <a href="%2$s">license propre</a>.';
+$txt['credits_wedge'] = '<a href="%2$s">Wedge</a> est copyright © %5$s <a href="%3$s">%1$s</a>, tous droits réservés. Distribué sous <a href="%4$s">licence propre</a>.';
 $txt['credits_aeme'] = 'Utilise des portions d\'<a href="%s">Aeva Media</a>.';
 $txt['credits_copyright'] = 'Copyrights';
 $txt['credits_plugins'] = 'Extensions';
-$txt['credits_groups_ps'] = 'Fondateurs';
 $txt['credits_groups_dev'] = 'Développeurs';
-$txt['credits_groups_contributors'] = 'Contributeurs';
 
 // Replace the following string with the name of this language pack.
 $txt['credits_groups_language'] = 'Version française';
