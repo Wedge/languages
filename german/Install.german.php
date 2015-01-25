@@ -90,7 +90,7 @@ $txt['install_settings_url_info'] = 'Die URL zu deinem Forum. <strong>Ohne Schr�
 $txt['install_settings_compress'] = 'Ausgabe mit Gzip komprimieren';
 $txt['install_settings_compress_title'] = 'Ausgabe mit Gzip komprimieren um Bandbreite zu sparen.';
 // In this string, you can translate 'pass_string' to change what it says when the test passes. Ensure that the sentence is URL-encoded like below.
-$txt['install_settings_compress_info'] = 'Diese Funktion ist nicht auf allen Servern verf체gbar. Aber kann dir eine Menge Bandbreite ersparen.<br>Klicke <a href="install.php?obgz=1&amp;pass_string=This%20feature%20is%20available!" onclick="return reqWin(this, 200);" target="_blank">hier</a> um zu testen, ob dein Server diese Funktion unterst체tzt. Sollte die Anzeige: "<strong>Diese Funktion ist verf체gbar</strong>" anzeigen, kannst du fortfahren.';
+$txt['install_settings_compress_info'] = 'Diese Funktion ist nicht auf allen Servern verf체gbar. Aber kann dir eine Menge Bandbreite ersparen.<br>Klicke <a href="index.php?obgz=1&amp;pass_string=This%20feature%20is%20available!" onclick="return reqWin(this, 200);" target="_blank">hier</a> um zu testen, ob dein Server diese Funktion unterst체tzt. Sollte die Anzeige: "<strong>Diese Funktion ist verf체gbar</strong>" anzeigen, kannst du fortfahren.';
 $txt['install_settings_dbsession'] = 'Datenbank-Sitzungen';
 $txt['install_settings_dbsession_title'] = 'Verwende die Datenbank f체r Sitzungen statt Dateien.';
 $txt['install_settings_dbsession_info1'] = 'Diese Funktion ist in den meisten F채llen die beste Entscheidung, da sie die Sitzungen zuverl채ssiger verwendet.';
