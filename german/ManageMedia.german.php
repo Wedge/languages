@@ -128,10 +128,6 @@ $txt['media_admin_settings_default_tag_type'] = 'Vordefinierte Größe für [med
 $txt['media_admin_settings_default_tag_type_desc'] = 'Wähle den Dateityp der angezeigt werden soll, wenn kein Dateityp in [media id=xxx type=xxx] Tags angegeben ist.';
 $txt['media_admin_settings_my_docs'] = 'Erlaubte Dokument-Typen';
 $txt['media_admin_settings_my_docs_desc'] = 'Du kannst die erlaubten Dateiendungen auswählen, die auf den Server hochgeladen werden dürfen. Verwende ein Komme als Separator (z.B. "zip,pdf"). Die Grundeinstellungen für erlaubte Dateitypen ist: %s';
-$txt['media_admin_settings_player_color'] = 'Audio/Video Player Frontfarbe';
-$txt['media_admin_settings_player_color_desc'] = 'In Hexadecimal. Grundeinstellung ist weiss (FFFFFF)';
-$txt['media_admin_settings_player_bcolor'] = 'Audio/Video Player Hintergrundfarbe';
-$txt['media_admin_settings_player_bcolor_desc'] = 'In Hexadecimal. Grundeinstellung ist schwarz (000000)';
 $txt['media_admin_settings_audio_player_width'] = 'Audio Player Breite';
 $txt['media_admin_settings_audio_player_width_desc'] = 'In Pixeln. Grundwert liegt bei 400';
 $txt['media_admin_settings_phpini_desc'] = 'Diese Serverseitige Variable schränkt die Größe von Uploads ein. Du kannst die Werte in der php.ini Datei anpassen. Siehe rechte Seite für weitere Informationen ';

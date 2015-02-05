@@ -128,10 +128,6 @@ $txt['media_admin_settings_default_tag_type'] = 'Taille par défaut dans les tag
 $txt['media_admin_settings_default_tag_type_desc'] = 'Choisissez le type d\'image à afficher par défaut quand aucun type n\'est spécifié pour les images affichées via le tag [media id=xxx type=xxx]';
 $txt['media_admin_settings_my_docs'] = 'Documents autorisés';
 $txt['media_admin_settings_my_docs_desc'] = 'Vous pouvez choisir la liste des extensions autorisées pour les Documents envoyés. Séparez-les par des virgules (ex: "zip,pdf"). Si vous voulez remettre la liste à zéro, voici les extensions supportées par défaut&#8239;: %s';
-$txt['media_admin_settings_player_color'] = 'Couleur du lecteur audio/vidéo';
-$txt['media_admin_settings_player_color_desc'] = 'En code héxa. Par défaut, blanc (FFFFFF)';
-$txt['media_admin_settings_player_bcolor'] = 'Couleur de fond du lecteur audio/vidéo';
-$txt['media_admin_settings_player_bcolor_desc'] = 'En code héxa. Par défaut, noir (000000)';
 $txt['media_admin_settings_audio_player_width'] = 'Largeur du lecteur audio';
 $txt['media_admin_settings_audio_player_width_desc'] = 'En pixels. Par défaut, 400';
 $txt['media_admin_settings_phpini_desc'] = 'Cette variable serveur limite la taille des envois, elle est configurée via le fichier php.ini (voir documentation à droite)';
