@@ -10,7 +10,7 @@ $txt['install_step_forum'] = 'Forum-Einstellungen';
 $txt['install_step_databaseset'] = 'Datenbank-Einstellungen';
 $txt['install_step_databasechange'] = 'Datenbank-Bestand';
 $txt['install_step_admin'] = 'Adminkonto';
-$txt['install_step_delete'] = 'Installation abschließen';
+$txt['install_step_done'] = 'Installation abschließen';
 
 $txt['wedge_installer'] = 'Wedge Installationsprogramm';
 $txt['installer_language'] = 'Sprache';
@@ -18,8 +18,6 @@ $txt['installer_language_set'] = 'Auswählen';
 $txt['congratulations'] = 'Glückwunsch, der Installationsprozess ist komplett!';
 $txt['congratulations_help'] = 'Falls du mal Hilfe benötigen solltest, oder Wedge nicht richtig funktioniert, dann bekommst du <a href="http://wedge.org/" target="_blank">hier Hilfe</a> wenn du sie benötigst.';
 $txt['still_writable'] = 'Dein Installationsverzeichnis ist nicht schreibgeschützt. Es wäre klug die Verzeichnisberechtigungen per CHMOD aus Sicherheitsgründen zu ändern.';
-$txt['delete_installer'] = 'Hier klicken, um die Installationsdateien zu löschen.';
-$txt['delete_installer_maybe'] = '<em>(Funktioniert nicht auf allen Servern.)</em>';
 $txt['go_to_your_forum'] = 'Jetzt kannst du <a href="%1$s"> zu deinem neu installierten Forum wechseln und es verwenden. Bitte vergewissere dich, dass du angemeldet bist, damit du das Adminitrations-Center betreten kannst.';
 $txt['good_luck'] = 'Viel Glück!<br>Das Team von Wedge.';
 
