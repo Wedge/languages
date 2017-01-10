@@ -547,7 +547,7 @@ $txt['mark_unread'] = 'Alle Themen als ungelesen markieren';
 $txt['error_while_submitting'] = 'Der folgende Fehler ist beim schreiben der Nachricht aufgetreten:';
 $txt['error_old_topic'] = 'Warnung: In diesem Thema wurde schon seit mehr als %1$d Tagen nichts mehr geschrieben.';
 
-$txt['mark_read_short'] = 'Ale Themen als gelesen markieren';
+$txt['mark_read_short'] = 'Alle Themen als gelesen markieren';
 
 $txt['pm_short'] = 'Meine Nachrichten';
 
