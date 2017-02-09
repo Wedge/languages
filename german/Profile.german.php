@@ -72,7 +72,7 @@ $txt['cant_retrieve'] = 'Wir können dir dein Passwort nicht zuschicken, aber du
 $txt['enter_new_password'] = 'Bitte die Antwort zu deiner Frage und das gewünschte Passwort eingeben. Dein Passwort wird auf das von dir eingegebene gesetzt. Vorausgesetzt du beantwortest die geheime Frage korrekt.';
 $txt['secret_why_blank'] = 'Warum ist das Feld leer?';
 
-$txt['authentication_reminder'] = 'Identifiezierungs-Erinnerung';
+$txt['authentication_reminder'] = 'Identifizierungs-Erinnerung';
 $txt['password_reminder_desc'] = 'Falls du die Anmeldedaten vergessen haben solltest bist du hier genau richtig. Gebe dazu einfach deinen Benutzernamen und die Mailadresse an, mit der du dich hier registriert hast.';
 $txt['authentication_options'] = 'Bitte wähle aus den beiden Optionen eine aus.';
 $txt['authentication_password_email'] = 'Schicke mir das Passwort per Email';
