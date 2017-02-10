@@ -260,7 +260,8 @@ $txt['help_mail_from'] = 'Cette option vous permet de spécifier l\'adresse e-ma
 $txt['help_enableCompressedOutput'] = 'Cette option compressera à la volée les données envoyées, afin de diminuer la consommation de bande passante, mais requiert que zlib soit installé sur le serveur.';
 $txt['help_enableCompressedData'] = 'Cette option compressera les données CSS et JavaScript après leur mise en cache. La librairie zlib doit être installée avant tout, et le fichier .htaccess doit être configuré correctement.
 		Ce processus permet d\'éviter au serveur de recompresser les fichiers CSS et JS à la volée quand ils sont téléchargés.
-		En cas de problème (page vierge de tout style graphique et pas de scripts actifs), désactivez au plus vite l\'option.';
+		En cas de problème (page vierge de tout style graphique et pas de scripts actifs), désactivez au plus vite l\'option.
+		<br><br>Note&#8239;: si votre site est derrière un proxy de type Nginx, pensez à supprimer l\'extension gz de la liste des extensions prises en charge par celui-ci !';
 $txt['help_obfuscate_filenames'] = 'Cette option permet de modifier les noms des fichiers JavaScript et CSS après leur mise en cache. Son unique intérêt est de permettre aux
 		développeurs JavaScript de rendre plus difficile la vie des méchants voleurs de scripts qui vous en veulent, à vous, personnellement, c\'est sûr,
 		c\'est un complot.<br><br>
