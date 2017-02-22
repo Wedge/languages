@@ -194,7 +194,7 @@ $txt['log_scheduled'] = 'Aktions-Protokoll';
 $txt['log_admin'] = 'Admin-Protokoll';
 $txt['log_moderation'] = 'Moderations-Protokoll';
 $txt['log_spider'] = 'Suchmaschinen-Protokoll';
-$txt['log_settings'] = 'Protokoll Einstellungen';
+$txt['log_settings'] = 'Einstellungen';
 $txt['log_settings_desc'] = 'Verwende diese Tool um das Verhalten der Protokolle einzustellen und um ältere EInträge in den Protokolldateien zu löschen.';
 
 $txt['mailqueue_title'] = 'Email Einstellungen';
