@@ -4,7 +4,8 @@
 $txt['notifications'] = 'Notifications';
 $txt['notifications_short_unread'] = 'Non lues';
 $txt['notifications_short_latest'] = 'Récentes';
-$txt['notifications_short_all'] = 'Tout voir';
+$txt['notifications_short_all'] = 'Toutes';
+$txt['notifications_short_mark_as_read'] = 'Marquer lues';
 $txt['notifications_short_settings'] = 'Paramètres';
 $txt['notifications_short_unread_pms'] = 'Non lus';
 $txt['notifications_short_inbox'] = 'Reçus';

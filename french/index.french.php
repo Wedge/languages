@@ -376,7 +376,7 @@ $txt['delete'] = 'Effacer';
 
 $txt['kilobyte'] = 'ko';
 
-$txt['more_stats'] = '[plus de stats]';
+$txt['more_stats'] = 'Plus de stats';
 
 $txt['code'] = 'Code';
 $txt['code_select'] = '[Sélectionner]';
