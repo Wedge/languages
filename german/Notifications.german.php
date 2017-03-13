@@ -5,6 +5,7 @@ $txt['notifications'] = 'Benachrichtigungen';
 $txt['notifications_short_unread'] = 'Ungelesen';
 $txt['notifications_short_latest'] = 'Neueste';
 $txt['notifications_short_all'] = 'Alle ansehen';
+$txt['notifications_short_mark_as_read'] = 'Gelesen!';
 $txt['notifications_short_settings'] = 'Einstellungen';
 $txt['notifications_short_unread_pms'] = 'Ungelesen';
 $txt['notifications_short_inbox'] = 'Posteingang';
