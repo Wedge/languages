@@ -155,10 +155,10 @@ $txt['permissionname_profile_remove_own'] = 'Son propre compte';
 $txt['permissionname_profile_remove_any'] = 'Tous les comptes';
 $txt['permissionname_profile_server_avatar'] = 'Sélectionner un avatar à partir du serveur';
 $txt['permissionhelp_profile_server_avatar'] = 'Si vous l\'activez, ceci permettra à un utilisateur de Sélectionner un avatar à partir des collections installées sur le serveur.';
-$txt['permissionname_profile_upload_avatar'] = 'Téléchargez un avatar sur le serveur';
-$txt['permissionhelp_profile_upload_avatar'] = 'Cette permission permettra auc utilisateurs de télécharger leurs avatars personnels sur le serveur.';
+$txt['permissionname_profile_upload_avatar'] = 'Télécharger un avatar sur le serveur';
+$txt['permissionhelp_profile_upload_avatar'] = 'Cette permission permettra aux utilisateurs de télécharger leurs avatars personnels sur le serveur.';
 $txt['permissionname_profile_remote_avatar'] = 'Choisir un avatar externe';
-$txt['permissionhelp_profile_remote_avatar'] = 'Comme les avatars peuvent influencer négativement le temps de création de page, il est possible d\'interdire à certains groupes de membres à l\'utilisation d\'avatars de serveurs externes. ';
+$txt['permissionhelp_profile_remote_avatar'] = 'Comme les avatars peuvent influencer négativement le temps de création de page, il est possible d\'interdire à certains groupes de membres l\'utilisation d\'avatars hébergés sur un serveur externe.';
 
 $txt['permissiongroup_general_board'] = 'Général';
 $txt['permissionname_moderate_board'] = 'Modérer la section';
