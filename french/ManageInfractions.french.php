@@ -18,7 +18,7 @@ $txt['setting_warning_show_all'] = 'Tout le monde';
 
 $txt['infractionlevels_extra'] = 'Voici les différentes sanctions qui peuvent être appliquées aux comptes utilisateurs. Le cumul d\'infractions d\'un membre est matérialisé par un nombre de points. Vous pouvez mettre en place des pénalités automatiques basées sur le nombre de points (d\'infractions, donc). L\'idée est qu\'une infraction donnée peut amener à une sanction donnée, mais que les utilisateurs accumulant les petites sanctions peuvent s\'en voir attribuer de plus grosses.';
 $txt['infraction_no_avatar'] = 'L\'avatar de l\'utilisateur est caché';
-$txt['infraction_no_sig'] = 'La signature de l\'utilisateur est caché';
+$txt['infraction_no_sig'] = 'La signature de l\'utilisateur est cachée';
 $txt['infraction_scramble'] = 'Les lettres des messages de l\'utilisateur sont mélangées';
 $txt['infraction_scramble_help'] = 'Les messages de l\'utilisateur restent visibles, mais leurs lettres sont mélangées. Les première et dernière lettres de chaque mot restent en place, de manière à garder une certaine lisibilité. La plupart des gens ignoreront simplement ces messages.';
 $txt['infraction_disemvowel'] = 'Les voyelles des messages de l\'utilisateurs sont cachées';
