@@ -120,3 +120,4 @@ $txt['softban_redirect_url'] = 'URL waar gebruiker naar toe worden verwezen';
 $txt['softban_delay_min'] = 'Laad vertraging in seconden - minimum';
 $txt['softban_delay_max'] = 'Laad vertraging in seconden - maximum';
 $txt['softban_delay_max_subtext'] = 'Een willekeurige tijd tussen de twee zal worden geselecteerd, en soft-verbannen gebruikers zal moeten wachten voor die periode van tijd voordat de pagina wordt geladen. Dit is beperkt tot 15 seconden nodig om server load problemen te voorkomen.';
+
